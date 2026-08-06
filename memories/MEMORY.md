@@ -2,3 +2,4 @@
 - [ENG HUB tools](eng-hub-tools.md) — what each build script does and the order to run them
 - [Grade 8 book source](eng-hub-grade8-book-source.md) — page map, glossary and unit functions inside res/book_8.pdf
 - [Deck behaviour](eng-hub-deck-behaviour.md) — step reveal, fit-to-window, practice slides, editor, marker tools
+- [GitHub repo](eng-hub-github-repo.md) — public repo URL and what may not be committed
