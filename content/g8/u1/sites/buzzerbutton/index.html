@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ELTARENA WORD WARS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background-color: #ffffff;
+      color: #333;
+      transition: background-color 0.5s ease;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Active background colors - Applied to body */
+    body.blue-active {
+      background-color: #e6f0ff !important; /* Light blue background */
+    }
+
+    body.red-active {
+      background-color: #ffe6e6 !important; /* Light red background */
+    }
+
+    /* Team frames - Always in front */
+    .team-section {
+      position: relative;
+      z-index: 100;
+    }
+
+    h1 {
+      margin: 20px 0 30px 0;
+      font-size: 3.5rem;
+      text-align: center;
+      background: linear-gradient(90deg, #0066cc, #cc0000, #ff9900);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 3px;
+      font-weight: 900;
+      text-transform: uppercase;
+      position: relative;
+      z-index: 100;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h1::after {
+      content: '📝';
+      position: absolute;
+      right: -50px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+    }
+
+    h1::before {
+      content: '📝';
+      position: absolute;
+      left: -50px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 2rem;
+    }
+
+    .restart-btn {
+      background: linear-gradient(135deg, #0066cc, #004d99);
+      color: white;
+      border: none;
+      padding: 18px 50px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      border-radius: 15px;
+      cursor: pointer;
+      margin-bottom: 40px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+      transition: all 0.3s;
+      z-index: 100;
+      position: relative;
+      overflow: hidden;
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border: 3px solid #004d99;
+    }
+
+    .restart-btn:hover {
+      transform: translateY(-5px) scale(1.05);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+      background: linear-gradient(135deg, #004d99, #0066cc);
+    }
+
+    .game-container {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 1400px;
+      gap: 60px;
+      padding: 20px;
+      position: relative;
+      z-index: 100;
+    }
+
+    .team-section {
+      background: white;
+      border-radius: 25px;
+      padding: 40px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+      border: 3px solid #e0e0e0;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.4s ease;
+      min-height: 700px;
+      z-index: 100;
+    }
+
+    /* Team frames - enhanced borders */
+    .team-blue {
+      border: 3px solid #0066cc;
+      box-shadow: 0 20px 50px rgba(0, 102, 204, 0.2);
+    }
+
+    .team-red {
+      border: 3px solid #cc0000;
+      box-shadow: 0 20px 50px rgba(204, 0, 0, 0.2);
+    }
+
+    .team-section.active {
+      transform: translateY(-10px);
+      box-shadow: 0 30px 60px rgba(0,0,0,0.25);
+    }
+
+    .team-blue.active {
+      border: 3px solid #0066cc;
+      box-shadow: 0 30px 60px rgba(0, 102, 204, 0.3);
+    }
+
+    .team-red.active {
+      border: 3px solid #cc0000;
+      box-shadow: 0 30px 60px rgba(204, 0, 0, 0.3);
+    }
+
+    .team-section.locked {
+      opacity: 0.7;
+      filter: grayscale(30%);
+      transform: scale(0.98);
+    }
+
+    .team-title {
+      font-size: 2.8rem;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 900;
+      letter-spacing: 2px;
+      position: relative;
+      padding-bottom: 15px;
+      width: 100%;
+      color: #333;
+    }
+
+    .team-title::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 25%;
+      width: 50%;
+      height: 4px;
+      border-radius: 2px;
+    }
+
+    .team-blue .team-title {
+      color: #0066cc;
+    }
+
+    .team-blue .team-title::after {
+      background: linear-gradient(90deg, #0066cc, #0099ff);
+    }
+
+    .team-red .team-title {
+      color: #cc0000;
+    }
+
+    .team-red .team-title::after {
+      background: linear-gradient(90deg, #cc0000, #ff3333);
+    }
+
+    .main-btn {
+      width: 300px;
+      height: 300px;
+      border: none;
+      border-radius: 50%;
+      font-size: 3rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 30px 0;
+      transition: all 0.4s;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      position: relative;
+      overflow: hidden;
+      font-family: 'Orbitron', sans-serif;
+      color: white;
+      border: 6px solid white;
+    }
+
+    .team-blue .main-btn {
+      background: linear-gradient(135deg, #0066cc, #0099ff);
+    }
+
+    .team-red .main-btn {
+      background: linear-gradient(135deg, #cc0000, #ff3333);
+    }
+
+    .main-btn:hover:not(:disabled) {
+      transform: scale(1.12);
+      box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+    }
+
+    .main-btn:disabled {
+      opacity: 0.7;
+      cursor: not-allowed;
+      transform: scale(1);
+      background: linear-gradient(135deg, #666666, #999999);
+    }
+
+    .main-btn.active {
+      animation: buttonGlow 1s infinite;
+      border: 6px solid #ffd700;
+      box-shadow: 0 0 30px rgba(255, 215, 0, 0.5);
+    }
+
+    @keyframes buttonGlow {
+      0% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); }
+      50% { box-shadow: 0 0 40px rgba(255, 215, 0, 0.8); }
+      100% { box-shadow: 0 0 20px rgba(255, 215, 0, 0.5); }
+    }
+
+    .cooldown-display {
+      font-size: 5rem;
+      font-weight: 900;
+      margin: 30px 0;
+      font-family: 'Orbitron', monospace;
+      min-height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 25px;
+      border-radius: 20px;
+      background: #f8f8f8;
+      width: 100%;
+      border: 3px solid #e0e0e0;
+      color: #333;
+    }
+
+    .cooldown-display.active {
+      animation: cooldownPulse 1s infinite;
+    }
+
+    @keyframes cooldownPulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    .team-blue .cooldown-display {
+      border-color: #0066cc;
+      color: #0066cc;
+    }
+
+    .team-red .cooldown-display {
+      border-color: #cc0000;
+      color: #cc0000;
+    }
+
+    /* Scoreboard under button */
+    .score-controls {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      margin: 30px 0;
+      padding: 25px;
+      background: #f8f8f8;
+      border-radius: 20px;
+      border: 3px solid #e0e0e0;
+    }
+
+    .score-display {
+      font-size: 4.5rem;
+      font-weight: 900;
+      margin-bottom: 25px;
+      font-family: 'Orbitron', monospace;
+      color: #333;
+      padding: 15px 40px;
+      background: white;
+      border-radius: 15px;
+      border: 3px solid #e0e0e0;
+      min-width: 200px;
+      text-align: center;
+      transition: all 0.3s;
+    }
+
+    .team-blue .score-display {
+      color: #0066cc;
+      border-color: #0066cc;
+      background: #f0f7ff;
+    }
+
+    .team-red .score-display {
+      color: #cc0000;
+      border-color: #cc0000;
+      background: #fff0f0;
+    }
+
+    .score-display.point-added {
+      animation: pointAdded 0.5s ease;
+      transform: scale(1.2);
+    }
+
+    @keyframes pointAdded {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+      100% { transform: scale(1.2); }
+    }
+
+    .score-buttons {
+      display: flex;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .score-btn {
+      background: linear-gradient(135deg, #0066cc, #004d99);
+      color: white;
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: all 0.3s;
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      min-width: 120px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    .team-blue .score-btn {
+      background: linear-gradient(135deg, #0066cc, #0099ff);
+    }
+
+    .team-red .score-btn {
+      background: linear-gradient(135deg, #cc0000, #ff3333);
+    }
+
+    .score-btn:hover:not(:disabled) {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .score-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      transform: none;
+      background: linear-gradient(135deg, #999999, #cccccc);
+    }
+
+    .score-btn.minus {
+      background: linear-gradient(135deg, #cc0000, #ff3333) !important;
+    }
+
+    .score-btn.plus {
+      background: linear-gradient(135deg, #00cc00, #33ff33) !important;
+    }
+
+    .score-btn.always-active {
+      opacity: 1 !important;
+      cursor: pointer !important;
+    }
+
+    .status-message {
+      font-size: 1.8rem;
+      margin-top: 30px;
+      text-align: center;
+      min-height: 50px;
+      font-weight: 700;
+      padding: 15px 25px;
+      border-radius: 15px;
+      background: #f8f8f8;
+      width: 100%;
+      border: 2px solid #e0e0e0;
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 1px;
+      color: #333;
+    }
+
+    .game-status {
+      background: white;
+      padding: 25px 50px;
+      border-radius: 20px;
+      margin: 40px 0;
+      font-size: 1.6rem;
+      font-weight: bold;
+      text-align: center;
+      border: 3px solid #0066cc;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+      min-width: 600px;
+      font-family: 'Orbitron', sans-serif;
+      letter-spacing: 1px;
+      position: relative;
+      overflow: hidden;
+      z-index: 100;
+      background: linear-gradient(135deg, #f0f7ff, #ffffff);
+    }
+
+    /* Main scoreboard */
+    .main-scoreboard {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 800px;
+      margin-top: 30px;
+      padding: 25px;
+      background: white;
+      border-radius: 20px;
+      border: 3px solid #e0e0e0;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+      z-index: 100;
+    }
+
+    .main-score-item {
+      text-align: center;
+      flex: 1;
+      padding: 20px;
+      position: relative;
+    }
+
+    .main-score-item::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 15%;
+      height: 70%;
+      width: 3px;
+      background: #e0e0e0;
+    }
+
+    .main-score-item:last-child::after {
+      display: none;
+    }
+
+    .main-score-label {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #333;
+    }
+
+    .main-score-value {
+      font-size: 4rem;
+      font-weight: 900;
+      margin: 15px 0;
+      font-family: 'Orbitron', monospace;
+      color: #333;
+      transition: all 0.3s;
+    }
+
+    .main-score-value.point-added {
+      animation: mainPointAdded 0.5s ease;
+      transform: scale(1.3);
+      color: #ff9900;
+    }
+
+    @keyframes mainPointAdded {
+      0% { transform: scale(1); color: #333; }
+      50% { transform: scale(1.5); color: #ff9900; }
+      100% { transform: scale(1.3); color: #ff9900; }
+    }
+
+    .team-blue .main-score-value {
+      color: #0066cc;
+    }
+
+    .team-red .main-score-value {
+      color: #cc0000;
+    }
+
+    .main-score-unit {
+      font-size: 1.3rem;
+      opacity: 0.8;
+      letter-spacing: 1px;
+      color: #666;
+      font-weight: bold;
+    }
+
+    .rules {
+      background: white;
+      padding: 20px 30px;
+      border-radius: 15px;
+      margin-top: 20px;
+      border: 3px solid #e0e0e0;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      max-width: 800px;
+      text-align: center;
+    }
+
+    .rules h3 {
+      color: #333;
+      margin-bottom: 15px;
+      font-size: 1.5rem;
+    }
+
+    .rules p {
+      color: #666;
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+      .game-container {
+        flex-direction: column;
+        gap: 40px;
+      }
+      
+      .team-section {
+        width: 100%;
+        min-height: 700px;
+      }
+      
+      .game-status {
+        min-width: 90%;
+        font-size: 1.2rem;
+        padding: 20px 30px;
+      }
+      
+      h1 {
+        font-size: 2.5rem;
+      }
+      
+      .main-btn {
+        width: 250px;
+        height: 250px;
+        font-size: 2.5rem;
+      }
+      
+      .cooldown-display {
+        font-size: 4rem;
+      }
+      
+      .main-scoreboard {
+        flex-direction: column;
+        gap: 20px;
+      }
+      
+      .main-score-item::after {
+        display: none;
+      }
+      
+      .score-buttons {
+        flex-direction: column;
+        width: 100%;
+      }
+      
+      .score-btn {
+        width: 100%;
+      }
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body class="default-bg">
+  <h1>ELTARENA WORD WARS</h1>
+  
+  <button id="restartBtn" class="restart-btn">🔄 RESTART BATTLE</button>
+  
+  <div class="game-status" id="gameStatus">📝 BATTLE READY - PRESS BUTTON TO LOCK OPPONENT! 📝</div>
+  
+  <div class="game-container">
+    <!-- Blue Team Section -->
+    <div class="team-section team-blue" id="blueSection">
+      <h2 class="team-title">BLUE TEAM</h2>
+      
+      <div class="cooldown-display" id="blueCooldown">READY</div>
+      
+      <button id="blueMainBtn" class="main-btn">PRESS!</button>
+      
+      <!-- Scoreboard under button -->
+      <div class="score-controls">
+        <div class="score-display" id="blueScoreDisplay">0</div>
+        <div class="score-buttons">
+          <button id="blueMinusBtn" class="score-btn minus always-active">➖ -1</button>
+          <button id="bluePlusBtn" class="score-btn plus always-active">➕ +1</button>
+        </div>
+      </div>
+      
+      <div class="status-message" id="blueStatus">Ready to press - Score buttons always active!</div>
+    </div>
+    
+    <!-- Red Team Section -->
+    <div class="team-section team-red" id="redSection">
+      <h2 class="team-title">RED TEAM</h2>
+      
+      <div class="cooldown-display" id="redCooldown">READY</div>
+      
+      <button id="redMainBtn" class="main-btn">PRESS!</button>
+      
+      <!-- Scoreboard under button -->
+      <div class="score-controls">
+        <div class="score-display" id="redScoreDisplay">0</div>
+        <div class="score-buttons">
+          <button id="redMinusBtn" class="score-btn minus always-active">➖ -1</button>
+          <button id="redPlusBtn" class="score-btn plus always-active">➕ +1</button>
+        </div>
+      </div>
+      
+      <div class="status-message" id="redStatus">Ready to press - Score buttons always active!</div>
+    </div>
+  </div>
+
+  <!-- Main scoreboard -->
+  <div class="main-scoreboard">
+    <div class="main-score-item team-blue">
+      <div class="main-score-label">BLUE TEAM</div>
+      <div class="main-score-value" id="blueTotalScore">0</div>
+      <div class="main-score-unit">TARGET: 20 POINTS</div>
+    </div>
+    <div class="main-score-item team-red">
+      <div class="main-score-label">RED TEAM</div>
+      <div class="main-score-value" id="redTotalScore">0</div>
+      <div class="main-score-unit">TARGET: 20 POINTS</div>
+    </div>
+  </div>
+
+  <div class="rules">
+    <h3>📝 WORD WARS RULES 📝</h3>
+    <p>1. Press the big button to lock opponent for 3 seconds<br>
+       2. <strong>SCORE BUTTONS ARE ALWAYS ACTIVE!</strong> Both teams can adjust scores anytime<br>
+       3. First to reach 20 points wins the Word War!<br>
+       4. Control the game by pressing button to lock opponent<br>
+       5. Fast thinking and quick pressing wins!</p>
+  </div>
+
+  <script>
+    // Game state variables
+    let blueScore = 0;
+    let redScore = 0;
+    let blueCooldown = 0;
+    let redCooldown = 0;
+    let blueLocked = false;
+    let redLocked = false;
+    let gameActive = true;
+    let cooldownInterval = null;
+    let activeTeam = null; // Which team currently has control of main button
+
+    // DOM Elements
+    const blueCooldownDisplay = document.getElementById('blueCooldown');
+    const redCooldownDisplay = document.getElementById('redCooldown');
+    const blueMainBtn = document.getElementById('blueMainBtn');
+    const redMainBtn = document.getElementById('redMainBtn');
+    const restartBtn = document.getElementById('restartBtn');
+    const gameStatus = document.getElementById('gameStatus');
+    const blueStatus = document.getElementById('blueStatus');
+    const redStatus = document.getElementById('redStatus');
+    const blueSection = document.getElementById('blueSection');
+    const redSection = document.getElementById('redSection');
+    
+    // Scoreboard elements
+    const blueScoreDisplay = document.getElementById('blueScoreDisplay');
+    const redScoreDisplay = document.getElementById('redScoreDisplay');
+    const blueTotalScoreDisplay = document.getElementById('blueTotalScore');
+    const redTotalScoreDisplay = document.getElementById('redTotalScore');
+    
+    // Score control buttons
+    const blueMinusBtn = document.getElementById('blueMinusBtn');
+    const bluePlusBtn = document.getElementById('bluePlusBtn');
+    const redMinusBtn = document.getElementById('redMinusBtn');
+    const redPlusBtn = document.getElementById('redPlusBtn');
+    
+    const body = document.body;
+
+    // Initialize game
+    function initGame() {
+      resetGame();
+      updateGameStatus("📝 BATTLE READY - PRESS BUTTON TO LOCK OPPONENT! 📝");
+    }
+
+    // Reset game to initial state
+    function resetGame() {
+      // Clear any running intervals
+      clearInterval(cooldownInterval);
+      
+      // Reset scores
+      blueScore = 0;
+      redScore = 0;
+      
+      // Reset cooldowns
+      blueCooldown = 0;
+      redCooldown = 0;
+      blueLocked = false;
+      redLocked = false;
+      gameActive = true;
+      activeTeam = null;
+      
+      // Update displays
+      updateAllScoreDisplays();
+      blueCooldownDisplay.textContent = "READY";
+      redCooldownDisplay.textContent = "READY";
+      blueCooldownDisplay.classList.remove('active');
+      redCooldownDisplay.classList.remove('active');
+      
+      // Reset sections
+      blueSection.classList.remove('locked');
+      redSection.classList.remove('locked');
+      blueMainBtn.classList.remove('active');
+      redMainBtn.classList.remove('active');
+      
+      // Reset buttons - Score buttons are ALWAYS ACTIVE, only main buttons get disabled
+      blueMainBtn.disabled = false;
+      redMainBtn.disabled = false;
+      
+      // Score buttons are always active - never disabled
+      blueMinusBtn.disabled = false;
+      bluePlusBtn.disabled = false;
+      redMinusBtn.disabled = false;
+      redPlusBtn.disabled = false;
+      
+      // Update status messages
+      updateStatusMessages();
+      
+      // Reset background
+      body.classList.remove('blue-active', 'red-active');
+      
+      // Reset game status
+      updateGameStatus("📝 BATTLE RESET - PRESS BUTTON TO LOCK OPPONENT! 📝");
+    }
+
+    // Update all score displays
+    function updateAllScoreDisplays() {
+      blueScoreDisplay.textContent = blueScore;
+      redScoreDisplay.textContent = redScore;
+      blueTotalScoreDisplay.textContent = blueScore;
+      redTotalScoreDisplay.textContent = redScore;
+    }
+
+    // Update status messages
+    function updateStatusMessages() {
+      if (activeTeam === 'blue') {
+        blueStatus.textContent = "YOU PRESSED - Opponent locked!";
+        redStatus.textContent = "LOCKED - Can't press main button!";
+      } else if (activeTeam === 'red') {
+        blueStatus.textContent = "LOCKED - Can't press main button!";
+        redStatus.textContent = "YOU PRESSED - Opponent locked!";
+      } else {
+        blueStatus.textContent = "Ready to press - Score buttons always active!";
+        redStatus.textContent = "Ready to press - Score buttons always active!";
+      }
+    }
+
+    // Update game status message
+    function updateGameStatus(message) {
+      gameStatus.textContent = message;
+    }
+
+    // Handle press button press
+    function pressButton(team) {
+      if (!gameActive) return;
+      
+      if (team === 'blue') {
+        if (blueLocked) return;
+        
+        // Set blue team as active
+        activeTeam = 'blue';
+        
+        // Lock red team's main button for 3 seconds
+        redLocked = true;
+        redCooldown = 3;
+        redMainBtn.disabled = true;
+        redSection.classList.add('locked');
+        redCooldownDisplay.textContent = redCooldown;
+        redCooldownDisplay.classList.add('active');
+        
+        // Update blue team
+        blueMainBtn.classList.add('active');
+        
+        // Update status messages
+        updateStatusMessages();
+        
+        // Change background to blue
+        body.classList.remove('red-active');
+        body.classList.add('blue-active');
+        
+        updateGameStatus("🔵 BLUE TEAM PRESSED! 🔴 Red Team main button locked for 3 seconds!");
+      } 
+      else if (team === 'red') {
+        if (redLocked) return;
+        
+        // Set red team as active
+        activeTeam = 'red';
+        
+        // Lock blue team's main button for 3 seconds
+        blueLocked = true;
+        blueCooldown = 3;
+        blueMainBtn.disabled = true;
+        blueSection.classList.add('locked');
+        blueCooldownDisplay.textContent = blueCooldown;
+        blueCooldownDisplay.classList.add('active');
+        
+        // Update red team
+        redMainBtn.classList.add('active');
+        
+        // Update status messages
+        updateStatusMessages();
+        
+        // Change background to red
+        body.classList.remove('blue-active');
+        body.classList.add('red-active');
+        
+        updateGameStatus("🔴 RED TEAM PRESSED! 🔵 Blue Team main button locked for 3 seconds!");
+      }
+      
+      // Start cooldown timer if not already running
+      if (!cooldownInterval) {
+        startCooldownTimer();
+      }
+    }
+
+    // Handle score adjustment - ALWAYS ACTIVE for both teams
+    function adjustScore(team, amount) {
+      if (!gameActive) return;
+      
+      if (team === 'blue') {
+        let newScore = blueScore + amount;
+        if (newScore >= 0) { // Prevent negative scores
+          blueScore = newScore;
+          updateScoreDisplay('blue');
+        }
+      } 
+      else if (team === 'red') {
+        let newScore = redScore + amount;
+        if (newScore >= 0) { // Prevent negative scores
+          redScore = newScore;
+          updateScoreDisplay('red');
+        }
+      }
+      
+      // Check for winner (first to 20 points)
+      if (blueScore >= 20 || redScore >= 20) {
+        setTimeout(() => endGame(), 1000);
+      }
+    }
+
+    // Update score display with animation
+    function updateScoreDisplay(team) {
+      if (team === 'blue') {
+        blueScoreDisplay.classList.add('point-added');
+        blueTotalScoreDisplay.classList.add('point-added');
+        
+        setTimeout(() => {
+          blueScoreDisplay.textContent = blueScore;
+          blueTotalScoreDisplay.textContent = blueScore;
+          
+          setTimeout(() => {
+            blueScoreDisplay.classList.remove('point-added');
+            blueTotalScoreDisplay.classList.remove('point-added');
+          }, 500);
+        }, 100);
+      } else {
+        redScoreDisplay.classList.add('point-added');
+        redTotalScoreDisplay.classList.add('point-added');
+        
+        setTimeout(() => {
+          redScoreDisplay.textContent = redScore;
+          redTotalScoreDisplay.textContent = redScore;
+          
+          setTimeout(() => {
+            redScoreDisplay.classList.remove('point-added');
+            redTotalScoreDisplay.classList.remove('point-added');
+          }, 500);
+        }, 100);
+      }
+    }
+
+    // Start cooldown timer
+    function startCooldownTimer() {
+      cooldownInterval = setInterval(() => {
+        let anyCooldownActive = false;
+        
+        // Update blue cooldown
+        if (blueLocked && blueCooldown > 0) {
+          blueCooldown--;
+          blueCooldownDisplay.textContent = blueCooldown;
+          anyCooldownActive = true;
+          
+          if (blueCooldown === 0) {
+            blueLocked = false;
+            blueMainBtn.disabled = false;
+            blueSection.classList.remove('locked');
+            blueCooldownDisplay.textContent = "READY";
+            blueCooldownDisplay.classList.remove('active');
+            blueMainBtn.classList.remove('active');
+          }
+        }
+        
+        // Update red cooldown
+        if (redLocked && redCooldown > 0) {
+          redCooldown--;
+          redCooldownDisplay.textContent = redCooldown;
+          anyCooldownActive = true;
+          
+          if (redCooldown === 0) {
+            redLocked = false;
+            redMainBtn.disabled = false;
+            redSection.classList.remove('locked');
+            redCooldownDisplay.textContent = "READY";
+            redCooldownDisplay.classList.remove('active');
+            redMainBtn.classList.remove('active');
+          }
+        }
+        
+        // If both cooldowns are done, clear interval and reset
+        if (!anyCooldownActive) {
+          clearInterval(cooldownInterval);
+          cooldownInterval = null;
+          activeTeam = null;
+          body.classList.remove('blue-active', 'red-active');
+          updateStatusMessages();
+          updateGameStatus("📝 BATTLE CONTINUES - PRESS BUTTON TO LOCK OPPONENT! 📝");
+        }
+      }, 1000);
+    }
+
+    // End game
+    function endGame() {
+      gameActive = false;
+      blueMainBtn.disabled = true;
+      redMainBtn.disabled = true;
+      
+      // Score buttons remain active even after game ends
+      // so users can continue adjusting if they want
+      
+      let winnerMessage = "";
+      if (blueScore > redScore) {
+        winnerMessage = `🏆 BLUE TEAM WINS THE WORD WAR! ${blueScore} - ${redScore} 🏆`;
+      } else if (redScore > blueScore) {
+        winnerMessage = `🏆 RED TEAM WINS THE WORD WAR! ${redScore} - ${blueScore} 🏆`;
+      } else {
+        winnerMessage = `📝 IT'S A TIE! ${blueScore} - ${redScore} 📝`;
+      }
+      
+      updateGameStatus(winnerMessage);
+      clearInterval(cooldownInterval);
+      
+      // Update status messages for end game
+      blueStatus.textContent = "GAME OVER - Score buttons still active!";
+      redStatus.textContent = "GAME OVER - Score buttons still active!";
+    }
+
+    // Event Listeners
+    blueMainBtn.addEventListener('click', () => pressButton('blue'));
+    redMainBtn.addEventListener('click', () => pressButton('red'));
+    
+    // Score buttons are always active for both teams
+    blueMinusBtn.addEventListener('click', () => adjustScore('blue', -1));
+    bluePlusBtn.addEventListener('click', () => adjustScore('blue', 1));
+    redMinusBtn.addEventListener('click', () => adjustScore('red', -1));
+    redPlusBtn.addEventListener('click', () => adjustScore('red', 1));
+    
+    restartBtn.addEventListener('click', initGame);
+
+    // Initialize the game
+    initGame();
+  </script>
+</body>
+</html>

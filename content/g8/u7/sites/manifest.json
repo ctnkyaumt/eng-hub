@@ -1,0 +1,40 @@
+{
+ "items": [
+  {
+   "title": "8.7 TOURISM - BİL VE FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-7TOURISMB-LVEFETHET/",
+   "slug": "8-7tourismb-lvefethet",
+   "kind": "game",
+   "path": "8-7tourismb-lvefethet/index.html",
+   "files": 1
+  },
+  {
+   "title": "8-7 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-7-ELTARENACUP-TOURNAMENT/",
+   "slug": "8-7-eltarenacup-tournament",
+   "kind": "game",
+   "path": "8-7-eltarenacup-tournament/index.html",
+   "files": 1
+  },
+  {
+   "title": "Canbay Word Clash Game - Unit 7 (MEB + Bilim&Kültür)",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/sunu/unit7/vocabulary/wordgame",
+   "slug": "wordgame",
+   "kind": "presentation",
+   "path": "wordgame/index.html",
+   "files": 73
+  },
+  {
+   "title": "7. Ünite Testler Akıllı Tahta Sunumu (CANBAY)",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/sunu/unit7/",
+   "slug": "unit7",
+   "kind": "presentation",
+   "path": "unit7/index.html",
+   "files": 47
+  }
+ ]
+}

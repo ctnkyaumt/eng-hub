@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Word Challenge v2.0 – Canbay</title>
+<meta name="description" content="Word Challenge – Canbay: 8. Sınıf İngilizce dersi kelimeleriyle ilgili sorular içeren Kim Milyoner Olmak İster tadında eğlenceli bir oyuna ne dersiniz?" />
+<link rel="stylesheet" href="wordchallenge.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<script>
+(function() {
+  var ua = navigator.userAgent;
+  var match = ua.match(/Chrome\/(\d+)/);
+
+  if (match && match[1]) {
+    var chromeVersion = parseInt(match[1], 10);
+
+    if (chromeVersion <= 67) {
+      // Chrome 48 ve öncesi → legacy.html'ye yönlendir
+      // Chrome 67 ve öncesi → legacy.html'ye yönlendir (Chrome 49-67 sürümlerinde bazı özellikler eksik)
+      window.location.href = "legacy.html";
+    }
+    // Chrome 68+ → index.html'de kalır (hiçbir şey yapma)
+  }
+  // Chrome dışı → index.html'de kalır
+})();
+</script>
+
+
+</head>
+<body>
+
+<!-- Sağ üst sabit Sayfa Ölçeği -->
+<div id="zoomControls" aria-label="Sayfa ölçeği">
+  <button type="button" data-zoom="-" aria-label="Küçült">−</button>
+  <span id="zoomLabel" aria-live="polite">110%</span>
+  <button type="button" data-zoom="+" aria-label="Büyüt">+</button>
+  <button type="button" data-zoom="reset" title="Sıfırla" aria-label="Sıfırla">⟲</button>
+</div>
+
+<!-- Sağ üstte Tahta Modu düğmesi -->
+<button id="sbToggle"><i class="fa-solid fa-chalkboard"></i> Tahta</button>
+
+
+
+<!-- SAYFA KAPSAYICISI: bütün içerik bunun içinde -->
+<div id="app">
+  <!-- … mevcut sayfanın/oyunun tüm HTML’i … -->
+</div>
+
+
+
+  <main class="stage ring" aria-live="polite">
+    <header>
+      <div class="logo-like" aria-hidden="true">Word Challenge • UNIT1</div>
+      <div class="player" id="playerBadge">Oyuncu: —</div>
+      <div class="score" id="scoreBadge">PUAN: 0</div>
+    </header>
+
+    <section id="game"></section>
+
+    <!-- Sesler -->
+    <audio id="snd-start" preload="auto"><source src="q-start2.mp3" type="audio/mpeg" /></audio>
+    <audio id="snd-think" preload="auto" loop><source src="thinking.mp3" type="audio/mpeg" /></audio>
+    <audio id="snd-correct" preload="auto"><source src="q-start.mp3" type="audio/mpeg" /></audio>
+    <audio id="snd-wrong" preload="auto"><source src="wrong.mp3" type="audio/mpeg" /></audio>
+  </main>
+
+<script>
+  /* ====== Global durum / sabitler ====== */
+  let timerId = null;
+  let timeLeft = 45;
+  let QUESTIONS = [];
+
+  const QUESTION_TIME = 45;       // Tek süre kaynağı (sn)
+  let idx = 0;                    // aktif soru indeksi
+  let score = 0;                  // puan
+  const STEP_SCORE = 10;          // her doğru +10
+  const NEXT_DELAY = 1200;        // doğru sonrası geçiş (ms)
+  let playerName = null;
+/* ====== Ek Süre Joker Ayarları ====== */
+const EXTRA_TIME_SECONDS = 45;          // erken tıklanırsa +45
+const EXTRA_EDGE_1 = 10, EXTRA_TARGET_1 = 55;  // kalan ≤10'sa 55'e sıçrat
+const EXTRA_EDGE_2 = 40, EXTRA_TARGET_2 = 85;  // kalan ≤40'sa 85'e sıçrat
+// const EXTRA_AUTO = false;  // son saniyede otomatik tetikleme istersen açarız
+
+  /* ====== Süre ölçümü + tarih formatlama + LB zaman penceresi ====== */
+const LB_WINDOW_DAYS = 30;       // En iyi tablo: son 30 gün
+let runStartedAt = 0;            // Oyun başlama zaman damgası (ms)
+
+function startGame(){
+  idx = 0;
+  score = 0;
+  isLocked = false;
+  lifelines = { fifty: 1, switch: 1, extra: 1 };  // Ek Süre (+45 sn)
+  stageBreakShown = false;
+
+  runStartedAt = Date.now();    // ⟵ EKLENDİ
+
+  updateScore();
+  renderQuestion();
+}
+
+
+
+function getElapsedSeconds(){
+  // Oyun toplam süresi (sn)
+  return Math.max(1, Math.round((Date.now() - runStartedAt) / 1000));
+}
+
+function pad2(n){ return String(n).padStart(2,'0'); }
+function formatMMSS(secs){
+  const m = Math.floor(secs/60);
+  const s = secs % 60;
+  return `${m}:${pad2(s)}`;
+}
+function formatDateTime(ts){
+  const d = new Date(ts);
+  return `${pad2(d.getDate())}.${pad2(d.getMonth()+1)}.${d.getFullYear()} ${pad2(d.getHours())}:${pad2(d.getMinutes())}`;
+}
+function addExtraTime(){
+  const before = (timeLeft|0);
+  let newLeft;
+
+  if (before <= EXTRA_EDGE_1) {
+    newLeft = EXTRA_TARGET_1;     // ≤10 ise 55'e sabitle
+  } else if (before <= EXTRA_EDGE_2) {
+    newLeft = EXTRA_TARGET_2;     // ≤40 ise 85'e sabitle
+  } else {
+    newLeft = before + EXTRA_TIME_SECONDS; // erkenken klasik +45
+  }
+
+  const added = Math.max(0, newLeft - before);
+  timeLeft = newLeft;
+
+  // Sayaç satırını anında güncelle
+  const host = document.getElementById('status');
+  if (host) updateTimerUI(host);
+
+  return added; // kaç saniye eklendiğini bildir
+}
+
+
+// --- B1–B2 çekirdek doğrulama havuzu
+const C1_WORDS = [
+  { en: "persuade",  tr: ["ikna etmek","razı etmek"] },
+  { en: "confirm",   tr: ["doğrulamak","onaylamak","tasdik etmek"] },
+  { en: "recommend", tr: ["önermek","tavsiye etmek"] },
+  { en: "explain",   tr: ["açıklamak","izah etmek"] },
+  { en: "avoid",     tr: ["kaçınmak","sakınmak","uzak durmak"] },
+  { en: "reduce",    tr: ["azaltmak","düşürmek","küçültmek","azalmak","düşmek"] },
+  { en: "increase",  tr: ["artırmak","çoğaltmak","yükseltmek","artmak","yükselmek","artış","yükseliş"] },
+  { en: "allow",     tr: ["izin vermek","müsaade etmek"] },
+  { en: "require",   tr: ["gerektirmek","zorunlu kılmak","istemek","gerekmek"] },
+  { en: "contain",   tr: ["içermek","barındırmak","dahil etmek"] },
+  { en: "deliver",   tr: ["teslim etmek","ulaştırmak","sunmak","göndermek"] },
+  { en: "affect",    tr: ["etkilemek","tesir etmek","etki"] },
+  { en: "suggest",   tr: ["önermek","ileri sürmek","telkin etmek"] }
+];
+
+
+
+// Türkçe karakter/aksan normalize + küçültme (yoksa ekleyin)
+function normTR(s){
+  return (s||'')
+    .toLocaleLowerCase('tr')
+    .normalize('NFD')
+    .replace(/\p{Diacritic}/gu,'')
+    .trim();
+}
+
+
+  // Seçenek kilidi + joker stokları
+  let isLocked = false;
+  let lifelines = { fifty: 1, switch: 1 };   // 50:50 ve Soru Değiştir
+
+  // AŞAMA kontrolü
+  const STAGE_BREAK_AT = 10;      // 1. aşama: ilk 10 soru
+  let stageBreakShown = false;    // mola ekranını yalnız 1 kez göster
+
+  // ÜNİTE seçimi
+  let CURRENT_UNIT = 1;           // varsayılan ünite (introda değiştirilecek)
+
+  // Eleman referansları
+  const gameEl = document.getElementById('game');
+  const scoreBadge = document.getElementById('scoreBadge');
+  const playerBadge = document.getElementById('playerBadge');
+
+  /* ====== Ses yönetimi ====== */
+  const snd = {
+    start: document.getElementById('snd-start'),
+    think: document.getElementById('snd-think'),
+    correct: document.getElementById('snd-correct'),
+    wrong: document.getElementById('snd-wrong')
+  };
+  function stopAllSounds(){ Object.values(snd).forEach(a=>{ try{ a.pause(); a.currentTime = 0; }catch(_){} }); }
+  function playSound(which){ stopAllSounds(); const a = snd[which]; if(!a) return; try{ a.play(); }catch(e){} }
+
+  /* ====== Dinamik ====== */
+  function loadQuestions(unitNo){
+    const url = `jq${unitNo}.json`;
+    return fetch(url)
+      .then(r => r.json())
+      .then(data => {
+        QUESTIONS = data;
+        updateScore();
+        updatePlayerBadge();
+        setLogoUnit(unitNo);
+        // soruları karıştırmak için aç:
+        shuffleArray(QUESTIONS);
+      })
+      .catch(err => {
+        console.error("Soru dosyası yüklenemedi!", err);
+        alert("Seçilen ünite verisi alınamadı. Lütfen başka ünite seçin veya sayfayı yenileyin.");
+        throw err;
+      });
+  }
+
+  function setLogoUnit(unitNo){
+    const el = document.querySelector('.logo-like');
+    if (el) el.textContent = `Word Challenge • UNIT${unitNo}`;
+  }
+
+  /* ====== Guest numaralandırma / Leaderboard ====== */
+  function nextGuestName(){
+    const key = 'wa_guest_counter';
+    let c = parseInt(localStorage.getItem(key)||'0',10) || 0;
+    c += 1; localStorage.setItem(key, String(c));
+    return `Guest ${c}`;
+  }
+
+  const LB_KEY = 'wa_leaderboard';
+  function readLB(){ try{ return JSON.parse(localStorage.getItem(LB_KEY)||'[]'); }catch{ return []; } }
+  function writeLB(list){ localStorage.setItem(LB_KEY, JSON.stringify(list)); }
+function pushScore(name, pts, secs){
+  const list = readLB();
+  list.push({
+    name,
+    pts,
+    secs: Math.max(1, secs|0),   // toplam süre (sn)
+    at: Date.now()               // bitiş zaman damgası
+  });
+  // Puan DESC, süre ASC (aynı puanda daha kısa süre öne geçer), tarih ASC
+  list.sort((a,b)=> (b.pts - a.pts) || ((a.secs||1e12) - (b.secs||1e12)) || (a.at - b.at));
+  writeLB(list.slice(0,50));
+}
+
+function top3(){
+  const cutoff = Date.now() - LB_WINDOW_DAYS * 24 * 60 * 60 * 1000;
+  const recent = readLB().filter(r => r && r.at && r.at >= cutoff);
+  // Aynı sıralama kuralı: puan DESC, süre ASC, tarih ASC
+  recent.sort((a,b)=> (b.pts - a.pts) || ((a.secs||1e12) - (b.secs||1e12)) || (a.at - b.at));
+  return recent.slice(0,3);
+}
+
+  function updateScore(){ scoreBadge.textContent = `PUAN: ${score}`; }
+  function updatePlayerBadge(){ playerBadge.textContent = `Oyuncu: ${playerName || '—'}`; }
+
+  /* ====== Yardımcılar ====== */
+  function shuffleArray(arr){
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+  }
+
+  /* ====== Giriş ekranı (Ünite seçimi eklendi) ====== */
+  function showIntro(){
+    gameEl.innerHTML = `
+      <div class="intro">
+        <div class="sparkle" aria-hidden="true"></div>
+        <h1>Word Challenge • Canbay</h1>
+        <p style="opacity:.9">Kazanmaya devam etmek için her soruya doğru cevap ver. Bir yanlış → oyun biter!</p>
+
+        <div class="row" style="gap:.5rem; flex-wrap:wrap;">
+          <label for="selUnit" class="input" style="display:flex; align-items:center; gap:.5rem;">
+            <span>Ünite:</span>
+            <select id="selUnit" class="input" style="min-width:140px;">
+              ${Array.from({length:5}, (_,i)=>`<option value="${i+1}">${i+1}. Ünite</option>`).join('')}
+            </select>
+          </label>
+
+          <input id="inpName" class="input" placeholder="Bir ad giriniz (opsiyonel)" maxlength="24" />
+          <button id="btnStart" class="btn btn-primary" type="button">BAŞLA</button>
+        </div>
+
+        <div class="board" style="margin-top:18px">
+          <h3>PUAN TABLOSU (İLK 3)</h3>
+          <ul id="boardList"></ul>
+        </div>
+      </div>`;
+
+    const selUnit = document.getElementById('selUnit');
+    selUnit.value = String(CURRENT_UNIT);
+
+    document.getElementById('btnStart').addEventListener('click', ()=>{
+      const raw = (document.getElementById('inpName').value||'').trim();
+      playerName = raw || nextGuestName();
+      updatePlayerBadge();
+
+      const unitNo = parseInt(selUnit.value, 10) || 1;
+      CURRENT_UNIT = unitNo;
+
+      // 1) Seçilen ünitenin sorularını yükle
+      loadQuestions(unitNo)
+        // 2) Yüklenince oyunu başlat
+        .then(()=> startGame());
+    });
+
+    renderLeaderboard();
+  }
+
+  /* ====== Oyunu başlat ====== */
+
+
+
+
+// --- Puan tablosunu sıfırlama
+function clearLeaderboard(){
+  localStorage.removeItem(LB_KEY);   // puan tablosu anahtarını sil
+  renderLeaderboard();                // listedeki görüntüyü yenile
+}
+
+
+function showResetChallenge(onSuccess){
+  // 1) Havuzdan sorunlu kayıtları ayıkla
+  const pool = (C1_WORDS || []).filter(w => {
+    if (!w || !w.en) return false;
+    const trList = Array.isArray(w.tr) ? w.tr : [w.tr];
+    return trList.some(s => normTR(s)); // en az bir geçerli çeviri olmalı
+  });
+
+  if (pool.length === 0) {
+    console.warn('C1_WORDS havuzu boş veya geçersiz.');
+    alert('Doğrulama için kelime havuzu bulunamadı.');
+    return;
+  }
+
+  // 2) Güvenli rastgele seçim
+  const item = pool[Math.floor(Math.random() * pool.length)];
+  const answers = (Array.isArray(item.tr) ? item.tr : [item.tr])
+    .map(a => (normTR(a) || '').replace(/\s+/g, ' ').trim())
+    .filter(Boolean);
+
+  // 3) Modalı kur
+  const wrap = document.createElement('div');
+  wrap.id = 'resetOverlay';
+  wrap.style.cssText = `
+    position:fixed; inset:0; background:rgba(0,0,0,.55);
+    display:flex; align-items:center; justify-content:center; z-index:9999;
+  `;
+  wrap.innerHTML = `
+    <div style="background:#0f1220; color:#fff; padding:16px; border-radius:14px; width:min(520px,92vw); box-shadow:0 10px 30px rgba(0,0,0,.4)">
+      <h3 style="margin:0 0 8px">Öğretmen Doğrulaması</h3>
+      <p style="margin:6px 0 12px">Aşağıdaki İngilizce kelimenin <strong>Türkçe karşılığı</strong> nedir?</p>
+      <div style="display:flex; gap:.5rem; align-items:center; margin-bottom:10px;">
+<div class="chip">${item.en}</div>
+
+
+        <span style="opacity:.85">→</span>
+        <input id="resetAnswer" class="input" placeholder="Türkçe anlamı" style="flex:1" />
+      </div>
+      <div style="display:flex; gap:.5rem; justify-content:flex-end; margin-top:10px;">
+        <button class="btn" id="btnCancelReset" type="button">İptal</button>
+        <button class="btn btn-primary" id="btnConfirmReset" type="button">Onayla</button>
+      </div>
+      <div id="resetMsg" style="margin-top:8px; min-height:1.2em; color:#ffb3b3;"></div>
+    </div>
+  `;
+  document.body.appendChild(wrap);
+
+  const input = wrap.querySelector('#resetAnswer');
+  const msg   = wrap.querySelector('#resetMsg');
+  const close = () => { try { document.body.removeChild(wrap); } catch(e){} };
+
+  wrap.querySelector('#btnCancelReset').addEventListener('click', close);
+
+  function checkAndConfirm(){
+    const v = (normTR(input.value) || '').replace(/\s+/g,' ').trim();
+
+    if (v.length < 2) {
+      msg.textContent = 'Lütfen tam Türkçe karşılığını yazın.';
+      return;
+    }
+
+    // ✅ Sadece TAM eşleşme (dilersen includes mantığını ekleyebiliriz)
+    const ok = answers.some(a => v === a);
+
+    if (!ok) {
+      msg.textContent = 'Yanıt doğru değil. Lütfen tekrar deneyin.';
+      return;
+    }
+
+    close();
+    try { if (typeof onSuccess === 'function') onSuccess(); } catch(e){ console.error(e); }
+  }
+
+  wrap.querySelector('#btnConfirmReset').addEventListener('click', checkAndConfirm);
+  input.addEventListener('keydown', (e)=>{ if(e.key === 'Enter') checkAndConfirm(); });
+  input.focus();
+}
+
+
+
+
+
+
+function placeResetButton(){
+  document.querySelectorAll('.board').forEach(board => {
+    if (board.querySelector('[data-role="lb-reset"]')) return;
+
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.textContent = 'TABLOYU SIFIRLA';
+    btn.setAttribute('data-role','lb-reset');
+    btn.className = 'btn';
+    btn.style.marginTop = '6px';
+
+    btn.addEventListener('click', () => {
+      // 1) Öğretmen doğrulama modali aç
+      showResetChallenge(()=>{
+        // 2) Doğru cevaplandıysa gerçek sıfırlamayı yap
+        clearLeaderboard();
+      });
+    });
+
+    board.appendChild(btn);
+  });
+}
+
+
+
+  /* ====== Skor tablosu ====== */
+function renderLeaderboard(){
+  const host = document.getElementById('boardList');
+  if(!host) return;
+
+  const rows = top3();
+  host.innerHTML = rows.length
+    ? rows.map((r,i)=>{
+        const dur  = r.secs ? ` • ${formatMMSS(r.secs)}` : '';
+        const when = r.at   ? ` • ${formatDateTime(r.at)}` : '';
+        // Ör: "1. Can" | "120" | " • 3:40 • 28.08.2025 15:42"
+        return `<li>
+          <span class="nick">${i+1}. ${r.name}</span>
+          <span class="pts">${r.pts}</span>
+          <span class="meta">${dur}${when}</span>
+        </li>`;
+      }).join('')
+    : '<li style="justify-content:center">Henüz kayıt yok (son 30 gün).</li>';
+
+  placeResetButton();
+}
+
+
+
+  /* ====== Soru ekranı (Jokerler + Aşama desteği) ====== */
+  function renderQuestion(){
+    if(idx >= QUESTIONS.length){ return renderEnd(true); }
+    const { q, opts } = QUESTIONS[idx];
+
+    playSound('start');
+    setTimeout(()=> playSound('think'), 200);
+
+    gameEl.innerHTML = `
+      <div class="question">${q.replace(/\n/g, "<br>")}</div>
+
+      <div class="options" role="list">
+        ${opts.map((t,i)=>`
+          <button class="opt" role="listitem" data-index="${i}" aria-disabled="false" type="button">
+            <span class="opt-tag">${String.fromCharCode(65+i)}.</span>
+            <span class="opt-text">${t}</span>
+            <span class="shine" aria-hidden="true"></span>
+          </button>
+        `).join('')}
+      </div>
+
+      <!-- Jokerler -->
+      <div class="lifelines" style="margin:10px 0 6px; display:flex; gap:.5rem; flex-wrap:wrap;">
+        <button class="btn" id="btn5050" type="button" title="İki yanlış şıkkı eler">50:50 Joker</button>
+        <button class="btn" id="btnSwitch" type="button" title="Bu soruyu değiştirir">Soru Değiştir</button>
+        <button class="btn" id="btnExtra" type="button" title="Mevcut süreye ekler">Ek Süre (+45 sn)</button>
+      </div>
+
+      <div class="status" id="status" aria-live="polite"></div>
+
+      <div class="board">
+        <h3>PUAN TABLOSU (İlk 3)</h3>
+        <ul id="boardList"></ul>
+      </div>
+
+      <div class="controls">
+        <button class="btn" id="btnRestart" type="button" title="Yeniden başlat">Yeniden Başlat</button>
+      </div>
+    `;
+
+    document.getElementById('btnRestart').addEventListener('click', showIntro);
+
+    // Şık tıklamaları
+    document.querySelectorAll('.opt').forEach(btn=>{
+      btn.addEventListener('click', ()=> handleAnswer(parseInt(btn.dataset.index,10), btn));
+    });
+
+    // --- 50:50 Joker
+    const btn5050 = document.getElementById('btn5050');
+    if (btn5050) {
+      if (!lifelines.fifty) {
+        btn5050.disabled = true;
+        btn5050.style.opacity = '.6';
+        btn5050.style.cursor = 'not-allowed';
+      }
+      btn5050.addEventListener('click', () => {
+        if (isLocked || !lifelines.fifty) return;
+
+        const correctIndex = QUESTIONS[idx].a;
+        const all = [0,1,2,3];
+        const wrongs = all.filter(i => i !== correctIndex);
+
+        // Karıştır
+        for (let i = wrongs.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [wrongs[i], wrongs[j]] = [wrongs[j], wrongs[i]];
+        }
+        const toRemove = wrongs.slice(0, 2);
+
+    toRemove.forEach(i => {
+  const b = document.querySelector(`.opt[data-index="${i}"]`);
+  if (b) {
+    b.disabled = true;
+    b.setAttribute('aria-disabled','true');
+    b.style.pointerEvents = 'none';
+    // b.style.visibility = 'hidden'; // SİLİN veya yoruma alın
+    b.classList.add('eliminated');   // ← yeni: saydam/gri göster
+    b.setAttribute('aria-hidden','true'); // opsiyonel: ekran okuyucuya kapat
+    b.tabIndex = -1; // opsiyonel: klavye odaklanmasın
+  }
+});
+
+
+        lifelines.fifty = 0;
+        btn5050.disabled = true;
+        btn5050.style.opacity = '.6';
+        btn5050.style.cursor = 'not-allowed';
+
+        const status = document.getElementById('status');
+        if (status) status.innerHTML = '🧩 <strong>50:50</strong> kullanıldı — iki seçenek elendi.';
+      });
+    }
+    // --- Ek Süre (+45 sn) Jokeri
+    const btnExtra = document.getElementById('btnExtra');
+    if (btnExtra) {
+      if (!lifelines.extra) {
+        btnExtra.disabled = true;
+        btnExtra.style.opacity = '.6';
+        btnExtra.style.cursor = 'not-allowed';
+      }
+      btnExtra.addEventListener('click', () => {
+        if (isLocked || !lifelines.extra) return;
+
+        const added = addExtraTime();           // dinamik (+45 / 55 / 85 kuralı)
+        lifelines.extra = 0;                    // tek kullanımlık
+        btnExtra.disabled = true;
+        btnExtra.style.opacity = '.6';
+        btnExtra.style.cursor = 'not-allowed';
+
+        const status = document.getElementById('status');
+        if (status) status.innerHTML = `⏱️ <strong>Ek Süre</strong> kullanıldı: +${added} saniye (kalan: ${timeLeft} sn).`;
+      });
+    }
+
+    // --- Soru Değiştir (switch) Jokeri
+    const btnSwitch = document.getElementById('btnSwitch');
+    if (btnSwitch) {
+      if (!lifelines.switch) {
+        btnSwitch.disabled = true;
+        btnSwitch.style.opacity = '.6';
+        btnSwitch.style.cursor = 'not-allowed';
+      }
+      btnSwitch.addEventListener('click', () => {
+        if (isLocked || !lifelines.switch) return;
+
+        // Değiştirecek soru var mı? (son sorudaysak çık)
+        if (idx >= QUESTIONS.length - 1) {
+          const status = document.getElementById('status');
+          if (status) status.innerHTML = 'ℹ️ Değiştirecek alternatif soru kalmadı.';
+          return;
+        }
+
+        // Sayaç ve sesleri durdur
+        clearInterval(timerId);
+        stopAllSounds();
+
+        // Şu anki soruyla ilerideki rastgele bir soruyu YER DEĞİŞTİR
+        const j = Math.floor(Math.random() * (QUESTIONS.length - (idx + 1))) + (idx + 1);
+        [QUESTIONS[idx], QUESTIONS[j]] = [QUESTIONS[j], QUESTIONS[idx]];
+
+        // Jokeri tüket ve butonu kilitle
+        lifelines.switch = 0;
+        btnSwitch.disabled = true;
+        btnSwitch.style.opacity = '.6';
+        btnSwitch.style.cursor = 'not-allowed';
+
+        // Aynı indeks için yeni soruyu render et (süre resetlenir)
+        isLocked = false;
+        renderQuestion();
+      });
+    }
+
+    renderLeaderboard();
+
+    const status = document.getElementById('status');
+    startTimer(status);
+  }
+
+  /* ====== Seçenek kilidi (güçlendirilmiş) ====== */
+  function lockOptions(){
+    isLocked = true;
+    document.querySelectorAll('.opt').forEach(btn=>{
+      btn.setAttribute('aria-disabled','true');
+      btn.disabled = true;
+      btn.style.pointerEvents = 'none';
+    });
+  }
+
+  /* ====== Cevap işleme (Aşama kontrolü entegre) ====== */
+  function handleAnswer(choice, btn){
+    if (isLocked) return;
+    clearInterval(timerId);
+    lockOptions();
+
+    const correctIndex = QUESTIONS[idx].a;
+    const status = document.getElementById('status');
+
+    if(choice === correctIndex){
+      playSound('correct');
+      btn.classList.add('correct');
+      status.innerHTML = '✅ <strong>Doğru!</strong>';
+      score += STEP_SCORE; updateScore();
+
+      setTimeout(()=>{
+        idx++;
+        isLocked = false;
+
+        // AŞAMA 1 molası (10 soru bittiğinde)
+        if (!stageBreakShown && idx === STAGE_BREAK_AT){
+          stageBreakShown = true;
+          renderStageBreak();
+        } else {
+          renderQuestion();
+        }
+      }, NEXT_DELAY);
+
+    } else {
+      playSound('wrong');
+      btn.classList.add('wrong');
+
+      // Yanlışta doğru şıkkı yeşille vurgula
+      const correctBtn = document.querySelector(`.opt[data-index="${correctIndex}"]`);
+      if (correctBtn) correctBtn.classList.add('correct');
+
+      status.innerHTML = `❌ <strong>Yanlış!</strong> Doğru cevap: <strong>${String.fromCharCode(65+correctIndex)}</strong>`;
+      setTimeout(()=> renderEnd(false), 4000);
+    }
+  }
+
+  /* ====== Aşama molası ====== */
+  function renderStageBreak(){
+    clearInterval(timerId);
+    stopAllSounds();
+
+    gameEl.innerHTML = `
+      <div class="stage-break">
+        <h2>Tebrikler! 🎉</h2>
+        <p><strong>1. Aşamayı</strong> başarıyla geçtiniz (ilk ${STAGE_BREAK_AT} soru).</p>
+        <p>Mevcut puanınız: <strong>${score}</strong></p>
+
+        <div class="actions" style="display:flex; gap:.5rem; justify-content:center; margin:12px 0;">
+          <button class="btn btn-primary" id="btnContinue" type="button">Evet, Devam Et</button>
+          <button class="btn" id="btnWithdraw" type="button">Hayır, Çekiliyorum</button>
+        </div>
+
+        <div class="board" style="margin-top:10px">
+          <h3>PUAN TABLOSU (İlk 3)</h3>
+          <ul id="boardList"></ul>
+        </div>
+      </div>
+    `;
+
+document.getElementById('btnContinue').addEventListener('click', ()=>{
+  lifelines = { fifty: 1, switch: 1, extra: 1 };  // 2. aşamada Ek Süre de 1 adet
+  isLocked = false;
+  renderQuestion();                      // 11. sorudan devam
+});
+
+    document.getElementById('btnWithdraw').addEventListener('click', ()=>{
+      renderEnd(false, 'withdraw'); // Çekilme
+    });
+
+    renderLeaderboard();
+  }
+
+  /* ====== Oyun sonu (withdraw başlık desteği) ====== */
+  function renderEnd(completed, reason = ''){
+stopAllSounds();
+const name = playerName || nextGuestName();
+const secs = getElapsedSeconds();
+pushScore(name, score, secs);
+
+
+    let title = completed ? 'TEBRİKLER! 👑' : 'Oturum Bitti';
+    if (!completed && reason === 'withdraw') {
+      title = 'Çekildiniz ✅';
+    }
+
+gameEl.innerHTML = `
+  <div class="end">
+    <h2 style="margin-top:0">${title}</h2>
+    <p>Oyuncu: <strong>${name}</strong></p>
+    <p>Bu oturumda <strong>${score}</strong> puan kazandınız.</p>
+    <p>Toplam süre: <strong>${formatMMSS(secs)}</strong></p>  <!-- ⟵ EKLENDİ -->
+    <div class="board" style="margin:16px 0 10px">
+      <h3>PUAN TABLOSU (İlk 3)</h3>
+      <ul id="boardList"></ul>
+    </div>
+    <button class="btn btn-primary" id="btnAgain" type="button">YENİDEN BAŞLA</button>
+  </div>
+`;
+
+    document.getElementById('btnAgain').addEventListener('click', showIntro);
+    renderLeaderboard();
+  }
+
+  /* ====== Sayaç ====== */
+  function startTimer(host) {
+    clearInterval(timerId);
+    timeLeft = QUESTION_TIME;
+    updateTimerUI(host);
+    timerId = setInterval(() => {
+      timeLeft--;
+      updateTimerUI(host);
+      if (timeLeft <= 0) {
+        clearInterval(timerId);
+        handleTimeout();
+      }
+    }, 1000);
+  }
+
+  function updateTimerUI(host) {
+    host.innerHTML = `⏳ <strong>${timeLeft} saniye</strong> içinde cevap verin.`;
+  }
+
+  function handleTimeout() {
+    lockOptions();
+    playSound('wrong');
+
+    const correctIndex = QUESTIONS[idx].a;
+    const status = document.getElementById('status');
+    const btns = document.querySelectorAll('.opt');
+
+    if (btns[correctIndex]) {
+      btns[correctIndex].classList.add('correct');
+    }
+
+    status.innerHTML = `⌛ <strong>Süre doldu!</strong><br>Doğru cevap: <strong>${String.fromCharCode(65 + correctIndex)}</strong>`;
+
+    setTimeout(() => {
+      renderEnd(false);
+    }, 800);
+  }
+
+  // Sayfa yüklenince giriş ekranını göster (ünite seçimiyle)
+  showIntro();
+</script>
+
+<footer class="footer">
+  Word Challenge v2.0 • Canbay, &copy; <a href="https://instagram.com/ilyascanby">İlyas Canbay</a> tarafından geliştirilmiştir.
+  <br>Soru Yazarları: Gönül & İlyas Canbay - Bu uygulama ücretsizdir ve eğitim amaçlıdır.
+</footer>
+
+
+
+
+
+<!-- Privacy-friendly analytics -->
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+
+
+
+
+<script>
+(()=>{
+  // ——— Ayarlar ———
+  const DESKTOP_QUERY = window.matchMedia('(min-width: 768px)');
+  const ZOOM_KEY = 'pageZoomPercent';
+  const SB_KEY   = 'sbMode';
+  const Z_MIN = 90, Z_MAX = 170, Z_STEP = 10;
+  const Z_DEFAULT = 110; // Varsayılan %110
+
+  // ——— YARDIMCI ———
+  const clamp = (n, min, max) => Math.max(min, Math.min(max, n));
+  const isDesktop = () => DESKTOP_QUERY.matches;
+
+  // ——— Başlangıçta: mobil ise tamamen çık ———
+  if (!isDesktop()) {
+    // Mobil/tablette kontrol ve SB hiç çalışmasın
+    document.documentElement.style.fontSize = ''; // olası kalıntıyı sıfırla
+    const zc = document.getElementById('zoomControls');
+    const sb = document.getElementById('sbToggle');
+    if (zc) zc.style.display = 'none';
+    if (sb) sb.style.display = 'none';
+    return;
+  }
+
+  // ——— Masaüstü: ZOOM ———
+  const label = document.getElementById('zoomLabel');
+  const controls = document.getElementById('zoomControls');
+
+  // URL ?zoom=120 desteği
+  const qp = new URLSearchParams(location.search);
+  const zoomFromUrl = Number.parseInt(qp.get('zoom'), 10);
+  let current = Number.isFinite(zoomFromUrl)
+    ? clamp(zoomFromUrl, Z_MIN, Z_MAX)
+    : Number.parseInt(localStorage.getItem(ZOOM_KEY), 10);
+
+  if (!Number.isFinite(current)) current = Z_DEFAULT;
+
+  const applyZoom = (pct)=>{
+    current = clamp(pct, Z_MIN, Z_MAX);
+    document.documentElement.style.fontSize = `${16 * (current/100)}px`;
+    if (label) label.textContent = `${current}%`;
+    try { localStorage.setItem(ZOOM_KEY, String(current)); } catch {}
+  };
+
+  applyZoom(current);
+
+  // Click kontrolleri
+  controls?.addEventListener('click', (ev)=>{
+    const btn = ev.target.closest('button[data-zoom]');
+    if (!btn) return;
+    const a = btn.getAttribute('data-zoom');
+    if (a === '+')     applyZoom(current + Z_STEP);
+    else if (a === '-')applyZoom(current - Z_STEP);
+    else if (a === 'reset') applyZoom(Z_DEFAULT);
+  });
+
+  // Kısayollar: Ctrl+= büyüt, Ctrl+- küçült, Ctrl+0 sıfırla
+  document.addEventListener('keydown', (e)=>{
+    if (!e.ctrlKey) return;
+    if (e.key === '=' || e.key === '+'){ e.preventDefault(); applyZoom(current + Z_STEP); }
+    if (e.key === '-'){ e.preventDefault(); applyZoom(current - Z_STEP); }
+    if (e.key === '0'){ e.preventDefault(); applyZoom(Z_DEFAULT); }
+  });
+
+  // ——— Masaüstü: Smartboard (SB) Modu ———
+  const sbBtn = document.getElementById('sbToggle');
+
+  // URL ?sb=1|0 & ?lvl=xl|xxl (opsiyonel)
+  const sbFromUrl = qp.get('sb');
+  if (sbFromUrl === '1') localStorage.setItem(SB_KEY, 'on');
+  if (sbFromUrl === '0') localStorage.setItem(SB_KEY, 'off');
+
+  const lvl = qp.get('lvl'); // 'xl' | 'xxl' (opsiyonel)
+  if (lvl === 'xl' || lvl === 'xxl') {
+    document.body.classList.add(`sb-${lvl}`); // Ek ölçek sınıfları eklemek istersen CSS’te kullanabilirsin
+  }
+
+  const applySbState = ()=>{
+    const on = localStorage.getItem(SB_KEY) === 'on';
+    document.body.classList.toggle('smartboard', on);
+    if (sbBtn){
+      sbBtn.setAttribute('aria-pressed', on ? 'true' : 'false');
+      sbBtn.textContent = on ? '🧑‍🏫 Tahta ✓' : '🧑‍🏫 Tahta';
+    }
+  };
+
+  // İlk durum
+  applySbState();
+
+  // Tıkla-aç/kapat
+  sbBtn?.addEventListener('click', ()=>{
+    const next = document.body.classList.toggle('smartboard');
+    try { localStorage.setItem(SB_KEY, next ? 'on' : 'off'); } catch {}
+    sbBtn.setAttribute('aria-pressed', next ? 'true' : 'false');
+    sbBtn.textContent = next ? '🧑‍🏫 Tahta ✓' : '🧑‍🏫 Tahta';
+  });
+
+  // Kısayol: Ctrl+Shift+S → SB toggle
+  document.addEventListener('keydown', (e)=>{
+    if (e.ctrlKey && e.shiftKey && (e.key === 'S' || e.key === 's')){
+      e.preventDefault();
+      sbBtn?.click();
+    }
+  });
+
+  // ——— Ekran boyutu masaüstünden mobile düşerse (canlı) kapat ———
+  DESKTOP_QUERY.addEventListener?.('change', (e)=>{
+    if (!e.matches) {
+      // mobile-a geçildi: her şeyi kapat
+      document.documentElement.style.fontSize = '';
+      const zc2 = document.getElementById('zoomControls');
+      const sb2 = document.getElementById('sbToggle');
+      if (zc2) zc2.style.display = 'none';
+      if (sb2) sb2.style.display = 'none';
+    }
+  });
+})();
+</script>
+
+
+
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js" ></script><script async src="https://scripts.simpleanalyticscdn.com/auto-events.js" data-extensions="pdf,csv,docx,xlsx,zip,doc,xls"></script></body>
+</html>

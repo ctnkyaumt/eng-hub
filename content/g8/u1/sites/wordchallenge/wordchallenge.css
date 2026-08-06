@@ -1,0 +1,294 @@
+  :root{
+    --bg1:#0b1a3a; /* koyu lacivert */
+    --bg2:#061027; /* daha koyu */
+    --ring:#0f2a66; /* iç halka */
+    --accent:#f5c84b; /* altın */
+    --accent-2:#ffde7a; /* açık altın */
+    --text:#ecf2ff;
+    --muted:#9fb3ff;
+    --good:#16c172;
+    --bad:#ff5a5a;
+    --shadow: 0 12px 30px rgba(0,0,0,.35);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%}
+body {
+  margin: 0;
+  padding: 18px;
+  background: radial-gradient(1200px 800px at 50% -10%, #183779, var(--bg1)) no-repeat,
+              radial-gradient(800px 500px at 50% 120%, #091638, var(--bg2));
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+
+  display: flex;
+  flex-direction: column; /* 🆕 sayfa dikey hizalanacak */
+  min-height: 100vh;
+  align-items: center;
+}
+  .stage{
+      flex: 1; /* 🆕 boş alanı kaplasın */
+    width: 75%;          /* ekranın %75'ini kapla */
+    max-width: 1600px;   /* çok geniş ekranlarda sınır */
+    min-width: 720px;    /* çok dar kalmasın */
+    position:relative;
+    padding:22px;
+    border-radius:24px;
+    background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+    box-shadow: var(--shadow), inset 0 0 0 2px rgba(255,255,255,.06);
+  }
+  /* Yüzük çerçeve efekti */
+  .ring{ position:relative; border-radius:22px; padding:22px; background:
+      radial-gradient(circle at 50% 50%, rgba(245,200,75,.15) 0 40%, transparent 42%) no-repeat,
+      conic-gradient(from 0deg, rgba(255,215,140,.2), rgba(255,215,140,.05), rgba(255,215,140,.2)); }
+  .ring::before{ content:""; position:absolute; inset:0; border-radius:22px; box-shadow: inset 0 0 0 3px var(--ring), inset 0 0 50px rgba(0,0,0,.4); pointer-events:none; }
+
+  header{ display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:16px; }
+  .logo-like{ font-weight:800; letter-spacing:.6px; text-transform:uppercase; font-size:18px; color:var(--accent-2); display:flex; align-items:center; gap:8px; }
+  .logo-like::before,.logo-like::after{ content:""; display:inline-block; width:10px; height:10px; border-radius:50%; background: radial-gradient(circle at 30% 30%, #fff, var(--accent) 40%, #be8e16 70%); box-shadow:0 0 12px rgba(245,200,75,.9); }
+  .score{ font-size:22px; font-weight:800; color:var(--accent); padding:6px 14px; border:2px solid var(--accent); border-radius:999px; background:rgba(245,200,75,.08); }
+  .player{ font-weight:700; color:#fff; opacity:.95; }
+
+  .question{ margin:8px 0 18px; padding:18px 16px; border-radius:16px; background: linear-gradient(180deg, rgba(15,42,102,.65), rgba(7,23,57,.65)); border:1px solid rgba(245,200,75,.25); font-size:20px; line-height:1.4; text-align:center; font-weight: bold; }
+
+  .options{ display:grid; grid-template-columns:1fr; gap:14px; }
+  @media (min-width:720px){ .options{ grid-template-columns:1fr 1fr; } }
+
+  .opt{ position:relative; overflow:hidden; display:flex; align-items:center; gap:10px; padding:12px 16px; min-height:60px; border-radius:999px; cursor:pointer; user-select:none; background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); border:2px solid var(--accent); box-shadow:var(--shadow); transition: transform .08s ease, filter .2s ease, background .3s ease, border-color .3s ease; }
+  .opt:hover{ transform: translateY(-1px); filter:brightness(1.05); }
+  .opt[aria-disabled="true"]{ opacity:.6; pointer-events:none; }
+  .opt-tag{ font-weight:900; color:var(--accent-2); }
+  .opt-text{ flex:1; }
+  .opt:focus-visible{ outline:3px solid #9ec9ff; }
+  .opt.correct{ border-color: var(--good); background:linear-gradient(180deg, rgba(22,193,114,.18), rgba(22,193,114,.05)); }
+  .opt.wrong{ border-color: var(--bad); background:linear-gradient(180deg, rgba(255,90,90,.18), rgba(255,90,90,.05)); }
+
+.opt-text {
+color: gold;
+font-weight: bold;
+font-size: 1.1rem; /* body font'un %110'u */
+}
+
+
+  .status{ min-height:28px; display:flex; align-items:center; justify-content:center; margin:6px 0 0; color:var(--muted) }
+  .status strong{ margin-left:6px; }
+  .controls{ display:flex; justify-content:center; gap:10px; margin-top:18px; }
+  .btn{ border-radius:12px; padding:10px 14px; border:1px solid rgba(255,255,255,.2); background:rgba(255,255,255,.06); color:var(--text); cursor:pointer; }
+  .btn:disabled{ opacity:.6; cursor:not-allowed; }
+  .end{ text-align:center; padding:26px; border:1px dashed rgba(255,255,255,.25); border-radius:16px; margin-top:12px; background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); }
+
+  /* Işıltılı giriş ekranı */
+  .intro{ text-align:center; padding:28px; border-radius:18px; background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.03)); border:1px solid rgba(245,200,75,.35); position:relative; overflow:hidden; }
+  .intro h1{ margin:0 0 12px; font-size:26px; letter-spacing:.8px; color:var(--accent-2); text-transform:uppercase; text-shadow:0 0 12px rgba(245,200,75,.7); }
+  .sparkle{ position:absolute; inset:-30%; background: radial-gradient(circle at 20% 30%, rgba(255,255,255,.25), transparent 40%), radial-gradient(circle at 80% 60%, rgba(255,255,255,.18), transparent 40%), radial-gradient(circle at 50% 50%, rgba(245,200,75,.25), transparent 40%); filter: blur(8px); animation: drift 12s linear infinite; pointer-events:none; }
+  @keyframes drift{ 0%{ transform:translateX(-10%) translateY(-6%);} 50%{ transform:translateX(6%) translateY(5%);} 100%{ transform:translateX(-10%) translateY(-6%);} }
+  .intro .row{ display:flex; flex-wrap:wrap; gap:10px; justify-content:center; align-items:center; margin-top:12px; }
+  .input{ padding:12px 14px; border-radius:12px; border:2px solid var(--accent); background:rgba(0,0,0,.25); color:#fff; min-width:240px; }
+  .btn-primary{ background:linear-gradient(180deg, var(--accent-2), var(--accent)); color:#2b1e00; font-weight:800; border:2px solid #c79a1b; box-shadow:0 10px 22px rgba(245,200,75,.25); }
+
+  /* Leaderboard paneli */
+  .board{ margin-top:16px; padding:14px; border-radius:14px; border:1px solid rgba(245,200,75,.25); background:linear-gradient(180deg, rgba(15,42,102,.35), rgba(7,23,57,.35)); }
+  .board h3{ margin:0 0 10px; font-size:16px; color:var(--accent-2); text-align:center; }
+  .board ul{ list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:6px; }
+  .board li{ display:flex; justify-content:space-between; padding:8px 10px; border-radius:12px; background:rgba(255,255,255,.05); border:1px solid rgba(255,255,255,.08); }
+  .nick{ font-weight:700; }
+  .pts{ font-weight:800; color:var(--accent-2); }
+
+  /* Küçük ışık huzmesi */
+  .shine{ position:absolute; inset:0; border-radius:inherit; pointer-events:none; overflow:hidden; }
+  .shine::before{ content:""; position:absolute; top:-120%; left:-20%; width:40%; height:300%; transform:rotate(25deg); background: linear-gradient( to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.25) 45%, rgba(255,255,255,0) 80% ); animation: shine 4.5s linear infinite; }
+  @keyframes shine{ 0%{ transform:translateX(-60%) rotate(25deg); } 100%{ transform:translateX(220%) rotate(25deg);} }
+
+.footer {
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: var(--muted);
+  opacity: 0.7;
+  margin-top: 40px;
+  padding-bottom: 10px;
+}
+.footer a {
+  color: gold; /* 🌟 Altın sarısı */
+  text-decoration: none;
+  opacity: 0.85;
+}
+.footer a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+/* 50:50 ile elenen şıkların görsel hali */
+.opt.eliminated {
+  opacity: .35;            /* hafif saydam görünüm */
+  filter: grayscale(1);    /* isteğe bağlı: gri ton */
+  pointer-events: none;    /* tıklanamaz kalsın */
+  transition: opacity .2s ease; /* yumuşak geçiş (opsiyonel) */
+}
+/* REM zoom ile büyüsün: soru kökü */
+.question{
+  font-size: 1.4rem;   /* ~22.4px @ 16px base, rem zoomla birlikte büyür */
+  line-height: 1.45;
+}
+
+@media (min-width: 1200px){
+  .question{ font-size: 1.6rem; } /* büyük ekranda biraz daha iri */
+}
+.chip{
+  font-weight:700;
+  font-size:1.125rem;   /* 18px ≈ 1.125rem */
+  padding:.25rem .6rem;
+  background:#1b1f36;
+  border-radius:8px;
+}
+/* Şıkların yazı boyutunu büyüt (soru köküyle uyumlu olsun) */
+.opt-text {
+  font-size: 1.2rem;   /* ~19px */
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Daha geniş ekranlarda biraz daha iri */
+@media (min-width: 1200px){
+  .opt-text {
+    font-size: 1.3rem; /* ~21px */
+  }
+}
+
+
+
+
+
+
+/* ——— Genel: Sağ üst sabit kontroller ——— */
+#zoomControls{
+  position: fixed; top: 12px; right: 12px; z-index: 9999;
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 6px 8px; background: #fff; border: 1px solid rgba(0,0,0,.12);
+  border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,.08);
+  font: 600 14px/1.2 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+#zoomControls button{
+  min-width: 36px; min-height: 36px; border-radius: 10px; border: 1px solid rgba(0,0,0,.1);
+  background: #f8f8f8; cursor: pointer; font-weight: 700; font-size: 16px;
+}
+#zoomControls button:hover{ background:#f2f2f2; }
+#zoomControls span{ display:inline-block; width:64px; text-align:center; font-variant-numeric: tabular-nums; }
+
+/* Tahta düğmesi */
+#sbToggle{
+  position: fixed; top: 12px; right: 140px; z-index: 9999;  /* zoomControls ile yan yana */
+  padding: .65rem .9rem; border-radius: 12px; border: 1px solid rgba(0,0,0,.15);
+  background: #fff; font-weight: 700; cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,.08); letter-spacing: .2px;
+}
+#sbToggle[aria-pressed="true"]{ background:#111; color:#fff; }
+
+/* Smartboard modunda tipografi ve alanlar büyüsün (modern clamp) */
+body.smartboard{
+  line-height: 1.35;
+}
+@supports (font-size: clamp(1rem, 2vw, 2rem)) {
+  body.smartboard h1,
+  body.smartboard .title,
+  body.smartboard [class*="heading"]{
+    font-size: clamp(2.2rem, 5vw, 3.6rem);
+  }
+  body.smartboard h2{ font-size: clamp(1.8rem, 4.4vw, 3rem); }
+  body.smartboard #question,
+  body.smartboard .question,
+  body.smartboard [class*="question"],
+  body.smartboard .prompt{
+    font-size: clamp(1.6rem, 3.6vw, 2.6rem);
+  }
+  body.smartboard .option,
+  body.smartboard .options li,
+  body.smartboard .choice,
+  body.smartboard [class*="option"],
+  body.smartboard [class*="choice"]{
+    font-size: clamp(1.4rem, 3.2vw, 2.2rem);
+    line-height: 1.35;
+  }
+  body.smartboard .btn,
+  body.smartboard button{
+    font-size: clamp(1.1rem, 2.4vw, 1.8rem);
+    min-height: 48px; padding: .9em 1.2em;
+  }
+  body.smartboard .timer,
+  body.smartboard #score,
+  body.smartboard .score,
+  body.smartboard .scoreboard,
+  body.smartboard #top3 li{
+    font-size: clamp(1.2rem, 2.6vw, 2rem);
+  }
+  body.smartboard .card .front,
+  body.smartboard .card .back,
+  body.smartboard .tile,
+  body.smartboard .flashword{
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+  }
+  body.smartboard .grid,
+  body.smartboard .board,
+  body.smartboard .container{
+    gap: clamp(.6rem, 1.6vw, 1.2rem);
+  }
+}
+
+/* ——— Mobilde tamamen kapat (görünmesin) ——— */
+@media (max-width: 767px){
+  #zoomControls, #sbToggle{ display: none !important; }
+}
+#zoomControls span{
+  display:inline-block;
+  width:64px;
+  text-align:center;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;        /* daha kalın */
+  color: #111;             /* koyu siyah/grimsi */
+  background:#f0f0f0;      /* hafif gri kutu arkası */
+  border-radius:6px;
+  padding:2px 4px;
+}
+
+#sbToggle{ top: 72px; right: 12px; /* 200px sola kayar, çakışmaz */ }
+
+
+
+
+
+
+/* 1) Mobil güvenlik seti */
+@media (max-width: 767px){
+  html, body { overflow-x: hidden; }
+
+  /* .stage mobilde taşmasın */
+  .stage{
+    width: 100%;
+    max-width: none;
+    min-width: 0;        /* min-width kilidini iptal et */
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  /* 2) Yakınlaştırma/scale mobilde kapalı olsun */
+  #app{ transform: none !important; }
+
+  /* 3) Şıklar tek sütun; grid taşırmasın */
+  .options{
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px;
+  }
+
+  /* 4) Sabit piksel içeriklerin güvenliği */
+  img, video, canvas, iframe, table{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* 5) Fixed elemanların sarkmasını engelle */
+#zoomControls, #sbToggle{
+  max-width: calc(100vw - 24px); /* sağ/sol 12px boşluk kalsın */
+  box-sizing: border-box;
+}

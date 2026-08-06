@@ -1,0 +1,81 @@
+{
+ "items": [
+  {
+   "title": "ELTARENA WORDWARS - ANSWER BUZZER( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/buzzerbutton/",
+   "slug": "buzzerbutton",
+   "kind": "game",
+   "path": "buzzerbutton/index.html",
+   "files": 1
+  },
+  {
+   "title": "8-1 FRIENDSHIP WORDWARS - BİL ve FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-1FriendshipWordWars/",
+   "slug": "8-1friendshipwordwars",
+   "kind": "game",
+   "path": "8-1friendshipwordwars/index.html",
+   "files": 1
+  },
+  {
+   "title": "8th Graders Unıt 1 Friendship - ELTARENA DUEL MODE ( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8th1FriendshipDuelMode/",
+   "slug": "8th1friendshipduelmode",
+   "kind": "game",
+   "path": "8th1friendshipduelmode/index.html",
+   "files": 1
+  },
+  {
+   "title": "8-1 FRIENDSHIP - ELTARENA CUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-1ELTARENACUP/",
+   "slug": "8-1eltarenacup",
+   "kind": "game",
+   "path": "8-1eltarenacup/index.html",
+   "files": 1
+  },
+  {
+   "title": "8-1 FRIENDSHIP 3te3 OYUN ( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-1FRIENDSHIP3te3/",
+   "slug": "8-1friendship3te3",
+   "kind": "game",
+   "path": "8-1friendship3te3/index.html",
+   "files": 1
+  },
+  {
+   "title": "Word Challenge v2.0 (Canbay & Canbay)",
+   "by": "Sistem",
+   "link": "https://canbay.netlify.app/wordchallenge/",
+   "slug": "wordchallenge",
+   "kind": "game",
+   "path": "wordchallenge/index.html",
+   "files": 7
+  },
+  {
+   "title": "MemoryGame v1.4 (Gönül & İlyas Canbay)",
+   "by": "Sistem",
+   "link": "https://canbay.netlify.app/games/memory/unit1",
+   "slug": "unit1",
+   "kind": "game"
+  },
+  {
+   "title": "FlashWords 1.1 (Canbay & Canbay)",
+   "by": "Sistem",
+   "link": "https://canbay.netlify.app/games/flashwords/",
+   "slug": "flashwords",
+   "kind": "game",
+   "path": "flashwords/index.html",
+   "files": 26
+  },
+  {
+   "title": "8. Sınıf 1. Ünite Testler Akıllı Tahta Sunumları (Gönül & İlyas Canbay)",
+   "by": "Sistem",
+   "link": "https://canbay.netlify.app/sunu/unit1/",
+   "slug": "unit1",
+   "kind": "presentation"
+  }
+ ]
+}

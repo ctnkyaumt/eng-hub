@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELTARENA - DUEL MODE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #2d4a8a, #4a6fa5);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+        }
+        
+        h1 {
+            font-size: 3.2rem;
+            margin-bottom: 10px;
+            text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+            background: linear-gradient(to right, #ff9966, #ff5e62);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            font-size: 1.8rem;
+            color: #ffcc99;
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        button {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .start-btn {
+            background: linear-gradient(to right, #00b09b, #96c93d);
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 176, 155, 0.4);
+        }
+        
+        .restart-btn {
+            background: linear-gradient(to right, #ff5e62, #ff9966);
+            color: white;
+            box-shadow: 0 4px 8px rgba(255, 94, 98, 0.4);
+        }
+        
+        .fullscreen-btn {
+            background: linear-gradient(to right, #36d1dc, #5b86e5);
+            color: white;
+            box-shadow: 0 4px 8px rgba(91, 134, 229, 0.4);
+        }
+        
+        .next-round-btn {
+            background: linear-gradient(to right, #ff9966, #ffcc66);
+            color: #333;
+            box-shadow: 0 4px 8px rgba(255, 153, 102, 0.4);
+            display: none;
+        }
+        
+        button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+        
+        button:active {
+            transform: translateY(1px);
+        }
+        
+        .game-info {
+            display: flex;
+            justify-content: space-between;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 15px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .info-box {
+            text-align: center;
+            flex: 1;
+            min-width: 180px;
+        }
+        
+        .info-label {
+            font-size: 0.9rem;
+            color: #aac8ff;
+            margin-bottom: 5px;
+        }
+        
+        .info-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #ffcc66;
+        }
+        
+        .students-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .student-card {
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            backdrop-filter: blur(10px);
+            min-height: 550px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        /* Different background colors for each player */
+        .student-card-1 {
+            background: linear-gradient(135deg, rgba(255, 153, 102, 0.9), rgba(255, 94, 98, 0.9));
+            border-color: #FF9966;
+        }
+        
+        .student-card-2 {
+            background: linear-gradient(135deg, rgba(91, 134, 229, 0.9), rgba(54, 209, 220, 0.9));
+            border-color: #5B86E5;
+        }
+        
+        .student-card.eliminated {
+            opacity: 0.6;
+            background: rgba(255, 94, 98, 0.3) !important;
+        }
+        
+        .student-card.winner {
+            border-color: #ffcc00;
+            border-width: 5px;
+            box-shadow: 0 0 30px rgba(255, 204, 0, 0.7);
+            animation: winnerGlow 1.5s infinite alternate;
+        }
+        
+        @keyframes winnerGlow {
+            from { box-shadow: 0 0 20px rgba(255, 204, 0, 0.7); }
+            to { box-shadow: 0 0 40px rgba(255, 204, 0, 0.9); }
+        }
+        
+        .student-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        
+        .student-name {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        
+        .student-name-input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1.1rem;
+            outline: none;
+            transition: all 0.3s ease;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        .student-name-input:focus {
+            border-color: currentColor;
+            background: rgba(255, 255, 255, 0.15);
+        }
+        
+        .student-status {
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+        
+        .status-active {
+            background-color: rgba(76, 175, 80, 0.3);
+            color: #a5d6a7;
+        }
+        
+        .status-eliminated {
+            background-color: rgba(244, 67, 54, 0.3);
+            color: #ffab91;
+        }
+        
+        .status-winner {
+            background-color: rgba(255, 193, 7, 0.3);
+            color: #ffecb3;
+        }
+        
+        .question-area {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            flex-grow: 1;
+        }
+        
+        .question-text {
+            font-size: 2.8rem;
+            font-weight: bold;
+            color: #ffcc66;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .options-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .option-btn {
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            background: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .option-btn:hover:not(:disabled) {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .option-btn.selected {
+            background: rgba(91, 134, 229, 0.3);
+            border-color: #5b86e5;
+        }
+        
+        .option-btn.correct {
+            background: rgba(76, 175, 80, 0.3);
+            border-color: #4CAF50;
+        }
+        
+        .option-btn.wrong {
+            background: rgba(244, 67, 54, 0.3);
+            border-color: #F44336;
+        }
+        
+        .option-btn:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        
+        .student-score {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .score-value {
+            color: #ffcc66;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+        
+        .winner-announcement {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: linear-gradient(135deg, #1a2a6c, #2d4a8a);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            z-index: 100;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+            width: 90%;
+            max-width: 600px;
+            display: none;
+        }
+        
+        .winner-announcement.show {
+            display: block;
+            animation: popIn 0.5s ease forwards;
+        }
+        
+        @keyframes popIn {
+            0% { transform: translate(-50%, -50%) scale(0.7); opacity: 0; }
+            100% { transform: translate(-50%, -50%) scale(1); opacity: 1; }
+        }
+        
+        .winner-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #ffcc66;
+        }
+        
+        .winner-name {
+            font-size: 3.5rem;
+            color: #ff9966;
+            margin-bottom: 30px;
+            text-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        .close-winner-btn {
+            background: linear-gradient(to right, #ff5e62, #ff9966);
+            color: white;
+            margin: 0 auto;
+        }
+        
+        .instructions {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 30px;
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        
+        .instructions h3 {
+            color: #ffcc66;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+        
+        .instructions ul {
+            padding-left: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+        }
+        
+        .current-round {
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: #ffcc66;
+            font-weight: bold;
+        }
+        
+        .setup-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .setup-title {
+            font-size: 1.8rem;
+            color: #ffcc66;
+        }
+        
+        .name-inputs {
+            display: flex;
+            gap: 30px;
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .name-input-container {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+        }
+        
+        .name-input-container label {
+            display: block;
+            margin-bottom: 8px;
+            color: #aac8ff;
+            font-weight: bold;
+        }
+        
+        .round-progress {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .round-dot {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .round-dot.active {
+            background: #ffcc66;
+            transform: scale(1.2);
+        }
+        
+        .answers-count {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+            font-size: 1.1rem;
+            color: #aac8ff;
+        }
+        
+        .answers-count span {
+            color: #ffcc66;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 1200px) {
+            .students-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .students-container {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .game-info {
+                flex-direction: column;
+            }
+            
+            .controls {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            button {
+                width: 100%;
+                max-width: 300px;
+                justify-content: center;
+            }
+            
+            .name-inputs {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .name-input-container {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .question-text {
+                font-size: 2.2rem;
+                min-height: 80px;
+            }
+        }
+        
+        .correct-answer {
+            animation: correctFlash 0.5s ease;
+        }
+        
+        .wrong-answer {
+            animation: wrongFlash 0.5s ease;
+        }
+        
+        @keyframes correctFlash {
+            0%, 100% { background-color: rgba(76, 175, 80, 0.1); }
+            50% { background-color: rgba(76, 175, 80, 0.5); }
+        }
+        
+        @keyframes wrongFlash {
+            0%, 100% { background-color: rgba(244, 67, 54, 0.1); }
+            50% { background-color: rgba(244, 67, 54, 0.5); }
+        }
+        
+        .all-answered {
+            animation: pulse 1.5s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+            100% { transform: scale(1); }
+        }
+        
+        .duel-mode {
+            text-align: center;
+            font-size: 1.3rem;
+            color: #ffcc00;
+            margin: 10px 0;
+            font-weight: bold;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ELTARENA - DUEL MODE</h1>
+            <div class="subtitle">PLAY and ENJOY</div>
+        </header>
+        
+        <div class="setup-area" id="setupArea">
+            <div class="setup-title">Enter Player Names</div>
+            <div class="name-inputs">
+                <div class="name-input-container">
+                    <label for="student1Name">Player 1</label>
+                    <input type="text" class="student-name-input" id="student1Name" placeholder="Enter name" value="Player 1">
+                </div>
+                <div class="name-input-container">
+                    <label for="student2Name">Player 2</label>
+                    <input type="text" class="student-name-input" id="student2Name" placeholder="Enter name" value="Player 2">
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="start-btn" id="startBtn">
+                <i class="fas fa-play"></i> Start Duel
+            </button>
+            <button class="next-round-btn" id="nextRoundBtn">
+                <i class="fas fa-forward"></i> Next Round
+            </button>
+            <button class="restart-btn" id="restartBtn" style="display: none;">
+                <i class="fas fa-redo-alt"></i> New Duel
+            </button>
+            <button class="fullscreen-btn" id="fullscreenBtn">
+                <i class="fas fa-expand"></i> Fullscreen
+            </button>
+        </div>
+        
+        <div class="current-round" id="currentRound" style="display: none;">Round 1</div>
+        
+        <div class="duel-mode" id="duelModeNotice" style="display: none;">
+            ⚔️ DUEL MODE - First player to be eliminated loses! ⚔️
+        </div>
+        
+        <div class="answers-count" id="answersCount" style="display: none;">
+            Answers this round: <span id="answeredCount">0</span> / <span id="totalActiveCount">2</span>
+        </div>
+        
+        <div class="game-info" id="gameInfo" style="display: none;">
+            <div class="info-box">
+                <div class="info-label">Active Players</div>
+                <div class="info-value" id="activePlayers">2</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Round</div>
+                <div class="info-value" id="currentRoundNum">1</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Total Questions</div>
+                <div class="info-value" id="questionsAsked">0</div>
+            </div>
+            <div class="info-box">
+                <div class="info-label">Correct Answers</div>
+                <div class="info-value" id="correctAnswers">0</div>
+            </div>
+        </div>
+        
+        <div class="students-container" id="studentsContainer">
+            <!-- Student cards will be generated here -->
+        </div>
+        
+        <div class="instructions" id="gameInstructions">
+            <h3>2-Player Duel Mode Rules:</h3>
+            <ul>
+                <li>Two players face off in an infinite duel</li>
+                <li>Each round, both players get 1 question</li>
+                <li>Click directly on the Turkish meaning to submit your answer</li>
+                <li>Correct answer = 1 point, you stay in the game</li>
+                <li>Wrong answer = you're eliminated!</li>
+                <li>Game continues until one player is eliminated</li>
+                <li>After both players answer, click "Next Round" to continue</li>
+                <li>No round limit - duel continues until a winner is decided!</li>
+                <li>The last player standing wins the duel!</li>
+            </ul>
+            <p><strong>Note:</strong> Enter player names before starting the duel. Answers are submitted immediately when you click an option.</p>
+        </div>
+        
+        <div class="winner-announcement" id="winnerAnnouncement">
+            <div class="winner-title">🏆 DUEL WINNER! 🏆</div>
+            <div class="winner-name" id="winnerName">Player Name</div>
+            <p>Congratulations! You won the duel!</p>
+            <p id="winnerScore">Final Score: 5 points | Rounds Survived: 5</p>
+            <button class="close-winner-btn" id="closeWinnerBtn">
+                <i class="fas fa-trophy"></i> Continue
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Game data - A1/A2 level verbs with Turkish meanings
+        const verbData = [
+            { verb: "argue", turkish: "tartışmak" },
+            { verb: "count on", turkish: "güvenmek" },
+            { verb: "trust", turkish: "güvenmek" },
+            { verb: "back sb up", turkish: "güvenmek" },
+            { verb: "best friend", turkish: "en iyi arkadaş" },
+            { verb: "buddy/friend/mate", turkish: "arkadaş" },
+            { verb: "get on well with sb", turkish: "biriyle iyi geçinmek" },
+            { verb: "spend time", turkish: "vakit geçirmek" },
+            { verb: "tell the truth", turkish: "doğruyu söylemek" },
+            { verb: "tell lies", turkish: "yalanlar söylemek" },
+            { verb: "have similar interests", turkish: "benzer ilgi alanlarına sahip olmak" },
+            { verb: "share", turkish: "paylaşmak" },
+            { verb: "secret", turkish: "sır" },
+            { verb: "generous", turkish: "cömert" },
+            { verb: "self-diciplined", turkish: "öz disiplinli" },
+            { verb: "selfish", turkish: "bencil" },
+            { verb: "adventurous", turkish: "maceracı" },
+            { verb: "amusing", turkish: "eğlenceli" },
+            { verb: "helpful", turkish: "yardımsever" },
+            { verb: "kind/polite", turkish: "kibar" },
+            { verb: "supportive", turkish: "destekleyici" },
+            { verb: "reliable", turkish: "güvenilir" },
+            { verb: "unreliable", turkish: "güvenilmez" },
+            { verb: "truthful", turkish: "doğru sözlü" },
+            { verb: "laid-back", turkish: "gamsız" },
+            { verb: "honest", turkish: "dürüst" },
+            { verb: "stubborn", turkish: "inatçı" },
+            { verb: "attend", turkish: "katılmak" },
+            { verb: "join", turkish: "katılmak" },
+            { verb: "book fair", turkish: "kitap fuarı" },
+            { verb: "exhibition", turkish: "sergi" },
+            { verb: "cycling", turkish: "bisiklet sürmek" },
+            { verb: "ride a bike", turkish: "bisiklete binmek" },
+            { verb: "event", turkish: "etkinlik" },
+            { verb: "movie theatre", turkish: "sinema salonu" },
+            { verb: "barbecue", turkish: "mangal" },
+            { verb: "meet", turkish: "buluşmak" },
+            { verb: "reunion", turkish: "yeniden bir araya gelme" },
+            { verb: "science fair", turkish: "bilim fuarı" },
+            { verb: "slumber party", turkish: "pijama partisi" },
+            { verb: "visit", turkish: "ziyaret etmek" },
+            { verb: "science fiction / sci-fi", turkish: "bilim kurgu" },
+            { verb: "be interested in", turkish: "ilgili olmak" },
+            { verb: "beverage", turkish: "içecek" },
+            { verb: "bring", turkish: "getirmek" },
+            { verb: "busy", turkish: "meşgul/yoğun" },
+            { verb: "come over", turkish: "uğramak" },
+            { verb: "dessert", turkish: "tatlı" },
+            { verb: "exam", turkish: "sınav" },
+            { verb: "full", turkish: "dolu/tok" },
+            { verb: "stuffed", turkish: "tok/tıka basa dolu" },
+            { verb: "hungry", turkish: "aç" },
+            { verb: "however", turkish: "ama/fakat" },
+            { verb: "main course", turkish: "ana yemek" },
+            { verb: "miss a chance", turkish: "şansı kaçırmak" },
+            { verb: "can't accept", turkish: "kabul edememek" },
+            { verb: "can't refuse", turkish: "reddedememek" },
+            { verb: "band", turkish: "müzik grubu" },
+            { verb: "opportunity", turkish: "fırsat" },
+            { verb: "order", turkish: "sipariş vermek" },
+            { verb: "pick sb up", turkish: "birisini araçla almak" },
+            { verb: "play", turkish: "tiyatro oyunu/piyes" },
+            { verb: "same", turkish: "aynı" },
+            { verb: "similar", turkish: "benzer" },
+            { verb: "study", turkish: "ders çalışmak" },
+            { verb: "teenager", turkish: "genç" },
+            { verb: "text", turkish: "mesaj yazmak" },
+            { verb: "ticket", turkish: "bilet" },
+            { verb: "together", turkish: "birlikte" },
+            { verb: "until", turkish: "-e kadar" },
+            { verb: "apologize", turkish: "özür dilemek" },
+            { verb: "date", turkish: "tarih" },
+            { verb: "deadline", turkish: "son tarih" },
+            { verb: "fee", turkish: "ücret" },
+            { verb: "give a reason", turkish: "sebep bildirmek" },
+            { verb: "make an excuse", turkish: "bahane sunmak" },
+            { verb: "invite", turkish: "davet etmek" },
+            { verb: "invitation", turkish: "davet" },
+            { verb: "invitee", turkish: "davet edilen" },
+            { verb: "inviter", turkish: "davet eden" },
+            { verb: "location", turkish: "konum/yer" },
+            { verb: "offer", turkish: "teklif/öneri" },
+            { verb: "place", turkish: "yer" },
+            { verb: "time", turkish: "saat" },
+            { verb: "price", turkish: "ücret" },
+            { verb: "refuse", turkish: "reddetmek" },
+            { verb: "sender", turkish: "gönderen" },
+            { verb: "receiver", turkish: "alıcı" },
+            { verb: "take place", turkish: "yer almak" },
+            { verb: "tomorrow", turkish: "yarın" },
+            { verb: "nothing", turkish: "hiçbir şey" },
+            { verb: "not at all", turkish: "pek yok" },
+            { verb: "awesome", turkish: "harika" },
+            { verb: "more information", turkish: "daha fazla bilgi" },
+            { verb: "more details", turkish: "daha fazla detay" },
+            { verb: "parents", turkish: "ebeveyn" },
+            { verb: "relatives", turkish: "akrabalar" },
+            { verb: "grandfather", turkish: "büyükbaba/dede" },
+            { verb: "grandmother", turkish: "büyükanne/nine" },
+            { verb: "homework", turkish: "ödev" },
+            { verb: "paintings", turkish: "tablolar" },
+            { verb: "sculptures", turkish: "heykeller" },
+            { verb: "weekend", turkish: "hafta sonu" }
+        ];
+
+        // Game state
+        const gameState = {
+            students: [],
+            usedVerbs: new Set(),
+            currentRound: 1,
+            gameActive: false,
+            activePlayers: 2,
+            questionsAsked: 0,
+            correctAnswers: 0
+        };
+
+        // Initialize the game
+        function initGame() {
+            // Get student names from inputs
+            const studentNames = [
+                document.getElementById('student1Name').value || "Player 1",
+                document.getElementById('student2Name').value || "Player 2"
+            ];
+            
+            // Reset game state
+            gameState.students = [];
+            gameState.usedVerbs = new Set();
+            gameState.currentRound = 1;
+            gameState.gameActive = true;
+            gameState.activePlayers = 2;
+            gameState.questionsAsked = 0;
+            gameState.correctAnswers = 0;
+            
+            // Hide winner announcement
+            document.getElementById('winnerAnnouncement').classList.remove('show');
+            
+            // Hide buttons and notices
+            document.getElementById('nextRoundBtn').style.display = 'none';
+            document.getElementById('duelModeNotice').style.display = 'block';
+            
+            // Show game elements
+            document.getElementById('currentRound').style.display = 'block';
+            document.getElementById('gameInfo').style.display = 'flex';
+            document.getElementById('answersCount').style.display = 'flex';
+            document.getElementById('gameInstructions').style.display = 'none';
+            document.getElementById('setupArea').style.display = 'none';
+            
+            // Update UI
+            updateGameInfo();
+            document.getElementById('currentRound').textContent = `Round ${gameState.currentRound}`;
+            
+            // Hide start button, show restart button
+            document.getElementById('startBtn').style.display = 'none';
+            document.getElementById('restartBtn').style.display = 'flex';
+            
+            // Clear container
+            const container = document.getElementById('studentsContainer');
+            container.innerHTML = '';
+            
+            // Create student cards
+            for (let i = 0; i < 2; i++) {
+                // Create student object
+                const student = {
+                    id: i,
+                    name: studentNames[i],
+                    verbs: [], // Will be populated each round
+                    currentQuestion: 0,
+                    score: 0,
+                    active: true,
+                    eliminated: false,
+                    selectedOption: null,
+                    answeredCurrentRound: false
+                };
+                
+                gameState.students.push(student);
+                
+                // Create student card HTML
+                const card = document.createElement('div');
+                card.className = `student-card student-card-${i+1}`;
+                card.id = `student-${i}`;
+                
+                card.innerHTML = `
+                    <div class="student-header">
+                        <div class="student-name">${student.name}</div>
+                        <div class="student-status status-active">Active</div>
+                    </div>
+                    <div class="question-area">
+                        <div class="question-text" id="question-${i}">Waiting for duel to start...</div>
+                        <div class="options-container" id="options-${i}">
+                            <!-- Options will be generated here -->
+                        </div>
+                    </div>
+                    <div class="student-score">
+                        Score: <span class="score-value" id="score-${i}">0</span> | Rounds: <span class="score-value" id="qnum-${i}">0</span>
+                    </div>
+                `;
+                
+                container.appendChild(card);
+            }
+            
+            // Start the first round
+            startNewRound();
+        }
+
+        // Start a new round
+        function startNewRound() {
+            // Update round display
+            document.getElementById('currentRound').textContent = `Round ${gameState.currentRound}`;
+            document.getElementById('currentRoundNum').textContent = gameState.currentRound;
+            
+            // Update answers count
+            updateAnswersCount();
+            
+            // Hide Next Round button initially
+            document.getElementById('nextRoundBtn').style.display = 'none';
+            document.getElementById('nextRoundBtn').classList.remove('all-answered');
+            
+            // Reset answered status for all active students
+            gameState.students.forEach(student => {
+                if (student.active) {
+                    student.answeredCurrentRound = false;
+                    student.selectedOption = null;
+                }
+            });
+            
+            // Assign new verbs to all active students for this round
+            gameState.students.forEach(student => {
+                if (student.active) {
+                    // Find a unique verb for this student in this round
+                    let randomVerb;
+                    let attempts = 0;
+                    const maxAttempts = 100;
+                    
+                    do {
+                        randomVerb = verbData[Math.floor(Math.random() * verbData.length)];
+                        attempts++;
+                    } while ((gameState.usedVerbs.has(randomVerb.verb) || student.verbs.some(v => v.verb === randomVerb.verb)) && attempts < maxAttempts);
+                    
+                    if (attempts < maxAttempts) {
+                        gameState.usedVerbs.add(randomVerb.verb);
+                        student.verbs.push(randomVerb);
+                        
+                        // Update question display
+                        const questionEl = document.getElementById(`question-${student.id}`);
+                        questionEl.textContent = randomVerb.verb;
+                        
+                        // Generate multiple choice options
+                        generateOptionsForStudent(student.id, randomVerb);
+                        
+                        // Enable the student's card
+                        const card = document.getElementById(`student-${student.id}`);
+                        card.classList.remove('eliminated');
+                        
+                        // Update question number display
+                        document.getElementById(`qnum-${student.id}`).textContent = student.verbs.length;
+                    } else {
+                        // If we can't find a unique verb, reset used verbs and try again
+                        console.warn(`Could not find unique verb for ${student.name}, resetting used verbs`);
+                        gameState.usedVerbs.clear();
+                        randomVerb = verbData[Math.floor(Math.random() * verbData.length)];
+                        gameState.usedVerbs.add(randomVerb.verb);
+                        student.verbs.push(randomVerb);
+                        
+                        // Update question display
+                        const questionEl = document.getElementById(`question-${student.id}`);
+                        questionEl.textContent = randomVerb.verb;
+                        
+                        // Generate multiple choice options
+                        generateOptionsForStudent(student.id, randomVerb);
+                        
+                        // Update question number display
+                        document.getElementById(`qnum-${student.id}`).textContent = student.verbs.length;
+                    }
+                } else {
+                    // For eliminated students, clear their options
+                    const optionsContainer = document.getElementById(`options-${student.id}`);
+                    if (optionsContainer) {
+                        optionsContainer.innerHTML = '';
+                    }
+                }
+            });
+        }
+
+        // Update answers count
+        function updateAnswersCount() {
+            const activeStudents = gameState.students.filter(student => student.active);
+            const answeredCount = gameState.students.filter(student => student.active && student.answeredCurrentRound).length;
+            
+            document.getElementById('answeredCount').textContent = answeredCount;
+            document.getElementById('totalActiveCount').textContent = activeStudents.length;
+            
+            // Show Next Round button when all active players have answered
+            if (answeredCount === activeStudents.length && activeStudents.length > 0) {
+                showNextRoundButton();
+            }
+        }
+
+        // Show Next Round button
+        function showNextRoundButton() {
+            const activeStudents = gameState.students.filter(student => student.active);
+            
+            if (activeStudents.length === 2) {
+                // Both players are still active, show Next Round button
+                document.getElementById('nextRoundBtn').style.display = 'flex';
+                document.getElementById('nextRoundBtn').classList.add('all-answered');
+            } else if (activeStudents.length === 1) {
+                // Only one player left - declare winner
+                setTimeout(() => {
+                    declareWinner(activeStudents[0]);
+                }, 1000);
+            } else {
+                // No active players (shouldn't happen in 2-player mode)
+                document.getElementById('currentRound').textContent = "Game over! No winners.";
+                gameState.gameActive = false;
+                updateGameInfo();
+            }
+        }
+
+        // Generate multiple choice options for a student
+        function generateOptionsForStudent(studentId, verb) {
+            const student = gameState.students[studentId];
+            if (!student.active) return;
+            
+            const currentVerb = verb || student.verbs[student.verbs.length - 1];
+            if (!currentVerb) return;
+            
+            const optionsContainer = document.getElementById(`options-${studentId}`);
+            optionsContainer.innerHTML = '';
+            
+            // Create correct answer and 3 random incorrect answers
+            const allTurkishMeanings = verbData.map(v => v.turkish);
+            const incorrectOptions = [];
+            
+            // Get 3 unique incorrect options
+            while (incorrectOptions.length < 3) {
+                const randomIndex = Math.floor(Math.random() * allTurkishMeanings.length);
+                const randomTurkish = allTurkishMeanings[randomIndex];
+                
+                // Make sure it's not the correct answer and not already in the list
+                if (randomTurkish !== currentVerb.turkish && !incorrectOptions.includes(randomTurkish)) {
+                    incorrectOptions.push(randomTurkish);
+                }
+            }
+            
+            // Combine correct and incorrect options
+            const allOptions = [currentVerb.turkish, ...incorrectOptions];
+            
+            // Shuffle the options
+            shuffleArray(allOptions);
+            
+            // Create option buttons
+            allOptions.forEach((option, index) => {
+                const optionBtn = document.createElement('button');
+                optionBtn.className = 'option-btn';
+                optionBtn.textContent = option;
+                optionBtn.dataset.optionIndex = index;
+                optionBtn.dataset.turkish = option;
+                
+                // Direct answer submission on click
+                optionBtn.onclick = () => submitAnswer(studentId, option, currentVerb);
+                
+                optionsContainer.appendChild(optionBtn);
+            });
+        }
+
+        // Shuffle array (Fisher-Yates algorithm)
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+
+        // Submit answer (immediately when option is clicked)
+        function submitAnswer(studentId, turkish, verb) {
+            if (!gameState.gameActive) return;
+            
+            const student = gameState.students[studentId];
+            if (!student.active || student.answeredCurrentRound) return;
+            
+            const currentVerb = verb || student.verbs[student.verbs.length - 1];
+            const userAnswer = turkish;
+            const correctAnswer = currentVerb.turkish;
+            
+            // Mark the option as selected
+            const optionButtons = document.querySelectorAll(`#options-${studentId} .option-btn`);
+            optionButtons.forEach(btn => {
+                btn.classList.remove('selected');
+                if (btn.dataset.turkish === userAnswer) {
+                    btn.classList.add('selected');
+                }
+            });
+            
+            gameState.questionsAsked++;
+            student.answeredCurrentRound = true;
+            student.selectedOption = userAnswer;
+            
+            // Check if answer is correct
+            if (userAnswer === correctAnswer) {
+                // Correct answer
+                student.score++;
+                gameState.correctAnswers++;
+                
+                // Visual feedback
+                const card = document.getElementById(`student-${studentId}`);
+                card.classList.add('correct-answer');
+                
+                // Highlight correct option
+                optionButtons.forEach(btn => {
+                    if (btn.dataset.turkish === correctAnswer) {
+                        btn.classList.add('correct');
+                    }
+                });
+                
+                // Disable all options
+                optionButtons.forEach(btn => {
+                    btn.disabled = true;
+                });
+                
+                // Remove animation after delay
+                setTimeout(() => {
+                    card.classList.remove('correct-answer');
+                }, 1000);
+            } else {
+                // Wrong answer - eliminate student
+                student.active = false;
+                student.eliminated = true;
+                gameState.activePlayers--;
+                
+                // Visual feedback
+                const card = document.getElementById(`student-${studentId}`);
+                card.classList.add('wrong-answer');
+                card.classList.add('eliminated');
+                
+                // Highlight correct and wrong options
+                optionButtons.forEach(btn => {
+                    if (btn.dataset.turkish === correctAnswer) {
+                        btn.classList.add('correct');
+                    } else if (btn.dataset.turkish === userAnswer) {
+                        btn.classList.add('wrong');
+                    }
+                    btn.disabled = true;
+                });
+                
+                // Update status
+                const statusEl = document.querySelector(`#student-${studentId} .student-status`);
+                statusEl.textContent = "Eliminated";
+                statusEl.className = "student-status status-eliminated";
+                
+                // Remove animation after delay
+                setTimeout(() => {
+                    card.classList.remove('wrong-answer');
+                }, 1000);
+                
+                // Check if game should end
+                const activeStudents = gameState.students.filter(student => student.active);
+                if (activeStudents.length === 1) {
+                    // Only one player left - declare winner
+                    setTimeout(() => {
+                        declareWinner(activeStudents[0]);
+                    }, 1000);
+                }
+            }
+            
+            // Update score display
+            document.getElementById(`score-${studentId}`).textContent = student.score;
+            
+            // Update game info
+            updateGameInfo();
+            
+            // Update answers count
+            updateAnswersCount();
+        }
+
+        // Update game info display
+        function updateGameInfo() {
+            document.getElementById('activePlayers').textContent = gameState.activePlayers;
+            document.getElementById('questionsAsked').textContent = gameState.questionsAsked;
+            document.getElementById('correctAnswers').textContent = gameState.correctAnswers;
+            document.getElementById('currentRoundNum').textContent = gameState.currentRound;
+            
+            if (!gameState.gameActive) {
+                document.getElementById('duelModeNotice').textContent = "⚔️ DUEL FINISHED! ⚔️";
+            }
+        }
+
+        // Advance to next round
+        function advanceRound() {
+            // Remove animation from button
+            document.getElementById('nextRoundBtn').classList.remove('all-answered');
+            
+            // Move to next round
+            gameState.currentRound++;
+            startNewRound();
+        }
+
+        // Declare winner
+        function declareWinner(student) {
+            gameState.gameActive = false;
+            
+            // Update winner announcement
+            document.getElementById('winnerName').textContent = student.name;
+            document.getElementById('winnerScore').textContent = `Final Score: ${student.score} points | Rounds Survived: ${gameState.currentRound}`;
+            
+            // Show winner announcement
+            document.getElementById('winnerAnnouncement').classList.add('show');
+            
+            // Update game status
+            document.getElementById('currentRound').textContent = `${student.name} wins the duel in Round ${gameState.currentRound}!`;
+            
+            updateGameInfo();
+            
+            // Hide Next Round button
+            document.getElementById('nextRoundBtn').style.display = 'none';
+        }
+
+        // Fullscreen functionality
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.log(`Error attempting to enable fullscreen: ${err.message}`);
+                });
+                document.getElementById('fullscreenBtn').innerHTML = '<i class="fas fa-compress"></i> Exit Fullscreen';
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                    document.getElementById('fullscreenBtn').innerHTML = '<i class="fas fa-expand"></i> Fullscreen';
+                }
+            }
+        }
+
+        // Reset to setup screen
+        function resetToSetup() {
+            // Hide game elements
+            document.getElementById('currentRound').style.display = 'none';
+            document.getElementById('gameInfo').style.display = 'none';
+            document.getElementById('answersCount').style.display = 'none';
+            document.getElementById('duelModeNotice').style.display = 'none';
+            document.getElementById('gameInstructions').style.display = 'block';
+            document.getElementById('setupArea').style.display = 'flex';
+            
+            // Show start button, hide restart button
+            document.getElementById('startBtn').style.display = 'flex';
+            document.getElementById('restartBtn').style.display = 'none';
+            document.getElementById('nextRoundBtn').style.display = 'none';
+            
+            // Clear student container
+            document.getElementById('studentsContainer').innerHTML = '';
+            
+            // Hide winner announcement
+            document.getElementById('winnerAnnouncement').classList.remove('show');
+        }
+
+        // Event listeners
+        document.getElementById('startBtn').addEventListener('click', initGame);
+        document.getElementById('restartBtn').addEventListener('click', resetToSetup);
+        document.getElementById('fullscreenBtn').addEventListener('click', toggleFullscreen);
+        document.getElementById('nextRoundBtn').addEventListener('click', advanceRound);
+        document.getElementById('closeWinnerBtn').addEventListener('click', () => {
+            document.getElementById('winnerAnnouncement').classList.remove('show');
+        });
+
+        // Exit fullscreen handler
+        document.addEventListener('fullscreenchange', () => {
+            if (!document.fullscreenElement) {
+                document.getElementById('fullscreenBtn').innerHTML = '<i class="fas fa-expand"></i> Fullscreen';
+            }
+        });
+    </script>
+</body>
+</html>

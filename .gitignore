@@ -1,35 +1,26 @@
 # ENG HUB — what stays out of the repository
 #
-# The USB build is ~1.3 GB and most of it is other people's material (MEB course
-# books, teacher worksheets from eltarena, activity banks, mirrored sites). The
-# repository carries the program and the decks that were written for it; every
-# downloaded file is rebuilt with the scripts in tools/.
+# Everything the program needs is committed, including the downloaded course
+# material: it is all published openly by MEB and by the teachers who share on
+# eltarena.com, and this project only brings it together in one place. Author
+# names travel with every file (see the manifests).
+#
+# Only three things are left out:
+#   1. files GitHub refuses (>100 MB) — they are attached to the Release instead
+#   2. throwaway caches and logs
+#   3. editor backups
 
-# course books and theme sheets (MEB / publisher material)
-res/
+# 1) too big for git — download from the Releases page if you want to rebuild
+res/book.pdf
+res/book_8.pdf
+content/g5/u6/worksheets/01 5th Grade Theme 6 Worksheet Elif Nur.pdf
 
-# bundled portable interpreter (21 MB, fetched by tools/get_python_win.py)
-runtime/
-
-# generated content
-content/**/worksheets/*
-!content/**/worksheets/manifest.json
-content/**/games/
-content/**/sites/
-content/**/presentation/pages/
-content/**/presentation/img/
-content/**/presentation/*.bak
-
-# freely licensed pictures fetched per word (tools/fetch_word_images.py)
-app/img/words/*.jpg
-
-# snapshots of the source catalogue
-app/data/catalog.json
-app/data/source-index.json
-app/data/books.json
+# 2) caches, logs, raw API dumps
 tools/cache/
 tools/logs/
+content/**/games/_raw.json
 
-# python
+# 3) backups and python leftovers
+content/**/presentation/*.bak
 __pycache__/
 *.pyc

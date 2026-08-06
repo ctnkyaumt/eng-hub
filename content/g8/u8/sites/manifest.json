@@ -1,0 +1,65 @@
+{
+ "items": [
+  {
+   "title": "8-8 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-8-ELTARENACUP-TOURNAMENT/",
+   "slug": "8-8-eltarenacup-tournament",
+   "kind": "game",
+   "path": "8-8-eltarenacup-tournament/index.html",
+   "files": 1
+  },
+  {
+   "title": "8-8 CHORES BİLveFETHET OYUN ( Recep Gökhan BARGAN )",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-8BILVEFETHET/",
+   "slug": "8-8bilvefethet",
+   "kind": "game",
+   "path": "8-8bilvefethet/index.html",
+   "files": 1
+  },
+  {
+   "title": "8-8 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN ) GÜNCEL",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8.8ELTARENACUPNEW/",
+   "slug": "8.8eltarenacupnew",
+   "kind": "game",
+   "path": "8.8eltarenacupnew/index.html",
+   "files": 1
+  },
+  {
+   "title": "Canbay Word Clash Unit 8 (MEB + Bilim&Kültür)",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/sunu/unit8/vocabulary/wordgame",
+   "slug": "wordgame",
+   "kind": "presentation",
+   "path": "wordgame/index.html",
+   "files": 73
+  },
+  {
+   "title": "[Sunum] 7 LGS practice tests in memory of İLBER ORTAYLI (Fatih SAYILAN)",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/fatih/tests/",
+   "slug": "tests",
+   "kind": "presentation"
+  },
+  {
+   "title": "8. Ünite Testler Akıllı Tahta Sunumu (Canbay)",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/sunu/unit8/",
+   "slug": "unit8",
+   "kind": "presentation",
+   "path": "unit8/index.html",
+   "files": 78
+  },
+  {
+   "title": "İnteraktif Revision Testler",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/revision/",
+   "slug": "revision",
+   "kind": "game",
+   "path": "revision/index.html",
+   "files": 17
+  }
+ ]
+}

@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Unit 7 – Vocabulary Test | Canbay İngilizce</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e8edf2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 8px 80px;
+}
+
+.color-bar, .color-bar-bottom, .page { width: calc(100% - 20px); max-width: 1900px; }
+
+.color-bar, .color-bar-bottom {
+  display: flex; height: 13px; overflow: hidden;
+}
+.color-bar { border-radius: 8px 8px 0 0; }
+.color-bar-bottom { border-radius: 0 0 8px 8px; margin-top: -1px; }
+.cb1 { background: #EF9A9A; flex: 1; }
+.cb2 { background: #A5D6A7; flex: 1; }
+.cb3 { background: #90CAF9; flex: 1; }
+.cb4 { background: #FFF176; flex: 1; }
+
+.page {
+  background: #fff;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.13);
+  overflow: hidden;
+}
+
+/* ── Header ── */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 14px;
+  border-bottom: 2px solid #f0f0f0;
+  gap: 10px;
+}
+.nav-links {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; font-weight: 700; color: #aaa; flex-shrink: 0;
+}
+.nav-links a { color: #1565C0; text-decoration: none; font-weight: 700; transition: color 0.15s; }
+.nav-links a:hover { color: #388E3C; }
+.nav-sep { color: #ccc; font-size: 15px; }
+.page-title { text-align: center; flex: 1; }
+.page-title .unit-label { font-size: 13px; font-weight: 700; color: #aaa; letter-spacing: 1px; text-transform: uppercase; }
+.page-title h1 { font-size: 22px; font-weight: 900; color: #1a237e; }
+.canbay-btn {
+  font-size: 13px; font-weight: 800; color: #E53935;
+  text-decoration: none; background: #fff; border: 2px solid #E53935;
+  border-radius: 8px; padding: 6px 14px; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.canbay-btn:hover { background: #FFEBEE; transform: translateY(-1px); }
+.fullscreen-btn {
+  font-size: 13px; font-weight: 800; color: #1565C0;
+  background: #fff; border: 2px solid #1565C0;
+  border-radius: 8px; padding: 6px 14px; cursor: pointer;
+  font-family: inherit; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.fullscreen-btn:hover { background: #E3F2FD; transform: translateY(-1px); }
+
+/* ── Test header band ── */
+.test-header {
+  background: #A5D6A7;
+  color: #1b5e20;
+  text-align: center;
+  padding: 18px 14px 14px;
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.test-sub {
+  font-size: 14px; font-weight: 600; opacity: 0.85;
+  margin-top: 4px; letter-spacing: 0; text-transform: none;
+}
+
+/* ── Question boxes ── */
+.test-q-wrap { padding: 16px 14px 8px; }
+.test-q-box {
+  background: #F8F9FA;
+  border: 2px solid #E0E0E0;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+.test-q-label {
+  font-size: 20px; font-weight: 700; color: #388E3C;
+  margin-bottom: 10px; display: flex; align-items: flex-start; gap: 8px;
+}
+.test-q-num {
+  background: #388E3C; color: #fff; border-radius: 50%;
+  width: 28px; height: 28px; font-size: 14px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+
+/* Sol içerik — sağ şıklar */
+.q-img-opts { display: flex; gap: 16px; align-items: flex-start; }
+.q-img-side { flex: 1; min-width: 0; }
+.q-opts-side { flex: 1; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+
+.test-content-box {
+  background: #fff;
+  border: 1.5px dashed #B0BEC5;
+  border-radius: 8px;
+  padding: 14px 16px;
+  font-size: 20px;
+  line-height: 1.85;
+  color: #333;
+}
+
+.test-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.test-opt {
+  border: 2px solid #CFD8DC; border-radius: 10px;
+  background: #fff; padding: 10px 14px;
+  font-size: 20px; font-weight: 600; color: #333;
+  cursor: pointer; font-family: inherit; text-align: left;
+  transition: all 0.15s; display: flex; align-items: center; gap: 10px;
+}
+.test-opt:hover { border-color: #388E3C; background: #E8F5E9; }
+.test-opt .opt-letter {
+  background: #388E3C; color: #fff; border-radius: 6px;
+  width: 26px; height: 26px; font-size: 13px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.test-opt.selected  { border-color: #388E3C; background: #E8F5E9; }
+.test-opt.correct   { border-color: #4CAF50; background: #E8F5E9; color: #1B5E20; }
+.test-opt.correct .opt-letter { background: #4CAF50; }
+.test-opt.wrong     { border-color: #F44336; background: #FFEBEE; color: #B71C1C; }
+.test-opt.wrong .opt-letter   { background: #F44336; }
+.test-opt.answered  { pointer-events: none; }
+
+/* ── Buttons ── */
+.btn-row { display: flex; justify-content: center; gap: 16px; padding: 14px; }
+.btn {
+  border: none; border-radius: 28px;
+  font-size: 15px; font-weight: 700; padding: 12px 36px;
+  cursor: pointer; font-family: inherit; transition: all 0.2s;
+}
+.btn-check { background: #388E3C; color: #fff; }
+.btn-check:hover { background: #2E7D32; transform: translateY(-2px); }
+.btn-reset { background: #607D8B; color: #fff; }
+.btn-reset:hover { background: #455A64; }
+.btn-next  { background: #1565C0; color: #fff; }
+.btn-next:hover { background: #0D47A1; transform: translateY(-2px); }
+.btn-timer { background: #00796B; color: #fff; min-width: 130px; }
+.btn-timer:hover { background: #004D40; transform: translateY(-2px); }
+.btn-timer.warning { background: #E65100; }
+.btn-timer.danger  { background: #B71C1C; }
+
+/* ── Copyright ── */
+.copyright {
+  text-align: center; padding: 14px 14px 10px;
+  font-size: 12px; color: #9E9E9E; font-weight: 600;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* ── Fixed bottom bar ── */
+.bottom-bar {
+  position: fixed;
+  bottom: 0; left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #fff;
+  border-top: 3px solid #7B1C1C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 20px;
+  box-shadow: 0 -3px 16px rgba(0,0,0,0.15);
+}
+.bar-btn {
+  border: none; border-radius: 8px;
+  font-size: 14px; font-weight: 800;
+  padding: 8px 18px;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.18s; white-space: nowrap;
+}
+.bar-btn-fs { background: #7B1C1C; color: #fff; border: 2px solid #7B1C1C; }
+.bar-btn-fs:hover { background: #5D1010; border-color: #5D1010; }
+.bar-btn-zoom {
+  background: transparent; color: #7B1C1C;
+  border: 2px solid rgba(123,28,28,0.4);
+  font-size: 18px; padding: 6px 16px;
+}
+.bar-btn-zoom:hover { background: rgba(123,28,28,0.08); border-color: #7B1C1C; }
+.bar-zoom-label { color: #555; font-size: 13px; font-weight: 700; min-width: 40px; text-align: center; }
+.bar-divider { width: 1px; height: 32px; background: rgba(123,28,28,0.2); flex-shrink: 0; }
+.bar-btn-draw {
+  background: transparent; color: #333;
+  border: 2px solid rgba(0,0,0,0.2);
+  font-size: 13px; padding: 7px 14px;
+  gap: 5px; display: flex; align-items: center;
+}
+.bar-btn-draw:hover { background: rgba(0,0,0,0.06); border-color: #555; }
+.bar-btn-draw.active { background: #7B1C1C; color: #fff; border-color: #7B1C1C; }
+.bar-btn-draw.active-highlight { background: #FFF176; color: #333; border-color: #e6c800; }
+.bar-btn-clear {
+  background: transparent; color: #C62828;
+  border: 2px solid rgba(198,40,40,0.35);
+  font-size: 13px; padding: 7px 14px;
+}
+.bar-btn-clear:hover { background: rgba(198,40,40,0.08); border-color: #C62828; }
+.bar-btn-end { background: #7B1C1C; color: #fff; border: 2px solid #7B1C1C; font-size: 13px; padding: 7px 14px; }
+.bar-btn-end:hover { background: #5D1010; border-color: #5D1010; }
+.bar-logo { height: 32px; opacity: 0.7; flex-shrink: 0; }
+.bar-btn-home { background: transparent; color: #7B1C1C; border: 2px solid rgba(123,28,28,0.4); border-radius: 8px; font-size: 20px; padding: 5px 12px; text-decoration: none; transition: all 0.18s; line-height: 1; }
+.bar-btn-home:hover { background: rgba(123,28,28,0.08); border-color: #7B1C1C; }
+.bar-clock { margin-left: auto; font-size: 18px; font-weight: 800; color: #7B1C1C; letter-spacing: 1px; flex-shrink: 0; }
+#drawCanvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9998; pointer-events: none; cursor: crosshair; }
+@media (max-width: 1024px) { .bottom-bar { display: none; } body { padding-bottom: 20px; } }
+
+/* ════════════════════════ MOBILE ════════════════════════ */
+@media (max-width: 700px) {
+  body { padding: 8px 6px 20px; }
+  .color-bar, .color-bar-bottom, .page { width: calc(100% - 12px); }
+  .page-header { flex-wrap: wrap; padding: 10px 12px 8px; gap: 6px; }
+  .nav-links { font-size: 11px; order: 1; flex: 1 1 100%; }
+  .page-title { order: 2; flex: 1 1 auto; }
+  .page-title h1 { font-size: 16px; }
+  .canbay-btn { font-size: 11px; padding: 5px 10px; order: 3; }
+  .test-header { font-size: 16px; padding: 14px 10px 10px; }
+  .test-q-wrap { padding: 10px 10px 4px; }
+  .q-img-opts { flex-direction: column; }
+  .q-opts-side { width: 100%; }
+  .test-opt { font-size: 14px; }
+  .btn { font-size: 13px; padding: 10px 22px; }
+}
+</style>
+</head>
+<body>
+
+<div class="color-bar">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<div class="page">
+
+  <div class="page-header">
+    <div class="nav-links">
+      <a href="https://canbay.netlify.app/sunu/">Sunumlar</a>
+      <span class="nav-sep">/</span>
+      <a href="https://canbay.netlify.app/sunu/unit7/">Unit 7</a>
+      <span class="nav-sep">/</span>
+      <span>Vocabulary Test</span>
+    </div>
+    <div class="page-title">
+      <div class="unit-label">Unit 7</div>
+      <h1>Vocabulary Test</h1>
+    </div>
+    <button type="button" class="fullscreen-btn" id="fsBtn" onclick="toggleFullscreen()">⛶ Tam Ekran</button>
+    <a href="https://canbay.netlify.app/" target="_blank" rel="noopener" class="canbay-btn">© CANBAY</a>
+  </div>
+
+  <div class="test-header">
+    Unit 7 &nbsp;·&nbsp; Vocabulary Test
+    <div class="test-sub">20 Questions &nbsp;|&nbsp; Choose the correct answer</div>
+  </div>
+
+  <div class="test-q-wrap" id="testWrap"></div>
+
+  <div class="btn-row">
+    <button type="button" class="btn btn-reset" onclick="resetTest()">↺ Reset All</button>
+    <button type="button" class="btn btn-next" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Başa Dön</button>
+  </div>
+
+  <div class="copyright">
+    © 2026 CANBAY &amp; CANBAY. Tüm hakları saklıdır. İzinsiz kopyalanamaz, çoğaltılamaz ve dağıtılamaz.
+  </div>
+
+</div>
+
+<div class="color-bar-bottom">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<script>
+const TEST_QUESTIONS = [
+  {
+    num: 1,
+    content: `John doesn't want to spend a lot of money on his holiday. He is looking for a <b>…………</b> hotel near the seaside.`,
+    options: ['crowded', 'historic', 'cheap', 'noisy'],
+    ans: 'C'
+  },
+  {
+    num: 2,
+    content: `Claire doesn't like paying for meals and activities. She always stays at a(n) <b>…………</b> hotel because everything is ready for her.`,
+    options: ['clean', 'all-inclusive', 'urban', 'ancient'],
+    ans: 'B'
+  },
+  {
+    num: 3,
+    content: `Ryan visited Rome with his school. The old buildings and temples were amazing, and he never saw such beautiful <b>…………</b> before.`,
+    options: ['abroad', 'culture', 'heritage', 'architecture'],
+    ans: 'D'
+  },
+  {
+    num: 4,
+    content: `Chloe doesn't like busy cities or historic sites. She prefers spending her holiday at the <b>…………</b> because it is more relaxing than going on a sightseeing tour.`,
+    options: ['seaside', 'amphitheater', 'temples', 'vacation'],
+    ans: 'A'
+  },
+  {
+    num: 5,
+    content: `Tom didn't want to miss a room on the cruise ship. Before the holiday, he called the company and <b>…………</b> a room for himself and Martha.`,
+    options: ['tasted', 'explored', 'booked', 'packed'],
+    ans: 'C'
+  },
+  {
+    num: 6,
+    content: `Rose didn't want to travel by plane. She booked a room on a <b>…………</b> and planned to sail at night and visit the islands during the day.`,
+    options: ['resort', 'destination', 'attraction', 'cruise'],
+    ans: 'D'
+  },
+  {
+    num: 7,
+    content: `Maria doesn't like staying in big and crowded cities. She prefers quiet and green areas away from the city. She loves the natural beauty of the <b>…………</b> .`,
+    options: ['countryside', 'resort', 'architecture', 'heritage'],
+    ans: 'A'
+  },
+  {
+    num: 8,
+    content: `Jane loves travelling by ship. She told us that sailing at night and visiting the islands during the day is much more <b>…………</b> than travelling by plane.`,
+    options: ['national', 'delicious', 'famous', 'enjoyable'],
+    ans: 'D'
+  },
+  {
+    num: 9,
+    content: `Jim thinks all-inclusive hotels are the best option for a holiday. However, Sue cannot stay there because the price is too high. It is too <b>…………</b> for her.`,
+    options: ['dirty', 'cheap', 'expensive', 'clean'],
+    ans: 'C'
+  },
+  {
+    num: 10,
+    content: `Stella had a wonderful time in Istanbul. Turkish people were kind and <b>…………</b> .`,
+    options: ['noisy', 'rude', 'expensive', 'hospitable'],
+    ans: 'D'
+  },
+  {
+    num: 11,
+    content: `Peter admired Turkish people during his holiday in Istanbul. They took good care of their historical and <b>………..  </b> heritage.`,
+    options: ['natural', 'hospitable', 'cheap', 'urban'],
+    ans: 'A'
+  },
+  {
+    num: 12,
+    content: `Laura didn't enjoy her time in Paris at all. The streets were full of people and cars. She couldn't sleep well at night because the city was too <b>…………</b> for her.`,
+    options: ['fascinating', 'noisy', 'incredible', 'cultural'],
+    ans: 'B'
+  },
+  {
+    num: 13,
+    content: `Riley thinks that she would rather book a room on a cruise <b>……………</b> for their Caribbean holiday.`,
+    options: ['bus', 'plane', 'ship', 'train'],
+    ans: 'C'
+  },
+  {
+    num: 14,
+    content: `Griffin loves all-inclusive hotels because everything is ready for him. He always chooses to <b>…………</b> at an all-inclusive hotel when he goes on holiday.`,
+    options: ['taste', 'explore', 'stay', 'travel'],
+    ans: 'C'
+  },
+  {
+    num: 15,
+    content: `Lena loved everything about Istanbul. The city was ancient and beautiful. The <b>…………</b> was perfect during her holiday there.`,
+    options: ['weather', 'souvenir', 'plane', 'cruise'],
+    ans: 'A'
+  },
+  {
+    num: 16,
+    content: `Oliver thinks that Istanbul is one of the most beautiful cities in the world. He would like to <b>…………</b> it again.`,
+    options: ['prepare', 'visit', 'stay', 'book'],
+    ans: 'B'
+  },
+  {
+    num: 17,
+    content: `Janet enjoyed her holiday in Istanbul very much. She visited museums and historic sites. She also tasted <b>…………</b> dishes like kebab and lahmacun.`,
+    options: ['attractive', 'religious', 'traditional', 'historical'],
+    ans: 'C'
+  },
+  {
+    num: 18,
+    content: `Oscar doesn't enjoy busy sightseeing tours or crowded cities. He prefers going to the seaside because it is more <b>…………</b> than staying in an urban area.`,
+    options: ['ancient', 'relaxing', 'crowded', 'expensive'],
+    ans: 'B'
+  },
+  {
+    num: 19,
+    content: `Harry and his classmates visited many famous places in Rome. The Colosseum was the most popular tourist <b>…………</b> they saw on their school trip.`,
+    options: ['attraction', 'city', 'accommodation', 'weather'],
+    ans: 'A'
+  },
+  {
+    num: 20,
+    content: `To me, Antalya is a wonderful place to visit. We can swim in the <b>…………</b> water and sunbath on the golden beaches there.`,
+    options: ['expensive', 'dirty', 'noisy', 'clean'],
+    ans: 'D'
+  },
+];
+
+let testSelections = {};
+
+function buildTest() {
+  const wrap = document.getElementById('testWrap');
+  wrap.innerHTML = '';
+  TEST_QUESTIONS.forEach((q, qi) => {
+    const box = document.createElement('div');
+    box.className = 'test-q-box';
+    box.id = `qbox-${qi}`;
+
+    const label = document.createElement('div');
+    label.className = 'test-q-label';
+    label.innerHTML = `<span class="test-q-num">${q.num}</span><span>Choose the correct word.</span>`;
+    box.appendChild(label);
+
+    const qWrap = document.createElement('div');
+    qWrap.className = 'q-img-opts';
+
+    // Sol: metin kutusu
+    const leftSide = document.createElement('div');
+    leftSide.className = 'q-img-side';
+    const cb = document.createElement('div');
+    cb.className = 'test-content-box';
+    cb.innerHTML = q.content;
+    leftSide.appendChild(cb);
+    qWrap.appendChild(leftSide);
+
+    // Sağ: şıklar
+    const optsSide = document.createElement('div');
+    optsSide.className = 'q-opts-side';
+    ['A','B','C','D'].forEach((letter, li) => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'test-opt';
+      btn.id = `topt-${qi}-${letter}`;
+      btn.innerHTML = `<span class="opt-letter">${letter}</span>${q.options[li]}`;
+      btn.addEventListener('click', () => revealAnswer(qi, letter));
+      optsSide.appendChild(btn);
+    });
+    qWrap.appendChild(optsSide);
+    box.appendChild(qWrap);
+
+    // Buton satırı
+    const qBtnRow = document.createElement('div');
+    qBtnRow.style.cssText = 'display:flex;align-items:center;gap:10px;margin-top:12px;';
+
+    const showBtn = document.createElement('button');
+    showBtn.type = 'button';
+    showBtn.className = 'btn btn-check';
+    showBtn.style.cssText = 'font-size:13px;padding:8px 22px;';
+    showBtn.textContent = '👁 Show Answer';
+    showBtn.addEventListener('click', () => revealAnswer(qi, null));
+    qBtnRow.appendChild(showBtn);
+
+    const resetBtn = document.createElement('button');
+    resetBtn.type = 'button';
+    resetBtn.className = 'btn btn-reset';
+    resetBtn.style.cssText = 'font-size:13px;padding:8px 18px;';
+    resetBtn.textContent = '↺';
+    resetBtn.addEventListener('click', () => resetSingleQ(qi));
+    qBtnRow.appendChild(resetBtn);
+
+    const feedbackEl = document.createElement('span');
+    feedbackEl.id = `tfeedback-${qi}`;
+    feedbackEl.style.cssText = 'font-size:14px;font-weight:700;';
+    qBtnRow.appendChild(feedbackEl);
+
+    // Timer
+    const timerBtn = document.createElement('button');
+    timerBtn.type = 'button';
+    timerBtn.className = 'btn btn-timer';
+    timerBtn.style.cssText = 'font-size:13px;padding:8px 22px;margin-left:auto;';
+    timerBtn.textContent = '⏱ Start Timer';
+    timerBtn.id = `timer-${qi}`;
+    timerBtn.addEventListener('click', () => startTimer(qi));
+    qBtnRow.appendChild(timerBtn);
+
+    // Next Question
+    if (qi < TEST_QUESTIONS.length - 1) {
+      const nextBtn = document.createElement('button');
+      nextBtn.type = 'button';
+      nextBtn.className = 'btn btn-next';
+      nextBtn.style.cssText = 'font-size:13px;padding:8px 22px;';
+      nextBtn.textContent = 'Next Question ↓';
+      nextBtn.addEventListener('click', () => {
+        const nextBox = document.getElementById(`qbox-${qi + 1}`);
+        if (nextBox) nextBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      qBtnRow.appendChild(nextBtn);
+    }
+
+    box.appendChild(qBtnRow);
+    wrap.appendChild(box);
+  });
+}
+
+function revealAnswer(qi, selected) {
+  const q = TEST_QUESTIONS[qi];
+  const fb = document.getElementById(`tfeedback-${qi}`);
+
+  ['A','B','C','D'].forEach(l => {
+    const b = document.getElementById(`topt-${qi}-${l}`);
+    b.classList.remove('selected','correct','wrong','answered');
+    b.classList.add('answered');
+  });
+  document.getElementById(`topt-${qi}-${q.ans}`).classList.add('correct');
+
+  if (selected === null) {
+    fb.style.color = '#1565C0'; fb.textContent = `✓ Answer: ${q.ans}`;
+  } else if (selected === q.ans) {
+    fb.style.color = '#2E7D32'; fb.textContent = '🎉 Correct!';
+  } else {
+    document.getElementById(`topt-${qi}-${selected}`).classList.add('wrong');
+    fb.style.color = '#B71C1C'; fb.textContent = `✗ The answer is ${q.ans}`;
+  }
+  testSelections[qi] = selected || q.ans;
+}
+
+function resetSingleQ(qi) {
+  delete testSelections[qi];
+  ['A','B','C','D'].forEach(l => {
+    const b = document.getElementById(`topt-${qi}-${l}`);
+    if (b) b.classList.remove('selected','correct','wrong','answered');
+  });
+  const fb = document.getElementById(`tfeedback-${qi}`);
+  if (fb) fb.textContent = '';
+  stopTimer(qi);
+}
+
+function resetTest() {
+  testSelections = {};
+  TEST_QUESTIONS.forEach((_, qi) => resetSingleQ(qi));
+}
+
+// ── Timer ──
+const timerIntervals = {};
+
+function startTimer(qi) {
+  const btn = document.getElementById(`timer-${qi}`);
+  if (!btn) return;
+  if (timerIntervals[qi]) { stopTimer(qi); return; }
+
+  let remaining = 60;
+  updateTimerBtn(btn, remaining);
+
+  timerIntervals[qi] = setInterval(() => {
+    remaining--;
+    updateTimerBtn(btn, remaining);
+    if (remaining <= 10) btn.className = 'btn btn-timer danger';
+    else if (remaining <= 30) btn.className = 'btn btn-timer warning';
+    if (remaining <= 0) {
+      clearInterval(timerIntervals[qi]);
+      delete timerIntervals[qi];
+      btn.className = 'btn btn-timer danger';
+      btn.textContent = '⏱ 0:00';
+      playBeep();
+    }
+  }, 1000);
+}
+
+function stopTimer(qi) {
+  if (timerIntervals[qi]) { clearInterval(timerIntervals[qi]); delete timerIntervals[qi]; }
+  const btn = document.getElementById(`timer-${qi}`);
+  if (btn) { btn.className = 'btn btn-timer'; btn.textContent = '⏱ Start Timer'; }
+}
+
+function updateTimerBtn(btn, seconds) {
+  const m = Math.floor(seconds / 60);
+  const s = seconds % 60;
+  btn.textContent = `⏱ ${m}:${s.toString().padStart(2,'0')}`;
+}
+
+function playBeep() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    [0, 0.3, 0.6].forEach(delay => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine'; osc.frequency.value = 880;
+      gain.gain.setValueAtTime(0.6, ctx.currentTime + delay);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + delay + 0.4);
+      osc.start(ctx.currentTime + delay);
+      osc.stop(ctx.currentTime + delay + 0.4);
+    });
+  } catch(e) {}
+}
+
+buildTest();
+
+// ── Kopyalama koruması ──
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && ['a','c','s','u','p'].includes(e.key.toLowerCase())) e.preventDefault();
+  if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && ['i','j','c'].includes(e.key.toLowerCase()))) e.preventDefault();
+});
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('selectstart', e => e.preventDefault());
+document.addEventListener('copy',        e => e.preventDefault());
+document.addEventListener('cut',         e => e.preventDefault());
+document.addEventListener('dragstart',   e => e.preventDefault());
+
+// ── Fullscreen ──
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(() => {});
+    document.getElementById('fsBtn').textContent = '✕ Tam Ekrandan Çık';
+    document.getElementById('barFsBtn').textContent = '✕ Tam Ekrandan Çık';
+  } else {
+    document.exitFullscreen();
+    document.getElementById('fsBtn').textContent = '⛶ Tam Ekran';
+    document.getElementById('barFsBtn').textContent = '⛶ Tam Ekran';
+  }
+}
+document.addEventListener('fullscreenchange', () => {
+  if (!document.fullscreenElement) {
+    document.getElementById('fsBtn').textContent = '⛶ Tam Ekran';
+    document.getElementById('barFsBtn').textContent = '⛶ Tam Ekran';
+  }
+});
+</script>
+
+<!-- Drawing canvas -->
+<canvas id="drawCanvas"></canvas>
+
+<!-- Fixed bottom bar -->
+<div class="bottom-bar">
+  <a class='bar-btn bar-btn-home' href='index.html' title='Ana Sayfa'>🏠</a>
+  <div class="bar-divider"></div>
+  <img src="images/canbay.png" alt="Canbay" class="bar-logo">
+  <div class="bar-divider"></div>
+  <button type="button" class="bar-btn bar-btn-fs" id="barFsBtn" onclick="toggleFullscreen()">⛶ Tam Ekran</button>
+  <button type="button" class="bar-btn bar-btn-zoom" onclick="zoomOut()">−</button>
+  <span class="bar-zoom-label" id="zoomLabel">100%</span>
+  <button type="button" class="bar-btn bar-btn-zoom" onclick="zoomIn()">+</button>
+  <div class="bar-divider"></div>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnPen"       onclick="setTool('pen')">✏️ Kalem</button>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnHighlight" onclick="setTool('highlight')">🖊️ Fosforlu</button>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnEraser"    onclick="setTool('eraser')">🧹 Silgi</button>
+  <button type="button" class="bar-btn bar-btn-clear" onclick="clearCanvas()">🗑️ Tümünü Sil</button>
+  <button type="button" class="bar-btn bar-btn-end"  onclick="endDrawing()">✖ Çizimi Bitir</button>
+  <div class="bar-divider"></div>
+  <span class="bar-clock" id="barClock"></span>
+</div>
+
+<script>
+const canvas = document.getElementById('drawCanvas');
+const ctx = canvas.getContext('2d');
+let drawing = false, currentTool = null, hlSnapshot = null, hlPath = [];
+function resizeCanvas() {
+  const tmp = canvas.toDataURL();
+  canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+  const img = new Image(); img.onload = () => ctx.drawImage(img, 0, 0); img.src = tmp;
+}
+window.addEventListener('resize', resizeCanvas); resizeCanvas();
+function setTool(tool) {
+  if (currentTool === tool) { endDrawing(); return; }
+  currentTool = tool; canvas.style.pointerEvents = 'auto';
+  ['btnPen','btnHighlight','btnEraser'].forEach(id => document.getElementById(id).classList.remove('active','active-highlight'));
+  if (tool === 'pen')       document.getElementById('btnPen').classList.add('active');
+  if (tool === 'highlight') document.getElementById('btnHighlight').classList.add('active-highlight');
+  if (tool === 'eraser')    document.getElementById('btnEraser').classList.add('active');
+  canvas.style.cursor = tool === 'eraser' ? 'cell' : 'crosshair';
+}
+function endDrawing() {
+  currentTool = null; canvas.style.pointerEvents = 'none'; canvas.style.cursor = 'default';
+  ['btnPen','btnHighlight','btnEraser'].forEach(id => document.getElementById(id).classList.remove('active','active-highlight'));
+}
+function clearCanvas() { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+function getPos(e) { const t = e.touches ? e.touches[0] : e; return { x: t.clientX, y: t.clientY }; }
+canvas.addEventListener('mousedown', startDraw); canvas.addEventListener('mousemove', moveDraw);
+canvas.addEventListener('mouseup', stopDraw); canvas.addEventListener('mouseleave', stopDraw);
+canvas.addEventListener('touchstart', e => { e.preventDefault(); startDraw(e); }, { passive: false });
+canvas.addEventListener('touchmove',  e => { e.preventDefault(); moveDraw(e);  }, { passive: false });
+canvas.addEventListener('touchend', stopDraw);
+function startDraw(e) {
+  if (!currentTool) return; drawing = true;
+  const { x, y } = getPos(e);
+  if (currentTool === 'highlight') { hlSnapshot = ctx.getImageData(0, 0, canvas.width, canvas.height); hlPath = [{ x, y }]; }
+  else { ctx.beginPath(); ctx.moveTo(x, y); }
+}
+function moveDraw(e) {
+  if (!drawing || !currentTool) return;
+  const { x, y } = getPos(e);
+  if (currentTool === 'pen') {
+    ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 1;
+    ctx.strokeStyle = '#E53935'; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.lineTo(x, y); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x, y);
+  } else if (currentTool === 'highlight') {
+    hlPath.push({ x, y }); ctx.putImageData(hlSnapshot, 0, 0); ctx.save();
+    ctx.globalAlpha = 0.28; ctx.globalCompositeOperation = 'source-over';
+    ctx.strokeStyle = '#FFD600'; ctx.lineWidth = 22; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.beginPath(); ctx.moveTo(hlPath[0].x, hlPath[0].y);
+    for (let i = 1; i < hlPath.length; i++) ctx.lineTo(hlPath[i].x, hlPath[i].y);
+    ctx.stroke(); ctx.restore();
+  } else if (currentTool === 'eraser') {
+    ctx.globalCompositeOperation = 'destination-out'; ctx.globalAlpha = 1;
+    ctx.lineWidth = 28; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.lineTo(x, y); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x, y);
+  }
+}
+function stopDraw() { hlSnapshot = null; hlPath = []; drawing = false; ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 1; }
+let currentZoom = 1.0;
+const ZOOM_STEP = 0.1, ZOOM_MIN = 0.5, ZOOM_MAX = 2.0;
+function applyZoom() { document.querySelector('.page').style.zoom = currentZoom; document.getElementById('zoomLabel').textContent = Math.round(currentZoom * 100) + '%'; }
+function zoomIn()  { if (currentZoom < ZOOM_MAX) { currentZoom = Math.round((currentZoom + ZOOM_STEP) * 10) / 10; applyZoom(); } }
+function zoomOut() { if (currentZoom > ZOOM_MIN) { currentZoom = Math.round((currentZoom - ZOOM_STEP) * 10) / 10; applyZoom(); } }
+function updateClock() {
+  const now = new Date();
+  document.getElementById('barClock').textContent = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+}
+updateClock(); setInterval(updateClock, 1000);
+</script>
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js" ></script><script async src="https://scripts.simpleanalyticscdn.com/auto-events.js" data-extensions="pdf,csv,docx,xlsx,zip,doc,xls"></script></body>
+</html>

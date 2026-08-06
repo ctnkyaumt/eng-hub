@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Canbay ELT İngilizce Testler, Sunumlar ve Oyunlar</title>
+<meta name="description" content="Canbay ELT, 5. ve 8. sınıf öğrencileri için LGS uyumlu özgün İngilizce deneme sınavları, yeni nesil sorular, kelime testleri ve eğitici oyunları tamamen ücretsiz sunar.">
+<meta name="keywords" content="İngilizce, Canbay, ELT, ingilizce canbay, LGS, canbay ingilizce, deneme sınavları, kelime testleri, oyunlar, PDF indirme, interaktif oyunlar, 8. sınıf İngilizce, ilyas, gönül, ingilizce testler">
+<meta name="robots" content="index, follow">
+<meta name="bingbot" content="index, follow">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="canonical" href="../_root/index.html">
+<link rel="shortcut icon" href="images/favicon.png" type="image/png">
+<link rel="manifest" href="../_root/manifest.json">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e8edf2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 8px 40px;
+}
+
+.color-bar, .color-bar-bottom, .page {
+  width: calc(100% - 20px);
+  max-width: 1900px;
+}
+
+/* ── Color bar ── */
+.color-bar, .color-bar-bottom {
+  display: flex;
+  height: 13px;
+  overflow: hidden;
+}
+.color-bar { border-radius: 8px 8px 0 0; }
+.color-bar-bottom { border-radius: 0 0 8px 8px; margin-top: -1px; }
+.cb1 { background: #EF9A9A; flex: 1; }
+.cb2 { background: #A5D6A7; flex: 1; }
+.cb3 { background: #90CAF9; flex: 1; }
+.cb4 { background: #FFF176; flex: 1; }
+
+/* ── Page wrapper ── */
+.page {
+  background: #fff;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.13);
+  overflow: hidden;
+}
+
+/* ── Header ── */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 14px;
+  border-bottom: 2px solid #f0f0f0;
+  gap: 10px;
+}
+.header-logo { height: 52px; width: auto; flex-shrink: 0; }
+.page-title { text-align: center; flex: 1; }
+.page-title .unit-label { font-size: 15px; font-weight: 700; color: #555; letter-spacing: 1px; text-transform: uppercase; }
+.page-title h1 { font-size: 30px; font-weight: 900; color: #4d4d4d; letter-spacing: 0.5px; line-height: 1.2; }
+.canbay-btn {
+  font-size: 13px; font-weight: 800; color: #E53935;
+  text-decoration: none; background: #fff;
+  border: 2px solid #E53935; border-radius: 8px;
+  padding: 6px 14px; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.canbay-btn:hover { background: #FFEBEE; transform: translateY(-1px); }
+
+/* ── Subtitle ── */
+.subtitle {
+  text-align: center;
+  padding: 8px 12px 4px;
+  font-size: 15px;
+  color: #666;
+  font-weight: 500;
+}
+
+/* ── Card grid ── */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 14px 12px 18px;
+}
+
+/* ── Individual card ── */
+.test-card {
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+  transition: transform 0.22s, box-shadow 0.22s;
+  cursor: pointer;
+}
+.test-card:hover { transform: translateY(-6px) scale(1.02); box-shadow: 0 12px 36px rgba(0,0,0,0.18); }
+.test-card:active { transform: translateY(-2px) scale(1.01); }
+
+/* Card top */
+.card-top {
+  padding: 28px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+.card-icon { font-size: 48px; line-height: 1; filter: drop-shadow(0 3px 6px rgba(0,0,0,0.15)); }
+.card-title { font-size: 18px; font-weight: 900; text-align: center; line-height: 1.3; }
+.card-author { font-size: 13px; font-weight: 600; opacity: 0.85; text-align: center; }
+
+/* Card bottom */
+.card-bottom {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+.card-arrow { font-size: 18px; transition: transform 0.2s; }
+.test-card:hover .card-arrow { transform: translateX(5px); }
+
+/* ── Card color themes ── */
+.card-red .card-top    { background: #FFEBEE; color: #4d4d4d; }
+.card-red .card-bottom { background: #FFCDD2; color: #4d4d4d; }
+
+.card-green .card-top    { background: #E8F5E9; color: #4d4d4d; }
+.card-green .card-bottom { background: #C8E6C9; color: #4d4d4d; }
+
+.card-blue .card-top    { background: #E3F2FD; color: #4d4d4d; }
+.card-blue .card-bottom { background: #BBDEFB; color: #4d4d4d; }
+
+.card-orange .card-top    { background: #FFF3E0; color: #4d4d4d; }
+.card-orange .card-bottom { background: #FFE0B2; color: #4d4d4d; }
+
+.card-purple .card-top    { background: #F3E5F5; color: #4d4d4d; }
+.card-purple .card-bottom { background: #E1BEE7; color: #4d4d4d; }
+
+.card-teal .card-top    { background: #E0F2F1; color: #4d4d4d; }
+.card-teal .card-bottom { background: #B2DFDB; color: #4d4d4d; }
+
+.card-yellow .card-top    { background: #FFFDE7; color: #4d4d4d; }
+.card-yellow .card-bottom { background: #FFF9C4; color: #4d4d4d; }
+
+.card-peach .card-top    { background: #FFE5B4; color: #4d4d4d; }
+.card-peach .card-bottom { background: #FFCC80; color: #4d4d4d; }
+
+.card-cyan .card-top    { background: #E0F7FA; color: #4d4d4d; }
+.card-cyan .card-bottom { background: #B2EBF2; color: #4d4d4d; }
+
+/* ── Copyright ── */
+.copyright {
+  text-align: center;
+  padding: 14px 14px 10px;
+  font-size: 12px;
+  color: #9E9E9E;
+  font-weight: 600;
+  border-top: 1px solid #f0f0f0;
+  line-height: 1.8;
+}
+.copyright a { color: #9E9E9E; }
+
+/* ── Mobile ── */
+@media (max-width: 700px) {
+  body { padding: 8px 6px 20px; }
+  .color-bar, .color-bar-bottom, .page { width: calc(100% - 12px); }
+  .page-header { padding: 10px 12px 8px; flex-wrap: wrap; gap: 6px; }
+  .header-logo { height: 38px; }
+  .page-title { order: 2; flex: 1 1 auto; }
+  .page-title h1 { font-size: 20px; }
+  .page-title .unit-label { font-size: 12px; }
+  .canbay-btn { font-size: 11px; padding: 5px 10px; order: 3; }
+  .subtitle { font-size: 13px; padding: 6px 10px 2px; }
+  .card-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 12px 12px 18px; }
+  .card-icon { font-size: 34px; }
+  .card-title { font-size: 14px; }
+  .card-author { font-size: 11px; }
+  .card-top { padding: 18px 10px 12px; gap: 6px; }
+  .card-bottom { font-size: 14px; padding: 10px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Top color bar -->
+<div class="color-bar">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<div class="page">
+
+  <!-- Header -->
+  <div class="page-header">
+    <img src="images/favicon.png" alt="Canbay İngilizce" class="header-logo">
+    <div class="page-title">
+      <div class="unit-label">8. Sınıf İngilizce</div>
+      <h1>Canbay İngilizce</h1>
+    </div>
+    <a href="https://www.instagram.com/ilyascanby" target="_blank" rel="noopener" class="canbay-btn">📸 Instagram</a>
+  </div>
+
+  <div class="subtitle">Bir bölüme gitmek için tıkla.</div>
+
+  <!-- Card grid -->
+  <div class="card-grid">
+
+    <a class='test-card card-teal' href='../_root/vocabulary/8/index.html'>
+      <div class="card-top">
+        <div class="card-icon">📖</div>
+        <div class="card-title">8. Sınıf Kelime Testleri</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a class='test-card card-yellow' href='../_root/revision/index.html'>
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf Revision Testleri</div>
+        <div class="card-author">Tekrar Testleri</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="sunu" class="test-card card-blue">
+      <div class="card-top">
+        <div class="card-icon">🖥️</div>
+        <div class="card-title">8. Sınıf Test Sunumları</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="year5" class="test-card card-orange">
+      <div class="card-top">
+        <div class="card-icon">📋</div>
+        <div class="card-title">5. Sınıf Testler &amp; Sunumlar</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="games" class="test-card card-purple">
+      <div class="card-top">
+        <div class="card-icon">🎮</div>
+        <div class="card-title">8. Sınıf Oyunlar</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="canbay" class="test-card card-cyan">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">Canbay Ünite Denemeleri</div>
+        <div class="card-author">8. Sınıf</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="fatih/denemeler" class="test-card card-yellow">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">Fatih Sayılan Ünite Denemeleri</div>
+        <div class="card-author">8. Sınıf</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit1" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 1. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit2" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 2. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit3" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 3. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit4" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 4. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit5" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 5. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit6" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 6. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit7" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 7. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit8" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 8. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="unit9" class="test-card card-red">
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-title">8. Sınıf 9. Ünite Testler</div>
+        <div class="card-author">Gönül &amp; İlyas CANBAY</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+    <a href="fatih" class="test-card card-yellow">
+      <div class="card-top">
+        <div class="card-icon">📖</div>
+        <div class="card-title">Fatih Sayılan LGS Çalışmaları</div>
+        <div class="card-author">Fatih Sayılan</div>
+      </div>
+      <div class="card-bottom">Git &nbsp;<span class="card-arrow">→</span></div>
+    </a>
+
+
+  </div><!-- .card-grid -->
+
+  <!-- Copyright -->
+  <div class="copyright">
+    © 2025-2026 Gönül &amp; İlyas CANBAY | Tüm hakları saklıdır. |
+    <a href="gizlilik">Gizlilik Politikası</a> | <a href="hakkimizda">Hakkımızda</a><br>
+    Bu sitedeki tüm kaynaklar ücretsizdir ve yalnızca eğitim-öğretim amaçlı sunulmaktadır.
+  </div>
+
+</div><!-- .page -->
+
+<!-- Bottom color bar -->
+<div class="color-bar-bottom">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<!-- Analytics -->
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js" ></script><script async src="https://scripts.simpleanalyticscdn.com/auto-events.js" data-extensions="pdf,csv,docx,xlsx,zip,doc,xls"></script></body>
+</html>

@@ -1,0 +1,913 @@
+{
+ "generated": "2026-08-06 12:27",
+ "grades": [
+  {
+   "id": "g5",
+   "no": 5,
+   "title": "5. Sınıf",
+   "units": [
+    {
+     "id": "u1",
+     "no": 1,
+     "title": "School Life",
+     "titleTr": "Okul Hayatı",
+     "emoji": "🏫",
+     "sourceUnitId": 319,
+     "onlineGames": 48,
+     "books": 7,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 158,
+      "worksheets": 7,
+      "offlineSites": 1,
+      "sourceWorksheets": 9,
+      "sourceGames": 4
+     }
+    },
+    {
+     "id": "u2",
+     "no": 2,
+     "title": "Classroom Life",
+     "titleTr": "Sınıf Hayatı",
+     "emoji": "✏️",
+     "sourceUnitId": 320,
+     "onlineGames": 36,
+     "books": 4,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 428,
+      "worksheets": 9,
+      "offlineSites": 2,
+      "sourceWorksheets": 11,
+      "sourceGames": 20
+     }
+    },
+    {
+     "id": "u3",
+     "no": 3,
+     "title": "Personal Life",
+     "titleTr": "Kişisel Hayat",
+     "emoji": "🙋",
+     "sourceUnitId": 321,
+     "onlineGames": 41,
+     "books": 3,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 0,
+      "worksheets": 8,
+      "offlineSites": 4,
+      "sourceWorksheets": 13,
+      "sourceGames": 0
+     }
+    },
+    {
+     "id": "u4",
+     "no": 4,
+     "title": "Family Life",
+     "titleTr": "Aile Hayatı",
+     "emoji": "👨‍👩‍👧",
+     "sourceUnitId": 322,
+     "onlineGames": 39,
+     "books": 3,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 128,
+      "worksheets": 4,
+      "offlineSites": 4,
+      "sourceWorksheets": 9,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u5",
+     "no": 5,
+     "title": "Life in the Neighbourhood & City",
+     "titleTr": "Mahalle ve Şehir Hayatı",
+     "emoji": "🏙️",
+     "sourceUnitId": 323,
+     "onlineGames": 40,
+     "books": 3,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 176,
+      "worksheets": 4,
+      "offlineSites": 3,
+      "sourceWorksheets": 7,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u6",
+     "no": 6,
+     "title": "Life in the World",
+     "titleTr": "Dünyada Hayat",
+     "emoji": "🌍",
+     "sourceUnitId": 324,
+     "onlineGames": 31,
+     "books": 4,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 540,
+      "worksheets": 3,
+      "offlineSites": 3,
+      "sourceWorksheets": 6,
+      "sourceGames": 16
+     }
+    },
+    {
+     "id": "u7",
+     "no": 7,
+     "title": "Life in Nature",
+     "titleTr": "Doğada Hayat",
+     "emoji": "🌳",
+     "sourceUnitId": 325,
+     "onlineGames": 35,
+     "books": 3,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 304,
+      "worksheets": 3,
+      "offlineSites": 5,
+      "sourceWorksheets": 7,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u8",
+     "no": 8,
+     "title": "Life in the Universe & Future",
+     "titleTr": "Evren ve Gelecek",
+     "emoji": "🚀",
+     "sourceUnitId": 326,
+     "onlineGames": 35,
+     "books": 3,
+     "has": {
+      "presentation": true,
+      "games": false,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 0,
+      "worksheets": 3,
+      "offlineSites": 0,
+      "sourceWorksheets": 3,
+      "sourceGames": 0
+     }
+    },
+    {
+     "id": "u9",
+     "no": 9,
+     "title": "",
+     "titleTr": "",
+     "emoji": "📘",
+     "sourceUnitId": null,
+     "onlineGames": 0,
+     "books": 0,
+     "has": {
+      "presentation": false,
+      "games": false,
+      "worksheets": false
+     },
+     "counts": {
+      "games": 0,
+      "worksheets": 0,
+      "offlineSites": 0,
+      "sourceWorksheets": 0,
+      "sourceGames": 0
+     }
+    },
+    {
+     "id": "u10",
+     "no": 10,
+     "title": "",
+     "titleTr": "",
+     "emoji": "📘",
+     "sourceUnitId": null,
+     "onlineGames": 0,
+     "books": 0,
+     "has": {
+      "presentation": false,
+      "games": false,
+      "worksheets": false
+     },
+     "counts": {
+      "games": 0,
+      "worksheets": 0,
+      "offlineSites": 0,
+      "sourceWorksheets": 0,
+      "sourceGames": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "g6",
+   "no": 6,
+   "title": "6. Sınıf",
+   "units": [
+    {
+     "id": "u1",
+     "no": 1,
+     "title": "Life",
+     "titleTr": "Hayat",
+     "emoji": "🌅",
+     "sourceUnitId": 337,
+     "onlineGames": 41,
+     "books": 9,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 384,
+      "worksheets": 2,
+      "offlineSites": 1,
+      "sourceWorksheets": 3,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u2",
+     "no": 2,
+     "title": "Yummy Breakfast",
+     "titleTr": "Nefis Kahvaltı",
+     "emoji": "🍳",
+     "sourceUnitId": 338,
+     "onlineGames": 20,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 364,
+      "worksheets": 1,
+      "offlineSites": 0,
+      "sourceWorksheets": 1,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u3",
+     "no": 3,
+     "title": "Downtown",
+     "titleTr": "Şehir Merkezi",
+     "emoji": "🏬",
+     "sourceUnitId": 339,
+     "onlineGames": 25,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 408,
+      "worksheets": 3,
+      "offlineSites": 1,
+      "sourceWorksheets": 5,
+      "sourceGames": 12
+     }
+    },
+    {
+     "id": "u4",
+     "no": 4,
+     "title": "Weather and Emotions",
+     "titleTr": "Hava ve Duygular",
+     "emoji": "🌤️",
+     "sourceUnitId": 340,
+     "onlineGames": 35,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 546,
+      "worksheets": 3,
+      "offlineSites": 1,
+      "sourceWorksheets": 4,
+      "sourceGames": 17
+     }
+    },
+    {
+     "id": "u5",
+     "no": 5,
+     "title": "At the Fair",
+     "titleTr": "Lunaparkta",
+     "emoji": "🎡",
+     "sourceUnitId": 341,
+     "onlineGames": 30,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 64,
+      "worksheets": 3,
+      "offlineSites": 1,
+      "sourceWorksheets": 4,
+      "sourceGames": 4
+     }
+    },
+    {
+     "id": "u6",
+     "no": 6,
+     "title": "Occupations",
+     "titleTr": "Meslekler",
+     "emoji": "👩‍⚕️",
+     "sourceUnitId": 342,
+     "onlineGames": 25,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 208,
+      "worksheets": 4,
+      "offlineSites": 2,
+      "sourceWorksheets": 7,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u7",
+     "no": 7,
+     "title": "Holidays",
+     "titleTr": "Tatiller",
+     "emoji": "🏖️",
+     "sourceUnitId": 343,
+     "onlineGames": 15,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 368,
+      "worksheets": 2,
+      "offlineSites": 2,
+      "sourceWorksheets": 4,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u8",
+     "no": 8,
+     "title": "Bookworm",
+     "titleTr": "Kitap Kurdu",
+     "emoji": "📚",
+     "sourceUnitId": 344,
+     "onlineGames": 30,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 368,
+      "worksheets": 2,
+      "offlineSites": 0,
+      "sourceWorksheets": 2,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u9",
+     "no": 9,
+     "title": "Saving the Planet",
+     "titleTr": "Gezegeni Korumak",
+     "emoji": "♻️",
+     "sourceUnitId": 345,
+     "onlineGames": 25,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 328,
+      "worksheets": 3,
+      "offlineSites": 0,
+      "sourceWorksheets": 3,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u10",
+     "no": 10,
+     "title": "Democracy",
+     "titleTr": "Demokrasi",
+     "emoji": "🗳️",
+     "sourceUnitId": 346,
+     "onlineGames": 30,
+     "books": 2,
+     "has": {
+      "presentation": false,
+      "games": false,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 0,
+      "worksheets": 1,
+      "offlineSites": 0,
+      "sourceWorksheets": 2,
+      "sourceGames": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "g7",
+   "no": 7,
+   "title": "7. Sınıf",
+   "units": [
+    {
+     "id": "u1",
+     "no": 1,
+     "title": "Appearance and Personality",
+     "titleTr": "Görünüş ve Kişilik",
+     "emoji": "🧑‍🎤",
+     "sourceUnitId": 357,
+     "onlineGames": 37,
+     "books": 10,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 384,
+      "worksheets": 6,
+      "offlineSites": 0,
+      "sourceWorksheets": 6,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u2",
+     "no": 2,
+     "title": "Sports",
+     "titleTr": "Spor",
+     "emoji": "⚽",
+     "sourceUnitId": 358,
+     "onlineGames": 26,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 1018,
+      "worksheets": 4,
+      "offlineSites": 0,
+      "sourceWorksheets": 4,
+      "sourceGames": 30
+     }
+    },
+    {
+     "id": "u3",
+     "no": 3,
+     "title": "Biographies",
+     "titleTr": "Biyografiler",
+     "emoji": "📜",
+     "sourceUnitId": 359,
+     "onlineGames": 26,
+     "books": 4,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 432,
+      "worksheets": 4,
+      "offlineSites": 0,
+      "sourceWorksheets": 4,
+      "sourceGames": 12
+     }
+    },
+    {
+     "id": "u4",
+     "no": 4,
+     "title": "Wild Animals",
+     "titleTr": "Vahşi Hayvanlar",
+     "emoji": "🦁",
+     "sourceUnitId": 360,
+     "onlineGames": 30,
+     "books": 4,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 510,
+      "worksheets": 7,
+      "offlineSites": 0,
+      "sourceWorksheets": 7,
+      "sourceGames": 24
+     }
+    },
+    {
+     "id": "u5",
+     "no": 5,
+     "title": "Television",
+     "titleTr": "Televizyon",
+     "emoji": "📺",
+     "sourceUnitId": 361,
+     "onlineGames": 30,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 168,
+      "worksheets": 2,
+      "offlineSites": 0,
+      "sourceWorksheets": 2,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u6",
+     "no": 6,
+     "title": "Celebrations",
+     "titleTr": "Kutlamalar",
+     "emoji": "🎉",
+     "sourceUnitId": 362,
+     "onlineGames": 35,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 200,
+      "worksheets": 8,
+      "offlineSites": 0,
+      "sourceWorksheets": 8,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u7",
+     "no": 7,
+     "title": "Dreams",
+     "titleTr": "Hayaller",
+     "emoji": "💭",
+     "sourceUnitId": 363,
+     "onlineGames": 30,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 212,
+      "worksheets": 4,
+      "offlineSites": 1,
+      "sourceWorksheets": 5,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u8",
+     "no": 8,
+     "title": "Public Buildings",
+     "titleTr": "Kamu Binaları",
+     "emoji": "🏛️",
+     "sourceUnitId": 364,
+     "onlineGames": 25,
+     "books": 3,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 384,
+      "worksheets": 2,
+      "offlineSites": 0,
+      "sourceWorksheets": 2,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u9",
+     "no": 9,
+     "title": "Environment",
+     "titleTr": "Çevre",
+     "emoji": "🌱",
+     "sourceUnitId": 365,
+     "onlineGames": 29,
+     "books": 4,
+     "has": {
+      "presentation": false,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 376,
+      "worksheets": 4,
+      "offlineSites": 0,
+      "sourceWorksheets": 4,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u10",
+     "no": 10,
+     "title": "Planets",
+     "titleTr": "Gezegenler",
+     "emoji": "🪐",
+     "sourceUnitId": 366,
+     "onlineGames": 25,
+     "books": 4,
+     "has": {
+      "presentation": false,
+      "games": false,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 0,
+      "worksheets": 2,
+      "offlineSites": 0,
+      "sourceWorksheets": 2,
+      "sourceGames": 0
+     }
+    }
+   ]
+  },
+  {
+   "id": "g8",
+   "no": 8,
+   "title": "8. Sınıf",
+   "units": [
+    {
+     "id": "u1",
+     "no": 1,
+     "title": "Friendship",
+     "titleTr": "Arkadaşlık",
+     "emoji": "🤝",
+     "sourceUnitId": 367,
+     "onlineGames": 62,
+     "books": 13,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 660,
+      "worksheets": 2,
+      "offlineSites": 7,
+      "sourceWorksheets": 7,
+      "sourceGames": 14
+     }
+    },
+    {
+     "id": "u2",
+     "no": 2,
+     "title": "Teen Life",
+     "titleTr": "Gençlik Hayatı",
+     "emoji": "🎧",
+     "sourceUnitId": 368,
+     "onlineGames": 30,
+     "books": 7,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 384,
+      "worksheets": 2,
+      "offlineSites": 2,
+      "sourceWorksheets": 4,
+      "sourceGames": 8
+     }
+    },
+    {
+     "id": "u3",
+     "no": 3,
+     "title": "In the Kitchen",
+     "titleTr": "Mutfakta",
+     "emoji": "🍲",
+     "sourceUnitId": 369,
+     "onlineGames": 36,
+     "books": 10,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 930,
+      "worksheets": 3,
+      "offlineSites": 3,
+      "sourceWorksheets": 5,
+      "sourceGames": 24
+     }
+    },
+    {
+     "id": "u4",
+     "no": 4,
+     "title": "On the Phone",
+     "titleTr": "Telefonda",
+     "emoji": "📞",
+     "sourceUnitId": 370,
+     "onlineGames": 25,
+     "books": 9,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 1070,
+      "worksheets": 1,
+      "offlineSites": 2,
+      "sourceWorksheets": 3,
+      "sourceGames": 29
+     }
+    },
+    {
+     "id": "u5",
+     "no": 5,
+     "title": "The Internet",
+     "titleTr": "İnternet",
+     "emoji": "🌐",
+     "sourceUnitId": 371,
+     "onlineGames": 35,
+     "books": 8,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 954,
+      "worksheets": 2,
+      "offlineSites": 2,
+      "sourceWorksheets": 4,
+      "sourceGames": 24
+     }
+    },
+    {
+     "id": "u6",
+     "no": 6,
+     "title": "Adventures",
+     "titleTr": "Maceralar",
+     "emoji": "🧗",
+     "sourceUnitId": 372,
+     "onlineGames": 25,
+     "books": 8,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 776,
+      "worksheets": 2,
+      "offlineSites": 3,
+      "sourceWorksheets": 4,
+      "sourceGames": 20
+     }
+    },
+    {
+     "id": "u7",
+     "no": 7,
+     "title": "Tourism",
+     "titleTr": "Turizm",
+     "emoji": "🧳",
+     "sourceUnitId": 373,
+     "onlineGames": 31,
+     "books": 8,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 752,
+      "worksheets": 1,
+      "offlineSites": 4,
+      "sourceWorksheets": 3,
+      "sourceGames": 16
+     }
+    },
+    {
+     "id": "u8",
+     "no": 8,
+     "title": "Chores",
+     "titleTr": "Ev İşleri",
+     "emoji": "🧹",
+     "sourceUnitId": 374,
+     "onlineGames": 16,
+     "books": 8,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 624,
+      "worksheets": 1,
+      "offlineSites": 6,
+      "sourceWorksheets": 4,
+      "sourceGames": 16
+     }
+    },
+    {
+     "id": "u9",
+     "no": 9,
+     "title": "Science",
+     "titleTr": "Bilim",
+     "emoji": "🔬",
+     "sourceUnitId": 375,
+     "onlineGames": 35,
+     "books": 7,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": true
+     },
+     "counts": {
+      "games": 764,
+      "worksheets": 2,
+      "offlineSites": 4,
+      "sourceWorksheets": 4,
+      "sourceGames": 16
+     }
+    },
+    {
+     "id": "u10",
+     "no": 10,
+     "title": "Natural Forces",
+     "titleTr": "Doğa Güçleri",
+     "emoji": "🌋",
+     "sourceUnitId": 376,
+     "onlineGames": 30,
+     "books": 7,
+     "has": {
+      "presentation": true,
+      "games": true,
+      "worksheets": false
+     },
+     "counts": {
+      "games": 0,
+      "worksheets": 0,
+      "offlineSites": 2,
+      "sourceWorksheets": 2,
+      "sourceGames": 0
+     }
+    }
+   ]
+  }
+ ]
+}

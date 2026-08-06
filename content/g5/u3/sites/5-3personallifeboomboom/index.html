@@ -1,0 +1,1737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOM BOOM! Vocabulary Game</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #ffffff;
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            transition: background-color 0.5s ease;
+            overflow-x: hidden;
+        }
+        
+        body.blue-bg {
+            background-color: #e6f2ff;
+        }
+        
+        body.red-bg {
+            background-color: #ffe6e6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .header-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 5px;
+            color: #e74c3c;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            font-weight: 900;
+            letter-spacing: 1px;
+        }
+        
+        .game-subtitle {
+            font-size: 1.4rem;
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .fullscreen-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            margin-top: 10px;
+        }
+        
+        .fullscreen-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+        
+        .game-stats {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 25px;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            flex-wrap: wrap;
+        }
+        
+        .stat {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px;
+            min-width: 110px;
+            margin: 5px;
+        }
+        
+        .stat-value {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+        
+        .game-area {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .team {
+            width: 48%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            border-radius: 15px;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            border: 3px solid transparent;
+            margin-bottom: 15px;
+        }
+        
+        .team.active {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .team-blue.active {
+            border-color: #3498db;
+        }
+        
+        .team-red.active {
+            border-color: #e74c3c;
+        }
+        
+        .team-name {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .team-blue .team-name {
+            color: #3498db;
+        }
+        
+        .team-red .team-name {
+            color: #e74c3c;
+        }
+        
+        .balloon-container {
+            position: relative;
+            width: 180px;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+        
+        .balloon {
+            position: absolute;
+            width: 120px;
+            height: 150px;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.8), rgba(255,255,255,0.2) 70%);
+            box-shadow: inset -10px -10px 10px rgba(0,0,0,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.5s ease;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+            overflow: hidden;
+            z-index: 2;
+        }
+        
+        .balloon::before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 20%;
+            height: 20%;
+            background: rgba(255,255,255,0.6);
+            border-radius: 50%;
+        }
+        
+        .balloon-string {
+            position: absolute;
+            width: 2px;
+            height: 130px;
+            background-color: #888;
+            bottom: -130px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+        
+        .balloon.blue {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        .balloon.red {
+            background-color: #e74c3c;
+            color: white;
+        }
+        
+        .balloon.popped {
+            animation: balloonPop 0.8s forwards;
+        }
+        
+        @keyframes balloonPop {
+            0% { transform: translateX(-50%) scale(1); opacity: 1; }
+            30% { transform: translateX(-50%) scale(1.5); opacity: 0.8; }
+            100% { transform: translateX(-50%) scale(0); opacity: 0; }
+        }
+        
+        /* Updated: Percentage moved above the balloon */
+        .balloon-size {
+            position: absolute;
+            top: -20px; /* Moved above the balloon */
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.5rem;
+            color: #2c3e50;
+            font-weight: bold;
+            background-color: rgba(255,255,255,0.95);
+            padding: 8px 15px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            border: 2px solid #ecf0f1;
+            z-index: 3;
+            min-width: 70px;
+            text-align: center;
+        }
+        
+        /* Removed timer styling */
+        
+        .question-area {
+            width: 100%;
+            background-color: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            border: 2px solid #ecf0f1;
+            transition: all 0.3s ease;
+        }
+        
+        .question-area.blue-turn {
+            border-color: #3498db;
+            box-shadow: 0 10px 25px rgba(52, 152, 219, 0.2);
+        }
+        
+        .question-area.red-turn {
+            border-color: #e74c3c;
+            box-shadow: 0 10px 25px rgba(231, 76, 60, 0.2);
+        }
+        
+        .question-text {
+            font-size: 1.6rem;
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 1.4;
+            color: #2c3e50;
+        }
+        
+        .english-word {
+            font-size: 2.5rem;
+            color: #3498db;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            min-height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.3s ease;
+        }
+        
+        .question-area.blue-turn .english-word {
+            color: #3498db;
+        }
+        
+        .question-area.red-turn .english-word {
+            color: #e74c3c;
+        }
+        
+        .answers {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        
+        .answer-btn {
+            padding: 18px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 10px;
+            background-color: #ecf0f1;
+            color: #2c3e50;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            text-align: center;
+            min-height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .answer-btn:hover {
+            background-color: #d5dbdb;
+            transform: translateY(-3px);
+        }
+        
+        .answer-btn.correct {
+            background-color: #2ecc71;
+            color: white;
+        }
+        
+        .answer-btn.wrong {
+            background-color: #e74c3c;
+            color: white;
+        }
+        
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .control-btn {
+            padding: 12px 25px;
+            font-size: 1.1rem;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .start-btn {
+            background: linear-gradient(to right, #2ecc71, #27ae60);
+            color: white;
+        }
+        
+        .start-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(46, 204, 113, 0.3);
+        }
+        
+        .reset-btn {
+            background: linear-gradient(to right, #e74c3c, #c0392b);
+            color: white;
+        }
+        
+        .reset-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(231, 76, 60, 0.3);
+        }
+        
+        .next-btn {
+            background: linear-gradient(to right, #3498db, #2980b9);
+            color: white;
+        }
+        
+        .next-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(52, 152, 219, 0.3);
+        }
+        
+        .next-btn:disabled {
+            background: #95a5a6;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .instructions {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 1000px;
+            margin-bottom: 30px;
+            border-left: 4px solid #3498db;
+            width: 100%;
+        }
+        
+        .instructions h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.4rem;
+        }
+        
+        .instructions ul {
+            padding-left: 20px;
+            text-align: left;
+        }
+        
+        .instructions li {
+            margin-bottom: 8px;
+            color: #555;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+        
+        .instructions strong {
+            color: #e74c3c;
+        }
+        
+        .result-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 100;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s ease;
+        }
+        
+        .result-modal.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .result-content {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 500px;
+            width: 90%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .result-title {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+            color: #e74c3c;
+        }
+        
+        .result-message {
+            font-size: 1.4rem;
+            margin-bottom: 25px;
+            color: #2c3e50;
+        }
+        
+        .winner {
+            font-size: 1.8rem;
+            font-weight: bold;
+            margin: 15px 0;
+            padding: 12px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            color: #2c3e50;
+        }
+        
+        .score-summary {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        
+        .score-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        @media (max-width: 900px) {
+            .game-area {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .team {
+                width: 90%;
+            }
+            
+            .answers {
+                grid-template-columns: 1fr;
+            }
+            
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .english-word {
+                font-size: 2.2rem;
+            }
+            
+            .controls {
+                flex-wrap: wrap;
+            }
+            
+            .header-controls {
+                flex-direction: column;
+            }
+            
+            .fullscreen-btn {
+                align-self: flex-end;
+                margin-top: 10px;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .game-subtitle {
+                font-size: 1.2rem;
+            }
+            
+            .team-name {
+                font-size: 1.4rem;
+            }
+            
+            .english-word {
+                font-size: 1.8rem;
+                min-height: 60px;
+            }
+            
+            .question-text {
+                font-size: 1.3rem;
+            }
+            
+            .answer-btn {
+                font-size: 1.1rem;
+                padding: 15px;
+                min-height: 60px;
+            }
+            
+            .balloon-container {
+                width: 140px;
+                height: 250px;
+            }
+            
+            .balloon {
+                width: 100px;
+                height: 130px;
+            }
+            
+            .balloon-string {
+                height: 100px;
+                bottom: -100px;
+            }
+            
+            .stat {
+                min-width: 90px;
+            }
+            
+            .stat-value {
+                font-size: 1.5rem;
+            }
+        }
+        
+        .boom-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s;
+        }
+        
+        .boom-overlay.blue-boom {
+            background-color: rgba(52, 152, 219, 0.9);
+        }
+        
+        .boom-overlay.red-boom {
+            background-color: rgba(231, 76, 60, 0.9);
+        }
+        
+        .boom-overlay.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .boom-text-large {
+            font-size: 5rem;
+            font-weight: 900;
+            color: white;
+            text-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+            text-align: center;
+            animation: boomShake 0.5s infinite alternate;
+        }
+        
+        @keyframes boomShake {
+            0% { transform: scale(1) rotate(-2deg); }
+            100% { transform: scale(1.1) rotate(2deg); }
+        }
+        
+        .boom-particles {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        
+        .particle {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: white;
+            border-radius: 50%;
+            opacity: 0;
+        }
+        
+        .game-instructions {
+            font-size: 1rem;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .current-turn {
+            font-size: 1.2rem;
+            color: #2c3e50;
+            margin-top: 8px;
+            font-weight: 600;
+            text-align: center;
+            padding: 8px 15px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            width: 100%;
+        }
+        
+        .current-turn.blue {
+            background-color: #e6f2ff;
+            color: #3498db;
+            border: 2px solid #3498db;
+        }
+        
+        .current-turn.red {
+            background-color: #ffe6e6;
+            color: #e74c3c;
+            border: 2px solid #e74c3c;
+        }
+        
+        .turn-indicator {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            padding: 12px;
+            border-radius: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .turn-indicator.blue {
+            background-color: #e6f2ff;
+            color: #3498db;
+            border: 3px solid #3498db;
+        }
+        
+        .turn-indicator.red {
+            background-color: #ffe6e6;
+            color: #e74c3c;
+            border: 3px solid #e74c3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header-controls">
+            <header>
+                <h1>BOOM! BOOM!</h1>
+                <div class="game-subtitle">Vocabulary Challenge</div>
+                <div class="game-instructions">Match English words with Turkish meanings. Don't let your balloon pop!</div>
+            </header>
+            <button class="fullscreen-btn" id="fullscreen-btn">
+                <i class="fas fa-expand"></i> Fullscreen
+            </button>
+        </div>
+        
+        <div class="game-stats">
+            <div class="stat">
+                <div class="stat-value" id="blue-correct">0</div>
+                <div class="stat-label">Blue Correct</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="question-counter">1</div>
+                <div class="stat-label">Question</div>
+            </div>
+            <div class="stat">
+                <div class="stat-value" id="red-correct">0</div>
+                <div class="stat-label">Red Correct</div>
+            </div>
+        </div>
+        
+        <div class="turn-indicator blue" id="turn-indicator">
+            BLUE TEAM'S TURN
+        </div>
+        
+        <div class="game-area">
+            <div class="team team-blue active">
+                <h2 class="team-name"><i class="fas fa-users"></i> Blue Team</h2>
+                <div class="balloon-container">
+                    <!-- Percentage moved above the balloon -->
+                    <div class="balloon-size" id="blue-size">0%</div>
+                    <div class="balloon blue" id="blue-balloon">
+                        BLUE
+                    </div>
+                    <div class="balloon-string"></div>
+                </div>
+                <div class="current-turn blue" id="blue-turn">CURRENT TURN</div>
+            </div>
+            
+            <div class="team team-red">
+                <h2 class="team-name"><i class="fas fa-users"></i> Red Team</h2>
+                <div class="balloon-container">
+                    <!-- Percentage moved above the balloon -->
+                    <div class="balloon-size" id="red-size">0%</div>
+                    <div class="balloon red" id="red-balloon">
+                        RED
+                    </div>
+                    <div class="balloon-string"></div>
+                </div>
+                <div class="current-turn" id="red-turn"></div>
+            </div>
+        </div>
+        
+        <div class="question-area blue-turn" id="question-area">
+            <div class="question-text">
+                <div id="english-word" class="english-word">Click "Start Game" to begin</div>
+                <div id="instruction">Select the correct Turkish meaning:</div>
+            </div>
+            <div class="answers" id="answers-container">
+                <!-- Answer buttons will be added by JavaScript -->
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button class="control-btn start-btn" id="start-btn">
+                <i class="fas fa-play"></i> Start Game
+            </button>
+            <button class="control-btn next-btn" id="next-btn" disabled>
+                <i class="fas fa-forward"></i> Next Team's Turn
+            </button>
+            <button class="control-btn reset-btn" id="reset-btn">
+                <i class="fas fa-redo"></i> Restart Game
+            </button>
+        </div>
+        
+        <div class="instructions">
+            <h3><i class="fas fa-info-circle"></i> Oyun Nasıl Oynanır:</h3>
+            <ul>
+                <li><strong>Mavi takım başlar.</strong> "Start Game" düğmesine basarak oyunu başlatın.</li>
+                <li><strong>Doğru cevap:</strong> "Next Team's Turn" düğmesine basarak sırayı diğer takıma geçirin.</li>
+                <li><strong>Yanlış cevap:</strong> Balonunuz <strong>3 birim birden şişer</strong> ve "Next Team's Turn" düğmesi aktif olur.</li>
+                <li><strong>Balonlar çok büyüdüklerinde rastgele bir yüzdede patlar.</strong> Patlama eşiği gizlidir.</li>
+                <li><strong>Her takımın sırası geldiğinde</strong> arka plan ve soru kutusu o takımın rengine döner.</li>
+                <li><strong>Hangi takımın balonu patlarsa o takım kaybeder!</strong> Kazanan diğer takım olur.</li>
+                <li><strong>"Next Team's Turn" düğmesi</strong> ile sırayı manuel olarak diğer takıma geçirin.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="boom-overlay" id="boom-overlay">
+        <div class="boom-text-large">
+            BOOM!<br> BOOM!
+        </div>
+        <div class="boom-particles" id="boom-particles"></div>
+    </div>
+    
+    <div class="result-modal" id="result-modal">
+        <div class="result-content">
+            <h2 class="result-title">Game Over!</h2>
+            <div class="result-message" id="result-message"></div>
+            <div class="winner" id="winner"></div>
+            <div class="score-summary">
+                <div class="score-item">
+                    <div class="info-value" id="final-blue-correct">0</div>
+                    <div class="info-label">Blue Correct</div>
+                </div>
+                <div class="score-item">
+                    <div class="info-value" id="final-red-correct">0</div>
+                    <div class="info-label">Red Correct</div>
+                </div>
+            </div>
+            <button class="control-btn reset-btn" id="modal-reset-btn">
+                <i class="fas fa-redo"></i> Play Again
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Game variables
+        let gameActive = false;
+        let currentTeam = 'blue'; // Blue team starts
+        let blueBalloonSize = 0;
+        let redBalloonSize = 0;
+        let blueCorrectAnswers = 0;
+        let redCorrectAnswers = 0;
+        let questionCounter = 1;
+        let blueBalloonTimer;
+        let redBalloonTimer;
+        let bluePopThreshold;
+        let redPopThreshold;
+        let currentQuestionIndex = 0;
+        let currentTeamAnswered = false;
+        let currentShuffledAnswers = [];
+        let currentCorrectIndex = 0;
+        
+        // A1/A2 Level Body Parts and Physical Features vocabulary with Turkish translations
+        const bodyPartsVocabulary = [
+            {
+                english: "HEAD",
+                turkish: ["BAŞ", "KOL", "BACAK", "YÜZ"],
+                correct: 0
+            },
+            {
+                english: "EYE",
+                turkish: ["GÖZ", "KULAK", "BURUN", "AĞIZ"],
+                correct: 0
+            },
+            {
+                english: "NOSE",
+                turkish: ["BURUN", "GÖZ", "KULAK", "ÇENE"],
+                correct: 0
+            },
+            {
+                english: "MOUTH",
+                turkish: ["AĞIZ", "BURUN", "KOL", "KULAK"],
+                correct: 0
+            },
+            {
+                english: "EAR",
+                turkish: ["KULAK", "GÖZ", "BURUN", "AĞIZ"],
+                correct: 0
+            },
+            {
+                english: "ARM",
+                turkish: ["KOL", "BACAK", "EL", "AYAK"],
+                correct: 0
+            },
+            {
+                english: "HAND",
+                turkish: ["EL", "AYAK", "KOL", "BACAK"],
+                correct: 0
+            },
+            {
+                english: "LEG",
+                turkish: ["BACAK", "KOL", "AYAK", "KAFA"],
+                correct: 0
+            },
+            {
+                english: "FOOT",
+                turkish: ["AYAK", "EL", "KAFA", "BACAK"],
+                correct: 0
+            },
+            {
+                english: "HAIR",
+                turkish: ["SAÇ", "GÖZ", "BAŞ", "KULAK"],
+                correct: 0
+            },
+            {
+                english: "TOOTH",
+                turkish: ["DİŞ", "AĞIZ", "AYAK", "BAŞ PARMAK"],
+                correct: 0
+            },
+            {
+                english: "NECK",
+                turkish: ["BOYUN", "OMUZ", "EL", "KOL"],
+                correct: 0
+            },
+            {
+                english: "SHOULDER",
+                turkish: ["OMUZ", "DİZ", "AYAK", "BACAK"],
+                correct: 0
+            },
+            {
+                english: "FINGER",
+                turkish: ["PARMAK", "EL", "KOL", "OMUZ"],
+                correct: 0
+            },
+            {
+                english: "KNEE",
+                turkish: ["DİZ", "KOL", "BACAK", "AYAK"],
+                correct: 0
+            },
+            {
+                english: "FACE",
+                turkish: ["YÜZ", "BAŞ", "VÜCUT", "KOL"],
+                correct: 0
+            },
+            {
+                english: "TEETH",
+                turkish: ["DİŞLER", "KOLLAR", "ELLER", "KULAKLAR"],
+                correct: 0
+            },
+            {
+                english: "TALL",
+                turkish: ["UZUN", "KISA", "ZAYIF", "ŞİŞMAN"],
+                correct: 0
+            },
+            {
+                english: "SHORT",
+                turkish: ["KISA", "UZUN", "ZAYIF", "ŞİŞMAN"],
+                correct: 0
+            },
+            {
+                english: "BLUE EYES",
+                turkish: ["MAVİ GÖZLER", "KAHVERENGİ GÖZLER", "YEŞİL GÖZLER", "ELA GÖZLER"],
+                correct: 0
+            },
+            {
+                english: "GREEN EYES",
+                turkish: ["YEŞİL GÖZLER", "KAHVERENGİ GÖZLER", "MAVİ GÖZLER", "ELA GÖZLER"],
+                correct: 0
+            },
+            {
+                english: "BROWN EYES",
+                turkish: ["KAHVERENGİ GÖZLER", "YEŞİL GÖZLER", "MAVİ GÖZLER", "ELA GÖZLER"],
+                correct: 0
+            },
+            {
+                english: "WAVY HAIR",
+                turkish: ["DALGALI SAÇ", "KIVIRCIK SAÇ", "DÜZ SAÇ", "UZUN SAÇ"],
+                correct: 0
+            },
+            {
+                english: "CURLY HAIR",
+                turkish: ["KIVIRCIK SAÇ", "DALGALI SAÇ", "DÜZ SAÇ", "UZUN SAÇ"],
+                correct: 0
+            },
+            {
+                english: "STRAIGHT HAIR",
+                turkish: ["DÜZ SAÇ", "DALGALI SAÇ", "KIVIRCIK SAÇ", "UZUN SAÇ"],
+                correct: 0
+            },
+            {
+                english: "JEANS",
+                turkish: ["KOT PANTOLON", "ELDİVEN", "KAZAK", "GÖMLEK"],
+                correct: 0
+            },
+            {
+                english: "RAINCOAT",
+                turkish: ["YAĞMURLUK", "MONT", "ELBİSE", "ATKI"],
+                correct: 0
+            },
+            {
+                english: "JUMPER",
+                turkish: ["KAZAK", "KOT PANTOLON", "BAŞÖRTÜSÜ", "GÖMLEK"],
+                correct: 0
+            },
+            {
+                english: "SKIRT",
+                turkish: ["ETEK", "GÖMLEK", "TİŞÖRT", "GÖZLÜK"],
+                correct: 0
+            },
+            {
+                english: "GLOVES",
+                turkish: ["ELDİVENLER", "GÖZLÜK", "KEMER", "MONT"],
+                correct: 0
+            },
+            {
+                english: "HAT / CAP",
+                turkish: ["ŞAPKA", "KEMER", "ATKI", "EL ÇANTASI"],
+                correct: 0
+            },
+            {
+                english: "UMBRELLA",
+                turkish: ["ŞEMSİYE", "YÜZÜK", "KÜPE", "KOL SAATİ"],
+                correct: 0
+            },
+            {
+                english: "EARRINGS",
+                turkish: ["KÜPE", "YÜZÜK", "GÖZLÜK", "ATKI"],
+                correct: 0
+            },
+            {
+                english: "BACKPACK",
+                turkish: ["SIRT ÇANTASI", "EL ÇANTASI", "OKUL ÇANTASI", "ÇANTA"],
+                correct: 0
+            },
+            {
+                english: "GLASSES",
+                turkish: ["GÖZLÜK", "GÜNEŞ GÖZLÜĞÜ", "KÜPE", "KOLYE"],
+                correct: 0
+            },
+            {
+                english: "HEADSCARF",
+                turkish: ["BAŞÖRTÜSÜ", "ATKI", "KOT PANTOLON", "KOLYE"],
+                correct: 0
+            },
+            {
+                english: "SHOES",
+                turkish: ["AYAKKABI", "BOT", "MONT", "KAZAK"],
+                correct: 0
+            },
+            {
+                english: "SHIRT",
+                turkish: ["GÖMLEK", "TİŞÖRT", "ETEK", "CEKET"],
+                correct: 0
+            },
+            {
+                english: "BELT",
+                turkish: ["KEMER", "KOT PANTOLON", "ŞAPKA", "ELBİSE"],
+                correct: 0
+            },
+            {
+                english: "DRESS",
+                turkish: ["ELBİSE", "CEKER", "YAĞMURLUK", "KOLYE"],
+                correct: 0
+            },
+            {
+                english: "NECKLACE",
+                turkish: ["KOLYE", "KÜPE", "YÜZÜK", "ATKI"],
+                correct: 0
+            },
+            {
+                english: "SLIM",
+                turkish: ["ZAYIF", "ŞİŞMAN", "UZUN", "KISA"],
+                correct: 0
+            },
+            {
+                english: "SMALL",
+                turkish: ["KÜÇÜK", "BÜYÜK", "UZUN", "KISA"],
+                correct: 0
+            },
+            {
+                english: "RING",
+                turkish: ["YÜZÜK", "KOLYE", "KÜPE", "KOL SAAATİ"],
+                correct: 0
+            },
+            {
+                english: "TRENDY",
+                turkish: ["MODA", "ESKİ", "SIRADAN", "RAHAT"],
+                correct: 0
+            },
+            {
+                english: "NEW",
+                turkish: ["YENİ", "ESKİ", "KULLANILMIŞ", "RAHAT"],
+                correct: 0
+            },
+            {
+                english: "STYLISH",
+                turkish: ["ŞIK", "ESKİ", "SIRADAN", "RAHAT"],
+                correct: 0
+            },
+            {
+                english: "ORDINARY",
+                turkish: ["SIRADAN", "RAHAT", "MODA", "ŞIK"],
+                correct: 0
+            },
+            {
+                english: "CASUAL",
+                turkish: ["GÜNLÜK", "MODA", "RAHAT", "ESKİ"],
+                correct: 0
+            },
+            {
+                english: "COMFORTABLE",
+                turkish: ["RAHAT", "MODA", "ŞIK", "SIRADAN"],
+                correct: 0
+            },
+            {
+                english: "UNCOMFORTABLE",
+                turkish: ["RAHAT OLMAYAN", "ŞIK", "MODA", "SIRADAN"],
+                correct: 0
+            },
+            {
+                english: "WEAR",
+                turkish: ["GİYMEK", "SATIN ALMAK", "SAHİP OLMAK", "OYNAMAK"],
+                correct: 0
+            },
+            {
+                english: "BUY",
+                turkish: ["SATIN ALMAK", "GİYMEK", "SAHİP OLMAK", "VERMEK"],
+                correct: 0
+            },
+            {
+                english: "ALWAYS",
+                turkish: ["HER ZAMAN", "SIK SIK", "BAZEN", "ASLA"],
+                correct: 0
+            },
+            {
+                english: "USUALLY",
+                turkish: ["GENELLİKLE", "HER ZAMAN", "SIK SIK", "ASLA"],
+                correct: 0
+            },
+            {
+                english: "NEVER",
+                turkish: ["ASLA", "GENELLİKLE", "BAZEN", "HER ZAMAN"],
+                correct: 0
+            },
+            {
+                english: "HANDBAG",
+                turkish: ["EL ÇANTASI", "OKUL ÇANTASI", "SIRT ÇANTASI", "ÇANTA"],
+                correct: 0
+            },
+            {
+                english: "MY",
+                turkish: ["BENİM", "SENİN/SİZİN", "BİZİM", "ONUN"],
+                correct: 0
+            },
+            {
+                english: "YOUR",
+                turkish: ["SENİN/SİZİN", "BENİM", "BİZİM", "ONLARIN"],
+                correct: 0
+            },
+            {
+                english: "HİS",
+                turkish: ["ONUN", "BİZİM", "ONLARIN", "BENİM"],
+                correct: 0
+            },
+            {
+                english: "HER",
+                turkish: ["ONUN", "BENİM", "SENİN/SİZİN", "ONLARIN"],
+                correct: 0
+            },
+            {
+                english: "OUR",
+                turkish: ["BİZİM", "SENİN/SİZİN", "BENİM", "ONUN"],
+                correct: 0
+            },
+            {
+                english: "WINTER",
+                turkish: ["KIŞ", "YAZ", "SONBAHAR", "İLKBAHAR"],
+                correct: 0
+            },
+            {
+                english: "SUMMER",
+                turkish: ["YAZ", "İLKBAHAR", "SONBAHAR", "KIŞ"],
+                correct: 0
+            },
+            {
+                english: "SPRING",
+                turkish: ["İLKBAHAR", "YAZ", "SONBAHAR", "KIŞ"],
+                correct: 0
+            },
+            {
+                english: "AUTUMN / FALL",
+                turkish: ["SONBAHAR", "YAZ", "İLKBAHAR", "KIŞ"],
+                correct: 0
+            },
+        ];
+        
+        // Shuffle function to randomize arrays
+        function shuffleArray(array) {
+            const newArray = [...array];
+            for (let i = newArray.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [newArray[i], newArray[j]] = [newArray[j], newArray[i]];
+            }
+            return newArray;
+        }
+        
+        // Shuffled questions
+        let shuffledVocabulary = shuffleArray([...bodyPartsVocabulary]);
+        
+        // DOM elements
+        const blueBalloon = document.getElementById('blue-balloon');
+        const redBalloon = document.getElementById('red-balloon');
+        const blueSizeElement = document.getElementById('blue-size');
+        const redSizeElement = document.getElementById('red-size');
+        const englishWordElement = document.getElementById('english-word');
+        const turnIndicator = document.getElementById('turn-indicator');
+        const blueTurnElement = document.getElementById('blue-turn');
+        const redTurnElement = document.getElementById('red-turn');
+        const answersContainer = document.getElementById('answers-container');
+        const questionArea = document.getElementById('question-area');
+        const startBtn = document.getElementById('start-btn');
+        const nextBtn = document.getElementById('next-btn');
+        const resetBtn = document.getElementById('reset-btn');
+        const fullscreenBtn = document.getElementById('fullscreen-btn');
+        const blueTeamElement = document.querySelector('.team-blue');
+        const redTeamElement = document.querySelector('.team-red');
+        const questionCounterElement = document.getElementById('question-counter');
+        const blueCorrectElement = document.getElementById('blue-correct');
+        const redCorrectElement = document.getElementById('red-correct');
+        const resultModal = document.getElementById('result-modal');
+        const resultMessage = document.getElementById('result-message');
+        const winnerElement = document.getElementById('winner');
+        const modalResetBtn = document.getElementById('modal-reset-btn');
+        const finalBlueCorrectElement = document.getElementById('final-blue-correct');
+        const finalRedCorrectElement = document.getElementById('final-red-correct');
+        const boomOverlay = document.getElementById('boom-overlay');
+        const boomParticlesElement = document.getElementById('boom-particles');
+        const bodyElement = document.body;
+        
+        // Fullscreen functionality
+        fullscreenBtn.addEventListener('click', toggleFullscreen);
+        
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen().catch(err => {
+                    console.log(`Error attempting to enable fullscreen: ${err.message}`);
+                });
+                fullscreenBtn.innerHTML = '<i class="fas fa-compress"></i> Exit Fullscreen';
+            } else {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                    fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i> Fullscreen';
+                }
+            }
+        }
+        
+        // Create particles for BOOM effect
+        function createParticles(teamColor) {
+            boomParticlesElement.innerHTML = '';
+            const particleCount = 50;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                // Random position
+                const x = Math.random() * 100;
+                const y = Math.random() * 100;
+                particle.style.left = `${x}%`;
+                particle.style.top = `${y}%`;
+                
+                // Random size
+                const size = Math.random() * 15 + 5;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                // Team color particles
+                const colors = teamColor === 'blue' 
+                    ? ['#ffffff', '#3498db', '#2980b9', '#1d6fa5'] 
+                    : ['#ffffff', '#e74c3c', '#c0392b', '#a93226'];
+                const color = colors[Math.floor(Math.random() * colors.length)];
+                particle.style.backgroundColor = color;
+                
+                boomParticlesElement.appendChild(particle);
+                
+                // Animate particle
+                setTimeout(() => {
+                    particle.style.opacity = '1';
+                    particle.style.transform = `translate(${Math.random() * 200 - 100}px, ${Math.random() * 200 - 100}px)`;
+                    particle.style.transition = 'all 0.8s ease-out';
+                }, 10);
+                
+                // Remove particle after animation
+                setTimeout(() => {
+                    particle.style.opacity = '0';
+                    setTimeout(() => {
+                        if (particle.parentElement) {
+                            particle.remove();
+                        }
+                    }, 800);
+                }, 100);
+            }
+        }
+        
+        // Start game function
+        function startGame() {
+            if (gameActive) return;
+            
+            gameActive = true;
+            startBtn.disabled = true;
+            startBtn.innerHTML = '<i class="fas fa-pause"></i> Game in Progress';
+            nextBtn.disabled = false;
+            
+            // Set random pop thresholds (75-100%)
+            bluePopThreshold = Math.floor(Math.random() * 26) + 75; // 75-100
+            redPopThreshold = Math.floor(Math.random() * 26) + 75;
+            
+            // Start balloon timers with faster inflation (2% per second)
+            startBalloonTimers();
+            
+            // Show first question
+            showQuestion();
+            
+            // Set active team
+            setActiveTeam('blue');
+        }
+        
+        // Start balloon timers with faster inflation
+        function startBalloonTimers() {
+            // Blue balloon timer - Faster inflation (2% per second)
+            blueBalloonTimer = setInterval(() => {
+                if (currentTeam === 'blue' && gameActive && !currentTeamAnswered) {
+                    blueBalloonSize += 2; // Increased from 1 to 2 for faster inflation
+                    updateBalloonSize('blue', blueBalloonSize);
+                    
+                    // Check if balloon reaches pop threshold
+                    if (blueBalloonSize >= bluePopThreshold) {
+                        popBalloon('blue');
+                    }
+                }
+            }, 1000);
+            
+            // Red balloon timer - Faster inflation (2% per second)
+            redBalloonTimer = setInterval(() => {
+                if (currentTeam === 'red' && gameActive && !currentTeamAnswered) {
+                    redBalloonSize += 2; // Increased from 1 to 2 for faster inflation
+                    updateBalloonSize('red', redBalloonSize);
+                    
+                    // Check if balloon reaches pop threshold
+                    if (redBalloonSize >= redPopThreshold) {
+                        popBalloon('red');
+                    }
+                }
+            }, 1000);
+        }
+        
+        // Update balloon size
+        function updateBalloonSize(team, size) {
+            const balloon = team === 'blue' ? blueBalloon : redBalloon;
+            const sizeElement = team === 'blue' ? blueSizeElement : redSizeElement;
+            
+            // Update balloon size display (only percentage, no timer)
+            sizeElement.textContent = `${size}%`;
+            
+            // Update balloon visual size (faster growth)
+            const scale = 1 + (size / 100) * 0.8;
+            balloon.style.transform = `translateX(-50%) scale(${scale})`;
+            
+            // Warning effect when balloon is close to popping
+            const popThreshold = team === 'blue' ? bluePopThreshold : redPopThreshold;
+            if (size > popThreshold - 20) {
+                balloon.style.animation = 'none';
+                setTimeout(() => {
+                    balloon.style.animation = 'pulse 0.3s infinite alternate';
+                }, 10);
+                
+                // Change color to darker when close to popping
+                if (size > popThreshold - 10) {
+                    if (team === 'blue') {
+                        balloon.style.backgroundColor = '#1d6fa5';
+                        sizeElement.style.color = '#1d6fa5';
+                        sizeElement.style.borderColor = '#1d6fa5';
+                    } else {
+                        balloon.style.backgroundColor = '#c0392b';
+                        sizeElement.style.color = '#c0392b';
+                        sizeElement.style.borderColor = '#c0392b';
+                    }
+                } else {
+                    // Reset color if not too close to popping
+                    if (team === 'blue') {
+                        sizeElement.style.color = '#2c3e50';
+                        sizeElement.style.borderColor = '#ecf0f1';
+                    } else {
+                        sizeElement.style.color = '#2c3e50';
+                        sizeElement.style.borderColor = '#ecf0f1';
+                    }
+                }
+                
+                // Make percentage indicator more prominent when close to popping
+                if (size > popThreshold - 15) {
+                    sizeElement.style.fontSize = '1.7rem';
+                    sizeElement.style.fontWeight = '900';
+                    sizeElement.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                    sizeElement.style.boxShadow = '0 6px 12px rgba(0,0,0,0.2)';
+                } else {
+                    sizeElement.style.fontSize = '1.5rem';
+                    sizeElement.style.fontWeight = 'bold';
+                    sizeElement.style.backgroundColor = 'rgba(255,255,255,0.95)';
+                    sizeElement.style.boxShadow = '0 4px 8px rgba(0,0,0,0.15)';
+                }
+            }
+        }
+        
+        // Show question with shuffled answers
+        function showQuestion() {
+            if (currentQuestionIndex >= shuffledVocabulary.length) {
+                // If we've used all questions, reshuffle and start over
+                shuffledVocabulary = shuffleArray([...bodyPartsVocabulary]);
+                currentQuestionIndex = 0;
+            }
+            
+            const currentWord = shuffledVocabulary[currentQuestionIndex];
+            englishWordElement.textContent = currentWord.english;
+            questionCounterElement.textContent = questionCounter;
+            
+            // Reset answered state for new question
+            currentTeamAnswered = false;
+            
+            // Update team turn display
+            if (currentTeam === 'blue') {
+                turnIndicator.textContent = "BLUE TEAM'S TURN";
+                turnIndicator.className = "turn-indicator blue";
+                blueTurnElement.textContent = "CURRENT TURN";
+                redTurnElement.textContent = "";
+                blueTurnElement.className = "current-turn blue";
+                redTurnElement.className = "current-turn";
+            } else {
+                turnIndicator.textContent = "RED TEAM'S TURN";
+                turnIndicator.className = "turn-indicator red";
+                redTurnElement.textContent = "CURRENT TURN";
+                blueTurnElement.textContent = "";
+                redTurnElement.className = "current-turn red";
+                blueTurnElement.className = "current-turn";
+            }
+            
+            // Update question area styling
+            questionArea.className = currentTeam === 'blue' ? "question-area blue-turn" : "question-area red-turn";
+            
+            // Create shuffled answers and track correct answer position
+            const originalAnswers = [...currentWord.turkish];
+            const correctAnswer = originalAnswers[currentWord.correct];
+            
+            // Create an array of indices [0, 1, 2, 3]
+            let answerIndices = [0, 1, 2, 3];
+            
+            // Shuffle the indices
+            answerIndices = shuffleArray(answerIndices);
+            
+            // Create shuffled answers array
+            currentShuffledAnswers = answerIndices.map(index => originalAnswers[index]);
+            
+            // Find the new position of the correct answer
+            currentCorrectIndex = currentShuffledAnswers.indexOf(correctAnswer);
+            
+            // Create answer buttons with shuffled answers
+            answersContainer.innerHTML = '';
+            currentShuffledAnswers.forEach((translation, index) => {
+                const button = document.createElement('button');
+                button.className = 'answer-btn';
+                button.textContent = translation;
+                button.addEventListener('click', () => handleAnswerClick(index));
+                answersContainer.appendChild(button);
+            });
+        }
+        
+        // Handle answer click
+        function handleAnswerClick(answerIndex) {
+            if (!gameActive || currentTeamAnswered) return;
+            
+            const answerButtons = document.querySelectorAll('.answer-btn');
+            
+            // Disable all buttons
+            answerButtons.forEach(button => {
+                button.disabled = true;
+            });
+            
+            // Mark that current team has answered
+            currentTeamAnswered = true;
+            
+            // Check if answer is correct (using shuffled answer positions)
+            if (answerIndex === currentCorrectIndex) {
+                // Correct answer
+                answerButtons[answerIndex].classList.add('correct');
+                
+                // Increase correct answer count for current team
+                if (currentTeam === 'blue') {
+                    blueCorrectAnswers++;
+                    blueCorrectElement.textContent = blueCorrectAnswers;
+                } else {
+                    redCorrectAnswers++;
+                    redCorrectElement.textContent = redCorrectAnswers;
+                }
+            } else {
+                // Wrong answer
+                answerButtons[answerIndex].classList.add('wrong');
+                answerButtons[currentCorrectIndex].classList.add('correct');
+                
+                // Wrong answer: balloon inflates by 3 units (6% because we're using 2% per unit)
+                if (currentTeam === 'blue') {
+                    blueBalloonSize += 6; // 3 units * 2% per unit
+                    updateBalloonSize('blue', blueBalloonSize);
+                    
+                    // Check if balloon pops
+                    if (blueBalloonSize >= bluePopThreshold) {
+                        popBalloon('blue');
+                        return;
+                    }
+                } else {
+                    redBalloonSize += 6; // 3 units * 2% per unit
+                    updateBalloonSize('red', redBalloonSize);
+                    
+                    // Check if balloon pops
+                    if (redBalloonSize >= redPopThreshold) {
+                        popBalloon('red');
+                        return;
+                    }
+                }
+            }
+            
+            // Enable Next Team's Turn button
+            nextBtn.disabled = false;
+        }
+        
+        // Switch to next team manually
+        function nextTeamTurn() {
+            if (!gameActive) return;
+            
+            // Move to next question
+            currentQuestionIndex++;
+            questionCounter++;
+            
+            // Switch teams
+            if (currentTeam === 'blue') {
+                setActiveTeam('red');
+            } else {
+                setActiveTeam('blue');
+            }
+            
+            // Show next question
+            showQuestion();
+            
+            // Disable Next button until question is answered
+            nextBtn.disabled = true;
+        }
+        
+        // Set active team
+        function setActiveTeam(team) {
+            currentTeam = team;
+            
+            // Update body background color
+            bodyElement.classList.remove('blue-bg', 'red-bg');
+            if (team === 'blue') {
+                bodyElement.classList.add('blue-bg');
+                blueTeamElement.classList.add('active');
+                redTeamElement.classList.remove('active');
+            } else {
+                bodyElement.classList.add('red-bg');
+                redTeamElement.classList.add('active');
+                blueTeamElement.classList.remove('active');
+            }
+        }
+        
+        // Pop balloon with BOOM effect
+        function popBalloon(team) {
+            if (!gameActive) return;
+            
+            gameActive = false;
+            clearInterval(blueBalloonTimer);
+            clearInterval(redBalloonTimer);
+            
+            const balloon = team === 'blue' ? blueBalloon : redBalloon;
+            
+            // Set boom overlay to team color
+            boomOverlay.className = `boom-overlay show ${team}-boom`;
+            
+            // Create particles for BOOM effect with team color
+            createParticles(team);
+            
+            // Pop balloon animation
+            balloon.classList.add('popped');
+            
+            // Hide boom overlay after animation
+            setTimeout(() => {
+                boomOverlay.classList.remove('show');
+                boomOverlay.classList.remove('blue-boom', 'red-boom');
+            }, 1500);
+            
+            // End game
+            setTimeout(() => {
+                const losingTeam = team === 'blue' ? "Blue Team" : "Red Team";
+                const winningTeam = team === 'blue' ? "Red Team" : "Blue Team";
+                endGame(`${losingTeam}'s balloon popped at ${team === 'blue' ? blueBalloonSize : redBalloonSize}%!`, winningTeam);
+            }, 2000);
+        }
+        
+        // End game
+        function endGame(message, winner = null) {
+            gameActive = false;
+            clearInterval(blueBalloonTimer);
+            clearInterval(redBalloonTimer);
+            
+            // Determine winner if not provided
+            if (!winner) {
+                if (blueBalloonSize >= bluePopThreshold && redBalloonSize >= redPopThreshold) {
+                    winner = "It's a tie! Both balloons popped.";
+                } else if (blueBalloonSize >= bluePopThreshold) {
+                    winner = "Red Team";
+                } else if (redBalloonSize >= redPopThreshold) {
+                    winner = "Blue Team";
+                } else if (blueCorrectAnswers > redCorrectAnswers) {
+                    winner = "Blue Team";
+                } else if (redCorrectAnswers > blueCorrectAnswers) {
+                    winner = "Red Team";
+                } else {
+                    winner = "It's a tie!";
+                }
+            }
+            
+            // Set result message
+            resultMessage.textContent = message;
+            winnerElement.textContent = `Winner: ${winner}`;
+            
+            // Update final scores
+            finalBlueCorrectElement.textContent = blueCorrectAnswers;
+            finalRedCorrectElement.textContent = redCorrectAnswers;
+            
+            // Show modal
+            setTimeout(() => {
+                resultModal.classList.add('show');
+            }, 500);
+        }
+        
+        // Reset game
+        function resetGame() {
+            gameActive = false;
+            currentTeam = 'blue';
+            blueBalloonSize = 0;
+            redBalloonSize = 0;
+            blueCorrectAnswers = 0;
+            redCorrectAnswers = 0;
+            questionCounter = 1;
+            currentQuestionIndex = 0;
+            currentTeamAnswered = false;
+            currentShuffledAnswers = [];
+            currentCorrectIndex = 0;
+            
+            // Clear timers
+            clearInterval(blueBalloonTimer);
+            clearInterval(redBalloonTimer);
+            
+            // Reset body background
+            bodyElement.classList.remove('blue-bg', 'red-bg');
+            
+            // Reset balloons
+            updateBalloonSize('blue', 0);
+            updateBalloonSize('red', 0);
+            blueBalloon.classList.remove('popped');
+            redBalloon.classList.remove('popped');
+            blueBalloon.style.animation = 'none';
+            redBalloon.style.animation = 'none';
+            blueBalloon.style.backgroundColor = '#3498db';
+            redBalloon.style.backgroundColor = '#e74c3c';
+            
+            // Reset percentage display styles
+            blueSizeElement.style.color = '#2c3e50';
+            blueSizeElement.style.borderColor = '#ecf0f1';
+            blueSizeElement.style.fontSize = '1.5rem';
+            blueSizeElement.style.fontWeight = 'bold';
+            blueSizeElement.style.boxShadow = '0 4px 8px rgba(0,0,0,0.15)';
+            
+            redSizeElement.style.color = '#2c3e50';
+            redSizeElement.style.borderColor = '#ecf0f1';
+            redSizeElement.style.fontSize = '1.5rem';
+            redSizeElement.style.fontWeight = 'bold';
+            redSizeElement.style.boxShadow = '0 4px 8px rgba(0,0,0,0.15)';
+            
+            // Reset scores
+            blueCorrectElement.textContent = '0';
+            redCorrectElement.textContent = '0';
+            questionCounterElement.textContent = '1';
+            
+            // Reset turn indicators
+            turnIndicator.textContent = "BLUE TEAM'S TURN";
+            turnIndicator.className = "turn-indicator blue";
+            blueTurnElement.textContent = "";
+            redTurnElement.textContent = "";
+            blueTurnElement.className = "current-turn";
+            redTurnElement.className = "current-turn";
+            
+            // Reset question area
+            questionArea.className = "question-area blue-turn";
+            englishWordElement.textContent = 'Click "Start Game" to begin';
+            answersContainer.innerHTML = '';
+            
+            // Reset buttons
+            startBtn.disabled = false;
+            startBtn.innerHTML = '<i class="fas fa-play"></i> Start Game';
+            nextBtn.disabled = true;
+            
+            // Reset active team
+            setActiveTeam('blue');
+            
+            // Hide modals
+            resultModal.classList.remove('show');
+            boomOverlay.classList.remove('show');
+            boomOverlay.classList.remove('blue-boom', 'red-boom');
+            
+            // Reshuffle vocabulary
+            shuffledVocabulary = shuffleArray([...bodyPartsVocabulary]);
+        }
+        
+        // Event listeners
+        startBtn.addEventListener('click', startGame);
+        nextBtn.addEventListener('click', nextTeamTurn);
+        resetBtn.addEventListener('click', resetGame);
+        modalResetBtn.addEventListener('click', resetGame);
+        
+        // Initialize game
+        window.addEventListener('load', () => {
+            updateBalloonSize('blue', 0);
+            updateBalloonSize('red', 0);
+        });
+        
+        // Fullscreen change event
+        document.addEventListener('fullscreenchange', function() {
+            if (!document.fullscreenElement) {
+                fullscreenBtn.innerHTML = '<i class="fas fa-expand"></i> Fullscreen';
+            }
+        });
+    </script>
+</body>
+</html>

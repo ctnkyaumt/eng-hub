@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORDWARS ARENA</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            overflow-x: hidden;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            width: 100%;
+            max-width: 800px;
+        }
+        
+        h1 {
+            color: #FFD700;
+            font-size: clamp(1.8rem, 4vw, 2.5rem);
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        
+        .subtitle {
+            color: #7FFFD4;
+            font-size: clamp(0.9rem, 2vw, 1.1rem);
+            margin-bottom: 15px;
+        }
+        
+        .game-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 800px;
+            gap: 15px;
+        }
+        
+        .main-game-area {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 15px;
+        }
+        
+        .top-section {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 15px;
+        }
+        
+        .game-status {
+            text-align: center;
+            font-size: clamp(1rem, 2.5vw, 1.3rem);
+            margin-bottom: 5px;
+            min-height: 30px;
+            color: #FFD700;
+            font-weight: bold;
+            padding: 8px;
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            width: 100%;
+        }
+        
+        .players-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 100%;
+        }
+        
+        .player-card {
+            padding: 12px 8px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .player-card.active {
+            transform: scale(1.03);
+            box-shadow: 0 0 15px currentColor;
+        }
+        
+        .player-blue-card {
+            background-color: rgba(30, 144, 255, 0.2);
+            border: 2px solid #1E90FF;
+            color: #1E90FF;
+        }
+        
+        .player-red-card {
+            background-color: rgba(255, 69, 0, 0.2);
+            border: 2px solid #FF4500;
+            color: #FF4500;
+        }
+        
+        .player-yellow-card {
+            background-color: rgba(255, 215, 0, 0.2);
+            border: 2px solid #FFD700;
+            color: #FFD700;
+        }
+        
+        .player-gray-card {
+            background-color: rgba(119, 136, 153, 0.2);
+            border: 2px solid #778899;
+            color: #778899;
+        }
+        
+        .player-name {
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        
+        .player-score {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .game-board-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0;
+        }
+        
+        .game-board {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            gap: 6px;
+            width: 100%;
+            max-width: 500px;
+            aspect-ratio: 5/4;
+        }
+        
+        .cell {
+            border: 2px solid #333;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: clamp(1rem, 3vw, 1.5rem);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+        }
+        
+        .cell:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+        }
+        
+        .cell.selected {
+            border: 2px solid white;
+            box-shadow: 0 0 10px white;
+        }
+        
+        /* Oyuncu renkleri */
+        .player-blue {
+            background-color: #1E90FF;
+            color: white;
+        }
+        
+        .player-red {
+            background-color: #FF4500;
+            color: white;
+        }
+        
+        .player-yellow {
+            background-color: #FFD700;
+            color: #333;
+        }
+        
+        .player-gray {
+            background-color: #778899;
+            color: white;
+        }
+        
+        .neutral {
+            background-color: #F8F8FF;
+            color: #333;
+        }
+        
+        .cell-id {
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            font-size: 0.7rem;
+            color: rgba(0, 0, 0, 0.6);
+        }
+        
+        .game-controls {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            padding: 15px;
+            width: 100%;
+            margin-bottom: 10px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+        
+        .question-container {
+            margin-bottom: 15px;
+        }
+        
+        .question-text {
+            font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+            font-weight: bold;
+            margin-bottom: 12px;
+            color: #7FFFD4;
+            text-align: center;
+            min-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+        }
+        
+        .answers-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .answer-btn {
+            padding: 12px 8px;
+            border: none;
+            border-radius: 6px;
+            background-color: #2c3e50;
+            color: white;
+            font-size: 0.95rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            min-height: 50px;
+        }
+        
+        .answer-btn:hover {
+            background-color: #34495e;
+            transform: translateY(-2px);
+        }
+        
+        .answer-btn.correct {
+            background-color: #27ae60;
+            color: white;
+        }
+        
+        .answer-btn.wrong {
+            background-color: #c0392b;
+            color: white;
+        }
+        
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .control-btn {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 6px;
+            font-size: 0.95rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            flex: 1;
+            min-width: 140px;
+        }
+        
+        #next-btn {
+            background-color: #3498db;
+            color: white;
+        }
+        
+        #next-btn:hover {
+            background-color: #2980b9;
+        }
+        
+        #restart-btn {
+            background-color: #e74c3c;
+            color: white;
+        }
+        
+        #restart-btn:hover {
+            background-color: #c0392b;
+        }
+        
+        #fullscreen-btn {
+            background-color: #27ae60;
+            color: white;
+        }
+        
+        #fullscreen-btn:hover {
+            background-color: #219653;
+        }
+        
+        .instructions {
+            background-color: rgba(0, 0, 0, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            width: 100%;
+            margin-top: 5px;
+        }
+        
+        .instructions h3 {
+            color: #7FFFD4;
+            margin-bottom: 8px;
+            font-size: 1.1rem;
+        }
+        
+        .instructions ul {
+            padding-left: 20px;
+            line-height: 1.5;
+        }
+        
+        .instructions li {
+            margin-bottom: 6px;
+            font-size: 0.9rem;
+        }
+        
+        .winning-message {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.95);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+            display: none;
+            padding: 20px;
+        }
+        
+        .winning-text {
+            font-size: clamp(2rem, 5vw, 3rem);
+            color: #FFD700;
+            text-shadow: 0 0 20px rgba(255, 215, 0, 0.7);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .winner-color {
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: bold;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        #close-win-message {
+            padding: 12px 30px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        
+        /* Tam ekran modu için stil */
+        body:fullscreen {
+            padding: 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+        
+        body:-webkit-full-screen {
+            padding: 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+        
+        body:-moz-full-screen {
+            padding: 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+        
+        body:-ms-fullscreen {
+            padding: 20px;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+        
+        .fullscreen-active .game-container {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+        
+        @media (min-width: 768px) {
+            body {
+                padding: 20px;
+            }
+            
+            .players-info {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            .game-board {
+                gap: 8px;
+                max-width: 600px;
+            }
+            
+            .cell {
+                font-size: 1.4rem;
+            }
+            
+            .answers-container {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            
+            .answer-btn {
+                font-size: 1rem;
+                min-height: 60px;
+            }
+            
+            .controls {
+                flex-wrap: nowrap;
+            }
+            
+            .control-btn {
+                min-width: auto;
+            }
+            
+            .instructions li {
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .players-info {
+                grid-template-columns: 1fr;
+            }
+            
+            .player-card {
+                padding: 10px;
+            }
+            
+            .answers-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .controls {
+                flex-direction: column;
+            }
+            
+            .control-btn {
+                width: 100%;
+            }
+            
+            .game-board {
+                gap: 5px;
+            }
+        }
+        
+        @media (max-width: 350px) {
+            .cell {
+                font-size: 0.9rem;
+            }
+            
+            .player-name {
+                font-size: 0.9rem;
+            }
+            
+            .question-text {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>WORDWARS ARENA</h1>
+        <div class="subtitle">İngilizce kelimeleri bil, kareleri fethet, arenayı ele geçir!</div>
+    </div>
+    
+    <div class="game-container">
+        <div class="game-status" id="game-status">OYUN BAŞLADI! İlk sıra MAVİ takımda.</div>
+        
+        <div class="top-section">
+            <div class="players-info" id="players-info">
+                <!-- Oyuncu kartları JavaScript ile oluşturulacak -->
+            </div>
+            
+            <div class="game-board-container">
+                <div class="game-board" id="game-board">
+                    <!-- Oyun tahtası JavaScript ile oluşturulacak -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="game-controls">
+            <div class="question-container">
+                <div class="question-text" id="question-text">Bir kare seçtikten sonra soru burada görünecek.</div>
+                <div class="answers-container" id="answers-container">
+                    <p style="text-align: center; grid-column: 1 / -1;">Bir kare seçin.</p>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button class="control-btn" id="next-btn">SONRAKİ SORU</button>
+                <button class="control-btn" id="restart-btn">OYUNU YENİDEN BAŞLAT</button>
+                <button class="control-btn" id="fullscreen-btn">TAM EKRAN</button>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>Oyun Kuralları:</h3>
+            <ul>
+                <li>Her oyuncu başlangıçta bir köşe karesine sahiptir.</li>
+                <li>Sırası gelen oyuncu, bitişiğindeki bir kareyi seçer ve soruyu yanıtlar.</li>
+                <li>Doğru cevap verirse seçtiği kare onun rengini alır.</li>
+                <li>Yanlış cevap verirse ve seçtiği kare rakip karesiyse, saldırılan takım saldıran takımın bitişiğindeki bir karesini alır.</li>
+                <li>Tüm kareleri kendi rengine çeviren oyuncu oyunu kazanır.</li>
+                <li>Sorular İngilizce hava durumu kelimelerinin Türkçe karşılıklarını içerir.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="winning-message" id="winning-message">
+        <div class="winning-text">ARENANIN FATİHİ!</div>
+        <div class="winner-color" id="winner-color">MAVİ TAKIM</div>
+        <button class="control-btn" id="close-win-message">TEKRAR OYNA</button>
+    </div>
+
+    <script>
+        // Oyun değişkenleri
+        const boardSize = 20; // 20 kare
+        const players = [
+            { id: 0, name: "MAVİ", color: "player-blue", score: 1, cardColor: "player-blue-card" },
+            { id: 1, name: "KIRMIZI", color: "player-red", score: 1, cardColor: "player-red-card" },
+            { id: 2, name: "SARI", color: "player-yellow", score: 1, cardColor: "player-yellow-card" },
+            { id: 3, name: "GRİ", color: "player-gray", score: 1, cardColor: "player-gray-card" }
+        ];
+        
+        let currentPlayerIndex = 0; // Sıradaki oyuncu
+        let gameBoard = []; // Oyun tahtası durumu
+        let selectedCell = null; // Seçilen hücre
+        let gameActive = true; // Oyun aktif mi?
+        let questionPool = []; // Soru havuzu
+        let currentQuestion = null; // Geçerli soru
+        let adjacentCells = []; // Mevcut oyuncu için bitişik hücreler
+        
+        // Soru havuzu - İngilizce hava durumu kelimeleri ve Türkçe karşılıkları
+        const weatherWords = [
+    { english: "HEADMASTER", turkish: "MÜDÜR", options: ["ÖĞRETMEN", "ÖĞRENCİ", "MÜDÜR", "MÜDÜR YARDIMCISI"] },
+    { english: "COACH", turkish: "ANTRENÖR", options: ["ÖĞRETMEN", "ANTRENÖR", "MÜDÜR YARDIMCISI", "MÜDÜR"] },
+    { english: "TEACHER", turkish: "ÖĞRETMEN", options: ["ÖĞRENCİ", "MÜDÜR", "ANTRENÖR", "ÖĞRETMEN"] },
+    { english: "ASSISTANT", turkish: "YARDIMCI", options: ["YARDIMCI", "ÖĞRENCİ", "ÖĞRETMEN", "ANTRENÖR"] },
+    { english: "CLASSROOM", turkish: "SINIF", options: ["KORİDOR", "KÜTÜPHANE", "SINIF", "KANTİN"] },
+    { english: "SCIENCE LAB", turkish: "FEN LABORATUVARI", options: ["KÜTÜPHANE", "RESİM KULÜBÜ", "FEN LABORATUVARI", "ÇEVRE KULÜBÜ"] },
+    { english: "SPORTS FIELD", turkish: "SPOR SAHASI", options: ["SINIF", "SPOR SAHASI", "OYUN ALANI", "KÜTÜPHANE"] },
+    { english: "CONFERENCE HALL", turkish: "KONFERANS SALONU", options: ["KONFERANS SALONU", "KANTİN", "SINIF", "OKUL"] },
+    { english: "CANTEEN", turkish: "KANTİN", options: ["OKUL", "KANTİN", "KONFERANS SALONU", "SINIF"] },
+    { english: "LIBRARY", turkish: "KÜTÜPHANE", options: ["KÜTÜPHANE", "LABORATUVAR", "SINIF", "KAPI"] },
+    { english: "ADMINISTRATION DEPARTMENT", turkish: "İDARİ BÖLÜM", options: ["KAPI", "FEN LABORATUVARI", "RESİM KULÜBÜ", "İDARİ BÖLÜM"] },
+    { english: "GATE", turkish: "KAPI", options: ["KAPI", "OKUL", "SINIF", "KÜTÜPHANE"] },
+    { english: "DRAMA CLUB", turkish: "TİYATRO KULÜBÜ", options: ["FEN KULÜBÜ", "SPOR KULÜBÜ", "SATRANÇ KULÜBÜ", "TİYATRO KULÜBÜ"] },
+    { english: "TECHNOLOGY CLUB", turkish: "TEKNOLOJİ KULÜBÜ", options: ["FEN KULÜBÜ", "TEKNOLOJİ KULÜBÜ", "SATRANÇ KULÜBÜ", "TİYATRO KULÜBÜ"] },
+    { english: "MATHS CLUB", turkish: "MATEMATİK KULÜBÜ", options: ["FEN KULÜBÜ", "SATRANÇ KULÜBÜ", "MATEMATİK KULÜBÜ", "RESİM KULÜBÜ"] },
+    { english: "ART CLUB", turkish: "RESİM KULÜBÜ", options: ["MÜZİK KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "RESİM KULÜBÜ"] },
+    { english: "MUSIC CLUB", turkish: "MÜZİK KULÜBÜ", options: ["MÜZİK KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "RESİM KULÜBÜ"] },
+    { english: "ENVIRONMENT CLUB", turkish: "ÇEVRE KULÜBÜ", options: ["SATRANÇ KULÜBÜ", "ÇEVRE KULÜBÜ", "MÜZİK KULÜBÜ", "RESİM KULÜBÜ"] },
+    { english: "FOLK DANCE CLUB", turkish: "HALK OYUNLARI KULÜBÜ", options: ["MÜZİK KULÜBÜ", "HALK OYUNLARI KULÜBÜ", "SATRANÇ KULÜBÜ", "BİLİM KULÜBÜ"] },
+    { english: "SCIENCE CLUB", turkish: "BİLİM KULÜBÜ", options: ["BİLİM KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "RESİM KULÜBÜ"] },
+    { english: "CHESS CLUB", turkish: "SATRANÇ KULÜBÜ", options: ["MÜZİK KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "RESİM KULÜBÜ"] },
+    { english: "SPORTS CLUB", turkish: "SPOR KULÜBÜ", options: ["MÜZİK KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "SPOR KULÜBÜ"] },
+    { english: "ACT IN PLAYS", turkish: "TİYATRO OYUNU OYNAMAK", options: ["SATRANÇ OYNAMAK", "TİYATRO OYUNU OYNAMAK", "BİLGİSAYARA OYUNU OYNAMAK", "VİDEO OYUNLAR OYNAMAK"] },
+    { english: "SOLVE PROBLEMS", turkish: "PROBLEM ÇÖZMEK", options: ["DENEY YAPMAK", "RESİM ÇİZMEK", "PROBLEM ÇÖZMEK", "SATRANÇ OYNAMAK"] },
+    { english: "DRAW PICTURES", turkish: "RESİM ÇİZMEK", options: ["RESİM ÇİZMEK", "DENEY YAPMAK", "ŞARKI SÖYLEMEK", "DANS ETMEK"] },
+    { english: "PLAY THE GUITAR", turkish: "GİTAR ÇALMAK", options: ["KEMAN ÇALMAK", "ŞARKI SÖYLEMEK", "GİTAR ÇALMAK", "DANS ETMEK"] },
+    { english: "SING SONGS", turkish: "ŞARKI SÖYLEMEK", options: ["ŞARKI SÖYLEMEK", "RESİM ÇİZMEK", "OYUNCULUK YAPMAK", "SATRANÇ OYNAMAK"] },
+    { english: "READ BOOKS", turkish: "KİTAP OKUMAK", options: ["RESİM ÇİZMEK", "KİTAP OKUMAK", "ÖDEV YAPMAK", "DENEY YAPMAK"] },
+    { english: "DO EXPERIMENTS", turkish: "DENEY YAPMAK", options: ["ÖDEV YAPMAK", "SPOR YAPMAK", "DENEY YAPMAK", "ALIŞVERİŞ YAPMAK"] },
+    { english: "WATCH MOVIES", turkish: "FİLM İZLEMEK", options: ["TV İZLEMEK", "TİYATRO İZLEMEK", "FİLM İZLEMEK", "DİZİ İZLEMEK"] },
+    { english: "PLAY CHESS", turkish: "SATRANÇ OYNAMAK", options: ["FUTBOL OYNAMAK", "BİLGİSAYAR OYUNU OYNAMAK", "TİYATRO OYUNU OYNAMAK", "SATRANÇ OYNAMAK"] },
+    { english: "SIT", turkish: "OTURMAK", options: ["AYAĞA KALKMAK", "OTURMAK", "DİNLEMEK", "BAĞIRMAK"] },
+    { english: "CLEAN", turkish: "TEMİZLEMEK", options: ["TEMİZLEMEK", "İZLEMEK", "GİYMEK", "KOŞMAK"] },
+    { english: "DO", turkish: "YAPMAK", options: ["GİTMEK", "YAPMAK", "ALMAK", "KALMAK"] },
+    { english: "RUN", turkish: "KOŞMAK", options: ["YÜRÜMEK", "DİNLENMEK", "KOŞMAK", "KONUŞMAK"] },
+    { english: "LISTEN", turkish: "DİNLEMEK", options: ["DİNLEMEK", "İZLEMEK", "YÜZMEK", "YEMEK"] },
+    { english: "FIGHT", turkish: "KAVGA ETMEK", options: ["AYAĞA KALKMAK", "DİNLEMEK", "KAVGA ETMEK", "İÇMEK"] },
+    { english: "SHOUT", turkish: "BAĞIRMAK", options: ["SESSİZ OLMAK", "BAĞIRMAK", "GİYMEK", "OYNAMAK"] },
+    { english: "EAT", turkish: "YEMEK", options: ["GİTMEK", "İZLEMEK", "YEMEK", "İÇMEK"] },
+    { english: "DRINK", turkish: "İÇMEK", options: ["GİTMEK", "İZLEMEK", "YEMEK", "İÇMEK"] },
+    { english: "WEAR", turkish: "GİYMEK", options: ["GİTMEK", "GİYMEK", "VERMEK", "İÇMEK"] },
+    { english: "GERMANY", turkish: "ALMANYA", options: ["FRANSA", "GÜRCİSTAN", "ALMANYA", "İTALYA"] },
+    { english: "THE USA", turkish: "AMERİKA BİRLEŞİK DEVLETLERİ", options: ["AMERİKA BİRLEŞİK DEVLETLERİ", "BİRLEŞİK KRALLIK", "AVUSTURALYA", "TÜRKİYE"] },
+    { english: "SPAIN", turkish: "İSPANYA", options: ["İTALYA", "İRLANDA", "İSPANYA", "İSKOÇYA"] },
+    { english: "GREECE", turkish: "YUNANİSTAN", options: ["İSPANYA", "ALMANYA", "YUNANİSTAN", "FRANSA"] },
+    { english: "EGYPT", turkish: "MISIR", options: ["FAS", "HİNDİSTAN", "MISIR", "FRANSA"] },
+    { english: "SCOTLAND", turkish: "İSKOÇYA", options: ["İNGİLTERE", "İSPANYA", "İSKOÇYA", "İRLANDA"] },
+    { english: "THE UK", turkish: "BİRLEŞİK KRALLIK", options: ["FİNLANDİYA", "AMERİKA BİRLEŞİK DEVLETLERİ", "BİRLEŞİK KRALLIK", "İTALYA"] },
+    { english: "RUSSIA", turkish: "RUSYA", options: ["RUSYA", "FRANSA", "ALMANYA", "FAS"] },
+    { english: "ENGLAND", turkish: "İNGİLTERE", options: ["HİNDİSTAN", "İNGİLTERE", "ALMANYA", "FRANSA"] },
+    { english: "EID-AL FITR", turkish: "RAMAZAN BAYRAMI", options: ["KURBAN BAYRAMI", "ZAFER BAYRAMI", "RAMAZAN BAYRAMI", "CUMHURİYET BAYRAMI"] },
+    { english: "EID-AL ADHA", turkish: "KURBAN BAYRAMI", options: ["KURBAN BAYRAMI", "ZAFER BAYRAMI", "RAMAZAN BAYRAMI", "CUMHURİYET BAYRAMI"] },
+    { english: "CHILDREN'S DAY", turkish: "ÇOCUK BAYRAMI", options: ["CUMHURİYET BAYRAMI", "ÇOCUK BAYRAMI", "GENÇLİK BAYRAMI", "DEMOKRASİ VE MİLLİ BİRLİK GÜNÜ"] },
+    { english: "REPUBLIC DAY", turkish: "CUMHURİYET BAYRAMI", options: ["CUMHURİYET BAYRAMI", "ÇOCUK BAYRAMI", "GENÇLİK BAYRAMI", "DEMOKRASİ VE MİLLİ BİRLİK GÜNÜ"] },
+    { english: "VICTORY DAY", turkish: "ZAFER BAYRAMI", options: ["KURBAN BAYRAMI", "ZAFER BAYRAMI", "RAMAZAN BAYRAMI", "CUMHURİYET BAYRAMI"] },
+    { english: "MUSTN'T RUN", turkish: "KOŞMAMALI", options: ["YEMEMELİ", "İÇMEMELİ", "KOŞMAMALI", "BAĞIRMAMALI"] },
+    { english: "MUSTN'T EAT", turkish: "YEMEMELİ", options: ["YEMEMELİ", "İÇMEMELİ", "KOŞMAMALI", "BAĞIRMAMALI"] },
+    { english: "MUSTN'T FIGHT", turkish: "KAVGA ETMEMELİ", options: ["KAVGA ETMEMELİ", "YEMEMELİ", "KOŞMAMALI", "BAĞIRMAMALI"] },
+    { english: "DON'T SHOUT", turkish: "BAĞIRMA", options: ["İÇME", "YEME", "BAĞIRMA", "KOŞMA"] },
+    { english: "PENCIL", turkish: "KURŞUN KALEM", options: ["TÜKENMEZ KALEM", "KURŞUN KALEM", "DUYURU PANOSU", "BOYA KALEMİ"] },
+    { english: "PEN", turkish: "TÜKENMEZ KALEM", options: ["TÜKENMEZ KALEM", "KURŞUN KALEM", "PASTEL BOYA", "BOYA KALEMİ"] },
+    { english: "COLOURED PENCIL", turkish: "BOYA KALEMİ", options: ["TÜKENMEZ KALEM", "KURŞUN KALEM", "PASTEL BOYA", "BOYA KALEMİ"] },
+    { english: "CRAYON", turkish: "PASTEL BOYA", options: ["TÜKENMEZ KALEM", "KURŞUN KALEM", "PASTEL BOYA", "BOYA KALEMİ"] },
+    { english: "RUBBER", turkish: "SİLGİ", options: ["AKILLI TAHTA", "SİLGİ", "YAPIŞTIRICI", "MAKAS"] },
+    { english: "ERASER", turkish: "SİLGİ", options: ["SÖZLÜK", "HARİTA", "SİLGİ", "POSTER"] },
+    { english: "SHARPENER", turkish: "KALEMTIRAŞ", options: ["SÖZLÜK", "KALEMTIRAŞ", "KİTAP", "DEFTER"] },
+    { english: "PENCIL CASE", turkish: "KALEMLİK", options: ["KONFERANS SALONU", "OKUL ÇANTASI", "KALEMLİK", "TAHTA KALEMİ"] },
+    { english: "BOOK", turkish: "KİTAP", options: ["DEFTER", "KİTAP", "CETVEL", "KİTAPLIK"] },
+    { english: "NOTEBOOK", turkish: "DEFTER", options: ["KİTAPLIK", "DEFTER", "KİTAP", "HARİTA"] },
+    { english: "DICTIONARY", turkish: "SÖZLÜK", options: ["SÖZLÜK", "ÇÖP KUTUSU", "OTURAK", "SIRA"] },
+    { english: "SHEET", turkish: "KAĞIT", options: ["KAĞIT", "POSTER", "KİTAP", "MASA"] },
+    { english: "MATERIAL", turkish: "MATERYAL", options: ["KAĞIT", "MATERYAL", "KALEM", "MASA"] },
+    { english: "SCISSORS", turkish: "MAKAS", options: ["BOYA KALEMİ", "PASTEL BOYA", "MAKAS", "KAĞIT"] },
+    { english: "RULER", turkish: "CETVEL", options: ["KURALLAR", "CETVEL", "DEFTER", "KALEMTIRAŞ"] },
+    { english: "GLUE", turkish: "YAPIŞTIRICI", options: ["KULÜP", "YAPIŞTIRICI", "CETVEL", "SİLGİ"] },
+    { english: "SCHOOL BAG", turkish: "OKUL ÇANTASI", options: ["OKUL KULÜPLERİ", "OKUL DERSLERİ", "OKUL ÇANTASI", "OKUL KURALLARI"] },
+    { english: "POSTER", turkish: "POSTER", options: ["HARİTA", "POSTER", "DUYURU PANOSU", "TAHTA"] },
+    { english: "MAP", turkish: "HARİTA", options: ["HARİTA", "POSTER", "TAHTA", "DUYURU PANOSU"] },
+    { english: "NOTICE BOARD", turkish: "DUYURU PANOSU", options: ["AKILLI TAHTA", "DUYURU PANOSU", "TAHTA", "TAHTA KALEMİ"] },
+    { english: "BOARD", turkish: "TAHTA", options: ["TAHTA", "TAHTA KALEMİ", "AKILLI TAHTA", "DUYURU PANOSU"] },
+    { english: "SMART BOARD", turkish: "AKILLI TAHTA", options: ["TAHTA", "TAHTA KALEMİ", "AKILLI TAHTA", "DUYURU PANOSU"] },
+    { english: "BOARD MARKER", turkish: "TAHTA KALEMİ", options: ["TAHTA", "TAHTA KALEMİ", "AKILLI TAHTA", "DUYURU PANOSU"] },
+    { english: "BOOKCASE", turkish: "KİTAPLIK", options: ["KİTAP", "KİTAP RAFI", "KİTAPLIK", "KİTAP OKUMAK"] },
+    { english: "DESK", turkish: "SIRA", options: ["DERS", "DENEY", "SIRA", "OTURAK"] },
+    { english: "TABLE", turkish: "MASA", options: ["TAHTA", "DUYURU PANOSU", "MASA", "HARİTA"] },
+    { english: "SEAT", turkish: "OTURAK", options: ["YEMEK YEMEK", "DEFTER", "OTURAK", "KAĞIT"] },
+    { english: "RUBBISH BIN", turkish: "ÇÖP KUTUSU", options: ["ÇÖP KUTUSU", "DEFTER", "KAĞIT", "SÖZLÜK"] },
+    { english: "ELEVEN", turkish: "ON BİR", options: ["ON BEŞ", "ON İKİ", "ON ALTI", "ON BİR"] },
+    { english: "TWELVE", turkish: "ON İKİ", options: ["ON BEŞ", "ON İKİ", "ON ALTI", "ON BİR"] },
+    { english: "SIXTY FOUR", turkish: "ALTMIŞ DÖRT", options: ["ALTMIŞ YEDİ", "ALTMIŞ İKİ", "ALTMIŞ BEŞ", "ALTMIŞ DÖRT"] },
+    { english: "TWENTY", turkish: "YİRMİ", options: ["ON İKİ", "YİRMİ", "KIRK", "SEKSEN"] },
+    { english: "SEVENTEEN", turkish: "ON YEDİ", options: ["YEDİ", "ON YEDİ", "YİRMİ YEDİ", "YEDİ YÜZ"] },
+    { english: "HALF PAST", turkish: "BUÇUK", options: ["ÇEYREK GEÇİYOR", "TAM", "ÇEYREK VAR", "BUÇUK"] },
+    { english: "O'CLOCK", turkish: "TAM", options: ["ÇEYREK GEÇİYOR", "TAM", "ÇEYREK VAR", "BUÇUK"] },
+    { english: "A QUARTER PAST", turkish: "ÇEYREK GEÇİYOR", options: ["ÇEYREK GEÇİYOR", "TAM", "ÇEYREK VAR", "BUÇUK"] },
+    { english: "A QUARTER TO", turkish: "ÇEYREK VAR", options: ["ÇEYREK GEÇİYOR", "TAM", "ÇEYREK VAR", "BUÇUK"] },
+    { english: "WHAT TIME", turkish: "SAAT KAÇ", options: ["NEREDE", "KİM", "NASIL", "SAAT KAÇ"] },
+    { english: "SATURDAY", turkish: "CUMARTESİ", options: ["PAZAR", "PAZARTESİ", "CUMA", "CUMARTESİ"] },
+    { english: "SUNDAY", turkish: "PAZAR", options: ["PAZAR", "PAZARTESİ", "CUMA", "CUMARTESİ"] },
+    { english: "MONDAY", turkish: "PAZARTESİ", options: ["PAZAR", "PAZARTESİ", "CUMA", "CUMARTESİ"] },
+    { english: "TUESDAY", turkish: "SALI", options: ["PERŞEMBE", "SALI", "ÇARŞAMBA", "CUMA"] },
+    { english: "WEDNESDAY", turkish: "ÇARŞAMBA", options: ["PERŞEMBE", "SALI", "ÇARŞAMBA", "CUMA"] },
+    { english: "THURSDAY", turkish: "PERŞEMBE", options: ["PERŞEMBE", "SALI", "ÇARŞAMBA", "CUMA"] },
+    { english: "FRIDAY", turkish: "YUNANİSTAN", options: ["PERŞEMBE", "SALI", "ÇARŞAMBA", "CUMA"] },
+    { english: "SCIENCE", turkish: "FEN BİLİMLERİ", options: ["SOSYAL BİLGİLER", "FEN BİLİMLERİ", "RESİM", "BEDEN EĞİTİMİ"] },
+    { english: "MATHS", turkish: "MATEMATİK", options: ["SOSYAL BİLGİLER", "FEN BİLİMLERİ", "MATEMATİK", "BEDEN EĞİTİMİ"] },
+    { english: "SOCIAL STUDIES", turkish: "SOSYAL BİLGİLER", options: ["SOSYAL BİLGİLER", "FEN BİLİMLERİ", "RESİM", "BEDEN EĞİTİMİ"] },
+    { english: "FOREIGN LANGUAGE", turkish: "YABANCI DİL", options: ["SOSYAL BİLGİLER", "YABANCI DİL", "FEN BİLİMLERİ", "BİLİŞİM TEKNOLOJİLERİ"] },
+    { english: "ART", turkish: "RESİM", options: ["MÜZİK", "TİYATRO", "RESİM", "FEN BİLİMLERİ"] },
+    { english: "RELIGION AND MORALS", turkish: "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ", options: ["MÜZİK", "RESİM", "SOSYAL BİLGİLER", "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ"] },
+    { english: "P.E", turkish: "BEDEN EĞİTİMİ", options: ["DİN KÜLTÜRÜ VE AHLAK BİLGİSİ", "BİLİŞİM TEKNOLOJİLERİ", "SOSYAL BİLGİLER", "BEDEN EĞİTİMİ"] },
+    { english: "ELECTIVE LESSON", turkish: "SEÇMELİ DERS", options: ["SEÇMELİ DERS", "YABANCI DİL", "BİLİŞİM TEKNOLOJİLERİ", "SOSYAL BİLGİLER"] },
+    { english: "I.T", turkish: "BİLİŞİM TEKNOLOJİLERİ", options: ["FEN BİLİMLERİ", "YABANCI DİL", "BEDEN EĞİTİMİ", "BİLİŞİM TEKNOLOJİLERİ"] },
+    { english: "HAVE GOT", turkish: "SAHİP OLMAK", options: ["KOŞMAK", "VERMEK", "SAHİP OLMAK", "YAPMAK"] },
+    { english: "FOURTEEN", turkish: "ON DÖRT", options: ["ON YEDİ", "ON İKİ", "ON ÜÇ", "ON DÖRT"] },
+    { english: "NINETY EIGHT", turkish: "DOKSAN SEKİZ", options: ["DOKSAN SEKİZ", "DOKSAN YEDİ", "DOKSAN ALTI", "DOKSAN BEŞ"] },
+    { english: "FIFTY THREE", turkish: "ELLİ ÜÇ", options: ["ELLİ BİR", "ELLİ İKİ", "ELLİ ÜÇ", "ELLİ DÖRT"] },
+    { english: "THIRTY NINE", turkish: "OTUZ DOKUZ", options: ["OTUZ YEDİ", "OTUZ DOKUZ", "OTUZ BEŞ", "OTUZ ÜÇ"] },
+    { english: "CLASSROOM", turkish: "SINIF", options: ["OKUL", "KORİDOR", "SINIF", "KÜTÜPHANE"] },
+    { english: "WHEN", turkish: "NE ZAMAN", options: ["SAAT KAÇTA", "NE ZAMAN", "NEREDE", "NASIL"] },
+    { english: "HOW MANY", turkish: "KAÇ TANE", options: ["NE ZAMAN", "KAÇ TANE", "NEREDE", "NASIL"] },
+    { english: "WHERE", turkish: "NEREDE", options: ["NEREDE", "NE ZAMAN", "NASIL", "SAAT KAÇTA"] },
+    { english: "START", turkish: "BAŞLAMAK", options: ["BİTMEK", "BAŞLAMAK", "OYNAMAK", "YAPMAK"] },
+    { english: "FINISH", turkish: "BİTMEK", options: ["BAŞLAMAK", "OYNAMAK", "BİTMEK", "YAPMAK"] },
+    { english: "BODY", turkish: "VÜCUT", options: ["KAFA", "VÜCUT", "YÜZ", "SAÇ"] },
+    { english: "HEAD", turkish: "KAFA", options: ["OMUZ", "BOYUN", "KAFA", "KOL"] },
+    { english: "FACE", turkish: "YÜZ", options: ["GÖZ", "YÜZ", "AĞIZ", "BURUN"] },
+    { english: "HAIR", turkish: "SAÇ", options: ["AĞIZ", "GÖZ", "KULAK", "SAÇ"] },
+    { english: "EYE", turkish: "GÖZ", options: ["BURUN", "KULAK", "GÖZ", "AĞIZ"] },
+    { english: "EAR", turkish: "KULAK", options: ["BOYUN", "GÖZ", "DİŞ", "KULAK"] },
+    { english: "NOSE", turkish: "BURUN", options: ["BURUN", "AĞIZ", "GÖZ", "KULAK"] },
+    { english: "MOUTH", turkish: "AĞIZ", options: ["GÖZ", "BURUN", "AĞIZ", "KULAK"] },
+    { english: "TOOTH", turkish: "DİŞ", options: ["EL", "PARMAK", "AYAK", "DİŞ"] },
+    { english: "TEETH", turkish: "DİŞLER", options: ["AYAKLAR", "PARMAKLAR", "DİŞLER", "ELLER"] },
+    { english: "NECK", turkish: "BOYUN", options: ["OMUZ", "BOYUN", "KOL", "BACAK"] },
+    { english: "SHOULDER", turkish: "OMUZ", options: ["AYAK", "BOYUN", "EL", "OMUZ"] },
+    { english: "ARM", turkish: "KOL", options: ["EL", "BACAK", "KOL", "AYAK"] },
+    { english: "HAND", turkish: "EL", options: ["EL", "AYAK", "KOL", "BACAK"] },
+    { english: "FINGER", turkish: "PARMAK", options: ["BACAK", "EL", "AYAK", "PARMAK"] },
+    { english: "LEG", turkish: "BACAK", options: ["EL", "KOL", "BACAK", "OMUZ"] },
+    { english: "FOOT", turkish: "AYAK", options: ["BACAK", "EL", "AYAK", "KOL"] },
+    { english: "TOE", turkish: "AYAK PARMAĞI", options: ["OMUZ", "EL PARMAĞI", "AYAK PARMAĞI", "DİZ"] },
+    { english: "STRAIGHT HAIR", turkish: "DÜZ SAÇ", options: ["DALGALI SAÇ", "KIVIRCIK SAÇ", "DÜZ SAÇ", "KISA SAÇ"] },
+    { english: "WAVY HAIR", turkish: "DALGALI SAÇ", options: ["UZUN SAÇ", "DÜZ SAÇ", "KIVIRCIK SAÇ", "DALGALI SAÇ"] },
+    { english: "CURLY HAIR", turkish: "KIVIRCIK SAÇ", options: ["KISA SAÇ", "DÜZ SAÇ", "DALGALI SAÇ", "KIVIRCIK SAÇ"] },
+    { english: "DARK", turkish: "KOYU", options: ["SARI", "AÇIK", "KOYU", "İNCE"] },
+    { english: "FAIR", turkish: "AÇIK RENK", options: ["KOYU RENK", "AÇIK RENK", "SİYAH", "KAHVERENGİ"] },
+    { english: "THIN", turkish: "İNCE", options: ["UZUN", "ŞİŞMAN", "İNCE", "KISA"] },
+    { english: "SLIM", turkish: "ZAYIF", options: ["ORTA KİLOLU", "ŞİŞMAN", "KISA", "ZAYIF"] },
+    { english: "FAT", turkish: "ŞİŞMAN", options: ["KISA", "ZAYIF", "UZUN", "ŞİŞMAN"] },
+    { english: "SHORT", turkish: "KISA", options: ["KÜÇÜK", "UZUN", "BÜYÜK", "KISA"] },
+    { english: "TALL", turkish: "UZUN (BOYLU)", options: ["UZUN", "KISA", "ŞİŞMAN", "ZAYIF"] },
+    { english: "TROUSERS", turkish: "PANTOLON", options: ["GÖMLEK", "ETEK", "CEKET", "PANTOLON"] },
+    { english: "JEANS", turkish: "KOT PANTOLON", options: ["KOT PANTOLON", "ŞORT", "ETEK", "ELBİSE"] },
+    { english: "COAT", turkish: "MONT", options: ["GÖMLEK", "CEKET", "MONT", "TİŞÖRT"] },
+    { english: "RAINCOAT", turkish: "YAĞMURLUK", options: ["MONT", "YAĞMURLUK", "CEKET", "ATKI"] },
+    { english: "JACKET", turkish: "CEKET", options: ["GÖMLEK", "KABAN", "CEKET", "ELBİSE"] },
+    { english: "JUMPER", turkish: "KAZAK", options: ["MONT", "GÖMLEK", "KAZAK", "TİŞÖRT"] },
+    { english: "SHIRT", turkish: "GÖMLEK", options: ["GÖMLEK", "KAZAK", "TİŞÖRT", "CEKET"] },
+    { english: "T-SHIRT", turkish: "TİŞÖRT", options: ["ETEK", "GÖMLEK", "TİŞÖRT", "CEKET"] },
+    { english: "SHORTS", turkish: "ŞORT", options: ["GÖZLÜK", "PANTOLON", "ŞORT", "ELBİSE"] },
+    { english: "DRESS", turkish: "ELBİSE", options: ["KAZAK", "ETEK", "ELBİSE", "GÖMLEK"] },
+    { english: "SKIRT", turkish: "ETEK", options: ["CEKET", "GÖMLEK", "ETEK", "MONT"] },
+    { english: "UNIFORM", turkish: "ÜNİFORMA", options: ["ÜNİFORMA", "ELBİSE", "ŞORT", "GÖMLEK"] },
+    { english: "HAT", turkish: "ŞAPKA", options: ["ÇANTA", "KEMER", "ŞAPKA", "SAAT"] },
+    { english: "SHOES", turkish: "AYAKKABI", options: ["BOT", "ÇORAP", "AYAKKABI", "TERLİK"] },
+    { english: "BOOTS", turkish: "BOT", options: ["ŞEMSİYE", "AYAKKABI", "BOT", "GÖZLÜK"] },
+    { english: "GLASSES", turkish: "GÖZLÜK", options: ["KOLYE", "ŞAPKA", "SAAT", "GÖZLÜK"] },
+    { english: "WATCH", turkish: "SAAT", options: ["KOLYE", "YÜZÜK", "SAAT", "KÜPE"] },
+    { english: "UMBRELLA", turkish: "ŞEMSİYE", options: ["ŞAPKA", "ÇANTA", "ŞEMSİYE", "ATKI"] },
+    { english: "TRENDY", turkish: "MODA", options: ["RAHAT OLMAYAN", "ESKİ", "SIRADAN", "MODA"] },
+    { english: "NEW", turkish: "YENİ", options: ["RAHAT", "ESKİ", "KULLANILMIŞ", "YENİ"] },
+    { english: "STYLISH", turkish: "ŞIK", options: ["YENİ", "SIRADAN", "ŞIK", "ESKİ"] },
+    { english: "ORDINARY", turkish: "SIRADAN", options: ["MODAYA UYGUN", "ŞIK", "SIRADAN", "YENİ"] },
+    { english: "CASUAL", turkish: "GÜNLÜK", options: ["ÜNİFORMA", "RESMİ", "GÜNLÜK", "MODAYA UYGUN"] },
+    { english: "COMFORTABLE", turkish: "RAHAT", options: ["RAHAT OLMAYAN", "RAHAT", "KALIN", "YAZ MEVSİMİ"] },
+    { english: "UNCOMFORTABLE", turkish: "RAHAT OLMAYAN", options: ["RAHAT OLMAYAN", "RAHAT", "YENİ", "MODA"] },
+    { english: "WEAR", turkish: "GİYMEK", options: ["SATIN ALMAK", "GİYMEK", "SAHİP OLMAK", "VERMEK"] },
+    { english: "BUY", turkish: "SATIN ALMAK", options: ["SATIN ALMAK", "GİYMEK", "SAHİP OLMAK", "VERMEK"] },
+    { english: "HAVE GOT", turkish: "SAHİP OLMAK", options: ["YEMEK", "İSTEMEK", "SAHİP OLMAK", "GİYMEK"] },
+    { english: "READ A BOOK", turkish: "KİTAP OKUMAK", options: ["OYUN OYNAMAK", "TV İZLEMEK", "KİTAP OKUMAK", "MÜZİK DİNLEMEK"] },
+    { english: "WATCH TV", turkish: "TV İZLEMEK", options: ["TV İZLEMEK", "RESİM ÇİZMEK", "FİLM İZLEMEK", "MÜZİK DİNLEMEK"] },
+    { english: "PLAY COMPUTER GAMES", turkish: "BİLGİSAYAR OYUNU OYNAMAK", options: ["RESİM ÇİZMEK", "KİTAP OKUMAK", "TV İZLEMEK", "BİLGİSAYAR OYUNU OYNAMAK"] },
+    { english: "ALWAYS", turkish: "HER ZAMAN", options: ["NADİREN", "BAZEN", "HİÇBİR ZAMAN", "HER ZAMAN"] },
+    { english: "USUALLY", turkish: "GENELLİKLE", options: ["ASLA", "HİÇBİR ZAMAN", "GENELLİKLE", "BAZEN"] },
+    { english: "OFTEN", turkish: "SIK SIK", options: ["HER ZAMAN", "ASLA", "NADİREN", "SIK SIK"] },
+    { english: "SOMETIMES", turkish: "BAZEN", options: ["ASLA", "HER ZAMAN", "BAZEN", "GENELLİKLE"] },
+    { english: "RARELY", turkish: "NADİREN", options: ["GENELLİKLE", "SIK SIK", "HER ZAMAN", "NADİREN"] },
+    { english: "NEVER", turkish: "ASLA", options: ["NADİREN", "BAZEN", "HER ZAMAN", "ASLA"] },
+    { english: "SHORT HAIR", turkish: "KISA SAÇ", options: ["UZUN SAÇ", "KISA SAÇ", "DALGALI SAÇ", "KIVIRCIK SAÇ"] },
+    { english: "LONG HAIR", turkish: "UZUN SAÇ", options: ["DÜZ SAÇ", "KISA SAÇ", "UZUN SAÇ", "KIVIRCIK SAÇ"] },
+    { english: "HEADSCARF", turkish: "BAŞÖRTÜSÜ", options: ["ATKI", "BAŞÖRTÜSÜ", "ŞAPKA", "ELBİSE"] },
+    { english: "GLOVES", turkish: "ELDİVEN", options: ["ŞAPKA", "ATKI", "ELDİVEN", "MONT"] },
+    { english: "EARRINGS", turkish: "KÜPE", options: ["KOLYE", "KÜPE", "BİLEKLİK", "YÜZÜK"] },
+    { english: "NECKLACE", turkish: "KOLYE", options: ["KOLYE", "KÜPE", "BİLEKLİK", "YÜZÜK"] },
+    { english: "RING", turkish: "YÜZÜK", options: ["KOLYE", "KÜPE", "BİLEKLİK", "YÜZÜK"] },
+    { english: "HANDBAG", turkish: "EL ÇANTASI", options: ["OKUL ÇANTASI", "SIRT ÇANTASI", "EL ÇANTASI", "ÇANTA"] },
+    { english: "BACKPACK", turkish: "SIRT ÇANTASI", options: ["OKUL ÇANTASI", "SIRT ÇANTASI", "EL ÇANTASI", "ÇANTA"] },
+    { english: "SUNGLASSES", turkish: "GÜNEŞ GÖZLÜĞÜ", options: ["GÖZLÜK", "ATKI", "GÜNEŞ GÖZLÜĞÜ", "KOLYE"] },
+    { english: "MY", turkish: "BENİM", options: ["SENİN", "ONUN", "BENİM", "BİZİM"] },
+    { english: "YOUR", turkish: "SİZİN", options: ["BİZİM", "SİZİN", "BENİM", "ONUN"] },
+    { english: "OUR", turkish: "BİZİM", options: ["BENİM", "SENİN", "BİZİM", "ONLARIN"] },
+    { english: "HİS", turkish: "ONUN", options: ["BİZİM", "SİZİN", "BENİM", "ONUN"] },
+    { english: "HER", turkish: "ONUN", options: ["ONUN", "BENİM", "SENİN", "BİZİM"] },
+    { english: "WINTER", turkish: "KIŞ", options: ["YAZ", "SONBAHAR", "KIŞ", "SONBAHAR"] },
+    { english: "SUMMER", turkish: "YAZ", options: ["KIŞ", "YAZ", "İLKBAHAR", "SONBAHAR"] },
+    { english: "SPRING", turkish: "İLKBAHAR", options: ["KIŞ", "YAZ", "İLKBAHAR", "SONBAHAR"] },
+    { english: "AUTUMN/FALL", turkish: "SONBAHAR", options: ["KIŞ", "YAZ", "İLKBAHAR", "SONBAHAR"] },
+    { english: "GRANDFATHER", turkish: "DEDE", options: ["BABA", "NİNE", "DEDE", "ANNE"] },
+    { english: "GRANDMOTHER", turkish: "NİNE", options: ["DEDE", "ANNE", "BABA", "NİNE"] },
+    { english: "FATHER/DAD", turkish: "BABA", options: ["ANNE", "KIZ KARDEŞ", "BABA", "ERKEK KARDEŞ"] },
+    { english: "MOTHER/MOM", turkish: "ANNE", options: ["KIZ KARDEŞ", "ERKEK KARDEŞ", "ANNE", "BABA"] },
+    { english: "UNCLE", turkish: "AMCA/DAYI", options: ["HALA/TEYZE", "BABA", "DAYI/AMCA", "KUZEN"] },
+    { english: "AUNT", turkish: "HALA/TEYZE", options: ["AMCA/DAYI", "HALA/TEYZE", "NİNE", "DEDE"] },
+    { english: "BROTHER", turkish: "ERKEK KARDEŞ", options: ["DEDE", "BABA", "ERKEK KARDEŞ", "KIZ EVLAT"] },
+    { english: "SISTER", turkish: "KIZ KARDEŞ", options: ["ANNE", "KIZ KARDEŞ", "ERKEK EVLAT", "NİNE"] },
+    { english: "WAKE UP", turkish: "UYANMAK", options: ["DİŞLERİ FIRÇALAMAK", "YÜZÜ YIKAMAK", "UYANMAK", "GİYİNMEK"] },
+    { english: "GET UP", turkish: "YATAKTAN KALKMAK", options: ["YATAKTAN KALKMAK", "ELLERİ YIKAMAK", "KAHVALTI YAPMAK", "SAÇLARI TARAMAK"] },
+    { english: "BRUSH TEET", turkish: "DİŞLERİ FIRÇALAMAK", options: ["YÜZÜ YIKAMAK", "DİŞLERİ FIRÇALAMAK", "SAÇLARI TARAMAK", "GİYİNMEK"] },
+    { english: "WASH HANDS", turkish: "ELLERİ YIKAMAK", options: ["DİŞLERİ FIRÇALAMAK", "ÖDEV YAPMAK", "DERS ÇALIŞMAK", "ELLERİ YIKAMAK"] },
+    { english: "WASH FACE", turkish: "YÜZÜ YIKAMAK", options: ["ÖĞLE YEMEĞİ YEMEK", "YÜZÜ YIKAMAK", "UYUMAK", "EVİ TOPLAMAK"] },
+    { english: "COMB HAIR", turkish: "SAÇI TARAMAK", options: ["UYANMAK", "GİYİNMEK", "SAÇI TARAMAK", "KAHVALTI YAPMAK"] },
+    { english: "GET DRESSED", turkish: "GİYİNMEK", options: ["OKULA GİTMEK", "GİYİNMEK", "YATAKTAN KALKMAK", "ÖĞLE YEMEĞİ YEMEK"] },
+    { english: "STUDY", turkish: "DERS ÇALIŞMAK", options: ["UYUMAK", "UYANMAK", "DERS ÇALIŞMAK", "YÜZÜ YIKAMAK"] },
+    { english: "HAVE BREAKFAST", turkish: "KAHVALTI YAPMAK", options: ["ÖĞLE YEMEĞİ", "EVİ TOPLAMAK", "KAHVALTI YAPMAK", "ÖDEV YAPMAK"] },
+    { english: "HAVE LUNCH", turkish: "ÖĞLE YEMEĞİ YEMEK", options: ["KAHVALTI YAPMAK", "AKŞAM YEMEĞİ YEMEK", "EVİ TOPLAMAK", "ÖĞLE YEMEĞİ YEMEK"] },
+    { english: "HAVE DINNER", turkish: "YÜZ", options: ["KAHVALTI YAPMAK", "AKŞAM YEMEĞİ YEMEK", "EVİ TOPLAMAK", "ÖĞLE YEMEĞİ YEMEK"] },
+    { english: "TAKE CARE OF PET", turkish: "EVCİL HAYVANLA İLGİLENMEK", options: ["EVCİL HAYVANLA İLGİLENMEK", "DİŞLERİ FIRÇALAMAK", "DUŞ ALMAK", "KAHVALTI YAPMAK"] },
+    { english: "REST", turkish: "DİNLENMEK", options: ["GİYİNMEK", "UYANMAK", "DİNLENMEK", "DERS ÇALIŞMAK"] },
+    { english: "TIDY UP THE HOUSE", turkish: "EVİ TOPARLAMAK", options: ["DERS ÇALIŞMAK", "EVİ TOPARLAMAK", "YATAKTAN KALKMAK", "UYANMAK"] },
+    { english: "GO TO BED", turkish: "YATMAK", options: ["UYANMAK", "YATAKTAN KALKMAK", "UYUMAK", "YATMAK"] },
+    { english: "SLEEP", turkish: "UYUMAK", options: ["UYANMAK", "UYUMAK", "YATAKTAN KALKMAK", "YÜZÜ YIKAMAK"] },
+    { english: "CYCLE", turkish: "BİSİKLETE BİNME", options: ["BİLGİSAYAR OYUNU", "BİSİKLETE BİNME", "ÇADIRDA KALMA", "YÜZME"] },
+    { english: "BICYCLE", turkish: "BİSİKLET", options: ["KUTU OYUNU", "ÇADIR", "BİSİKLET", "SAHİL"] },
+    { english: "TENT", turkish: "ÇADIR", options: ["SATRANÇ", "ÇADIR", "FOTOĞRAF", "MÜZE"] },
+    { english: "FOREST", turkish: "ORMAN", options: ["ÇADIR", "ORMAN", "PERİ", "BİSİKLET"] },
+    { english: "COOK", turkish: "PİŞİRMEK", options: ["DANS ETMEK", "PİŞİRMEK", "OYNAMAK", "BİNMEK"] },
+    { english: "VISIT", turkish: "ZİYARET ETMEK", options: ["ZİYARET ETMEK", "BİNMEK", "DENEMEK", "YÜZMEK"] },
+    { english: "FISH", turkish: "BALIK TUTMAK", options: ["YÜZMEK", "BALIK TUTMAK", "ÇADIRDA KALMAK", "TATİLE GİTMEK"] },
+    { english: "MY", turkish: "BENİM", options: ["SENİN", "ONUN", "BENİM", "BİZİM"] },
+    { english: "YOUR", turkish: "SENİN/SİZİN", options: ["BİZİM", "SENİN/SİZİN", "ONLARIN", "ONUN"] },
+    { english: "THEIR", turkish: "ONLARIN", options: ["ONUN", "ONLARIN", "BENİM", "BİZİM"] },
+    { english: "OUR", turkish: "BİZİM", options: ["SENİN/SİZİN", "BENİM", "BİZİM", "ONLARIN"] },
+    { english: "I", turkish: "BEN", options: ["SEN", "O", "BİZ", "BEN"] },
+    { english: "YOU", turkish: "SEN/SİZ", options: ["BİZ", "SEN/SİZ", "ONLAR", "O"] },
+    { english: "WE", turkish: "BİZ", options: ["SEN/SİZ", "BEN", "ONLAR", "BİZ"] },
+    { english: "THEY", turkish: "ONLAR", options: ["ONLAR", "O", "BİZ", "SEN/SİZ"] },
+    { english: "HE", turkish: "O", options: ["BEN", "BİZ", "O", "ONLAR"] },
+    { english: "SHE", turkish: "O", options: ["ONLAR", "BEN", "BİZ", "O"] },
+    { english: "IT", turkish: "O", options: ["O", "BİZ", "BEN", "ONLAR"] },
+    { english: "MINE", turkish: "BENİMKİ", options: ["ONLARINKİ", "BİZİMKİ", "BENİMKİ", "ONUNKİ"] },
+    { english: "YOURS", turkish: "SENİNKİ/SİZİNKİ", options: ["BENİMKİ", "ONLARINKİ", "SENİNKİ/SİZİNKİ", "ONUNKİ"] },
+    { english: "OURS", turkish: "BİZİMKİ", options: ["ONLARINKİ", "BİZİMKİ", "BENİMKİ", "ONUNKİ"] },
+    { english: "WHAT", turkish: "NE", options: ["NEREDE", "SAAT KAÇTA", "KİM", "NE"] },
+    { english: "WHERE", turkish: "NEREDE", options: ["NE ZAMAN", "NEREDE", "SAAT KAÇTA", "KAÇ TANE"] },
+    { english: "WHEN", turkish: "NE ZAMAN", options: ["NEREDE", "KAÇ TANE", "NE ZAMAN", "KİM"] },
+    { english: "WHO", turkish: "KİM", options: ["KİM", "NASIL", "NEREDE", "NE"] },
+    { english: "WHAT TIME", turkish: "SAAT KAÇTA", options: ["KİM", "SAAT KAÇTA", "KAÇ TANE", "NASIL"] },
+    { english: "HOW MANY", turkish: "KAÇ TANE", options: ["NASIL", "KİM", "KAÇ TANE", "NE"] },
+        ];
+        
+        // Soru havuzunu oluştur (500 soru)
+        function createQuestionPool() {
+            questionPool = [];
+            // Mevcut soruları tekrarlayarak 500 soru oluştur
+            for (let i = 0; i < 500; i++) {
+                const wordIndex = i % weatherWords.length;
+                const question = {...weatherWords[wordIndex]};
+                // Şıkları karıştır
+                question.options = [...question.options].sort(() => Math.random() - 0.5);
+                questionPool.push(question);
+            }
+            // Soru havuzunu karıştır
+            questionPool = questionPool.sort(() => Math.random() - 0.5);
+        }
+        
+        // Oyun tahtasını başlat
+        function initializeGameBoard() {
+            gameBoard = [];
+            // 20 karelik tahta (5x4)
+            for (let i = 0; i < boardSize; i++) {
+                // Başlangıçta tüm kareler nötr (beyaz)
+                let playerId = -1; // -1 nötr demek
+                
+                // Köşelerdeki kareleri oyunculara ata
+                if (i === 0) playerId = 0; // Sol üst - MAVİ
+                if (i === 4) playerId = 1; // Sağ üst - KIRMIZI
+                if (i === 15) playerId = 2; // Sol alt - SARI
+                if (i === 19) playerId = 3; // Sağ alt - GRİ
+                
+                gameBoard.push({
+                    id: i,
+                    playerId: playerId,
+                    row: Math.floor(i / 5),
+                    col: i % 5
+                });
+            }
+            
+            // Oyuncu skorlarını sıfırla
+            players.forEach(player => player.score = 1);
+        }
+        
+        // Oyun tahtasını görselleştir
+        function renderGameBoard() {
+            const boardElement = document.getElementById('game-board');
+            boardElement.innerHTML = '';
+            
+            gameBoard.forEach(cell => {
+                const cellElement = document.createElement('div');
+                cellElement.className = 'cell';
+                cellElement.id = `cell-${cell.id}`;
+                
+                // Hücre rengini belirle
+                if (cell.playerId === -1) {
+                    cellElement.classList.add('neutral');
+                    cellElement.textContent = '?';
+                } else {
+                    cellElement.classList.add(players[cell.playerId].color);
+                    cellElement.textContent = players[cell.playerId].name.charAt(0);
+                }
+                
+                // Hücre ID'sini göster
+                const cellIdElement = document.createElement('div');
+                cellIdElement.className = 'cell-id';
+                cellIdElement.textContent = cell.id + 1;
+                cellElement.appendChild(cellIdElement);
+                
+                // Tıklanabilir hücreleri işle
+                if (gameActive && adjacentCells.includes(cell.id)) {
+                    cellElement.addEventListener('click', () => selectCell(cell.id));
+                }
+                
+                // Seçili hücreyi vurgula
+                if (selectedCell === cell.id) {
+                    cellElement.classList.add('selected');
+                }
+                
+                boardElement.appendChild(cellElement);
+            });
+        }
+        
+        // Oyuncu bilgilerini güncelle
+        function renderPlayersInfo() {
+            const playersInfoElement = document.getElementById('players-info');
+            playersInfoElement.innerHTML = '';
+            
+            players.forEach((player, index) => {
+                const playerCard = document.createElement('div');
+                playerCard.className = `player-card ${player.cardColor}`;
+                if (index === currentPlayerIndex && gameActive) {
+                    playerCard.classList.add('active');
+                }
+                
+                playerCard.innerHTML = `
+                    <div class="player-name">${player.name}</div>
+                    <div>Kareler: ${player.score}/20</div>
+                    <div class="player-score">${player.score}</div>
+                `;
+                
+                playersInfoElement.appendChild(playerCard);
+            });
+        }
+        
+        // Bitişik hücreleri bul
+        function findAdjacentCells(playerId) {
+            const adjacent = [];
+            const playerCells = gameBoard.filter(cell => cell.playerId === playerId).map(cell => cell.id);
+            
+            playerCells.forEach(cellId => {
+                const cell = gameBoard[cellId];
+                // Yukarı, aşağı, sol, sağ komşuları kontrol et
+                const directions = [
+                    { row: cell.row - 1, col: cell.col }, // Yukarı
+                    { row: cell.row + 1, col: cell.col }, // Aşağı
+                    { row: cell.row, col: cell.col - 1 }, // Sol
+                    { row: cell.row, col: cell.col + 1 }  // Sağ
+                ];
+                
+                directions.forEach(dir => {
+                    // Tahta sınırlarını kontrol et
+                    if (dir.row >= 0 && dir.row < 4 && dir.col >= 0 && dir.col < 5) {
+                        const neighborId = dir.row * 5 + dir.col;
+                        // Sadece nötr veya rakip hücreler ve daha önce eklenmemişse
+                        if (gameBoard[neighborId].playerId !== playerId && !adjacent.includes(neighborId)) {
+                            adjacent.push(neighborId);
+                        }
+                    }
+                });
+            });
+            
+            return adjacent;
+        }
+        
+        // Hücre seç
+        function selectCell(cellId) {
+            if (!gameActive || !adjacentCells.includes(cellId)) return;
+            
+            selectedCell = cellId;
+            renderGameBoard();
+            loadQuestion();
+        }
+        
+        // Rastgele soru yükle
+        function loadQuestion() {
+            if (selectedCell === null) return;
+            
+            // Rastgele bir soru seç
+            const randomIndex = Math.floor(Math.random() * questionPool.length);
+            currentQuestion = questionPool[randomIndex];
+            
+            // Soruyu göster
+            document.getElementById('question-text').textContent = `"${currentQuestion.english}" kelimesinin Türkçe karşılığı nedir?`;
+            
+            // Cevapları göster
+            const answersContainer = document.getElementById('answers-container');
+            answersContainer.innerHTML = '';
+            
+            currentQuestion.options.forEach((option, index) => {
+                const answerBtn = document.createElement('button');
+                answerBtn.className = 'answer-btn';
+                answerBtn.textContent = `${index + 1}. ${option}`;
+                answerBtn.addEventListener('click', () => checkAnswer(option));
+                answersContainer.appendChild(answerBtn);
+            });
+            
+            // Oyun durumunu güncelle
+            const selectedCellOwner = gameBoard[selectedCell].playerId;
+            const ownerName = selectedCellOwner === -1 ? "Nötr" : players[selectedCellOwner].name;
+            document.getElementById('game-status').textContent = 
+                `${players[currentPlayerIndex].name} takımı, ${selectedCell + 1}. kareyi (${ownerName}) fethetmeye çalışıyor.`;
+        }
+        
+        // Saldıran takımın bitişiğindeki bir hücresini al
+        function takeAdjacentCellFromAttacker(attackerId, defenderId, attackedCellId) {
+            // attackedCellId: saldırılan hücre (defender'ın hücresi)
+            // attackerId: saldıran takım
+            // defenderId: saldırılan takım (soruyu doğru bilen)
+            
+            // Saldırılan hücrenin bitişiklerini bul
+            const attackedCell = gameBoard[attackedCellId];
+            const directions = [
+                { row: attackedCell.row - 1, col: attackedCell.col },
+                { row: attackedCell.row + 1, col: attackedCell.col },
+                { row: attackedCell.row, col: attackedCell.col - 1 },
+                { row: attackedCell.row, col: attackedCell.col + 1 }
+            ];
+            
+            let adjacentCells = [];
+            directions.forEach(dir => {
+                if (dir.row >= 0 && dir.row < 4 && dir.col >= 0 && dir.col < 5) {
+                    const neighborId = dir.row * 5 + dir.col;
+                    adjacentCells.push(neighborId);
+                }
+            });
+            
+            // Bu bitişik hücrelerden saldıran takıma (attackerId) ait olanları bul
+            const attackerCells = adjacentCells.filter(cellId => gameBoard[cellId].playerId === attackerId);
+            
+            // Eğer varsa, rastgele birini seç
+            if (attackerCells.length > 0) {
+                const randomIndex = Math.floor(Math.random() * attackerCells.length);
+                const cellToTake = attackerCells[randomIndex];
+                // Bu hücreyi savunana (defender) ver
+                conquerCell(cellToTake, defenderId);
+                return cellToTake;
+            }
+            return -1; // Alınabilecek hücre yok
+        }
+        
+        // Cevabı kontrol et
+        function checkAnswer(selectedAnswer) {
+            if (!currentQuestion || !gameActive) return;
+            
+            const isCorrect = selectedAnswer === currentQuestion.turkish;
+            const answerButtons = document.querySelectorAll('.answer-btn');
+            
+            // Tüm butonları devre dışı bırak
+            answerButtons.forEach(btn => {
+                btn.disabled = true;
+                if (btn.textContent.includes(currentQuestion.turkish)) {
+                    btn.classList.add('correct');
+                }
+                if (btn.textContent.includes(selectedAnswer) && selectedAnswer !== currentQuestion.turkish) {
+                    btn.classList.add('wrong');
+                }
+            });
+            
+            // Cevabı işle
+            if (isCorrect) {
+                // Doğru cevap - Seçilen hücreyi fethet
+                conquerCell(selectedCell, currentPlayerIndex);
+                document.getElementById('game-status').textContent = 
+                    `Doğru! ${players[currentPlayerIndex].name} takımı ${selectedCell + 1}. kareyi fethetti.`;
+            } else {
+                // Yanlış cevap
+                const selectedCellOwner = gameBoard[selectedCell].playerId;
+                
+                if (selectedCellOwner !== -1 && selectedCellOwner !== currentPlayerIndex) {
+                    // Rakip hücresini seçti ve bilemedi - YENİ KURAL: Saldırılan takım, saldıran takımın bitişiğindeki bir hücresini alır
+                    const cellTaken = takeAdjacentCellFromAttacker(currentPlayerIndex, selectedCellOwner, selectedCell);
+                    
+                    if (cellTaken !== -1) {
+                        document.getElementById('game-status').textContent = 
+                            `Yanlış! ${players[selectedCellOwner].name} takımı, ${players[currentPlayerIndex].name} takımının ${cellTaken + 1}. karesini ele geçirdi!`;
+                    } else {
+                        // Saldıran takımın bitişik hücresi yoksa, hiçbir şey olmaz
+                        document.getElementById('game-status').textContent = 
+                            `Yanlış cevap! Ancak ${players[currentPlayerIndex].name} takımının bitişik karesi yok, kayıp yok.`;
+                    }
+                } else {
+                    // Nötr hücreyi seçti ve bilemedi - Hiçbir şey olmaz
+                    document.getElementById('game-status').textContent = 
+                        `Yanlış cevap! ${players[currentPlayerIndex].name} takımı fethedemedi.`;
+                }
+            }
+            
+            // Oyunun bitip bitmediğini kontrol et
+            checkGameEnd();
+        }
+        
+        // Hücreyi fethet
+        function conquerCell(cellId, playerId) {
+            const previousOwner = gameBoard[cellId].playerId;
+            
+            // Eski sahibin skorunu güncelle
+            if (previousOwner !== -1) {
+                players[previousOwner].score--;
+            }
+            
+            // Yeni sahibi ata
+            gameBoard[cellId].playerId = playerId;
+            players[playerId].score++;
+            
+            // Tahtayı ve oyuncu bilgilerini güncelle
+            renderGameBoard();
+            renderPlayersInfo();
+        }
+        
+        // Oyunun bitip bitmediğini kontrol et
+        function checkGameEnd() {
+            // Bir oyuncu tüm karelere sahip mi?
+            const winner = players.find(player => player.score === boardSize);
+            
+            if (winner) {
+                gameActive = false;
+                showWinningMessage(winner);
+            }
+        }
+        
+        // Kazanan mesajını göster
+        function showWinningMessage(winner) {
+            const winningMessage = document.getElementById('winning-message');
+            const winnerColor = document.getElementById('winner-color');
+            
+            winnerColor.textContent = `${winner.name} TAKIM`;
+            winnerColor.className = 'winner-color';
+            winnerColor.classList.add(winner.color);
+            
+            winningMessage.style.display = 'flex';
+        }
+        
+        // Sonraki tur
+        function nextTurn() {
+            if (!gameActive) return;
+            
+            // Sırayı bir sonraki oyuncuya geçir
+            currentPlayerIndex = (currentPlayerIndex + 1) % players.length;
+            selectedCell = null;
+            
+            // Yeni oyuncu için bitişik hücreleri bul
+            adjacentCells = findAdjacentCells(currentPlayerIndex);
+            
+            // Eğer oyuncunun fethedilebilecek hücresi yoksa, bir sonrakine geç
+            if (adjacentCells.length === 0) {
+                // Tüm oyuncuların hamle yapma şansı var mı kontrol et
+                let allPlayersStuck = true;
+                for (let i = 0; i < players.length; i++) {
+                    const playerAdjacent = findAdjacentCells(i);
+                    if (playerAdjacent.length > 0) {
+                        allPlayersStuck = false;
+                        break;
+                    }
+                }
+                
+                if (allPlayersStuck) {
+                    gameActive = false;
+                    document.getElementById('game-status').textContent = "Oyun berabere! Hiçbir oyuncu hamle yapamıyor.";
+                    return;
+                }
+                
+                // Bir sonraki oyuncuya geç
+                nextTurn();
+                return;
+            }
+            
+            // Oyun durumunu güncelle
+            document.getElementById('game-status').textContent = 
+                `Sıra ${players[currentPlayerIndex].name} takımında. Bitişik bir kare seçin.`;
+            
+            // Soru alanını temizle
+            document.getElementById('question-text').textContent = "Bir kare seçtikten sonra soru burada görünecek.";
+            document.getElementById('answers-container').innerHTML = '<p style="text-align: center; grid-column: 1 / -1;">Bir kare seçin.</p>';
+            
+            // Tahtayı ve oyuncu bilgilerini güncelle
+            renderGameBoard();
+            renderPlayersInfo();
+        }
+        
+        // Oyunu yeniden başlat
+        function restartGame() {
+            currentPlayerIndex = 0;
+            selectedCell = null;
+            gameActive = true;
+            
+            createQuestionPool();
+            initializeGameBoard();
+            
+            // İlk oyuncu için bitişik hücreleri bul
+            adjacentCells = findAdjacentCells(currentPlayerIndex);
+            
+            // Oyun durumunu güncelle
+            document.getElementById('game-status').textContent = 
+                `OYUN YENİDEN BAŞLATILDI! İlk sıra ${players[currentPlayerIndex].name} takımında.`;
+            
+            // Kazanan mesajını gizle
+            document.getElementById('winning-message').style.display = 'none';
+            
+            // Soru alanını temizle
+            document.getElementById('question-text').textContent = "Bir kare seçtikten sonra soru burada görünecek.";
+            document.getElementById('answers-container').innerHTML = '<p style="text-align: center; grid-column: 1 / -1;">Bir kare seçin.</p>';
+            
+            // Tahtayı ve oyuncu bilgilerini render et
+            renderGameBoard();
+            renderPlayersInfo();
+        }
+        
+        // Tam ekran fonksiyonları
+        function toggleFullScreen() {
+            const elem = document.documentElement;
+            
+            if (!document.fullscreenElement && !document.webkitFullscreenElement && 
+                !document.mozFullScreenElement && !document.msFullscreenElement) {
+                // Tam ekran moduna geç
+                if (elem.requestFullscreen) {
+                    elem.requestFullscreen();
+                } else if (elem.webkitRequestFullscreen) {
+                    elem.webkitRequestFullscreen();
+                } else if (elem.mozRequestFullScreen) {
+                    elem.mozRequestFullScreen();
+                } else if (elem.msRequestFullscreen) {
+                    elem.msRequestFullscreen();
+                }
+                
+                // Tam ekran modunda olduğumuzu belirtmek için body'e class ekle
+                document.body.classList.add('fullscreen-active');
+                document.getElementById('fullscreen-btn').textContent = 'TAM EKRANDAN ÇIK';
+            } else {
+                // Tam ekran modundan çık
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                } else if (document.mozCancelFullScreen) {
+                    document.mozCancelFullScreen();
+                } else if (document.msExitFullscreen) {
+                    document.msExitFullscreen();
+                }
+                
+                // Tam ekran class'ını kaldır
+                document.body.classList.remove('fullscreen-active');
+                document.getElementById('fullscreen-btn').textContent = 'TAM EKRAN';
+            }
+        }
+        
+        // Tam ekran değişikliğini izle
+        function handleFullScreenChange() {
+            if (!document.fullscreenElement && !document.webkitFullscreenElement && 
+                !document.mozFullScreenElement && !document.msFullscreenElement) {
+                // Tam ekrandan çıkıldı
+                document.body.classList.remove('fullscreen-active');
+                document.getElementById('fullscreen-btn').textContent = 'TAM EKRAN';
+            }
+        }
+        
+        // Oyunu başlat
+        function initializeGame() {
+            createQuestionPool();
+            initializeGameBoard();
+            
+            // İlk oyuncu için bitişik hücreleri bul
+            adjacentCells = findAdjacentCells(currentPlayerIndex);
+            
+            // Event listener'ları ekle
+            document.getElementById('next-btn').addEventListener('click', nextTurn);
+            document.getElementById('restart-btn').addEventListener('click', restartGame);
+            document.getElementById('close-win-message').addEventListener('click', restartGame);
+            
+            // Tam ekran butonu event listener'ı
+            document.getElementById('fullscreen-btn').addEventListener('click', toggleFullScreen);
+            
+            // Tam ekran değişikliklerini dinle
+            document.addEventListener('fullscreenchange', handleFullScreenChange);
+            document.addEventListener('webkitfullscreenchange', handleFullScreenChange);
+            document.addEventListener('mozfullscreenchange', handleFullScreenChange);
+            document.addEventListener('MSFullscreenChange', handleFullScreenChange);
+            
+            // İlk render
+            renderGameBoard();
+            renderPlayersInfo();
+        }
+        
+        // Sayfa yüklendiğinde oyunu başlat
+        document.addEventListener('DOMContentLoaded', initializeGame);
+    </script>
+</body>
+</html>

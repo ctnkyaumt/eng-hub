@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>LGS English Racer | Countdown after Quiz</title>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background: linear-gradient(145deg, #0b1120 0%, #101826 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
+    overflow: hidden;
+    touch-action: pan-x pan-y;
+    padding: 16px;
+}
+
+#game-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    aspect-ratio: 2 / 3;
+    background: #1a1f2b;
+    border-radius: 40px;
+    box-shadow: 0 30px 35px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255,255,255,0.1);
+    overflow: hidden;
+    border: 2px solid rgba(255, 200, 100, 0.6);
+    transition: all 0.2s ease;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #141a24;
+}
+
+#scoreBoard {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: rgba(10, 20, 30, 0.75);
+    backdrop-filter: blur(10px);
+    padding: 6px 18px;
+    border-radius: 40px;
+    font-weight: 800;
+    font-size: clamp(14px, 5vw, 22px);
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: #ffdf9c;
+    border: 1px solid rgba(255,200,100,0.4);
+    z-index: 15;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    white-space: nowrap;
+}
+
+#scoreVal {
+    color: #f5bc70;
+    font-size: clamp(18px, 6vw, 28px);
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+/* Fullscreen Button - always on main screen (visible even before game start) */
+#fullscreenBtn {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: rgba(10, 20, 30, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,200,100,0.6);
+    border-radius: 40px;
+    padding: 8px 16px;
+    font-size: clamp(14px, 4vw, 18px);
+    font-weight: bold;
+    color: #ffdf9c;
+    cursor: pointer;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+    font-family: monospace;
+}
+
+#fullscreenBtn:hover {
+    background: #f5a623;
+    color: #1a1a2e;
+    border-color: white;
+    transform: scale(0.96);
+}
+
+/* Touch controls */
+#touch-controls {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    z-index: 25;
+    pointer-events: none;
+}
+
+.ctrl-btn {
+    pointer-events: auto;
+    width: 70px;
+    height: 70px;
+    background: rgba(18, 28, 40, 0.9);
+    backdrop-filter: blur(12px);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffcd7e;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,215,130,0.7);
+    transition: 0.07s linear;
+    cursor: pointer;
+}
+
+.ctrl-btn:active {
+    transform: scale(0.92);
+    background: #f5a623;
+    color: #1a1a2e;
+}
+
+@media (max-width: 560px) {
+    .ctrl-btn { width: 60px; height: 60px; font-size: 36px; }
+    #touch-controls { gap: 35px; bottom: 18px; }
+    #fullscreenBtn { padding: 6px 12px; top: 14px; right: 14px; }
+    #scoreBoard { top: 14px; left: 14px; padding: 4px 14px; }
+}
+
+/* Modal - LARGER with change button */
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.88);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-content {
+    background: #fef6e6;
+    color: #1f2a3e;
+    width: 92%;
+    max-width: 500px;
+    padding: 28px 24px 32px;
+    border-radius: 56px;
+    text-align: center;
+    box-shadow: 0 30px 45px rgba(0,0,0,0.5);
+    border: 2px solid #ffcf8a;
+}
+
+.modal-content h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #c74f0c;
+    margin-bottom: 16px;
+}
+
+.question-text {
+    background: #fff2e0;
+    padding: 18px 14px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 16px 0;
+    line-height: 1.4;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 18px 0;
+}
+
+.option-btn {
+    background: #2d6a9f;
+    border: none;
+    padding: 14px 8px;
+    border-radius: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.1s;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.option-btn:active { transform: scale(0.96); }
+.correct { background: #2ecc71 !important; }
+.incorrect { background: #e74c3c !important; }
+
+#feedbackText {
+    font-size: 18px;
+    font-weight: bold;
+    min-height: 50px;
+    margin-top: 16px;
+}
+
+.change-question-btn {
+    background: #ffb347;
+    color: #2c1e0f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: 80%;
+    transition: 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: monospace;
+}
+
+.change-question-btn:hover {
+    background: #ff9f1c;
+    transform: scale(0.97);
+}
+
+/* Start & Game Over */
+#startScreen .modal-content, #gameOverScreen .modal-content {
+    background: #101a24;
+    border: 2px solid #ffb347;
+    color: #ffefcf;
+}
+
+#startScreen h1 {
+    font-size: 32px;
+    color: #ffbb55;
+}
+
+#startBtn, #restartBtn {
+    background: #ff874d;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f1a0c;
+    margin-top: 20px;
+    width: 80%;
+    cursor: pointer;
+}
+
+/* Countdown overlay (canvas text) will be drawn directly */
+</style>
+</head>
+<body>
+
+<div id="game-container">
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+    <div id="scoreBoard">🏆 SCORE: <span id="scoreVal">0</span></div>
+    <!-- Fullscreen button always on main screen -->
+    <button id="fullscreenBtn">⛶ FULLSCREEN</button>
+
+    <div id="touch-controls">
+        <div class="ctrl-btn" id="leftTouchBtn">◀</div>
+        <div class="ctrl-btn" id="rightTouchBtn">▶</div>
+    </div>
+
+    <!-- Start Screen -->
+    <div id="startScreen" class="modal active">
+        <div class="modal-content">
+            <h1>🏁 ENGLISH RACER</h1>
+            <p style="margin: 12px 0; font-size: 18px;">Steer with arrows / A D<br>or tap ◀  ▶ <br>Answer LGS questions to survive!<br><strong style="color:#ffaa66;">❌ Wrong Answer = Game Over</strong><br>🔄 You can change the question once per popup.<br>⏱️ Correct answer → 3-2-1 GO!</p>
+            <button id="startBtn">🚀 DRIVE NOW</button>
+        </div>
+    </div>
+
+    <!-- Quiz Modal -->
+    <div id="quizModal" class="modal">
+        <div class="modal-content">
+            <h2 id="unitTitle">📘 ENGLISH QUIZ</h2>
+            <p id="questionText" class="question-text"></p>
+            <div class="options-grid" id="optionsGrid"></div>
+            <button id="changeQuestionBtn" class="change-question-btn">🔄 CHANGE QUESTION</button>
+            <p id="feedbackText"></p>
+        </div>
+    </div>
+
+    <!-- Game Over Screen -->
+    <div id="gameOverScreen" class="modal">
+        <div class="modal-content">
+            <h1>💥 GAME OVER</h1>
+            <p>⭐ FINAL SCORE: <strong id="finalScoreVal">0</strong></p>
+            <button id="restartBtn">🔄 PLAY AGAIN</button>
+        </div>
+    </div>
+</div>
+
+<script>
+// ======================== LGS QUESTIONS (UNITS 1-10) ========================
+const MASTER_QUESTIONS = [
+{ unit: "📖 Theme 1 - School Life", q: "HEADMASTER", options: ["ÖĞRETMEN", "ÖĞRENCİ", "MÜDÜR", "MÜDÜR YARDIMCISI"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "COACH", options: ["ÖĞRETMEN", "ANTRENÖR", "MÜDÜR YARDIMCISI", "MÜDÜR"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "TEACHER", options: ["ÖĞRENCİ", "MÜDÜR", "ANTRENÖR", "ÖĞRETMEN"], answer: 3 },
+{ unit: "📖 Theme 1 - School Life", q: "ASSISTANT", options: ["YARDIMCI", "ÖĞRENCİ", "ÖĞRETMEN", "ANTRENÖR"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "CLASSROOM", options: ["KORİDOR", "KÜTÜPHANE", "SINIF", "KANTİN"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "SCIENCE LAB", options: ["KÜTÜPHANE", "RESİM KULÜBÜ", "FEN LABORATUVARI", "ÇEVRE KULÜBÜ"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "SPORTS FIELD", options: ["SINIF", "SPOR SAHASI", "OYUN ALANI", "KÜTÜPHANE"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "CONFERENCE HALL", options: ["KONFERANS SALONU", "KANTİN", "SINIF", "OKUL"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "CANTEEN", options: ["OKUL", "KANTİN", "KONFERANS SALONU", "SINIF"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "LIBRARY", options: ["KÜTÜPHANE", "LABORATUVAR", "SINIF", "KAPI"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "ADMINISTRATION DEPARTMENT", options: ["KAPI", "FEN LABORATUVARI", "RESİM KULÜBÜ", "İDARİ BÖLÜM"], answer: 3 },
+{ unit: "📖 Theme 1 - School Life", q: "GATE", options: ["KAPI", "OKUL", "SINIF", "KÜTÜPHANE"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "DRAMA CLUB", options: ["FEN KULÜBÜ", "SPOR KULÜBÜ", "SATRANÇ KULÜBÜ", "TİYATRO KULÜBÜ"], answer: 3 },
+{ unit: "📖 Theme 1 - School Life", q: "TECHNOLOGY CLUB", options: ["FEN KULÜBÜ", "TEKNOLOJİ KULÜBÜ", "SATRANÇ KULÜBÜ", "TİYATRO KULÜBÜ"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "MATHS CLUB", options: ["FEN KULÜBÜ", "SATRANÇ KULÜBÜ", "MATEMATİK KULÜBÜ", "RESİM KULÜBÜ"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "ART CLUB", options: ["MÜZİK KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "RESİM KULÜBÜ"], answer: 3 },
+{ unit: "📖 Theme 1 - School Life", q: "MUSIC CLUB", options: ["MÜZİK KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "RESİM KULÜBÜ"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "ENVIRONMENT CLUB", options: ["SATRANÇ KULÜBÜ", "ÇEVRE KULÜBÜ", "MÜZİK KULÜBÜ", "RESİM KULÜBÜ"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "FOLK DANCE CLUB", options: ["MÜZİK KULÜBÜ", "HALK OYUNLARI KULÜBÜ", "SATRANÇ KULÜBÜ", "BİLİM KULÜBÜ"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "SCIENCE CLUB", options: ["BİLİM KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "RESİM KULÜBÜ"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "CHESS CLUB", options: ["MÜZİK KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "RESİM KULÜBÜ"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "SPORTS CLUB", options: ["MÜZİK KULÜBÜ", "TİYATRO KULÜBÜ", "SATRANÇ KULÜBÜ", "SPOR KULÜBÜ"], answer: 3 },
+{ unit: "📖 Theme 1 - School Life", q: "ACT IN PLAYS", options: ["SATRANÇ OYNAMAK", "TİYATRO OYUNU OYNAMAK", "BİLGİSAYARA OYUNU OYNAMAK", "VİDEO OYUNLAR OYNAMAK"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "SOLVE PROBLEMS", options: ["DENEY YAPMAK", "RESİM ÇİZMEK", "PROBLEM ÇÖZMEK", "SATRANÇ OYNAMAK"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "DRAW PICTURES", options: ["RESİM ÇİZMEK", "DENEY YAPMAK", "ŞARKI SÖYLEMEK", "DANS ETMEK"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "PLAY THE GUITAR", options: ["KEMAN ÇALMAK", "ŞARKI SÖYLEMEK", "GİTAR ÇALMAK", "DANS ETMEK"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "SING SONGS", options: ["ŞARKI SÖYLEMEK", "RESİM ÇİZMEK", "OYUNCULUK YAPMAK", "SATRANÇ OYNAMAK"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "READ BOOKS", options: ["RESİM ÇİZMEK", "KİTAP OKUMAK", "ÖDEV YAPMAK", "DENEY YAPMAK"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "DO EXPERIMENTS", options: ["ÖDEV YAPMAK", "SPOR YAPMAK", "DENEY YAPMAK", "ALIŞVERİŞ YAPMAK"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "WATCH MOVIES", options: ["TV İZLEMEK", "TİYATRO İZLEMEK", "FİLM İZLEMEK", "DİZİ İZLEMEK"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "PLAY CHESS", options: ["FUTBOL OYNAMAK", "BİLGİSAYAR OYUNU OYNAMAK", "TİYATRO OYUNU OYNAMAK", "SATRANÇ OYNAMAK"], answer: 3 },
+{ unit: "📖 Theme 1 - School Life", q: "SIT", options: ["AYAĞA KALKMAK", "OTURMAK", "DİNLEMEK", "BAĞIRMAK"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "CLEAN", options: ["TEMİZLEMEK", "İZLEMEK", "GİYMEK", "KOŞMAK"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "DO", options: ["GİTMEK", "YAPMAK", "ALMAK", "KALMAK"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "RUN", options: ["YÜRÜMEK", "DİNLENMEK", "KOŞMAK", "KONUŞMAK"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "LISTEN", options: ["DİNLEMEK", "İZLEMEK", "YÜZMEK", "YEMEK"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "FIGHT", options: ["AYAĞA KALKMAK", "DİNLEMEK", "KAVGA ETMEK", "İÇMEK"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "SHOUT", options: ["SESSİZ OLMAK", "BAĞIRMAK", "GİYMEK", "OYNAMAK"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "EAT", options: ["GİTMEK", "İZLEMEK", "YEMEK", "İÇMEK"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "DRINK", options: ["GİTMEK", "İZLEMEK", "YEMEK", "İÇMEK"], answer: 3 },
+{ unit: "📖 Theme 1 - School Life", q: "WEAR", options: ["GİTMEK", "GİYMEK", "VERMEK", "İÇMEK"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "GERMANY", options: ["FRANSA", "GÜRCİSTAN", "ALMANYA", "İTALYA"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "THE USA", options: ["AMERİKA BİRLEŞİK DEVLETLERİ", "BİRLEŞİK KRALLIK", "AVUSTURALYA", "TÜRKİYE"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "SPAIN", options: ["İTALYA", "İRLANDA", "İSPANYA", "İSKOÇYA"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "GREECE", options: ["İSPANYA", "ALMANYA", "YUNANİSTAN", "FRANSA"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "EGYPT", options: ["FAS", "HİNDİSTAN", "MISIR", "FRANSA"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "SCOTLAND", options: ["İNGİLTERE", "İSPANYA", "İSKOÇYA", "İRLANDA"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "THE UK", options: ["FİNLANDİYA", "AMERİKA BİRLEŞİK DEVLETLERİ", "BİRLEŞİK KRALLIK", "İTALYA"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "RUSSIA", options: ["RUSYA", "FRANSA", "ALMANYA", "FAS"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "ENGLAND", options: ["HİNDİSTAN", "İNGİLTERE", "ALMANYA", "FRANSA"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "EID-AL FITR", options: ["KURBAN BAYRAMI", "ZAFER BAYRAMI", "RAMAZAN BAYRAMI", "CUMHURİYET BAYRAMI"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "EID-AL ADHA", options: ["KURBAN BAYRAMI", "ZAFER BAYRAMI", "RAMAZAN BAYRAMI", "CUMHURİYET BAYRAMI"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "CHILDREN'S DAY", options: ["CUMHURİYET BAYRAMI", "ÇOCUK BAYRAMI", "GENÇLİK BAYRAMI", "DEMOKRASİ VE MİLLİ BİRLİK GÜNÜ"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "REPUBLIC DAY", options: ["CUMHURİYET BAYRAMI", "ÇOCUK BAYRAMI", "GENÇLİK BAYRAMI", "DEMOKRASİ VE MİLLİ BİRLİK GÜNÜ"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "VICTORY DAY", options: ["KURBAN BAYRAMI", "ZAFER BAYRAMI", "RAMAZAN BAYRAMI", "CUMHURİYET BAYRAMI"], answer: 1 },
+{ unit: "📖 Theme 1 - School Life", q: "MUSTN'T RUN", options: ["YEMEMELİ", "İÇMEMELİ", "KOŞMAMALI", "BAĞIRMAMALI"], answer: 2 },
+{ unit: "📖 Theme 1 - School Life", q: "MUSTN'T EAT", options: ["YEMEMELİ", "İÇMEMELİ", "KOŞMAMALI", "BAĞIRMAMALI"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "MUSTN'T FIGHT", options: ["KAVGA ETMEMELİ", "YEMEMELİ", "KOŞMAMALI", "BAĞIRMAMALI"], answer: 0 },
+{ unit: "📖 Theme 1 - School Life", q: "DON'T SHOUT", options: ["İÇME", "YEME", "BAĞIRMA", "KOŞMA"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "PENCIL", options: ["TÜKENMEZ KALEM", "KURŞUN KALEM", "DUYURU PANOSU", "BOYA KALEMİ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "PEN", options: ["TÜKENMEZ KALEM", "KURŞUN KALEM", "PASTEL BOYA", "BOYA KALEMİ"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "COLOURED PENCIL", options: ["TÜKENMEZ KALEM", "KURŞUN KALEM", "PASTEL BOYA", "BOYA KALEMİ"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "CRAYON", options: ["TÜKENMEZ KALEM", "KURŞUN KALEM", "PASTEL BOYA", "BOYA KALEMİ"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "RUBBER", options: ["AKILLI TAHTA", "SİLGİ", "YAPIŞTIRICI", "MAKAS"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "ERASER", options: ["SÖZLÜK", "HARİTA", "SİLGİ", "POSTER"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SHARPENER", options: ["SÖZLÜK", "KALEMTIRAŞ", "KİTAP", "DEFTER"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "PENCIL CASE", options: ["KONFERANS SALONU", "OKUL ÇANTASI", "KALEMLİK", "TAHTA KALEMİ"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "BOOK", options: ["DEFTER", "KİTAP", "CETVEL", "KİTAPLIK"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "NOTEBOOK", options: ["KİTAPLIK", "DEFTER", "KİTAP", "HARİTA"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "DICTIONARY", options: ["SÖZLÜK", "ÇÖP KUTUSU", "OTURAK", "SIRA"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SHEET", options: ["KAĞIT", "POSTER", "KİTAP", "MASA"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "MATERIAL", options: ["KAĞIT", "MATERYAL", "KALEM", "MASA"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SCISSORS", options: ["BOYA KALEMİ", "PASTEL BOYA", "MAKAS", "KAĞIT"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "RULER", options: ["KURALLAR", "CETVEL", "DEFTER", "KALEMTIRAŞ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "GLUE", options: ["KULÜP", "YAPIŞTIRICI", "CETVEL", "SİLGİ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SCHOOL BAG", options: ["OKUL KULÜPLERİ", "OKUL DERSLERİ", "OKUL ÇANTASI", "OKUL KURALLARI"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "POSTER", options: ["HARİTA", "POSTER", "DUYURU PANOSU", "TAHTA"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "MAP", options: ["HARİTA", "POSTER", "TAHTA", "DUYURU PANOSU"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "NOTICE BOARD", options: ["AKILLI TAHTA", "DUYURU PANOSU", "TAHTA", "TAHTA KALEMİ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "BOARD", options: ["TAHTA", "TAHTA KALEMİ", "AKILLI TAHTA", "DUYURU PANOSU"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SMART BOARD", options: ["TAHTA", "TAHTA KALEMİ", "AKILLI TAHTA", "DUYURU PANOSU"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "BOARD MARKER", options: ["TAHTA", "TAHTA KALEMİ", "AKILLI TAHTA", "DUYURU PANOSU"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "BOOKCASE", options: ["KİTAP", "KİTAP RAFI", "KİTAPLIK", "KİTAP OKUMAK"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "DESK", options: ["DERS", "DENEY", "SIRA", "OTURAK"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "TABLE", options: ["TAHTA", "DUYURU PANOSU", "MASA", "HARİTA"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SEAT", options: ["YEMEK YEMEK", "DEFTER", "OTURAK", "KAĞIT"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "RUBBISH BIN", options: ["ÇÖP KUTUSU", "DEFTER", "KAĞIT", "SÖZLÜK"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "ELEVEN", options: ["ON BEŞ", "ON İKİ", "ON ALTI", "ON BİR"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "TWELVE", options: ["ON BEŞ", "ON İKİ", "ON ALTI", "ON BİR"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SIXTY FOUR", options: ["ALTMIŞ YEDİ", "ALTMIŞ İKİ", "ALTMIŞ BEŞ", "ALTMIŞ DÖRT"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "TWENTY", options: ["ON İKİ", "YİRMİ", "KIRK", "SEKSEN"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SEVENTEEN", options: ["YEDİ", "ON YEDİ", "YİRMİ YEDİ", "YEDİ YÜZ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "HALF PAST", options: ["ÇEYREK GEÇİYOR", "TAM", "ÇEYREK VAR", "BUÇUK"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "O'CLOCK", options: ["ÇEYREK GEÇİYOR", "TAM", "ÇEYREK VAR", "BUÇUK"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "A QUARTER PAST", options: ["ÇEYREK GEÇİYOR", "TAM", "ÇEYREK VAR", "BUÇUK"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "A QUARTER TO", options: ["ÇEYREK GEÇİYOR", "TAM", "ÇEYREK VAR", "BUÇUK"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "WHAT TIME", options: ["NEREDE", "KİM", "NASIL", "SAAT KAÇ"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SATURDAY", options: ["PAZAR", "PAZARTESİ", "CUMA", "CUMARTESİ"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SUNDAY", options: ["PAZAR", "PAZARTESİ", "CUMA", "CUMARTESİ"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "MONDAY", options: ["PAZAR", "PAZARTESİ", "CUMA", "CUMARTESİ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "TUESDAY", options: ["PERŞEMBE", "SALI", "ÇARŞAMBA", "CUMA"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "WEDNESDAY", options: ["PERŞEMBE", "SALI", "ÇARŞAMBA", "CUMA"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "THURSDAY", options: ["PERŞEMBE", "SALI", "ÇARŞAMBA", "CUMA"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "FRIDAY", options: ["PERŞEMBE", "SALI", "ÇARŞAMBA", "CUMA"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SCIENCE", options: ["SOSYAL BİLGİLER", "FEN BİLİMLERİ", "RESİM", "BEDEN EĞİTİMİ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "MATHS", options: ["SOSYAL BİLGİLER", "FEN BİLİMLERİ", "MATEMATİK", "BEDEN EĞİTİMİ"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "SOCIAL STUDIES", options: ["SOSYAL BİLGİLER", "FEN BİLİMLERİ", "RESİM", "BEDEN EĞİTİMİ"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "FOREIGN LANGUAGE", options: ["SOSYAL BİLGİLER", "YABANCI DİL", "FEN BİLİMLERİ", "BİLİŞİM TEKNOLOJİLERİ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "ART", options: ["MÜZİK", "TİYATRO", "RESİM", "FEN BİLİMLERİ"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "RELIGION AND MORALS", options: ["MÜZİK", "RESİM", "SOSYAL BİLGİLER", "DİN KÜLTÜRÜ VE AHLAK BİLGİSİ"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "P.E", options: ["DİN KÜLTÜRÜ VE AHLAK BİLGİSİ", "BİLİŞİM TEKNOLOJİLERİ", "SOSYAL BİLGİLER", "BEDEN EĞİTİMİ"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "ELECTIVE LESSON", options: ["SEÇMELİ DERS", "YABANCI DİL", "BİLİŞİM TEKNOLOJİLERİ", "SOSYAL BİLGİLER"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "I.T", options: ["FEN BİLİMLERİ", "YABANCI DİL", "BEDEN EĞİTİMİ", "BİLİŞİM TEKNOLOJİLERİ"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "HAVE GOT", options: ["KOŞMAK", "VERMEK", "SAHİP OLMAK", "YAPMAK"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "FOURTEEN", options: ["ON YEDİ", "ON İKİ", "ON ÜÇ", "ON DÖRT"], answer: 3 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "NINETY EIGHT", options: ["DOKSAN SEKİZ", "DOKSAN YEDİ", "DOKSAN ALTI", "DOKSAN BEŞ"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "FIFTY THREE", options: ["ELLİ BİR", "ELLİ İKİ", "ELLİ ÜÇ", "ELLİ DÖRT"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "THIRTY NINE", options: ["OTUZ YEDİ", "OTUZ DOKUZ", "OTUZ BEŞ", "OTUZ ÜÇ"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "CLASSROOM", options: ["OKUL", "KORİDOR", "SINIF", "KÜTÜPHANE"], answer: 2 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "WHEN", options: ["SAAT KAÇTA", "NE ZAMAN", "NEREDE", "NASIL"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "HOW MANY", options: ["NE ZAMAN", "KAÇ TANE", "NEREDE", "NASIL"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "WHERE", options: ["NEREDE", "NE ZAMAN", "NASIL", "SAAT KAÇTA"], answer: 0 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "START", options: ["BİTMEK", "BAŞLAMAK", "OYNAMAK", "YAPMAK"], answer: 1 },
+{ unit: "📖 Theme 2 - Classroom Life", q: "FINISH", options: ["BAŞLAMAK", "OYNAMAK", "BİTMEK", "YAPMAK"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "BODY", options: ["KAFA", "VÜCUT", "YÜZ", "SAÇ"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HEAD", options: ["OMUZ", "BOYUN", "KAFA", "KOL"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "FACE", options: ["GÖZ", "YÜZ", "AĞIZ", "BURUN"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HAIR", options: ["AĞIZ", "GÖZ", "KULAK", "SAÇ"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "EYE", options: ["BURUN", "KULAK", "GÖZ", "AĞIZ"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "EAR", options: ["BOYUN", "GÖZ", "DİŞ", "KULAK"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "NOSE", options: ["BURUN", "AĞIZ", "GÖZ", "KULAK"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "MOUTH", options: ["GÖZ", "BURUN", "AĞIZ", "KULAK"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "TOOTH", options: ["EL", "PARMAK", "AYAK", "DİŞ"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "TEETH", options: ["AYAKLAR", "PARMAKLAR", "DİŞLER", "ELLER"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "NECK", options: ["OMUZ", "BOYUN", "KOL", "BACAK"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SHOULDER", options: ["AYAK", "BOYUN", "EL", "OMUZ"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "ARM", options: ["EL", "BACAK", "KOL", "AYAK"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HAND", options: ["EL", "AYAK", "KOL", "BACAK"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "FINGER", options: ["BACAK", "EL", "AYAK", "PARMAK"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "LEG", options: ["EL", "KOL", "BACAK", "OMUZ"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "FOOT", options: ["BACAK", "EL", "AYAK", "KOL"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "TOE", options: ["OMUZ", "EL PARMAĞI", "AYAK PARMAĞI", "DİZ"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "STRAIGHT HAIR", options: ["DALGALI SAÇ", "KIVIRCIK SAÇ", "DÜZ SAÇ", "KISA SAÇ"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "WAVY HAIR", options: ["UZUN SAÇ", "DÜZ SAÇ", "KIVIRCIK SAÇ", "DALGALI SAÇ"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "CURLY HAIR", options: ["KISA SAÇ", "DÜZ SAÇ", "DALGALI SAÇ", "KIVIRCIK SAÇ"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "DARK", options: ["SARI", "AÇIK", "KOYU", "İNCE"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "FAIR", options: ["KOYU RENK", "AÇIK RENK", "SİYAH", "KAHVERENGİ"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "THIN", options: ["UZUN", "ŞİŞMAN", "İNCE", "KISA"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SLIM", options: ["ORTA KİLOLU", "ŞİŞMAN", "KISA", "ZAYIF"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "FAT", options: ["KISA", "ZAYIF", "UZUN", "ŞİŞMAN"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SHORT", options: ["KÜÇÜK", "UZUN", "BÜYÜK", "KISA"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "TALL", options: ["UZUN", "KISA", "ŞİŞMAN", "ZAYIF"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "TROUSERS", options: ["GÖMLEK", "ETEK", "CEKET", "PANTOLON"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "JEANS", options: ["KOT PANTOLON", "ŞORT", "ETEK", "ELBİSE"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "COAT", options: ["GÖMLEK", "CEKET", "MONT", "TİŞÖRT"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "RAINCOAT", options: ["MONT", "YAĞMURLUK", "CEKET", "ATKI"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "JACKET", options: ["GÖMLEK", "KABAN", "CEKET", "ELBİSE"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "JUMPER", options: ["MONT", "GÖMLEK", "KAZAK", "TİŞÖRT"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SHIRT", options: ["GÖMLEK", "KAZAK", "TİŞÖRT", "CEKET"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "T-SHIRT", options: ["ETEK", "GÖMLEK", "TİŞÖRT", "CEKET"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SHORTS", options: ["GÖZLÜK", "PANTOLON", "ŞORT", "ELBİSE"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "DRESS", options: ["KAZAK", "ETEK", "ELBİSE", "GÖMLEK"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SKIRT", options: ["CEKET", "GÖMLEK", "ETEK", "MONT"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "UNIFORM", options: ["ÜNİFORMA", "ELBİSE", "ŞORT", "GÖMLEK"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HAT", options: ["ÇANTA", "KEMER", "ŞAPKA", "SAAT"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SHOES", options: ["BOT", "ÇORAP", "AYAKKABI", "TERLİK"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "BOOTS", options: ["ŞEMSİYE", "AYAKKABI", "BOT", "GÖZLÜK"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "GLASSES", options: ["KOLYE", "ŞAPKA", "SAAT", "GÖZLÜK"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "WATCH", options: ["KOLYE", "YÜZÜK", "SAAT", "KÜPE"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "UMBRELLA", options: ["ŞAPKA", "ÇANTA", "ŞEMSİYE", "ATKI"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "TRENDY", options: ["RAHAT OLMAYAN", "ESKİ", "SIRADAN", "MODA"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "NEW", options: ["RAHAT", "ESKİ", "KULLANILMIŞ", "YENİ"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "STYLISH", options: ["YENİ", "SIRADAN", "ŞIK", "ESKİ"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "ORDINARY", options: ["MODAYA UYGUN", "ŞIK", "SIRADAN", "YENİ"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "CASUAL", options: ["ÜNİFORMA", "RESMİ", "GÜNLÜK", "MODAYA UYGUN"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "COMFORTABLE", options: ["RAHAT OLMAYAN", "RAHAT", "KALIN", "YAZ MEVSİMİ"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "UNCOMFORTABLE", options: ["RAHAT OLMAYAN", "RAHAT", "YENİ", "MODA"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "WEAR", options: ["SATIN ALMAK", "GİYMEK", "SAHİP OLMAK", "VERMEK"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "BUY", options: ["SATIN ALMAK", "GİYMEK", "SAHİP OLMAK", "VERMEK"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HAVE GOT", options: ["YEMEK", "İSTEMEK", "SAHİP OLMAK", "GİYMEK"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "READ A BOOK", options: ["OYUN OYNAMAK", "TV İZLEMEK", "KİTAP OKUMAK", "MÜZİK DİNLEMEK"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "WATCH TV", options: ["TV İZLEMEK", "RESİM ÇİZMEK", "FİLM İZLEMEK", "MÜZİK DİNLEMEK"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "PLAY COMPUTER GAMES", options: ["RESİM ÇİZMEK", "KİTAP OKUMAK", "TV İZLEMEK", "BİLGİSAYAR OYUNU OYNAMAK"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "ALWAYS", options: ["NADİREN", "BAZEN", "HİÇBİR ZAMAN", "HER ZAMAN"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "USUALLY", options: ["ASLA", "HİÇBİR ZAMAN", "GENELLİKLE", "BAZEN"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "OFTEN", options: ["HER ZAMAN", "ASLA", "NADİREN", "SIK SIK"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SOMETIMES", options: ["ASLA", "HER ZAMAN", "BAZEN", "GENELLİKLE"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "RARELY", options: ["GENELLİKLE", "SIK SIK", "HER ZAMAN", "NADİREN"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "NEVER", options: ["NADİREN", "BAZEN", "HER ZAMAN", "ASLA"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SHORT HAIR", options: ["UZUN SAÇ", "KISA SAÇ", "DALGALI SAÇ", "KIVIRCIK SAÇ"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "LONG HAIR", options: ["DÜZ SAÇ", "KISA SAÇ", "UZUN SAÇ", "KIVIRCIK SAÇ"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HEADSCARF", options: ["ATKI", "BAŞÖRTÜSÜ", "ŞAPKA", "ELBİSE"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "GLOVES", options: ["ŞAPKA", "ATKI", "ELDİVEN", "MONT"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "EARRINGS", options: ["KOLYE", "KÜPE", "BİLEKLİK", "YÜZÜK"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "NECKLACE", options: ["KOLYE", "KÜPE", "BİLEKLİK", "YÜZÜK"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "RING", options: ["KOLYE", "KÜPE", "BİLEKLİK", "YÜZÜK"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HANDBAG", options: ["OKUL ÇANTASI", "SIRT ÇANTASI", "EL ÇANTASI", "ÇANTA"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "BACKPACK", options: ["OKUL ÇANTASI", "SIRT ÇANTASI", "EL ÇANTASI", "ÇANTA"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SUNGLASSES", options: ["GÖZLÜK", "ATKI", "GÜNEŞ GÖZLÜĞÜ", "KOLYE"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "MY", options: ["SENİN", "ONUN", "BENİM", "BİZİM"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "YOUR", options: ["BİZİM", "SİZİN", "BENİM", "ONUN"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "OUR", options: ["BENİM", "SENİN", "BİZİM", "ONLARIN"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HIS", options: ["BİZİM", "SİZİN", "BENİM", "ONUN"], answer: 3 },
+{ unit: "📖 Theme 3 - Personal Life", q: "HER", options: ["ONUN", "BENİM", "SENİN", "BİZİM"], answer: 0 },
+{ unit: "📖 Theme 3 - Personal Life", q: "WINTER", options: ["YAZ", "SONBAHAR", "KIŞ", "SONBAHAR"], answer: 2 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SUMMER", options: ["KIŞ", "YAZ", "İLKBAHAR", "SONBAHAR"], answer: 1 },
+{ unit: "📖 Theme 3 - Personal Life", q: "SPRING", options: ["KIŞ", "YAZ", "İLKBAHAR", "SONBAHAR"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "GRANDFATHER", options: ["BABA", "NİNE", "DEDE", "ANNE"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "GRANDMOTHER", options: ["DEDE", "ANNE", "BABA", "NİNE"], answer: 3 },
+{ unit: "📖 Theme 4 - Family Life", q: "FATHER/DAD", options: ["ANNE", "KIZ KARDEŞ", "BABA", "ERKEK KARDEŞ"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "MOTHER/MOM", options: ["KIZ KARDEŞ", "ERKEK KARDEŞ", "ANNE", "BABA"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "UNCLE", options: ["HALA/TEYZE", "BABA", "DAYI/AMCA", "KUZEN"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "AUNT", options: ["AMCA/DAYI", "HALA/TEYZE", "NİNE", "DEDE"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "BROTHER", options: ["DEDE", "BABA", "ERKEK KARDEŞ", "KIZ EVLAT"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "SISTER", options: ["ANNE", "KIZ KARDEŞ", "ERKEK EVLAT", "NİNE"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "WAKE UP", options: ["DİŞLERİ FIRÇALAMAK", "YÜZÜ YIKAMAK", "UYANMAK", "GİYİNMEK"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "GET UP", options: ["YATAKTAN KALKMAK", "ELLERİ YIKAMAK", "KAHVALTI YAPMAK", "SAÇLARI TARAMAK"], answer: 0 },
+{ unit: "📖 Theme 4 - Family Life", q: "BRUSH TEETH", options: ["YÜZÜ YIKAMAK", "DİŞLERİ FIRÇALAMAK", "SAÇLARI TARAMAK", "GİYİNMEK"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "WASH HANDS", options: ["DİŞLERİ FIRÇALAMAK", "ÖDEV YAPMAK", "DERS ÇALIŞMAK", "ELLERİ YIKAMAK"], answer: 3 },
+{ unit: "📖 Theme 4 - Family Life", q: "WASH FACE", options: ["ÖĞLE YEMEĞİ YEMEK", "YÜZÜ YIKAMAK", "UYUMAK", "EVİ TOPLAMAK"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "COMB HAIR", options: ["UYANMAK", "GİYİNMEK", "SAÇI TARAMAK", "KAHVALTI YAPMAK"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "GET DRESSED", options: ["OKULA GİTMEK", "GİYİNMEK", "YATAKTAN KALKMAK", "ÖĞLE YEMEĞİ YEMEK"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "STUDY", options: ["UYUMAK", "UYANMAK", "DERS ÇALIŞMAK", "YÜZÜ YIKAMAK"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "HAVE BREAKFAST", options: ["ÖĞLE YEMEĞİ", "EVİ TOPLAMAK", "KAHVALTI YAPMAK", "ÖDEV YAPMAK"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "HAVE LUNCH", options: ["KAHVALTI YAPMAK", "AKŞAM YEMEĞİ YEMEK", "EVİ TOPLAMAK", "ÖĞLE YEMEĞİ YEMEK"], answer: 3 },
+{ unit: "📖 Theme 4 - Family Life", q: "HAVE DINNER", options: ["KAHVALTI YAPMAK", "AKŞAM YEMEĞİ YEMEK", "EVİ TOPLAMAK", "ÖĞLE YEMEĞİ YEMEK"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "TAKE CARE OF PET", options: ["EVCİL HAYVANLA İLGİLENMEK", "DİŞLERİ FIRÇALAMAK", "DUŞ ALMAK", "KAHVALTI YAPMAK"], answer: 0 },
+{ unit: "📖 Theme 4 - Family Life", q: "REST", options: ["GİYİNMEK", "UYANMAK", "DİNLENMEK", "DERS ÇALIŞMAK"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "TIDY UP THE HOUSE", options: ["DERS ÇALIŞMAK", "EVİ TOPARLAMAK", "YATAKTAN KALKMAK", "UYANMAK"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "GO TO BED", options: ["UYANMAK", "YATAKTAN KALKMAK", "UYUMAK", "YATMAK"], answer: 3 },
+{ unit: "📖 Theme 4 - Family Life", q: "SLEEP", options: ["UYANMAK", "UYUMAK", "YATAKTAN KALKMAK", "YÜZÜ YIKAMAK"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "CYCLE", options: ["BİLGİSAYAR OYUNU", "BİSİKLETE BİNME", "ÇADIRDA KALMA", "YÜZME"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "BICYCLE", options: ["KUTU OYUNU", "ÇADIR", "BİSİKLET", "SAHİL"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "TENT", options: ["SATRANÇ", "ÇADIR", "FOTOĞRAF", "MÜZE"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "FOREST", options: ["ÇADIR", "ORMAN", "PERİ", "BİSİKLET"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "COOK", options: ["DANS ETMEK", "PİŞİRMEK", "OYNAMAK", "BİNMEK"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "VISIT", options: ["ZİYARET ETMEK", "BİNMEK", "DENEMEK", "YÜZMEK"], answer: 0 },
+{ unit: "📖 Theme 4 - Family Life", q: "FISH", options: ["YÜZMEK", "BALIK TUTMAK", "ÇADIRDA KALMAK", "TATİLE GİTMEK"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "YOUR", options: ["SENİN/SİZİN", "ONUN", "BENİM", "BİZİM"], answer: 0 },
+{ unit: "📖 Theme 4 - Family Life", q: "THEIR", options: ["ONUN", "ONLARIN", "BENİM", "BİZİM"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "OUR", options: ["SENİN/SİZİN", "BENİM", "BİZİM", "ONLARIN"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "I", options: ["SEN", "O", "BİZ", "BEN"], answer: 3 },
+{ unit: "📖 Theme 4 - Family Life", q: "YOU", options: ["BİZ", "SEN/SİZ", "ONLAR", "O"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "WE", options: ["SEN/SİZ", "BEN", "ONLAR", "BİZ"], answer: 3 },
+{ unit: "📖 Theme 4 - Family Life", q: "THEY", options: ["ONLAR", "O", "BİZ", "SEN/SİZ"], answer: 0 },
+{ unit: "📖 Theme 4 - Family Life", q: "HE", options: ["BEN", "BİZ", "O", "ONLAR"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "SHE", options: ["ONLAR", "BEN", "BİZ", "O"], answer: 3 },
+{ unit: "📖 Theme 4 - Family Life", q: "IT", options: ["O", "BİZ", "BEN", "ONLAR"], answer: 0 },
+{ unit: "📖 Theme 4 - Family Life", q: "MINE", options: ["ONLARINKİ", "BİZİMKİ", "BENİMKİ", "ONUNKİ"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "YOURS", options: ["BENİMKİ", "ONLARINKİ", "SENİNKİ/SİZİNKİ", "ONUNKİ"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "OURS", options: ["ONLARINKİ", "BİZİMKİ", "BENİMKİ", "ONUNKİ"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "WHAT", options: ["NEREDE", "SAAT KAÇTA", "KİM", "NE"], answer: 3 },
+{ unit: "📖 Theme 4 - Family Life", q: "WHERE", options: ["NE ZAMAN", "NEREDE", "SAAT KAÇTA", "KAÇ TANE"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "WHEN", options: ["NEREDE", "KAÇ TANE", "NE ZAMAN", "KİM"], answer: 2 },
+{ unit: "📖 Theme 4 - Family Life", q: "WHO", options: ["KİM", "NASIL", "NEREDE", "NE"], answer: 0 },
+{ unit: "📖 Theme 4 - Family Life", q: "WHAT TIME", options: ["KİM", "SAAT KAÇTA", "KAÇ TANE", "NASIL"], answer: 1 },
+{ unit: "📖 Theme 4 - Family Life", q: "HOW MANY", options: ["NASIL", "KİM", "KAÇ TANE", "NE"], answer: 2 },
+];
+
+// ----- QUESTION POOL MANAGEMENT (no repeat until all asked) -----
+let unaskedIndices = [];
+let currentQuestionIndex = -1;
+let currentQuestionObj = null;
+
+function resetQuestionPool() {
+    unaskedIndices = MASTER_QUESTIONS.map((_, idx) => idx);
+    for (let i = unaskedIndices.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [unaskedIndices[i], unaskedIndices[j]] = [unaskedIndices[j], unaskedIndices[i]];
+    }
+}
+function markCurrentQuestionAsAsked() {
+    if (currentQuestionIndex !== -1) {
+        const pos = unaskedIndices.indexOf(currentQuestionIndex);
+        if (pos !== -1) unaskedIndices.splice(pos, 1);
+    }
+    if (unaskedIndices.length === 0) resetQuestionPool();
+}
+function getRandomUnaskedQuestion(excludeIdx = -1) {
+    if (unaskedIndices.length === 0) resetQuestionPool();
+    let available = unaskedIndices.filter(idx => idx !== excludeIdx);
+    if (available.length === 0) available = [...unaskedIndices];
+    const randIdx = available[Math.floor(Math.random() * available.length)];
+    return { idx: randIdx, q: MASTER_QUESTIONS[randIdx] };
+}
+function loadQuestionIntoModal(index) {
+    const qData = MASTER_QUESTIONS[index];
+    currentQuestionIndex = index;
+    currentQuestionObj = qData;
+    unitTitle.innerText = qData.unit;
+    questionText.innerText = qData.q;
+    feedbackText.innerText = "";
+    optionsGrid.innerHTML = "";
+    qData.options.forEach((opt, optIdx) => {
+        const btn = document.createElement('button');
+        btn.className = "option-btn";
+        btn.innerText = opt;
+        btn.onclick = () => handleAnswer(btn, optIdx === qData.answer);
+        optionsGrid.appendChild(btn);
+    });
+    document.querySelectorAll('#optionsGrid .option-btn').forEach(b => b.disabled = false);
+}
+function changeQuestion() {
+    if (!isPaused || !quizModal.classList.contains('active')) return;
+    let newQ;
+    if (unaskedIndices.length === 0) resetQuestionPool();
+    if (unaskedIndices.length === 1 && unaskedIndices[0] === currentQuestionIndex) {
+        newQ = { idx: currentQuestionIndex, q: currentQuestionObj };
+    } else {
+        newQ = getRandomUnaskedQuestion(currentQuestionIndex);
+    }
+    loadQuestionIntoModal(newQ.idx);
+    feedbackText.innerText = "";
+}
+
+// ----- COUNTDOWN SYSTEM -----
+let countdownActive = false;
+let countdownValue = 3;      // 3,2,1 then "GO!"
+let countdownTimer = null;
+
+function startCountdown(onComplete) {
+    countdownActive = true;
+    countdownValue = 3;
+    // Cancel any previous timer
+    if (countdownTimer) clearInterval(countdownTimer);
+    countdownTimer = setInterval(() => {
+        if (countdownValue > 1) {
+            countdownValue--;
+        } else {
+            // countdownValue == 1 -> next will be "GO!"
+            clearInterval(countdownTimer);
+            countdownTimer = null;
+            countdownActive = false;
+            if (onComplete) onComplete();
+        }
+    }, 1000);
+}
+function drawCountdown() {
+    if (!countdownActive) return;
+    ctx.font = "bold 72px 'Segoe UI', 'Poppins'";
+    ctx.shadowBlur = 0;
+    ctx.fillStyle = "#ffdd99";
+    ctx.shadowColor = "black";
+    let text = "";
+    if (countdownValue === 3) text = "3";
+    else if (countdownValue === 2) text = "2";
+    else if (countdownValue === 1) text = "1";
+    else text = "GO!";
+    if (countdownValue === 0) text = "GO!";
+    ctx.fillText(text, canvas.width/2 - 40, canvas.height/2 - 50);
+    ctx.font = "bold 28px monospace";
+    ctx.fillStyle = "#ffbb77";
+    ctx.fillText("GET READY", canvas.width/2 - 70, canvas.height/2 + 40);
+    ctx.shadowColor = "transparent";
+}
+
+// ----- CANVAS & UI -----
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+const scoreSpan = document.getElementById('scoreVal');
+const startScreen = document.getElementById('startScreen');
+const startBtn = document.getElementById('startBtn');
+const quizModal = document.getElementById('quizModal');
+const unitTitle = document.getElementById('unitTitle');
+const questionText = document.getElementById('questionText');
+const optionsGrid = document.getElementById('optionsGrid');
+const feedbackText = document.getElementById('feedbackText');
+const gameOverScreen = document.getElementById('gameOverScreen');
+const finalScoreVal = document.getElementById('finalScoreVal');
+const restartBtn = document.getElementById('restartBtn');
+const fullscreenBtn = document.getElementById('fullscreenBtn');
+const changeQuestionBtn = document.getElementById('changeQuestionBtn');
+
+// ----- FULLSCREEN (always present) -----
+function toggleFullscreen() {
+    const container = document.getElementById('game-container');
+    if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        const req = container.requestFullscreen || container.webkitRequestFullscreen;
+        if (req) { req.call(container); fullscreenBtn.innerHTML = '✖ EXIT'; }
+    } else {
+        const exit = document.exitFullscreen || document.webkitExitFullscreen;
+        if (exit) { exit.call(document); fullscreenBtn.innerHTML = '⛶ FULLSCREEN'; }
+    }
+}
+function onFullscreenChange() {
+    fullscreenBtn.innerHTML = (document.fullscreenElement || document.webkitFullscreenElement) ? '✖ EXIT' : '⛶ FULLSCREEN';
+}
+document.addEventListener('fullscreenchange', onFullscreenChange);
+document.addEventListener('webkitfullscreenchange', onFullscreenChange);
+fullscreenBtn.addEventListener('click', toggleFullscreen);
+
+// ----- GAME STATE -----
+let isPlaying = false;
+let isPaused = false;      // quiz open or countdown in progress
+let animationId = null;
+let score = 0;
+let baseSpeed = 4.0;
+let currentSpeed = baseSpeed;
+let frameCounter = 0;
+let lastQuizTime = 0;
+const QUIZ_INTERVAL = 17000;
+
+// Player car
+const player = {
+    x: canvas.width / 2 - 22,
+    y: canvas.height - 105,
+    w: 44,
+    h: 72,
+    speed: 5.4,
+    dx: 0
+};
+
+let obstacles = [];
+let roadLines = [];
+
+// Input
+const keys = { ArrowLeft: false, ArrowRight: false, a: false, d: false };
+const leftTouch = document.getElementById('leftTouchBtn');
+const rightTouch = document.getElementById('rightTouchBtn');
+function activateLeft() { keys.ArrowLeft = true; keys.a = true; }
+function deactivateLeft() { keys.ArrowLeft = false; keys.a = false; }
+function activateRight() { keys.ArrowRight = true; keys.d = true; }
+function deactivateRight() { keys.ArrowRight = false; keys.d = false; }
+function attachTouch(btn, onStart, onEnd) {
+    if (!btn) return;
+    btn.addEventListener('mousedown', (e) => { e.preventDefault(); onStart(); });
+    btn.addEventListener('mouseup', (e) => { e.preventDefault(); onEnd(); });
+    btn.addEventListener('touchstart', (e) => { e.preventDefault(); onStart(); }, {passive: false});
+    btn.addEventListener('touchend', (e) => { e.preventDefault(); onEnd(); });
+    btn.addEventListener('touchcancel', (e) => { e.preventDefault(); onEnd(); });
+}
+attachTouch(leftTouch, activateLeft, deactivateLeft);
+attachTouch(rightTouch, activateRight, deactivateRight);
+window.addEventListener('mouseup', () => { deactivateLeft(); deactivateRight(); });
+window.addEventListener('keydown', (e) => { if (keys.hasOwnProperty(e.key)) { e.preventDefault(); keys[e.key] = true; } });
+window.addEventListener('keyup', (e) => { if (keys.hasOwnProperty(e.key)) keys[e.key] = false; });
+
+// Game mechanics drawing
+function initRoadLines() {
+    roadLines = [];
+    for (let i = 0; i < 7; i++) roadLines.push({ y: i * 100 });
+}
+function drawModernPlayerCar() {
+    const x = player.x, y = player.y, w = player.w, h = player.h;
+    ctx.shadowBlur = 8;
+    ctx.shadowColor = "rgba(0,160,255,0.5)";
+    const grad = ctx.createLinearGradient(x, y, x+10, y+h);
+    grad.addColorStop(0, '#2b9aff');
+    grad.addColorStop(1, '#0f6bc0');
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.roundRect(x, y, w, h, 12);
+    ctx.fill();
+    ctx.fillStyle = '#ffd966';
+    ctx.beginPath();
+    ctx.roundRect(x+8, y+15, w-16, 12, 6);
+    ctx.fill();
+    ctx.fillStyle = '#ffffff';
+    ctx.beginPath();
+    ctx.roundRect(x+10, y+40, w-20, 18, 8);
+    ctx.fill();
+    ctx.fillStyle = '#a0dcff';
+    ctx.beginPath();
+    ctx.roundRect(x+6, y+8, w-12, 20, 8);
+    ctx.fill();
+    ctx.fillStyle = '#ffd966';
+    ctx.fillRect(x+4, y+4, 8, 7);
+    ctx.fillRect(x+w-12, y+4, 8, 7);
+    ctx.fillStyle = '#ff4444';
+    ctx.fillRect(x+4, y+h-12, 7, 8);
+    ctx.fillRect(x+w-11, y+h-12, 7, 8);
+    ctx.fillStyle = '#222';
+    ctx.fillRect(x-6, y+12, 8, 18);
+    ctx.fillRect(x+w-2, y+12, 8, 18);
+    ctx.fillRect(x-6, y+h-30, 8, 18);
+    ctx.fillRect(x+w-2, y+h-30, 8, 18);
+    ctx.fillStyle = '#ccccdd';
+    ctx.fillRect(x-4, y+16, 4, 10);
+    ctx.fillRect(x+w, y+16, 4, 10);
+    ctx.fillRect(x-4, y+h-26, 4, 10);
+    ctx.fillRect(x+w, y+h-26, 4, 10);
+    ctx.shadowBlur = 0;
+}
+function drawEnemyCar(obs) {
+    const x = obs.x, y = obs.y, w = obs.w, h = obs.h;
+    ctx.shadowBlur = 5;
+    let mainColor, secondary;
+    switch(obs.variant) {
+        case 'sport': mainColor = '#e63946'; secondary = '#b71c1c'; break;
+        case 'suv': mainColor = '#457b9d'; secondary = '#1d3557'; break;
+        case 'van': mainColor = '#9c6644'; secondary = '#7f4f24'; break;
+        default: mainColor = '#cb6e6e'; secondary = '#a04242'; break;
+    }
+    const grad = ctx.createLinearGradient(x, y, x+5, y+h);
+    grad.addColorStop(0, mainColor);
+    grad.addColorStop(1, secondary);
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.roundRect(x, y, w, h, 10);
+    ctx.fill();
+    ctx.fillStyle = '#36454f';
+    ctx.beginPath();
+    ctx.roundRect(x+5, y+8, w-10, 20, 6);
+    ctx.fill();
+    if(obs.variant === 'suv') ctx.fillStyle = '#ebb55c', ctx.fillRect(x+4, y+h-18, w-8, 8);
+    else if(obs.variant === 'van') { ctx.fillStyle = '#bc9a6c'; ctx.fillRect(x+2, y+h-14, w-4, 8); ctx.fillStyle = '#f4d03f'; ctx.fillRect(x+10, y+35, w-20, 10); }
+    else { ctx.fillStyle = '#ffbc6e'; ctx.fillRect(x+8, y+45, w-16, 12); }
+    ctx.fillStyle = '#2d2d2d';
+    ctx.fillRect(x-4, y+12, 7, 16); ctx.fillRect(x+w-3, y+12, 7, 16);
+    ctx.fillRect(x-4, y+h-26, 7, 16); ctx.fillRect(x+w-3, y+h-26, 7, 16);
+    ctx.fillStyle = '#aaa';
+    ctx.fillRect(x-2, y+16, 3, 8); ctx.fillRect(x+w-1, y+16, 3, 8);
+    ctx.fillRect(x-2, y+h-22, 3, 8); ctx.fillRect(x+w-1, y+h-22, 3, 8);
+    ctx.shadowBlur = 0;
+}
+function drawCone(obs) {
+    ctx.shadowBlur = 3;
+    ctx.fillStyle = '#f39c12';
+    ctx.beginPath();
+    ctx.moveTo(obs.x + obs.w/2, obs.y);
+    ctx.lineTo(obs.x + obs.w, obs.y + obs.h);
+    ctx.lineTo(obs.x, obs.y + obs.h);
+    ctx.fill();
+    ctx.fillStyle = '#e67e22';
+    ctx.fillRect(obs.x+5, obs.y+obs.h-14, obs.w-10, 8);
+    ctx.fillStyle = '#fff2c4';
+    ctx.fillRect(obs.x+8, obs.y+obs.h-8, obs.w-16, 4);
+    ctx.shadowBlur = 0;
+}
+function drawEnvironment() {
+    const grad = ctx.createLinearGradient(0, 0, 0, canvas.height);
+    grad.addColorStop(0, '#20252f');
+    grad.addColorStop(1, '#141a24');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = '#2c5e3a';
+    ctx.fillRect(0, 0, 32, canvas.height);
+    ctx.fillRect(canvas.width-32, 0, 32, canvas.height);
+    ctx.fillStyle = '#f3b33d';
+    ctx.fillRect(36, 0, 5, canvas.height);
+    ctx.fillRect(canvas.width-41, 0, 5, canvas.height);
+    ctx.fillStyle = '#ffffffcc';
+    for (let l of roadLines) {
+        ctx.fillRect(canvas.width/2 - 6, l.y, 12, 42);
+        l.y += currentSpeed;
+        if (l.y > canvas.height) l.y = -60;
+    }
+}
+function spawnObstacle() {
+    let rate = Math.max(32, 55 - Math.floor(currentSpeed * 2.3));
+    if (frameCounter % Math.floor(rate) === 0) {
+        let typeRand = Math.random();
+        let type = 'car', variant = 'classic', w = 42, h = 70;
+        if (typeRand < 0.25) { w = 46; h = 74; variant = 'suv'; }
+        else if (typeRand < 0.45) { w = 40; h = 66; variant = 'sport'; }
+        else if (typeRand < 0.6) { w = 48; h = 72; variant = 'van'; }
+        else if (typeRand < 0.75) { w = 42; h = 70; variant = 'classic'; }
+        else { type = 'cone'; w = 26; h = 42; variant = null; }
+        let minX = 35, maxX = canvas.width - 35 - w;
+        let x = Math.floor(Math.random() * (maxX - minX + 1) + minX);
+        obstacles.push({ x, y: -h, w, h, type, variant });
+    }
+}
+function updateObstaclesAndCollision() {
+    for (let i=0; i<obstacles.length; i++) {
+        let obs = obstacles[i];
+        obs.y += currentSpeed * (obs.type === 'car' ? 0.87 : 1.0);
+        if (player.x < obs.x+obs.w && player.x+player.w > obs.x && player.y < obs.y+obs.h && player.y+player.h > obs.y) {
+            gameOver();
+            return;
+        }
+        if (obs.y > canvas.height+150) { obstacles.splice(i,1); score+=12; scoreSpan.innerText=Math.floor(score); i--; }
+    }
+}
+function drawAllObstacles() {
+    for (let obs of obstacles) obs.type === 'car' ? drawEnemyCar(obs) : drawCone(obs);
+}
+function gameOver() {
+    if (!isPlaying) return;
+    isPlaying = false;
+    finalScoreVal.innerText = Math.floor(score);
+    gameOverScreen.classList.add('active');
+    if (animationId) cancelAnimationFrame(animationId);
+    animationId = null;
+    quizModal.classList.remove('active');
+    isPaused = false;
+    if (countdownTimer) clearInterval(countdownTimer);
+    countdownActive = false;
+}
+// Quiz trigger
+function triggerQuiz() {
+    if (!isPlaying || isPaused) return;
+    isPaused = true;
+    if (unaskedIndices.length === 0) resetQuestionPool();
+    const { idx } = getRandomUnaskedQuestion();
+    loadQuestionIntoModal(idx);
+    quizModal.classList.add('active');
+}
+// ANSWER HANDLER (Correct -> countdown, Wrong -> game over)
+function handleAnswer(btn, isCorrect) {
+    const allBtns = document.querySelectorAll('#optionsGrid .option-btn');
+    allBtns.forEach(b => b.disabled = true);
+    if (isCorrect) {
+        btn.classList.add('correct');
+        feedbackText.innerText = "✓ CORRECT! +50 POINTS";
+        feedbackText.style.color = "#2ecc71";
+        score += 50;
+        scoreSpan.innerText = Math.floor(score);
+        markCurrentQuestionAsAsked();
+        setTimeout(() => {
+            quizModal.classList.remove('active');
+            // Start countdown before resuming game
+            startCountdown(() => {
+                // countdown finished, resume racing
+                isPaused = false;
+                lastQuizTime = performance.now();
+                // ensure game loop continues
+                if (isPlaying && !animationId) animationId = requestAnimationFrame(gameLoop);
+            });
+            // pause remains true until countdown finishes
+        }, 1200);
+    } else {
+        btn.classList.add('incorrect');
+        feedbackText.innerText = "❌ WRONG! GAME OVER";
+        feedbackText.style.color = "#e74c3c";
+        allBtns.forEach(b => {
+            if (b.innerText === currentQuestionObj.options[currentQuestionObj.answer]) b.classList.add('correct');
+        });
+        markCurrentQuestionAsAsked();
+        setTimeout(() => {
+            quizModal.classList.remove('active');
+            gameOver();
+        }, 1500);
+    }
+}
+// GAME LOOP
+function gameLoop(now) {
+    if (!isPlaying) return;
+    if (isPaused) { 
+        // still draw environment and car but with overlay? Actually we draw countdown if active
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        drawEnvironment();
+        drawAllObstacles();
+        drawModernPlayerCar();
+        if (countdownActive) drawCountdown();
+        animationId = requestAnimationFrame(gameLoop);
+        return;
+    }
+    currentSpeed = Math.min(9.8, baseSpeed + Math.floor(score / 380));
+    let move = 0;
+    if (keys.ArrowLeft || keys.a) move = -player.speed;
+    if (keys.ArrowRight || keys.d) move = player.speed;
+    player.x += move;
+    player.x = Math.min(Math.max(player.x, 28), canvas.width - player.w - 28);
+    drawEnvironment();
+    frameCounter++;
+    spawnObstacle();
+    updateObstaclesAndCollision();
+    drawAllObstacles();
+    drawModernPlayerCar();
+    if (!isPaused && (performance.now() - lastQuizTime) >= QUIZ_INTERVAL) {
+        triggerQuiz();
+        animationId = requestAnimationFrame(gameLoop);
+        return;
+    }
+    animationId = requestAnimationFrame(gameLoop);
+}
+function resetGame() {
+    if (animationId) cancelAnimationFrame(animationId);
+    if (countdownTimer) clearInterval(countdownTimer);
+    countdownActive = false;
+    player.x = canvas.width/2 - 22;
+    obstacles = [];
+    score = 0;
+    baseSpeed = 4.0;
+    currentSpeed = baseSpeed;
+    frameCounter = 0;
+    scoreSpan.innerText = "0";
+    initRoadLines();
+    lastQuizTime = performance.now();
+    isPlaying = true;
+    isPaused = false;
+    deactivateLeft(); deactivateRight();
+    keys.ArrowLeft = false; keys.ArrowRight = false;
+    startScreen.classList.remove('active');
+    gameOverScreen.classList.remove('active');
+    quizModal.classList.remove('active');
+    feedbackText.innerText = "";
+    resetQuestionPool();
+    currentQuestionIndex = -1;
+    animationId = requestAnimationFrame(gameLoop);
+}
+startBtn.addEventListener('click', resetGame);
+restartBtn.addEventListener('click', resetGame);
+changeQuestionBtn.addEventListener('click', changeQuestion);
+resetQuestionPool();
+function drawIdlePreview() {
+    drawEnvironment();
+    drawModernPlayerCar();
+    ctx.font = "bold 18px 'Segoe UI'";
+    ctx.fillStyle = "#ffe0aa";
+    ctx.fillText("TAP START", canvas.width/2-55, canvas.height/2+40);
+}
+drawIdlePreview();
+if (!CanvasRenderingContext2D.prototype.roundRect) {
+    CanvasRenderingContext2D.prototype.roundRect = function(x, y, w, h, r) {
+        if (w < 2*r) r = w/2;
+        if (h < 2*r) r = h/2;
+        this.moveTo(x+r, y);
+        this.lineTo(x+w-r, y);
+        this.quadraticCurveTo(x+w, y, x+w, y+r);
+        this.lineTo(x+w, y+h-r);
+        this.quadraticCurveTo(x+w, y+h, x+w-r, y+h);
+        this.lineTo(x+r, y+h);
+        this.quadraticCurveTo(x, y+h, x, y+h-r);
+        this.lineTo(x, y+r);
+        this.quadraticCurveTo(x, y, x+r, y);
+        return this;
+    };
+}
+</script>
+</body>
+</html>

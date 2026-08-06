@@ -1,0 +1,1021 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fatih Sayılan Revision - 5 | Canbay İngilizce</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e8edf2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 8px 80px;
+}
+
+.color-bar, .color-bar-bottom, .page { width: calc(100% - 20px); max-width: 1900px; }
+
+.color-bar, .color-bar-bottom { display: flex; height: 13px; overflow: hidden; }
+.color-bar { border-radius: 8px 8px 0 0; }
+.color-bar-bottom { border-radius: 0 0 8px 8px; margin-top: -1px; }
+.cb1 { background: #EF9A9A; flex: 1; }
+.cb2 { background: #A5D6A7; flex: 1; }
+.cb3 { background: #90CAF9; flex: 1; }
+.cb4 { background: #FFF176; flex: 1; }
+
+.page {
+  background: #fff;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.13);
+  overflow: hidden;
+}
+
+.page-header {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 16px 20px 14px; border-bottom: 2px solid #f0f0f0; gap: 10px;
+}
+.nav-links {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; font-weight: 700; color: #aaa; flex-shrink: 0;
+}
+.nav-links a { color: #1565C0; text-decoration: none; font-weight: 700; transition: color 0.15s; }
+.nav-links a:hover { color: #E53935; }
+.nav-sep { color: #ccc; font-size: 15px; }
+.page-title { text-align: center; flex: 1; }
+.page-title .unit-label { font-size: 13px; font-weight: 700; color: #aaa; letter-spacing: 1px; text-transform: uppercase; }
+.page-title h1 { font-size: 22px; font-weight: 900; color: #1a237e; }
+.canbay-btn {
+  font-size: 13px; font-weight: 800; color: #E53935;
+  text-decoration: none; background: #fff;
+  border: 2px solid #E53935; border-radius: 8px;
+  padding: 6px 14px; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.canbay-btn:hover { background: #FFEBEE; transform: translateY(-1px); }
+.fullscreen-btn {
+  font-size: 13px; font-weight: 800; color: #1565C0;
+  background: #fff; border: 2px solid #1565C0;
+  border-radius: 8px; padding: 6px 14px; cursor: pointer;
+  font-family: inherit; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.fullscreen-btn:hover { background: #E3F2FD; transform: translateY(-1px); }
+
+.test-header {
+  background: #FFE0B2;
+  color: #1a1a1a;
+  text-align: center;
+  padding: 18px 14px 14px;
+  font-size: 22px; font-weight: 900; letter-spacing: 1px; text-transform: uppercase;
+}
+.test-sub { font-size: 14px; font-weight: 600; opacity: 0.85; margin-top: 4px; letter-spacing: 0; text-transform: none; }
+
+.test-meta {
+  display: flex; align-items: stretch; justify-content: space-between;
+  font-size: 15px; font-weight: 700;
+}
+.test-meta-level {
+  background: #E3F2FD; color: #1565C0;
+  padding: 8px 18px; white-space: nowrap;
+}
+.test-meta-authors {
+  background: #FFFDE7; color: #7B5800;
+  padding: 8px 18px; flex: 1;
+}
+
+.test-q-wrap { padding: 16px 14px 8px; }
+.test-q-box {
+  background: #F8F9FA;
+  border: 2px solid #E0E0E0;
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+.test-q-label {
+  font-size: 19px; font-weight: 700; color: #1565C0;
+  margin-bottom: 10px; display: flex; align-items: flex-start; gap: 8px;
+}
+.test-q-num {
+  background: #F57C00; color: #fff;
+  border-radius: 50%; width: 28px; height: 28px;
+  font-size: 14px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+.q-img-opts { display: flex; gap: 16px; align-items: flex-start; }
+.q-img-side { flex: 1; min-width: 0; }
+.q-img-side img {
+  width: 100%;
+  max-height: calc(100vh - 320px);
+  object-fit: contain;
+  border-radius: 8px;
+  display: block;
+}
+.q-opts-side { flex: 1; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+
+.q-text-box {
+  background: #FFF3E0;
+  border: 2px solid #FFCC80;
+  border-radius: 10px;
+  padding: 18px 20px;
+  font-size: 19px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.8;
+  width: 100%;
+}
+.q-text-box p { margin-bottom: 6px; }
+.q-text-box p:last-child { margin-bottom: 0; }
+.q-text-box hr { border: none; border-top: 2px dashed #FFCC80; margin: 10px 0; }
+
+.q-blank { color: #F57C00; font-weight: 900; }
+
+.q-opts-grid2x2 {
+  display: grid; grid-template-columns: 1fr 1fr; gap: 8px;
+}
+.test-opt-img {
+  border: 2px solid #CFD8DC; border-radius: 10px;
+  background: #fff; padding: 8px;
+  cursor: pointer; transition: all 0.15s;
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  font-size: 14px; font-weight: 700; color: #333;
+}
+.test-opt-img:hover { border-color: #F57C00; background: #FFF3E0; }
+.test-opt-img img { width: 90%; margin: 0 auto; display: block; border-radius: 6px; }
+.test-opt-img.answered  { pointer-events: none; }
+.test-opt-img.correct   { border-color: #4CAF50; background: #E8F5E9; color: #1B5E20; }
+.test-opt-img.wrong     { border-color: #F44336; background: #FFEBEE; color: #B71C1C; }
+
+.q-table {
+  width: 100%; border-collapse: collapse; font-size: 16px; font-weight: 600;
+}
+.q-table th {
+  background: #F57C00; color: #fff;
+  padding: 8px 12px; text-align: center; font-weight: 800;
+}
+.q-table td {
+  border: 1px solid #FFCC80; padding: 7px 12px;
+  text-align: center; color: #333;
+}
+.q-table tr:nth-child(even) td { background: #FFF3E0; }
+.q-table tr:nth-child(odd) td { background: #fff; }
+
+.test-opt {
+  border: 2px solid #CFD8DC; border-radius: 10px;
+  background: #fff; padding: 10px 14px;
+  font-size: 19px; font-weight: 600; color: #333;
+  cursor: pointer; font-family: inherit; text-align: left;
+  transition: all 0.15s; display: flex; align-items: center; gap: 10px;
+}
+.test-opt:hover { border-color: #F57C00; background: #FFF3E0; }
+.test-opt .opt-letter {
+  background: #F57C00; color: #fff;
+  border-radius: 6px; width: 26px; height: 26px;
+  font-size: 13px; font-weight: 800;
+  display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+}
+.test-opt.answered  { pointer-events: none; }
+.test-opt.correct   { border-color: #4CAF50; background: #E8F5E9; color: #1B5E20; }
+.test-opt.correct .opt-letter { background: #4CAF50; }
+.test-opt.wrong     { border-color: #F44336; background: #FFEBEE; color: #B71C1C; }
+.test-opt.wrong .opt-letter   { background: #F44336; }
+
+.btn-row { display: flex; justify-content: center; gap: 16px; padding: 14px; }
+.btn {
+  border: none; border-radius: 28px;
+  font-size: 15px; font-weight: 700; padding: 12px 36px;
+  cursor: pointer; font-family: inherit; transition: all 0.2s;
+}
+.btn-check { background: #F57C00; color: #fff; }
+.btn-check:hover { background: #E65100; transform: translateY(-2px); }
+.btn-reset { background: #607D8B; color: #fff; }
+.btn-reset:hover { background: #455A64; }
+.btn-next { background: #1565C0; color: #fff; }
+.btn-next:hover { background: #0D47A1; transform: translateY(-2px); }
+.btn-timer { background: #00796B; color: #fff; min-width: 130px; }
+.btn-timer:hover { background: #004D40; transform: translateY(-2px); }
+.btn-timer.warning { background: #E65100; }
+.btn-timer.danger  { background: #B71C1C; }
+
+.copyright {
+  text-align: center; padding: 14px 14px 10px;
+  font-size: 12px; color: #9E9E9E; font-weight: 600;
+  border-top: 1px solid #f0f0f0;
+}
+
+.bottom-bar {
+  position: fixed; bottom: 0; left: 0; width: 100%; z-index: 9999;
+  background: #fff; border-top: 3px solid #E65100;
+  display: flex; align-items: center; justify-content: center;
+  gap: 12px; padding: 10px 20px;
+  box-shadow: 0 -3px 16px rgba(0,0,0,0.15);
+}
+.bar-btn { border: none; border-radius: 8px; font-size: 14px; font-weight: 800; padding: 8px 18px; cursor: pointer; font-family: inherit; transition: all 0.18s; white-space: nowrap; }
+.bar-btn-fs { background: #E65100; color: #fff; border: 2px solid #E65100; }
+.bar-btn-fs:hover { background: #38006b; border-color: #38006b; }
+.bar-btn-zoom { background: transparent; color: #E65100; border: 2px solid rgba(230,81,0,0.4); font-size: 18px; padding: 6px 16px; }
+.bar-btn-zoom:hover { background: rgba(230,81,0,0.08); border-color: #E65100; }
+.bar-zoom-label { color: #555; font-size: 13px; font-weight: 700; min-width: 40px; text-align: center; }
+.bar-divider { width: 1px; height: 32px; background: rgba(74,20,140,0.2); flex-shrink: 0; }
+.bar-btn-draw { background: transparent; color: #333; border: 2px solid rgba(0,0,0,0.2); font-size: 13px; padding: 7px 14px; gap: 5px; display: flex; align-items: center; }
+.bar-btn-draw:hover { background: rgba(0,0,0,0.06); border-color: #555; }
+.bar-btn-draw.active { background: #E65100; color: #fff; border-color: #E65100; }
+.bar-btn-draw.active-highlight { background: #FFF176; color: #333; border-color: #e6c800; }
+.bar-btn-clear { background: transparent; color: #C62828; border: 2px solid rgba(198,40,40,0.35); font-size: 13px; padding: 7px 14px; }
+.bar-btn-clear:hover { background: rgba(198,40,40,0.08); border-color: #C62828; }
+.bar-btn-end { background: #E65100; color: #fff; border: 2px solid #E65100; font-size: 13px; padding: 7px 14px; }
+.bar-btn-end:hover { background: #38006b; border-color: #38006b; }
+.bar-logo { height: 32px; opacity: 0.7; flex-shrink: 0; }
+.bar-btn-home { background: transparent; color: #E65100; border: 2px solid rgba(230,81,0,0.4); border-radius: 8px; font-size: 20px; padding: 5px 12px; text-decoration: none; transition: all 0.18s; line-height: 1; }
+.bar-btn-home:hover { background: rgba(230,81,0,0.08); border-color: #E65100; }
+.bar-clock { margin-left: auto; font-size: 18px; font-weight: 800; color: #E65100; letter-spacing: 1px; flex-shrink: 0; }
+#drawCanvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9998; pointer-events: none; cursor: crosshair; }
+@media (max-width: 1024px) { .bottom-bar { display: none; } body { padding-bottom: 20px; } }
+
+
+/* ── Sonuç Bölümü ── */
+.result-section {
+  margin: 0 14px 20px;
+  background: #fff;
+  border: 2px solid #E8EDF5;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 20px 18px 18px;
+  overflow: hidden;
+}
+.result-title {
+  font-size: 18px; font-weight: 900; color: #1a237e;
+  text-align: center; margin-bottom: 16px; letter-spacing: 0.5px;
+}
+.result-stats {
+  display: flex; gap: 10px; justify-content: center;
+  flex-wrap: wrap; margin-bottom: 14px;
+}
+.result-stat-card {
+  flex: 1; min-width: 70px; max-width: 110px;
+  border-radius: 12px; padding: 10px 6px; text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+.stat-num { font-size: 26px; font-weight: 900; line-height: 1; }
+.stat-label { font-size: 11px; font-weight: 700; margin-top: 4px; opacity: 0.75; text-transform: uppercase; letter-spacing: 0.5px; }
+.stat-total   { background: #E8EDF5; color: #1a237e; }
+.stat-correct { background: #E8F5E9; color: #1B5E20; }
+.stat-wrong   { background: #FFEBEE; color: #B71C1C; }
+.stat-blank   { background: #FFF8E1; color: #7B5800; }
+.stat-score   { background: #EDE7F6; color: #4527A0; }
+.result-progress-wrap {
+  background: #ECEFF1; border-radius: 99px; height: 10px;
+  margin-bottom: 14px; overflow: hidden;
+}
+.result-progress-bar {
+  height: 100%; border-radius: 99px;
+  background: linear-gradient(90deg, #43A047, #66BB6A);
+  transition: width 0.5s ease;
+}
+.result-table-wrap { overflow-x: auto; margin-top: 14px; }
+.result-table {
+  width: 100%; border-collapse: collapse;
+  font-size: 14px; font-weight: 600;
+}
+.result-table thead tr { background: #E3F2FD; }
+.result-table th {
+  padding: 8px 12px; text-align: center;
+  color: #1565C0; font-weight: 800; font-size: 12px;
+  text-transform: uppercase; letter-spacing: 0.5px;
+}
+.result-table td { padding: 7px 12px; text-align: center; border-bottom: 1px solid #F0F0F0; }
+.result-table tbody tr:last-child td { border-bottom: none; }
+.result-table tbody tr.row-correct { background: #F1F8F1; }
+.result-table tbody tr.row-wrong   { background: #FFF5F5; }
+.result-table tbody tr.row-blank   { background: #FFFDE7; }
+.result-table tbody tr.row-shown   { background: #EDE7F6; }
+.badge { display: inline-block; border-radius: 6px; padding: 2px 10px; font-size: 12px; font-weight: 800; }
+.badge-correct { background: #C8E6C9; color: #1B5E20; }
+.badge-wrong   { background: #FFCDD2; color: #B71C1C; }
+.badge-blank   { background: #FFF9C4; color: #7B5800; }
+.badge-shown   { background: #D1C4E9; color: #4527A0; }
+.result-actions {
+  display: flex; gap: 10px; justify-content: center; flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+.res-btn {
+  border: none; border-radius: 28px;
+  font-size: 14px; font-weight: 800; padding: 11px 28px;
+  cursor: pointer; font-family: inherit; transition: all 0.18s;
+}
+.res-btn-dl { background: #1565C0; color: #fff; }
+.res-btn-dl:hover { background: #0D47A1; transform: translateY(-2px); }
+.res-btn-wa { background: #25D366; color: #fff; }
+.res-btn-wa:hover { background: #1DA851; transform: translateY(-2px); }
+
+@media (max-width: 700px) {
+  body { padding: 8px 6px 20px; }
+  .color-bar, .color-bar-bottom, .page { width: calc(100% - 12px); }
+  .page-header { flex-wrap: wrap; padding: 10px 12px 8px; gap: 6px; }
+  .nav-links { font-size: 11px; order: 1; flex: 1 1 100%; }
+  .page-title { order: 2; flex: 1 1 auto; }
+  .page-title h1 { font-size: 16px; }
+  .canbay-btn { font-size: 11px; padding: 5px 10px; order: 3; }
+  .test-header { font-size: 16px; padding: 14px 10px 10px; }
+  .test-q-wrap { padding: 10px 10px 4px; }
+  .test-opt { font-size: 14px; }
+  .q-img-opts { flex-direction: column; }
+  .q-opts-side { width: 100%; }
+  .btn { font-size: 13px; padding: 10px 22px; }
+  .result-section { margin: 0 6px 16px; padding: 14px 10px; }
+  .result-stat-card { min-width: 58px; padding: 8px 4px; }
+  .stat-num { font-size: 20px; }
+  .result-table { font-size: 12px; }
+  .result-table th, .result-table td { padding: 6px 8px; }
+  .res-btn { font-size: 13px; padding: 10px 20px; }
+}
+</style>
+</head>
+<body>
+
+<div class="color-bar">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<div class="page">
+
+  <div class="page-header">
+    <div class="nav-links">
+      <a href="../">Ana Sayfa</a>
+      <span class="nav-sep">/</span>
+      <a href='../../_root/revision/index.html'>Revision</a>
+      <span class="nav-sep">/</span>
+      <span>Fatih Sayılan Revision - 5</span>
+    </div>
+    <div class="page-title">
+      <div class="unit-label">8. Sınıf · Revision</div>
+      <h1>Fatih Sayılan Revision - 5</h1>
+    </div>
+    <button type="button" class="fullscreen-btn" id="fsBtn" onclick="toggleFullscreen()">⛶ Tam Ekran</button>
+    <a class='canbay-btn' href='../../_root/revision/index.html'>© CANBAY</a>
+  </div>
+
+  <div class="test-header">
+    REVISION TEST – 5
+    <div class="test-sub">Choose the correct answer for each question.</div>
+  </div>
+
+  <div class="test-meta">
+    <span class="test-meta-level">Test Level: Intermediate</span>
+    <span class="test-meta-authors">Yazar: Fatih SAYILAN</span>
+  </div>
+
+  <div class="test-q-wrap" id="testWrap"></div>
+
+  <div class="btn-row">
+    <button type="button" class="btn btn-reset" onclick="resetTest()">↺ Reset All</button>
+    <button type="button" class="btn btn-next" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑ Başa Dön</button>
+  </div>
+
+
+  <!-- SONUÇ BÖLÜMÜ -->
+  <div class="result-section" id="resultSection">
+    <div class="result-title">📊 Sonuçlarım</div>
+
+    <div class="result-stats" id="resultStats">
+      <div class="result-stat-card stat-total">
+        <div class="stat-num" id="statTotal">—</div>
+        <div class="stat-label">Toplam</div>
+      </div>
+      <div class="result-stat-card stat-correct">
+        <div class="stat-num" id="statCorrect">0</div>
+        <div class="stat-label">Doğru</div>
+      </div>
+      <div class="result-stat-card stat-wrong">
+        <div class="stat-num" id="statWrong">0</div>
+        <div class="stat-label">Yanlış</div>
+      </div>
+      <div class="result-stat-card stat-blank">
+        <div class="stat-num" id="statBlank">—</div>
+        <div class="stat-label">Boş</div>
+      </div>
+      <div class="result-stat-card stat-score">
+        <div class="stat-num" id="statScore">—</div>
+        <div class="stat-label">Başarı</div>
+      </div>
+    </div>
+
+    <div class="result-progress-wrap">
+      <div class="result-progress-bar" id="resultProgressBar" style="width:0%"></div>
+    </div>
+
+    <div class="result-actions" id="resultActions">
+      <button type="button" class="res-btn res-btn-dl" onclick="downloadResult()">📥 Sonuç İndir</button>
+      <button type="button" class="res-btn res-btn-wa" onclick="shareWhatsApp()">📤 Paylaş</button>
+    </div>
+
+    <div class="result-table-wrap">
+      <table class="result-table" id="resultTable">
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Cevabın</th>
+            <th>Doğru</th>
+            <th>Durum</th>
+          </tr>
+        </thead>
+        <tbody id="resultTbody"></tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    © 2025–2026 Fatih SAYILAN | Tüm hakları saklıdır. İzinsiz kopyalanamaz, çoğaltılamaz ve dağıtılamaz.
+  </div>
+
+</div>
+
+<div class="color-bar-bottom">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<script>
+const TEST_QUESTIONS = [
+  {
+    num: 1,
+    instruction: 'Read the information about Kevin and answer the question.',
+    imgSide: '<div class="q-text-box"><p>Kevin is planning a trip. He is interested in history and archaeology. He wants to see ancient cities. He also loves trying traditional food and prefers staying in cheap hotels.</p></div>',
+    question: 'According to the information, which tour should Kevin choose?',
+    options: [
+      'Antalya Tour: Sunbathe on the beach and stay at an all-inclusive hotel.',
+      'Gaziantep Tour: Visit old museums, taste baklava and stay at a guesthouse.',
+      'Trabzon Tour: Hike in the mountains and go camping by the Black Sea.',
+      'Ankara Tour: Visit the parliament and eat dinner at a famous restaurant.'
+    ],
+    ans: 'B'
+  },
+  {
+    num: 2,
+    instruction: 'Read the information about Sophia and answer the question.',
+    imgSide: '<div class="q-text-box"><p>Sophia wants to go on a nature holiday. She loves animals and taking photos. She plans to go camping and try a new water sport. She also wants to visit a national park.</p></div>',
+    question: 'According to the information, which tour should Sophia choose?',
+    options: [
+      'Muğla Tour: Visit the ancient city and stay at a small boutique hotel.',
+      'Edirne Tour: Visit the historical mosque and stay at an old mansion.',
+      'Burdur Tour: Go camping near the lake, try a water sport and see birds.',
+      'Bursa Tour: Visit the high mountains, go skiing and stay in a cabin.'
+    ],
+    ans: 'C'
+  },
+  {
+    num: 3,
+    instruction: 'Read the recipe and choose the correct order of the missing words.',
+    imgSide: '<div class="q-text-box"><p style="font-weight:900;text-align:center;margin-bottom:8px;">Simple Banana Smoothie</p><p>First, <span class="q-blank">----</span> two bananas into small pieces. Then, <span class="q-blank">----</span> them into a blender with some milk. Finally, <span class="q-blank">----</span> the mixture until it is smooth. Enjoy your drink!</p></div>',
+    question: 'Which of the following is the correct order of the missing words?',
+    options: [
+      'cut – put – blend',
+      'bake – mix – fry',
+      'boil – steam – grill',
+      'peel – knead – add'
+    ],
+    ans: 'A'
+  },
+  {
+    num: 4,
+    instruction: 'Read the recipe and choose the correct order of the missing words.',
+    imgSide: '<div class="q-text-box"><p style="font-weight:900;text-align:center;margin-bottom:8px;">Classic Tomato Soup</p><p>First, <span class="q-blank">----</span> an onion and some garlic. <span class="q-blank">----</span> them in a pot with olive oil. Then, <span class="q-blank">----</span> some tomatoes and water. Cook for 20 minutes and blend it.</p></div>',
+    question: 'Which of the following is the correct order of the missing words?',
+    options: [
+      'grill – bake – sprinkle',
+      'chop – fry – add',
+      'boil – steam – mix',
+      'peel – knead – pour'
+    ],
+    ans: 'B'
+  },
+  {
+    num: 5,
+    instruction: 'Read the recipe and choose the correct order of the missing words.',
+    imgSide: '<div class="q-text-box"><p style="font-weight:900;text-align:center;margin-bottom:8px;">Easy Fruit Salad</p><p>First, <span class="q-blank">----</span> the fruits and remove the seeds. Then, <span class="q-blank">----</span> the fruits into small pieces. Finally, put them in a bowl and <span class="q-blank">----</span> them. Serve it cold.</p></div>',
+    question: 'Which of the following is the correct order of the missing words?',
+    options: [
+      'fry – grill – boil',
+      'boil – bake – roast',
+      'wash – cut – mix',
+      'knead – pour – mash'
+    ],
+    ans: 'C'
+  },
+  {
+    num: 6,
+    instruction: 'Read the dialogue between Anna and Tom and answer the question.',
+    imgSide: '<div class="q-text-box"><p><strong>Anna:</strong> Hey, Tom! Are you free this Saturday?</p><p><strong>Tom:</strong> Yes! Do you have any plans?</p><p><strong>Anna:</strong> I thought we could try rock climbing at the sports centre.</p><p><strong>Tom:</strong> Rock climbing sounds great! But I\'d also love to do something else.</p><p><strong>Anna:</strong> How about swimming afterwards?</p><p><strong>Tom:</strong> Hmm, I\'d rather go cycling than swimming.</p><p><strong>Anna:</strong> OK, cycling it is then. It\'ll be a fun day!</p></div>',
+    question: 'According to the dialogue, which activities are Anna and Tom going to do?',
+    options: [
+      'Rock climbing and swimming',
+      'Rock climbing and cycling',
+      'Swimming and cycling',
+      'Hiking and rock climbing'
+    ],
+    ans: 'B'
+  },
+  {
+    num: 7,
+    instruction: 'Read the dialogue between Mia and Carlos and answer the question.',
+    imgSide: '<div class="q-text-box"><p><strong>Mia:</strong> Hi, Carlos! What are your plans for the holiday week?</p><p><strong>Carlos:</strong> I\'d like to try something adventurous. Maybe scuba diving?</p><p><strong>Mia:</strong> Scuba diving sounds amazing! I was actually thinking about kitesurfing too.</p><p><strong>Carlos:</strong> Hmm, kitesurfing is too risky for me. What about sailing instead?</p><p><strong>Mia:</strong> Sailing is fine with me. Let\'s do both scuba diving and sailing!</p><p><strong>Carlos:</strong> Perfect. It\'s going to be an exciting week!</p></div>',
+    question: 'According to the dialogue, which activities are Mia and Carlos going to try?',
+    options: [
+      'Kitesurfing and scuba diving',
+      'Scuba diving and sailing',
+      'Sailing and kitesurfing',
+      'Bungee jumping and sailing'
+    ],
+    ans: 'B'
+  },
+  {
+    num: 8,
+    instruction: 'Read the dialogue between Lena and Jack and answer the question.',
+    imgSide: '<div class="q-text-box"><p><strong>Lena:</strong> Jack, let\'s plan our weekend trip! I want to go hiking.</p><p><strong>Jack:</strong> Hiking? Sure! I was thinking of paragliding too.</p><p><strong>Lena:</strong> Paragliding is too scary for me. How about horse riding instead?</p><p><strong>Jack:</strong> I\'d rather go paragliding than horse riding, honestly.</p><p><strong>Lena:</strong> Come on, let\'s do both!</p><p><strong>Jack:</strong> Deal! Sounds like a great weekend!</p></div>',
+    question: 'According to the dialogue, which activities are Lena and Jack going to do?',
+    options: [
+      'Horse riding and paragliding',
+      'Hiking and horse riding',
+      'Hiking and paragliding',
+      'Paragliding and kayaking'
+    ],
+    ans: 'C'
+  },
+  {
+    num: 9,
+    instruction: 'Read the survey results and answer the question.',
+    imgSide: '<div class="q-text-box"><p>A teacher asked 80 students about their favourite after-school activities. Results:</p></div><table class="q-table" style="margin-top:10px;"><thead><tr><th>Activity</th><th>Students</th></tr></thead><tbody><tr><td>Reading</td><td>40</td></tr><tr><td>Playing video games</td><td>20</td></tr><tr><td>Drawing / Painting</td><td>12</td></tr><tr><td>Playing a musical instrument</td><td>5</td></tr><tr><td>Cooking</td><td>3</td></tr></tbody></table>',
+    question: 'According to the survey results, which of the following is NOT correct?',
+    options: [
+      'Reading is the most popular activity among the students.',
+      'More students prefer drawing than playing a musical instrument.',
+      'Cooking is the least popular activity in the survey.',
+      'Half of the students enjoy playing video games.'
+    ],
+    ans: 'D'
+  },
+  {
+    num: 10,
+    instruction: 'Read the survey results and answer the question.',
+    imgSide: '<div class="q-text-box"><p>A sports coach surveyed 60 students about their favourite sports. Results:</p></div><table class="q-table" style="margin-top:10px;"><thead><tr><th>Sport</th><th>Students</th></tr></thead><tbody><tr><td>Football</td><td>30</td></tr><tr><td>Basketball</td><td>15</td></tr><tr><td>Swimming</td><td>8</td></tr><tr><td>Volleyball</td><td>5</td></tr><tr><td>Tennis</td><td>2</td></tr></tbody></table>',
+    question: 'According to the survey, which of the following is NOT correct?',
+    options: [
+      'Football is more popular than basketball among the students.',
+      'More students prefer basketball than swimming.',
+      'Tennis is less popular than volleyball.',
+      'Half of the students chose football as their favourite sport.'
+    ],
+    ans: 'D'
+  }
+];
+
+let testSelections = {};
+let testShown = {};
+
+function buildTest() {
+  const wrap = document.getElementById('testWrap');
+  wrap.innerHTML = '';
+
+  if (TEST_QUESTIONS.length === 0) {
+    wrap.innerHTML = '<p style="text-align:center;color:#aaa;padding:40px;font-size:17px;">Henüz soru eklenmedi.</p>';
+    return;
+  }
+
+  TEST_QUESTIONS.forEach((q, qi) => {
+    const box = document.createElement('div');
+    box.className = 'test-q-box';
+    box.id = `qbox-${qi}`;
+
+    const label = document.createElement('div');
+    label.className = 'test-q-label';
+    label.innerHTML = `<span class="test-q-num">${q.num}</span><span>${q.instruction}</span>`;
+    box.appendChild(label);
+
+    const imgOpts = document.createElement('div');
+    imgOpts.className = 'q-img-opts';
+
+    const imgSide = document.createElement('div');
+    imgSide.className = 'q-img-side';
+    imgSide.innerHTML = q.imgSide;
+    imgOpts.appendChild(imgSide);
+
+    const optsSide = document.createElement('div');
+    optsSide.className = 'q-opts-side';
+
+    if (q.topContent) {
+      const tc = document.createElement('div');
+      tc.style.cssText = 'margin-bottom:10px;';
+      tc.innerHTML = q.topContent;
+      optsSide.appendChild(tc);
+    }
+
+    if (q.question) {
+      const qText = document.createElement('div');
+      qText.style.cssText = 'font-size:19px;font-weight:700;color:#333;margin-bottom:4px;';
+      qText.textContent = q.question;
+      optsSide.appendChild(qText);
+    }
+
+    const optsWrap = document.createElement('div');
+    if (q.optLayout === 'grid2x2') {
+      optsWrap.className = 'q-opts-grid2x2';
+      ['A','B','C','D'].forEach((letter, li) => {
+        const btn = document.createElement('div');
+        btn.className = 'test-opt-img';
+        btn.id = `topt-${qi}-${letter}`;
+        btn.innerHTML = q.options[li];
+        btn.addEventListener('click', () => revealAnswer(qi, letter));
+        optsWrap.appendChild(btn);
+      });
+    } else {
+      optsWrap.style.cssText = 'display:flex;flex-direction:column;gap:8px;';
+      ['A','B','C','D'].forEach((letter, li) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'test-opt';
+        btn.id = `topt-${qi}-${letter}`;
+        btn.innerHTML = `<span class="opt-letter">${letter}</span>${q.options[li]}`;
+        btn.addEventListener('click', () => revealAnswer(qi, letter));
+        optsWrap.appendChild(btn);
+      });
+    }
+    optsSide.appendChild(optsWrap);
+    imgOpts.appendChild(optsSide);
+    box.appendChild(imgOpts);
+
+    const qBtnRow = document.createElement('div');
+    qBtnRow.style.cssText = 'display:flex;align-items:center;gap:10px;margin-top:12px;flex-wrap:wrap;';
+
+    const showBtn = document.createElement('button');
+    showBtn.type = 'button';
+    showBtn.className = 'btn btn-check';
+    showBtn.style.cssText = 'font-size:13px;padding:8px 22px;';
+    showBtn.textContent = '👁 Show Answer';
+    showBtn.addEventListener('click', () => revealAnswer(qi, null));
+
+    const resetBtn = document.createElement('button');
+    resetBtn.type = 'button';
+    resetBtn.className = 'btn btn-reset';
+    resetBtn.style.cssText = 'font-size:13px;padding:8px 18px;';
+    resetBtn.textContent = '↺';
+    resetBtn.addEventListener('click', () => resetSingleQ(qi));
+
+    const feedbackEl = document.createElement('span');
+    feedbackEl.id = `tfeedback-${qi}`;
+    feedbackEl.style.cssText = 'font-size:14px;font-weight:700;';
+
+    qBtnRow.appendChild(showBtn);
+    qBtnRow.appendChild(resetBtn);
+    qBtnRow.appendChild(feedbackEl);
+
+    const timerBtn = document.createElement('button');
+    timerBtn.type = 'button';
+    timerBtn.className = 'btn btn-timer';
+    timerBtn.style.cssText = 'font-size:13px;padding:8px 22px;margin-left:auto;';
+    timerBtn.textContent = '⏱ Start Timer';
+    timerBtn.id = `timer-${qi}`;
+    timerBtn.addEventListener('click', () => startTimer(qi));
+    qBtnRow.appendChild(timerBtn);
+
+    if (qi < TEST_QUESTIONS.length - 1) {
+      const nextBtn = document.createElement('button');
+      nextBtn.type = 'button';
+      nextBtn.className = 'btn btn-next';
+      nextBtn.style.cssText = 'font-size:13px;padding:8px 22px;';
+      nextBtn.textContent = 'Next Question ↓';
+      nextBtn.addEventListener('click', () => {
+        const nextBox = document.getElementById(`qbox-${qi + 1}`);
+        if (nextBox) nextBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+      qBtnRow.appendChild(nextBtn);
+    }
+
+    box.appendChild(qBtnRow);
+    wrap.appendChild(box);
+  });
+}
+
+function revealAnswer(qi, selected) {
+  const q = TEST_QUESTIONS[qi];
+  const fb = document.getElementById(`tfeedback-${qi}`);
+  const isGrid = q.optLayout === 'grid2x2';
+  ['A','B','C','D'].forEach(l => {
+    const b = document.getElementById(`topt-${qi}-${l}`);
+    b.classList.remove('correct','wrong','answered');
+    b.classList.add('answered');
+  });
+  document.getElementById(`topt-${qi}-${q.ans}`).classList.add('correct');
+  if (selected === null) {
+    fb.style.color = '#1565C0'; fb.textContent = `✓ Answer: ${q.ans}`;
+    testShown[qi] = true;
+  } else if (selected === q.ans) {
+    fb.style.color = '#2E7D32'; fb.textContent = '🎉 Correct!';
+    delete testShown[qi];
+  } else {
+    document.getElementById(`topt-${qi}-${selected}`).classList.add('wrong');
+    fb.style.color = '#B71C1C'; fb.textContent = `✗ The answer is ${q.ans}`;
+    delete testShown[qi];
+  }
+  testSelections[qi] = selected;
+  updateResults();
+}
+
+function resetSingleQ(qi) {
+  delete testSelections[qi];
+  delete testShown[qi];
+  ['A','B','C','D'].forEach(l => {
+    const b = document.getElementById(`topt-${qi}-${l}`);
+    if (b) b.classList.remove('correct','wrong','answered');
+  });
+  const fb = document.getElementById(`tfeedback-${qi}`);
+  if (fb) fb.textContent = '';
+  stopTimer(qi);
+  updateResults();
+}
+
+function resetTest() {
+  testSelections = {};
+  testShown = {};
+  TEST_QUESTIONS.forEach((_, qi) => resetSingleQ(qi));
+  updateResults();
+}
+
+const timerIntervals = {};
+function startTimer(qi) {
+  const btn = document.getElementById(`timer-${qi}`);
+  if (!btn) return;
+  if (timerIntervals[qi]) { stopTimer(qi); return; }
+  let remaining = 90;
+  updateTimerBtn(btn, remaining);
+  timerIntervals[qi] = setInterval(() => {
+    remaining--;
+    updateTimerBtn(btn, remaining);
+    if (remaining <= 10) btn.className = 'btn btn-timer danger';
+    else if (remaining <= 30) btn.className = 'btn btn-timer warning';
+    if (remaining <= 0) {
+      clearInterval(timerIntervals[qi]); delete timerIntervals[qi];
+      btn.className = 'btn btn-timer danger'; btn.textContent = '⏱ 0:00';
+      playBeep();
+    }
+  }, 1000);
+}
+function stopTimer(qi) {
+  if (timerIntervals[qi]) { clearInterval(timerIntervals[qi]); delete timerIntervals[qi]; }
+  const btn = document.getElementById(`timer-${qi}`);
+  if (btn) { btn.className = 'btn btn-timer'; btn.textContent = '⏱ Start Timer'; }
+}
+function updateTimerBtn(btn, seconds) {
+  const m = Math.floor(seconds / 60), s = seconds % 60;
+  btn.textContent = `⏱ ${m}:${s.toString().padStart(2,'0')}`;
+}
+function playBeep() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    [0, 0.3, 0.6].forEach(delay => {
+      const osc = ctx.createOscillator(), gain = ctx.createGain();
+      osc.connect(gain); gain.connect(ctx.destination);
+      osc.type = 'sine'; osc.frequency.value = 880;
+      gain.gain.setValueAtTime(0.6, ctx.currentTime + delay);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + delay + 0.4);
+      osc.start(ctx.currentTime + delay); osc.stop(ctx.currentTime + delay + 0.4);
+    });
+  } catch(e) {}
+}
+
+// ── Sonuç Sistemi ──
+function updateResults() {
+  const total = TEST_QUESTIONS.length;
+  let correct = 0, wrong = 0, blank = 0;
+  const tbody = document.getElementById('resultTbody');
+  tbody.innerHTML = '';
+
+  TEST_QUESTIONS.forEach((q, qi) => {
+    const selected = testSelections[qi];
+    const shown = testShown[qi];
+    const tr = document.createElement('tr');
+    let statusBadge, rowClass, selectedText, correctText;
+
+    if (selected === undefined && !shown) {
+      blank++;
+      rowClass = 'row-blank';
+      selectedText = '—';
+      correctText = '—';
+      statusBadge = '<span class="badge badge-blank">Boş</span>';
+    } else if (shown && selected === undefined) {
+      blank++;
+      rowClass = 'row-shown';
+      selectedText = '—';
+      correctText = q.ans;
+      statusBadge = '<span class="badge badge-shown">Gösterildi</span>';
+    } else if (selected === q.ans) {
+      correct++;
+      rowClass = 'row-correct';
+      selectedText = selected;
+      correctText = q.ans;
+      statusBadge = '<span class="badge badge-correct">✓ Doğru</span>';
+    } else {
+      wrong++;
+      rowClass = 'row-wrong';
+      selectedText = selected || '—';
+      correctText = q.ans;
+      statusBadge = '<span class="badge badge-wrong">✗ Yanlış</span>';
+    }
+
+    tr.className = rowClass;
+    tr.innerHTML = `<td><strong>${q.num}</strong></td><td>${selectedText}</td><td>${correctText}</td><td>${statusBadge}</td>`;
+    tbody.appendChild(tr);
+  });
+
+  const answered = correct + wrong;
+  const pct = answered > 0 ? Math.round((correct / total) * 100) : 0;
+
+  document.getElementById('statTotal').textContent   = total;
+  document.getElementById('statCorrect').textContent = correct;
+  document.getElementById('statWrong').textContent   = wrong;
+  document.getElementById('statBlank').textContent   = blank;
+  document.getElementById('statScore').textContent   = answered > 0 ? `%${pct}` : '—';
+  document.getElementById('resultProgressBar').style.width = pct + '%';
+}
+
+function downloadResult() {
+  if (typeof html2canvas === 'undefined') { alert('html2canvas yüklenmedi.'); return; }
+  const section = document.getElementById('resultSection');
+  const savedZoom = document.querySelector('.page').style.zoom;
+  document.querySelector('.page').style.zoom = 1;
+  document.getElementById('drawCanvas').style.display = 'none';
+  html2canvas(section, { scale: 2, useCORS: true, backgroundColor: '#ffffff' }).then(canvas => {
+    document.querySelector('.page').style.zoom = savedZoom;
+    document.getElementById('drawCanvas').style.display = '';
+    const link = document.createElement('a');
+    link.download = 'test-result.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  });
+}
+
+function shareWhatsApp() {
+  const testName = document.title.split(' | ')[0];
+  const correct = parseInt(document.getElementById('statCorrect').textContent) || 0;
+  const wrong   = parseInt(document.getElementById('statWrong').textContent)   || 0;
+  const blank   = parseInt(document.getElementById('statBlank').textContent)   || 0;
+  const score   = document.getElementById('statScore').textContent;
+  const text = testName + ' Sonucum\n\u2705 Correct: ' + correct + '\n\u274C Wrong: ' + wrong + '\n\u26AA Blank: ' + blank + '\n\uD83D\uDCCA Score: ' + score;
+
+  if (typeof html2canvas !== 'undefined' && navigator.canShare) {
+    const section = document.getElementById('resultSection');
+    const savedZoom = document.querySelector('.page').style.zoom;
+    document.querySelector('.page').style.zoom = 1;
+    document.getElementById('drawCanvas').style.display = 'none';
+    html2canvas(section, { scale: 2, useCORS: true, backgroundColor: '#ffffff' }).then(canvas => {
+      document.querySelector('.page').style.zoom = savedZoom;
+      document.getElementById('drawCanvas').style.display = '';
+      canvas.toBlob(blob => {
+        const file = new File([blob], 'test-result.png', { type: 'image/png' });
+        if (navigator.canShare({ files: [file] })) {
+          navigator.share({ files: [file], title: testName, text: text }).catch(() => {});
+        } else {
+          fallbackWhatsApp(text);
+        }
+      });
+    });
+  } else {
+    fallbackWhatsApp(text);
+  }
+}
+
+function fallbackWhatsApp(text) {
+  window.open('https://wa.me/?text=' + encodeURIComponent(text), '_blank');
+}
+
+buildTest();
+updateResults();
+
+document.addEventListener('keydown', e => {
+  if ((e.ctrlKey || e.metaKey) && ['a','c','s','u','p'].includes(e.key.toLowerCase())) e.preventDefault();
+  if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && ['i','j','c'].includes(e.key.toLowerCase()))) e.preventDefault();
+});
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('selectstart', e => e.preventDefault());
+document.addEventListener('copy',      e => e.preventDefault());
+document.addEventListener('cut',       e => e.preventDefault());
+document.addEventListener('dragstart', e => e.preventDefault());
+
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(() => {});
+    document.getElementById('fsBtn').textContent = '✕ Tam Ekrandan Çık';
+    document.getElementById('barFsBtn').textContent = '✕ Tam Ekrandan Çık';
+  } else {
+    document.exitFullscreen();
+    document.getElementById('fsBtn').textContent = '⛶ Tam Ekran';
+    document.getElementById('barFsBtn').textContent = '⛶ Tam Ekran';
+  }
+}
+document.addEventListener('fullscreenchange', () => {
+  if (!document.fullscreenElement) {
+    document.getElementById('fsBtn').textContent = '⛶ Tam Ekran';
+    document.getElementById('barFsBtn').textContent = '⛶ Tam Ekran';
+  }
+});
+</script>
+
+<canvas id="drawCanvas"></canvas>
+
+<div class="bottom-bar">
+  <a class='bar-btn bar-btn-home' href='../../_root/revision/index.html' title='Revision'>🏠</a>
+  <div class="bar-divider"></div>
+  <img src="../sunu/unit7/images/canbay.png" alt="Canbay" class="bar-logo">
+  <div class="bar-divider"></div>
+  <button type="button" class="bar-btn bar-btn-fs" id="barFsBtn" onclick="toggleFullscreen()">⛶ Tam Ekran</button>
+  <button type="button" class="bar-btn bar-btn-zoom" onclick="zoomOut()">−</button>
+  <span class="bar-zoom-label" id="zoomLabel">100%</span>
+  <button type="button" class="bar-btn bar-btn-zoom" onclick="zoomIn()">+</button>
+  <div class="bar-divider"></div>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnPen"       onclick="setTool('pen')">✏️ Kalem</button>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnHighlight" onclick="setTool('highlight')">🖊️ Fosforlu</button>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnEraser"    onclick="setTool('eraser')">🧹 Silgi</button>
+  <button type="button" class="bar-btn bar-btn-clear" onclick="clearCanvas()">🗑️ Tümünü Sil</button>
+  <button type="button" class="bar-btn bar-btn-end"  onclick="endDrawing()">✖ Çizimi Bitir</button>
+  <div class="bar-divider"></div>
+  <span class="bar-clock" id="barClock"></span>
+</div>
+
+<script>
+const canvas = document.getElementById('drawCanvas');
+const ctx = canvas.getContext('2d');
+let drawing = false, currentTool = null, hlSnapshot = null, hlPath = [];
+function resizeCanvas() {
+  const tmp = canvas.toDataURL();
+  canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+  const img = new Image(); img.onload = () => ctx.drawImage(img, 0, 0); img.src = tmp;
+}
+window.addEventListener('resize', resizeCanvas); resizeCanvas();
+function setTool(tool) {
+  if (currentTool === tool) { endDrawing(); return; }
+  currentTool = tool; canvas.style.pointerEvents = 'auto';
+  ['btnPen','btnHighlight','btnEraser'].forEach(id => document.getElementById(id).classList.remove('active','active-highlight'));
+  if (tool === 'pen')       document.getElementById('btnPen').classList.add('active');
+  if (tool === 'highlight') document.getElementById('btnHighlight').classList.add('active-highlight');
+  if (tool === 'eraser')    document.getElementById('btnEraser').classList.add('active');
+  canvas.style.cursor = tool === 'eraser' ? 'cell' : 'crosshair';
+}
+function endDrawing() {
+  currentTool = null; canvas.style.pointerEvents = 'none'; canvas.style.cursor = 'default';
+  ['btnPen','btnHighlight','btnEraser'].forEach(id => document.getElementById(id).classList.remove('active','active-highlight'));
+}
+function clearCanvas() { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+function getPos(e) { const t = e.touches ? e.touches[0] : e; return { x: t.clientX, y: t.clientY }; }
+canvas.addEventListener('mousedown', startDraw); canvas.addEventListener('mousemove', moveDraw);
+canvas.addEventListener('mouseup', stopDraw); canvas.addEventListener('mouseleave', stopDraw);
+canvas.addEventListener('touchstart', e => { e.preventDefault(); startDraw(e); }, { passive: false });
+canvas.addEventListener('touchmove',  e => { e.preventDefault(); moveDraw(e);  }, { passive: false });
+canvas.addEventListener('touchend', stopDraw);
+function startDraw(e) {
+  if (!currentTool) return; drawing = true;
+  const { x, y } = getPos(e);
+  if (currentTool === 'highlight') { hlSnapshot = ctx.getImageData(0, 0, canvas.width, canvas.height); hlPath = [{ x, y }]; }
+  else { ctx.beginPath(); ctx.moveTo(x, y); }
+}
+function moveDraw(e) {
+  if (!drawing || !currentTool) return;
+  const { x, y } = getPos(e);
+  if (currentTool === 'pen') {
+    ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 1;
+    ctx.strokeStyle = '#F57C00'; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.lineTo(x, y); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x, y);
+  } else if (currentTool === 'highlight') {
+    hlPath.push({ x, y }); ctx.putImageData(hlSnapshot, 0, 0); ctx.save();
+    ctx.globalAlpha = 0.28; ctx.globalCompositeOperation = 'source-over';
+    ctx.strokeStyle = '#FFD600'; ctx.lineWidth = 22; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.beginPath(); ctx.moveTo(hlPath[0].x, hlPath[0].y);
+    for (let i = 1; i < hlPath.length; i++) ctx.lineTo(hlPath[i].x, hlPath[i].y);
+    ctx.stroke(); ctx.restore();
+  } else if (currentTool === 'eraser') {
+    ctx.globalCompositeOperation = 'destination-out'; ctx.globalAlpha = 1;
+    ctx.lineWidth = 28; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.lineTo(x, y); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x, y);
+  }
+}
+function stopDraw() { hlSnapshot = null; hlPath = []; drawing = false; ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 1; }
+let currentZoom = 1.0;
+const ZOOM_STEP = 0.1, ZOOM_MIN = 0.5, ZOOM_MAX = 2.0;
+function applyZoom() { document.querySelector('.page').style.zoom = currentZoom; document.getElementById('zoomLabel').textContent = Math.round(currentZoom * 100) + '%'; }
+function zoomIn()  { if (currentZoom < ZOOM_MAX) { currentZoom = Math.round((currentZoom + ZOOM_STEP) * 10) / 10; applyZoom(); } }
+function zoomOut() { if (currentZoom > ZOOM_MIN) { currentZoom = Math.round((currentZoom - ZOOM_STEP) * 10) / 10; applyZoom(); } }
+function updateClock() {
+  const now = new Date();
+  document.getElementById('barClock').textContent = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+}
+updateClock(); setInterval(updateClock, 1000);
+</script>
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js" ></script><script async src="https://scripts.simpleanalyticscdn.com/auto-events.js" data-extensions="pdf,csv,docx,xlsx,zip,doc,xls"></script></body>
+</html>

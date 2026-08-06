@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>ELTARENA CUP - Turnuva</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+            user-select: none;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        body {
+            background: #2b1e0f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .stadium-bg {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 20% 40%, #c7a252 0%, #6b4f2a 80%);
+            background-image: 
+                repeating-linear-gradient(45deg, rgba(255,215,140,0.2) 0px, rgba(255,215,140,0.2) 20px, transparent 20px, transparent 40px),
+                linear-gradient(0deg, #3a2c18 0%, #ab8b4c 100%);
+            z-index: -2;
+        }
+        .ad-board {
+            position: fixed;
+            background: linear-gradient(145deg, #4a3720, #2d1e0f);
+            color: #ffd966;
+            font-weight: 900;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 0 6px #c9a04b, 0 0 30px rgba(0,0,0,0.8);
+            z-index: 10;
+            font-size: 2rem;
+            letter-spacing: 8px;
+            border-radius: 20px;
+            border: 3px solid #f3b33d;
+            width: 220px;
+            height: 90px;
+            text-shadow: 3px 3px 0 #7a4c1d;
+        }
+        .ad1 { top: 20px; left: 20px; }
+        .ad2 { top: 20px; right: 20px; }
+        .ad3 { bottom: 20px; left: 20px; }
+        .ad4 { bottom: 20px; right: 20px; }
+        .ad-board::before {
+            content: "⚡ ELTARENA ⚡";
+        }
+        .tournament-card {
+            width: 100%;
+            height: 100%;
+            background: #f7d9aa;
+            border-radius: 0;
+            box-shadow: 0 25px 40px rgba(0,0,0,0.8), inset 0 2px 10px #ffe894;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 20;
+            backdrop-filter: blur(2px);
+        }
+        .field-panel {
+            background: #e9c27c;
+            border-radius: 50px 50px 20px 20px;
+            padding: 18px 18px 20px;
+            box-shadow: inset 0 -8px 10px #b4823a, inset 0 8px 12px #ffd58a;
+            border: 4px solid #ba8748;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+        h1 {
+            margin: 0 0 10px;
+            color: #5d3a1a;
+            text-shadow: 4px 4px 0 #ebc47f;
+            font-weight: 900;
+            font-size: 3rem;
+            text-align: center;
+            letter-spacing: 6px;
+        }
+        h2, h3 {
+            margin: 5px 0 15px;
+            color: #4d2f12;
+            text-shadow: 3px 3px 0 #dba851;
+            font-weight: 900;
+            text-align: center;
+            font-size: 2rem;
+        }
+        .draw-area {
+            background: #cc9f5f;
+            border-radius: 40px;
+            padding: 20px;
+            border: 4px solid #b17d48;
+        }
+        .player-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .player-chip {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #ffdb8e;
+            border: 4px solid #b9571f;
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: #2b421f;
+            cursor: pointer;
+            box-shadow: 0 6px 0 #965e2a, 0 7px 10px black;
+            transition: 0.07s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .player-chip.selected {
+            background: #d32f2f;
+            color: white;
+            border-color: #ffb300;
+            box-shadow: 0 3px 0 #6d1b1b, 0 6px 12px black;
+            transform: translateY(5px);
+        }
+        .player-chip:active {
+            transform: translateY(6px);
+            box-shadow: 0 1px 0 #965e2a, 0 6px 10px black;
+        }
+        .btn {
+            background: #f3a446;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 22px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-bottom: 6px solid #b45f1a;
+            color: #1e2b1e;
+            cursor: pointer;
+            transition: 0.08s;
+            margin: 5px;
+            box-shadow: 0 6px 12px black;
+        }
+        .btn:active {
+            transform: translateY(4px);
+            border-bottom-width: 2px;
+        }
+        .btn:disabled {
+            opacity: 0.4;
+            transform: none;
+            pointer-events: none;
+        }
+        .draw-list {
+            background: #b3803b;
+            border-radius: 60px;
+            padding: 16px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2d1f0a;
+            text-align: center;
+            border: 3px solid #dba13a;
+            margin: 20px 0 10px;
+            min-height: 70px;
+            word-break: break-word;
+        }
+        .scoreboard {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #c1984d;
+            border-radius: 100px;
+            padding: 8px 25px;
+            border: 5px solid #fad675;
+            color: #2d1d0a;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+        .duel-team {
+            font-size: 1.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .team-badge {
+            background: #a56529;
+            padding: 8px 20px;
+            border-radius: 40px;
+            border: 3px solid #ffcd7e;
+            color: #fff0b5;
+            text-shadow: 2px 2px 0 #593e1a;
+            font-size: 1.4rem;
+            min-width: 120px;
+            text-align: center;
+        }
+        .score-number {
+            background: #2d2d2d;
+            padding: 8px 30px;
+            border-radius: 40px;
+            font-size: 2.5rem;
+            color: #fff3b7;
+            border: 3px solid #dba851;
+            min-width: 90px;
+            text-align: center;
+        }
+        .tur-status {
+            background: #c2a156;
+            border-radius: 40px;
+            padding: 8px 20px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #152f15;
+            display: inline-block;
+            margin: 5px auto 20px;
+            border: 3px solid #ffe49e;
+            box-shadow: inset 0 -3px 0 #684f23;
+        }
+        .match-counter {
+            background: #c97e3a;
+            border-radius: 30px;
+            padding: 6px 18px;
+            font-size: 1.2rem;
+            color: #2d1f0a;
+            display: inline-block;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+        .question-panel {
+            border-radius: 60px;
+            padding: 25px 20px;
+            border: 6px solid #dcb05c;
+            margin: 15px 0 25px;
+            box-shadow: inset 0 0 0 4px #b88537;
+            transition: background-color 0.3s;
+        }
+        .panel-red {
+            background: #b71c1c;
+            animation: pulse-red 1.5s infinite;
+        }
+        @keyframes pulse-red {
+            0% { background-color: #b71c1c; }
+            50% { background-color: #d32f2f; }
+            100% { background-color: #b71c1c; }
+        }
+        .panel-blue {
+            background: #0d47a1;
+            animation: pulse-blue 1.5s infinite;
+        }
+        @keyframes pulse-blue {
+            0% { background-color: #0d47a1; }
+            50% { background-color: #1565c0; }
+            100% { background-color: #0d47a1; }
+        }
+        .final-panels {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            margin: 15px 0 25px;
+        }
+        .final-panel {
+            flex: 1;
+            border-radius: 60px;
+            padding: 20px;
+            border: 6px solid #dcb05c;
+            box-shadow: inset 0 0 0 4px #b88537;
+            background: #1e2a2e;
+        }
+        .final-panel .en-big {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        .final-panel .option-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+        .final-panel .option-btn {
+            font-size: 1.3rem;
+            padding: 12px 5px;
+        }
+        .en-big {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #ffffff;
+            text-align: center;
+            margin: 0 0 20px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            word-break: break-word;
+        }
+        .option-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        .option-btn {
+            background: #fff5e0;
+            border: none;
+            border-radius: 50px;
+            padding: 14px 8px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2d1f0a;
+            border-bottom: 6px solid #b45f1a;
+            cursor: pointer;
+            transition: 0.06s;
+            box-shadow: 0 6px 0 #7d4512, 0 7px 15px black;
+            text-align: center;
+        }
+        .option-btn:active {
+            transform: translateY(4px);
+            border-bottom-width: 2px;
+        }
+        .option-btn:disabled {
+            opacity: 0.7;
+            transform: none;
+            pointer-events: none;
+        }
+        .option-btn.correct-flash {
+            background: #2e7d32 !important;
+            border-bottom-color: #1b5e20 !important;
+            color: white !important;
+        }
+        .option-btn.wrong-flash {
+            background: #c62828 !important;
+            border-bottom-color: #8e0000 !important;
+            color: white !important;
+        }
+        .panel-red .option-btn {
+            border-bottom-color: #b71c1c;
+        }
+        .panel-blue .option-btn {
+            border-bottom-color: #0d47a1;
+        }
+        .message-area {
+            font-size: 2rem;
+            font-weight: 900;
+            text-align: center;
+            color: #fff3b7;
+            text-shadow: 4px 4px 0 #9e6425;
+            margin: 15px;
+        }
+        .round-summary {
+            background: #e9c27c;
+            border-radius: 60px;
+            padding: 30px;
+            border: 6px solid #dcb05c;
+            margin: 15px 0 25px;
+            text-align: center;
+            box-shadow: inset 0 0 0 4px #b88537;
+        }
+        .round-summary h2 {
+            font-size: 2.5rem;
+            color: #5d3a1a;
+            margin: 0 0 20px;
+        }
+        .winners-list {
+            font-size: 1.7rem;
+            color: #2d1f0a;
+            background: #fff5e0;
+            padding: 20px;
+            border-radius: 40px;
+            margin: 20px 0;
+            border: 3px solid #b45f1a;
+        }
+        .start-round-btn {
+            background: #f3a446;
+            font-size: 2rem;
+            padding: 20px 50px;
+            border-bottom: 8px solid #b45f1a;
+        }
+        .hidden {
+            display: none !important;
+        }
+        .flex-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .footer-note {
+            text-align: center;
+            color: #4d3516;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .fullscreen-btn {
+            background: #4e3822;
+            border: 3px solid #f3b33d;
+            color: #ffe38f;
+            font-size: 1.4rem;
+            padding: 6px 18px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        .next-question-btn, .change-question-btn, .final-question-btn {
+            font-size: 1.6rem;
+            padding: 12px 25px;
+        }
+        .button-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 15px;
+            justify-content: center;
+        }
+        .panel-header {
+            font-size: 1.8rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 12px;
+            color: #ffeaac;
+        }
+        .question-counter {
+            font-size: 1.2rem;
+            background: #c97e3a;
+            padding: 5px 15px;
+            border-radius: 30px;
+            color: #2d1f0a;
+            font-weight: bold;
+        }
+        /* Final uyarı kutuları */
+        .final-warning-box {
+            background: #2c1a0c;
+            border: 6px solid #f3b33d;
+            border-radius: 60px;
+            padding: 25px;
+            text-align: center;
+            margin: 20px 0;
+            box-shadow: 0 0 0 6px #c9a04b, inset 0 0 20px #ffd58a;
+            animation: glow 1s infinite alternate;
+        }
+        @keyframes glow {
+            from { box-shadow: 0 0 0 6px #c9a04b, inset 0 0 10px #ffd58a; }
+            to { box-shadow: 0 0 0 6px #ffcd7e, inset 0 0 30px #ffebaa; }
+        }
+        .final-warning-box h2 {
+            font-size: 3rem;
+            color: #ffd966;
+            margin: 0;
+            text-shadow: 4px 4px 0 #7a4c1d;
+        }
+        .final-warning-box p {
+            font-size: 1.8rem;
+            color: #fff0b5;
+            margin: 15px 0 0;
+        }
+        .champion-box {
+            background: linear-gradient(145deg, #ffd966, #ffb347);
+            border: 8px solid #fff3b7;
+            border-radius: 80px;
+            padding: 30px;
+            text-align: center;
+            margin: 20px 0;
+            box-shadow: 0 0 0 8px #c97e3a, 0 20px 30px black;
+        }
+        .champion-box h1 {
+            font-size: 5rem;
+            color: #2d1f0a;
+            text-shadow: 5px 5px 0 #ffdd88;
+            margin: 0;
+        }
+        .champion-box .champion-number {
+            font-size: 6rem;
+            font-weight: 900;
+            background: #2d1f0a;
+            display: inline-block;
+            padding: 20px 50px;
+            border-radius: 100px;
+            color: #ffd966;
+            margin-top: 15px;
+            letter-spacing: 8px;
+        }
+        @media (max-width: 700px) {
+            .final-panels { flex-direction: column; }
+            .option-btn { font-size: 1rem; padding: 10px 5px; }
+            .en-big { font-size: 2rem; }
+            .score-number { padding: 4px 15px; font-size: 1.8rem; min-width: 60px; }
+            .team-badge { font-size: 1rem; padding: 4px 12px; min-width: 80px; }
+            .final-warning-box h2 { font-size: 2rem; }
+            .champion-box h1 { font-size: 2.5rem; }
+            .champion-box .champion-number { font-size: 3rem; padding: 10px 25px; }
+        }
+    </style>
+</head>
+<body>
+<div class="stadium-bg"></div>
+<div class="ad-board ad1"></div>
+<div class="ad-board ad2"></div>
+<div class="ad-board ad3"></div>
+<div class="ad-board ad4"></div>
+
+<div class="tournament-card" id="tournamentContainer">
+    <div class="field-panel">
+        <div class="top-bar">
+            <h1>ELTARENA CUP</h1>
+            <button class="fullscreen-btn" id="fullscreenBtn">⛶ Tam Ekran</button>
+        </div>
+
+        <!-- KURA EKRANI -->
+        <div id="drawSection">
+            <h2>⚡ TURNUVAYA KATILACAKLAR (1-35) ⚡</h2>
+            <div class="player-grid" id="playerChips"></div>
+            <div class="flex-row">
+                <button class="btn" id="removeSelectedBtn">❌ Seçilileri Çıkar</button>
+                <button class="btn" id="resetDrawBtn">🔄 Tümünü Sıfırla</button>
+                <button class="btn" id="createParticipantListBtn">📋 Katılımcı Listesi</button>
+            </div>
+            <div class="draw-list" id="participantDisplay">[ Liste boş ]</div>
+            <button class="btn" id="startRoundFromDrawBtn" style="font-size:2rem; padding:15px 45px;">🏁 TURU BAŞLAT</button>
+            <div class="footer-note">* Oyuncuya tıklayarak seç, çıkar. Katılımcı listesini oluştur.</div>
+        </div>
+
+        <!-- OYUN ALANI -->
+        <div id="gameSection" class="hidden">
+            <div class="scoreboard">
+                <div class="duel-team"><span class="team-badge" id="player1Name">🔴 RED</span><span class="score-number" id="player1Score">0</span></div>
+                <div style="font-size:2rem;">⚡</div>
+                <div class="duel-team"><span class="score-number" id="player2Score">0</span><span class="team-badge" id="player2Name">🔵 BLUE</span></div>
+            </div>
+            <div class="flex-row" style="justify-content: center; align-items: center;">
+                <div class="tur-status" id="tournamentInfo">🏆 1. TUR / MAÇ 1</div>
+                <div class="match-counter" id="matchCountDisplay">Toplam 3 Maç</div>
+                <div class="question-counter" id="questionCountDisplay">Soru: 0/10</div>
+            </div>
+            <div class="tur-status" id="turnIndicator">🎯 SIRA: RED #?</div>
+            
+            <!-- Normal soru paneli -->
+            <div id="normalQuestionPanel" class="question-panel panel-red">
+                <div class="en-big" id="enWord">⚡ HAZIR MISIN?</div>
+                <div class="option-grid" id="optionsContainer"></div>
+            </div>
+
+            <!-- Final öncesi uyarı kutusu -->
+            <div id="finalWarningBox" class="final-warning-box hidden">
+                <h2>🏆 FİNAL SORUSU 🏆</h2>
+                <p>🔴 İlk doğru cevabı veren oyuncu maçı kazanacak! 🔵</p>
+                <button class="btn" id="startFinalBtn" style="font-size:1.8rem; margin-top:20px;">🚀 BAŞLAT</button>
+            </div>
+
+            <!-- Final soru panelleri (farklı sorular) -->
+            <div id="finalQuestionPanels" class="final-panels hidden">
+                <div class="final-panel panel-red" id="finalPanel1">
+                    <div class="panel-header">🔴 RED #<span id="finalPlayer1Num"></span></div>
+                    <div class="en-big" id="finalEnWord1">FİNAL</div>
+                    <div class="option-grid" id="finalOptions1"></div>
+                </div>
+                <div class="final-panel panel-blue" id="finalPanel2">
+                    <div class="panel-header">🔵 BLUE #<span id="finalPlayer2Num"></span></div>
+                    <div class="en-big" id="finalEnWord2">FİNAL</div>
+                    <div class="option-grid" id="finalOptions2"></div>
+                </div>
+            </div>
+
+            <!-- İki oyuncu da yanlış yapınca çıkan "Final Sorusu Tekrar" kutusu -->
+            <div id="finalRetryBox" class="final-warning-box hidden">
+                <h2>❌ İKİ OYUNCU DA BİLEMEDİ!</h2>
+                <p>📢 YENİDEN FİNAL SORUSU HAKKI</p>
+                <button class="btn" id="retryFinalBtn" style="font-size:1.8rem; margin-top:20px;">🔄 TEKRAR DENE</button>
+            </div>
+
+            <!-- Tur özet paneli -->
+            <div id="roundSummaryPanel" class="round-summary hidden">
+                <h2 id="roundName">ÇEYREK FİNAL</h2>
+                <div class="winners-list" id="winnersList">Kazananlar: #1, #2, #3, #4</div>
+                <button class="btn start-round-btn" id="startRoundBtn">🏁 TURU BAŞLAT</button>
+            </div>
+
+            <div class="button-group">
+                <button class="btn next-question-btn" id="nextQuestionBtn">⏭️ GEÇ</button>
+                <button class="btn change-question-btn" id="changeQuestionBtn">🔄 SORUYU DEĞİŞTİR</button>
+            </div>
+            <button class="btn final-question-btn hidden" id="finalQuestionBtn">🏆 FİNAL SORUSU</button>
+            <div class="message-area" id="gameEndMessage"></div>
+            <button class="btn" id="nextMatchBtn" style="font-size:1.6rem;">⏩ SONRAKİ MAÇ</button>
+            <button class="btn" id="newTournamentBtn" style="font-size:1.4rem;">🔄 YENİ TURNUVA</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        // TAM EKRAN
+        document.getElementById('fullscreenBtn').addEventListener('click', () => {
+            const elem = document.documentElement;
+            if (elem.requestFullscreen) elem.requestFullscreen();
+            else if (elem.webkitRequestFullscreen) elem.webkitRequestFullscreen();
+            else if (elem.msRequestFullscreen) elem.msRequestFullscreen();
+        });
+
+        // SORU HAVUZU
+        const masterQuestionPool = [
+ { en: "clean the bathroom", tr: "banyoyu temizlemek" },
+  { en: "clean the windows", tr: "camları silmek" },
+  { en: "cook the meals", tr: "yemek pişirmek" },
+  { en: "do the grocery shopping", tr: "market alışverişi yapmak" },
+  { en: "do the laundry", tr: "çamaşır yıkamak" },
+  { en: "dry the dishes", tr: "bulaşıkları kurulamak" },
+  { en: "dust the furniture", tr: "mobilyaların tozunu almak" },
+  { en: "empty the dishwasher", tr: "bulaşık makinesini boşaltmak" },
+  { en: "feed the dog", tr: "köpeği beslemek" },
+  { en: "hang out the clothes", tr: "çamaşırları asmak" },
+  { en: "iron the clothes", tr: "kıyafetleri ütülemek" },
+  { en: "load the dishwasher", tr: "bulaşık makinesini doldurmak" },
+  { en: "make the bed", tr: "yatağı toplamak" },
+  { en: "mop the floor", tr: "yerleri paspaslamak" },
+  { en: "mow the lawn", tr: "çimleri biçmek" },
+  { en: "pay the bills", tr: "faturaları ödemek" },
+  { en: "separate the laundry", tr: "çamaşırları ayırmak" },
+  { en: "set the table", tr: "masayı hazırlamak" },
+  { en: "sweep the leaves", tr: "yaprakları süpürmek" },
+  { en: "take the dog for a walk", tr: "köpeği yürüyüşe çıkarmak" },
+  { en: "tidy the toys", tr: "oyuncakları toplamak" },
+  { en: "tidy up the room", tr: "odayı toplamak" },
+  { en: "vacuum the floor", tr: "elektrikli süpürge ile temizlemek" },
+  { en: "wash the car", tr: "arabayı yıkamak" },
+  { en: "be in charge of", tr: "-nın sorumluğunda olmak" },
+  { en: "wash the dishes", tr: "bulaşıkları yıkamak" },
+  { en: "be responsible for", tr: "-nın için sorumlu olmak" },
+  { en: "duty/task", tr: "görev" },
+  { en: "necessary", tr: "gerekli" },
+  { en: "obligation", tr: "zorunluluk" },
+  { en: "responsibility", tr: "sorumluluk" },
+  { en: "angry/annoyed", tr: "sinirli" },
+  { en: "bored", tr: "canı sıkılmış" },
+  { en: "boring", tr: "sıkıcı" },
+  { en: "clean", tr: "temiz" },
+  { en: "dirty", tr: "kirli" },
+  { en: "difficult / hard", tr: "zor" },
+  { en: "disturbing", tr: "rahatsız edici" },
+  { en: "encouraging", tr: "cesaret verici" },
+  { en: "enjoyable", tr: "eğlenceli" },
+  { en: "excited", tr: "heyecanlı" },
+  { en: "fair", tr: "adil, adaletli" },
+  { en: "neat / tidy", tr: "düzenli" },
+  { en: "nervous", tr: "gergin" },
+  { en: "peaceful", tr: "huzurlu" },
+  { en: "respectful", tr: "saygılı" },
+  { en: "silent", tr: "sessiz" },
+  { en: "untidy", tr: "dağınık" },
+  { en: "worried", tr: "endişeli" },
+  { en: "kitchen", tr: "mutfak" },
+  { en: "bathroon", tr: "banyo" },
+  { en: "garden", tr: "bahçe" },
+  { en: "house / home", tr: "ev" },
+  { en: "bedroom", tr: "yatak odası" },
+  { en: "living room / sitting room", tr: "oturma odası" },
+  { en: "prepare meals", tr: "yemekler hazırlamak" },
+  { en: "prepare brekfast", tr: "kahvaltı hazırlamak" },
+  { en: "prepare lunch", tr: "öğle yemeği hazırlamak" },
+  { en: "prepare dinner", tr: "akşam yemeği hazırlamak" },
+  { en: "cook dinner", tr: "akşam yemeği pişirmek" },
+  { en: "dust the shelves", tr: "rafların tozunu almak" },
+  { en: "indoor chores", tr: "içerideki ev işleri" },
+  { en: "outdoor chores", tr: "dışarıdaki ev işleri" },
+  { en: "dirty clothes", tr: "kirli kıyafetler" },
+  { en: "dirty dishes", tr: "kirli bulaşıklar" },
+  { en: "take care of pet", tr: "evcil hayvana bakmak" },
+  { en: "school rules", tr: "okul kuralları" },
+  { en: "library rules", tr: "kütüphane kuralları" },
+  { en: "be quiet", tr: "sessiz ol" },
+  { en: "return books on time", tr: "kitapları zamanında geri getir" },
+  { en: "keep your desk clean", tr: "sıranı temiz tut" },
+  { en: "raise your hand", tr: "elini kaldır" },
+  { en: "be respectful to your firends", tr: "arkadaşlarına saygılı ol" },
+  { en: "kitchen chore", tr: "mutfak işi" },
+  { en: "take out rubbish/trash/garbage", tr: "çöpü dışarı çıkarmak" },
+  { en: "water the plants", tr: "bitkileri sulamak" }
+        ];
+
+        // Turnuva değişkenleri
+        let allNumbers = Array.from({ length: 35 }, (_, i) => i + 1);
+        let participants = [];
+        let activePlayers = [];
+        let matches = [];
+        let currentMatchIndex = 0;
+        let currentRound = 1;
+        let matchActive = false;
+        let currentPlayerTurn = null;
+        let liveP1Score = 0, liveP2Score = 0;
+        let liveP1, liveP2;
+        let availableQuestions = [];
+        let questionCount = 0;
+        const MAX_QUESTIONS = 10;
+        let finalMode = false;
+        let finalQuestions = { p1: null, p2: null };
+        let finalWinnerDeclared = false;
+        let finalAnswered = { p1: false, p2: false };
+        let finalWrong = { p1: false, p2: false };
+        let pendingFinal = false; // Final başlamadan önce uyarı gösteriliyor mu
+
+        // DOM
+        const drawSection = document.getElementById('drawSection');
+        const gameSection = document.getElementById('gameSection');
+        const playerChipsDiv = document.getElementById('playerChips');
+        const participantDisplay = document.getElementById('participantDisplay');
+        const removeSelectedBtn = document.getElementById('removeSelectedBtn');
+        const resetDrawBtn = document.getElementById('resetDrawBtn');
+        const createParticipantListBtn = document.getElementById('createParticipantListBtn');
+        const startRoundFromDrawBtn = document.getElementById('startRoundFromDrawBtn');
+        const player1NameSpan = document.getElementById('player1Name');
+        const player2NameSpan = document.getElementById('player2Name');
+        const player1ScoreSpan = document.getElementById('player1Score');
+        const player2ScoreSpan = document.getElementById('player2Score');
+        const tournamentInfo = document.getElementById('tournamentInfo');
+        const matchCountDisplay = document.getElementById('matchCountDisplay');
+        const turnIndicator = document.getElementById('turnIndicator');
+        const enWordDiv = document.getElementById('enWord');
+        const optionsContainer = document.getElementById('optionsContainer');
+        const gameEndMessage = document.getElementById('gameEndMessage');
+        const nextMatchBtn = document.getElementById('nextMatchBtn');
+        const newTournamentBtn = document.getElementById('newTournamentBtn');
+        const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+        const changeQuestionBtn = document.getElementById('changeQuestionBtn');
+        const finalQuestionBtn = document.getElementById('finalQuestionBtn');
+        const questionCountDisplay = document.getElementById('questionCountDisplay');
+        const normalPanel = document.getElementById('normalQuestionPanel');
+        const finalPanels = document.getElementById('finalQuestionPanels');
+        const finalWarningBox = document.getElementById('finalWarningBox');
+        const finalRetryBox = document.getElementById('finalRetryBox');
+        const startFinalBtn = document.getElementById('startFinalBtn');
+        const retryFinalBtn = document.getElementById('retryFinalBtn');
+        const finalPlayer1Num = document.getElementById('finalPlayer1Num');
+        const finalPlayer2Num = document.getElementById('finalPlayer2Num');
+        const finalEnWord1 = document.getElementById('finalEnWord1');
+        const finalEnWord2 = document.getElementById('finalEnWord2');
+        const finalOptions1 = document.getElementById('finalOptions1');
+        const finalOptions2 = document.getElementById('finalOptions2');
+        const roundSummaryPanel = document.getElementById('roundSummaryPanel');
+        const roundName = document.getElementById('roundName');
+        const winnersList = document.getElementById('winnersList');
+        const startRoundBtn = document.getElementById('startRoundBtn');
+
+        function getRoundName(playerCount) {
+            if (playerCount === 2) return "FİNAL";
+            if (playerCount <= 4) return "YARI FİNAL";
+            if (playerCount <= 8) return "ÇEYREK FİNAL";
+            if (playerCount <= 16) return "SON 16";
+            if (playerCount <= 32) return "SON 32";
+            return "SON 64";
+        }
+
+        function updatePanelColor() {
+            if (finalMode) return;
+            if (currentPlayerTurn === liveP1) {
+                normalPanel.classList.remove('panel-blue');
+                normalPanel.classList.add('panel-red');
+            } else {
+                normalPanel.classList.remove('panel-red');
+                normalPanel.classList.add('panel-blue');
+            }
+        }
+        function updateTurnIndicator() {
+            if (!matchActive || finalMode) return;
+            const team = (currentPlayerTurn === liveP1) ? 'RED' : 'BLUE';
+            turnIndicator.innerText = `🎯 SIRA: ${team} #${currentPlayerTurn}`;
+        }
+
+        // Kura UI
+        function renderPlayerChips(numbers) {
+            playerChipsDiv.innerHTML = '';
+            numbers.forEach(num => {
+                const chip = document.createElement('div');
+                chip.className = 'player-chip';
+                chip.textContent = num;
+                chip.dataset.num = num;
+                chip.addEventListener('click', () => chip.classList.toggle('selected'));
+                playerChipsDiv.appendChild(chip);
+            });
+        }
+        function removeSelectedChips() {
+            const selected = document.querySelectorAll('.player-chip.selected');
+            selected.forEach(chip => chip.remove());
+            allNumbers = Array.from(document.querySelectorAll('.player-chip')).map(c => parseInt(c.dataset.num));
+        }
+        function resetDraw() {
+            allNumbers = Array.from({ length: 35 }, (_, i) => i + 1);
+            renderPlayerChips(allNumbers);
+            participants = [];
+            participantDisplay.innerText = '[ Liste boş ]';
+        }
+        function createParticipantList() {
+            participants = Array.from(document.querySelectorAll('.player-chip')).map(c => parseInt(c.dataset.num));
+            if (participants.length === 0) participantDisplay.innerText = '❌ Katılımcı yok!';
+            else participantDisplay.innerText = '👥 KATILIMCILAR: ' + participants.sort((a,b)=>a-b).join(' - ');
+        }
+        function startFirstRound() {
+            if (participants.length === 0) { alert('Önce katılımcı listesi oluşturun!'); return; }
+            activePlayers = [...participants];
+            if (activePlayers.length < 2) { alert('En az 2 katılımcı olmalı'); return; }
+            currentRound = 1;
+            buildMatchesForCurrentRound();
+            currentMatchIndex = 0;
+            showRoundSummary();
+        }
+        function buildMatchesForCurrentRound() {
+            matches = [];
+            let players = [...activePlayers];
+            players.sort(() => Math.random() - 0.5);
+            while (players.length >= 2) {
+                const p1 = players.pop();
+                const p2 = players.pop();
+                matches.push({ p1, p2, score1: 0, score2: 0, winners: [] });
+            }
+            if (players.length === 1) matches.push({ p1: players[0], p2: null, winners: [players[0]] });
+            updateMatchCount();
+        }
+        function updateMatchCount() {
+            const total = matches.length;
+            const played = matches.filter(m => m.winners.length > 0).length;
+            matchCountDisplay.innerText = `Toplam ${total} Maç | Tamamlanan: ${played}`;
+        }
+        function showRoundSummary() {
+            roundName.innerText = getRoundName(activePlayers.length);
+            winnersList.innerText = '🏆 TURDAKİ OYUNCULAR: ' + activePlayers.sort((a,b)=>a-b).join(' - ');
+            normalPanel.classList.add('hidden');
+            finalPanels.classList.add('hidden');
+            finalWarningBox.classList.add('hidden');
+            finalRetryBox.classList.add('hidden');
+            nextQuestionBtn.classList.add('hidden');
+            changeQuestionBtn.classList.add('hidden');
+            finalQuestionBtn.classList.add('hidden');
+            nextMatchBtn.classList.add('hidden');
+            gameEndMessage.classList.add('hidden');
+            roundSummaryPanel.classList.remove('hidden');
+            gameSection.classList.remove('hidden');
+            drawSection.classList.add('hidden');
+        }
+        function startRound() {
+            roundSummaryPanel.classList.add('hidden');
+            currentMatchIndex = 0;
+            loadMatch(0);
+        }
+
+        // Normal sorular
+        function changeQuestion() { if (matchActive && !finalMode && !pendingFinal) generateNormalQuestion(); }
+        function generateNormalQuestion() {
+            if (!matchActive || finalMode || pendingFinal) return;
+            if (availableQuestions.length === 0) availableQuestions = masterQuestionPool.map(q => ({ ...q }));
+            const rand = Math.floor(Math.random() * availableQuestions.length);
+            const q = availableQuestions[rand];
+            availableQuestions.splice(rand, 1);
+            showNormalQuestion(q);
+        }
+        function showNormalQuestion(q) {
+            const correct = q.tr;
+            let other = masterQuestionPool.filter(item => item.tr !== q.tr).map(item => item.tr);
+            other = [...new Set(other)];
+            other.sort(() => Math.random() - 0.5);
+            let wrongs = other.slice(0, 3);
+            let options = [q.tr, ...wrongs];
+            while(options.length < 4) options.push('?');
+            options.sort(() => Math.random() - 0.5);
+            enWordDiv.innerText = q.en.toUpperCase();
+            optionsContainer.innerHTML = '';
+            options.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerText = opt.toUpperCase();
+                btn.addEventListener('click', () => {
+                    Array.from(optionsContainer.children).forEach(b => b.disabled = true);
+                    const isCorrect = (opt.toLowerCase() === correct.toLowerCase());
+                    if (isCorrect) btn.classList.add('correct-flash');
+                    else btn.classList.add('wrong-flash');
+                    setTimeout(() => handleNormalAnswer(opt, correct), 300);
+                });
+                optionsContainer.appendChild(btn);
+            });
+            nextQuestionBtn.classList.remove('hidden');
+            changeQuestionBtn.classList.remove('hidden');
+            finalQuestionBtn.classList.add('hidden');
+            updatePanelColor();
+        }
+        function handleNormalAnswer(selected, correct) {
+            if (!matchActive || finalMode || pendingFinal) return;
+            const isCorrect = (selected.toLowerCase() === correct.toLowerCase());
+            if (isCorrect) {
+                if (currentPlayerTurn === liveP1) liveP1Score++;
+                else liveP2Score++;
+                player1ScoreSpan.innerText = liveP1Score;
+                player2ScoreSpan.innerText = liveP2Score;
+            }
+            if (Math.abs(liveP1Score - liveP2Score) >= 2) { endMatchWithWinners([liveP1Score > liveP2Score ? liveP1 : liveP2]); return; }
+            questionCount++;
+            questionCountDisplay.innerText = `Soru: ${questionCount}/${MAX_QUESTIONS}`;
+            if (questionCount >= MAX_QUESTIONS && Math.abs(liveP1Score - liveP2Score) < 2) {
+                turnIndicator.innerText = '⚡ FİNAL SORUSUNA HAZIRLANIN';
+                nextQuestionBtn.classList.add('hidden');
+                changeQuestionBtn.classList.add('hidden');
+                finalQuestionBtn.classList.add('hidden');
+                normalPanel.classList.add('hidden');
+                // Final uyarı kutusunu göster
+                pendingFinal = true;
+                finalWarningBox.classList.remove('hidden');
+                return;
+            }
+            currentPlayerTurn = (currentPlayerTurn === liveP1) ? liveP2 : liveP1;
+            updateTurnIndicator();
+        }
+
+        // Final mekanizması (uyarı kutusuyla başlat)
+        function activateFinalQuestions() {
+            finalWarningBox.classList.add('hidden');
+            finalMode = true;
+            pendingFinal = false;
+            finalWinnerDeclared = false;
+            finalAnswered = { p1: false, p2: false };
+            finalWrong = { p1: false, p2: false };
+            finalRetryBox.classList.add('hidden');
+            
+            let poolCopy = [...masterQuestionPool];
+            if (poolCopy.length === 0) poolCopy = masterQuestionPool.map(q=>({...q}));
+            const idx1 = Math.floor(Math.random() * poolCopy.length);
+            finalQuestions.p1 = { ...poolCopy[idx1] };
+            poolCopy.splice(idx1,1);
+            if(poolCopy.length===0) poolCopy = masterQuestionPool.map(q=>({...q}));
+            const idx2 = Math.floor(Math.random() * poolCopy.length);
+            finalQuestions.p2 = { ...poolCopy[idx2] };
+            
+            finalPlayer1Num.innerText = liveP1;
+            finalPlayer2Num.innerText = liveP2;
+            finalEnWord1.innerText = finalQuestions.p1.en.toUpperCase();
+            finalEnWord2.innerText = finalQuestions.p2.en.toUpperCase();
+            
+            buildFinalOptions('p1', finalQuestions.p1, finalOptions1);
+            buildFinalOptions('p2', finalQuestions.p2, finalOptions2);
+            finalPanels.classList.remove('hidden');
+            normalPanel.classList.add('hidden');
+        }
+
+        function buildFinalOptions(player, q, container) {
+            const correct = q.tr;
+            let other = masterQuestionPool.filter(item => item.tr !== correct).map(item => item.tr);
+            other = [...new Set(other)];
+            other.sort(() => Math.random() - 0.5);
+            let wrongs = other.slice(0, 3);
+            let options = [correct, ...wrongs];
+            while(options.length < 4) options.push('?');
+            options.sort(() => Math.random() - 0.5);
+            container.innerHTML = '';
+            options.forEach(opt => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn';
+                btn.innerText = opt.toUpperCase();
+                btn.addEventListener('click', (e) => {
+                    if (finalWinnerDeclared) return;
+                    if (finalAnswered[player]) return;
+                    finalAnswered[player] = true;
+                    const isCorrect = (opt.toLowerCase() === correct.toLowerCase());
+                    if (isCorrect) btn.classList.add('correct-flash');
+                    else btn.classList.add('wrong-flash');
+                    Array.from(container.children).forEach(b => b.disabled = true);
+                    setTimeout(() => handleFinalAnswer(player, isCorrect), 300);
+                });
+                container.appendChild(btn);
+            });
+        }
+
+        function handleFinalAnswer(player, isCorrect) {
+            if (finalWinnerDeclared) return;
+            if (!finalMode) return;
+            if (isCorrect) {
+                finalWinnerDeclared = true;
+                const winner = (player === 'p1') ? liveP1 : liveP2;
+                endMatchWithWinners([winner]);
+                return;
+            } else {
+                finalWrong[player] = true;
+                if (finalWrong.p1 && finalWrong.p2) {
+                    // İkisi de yanlış -> Final Tekrar kutusu göster
+                    finalMode = false;
+                    finalPanels.classList.add('hidden');
+                    finalRetryBox.classList.remove('hidden');
+                    finalWinnerDeclared = false;
+                }
+            }
+        }
+
+        function retryFinal() {
+            finalRetryBox.classList.add('hidden');
+            finalMode = false;
+            pendingFinal = true;
+            finalWarningBox.classList.remove('hidden');
+        }
+
+        function endMatchWithWinners(winnersArray) {
+            matchActive = false;
+            finalMode = false;
+            pendingFinal = false;
+            finalWarningBox.classList.add('hidden');
+            finalRetryBox.classList.add('hidden');
+            finalPanels.classList.add('hidden');
+            const match = matches[currentMatchIndex];
+            match.score1 = liveP1Score;
+            match.score2 = liveP2Score;
+            match.winners = winnersArray;
+            if (winnersArray.length === 0) gameEndMessage.innerText = `❌ İKİ OYUNCU DA ELENDİ! (${liveP1Score}-${liveP2Score})`;
+            else if (winnersArray.length === 2) gameEndMessage.innerText = `🏁 BERABERLİK! #${winnersArray[0]} ve #${winnersArray[1]} ÜST TURA ÇIKTI`;
+            else gameEndMessage.innerText = `🏁 MAÇ SONU! #${winnersArray[0]} KAZANDI (${liveP1Score}-${liveP2Score})`;
+            
+            normalPanel.classList.remove('hidden');
+            nextQuestionBtn.classList.add('hidden');
+            changeQuestionBtn.classList.add('hidden');
+            finalQuestionBtn.classList.add('hidden');
+            enWordDiv.innerText = 'MAÇ BİTTİ';
+            optionsContainer.innerHTML = '';
+            turnIndicator.innerText = winnersArray.length ? `✅ ÜST TURA ÇIKANLAR: ${winnersArray.join(' #')}` : '❌ ELENDİLER';
+            updateMatchCount();
+            nextMatchBtn.classList.remove('hidden');
+            questionCount = 0;
+            questionCountDisplay.innerText = `Soru: 0/${MAX_QUESTIONS}`;
+        }
+        
+        function loadMatch(index) {
+            if (index >= matches.length) { advanceToNextRound(); return; }
+            const match = matches[index];
+            if (match.winners.length > 0) { currentMatchIndex++; loadMatch(currentMatchIndex); return; }
+            liveP1 = match.p1; liveP2 = match.p2;
+            liveP1Score = 0; liveP2Score = 0;
+            player1ScoreSpan.innerText = '0'; player2ScoreSpan.innerText = '0';
+            player1NameSpan.innerText = `🔴 RED #${liveP1}`;
+            player2NameSpan.innerText = `🔵 BLUE #${liveP2}`;
+            currentPlayerTurn = Math.random() < 0.5 ? liveP1 : liveP2;
+            matchActive = true; finalMode = false; pendingFinal = false; questionCount = 0;
+            questionCountDisplay.innerText = `Soru: 0/${MAX_QUESTIONS}`;
+            updateTurnIndicator();
+            tournamentInfo.innerText = `🏆 ${getRoundName(activePlayers.length)} / MAÇ ${index+1}`;
+            nextMatchBtn.classList.add('hidden');
+            gameEndMessage.innerText = '';
+            availableQuestions = masterQuestionPool.map(q => ({ ...q }));
+            normalPanel.classList.remove('hidden');
+            finalPanels.classList.add('hidden');
+            finalWarningBox.classList.add('hidden');
+            finalRetryBox.classList.add('hidden');
+            enWordDiv.innerText = '⚡ HAZIR MISIN?';
+            optionsContainer.innerHTML = '';
+            nextQuestionBtn.classList.remove('hidden');
+            changeQuestionBtn.classList.remove('hidden');
+            finalQuestionBtn.classList.add('hidden');
+            updatePanelColor();
+        }
+        function goToNextMatch() { if (!matchActive) { currentMatchIndex++; if (currentMatchIndex < matches.length) loadMatch(currentMatchIndex); else advanceToNextRound(); } }
+        function advanceToNextRound() {
+            let winners = [];
+            matches.forEach(m => winners.push(...m.winners));
+            if (winners.length === 0) {
+                gameEndMessage.innerHTML = `<div class="champion-box"><h1>🏆 TURNUVA BİTTİ 🏆</h1><div class="champion-number">KAZANAN YOK</div></div>`;
+                nextMatchBtn.classList.add('hidden'); return;
+            }
+            if (winners.length === 1) {
+                gameEndMessage.innerHTML = `<div class="champion-box"><h1>🏆 ŞAMPİYON 🏆</h1><div class="champion-number">#${winners[0]}</div></div>`;
+                nextMatchBtn.classList.add('hidden'); return;
+            }
+            currentRound++;
+            activePlayers = winners;
+            buildMatchesForCurrentRound();
+            showRoundSummary();
+        }
+        function resetToDraw() { gameSection.classList.add('hidden'); drawSection.classList.remove('hidden'); matchActive = false; finalMode = false; pendingFinal = false; }
+        
+        // EVENTLER
+        removeSelectedBtn.addEventListener('click', () => { removeSelectedChips(); createParticipantList(); });
+        resetDrawBtn.addEventListener('click', resetDraw);
+        createParticipantListBtn.addEventListener('click', createParticipantList);
+        startRoundFromDrawBtn.addEventListener('click', startFirstRound);
+        nextMatchBtn.addEventListener('click', goToNextMatch);
+        newTournamentBtn.addEventListener('click', resetToDraw);
+        nextQuestionBtn.addEventListener('click', () => { if (matchActive && !finalMode && !pendingFinal) generateNormalQuestion(); });
+        changeQuestionBtn.addEventListener('click', () => { if (matchActive && !finalMode && !pendingFinal) changeQuestion(); });
+        finalQuestionBtn.addEventListener('click', () => { if (matchActive && !finalMode && !pendingFinal) { pendingFinal = true; finalWarningBox.classList.remove('hidden'); normalPanel.classList.add('hidden'); } });
+        startRoundBtn.addEventListener('click', startRound);
+        startFinalBtn.addEventListener('click', activateFinalQuestions);
+        retryFinalBtn.addEventListener('click', retryFinal);
+        
+        resetDraw();
+    })();
+</script>
+</body>
+</html>

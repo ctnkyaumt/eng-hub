@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELTARENA CUP - Turnuva</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, system-ui, sans-serif;
+            user-select: none;
+        }
+        html, body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        body {
+            background: #2b1e0f;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .stadium-bg {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: radial-gradient(circle at 20% 40%, #c7a252 0%, #6b4f2a 80%);
+            background-image: 
+                repeating-linear-gradient(45deg, rgba(255,215,140,0.2) 0px, rgba(255,215,140,0.2) 20px, transparent 20px, transparent 40px),
+                linear-gradient(0deg, #3a2c18 0%, #ab8b4c 100%);
+            z-index: -2;
+        }
+        .ad-board {
+            position: fixed;
+            background: linear-gradient(145deg, #4a3720, #2d1e0f);
+            color: #ffd966;
+            font-weight: 900;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 0 0 6px #c9a04b, 0 0 30px rgba(0,0,0,0.8);
+            z-index: 10;
+            font-size: 2.2rem;
+            letter-spacing: 8px;
+            border-radius: 20px;
+            border: 3px solid #f3b33d;
+            width: 240px;
+            height: 100px;
+            text-shadow: 3px 3px 0 #7a4c1d;
+        }
+        .ad1 { top: 20px; left: 20px; }
+        .ad2 { top: 20px; right: 20px; }
+        .ad3 { bottom: 20px; left: 20px; }
+        .ad4 { bottom: 20px; right: 20px; }
+        .ad-board::before {
+            content: "⚡ ELTARENA ⚡";
+        }
+        .tournament-card {
+            width: 100%;
+            height: 100%;
+            background: #f7d9aa;
+            border-radius: 0;
+            box-shadow: 0 25px 40px rgba(0,0,0,0.8), inset 0 2px 10px #ffe894;
+            padding: 20px;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 20;
+            backdrop-filter: blur(2px);
+        }
+        .field-panel {
+            background: #e9c27c;
+            border-radius: 50px 50px 20px 20px;
+            padding: 18px 18px 20px;
+            box-shadow: inset 0 -8px 10px #b4823a, inset 0 8px 12px #ffd58a;
+            border: 4px solid #ba8748;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto;
+        }
+        h1 {
+            margin: 0 0 10px;
+            color: #5d3a1a;
+            text-shadow: 4px 4px 0 #ebc47f;
+            font-weight: 900;
+            font-size: 3.5rem;
+            text-align: center;
+            letter-spacing: 6px;
+        }
+        h2, h3 {
+            margin: 5px 0 15px;
+            color: #4d2f12;
+            text-shadow: 3px 3px 0 #dba851;
+            font-weight: 900;
+            text-align: center;
+            font-size: 2.1rem;
+        }
+        .draw-area {
+            background: #cc9f5f;
+            border-radius: 40px;
+            padding: 20px;
+            border: 4px solid #b17d48;
+            backdrop-filter: blur(3px);
+        }
+        .player-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .player-chip {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #ffdb8e;
+            border: 4px solid #b9571f;
+            font-weight: 800;
+            font-size: 1.5rem;
+            color: #2b421f;
+            cursor: pointer;
+            box-shadow: 0 6px 0 #965e2a, 0 7px 10px black;
+            transition: 0.07s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .player-chip.selected {
+            background: #d32f2f;
+            color: white;
+            border-color: #ffb300;
+            box-shadow: 0 3px 0 #6d1b1b, 0 6px 12px black;
+            transform: translateY(5px);
+        }
+        .player-chip:active {
+            transform: translateY(6px);
+            box-shadow: 0 1px 0 #965e2a, 0 6px 10px black;
+        }
+        .btn {
+            background: #f3a446;
+            border: none;
+            border-radius: 50px;
+            padding: 12px 22px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-bottom: 6px solid #b45f1a;
+            color: #1e2b1e;
+            cursor: pointer;
+            transition: 0.08s;
+            margin: 5px;
+            box-shadow: 0 6px 12px black;
+        }
+        .btn:active {
+            transform: translateY(4px);
+            border-bottom-width: 2px;
+        }
+        .btn:disabled {
+            opacity: 0.4;
+            transform: none;
+            pointer-events: none;
+        }
+        .draw-list {
+            background: #b3803b;
+            border-radius: 60px;
+            padding: 16px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2d1f0a;
+            text-align: center;
+            border: 3px solid #dba13a;
+            margin: 20px 0 10px;
+            min-height: 70px;
+            word-break: break-word;
+        }
+        .scoreboard {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #c1984d;
+            border-radius: 100px;
+            padding: 8px 25px;
+            border: 5px solid #fad675;
+            color: #2d1d0a;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+        .duel-team {
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .team-badge {
+            background: #a56529;
+            padding: 8px 20px;
+            border-radius: 40px;
+            border: 3px solid #ffcd7e;
+            color: #fff0b5;
+            text-shadow: 2px 2px 0 #593e1a;
+            font-size: 1.6rem;
+            min-width: 120px;
+            text-align: center;
+        }
+        .score-number {
+            background: #2d2d2d;
+            padding: 8px 30px;
+            border-radius: 40px;
+            font-size: 3rem;
+            color: #fff3b7;
+            border: 3px solid #dba851;
+            min-width: 100px;
+            text-align: center;
+        }
+        .tur-status {
+            background: #c2a156;
+            border-radius: 40px;
+            padding: 8px 20px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #152f15;
+            display: inline-block;
+            margin: 5px auto 20px;
+            border: 3px solid #ffe49e;
+            box-shadow: inset 0 -3px 0 #684f23;
+        }
+        .match-counter {
+            background: #c97e3a;
+            border-radius: 30px;
+            padding: 6px 18px;
+            font-size: 1.5rem;
+            color: #2d1f0a;
+            display: inline-block;
+            margin-left: 15px;
+            font-weight: bold;
+        }
+        .question-panel {
+            border-radius: 60px;
+            padding: 25px 20px;
+            border: 6px solid #dcb05c;
+            margin: 15px 0 25px;
+            box-shadow: inset 0 0 0 4px #b88537;
+            transition: background-color 0.3s;
+        }
+        .panel-red {
+            background: #b71c1c;
+            animation: pulse-red 1.5s infinite;
+        }
+        @keyframes pulse-red {
+            0% { background-color: #b71c1c; }
+            50% { background-color: #d32f2f; }
+            100% { background-color: #b71c1c; }
+        }
+        .panel-blue {
+            background: #0d47a1;
+            animation: pulse-blue 1.5s infinite;
+        }
+        @keyframes pulse-blue {
+            0% { background-color: #0d47a1; }
+            50% { background-color: #1565c0; }
+            100% { background-color: #0d47a1; }
+        }
+        .final-panels {
+            display: flex;
+            gap: 20px;
+            justify-content: space-between;
+            margin: 15px 0 25px;
+        }
+        .final-panel {
+            flex: 1;
+            border-radius: 60px;
+            padding: 20px;
+            border: 6px solid #dcb05c;
+            box-shadow: inset 0 0 0 4px #b88537;
+        }
+        .final-panel .en-big {
+            font-size: 2.8rem;
+            margin-bottom: 15px;
+        }
+        .final-panel .option-grid {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .final-panel .option-btn {
+            font-size: 1.5rem;
+            padding: 15px 5px;
+        }
+        .en-big {
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: #ffffff;
+            text-align: center;
+            margin: 0 0 20px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        .option-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        .option-btn {
+            background: #fff5e0;
+            border: none;
+            border-radius: 50px;
+            padding: 18px 8px;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #2d1f0a;
+            border-bottom: 8px solid #b45f1a;
+            cursor: pointer;
+            transition: 0.06s;
+            box-shadow: 0 8px 0 #7d4512, 0 7px 15px black;
+            text-align: center;
+        }
+        .option-btn:active {
+            transform: translateY(6px);
+            border-bottom-width: 2px;
+        }
+        .option-btn:disabled {
+            opacity: 0.7;
+            transform: none;
+            pointer-events: none;
+        }
+        .option-btn.correct-flash {
+            background: #2e7d32 !important;
+            border-bottom-color: #1b5e20 !important;
+            color: white !important;
+        }
+        .option-btn.wrong-flash {
+            background: #c62828 !important;
+            border-bottom-color: #8e0000 !important;
+            color: white !important;
+        }
+        .panel-red .option-btn {
+            border-bottom-color: #b71c1c;
+        }
+        .panel-blue .option-btn {
+            border-bottom-color: #0d47a1;
+        }
+        .panel-red .panel-header,
+        .panel-blue .panel-header {
+            color: white;
+        }
+        .message-area {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-align: center;
+            color: #fff3b7;
+            text-shadow: 4px 4px 0 #9e6425;
+            margin: 15px;
+        }
+        .round-summary {
+            background: #e9c27c;
+            border-radius: 60px;
+            padding: 30px;
+            border: 6px solid #dcb05c;
+            margin: 15px 0 25px;
+            text-align: center;
+            box-shadow: inset 0 0 0 4px #b88537;
+        }
+        .round-summary h2 {
+            font-size: 3rem;
+            color: #5d3a1a;
+            margin: 0 0 20px;
+        }
+        .winners-list {
+            font-size: 2rem;
+            color: #2d1f0a;
+            background: #fff5e0;
+            padding: 20px;
+            border-radius: 40px;
+            margin: 20px 0;
+            border: 3px solid #b45f1a;
+        }
+        .start-round-btn {
+            background: #f3a446;
+            font-size: 2.5rem;
+            padding: 20px 50px;
+            border-bottom: 8px solid #b45f1a;
+        }
+        .hidden {
+            display: none !important;
+        }
+        .flex-row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        .footer-note {
+            text-align: center;
+            color: #4d3516;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .fullscreen-btn {
+            background: #4e3822;
+            border: 3px solid #f3b33d;
+            color: #ffe38f;
+            font-size: 1.6rem;
+            padding: 8px 20px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        .next-question-btn {
+            background: #f3a446;
+            border-bottom: 6px solid #b45f1a;
+            font-size: 2rem;
+            padding: 20px 40px;
+            margin-top: 20px;
+            width: 100%;
+            color: #2d1f0a;
+        }
+        .change-question-btn {
+            background: #c97e3a;
+            border-bottom: 6px solid #8b5a2b;
+            font-size: 2rem;
+            padding: 20px 40px;
+            margin-top: 20px;
+            width: 100%;
+            color: #2d1f0a;
+        }
+        .final-question-btn {
+            background: #c93e3e;
+            border-bottom: 6px solid #8a1f1f;
+            color: #fff3b7;
+            font-size: 2.5rem;
+            padding: 20px 40px;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .question-counter {
+            font-size: 1.5rem;
+            background: #c97e3a;
+            padding: 5px 15px;
+            border-radius: 30px;
+            color: #2d1f0a;
+            font-weight: bold;
+        }
+        .panel-header {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .panel-red .en-big,
+        .panel-blue .en-big {
+            color: #ffffff;
+        }
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .button-group .btn {
+            flex: 1;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="stadium-bg"></div>
+    <div class="ad-board ad1"></div>
+    <div class="ad-board ad2"></div>
+    <div class="ad-board ad3"></div>
+    <div class="ad-board ad4"></div>
+
+    <div class="tournament-card" id="tournamentContainer">
+        <div class="field-panel">
+            <div class="top-bar">
+                <h1>ELTARENA CUP</h1>
+                <button class="fullscreen-btn" id="fullscreenBtn">⛶ Tam Ekran</button>
+            </div>
+
+            <!-- KURA KISMI -->
+            <div id="drawSection">
+                <h2>⚡ TURNUVAYA KATILACAKLAR (1-35) ⚡</h2>
+                <div class="player-grid" id="playerChips"></div>
+                <div class="flex-row">
+                    <button class="btn" id="removeSelectedBtn">❌ Seçilileri Çıkar</button>
+                    <button class="btn" id="resetDrawBtn">🔄 Tümünü Sıfırla</button>
+                    <button class="btn" id="createParticipantListBtn">📋 Katılımcı Listesi</button>
+                </div>
+                <div class="draw-list" id="participantDisplay">[ Liste boş ]</div>
+                <!-- Yeni: TURU BAŞLAT butonu (eski TURNUVA BAŞLASIN kaldırıldı) -->
+                <button class="btn" id="startRoundFromDrawBtn" style="font-size:2rem; padding:15px 45px;">🏁 TURU BAŞLAT</button>
+                <div class="footer-note">* Oyuncuya tıklayarak seç, çıkar. Katılımcı listesini oluştur.</div>
+            </div>
+
+            <!-- OYUN ALANI -->
+            <div id="gameSection" class="hidden">
+                <div class="scoreboard">
+                    <div class="duel-team"><span class="team-badge" id="player1Name">🔴 RED</span><span class="score-number" id="player1Score">0</span></div>
+                    <div style="font-size:3rem;">⚡</div>
+                    <div class="duel-team"><span class="score-number" id="player2Score">0</span><span class="team-badge" id="player2Name">🔵 BLUE</span></div>
+                </div>
+                <div class="flex-row" style="justify-content: center; align-items: center;">
+                    <div class="tur-status" id="tournamentInfo">🏆 1. TUR / MAÇ 1</div>
+                    <div class="match-counter" id="matchCountDisplay">Toplam 3 Maç</div>
+                    <div class="question-counter" id="questionCountDisplay">Soru: 0/10</div>
+                </div>
+                <div class="tur-status" id="turnIndicator">🎯 SIRA: RED #?</div>
+                
+                <!-- Normal soru paneli -->
+                <div id="normalQuestionPanel" class="question-panel panel-red">
+                    <div class="en-big" id="enWord">⚡ HAZIR MISIN?</div>
+                    <div class="option-grid" id="optionsContainer"></div>
+                </div>
+
+                <!-- Final soru panelleri -->
+                <div id="finalQuestionPanels" class="final-panels hidden">
+                    <div class="final-panel" id="finalPanel1">
+                        <div class="panel-header">🔴 RED #<span id="finalPlayer1Num"></span></div>
+                        <div class="en-big" id="finalEnWord1">FİNAL</div>
+                        <div class="option-grid" id="finalOptions1"></div>
+                    </div>
+                    <div class="final-panel" id="finalPanel2">
+                        <div class="panel-header">🔵 BLUE #<span id="finalPlayer2Num"></span></div>
+                        <div class="en-big" id="finalEnWord2">FİNAL</div>
+                        <div class="option-grid" id="finalOptions2"></div>
+                    </div>
+                </div>
+
+                <!-- Tur özet paneli -->
+                <div id="roundSummaryPanel" class="round-summary hidden">
+                    <h2 id="roundName">ÇEYREK FİNAL</h2>
+                    <div class="winners-list" id="winnersList">Kazananlar: #1, #2, #3, #4</div>
+                    <button class="btn start-round-btn" id="startRoundBtn">🏁 TURU BAŞLAT</button>
+                </div>
+
+                <!-- Buton grubu -->
+                <div class="button-group">
+                    <button class="btn next-question-btn" id="nextQuestionBtn">⏭️ GEÇ</button>
+                    <button class="btn change-question-btn" id="changeQuestionBtn">🔄 SORUYU DEĞİŞTİR</button>
+                </div>
+                <button class="btn final-question-btn hidden" id="finalQuestionBtn">🏆 FİNAL SORUSU</button>
+                
+                <div class="message-area" id="gameEndMessage"></div>
+                <button class="btn" id="nextMatchBtn" style="font-size:1.8rem;">⏩ SONRAKİ MAÇ</button>
+                <button class="btn" id="newTournamentBtn" style="font-size:1.6rem;">🔄 YENİ TURNUVA</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function() {
+            // Tam ekran
+            document.getElementById('fullscreenBtn').addEventListener('click', () => {
+                const elem = document.documentElement;
+                if (elem.requestFullscreen) elem.requestFullscreen();
+                else if (elem.webkitRequestFullscreen) elem.webkitRequestFullscreen();
+                else if (elem.msRequestFullscreen) elem.msRequestFullscreen();
+            });
+
+            // Soru havuzu
+            const masterQuestionPool = [
+{ en: "argue", tr: "tartışmak" },
+{ en: "count on", tr: "güvenmek" },
+{ en: "trust", tr: "güvenmek" },
+{ en: "back sb up", tr: "güvenmek" },
+{ en: "best friend", tr: "en iyi arkadaş" },
+{ en: "buddy/friend/mate", tr: "arkadaş" },
+{ en: "get on well with sb", tr: "biriyle iyi geçinmek" },
+{ en: "spend time", tr: "vakit geçirmek" },
+{ en: "tell the truth", tr: "doğruyu söylemek" },
+{ en: "tell lies", tr: "yalanlar söylemek" },
+{ en: "have similar interests", tr: "benzer ilgi alanlarına sahip olmak" },
+{ en: "share", tr: "paylaşmak" },
+{ en: "secret", tr: "sır" },
+{ en: "generous", tr: "cömert" },
+{ en: "self-diciplined", tr: "öz disiplinli" },
+{ en: "selfish", tr: "bencil" },
+{ en: "adventurous", tr: "maceracı" },
+{ en: "amusing", tr: "eğlenceli" },
+{ en: "helpful", tr: "yardımsever" },
+{ en: "kind/polite", tr: "kibar" },
+{ en: "supportive", tr: "destekleyici" },
+{ en: "reliable", tr: "güvenilir" },
+{ en: "unreliable", tr: "güvenilmez" },
+{ en: "truthful", tr: "doğru sözlü" },
+{ en: "laid-back", tr: "gamsız" },
+{ en: "honest", tr: "dürüst" },
+{ en: "stubborn", tr: "inatçı" },
+{ en: "break a promise", tr: "sözünü tutmamak" },
+{ en: "attend", tr: "katılmak" },
+{ en: "join", tr: "katılmak" },
+{ en: "book fair", tr: "kitap fuarı" },
+{ en: "exhibition", tr: "sergi" },
+{ en: "cycling", tr: "bisiklet sürmek" },
+{ en: "ride a bike", tr: "bisiklete binmek" },
+{ en: "event", tr: "etkinlik" },
+{ en: "movie theatre", tr: "sinema salonu" },
+{ en: "barbecue", tr: "mangal" },
+{ en: "meet", tr: "buluşmak" },
+{ en: "reunion", tr: "yeniden bir araya gelme" },
+{ en: "science fair", tr: "bilim fuarı" },
+{ en: "slumber party", tr: "pijama partisi" },
+{ en: "visit", tr: "ziyaret etmek" },
+{ en: "science fiction / sci-fi", tr: "bilim kurgu" },
+{ en: "always", tr: "her zaman" },
+{ en: "be interested in", tr: "ilgili olmak" },
+{ en: "beverage", tr: "içecek" },
+{ en: "bring", tr: "getirmek" },
+{ en: "busy", tr: "meşgul/yoğun" },
+{ en: "never", tr: "asla" },
+{ en: "come over", tr: "uğramak" },
+{ en: "dessert", tr: "tatlı" },
+{ en: "exam", tr: "sınav" },
+{ en: "full", tr: "dolu/tok" },
+{ en: "stuffed", tr: "tok/tıka basa dolu" },
+{ en: "hungry", tr: "aç" },
+{ en: "however", tr: "ama/fakat" },
+{ en: "main course", tr: "ana yemek" },
+{ en: "miss a chance", tr: "şansı kaçırmak" },
+{ en: "can't accept", tr: "kabul edememek" },
+{ en: "can't refuse", tr: "reddedememek" },
+{ en: "band", tr: "müzik grubu" },
+{ en: "opportunity", tr: "fırsat" },
+{ en: "order", tr: "sipariş vermek" },
+{ en: "pick sb up", tr: "birisini araçla almak" },
+{ en: "play", tr: "tiyatro oyunu/piyes" },
+{ en: "same", tr: "aynı" },
+{ en: "similar", tr: "benzer" },
+{ en: "study", tr: "ders çalışmak" },
+{ en: "teenager", tr: "genç" },
+{ en: "text", tr: "mesaj yazmak" },
+{ en: "ticket", tr: "bilet" },
+{ en: "together", tr: "birlikte" },
+{ en: "until", tr: "-e kadar" },
+{ en: "movie", tr: "film" },
+{ en: "apologize", tr: "özür dilemek" },
+{ en: "date", tr: "tarih" },
+{ en: "deadline", tr: "son tarih" },
+{ en: "fee", tr: "ücret" },
+{ en: "give a reason", tr: "sebep bildirmek" },
+{ en: "make an excuse", tr: "bahane sunmak" },
+{ en: "invite", tr: "davet etmek" },
+{ en: "invitation", tr: "davet" },
+{ en: "invitee", tr: "davet edilen" },
+{ en: "inviter", tr: "davet eden" },
+{ en: "location", tr: "konum/yer" },
+{ en: "offer", tr: "teklif/öneri" },
+{ en: "place", tr: "yer" },
+{ en: "time", tr: "saat" },
+{ en: "price", tr: "ücret" },
+{ en: "refuse", tr: "reddetmek" },
+{ en: "keep secrets", tr: "sırları tutmak" },
+{ en: "sender", tr: "gönderen" },
+{ en: "receiver", tr: "alıcı" },
+{ en: "take place", tr: "yer almak" },
+{ en: "tomorrow", tr: "yarın" },
+{ en: "nothing", tr: "hiçbir şey" },
+{ en: "not at all", tr: "pek yok" },
+{ en: "awesome", tr: "harika" },
+{ en: "more information", tr: "daha fazla bilgi" },
+{ en: "more details", tr: "daha fazla detay" },
+{ en: "parents", tr: "ebeveyn" },
+{ en: "relatives", tr: "akrabalar" },
+{ en: "grandfather", tr: "büyükbaba/dede" },
+{ en: "grandmother", tr: "büyükanne/nine" },
+{ en: "homework", tr: "ödev" },
+{ en: "see a play", tr: "bir tiyatro oyunu izlemek" },
+{ en: "go to a book fair", tr: "kitap fuarına gitmek" },
+{ en: "paintings", tr: "tablolar" },
+{ en: "sculptures", tr: "heykeller" },
+{ en: "weekend", tr: "hafta sonu" },
+{ en: "ALWAYS", tr: "HER ZAMAN" },
+{ en: "NEVER", tr: "ASLA" },
+{ en: "OFTEN", tr: "SIK SIK" },
+{ en: "USUALLY", tr: "GENELLİKLE" },
+{ en: "RARELY", tr: "NADİREN" },
+{ en: "SOMETIMES", tr: "BAZEN" },
+{ en: "AFTER", tr: "-DEN SONRA" },
+{ en: "BEFORE", tr: "-MEDEN ÖNCE" },
+{ en: "EVERY DAY", tr: "HER GÜN" },
+{ en: "EVENING", tr: "AKŞAM" },
+{ en: "MORNING", tr: "SABAH" },
+{ en: "WEEKEND", tr: "HAFTASONU" },
+{ en: "WEEKDAY", tr: "HAFTAİÇİ" },
+{ en: "UNTIL", tr: "-E KADAR" },
+{ en: "AFTERNOON", tr: "ÖĞLEDEN SONRA" },
+{ en: "DRAWING PICTURES", tr: "RESİM ÇİZMEK" },
+{ en: "FASHION", tr: "MODA" },
+{ en: "CHESS", tr: "SATRANÇ" },
+{ en: "SONG", tr: "ŞARKI" },
+{ en: "SOCCER", tr: "FUTBOL" },
+{ en: "SHOPPING", tr: "ALIŞVERİŞ" },
+{ en: "TREKKING", tr: "DOĞA YÜRÜYÜŞÜ" },
+{ en: "HIKING", tr: "DOĞA YÜRÜYÜŞÜ" },
+{ en: "BORING", tr: "SIKICI" },
+{ en: "DIFFICULT", tr: "ZOR" },
+{ en: "EXCITING", tr: "HEYECAN VERİCİ" },
+{ en: "EXPENSIVE", tr: "PAHALI" },
+{ en: "FASCINATING", tr: "BÜYÜLEYİCİ" },
+{ en: "FUN", tr: "EĞLENCELİ" },
+{ en: "HEALTHY", tr: "SAĞLIKLI" },
+{ en: "INTERESTING", tr: "İLGİNÇ" },
+{ en: "LAZY", tr: "TEMBEL" },
+{ en: "ORDINARY", tr: "SIRADAN" },
+{ en: "USUAL", tr: "SIRADAN" },
+{ en: "TYPICAL", tr: "SIRADAN" },
+{ en: "RELAXING", tr: "RAHATLATICI" },
+{ en: "RIDICULOUS", tr: "SAÇMA" },
+{ en: "TERRIFIC", tr: "MÜTHİŞ" },
+{ en: "TERRIBLE", tr: "BERBAT" },
+{ en: "TRENDY", tr: "MODA" },
+{ en: "UNBEARABLE", tr: "KATLANILMAZ" },
+{ en: "HATE", tr: "-DEN NEFRET ETMEK" },
+{ en: "PREFER", tr: "TERCİH ETMEK" },
+{ en: "DISLIKE", tr: "SEVMEMEK" },
+{ en: "SCIENCE FICTION", tr: "BİLİM KURGU" },
+{ en: "TRAVEL", tr: "SEYAHAT" },
+{ en: "ALONE", tr: "YALNIZ" },
+{ en: "JUST", tr: "SADECE" },
+{ en: "ONLY", tr: "SADECE" },
+{ en: "ALSO", tr: "AYRICA" },
+{ en: "ARCHERY", tr: "OKÇULUK" },
+{ en: "BAND", tr: "MÜZİK GRUBU" },
+{ en: "GYM", tr: "SPOR SALONU" },
+{ en: "NATURE", tr: "DOĞA" },
+{ en: "INDOOR", tr: "KAPALI MEKAN" },
+{ en: "OUTDOOR", tr: "AÇIK MEKAN" },
+{ en: "TENT", tr: "ÇADIR" },
+{ en: "WALK IN THE FOREST", tr: "ORMANDA YÜRÜMEK" },
+{ en: "RELATIVES", tr: "AKRABALAR" },
+{ en: "PARENTS", tr: "EBEVEYN" },
+{ en: "WHAT", tr: "NE" },
+{ en: "WHEN", tr: "NE ZAMAN" },
+{ en: "WHAT TIME", tr: "SAAT KAÇTA" },
+{ en: "WHERE", tr: "NEREDE" },
+{ en: "WHO", tr: "KİM" },
+{ en: "WHICH", tr: "HANGİ" },
+{ en: "HOW", tr: "NASIL" },
+{ en: "MOVIE", tr: "FİLM" },
+{ en: "MOVIE THEATRE", tr: "SİNEMA" },
+{ en: "SEE A PLAY", tr: "TİYATRO OYUNU SEYRETMEK" },
+{ en: "VISIT", tr: "ZİYARET ETMEK" },
+{ en: "PAINTINGS", tr: "TABLOLAR" },
+{ en: "SCULPTURES", tr: "HEYKELLER" },
+{ en: "CONCERT", tr: "KONSER" },
+{ en: "KITCHEN TOOLS", tr: "MUTFAK ARAÇLARI" },
+{ en: "INGREDIENTS", tr: "MALZEMELER" },
+{ en: "WAYS OF COOKING", tr: "PİŞİRME YOLLARI" },
+{ en: "COOKING METHODS", tr: "PİŞİRME YÖNTEMLERİ" },
+{ en: "BUTTER", tr: "TEREYAĞI" },
+{ en: "FLOUR", tr: "UN" },
+{ en: "CHICKEN", tr: "TAVUK" },
+{ en: "SPICE", tr: "BAHARAT" },
+{ en: "STEAK", tr: "BİFTEK" },
+{ en: "VEGETABLE", tr: "SEBZE" },
+{ en: "FRUIT", tr: "MEYVE" },
+{ en: "PREPARING FOOD", tr: "YEMEK HAZIRLAMA" },
+{ en: "ADD", tr: "EKLEMEK" },
+{ en: "CHOP", tr: "DOĞRAMAK" },
+{ en: "CRACK", tr: "KIRMAK" },
+{ en: "DICE", tr: "KÜP KÜP DOĞRAMAK" },
+{ en: "DRAIN", tr: "SÜZMEK" },
+{ en: "HEAT", tr: "ISITMAK" },
+{ en: "KNEAD", tr: "YOĞURMAK" },
+{ en: "MASH", tr: "EZMEK" },
+{ en: "MIX", tr: "KARIŞTIRMAK" },
+{ en: "PEEL", tr: "SOYMAK" },
+{ en: "POUR", tr: "DÖKMEK" },
+{ en: "STIR", tr: "KARIŞTIRMAK" },
+{ en: "WHISK", tr: "ÇIRPMAK" },
+{ en: "BOWL", tr: "KASE" },
+{ en: "KNIFE", tr: "BIÇAK" },
+{ en: "PAN", tr: "TAVA" },
+{ en: "OVEN", tr: "FIRIN" },
+{ en: "POT", tr: "TENCERE" },
+{ en: "ROLLING PIN", tr: "MERDANE" },
+{ en: "BAKE", tr: "FIRINDA PİŞİRMEK" },
+{ en: "BOIL", tr: "KAYNATMAK" },
+{ en: "FRY", tr: "KIZARTMAK" },
+{ en: "GRILL", tr: "IZGARA YAPMAK" },
+{ en: "STEAM", tr: "BUHARDA PİŞİRMEK" },
+{ en: "RECIPE", tr: "TARİF" },
+{ en: "PROCESS OF COOKING", tr: "PİŞİRME SÜRECİ" },
+{ en: "STEP", tr: "ADIM" },
+{ en: "LAST STEP", tr: "SON ADIM" },
+{ en: "DESSERT", tr: "TATLI" },
+{ en: "MEAL", tr: "ÖĞÜN / YEMEK" },
+{ en: "SOUP", tr: "ÇORBA" },
+{ en: "DELICIOUS", tr: "LEZZETLİ" },
+{ en: "ENJOY YOUR MEAL", tr: "AFİYET OLSUN" },
+{ en: "HEALTHY", tr: "SAĞLIKLI" },
+{ en: "UNHEALTHY", tr: "SAĞLIKSIZ" },
+{ en: "PREFER", tr: "TERCİH ETMEK" },
+{ en: "AVAILABLE", tr: "UYGUN / MÜSAİT" },
+{ en: "HANG ON", tr: "BEKLE (HATTA KAL)" },
+{ en: "LEAVE A MESSAGE", tr: "MESAJ BIRAKMAK" },
+{ en: "FACE TO FACE", tr: "YÜZ YÜZE" },
+{ en: "TEXT", tr: "MESAJ ATMAK" },
+{ en: "APPOINTMENT", tr: "RANDEVU" },
+{ en: "HANG UP", tr: "TELEFONU KAPATMAK" },
+{ en: "ENGAGED", tr: "MEŞGUL" },
+{ en: "BAD LINE", tr: "HAT KÖTÜ" },
+{ en: "COMMUNICATE", tr: "İLETİŞİM KURMAK" },
+{ en: "KEEP IN TOUCH", tr: "İRTİBATTA KALMAK" },
+{ en: "CONTACT", tr: "İLETİŞİME GEÇMEK" },
+{ en: "TELL", tr: "SÖYLEMEK" },
+{ en: "REPEAT", tr: "TEKRAR ETMEK" },
+{ en: "AGAIN", tr: "TEKRAR" },
+{ en: "SAY", tr: "SÖYLEMEK" },
+{ en: "LYRICS OF A SONG", tr: "ŞARKI SÖZLERİ" },
+{ en: "USEFUL", tr: "FAYDALI" },
+{ en: "HARMFUL", tr: "ZARARLI" },
+{ en: "SMARTPHONE", tr: "AKILLI TELEFON" },
+{ en: "SECURITY", tr: "GÜVENLİK" },
+{ en: "ADDICTION", tr: "BAĞIMLILIK" },
+{ en: "LETTER", tr: "MEKTUP" },
+{ en: "CALL", tr: "ARAMAK" },
+{ en: "TALK", tr: "KONUŞMAK" },
+{ en: "SPEAK", tr: "KONUŞMAK" },
+{ en: "WAIT", tr: "BEKLEMEK" },
+{ en: "HEAR", tr: "DUYMAK" },
+{ en: "PICK UP THE PHONE", tr: "TELEFONU AÇMAK" },
+{ en: "DIAL", tr: "NUMARA ÇEVİRMEK" },
+{ en: "SEND", tr: "GÖNDERMEK" },
+{ en: "ASK", tr: "SORMAK" },
+{ en: "BUSY", tr: "MEŞGUL" },
+{ en: "CALL BACK", tr: "GERİ ARAMAK" },
+{ en: "PUT SB THROUGH", tr: "BİRİNE BAĞLAMAK" },
+{ en: "CALLER", tr: "ARAYAN KİŞİ" },
+{ en: "CHANGE", tr: "DEĞİŞTİRMEK" },
+{ en: "CHEAP", tr: "UCUZ" },
+{ en: "DEVICE", tr: "CİHAZ" },
+{ en: "EASY WAY", tr: "KOLAY YOL" },
+{ en: "CONVERSATION", tr: "KONUŞMA" },
+{ en: "EXPENSIVE", tr: "PAHALI" },
+{ en: "GET WELL SOON", tr: "GEÇMİŞ OLSUN" },
+{ en: "IMPORTANT", tr: "ÖNEMLİ" },
+{ en: "INFORMATION", tr: "BİLGİ" },
+{ en: "MEMO", tr: "NOT" },
+{ en: "TICKET", tr: "BİLET" },
+{ en: "RECEIVER", tr: "ALICI" },
+{ en: "SORRY TO HEAR THAT", tr: "BUNU DUYDUĞUMA ÜZÜLDÜM" },
+{ en: "TAKE CARE", tr: "KENDİNE İYİ BAK" },
+{ en: "TAKE MESSAGE", tr: "MESAJ ALMAK" },
+{ en: "WANT", tr: "İSTEMEK" },
+{ en: "SECURITY RISKS", tr: "GÜVENLİK RİSKLERİ" },
+{ en: "PURPOSE", tr: "AMAÇ" },
+{ en: "DIFFERENT", tr: "FARKLI" },
+{ en: "STARTING A CONVERSATION", tr: "KONUŞMA BAŞLATMA" },
+{ en: "INTRODUCING YOURSELF ON THE PHONE", tr: "TELEFONDA KENDİNİ TANITMA" },
+{ en: "ASKING TO SPEAK TO SOMEONE", tr: "BİRİYLE KONUŞMAYI İSTEME" },
+{ en: "CONNECTING SOMEONE", tr: "BİRİNE BAĞLAMA" },
+{ en: "EXPLAINING ABSENCE", tr: "YOKLUĞU AÇIKLAMA" },
+{ en: "ASKING FOR CLARIFICATION", tr: "AÇIKLAMA İSTEME" },
+{ en: "ASKING WHO IS CALLING", tr: "KİMİN ARADIĞINI SORMA" },
+{ en: "TELLING THAT SB IS ENGAGED", tr: "MEŞGUL OLDUĞUNU SÖYLEME" },
+{ en: "FINISHING A CONVERSATION", tr: "KONUŞMAYI BİTİRME" },
+{ en: "FOR FUN", tr: "EĞLENCE İÇİN" },
+{ en: "FOR EDUCATION", tr: "EĞİTİM İÇİN" },
+{ en: "FOR BANKING", tr: "BANKACILIK İÇİN" },
+{ en: "FOR ORDERING STH TO EAT", tr: "YEMEK SİPARİŞİ İÇİN" },
+{ en: "ATTACHMENT", tr: "EK DOYSA" },
+{ en: "CHECK", tr: "KONTROL ETMEK" },
+{ en: "CONNECTION", tr: "BAĞLANTI" },
+{ en: "ACCOUNT", tr: "HESAP" },
+{ en: "COMMENT", tr: "YORUM" },
+{ en: "CONNECT", tr: "BAĞLANMAK" },
+{ en: "DOWNLOAD", tr: "İNDİRMEK" },
+{ en: "FILE", tr: "DOSYA" },
+{ en: "FOLLOWER", tr: "TAKİPÇİ" },
+{ en: "INTERNET ADDICT", tr: "INTERNET BAGIMLISI" },
+{ en: "LOG IN/ON", tr: "GİRİŞ YAPMAK" },
+{ en: "LOG OUT/OFF", tr: "ÇIKIŞ YAPMAK" },
+{ en: "OFFLINE", tr: "ÇEVRİM DIŞI" },
+{ en: "ONLINE", tr: "ÇEVRİM İÇİ" },
+{ en: "PASSWORD", tr: "ŞİFRE" },
+{ en: "UPLOAD", tr: "YÜKLEMEK" },
+{ en: "USER", tr: "KULLANICI" },
+{ en: "ONLINE BANKING", tr: "INTERNET BANKACILIGI" },
+{ en: "DO RESEARCH", tr: "ARAŞTIRMA YAPMAK" },
+{ en: "SMARTPHONE", tr: "AKILLI TELEFON" },
+{ en: "ADULT", tr: "YETİŞKİN" },
+{ en: "BROKEN", tr: "ARIZALI" },
+{ en: "COMPLAIN", tr: "ŞİKAYET" },
+{ en: "EXCEPT", tr: "HARİÇ" },
+{ en: "FOREIGN", tr: "YABANCI" },
+{ en: "HOWEVER", tr: "FAKAT" },
+{ en: "IMPROVE", tr: "GELİŞTİRMEK" },
+{ en: "LESS", tr: "DAHA AZ" },
+{ en: "LETTER", tr: "HARF" },
+{ en: "NUMBER", tr: "RAKAM" },
+{ en: "USEFUL", tr: "YARARLI" },
+{ en: "FUN", tr: "EĞLENCE" },
+{ en: "EDUCATION", tr: "EĞİTİM" },
+{ en: "SHOPPING", tr: "ALIŞVERİŞ" },
+{ en: "COMMUNICATION", tr: "İLETİŞİM" },
+{ en: "FLIGHT TICKET", tr: "UÇUŞ BİLETİ" },
+{ en: "STRONG PASSWORD", tr: "GÜÇLÜ ŞİFRE" },
+{ en: "PERSONAL INFORMATION", tr: "KİŞİSEL BİLGİ" },
+{ en: "STRANGER", tr: "YABANCI" },
+{ en: "AVOID", tr: "KAÇINMAK" },
+{ en: "UNSAFETY", tr: "GÜVENLİ OLMAYAN" },
+{ en: "DANGEROUS", tr: "TEHLİKELİ" },
+{ en: "ALONE", tr: "YALNIZ" },
+{ en: "FROM", tr: "-DEN" },
+{ en: "BOARDING TIME", tr: "BİNİŞ SAATİ" },
+{ en: "ARRIVAL", tr: "VARIŞ" },
+{ en: "DEPARTURE", tr: "KALKIŞ" },
+{ en: "ALL", tr: "HEPSİ" },
+{ en: "MORE", tr: "DAHA FAZLA" },
+{ en: "AS POPULAR AS", tr: "NIN KADAR POPÜLER" },
+{ en: "SAFETY RULES", tr: "GÜVENLİK KURALLARI" },
+{ en: "PURPOSE", tr: "AMAÇ" },
+{ en: "NEGATIVE", tr: "OLUMSUZ" },
+{ en: "ADDICTION", tr: "BAĞIMLI" },
+{ en: "PAY", tr: "ÖDEMEK" },
+{ en: "LANGUAGE", tr: "DİL" },
+{ en: "TRAVEL", tr: "SEYAHAT" },
+{ en: "ARTICLE", tr: "MAKALE" },
+{ en: "MAGAZINE", tr: "DERGİ" },
+{ en: "RECIPE", tr: "TARİF" },
+{ en: "FOREIGN LANGUAGE", tr: "YABANCI DİL" },
+{ en: "NEWSPAPER", tr: "GAZETE" },
+{ en: "ICE CLIMBING", tr: "BUZ TIRMANISI" },
+{ en: "ROCK CLIMBING", tr: "KAYA TIRMANISI" },
+{ en: "MOUNTAIN CLIMBING", tr: "DAĞ TIRMANISI" },
+{ en: "CAVING", tr: "MAĞARACILIK" },
+{ en: "BUNGEE JUMPING", tr: "ESNEK HALATLA ATLAMA" },
+{ en: "CANOEING", tr: "KANO SPORU" },
+{ en: "HANG-GLIDING", tr: "YELKEN KANATLA UÇMA" },
+{ en: "HIGHLINING", tr: "İP ÜZERİNDE YÜRÜME" },
+{ en: "KAYAKING", tr: "SU KAYAĞI" },
+{ en: "PARAGLIDING", tr: "YAMAÇ PARAŞÜTÜ" },
+{ en: "MOUNTAIN BIKING", tr: "DAĞ BİSİKLETİ" },
+{ en: "RAFTING", tr: "NEHİRDE BOTLA SU SPORU" },
+{ en: "SCUBA DIVING", tr: "TÜPLÜ DALIŞ" },
+{ en: "SKIING", tr: "KARDA KAYAK" },
+{ en: "SKYDIVING", tr: "GÖKYÜZÜ DALIŞI" },
+{ en: "TREKKING/HIKING", tr: "DOĞA YÜRÜYÜŞÜ" },
+{ en: "TORCH/FLASHLIGHT", tr: "EL FENERİ" },
+{ en: "FLIGHT SUIT", tr: "UÇUŞ KIYAFETİ" },
+{ en: "GOGGLES", tr: "KORUYUCU GÖZLÜK" },
+{ en: "HELMET", tr: "KASK" },
+{ en: "LIFE JACKET", tr: "CAN YELEĞİ" },
+{ en: "PADDLE", tr: "SANDAL KÜREĞİ" },
+{ en: "ROPE", tr: "HALAT / İP" },
+{ en: "STICK", tr: "SOPA" },
+{ en: "WING", tr: "KANAT" },
+{ en: "WET SUIT", tr: "DALIŞ KIYAFETİ" },
+{ en: "KNEE PAD", tr: "DİZLİK" },
+{ en: "ELBOW PAD", tr: "DİRSEKLİK" },
+{ en: "WRIST GUARD", tr: "BİLEKLİK" },
+{ en: "AIR SPORTS", tr: "HAVA SPORLARI" },
+{ en: "INDIVIDUAL SPORTS", tr: "BİREYSEL SPORLAR" },
+{ en: "INDOOR SPORTS", tr: "KAPALI ALAN SPORLARI" },
+{ en: "OUTDOOR SPORTS", tr: "AÇIK ALAN SPORLARI" },
+{ en: "TEAM SPORTS", tr: "TAKIM SPORLARI" },
+{ en: "LAND SPORTS", tr: "KARA SPORLARI" },
+{ en: "CHALLENGING", tr: "ZORLAYICI" },
+{ en: "EASY", tr: "KOLAY" },
+{ en: "ENTERTAINING", tr: "EĞLENCELİ" },
+{ en: "DISAPPOINTING", tr: "HAYAL KIRIKLIĞI" },
+{ en: "EXCITING", tr: "HEYECAN VERİCİ" },
+{ en: "MYSTERIOUS", tr: "GİZEMLİ" },
+{ en: "RISKY", tr: "RİSKLİ" },
+{ en: "SAFE", tr: "GÜVENLİ" },
+{ en: "DANGEROUS", tr: "TEHLİKELİ" },
+{ en: "STRESSFUL", tr: "STRESLİ" },
+{ en: "MOUNTAIN", tr: "DAĞ" },
+{ en: "RIVER", tr: "NEHİR" },
+{ en: "SEA", tr: "DENİZ" },
+{ en: "CAVE", tr: "MAĞARA" },
+{ en: "AGE RANGE", tr: "YAŞ ARALIĞI" },
+{ en: "EXTREME SPORTS", tr: "MACERA SPORLARI" },
+{ en: "EXPLORE", tr: "KEŞFETMEK" },
+{ en: "TRY", tr: "DENEMEK" },
+{ en: "PROTECT", tr: "KORUMAK" },
+{ en: "SCENERY/ VIEW", tr: "MANZARA" },
+{ en: "UNDERWATER SEA LIFE", tr: "SU ALTI DENİZ YAŞAMI" },
+{ en: "BEING IN NATURE", tr: "DOĞADA OLMAK" },
+{ en: "WINTER SPORTS", tr: "KIŞ SPORLARI" },
+{ en: "SUMMER SPORTS", tr: "YAZ SPORLARI" },
+{ en: "WATCHING VIEW/SCENERY OVER THE LAND", tr: "YERDEN YUKARIDA MANZARAYI İZLEMEK" },
+{ en: "AFRAID OF HEIGHTS", tr: "YÜKSEKLİK KORKUSU" },
+{ en: "WALKING IN THE NATURE", tr: "DOĞADA YÜRÜMEK" },
+{ en: "HOT AIR BALLOON", tr: "SICAK HAVA BALONU" },
+{ en: "FASCINATING", tr: "BÜYÜLEYİCİ" },
+{ en: "FRIGHTENING", tr: "KORKUTUCU" },
+{ en: "AMUSING", tr: "EĞLENCELİ" },
+{ en: "DARK PLACES", tr: "KARANLIK YERLER" },
+{ en: "ELASTIC ROPE", tr: "ESNEK İP" },
+{ en: "PREFER", tr: "TERCİH ETMEK" },     
+  { en: "HISTORIC SITE", tr: "TARİHİ YER" },
+  { en: "LAKE", tr: "GÖL" },
+  { en: "BAZAAR", tr: "ÇARŞI, PAZAR" },
+  { en: "BRIDGE", tr: "KÖPRÜ" },
+  { en: "CASTLE", tr: "KALE" },
+  { en: "CAVE", tr: "MAĞARA" },
+  { en: "MONUMENT", tr: "ANIT, ABİDE" },
+  { en: "MOSQUE", tr: "CAMİ" },
+  { en: "MUSEUM", tr: "MÜZE" },
+  { en: "PALACE", tr: "SARAY" },
+  { en: "RURAL PLACE", tr: "KIRSAL ALAN" },
+  { en: "CONTRYSIDE", tr: "KIRSAL BÖLGE" },
+  { en: "SQUARE", tr: "MEYDAN" },
+  { en: "TEMPLE", tr: "TAPINAK" },
+  { en: "TOWER", tr: "KULE" },
+  { en: "URBAN PLACE", tr: "KENTSEL ALAN" },
+  { en: "ANCIENT", tr: "ANTİK" },
+  { en: "DIFFERENT", tr: "FARKLI" },
+  { en: "DELICIOUS", tr: "LEZZETLİ" },
+  { en: "EXPENSIVE", tr: "PAHALI" },
+  { en: "CHEAP", tr: "UCUZ" },
+  { en: "BEACH HOLIDAY", tr: "KUMSAL TATİLİ" },
+  { en: "SEASIDE HOLIDAY", tr: "SAHİL TATİLİ" },
+  { en: "CRUISE HOLIDAY", tr: "GEMİ TATİLİ" },
+  { en: "SAFARI", tr: "VAHŞİ YAŞAM TATİLİ" },
+  { en: "SIGHTSEEING HOLIDAY", tr: "ŞEHİR TURU TATİLİ" },
+  { en: "WINTER HOLIDAY", tr: "KIŞ TATİLİ" },
+  { en: "ALL-INCLUSIVE HOTEL", tr: "HER ŞEY DAHİL OTEL" },
+  { en: "BED AND BREAKFAST", tr: "ODA-KAHVALTI OTEL" },
+  { en: "BUY A SOUVENIR", tr: "HEDİYELİK EŞYA ALMAK" },
+  { en: "TRADITIONAL DISHES", tr: "GELENEKSEL YİYECEKLER" },
+  { en: "SIGHTSEEING", tr: "ŞEHİR TURU" },
+  { en: "BUS", tr: "OTOBÜS" },
+  { en: "PLANE", tr: "UÇAK" },
+  { en: "SHIP", tr: "GEMİ" },
+  { en: "BIKE", tr: "BİSİKLET" },
+  { en: "CAR", tr: "ARABA" },
+  { en: "NORTH", tr: "KUZEY" },
+  { en: "SOUTH", tr: "GÜNEY" },
+  { en: "EAST", tr: "DOĞU" },
+  { en: "WEST", tr: "BATI" },
+  { en: "COLD", tr: "SOĞUK" },
+  { en: "HOT", tr: "SICAK" },
+  { en: "RAINY", tr: "YAĞMURLU" },
+  { en: "SUNNY", tr: "GÜNEŞLİ" },
+  { en: "TASTE", tr: "TATMAK" },
+  { en: "TRASNSPORTATION", tr: "ULAŞIM" },
+  { en: "ACCOMMODATION", tr: "KONAKLAMA" },
+  { en: "LOCATION", tr: "KONUM" },
+  { en: "CLIMATE", tr: "İKLİM" },
+  { en: "TOURIST ATTRACTIONS", tr: "TURİSTİK YERLER" },
+  { en: "TYPES OF HOLIDAYS", tr: "TATİL TÜRLERİ" },
+  { en: "CROWDED", tr: "KALABALIK" },
+  { en: "MORE", tr: "DAHA FAZLA" },
+  { en: "LESS", tr: "DAHA AZ" },
+  { en: "STAY", tr: "KONAKLAMAK" },
+  { en: "PAY", tr: "ÖDEMEK" },
+  { en: "VISIT", tr: "ZİYARET ETMEK" },
+  { en: "WEATHER", tr: "HAVA" },
+  { en: "WOULD RATHER", tr: "TERCİH ETMEK" },
+  { en: "HOW LONG", tr: "NE KADAR SÜRE" },
+  { en: "PRICE", tr: "ÜCRET" },
+  { en: "INCLUDE", tr: "İÇERMEK" },
+  { en: "BRING", tr: "GETİRMEK" },
+  { en: "PARENTS", tr: "EBEVEYN" },
+  { en: "SUMMER", tr: "YAZ" },
+  { en: "WINTER", tr: "KIŞ" },
+  { en: "TRAVEL", tr: "SEYAHAT ETMEK" },
+  { en: "TRIP", tr: "GEZİ" },
+  { en: "SKI RESORT", tr: "KAYAK MERKEZİ" },
+  { en: "CULTURAL", tr: "KÜLTÜREL" },
+  { en: "VACATION", tr: "TATİL" },
+  { en: "SAND", tr: "KUM" },
+  { en: "BUILDINGS", tr: "BİNALAR" },
+  { en: "HISTORICAL ARCHITECTURE", tr: "TARİHİ MİMARİ" },
+  { en: "FAMOUS", tr: "ÜNLÜ" },
+  { en: "IMPORTANT", tr: "ÖNEMLİ" },
+  { en: "CITY CENTER", tr: "ŞEHİR MERKEZİ" },
+  { en: "TENT", tr: "ÇADIR" },
+  { en: "BEING IN NATURE", tr: "DOĞADA OLMAK" },
+  { en: "WALKING IN THE FOREST", tr: "ORMANDA YÜRÜMEK" },
+  { en: "ISLAND", tr: "ADA" },
+  { en: "WILDLIFE", tr: "VAHŞİ YAŞAM" },
+  { en: "PEACEFUL", tr: "HUZURLU" },
+  { en: "GIFT/PRESENT", tr: "HEDİYE" },
+  { en: "ABROAD", tr: "YURTDIŞI" },
+  { en: "DATE", tr: "TARİH" },
+  { en: "PLACE", tr: "YER" },
+  { en: "TIME", tr: "SAAT" },
+  { en: "HOW MUCH", tr: "NE KADAR" },
+  { en: "QUIET PLACE", tr: "SESSİZ YER" }, 
+  { en: "clean the bathroom", tr: "banyoyu temizlemek" },
+  { en: "clean the windows", tr: "camları silmek" },
+  { en: "cook the meals", tr: "yemek pişirmek" },
+  { en: "do the grocery shopping", tr: "market alışverişi yapmak" },
+  { en: "do the laundry", tr: "çamaşır yıkamak" },
+  { en: "dry the dishes", tr: "bulaşıkları kurulamak" },
+  { en: "dust the furniture", tr: "mobilyaların tozunu almak" },
+  { en: "empty the dishwasher", tr: "bulaşık makinesini boşaltmak" },
+  { en: "feed the dog", tr: "köpeği beslemek" },
+  { en: "hang out the clothes", tr: "çamaşırları asmak" },
+  { en: "iron the clothes", tr: "kıyafetleri ütülemek" },
+  { en: "load the dishwasher", tr: "bulaşık makinesini doldurmak" },
+  { en: "make the bed", tr: "yatağı toplamak" },
+  { en: "mop the floor", tr: "yerleri paspaslamak" },
+  { en: "mow the lawn", tr: "çimleri biçmek" },
+  { en: "pay the bills", tr: "faturaları ödemek" },
+  { en: "separate the laundry", tr: "çamaşırları ayırmak" },
+  { en: "set the table", tr: "masayı hazırlamak" },
+  { en: "sweep the leaves", tr: "yaprakları süpürmek" },
+  { en: "take the dog for a walk", tr: "köpeği yürüyüşe çıkarmak" },
+  { en: "tidy the toys", tr: "oyuncakları toplamak" },
+  { en: "tidy up the room", tr: "odayı toplamak" },
+  { en: "vacuum the floor", tr: "elektrikli süpürge ile temizlemek" },
+  { en: "wash the car", tr: "arabayı yıkamak" },
+  { en: "be in charge of", tr: "-nın sorumluğunda olmak" },
+  { en: "wash the dishes", tr: "bulaşıkları yıkamak" },
+  { en: "be responsible for", tr: "-nın için sorumlu olmak" },
+  { en: "duty/task", tr: "görev" },
+  { en: "necessary", tr: "gerekli" },
+  { en: "obligation", tr: "zorunluluk" },
+  { en: "responsibility", tr: "sorumluluk" },
+  { en: "angry/annoyed", tr: "sinirli" },
+  { en: "bored", tr: "canı sıkılmış" },
+  { en: "boring", tr: "sıkıcı" },
+  { en: "clean", tr: "temiz" },
+  { en: "dirty", tr: "kirli" },
+  { en: "difficult / hard", tr: "zor" },
+  { en: "disturbing", tr: "rahatsız edici" },
+  { en: "encouraging", tr: "cesaret verici" },
+  { en: "enjoyable", tr: "eğlenceli" },
+  { en: "excited", tr: "heyecanlı" },
+  { en: "fair", tr: "adil, adaletli" },
+  { en: "neat / tidy", tr: "düzenli" },
+  { en: "nervous", tr: "gergin" },
+  { en: "peaceful", tr: "huzurlu" },
+  { en: "respectful", tr: "saygılı" },
+  { en: "silent", tr: "sessiz" },
+  { en: "untidy", tr: "dağınık" },
+  { en: "worried", tr: "endişeli" },
+  { en: "kitchen", tr: "mutfak" },
+  { en: "bathroon", tr: "banyo" },
+  { en: "garden", tr: "bahçe" },
+  { en: "house / home", tr: "ev" },
+  { en: "bedroom", tr: "yatak odası" },
+  { en: "living room / sitting room", tr: "oturma odası" },
+  { en: "prepare meals", tr: "yemekler hazırlamak" },
+  { en: "prepare brekfast", tr: "kahvaltı hazırlamak" },
+  { en: "prepare lunch", tr: "öğle yemeği hazırlamak" },
+  { en: "prepare dinner", tr: "akşam yemeği hazırlamak" },
+  { en: "cook dinner", tr: "akşam yemeği pişirmek" },
+  { en: "dust the shelves", tr: "rafların tozunu almak" },
+  { en: "indoor chores", tr: "içerideki ev işleri" },
+  { en: "outdoor chores", tr: "dışarıdaki ev işleri" },
+  { en: "dirty clothes", tr: "kirli kıyafetler" },
+  { en: "dirty dishes", tr: "kirli bulaşıklar" },
+  { en: "take care of pet", tr: "evcil hayvana bakmak" },
+  { en: "school rules", tr: "okul kuralları" },
+  { en: "library rules", tr: "kütüphane kuralları" },
+  { en: "be quiet", tr: "sessiz ol" },
+  { en: "return books on time", tr: "kitapları zamanında geri getir" },
+  { en: "keep your desk clean", tr: "sıranı temiz tut" },
+  { en: "raise your hand", tr: "elini kaldır" },
+  { en: "be respectful to your firends", tr: "arkadaşlarına saygılı ol" },
+  { en: "kitchen chore", tr: "mutfak işi" },
+  { en: "take out rubbish/trash/garbage", tr: "çöpü dışarı çıkarmak" },
+  { en: "water the plants", tr: "bitkileri sulamak" },
+  { en: "invent", tr: "icat etmek" },
+  { en: "invention", tr: "icat" },
+  { en: "inventor", tr: "icat yapan kişi, mucit" },
+  { en: "discover", tr: "keşfetmek" },
+  { en: "discovery", tr: "keşif" },
+  { en: "discoverer", tr: "keşif yapan kişi, kaşif" },
+  { en: "science", tr: "bilim" },
+  { en: "scientific", tr: "bilimsel" },
+  { en: "scientist", tr: "bilim insanı" },
+  { en: "achieve", tr: "başarmak" },
+  { en: "achievement / success", tr: "başarı" },
+  { en: "scientific achievement", tr: "bilimsel başarı" },
+  { en: "win", tr: "kazanmak" },
+  { en: "award / prize", tr: "ödül" },
+  { en: "Nobel Prize", tr: "Nobel Ödülü" },
+  { en: "medicine", tr: "tıp" },
+  { en: "physics", tr: "fizik" },
+  { en: "chemistry", tr: "kimya" },
+  { en: "birth date", tr: "doğum tarihi" },
+  { en: "birthday", tr: "doğum günü" },
+  { en: "birth place", tr: "doğum yeri" },
+  { en: "childhood", tr: "çocukluk" },
+  { en: "early ages", tr: "erken yaşlar" },
+  { en: "education life", tr: "eğitim hayatı" },
+  { en: "field of study", tr: "çalıştığı alan" },
+  { en: "job / occupation / profession", tr: "meslek, uzmanlık" },
+  { en: "family members", tr: "aile üyeleri" },
+  { en: "son", tr: "erkek evlat" },
+  { en: "daughter", tr: "kız evlat" },
+  { en: "wife", tr: "kadın eş" },
+  { en: "husband", tr: "erkek eş" },
+  { en: "relatives", tr: "akrabalar" },
+  { en: "family life", tr: "aile hayatı" },
+  { en: "famous for", tr: "-dığı için ünlü" },
+  { en: "best known for", tr: "-yla en iyi bilinir" },
+  { en: "works", tr: "işler" },
+  { en: "studies", tr: "çalışmalar" },
+  { en: "date of death", tr: "ölüm tarihi" },
+  { en: "place of death", tr: "ölüm yeri" },
+  { en: "nationality", tr: "milliyet" },
+  { en: "vaccine", tr: "aşı" },
+  { en: "biology", tr: "biyoloji" },
+  { en: "inventions in COMMUNICATION", tr: "iletişimdeki icatlar" },
+  { en: "discoveries in MEDICINE", tr: "tıptaki keşifler" },
+  { en: "inventions in TRANSPORTATION", tr: "ulaşımdaki icatlar" },
+  { en: "learning human anatomy", tr: "insan anatomisini öğrenmek" },
+  { en: "viewing some soil samples under the microscope", tr: "mikroskop altında bazı toprak örneklerine bakmak" },
+  { en: "examining CELLS under the MICROSCOPE", tr: "mikroskop altında hücreleri incelemek" },
+  { en: "putting a CHEMICAL substance in the TEST TUBE", tr: "test tüpüne kimyasal madde koymak" },
+  { en: "looking into the SKY through a TELESCOPE", tr: "Teleskopla gökyüzüne bakmak" },
+  { en: "looking for some FOSSILS in the excavation area", tr: "Kazı alanında bazı fosiller aramak" },
+  { en: "conducting EXPERIMENTS / doing EXPERIMENTS", tr: "deneyler yapmak" },
+  { en: "reading SCIENCE magazines", tr: ": Bilimsel dergiler okumak" },
+  { en: "watching SCIENCE videos", tr: "Bilimsel videolar izlemek" }
+];
+
+            // Turnuva değişkenleri
+            let allNumbers = Array.from({ length: 35 }, (_, i) => i + 1);
+            let participants = [];
+            let activePlayers = [];
+            let matches = [];
+            let currentMatchIndex = 0;
+            let currentRound = 1;
+            let matchActive = false;
+            let currentPlayerTurn = null;
+            let liveP1Score = 0, liveP2Score = 0;
+            let liveP1, liveP2;
+            let availableQuestions = [];
+            let questionCount = 0;
+            const MAX_QUESTIONS = 10;
+            let finalMode = false;
+            let finalQuestionData = null;
+            let finalAnswered = { p1: false, p2: false };
+            let finalCorrect = { p1: false, p2: false };
+            let finalDisabled = { p1: false, p2: false };
+
+            // DOM
+            const drawSection = document.getElementById('drawSection');
+            const gameSection = document.getElementById('gameSection');
+            const playerChipsDiv = document.getElementById('playerChips');
+            const participantDisplay = document.getElementById('participantDisplay');
+            const removeSelectedBtn = document.getElementById('removeSelectedBtn');
+            const resetDrawBtn = document.getElementById('resetDrawBtn');
+            const createParticipantListBtn = document.getElementById('createParticipantListBtn');
+            // Eski startTournamentBtn kaldırıldı, yeni buton:
+            const startRoundFromDrawBtn = document.getElementById('startRoundFromDrawBtn');
+            const player1NameSpan = document.getElementById('player1Name');
+            const player2NameSpan = document.getElementById('player2Name');
+            const player1ScoreSpan = document.getElementById('player1Score');
+            const player2ScoreSpan = document.getElementById('player2Score');
+            const tournamentInfo = document.getElementById('tournamentInfo');
+            const matchCountDisplay = document.getElementById('matchCountDisplay');
+            const turnIndicator = document.getElementById('turnIndicator');
+            const enWordDiv = document.getElementById('enWord');
+            const optionsContainer = document.getElementById('optionsContainer');
+            const gameEndMessage = document.getElementById('gameEndMessage');
+            const nextMatchBtn = document.getElementById('nextMatchBtn');
+            const newTournamentBtn = document.getElementById('newTournamentBtn');
+            const nextQuestionBtn = document.getElementById('nextQuestionBtn');
+            const changeQuestionBtn = document.getElementById('changeQuestionBtn');
+            const finalQuestionBtn = document.getElementById('finalQuestionBtn');
+            const questionCountDisplay = document.getElementById('questionCountDisplay');
+            const normalPanel = document.getElementById('normalQuestionPanel');
+            const finalPanels = document.getElementById('finalQuestionPanels');
+            const finalPlayer1Num = document.getElementById('finalPlayer1Num');
+            const finalPlayer2Num = document.getElementById('finalPlayer2Num');
+            const finalEnWord1 = document.getElementById('finalEnWord1');
+            const finalEnWord2 = document.getElementById('finalEnWord2');
+            const finalOptions1 = document.getElementById('finalOptions1');
+            const finalOptions2 = document.getElementById('finalOptions2');
+            const roundSummaryPanel = document.getElementById('roundSummaryPanel');
+            const roundName = document.getElementById('roundName');
+            const winnersList = document.getElementById('winnersList');
+            const startRoundBtn = document.getElementById('startRoundBtn');
+
+            // Tur ismini belirle
+            function getRoundName(playerCount) {
+                if (playerCount === 2) return "FİNAL";
+                if (playerCount <= 4) return "YARI FİNAL";
+                if (playerCount <= 8) return "ÇEYREK FİNAL";
+                if (playerCount <= 16) return "SON 16";
+                if (playerCount <= 32) return "SON 32";
+                return "SON 64";
+            }
+
+            function updatePanelColor() {
+                if (finalMode) return;
+                if (currentPlayerTurn === liveP1) {
+                    normalPanel.classList.remove('panel-blue');
+                    normalPanel.classList.add('panel-red');
+                } else {
+                    normalPanel.classList.remove('panel-red');
+                    normalPanel.classList.add('panel-blue');
+                }
+            }
+
+            function updateTurnIndicator() {
+                if (!matchActive) return;
+                if (finalMode) return;
+                const team = (currentPlayerTurn === liveP1) ? 'RED' : 'BLUE';
+                turnIndicator.innerText = `🎯 SIRA: ${team} #${currentPlayerTurn}`;
+            }
+
+            // Kura işlemleri
+            function renderPlayerChips(numbers) {
+                playerChipsDiv.innerHTML = '';
+                numbers.forEach(num => {
+                    const chip = document.createElement('div');
+                    chip.className = 'player-chip';
+                    chip.textContent = num;
+                    chip.dataset.num = num;
+                    chip.addEventListener('click', (e) => {
+                        chip.classList.toggle('selected');
+                    });
+                    playerChipsDiv.appendChild(chip);
+                });
+            }
+
+            function removeSelectedChips() {
+                const selected = document.querySelectorAll('.player-chip.selected');
+                selected.forEach(chip => chip.remove());
+                const remaining = Array.from(document.querySelectorAll('.player-chip')).map(c => parseInt(c.dataset.num));
+                allNumbers = remaining;
+            }
+
+            function resetDraw() {
+                allNumbers = Array.from({ length: 35 }, (_, i) => i + 1);
+                renderPlayerChips(allNumbers);
+                participants = [];
+                participantDisplay.innerText = '[ Liste boş ]';
+            }
+
+            function createParticipantList() {
+                const remaining = Array.from(document.querySelectorAll('.player-chip')).map(c => parseInt(c.dataset.num));
+                participants = [...remaining];
+                if (participants.length === 0) {
+                    participantDisplay.innerText = '❌ Katılımcı yok!';
+                } else {
+                    participantDisplay.innerText = '👥 KATILIMCILAR: ' + participants.sort((a,b)=>a-b).join(' - ');
+                }
+            }
+
+            // Turnuvayı başlatan fonksiyon (eski startTournament, şimdi startRoundFromDrawBtn'den çağrılacak)
+            function startFirstRound() {
+                console.log("İlk tur başlatılıyor...");
+                if (participants.length === 0) {
+                    alert('Önce katılımcı listesi oluşturun!');
+                    return;
+                }
+                activePlayers = [...participants];
+                if (activePlayers.length === 1) {
+                    alert('En az 2 katılımcı olmalı');
+                    return;
+                }
+                currentRound = 1;
+                buildMatchesForCurrentRound();
+                currentMatchIndex = 0;
+                showRoundSummary();
+            }
+
+            function buildMatchesForCurrentRound() {
+                matches = [];
+                let players = [...activePlayers];
+                players.sort(() => Math.random() - 0.5);
+                while (players.length >= 2) {
+                    const p1 = players.pop();
+                    const p2 = players.pop();
+                    matches.push({ p1, p2, score1: 0, score2: 0, winners: [] });
+                }
+                if (players.length === 1) {
+                    const byePlayer = players[0];
+                    matches.push({ p1: byePlayer, p2: null, score1: 0, score2: 0, winners: [byePlayer] });
+                }
+                updateMatchCount();
+            }
+
+            function updateMatchCount() {
+                const total = matches.length;
+                const played = matches.filter(m => m.winners.length > 0).length;
+                matchCountDisplay.innerText = `Toplam ${total} Maç | Tamamlanan: ${played}`;
+            }
+
+            function showRoundSummary() {
+                const playerCount = activePlayers.length;
+                const roundNameText = getRoundName(playerCount);
+                roundName.innerText = roundNameText;
+                winnersList.innerText = '🏆 TURDAKİ OYUNCULAR: ' + activePlayers.sort((a,b)=>a-b).join(' - ');
+                
+                normalPanel.classList.add('hidden');
+                finalPanels.classList.add('hidden');
+                nextQuestionBtn.classList.add('hidden');
+                changeQuestionBtn.classList.add('hidden');
+                finalQuestionBtn.classList.add('hidden');
+                nextMatchBtn.classList.add('hidden');
+                gameEndMessage.classList.add('hidden');
+                roundSummaryPanel.classList.remove('hidden');
+                // Oyun alanını göster
+                gameSection.classList.remove('hidden');
+                drawSection.classList.add('hidden');
+            }
+
+            function startRound() {
+                roundSummaryPanel.classList.add('hidden');
+                currentMatchIndex = 0;
+                loadMatch(0);
+            }
+
+            // Soru değiştirme fonksiyonu
+            function changeQuestion() {
+                if (!matchActive || finalMode) return;
+                if (availableQuestions.length === 0) {
+                    availableQuestions = masterQuestionPool.map(q => ({ ...q }));
+                }
+                const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+                const q = availableQuestions[randomIndex];
+                availableQuestions.splice(randomIndex, 1);
+                showNormalQuestion(q);
+            }
+
+            function generateNormalQuestion() {
+                if (!matchActive) return;
+                if (availableQuestions.length === 0) {
+                    availableQuestions = masterQuestionPool.map(q => ({ ...q }));
+                }
+                const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+                const q = availableQuestions[randomIndex];
+                availableQuestions.splice(randomIndex, 1);
+                showNormalQuestion(q);
+            }
+
+            function showNormalQuestion(q) {
+                const correct = q.tr;
+                let other = masterQuestionPool.filter(item => item.tr !== q.tr).map(item => item.tr);
+                other = [...new Set(other)];
+                other.sort(() => Math.random() - 0.5);
+                let wrongs = other.slice(0, 3);
+                let options = [q.tr, ...wrongs];
+                while (options.length < 4) options.push('?');
+                options.sort(() => Math.random() - 0.5);
+
+                enWordDiv.innerText = q.en.toUpperCase();
+                optionsContainer.innerHTML = '';
+                options.forEach(opt => {
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn';
+                    btn.innerText = opt.toUpperCase();
+                    btn.addEventListener('click', (e) => {
+                        Array.from(optionsContainer.children).forEach(b => b.disabled = true);
+                        const isCorrect = (opt.toLowerCase() === correct.toLowerCase());
+                        if (isCorrect) {
+                            btn.classList.add('correct-flash');
+                        } else {
+                            btn.classList.add('wrong-flash');
+                        }
+                        setTimeout(() => {
+                            handleNormalAnswer(opt, correct);
+                        }, 300);
+                    });
+                    optionsContainer.appendChild(btn);
+                });
+                nextQuestionBtn.classList.remove('hidden');
+                changeQuestionBtn.classList.remove('hidden');
+                finalQuestionBtn.classList.add('hidden');
+                updatePanelColor();
+            }
+
+            function handleNormalAnswer(selected, correct) {
+                if (!matchActive) return;
+                const isCorrect = (selected.toLowerCase() === correct.toLowerCase());
+                if (isCorrect) {
+                    if (currentPlayerTurn === liveP1) {
+                        liveP1Score++;
+                        player1ScoreSpan.innerText = liveP1Score;
+                    } else {
+                        liveP2Score++;
+                        player2ScoreSpan.innerText = liveP2Score;
+                    }
+                }
+
+                if (Math.abs(liveP1Score - liveP2Score) >= 2) {
+                    endMatchWithWinners([liveP1Score > liveP2Score ? liveP1 : liveP2]);
+                    return;
+                }
+
+                questionCount++;
+                updateQuestionCounter();
+
+                if (questionCount >= MAX_QUESTIONS && Math.abs(liveP1Score - liveP2Score) < 2) {
+                    if (liveP1Score < 2 && liveP2Score < 2) {
+                        endMatchWithWinners([]);
+                    } else {
+                        turnIndicator.innerText = '⚡ FİNAL SORUSUNA HAZIRLANIN';
+                        nextQuestionBtn.classList.add('hidden');
+                        changeQuestionBtn.classList.add('hidden');
+                        finalQuestionBtn.classList.remove('hidden');
+                        normalPanel.classList.add('hidden');
+                    }
+                    return;
+                }
+
+                currentPlayerTurn = (currentPlayerTurn === liveP1) ? liveP2 : liveP1;
+                updateTurnIndicator();
+                nextQuestionBtn.classList.remove('hidden');
+                changeQuestionBtn.classList.remove('hidden');
+            }
+
+            function startFinalQuestion() {
+                if (!matchActive) return;
+                finalMode = true;
+                finalQuestionBtn.classList.add('hidden');
+                normalPanel.classList.add('hidden');
+                finalPanels.classList.remove('hidden');
+
+                document.getElementById('finalPanel1').classList.add('panel-red');
+                document.getElementById('finalPanel2').classList.add('panel-blue');
+
+                if (availableQuestions.length === 0) {
+                    availableQuestions = masterQuestionPool.map(q => ({ ...q }));
+                }
+                const randomIndex = Math.floor(Math.random() * availableQuestions.length);
+                finalQuestionData = availableQuestions[randomIndex];
+                availableQuestions.splice(randomIndex, 1);
+
+                finalPlayer1Num.innerText = liveP1;
+                finalPlayer2Num.innerText = liveP2;
+                finalEnWord1.innerText = finalQuestionData.en.toUpperCase();
+                finalEnWord2.innerText = finalQuestionData.en.toUpperCase();
+
+                const correct = finalQuestionData.tr;
+                let other = masterQuestionPool.filter(item => item.tr !== correct).map(item => item.tr);
+                other = [...new Set(other)];
+                other.sort(() => Math.random() - 0.5);
+                let wrongs = other.slice(0, 3);
+                let options = [correct, ...wrongs];
+                while (options.length < 4) options.push('?');
+                options.sort(() => Math.random() - 0.5);
+
+                finalOptions1.innerHTML = '';
+                options.forEach(opt => {
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn';
+                    btn.innerText = opt.toUpperCase();
+                    btn.addEventListener('click', (e) => {
+                        if (finalDisabled.p1) return;
+                        Array.from(finalOptions1.children).forEach(b => b.disabled = true);
+                        const isCorrect = (opt.toLowerCase() === correct.toLowerCase());
+                        if (isCorrect) {
+                            btn.classList.add('correct-flash');
+                        } else {
+                            btn.classList.add('wrong-flash');
+                        }
+                        setTimeout(() => {
+                            handleFinalAnswer('p1', opt, correct);
+                        }, 300);
+                    });
+                    finalOptions1.appendChild(btn);
+                });
+
+                finalOptions2.innerHTML = '';
+                options.forEach(opt => {
+                    const btn = document.createElement('button');
+                    btn.className = 'option-btn';
+                    btn.innerText = opt.toUpperCase();
+                    btn.addEventListener('click', (e) => {
+                        if (finalDisabled.p2) return;
+                        Array.from(finalOptions2.children).forEach(b => b.disabled = true);
+                        const isCorrect = (opt.toLowerCase() === correct.toLowerCase());
+                        if (isCorrect) {
+                            btn.classList.add('correct-flash');
+                        } else {
+                            btn.classList.add('wrong-flash');
+                        }
+                        setTimeout(() => {
+                            handleFinalAnswer('p2', opt, correct);
+                        }, 300);
+                    });
+                    finalOptions2.appendChild(btn);
+                });
+
+                finalAnswered = { p1: false, p2: false };
+                finalCorrect = { p1: false, p2: false };
+                finalDisabled = { p1: false, p2: false };
+            }
+
+            function handleFinalAnswer(player, selected, correct) {
+                if (!matchActive || !finalMode) return;
+                if (finalDisabled[player]) return;
+
+                const isCorrect = (selected.toLowerCase() === correct.toLowerCase());
+                
+                if (player === 'p1') {
+                    finalDisabled.p1 = true;
+                    if (isCorrect) {
+                        finalCorrect.p1 = true;
+                        endMatchWithWinners([liveP1]);
+                    } else {
+                        if (finalDisabled.p2) {
+                            if (finalCorrect.p2) {
+                                endMatchWithWinners([liveP2]);
+                            } else {
+                                finalMode = false;
+                                finalPanels.classList.add('hidden');
+                                normalPanel.classList.remove('hidden');
+                                turnIndicator.innerText = '⚡ İKİ CEVAP DA YANLIŞ! YENİ FİNAL SORUSU';
+                                finalQuestionBtn.classList.remove('hidden');
+                            }
+                        }
+                    }
+                } else {
+                    finalDisabled.p2 = true;
+                    if (isCorrect) {
+                        finalCorrect.p2 = true;
+                        endMatchWithWinners([liveP2]);
+                    } else {
+                        if (finalDisabled.p1) {
+                            if (finalCorrect.p1) {
+                                endMatchWithWinners([liveP1]);
+                            } else {
+                                finalMode = false;
+                                finalPanels.classList.add('hidden');
+                                normalPanel.classList.remove('hidden');
+                                turnIndicator.innerText = '⚡ İKİ CEVAP DA YANLIŞ! YENİ FİNAL SORUSU';
+                                finalQuestionBtn.classList.remove('hidden');
+                            }
+                        }
+                    }
+                }
+            }
+
+            function endMatchWithWinners(winnersArray) {
+                matchActive = false;
+                finalMode = false;
+                const match = matches[currentMatchIndex];
+                match.score1 = liveP1Score;
+                match.score2 = liveP2Score;
+                match.winners = winnersArray;
+
+                if (winnersArray.length === 0) {
+                    gameEndMessage.innerText = `❌ İKİ OYUNCU DA ELENDİ! (${liveP1Score}-${liveP2Score})`;
+                } else if (winnersArray.length === 2) {
+                    gameEndMessage.innerText = `🏁 BERABERLİK! #${winnersArray[0]} ve #${winnersArray[1]} ÜST TURA ÇIKTI (${liveP1Score}-${liveP2Score})`;
+                } else {
+                    gameEndMessage.innerText = `🏁 MAÇ SONU! #${winnersArray[0]} KAZANDI (${liveP1Score}-${liveP2Score})`;
+                }
+
+                normalPanel.classList.remove('hidden');
+                finalPanels.classList.add('hidden');
+                nextQuestionBtn.classList.add('hidden');
+                changeQuestionBtn.classList.add('hidden');
+                finalQuestionBtn.classList.add('hidden');
+                enWordDiv.innerText = 'MAÇ BİTTİ';
+                optionsContainer.innerHTML = '';
+                turnIndicator.innerText = winnersArray.length ? `✅ ÜST TURA ÇIKANLAR: ${winnersArray.join(' #')}` : '❌ ELENDİLER';
+                updateMatchCount();
+                nextMatchBtn.classList.remove('hidden');
+                questionCount = 0;
+            }
+
+            function updateQuestionCounter() {
+                questionCountDisplay.innerText = `Soru: ${questionCount}/${MAX_QUESTIONS}`;
+            }
+
+            function loadMatch(index) {
+                if (index >= matches.length) {
+                    advanceToNextRound();
+                    return;
+                }
+                const match = matches[index];
+                if (match.winners.length > 0) {
+                    currentMatchIndex++;
+                    loadMatch(currentMatchIndex);
+                    return;
+                }
+                liveP1 = match.p1;
+                liveP2 = match.p2;
+                liveP1Score = 0;
+                liveP2Score = 0;
+                player1ScoreSpan.innerText = '0';
+                player2ScoreSpan.innerText = '0';
+                player1NameSpan.innerText = `🔴 RED #${liveP1}`;
+                player2NameSpan.innerText = `🔵 BLUE #${liveP2}`;
+
+                currentPlayerTurn = Math.random() < 0.5 ? liveP1 : liveP2;
+                matchActive = true;
+                finalMode = false;
+                questionCount = 0;
+                updateQuestionCounter();
+                updateTurnIndicator();
+                tournamentInfo.innerText = `🏆 ${getRoundName(activePlayers.length)} / MAÇ ${index+1}`;
+                nextMatchBtn.classList.add('hidden');
+                gameEndMessage.innerText = '';
+
+                availableQuestions = masterQuestionPool.map(q => ({ ...q }));
+
+                normalPanel.classList.remove('hidden');
+                finalPanels.classList.add('hidden');
+                enWordDiv.innerText = '⚡ HAZIR MISIN?';
+                optionsContainer.innerHTML = '';
+                nextQuestionBtn.classList.remove('hidden');
+                changeQuestionBtn.classList.remove('hidden');
+                finalQuestionBtn.classList.add('hidden');
+                updatePanelColor();
+            }
+
+            function goToNextMatch() {
+                if (!matchActive) {
+                    currentMatchIndex++;
+                    if (currentMatchIndex < matches.length) {
+                        loadMatch(currentMatchIndex);
+                    } else {
+                        advanceToNextRound();
+                    }
+                }
+            }
+
+            function advanceToNextRound() {
+                let winners = [];
+                matches.forEach(m => {
+                    winners.push(...m.winners);
+                });
+                if (winners.length === 0) {
+                    gameEndMessage.innerText = `🏆 TURNUVA BİTTİ - KAZANAN YOK`;
+                    tournamentInfo.innerText = 'TURNUVA FİNALİ';
+                    matchCountDisplay.innerText = 'Şampiyon yok';
+                    nextMatchBtn.classList.add('hidden');
+                    normalPanel.classList.remove('hidden');
+                    finalPanels.classList.add('hidden');
+                    enWordDiv.innerText = 'TURNUVA BİTTİ';
+                    optionsContainer.innerHTML = '';
+                    turnIndicator.innerText = '⚡ OYNANACAK MAÇ KALMADI';
+                    nextQuestionBtn.classList.add('hidden');
+                    changeQuestionBtn.classList.add('hidden');
+                    finalQuestionBtn.classList.add('hidden');
+                    return;
+                }
+                if (winners.length === 1) {
+                    gameEndMessage.innerText = `🏆 ŞAMPİYON: #${winners[0]} 🏆`;
+                    tournamentInfo.innerText = 'TURNUVA FİNALİ';
+                    matchCountDisplay.innerText = 'Şampiyon belli!';
+                    nextMatchBtn.classList.add('hidden');
+                    normalPanel.classList.remove('hidden');
+                    finalPanels.classList.add('hidden');
+                    enWordDiv.innerText = 'ŞAMPİYON';
+                    optionsContainer.innerHTML = '';
+                    turnIndicator.innerText = `⚡ #${winners[0]} KAZANDI`;
+                    nextQuestionBtn.classList.add('hidden');
+                    changeQuestionBtn.classList.add('hidden');
+                    finalQuestionBtn.classList.add('hidden');
+                    return;
+                }
+                currentRound++;
+                activePlayers = winners;
+                buildMatchesForCurrentRound();
+                showRoundSummary();
+            }
+
+            function resetToDraw() {
+                gameSection.classList.add('hidden');
+                drawSection.classList.remove('hidden');
+                matchActive = false;
+            }
+
+            // Event listeners
+            removeSelectedBtn.addEventListener('click', () => {
+                removeSelectedChips();
+                createParticipantList();
+            });
+
+            resetDrawBtn.addEventListener('click', resetDraw);
+
+            createParticipantListBtn.addEventListener('click', createParticipantList);
+
+            // Yeni: "TURU BAŞLAT" butonu (kura ekranında)
+            startRoundFromDrawBtn.addEventListener('click', function() {
+                startFirstRound();
+            });
+
+            nextMatchBtn.addEventListener('click', goToNextMatch);
+
+            newTournamentBtn.addEventListener('click', resetToDraw);
+
+            nextQuestionBtn.addEventListener('click', () => {
+                if (matchActive && !finalMode) {
+                    generateNormalQuestion();
+                }
+            });
+
+            changeQuestionBtn.addEventListener('click', () => {
+                if (matchActive && !finalMode) {
+                    changeQuestion();
+                }
+            });
+
+            finalQuestionBtn.addEventListener('click', () => {
+                if (matchActive && !finalMode) {
+                    startFinalQuestion();
+                }
+            });
+
+            startRoundBtn.addEventListener('click', () => {
+                startRound();
+            });
+
+            // İlk render
+            resetDraw();
+        })();
+    </script>
+</body>
+</html>

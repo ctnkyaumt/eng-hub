@@ -1,0 +1,1011 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=yes">
+  <title>Owl Quest | 3 Tur + Final | Rastgele Kategori</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', system-ui, 'Inter', 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(145deg, #FFF3E0 0%, #E3F2FD 100%);
+      min-height: 100vh;
+      padding: 20px;
+      transition: all 0.2s;
+    }
+
+    body.fullscreen {
+      padding: 0;
+      margin: 0;
+    }
+    body.fullscreen .arena {
+      max-width: 100%;
+      border-radius: 0;
+      padding: 16px;
+    }
+
+    .arena {
+      max-width: 1600px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.65);
+      backdrop-filter: blur(3px);
+      border-radius: 48px;
+      padding: 24px;
+      box-shadow: 0 25px 45px rgba(0, 0, 0, 0.15);
+    }
+
+    .control-bar {
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .ctrl-btn {
+      background: #1e2a3e;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 40px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.1s;
+    }
+    .ctrl-btn:hover { background: #0f172a; transform: scale(0.97); }
+    .reset-btn {
+      background: #c0392b;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 40px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.1s;
+    }
+    .reset-btn:hover { background: #a93226; transform: scale(0.97); }
+
+    .main-grid {
+      display: grid;
+      grid-template-columns: 320px 1fr 340px;
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.92);
+      border-radius: 32px;
+      padding: 20px;
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.08);
+      backdrop-filter: blur(4px);
+      border: 1px solid rgba(255,215,150,0.5);
+    }
+
+    .player-header {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 18px;
+    }
+    .rand-btn {
+      background: linear-gradient(135deg, #ff9800, #f57c00);
+      border: none;
+      border-radius: 60px;
+      padding: 16px;
+      font-size: 1.3rem;
+      font-weight: 900;
+      color: white;
+      cursor: pointer;
+      width: 100%;
+      transition: 0.1s;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+    }
+    .rand-btn:active { transform: scale(0.97); }
+    
+    .active-player-info {
+      background: #fff0e0;
+      border-radius: 30px;
+      padding: 12px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1rem;
+      border: 1px solid #ffb347;
+      transition: all 0.2s;
+    }
+    .active-player-info.highlight {
+      background: #ffd966;
+      border: 3px solid #e67e22;
+      transform: scale(1.02);
+      box-shadow: 0 0 15px rgba(230,126,34,0.5);
+    }
+    .player-select {
+      width: 100%;
+      background: #fef9e6;
+      border: 2px solid #ffb347;
+      border-radius: 60px;
+      padding: 12px;
+      font-weight: bold;
+    }
+
+    .stats-mini {
+      background: #fff2e0;
+      padding: 15px;
+      border-radius: 28px;
+      display: flex;
+      justify-content: space-between;
+      margin: 15px 0;
+      font-weight: bold;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 0.9rem;
+    }
+
+    .eliminate-section {
+      display: flex;
+      gap: 10px;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+    .eliminate-section input {
+      flex: 2;
+      background: #fff0e0;
+      border: 1px solid #ffaa55;
+      border-radius: 60px;
+      padding: 12px;
+    }
+    .eliminate-section button {
+      flex: 1;
+      background: #f44336;
+      border: none;
+      border-radius: 60px;
+      padding: 12px 8px;
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+      min-width: 110px;
+    }
+    .remove-out {
+      background: #2196f3 !important;
+    }
+    .badge-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      max-height: 130px;
+      overflow-y: auto;
+      margin-top: 8px;
+    }
+    .badge {
+      background: #e9ecef;
+      padding: 5px 14px;
+      border-radius: 40px;
+      font-size: 0.75rem;
+      font-weight: bold;
+    }
+    .champ-badge { background: #ffd966; color: #2c3e2f; }
+
+    /* Kategori grid - sadece renkli kutular */
+    .category-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .category-header h2 {
+      background: #ffb347;
+      padding: 6px 20px;
+      border-radius: 40px;
+      color: #2c2c2c;
+      font-size: 1.2rem;
+    }
+    .select-cat-btn {
+      background: linear-gradient(135deg, #f39c12, #e67e22);
+      border: none;
+      padding: 12px 24px;
+      border-radius: 48px;
+      font-weight: 900;
+      color: white;
+      cursor: pointer;
+      transition: 0.1s;
+    }
+    .select-cat-btn:active { transform: scale(0.96); }
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+    }
+    .cat-card-item {
+      background: linear-gradient(145deg, #fffbf0, #ffe2b5);
+      border-radius: 28px;
+      padding: 18px 8px;
+      text-align: center;
+      border: 2px solid #ffcc88;
+      transition: 0.1s;
+      position: relative;
+      cursor: default;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    /* Farklı renkler - her kategori farklı renk tonu */
+    .cat-card-item[data-cat="0"] { background: #FFB3BA; }
+    .cat-card-item[data-cat="1"] { background: #B5EAD7; }
+    .cat-card-item[data-cat="2"] { background: #FFDFBF; }
+    .cat-card-item[data-cat="3"] { background: #C7CEEA; }
+    .cat-card-item[data-cat="4"] { background: #F4C3F7; }
+    .cat-card-item[data-cat="5"] { background: #FFE5B4; }
+    .cat-card-item[data-cat="6"] { background: #B0E0E6; }
+    .cat-card-item[data-cat="7"] { background: #FBC8B5; }
+    .cat-card-item[data-cat="8"] { background: #D4A5A5; }
+    .cat-card-item[data-cat="9"] { background: #B8E2F2; }
+    .cat-card-item.active-glow {
+      animation: pulse-glow 0.6s ease-in-out 3;
+      border-color: #e67e22;
+      box-shadow: 0 0 15px orange;
+    }
+    @keyframes pulse-glow {
+      0% { box-shadow: 0 0 0 0 #ffaa33; background: #ffe6b3; }
+      70% { box-shadow: 0 0 0 12px rgba(255,170,51,0); background: #ffc266; }
+      100% { box-shadow: 0 0 0 0 rgba(255,170,51,0); background: #fff0cc; }
+    }
+    .cat-icon {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #5a3e1b;
+    }
+
+    .question-panel {
+      margin-top: 16px;
+      background: #fffef7;
+      border-radius: 32px;
+      padding: 22px;
+    }
+    .word { font-size: 2.4rem; font-weight: 900; text-align: center; margin: 16px 0; color: #c4450c; text-transform: uppercase; letter-spacing: 1px; }
+    .options {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin: 18px 0;
+    }
+    .option-btn {
+      background: #fdf4e3;
+      border: 2px solid #ffb347;
+      padding: 12px;
+      border-radius: 60px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.05s;
+    }
+    .option-btn.selected-for-double {
+      background: #a5d6a5;
+      border: 3px solid #2e7d32;
+      transform: scale(1.02);
+    }
+    .option-btn.correct { background: #4caf50; color: white; border-color: #2e7d32; }
+    .option-btn.wrong { background: #f44336; color: white; text-decoration: line-through; }
+    .change-question-btn {
+      background: #2c3e50;
+      border: none;
+      padding: 12px;
+      border-radius: 48px;
+      font-weight: 900;
+      color: white;
+      width: 100%;
+      margin: 8px 0 12px;
+      cursor: pointer;
+    }
+    .joker-bar {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 12px 0;
+    }
+    .joker-btn {
+      padding: 8px 12px;
+      border-radius: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      border: none;
+      background: #2c3e50;
+      color: #ffd966;
+      transition: 0.1s;
+      font-size: 0.7rem;
+    }
+    .joker-btn.owned {
+      background: #2e7d32;
+      color: white;
+      box-shadow: 0 0 5px #4caf50;
+    }
+    .double-confirm-btn {
+      background: #ff9800;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 8px auto;
+      display: block;
+      width: 80%;
+    }
+    .feedback {
+      text-align: center;
+      font-weight: bold;
+      min-height: 50px;
+      font-size: 0.9rem;
+    }
+    .final-badge {
+      background: #ff6600;
+      color: white;
+      padding: 6px 15px;
+      border-radius: 40px;
+      font-weight: bold;
+      display: inline-block;
+      margin-bottom: 10px;
+      animation: pulse 1s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.9; background: #ff6600; }
+      50% { transform: scale(1.05); opacity: 1; background: #ff3300; }
+      100% { transform: scale(1); opacity: 0.9; background: #ff6600; }
+    }
+
+    .market-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin-top: 8px;
+    }
+    .market-item {
+      background: #fff0e0;
+      border-radius: 24px;
+      padding: 12px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .claim-btn {
+      background: #4caf50;
+      border: none;
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    .claim-btn:disabled {
+      background: #aaa;
+      cursor: not-allowed;
+    }
+
+    @media (max-width: 1100px) {
+      .main-grid { grid-template-columns: 1fr; }
+      .category-grid { grid-template-columns: repeat(5, 1fr); }
+    }
+    @media (max-width: 700px) {
+      .category-grid { grid-template-columns: repeat(2, 1fr); }
+      .options { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="arena">
+  <div class="control-bar">
+    <button id="resetGameBtn" class="reset-btn">🔄 BAŞTAN BAŞLA</button>
+    <button id="fullscreenBtn" class="ctrl-btn">🖥️ Tam Ekran</button>
+    <button id="exitFullscreenBtn" class="ctrl-btn">🚪 Tam Ekrandan Çık</button>
+    <button id="mobileViewBtn" class="ctrl-btn">📱 Mobil Görünüm</button>
+  </div>
+
+  <div class="main-grid">
+    <!-- SOL OYUNCU -->
+    <div class="card">
+      <div class="player-header">
+        <button id="randomPlayerBtn" class="rand-btn">🎲 RASTGELE OYUNCU SEÇ 🎲</button>
+        <div class="active-player-info" id="activePlayerInfo">👤 Aktif Oyuncu: --</div>
+        <select id="playerSelect" class="player-select"></select>
+      </div>
+      <div class="stats-mini">
+        <span>🦉 Baykuş: <strong id="activeOwls">0</strong></span>
+        <span>🌀 Tur: <strong id="currentTur">1</strong>/3</span>
+        <span>🔥 Seri: <strong id="activeStreak">0</strong>/3</span>
+        <span>🏆 Şampiyon: <span id="championStatus">❌</span></span>
+      </div>
+      
+      <div class="eliminate-section">
+        <input type="number" id="eliminateInput" placeholder="Oyuncu No (1-30)" min="1" max="30">
+        <button id="eliminateBtn">🗑️ Elenen Ekle</button>
+        <button id="removeEliminatedBtn" class="remove-out">↩️ Elenen Çıkar</button>
+      </div>
+      <div><h4>💀 ELENENLER</h4><div id="eliminatedList" class="badge-list"></div></div>
+      <div style="margin-top: 15px;"><h4>🏆 ŞAMPİYONLAR</h4><div id="championList" class="badge-list"></div></div>
+    </div>
+
+    <!-- ORTA KATEGORİ + SORU -->
+    <div class="card">
+      <div class="category-header">
+        <h2>🎨 KATEGORİ RENKLERİ</h2>
+        <button id="catSelectRandomBtn" class="select-cat-btn">🎲 RASTGELE KATEGORİ & SORU</button>
+      </div>
+      <div class="category-grid" id="categoryGrid"></div>
+      <div class="question-panel">
+        <div id="catDisplay" style="background:#ffe0b5; padding:10px; border-radius:32px; text-align:center; margin-bottom:12px;">🎲 Yeni soru için butona tıkla</div>
+        <div id="finalBadge" style="text-align:center;"></div>
+        <div class="word" id="questionWord">🤔 Başlamak için butona tıkla</div>
+        <div class="options" id="optionsContainer"></div>
+        <button id="changeQuestionBtn" class="change-question-btn">🔄 Yeni Rastgele Soru</button>
+        <div class="joker-bar">
+          <button id="useFiftyJoker" class="joker-btn" data-joker="fifty">🎲 %50 (2 şık)</button>
+          <button id="useTwentyFiveJoker" class="joker-btn" data-joker="twentyFive">🎯 %25 (1 şık)</button>
+          <button id="usePassJoker" class="joker-btn" data-joker="pass">⏩ PAS</button>
+          <button id="useDoubleJoker" class="joker-btn" data-joker="double">🔄 ÇİFT CEVAP</button>
+          <button id="useChangeCatJoker" class="joker-btn" data-joker="changeCat">🎲 KATEGORİ DEĞİŞTİR</button>
+        </div>
+        <button id="confirmDoubleBtn" class="double-confirm-btn" style="display: none;">✅ Çift Cevap Onayla</button>
+        <div class="feedback" id="feedbackMsg"></div>
+      </div>
+    </div>
+
+    <!-- SAĞ MARKET -->
+    <div class="card">
+      <h3 style="color:#e67e22;">🏪 MARKET (1 Baykuş = 1 Joker)</h3>
+      <div class="market-grid" id="marketGrid"></div>
+      <div style="margin-top: 18px; background: #fff0e0; border-radius: 24px; padding: 10px;">
+        <div>Sahip olunan jokerler:</div>
+        <div id="jokerStatus" style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px;"></div>
+        <div style="font-size:0.7rem; margin-top:10px;">✨ Her 3 doğru = 1 Baykuş → marketten 1 joker al.<br>🏆 3 Turu tamamla + Final sorusu = ŞAMPİYON!<br>❌ Yanlış cevap = ELENME!<br>🎲 Her yeni soru rastgele kategoriden gelir.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ---------- 1'den 10'a kadar kategoriler (sadece renk ve zorluk seviyesi) ----------
+  const CATEGORIES = [];
+  for (let i = 1; i <= 10; i++) {
+    CATEGORIES.push({ id: `cat${i}`, level: i });
+  }
+
+  // Tüm kelime havuzu (verilen listeden) - sıralama zorluk sırasını temsil eder (baştakiler daha kolay)
+  const FULL_QUESTION_SET = [
+            { english: "FRIEND", turkish: "ARKADAŞ", options: ["ARKADAŞ", "ETKINLIK", "TARIH", "DAVETIYE"] },
+            { english: "BUDDY", turkish: "KANKA", options: ["DAVETIYE", "KANKA", "YER", "MESGUL"] },
+            { english: "BEST FRIEND", turkish: "EN IYI ARKADAS", options: ["ARKADAŞ", "DOĞRU ARKADAŞ", "EN İYİ ARKADAŞ", "YAKIN ARKADAŞ"] },
+            { english: "TRUE FRIEND", turkish: "DOĞRU ARKADAŞ", options: ["EN İYİ ARKADAŞ", "YAKIN ARKADAŞ", "DOĞRU ARKADAŞ", "ARKADAŞ"] },
+            { english: "MATE", turkish: "ARKADAŞ", options: ["TARIH", "ARKADAŞ", "YER", "ETKINLIK"] },
+            { english: "COME OVER", turkish: "UĞRAMAK", options: ["DAVET ETMEK", "UĞRAMAK", "KABUL ETMEK", "REDDETMEK"] },
+            { english: "COUNT ON", turkish: "GÜVENMEK", options: ["DESTEK OLMAK", "UĞRAMAK", "GÜVENMEK", "KABUL ETMEK"] },
+            { english: "SECRET", turkish: "SIR", options: ["ETKİNLİK", "DAVET", "SIR", "DESTEK OLMAK"] },
+            { english: "FRIENDSHIP", turkish: "ARKADAŞLIK", options: ["SIR", "DAVET", "ARKADAŞLIK", "YOĞUN"] },
+            { english: "SPEND TIME", turkish: "VAKİT GEÇİRMEK", options: ["VAKİT GEÇİRMEK", "BULUŞMAK", "SATIN ALMAK", "UĞRAMAK"] },
+            { english: "TELL THE TRUTH", turkish: "DOĞRU SÖYLEMEK", options: ["YALAN SÖYLEMEK", "MESAJ YAZMAK", "DOĞRU SÖYLEMEK", "ARAMAK"] },
+            { english: "SIMILAR", turkish: "BENZER", options: ["AYNI", "BENZER", "DAVET", "GÖNDEREN"] },
+            { english: "TRUST", turkish: "GÜVENMEK", options: ["DESTEKLEMEK", "GÜVENMEK", "REDDETMEK", "DAVET ETMEK"] },
+            { english: "TELL A LIE", turkish: "YALAN SÖYLEMEK", options: ["GÖNDERMEK", "ALMAK", "YALAN SÖYLEMEK", "DOĞRU SÖYLEMEK"] },
+            { english: "BACK (SB) UP", turkish: "DESTEKLEMEK", options: ["GÜVENMEK", "DESTEKLEMEK", "VAKİT GEÇİRMEK", "BULUŞMAK"] },
+            { english: "GENEROUS", turkish: "CÖMERT", options: ["CÖMERT", "CİMRİ", "SİNSİ", "DÜRÜST"] },
+            { english: "AMUSING", turkish: "EĞLENCELİ", options: ["DAKİK", "EĞLENCELİ", "YARDIMSEVER", "AGRESİF"] },
+            { english: "HELPFUL", turkish: "YARDIMSEVER", options: ["YARDIMSEVER", "DÜRÜST", "GÜVENİLİR", "CÖMERT"] },
+            { english: "KIND/POLITE", turkish: "KİBAR", options: ["GÜVENİLMEZ", "DAKİK", "KİBAR", "BENCİL"] },
+            { english: "RELIABLE", turkish: "GÜVENİLİR", options: ["DÜRÜST", "NAZİK", "BENCİL", "GÜVENİLİR"] },
+            { english: "UNRELIABLE", turkish: "GÜVENİLMEZ", options: ["GÜVENİLMEZ", "DESTEKLEYİCİ", "YARDIMSEVER", "DÜRÜST"] },
+            { english: "ATTEND/JOIN", turkish: "KATILMAK", options: ["REDDETMEK", "KABUL ETMEK", "KATILMAK", "TEKLİF ETMEK"] },
+            { english: "ACCEPT", turkish: "KABUL ETMEK", options: ["REDDETMEK", "KABUL ETMEK", "KATILMAK", "TEKLİF ETMEK"] },
+            { english: "REFUSE", turkish: "REDDETMEK", options: ["REDDETMEK", "KABUL ETMEK", "KATILMAK", "TEKLİF ETMEK"] },
+            { english: "OFFER", turkish: "TEKLİF ETMEK", options: ["REDDETMEK", "KABUL ETMEK", "KATILMAK", "TEKLİF ETMEK"] },
+            { english: "MOVIE", turkish: "FİLM", options: ["TİYATRO OYUNU", "FİLM", "KONSER", "DİZİ"] },
+            { english: "EVENT", turkish: "ETKİNLİK", options: ["ETKİNLİK", "SERGİ", "YER", "ZAMAN"] },
+            { english: "CYCLING", turkish: "BİSİKLETE BİNME", options: ["FİLM", "SERGİ", "BİSİKLETE BİNME", "EĞLENCELİ"] },
+            { english: "EXHIBITION", turkish: "SERGİ", options: ["TİYATRO OYUNU", "SERGİ", "FİLM", "KONSER"] },
+            { english: "ART", turkish: "SANAT", options: ["SANAT", "MÜZİK", "TİYATRO", "SİNEMA"] },
+            { english: "PAINTINGS", turkish: "TABLOLAR", options: ["ŞARKILAR", "TABLOLAR", "HEYKELLER", "OYUNLAR"] },
+            { english: "SCULPTURES", turkish: "HEYKELLER", options: ["ŞARKILAR", "TABLOLAR", "HEYKELLER", "OYUNLAR"] },
+            { english: "MOVIE THEATRE", turkish: "SİNEMA", options: ["TİYATRO", "SİNEMA", "KONSER", "SERGİ"] },
+            { english: "VISIT", turkish: "ZİYARET ETMEK", options: ["BULUŞMAK", "ZİYARET ETMEK", "DAVET ETMEK", "REDDETMEK"] },
+            { english: "BOOK FAIR", turkish: "KITAP FUARI", options: ["BILIM FUARI", "KITAP FUARI", "SANAT SERGİSİ", "RESİM SERGİSİ"] },
+            { english: "HAVE THING IN COMMON", turkish: "ORTAK NOKTALARA SAHİP OLMAK", options: ["GÜVENMEK", "ORTAK NOKTALARA SAHİP OLMAK", "DAVET ETMEK", "KABUL ETMEK"] },
+            { english: "KEEP SECRETS", turkish: "SIR TUTMAK", options: ["SIRLARI PAYLAŞMAK", "SIR TUTMAK", "DOĞRU SÖYLEMEK", "YALAN SÖYLEMEK"] },
+            { english: "SHARE", turkish: "PAYLAŞMAK", options: ["SAAT", "TARİH", "PAYLAŞMAK", "ÖNEMSEMEK"] },
+            { english: "FULL / STUFFED", turkish: "TOK", options: ["AÇ", "TOK", "SUSAMIŞ", "YORGUN"] },
+            { english: "BEVERAGE / DRINK", turkish: "İÇECEK", options: ["YİYECEK", "ÇORBA", "ANA YEMEK", "İÇECEK"] },
+            { english: "BRING", turkish: "GETİRMEK", options: ["GETİRMEK", "MEŞGUL", "YÜZÜK", "İÇECEK"] },
+            { english: "DESSERT", turkish: "TATLI", options: ["ANA YEMEK", "TATLI", "ÇORBA", "İÇECEK"] },
+            { english: "HUNGRY", turkish: "AÇ", options: ["TOK", "DOYMUŞ", "AÇ", "SUSAMIŞ"] },
+            { english: "SOUP", turkish: "ÇORBA", options: ["TATLI", "ÇORBA", "İÇECEK", "ANA YEMEK"] },
+            { english: "MISS A CHANCE", turkish: "ŞANSI KAÇIRMAK", options: ["İZLEMEK", "KEK YAPMAK", "ŞANSI KAÇIRMAK", "KABUL ETMEMEK"] },
+            { english: "BAND", turkish: "MÜZİK GRUBU", options: ["MÜZİK GRUBU", "BANT", "YASAK", "VE"] },
+            { english: "TICKET", turkish: "BİLET", options: ["CEKET", "BİLET", "BİLEK", "ÇİLEK"] },
+            { english: "TOGETHER", turkish: "BİRLİKTE", options: ["YALNIZ", "YANLIŞ", "BİRLİKTE", "BENZER"] },
+            { english: "APOLOGIZE", turkish: "ÖZÜR DİLEMEK", options: ["REDDETMEK", "BAHANE SUNMAK", "KABUL ETMEK", "ÖZÜR DİLEMEK"] },
+            { english: "EXCUSE", turkish: "BAHANE", options: ["DAVETİYE", "ETKİNLİK", "BAHANE", "TARİH"] },
+            { english: "REASON", turkish: "SEBEP", options: ["CÖMERT", "SEBEP", "GÜVENİLİR", "TEKLİF"] },
+            { english: "DATE", turkish: "TARİH", options: ["SAAT", "TARİH", "YER", "ETKİNLİK"] },
+            { english: "FEE / PRICE", turkish: "ÜCRET", options: ["YER", "ÜCRET", "SAAT", "DETAY"] },
+            { english: "INVITE", turkish: "DAVET ETMEK", options: ["UĞRAMAK", "DAVET ETMEK", "REDDETMEK", "BAHANE SUNMAK"] },
+            { english: "LOCATION / PLACE", turkish: "KONUM", options: ["TARİH", "KONUM", "ETKİNLİK", "ÜCRET"] },
+            { english: "SENDER", turkish: "GÖNDEREN", options: ["ALICI", "AKTİVİTE", "GÖNDEREN", "KONUM"] },
+            { english: "RECEIVER", turkish: "ALICI", options: ["ALICI", "AKTİVİTE", "GÖNDEREN", "KONUM"] },
+            { english: "TIME", turkish: "ZAMAN", options: ["YER", "TARİH", "ÜCRET", "ZAMAN"] },
+            { english: "SCIENCE FICTION / SCI-FI", turkish: "BİLİM KURGU", options: ["AKSİYON", "ANİMASYON", "BİLİM KURGU", "KOMEDİ"] },
+            { english: "SEE A PLAY", turkish: "TİYATRO OYUNU İZLEMEK", options: ["OYUN OYNAMAK", "FİLM İZLEMEK", "TİYATRO OYUNU İZLEMEK", "TV İZLEMEK"] },
+            { english: "BOARD GAMES", turkish: "MASA OYUNLARI", options: ["ÇEVRİMİÇİ OYUNLAR", "TAKIM OYUNLARI", "MASA OYUNLARI", "OYUN OYNAMAK"] },
+            { english: "SELF-DISIPLINED", turkish: "ÖZ DİSİPLİNLİ", options: ["BENCİL", "ÖZ DİSİPLİNLİ", "BEN MERKEZLİ", "İNATÇI"] },
+            { english: "REUNION", turkish: "YENİDEN BİR ARAYA GELMEK", options: ["YENİDEN BİR ARAYA GELMEK", "TEKRAR ETMEK", "CÖMERT", "GÜVENMEK"] },
+            { english: "CAN'T ACCEPT", turkish: "KABUL EDEMEMEK", options: ["REDDEDEMEMEK", "KABUL EDEMEMEK", "MAZERET SUNMAJ", "SEBEP SUNMAK"] },
+            { english: "CAN'T REFUSE", turkish: "REDDEDEMEMEK", options: ["REDDEDEMEMEK", "KABUL EDEMEM", "MAZERET SUNMAK", "SEBEP SUNMAK"] },
+            { english: "WHY NOT?", turkish: "NEDEN OLMASIN", options: ["HAYIR", "NEDEN OLMASIN", "NEDEN", "OLMAZ"] },
+            { english: "PARENTS", turkish: "EBEVEYN", options: ["ANNE", "BABA", "EBEVEYN", "AİLE"] },
+            { english: "RELATIVES", turkish: "AKRABALAR", options: ["AKRABALAR", "ETKINLIK", "İLİŞKİ", "ARKADAŞ"] },
+            { english: "MORE INFORMATION / DETAILS", turkish: "DAHA FAZLA BİLGİ", options: ["DAHA FAZLA ARKADAŞ", "DAHA FAZLA ÖNEM", "DAHA FAZLA BİLGİ", "DAHA FAZLA KURAL"] },
+            { english: "INVITER", turkish: "DAVET EDEN", options: ["DAVET EDİLEN", "DAVET", "DAVET EDEN", "DAVETİYE"] },
+            { english: "INVITEE", turkish: "DAVET EDİLEN", options: ["DAVET", "DAVET EDİLEN", "DAVET EDEN", "DAVETİYE"] },
+            { english: "BUT / HOWEVER", turkish: "FAKAT", options: ["VE", "FAKAT", "BU YÜZDEN", "ÇÜNKÜ"] },
+            { english: "EXAM", turkish: "SINAV", options: ["DERS", "SINAV", "PLAN", "PROJE"] },
+            { english: "ANOTHER", turkish: "BİR BAŞKA", options: ["DİĞER", "VE", "FAKAT", "BİR BAŞKA"] },
+  ];
+
+  // Soruları zorluk sırasına göre kategorilere dağıt (1 en kolay -> 10 en zor)
+  function buildQuestionsByDifficulty() {
+    const total = FULL_QUESTION_SET.length;
+    const chunkSize = Math.floor(total / 10);
+    const DATA_BY_CAT = {};
+    for (let i = 1; i <= 10; i++) DATA_BY_CAT[`cat${i}`] = [];
+    for (let i = 0; i < total; i++) {
+      let catIndex = Math.floor(i / chunkSize);
+      if (catIndex >= 10) catIndex = 9;
+      const catId = `cat${catIndex + 1}`;
+      DATA_BY_CAT[catId].push({ ...FULL_QUESTION_SET[i] });
+    }
+    for (let i = 1; i <= 10; i++) {
+      DATA_BY_CAT[`cat${i}`] = DATA_BY_CAT[`cat${i}`].sort(() => Math.random() - 0.5);
+    }
+    return DATA_BY_CAT;
+  }
+  const DATA = buildQuestionsByDifficulty();
+
+  // Oyuncu yapısı
+  let players = [];
+  let currentPlayerId = 1;
+  let currentCategory = null;
+  let currentQuestionObj = null;
+  let currentOptionsModified = null;
+  let questionLocked = false;
+  let jokerUsed = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false };
+  let doubleModeActive = false;
+  let selectedDoubleOptions = [];
+  let animationInterval = null;
+  let isFinalQuestion = false;
+
+  // Temiz oyuncu oluşturma (sıfırlama için)
+  function createFreshPlayers() {
+    const newPlayers = [];
+    for (let i = 1; i <= 30; i++) {
+      newPlayers.push({
+        id: i, name: `Oyuncu ${i}`, owls: 0, streak: 0, eliminated: false, isChampion: false,
+        tur: 1, turProgress: 0,
+        jokers: { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false },
+        claimedJokers: { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false },
+        usedWords: {}
+      });
+    }
+    return newPlayers;
+  }
+
+  function initPlayers() {
+    players = createFreshPlayers();
+  }
+  
+  function getPlayer(id) { return players.find(p => p.id === id); }
+  function saveGame() { localStorage.setItem("owlQuestTur", JSON.stringify({ players, currentPlayerId })); }
+  function loadGame() {
+    const saved = localStorage.getItem("owlQuestTur");
+    if (saved) {
+      try { const d = JSON.parse(saved); players = d.players; currentPlayerId = d.currentPlayerId; } catch(e) {}
+    }
+    if (!players || players.length === 0) initPlayers();
+    players.forEach(p => { 
+      if (p.tur === undefined) { p.tur = 1; p.turProgress = 0; } 
+      if (!p.usedWords) p.usedWords = {};
+      if (!p.jokers) p.jokers = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false };
+      if (!p.claimedJokers) p.claimedJokers = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false };
+    });
+  }
+
+  // OYUNU SIFIRLA
+  function resetGame() {
+    // Tüm state'leri sıfırla
+    if (animationInterval) clearInterval(animationInterval);
+    players = createFreshPlayers();
+    currentPlayerId = 1;  // 1 numaralı oyuncuyu aktif yap
+    currentCategory = null;
+    currentQuestionObj = null;
+    currentOptionsModified = null;
+    questionLocked = false;
+    jokerUsed = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false };
+    doubleModeActive = false;
+    selectedDoubleOptions = [];
+    isFinalQuestion = false;
+    
+    // UI sıfırlama
+    document.getElementById("questionWord").innerHTML = "🤔 Başlamak için butona tıkla";
+    document.getElementById("optionsContainer").innerHTML = "";
+    document.getElementById("catDisplay").innerHTML = "🎲 Yeni soru için butona tıkla";
+    document.getElementById("confirmDoubleBtn").style.display = "none";
+    document.getElementById("finalBadge").innerHTML = "";
+    document.getElementById("feedbackMsg").innerHTML = "Oyun baştan başlatıldı! Yeni oyuncu: Oyuncu 1";
+    
+    // localStorage'ı güncelle ve UI yenile
+    saveGame();
+    updateUI();
+    renderCategoryGrid();
+  }
+
+  function isActivePlayer(p) { return !p.eliminated && !p.isChampion; }
+
+  function pickRandomCategoryAndLoadQuestion() {
+    const randomIndex = Math.floor(Math.random() * CATEGORIES.length);
+    const cat = CATEGORIES[randomIndex];
+    currentCategory = cat;
+    document.getElementById("catDisplay").innerHTML = `🎨 Rastgele kategori (Zorluk ${cat.level})`;
+    loadNewQuestion();
+  }
+
+  function pickQuestion(catId) {
+    const list = DATA[catId]; if (!list || list.length === 0) return null;
+    const p = getPlayer(currentPlayerId);
+    if (!p.usedWords[catId]) p.usedWords[catId] = [];
+    let available = list.filter(q => !p.usedWords[catId].includes(q.english));
+    if (available.length === 0) { p.usedWords[catId] = []; available = list; }
+    const q = { ...available[Math.floor(Math.random() * available.length)] };
+    p.usedWords[catId].push(q.english);
+    const shuffledOpts = [...q.options];
+    for (let i = shuffledOpts.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffledOpts[i], shuffledOpts[j]] = [shuffledOpts[j], shuffledOpts[i]];
+    }
+    q.options = shuffledOpts;
+    return q;
+  }
+
+  function loadNewQuestion() {
+    const p = getPlayer(currentPlayerId);
+    if (!p || !isActivePlayer(p)) { 
+      document.getElementById("feedbackMsg").innerHTML = "Aktif oyuncu yok! Lütfen 'Rastgele Oyuncu Seç' butonuna tıklayın.";
+      return false; 
+    }
+    if (!currentCategory) { pickRandomCategoryAndLoadQuestion(); return true; }
+    
+    // Final sorusu kontrolü
+    if (p.tur === 3 && p.turProgress === 3 && !isFinalQuestion) {
+      isFinalQuestion = true;
+      document.getElementById("finalBadge").innerHTML = '<div class="final-badge">🏆 FİNAL SORUSU 🏆</div>';
+      document.getElementById("feedbackMsg").innerHTML = "🔥 FİNAL SORUSU! Doğru cevaplarsan ŞAMPİYON olursun! 🔥";
+    } else if (!(p.tur === 3 && p.turProgress === 3)) {
+      isFinalQuestion = false;
+      document.getElementById("finalBadge").innerHTML = '';
+    }
+    
+    const q = pickQuestion(currentCategory.id);
+    if (!q) return false;
+    currentQuestionObj = q;
+    currentOptionsModified = [...q.options];
+    document.getElementById("questionWord").innerHTML = q.english;
+    renderOptions(currentOptionsModified);
+    if (!(p.tur === 3 && p.turProgress === 3 && isFinalQuestion)) {
+      document.getElementById("feedbackMsg").innerHTML = "Yeni soru! Cevap seç / joker kullan.";
+    }
+    questionLocked = false; doubleModeActive = false; selectedDoubleOptions = [];
+    jokerUsed = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false };
+    document.getElementById("confirmDoubleBtn").style.display = "none";
+    saveGame();
+    return true;
+  }
+
+  function renderOptions(opts) {
+    const cont = document.getElementById("optionsContainer");
+    cont.innerHTML = "";
+    opts.forEach(opt => {
+      const btn = document.createElement("button");
+      btn.className = "option-btn";
+      btn.innerText = opt;
+      btn.onclick = () => {
+        if (doubleModeActive && !questionLocked) {
+          if (selectedDoubleOptions.includes(opt)) {
+            selectedDoubleOptions = selectedDoubleOptions.filter(s => s !== opt);
+            btn.classList.remove("selected-for-double");
+          } else if (selectedDoubleOptions.length < 2) {
+            selectedDoubleOptions.push(opt);
+            btn.classList.add("selected-for-double");
+          } else { document.getElementById("feedbackMsg").innerHTML = "En fazla 2 şık seçebilirsin!"; }
+        } else if (!doubleModeActive && !questionLocked && !jokerUsed.double) {
+          handleNormalAnswer(opt);
+        } else { document.getElementById("feedbackMsg").innerHTML = "Şu anda cevap veremezsin."; }
+      };
+      cont.appendChild(btn);
+    });
+  }
+
+  function handleNormalAnswer(selected) {
+    if (questionLocked) return;
+    const p = getPlayer(currentPlayerId);
+    if (!p || !isActivePlayer(p)) return;
+    const isCorrect = (selected === currentQuestionObj.turkish);
+    
+    if (isCorrect) {
+      if (isFinalQuestion && p.tur === 3 && p.turProgress === 3) {
+        championFinish(p);
+        return;
+      }
+      
+      p.streak += 1;
+      p.turProgress += 1;
+      document.getElementById("feedbackMsg").innerHTML = `✅ Doğru! Seri: ${p.streak}/3 | Tur ${p.tur}/3 (${p.turProgress}/3)`;
+      if (p.streak >= 3) {
+        p.streak = 0;
+        p.owls += 1;
+        document.getElementById("feedbackMsg").innerHTML += " 🦉 +1 Baykuş!";
+        updateUI();
+      }
+      
+      if (p.turProgress === 3 && p.tur < 3) {
+        p.tur += 1;
+        p.turProgress = 0;
+        document.getElementById("feedbackMsg").innerHTML += ` 🎉 TUR ${p.tur-1} TAMAMLANDI! Tur ${p.tur}/3 başlıyor. 🎉`;
+        updateUI();
+        questionLocked = true;
+        disableOptions(true, currentQuestionObj.turkish, null);
+        document.getElementById("feedbackMsg").innerHTML += " Yeni soru için 'Yeni Rastgele Soru' butonuna tıkla.";
+        return;
+      } else if (p.turProgress === 3 && p.tur === 3) {
+        document.getElementById("feedbackMsg").innerHTML += ` 🎉 3. TUR TAMAMLANDI! Şimdi FİNAL SORUSU için 'Yeni Rastgele Soru' butonuna tıkla. 🎉`;
+        updateUI();
+        questionLocked = true;
+        disableOptions(true, currentQuestionObj.turkish, null);
+        return;
+      }
+      
+      updateUI();
+      questionLocked = true;
+      disableOptions(true, currentQuestionObj.turkish, null);
+      document.getElementById("feedbackMsg").innerHTML += " Yeni soru için 'Yeni Rastgele Soru' butonuna tıkla.";
+    } else {
+      eliminatePlayerAndSwitch(p.id, "❌ Yanlış cevap! ");
+      updateUI();
+    }
+  }
+
+  function confirmDoubleAnswer() {
+    if (!doubleModeActive || questionLocked) return;
+    if (selectedDoubleOptions.length !== 2) { document.getElementById("feedbackMsg").innerHTML = "Lütfen tam 2 şık seç!"; return; }
+    const p = getPlayer(currentPlayerId);
+    if (!p || !isActivePlayer(p)) return;
+    const isCorrect = selectedDoubleOptions.includes(currentQuestionObj.turkish);
+    
+    if (isCorrect) {
+      if (isFinalQuestion && p.tur === 3 && p.turProgress === 3) {
+        championFinish(p);
+        return;
+      }
+      p.streak += 1; p.turProgress += 1;
+      document.getElementById("feedbackMsg").innerHTML = `✅ Çift Cevap ile DOĞRU! Seri: ${p.streak}/3 | Tur ${p.tur}/3 (${p.turProgress}/3)`;
+      if (p.streak >= 3) { p.streak = 0; p.owls += 1; updateUI(); }
+      if (p.turProgress === 3 && p.tur < 3) { 
+        p.tur += 1; p.turProgress = 0; 
+        updateUI(); 
+        questionLocked = true; 
+        disableOptions(true, currentQuestionObj.turkish, null);
+        document.getElementById("feedbackMsg").innerHTML += " Yeni soru için 'Yeni Rastgele Soru' butonuna tıkla.";
+        return; 
+      }
+      else if (p.turProgress === 3 && p.tur === 3) { 
+        updateUI(); 
+        questionLocked = true; 
+        disableOptions(true, currentQuestionObj.turkish, null);
+        document.getElementById("feedbackMsg").innerHTML += " 3. TUR TAMAMLANDI! Final sorusu için butona tıkla.";
+        return; 
+      }
+      updateUI(); 
+      questionLocked = true; 
+      disableOptions(true, currentQuestionObj.turkish, null);
+    } else { 
+      eliminatePlayerAndSwitch(p.id, "❌ Çift Cevap ile YANLIŞ! "); 
+      updateUI();
+    }
+    doubleModeActive = false; selectedDoubleOptions = [];
+    document.getElementById("confirmDoubleBtn").style.display = "none";
+    p.jokers.double = false; jokerUsed.double = true; updateUI();
+  }
+
+  function disableOptions(lock, correctAns, wrongSelected) {
+    document.querySelectorAll(".option-btn").forEach(btn => {
+      if (lock && btn.innerText === correctAns) btn.classList.add("correct");
+      if (lock && wrongSelected && btn.innerText === wrongSelected) btn.classList.add("wrong");
+      if (lock) btn.disabled = true;
+    });
+  }
+
+  function eliminatePlayerAndSwitch(pid, reason) {
+    const p = getPlayer(pid);
+    if (!p || p.eliminated || p.isChampion) return false;
+    p.eliminated = true; p.streak = 0; p.tur = 1; p.turProgress = 0;
+    p.jokers = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false };
+    p.claimedJokers = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false };
+    saveGame();
+    document.getElementById("feedbackMsg").innerHTML = `${reason} Oyuncu ${p.name} ELENDI! Aktif oyuncu kalmadı, lütfen 'Rastgele Oyuncu Seç' butonuna tıklayın.`;
+    currentPlayerId = null;
+    updateUI();
+    resetForNewPlayer();
+    return true;
+  }
+
+  function championFinish(p) {
+    p.isChampion = true;
+    p.eliminated = false;
+    saveGame();
+    document.getElementById("feedbackMsg").innerHTML = `🏆 TEBRİKLER! ${p.name} FİNAL SORUSUNU DOĞRU BİLDİ ve ŞAMPİYON OLDU! 🏆\nYeni oyuncu seçmek için 'Rastgele Oyuncu Seç' butonuna tıklayın.`;
+    currentPlayerId = null;
+    updateUI();
+    resetForNewPlayer();
+  }
+
+  function resetForNewPlayer() { 
+    currentCategory = null; 
+    currentQuestionObj = null; 
+    questionLocked = false; 
+    doubleModeActive = false; 
+    selectedDoubleOptions = []; 
+    isFinalQuestion = false; 
+    document.getElementById("questionWord").innerHTML = "🤔 Yeni oyuncu seçin ve soru butonuna tıklayın"; 
+    document.getElementById("optionsContainer").innerHTML = ""; 
+    document.getElementById("catDisplay").innerHTML = "🎲 Önce oyuncu seçin"; 
+    document.getElementById("confirmDoubleBtn").style.display = "none"; 
+    document.getElementById("finalBadge").innerHTML = ""; 
+    renderCategoryGrid(); 
+  }
+
+  function renderCategoryGrid() {
+    const grid = document.getElementById("categoryGrid");
+    grid.innerHTML = "";
+    CATEGORIES.forEach((cat, idx) => {
+      const div = document.createElement("div");
+      div.className = "cat-card-item";
+      div.setAttribute("data-cat", idx);
+      div.innerHTML = `<div class="cat-icon">🎨</div>`;
+      div.style.cursor = "default";
+      grid.appendChild(div);
+    });
+  }
+
+  function startRandomCategory() {
+    const p = getPlayer(currentPlayerId);
+    if (!p || !isActivePlayer(p)) { 
+      document.getElementById("feedbackMsg").innerHTML = "Önce 'Rastgele Oyuncu Seç' butonu ile bir oyuncu seçin!";
+      return; 
+    }
+    if (animationInterval) clearInterval(animationInterval);
+    const cards = document.querySelectorAll(".cat-card-item");
+    let step = 0;
+    function clearGlow() { cards.forEach(c => c.classList.remove("active-glow")); }
+    animationInterval = setInterval(() => {
+      clearGlow();
+      cards[step % cards.length].classList.add("active-glow");
+      step++;
+      if (step >= 10) {
+        clearInterval(animationInterval); animationInterval = null;
+        const finalIdx = Math.floor(Math.random() * cards.length);
+        clearGlow();
+        cards[finalIdx].classList.add("active-glow");
+        setTimeout(() => {
+          const selectedCat = CATEGORIES[finalIdx];
+          currentCategory = selectedCat;
+          document.getElementById("catDisplay").innerHTML = `🎨 Rastgele kategori (Zorluk ${selectedCat.level})`;
+          loadNewQuestion();
+          cards[finalIdx].classList.remove("active-glow");
+        }, 150);
+      }
+    }, 300);
+  }
+
+  function changeQuestion() { 
+    const p = getPlayer(currentPlayerId);
+    if (!p || !isActivePlayer(p)) { 
+      document.getElementById("feedbackMsg").innerHTML = "Önce 'Rastgele Oyuncu Seç' butonu ile bir oyuncu seçin!";
+      return; 
+    }
+    if (!currentCategory) { startRandomCategory(); return; }
+    const newCat = CATEGORIES[Math.floor(Math.random() * CATEGORIES.length)];
+    currentCategory = newCat;
+    document.getElementById("catDisplay").innerHTML = `🎨 Rastgele kategori (Zorluk ${newCat.level})`;
+    loadNewQuestion(); 
+  }
+
+  // Jokerler (kısa halleriyle)
+  function useFifty() { if (questionLocked || !currentQuestionObj || doubleModeActive) return; const p = getPlayer(currentPlayerId); if (!p || !p.jokers.fifty) { document.getElementById("feedbackMsg").innerHTML = "%50 Joker yok!"; return; } if (jokerUsed.fifty) return; const wrongs = currentOptionsModified.filter(opt => opt !== currentQuestionObj.turkish); if (wrongs.length < 2) return; currentOptionsModified = currentOptionsModified.filter(opt => !wrongs.slice(0,2).includes(opt)); renderOptions(currentOptionsModified); p.jokers.fifty = false; jokerUsed.fifty = true; updateUI(); }
+  function useTwentyFive() { if (questionLocked || !currentQuestionObj || doubleModeActive) return; const p = getPlayer(currentPlayerId); if (!p || !p.jokers.twentyFive) { document.getElementById("feedbackMsg").innerHTML = "%25 Joker yok!"; return; } if (jokerUsed.twentyFive) return; const wrongs = currentOptionsModified.filter(opt => opt !== currentQuestionObj.turkish); if (wrongs.length < 1) return; currentOptionsModified = currentOptionsModified.filter(opt => opt !== wrongs[0]); renderOptions(currentOptionsModified); p.jokers.twentyFive = false; jokerUsed.twentyFive = true; updateUI(); }
+  function usePass() { if (questionLocked || doubleModeActive) return; const p = getPlayer(currentPlayerId); if (!p || !p.jokers.pass) { document.getElementById("feedbackMsg").innerHTML = "PAS joker yok!"; return; } p.jokers.pass = false; updateUI(); changeQuestion(); document.getElementById("feedbackMsg").innerHTML = "⏩ PAS kullanıldı, yeni soru!"; }
+  function useDouble() { if (questionLocked || doubleModeActive) return; const p = getPlayer(currentPlayerId); if (!p || !p.jokers.double) { document.getElementById("feedbackMsg").innerHTML = "ÇİFT CEVAP joker yok!"; return; } if (jokerUsed.double) return; doubleModeActive = true; selectedDoubleOptions = []; document.getElementById("confirmDoubleBtn").style.display = "block"; document.getElementById("feedbackMsg").innerHTML = "🔄 Çift Cevap modu aktif! İki şık seç ve onayla."; }
+  function useChangeCategory() { 
+    if (questionLocked) return;
+    const p = getPlayer(currentPlayerId);
+    if (!p || !p.jokers.changeCat) { document.getElementById("feedbackMsg").innerHTML = "Kategori Değiştir joker yok!"; return; }
+    if (jokerUsed.changeCat) return;
+    const newCat = CATEGORIES[Math.floor(Math.random() * CATEGORIES.length)];
+    currentCategory = newCat;
+    document.getElementById("catDisplay").innerHTML = `🎨 Kategori değiştirildi (Zorluk ${newCat.level}) (Joker)`; 
+    loadNewQuestion(); 
+    p.jokers.changeCat = false; jokerUsed.changeCat = true; 
+    updateUI(); 
+    document.getElementById("feedbackMsg").innerHTML = "🎲 Kategori değiştirildi! Yeni soru geldi.";
+  }
+
+  function updateJokerButtons() { const p = getPlayer(currentPlayerId); if (!p) return; document.querySelectorAll('.joker-btn').forEach(btn => { const type = btn.dataset.joker; if (p.jokers[type]) btn.classList.add('owned'); else btn.classList.remove('owned'); }); }
+  function updateUI() { 
+    const p = currentPlayerId ? getPlayer(currentPlayerId) : null; 
+    if (p) {
+      document.getElementById("activeOwls").innerText = p.owls; 
+      document.getElementById("activeStreak").innerText = `${p.streak}/3`; 
+      document.getElementById("currentTur").innerText = `${p.tur}/3`; 
+      document.getElementById("championStatus").innerHTML = p.isChampion ? "🏆 ŞAMPİYON" : "❌"; 
+      document.getElementById("jokerStatus").innerHTML = `<span>🎲 %50: ${p.jokers.fifty ? "✅" : "❌"}</span><span>🎯 %25: ${p.jokers.twentyFive ? "✅" : "❌"}</span><span>⏩ PAS: ${p.jokers.pass ? "✅" : "❌"}</span><span>🔄 Çift: ${p.jokers.double ? "✅" : "❌"}</span><span>🎲 KatDeğ: ${p.jokers.changeCat ? "✅" : "❌"}</span>`; 
+      document.getElementById("activePlayerInfo").innerHTML = `👤 ${p.name} (No:${p.id}) | 🦉${p.owls} | 🔥${p.streak}/3 | Tur ${p.tur}/3 (${p.turProgress}/3)`;
+    } else {
+      document.getElementById("activeOwls").innerText = "0";
+      document.getElementById("activeStreak").innerText = "0/3";
+      document.getElementById("currentTur").innerText = "-/-";
+      document.getElementById("championStatus").innerHTML = "❌";
+      document.getElementById("jokerStatus").innerHTML = `<span>Joker yok</span>`;
+      document.getElementById("activePlayerInfo").innerHTML = "👤 Aktif Oyuncu: Yok";
+    }
+    if (p) renderMarket(p); 
+    renderEliminatedAndChampions(); 
+    renderPlayerSelect(); 
+    if (p) updateJokerButtons(); 
+    renderCategoryGrid(); 
+  }
+  function renderMarket(p) { if (!p) return; const items = [{ id:"fifty", name:"%50 Joker", owned:p.claimedJokers.fifty },{ id:"twentyFive", name:"%25 Joker", owned:p.claimedJokers.twentyFive },{ id:"pass", name:"PAS", owned:p.claimedJokers.pass },{ id:"double", name:"ÇİFT CEVAP", owned:p.claimedJokers.double },{ id:"changeCat", name:"KATEGORİ DEĞİŞTİR", owned:p.claimedJokers.changeCat }]; const totalClaimed = Object.values(p.claimedJokers).filter(v=>v).length; const availableClaims = p.owls - totalClaimed; const container = document.getElementById("marketGrid"); container.innerHTML = items.map(it => `<div class="market-item"><div><b>${it.name}</b></div><button class="claim-btn" data-item="${it.id}" ${!it.owned && availableClaims>0 ? "" : "disabled"}>${it.owned ? "✅ Alındı" : (availableClaims>0 ? "🔓 1🦉 ile Al" : "🔒 Yetersiz")}</button></div>`).join(""); document.querySelectorAll(".claim-btn").forEach(btn => { btn.onclick = () => claimJoker(currentPlayerId, btn.dataset.item); }); }
+  function claimJoker(pid, itemId) { const p = getPlayer(pid); if (!p || p.eliminated || p.isChampion) return; const totalClaimed = Object.values(p.claimedJokers).filter(v=>v).length; if (p.owls <= totalClaimed) { document.getElementById("feedbackMsg").innerHTML = "❌ Yeni baykuş kazanmalısın!"; return; } if (p.claimedJokers[itemId]) return; p.claimedJokers[itemId] = true; p.jokers[itemId] = true; saveGame(); updateUI(); document.getElementById("feedbackMsg").innerHTML = `🎉 ${itemId==="fifty"?"%50":itemId==="twentyFive"?"%25":itemId==="pass"?"PAS":itemId==="double"?"ÇİFT CEVAP":"KATEGORİ DEĞİŞTİR"} Jokeri alındı!`; }
+  function renderEliminatedAndChampions() { const eliminated = players.filter(p => p.eliminated && !p.isChampion); const champions = players.filter(p => p.isChampion); document.getElementById("eliminatedList").innerHTML = eliminated.length ? eliminated.map(p=>`<span class="badge">${p.name}</span>`).join("") : "<span class='badge'>Yok</span>"; document.getElementById("championList").innerHTML = champions.length ? champions.map(p=>`<span class="badge champ-badge">${p.name}</span>`).join("") : "<span>Henüz yok</span>"; }
+  function renderPlayerSelect() { const sel = document.getElementById("playerSelect"); const activePlayers = players.filter(p => isActivePlayer(p)); sel.innerHTML = activePlayers.map(p=>`<option value="${p.id}" ${currentPlayerId===p.id ? "selected":""}>${p.name} (🦉${p.owls}🔥${p.streak} T${p.tur})</option>`).join(""); if (activePlayers.length === 0) sel.innerHTML = "<option>Tüm oyuncular elendi/şampiyon</option>"; sel.onchange = () => { currentPlayerId = parseInt(sel.value); saveGame(); updateUI(); resetForNewPlayer(); }; }
+  function randomPlayer() { 
+    const active = players.filter(p => isActivePlayer(p)); 
+    if (active.length) { 
+      currentPlayerId = active[Math.floor(Math.random() * active.length)].id; 
+      updateUI(); 
+      resetForNewPlayer(); 
+      const infoDiv = document.getElementById("activePlayerInfo"); 
+      infoDiv.classList.add("highlight"); 
+      setTimeout(() => infoDiv.classList.remove("highlight"), 800);
+      document.getElementById("feedbackMsg").innerHTML = `🎲 Yeni oyuncu seçildi: ${getPlayer(currentPlayerId).name}. Şimdi 'Rastgele Kategori & Soru' butonuna tıklayın.`;
+    } else { 
+      alert("Hiç aktif oyuncu yok! Tüm oyuncular ya elendi ya da şampiyon oldu."); 
+    } 
+  }
+  function manualEliminate(pid) { const p = getPlayer(pid); if (!p || p.eliminated || p.isChampion) return; p.eliminated = true; p.streak = 0; p.tur = 1; p.turProgress = 0; p.jokers = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false }; p.claimedJokers = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false }; if (currentPlayerId === pid) { currentPlayerId = null; } saveGame(); updateUI(); resetForNewPlayer(); }
+  function uneliminatePlayer(pid) { const p = getPlayer(pid); if (!p || !p.eliminated) return; p.eliminated = false; p.tur = 1; p.turProgress = 0; p.streak = 0; p.owls = 0; p.isChampion = false; p.jokers = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false }; p.claimedJokers = { fifty: false, twentyFive: false, pass: false, double: false, changeCat: false }; if (currentPlayerId === null) currentPlayerId = pid; saveGame(); updateUI(); resetForNewPlayer(); }
+  function toggleFullscreen() { if (!document.fullscreenElement) document.documentElement.requestFullscreen(); }
+  function exitFullscreen() { if (document.fullscreenElement) document.exitFullscreen(); }
+  function setMobileView() { document.body.style.transform = "scale(0.95)"; document.body.style.transformOrigin = "top center"; setTimeout(()=>{ document.body.style.transform = ""; }, 300); }
+
+  document.getElementById("resetGameBtn").onclick = resetGame;
+  document.getElementById("catSelectRandomBtn").onclick = startRandomCategory;
+  document.getElementById("changeQuestionBtn").onclick = changeQuestion;
+  document.getElementById("useFiftyJoker").onclick = useFifty;
+  document.getElementById("useTwentyFiveJoker").onclick = useTwentyFive;
+  document.getElementById("usePassJoker").onclick = usePass;
+  document.getElementById("useDoubleJoker").onclick = useDouble;
+  document.getElementById("useChangeCatJoker").onclick = useChangeCategory;
+  document.getElementById("confirmDoubleBtn").onclick = confirmDoubleAnswer;
+  document.getElementById("randomPlayerBtn").onclick = randomPlayer;
+  document.getElementById("eliminateBtn").onclick = () => { let v = parseInt(document.getElementById("eliminateInput").value); if(v>=1&&v<=30) manualEliminate(v); else alert("1-30"); };
+  document.getElementById("removeEliminatedBtn").onclick = () => { let v = parseInt(document.getElementById("eliminateInput").value); if(v>=1&&v<=30) uneliminatePlayer(v); else alert("1-30"); };
+  document.getElementById("fullscreenBtn").onclick = toggleFullscreen;
+  document.getElementById("exitFullscreenBtn").onclick = exitFullscreen;
+  document.getElementById("mobileViewBtn").onclick = setMobileView;
+
+  loadGame(); renderCategoryGrid(); updateUI(); resetForNewPlayer();
+</script>
+</body>
+</html>

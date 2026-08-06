@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FlashWords v1.2 | Canbay İngilizce</title>
+<meta name="description" content="İngilizce dersi 8. sınıf ünitelerini içeren test oyunu. Ünite seçerek kelime bilginizi test edin.">
+<link rel="icon" type="image/png" href="../../images/favicon.png">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-user-select: none; user-select: none; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e8edf2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 8px 80px;
+}
+
+.color-bar, .color-bar-bottom, .page {
+  width: calc(100% - 20px);
+  max-width: 1900px;
+}
+.color-bar, .color-bar-bottom {
+  display: flex; height: 13px; overflow: hidden;
+}
+.color-bar { border-radius: 8px 8px 0 0; }
+.color-bar-bottom { border-radius: 0 0 8px 8px; margin-top: -1px; }
+.cb1 { background: #EF9A9A; flex: 1; }
+.cb2 { background: #A5D6A7; flex: 1; }
+.cb3 { background: #90CAF9; flex: 1; }
+.cb4 { background: #FFF176; flex: 1; }
+
+.page {
+  background: #fff;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.13);
+  overflow: hidden;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── Header ── */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px 12px;
+  border-bottom: 2px solid #f0f0f0;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.nav-links {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; font-weight: 700; color: #aaa; flex-shrink: 0;
+}
+.nav-links a { color: #1565C0; text-decoration: none; font-weight: 700; transition: color 0.15s; }
+.nav-links a:hover { color: #FF5722; }
+.nav-sep { color: #ccc; font-size: 15px; }
+.page-title { text-align: center; flex: 1; }
+.page-title .unit-label { font-size: 12px; font-weight: 700; color: #aaa; letter-spacing: 1px; text-transform: uppercase; }
+.page-title h1 { font-size: 22px; font-weight: 900; color: #4d4d4d; line-height: 1.2; }
+.canbay-btn {
+  font-size: 13px; font-weight: 800; color: #E53935;
+  text-decoration: none; background: #fff;
+  border: 2px solid #E53935; border-radius: 8px;
+  padding: 6px 14px; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.canbay-btn:hover { background: #FFEBEE; transform: translateY(-1px); }
+
+/* ── Content area ── */
+.page-content {
+  padding: 24px 20px;
+  flex: 1;
+}
+
+/* ── Start screen ── */
+.game-desc {
+  font-size: 14px; color: #666; line-height: 1.8;
+  text-align: center; margin-bottom: 20px;
+}
+.units {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  justify-content: center; margin-bottom: 24px;
+}
+.units label {
+  flex: 1 1 80px; max-width: 110px;
+  padding: 10px 12px; border-radius: 10px;
+  text-align: center; cursor: pointer;
+  background: #FFF9C4; color: #4a4a4a;
+  font-size: 13px; font-weight: 700;
+  border: 2px solid #F9A825;
+  transition: background 0.2s, transform 0.15s;
+}
+.units label:hover { background: #FFF176; transform: translateY(-2px); }
+.units label.checked { background: #F9A825; color: #fff; border-color: #F57F17; }
+.units input { display: none; }
+.btn-start {
+  display: block; margin: 0 auto;
+  font-size: 18px; font-weight: 900;
+  padding: 14px 48px;
+  border-radius: 12px; border: none;
+  background: #3949AB; color: #fff;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.18s;
+  box-shadow: 0 4px 18px rgba(57,73,171,0.32);
+}
+.btn-start:hover:not(:disabled) { background: #1a237e; transform: translateY(-2px); }
+.btn-start:disabled { background: #c0c6d9; cursor: default; box-shadow: none; }
+
+/* ── Game screen ── */
+.game { display: none; }
+.timer-row {
+  text-align: center;
+  font-size: 15px; font-weight: 800; color: #888;
+  margin-bottom: 12px;
+}
+.timer-row span {
+  font-size: 22px; font-weight: 900; color: #E53935;
+}
+.question-card {
+  padding: 22px 16px; margin-bottom: 16px;
+  border-radius: 14px;
+  text-align: center; font-size: 22px; font-weight: 900;
+  color: #333;
+  transition: background 0.4s;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.07);
+}
+.options {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 10px; margin-bottom: 16px;
+}
+.option {
+  padding: 14px 10px;
+  border-radius: 12px;
+  background: #E0F7FA; color: #006064;
+  border: 2px solid #B2EBF2;
+  text-align: center; font-size: 15px; font-weight: 800;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+.option:hover { background: #B2EBF2; transform: scale(1.02); }
+.option.correct { background: #C8E6C9 !important; color: #1B5E20 !important; border-color: #66BB6A !important; }
+.option.wrong   { background: #FFCDD2 !important; color: #B71C1C !important; border-color: #EF9A9A !important; }
+
+.log { font-size: 13px; color: #666; line-height: 1.8; }
+.log div { padding: 2px 0; }
+
+/* ── Scoreboard ── */
+.scoreboard { display: none; }
+.scoreboard h2 {
+  text-align: center; font-size: 20px; font-weight: 900;
+  color: #4d4d4d; margin-bottom: 16px;
+}
+.score-table {
+  width: 100%; border-collapse: collapse; margin-bottom: 20px;
+}
+.score-table th, .score-table td {
+  border: 1px solid #e0e0e0; padding: 10px;
+  text-align: center; font-size: 14px;
+}
+.score-table th { background: #F3E5F5; color: #4a4a4a; font-weight: 800; }
+.btn-next {
+  display: block; margin: 0 auto;
+  font-size: 15px; font-weight: 800;
+  padding: 12px 36px;
+  border-radius: 10px; border: none;
+  background: #43A047; color: #fff;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.18s;
+}
+.btn-next:hover { background: #2E7D32; transform: translateY(-2px); }
+
+.btn-restart {
+  display: block; margin: 16px auto 0;
+  font-size: 13px; font-weight: 700;
+  padding: 9px 24px;
+  border-radius: 8px; border: 2px solid #9E9E9E;
+  background: transparent; color: #666;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.18s;
+}
+.btn-restart:hover { background: #f5f5f5; }
+
+/* ── Footer ── */
+.page-footer {
+  text-align: center; padding: 10px 14px;
+  font-size: 12px; color: #9E9E9E; font-weight: 600;
+  border-top: 1px solid #f0f0f0;
+}
+
+/* ── Bottom bar ── */
+.bottom-bar {
+  position: fixed; bottom: 0; left: 0;
+  width: 100%; z-index: 9999;
+  background: #fff; border-top: 3px solid #7B1C1C;
+  display: flex; align-items: center; justify-content: center;
+  gap: 12px; padding: 10px 20px;
+  box-shadow: 0 -3px 16px rgba(0,0,0,0.15);
+}
+.bar-btn { border: none; border-radius: 8px; font-size: 14px; font-weight: 800; padding: 8px 18px; cursor: pointer; font-family: inherit; transition: all 0.18s; white-space: nowrap; }
+.bar-btn-fs { background: #7B1C1C; color: #fff; border: 2px solid #7B1C1C; }
+.bar-btn-fs:hover { background: #5D1010; border-color: #5D1010; }
+.bar-btn-zoom { background: transparent; color: #7B1C1C; border: 2px solid rgba(123,28,28,0.4); font-size: 18px; padding: 6px 16px; }
+.bar-btn-zoom:hover { background: rgba(123,28,28,0.08); border-color: #7B1C1C; }
+.bar-zoom-label { color: #555; font-size: 13px; font-weight: 700; min-width: 40px; text-align: center; }
+.bar-divider { width: 1px; height: 32px; background: rgba(123,28,28,0.2); flex-shrink: 0; }
+.bar-btn-draw { background: transparent; color: #333; border: 2px solid rgba(0,0,0,0.2); font-size: 13px; padding: 7px 14px; display: flex; align-items: center; gap: 5px; }
+.bar-btn-draw:hover { background: rgba(0,0,0,0.06); border-color: #555; }
+.bar-btn-draw.active { background: #7B1C1C; color: #fff; border-color: #7B1C1C; }
+.bar-btn-draw.active-highlight { background: #FFF176; color: #333; border-color: #e6c800; }
+.bar-btn-clear { background: transparent; color: #C62828; border: 2px solid rgba(198,40,40,0.35); font-size: 13px; padding: 7px 14px; }
+.bar-btn-clear:hover { background: rgba(198,40,40,0.08); border-color: #C62828; }
+.bar-btn-end { background: #7B1C1C; color: #fff; border: 2px solid #7B1C1C; font-size: 13px; padding: 7px 14px; }
+.bar-btn-end:hover { background: #5D1010; border-color: #5D1010; }
+.bar-btn-home { background: transparent; color: #7B1C1C; border: 2px solid rgba(123,28,28,0.4); border-radius: 8px; font-size: 20px; padding: 5px 12px; text-decoration: none; transition: all 0.18s; line-height: 1; }
+.bar-btn-home:hover { background: rgba(123,28,28,0.08); border-color: #7B1C1C; }
+.bar-logo { height: 32px; opacity: 0.7; flex-shrink: 0; }
+.bar-clock { margin-left: auto; font-size: 18px; font-weight: 800; color: #7B1C1C; letter-spacing: 1px; flex-shrink: 0; }
+
+#drawCanvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9998; pointer-events: none; cursor: crosshair; }
+
+@media (max-width: 1024px) { .bottom-bar { display: none; } body { padding-bottom: 20px; } }
+@media (max-width: 600px) {
+  body { padding: 8px 6px 20px; }
+  .color-bar, .color-bar-bottom, .page { width: calc(100% - 12px); }
+  .options { grid-template-columns: 1fr; }
+  .page-header { flex-wrap: wrap; }
+}
+</style>
+</head>
+<body>
+
+<audio id="victorySound" src="audio/v.mp3" preload="auto"></audio>
+<audio id="lostSound"    src="audio/lost.mp3" preload="auto"></audio>
+<audio id="levelSound"   src="audio/levelwin.mp3" preload="auto"></audio>
+
+<div class="color-bar">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<div class="page">
+
+  <div class="page-header">
+    <div class="nav-links">
+      <a href="../../">Ana Sayfa</a>
+      <span class="nav-sep">/</span>
+      <a href="../">Oyunlar</a>
+      <span class="nav-sep">/</span>
+      <span>FlashWords</span>
+    </div>
+    <div class="page-title">
+      <div class="unit-label">8. Sınıf İngilizce</div>
+      <h1>⚡ FlashWords v1.2</h1>
+    </div>
+    <a href="../../" class="canbay-btn">© CANBAY</a>
+  </div>
+
+  <div class="page-content">
+
+    <!-- START -->
+    <div class="start-screen">
+      <p class="game-desc">
+        Bir veya birden fazla ünite seçebilirsiniz.<br>
+        Seçeceğiniz ünitelerden 10 kelime sorulacak.<br>
+        Her bir soru için 10 saniye süreniz var. Her doğru cevap 10 puan.
+      </p>
+      <div class="units">
+        <label><input type="checkbox" value="1">Unit 1</label>
+        <label><input type="checkbox" value="2">Unit 2</label>
+        <label><input type="checkbox" value="3">Unit 3</label>
+        <label><input type="checkbox" value="4">Unit 4</label>
+        <label><input type="checkbox" value="5">Unit 5</label>
+        <label><input type="checkbox" value="6">Unit 6</label>
+        <label><input type="checkbox" value="7">Unit 7</label>
+        <label><input type="checkbox" value="8">Unit 8</label>
+        <label><input type="checkbox" value="9">Unit 9</label>
+        <label><input type="checkbox" value="10">Unit 10</label>
+      </div>
+      <button type="button" id="startBtn" class="btn-start" disabled>▶ Başla</button>
+    </div>
+
+    <!-- GAME -->
+    <div class="game">
+      <div class="timer-row">Süre: <span id="time">10</span>s</div>
+      <div class="question-card" id="questionCard"><span id="englishWord"></span></div>
+      <div class="options">
+        <div class="option" data-index="0"></div>
+        <div class="option" data-index="1"></div>
+        <div class="option" data-index="2"></div>
+        <div class="option" data-index="3"></div>
+      </div>
+      <div class="log" id="answerLog"></div>
+    </div>
+
+    <!-- SCOREBOARD -->
+    <div class="scoreboard">
+      <h2>🏆 Puan Tablosu</h2>
+      <table class="score-table">
+        <thead><tr><th>Kod Adı</th><th>Puan</th></tr></thead>
+        <tbody id="scoreTable"></tbody>
+      </table>
+      <button type="button" id="nextBtn" class="btn-next">Sonraki Yarışmacı</button>
+      <button type="button" class="btn-restart" onclick="location.reload()">↩ Başa Dön</button>
+    </div>
+
+  </div>
+
+  <div class="page-footer">
+    © 2025-2026 canbayelt.com | Tüm hakları saklıdır.
+  </div>
+
+</div>
+
+<div class="color-bar-bottom">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<canvas id="drawCanvas"></canvas>
+
+<div class="bottom-bar">
+  <a href="../" class="bar-btn bar-btn-home" title="Oyunlar">🏠</a>
+  <img src="../../images/favicon.png" alt="Canbay" class="bar-logo">
+  <div class="bar-divider"></div>
+  <button type="button" class="bar-btn bar-btn-fs" id="barFsBtn" onclick="toggleFullscreen()">⛶ Tam Ekran</button>
+  <button type="button" class="bar-btn bar-btn-zoom" onclick="zoomOut()">−</button>
+  <span class="bar-zoom-label" id="zoomLabel">100%</span>
+  <button type="button" class="bar-btn bar-btn-zoom" onclick="zoomIn()">+</button>
+  <div class="bar-divider"></div>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnPen"       onclick="setTool('pen')">✏️ Kalem</button>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnHighlight" onclick="setTool('highlight')">🖊️ Fosforlu</button>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnEraser"    onclick="setTool('eraser')">🧹 Silgi</button>
+  <button type="button" class="bar-btn bar-btn-clear" onclick="clearCanvas()">🗑️ Tümünü Sil</button>
+  <button type="button" class="bar-btn bar-btn-end"  onclick="endDrawing()">✖ Çizimi Bitir</button>
+  <div class="bar-divider"></div>
+  <span class="bar-clock" id="barClock"></span>
+</div>
+
+<script>
+// ── Security ──
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('selectstart', e => e.preventDefault());
+document.addEventListener('copy',        e => e.preventDefault());
+document.addEventListener('cut',         e => e.preventDefault());
+document.addEventListener('dragstart',   e => e.preventDefault());
+document.addEventListener('keydown', e => {
+  const blocked = e.key === 'F12'
+    || (e.ctrlKey && ['a','A','c','C','u','U','s','S','p','P'].includes(e.key))
+    || (e.ctrlKey && e.shiftKey && ['i','j','c'].includes(e.key.toLowerCase()));
+  if (blocked) e.preventDefault();
+});
+
+// ── Ünite etiketi tıklama ──
+document.querySelectorAll('.units label').forEach(label => {
+  label.addEventListener('click', () => {
+    const cb = label.querySelector('input');
+    setTimeout(() => label.classList.toggle('checked', cb.checked), 0);
+  });
+});
+
+const victorySound = document.getElementById('victorySound');
+const lostSound    = document.getElementById('lostSound');
+const levelSound   = document.getElementById('levelSound');
+
+const pastelColors = ['#FFCDD2','#FFF9C4','#FFE0B2','#D1C4E9'];
+const CODE_NAMES = ['wind','cloud','storm','shadow','star','wave','ember','frost','spark','flare','echo','nova','rift','aurora','blaze','crest','drift','eclipse','flux','glimmer','lumen','myst','nexus','radiance','spectrum','thunder','whisper','lunar','jupiter','saturn','mars','mercury','neptune','pluto','comet','galaxy','nebula','pulsar'];
+
+let UNITS = {};
+
+fetch("vcbu.json")
+  .then(res => { if (!res.ok) throw new Error("JSON yüklenemedi"); return res.json(); })
+  .then(data => { UNITS = data; document.getElementById('startBtn').disabled = false; })
+  .catch(err => { console.error("Veri alınamadı:", err); alert("Veri yüklenemedi. Lütfen daha sonra tekrar deneyin."); });
+
+let selectedUnits = [], pool = [], questions = [], current = 0, score = 0, timer, timeLeft, codeName;
+
+const startBtn   = document.getElementById('startBtn');
+const nextBtn    = document.getElementById('nextBtn');
+const timeEl     = document.getElementById('time');
+const engEl      = document.getElementById('englishWord');
+const optionsEls = document.querySelectorAll('.option');
+const logEl      = document.getElementById('answerLog');
+const scoreTable = document.getElementById('scoreTable');
+
+startBtn.addEventListener('click', () => {
+  selectedUnits = Array.from(document.querySelectorAll('.units input:checked')).map(i => i.value);
+  if (!selectedUnits.length) return alert('Lütfen en az bir ünite seçin.');
+  pool = selectedUnits.reduce((arr, u) => arr.concat(UNITS[u]), []);
+  questions = shuffle(pool).slice(0, 10);
+  codeName = CODE_NAMES[Math.floor(Math.random() * CODE_NAMES.length)];
+  document.querySelector('.start-screen').style.display = 'none';
+  document.querySelector('.game').style.display = 'block';
+  current = 0; score = 0; logEl.innerHTML = '';
+  loadQuestion();
+});
+
+nextBtn.addEventListener('click', () => {
+  pool = selectedUnits.reduce((arr, u) => arr.concat(UNITS[u]), []);
+  questions = shuffle(pool).slice(0, 10);
+  codeName = CODE_NAMES[Math.floor(Math.random() * CODE_NAMES.length)];
+  current = 0; score = 0; logEl.innerHTML = '';
+  document.querySelector('.scoreboard').style.display = 'none';
+  document.querySelector('.game').style.display = 'block';
+  loadQuestion();
+});
+
+function loadQuestion() {
+  clearInterval(timer);
+  optionsEls.forEach(el => {
+    el.classList.remove('correct','wrong');
+    el.onclick = null;
+    el.style.background = '';
+    el.style.transform = '';
+  });
+  timeLeft = 10; timeEl.textContent = timeLeft;
+  const color = pastelColors[current % pastelColors.length];
+  document.getElementById('questionCard').style.background = color;
+  const q = questions[current];
+  engEl.textContent = q.en;
+  const opts = shuffle([q].concat(shuffle(pool).filter(o => o.en !== q.en).slice(0, 3)));
+  optionsEls.forEach((el, i) => { el.textContent = opts[i].tr; el.onclick = () => answer(el, opts[i].tr, q.tr); });
+  timer = setInterval(() => { timeLeft--; timeEl.textContent = timeLeft; if (timeLeft <= 0) { clearInterval(timer); answer(null, null, q.tr); } }, 1000);
+}
+
+function answer(el, selected, correct) {
+  clearInterval(timer);
+  optionsEls.forEach(o => { o.onclick = null; });
+  const isCorrect = selected === correct;
+  if (isCorrect) { score += 10; victorySound.play(); }
+  else { lostSound.play(); }
+  if (selected) {
+    el.classList.add(isCorrect ? 'correct' : 'wrong');
+    if (!isCorrect) optionsEls.forEach(o => { if (o.textContent === correct) o.classList.add('correct'); });
+  }
+  const span = document.createElement('div');
+  if (isCorrect) {
+    span.textContent = `${codeName} → ${selected} ✅`;
+  } else {
+    span.textContent = `${codeName} → ${selected||'—'} ❌  (Doğru: ${correct})`;
+  }
+  logEl.appendChild(span);
+  current++;
+  if (current < questions.length) { setTimeout(loadQuestion, 1500); }
+  else { levelSound.play(); finish(); }
+}
+
+function finish() {
+  document.querySelector('.game').style.display = 'none';
+  const row = document.createElement('tr');
+  row.innerHTML = `<td>${codeName}</td><td>${score}</td>`;
+  scoreTable.appendChild(row);
+  document.querySelector('.scoreboard').style.display = 'block';
+}
+
+function shuffle(arr) { return arr.sort(() => Math.random() - 0.5); }
+
+// ── Fullscreen ──
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(() => {});
+    document.getElementById('barFsBtn').textContent = '✕ Tam Ekrandan Çık';
+  } else {
+    document.exitFullscreen();
+    document.getElementById('barFsBtn').textContent = '⛶ Tam Ekran';
+  }
+}
+document.addEventListener('fullscreenchange', () => {
+  if (!document.fullscreenElement)
+    document.getElementById('barFsBtn').textContent = '⛶ Tam Ekran';
+});
+
+// ── Zoom ──
+let zoomLevel = 100;
+function zoomIn()  { zoomLevel = Math.min(zoomLevel + 10, 200); applyZoom(); }
+function zoomOut() { zoomLevel = Math.max(zoomLevel - 10,  50); applyZoom(); }
+function applyZoom() { document.body.style.zoom = zoomLevel + '%'; document.getElementById('zoomLabel').textContent = zoomLevel + '%'; }
+
+// ── Clock ──
+function updateClock() {
+  const now = new Date();
+  const h = String(now.getHours()).padStart(2,'0');
+  const m = String(now.getMinutes()).padStart(2,'0');
+  document.getElementById('barClock').textContent = `${h}:${m}`;
+}
+updateClock(); setInterval(updateClock, 10000);
+
+// ── Drawing ──
+const canvas = document.getElementById('drawCanvas');
+const ctx = canvas.getContext('2d');
+let drawing = false, currentTool = null, hlSnapshot = null, hlPath = [];
+function resizeCanvas() {
+  const tmp = canvas.toDataURL();
+  canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+  const i = new Image(); i.onload = () => ctx.drawImage(i, 0, 0); i.src = tmp;
+}
+window.addEventListener('resize', resizeCanvas); resizeCanvas();
+function setTool(tool) {
+  if (currentTool === tool) { endDrawing(); return; }
+  currentTool = tool; canvas.style.pointerEvents = 'auto';
+  ['btnPen','btnHighlight','btnEraser'].forEach(id => document.getElementById(id).classList.remove('active','active-highlight'));
+  if (tool === 'pen')       document.getElementById('btnPen').classList.add('active');
+  if (tool === 'highlight') document.getElementById('btnHighlight').classList.add('active-highlight');
+  if (tool === 'eraser')    document.getElementById('btnEraser').classList.add('active');
+  canvas.style.cursor = tool === 'eraser' ? 'cell' : 'crosshair';
+}
+function endDrawing() {
+  currentTool = null; canvas.style.pointerEvents = 'none'; canvas.style.cursor = 'default';
+  ['btnPen','btnHighlight','btnEraser'].forEach(id => document.getElementById(id).classList.remove('active','active-highlight'));
+}
+function clearCanvas() { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+function getPos(e) { const t = e.touches ? e.touches[0] : e; return { x: t.clientX, y: t.clientY }; }
+canvas.addEventListener('mousedown',  e => { if (!currentTool) return; drawing = true; const p = getPos(e); if (currentTool === 'highlight') { hlSnapshot = ctx.getImageData(0,0,canvas.width,canvas.height); hlPath=[p]; } else { ctx.beginPath(); ctx.moveTo(p.x,p.y); } });
+canvas.addEventListener('mousemove',  e => { if (!drawing || !currentTool) return; const p = getPos(e); if (currentTool === 'pen') { ctx.lineWidth=3; ctx.strokeStyle='#1a1a1a'; ctx.lineCap='round'; ctx.lineTo(p.x,p.y); ctx.stroke(); } else if (currentTool === 'highlight') { hlPath.push(p); ctx.putImageData(hlSnapshot,0,0); ctx.beginPath(); ctx.moveTo(hlPath[0].x,hlPath[0].y); hlPath.forEach(pt=>ctx.lineTo(pt.x,pt.y)); ctx.strokeStyle='rgba(255,235,59,0.55)'; ctx.lineWidth=28; ctx.lineCap='round'; ctx.lineJoin='round'; ctx.stroke(); } else if (currentTool === 'eraser') { ctx.clearRect(p.x-18,p.y-18,36,36); } });
+canvas.addEventListener('mouseup',   () => { drawing=false; });
+canvas.addEventListener('mouseleave',() => { drawing=false; });
+canvas.addEventListener('touchstart', e => { e.preventDefault(); canvas.dispatchEvent(new MouseEvent('mousedown', {clientX:e.touches[0].clientX, clientY:e.touches[0].clientY})); }, {passive:false});
+canvas.addEventListener('touchmove',  e => { e.preventDefault(); canvas.dispatchEvent(new MouseEvent('mousemove', {clientX:e.touches[0].clientX, clientY:e.touches[0].clientY})); }, {passive:false});
+canvas.addEventListener('touchend',   e => { e.preventDefault(); canvas.dispatchEvent(new MouseEvent('mouseup')); }, {passive:false});
+</script>
+
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js" ></script><script async src="https://scripts.simpleanalyticscdn.com/auto-events.js" data-extensions="pdf,csv,docx,xlsx,zip,doc,xls"></script></body>
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fatih Sayılan LGS Çalışmaları | Canbay İngilizce</title>
+<meta name="description" content="İngilizce Öğretmeni Fatih Sayılan tarafından hazırlanan 8. sınıf LGS İngilizce hazırlık testleri, soru kökleri ve çalışma rehberi.">
+<meta name="keywords" content="fatih sayılan, lgs, ingilizce, 8. sınıf, practice test, soru kökleri, ilber ortaylı">
+<meta name="robots" content="index, follow">
+<link rel="icon" type="image/png" href="../images/favicon.png">
+<link rel="shortcut icon" href="../images/favicon.png" type="image/png">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e8edf2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 8px 40px;
+}
+
+.color-bar, .color-bar-bottom, .page {
+  width: calc(100% - 20px);
+  max-width: 1900px;
+}
+.color-bar, .color-bar-bottom {
+  display: flex; height: 13px; overflow: hidden;
+}
+.color-bar { border-radius: 8px 8px 0 0; }
+.color-bar-bottom { border-radius: 0 0 8px 8px; margin-top: -1px; }
+.cb1 { background: #EF9A9A; flex: 1; }
+.cb2 { background: #A5D6A7; flex: 1; }
+.cb3 { background: #90CAF9; flex: 1; }
+.cb4 { background: #FFF176; flex: 1; }
+
+.page {
+  background: #fff;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.13);
+  overflow: hidden;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 14px;
+  border-bottom: 2px solid #f0f0f0;
+  gap: 10px;
+}
+.header-logo { height: 48px; width: auto; flex-shrink: 0; }
+.header-logo-secondary { height: 36px; width: auto; flex-shrink: 0; }
+.nav-links {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; font-weight: 700; color: #aaa; flex-shrink: 0;
+}
+.nav-links a { color: #1565C0; text-decoration: none; font-weight: 700; transition: color 0.15s; }
+.nav-links a:hover { color: #FF5722; }
+.nav-sep { color: #ccc; font-size: 15px; }
+.page-title { text-align: center; flex: 1; }
+.page-title .unit-label { font-size: 13px; font-weight: 700; color: #aaa; letter-spacing: 1px; text-transform: uppercase; }
+.page-title h1 { font-size: 26px; font-weight: 900; color: #0a0f4a; line-height: 1.2; }
+.canbay-btn {
+  font-size: 13px; font-weight: 800; color: #E53935;
+  text-decoration: none; background: #fff;
+  border: 2px solid #E53935; border-radius: 8px;
+  padding: 6px 14px; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.canbay-btn:hover { background: #FFEBEE; transform: translateY(-1px); }
+
+.subtitle {
+  text-align: center;
+  padding: 8px 12px 4px;
+  font-size: 15px; color: #666; font-weight: 500;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  padding: 14px 16px 20px;
+}
+
+.pdf-card {
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.pdf-card:hover { transform: translateY(-4px); box-shadow: 0 10px 30px rgba(0,0,0,0.15); }
+
+.card-top {
+  padding: 20px 16px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+}
+.card-icon { font-size: 32px; line-height: 1; margin-bottom: 2px; }
+.card-badge {
+  font-size: 10px; font-weight: 800; letter-spacing: 0.8px;
+  text-transform: uppercase;
+  background: rgba(0,0,0,0.07);
+  border: 1.5px solid rgba(0,0,0,0.15);
+  border-radius: 20px;
+  padding: 3px 10px; color: #444;
+  position: absolute; top: 12px; right: 12px;
+}
+.card-title { font-size: 16px; font-weight: 900; color: #1a1a1a; line-height: 1.3; }
+.card-author { font-size: 13px; font-weight: 700; color: #666; }
+
+.card-body {
+  background: #fff;
+  padding: 12px 16px;
+  font-size: 13px; color: #444;
+  line-height: 1.6; flex: 1;
+}
+
+.card-btns {
+  background: #fff;
+  border-top: 1px solid #f0f0f0;
+  padding: 10px 12px;
+  display: flex; gap: 8px;
+}
+.btn-pdf, .btn-copy, .btn-goto {
+  flex: 1; border: none; border-radius: 8px;
+  font-size: 13px; font-weight: 700;
+  padding: 9px 6px;
+  cursor: pointer; font-family: inherit;
+  transition: all 0.18s; text-align: center;
+  text-decoration: none;
+  display: flex; align-items: center; justify-content: center; gap: 5px;
+}
+.btn-pdf  { background: #FFEBEE; color: #C62828; border: 1.5px solid #FFCDD2; }
+.btn-pdf:hover  { background: #FFCDD2; }
+.btn-goto { background: #E3F2FD; color: #1565C0; border: 1.5px solid #BBDEFB; }
+.btn-goto:hover { background: #BBDEFB; }
+.btn-start { background: #E8F5E9; color: #1B5E20; border: 1.5px solid #A5D6A7; }
+.btn-start:hover { background: #C8E6C9; }
+.btn-copy { background: #F5F5F5; color: #333; border: 1.5px solid #E0E0E0; }
+.btn-copy:hover { background: #EEEEEE; }
+.btn-copy.copied { background: #E8F5E9; color: #2E7D32; border-color: #A5D6A7; }
+
+.c-red    .card-top { background: #FFEBEE; }
+.c-green  .card-top { background: #E8F5E9; }
+.c-orange .card-top { background: #FFF3E0; }
+.c-blue   .card-top { background: #E3F2FD; }
+.c-purple .card-top { background: #F3E5F5; }
+.c-amber  .card-top { background: #FFF8E1; }
+.c-green2 .card-top { background: #E8F5E9; }
+
+.section-sep {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 6px 0 2px;
+}
+.section-sep-line { flex: 1; height: 2px; background: #e0e0e0; border-radius: 2px; }
+.section-sep-title {
+  font-size: 14px; font-weight: 900; color: #888;
+  letter-spacing: 1px; text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.copyright {
+  text-align: center; padding: 14px 14px 10px;
+  font-size: 12px; color: #9E9E9E; font-weight: 600;
+  border-top: 1px solid #f0f0f0;
+}
+.author-name { color: #555; }
+
+@media (max-width: 900px) {
+  .card-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 600px) {
+  body { padding: 8px 6px 20px; }
+  .color-bar, .color-bar-bottom, .page { width: calc(100% - 12px); }
+  .page-header { padding: 10px 12px 8px; flex-wrap: wrap; gap: 6px; }
+  .nav-links { font-size: 11px; order: 1; flex: 1 1 100%; }
+  .page-title { order: 2; }
+  .page-title h1 { font-size: 18px; }
+  .canbay-btn { font-size: 11px; padding: 5px 10px; order: 3; }
+  .card-grid { grid-template-columns: 1fr; gap: 10px; padding: 10px 10px 16px; }
+}
+</style>
+</head>
+<body>
+
+<div class="color-bar">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<div class="page">
+
+  <div class="page-header">
+    <a href="../"><img src="../images/favicon.png" alt="Canbay" class="header-logo"></a>
+    <div class="nav-links">
+      <a href="../">Ana Sayfa</a>
+      <span class="nav-sep">/</span>
+      <span>Fatih Sayılan</span>
+    </div>
+    <div class="page-title">
+      <div class="unit-label">8. Sınıf LGS İngilizce</div>
+      <h1>Fatih Sayılan Çalışmaları</h1>
+    </div>
+    <a href="../" class="canbay-btn">🏠 Ana Sayfa</a>
+    <img src="fatih.png" alt="Fatih Sayılan" class="header-logo-secondary">
+  </div>
+
+  <div class="subtitle">PDF'yi açmak veya bağlantıyı kopyalamak için ilgili butona tıkla.</div>
+
+  <div class="card-grid" id="cardGrid"></div>
+
+  <div class="copyright">
+    Bu sayfadaki çalışmaların telif hakları <strong class="author-name">İngilizce Öğretmeni Fatih SAYILAN</strong>'a aittir. Yazarın izniyle yayınlanmıştır.
+  </div>
+
+</div>
+
+<div class="color-bar-bottom">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<script>
+const CARDS = [
+  { separator: 'İnteraktif Testler' },
+  {
+    color: 'c-blue', icon: '🖥️', badge: 'Unit 1 – Test 1',
+    title: 'Unit 1 İnteraktif Test 1',
+    desc: 'Unit 1 konusundan 10 soruluk LGS hazırlık testi. Anında geri bildirimli interaktif test.',
+    start: 'unit1/test1.html'
+  },
+  {
+    color: 'c-purple', icon: '🖥️', badge: 'Unit 2 – Test 1',
+    title: 'Unit 2 İnteraktif Test 1',
+    desc: 'Unit 2 konusundan 10 soruluk LGS hazırlık testi. Anında geri bildirimli interaktif test.',
+    start: 'unit2/test1.html'
+  },
+  {
+    color: 'c-orange', icon: '🖥️', badge: 'Unit 3 – Test 1',
+    title: 'Unit 3 İnteraktif Test 1',
+    desc: 'Unit 3 In the Kitchen konusundan 10 soruluk LGS hazırlık testi. Anında geri bildirimli interaktif test.',
+    start: 'unit3/test1.html'
+  },
+  {
+    color: 'c-blue', icon: '🖥️', badge: 'Unit 4 – Test 1',
+    title: 'Unit 4 İnteraktif Test 1',
+    desc: 'Unit 4 On the Phone konusundan 10 soruluk LGS hazırlık testi. Anında geri bildirimli interaktif test.',
+    start: 'unit4/test1.html'
+  },
+  {
+    color: 'c-blue', icon: '🖥️', badge: 'Unit 5 – Test 1',
+    title: 'Unit 5 İnteraktif Test 1',
+    desc: 'Unit 5 The Internet konusundan 10 soruluk LGS hazırlık testi. Anında geri bildirimli interaktif test.',
+    start: 'unit5/test1.html'
+  },
+  {
+    color: 'c-amber', icon: '🖥️', badge: 'Unit 6 – Test 1',
+    title: 'Unit 6 İnteraktif Test 1',
+    desc: 'Unit 6 Adventures konusundan 10 soruluk LGS hazırlık testi. Anında geri bildirimli interaktif test.',
+    start: 'unit6/test1.html'
+  },
+  {
+    color: 'c-green2', icon: '🖥️', badge: 'Unit 7 – Test 1',
+    title: 'Unit 7 İnteraktif Test 1',
+    desc: 'Unit 7 Tourism konusundan 10 soruluk LGS hazırlık testi. Anında geri bildirimli interaktif test.',
+    start: 'unit7/test1.html'
+  },
+  {
+    color: 'c-orange', icon: '🖥️', badge: 'Unit 8 – Test 1',
+    title: 'Unit 8 İnteraktif Test 1',
+    desc: 'Unit 8 Chores konusundan 10 soruluk LGS hazırlık testi. Anında geri bildirimli interaktif test.',
+    start: 'unit8/test1.html'
+  },
+  {
+    color: 'c-blue', icon: '🖥️', badge: 'Unit 9 – Test 1',
+    title: 'Unit 9 İnteraktif Test 1',
+    desc: 'Unit 9 konusundan 1–10. sorular. Anında geri bildirimli interaktif test.',
+    start: 'unit9/test1.html'
+  },
+  {
+    color: 'c-blue', icon: '🖥️', badge: 'Unit 9 – Test 2',
+    title: 'Unit 9 İnteraktif Test 2',
+    desc: 'Unit 9 konusundan 11–20. sorular. Anında geri bildirimli interaktif test.',
+    start: 'unit9/test2.html'
+  },
+  {
+    color: 'c-blue', icon: '🖥️', badge: 'Unit 9 – Test 3',
+    title: 'Unit 9 İnteraktif Test 3',
+    desc: 'Unit 9 konusundan 21–30. sorular. Anında geri bildirimli interaktif test.',
+    start: 'unit9/test3.html'
+  },
+  {
+    color: 'c-green', icon: '🖥️', badge: 'Unit 10 – Test 1',
+    title: 'Unit 10 İnteraktif Test 1',
+    desc: 'Unit 10 Natural Forces konusundan 1–10. sorular. Anında geri bildirimli interaktif test.',
+    start: 'unit10/test1.html'
+  },
+  {
+    color: 'c-green', icon: '🖥️', badge: 'Unit 10 – Test 2',
+    title: 'Unit 10 İnteraktif Test 2',
+    desc: 'Unit 10 Natural Forces konusundan 11–20. sorular. Anında geri bildirimli interaktif test.',
+    start: 'unit10/test2.html'
+  },
+  {
+    color: 'c-green', icon: '🖥️', badge: 'Unit 10 – Test 3',
+    title: 'Unit 10 İnteraktif Test 3',
+    desc: 'Unit 10 Natural Forces konusundan 21–30. sorular. Anında geri bildirimli interaktif test.',
+    start: 'unit10/test3.html'
+  },
+  { separator: 'Revision Testleri' },
+  {
+    color: 'c-orange', icon: '🖥️', badge: 'Revision – 1',
+    title: 'Fatih Sayılan Revision Test 1',
+    desc: 'Fatih Sayılan tarafından hazırlanan revision testi – 1. Anında geri bildirimli interaktif test.',
+    start: '../revision/fatih1.html'
+  },
+  {
+    color: 'c-orange', icon: '🖥️', badge: 'Revision – 2',
+    title: 'Fatih Sayılan Revision Test 2',
+    desc: 'Fatih Sayılan tarafından hazırlanan revision testi – 2. Anında geri bildirimli interaktif test.',
+    start: '../revision/fatih2.html'
+  },
+  {
+    color: 'c-orange', icon: '🖥️', badge: 'Revision – 3',
+    title: 'Fatih Sayılan Revision Test 3',
+    desc: 'Fatih Sayılan tarafından hazırlanan revision testi – 3. Anında geri bildirimli interaktif test.',
+    start: '../revision/fatih3.html'
+  },
+  {
+    color: 'c-orange', icon: '🖥️', badge: 'Revision – 4',
+    title: 'Fatih Sayılan Revision Test 4',
+    desc: 'Fatih Sayılan tarafından hazırlanan revision testi – 4. Anında geri bildirimli interaktif test.',
+    start: '../revision/fatih4.html'
+  },
+  {
+    color: 'c-orange', icon: '🖥️', badge: 'Revision – 5',
+    title: 'Fatih Sayılan Revision Test 5',
+    desc: 'Fatih Sayılan tarafından hazırlanan revision testi – 5. Anında geri bildirimli interaktif test.',
+    start: '../revision/fatih5.html'
+  },
+  {
+    color: 'c-orange', icon: '🖥️', badge: 'Revision – 6',
+    title: 'Fatih Sayılan Revision Test 6',
+    desc: 'Fatih Sayılan tarafından hazırlanan revision testi – 6. Anında geri bildirimli interaktif test.',
+    start: '../revision/fatih6.html'
+  },
+  { separator: 'PDF Kaynakları' },
+  {
+    color: 'c-blue', icon: '📝', badge: 'Unit 9',
+    title: 'Unit 9 LGS 30-Question Practice Test',
+    desc: 'Unit 9 konusuyla ilgili 30 soruluk LGS hazırlık testi.',
+    goto: 'https://drive.google.com/file/d/1qRA67IyR5R5B2bn_cEtHM4tg0KFBzVGq/view?usp=sharing'
+  },
+  {
+    color: 'c-blue', icon: '📝', badge: 'Unit 10',
+    title: 'Unit 10 Natural Forces Test 2',
+    desc: 'Unit 10 Natural Forces konusuyla ilgili hazırlık testi – 2.',
+    goto: 'https://drive.google.com/file/d/1AZPH2JHJ4aljL3TQ_Duo3Xar9SR-wma2/view?usp=sharing'
+  },
+  {
+    color: 'c-blue', icon: '📝', badge: 'Unit 10',
+    title: 'Unit 10 Natural Forces Test 1',
+    desc: 'Unit 10 Natural Forces konusuyla ilgili hazırlık testi – 1.',
+    goto: 'https://drive.google.com/file/d/1iI6F0EfXSBMsvi6UKro_LvB8fCFaBFrB/view?usp=sharing'
+  },
+  {
+    color: 'c-red', icon: '📝', badge: '30 Soru',
+    title: '30 Soruluk LGS Deneme Sınavı 2',
+    desc: 'MEB İngilizce soru tiplerini baz alan 30 soruluk LGS hazırlık deneme sınavı.',
+    goto: 'https://drive.google.com/file/d/168GQ4RtT5gzlXyVjrxwqyhGTuOihzZ_H/view?usp=sharing'
+  },
+  {
+    color: 'c-red', icon: '📝', badge: '30 Soru',
+    title: '30 Soruluk LGS Deneme Sınavı 1',
+    desc: 'MEB İngilizce soru tiplerini baz alan 30 soruluk LGS hazırlık deneme sınavı.',
+    goto: 'https://drive.google.com/file/d/1C1sLjYolw8xyCJwymut1vNlv1Gk1dCIh/view?usp=sharing'
+  },
+  {
+    color: 'c-blue', icon: '🖥️', badge: 'Sunum',
+    title: 'İlber Ortaylı\'nın İzinde – Akıllı Tahta Sunumu',
+    desc: 'Fatih Sayılan tarafından hazırlanan İlber Ortaylı testlerinin akıllı tahta için interaktif sunumu.',
+    goto: 'https://canbay.netlify.app/fatih/tests/',
+    btnLabel: '📄 Sunuma Git'
+  },
+  {
+    color: 'c-red', icon: '📝', badge: 'LGS Deneme',
+    title: '7 LGS Practice Tests – İlber Ortaylı',
+    desc: 'İlber Ortaylı\'nın anısına hazırlanmış 7 adet LGS İngilizce deneme sınavı.',
+    goto: 'https://drive.google.com/file/d/1FT_6-VmLDilWq1AzCoBNjsaVAZX1Jfwz/view?usp=drive_link'
+  },
+  {
+    color: 'c-orange', icon: '📖', badge: 'Soru Kökleri',
+    title: 'MEB Örnek LGS Soruları – İngilizce Türkçe',
+    desc: 'MEB örnek LGS sorularının İngilizce ve Türkçe soru kökleriyle hazırlanmış çalışması.',
+    goto: 'https://drive.google.com/file/d/146mJw2SZfsjwlG-636E9TYdGhzwEr-8I/view?usp=sharing'
+  },
+  {
+    color: 'c-red', icon: '📝', badge: 'Practice Test 1',
+    title: 'LGS Practice Tests – Full-Length 20 Soru (1)',
+    desc: '20 soruluk tam uzunlukta LGS İngilizce deneme sınavı – 1. set.',
+    goto: 'https://drive.google.com/file/d/1j9b9pML0YwS0VYoLng714pC5n57ahU_3/view?usp=drive_link'
+  },
+  {
+    color: 'c-green', icon: '📚', badge: 'Kelime Testi',
+    title: '10x10 Vocabulary-Based Test for LGS',
+    desc: 'LGS için hazırlanmış 10 bölümlü, bağlama dayalı kelime testi.',
+    goto: 'https://drive.google.com/file/d/1Wk7VqQVysMmkZkpTFrNoc4dUcyPaQ-KO/view?usp=drive_link'
+  },
+  {
+    color: 'c-green', icon: '🗝️', badge: 'Cevap Anahtarı',
+    title: '10x10 Vocabulary Test – Cevap Anahtarı',
+    desc: '10x10 Vocabulary-Based Test çalışmasının cevap anahtarı.',
+    goto: 'https://drive.google.com/file/d/1ErkA6HtitaCXjBDcch_ufqyNaTswhYor/view?usp=drive_link'
+  },
+  {
+    color: 'c-red', icon: '📝', badge: 'Practice Test 3',
+    title: 'LGS Practice Test – 3',
+    desc: 'LGS İngilizce hazırlık deneme sınavı – 3.',
+    goto: 'https://drive.google.com/file/d/1hC9hWmWjaI3skA2ermnAZCeJknTn5GaG/view?usp=drive_link'
+  },
+  {
+    color: 'c-red', icon: '📝', badge: 'Practice Test 2',
+    title: 'LGS Practice Tests – Full-Length 20 Soru (2)',
+    desc: '20 soruluk tam uzunlukta LGS İngilizce deneme sınavı – 2. set.',
+    goto: 'https://drive.google.com/file/d/17DXjVGHh2_RHkMCmZCgvo-JF11gKow_x/view?usp=drive_link'
+  },
+  {
+    color: 'c-red', icon: '📝', badge: '2 Deneme',
+    title: 'LGS Practice Tests – 2 Adet',
+    desc: '2 adet LGS İngilizce hazırlık deneme sınavı.',
+    goto: 'https://drive.google.com/file/d/134FZOXfGgaYzMzasJiHJJbrynn9yY5FE/view?usp=sharing'
+  },
+  {
+    color: 'c-green', icon: '🗝️', badge: 'Cevap Anahtarı',
+    title: 'LGS Practice Tests (2 Adet) – Cevap Anahtarı',
+    desc: '2 adetlik LGS deneme sınavı setinin cevap anahtarı.',
+    goto: 'https://drive.google.com/file/d/1Ip6E4bkV7zZ3VgjJPrm-Cr945lbHVnAF/view?usp=sharing'
+  },
+  {
+    color: 'c-purple', icon: '📊', badge: 'Rehber',
+    title: 'LGS İngilizce Sınav Analizi ve Çalışma Rehberi',
+    desc: 'LGS İngilizce sınavlarının sınıflandırması, analizi ve öğrenciler için çalışma rehberi.',
+    goto: 'https://drive.google.com/file/d/17023RfPTHX80X0bE4zv75plOSwyYsYy3/view?usp=drive_link'
+  },
+  {
+    color: 'c-orange', icon: '📖', badge: 'Soru Kökleri',
+    title: 'LGS Gerçek Soru Kökleri – İngilizce Türkçe',
+    desc: 'Gerçek LGS sınavlarından derlenen soru köklerinin İngilizce ve Türkçe versiyonu.',
+    goto: 'https://drive.google.com/file/d/1swjBodrnUAh8NIsrG2SZf_GWw6qyYtp5/view?usp=drive_link'
+  },
+  { separator: '5. Sınıf Çalışmalar' },
+  {
+    color: 'c-purple', icon: '📚', badge: 'Year 5 - Tema 7',
+    title: 'Year 5 English – THEME 7 Grammar Hub',
+    desc: '5. Sınıf 7. Tema içeriğiyle ilgili çalışmalar.',
+    goto: 'https://drive.google.com/file/d/1A6tactqGC4OWEzISCT5PPLKbZGl1LgCe/view?usp=sharing'
+  }
+];
+
+function absUrl(href) {
+  return new URL(href, location.href).href;
+}
+
+function copyLink(href, btn) {
+  navigator.clipboard.writeText(absUrl(href)).then(() => {
+    btn.classList.add('copied');
+    btn.textContent = '✓ Kopyalandı!';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.textContent = '🔗 Linki Kopyala';
+    }, 2000);
+  });
+}
+
+const grid = document.getElementById('cardGrid');
+
+CARDS.forEach(c => {
+  if (c.separator) {
+    const sep = document.createElement('div');
+    sep.className = 'section-sep';
+    sep.innerHTML = `<div class="section-sep-line"></div><div class="section-sep-title">${c.separator}</div><div class="section-sep-line"></div>`;
+    grid.appendChild(sep);
+    return;
+  }
+  const card = document.createElement('div');
+  card.className = `pdf-card ${c.color}`;
+  const link = c.pdf || c.goto;
+  card.innerHTML = `
+    <div class="card-top">
+      <div class="card-icon">${c.icon}</div>
+      <span class="card-badge">${c.badge}</span>
+      <div class="card-title">${c.title}</div>
+      <div class="card-author">Fatih Sayılan</div>
+    </div>
+    <div class="card-body">${c.desc}</div>
+    <div class="card-btns">
+      ${c.start
+        ? `<a href="${c.start}" class="btn-start">▶ Teste Başla</a>`
+        : c.pdf
+          ? `<a href="${c.pdf}" target="_blank" rel="noopener" class="btn-pdf">📄 PDF'yi Aç</a>`
+          : `<a href="${c.goto}" target="_blank" rel="noopener" class="btn-goto">${c.btnLabel || "📄 Drive'da Aç"}</a>`
+      }
+      <button class="btn-copy" onclick="copyLink('${c.start || link}', this)">🔗 Linki Kopyala</button>
+    </div>`;
+  grid.appendChild(card);
+});
+</script>
+
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js" ></script><script async src="https://scripts.simpleanalyticscdn.com/auto-events.js" data-extensions="pdf,csv,docx,xlsx,zip,doc,xls"></script></body>
+</html>

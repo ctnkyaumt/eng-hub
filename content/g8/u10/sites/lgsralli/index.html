@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<title>LGS English Racer | Countdown after Quiz</title>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background: linear-gradient(145deg, #0b1120 0%, #101826 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Segoe UI', 'Poppins', 'Inter', system-ui, -apple-system, sans-serif;
+    overflow: hidden;
+    touch-action: pan-x pan-y;
+    padding: 16px;
+}
+
+#game-container {
+    position: relative;
+    width: 100%;
+    max-width: 580px;
+    aspect-ratio: 2 / 3;
+    background: #1a1f2b;
+    border-radius: 40px;
+    box-shadow: 0 30px 35px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255,255,255,0.1);
+    overflow: hidden;
+    border: 2px solid rgba(255, 200, 100, 0.6);
+    transition: all 0.2s ease;
+}
+
+canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #141a24;
+}
+
+#scoreBoard {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    background: rgba(10, 20, 30, 0.75);
+    backdrop-filter: blur(10px);
+    padding: 6px 18px;
+    border-radius: 40px;
+    font-weight: 800;
+    font-size: clamp(14px, 5vw, 22px);
+    font-family: monospace;
+    letter-spacing: 1px;
+    color: #ffdf9c;
+    border: 1px solid rgba(255,200,100,0.4);
+    z-index: 15;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    white-space: nowrap;
+}
+
+#scoreVal {
+    color: #f5bc70;
+    font-size: clamp(18px, 6vw, 28px);
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+/* Fullscreen Button - always on main screen (visible even before game start) */
+#fullscreenBtn {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: rgba(10, 20, 30, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,200,100,0.6);
+    border-radius: 40px;
+    padding: 8px 16px;
+    font-size: clamp(14px, 4vw, 18px);
+    font-weight: bold;
+    color: #ffdf9c;
+    cursor: pointer;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.2s;
+    font-family: monospace;
+}
+
+#fullscreenBtn:hover {
+    background: #f5a623;
+    color: #1a1a2e;
+    border-color: white;
+    transform: scale(0.96);
+}
+
+/* Touch controls */
+#touch-controls {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    z-index: 25;
+    pointer-events: none;
+}
+
+.ctrl-btn {
+    pointer-events: auto;
+    width: 70px;
+    height: 70px;
+    background: rgba(18, 28, 40, 0.9);
+    backdrop-filter: blur(12px);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    font-weight: bold;
+    color: #ffcd7e;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,215,130,0.7);
+    transition: 0.07s linear;
+    cursor: pointer;
+}
+
+.ctrl-btn:active {
+    transform: scale(0.92);
+    background: #f5a623;
+    color: #1a1a2e;
+}
+
+@media (max-width: 560px) {
+    .ctrl-btn { width: 60px; height: 60px; font-size: 36px; }
+    #touch-controls { gap: 35px; bottom: 18px; }
+    #fullscreenBtn { padding: 6px 12px; top: 14px; right: 14px; }
+    #scoreBoard { top: 14px; left: 14px; padding: 4px 14px; }
+}
+
+/* Modal - LARGER with change button */
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.88);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 30;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s ease;
+}
+
+.modal.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal-content {
+    background: #fef6e6;
+    color: #1f2a3e;
+    width: 92%;
+    max-width: 500px;
+    padding: 28px 24px 32px;
+    border-radius: 56px;
+    text-align: center;
+    box-shadow: 0 30px 45px rgba(0,0,0,0.5);
+    border: 2px solid #ffcf8a;
+}
+
+.modal-content h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: #c74f0c;
+    margin-bottom: 16px;
+}
+
+.question-text {
+    background: #fff2e0;
+    padding: 18px 14px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 16px 0;
+    line-height: 1.4;
+}
+
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 18px 0;
+}
+
+.option-btn {
+    background: #2d6a9f;
+    border: none;
+    padding: 14px 8px;
+    border-radius: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.1s;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.option-btn:active { transform: scale(0.96); }
+.correct { background: #2ecc71 !important; }
+.incorrect { background: #e74c3c !important; }
+
+#feedbackText {
+    font-size: 18px;
+    font-weight: bold;
+    min-height: 50px;
+    margin-top: 16px;
+}
+
+.change-question-btn {
+    background: #ffb347;
+    color: #2c1e0f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: 80%;
+    transition: 0.2s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-family: monospace;
+}
+
+.change-question-btn:hover {
+    background: #ff9f1c;
+    transform: scale(0.97);
+}
+
+/* Start & Game Over */
+#startScreen .modal-content, #gameOverScreen .modal-content {
+    background: #101a24;
+    border: 2px solid #ffb347;
+    color: #ffefcf;
+}
+
+#startScreen h1 {
+    font-size: 32px;
+    color: #ffbb55;
+}
+
+#startBtn, #restartBtn {
+    background: #ff874d;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 60px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f1a0c;
+    margin-top: 20px;
+    width: 80%;
+    cursor: pointer;
+}
+
+/* Countdown overlay (canvas text) will be drawn directly */
+</style>
+</head>
+<body>
+
+<div id="game-container">
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+    <div id="scoreBoard">🏆 SCORE: <span id="scoreVal">0</span></div>
+    <!-- Fullscreen button always on main screen -->
+    <button id="fullscreenBtn">⛶ FULLSCREEN</button>
+
+    <div id="touch-controls">
+        <div class="ctrl-btn" id="leftTouchBtn">◀</div>
+        <div class="ctrl-btn" id="rightTouchBtn">▶</div>
+    </div>
+
+    <!-- Start Screen -->
+    <div id="startScreen" class="modal active">
+        <div class="modal-content">
+            <h1>🏁 ENGLISH RACER</h1>
+            <p style="margin: 12px 0; font-size: 18px;">Steer with arrows / A D<br>or tap ◀  ▶ <br>Answer LGS questions to survive!<br><strong style="color:#ffaa66;">❌ Wrong Answer = Game Over</strong><br>🔄 You can change the question once per popup.<br>⏱️ Correct answer → 3-2-1 GO!</p>
+            <button id="startBtn">🚀 DRIVE NOW</button>
+        </div>
+    </div>
+
+    <!-- Quiz Modal -->
+    <div id="quizModal" class="modal">
+        <div class="modal-content">
+            <h2 id="unitTitle">📘 ENGLISH QUIZ</h2>
+            <p id="questionText" class="question-text"></p>
+            <div class="options-grid" id="optionsGrid"></div>
+            <button id="changeQuestionBtn" class="change-question-btn">🔄 CHANGE QUESTION</button>
+            <p id="feedbackText"></p>
+        </div>
+    </div>
+
+    <!-- Game Over Screen -->
+    <div id="gameOverScreen" class="modal">
+        <div class="modal-content">
+            <h1>💥 GAME OVER</h1>
+            <p>⭐ FINAL SCORE: <strong id="finalScoreVal">0</strong></p>
+            <button id="restartBtn">🔄 PLAY AGAIN</button>
+        </div>
+    </div>
+</div>
+
+<script>
+// ======================== LGS QUESTIONS (UNITS 1-10) ========================
+const MASTER_QUESTIONS = [
+  { unit: "📖 Unit 1: Friendship", q: "FRIEND", options: ["ARKADAŞ", "ETKİNLİK", "TARİH", "DAVETİYE"], answer: 0 },
+  { unit: "📖 Unit 1: Friendship", q: "BUDDY", options: ["DAVETİYE", "KANKA", "YER", "MEŞGUL"], answer: 1 },
+  { unit: "📖 Unit 1: Friendship", q: "BEST FRIEND", options: ["ARKADAŞ", "DOĞRU ARKADAŞ", "EN İYİ ARKADAŞ", "YAKIN ARKADAŞ"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "TRUE FRIEND", options: ["EN İYİ ARKADAŞ", "YAKIN ARKADAŞ", "DOĞRU ARKADAŞ", "ARKADAŞ"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "MATE", options: ["TARİH", "ARKADAŞ", "YER", "ETKİNLİK"], answer: 1 },
+  { unit: "📖 Unit 1: Friendship", q: "COME OVER", options: ["DAVET ETMEK", "UĞRAMAK", "KABUL ETMEK", "REDDETMEK"], answer: 1 },
+  { unit: "📖 Unit 1: Friendship", q: "COUNT ON", options: ["DESTEK OLMAK", "UĞRAMAK", "GÜVENMEK", "KABUL ETMEK"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "SECRET", options: ["ETKİNLİK", "DAVET", "SIR", "DESTEK OLMAK"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "FRIENDSHIP", options: ["SIR", "DAVET", "ARKADAŞLIK", "YOĞUN"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "SPEND TIME", options: ["VAKİT GEÇİRMEK", "BULUŞMAK", "SATIN ALMAK", "UĞRAMAK"], answer: 0 },
+  { unit: "📖 Unit 1: Friendship", q: "TELL THE TRUTH", options: ["YALAN SÖYLEMEK", "MESAJ YAZMAK", "DOĞRU SÖYLEMEK", "ARAMAK"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "SIMILAR", options: ["AYNI", "BENZER", "DAVET", "GÖNDEREN"], answer: 1 },
+  { unit: "📖 Unit 1: Friendship", q: "TRUST", options: ["DESTEKLEMEK", "GÜVENMEK", "REDDETMEK", "DAVET ETMEK"], answer: 1 },
+  { unit: "📖 Unit 1: Friendship", q: "TELL A LIE", options: ["GÖNDERMEK", "ALMAK", "YALAN SÖYLEMEK", "DOĞRU SÖYLEMEK"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "BACK (SB) UP", options: ["DESTEKLEMEK", "GÜVENMEK", "VAKİT GEÇİRMEK", "BULUŞMAK"], answer: 0 },
+  { unit: "📖 Unit 1: Friendship", q: "GENEROUS", options: ["CÖMERT", "CİMRİ", "SİNSİ", "DÜRÜST"], answer: 0 },
+  { unit: "📖 Unit 1: Friendship", q: "AMUSING", options: ["DAKİK", "EĞLENCELİ", "YARDIMSEVER", "AGRESİF"], answer: 1 },
+  { unit: "📖 Unit 1: Friendship", q: "HELPFUL", options: ["YARDIMSEVER", "DÜRÜST", "GÜVENİLİR", "CÖMERT"], answer: 0 },
+  { unit: "📖 Unit 1: Friendship", q: "KIND/POLITE", options: ["BENCİL", "DAKİK", "KİBAR", "GÜVENİLMEZ"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "RELIABLE", options: ["DÜRÜST", "NAZİK", "BENCİL", "GÜVENİLİR"], answer: 3 },
+  { unit: "📖 Unit 1: Friendship", q: "UNRELIABLE", options: ["GÜVENİLMEZ", "DESTEKLEYİCİ", "YARDIMSEVER", "DÜRÜST"], answer: 0 },
+  { unit: "📖 Unit 1: Friendship", q: "ATTEND/JOIN", options: ["REDDETMEK", "KABUL ETMEK", "KATILMAK", "TEKLİF ETMEK"], answer: 2 },
+  { unit: "📖 Unit 1: Friendship", q: "ACCEPT", options: ["REDDETMEK", "KABUL ETMEK", "KATILMAK", "TEKLİF ETMEK"], answer: 1 },
+  { unit: "📖 Unit 1: Friendship", q: "REFUSE", options: ["REDDETMEK", "KABUL ETMEK", "KATILMAK", "TEKLİF ETMEK"], answer: 0 },
+  { unit: "📖 Unit 1: Friendship", q: "OFFER", options: ["REDDETMEK", "KABUL ETMEK", "KATILMAK", "TEKLİF ETMEK"], answer: 3 },
+  { unit: "📖 Unit 1: Friendship", q: "MOVIE", options: ["TİYATRO OYUNU", "FİLM", "KONSER", "DİZİ"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "EVENT", options: ["ETKİNLİK", "SERGİ", "YER", "ZAMAN"], answer: 0 },
+{ unit: "📖 Unit 1: Friendship", q: "CYCLING", options: ["FİLM", "SERGİ", "BİSİKLETE BİNME", "EĞLENCELİ"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "EXHIBITION", options: ["TİYATRO OYUNU", "SERGİ", "FİLM", "KONSER"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "ART", options: ["SANAT", "MÜZİK", "TİYATRO", "SİNEMA"], answer: 0 },
+{ unit: "📖 Unit 1: Friendship", q: "PAINTINGS", options: ["ŞARKILAR", "TABLOLAR", "HEYKELLER", "OYUNLAR"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "SCULPTURES", options: ["ŞARKILAR", "TABLOLAR", "HEYKELLER", "OYUNLAR"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "MOVIE THEATRE", options: ["TİYATRO", "SİNEMA", "KONSER", "SERGİ"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "VISIT", options: ["BULUŞMAK", "ZİYARET ETMEK", "DAVET ETMEK", "REDDETMEK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "BOOK FAIR", options: ["BİLİM FUARI", "KİTAP FUARI", "SANAT SERGİSİ", "RESİM SERGİSİ"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "HAVE THINGS IN COMMON", options: ["GÜVENMEK", "ORTAK NOKTALARA SAHİP OLMAK", "DAVET ETMEK", "KABUL ETMEK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "KEEP SECRETS", options: ["SIRLARI PAYLAŞMAK", "SIR TUTMAK", "DOĞRU SÖYLEMEK", "YALAN SÖYLEMEK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "SHARE", options: ["SAAT", "TARİH", "PAYLAŞMAK", "ÖNEMSEMEK"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "FULL / STUFFED", options: ["AÇ", "TOK", "SUSAMIŞ", "YORGUN"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "BEVERAGE / DRINK", options: ["YİYECEK", "ÇORBA", "ANA YEMEK", "İÇECEK"], answer: 3 },
+{ unit: "📖 Unit 1: Friendship", q: "BRING", options: ["GETİRMEK", "MEŞGUL", "YÜZÜK", "İÇECEK"], answer: 0 },
+{ unit: "📖 Unit 1: Friendship", q: "DESSERT", options: ["ANA YEMEK", "TATLI", "ÇORBA", "İÇECEK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "HUNGRY", options: ["TOK", "DOYMUŞ", "AÇ", "SUSAMIŞ"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "SOUP", options: ["TATLI", "ÇORBA", "İÇECEK", "ANA YEMEK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "MISS A CHANCE", options: ["İZLEMEK", "KEK YAPMAK", "ŞANSI KAÇIRMAK", "KABUL ETMEMEK"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "BAND", options: ["MÜZİK GRUBU", "BANT", "YASAK", "VE"], answer: 0 },
+{ unit: "📖 Unit 1: Friendship", q: "TICKET", options: ["CEKET", "BİLET", "BİLEK", "ÇİLEK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "TOGETHER", options: ["YALNIZ", "YANLIŞ", "BİRLİKTE", "BENZER"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "APOLOGIZE", options: ["REDDETMEK", "BAHANE SUNMAK", "KABUL ETMEK", "ÖZÜR DİLEMEK"], answer: 3 },
+{ unit: "📖 Unit 1: Friendship", q: "EXCUSE", options: ["DAVETİYE", "ETKİNLİK", "BAHANE", "TARİH"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "REASON", options: ["CÖMERT", "SEBEP", "GÜVENİLİR", "TEKLİF"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "DATE", options: ["SAAT", "TARİH", "YER", "ETKİNLİK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "FEE / PRICE", options: ["YER", "ÜCRET", "SAAT", "DETAY"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "INVITE", options: ["UĞRAMAK", "DAVET ETMEK", "REDDETMEK", "BAHANE SUNMAK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "LOCATION / PLACE", options: ["TARİH", "KONUM", "ETKİNLİK", "ÜCRET"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "SENDER", options: ["ALICI", "AKTİVİTE", "GÖNDEREN", "KONUM"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "RECEIVER", options: ["ALICI", "AKTİVİTE", "GÖNDEREN", "KONUM"], answer: 0 },
+{ unit: "📖 Unit 1: Friendship", q: "TIME", options: ["YER", "TARİH", "ÜCRET", "ZAMAN"], answer: 3 },
+{ unit: "📖 Unit 1: Friendship", q: "SCIENCE FICTION / SCI-FI", options: ["AKSİYON", "ANİMASYON", "BİLİM KURGU", "KOMEDİ"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "SEE A PLAY", options: ["OYUN OYNAMAK", "FİLM İZLEMEK", "TİYATRO OYUNU İZLEMEK", "TV İZLEMEK"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "BOARD GAMES", options: ["ÇEVRİMİÇİ OYUNLAR", "TAKIM OYUNLARI", "MASA OYUNLARI", "OYUN OYNAMAK"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "SELF-DISCIPLINED", options: ["BENCİL", "ÖZ DİSİPLİNLİ", "BEN MERKEZLİ", "İNATÇI"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "REUNION", options: ["YENİDEN BİR ARAYA GELMEK", "TEKRAR ETMEK", "CÖMERT", "GÜVENMEK"], answer: 0 },
+{ unit: "📖 Unit 1: Friendship", q: "CAN'T ACCEPT", options: ["REDDEDEMEMEK", "KABUL EDEMEMEK", "MAZERET SUNMAK", "SEBEP SUNMAK"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "CAN'T REFUSE", options: ["REDDEDEMEMEK", "KABUL EDEMEM", "MAZERET SUNMAK", "SEBEP SUNMAK"], answer: 0 },
+{ unit: "📖 Unit 1: Friendship", q: "WHY NOT?", options: ["HAYIR", "NEDEN OLMASIN", "NEDEN", "OLMAZ"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "PARENTS", options: ["ANNE", "BABA", "EBEVEYNLER", "AİLE"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "RELATIVES", options: ["AKRABALAR", "ETKİNLİK", "İLİŞKİ", "ARKADAŞ"], answer: 0 },
+{ unit: "📖 Unit 1: Friendship", q: "MORE INFORMATION / DETAILS", options: ["DAHA FAZLA ARKADAŞ", "DAHA FAZLA ÖNEM", "DAHA FAZLA BİLGİ", "DAHA FAZLA KURAL"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "INVITER", options: ["DAVET EDİLEN", "DAVET", "DAVET EDEN", "DAVETİYE"], answer: 2 },
+{ unit: "📖 Unit 1: Friendship", q: "INVITEE", options: ["DAVET", "DAVET EDİLEN", "DAVET EDEN", "DAVETİYE"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "BUT / HOWEVER", options: ["VE", "FAKAT", "BU YÜZDEN", "ÇÜNKÜ"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "EXAM", options: ["DERS", "SINAV", "PLAN", "PROJE"], answer: 1 },
+{ unit: "📖 Unit 1: Friendship", q: "ANOTHER", options: ["DİĞER", "VE", "FAKAT", "BİR BAŞKA"], answer: 3 },
+{ unit: "🌅 Unit 2: Teen Life", q: "ALWAYS", options: ["ASLA", "SIK SIK", "BAZEN", "HER ZAMAN"], answer: 3 },
+{ unit: "🌅 Unit 2: Teen Life", q: "NEVER", options: ["ARA SIRA", "BAZEN", "ASLA", "SIK SIK"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "OFTEN", options: ["HER ZAMAN", "GENELLİKLE", "SIK SIK", "BAZEN"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "USUALLY", options: ["HER ZAMAN", "SIK SIK", "BAZEN", "GENELLİKLE"], answer: 3 },
+{ unit: "🌅 Unit 2: Teen Life", q: "RARELY", options: ["NADİREN", "GENELLİKLE", "ASLA", "HER ZAMAN"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "SOMETIMES", options: ["HER ZAMAN", "NADİREN", "BAZEN", "ASLA"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "AFTER", options: ["-DEN ÖNCE", "-E KADAR", "-DEN SONRA", "İÇİN"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "BEFORE", options: ["-DEN ÖNCE", "-E KADAR", "-DEN SONRA", "İÇİN"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "EVERY DAY", options: ["HER SABAH", "HER AKŞAM", "HER GÜN", "HER HAFTA"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "EVENING", options: ["SABAH", "AKŞAM", "ÖĞLEDEN SONRA", "HAFTASONU"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "MORNING", options: ["SABAH", "AKŞAM", "ÖĞLEDEN SONRA", "HAFTAİÇİ"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WEEKEND", options: ["SABAH", "AKŞAM", "HAFTAİÇİ", "HAFTASONU"], answer: 3 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WEEKDAY", options: ["SABAH", "AKŞAM", "HAFTAİÇİ", "HAFTASONU"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "UNTIL", options: ["-DEN ÖNCE", "-E KADAR", "-DEN SONRA", "İÇİN"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "AFTERNOON", options: ["SABAH", "AKŞAM", "ÖĞLEDEN SONRA", "HAFTAİÇİ"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "DRAWING PICTURES", options: ["MÜZE ZİYARET ETMEK", "TELEVİZYON İZLEMEK", "RESİM ÇİZMEK", "KİTAP OKUMAK"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "FASHION", options: ["MODA", "ESKİ", "YENİ", "TELEVİZYON"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "CHESS", options: ["PEYNİR", "SATRANÇ", "MİSAFİR", "SANDALYE"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "SONG", options: ["GİTMEK", "TENİS", "ŞARKI", "OK"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "SOCCER", options: ["OKÇULUK", "FUTBOL", "ŞARKI", "MODA"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "SHOPPING", options: ["SATIN ALMAK", "ALIŞVERİŞ", "KABUL ETMEK", "DAVETİYE"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "TREKKING", options: ["KAMP YAPMA", "DOĞA YÜRÜYÜŞÜ", "TEMPOLU YÜRÜYÜŞ", "KOŞU"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "HIKING", options: ["KAMP YAPMA", "DOĞA YÜRÜYÜŞÜ", "TEMPOLU YÜRÜYÜŞ", "KOŞU"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "BORING", options: ["PAHALI", "UCUZ", "SIKICI", "SAĞLIKLI"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "DIFFICULT", options: ["FARKLI", "ZOR", "SIKICI", "DUYARLI"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "EXCITING", options: ["HEYECAN VERİCİ", "FARKLI", "ZORLU", "SAĞLIKSIZ"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "EXPENSIVE", options: ["UCUZ", "ZORLU", "PAHALI", "SAĞLIKLI"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "FASCINATING", options: ["SAĞLIKSIZ", "MODA", "BÜYÜLEYİCİ", "SAĞLIKLI"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "FUN", options: ["SAĞLIKLI", "EĞLENCELİ", "MODA", "ZORLU"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "HEALTHY", options: ["EĞLENCELİ", "MODA", "SAĞLIKLI", "SAĞLIKSIZ"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "INTERESTING", options: ["İLGİNÇ", "EĞLENCELİ", "HEYECAN VERİCİ", "FARKLI"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "LAZY", options: ["ÇALIŞKAN", "TEMBEL", "HEYECAN VERİCİ", "SIKICI"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "ORDINARY", options: ["ZORLU", "SIRADAN", "İLGİNÇ", "FARKLI"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "USUAL", options: ["ZORLU", "SIRADAN", "İLGİNÇ", "FARKLI"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "TYPICAL", options: ["ZORLU", "SIRADAN", "İLGİNÇ", "FARKLI"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "RELAXING", options: ["SIKICI", "RAHATLATICI", "ZORLU", "HARİKA"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "RIDICULOUS", options: ["SAÇMA", "SIRADAN", "FARKLI", "EĞLENCELİ"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "TERRIFIC", options: ["BERBAT", "MÜTHİŞ", "FARKLI", "SIKICI"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "TERRIBLE", options: ["BERBAT", "MÜTHİŞ", "FARKLI", "SIKICI"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "TRENDY", options: ["BERBAT", "MODA", "HARİKA", "DOĞA YÜRÜYÜŞÜ"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "UNBEARABLE", options: ["KATLANILMAZ", "SIKICI", "BERBAT", "MUHTEŞEM"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "HATE", options: ["ÇOK SEVMEK", "-DEN NEFRET ETMEK", "SEVMEMEK", "HOŞLANMAK"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "PREFER", options: ["PİŞİRMEK", "TERCİH ETMEK", "BERBAT", "ÖNCEDEN"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "DISLIKE", options: ["SEVMEMEK", "HOŞLANMAK", "TERCİH ETMEK", "-DEN NEFRET ETMEK"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "SCIENCE FICTION", options: ["AKSİYON", "BİLİM KURGU", "MACERA", "BİYOGRAFİ"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "TRAVEL", options: ["AKSİYON", "BİLİM KURGU", "SEYAHAT", "HAYAL ÜRÜNÜ"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "ALONE", options: ["YALNIZ", "BİRLİKTE", "HERKES", "SADECE"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "JUST", options: ["BERABER", "TÜMÜ", "SADECE", "AYRICA"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "ONLY", options: ["BİRLİKTE", "HİÇ KİMSE", "SADECE", "AYRICA"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "ALSO", options: ["BERABER", "TÜM", "AYRICA", "SADECE"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "ARCHERY", options: ["GÜREŞ", "OKÇULUK", "HALTER", "DOĞA YÜRÜYÜŞÜ"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "BAND", options: ["BANT", "KAMP", "MÜZİK GRUBU", "KONSER"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "GYM", options: ["KİM", "SAHA", "SPOR SALONU", "OLİMPİYAT"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "NATURE", options: ["DOĞA", "KAMP", "ÇADIR", "SANDALYE"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "INDOOR", options: ["AÇIK MEKAN", "KAPALI MEKAN", "TAKIM SPORU", "BİREYSEL SPOR"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "OUTDOOR", options: ["AÇIK MEKAN", "KAPALI MEKAN", "TAKIM SPORU", "BİREYSEL SPOR"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "TENT", options: ["KAMP", "ORMAN", "ÇADIR", "DOĞA"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WALK IN THE FOREST", options: ["DOĞA YÜRÜYÜŞÜ", "ORMANDA YÜRÜMEK", "OKULA GİTMEK", "KAMP YAPMAK"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "RELATIVES", options: ["EBEVEYN", "AİLE", "AKRABALAR", "BÜYÜKANNE"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "PARENTS", options: ["EBEVEYN", "AİLE", "AKRABALAR", "KUZEN"], answer: 0 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WHAT", options: ["NEREDE", "NASIL", "NEDEN", "NE"], answer: 3 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WHEN", options: ["NASIL", "NE ZAMAN", "SAAT KAÇTA", "KİM"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WHAT TIME", options: ["NEREDE", "SAAT KAÇTA", "NE KADAR", "KAÇ TANE"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WHERE", options: ["NASIL", "NEDEN", "NEREDE", "KİM"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WHO", options: ["NEDEN", "KİM", "NASIL", "NE"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "WHICH", options: ["NASIL", "HANGİ", "KİM", "NEREDE"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "HOW", options: ["NEDEN", "NASIL", "KİM", "NEREDE"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "MOVIE", options: ["TV", "DİZİ", "FİLM", "YARIŞMA"], answer: 2 },
+{ unit: "🌅 Unit 2: Teen Life", q: "MOVIE THEATRE", options: ["TİYATRO", "SİNEMA", "HASTANE", "OTEL"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "SEE A PLAY", options: ["FİLM İZLEMEK", "TİYATRO OYUNU SEYRETMEK", "OYUN OYNAMAK", "BİLGİSAYAR OYUNU OYNAMAK"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "VISIT", options: ["DAVET", "ZİYARET ETMEK", "GİTMEK", "İZLEMEK"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "PAINTINGS", options: ["FİLMLER", "TABLOLAR", "HEYKELLER", "OYUNLAR"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "SCULPTURES", options: ["TABLOLAR", "HEYKELLER", "MÜZELER", "OYUNLAR"], answer: 1 },
+{ unit: "🌅 Unit 2: Teen Life", q: "CONCERT", options: ["YEMEK PİŞİRME", "KONSER", "FİLM İZLEME", "ŞARKI SÖYLEME"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "KITCHEN TOOLS", options: ["MUTFAK ARAÇLARI", "MALZEMELER", "YEMEKLER", "İÇECEKLER"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "INGREDIENTS", options: ["ARAÇLAR", "MALZEMELER", "TARİF", "YEMEK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "WAYS OF COOKING", options: ["YEMEKLER", "PİŞİRME YOLLARI", "ARAÇLAR", "İÇECEKLER"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "COOKING METHODS", options: ["PİŞİRME YÖNTEMLERİ", "MALZEMELER", "TATLILAR", "ARAÇLAR"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "BUTTER", options: ["TEREYAĞI", "PEYNİR", "SÜT", "YOĞURT"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "FLOUR", options: ["ŞEKER", "TUZ", "UN", "YAĞ"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "CHICKEN", options: ["BALIK", "KIRMIZI ET", "TAVUK", "SEBZE"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "SPICE", options: ["BAHARAT", "ŞEKER", "UN", "YAĞ"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "STEAK", options: ["TAVUK", "BALIK", "BİFTEK", "SEBZE"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "VEGETABLE", options: ["MEYVE", "ET", "SEBZE", "İÇECEK"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "FRUIT", options: ["ET", "MEYVE", "SEBZE", "ÇORBA"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "PREPARING FOOD", options: ["YEMEK HAZIRLAMA", "YEMEK YEME", "SERVİS", "ALIŞVERİŞ"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "ADD", options: ["ÇIKARMAK", "EKLEMEK", "KESMEK", "YIKAMAK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "CHOP", options: ["KARIŞTIRMAK", "DOĞRAMAK", "YIKAMAK", "KAYNATMAK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "CRACK", options: ["SOYMAK", "KIRMAK", "KARIŞTIRMAK", "KESMEK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "DICE", options: ["DİLİMLEMEK", "KÜP KÜP DOĞRAMAK", "EZMEK", "YOĞURMAK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "DRAIN", options: ["KAYNATMAK", "SÜZMEK", "KARIŞTIRMAK", "EKLEMEK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "HEAT", options: ["SOĞUTMAK", "ISITMAK", "KESMEK", "YIKAMAK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "KNEAD", options: ["YOĞURMAK", "KARIŞTIRMAK", "KESMEK", "SÜZMEK"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "MASH", options: ["DOĞRAMAK", "EZMEK", "KAYNATMAK", "SOYMAK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "MIX", options: ["KARIŞTIRMAK", "KESMEK", "YIKAMAK", "DÖKMEK"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "PEEL", options: ["SOYMAK", "YIKAMAK", "KESMEK", "KARIŞTIRMAK"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "POUR", options: ["SÜZMEK", "DÖKMEK", "KARIŞTIRMAK", "EKLEMEK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "STIR", options: ["KARIŞTIRMAK", "DOĞRAMAK", "SÜZMEK", "SOYMAK"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "WHISK", options: ["YOĞURMAK", "ÇIRPMAK", "KESMEK", "EZMEK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "BOWL", options: ["TENCERE", "KASE", "TAVA", "FIRIN"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "KNIFE", options: ["KAŞIK", "ÇATAL", "BIÇAK", "TABAK"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "PAN", options: ["TENCERE", "FIRIN", "TAVA", "KASE"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "OVEN", options: ["FIRIN", "TAVA", "TENCERE", "KASE"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "POT", options: ["TAVA", "TENCERE", "KASE", "TABAK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "ROLLING PIN", options: ["MERDANE", "BIÇAK", "KAŞIK", "SÜZGEÇ"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "BAKE", options: ["KIZARTMAK", "KAYNATMAK", "FIRINDA PİŞİRMEK", "BUHARDA PİŞİRMEK"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "BOIL", options: ["KIZARTMAK", "KAYNATMAK", "FIRINDA", "IZGARA"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "FRY", options: ["KAYNATMAK", "BUHARDA", "KIZARTMAK", "FIRINDA"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "GRILL", options: ["IZGARA YAPMAK", "KAYNATMAK", "FIRINDA", "BUHARDA"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "STEAM", options: ["KIZARTMAK", "BUHARDA PİŞİRMEK", "FIRINDA", "KAYNATMAK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "RECIPE", options: ["YEMEK", "TARİF", "ARAÇ", "MALZEME"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "PROCESS OF COOKING", options: ["PİŞİRME SÜRECİ", "ALIŞVERİŞ", "SERVİS", "TAT"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "STEP", options: ["SONUÇ", "ADIM", "TAT", "ARAÇ"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "LAST STEP", options: ["İLK ADIM", "ORTA ADIM", "SON ADIM", "TAT"], answer: 2 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "DESSERT", options: ["ÇORBA", "TATLI", "ANA YEMEK", "İÇECEK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "MEAL", options: ["TATLI", "ÖĞÜN", "İÇECEK", "ATIŞTIRMALIK"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "SOUP", options: ["ÇORBA", "TATLI", "ET", "SALATA"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "DELICIOUS", options: ["LEZZETLİ", "KÖTÜ", "ZARARLI", "YAĞLI"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "ENJOY YOUR MEAL", options: ["GEÇMİŞ OLSUN", "AFİYET OLSUN", "HOŞÇA KAL", "TEŞEKKÜR"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "HEALTHY", options: ["SAĞLIKLI", "ZARARLI", "YAĞLI", "TATLI"], answer: 0 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "UNHEALTHY", options: ["SAĞLIKLI", "SAĞLIKSIZ", "DOĞAL", "TATLI"], answer: 1 },
+{ unit: "🍳 Unit 3: In the Kitchen", q: "PREFER", options: ["SEVMEK", "TERCİH ETMEK", "İSTEMEMEK", "KAÇINMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "AVAILABLE", options: ["MEŞGUL", "UYGUN / MÜSAİT", "YORGUN", "GEÇ"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "HANG ON", options: ["GEL", "GİT", "BEKLE (HATTA KAL)", "KONUŞ"], answer: 2 },
+{ unit: "📞 Unit 4: On the Phone", q: "LEAVE A MESSAGE", options: ["MESAJ BIRAKMAK", "ARAMAK", "CEVAP VERMEK", "KAPATMAK"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "FACE TO FACE", options: ["ONLINE", "TELEFONLA", "YAZIŞARAK", "YÜZ YÜZE"], answer: 3 },
+{ unit: "📞 Unit 4: On the Phone", q: "TEXT", options: ["ARAMAK", "MESAJ ATMAK", "BEKLEMEK", "GÖRÜŞMEK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "APPOINTMENT", options: ["RANDEVU", "MESAJ", "ARAMA", "TOPLANTI"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "HANG UP", options: ["TELEFONU AÇMAK", "TELEFONU KAPATMAK", "BEKLEMEK", "ARAMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "ENGAGED", options: ["UYGUN", "MEŞGUL", "AÇIK", "BOŞ"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "BAD LINE", options: ["HAT İYİ", "HAT KÖTÜ", "SESSİZ", "HIZLI"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "COMMUNICATE", options: ["DİNLEMEK", "İLETİŞİM KURMAK", "BEKLEMEK", "YAZMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "KEEP IN TOUCH", options: ["AYRILMAK", "İRTİBATTA KALMAK", "KONUŞMAMAK", "UNUTMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "CONTACT", options: ["KAPATMAK", "BEKLEMEK", "İLETİŞİME GEÇMEK", "SORMAMAK"], answer: 2 },
+{ unit: "📞 Unit 4: On the Phone", q: "TELL", options: ["DİNLEMEK", "SÖYLEMEK", "YAZMAK", "SORMAMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "REPEAT", options: ["BAŞLAMAK", "DURMAK", "TEKRAR ETMEK", "BİTİRMEK"], answer: 2 },
+{ unit: "📞 Unit 4: On the Phone", q: "AGAIN", options: ["İLK KEZ", "TEKRAR", "ASLA", "ŞİMDİ"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "SAY", options: ["DUYMAK", "SÖYLEMEK", "BEKLEMEK", "KAPATMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "LYRICS OF A SONG", options: ["ŞARKI SÖZLERİ", "MEKTUP", "MESAJ", "HİKAYE"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "USEFUL", options: ["ZARARLI", "FAYDALI", "TEHLİKELİ", "BOŞ"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "HARMFUL", options: ["FAYDALI", "ZARARLI", "GÜVENLİ", "İYİ"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "SMARTPHONE", options: ["BİLGİSAYAR", "AKILLI TELEFON", "TELEVİZYON", "TABLET"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "SECURITY", options: ["TEHLİKE", "GÜVENLİK", "SORUN", "HATA"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "ADDICTION", options: ["ALIŞKANLIK", "BAĞIMLILIK", "GÜVENLİK", "FAYDA"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "LETTER", options: ["MESAJ", "MEKTUP", "ARAMA", "E-POSTA"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "CALL", options: ["YAZMAK", "BEKLEMEK", "ARAMAK", "DİNLEMEK"], answer: 2 },
+{ unit: "📞 Unit 4: On the Phone", q: "TALK", options: ["KONUŞMAK", "DİNLEMEK", "YAZMAK", "OKUMAK"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "SPEAK", options: ["SUSMAK", "KONUŞMAK", "YAZMAK", "BEKLEMEK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "WAIT", options: ["GELMEK", "GİTMEK", "BEKLEMEK", "KONUŞMAK"], answer: 2 },
+{ unit: "📞 Unit 4: On the Phone", q: "HEAR", options: ["GÖRMEK", "DUYMAK", "SÖYLEMEK", "YAZMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "PICK UP THE PHONE", options: ["TELEFONU KAPATMAK", "TELEFONU AÇMAK", "BEKLEMEK", "ARAMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "DIAL", options: ["MESAJ ATMAK", "NUMARA ÇEVİRMEK", "KAPATMAK", "BEKLEMEK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "SEND", options: ["ALMAK", "GÖNDERMEK", "BEKLEMEK", "SİLMEK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "ASK", options: ["CEVAP VERMEK", "SORMAK", "SÖYLEMEK", "YAZMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "BUSY", options: ["MEŞGUL", "UYGUN", "BOŞ", "HAZIR"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "CALL BACK", options: ["İLK ARAMAK", "GERİ ARAMAK", "MESAJ ATMAK", "KAPATMAK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "PUT SB THROUGH", options: ["KAPATMAK", "BEKLETMEK", "BİRİNE BAĞLAMAK", "MESAJ ATMAK"], answer: 2 },
+{ unit: "📞 Unit 4: On the Phone", q: "CALLER", options: ["ALICI", "ARAYAN KİŞİ", "MESAJ", "NUMARA"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "CHANGE", options: ["DEĞİŞTİRMEK", "KULLANMAK", "KAPATMAK", "ARAMAK"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "CHEAP", options: ["PAHALI", "UCUZ", "ZOR", "YAVAŞ"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "DEVICE", options: ["CİHAZ", "PROGRAM", "UYGULAMA", "HESAP"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "EASY WAY", options: ["ZOR YOL", "UZUN YOL", "KOLAY YOL", "TEHLİKELİ YOL"], answer: 2 },
+{ unit: "📞 Unit 4: On the Phone", q: "CONVERSATION", options: ["MESAJ", "KONUŞMA", "MEKTUP", "SORU"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "EXPENSIVE", options: ["UCUZ", "PAHALI", "KOLAY", "KÜÇÜK"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "GET WELL SOON", options: ["TEŞEKKÜR EDERİM", "GEÇMİŞ OLSUN", "HOŞÇA KAL", "ÖZÜR DİLERİM"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "IMPORTANT", options: ["ÖNEMSİZ", "ZOR", "ÖNEMLİ", "KOLAY"], answer: 2 },
+{ unit: "📞 Unit 4: On the Phone", q: "INFORMATION", options: ["SORU", "BİLGİ", "CEVAP", "MESAJ"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "MEMO", options: ["MEKTUP", "NOT", "MESAJ", "ARAMA"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "TICKET", options: ["BİLET", "NOT", "ÜCRET", "YER"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "RECEIVER", options: ["ARAYAN", "ALICI", "MESAJ", "NUMARA"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "SORRY TO HEAR THAT", options: ["TEBRİKLER", "BUNU DUYDUĞUMA ÜZÜLDÜM", "GEÇMİŞ OLSUN", "HOŞ GELDİN"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "TAKE CARE", options: ["HOŞÇA KAL", "KENDİNE İYİ BAK", "BEKLE", "GEL"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "TAKE MESSAGE", options: ["MESAJ ALMAK", "MESAJ GÖNDERMEK", "ARAMAK", "KAPATMAK"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "WANT", options: ["İSTEMEK", "SEVMEK", "BİLMEK", "BEKLEMEK"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "SECURITY RISKS", options: ["GÜVENLİK RİSKLERİ", "GÜVENLİK", "FAYDA", "KOLAYLIK"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "PURPOSE", options: ["SONUÇ", "AMAÇ", "SORU", "CEVAP"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "DIFFERENT", options: ["FARKLI", "AYNI", "BENZER", "CİHAZ"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "STARTING A CONVERSATION", options: ["KONUŞMA BİTİRME", "KONUŞMA BAŞLATMA", "MESAJ ATMA", "BEKLEME"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "INTRODUCING YOURSELF ON THE PHONE", options: ["TELEFONU KAPATMA", "TELEFONDA KENDİNİ TANITMA", "MESAJ ALMA", "BEKLETME"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "ASKING TO SPEAK TO SOMEONE", options: ["BİRİYLE KONUŞMAYI İSTEME", "KAPATMA", "MESAJ BIRAKMA", "BEKLEME"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "CONNECTING SOMEONE", options: ["KAPATMA", "BİRİNE BAĞLAMA", "MESAJ ATMA", "BEKLETME"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "EXPLAINING ABSENCE", options: ["YOKLUĞU AÇIKLAMA", "SORU SORMA", "KONUŞMA BAŞLATMA", "KAPATMA"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "ASKING FOR CLARIFICATION", options: ["CEVAP VERME", "AÇIKLAMA İSTEME", "KAPATMA", "BEKLEME"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "ASKING WHO IS CALLING", options: ["MESAJ ALMA", "KİMİN ARADIĞINI SORMA", "KONUŞMA BİTİRME", "BAĞLAMA"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "TELLING THAT SB IS ENGAGED", options: ["UYGUN OLDUĞUNU SÖYLEME", "MEŞGUL OLDUĞUNU SÖYLEME", "BAĞLAMA", "MESAJ ALMA"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "FINISHING A CONVERSATION", options: ["KONUŞMAYI BİTİRME", "KONUŞMA BAŞLATMA", "BEKLEME", "MESAJ ATMA"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "FOR FUN", options: ["EĞLENCE İÇİN", "EĞİTİM İÇİN", "BANKA İÇİN", "SİPARİŞ İÇİN"], answer: 0 },
+{ unit: "📞 Unit 4: On the Phone", q: "FOR EDUCATION", options: ["EĞLENCE İÇİN", "EĞİTİM İÇİN", "ALIŞVERİŞ İÇİN", "OYUN İÇİN"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "FOR BANKING", options: ["EĞLENCE İÇİN", "BANKACILIK İÇİN", "SOHBET İÇİN", "OYUN İÇİN"], answer: 1 },
+{ unit: "📞 Unit 4: On the Phone", q: "FOR ORDERING STH TO EAT", options: ["EĞİTİM İÇİN", "BANKA İÇİN", "YEMEK SİPARİŞİ İÇİN", "EĞLENCE İÇİN"], answer: 2 },
+{ unit: "🌐 Unit 5: The Internet", q: "You should always keep your _____ a secret online.", options: ["keyboard", "password", "screen", "mouse"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "ATTACHMENT", options: ["İNDİRMEK", "EK DOSYA", "KULLANICI", "AYARLAR"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "CHECK", options: ["SİSTEME GİRMEK", "KONTROL ETMEK", "ARAMA YAPMAK", "GÖNDERMEK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "CONNECTION", options: ["KAYIT", "BAĞLANTI", "TAKİPÇİ", "KULLANICI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "ACCOUNT", options: ["ŞİFRE", "HESAP", "ABONE", "YAZILIM"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "COMMENT", options: ["PAYLAŞIM", "YORUM", "TAKİPÇİ", "BEĞENİ"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "CONNECT", options: ["KABUL ETMEK", "BAĞLANMAK", "REDDETMEK", "GÜNCELLEMEK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "DOWNLOAD", options: ["YÜKLEMEK", "İNDİRMEK", "SİLMEK", "EKLEMEK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "FILE", options: ["ARAMA MOTORU", "DOSYA", "KABLOSUZ İNTERNET", "ÇEVRİM İÇİ"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "FOLLOWER", options: ["DOSYA", "TAKİPÇİ", "BAĞLANTI", "HESAP"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "INTERNET ADDICT", options: ["ABONE SAYISI", "INTERNET BAGIMLISI", "AĞ TARAYICISI", "BAĞLANTI NOKTASI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "LOG IN/ON", options: ["OTURUMU KAPATMAK", "GİRİŞ YAPMAK", "BİLDİRİM", "KAYIT OLUŞTURMAK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "LOG OUT/OFF", options: ["OTURUM AÇMAK", "ÇIKIŞ YAPMAK", "MESAJ YOLLAMAK", "ÇEVRİM DIŞI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "OFFLINE", options: ["ŞİFRE", "ÇEVRİM DIŞI", "KÖTÜ HAT", "KAYIT OLMAK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "ONLINE", options: ["KAYIT", "ÇEVRİM İÇİ", "OTURUM AÇMAK", "GİRİŞ YAPMAK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "PASSWORD", options: ["KAYDOLMAK", "ŞİFRE", "GÜVENLİK", "KONTROL ETMEK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "UPLOAD", options: ["İNDİRMEK", "YÜKLEMEK", "TAKİPÇİ", "DESTEKLEMEK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "USER", options: ["TAKİPÇİ", "KULLANICI", "BAĞIMLI", "BAĞLANTI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "ONLINE BANKING", options: ["FATURA ÖDEME", "INTERNET BANKACILIGI", "BILGI ARAMA", "EĞİTİM AMACIYLA"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "DO RESEARCH", options: ["FATURA ÖDEMEK", "ARAŞTIRMA YAPMAK", "SOHBET ETMEK", "E-POSTA KONTROL ETMEK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "SMARTPHONE", options: ["TABLET", "AKILLI TELEFON", "MASAÜSTÜ BİLGİSAYAR", "EKRAN"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "ADULT", options: ["GENÇ", "YETİŞKİN", "ÖĞRENCİ", "YAŞLI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "BROKEN", options: ["UYGUN", "ARIZALI", "PAHALI", "DÜZGÜN"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "COMPLAIN", options: ["ŞİKAYET ETMEK", "YORUM YAPMAK", "PAYLAŞMAK", "BEĞENMEK"], answer: 0 },
+{ unit: "🌐 Unit 5: The Internet", q: "EXCEPT", options: ["KABUL ETMEK", "HARİÇ", "ÇIKIŞ", "TELEFON"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "FOREIGN", options: ["İÇİN", "YABANCI", "TEKRAR", "İLERİ"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "HOWEVER", options: ["FAKAT", "BU NEDENLE", "İÇİN", "ÇÜNKÜ"], answer: 0 },
+{ unit: "🌐 Unit 5: The Internet", q: "IMPROVE", options: ["AZALTMAK", "GELİŞTİRMEK", "SABİT TUTMAK", "KANITLAMAK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "LESS", options: ["DAHA FAZLA", "DAHA AZ", "ÇOĞU", "EN AZI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "LETTER", options: ["SAYI", "HARF", "KARAKTER", "SİMGE"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "NUMBER", options: ["KARAKTER", "RAKAM", "HARF", "SİMGE"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "USEFUL", options: ["ZARARLI", "YARARLI", "TEHLİKELİ", "BAĞIMLI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "FUN", options: ["EĞİTİM", "EĞLENCE", "BANKACILIK", "SOSYAL MEDYA"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "EDUCATION", options: ["EĞİTİM", "EĞLENCE", "BANKACILIK", "SOSYAL MEDYA"], answer: 0 },
+{ unit: "🌐 Unit 5: The Internet", q: "SHOPPING", options: ["SOSYAL MEDYA", "ALIŞVERİŞ", "EĞİTİM", "İLETİŞİM"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "COMMUNICATION", options: ["SOSYAL MEDYA", "İLETİŞİM", "EĞİTİM", "EĞLENCE"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "FLIGHT TICKET", options: ["İNTERNET BANKACILIĞI", "UÇUŞ BİLETİ", "ÇAĞRI MERKEZİ", "İNTERNET SAYFASI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "STRONG PASSWORD", options: ["KULLANICI HESABI", "GÜÇLÜ ŞİFRE", "İNDİRME BUTONU", "YORUM YAPMAK"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "PERSONAL INFORMATION", options: ["GÜVENLİ SİTE", "YABANCI KİŞİLER", "KİŞİSEL BİLGİ", "TAKİPÇİ SAYISI"], answer: 2 },
+{ unit: "🌐 Unit 5: The Internet", q: "STRANGER", options: ["YARARLI", "YABANCI", "FAKAT", "KULLANICI"], answer: 1 },
+{ unit: "🌐 Unit 5: The Internet", q: "AVOID", options: ["KAÇINMAK", "KABUL ETMEK", "KULLANMAK", "YAPMAK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "ICE CLIMBING", options: ["BUZ TIRMANISI", "KAYA TIRMANISI", "DAĞ TIRMANISI", "YAMAÇ PARAŞÜTÜ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "ROCK CLIMBING", options: ["BUZ TIRMANISI", "KAYA TIRMANISI", "DAĞ TIRMANISI", "YAMAÇ PARAŞÜTÜ"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "MOUNTAIN CLIMBING", options: ["BUZ TIRMANISI", "KAYA TIRMANISI", "DAĞ TIRMANISI", "YAMAÇ PARAŞÜTÜ"], answer: 2 },
+{ unit: "🪂 Unit 6: Adventures", q: "CAVING", options: ["MAĞARACILIK", "KANO SPORU", "SU KAYAĞI", "RAFTING"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "BUNGEE JUMPING", options: ["ESNEK HALATLA ATLAMA", "PARAŞÜTLE ATLAMA", "GÖKYÜZÜ DALIŞI", "HAVA SPORU"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "CANOEING", options: ["SU KAYAĞI", "KANO SPORU", "RAFTING", "SU SPORU"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "HANG-GLIDING", options: ["YELKEN KANATLA UÇMA", "GÖKYÜZÜ DALIŞI", "YAMAÇ PARAŞÜTÜ", "RÜZGAR SÖRFÜ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "HIGHLINING", options: ["İP ÜZERİNDE YÜRÜME", "KAYA TIRMANISI", "YELKEN KANATLA UÇMA", "YAMAÇ PARAŞÜTÜ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "KAYAKING", options: ["SU KAYAĞI", "KARDA KAYAK", "KANO SPORU", "KAYA TIRMANISI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "PARAGLIDING", options: ["YAMAÇ PARAŞÜTÜ", "GÖKYÜZÜ DALIŞI", "TÜPLÜ DALIŞ", "YELKEN KANATLA UÇMA"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "MOUNTAIN BIKING", options: ["DAĞ TIRMANISI", "KAYA TIRMANISI", "DAĞ BİSİKLETİ", "DOĞA YÜRÜYÜŞÜ"], answer: 2 },
+{ unit: "🪂 Unit 6: Adventures", q: "RAFTING", options: ["KANO SPORU", "NEHİRDE BOTLA SU SPORU", "SU KAYAĞI", "KAR KAYAĞI"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "SCUBA DIVING", options: ["TÜPLÜ DALIŞ", "GÖKYÜZÜ DALIŞI", "HAVA SPORU", "DAĞ TIRMANISI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "SKIING", options: ["SU KAYAĞI", "KARDA KAYAK", "KANO SPORU", "ESNEK HALATLA ATLAMA"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "SKYDIVING", options: ["TÜPLÜ DALIŞ", "GÖKYÜZÜ DALIŞI", "YAMAÇ PARAŞÜTÜ", "YELKEN KANATLA UÇMA"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "TREKKING/HIKING", options: ["DOĞA YÜRÜYÜŞÜ", "KAMP YAPMA", "DAĞ BİSİKLETİ", "İP ÜZERİNDE YÜRÜME"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "TORCH/FLASHLIGHT", options: ["EL FENERİ", "CAN YELEĞİ", "DİZLİK", "KASK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "FLIGHT SUIT", options: ["UÇUŞ KIYAFETİ", "DALIŞ GİYSİSİ", "BOT", "KANAT"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "GOGGLES", options: ["KASK", "KORUYUCU GÖZLÜK", "SIRT ÇANTASI", "SOPA"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "HELMET", options: ["KASK", "HALAT", "SANDAL KÜREĞİ", "KANAT"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "LIFE JACKET", options: ["CAN YELEĞİ", "KAYKAY", "UÇUŞ KIYAFETİ", "BOT"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "PADDLE", options: ["SANDAL KÜREĞİ", "KORUYUCU GÖZLÜK", "SIRT ÇANTASI", "EL FENERİ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "ROPE", options: ["HALAT/IP", "KASK", "KORUYUCU GÖZLÜK", "KANAT"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "STICK", options: ["SOPA", "EL FENERİ", "KANAT", "SANDAL KÜREĞİ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "WING", options: ["KANAT", "UÇUŞ KIYAFETİ", "CAN YELEĞİ", "SANDAL KÜREĞİ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "WET SUIT", options: ["DALIŞ GİYSİSİ", "UÇUŞ KIYAFETİ", "DİZLİK", "DİRSEKLİK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "KNEE PAD", options: ["DİZLİK", "DİRSEKLİK", "BİLEKLİK", "KASK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "ELBOW PAD", options: ["DİRSEKLİK", "DİZLİK", "BİLEKLİK", "CAN YELEĞİ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "WRIST GUARD", options: ["BİLEKLİK", "DİZLİK", "DİRSEKLİK", "SANDAL KÜREĞİ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "AIR SPORTS", options: ["HAVA SPORLARI", "SU SPORLARI", "KARA SPORLARI", "TAKIM SPORLARI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "INDIVIDUAL SPORTS", options: ["TAKIM SPORLARI", "BİREYSEL SPORLAR", "AÇIK ALAN SPORLARI", "KAPALI ALAN SPORLARI"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "INDOOR SPORTS", options: ["KAPALI ALAN SPORLARI", "AÇIK ALAN SPORLARI", "TAKIM SPORLARI", "BİREYSEL SPORLAR"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "OUTDOOR SPORTS", options: ["AÇIK ALAN SPORLARI", "KAPALI ALAN SPORLARI", "HAVA SPORLARI", "SU SPORLARI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "TEAM SPORTS", options: ["TAKIM SPORLARI", "BİREYSEL SPORLAR", "HAVA SPORLARI", "SU SPORLARI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "LAND SPORTS", options: ["KARA SPORLARI", "HAVA SPORLARI", "SU SPORLARI", "BİREYSEL SPORLAR"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "CHALLENGING", options: ["ZORLAYICI", "SIKICI", "TEHLİKELİ", "GİZEMLİ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "EASY", options: ["KOLAY", "ZOR", "RİSKLİ", "GÜVENLİ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "ENTERTAINING", options: ["ZORLAYICI", "EĞLENCELİ", "KORKUNÇ", "İLGİNÇ"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "DISAPPOINTING", options: ["YORUCU", "HAYAL KIRIKLIĞI", "SIKICI", "KORKUNÇ"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "EXCITING", options: ["HEYECAN VERİCİ", "EĞLENCELİ", "STRESLİ", "GÜVENLİ"], answer: 0 },,
+{ unit: "🪂 Unit 6: Adventures", q: "MYSTERIOUS", options: ["KOLAY", "ZOR", "GIZEMLI", "KARANLIK"], answer: 2 },
+{ unit: "🪂 Unit 6: Adventures", q: "RISKY", options: ["RISKLI", "TEHLIKELI", "ILGINC", "ZORLAYICI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "SAFE", options: ["GÜVENLİ", "TEHLİKELİ", "ZOR", "SIKICI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "DANGEROUS", options: ["TEHLIKELI", "ZORLAYICI", "GÜVENLİ", "STRESLI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "STRESSFUL", options: ["STRESLI", "ZORLAYICI", "SIKICI", "ILGINC"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "MOUNTAIN", options: ["DAG", "TATLI", "CÖL", "NEHIR"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "RIVER", options: ["NEHIR", "DAG", "CÖL", "DENIZ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "SEA", options: ["DENIZ", "NEHIR", "OKYANUS", "ÇÖL"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "CAVE", options: ["DENIZ", "MAGARA", "ÇÖL", "NEHIR"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "AGE RANGE", options: ["YAS ARALIGI", "ETKINLIK ZAMANI", "ETKINLIK UCRETI", "TEHLIKELI SPORLAR"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "EXTREME SPORTS", options: ["MACERA SPORLARI", "GÜVENLİ SPORLAR", "BİREYSEL SPORLAR", "TAKIM SPORLARI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "EXPLORE", options: ["KESFETMEK", "ICAT ETMEK", "DENEMEK", "KORUMAK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "TRY", options: ["DENEMEK", "KESFETMEK", "ISTEMEK", "YAPMAK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "PROTECT", options: ["KORUMAK", "DENEMEK", "DALMAK", "REDDETMEK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "SCENERY/ VIEW", options: ["MANZARA", "NEHIR", "HEDIYE", "ÇÖL"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "UNDERWATER SEA LIFE", options: ["SU ALTI DENIZ YASAMI", "SUALTI GEMI BATIGI", "SUALTI KAMERASI", "SUALTI DALIŞI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "BEING IN NATURE", options: ["DOGADA OLMAK", "KAYAK YAPMAK", "KAMP YAPMAK", "DAG BISIKLETI SURMEK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "WINTER SPORTS", options: ["YAZ SPORLARI", "KIS SPORLARI", "KAPALI ALAN SPORLARI", "ACIK ALAN SPORLARI"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "SUMMER SPORTS", options: ["YAZ SPORLARI", "KIS SPORLARI", "KAPALI SPORLARI", "ACIK ALAN SPORLARI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "WATCHING VIEW/SCENERY OVER THE LAND", options: ["SINEMADA FILM IZLEMEK", "YERDEN YUKARIDA MANZARAYI IZLEMEK", "TIYATRO OYUNU IZLEMEK", "TEHLIKELI SPORLARI IZLEMEK"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "AFRAID OF HEIGHTS", options: ["YUKSEKLIK KORKUSU", "KAYA TIRMANISI", "SUALTI KEŞFİ", "KARANLIK YERLER"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "WALKING IN THE NATURE", options: ["DOGADA YURUMEK", "DOGADA KAMP YAPMAK", "DOGADA BISIKLET SURMEK", "DOGADA OLMAK"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "HOT AIR BALLOON", options: ["SICAK HAVA BALONU", "YAMAC PARASUTU", "GOKYUZU DALISI", "RUZGAR SÖRFÜ"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "FASCINATING", options: ["BÜYÜLEYİCİ", "EGLENCELİ", "SIKICI", "KORKUTUCU"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "FRIGHTENING", options: ["KORKUTUCU", "BÜYÜLEYİCİ", "İLGİNC", "HAYAL KIRIKLIGI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "AMUSING", options: ["EGLENCELI", "ILGINC", "KORKUTUCU", "GIZEMLI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "DARK PLACES", options: ["GIZEMLI YERLER", "KARANLIK YERLER", "EGLENCELI YERLER", "SIKICI YERLER"], answer: 1 },
+{ unit: "🪂 Unit 6: Adventures", q: "ELASTIC ROPE", options: ["ESNEK IP", "HALATLA ATLAMA", "YAMAC PARASUTU", "YARDIM HALATI"], answer: 0 },
+{ unit: "🪂 Unit 6: Adventures", q: "PREFER", options: ["TERCIH ETMEK", "KATILIYORUM", "KATILMIYORUM", "BENCE"], answer: 0 },
+{ unit: "🏛️ Unit 7: Tourism", q: "HISTORIC SITE", options: ["YARIMADA", "TARİHİ YER", "KENTSEL ALAN", "ÇARŞI,PAZAR"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "LAKE", options: ["PLAJ", "DENİZ", "NEHİR", "GÖL"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BAZAAR", options: ["TARİHİ YER", "SARAY", "ÇARŞI,PAZAR", "KULE"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BRIDGE", options: ["TAPINAK", "CAMİ", "KÖPRÜ", "KIRSAL ALAN"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CASTLE", options: ["KULE", "KALE", "SARAY", "MEZAR,TÜRBE"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CAVE", options: ["MEZAR,TÜRBE", "MAĞARA", "MEYDAN", "LİMAN"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "MONUMENT", options: ["TÜRBE,TAPINAK", "ANIT,ABİDE", "ANITMEZAR", "MANASTIR"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "MOSQUE", options: ["KULE", "CAMİ", "KALE", "MEYDAN"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "MUSEUM", options: ["KENTSEL ALAN", "MEYDAN", "MÜZE", "MAĞARA"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "PALACE", options: ["YER", "KALE", "SARAY", "KÖPRÜ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "RURAL PLACE", options: ["KENTSEL ALAN", "KAMP ALANI", "KIRSAL ALAN", "YARIMADA"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CONTRYSIDE", options: ["KENTSEL ALAN", "KIRSAL ALAN", "TARİHİ ALAN", "KUMSAL"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SQUARE", options: ["KALE", "MEYDAN", "KIRSAL ALAN", "CAMİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "TEMPLE", options: ["TAPINAK", "SARAY", "KÖPRÜ", "KALE"], answer: 0 },
+{ unit: "🏛️ Unit 7: Tourism", q: "TOWER", options: ["KALE", "KULE", "SARAY", "CAMİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "URBAN PLACE", options: ["TARİHİ ALAN", "KIRSAL ALAN", "KENTSEL ALAN", "KAMP ALANI"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "ANCIENT", options: ["BÜYÜLEYİCİ", "ANTİK", "DİNİ", "LEZZETLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "DIFFERENT", options: ["FARKLI", "AYNI", "BENZER", "ÖZEL"], answer: 0 },
+{ unit: "🏛️ Unit 7: Tourism", q: "DELICIOUS", options: ["EĞLENCELİ", "TEHLİKELİ", "LEZZETLI", "DINLENDIRICI"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "EXPENSIVE", options: ["UCUZ", "PAHALI", "RAHAT", "GİZEMLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CHEAP", options: ["İNANILMAZ", "RAHAT", "UCUZ", "MODASI GEÇMİŞ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BEACH HOLIDAY", options: ["GEMİ TATİLİ", "KIŞ TATİLİ", "KAMP TATİLİ", "KUMSAL TATİLİ"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SEASIDE HOLIDAY", options: ["VAHŞİ YAŞAM TATİLİ", "SAHİL TATİLİ", "KÜLTÜREL TATİL", "ŞEHİR TURU"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CRUISE HOLIDAY", options: ["KÜLTÜREL TATİL", "GEMİ TATİLİ", "YAZ TATİLİ", "KUMSAL TATİLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SAFARI", options: ["KIŞ TATİLİ", "ŞEHİR TURU", "VAHŞİ YASAM TATİLİ", "KÜLTÜREL TATİL"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SIGHTSEEING HOLIDAY", options: ["KÜLTÜREL TATİL", "TARİHİ YERLERİ GEZME", "ŞEHİR TURU TATİLİ", "GEMİ TATİLİ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "WINTER HOLIDAY", options: ["YAZ TATİLİ", "KIŞ TATİLİ", "KUMSAL TATİLİ", "KAMP TATİLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "ALL-INCLUSIVE HOTEL", options: ["PANSİYON", "BUTİK OTEL", "ODA-KAHVALTI OTEL", "HER ŞEY DAHİL OTEL"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BED AND BREAKFAST", options: ["HER ŞEY DAHİL OTEL", "ODA-KAHVALTI OTEL", "BUTİK OTEL", "BUNGALOV OTEL"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BUY A SOUVENIR", options: ["DINLENMEK", "BİR FESTİVALE KATILMAK", "TARIHI YERLERI ZIYARET ETMEK", "HEDIYELIK ESYA ALMAK"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "TRADITIONAL DISHES", options: ["TARİHİ YERLER", "GELENEKSEL YIYECEKLER", "ADALAR", "TURİSTİK YERLER"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SIGHTSEEING", options: ["MÜZEYİ ZİYARET ETMEK", "ŞEHİR TURU", "İNANILMAZ", "GEMİ TATİLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BUS", options: ["ARABA", "UÇAK", "OTOBUS", "TAKSİ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "PLANE", options: ["TEKNE", "UÇAK", "ARABA", "OTOBUS"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SHIP", options: ["BİSİKLET", "TREN", "UÇAK", "GEMİ"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BIKE", options: ["TREN", "BİSİKLET", "UÇAK", "OTOBUS"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "HISTORIC SITE", options: ["YARIMADA", "TARİHİ YER", "KENTSEL ALAN", "ÇARŞI,PAZAR"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "LAKE", options: ["PLAJ", "DENİZ", "NEHİR", "GÖL"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BAZAAR", options: ["TARİHİ YER", "SARAY", "ÇARŞI,PAZAR", "KULE"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BRIDGE", options: ["TAPINAK", "CAMİ", "KÖPRÜ", "KIRSAL ALAN"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CASTLE", options: ["KULE", "KALE", "SARAY", "MEZAR,TÜRBE"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CAVE", options: ["MEZAR,TÜRBE", "MAĞARA", "MEYDAN", "LİMAN"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "MONUMENT", options: ["TÜRBE,TAPINAK", "ANIT,ABİDE", "ANITMEZAR", "MANASTIR"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "MOSQUE", options: ["KULE", "CAMİ", "KALE", "MEYDAN"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "MUSEUM", options: ["KENTSEL ALAN", "MEYDAN", "MÜZE", "MAĞARA"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "PALACE", options: ["YER", "KALE", "SARAY", "KÖPRÜ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "RURAL PLACE", options: ["KENTSEL ALAN", "KAMP ALANI", "KIRSAL ALAN", "YARIMADA"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CONTRYSIDE", options: ["KENTSEL ALAN", "KIRSAL ALAN", "TARİHİ ALAN", "KUMSAL"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SQUARE", options: ["KALE", "MEYDAN", "KIRSAL ALAN", "CAMİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "TEMPLE", options: ["TAPINAK", "SARAY", "KÖPRÜ", "KALE"], answer: 0 },
+{ unit: "🏛️ Unit 7: Tourism", q: "TOWER", options: ["KALE", "KULE", "SARAY", "CAMİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "URBAN PLACE", options: ["TARİHİ ALAN", "KIRSAL ALAN", "KENTSEL ALAN", "KAMP ALANI"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "ANCIENT", options: ["BÜYÜLEYİCİ", "ANTİK", "DİNİ", "LEZZETLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "DIFFERENT", options: ["FARKLI", "AYNI", "BENZER", "ÖZEL"], answer: 0 },
+{ unit: "🏛️ Unit 7: Tourism", q: "DELICIOUS", options: ["EĞLENCELİ", "TEHLİKELİ", "LEZZETLİ", "DİNLENDİRİCİ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "EXPENSIVE", options: ["UCUZ", "PAHALI", "RAHAT", "GİZEMLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CHEAP", options: ["İNANILMAZ", "RAHAT", "UCUZ", "MODASI GEÇMİŞ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BEACH HOLIDAY", options: ["GEMİ TATİLİ", "KIŞ TATİLİ", "KAMP TATİLİ", "KUMSAL TATİLİ"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SEASIDE HOLIDAY", options: ["VAHŞİ YAŞAM TATİLİ", "SAHİL TATİLİ", "KÜLTÜREL TATİL", "ŞEHİR TURU"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "CRUISE HOLIDAY", options: ["KÜLTÜREL TATİL", "GEMİ TATİLİ", "YAZ TATİLİ", "KUMSAL TATİLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SAFARI", options: ["KIŞ TATİLİ", "ŞEHİR TURU", "VAHŞİ YAŞAM TATİLİ", "KÜLTÜREL TATİL"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SIGHTSEEING HOLIDAY", options: ["KÜLTÜREL TATİL", "TARİHİ YERLERİ GEZME", "ŞEHİR TURU TATİLİ", "GEMİ TATİLİ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "WINTER HOLIDAY", options: ["YAZ TATİLİ", "KIŞ TATİLİ", "KUMSAL TATİLİ", "KAMP TATİLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "ALL-INCLUSIVE HOTEL", options: ["PANSİYON", "BUTİK OTEL", "ODA-KAHVALTI OTEL", "HER ŞEY DAHİL OTEL"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BED AND BREAKFAST", options: ["HER ŞEY DAHİL OTEL", "ODA-KAHVALTI OTEL", "BUTİK OTEL", "BUNGALOV OTEL"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BUY A SOUVENIR", options: ["DİNLENMEK", "FESTİVALE KATILMAK", "TARİHİ YER ZİYARETİ", "HEDİYELİK EŞYA ALMAK"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "TRADITIONAL DISHES", options: ["TARİHİ YERLER", "GELENEKSEL YİYECEKLER", "ADALAR", "TURİSTİK YERLER"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SIGHTSEEING", options: ["MÜZE ZİYARETİ", "ŞEHİR TURU", "İLGİNÇ", "GEMİ TATİLİ"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BUS", options: ["ARABA", "UÇAK", "OTOBÜS", "TAKSİ"], answer: 2 },
+{ unit: "🏛️ Unit 7: Tourism", q: "PLANE", options: ["TEKNE", "UÇAK", "ARABA", "OTOBÜS"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "SHIP", options: ["BİSİKLET", "TREN", "UÇAK", "GEMİ"], answer: 3 },
+{ unit: "🏛️ Unit 7: Tourism", q: "BIKE", options: ["TREN", "BİSİKLET", "UÇAK", "OTOBÜS"], answer: 1 },
+{ unit: "🏛️ Unit 7: Tourism", q: "QUIET PLACE", options: ["KALABALIK YER", "HUZURLU YER", "GÜRÜLTÜLÜ YER", "SESSİZ YER"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "CLEAN THE BATHROOM", options: ["YEMEK PİŞİRMEK", "BANYOYU TEMİZLEMEK", "MASAYI HAZIRLAMAK", "ÇİMLERİ BİÇMEK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "CLEAN THE WINDOWS", options: ["EVCİL HAYVANI BESLEMEK", "CAMLARI SİLMEK", "FATURA ÖDEMEK", "OYUNCAKLARI TOPLAMAK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "COOK THE MEALS", options: ["YERLERİ PASPASLAMAK", "YEMEK PİŞİRMEK", "YERLERİN TOZUNU ALMAK", "ÇAMAŞIR YIKAMAK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "DO THE GROCERY SHOPPING", options: ["ÇAMAŞIRLARI YIKAMAK", "KÜTÜPHANE KURALLARI", "MARKET ALIŞVERİŞİ YAPMAK", "BANYO TEMİZLEMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "DO THE LAUNDRY", options: ["ÇAMAŞIR YIKAMAK", "YATAĞI TOPLAMAK", "BİTKİLERİ SULAMAK", "FATURA ÖDEMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "DRY THE DISHES", options: ["BULAŞIKLARI KURULAMAK", "ÇİMLERİ BİÇMEK", "ODA TOPLAMAK", "OKUL KURALLARI"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "DUST THE FURNITURE", options: ["RAFLARIN TOZUNU ALMAK", "YEMEK PİŞİRMEK", "CAMLARI SİLMEK", "MOBİLYALARIN TOZUNU ALMAK"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "EMPTY THE DISHWASHER", options: ["BULAŞIK MAKİNESİNİ BOŞALTMAK", "BAHÇE", "MUTFAK", "YATAK ODASI"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "FEED THE DOG", options: ["KEDİYİ BESLEMEK", "KUŞU BESLEMEK", "KÖPEĞİ BESLEMEK", "EVCİL HAYVANI BESLEMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "HANG OUT THE CLOTHES", options: ["KİRLİ ÇAMAŞIRLARI YIKAMAK", "MASA HAZIRLAMAK", "ÇAMAŞIRLARI ASMAK", "YAPRAKLARI SÜPÜRMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "IRON THE CLOTHES", options: ["KIYAFETLERİ KATLAMAK", "ÇÖP ÇIKARMAK", "KIYAFETLERİ ÜTÜLEMEK", "FATURA ÖDEMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "LOAD THE DISHWASHER", options: ["BULAŞIK MAKİNESİNİ BOŞALTMAK", "CAMLARI SİLMEK", "ODA TOPLAMAK", "BULAŞIK MAKİNESİNİ DOLDURMAK"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "MAKE THE BED", options: ["ODAYI TOPLAMAK", "YEMEK PİŞİRMEK", "CAMLARI SİLMEK", "YATAĞI YAPMAK"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "MOP THE FLOOR", options: ["YERLERİ SÜPÜRMEK", "YERLERİ PASPASLAMAK", "EVİ TEMİZLEMEK", "RAFLARIN TOZUNU ALMAK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "MOW THE LAWN", options: ["ÇİMLERİ BİÇMEK", "YAPRAKLARI SÜPÜRMEK", "BİTKİLERİ SULAMAK", "EVİN DIŞINDAKİ İŞLER"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "PAY THE BILLS", options: ["ALIŞVERİŞ YAPMAK", "FATURALARI ÖDEMEK", "CAMLARI SİLMEK", "ODAYI TOPLAMAK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "SEPARATE THE LAUNDRY", options: ["ÇAMAŞIRLARI AYIRMAK", "MASA KURMAK", "BAHÇE SULAMAK", "FATURA ÖDEMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "SET THE TABLE", options: ["MASAYI HAZIRLAMAK", "CAMLARI SİLMEK", "KÖPEK BESLEMEK", "YATAK TOPLAMAK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "SWEEP THE LEAVES", options: ["YAPRAKLARI SÜPÜRMEK", "YEMEK PİŞİRMEK", "CAMLARI SİLMEK", "ODA TOPLAMAK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "TAKE THE DOG FOR A WALK", options: ["KÖPEĞİ BESLEMEK", "KÖPEĞİ YÜRÜYÜŞE ÇIKARMAK", "EVCİL HAYVANA BAKMAK", "KEDİYİ BESLEMEK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "TIDY THE TOYS", options: ["OYUNCAKLARI TOPLAMAK", "ÇİMLERİ BİÇMEK", "MUTFAK İŞLERİ", "KÖPEK BESLEMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "TIDY UP THE ROOM", options: ["ODAYI TOPLAMAK", "YEMEK PİŞİRMEK", "FATURA ÖDEMEK", "CAMLARI SİLMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "VACUUM THE FLOOR", options: ["ELEKTRİKLİ SÜPÜRGE İLE TEMİZLEMEK", "YERLERİ PASPASLAMAK", "CAMLARI SİLMEK", "EVİ TEMİZLEMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "WASH THE CAR", options: ["BULAŞIKLARI YIKAMAK", "YEMEK PİŞİRMEK", "KIYAFETLERİ YIKAMAK", "ARABAYI YIKAMAK"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "BE IN CHARGE OF", options: ["-MAK ZORUNDA", "GÖREV", "-NIN SORUMLULUĞUNDA OLMAK", "-MAK İSTEMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "WASH THE DISHES", options: ["ÇAMAŞIRLARI YIKAMAK", "KÖPEK BESLEMEK", "YATAK TOPLAMAK", "BULAŞIKLARI YIKAMAK"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "BE RESPONSIBLE FOR", options: ["-İÇİN SORUMLU OLMAK", "CAMLARI SİLMEK", "BULAŞIK MAKİNESİNİ BOŞALTMAK", "KÜTÜPHANE KURALLARI"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "DUTY / TASK", options: ["ODA", "AMAÇ", "GÖREV", "KİRLİ"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "NECESSARY", options: ["ZORUNLULUK", "GEREKLİ", "İSTEKLİ", "SİNİRLİ"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "OBLIGATION", options: ["KURAL", "ZORUNLULUK", "GÖREV", "SORUMLULUK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "RESPONSIBILITY", options: ["ZORUNLULUK", "SORUMLULUK", "SAYGILI", "KURAL"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "ANGRY / ANNOYED", options: ["SESSİZ", "SİNİRLİ", "TEMİZ", "DÜZENLİ"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "BORED", options: ["CANI SIKILMIŞ", "HEYECANLI", "TEMİZ", "KİRLİ"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "BORING", options: ["SAYGILI", "EĞLENCELİ", "SIKICI", "TEMİZ"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "CLEAN", options: ["KİRLİ", "TEMİZ", "DAĞINIK", "ZOR"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "CLEAN THE BATHROOM", options: ["YEMEK PİŞİRMEK", "BANYOYU TEMİZLEMEK", "MASAYI HAZIRLAMAK", "ÇİMLERİ BİÇMEK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "CLEAN THE WINDOWS", options: ["EVCİL HAYVANI BESLEMEK", "CAMLARI SİLMEK", "FATURA ÖDEMEK", "OYUNCAKLARI TOPLAMAK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "COOK THE MEALS", options: ["YERLERİ PASPASLAMAK", "YEMEK PİŞİRMEK", "YERLERİN TOZUNU ALMAK", "ÇAMAŞIR YIKAMAK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "DO THE GROCERY SHOPPING", options: ["ÇAMAŞIRLARI YIKAMAK", "KÜTÜPHANE KURALLARI", "MARKET ALIŞVERİŞİ YAPMAK", "BANYO TEMİZLEMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "DO THE LAUNDRY", options: ["ÇAMAŞIR YIKAMAK", "YATAĞI TOPLAMAK", "BİTKİLERİ SULAMAK", "FATURA ÖDEMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "DRY THE DISHES", options: ["BULAŞIKLARI KURULAMAK", "ÇİMLERİ BİÇMEK", "ODA TOPLAMAK", "OKUL KURALLARI"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "DUST THE FURNITURE", options: ["RAFLARIN TOZUNU ALMAK", "YEMEK PİŞİRMEK", "CAMLARI SİLMEK", "MOBİLYALARIN TOZUNU ALMAK"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "EMPTY THE DISHWASHER", options: ["BULAŞIK MAKİNESİNİ BOŞALTMAK", "BAHÇE", "MUTFAK", "YATAK ODASI"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "FEED THE DOG", options: ["KEDİYİ BESLEMEK", "KUŞU BESLEMEK", "KÖPEĞİ BESLEMEK", "EVCİL HAYVANI BESLEMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "HANG OUT THE CLOTHES", options: ["KİRLİ ÇAMAŞIRLARI YIKAMAK", "MASA HAZIRLAMAK", "ÇAMAŞIRLARI ASMAK", "YAPRAKLARI SÜPÜRMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "IRON THE CLOTHES", options: ["KIYAFETLERİ KATLAMAK", "ÇÖP ÇIKARMAK", "KIYAFETLERİ ÜTÜLEMEK", "FATURA ÖDEMEK"], answer: 2 },
+{ unit: "🧹 Unit 8: Chores", q: "LOAD THE DISHWASHER", options: ["BULAŞIK MAKİNESİNİ BOŞALTMAK", "CAMLARI SİLMEK", "ODA TOPLAMAK", "BULAŞIK MAKİNESİNİ DOLDURMAK"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "MAKE THE BED", options: ["ODAYI TOPLAMAK", "YEMEK PİŞİRMEK", "CAMLARI SİLMEK", "YATAĞI YAPMAK"], answer: 3 },
+{ unit: "🧹 Unit 8: Chores", q: "MOP THE FLOOR", options: ["YERLERİ SÜPÜRMEK", "YERLERİ PASPASLAMAK", "EVİ TEMİZLEMEK", "RAFLARIN TOZUNU ALMAK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "MOW THE LAWN", options: ["ÇİMLERİ BİÇMEK", "YAPRAKLARI SÜPÜRMEK", "BİTKİLERİ SULAMAK", "EVİN DIŞINDAKİ İŞLER"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "PAY THE BILLS", options: ["ALIŞVERİŞ YAPMAK", "FATURALARI ÖDEMEK", "CAMLARI SİLMEK", "ODAYI TOPLAMAK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "SEPARATE THE LAUNDRY", options: ["ÇAMAŞIRLARI AYIRMAK", "MASA KURMAK", "BAHÇE SULAMAK", "FATURA ÖDEMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "SET THE TABLE", options: ["MASAYI HAZIRLAMAK", "CAMLARI SİLMEK", "KÖPEK BESLEMEK", "YATAK TOPLAMAK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "SWEEP THE LEAVES", options: ["YAPRAKLARI SÜPÜRMEK", "YEMEK PİŞİRMEK", "CAMLARI SİLMEK", "ODA TOPLAMAK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "TAKE THE DOG FOR A WALK", options: ["KÖPEĞİ BESLEMEK", "KÖPEĞİ YÜRÜYÜŞE ÇIKARMAK", "EVCİL HAYVANA BAKMAK", "KEDİYİ BESLEMEK"], answer: 1 },
+{ unit: "🧹 Unit 8: Chores", q: "TIDY THE TOYS", options: ["OYUNCAKLARI TOPLAMAK", "ÇİMLERİ BİÇMEK", "MUTFAK İŞLERİ", "KÖPEK BESLEMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "TIDY UP THE ROOM", options: ["ODAYI TOPLAMAK", "YEMEK PİŞİRMEK", "FATURA ÖDEMEK", "CAMLARI SİLMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "VACUUM THE FLOOR", options: ["ELEKTRİKLİ SÜPÜRGE İLE TEMİZLEMEK", "YERLERİ PASPASLAMAK", "CAMLARI SİLMEK", "EVİ TEMİZLEMEK"], answer: 0 },
+{ unit: "🧹 Unit 8: Chores", q: "WASH THE CAR", options: ["BULAŞIKLARI YIKAMAK", "YEMEK PİŞİRMEK", "KIYAFETLERİ YIKAMAK", "ARABAYI YIKAMAK"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "INVENT", options: ["keşfetmek", "icat etmek", "bilim", "başarı"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "INVENTION", options: ["icat", "keşif", "bilimsel başarı", "ödül"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "INVENTOR", options: ["bilim insanı", "icat yapan kişi, mucit", "kaşif", "astronot"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "DISCOVER", options: ["keşfetmek", "icat etmek", "başarmak", "bilim"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "DISCOVERY", options: ["keşif", "icat", "çalışmalar", "başarı"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "DISCOVERER", options: ["keşif yapan kişi, kaşif", "icat yapan kişi, mucit", "bilim insanı", "öğrenci"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "SCIENCE", options: ["fizik", "kimya", "bilim", "biyoloji"], answer: 2 },
+{ unit: "🔬 Unit 9: Science", q: "SCIENTIFIC", options: ["edebi", "tıbbi", "teknolojik", "bilimsel"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "SCIENTIST", options: ["bilim insanı", "öğretmen", "doktor", "mühendis"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "ACHIEVE", options: ["mezun olmak", "başarmak", "keşfetmek", "icat etmek"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "ACHIEVEMENT / SUCCESS", options: ["deney", "ödül", "çalışmalar", "başarı"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "SCIENTIFIC ACHIEVEMENT", options: ["bilimsel dergi", "bilimsel çalışmalar", "bilimsel makale", "bilimsel başarı"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "WIN", options: ["kazanmak", "kaybetmek", "başarmak", "öğrenmek"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "AWARD / PRIZE", options: ["deney", "bilim", "çalışma", "ödül"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "NOBEL PRIZE", options: ["Bilim Ödülü", "Nobel Ödülü", "Tiyatro Ödülü", "Başarı Ödülü"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "MEDICINE", options: ["fizik", "tıp", "kimya", "biyoloji"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "PHYSICS", options: ["tıp", "kimya", "biyoloji", "fizik"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "CHEMISTRY", options: ["biyoloji", "fizik", "kimya", "tıp"], answer: 2 },
+{ unit: "🔬 Unit 9: Science", q: "BIRTH DATE", options: ["doğum tarihi", "doğum günü", "ölüm tarihi", "doğum yeri"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "BIRTHDAY", options: ["doğum tarihi", "doğum günü", "çocukluk", "aile hayatı"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "BIRTH PLACE", options: ["doğum saati", "doğum tarihi", "doğum yeri", "ülke"], answer: 2 },
+{ unit: "🔬 Unit 9: Science", q: "CHILDHOOD", options: ["çocukluk", "erken yaşlar", "eğitim hayatı", "aile üyeleri"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "EARLY AGES", options: ["eğitim hayatı", "çocukluk", "erken yaşlar", "yaptığı çalışmalar"], answer: 2 },
+{ unit: "🔬 Unit 9: Science", q: "EDUCATION LIFE", options: ["eğitim hayatı", "iş hayatı", "çocukluk", "aile hayatı"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "FIELD OF STUDY", options: ["çalıştığı alan", "meslek", "bilim", "aile hayatı"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "JOB / OCCUPATION / PROFESSION", options: ["aldığı ödüller", "yaptığı çalışmalar", "meslek, uzmanlık", "başarıları"], answer: 2 },
+{ unit: "🔬 Unit 9: Science", q: "FAMILY MEMBERS", options: ["aile üyeleri", "akrabalar", "arkadaşlar", "öğrenciler"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "SON", options: ["kız evlat", "erkek evlat", "anne", "baba"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "DAUGHTER", options: ["kız evlat", "erkek evlat", "ebeveynler", "akrabalar"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "WIFE", options: ["erkek eş", "kadın eş", "anne", "kız evlat"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "HUSBAND", options: ["erkek eş", "kadın eş", "baba", "oğul"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "RELATIVES", options: ["arkadaşlar", "aile üyeleri", "akrabalar", "ebeveynler"], answer: 2 },
+{ unit: "🔬 Unit 9: Science", q: "DATE OF DEATH", options: ["ölüm yeri", "doğum tarihi", "doğum yeri", "ölüm tarihi"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "PLACE OF DEATH", options: ["ölüm tarihi", "doğum yeri", "ülke", "ölüm yeri"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "NATIONALITY", options: ["milliyet", "ülke", "şehir", "meslek"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "VACCINE", options: ["tedavi", "ilaç", "vitamin", "aşı"], answer: 3 },
+{ unit: "🔬 Unit 9: Science", q: "BIOLOGY", options: ["biyoloji", "kimya", "fizik", "tıp"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "INVENTIONS IN COMMUNICATION", options: ["iletişimdeki icatlar", "ulaşımdaki icatlar", "tıptaki keşifler", "bilimsel başarılar"], answer: 0 },
+{ unit: "🔬 Unit 9: Science", q: "DISCOVERIES IN MEDICINE", options: ["tıptaki ödüller", "tıptaki sorunlar", "tıptaki keşifler", "tıptaki hastalıklar"], answer: 2 },
+{ unit: "🔬 Unit 9: Science", q: "INVENTIONS IN TRANSPORTATION", options: ["iletişimdeki icatlar", "yeni buluşlar", "ulaşımdaki icatlar", "yeni keşifler"], answer: 2 },
+{ unit: "🔬 Unit 9: Science", q: "ILLNESS", options: ["bilimsel gelişmeler", "hastalık", "deney", "fosil"], answer: 1 },
+{ unit: "🔬 Unit 9: Science", q: "WATCHING SCIENCE VIDEOS", options: ["bilimsel konuları araştırmak", "bilimsel kitaplar yazmak", "bilimsel videolar izlemek", "bilimsel deneyler yapmak"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "EARTHQUAKE", options: ["DEPREM", "SEL", "YANGIN", "FIRTINA"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "FLOOD", options: ["KURAKLIK", "SEL", "HORTUM", "KASIRGA"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "DROUGHT", options: ["KAR", "KURAKLIK", "YAĞMUR", "FIRTINA"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "TORNADO", options: ["KASIRGA", "HORTUM", "DEPREM", "TSUNAMI"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "HURRICANE", options: ["KASIRGA", "YILDIRIM", "GÖK GÜRÜLTÜSÜ", "ÇIĞ"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "LIGHTNING", options: ["YAĞMUR", "YILDIRIM", "RÜZGAR", "BUZ"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "THUNDER", options: ["GÖK GÜRÜLTÜSÜ", "SEL", "KAR", "DEPREM"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "TSUNAMI", options: ["TSUNAMİ", "HORTUM", "KASIRGA", "YANGIN"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "VOLCANO", options: ["DAĞ", "YANARDAĞ", "GÖL", "NEHİR"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "ERUPTION", options: ["PATLAMA", "YAĞMUR", "SEL", "RÜZGAR"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "LANDSLIDE", options: ["ÇIĞ", "TOPRAK KAYMASI", "DEPREM", "FIRTINA"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "AVALANCHE", options: ["ÇIĞ", "SEL", "KASIRGA", "YAĞMUR"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "STORM", options: ["FIRTINA", "GÜNEŞ", "KAR", "DENİZ"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "WIND", options: ["YAĞMUR", "RÜZGAR", "KAR", "DEPREM"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "BREEZE", options: ["FIRTINA", "ESİNTİ", "KASIRGA", "YILDIRIM"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "RAIN", options: ["KAR", "YAĞMUR", "RÜZGAR", "BUZ"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "SNOW", options: ["KAR", "YAĞMUR", "SEL", "FIRTINA"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "ICE", options: ["BUZ", "SU", "ATEŞ", "RÜZGAR"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "TEMPERATURE", options: ["SICAKLIK", "YAĞMUR", "RÜZGAR", "DEPREM"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "CLIMATE CHANGE", options: ["İKLİM DEĞİŞİKLİĞİ", "YAĞMUR", "KAR", "FIRTINA"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "NATURAL DISASTER", options: ["DOĞAL AFET", "İNSAN HATASI", "YAPAY AFET", "KAZA"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "DAMAGE", options: ["KORUMA", "HASAR", "BAŞARI", "BİLGİ"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "DESTROY", options: ["İNŞA ETMEK", "YOK ETMEK", "KURTARMAK", "ONARMAK"], answer: 2 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "OCCUR", options: ["OLUŞMAK / MEYDANA GELMEK", "YOK ETMEK", "KURTARMAK", "SÖNDÜRMEK"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "SHAKE", options: ["SALLANMAK", "KOŞMAK", "UYUMAK", "YEMEK"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "EVACUATE", options: ["TAHLİYE ETMEK", "KALMAK", "OTURMAK", "YIKAMAK"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "RESCUE", options: ["KURTARMAK", "KAYBETMEK", "SÖNDÜRMEK", "YIKMAK"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "EMERGENCY", options: ["ACİL DURUM", "TATİL", "OYUN", "DERS"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "WARNING", options: ["UYARI", "HEDİYE", "KİTAP", "EV"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "FORECAST", options: ["HAVA TAHMİNİ", "YEMEK", "OKUL", "ARABA"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "HEAVY RAIN", options: ["ŞİDDETLİ YAĞMUR", "HAFİF YAĞMUR", "KAR", "RÜZGAR"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "STRONG WIND", options: ["GÜÇLÜ RÜZGAR", "ZAYIF RÜZGAR", "YAĞMUR", "KAR"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "FLOOD (VERB)", options: ["SU BASTIRMAK", "KURTARMAK", "İNŞA ETMEK", "YOK ETMEK"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "EARTHQUAKE DAMAGE", options: ["DEPREM HASARI", "DEPREM KORKUSU", "DEPREM SESİ", "DEPREM HARİTASI"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "VOLCANIC ERUPTION", options: ["VOLKANİK PATLAMA", "VOLKANİK GÖL", "VOLKANİK TAŞ", "VOLKANİK YAĞMUR"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "AFTERSHOCK", options: ["ARTÇI SARSINTI", "ANA DEPREM", "YAĞMUR", "RÜZGAR"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "DISASTER AREA", options: ["AFET BÖLGESİ", "GÜVENLİ BÖLGE", "OKUL", "ŞEHİR MERKEZİ"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "CLIMATE", options: ["İKLİM", "HAVA DURUMU", "YAĞMUR", "KAR"], answer: 1 },
+{ unit: "🌊 Unit 10: Natural Forces", q: "NATURAL FORCES", options: ["DOĞAL GÜÇLER", "İNSAN GÜÇLERİ", "YAPAY GÜÇLER", "TEKNOLOJİ"], answer: 1 }
+];
+
+// ----- QUESTION POOL MANAGEMENT (no repeat until all asked) -----
+let unaskedIndices = [];
+let currentQuestionIndex = -1;
+let currentQuestionObj = null;
+
+function resetQuestionPool() {
+    unaskedIndices = MASTER_QUESTIONS.map((_, idx) => idx);
+    for (let i = unaskedIndices.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [unaskedIndices[i], unaskedIndices[j]] = [unaskedIndices[j], unaskedIndices[i]];
+    }
+}
+function markCurrentQuestionAsAsked() {
+    if (currentQuestionIndex !== -1) {
+        const pos = unaskedIndices.indexOf(currentQuestionIndex);
+        if (pos !== -1) unaskedIndices.splice(pos, 1);
+    }
+    if (unaskedIndices.length === 0) resetQuestionPool();
+}
+function getRandomUnaskedQuestion(excludeIdx = -1) {
+    if (unaskedIndices.length === 0) resetQuestionPool();
+    let available = unaskedIndices.filter(idx => idx !== excludeIdx);
+    if (available.length === 0) available = [...unaskedIndices];
+    const randIdx = available[Math.floor(Math.random() * available.length)];
+    return { idx: randIdx, q: MASTER_QUESTIONS[randIdx] };
+}
+function loadQuestionIntoModal(index) {
+    const qData = MASTER_QUESTIONS[index];
+    currentQuestionIndex = index;
+    currentQuestionObj = qData;
+    unitTitle.innerText = qData.unit;
+    questionText.innerText = qData.q;
+    feedbackText.innerText = "";
+    optionsGrid.innerHTML = "";
+    qData.options.forEach((opt, optIdx) => {
+        const btn = document.createElement('button');
+        btn.className = "option-btn";
+        btn.innerText = opt;
+        btn.onclick = () => handleAnswer(btn, optIdx === qData.answer);
+        optionsGrid.appendChild(btn);
+    });
+    document.querySelectorAll('#optionsGrid .option-btn').forEach(b => b.disabled = false);
+}
+function changeQuestion() {
+    if (!isPaused || !quizModal.classList.contains('active')) return;
+    let newQ;
+    if (unaskedIndices.length === 0) resetQuestionPool();
+    if (unaskedIndices.length === 1 && unaskedIndices[0] === currentQuestionIndex) {
+        newQ = { idx: currentQuestionIndex, q: currentQuestionObj };
+    } else {
+        newQ = getRandomUnaskedQuestion(currentQuestionIndex);
+    }
+    loadQuestionIntoModal(newQ.idx);
+    feedbackText.innerText = "";
+}
+
+// ----- COUNTDOWN SYSTEM -----
+let countdownActive = false;
+let countdownValue = 3;      // 3,2,1 then "GO!"
+let countdownTimer = null;
+
+function startCountdown(onComplete) {
+    countdownActive = true;
+    countdownValue = 3;
+    // Cancel any previous timer
+    if (countdownTimer) clearInterval(countdownTimer);
+    countdownTimer = setInterval(() => {
+        if (countdownValue > 1) {
+            countdownValue--;
+        } else {
+            // countdownValue == 1 -> next will be "GO!"
+            clearInterval(countdownTimer);
+            countdownTimer = null;
+            countdownActive = false;
+            if (onComplete) onComplete();
+        }
+    }, 1000);
+}
+function drawCountdown() {
+    if (!countdownActive) return;
+    ctx.font = "bold 72px 'Segoe UI', 'Poppins'";
+    ctx.shadowBlur = 0;
+    ctx.fillStyle = "#ffdd99";
+    ctx.shadowColor = "black";
+    let text = "";
+    if (countdownValue === 3) text = "3";
+    else if (countdownValue === 2) text = "2";
+    else if (countdownValue === 1) text = "1";
+    else text = "GO!";
+    if (countdownValue === 0) text = "GO!";
+    ctx.fillText(text, canvas.width/2 - 40, canvas.height/2 - 50);
+    ctx.font = "bold 28px monospace";
+    ctx.fillStyle = "#ffbb77";
+    ctx.fillText("GET READY", canvas.width/2 - 70, canvas.height/2 + 40);
+    ctx.shadowColor = "transparent";
+}
+
+// ----- CANVAS & UI -----
+const canvas = document.getElementById('gameCanvas');
+const ctx = canvas.getContext('2d');
+const scoreSpan = document.getElementById('scoreVal');
+const startScreen = document.getElementById('startScreen');
+const startBtn = document.getElementById('startBtn');
+const quizModal = document.getElementById('quizModal');
+const unitTitle = document.getElementById('unitTitle');
+const questionText = document.getElementById('questionText');
+const optionsGrid = document.getElementById('optionsGrid');
+const feedbackText = document.getElementById('feedbackText');
+const gameOverScreen = document.getElementById('gameOverScreen');
+const finalScoreVal = document.getElementById('finalScoreVal');
+const restartBtn = document.getElementById('restartBtn');
+const fullscreenBtn = document.getElementById('fullscreenBtn');
+const changeQuestionBtn = document.getElementById('changeQuestionBtn');
+
+// ----- FULLSCREEN (always present) -----
+function toggleFullscreen() {
+    const container = document.getElementById('game-container');
+    if (!document.fullscreenElement && !document.webkitFullscreenElement) {
+        const req = container.requestFullscreen || container.webkitRequestFullscreen;
+        if (req) { req.call(container); fullscreenBtn.innerHTML = '✖ EXIT'; }
+    } else {
+        const exit = document.exitFullscreen || document.webkitExitFullscreen;
+        if (exit) { exit.call(document); fullscreenBtn.innerHTML = '⛶ FULLSCREEN'; }
+    }
+}
+function onFullscreenChange() {
+    fullscreenBtn.innerHTML = (document.fullscreenElement || document.webkitFullscreenElement) ? '✖ EXIT' : '⛶ FULLSCREEN';
+}
+document.addEventListener('fullscreenchange', onFullscreenChange);
+document.addEventListener('webkitfullscreenchange', onFullscreenChange);
+fullscreenBtn.addEventListener('click', toggleFullscreen);
+
+// ----- GAME STATE -----
+let isPlaying = false;
+let isPaused = false;      // quiz open or countdown in progress
+let animationId = null;
+let score = 0;
+let baseSpeed = 4.0;
+let currentSpeed = baseSpeed;
+let frameCounter = 0;
+let lastQuizTime = 0;
+const QUIZ_INTERVAL = 17000;
+
+// Player car
+const player = {
+    x: canvas.width / 2 - 22,
+    y: canvas.height - 105,
+    w: 44,
+    h: 72,
+    speed: 5.4,
+    dx: 0
+};
+
+let obstacles = [];
+let roadLines = [];
+
+// Input
+const keys = { ArrowLeft: false, ArrowRight: false, a: false, d: false };
+const leftTouch = document.getElementById('leftTouchBtn');
+const rightTouch = document.getElementById('rightTouchBtn');
+function activateLeft() { keys.ArrowLeft = true; keys.a = true; }
+function deactivateLeft() { keys.ArrowLeft = false; keys.a = false; }
+function activateRight() { keys.ArrowRight = true; keys.d = true; }
+function deactivateRight() { keys.ArrowRight = false; keys.d = false; }
+function attachTouch(btn, onStart, onEnd) {
+    if (!btn) return;
+    btn.addEventListener('mousedown', (e) => { e.preventDefault(); onStart(); });
+    btn.addEventListener('mouseup', (e) => { e.preventDefault(); onEnd(); });
+    btn.addEventListener('touchstart', (e) => { e.preventDefault(); onStart(); }, {passive: false});
+    btn.addEventListener('touchend', (e) => { e.preventDefault(); onEnd(); });
+    btn.addEventListener('touchcancel', (e) => { e.preventDefault(); onEnd(); });
+}
+attachTouch(leftTouch, activateLeft, deactivateLeft);
+attachTouch(rightTouch, activateRight, deactivateRight);
+window.addEventListener('mouseup', () => { deactivateLeft(); deactivateRight(); });
+window.addEventListener('keydown', (e) => { if (keys.hasOwnProperty(e.key)) { e.preventDefault(); keys[e.key] = true; } });
+window.addEventListener('keyup', (e) => { if (keys.hasOwnProperty(e.key)) keys[e.key] = false; });
+
+// Game mechanics drawing
+function initRoadLines() {
+    roadLines = [];
+    for (let i = 0; i < 7; i++) roadLines.push({ y: i * 100 });
+}
+function drawModernPlayerCar() {
+    const x = player.x, y = player.y, w = player.w, h = player.h;
+    ctx.shadowBlur = 8;
+    ctx.shadowColor = "rgba(0,160,255,0.5)";
+    const grad = ctx.createLinearGradient(x, y, x+10, y+h);
+    grad.addColorStop(0, '#2b9aff');
+    grad.addColorStop(1, '#0f6bc0');
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.roundRect(x, y, w, h, 12);
+    ctx.fill();
+    ctx.fillStyle = '#ffd966';
+    ctx.beginPath();
+    ctx.roundRect(x+8, y+15, w-16, 12, 6);
+    ctx.fill();
+    ctx.fillStyle = '#ffffff';
+    ctx.beginPath();
+    ctx.roundRect(x+10, y+40, w-20, 18, 8);
+    ctx.fill();
+    ctx.fillStyle = '#a0dcff';
+    ctx.beginPath();
+    ctx.roundRect(x+6, y+8, w-12, 20, 8);
+    ctx.fill();
+    ctx.fillStyle = '#ffd966';
+    ctx.fillRect(x+4, y+4, 8, 7);
+    ctx.fillRect(x+w-12, y+4, 8, 7);
+    ctx.fillStyle = '#ff4444';
+    ctx.fillRect(x+4, y+h-12, 7, 8);
+    ctx.fillRect(x+w-11, y+h-12, 7, 8);
+    ctx.fillStyle = '#222';
+    ctx.fillRect(x-6, y+12, 8, 18);
+    ctx.fillRect(x+w-2, y+12, 8, 18);
+    ctx.fillRect(x-6, y+h-30, 8, 18);
+    ctx.fillRect(x+w-2, y+h-30, 8, 18);
+    ctx.fillStyle = '#ccccdd';
+    ctx.fillRect(x-4, y+16, 4, 10);
+    ctx.fillRect(x+w, y+16, 4, 10);
+    ctx.fillRect(x-4, y+h-26, 4, 10);
+    ctx.fillRect(x+w, y+h-26, 4, 10);
+    ctx.shadowBlur = 0;
+}
+function drawEnemyCar(obs) {
+    const x = obs.x, y = obs.y, w = obs.w, h = obs.h;
+    ctx.shadowBlur = 5;
+    let mainColor, secondary;
+    switch(obs.variant) {
+        case 'sport': mainColor = '#e63946'; secondary = '#b71c1c'; break;
+        case 'suv': mainColor = '#457b9d'; secondary = '#1d3557'; break;
+        case 'van': mainColor = '#9c6644'; secondary = '#7f4f24'; break;
+        default: mainColor = '#cb6e6e'; secondary = '#a04242'; break;
+    }
+    const grad = ctx.createLinearGradient(x, y, x+5, y+h);
+    grad.addColorStop(0, mainColor);
+    grad.addColorStop(1, secondary);
+    ctx.fillStyle = grad;
+    ctx.beginPath();
+    ctx.roundRect(x, y, w, h, 10);
+    ctx.fill();
+    ctx.fillStyle = '#36454f';
+    ctx.beginPath();
+    ctx.roundRect(x+5, y+8, w-10, 20, 6);
+    ctx.fill();
+    if(obs.variant === 'suv') ctx.fillStyle = '#ebb55c', ctx.fillRect(x+4, y+h-18, w-8, 8);
+    else if(obs.variant === 'van') { ctx.fillStyle = '#bc9a6c'; ctx.fillRect(x+2, y+h-14, w-4, 8); ctx.fillStyle = '#f4d03f'; ctx.fillRect(x+10, y+35, w-20, 10); }
+    else { ctx.fillStyle = '#ffbc6e'; ctx.fillRect(x+8, y+45, w-16, 12); }
+    ctx.fillStyle = '#2d2d2d';
+    ctx.fillRect(x-4, y+12, 7, 16); ctx.fillRect(x+w-3, y+12, 7, 16);
+    ctx.fillRect(x-4, y+h-26, 7, 16); ctx.fillRect(x+w-3, y+h-26, 7, 16);
+    ctx.fillStyle = '#aaa';
+    ctx.fillRect(x-2, y+16, 3, 8); ctx.fillRect(x+w-1, y+16, 3, 8);
+    ctx.fillRect(x-2, y+h-22, 3, 8); ctx.fillRect(x+w-1, y+h-22, 3, 8);
+    ctx.shadowBlur = 0;
+}
+function drawCone(obs) {
+    ctx.shadowBlur = 3;
+    ctx.fillStyle = '#f39c12';
+    ctx.beginPath();
+    ctx.moveTo(obs.x + obs.w/2, obs.y);
+    ctx.lineTo(obs.x + obs.w, obs.y + obs.h);
+    ctx.lineTo(obs.x, obs.y + obs.h);
+    ctx.fill();
+    ctx.fillStyle = '#e67e22';
+    ctx.fillRect(obs.x+5, obs.y+obs.h-14, obs.w-10, 8);
+    ctx.fillStyle = '#fff2c4';
+    ctx.fillRect(obs.x+8, obs.y+obs.h-8, obs.w-16, 4);
+    ctx.shadowBlur = 0;
+}
+function drawEnvironment() {
+    const grad = ctx.createLinearGradient(0, 0, 0, canvas.height);
+    grad.addColorStop(0, '#20252f');
+    grad.addColorStop(1, '#141a24');
+    ctx.fillStyle = grad;
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.fillStyle = '#2c5e3a';
+    ctx.fillRect(0, 0, 32, canvas.height);
+    ctx.fillRect(canvas.width-32, 0, 32, canvas.height);
+    ctx.fillStyle = '#f3b33d';
+    ctx.fillRect(36, 0, 5, canvas.height);
+    ctx.fillRect(canvas.width-41, 0, 5, canvas.height);
+    ctx.fillStyle = '#ffffffcc';
+    for (let l of roadLines) {
+        ctx.fillRect(canvas.width/2 - 6, l.y, 12, 42);
+        l.y += currentSpeed;
+        if (l.y > canvas.height) l.y = -60;
+    }
+}
+function spawnObstacle() {
+    let rate = Math.max(32, 55 - Math.floor(currentSpeed * 2.3));
+    if (frameCounter % Math.floor(rate) === 0) {
+        let typeRand = Math.random();
+        let type = 'car', variant = 'classic', w = 42, h = 70;
+        if (typeRand < 0.25) { w = 46; h = 74; variant = 'suv'; }
+        else if (typeRand < 0.45) { w = 40; h = 66; variant = 'sport'; }
+        else if (typeRand < 0.6) { w = 48; h = 72; variant = 'van'; }
+        else if (typeRand < 0.75) { w = 42; h = 70; variant = 'classic'; }
+        else { type = 'cone'; w = 26; h = 42; variant = null; }
+        let minX = 35, maxX = canvas.width - 35 - w;
+        let x = Math.floor(Math.random() * (maxX - minX + 1) + minX);
+        obstacles.push({ x, y: -h, w, h, type, variant });
+    }
+}
+function updateObstaclesAndCollision() {
+    for (let i=0; i<obstacles.length; i++) {
+        let obs = obstacles[i];
+        obs.y += currentSpeed * (obs.type === 'car' ? 0.87 : 1.0);
+        if (player.x < obs.x+obs.w && player.x+player.w > obs.x && player.y < obs.y+obs.h && player.y+player.h > obs.y) {
+            gameOver();
+            return;
+        }
+        if (obs.y > canvas.height+150) { obstacles.splice(i,1); score+=12; scoreSpan.innerText=Math.floor(score); i--; }
+    }
+}
+function drawAllObstacles() {
+    for (let obs of obstacles) obs.type === 'car' ? drawEnemyCar(obs) : drawCone(obs);
+}
+function gameOver() {
+    if (!isPlaying) return;
+    isPlaying = false;
+    finalScoreVal.innerText = Math.floor(score);
+    gameOverScreen.classList.add('active');
+    if (animationId) cancelAnimationFrame(animationId);
+    animationId = null;
+    quizModal.classList.remove('active');
+    isPaused = false;
+    if (countdownTimer) clearInterval(countdownTimer);
+    countdownActive = false;
+}
+// Quiz trigger
+function triggerQuiz() {
+    if (!isPlaying || isPaused) return;
+    isPaused = true;
+    if (unaskedIndices.length === 0) resetQuestionPool();
+    const { idx } = getRandomUnaskedQuestion();
+    loadQuestionIntoModal(idx);
+    quizModal.classList.add('active');
+}
+// ANSWER HANDLER (Correct -> countdown, Wrong -> game over)
+function handleAnswer(btn, isCorrect) {
+    const allBtns = document.querySelectorAll('#optionsGrid .option-btn');
+    allBtns.forEach(b => b.disabled = true);
+    if (isCorrect) {
+        btn.classList.add('correct');
+        feedbackText.innerText = "✓ CORRECT! +50 POINTS";
+        feedbackText.style.color = "#2ecc71";
+        score += 50;
+        scoreSpan.innerText = Math.floor(score);
+        markCurrentQuestionAsAsked();
+        setTimeout(() => {
+            quizModal.classList.remove('active');
+            // Start countdown before resuming game
+            startCountdown(() => {
+                // countdown finished, resume racing
+                isPaused = false;
+                lastQuizTime = performance.now();
+                // ensure game loop continues
+                if (isPlaying && !animationId) animationId = requestAnimationFrame(gameLoop);
+            });
+            // pause remains true until countdown finishes
+        }, 1200);
+    } else {
+        btn.classList.add('incorrect');
+        feedbackText.innerText = "❌ WRONG! GAME OVER";
+        feedbackText.style.color = "#e74c3c";
+        allBtns.forEach(b => {
+            if (b.innerText === currentQuestionObj.options[currentQuestionObj.answer]) b.classList.add('correct');
+        });
+        markCurrentQuestionAsAsked();
+        setTimeout(() => {
+            quizModal.classList.remove('active');
+            gameOver();
+        }, 1500);
+    }
+}
+// GAME LOOP
+function gameLoop(now) {
+    if (!isPlaying) return;
+    if (isPaused) { 
+        // still draw environment and car but with overlay? Actually we draw countdown if active
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        drawEnvironment();
+        drawAllObstacles();
+        drawModernPlayerCar();
+        if (countdownActive) drawCountdown();
+        animationId = requestAnimationFrame(gameLoop);
+        return;
+    }
+    currentSpeed = Math.min(9.8, baseSpeed + Math.floor(score / 380));
+    let move = 0;
+    if (keys.ArrowLeft || keys.a) move = -player.speed;
+    if (keys.ArrowRight || keys.d) move = player.speed;
+    player.x += move;
+    player.x = Math.min(Math.max(player.x, 28), canvas.width - player.w - 28);
+    drawEnvironment();
+    frameCounter++;
+    spawnObstacle();
+    updateObstaclesAndCollision();
+    drawAllObstacles();
+    drawModernPlayerCar();
+    if (!isPaused && (performance.now() - lastQuizTime) >= QUIZ_INTERVAL) {
+        triggerQuiz();
+        animationId = requestAnimationFrame(gameLoop);
+        return;
+    }
+    animationId = requestAnimationFrame(gameLoop);
+}
+function resetGame() {
+    if (animationId) cancelAnimationFrame(animationId);
+    if (countdownTimer) clearInterval(countdownTimer);
+    countdownActive = false;
+    player.x = canvas.width/2 - 22;
+    obstacles = [];
+    score = 0;
+    baseSpeed = 4.0;
+    currentSpeed = baseSpeed;
+    frameCounter = 0;
+    scoreSpan.innerText = "0";
+    initRoadLines();
+    lastQuizTime = performance.now();
+    isPlaying = true;
+    isPaused = false;
+    deactivateLeft(); deactivateRight();
+    keys.ArrowLeft = false; keys.ArrowRight = false;
+    startScreen.classList.remove('active');
+    gameOverScreen.classList.remove('active');
+    quizModal.classList.remove('active');
+    feedbackText.innerText = "";
+    resetQuestionPool();
+    currentQuestionIndex = -1;
+    animationId = requestAnimationFrame(gameLoop);
+}
+startBtn.addEventListener('click', resetGame);
+restartBtn.addEventListener('click', resetGame);
+changeQuestionBtn.addEventListener('click', changeQuestion);
+resetQuestionPool();
+function drawIdlePreview() {
+    drawEnvironment();
+    drawModernPlayerCar();
+    ctx.font = "bold 18px 'Segoe UI'";
+    ctx.fillStyle = "#ffe0aa";
+    ctx.fillText("TAP START", canvas.width/2-55, canvas.height/2+40);
+}
+drawIdlePreview();
+if (!CanvasRenderingContext2D.prototype.roundRect) {
+    CanvasRenderingContext2D.prototype.roundRect = function(x, y, w, h, r) {
+        if (w < 2*r) r = w/2;
+        if (h < 2*r) r = h/2;
+        this.moveTo(x+r, y);
+        this.lineTo(x+w-r, y);
+        this.quadraticCurveTo(x+w, y, x+w, y+r);
+        this.lineTo(x+w, y+h-r);
+        this.quadraticCurveTo(x+w, y+h, x+w-r, y+h);
+        this.lineTo(x+r, y+h);
+        this.quadraticCurveTo(x, y+h, x, y+h-r);
+        this.lineTo(x, y+r);
+        this.quadraticCurveTo(x, y, x+r, y);
+        return this;
+    };
+}
+</script>
+</body>
+</html>

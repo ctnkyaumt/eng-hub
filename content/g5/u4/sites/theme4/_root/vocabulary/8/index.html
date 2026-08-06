@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+    <meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>8. Sınıf Kelime Testleri | Canbay İngilizce</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #e8edf2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 14px 8px 80px;
+}
+
+.color-bar, .color-bar-bottom, .page {
+  width: calc(100% - 20px);
+  max-width: 1900px;
+}
+.color-bar, .color-bar-bottom { display: flex; height: 13px; overflow: hidden; }
+.color-bar { border-radius: 8px 8px 0 0; }
+.color-bar-bottom { border-radius: 0 0 8px 8px; margin-top: -1px; }
+.cb1 { background: #EF9A9A; flex: 1; }
+.cb2 { background: #A5D6A7; flex: 1; }
+.cb3 { background: #90CAF9; flex: 1; }
+.cb4 { background: #FFF176; flex: 1; }
+
+.page {
+  background: #fff;
+  width: 100%;
+  max-width: 1900px;
+  border-radius: 0 0 18px 18px;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.13);
+  overflow: hidden;
+}
+
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px 14px;
+  border-bottom: 2px solid #f0f0f0;
+  gap: 10px;
+}
+.nav-links {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 13px; font-weight: 700; color: #aaa; flex-shrink: 0;
+}
+.nav-links a { color: #1565C0; text-decoration: none; font-weight: 700; transition: color 0.15s; }
+.nav-links a:hover { color: #FF5722; }
+.nav-sep { color: #ccc; font-size: 15px; }
+.page-title { text-align: center; flex: 1; }
+.page-title .unit-label { font-size: 13px; font-weight: 700; color: #aaa; letter-spacing: 1px; text-transform: uppercase; }
+.page-title h1 { font-size: 24px; font-weight: 900; color: #1a237e; letter-spacing: 0.5px; line-height: 1.2; }
+.canbay-btn {
+  font-size: 13px; font-weight: 800; color: #E53935;
+  text-decoration: none; background: #fff;
+  border: 2px solid #E53935; border-radius: 8px;
+  padding: 6px 14px; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.canbay-btn:hover { background: #FFEBEE; transform: translateY(-1px); }
+.fullscreen-btn {
+  font-size: 13px; font-weight: 800; color: #1565C0;
+  background: #fff; border: 2px solid #1565C0;
+  border-radius: 8px; padding: 6px 14px; cursor: pointer;
+  font-family: inherit; transition: all 0.18s;
+  white-space: nowrap; flex-shrink: 0;
+}
+.fullscreen-btn:hover { background: #E3F2FD; transform: translateY(-1px); }
+
+.subtitle {
+  text-align: center;
+  padding: 8px 12px 4px;
+  font-size: 15px; color: #666; font-weight: 500;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 14px 12px 18px;
+}
+
+.test-card {
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.10);
+  transition: transform 0.22s, box-shadow 0.22s;
+  cursor: pointer;
+  position: relative;
+}
+.test-card:hover { transform: translateY(-6px) scale(1.02); box-shadow: 0 12px 36px rgba(0,0,0,0.18); }
+.test-card:active { transform: translateY(-2px) scale(1.01); }
+
+.card-top {
+  padding: 28px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+.card-icon { font-size: 52px; line-height: 1; filter: drop-shadow(0 3px 6px rgba(0,0,0,0.15)); }
+.card-unit { font-size: 13px; font-weight: 800; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.7; }
+.card-name { font-size: 21px; font-weight: 900; text-align: center; line-height: 1.3; }
+
+.card-bottom {
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.3px;
+}
+.card-arrow { font-size: 18px; transition: transform 0.2s; }
+.test-card:hover .card-arrow { transform: translateX(5px); }
+
+.card-badge {
+  position: absolute; top: 12px; right: 12px;
+  background: rgba(0,0,0,0.07);
+  border: 1.5px solid rgba(0,0,0,0.15);
+  border-radius: 20px;
+  font-size: 10px; font-weight: 800;
+  padding: 3px 9px; color: #444;
+  letter-spacing: 0.5px; text-transform: uppercase;
+}
+
+.card-red .card-top      { background: #FFEBEE; color: #1a1a1a; }
+.card-red .card-bottom   { background: #FFCDD2; color: #1a1a1a; }
+.card-green .card-top    { background: #E8F5E9; color: #1a1a1a; }
+.card-green .card-bottom { background: #C8E6C9; color: #1a1a1a; }
+.card-blue .card-top     { background: #E3F2FD; color: #1a1a1a; }
+.card-blue .card-bottom  { background: #BBDEFB; color: #1a1a1a; }
+.card-yellow .card-top    { background: #FFFDE7; color: #1a1a1a; }
+.card-yellow .card-bottom { background: #FFF9C4; color: #1a1a1a; }
+.card-purple .card-top    { background: #F3E5F5; color: #1a1a1a; }
+.card-purple .card-bottom { background: #E1BEE7; color: #1a1a1a; }
+.card-khaki .card-top    { background: #F9FBE7; color: #1a1a1a; }
+.card-khaki .card-bottom { background: #F0F4C3; color: #1a1a1a; }
+.card-teal .card-top     { background: #E0F2F1; color: #1a1a1a; }
+.card-teal .card-bottom  { background: #B2DFDB; color: #1a1a1a; }
+.card-amber .card-top    { background: #FFF8E1; color: #1a1a1a; }
+.card-amber .card-bottom { background: #FFECB3; color: #1a1a1a; }
+.card-salmon .card-top    { background: #FBE9E7; color: #1a1a1a; }
+.card-salmon .card-bottom { background: #FFCCBC; color: #1a1a1a; }
+.card-indigo .card-top    { background: #E8EAF6; color: #1a1a1a; }
+.card-indigo .card-bottom { background: #C5CAE9; color: #1a1a1a; }
+
+/* ── Fixed bottom bar ── */
+.bottom-bar {
+  position: fixed; bottom: 0; left: 0; width: 100%; z-index: 9999;
+  background: #fff; border-top: 3px solid #7B1C1C;
+  display: flex; align-items: center; justify-content: center;
+  gap: 12px; padding: 10px 20px;
+  box-shadow: 0 -3px 16px rgba(0,0,0,0.15);
+}
+.bar-btn { border: none; border-radius: 8px; font-size: 14px; font-weight: 800; padding: 8px 18px; cursor: pointer; font-family: inherit; transition: all 0.18s; white-space: nowrap; }
+.bar-btn-fs { background: #7B1C1C; color: #fff; border: 2px solid #7B1C1C; }
+.bar-btn-fs:hover { background: #5D1010; border-color: #5D1010; }
+.bar-btn-zoom { background: transparent; color: #7B1C1C; border: 2px solid rgba(123,28,28,0.4); font-size: 18px; padding: 6px 16px; }
+.bar-btn-zoom:hover { background: rgba(123,28,28,0.08); border-color: #7B1C1C; }
+.bar-zoom-label { color: #555; font-size: 13px; font-weight: 700; min-width: 40px; text-align: center; }
+.bar-divider { width: 1px; height: 32px; background: rgba(123,28,28,0.2); flex-shrink: 0; }
+.bar-btn-draw { background: transparent; color: #333; border: 2px solid rgba(0,0,0,0.2); font-size: 13px; padding: 7px 14px; gap: 5px; display: flex; align-items: center; }
+.bar-btn-draw:hover { background: rgba(0,0,0,0.06); border-color: #555; }
+.bar-btn-draw.active { background: #7B1C1C; color: #fff; border-color: #7B1C1C; }
+.bar-btn-draw.active-highlight { background: #FFF176; color: #333; border-color: #e6c800; }
+.bar-btn-clear { background: transparent; color: #C62828; border: 2px solid rgba(198,40,40,0.35); font-size: 13px; padding: 7px 14px; }
+.bar-btn-clear:hover { background: rgba(198,40,40,0.08); border-color: #C62828; }
+.bar-btn-end { background: #7B1C1C; color: #fff; border: 2px solid #7B1C1C; font-size: 13px; padding: 7px 14px; }
+.bar-btn-end:hover { background: #5D1010; border-color: #5D1010; }
+.bar-btn-home { background: transparent; color: #7B1C1C; border: 2px solid rgba(123,28,28,0.4); border-radius: 8px; font-size: 20px; padding: 5px 12px; text-decoration: none; transition: all 0.18s; line-height: 1; }
+.bar-btn-home:hover { background: rgba(123,28,28,0.08); border-color: #7B1C1C; }
+.bar-logo { height: 32px; opacity: 0.7; flex-shrink: 0; }
+.bar-clock { margin-left: auto; font-size: 18px; font-weight: 800; color: #7B1C1C; letter-spacing: 1px; flex-shrink: 0; }
+#drawCanvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9998; pointer-events: none; cursor: crosshair; }
+@media (max-width: 1024px) { .bottom-bar { display: none; } body { padding-bottom: 20px; } }
+
+@media (max-width: 700px) {
+  body { padding: 8px 6px 20px; }
+  .color-bar, .color-bar-bottom, .page { width: calc(100% - 12px); }
+  .page-header { padding: 10px 12px 8px; flex-wrap: wrap; gap: 6px; }
+  .nav-links { font-size: 11px; order: 1; flex: 1 1 100%; }
+  .page-title { order: 2; flex: 1 1 auto; }
+  .page-title h1 { font-size: 16px; }
+  .canbay-btn { font-size: 11px; padding: 5px 10px; order: 3; }
+  .subtitle { font-size: 13px; padding: 6px 10px 2px; }
+  .card-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; padding: 12px 12px 18px; }
+  .card-icon { font-size: 34px; }
+  .card-name { font-size: 15px; }
+  .card-unit { font-size: 11px; }
+  .card-top { padding: 18px 10px 12px; gap: 6px; }
+  .card-bottom { font-size: 14px; padding: 10px; }
+  .card-badge { font-size: 9px; padding: 2px 7px; }
+}
+</style>
+</head>
+<body>
+
+<div class="color-bar">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<div class="page">
+
+  <div class="page-header">
+    <div class="nav-links">
+      <a href="../../">Ana Sayfa</a>
+      <span class="nav-sep">/</span>
+      <a href="../">Kelime Listesi</a>
+      <span class="nav-sep">/</span>
+      <span>8. Sınıf</span>
+    </div>
+    <div class="page-title">
+      <div class="unit-label">8. Sınıf İngilizce · Kelime Testleri</div>
+      <h1>Kelime Testleri</h1>
+    </div>
+    <button type="button" class="fullscreen-btn" id="fsBtn" onclick="toggleFullscreen()">⛶ Tam Ekran</button>
+    <a href="../../" class="canbay-btn">© CANBAY</a>
+  </div>
+
+  <div class="subtitle">Bir üniteyi seçerek kelime listesine ulaş.</div>
+
+  <div class="card-grid">
+
+    <a class='test-card card-red' href='../../../_root/vocabulary/8/1/index.html'>
+      <span class="card-badge">Unit 1</span>
+      <div class="card-top">
+        <div class="card-icon">🔤</div>
+        <div class="card-unit">8. S&#305;n&#305;f</div>
+        <div class="card-name">Unit 1 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Ba&#351;la &nbsp;<span class="card-arrow">&rarr;</span>
+      </div>
+    </a>
+
+    <a class='test-card card-green' href='../../../_root/vocabulary/8/2/index.html'>
+      <span class="card-badge">Unit 2</span>
+      <div class="card-top">
+        <div class="card-icon">🔤</div>
+        <div class="card-unit">8. S&#305;n&#305;f</div>
+        <div class="card-name">Unit 2 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Ba&#351;la &nbsp;<span class="card-arrow">&rarr;</span>
+      </div>
+    </a>
+
+    <a class='test-card card-blue' href='../../../_root/vocabulary/8/3/index.html'>
+      <span class="card-badge">Unit 3</span>
+      <div class="card-top">
+        <div class="card-icon">🔤</div>
+        <div class="card-unit">8. S&#305;n&#305;f</div>
+        <div class="card-name">Unit 3 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Ba&#351;la &nbsp;<span class="card-arrow">&rarr;</span>
+      </div>
+    </a>
+
+    <a class='test-card card-yellow' href='../../../_root/vocabulary/8/4/index.html'>
+      <span class="card-badge">Unit 4</span>
+      <div class="card-top">
+        <div class="card-icon">📝</div>
+        <div class="card-unit">8. Sınıf</div>
+        <div class="card-name">Unit 4 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Başla &nbsp;<span class="card-arrow">&rarr;</span>
+      </div>
+    </a>
+
+    <a class='test-card card-purple' href='../../../_root/vocabulary/8/5/index.html'>
+      <span class="card-badge">Unit 5</span>
+      <div class="card-top">
+        <div class="card-icon">&#128292;</div>
+        <div class="card-unit">8. S&#305;n&#305;f</div>
+        <div class="card-name">Unit 5 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Ba&#351;la &nbsp;<span class="card-arrow">&rarr;</span>
+      </div>
+    </a>
+
+    <a class='test-card card-khaki' href='../../../_root/vocabulary/8/6/index.html'>
+      <span class="card-badge">Unit 6</span>
+      <div class="card-top">
+        <div class="card-icon">🔤</div>
+        <div class="card-unit">8. Sınıf</div>
+        <div class="card-name">Unit 6 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Başla &nbsp;<span class="card-arrow">→</span>
+      </div>
+    </a>
+
+    <a class='test-card card-amber' href='../../../_root/sunu/unit7/word1'>
+      <span class="card-badge">Unit 7</span>
+      <div class="card-top">
+        <div class="card-icon">🔤</div>
+        <div class="card-unit">8. Sınıf</div>
+        <div class="card-name">Unit 7 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Başla &nbsp;<span class="card-arrow">→</span>
+      </div>
+    </a>
+
+    <a class='test-card card-purple' href='../../../_root/sunu/unit8/word1'>
+      <span class="card-badge">Unit 8</span>
+      <div class="card-top">
+        <div class="card-icon">🔤</div>
+        <div class="card-unit">8. Sınıf</div>
+        <div class="card-name">Unit 8 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Başla &nbsp;<span class="card-arrow">→</span>
+      </div>
+    </a>
+
+    <a class='test-card card-salmon' href='../../../_root/sunu/unit9/word1'>
+      <span class="card-badge">Unit 9</span>
+      <div class="card-top">
+        <div class="card-icon">🔤</div>
+        <div class="card-unit">8. Sınıf</div>
+        <div class="card-name">Unit 9 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Başla &nbsp;<span class="card-arrow">→</span>
+      </div>
+    </a>
+
+    <a class='test-card card-indigo' href='../../../_root/vocabulary/8/10/index.html'>
+      <span class="card-badge">Unit 10</span>
+      <div class="card-top">
+        <div class="card-icon">🔤</div>
+        <div class="card-unit">8. Sınıf</div>
+        <div class="card-name">Unit 10 Word Meaning Test</div>
+      </div>
+      <div class="card-bottom">
+        Başla &nbsp;<span class="card-arrow">→</span>
+      </div>
+    </a>
+
+  </div>
+
+</div>
+
+<div class="color-bar-bottom">
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+  <span class="cb1"></span><span class="cb2"></span><span class="cb3"></span><span class="cb4"></span>
+</div>
+
+<canvas id="drawCanvas"></canvas>
+
+<div class="bottom-bar">
+  <a href="../../" class="bar-btn bar-btn-home" title="Ana Sayfa">🏠</a>
+  <img src="../../images/favicon.png" alt="Canbay" class="bar-logo">
+  <div class="bar-divider"></div>
+  <button type="button" class="bar-btn bar-btn-fs" id="barFsBtn" onclick="toggleFullscreen()">⛶ Tam Ekran</button>
+  <button type="button" class="bar-btn bar-btn-zoom" onclick="zoomOut()">−</button>
+  <span class="bar-zoom-label" id="zoomLabel">100%</span>
+  <button type="button" class="bar-btn bar-btn-zoom" onclick="zoomIn()">+</button>
+  <div class="bar-divider"></div>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnPen"       onclick="setTool('pen')">✏️ Kalem</button>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnHighlight" onclick="setTool('highlight')">🖊️ Fosforlu</button>
+  <button type="button" class="bar-btn bar-btn-draw" id="btnEraser"    onclick="setTool('eraser')">🧹 Silgi</button>
+  <button type="button" class="bar-btn bar-btn-clear" onclick="clearCanvas()">🗑️ Tümünü Sil</button>
+  <button type="button" class="bar-btn bar-btn-end"  onclick="endDrawing()">✖ Çizimi Bitir</button>
+  <div class="bar-divider"></div>
+  <span class="bar-clock" id="barClock"></span>
+</div>
+
+<script>
+function toggleFullscreen() {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen().catch(() => {});
+    document.getElementById('fsBtn').textContent = '✕ Tam Ekrandan Çık';
+    document.getElementById('barFsBtn').textContent = '✕ Tam Ekrandan Çık';
+  } else {
+    document.exitFullscreen();
+    document.getElementById('fsBtn').textContent = '⛶ Tam Ekran';
+    document.getElementById('barFsBtn').textContent = '⛶ Tam Ekran';
+  }
+}
+document.addEventListener('fullscreenchange', () => {
+  if (!document.fullscreenElement) {
+    document.getElementById('fsBtn').textContent = '⛶ Tam Ekran';
+    document.getElementById('barFsBtn').textContent = '⛶ Tam Ekran';
+  }
+});
+
+const canvas = document.getElementById('drawCanvas');
+const ctx = canvas.getContext('2d');
+let drawing = false, currentTool = null, hlSnapshot = null, hlPath = [];
+function resizeCanvas() {
+  const tmp = canvas.toDataURL();
+  canvas.width = window.innerWidth; canvas.height = window.innerHeight;
+  const img = new Image(); img.onload = () => ctx.drawImage(img, 0, 0); img.src = tmp;
+}
+window.addEventListener('resize', resizeCanvas); resizeCanvas();
+function setTool(tool) {
+  if (currentTool === tool) { endDrawing(); return; }
+  currentTool = tool; canvas.style.pointerEvents = 'auto';
+  ['btnPen','btnHighlight','btnEraser'].forEach(id => document.getElementById(id).classList.remove('active','active-highlight'));
+  if (tool === 'pen')       document.getElementById('btnPen').classList.add('active');
+  if (tool === 'highlight') document.getElementById('btnHighlight').classList.add('active-highlight');
+  if (tool === 'eraser')    document.getElementById('btnEraser').classList.add('active');
+  canvas.style.cursor = tool === 'eraser' ? 'cell' : 'crosshair';
+}
+function endDrawing() {
+  currentTool = null; canvas.style.pointerEvents = 'none'; canvas.style.cursor = 'default';
+  ['btnPen','btnHighlight','btnEraser'].forEach(id => document.getElementById(id).classList.remove('active','active-highlight'));
+}
+function clearCanvas() { ctx.clearRect(0, 0, canvas.width, canvas.height); }
+function getPos(e) { const t = e.touches ? e.touches[0] : e; return { x: t.clientX, y: t.clientY }; }
+canvas.addEventListener('mousedown', startDraw); canvas.addEventListener('mousemove', moveDraw);
+canvas.addEventListener('mouseup', stopDraw); canvas.addEventListener('mouseleave', stopDraw);
+canvas.addEventListener('touchstart', e => { e.preventDefault(); startDraw(e); }, { passive: false });
+canvas.addEventListener('touchmove',  e => { e.preventDefault(); moveDraw(e);  }, { passive: false });
+canvas.addEventListener('touchend', stopDraw);
+function startDraw(e) {
+  if (!currentTool) return; drawing = true;
+  const { x, y } = getPos(e);
+  if (currentTool === 'highlight') { hlSnapshot = ctx.getImageData(0, 0, canvas.width, canvas.height); hlPath = [{ x, y }]; }
+  else { ctx.beginPath(); ctx.moveTo(x, y); }
+}
+function moveDraw(e) {
+  if (!drawing || !currentTool) return;
+  const { x, y } = getPos(e);
+  if (currentTool === 'pen') {
+    ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 1;
+    ctx.strokeStyle = '#E53935'; ctx.lineWidth = 3; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.lineTo(x, y); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x, y);
+  } else if (currentTool === 'highlight') {
+    hlPath.push({ x, y }); ctx.putImageData(hlSnapshot, 0, 0); ctx.save();
+    ctx.globalAlpha = 0.28; ctx.globalCompositeOperation = 'source-over';
+    ctx.strokeStyle = '#FFD600'; ctx.lineWidth = 22; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.beginPath(); ctx.moveTo(hlPath[0].x, hlPath[0].y);
+    for (let i = 1; i < hlPath.length; i++) ctx.lineTo(hlPath[i].x, hlPath[i].y);
+    ctx.stroke(); ctx.restore();
+  } else if (currentTool === 'eraser') {
+    ctx.globalCompositeOperation = 'destination-out'; ctx.globalAlpha = 1;
+    ctx.lineWidth = 28; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.lineTo(x, y); ctx.stroke(); ctx.beginPath(); ctx.moveTo(x, y);
+  }
+}
+function stopDraw() { hlSnapshot = null; hlPath = []; drawing = false; ctx.globalCompositeOperation = 'source-over'; ctx.globalAlpha = 1; }
+let currentZoom = 1.0;
+const ZOOM_STEP = 0.1, ZOOM_MIN = 0.5, ZOOM_MAX = 2.0;
+function applyZoom() { document.querySelector('.page').style.zoom = currentZoom; document.getElementById('zoomLabel').textContent = Math.round(currentZoom * 100) + '%'; }
+function zoomIn()  { if (currentZoom < ZOOM_MAX) { currentZoom = Math.round((currentZoom + ZOOM_STEP) * 10) / 10; applyZoom(); } }
+function zoomOut() { if (currentZoom > ZOOM_MIN) { currentZoom = Math.round((currentZoom - ZOOM_STEP) * 10) / 10; applyZoom(); } }
+function updateClock() {
+  const now = new Date();
+  document.getElementById('barClock').textContent = now.getHours().toString().padStart(2,'0') + ':' + now.getMinutes().toString().padStart(2,'0');
+}
+updateClock(); setInterval(updateClock, 1000);
+</script>
+
+<script async src="https://scripts.simpleanalyticscdn.com/latest.js" ></script><script async src="https://scripts.simpleanalyticscdn.com/auto-events.js" data-extensions="pdf,csv,docx,xlsx,zip,doc,xls"></script></body>
+</html>
