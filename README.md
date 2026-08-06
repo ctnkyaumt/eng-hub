@@ -1,0 +1,178 @@
+# ENG HUB
+
+Taşınabilir İngilizce ders yardımcısı. USB'ye kopyala, tak, çalıştır — **kurulum yok, internet yok.**
+Windows ve Pardus/Linux üzerinde aynı şekilde çalışır.
+
+```
+ANA MENÜ → 5 / 6 / 7 / 8. Sınıf → Ünite 1…10 → SUNUM · OYUNLAR · ÇALIŞMA KÂĞITLARI · KİTAP SUNUMLARI
+```
+
+## Çalıştırma
+
+| Sistem | Ne yapmalı |
+| --- | --- |
+| Windows | `Start-Windows.bat` dosyasına çift tıklayın |
+| Pardus / Linux | `start-pardus.sh` dosyasına çift tıklayın (veya terminalde `./start-pardus.sh`) |
+
+Tarayıcı kendiliğinden açılır. Kapatmak için siyah konsol penceresini kapatın.
+
+**Python:** Windows'ta USB'deki taşınabilir Python (`runtime/python-win/`) kullanılır — bilgisayara
+hiçbir şey kurulmaz, yönetici yetkisi gerekmez. Pardus'ta sistemdeki `python3` kullanılır (Pardus'ta
+hazır gelir). Hiçbiri yoksa açılış ekranı kurulumu adım adım anlatır.
+
+## İçeride ne var
+
+| Bölüm | İçerik |
+| --- | --- |
+| **Sunum** | **5. sınıf** 1–8. tema (371 slayt) ve **8. sınıf** 1–10. ünite (250 slayt) için animasyonlu ders sunumu — 1265 kelime kartı, 364 alıştırma slaydı. 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
+| **Oyunlar** | 6 çevrimdışı oyun modu: Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca kaynaktaki 66 statik etkinliğin çevrimdışı kopyası. |
+| **Çalışma Kâğıtları** | 124 dosya USB'de hazır. Tıklayınca bilgisayarın kendi PDF programında açılır. |
+| **Kitap Sunumları** | Kaynaktaki ders/çalışma kitabı sunumlarının listesi. Bunlar yüzlerce parçadan oluşan slayt oynatıcıları olduğu için USB'ye kopyalanmıyor; **bağlantı olarak** açılır (internet gerekir). |
+
+İnternet isteyen etkinlikler (Wordwall, Vocablitz, Baamboozle vb.) ayrı bir listede "İnternet gerekli"
+başlığıyla durur — bağlantı varsa tek tıkla açılır.
+
+### Sunum nasıl çalışır
+
+* İçerik **tek tek açılır**: her "Sonraki" bir kelime/örnek daha gösterir, hepsi bitince sonraki
+  slayda geçer. `↓` tuşu o slaydın kalanını bir anda açar.
+* Slayt **ekrana sığacak şekilde küçültülür**; sığmayacak kadar uzunsa kaydırılır ve her slayt başa sarar.
+* Her konu slaydının **arkasından bir alıştırma slaydı** gelir: eşleştirme, çoktan seçmeli, boşluk
+  doldurma, cümleyi sıraya dizme. Sorular o slaydın kendi kelime ve örneklerinden üretilir.
+* Konu sırası **ders kitabına** göredir (`res/book.pdf` tema tablosu); kitapta olmayan konular çıkarıldı.
+* Kelime kartlarında mümkün olan yerde **tema föyünün kendi resimleri** kullanılır (emoji yerine).
+* Diyaloglar **konuşma balonu** olarak gösterilir.
+* Başlıklar ve kapak sayfası **tek seferde** görünür; sadece içerik adım adım açılır.
+* Üstteki **adım çubuğu** o slaytta kaç parça kaldığını gösterir.
+* Slayt az içerik barındırıyorsa **büyütülür**, kalabalıksa küçültülür (%55–%180).
+* Bayraklar emoji değil **SVG resim** (Windows'ta emoji bayrak görünmüyor).
+* Gramer örneklerinin yanında ilgili **kelime resmi** çıkar; alıştırmalarda **resimli soru** vardır.
+* Kalabalık sayfalar ikiye bölünür (en fazla 12 kelime kartı, 2 alıştırma sorusu); başlıkta `1/2` rozeti olur.
+* Alıştırma yönergeleri **İngilizce** (Match the words, What is this?, Try again …).
+
+### Kalem araçları (🖊️ düğmesi veya `M`)
+
+Kitap sunumlarındaki "Marker Tools" gibi: **Pen**, **Highlighter** (yassı uçlu, açık renk),
+**Eraser**, **Erase All** (o slayttaki her şeyi sil), **End Drawing** (çizimi bırak).
+Pen ve Highlighter'ın altında **5'er renk** var; renge tıklamak o aracı da seçer.
+Çizimler slayt başına saklanır — ileri gidip geri dönünce yazdıkların yerinde durur.
+
+### Slayt düzenleme (✏️ düğmesi veya `E`)
+
+| Düğme | Ne yapar |
+| --- | --- |
+| 🖼️ Resim | Bilgisayardan resim seçer, USB'ye kopyalar, slayda ekler |
+| 🅰️ Yazı | Serbest yazı kutusu ekler |
+| ▭ ⬭ △ 💬 | Dikdörtgen, daire, üçgen, konuşma balonu ekler |
+| ✎ Metin / 🎨 Renk | Seçili nesnenin yazısını / rengini değiştirir |
+| 🗑️ Sil | Seçili nesneyi siler (`Delete` tuşu da olur) |
+| 💾 Kaydet | `slides.json` dosyasına yazar, eski hâli `.bak` olarak kalır (`Ctrl+S`) |
+
+Nesne sürüklenerek taşınır, sağ alt köşesinden boyutlandırılır. Konumlar yüzde saklandığı için her
+ekran boyutunda aynı yerde durur. Şeklin içine yazı yazmak için şekli seçip ✎ Metin'e basın.
+
+## Kısayollar
+
+| Tuş | İşlev |
+| --- | --- |
+| `←` `→` `Boşluk` | Sonraki adım / slayt |
+| `↓` | Slaydın kalanını aç |
+| `F` | Tam ekran |
+| `E` | Düzenleme modu |
+| `M` | Kalem araçları menüsü |
+| `Esc` | Sunumu kapat |
+| `Backspace` | Geri |
+| `A` `B` `C` `D` | Hızlı Test'te şık seç |
+
+## 8. sınıf sunumları nereden geliyor?
+
+8. sınıf için elimizde MEB tema föyü yoktu. Sunumlar iki kaynaktan üretildi:
+
+* **Kelimeler** — ünitenin kendi etkinlik havuzundan (`content/g8/uN/games/bank.json`) çıkarılan
+  gerçek kelime çiftleri; temizlenip 12'lik slaytlara bölündü.
+* **Gramer** — MEB 8. sınıf müfredatının o ünitede öğrettiği yapılar, `tools/build_g8.py` içinde
+  yazılı. Örnek cümlelerdeki `*yıldızlı*` kelimeler alıştırmaları otomatik üretir.
+
+Değiştirmek için `tools/build_g8.py` içindeki `GRAMMAR` tablosunu düzenleyip şunu çalıştırın:
+
+```bash
+python tools/build_g8.py && python tools/polish_slides.py --grade 8
+```
+
+## 6 ve 7. sınıfa sunum eklemek
+
+Bu sınıflarda oyunlar, çalışma kâğıtları ve çevrimdışı kopyalar var; **sunum yok**. Eklemek için:
+
+1. PDF'i `res/<N>th grade/unit <M>/` klasörüne koyun (örn. `res/6th grade/unit 3/`).
+2. `python tools/pdf_to_pages.py` — sayfaları görsele çevirir.
+3. `content/g<N>/u<M>/presentation/slides.json` dosyasını oluşturun.
+   Şablon olarak `content/g5/u1/presentation/slides.json` dosyasını kopyalayın.
+4. `python tools/fetch_catalog.py` — menü kendini günceller.
+
+Kaynak PDF yoksa 8. sınıftaki gibi kelime havuzundan üretme yolunu izleyebilirsiniz:
+`tools/build_g8.py` dosyasını örnek alın.
+
+`slides.json` slayt tipleri: `title`, `vocab`, `grammar`, `compare`, `dialogue`, `practice`,
+`exercise`, `scene`, `pages`, `end`. Metin içinde `*yıldız*` arasına aldığınız kısım renkli vurgulanır.
+
+## Klasörler
+
+```
+Start-Windows.bat / start-pardus.sh   başlatıcılar
+server/enghub.py                      yerel sunucu (yalnız 127.0.0.1)
+runtime/python-win/                   taşınabilir Python (Windows yedeği)
+app/                                  arayüz (HTML/CSS/JS)
+content/g5/u1/…                       ünite içerikleri
+  presentation/  games/  worksheets/  sites/
+res/                                  orijinal PDF'ler (kaynak)
+tools/                                içerik üretme betikleri
+```
+
+## Bakım (internet gerekir)
+
+```bash
+python tools/refresh.py
+```
+
+Katalog → PDF sayfaları → oyun soruları → çalışma kâğıtları sırasıyla güncellenir ve sonunda
+`verify_content.py` her şeyin yerinde olduğunu kontrol eder. Statik etkinlik kopyalarını da
+yenilemek için `--full` ekleyin. Tek tek çalıştırmak isterseniz:
+
+| Betik | İşi |
+| --- | --- |
+| `tools/fetch_catalog.py` | menüyü ve sayıları günceller |
+| `tools/pdf_to_pages.py` | `res/` içindeki PDF'leri sayfa görsellerine çevirir |
+| `tools/fetch_games.py` | ünite soru havuzlarını indirir |
+| `tools/fetch_worksheets.py` | çalışma kâğıtlarını indirir |
+| `tools/mirror_sites.py` | statik etkinliklerin çevrimdışı kopyasını alır (`--presentations` ile kitap sunumları da, çok yavaş) |
+| `tools/crop_vocab.py` | tema föyündeki resimleri tek tek kesip çıkarır (`--sheet` ile kontrol görseli) |
+| `tools/link_images.py` | kesilen resimleri kelime kartlarına bağlar (eşleme tablosu dosyanın içinde) |
+| `tools/polish_slides.py` | slayt sırasını kitaba göre düzenler, alıştırma slaytlarını üretir |
+| `tools/fetch_flags.py` | ülke bayraklarını SVG olarak indirir ve kartlara bağlar |
+| `tools/build_g8.py` | 8. sınıf sunumlarını kelime havuzu + müfredat yapılarından üretir |
+| `tools/verify_content.py` | eksik dosya var mı diye bakar |
+| `tools/get_python_win.py` | USB'ye taşınabilir Python koyar |
+
+Gerekli tek harici paket: `pymupdf` (yalnız `pdf_to_pages.py` için) — `pip install pymupdf`.
+
+## Kaynak ve emek
+
+Ders materyalleri [eltarena.com](https://eltarena.com) üzerinde paylaşılan öğretmen çalışmalarından
+derlenmiştir. Hazırlayanların adları her çalışma kâğıdının ve etkinliğin yanında korunur.
+5. sınıf tema föyleri MEB Maarif Modeli içeriğidir. Bu USB sınıf içi kullanım içindir.
+
+## Depo hakkında
+
+Bu depo **programı** ve **yazılan sunumları** içerir; USB'deki 1,3 GB'lık içeriğin tamamını değil.
+Ders kitapları (`res/`), indirilen çalışma kâğıtları, oyun soru havuzları, kopyalanan siteler ve
+tema föylerinden kesilen resimler **başkalarının materyali** olduğu için depoya konmadı. Hepsi
+`tools/` altındaki betiklerle yeniden üretilir:
+
+```bash
+python tools/refresh.py
+```
+
+Kelime resimleri (`app/img/words/`) Wikimedia Commons'tan çekilir; onları da
+`python tools/fetch_word_images.py` ile indirebilirsiniz.
+
+`memories/` klasöründe projenin nasıl kurulduğuna dair notlar var.

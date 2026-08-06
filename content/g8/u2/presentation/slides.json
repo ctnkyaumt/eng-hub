@@ -1,0 +1,822 @@
+{
+ "title": "Teen Life",
+ "titleTr": "Gençlik Hayatı",
+ "emoji": "🎧",
+ "accent": [
+  "#38bdf8",
+  "#6366f1"
+ ],
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "UNIT 2",
+   "title": "Teen Life",
+   "titleTr": "Gençlik Hayatı",
+   "emoji": "🎧"
+  },
+  {
+   "type": "vocab",
+   "title": "Teen Life",
+   "titleTr": "Gençlik hayatı",
+   "items": [
+    {
+     "en": "teenager",
+     "tr": "genç",
+     "emoji": "🧑"
+    },
+    {
+     "en": "hang out",
+     "tr": "takılmak",
+     "emoji": "🧑‍🤝‍🧑"
+    },
+    {
+     "en": "relationship",
+     "tr": "ilişki",
+     "emoji": "🤝"
+    },
+    {
+     "en": "argue",
+     "tr": "tartışmak",
+     "emoji": "😠",
+     "img": "/app/img/words/argue.jpg"
+    },
+    {
+     "en": "fashion",
+     "tr": "moda",
+     "emoji": "👗"
+    },
+    {
+     "en": "trendy",
+     "tr": "moda olan",
+     "emoji": "✨"
+    },
+    {
+     "en": "snob",
+     "tr": "züppe",
+     "emoji": "🎩"
+    },
+    {
+     "en": "concert",
+     "tr": "konser",
+     "emoji": "🎤"
+    },
+    {
+     "en": "types of music",
+     "tr": "müzik türleri",
+     "emoji": "🎵",
+     "img": "/app/img/words/types-of-music.jpg"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Teen Life",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "concert",
+       "b": "konser"
+      },
+      {
+       "a": "hang out",
+       "b": "takılmak"
+      },
+      {
+       "a": "snob",
+       "b": "züppe"
+      },
+      {
+       "a": "types of music",
+       "b": "müzik türleri"
+      },
+      {
+       "a": "relationship",
+       "b": "ilişki"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"tartışmak\"?",
+     "answer": "argue",
+     "options": [
+      "argue",
+      "teenager",
+      "concert",
+      "hang out"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Teen Life",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"genç\"?",
+     "answer": "teenager",
+     "options": [
+      "teenager",
+      "concert",
+      "relationship",
+      "hang out"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Likes & Preferences",
+   "titleTr": "Beğeni ve tercihler",
+   "items": [
+    {
+     "en": "prefer",
+     "tr": "tercih etmek",
+     "emoji": "⚖️"
+    },
+    {
+     "en": "fond of",
+     "tr": "hoşlanmak",
+     "emoji": "💕"
+    },
+    {
+     "en": "recommend",
+     "tr": "tavsiye etmek",
+     "emoji": "👍"
+    },
+    {
+     "en": "relaxing",
+     "tr": "rahatlatıcı",
+     "emoji": "😌"
+    },
+    {
+     "en": "impressive",
+     "tr": "etkileyici",
+     "emoji": "🌟"
+    },
+    {
+     "en": "terrific",
+     "tr": "muhteşem",
+     "emoji": "🤩"
+    },
+    {
+     "en": "ridiculous",
+     "tr": "saçma",
+     "emoji": "🙃"
+    },
+    {
+     "en": "unbearable",
+     "tr": "dayanılmaz",
+     "emoji": "😖"
+    },
+    {
+     "en": "loud",
+     "tr": "gürültülü",
+     "emoji": "🔊"
+    },
+    {
+     "en": "serious",
+     "tr": "ciddi",
+     "emoji": "😐"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Likes & Preferences",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "recommend",
+       "b": "tavsiye etmek"
+      },
+      {
+       "a": "terrific",
+       "b": "muhteşem"
+      },
+      {
+       "a": "prefer",
+       "b": "tercih etmek"
+      },
+      {
+       "a": "ridiculous",
+       "b": "saçma"
+      },
+      {
+       "a": "unbearable",
+       "b": "dayanılmaz"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"rahatlatıcı\"?",
+     "answer": "relaxing",
+     "options": [
+      "relaxing",
+      "prefer",
+      "recommend",
+      "loud"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Likes & Preferences",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"tercih etmek\"?",
+     "answer": "prefer",
+     "options": [
+      "prefer",
+      "impressive",
+      "fond of",
+      "terrific"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Gençlik Hayatı — ek kelimeler",
+   "items": [
+    {
+     "en": "hiking",
+     "tr": "doğa yürüyüşü"
+    },
+    {
+     "en": "horizon",
+     "tr": "ufuk"
+    },
+    {
+     "en": "how often",
+     "tr": "ne sıklıkla"
+    },
+    {
+     "en": "fashionable",
+     "tr": "modaya uygun"
+    },
+    {
+     "en": "fast",
+     "tr": "hızlı"
+    },
+    {
+     "en": "folk music",
+     "tr": "halk müziği"
+    },
+    {
+     "en": "follow",
+     "tr": "takip etmek"
+    },
+    {
+     "en": "form",
+     "tr": "kurmak, oluşturmak"
+    },
+    {
+     "en": "free time",
+     "tr": "boş zaman"
+    },
+    {
+     "en": "gym",
+     "tr": "spor salonu"
+    },
+    {
+     "en": "hate",
+     "tr": "nefret etmek"
+    },
+    {
+     "en": "energetic",
+     "tr": "enerjik"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "follow",
+       "b": "takip etmek"
+      },
+      {
+       "a": "gym",
+       "b": "spor salonu"
+      },
+      {
+       "a": "free time",
+       "b": "boş zaman"
+      },
+      {
+       "a": "energetic",
+       "b": "enerjik"
+      },
+      {
+       "a": "fashionable",
+       "b": "modaya uygun"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"doğa yürüyüşü\"?",
+     "answer": "hiking",
+     "options": [
+      "hiking",
+      "fashionable",
+      "horizon",
+      "folk music"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"modaya uygun\"?",
+     "answer": "fashionable",
+     "options": [
+      "fashionable",
+      "follow",
+      "energetic",
+      "hiking"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Gençlik Hayatı — ek kelimeler",
+   "items": [
+    {
+     "en": "enjoy",
+     "tr": "sevmek, hoşlanmak"
+    },
+    {
+     "en": "enjoyable",
+     "tr": "eğlenceli, zevkli"
+    },
+    {
+     "en": "enlarge",
+     "tr": "genişletmek, büyütmek"
+    },
+    {
+     "en": "exciting",
+     "tr": "heyecan verici"
+    },
+    {
+     "en": "exercise",
+     "tr": "egzersiz"
+    },
+    {
+     "en": "fantasy",
+     "tr": "hayal ürünü"
+    },
+    {
+     "en": "fascinating",
+     "tr": "büyüleyici"
+    },
+    {
+     "en": "come over",
+     "tr": "uğramak, ziyaret etmek"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "come over",
+       "b": "uğramak, ziyaret etmek"
+      },
+      {
+       "a": "enlarge",
+       "b": "genişletmek, büyütmek"
+      },
+      {
+       "a": "exercise",
+       "b": "egzersiz"
+      },
+      {
+       "a": "exciting",
+       "b": "heyecan verici"
+      },
+      {
+       "a": "fascinating",
+       "b": "büyüleyici"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"sevmek, hoşlanmak\"?",
+     "answer": "enjoy",
+     "options": [
+      "enjoy",
+      "come over",
+      "enjoyable",
+      "fascinating"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"büyüleyici\"?",
+     "answer": "fascinating",
+     "options": [
+      "fascinating",
+      "fantasy",
+      "enjoyable",
+      "exercise"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız. He / She / It ile fiile *-s* eklenir.",
+   "chips": [
+    "always",
+    "usually",
+    "often",
+    "sometimes",
+    "never"
+   ],
+   "examples": [
+    {
+     "en": "I *go* to the gym twice a week.",
+     "tr": "Haftada iki kez spor salonuna giderim."
+    },
+    {
+     "en": "She *watches* series in her free time.",
+     "tr": "O boş zamanında dizi izler."
+    },
+    {
+     "en": "We *don't* stay up late on school nights.",
+     "tr": "Okul gecelerinde geç saate kadar oturmayız."
+    },
+    {
+     "en": "*Does* he play the guitar? — Yes, he does.",
+     "tr": "O gitar çalar mı? — Evet, çalar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Present — Routines",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ to the gym twice a week.",
+     "answer": "go",
+     "options": [
+      "go",
+      "watches",
+      "don't",
+      "Does"
+     ],
+     "tr": "Haftada iki kez spor salonuna giderim."
+    },
+    {
+     "kind": "fill",
+     "text": "She ___ series in her free time.",
+     "answer": "watches",
+     "options": [
+      "watches",
+      "go",
+      "don't",
+      "Does"
+     ],
+     "tr": "O boş zamanında dizi izler."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Present — Routines",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "We ___ stay up late on school nights.",
+     "answer": "don't",
+     "options": [
+      "don't",
+      "go",
+      "watches",
+      "Does"
+     ],
+     "tr": "Okul gecelerinde geç saate kadar oturmayız."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "We don't stay up late on school nights.",
+     "tr": "Okul gecelerinde geç saate kadar oturmayız."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Preferences",
+   "titleTr": "Tercihleri anlatma",
+   "rule": "*prefer*, *would rather* ve *like/love/enjoy + V-ing* ile tercihlerimizi söyleriz.",
+   "chips": [
+    "prefer ... to ...",
+    "would rather",
+    "enjoy + V-ing"
+   ],
+   "examples": [
+    {
+     "en": "I *prefer* pop music *to* jazz.",
+     "tr": "Pop müziği caza tercih ederim."
+    },
+    {
+     "en": "She *would rather* read a book than watch TV.",
+     "tr": "O televizyon izlemektense kitap okumayı yeğler."
+    },
+    {
+     "en": "They *enjoy* hanging out with friends.",
+     "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar."
+    },
+    {
+     "en": "We *love* going to concerts.",
+     "tr": "Konserlere gitmeyi çok severiz."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Preferences",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ pop music to jazz.",
+     "answer": "prefer",
+     "options": [
+      "prefer",
+      "would rather",
+      "enjoy",
+      "love"
+     ],
+     "tr": "Pop müziği caza tercih ederim."
+    },
+    {
+     "kind": "fill",
+     "text": "She ___ read a book than watch TV.",
+     "answer": "would rather",
+     "options": [
+      "would rather",
+      "prefer",
+      "enjoy",
+      "love"
+     ],
+     "tr": "O televizyon izlemektense kitap okumayı yeğler."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Preferences",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "They ___ hanging out with friends.",
+     "answer": "enjoy",
+     "options": [
+      "enjoy",
+      "prefer",
+      "would rather",
+      "love"
+     ],
+     "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "We love going to concerts.",
+     "tr": "Konserlere gitmeyi çok severiz."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How often ...?",
+   "titleTr": "Sıklık sorma",
+   "rule": "Bir işin ne sıklıkla yapıldığını *How often ...?* ile sorarız. Cevapta sıklık zarfı veya *once / twice / three times a week* kullanılır.",
+   "examples": [
+    {
+     "en": "*How often* do you go swimming?",
+     "tr": "Ne sıklıkla yüzmeye gidersin?"
+    },
+    {
+     "en": "I go swimming *twice a week*.",
+     "tr": "Haftada iki kez yüzmeye giderim."
+    },
+    {
+     "en": "He *hardly ever* plays computer games.",
+     "tr": "O neredeyse hiç bilgisayar oyunu oynamaz."
+    },
+    {
+     "en": "They *always* have breakfast together.",
+     "tr": "Onlar her zaman birlikte kahvaltı yaparlar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "How often ...?",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ do you go swimming?",
+     "answer": "How often",
+     "options": [
+      "How often",
+      "twice a week",
+      "hardly ever",
+      "always"
+     ],
+     "tr": "Ne sıklıkla yüzmeye gidersin?"
+    },
+    {
+     "kind": "fill",
+     "text": "I go swimming ___.",
+     "answer": "twice a week",
+     "options": [
+      "twice a week",
+      "How often",
+      "hardly ever",
+      "always"
+     ],
+     "tr": "Haftada iki kez yüzmeye giderim."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "How often ...?",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "He ___ plays computer games.",
+     "answer": "hardly ever",
+     "options": [
+      "hardly ever",
+      "How often",
+      "twice a week",
+      "always"
+     ],
+     "tr": "O neredeyse hiç bilgisayar oyunu oynamaz."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "They always have breakfast together.",
+     "tr": "Onlar her zaman birlikte kahvaltı yaparlar."
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "genç → ?",
+     "a": "teenager"
+    },
+    {
+     "q": "takılmak → ?",
+     "a": "hang out"
+    },
+    {
+     "q": "ilişki → ?",
+     "a": "relationship"
+    },
+    {
+     "q": "tartışmak → ?",
+     "a": "argue"
+    },
+    {
+     "q": "moda → ?",
+     "a": "fashion"
+    },
+    {
+     "q": "moda olan → ?",
+     "a": "trendy"
+    },
+    {
+     "q": "züppe → ?",
+     "a": "snob"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ],
+ "source": "res/book_8.pdf"
+}

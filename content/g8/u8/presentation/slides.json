@@ -1,0 +1,871 @@
+{
+ "title": "Chores",
+ "titleTr": "Ev İşleri",
+ "emoji": "🧹",
+ "accent": [
+  "#a78bfa",
+  "#6366f1"
+ ],
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "UNIT 8",
+   "title": "Chores",
+   "titleTr": "Ev İşleri",
+   "emoji": "🧹"
+  },
+  {
+   "type": "vocab",
+   "title": "Chores at Home",
+   "titleTr": "Evdeki işler",
+   "items": [
+    {
+     "en": "doing chores",
+     "tr": "ev işi yapmak",
+     "emoji": "🏠"
+    },
+    {
+     "en": "make the bed",
+     "tr": "yatağı toplamak",
+     "emoji": "🛏️"
+    },
+    {
+     "en": "set the table",
+     "tr": "sofrayı kurmak",
+     "emoji": "🍴"
+    },
+    {
+     "en": "wash the dishes",
+     "tr": "bulaşık yıkamak",
+     "emoji": "🧼"
+    },
+    {
+     "en": "dry the dishes",
+     "tr": "bulaşık kurulamak",
+     "emoji": "🌀"
+    },
+    {
+     "en": "load the dishwasher",
+     "tr": "bulaşık makinesini doldurmak",
+     "emoji": "🍽️"
+    },
+    {
+     "en": "empty the dishwasher",
+     "tr": "bulaşık makinesini boşaltmak",
+     "emoji": "📤",
+     "img": "/app/img/words/empty-the-dishwasher.jpg"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Chores at Home",
+   "titleTr": "Evdeki işler",
+   "items": [
+    {
+     "en": "do the laundry",
+     "tr": "çamaşır yıkamak",
+     "emoji": "🧺"
+    },
+    {
+     "en": "laundry",
+     "tr": "çamaşır",
+     "emoji": "👕"
+    },
+    {
+     "en": "iron",
+     "tr": "ütü yapmak",
+     "emoji": "👔",
+     "img": "/app/img/words/iron.jpg"
+    },
+    {
+     "en": "clean up",
+     "tr": "temizlemek",
+     "emoji": "🧹"
+    },
+    {
+     "en": "tidy up",
+     "tr": "toparlamak",
+     "emoji": "🧽"
+    },
+    {
+     "en": "take out the garbage",
+     "tr": "çöpü çıkarmak",
+     "emoji": "🗑️"
+    }
+   ],
+   "part": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Chores at Home",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "tidy up",
+       "b": "toparlamak"
+      },
+      {
+       "a": "load the dishwasher",
+       "b": "bulaşık makinesini doldurmak"
+      },
+      {
+       "a": "doing chores",
+       "b": "ev işi yapmak"
+      },
+      {
+       "a": "dry the dishes",
+       "b": "bulaşık kurulamak"
+      },
+      {
+       "a": "clean up",
+       "b": "temizlemek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"temizlemek\"?",
+     "answer": "clean up",
+     "options": [
+      "clean up",
+      "do the laundry",
+      "tidy up",
+      "empty the dishwasher"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Chores at Home",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"bulaşık kurulamak\"?",
+     "answer": "dry the dishes",
+     "options": [
+      "dry the dishes",
+      "load the dishwasher",
+      "clean up",
+      "tidy up"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Rules & Responsibilities",
+   "titleTr": "Kurallar ve sorumluluklar",
+   "items": [
+    {
+     "en": "obey the rules",
+     "tr": "kurallara uymak",
+     "emoji": "📏"
+    },
+    {
+     "en": "arrive on time",
+     "tr": "zamanında gelmek",
+     "emoji": "⏰"
+    },
+    {
+     "en": "keep quiet",
+     "tr": "sessiz olmak",
+     "emoji": "🤫"
+    },
+    {
+     "en": "keep a promise",
+     "tr": "sözünü tutmak",
+     "emoji": "🤞"
+    },
+    {
+     "en": "break a promise",
+     "tr": "sözünü bozmak",
+     "emoji": "💔"
+    },
+    {
+     "en": "return books",
+     "tr": "kitapları iade etmek",
+     "emoji": "📚"
+    },
+    {
+     "en": "to-do list",
+     "tr": "yapılacaklar listesi",
+     "emoji": "📝"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Rules & Responsibilities",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "arrive on time",
+       "b": "zamanında gelmek"
+      },
+      {
+       "a": "return books",
+       "b": "kitapları iade etmek"
+      },
+      {
+       "a": "keep a promise",
+       "b": "sözünü tutmak"
+      },
+      {
+       "a": "break a promise",
+       "b": "sözünü bozmak"
+      },
+      {
+       "a": "obey the rules",
+       "b": "kurallara uymak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kurallara uymak\"?",
+     "answer": "obey the rules",
+     "options": [
+      "obey the rules",
+      "break a promise",
+      "arrive on time",
+      "to-do list"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Rules & Responsibilities",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"sözünü tutmak\"?",
+     "answer": "keep a promise",
+     "options": [
+      "keep a promise",
+      "return books",
+      "obey the rules",
+      "to-do list"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Ev İşleri — ek kelimeler",
+   "items": [
+    {
+     "en": "be good at",
+     "tr": "bir şeyde iyi olmak"
+    },
+    {
+     "en": "be responsible for",
+     "tr": "-den/-dan sorumlu olmak"
+    },
+    {
+     "en": "kitchen chores",
+     "tr": "mutfak işleri"
+    },
+    {
+     "en": "ignore responsibilities",
+     "tr": "sorumlulukları ihmal etmek"
+    },
+    {
+     "en": "share the chores",
+     "tr": "ev işlerini paylaşmak"
+    },
+    {
+     "en": "admire",
+     "tr": "hayran olmak"
+    },
+    {
+     "en": "be late",
+     "tr": "geç kalmak"
+    },
+    {
+     "en": "feel annoyed",
+     "tr": "sinirlenmek (kızgın"
+    },
+    {
+     "en": "feel worried",
+     "tr": "endişelenmek (endişeli hissetmek)"
+    },
+    {
+     "en": "feel happy",
+     "tr": "sevinmek"
+    },
+    {
+     "en": "feel relaxed",
+     "tr": "rahat hissetmek"
+    },
+    {
+     "en": "feel exhausted",
+     "tr": "yorgun"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "feel relaxed",
+       "b": "rahat hissetmek"
+      },
+      {
+       "a": "feel worried",
+       "b": "endişelenmek (endişeli hissetmek)"
+      },
+      {
+       "a": "be responsible for",
+       "b": "-den/-dan sorumlu olmak"
+      },
+      {
+       "a": "be good at",
+       "b": "bir şeyde iyi olmak"
+      },
+      {
+       "a": "admire",
+       "b": "hayran olmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"sorumlulukları ihmal etmek\"?",
+     "answer": "ignore responsibilities",
+     "options": [
+      "ignore responsibilities",
+      "share the chores",
+      "admire",
+      "be late"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"ev işlerini paylaşmak\"?",
+     "answer": "share the chores",
+     "options": [
+      "share the chores",
+      "be good at",
+      "ignore responsibilities",
+      "feel relaxed"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Ev İşleri — ek kelimeler",
+   "items": [
+    {
+     "en": "feel bored",
+     "tr": "içi sıkılmak"
+    },
+    {
+     "en": "In fact,",
+     "tr": "Aslında"
+    },
+    {
+     "en": "For example,",
+     "tr": "Örneğin"
+    },
+    {
+     "en": "some chores",
+     "tr": "bazı ev işleri"
+    },
+    {
+     "en": "be happy",
+     "tr": "mutlu olmak"
+    },
+    {
+     "en": "How often",
+     "tr": "Ne kadar sıklıkla"
+    },
+    {
+     "en": "can’t stand",
+     "tr": "tahammül edememek"
+    },
+    {
+     "en": "feel so hungry",
+     "tr": "çok acıkmak"
+    },
+    {
+     "en": "before the meal",
+     "tr": "yemekten önce"
+    },
+    {
+     "en": "waiting to eat",
+     "tr": "yemek yemeyi beklemek"
+    },
+    {
+     "en": "pay the bills",
+     "tr": "faturaları ödemek"
+    },
+    {
+     "en": "do the shopping",
+     "tr": "alışveriş yapmak"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "For example,",
+       "b": "Örneğin"
+      },
+      {
+       "a": "some chores",
+       "b": "bazı ev işleri"
+      },
+      {
+       "a": "before the meal",
+       "b": "yemekten önce"
+      },
+      {
+       "a": "be happy",
+       "b": "mutlu olmak"
+      },
+      {
+       "a": "do the shopping",
+       "b": "alışveriş yapmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"Örneğin\"?",
+     "answer": "For example,",
+     "options": [
+      "For example,",
+      "pay the bills",
+      "feel bored",
+      "feel so hungry"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"çok acıkmak\"?",
+     "answer": "feel so hungry",
+     "options": [
+      "feel so hungry",
+      "feel bored",
+      "For example,",
+      "before the meal"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "have to / has to",
+   "titleTr": "Sorumluluklar",
+   "rule": "Yapmak zorunda olduğumuz işler için *have to*, He/She/It için *has to* kullanılır. Zorunlu olmadığında *don't have to*.",
+   "examples": [
+    {
+     "en": "I *have to* tidy my room every weekend.",
+     "tr": "Her hafta sonu odamı toplamak zorundayım."
+    },
+    {
+     "en": "He *has to* walk the dog after school.",
+     "tr": "Okuldan sonra köpeği gezdirmek zorunda."
+    },
+    {
+     "en": "We *don't have to* do the dishes today.",
+     "tr": "Bugün bulaşık yıkamak zorunda değiliz."
+    },
+    {
+     "en": "*Do* you *have to* help your mother?",
+     "tr": "Annene yardım etmek zorunda mısın?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "have to / has to",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ tidy my room every weekend.",
+     "answer": "have to",
+     "options": [
+      "have to",
+      "has to",
+      "don't have to",
+      "Do"
+     ],
+     "tr": "Her hafta sonu odamı toplamak zorundayım."
+    },
+    {
+     "kind": "fill",
+     "text": "He ___ walk the dog after school.",
+     "answer": "has to",
+     "options": [
+      "has to",
+      "have to",
+      "don't have to",
+      "Do"
+     ],
+     "tr": "Okuldan sonra köpeği gezdirmek zorunda."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "have to / has to",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "We ___ do the dishes today.",
+     "answer": "don't have to",
+     "options": [
+      "don't have to",
+      "have to",
+      "has to",
+      "Do"
+     ],
+     "tr": "Bugün bulaşık yıkamak zorunda değiliz."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Do you have to help your mother?",
+     "tr": "Annene yardım etmek zorunda mısın?"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Asking for Help",
+   "titleTr": "Yardım isteme ve teklif etme",
+   "rule": "Kibar rica için *Could you ...?* ve *Would you mind + V-ing?*, yardım teklifi için *Shall I ...?* kullanılır.",
+   "chips": [
+    "Could you ...?",
+    "Would you mind ...?",
+    "Shall I ...?",
+    "Can you give me a hand?"
+   ],
+   "examples": [
+    {
+     "en": "*Could you* help me with the laundry?",
+     "tr": "Çamaşırlarda bana yardım eder misin?"
+    },
+    {
+     "en": "*Would you mind* taking out the rubbish?",
+     "tr": "Çöpü çıkarır mısın?"
+    },
+    {
+     "en": "*Shall I* set the table?",
+     "tr": "Masayı ben mi kurayım?"
+    },
+    {
+     "en": "Can you *give me a hand* in the kitchen?",
+     "tr": "Mutfakta bana el atar mısın?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Asking for Help",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ help me with the laundry?",
+     "answer": "Could you",
+     "options": [
+      "Could you",
+      "Would you mind",
+      "Shall I",
+      "give me a hand"
+     ],
+     "tr": "Çamaşırlarda bana yardım eder misin?"
+    },
+    {
+     "kind": "fill",
+     "text": "___ taking out the rubbish?",
+     "answer": "Would you mind",
+     "options": [
+      "Would you mind",
+      "Could you",
+      "Shall I",
+      "give me a hand"
+     ],
+     "tr": "Çöpü çıkarır mısın?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Asking for Help",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ set the table?",
+     "answer": "Shall I",
+     "options": [
+      "Shall I",
+      "Could you",
+      "Would you mind",
+      "give me a hand"
+     ],
+     "tr": "Masayı ben mi kurayım?"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Shall I set the table?",
+     "tr": "Masayı ben mi kurayım?"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Accepting & Refusing Requests",
+   "titleTr": "Ricayı kabul etme ve reddetme",
+   "columns": [
+    {
+     "title": "ACCEPT ✅",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "*Sure*, no problem.",
+       "tr": "Tabii, sorun değil."
+      },
+      {
+       "en": "*Of course*, I'll do it now.",
+       "tr": "Elbette, şimdi yaparım."
+      },
+      {
+       "en": "*All right*, I'm coming.",
+       "tr": "Peki, geliyorum."
+      }
+     ]
+    },
+    {
+     "title": "REFUSE ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "*Sorry*, I'm busy at the moment.",
+       "tr": "Üzgünüm, şu anda meşgulüm."
+      },
+      {
+       "en": "*I'm afraid* I can't right now.",
+       "tr": "Korkarım şu an yapamam."
+      },
+      {
+       "en": "*Not now*, I have to finish my homework.",
+       "tr": "Şimdi olmaz, ödevimi bitirmem gerek."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Accepting & Refusing Requests",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___, no problem.",
+     "answer": "Sure",
+     "options": [
+      "Sure",
+      "Of course",
+      "All right",
+      "Sorry"
+     ],
+     "tr": "Tabii, sorun değil."
+    },
+    {
+     "kind": "fill",
+     "text": "___, I'll do it now.",
+     "answer": "Of course",
+     "options": [
+      "Of course",
+      "Sure",
+      "All right",
+      "Sorry"
+     ],
+     "tr": "Elbette, şimdi yaparım."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Accepting & Refusing Requests",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___, I'm coming.",
+     "answer": "All right",
+     "options": [
+      "All right",
+      "Sure",
+      "Of course",
+      "Sorry"
+     ],
+     "tr": "Peki, geliyorum."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Not now, I have to finish my homework.",
+     "tr": "Şimdi olmaz, ödevimi bitirmem gerek."
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "ev işi yapmak → ?",
+     "a": "doing chores"
+    },
+    {
+     "q": "yatağı toplamak → ?",
+     "a": "make the bed"
+    },
+    {
+     "q": "sofrayı kurmak → ?",
+     "a": "set the table"
+    },
+    {
+     "q": "bulaşık yıkamak → ?",
+     "a": "wash the dishes"
+    },
+    {
+     "q": "bulaşık kurulamak → ?",
+     "a": "dry the dishes"
+    },
+    {
+     "q": "bulaşık makinesini doldurmak → ?",
+     "a": "load the dishwasher"
+    },
+    {
+     "q": "bulaşık makinesini boşaltmak → ?",
+     "a": "empty the dishwasher"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ],
+ "source": "res/book_8.pdf"
+}

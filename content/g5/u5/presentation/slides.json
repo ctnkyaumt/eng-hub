@@ -1,0 +1,1876 @@
+{
+ "title": "Life in the Neighbourhood & City",
+ "titleTr": "Mahalle ve Şehir Hayatı",
+ "emoji": "🏙️",
+ "accent": [
+  "#22d3ee",
+  "#0ea5e9"
+ ],
+ "pages": [
+  "p01.webp",
+  "p02.webp",
+  "p03.webp",
+  "p04.webp",
+  "p05.webp",
+  "p06.webp"
+ ],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 5",
+   "title": "Life in the Neighbourhood & City",
+   "titleTr": "Mahalle ve Şehir Hayatı — gezilecek yerler, ev ve karşılaştırmalar",
+   "emoji": "🏙️"
+  },
+  {
+   "type": "vocab",
+   "title": "Places for Recreation & Attractions",
+   "titleTr": "Dinlenme ve gezme yerleri",
+   "items": [
+    {
+     "en": "ancient site",
+     "tr": "antik alan",
+     "emoji": "🏛️",
+     "img": "p01-01.png"
+    },
+    {
+     "en": "art gallery",
+     "tr": "sanat galerisi",
+     "emoji": "🖼️",
+     "img": "p01-02.png"
+    },
+    {
+     "en": "castle",
+     "tr": "kale",
+     "emoji": "🏰",
+     "img": "p01-03.png"
+    },
+    {
+     "en": "cinema",
+     "tr": "sinema",
+     "emoji": "🎬",
+     "img": "p01-04.png"
+    },
+    {
+     "en": "coast",
+     "tr": "sahil",
+     "emoji": "🏖️",
+     "img": "p01-05.png"
+    },
+    {
+     "en": "corner",
+     "tr": "köşe",
+     "emoji": "📐",
+     "img": "p01-06.png"
+    },
+    {
+     "en": "forest",
+     "tr": "orman",
+     "emoji": "🌲",
+     "img": "p01-07.png"
+    },
+    {
+     "en": "gym",
+     "tr": "spor salonu",
+     "emoji": "🏋️",
+     "img": "p01-08.png"
+    },
+    {
+     "en": "hall",
+     "tr": "salon",
+     "emoji": "🚪",
+     "img": "p01-09.png"
+    },
+    {
+     "en": "mosque",
+     "tr": "cami",
+     "emoji": "🕌",
+     "img": "p01-10.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Places for Recreation & Attractions",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "coast",
+       "b": "sahil"
+      },
+      {
+       "a": "mosque",
+       "b": "cami"
+      },
+      {
+       "a": "corner",
+       "b": "köşe"
+      },
+      {
+       "a": "art gallery",
+       "b": "sanat galerisi"
+      },
+      {
+       "a": "castle",
+       "b": "kale"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-04.png",
+     "answer": "cinema",
+     "tr": "sinema",
+     "options": [
+      "cinema",
+      "mosque",
+      "hall",
+      "art gallery"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Places for Recreation & Attractions",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-02.png",
+     "answer": "art gallery",
+     "tr": "sanat galerisi",
+     "options": [
+      "art gallery",
+      "forest",
+      "corner",
+      "castle"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"cami\"?",
+     "answer": "mosque",
+     "options": [
+      "mosque",
+      "hall",
+      "cinema",
+      "gym"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Places for Recreation & Attractions",
+   "titleTr": "Dinlenme ve gezme yerleri",
+   "items": [
+    {
+     "en": "museum",
+     "tr": "müze",
+     "emoji": "🏛️",
+     "img": "p01-11.png"
+    },
+    {
+     "en": "playground",
+     "tr": "oyun alanı",
+     "emoji": "🛝",
+     "img": "p01-12.png"
+    },
+    {
+     "en": "shop / store",
+     "tr": "dükkan",
+     "emoji": "🏪",
+     "img": "p01-13.png"
+    },
+    {
+     "en": "skyscraper",
+     "tr": "gökdelen",
+     "emoji": "🏢",
+     "img": "p01-14.png"
+    },
+    {
+     "en": "sports centre",
+     "tr": "spor merkezi",
+     "emoji": "🏟️",
+     "img": "p01-15.png"
+    },
+    {
+     "en": "square",
+     "tr": "meydan",
+     "emoji": "⛲",
+     "img": "p01-16.png"
+    },
+    {
+     "en": "street fair",
+     "tr": "sokak panayırı",
+     "emoji": "🎪",
+     "img": "p01-17.png"
+    },
+    {
+     "en": "tower",
+     "tr": "kule",
+     "emoji": "🗼",
+     "img": "p01-18.png"
+    },
+    {
+     "en": "town",
+     "tr": "kasaba",
+     "emoji": "🏘️",
+     "img": "p01-19.png"
+    },
+    {
+     "en": "zoo",
+     "tr": "hayvanat bahçesi",
+     "emoji": "🦓",
+     "img": "p01-20.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Places for Recreation & Attractions",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "town",
+       "b": "kasaba"
+      },
+      {
+       "a": "tower",
+       "b": "kule"
+      },
+      {
+       "a": "playground",
+       "b": "oyun alanı"
+      },
+      {
+       "a": "zoo",
+       "b": "hayvanat bahçesi"
+      },
+      {
+       "a": "street fair",
+       "b": "sokak panayırı"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-18.png",
+     "answer": "tower",
+     "tr": "kule",
+     "options": [
+      "tower",
+      "playground",
+      "sports centre",
+      "street fair"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Places for Recreation & Attractions",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-14.png",
+     "answer": "skyscraper",
+     "tr": "gökdelen",
+     "options": [
+      "skyscraper",
+      "tower",
+      "square",
+      "playground"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"hayvanat bahçesi\"?",
+     "answer": "zoo",
+     "options": [
+      "zoo",
+      "street fair",
+      "museum",
+      "tower"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Fiiller",
+   "items": [
+    {
+     "en": "cycle",
+     "tr": "bisiklete binmek",
+     "emoji": "🚲"
+    },
+    {
+     "en": "fish",
+     "tr": "balık tutmak",
+     "emoji": "🎣"
+    },
+    {
+     "en": "jump",
+     "tr": "zıplamak",
+     "emoji": "🤸"
+    },
+    {
+     "en": "guide",
+     "tr": "rehberlik etmek",
+     "emoji": "🧭"
+    },
+    {
+     "en": "joke",
+     "tr": "şaka yapmak",
+     "emoji": "😂"
+    },
+    {
+     "en": "experience",
+     "tr": "deneyimlemek",
+     "emoji": "✨"
+    },
+    {
+     "en": "attend",
+     "tr": "katılmak",
+     "emoji": "🙋"
+    },
+    {
+     "en": "take a tour",
+     "tr": "tur atmak",
+     "emoji": "🚌"
+    },
+    {
+     "en": "take a photo",
+     "tr": "fotoğraf çekmek",
+     "emoji": "📷"
+    },
+    {
+     "en": "hire / rent",
+     "tr": "kiralamak",
+     "emoji": "🔑"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Verbs",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "experience",
+       "b": "deneyimlemek"
+      },
+      {
+       "a": "hire / rent",
+       "b": "kiralamak"
+      },
+      {
+       "a": "cycle",
+       "b": "bisiklete binmek"
+      },
+      {
+       "a": "fish",
+       "b": "balık tutmak"
+      },
+      {
+       "a": "attend",
+       "b": "katılmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"tur atmak\"?",
+     "answer": "take a tour",
+     "options": [
+      "take a tour",
+      "experience",
+      "fish",
+      "guide"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Verbs",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"katılmak\"?",
+     "answer": "attend",
+     "options": [
+      "attend",
+      "fish",
+      "guide",
+      "jump"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
+    {
+     "en": "ancient",
+     "tr": "antik, çok eski",
+     "emoji": "🏺"
+    },
+    {
+     "en": "historical",
+     "tr": "tarihi",
+     "emoji": "📜"
+    },
+    {
+     "en": "modern",
+     "tr": "modern",
+     "emoji": "🏙️"
+    },
+    {
+     "en": "famous",
+     "tr": "ünlü",
+     "emoji": "⭐"
+    },
+    {
+     "en": "crowded",
+     "tr": "kalabalık",
+     "emoji": "👥"
+    },
+    {
+     "en": "traditional",
+     "tr": "geleneksel",
+     "emoji": "🎎"
+    },
+    {
+     "en": "peaceful",
+     "tr": "huzurlu",
+     "emoji": "🕊️"
+    },
+    {
+     "en": "local",
+     "tr": "yerel",
+     "emoji": "📍"
+    },
+    {
+     "en": "eco-friendly",
+     "tr": "çevre dostu",
+     "emoji": "♻️"
+    },
+    {
+     "en": "close",
+     "tr": "yakın",
+     "emoji": "📏"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "peaceful",
+       "b": "huzurlu"
+      },
+      {
+       "a": "close",
+       "b": "yakın"
+      },
+      {
+       "a": "historical",
+       "b": "tarihi"
+      },
+      {
+       "a": "ancient",
+       "b": "antik, çok eski"
+      },
+      {
+       "a": "crowded",
+       "b": "kalabalık"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"tarihi\"?",
+     "answer": "historical",
+     "options": [
+      "historical",
+      "eco-friendly",
+      "local",
+      "modern"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"ünlü\"?",
+     "answer": "famous",
+     "options": [
+      "famous",
+      "historical",
+      "local",
+      "eco-friendly"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
+    {
+     "en": "comfortable",
+     "tr": "rahat",
+     "emoji": "😌"
+    },
+    {
+     "en": "social",
+     "tr": "sosyal",
+     "emoji": "🗣️"
+    },
+    {
+     "en": "quiet",
+     "tr": "sessiz",
+     "emoji": "🤫"
+    },
+    {
+     "en": "brand-new",
+     "tr": "yepyeni",
+     "emoji": "🆕"
+    },
+    {
+     "en": "wide",
+     "tr": "geniş",
+     "emoji": "↔️"
+    },
+    {
+     "en": "bright",
+     "tr": "parlak",
+     "emoji": "🔆"
+    },
+    {
+     "en": "heavy",
+     "tr": "ağır",
+     "emoji": "🏋️"
+    },
+    {
+     "en": "light",
+     "tr": "hafif",
+     "emoji": "🪶"
+    },
+    {
+     "en": "bottom",
+     "tr": "alt",
+     "emoji": "⬇️"
+    },
+    {
+     "en": "top",
+     "tr": "üst",
+     "emoji": "⬆️"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "top",
+       "b": "üst"
+      },
+      {
+       "a": "quiet",
+       "b": "sessiz"
+      },
+      {
+       "a": "social",
+       "b": "sosyal"
+      },
+      {
+       "a": "light",
+       "b": "hafif"
+      },
+      {
+       "a": "bottom",
+       "b": "alt"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"hafif\"?",
+     "answer": "light",
+     "options": [
+      "light",
+      "bottom",
+      "bright",
+      "quiet"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"parlak\"?",
+     "answer": "bright",
+     "options": [
+      "bright",
+      "wide",
+      "bottom",
+      "heavy"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
+    {
+     "en": "handmade",
+     "tr": "el yapımı",
+     "emoji": "🤲"
+    },
+    {
+     "en": "wooden",
+     "tr": "ahşap",
+     "emoji": "🪵"
+    },
+    {
+     "en": "metal",
+     "tr": "metal",
+     "emoji": "🔩"
+    },
+    {
+     "en": "plastic",
+     "tr": "plastik",
+     "emoji": "🧴"
+    },
+    {
+     "en": "glass",
+     "tr": "cam",
+     "emoji": "🥛"
+    },
+    {
+     "en": "steel",
+     "tr": "çelik",
+     "emoji": "⚙️"
+    },
+    {
+     "en": "big",
+     "tr": "büyük",
+     "emoji": "🐘"
+    },
+    {
+     "en": "small",
+     "tr": "küçük",
+     "emoji": "🐜"
+    },
+    {
+     "en": "hot",
+     "tr": "sıcak",
+     "emoji": "🔥"
+    },
+    {
+     "en": "cold",
+     "tr": "soğuk",
+     "emoji": "❄️"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "metal",
+       "b": "metal"
+      },
+      {
+       "a": "handmade",
+       "b": "el yapımı"
+      },
+      {
+       "a": "steel",
+       "b": "çelik"
+      },
+      {
+       "a": "small",
+       "b": "küçük"
+      },
+      {
+       "a": "cold",
+       "b": "soğuk"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"ahşap\"?",
+     "answer": "wooden",
+     "options": [
+      "wooden",
+      "steel",
+      "hot",
+      "cold"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"el yapımı\"?",
+     "answer": "handmade",
+     "options": [
+      "handmade",
+      "steel",
+      "cold",
+      "metal"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Parts of a House",
+   "titleTr": "Evin bölümleri",
+   "items": [
+    {
+     "en": "flat / apartment",
+     "tr": "daire",
+     "emoji": "🏢"
+    },
+    {
+     "en": "sitting / living room",
+     "tr": "oturma odası",
+     "emoji": "🛋️"
+    },
+    {
+     "en": "bedroom",
+     "tr": "yatak odası",
+     "emoji": "🛏️"
+    },
+    {
+     "en": "dining room",
+     "tr": "yemek odası",
+     "emoji": "🍽️"
+    },
+    {
+     "en": "kitchen",
+     "tr": "mutfak",
+     "emoji": "🍳"
+    },
+    {
+     "en": "bathroom",
+     "tr": "banyo",
+     "emoji": "🛁"
+    },
+    {
+     "en": "toilet",
+     "tr": "tuvalet",
+     "emoji": "🚽"
+    },
+    {
+     "en": "garden",
+     "tr": "bahçe",
+     "emoji": "🌷"
+    },
+    {
+     "en": "garage",
+     "tr": "garaj",
+     "emoji": "🚗"
+    },
+    {
+     "en": "balcony",
+     "tr": "balkon",
+     "emoji": "🪴"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Parts of a House",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "bathroom",
+       "b": "banyo"
+      },
+      {
+       "a": "dining room",
+       "b": "yemek odası"
+      },
+      {
+       "a": "toilet",
+       "b": "tuvalet"
+      },
+      {
+       "a": "bedroom",
+       "b": "yatak odası"
+      },
+      {
+       "a": "kitchen",
+       "b": "mutfak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"tuvalet\"?",
+     "answer": "toilet",
+     "options": [
+      "toilet",
+      "bedroom",
+      "kitchen",
+      "flat / apartment"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Parts of a House",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"yemek odası\"?",
+     "answer": "dining room",
+     "options": [
+      "dining room",
+      "bathroom",
+      "flat / apartment",
+      "garden"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Parts of a House",
+   "titleTr": "Evin bölümleri",
+   "items": [
+    {
+     "en": "terrace",
+     "tr": "teras",
+     "emoji": "☂️"
+    },
+    {
+     "en": "corridor / hallway",
+     "tr": "koridor",
+     "emoji": "🚶"
+    },
+    {
+     "en": "floor",
+     "tr": "kat / zemin",
+     "emoji": "🔢"
+    },
+    {
+     "en": "ground",
+     "tr": "zemin",
+     "emoji": "🟫"
+    },
+    {
+     "en": "roof",
+     "tr": "çatı",
+     "emoji": "🏠"
+    },
+    {
+     "en": "stairs",
+     "tr": "merdiven",
+     "emoji": "🪜"
+    },
+    {
+     "en": "lift / elevator",
+     "tr": "asansör",
+     "emoji": "🛗"
+    },
+    {
+     "en": "wall",
+     "tr": "duvar",
+     "emoji": "🧱"
+    },
+    {
+     "en": "window",
+     "tr": "pencere",
+     "emoji": "🪟"
+    },
+    {
+     "en": "door",
+     "tr": "kapı",
+     "emoji": "🚪"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Parts of a House",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "terrace",
+       "b": "teras"
+      },
+      {
+       "a": "roof",
+       "b": "çatı"
+      },
+      {
+       "a": "stairs",
+       "b": "merdiven"
+      },
+      {
+       "a": "door",
+       "b": "kapı"
+      },
+      {
+       "a": "lift / elevator",
+       "b": "asansör"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kapı\"?",
+     "answer": "door",
+     "options": [
+      "door",
+      "roof",
+      "floor",
+      "ground"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Parts of a House",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"pencere\"?",
+     "answer": "window",
+     "options": [
+      "window",
+      "wall",
+      "ground",
+      "corridor / hallway"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Furniture & Kitchen Utensils",
+   "titleTr": "Mobilyalar ve mutfak gereçleri",
+   "items": [
+    {
+     "en": "sofa",
+     "tr": "kanepe",
+     "emoji": "🛋️"
+    },
+    {
+     "en": "armchair",
+     "tr": "koltuk",
+     "emoji": "🪑"
+    },
+    {
+     "en": "chair",
+     "tr": "sandalye",
+     "emoji": "🪑"
+    },
+    {
+     "en": "table",
+     "tr": "masa",
+     "emoji": "🪵"
+    },
+    {
+     "en": "bed",
+     "tr": "yatak",
+     "emoji": "🛏️"
+    },
+    {
+     "en": "bookcase",
+     "tr": "kitaplık",
+     "emoji": "📚"
+    },
+    {
+     "en": "wardrobe",
+     "tr": "giysi dolabı",
+     "emoji": "🚪"
+    },
+    {
+     "en": "cupboard",
+     "tr": "mutfak dolabı",
+     "emoji": "🗄️"
+    },
+    {
+     "en": "bath",
+     "tr": "küvet",
+     "emoji": "🛁"
+    },
+    {
+     "en": "dishwasher",
+     "tr": "bulaşık makinesi",
+     "emoji": "🍽️"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Furniture & Kitchen Utensils",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "wardrobe",
+       "b": "giysi dolabı"
+      },
+      {
+       "a": "chair",
+       "b": "sandalye"
+      },
+      {
+       "a": "bath",
+       "b": "küvet"
+      },
+      {
+       "a": "armchair",
+       "b": "koltuk"
+      },
+      {
+       "a": "cupboard",
+       "b": "mutfak dolabı"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"koltuk\"?",
+     "answer": "armchair",
+     "options": [
+      "armchair",
+      "wardrobe",
+      "bath",
+      "bookcase"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Furniture & Kitchen Utensils",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"sandalye\"?",
+     "answer": "chair",
+     "options": [
+      "chair",
+      "bookcase",
+      "table",
+      "wardrobe"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Furniture & Kitchen Utensils",
+   "titleTr": "Mobilyalar ve mutfak gereçleri",
+   "items": [
+    {
+     "en": "fridge",
+     "tr": "buzdolabı",
+     "emoji": "🧊"
+    },
+    {
+     "en": "shelf",
+     "tr": "raf",
+     "emoji": "🪟"
+    },
+    {
+     "en": "rubbish bin",
+     "tr": "çöp kutusu",
+     "emoji": "🗑️"
+    },
+    {
+     "en": "lamp",
+     "tr": "lamba",
+     "emoji": "💡"
+    },
+    {
+     "en": "oven",
+     "tr": "fırın",
+     "emoji": "🔥"
+    },
+    {
+     "en": "stove",
+     "tr": "ocak",
+     "emoji": "🍲"
+    },
+    {
+     "en": "knife",
+     "tr": "bıçak",
+     "emoji": "🔪"
+    },
+    {
+     "en": "spoon",
+     "tr": "kaşık",
+     "emoji": "🥄"
+    },
+    {
+     "en": "fork",
+     "tr": "çatal",
+     "emoji": "🍴"
+    },
+    {
+     "en": "plate",
+     "tr": "tabak",
+     "emoji": "🍽️"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Furniture & Kitchen Utensils",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "oven",
+       "b": "fırın"
+      },
+      {
+       "a": "fork",
+       "b": "çatal"
+      },
+      {
+       "a": "knife",
+       "b": "bıçak"
+      },
+      {
+       "a": "plate",
+       "b": "tabak"
+      },
+      {
+       "a": "fridge",
+       "b": "buzdolabı"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"fırın\"?",
+     "answer": "oven",
+     "options": [
+      "oven",
+      "stove",
+      "knife",
+      "rubbish bin"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Furniture & Kitchen Utensils",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"bıçak\"?",
+     "answer": "knife",
+     "options": [
+      "knife",
+      "rubbish bin",
+      "spoon",
+      "shelf"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "There is / There are",
+   "titleTr": "Evde neler var?",
+   "columns": [
+    {
+     "title": "OLUMLU ✅",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "*There is* a wide sofa in the living room.",
+       "tr": "Oturma odasında geniş bir kanepe var."
+      },
+      {
+       "en": "*There are* two fridges in the kitchen.",
+       "tr": "Mutfakta iki buzdolabı var."
+      },
+      {
+       "en": "*Is there* an elevator in your apartment?",
+       "tr": "Sizin apartmanınızda bir asansör var mı?"
+      }
+     ]
+    },
+    {
+     "title": "OLUMSUZ ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "*There isn't* a terrace in our house.",
+       "tr": "Evimizde bir teras yok."
+      },
+      {
+       "en": "*There aren't* two beds in the bedroom.",
+       "tr": "Yatak odasında iki yatak yok."
+      },
+      {
+       "en": "*Are there* seven chairs in the kitchen?",
+       "tr": "Mutfakta yedi sandalye var mı?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "There is / There are",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ a wide sofa in the living room.",
+     "answer": "There is",
+     "options": [
+      "There is",
+      "There are",
+      "Is there",
+      "There isn't"
+     ],
+     "tr": "Oturma odasında geniş bir kanepe var."
+    },
+    {
+     "kind": "fill",
+     "text": "___ two fridges in the kitchen.",
+     "answer": "There are",
+     "options": [
+      "There are",
+      "There is",
+      "Is there",
+      "There isn't"
+     ],
+     "tr": "Mutfakta iki buzdolabı var."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "There is / There are",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ an elevator in your apartment?",
+     "answer": "Is there",
+     "options": [
+      "Is there",
+      "There is",
+      "There are",
+      "There isn't"
+     ],
+     "tr": "Sizin apartmanınızda bir asansör var mı?"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Are there seven chairs in the kitchen?",
+     "tr": "Mutfakta yedi sandalye var mı?"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Possessive 's",
+   "titleTr": "Sahiplik bildiren 's",
+   "rule": "Özel isimlerin sonuna *'s* eklenir. Çoğul isimlerde sadece *'* konur. Sormak için *Whose?* (Kimin?)",
+   "examples": [
+    {
+     "en": "This is Emre*'s* armchair.",
+     "tr": "Bu Emre'nin koltuğu."
+    },
+    {
+     "en": "This is Damla*'s* bookcase.",
+     "tr": "Bu Damla'nın kitaplığı."
+    },
+    {
+     "en": "The teachers*'* cars are in the garden.",
+     "tr": "Öğretmenlerin arabaları bahçede."
+    },
+    {
+     "en": "This is my parents*'* bedroom.",
+     "tr": "Bu anne-babamın yatak odası."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Possessive 's",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "This is Emre___ armchair.",
+     "answer": "'s",
+     "options": [
+      "'s",
+      "'"
+     ],
+     "tr": "Bu Emre'nin koltuğu."
+    },
+    {
+     "kind": "fill",
+     "text": "This is Damla___ bookcase.",
+     "answer": "'s",
+     "options": [
+      "'s",
+      "'"
+     ],
+     "tr": "Bu Damla'nın kitaplığı."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Possessive 's",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "The teachers___ cars are in the garden.",
+     "answer": "'",
+     "options": [
+      "'",
+      "'s"
+     ],
+     "tr": "Öğretmenlerin arabaları bahçede."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "This is my parents' bedroom.",
+     "tr": "Bu anne-babamın yatak odası."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Whose ...?",
+   "titleTr": "Kimin?",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Dave",
+       "text": "Whose bicycle is it?"
+      },
+      {
+       "who": "Tyler",
+       "text": "It is Sally's bicycle."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Amy",
+       "text": "Whose apartment is it?"
+      },
+      {
+       "who": "Fiona",
+       "text": "It is Jason's apartment."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Ryan",
+       "text": "Whose bed is it?"
+      },
+      {
+       "who": "Zoey",
+       "text": "It is my parents' bed."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Olivia",
+       "text": "Whose bathroom is it?"
+      },
+      {
+       "who": "Derek",
+       "text": "It is my brothers' bathroom."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Ruby",
+       "text": "Whose necklace is it?"
+      },
+      {
+       "who": "Alice",
+       "text": "It is my mother's necklace."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Mark",
+       "text": "Whose books are they?"
+      },
+      {
+       "who": "Fred",
+       "text": "They are Brian's books."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present",
+   "titleTr": "Geniş zaman tekrarı",
+   "rule": "He / She / It → fiile *-s*, *-es* veya *-ies*. Olumsuz ve soruda takı yok: *don't / doesn't*, *Do / Does*.",
+   "examples": [
+    {
+     "en": "I *go* to the playground every day.",
+     "tr": "Her gün oyun alanına giderim.",
+     "img": "p01-12.png"
+    },
+    {
+     "en": "He *fishes* in the lake.",
+     "tr": "O gölde balık tutar."
+    },
+    {
+     "en": "She *goes* to Paris in summer.",
+     "tr": "O yazın Paris'e gider."
+    },
+    {
+     "en": "You *don't* joke.",
+     "tr": "Sen şaka yapmazsın."
+    },
+    {
+     "en": "She *doesn't* go to the cinema.",
+     "tr": "O sinemaya gitmez.",
+     "img": "p01-04.png"
+    },
+    {
+     "en": "*Do* you like street fairs? — Yes, I do.",
+     "tr": "Sokak panayırlarını sever misin? — Evet."
+    },
+    {
+     "en": "*Does* Mert go to the gym? — No, he doesn't.",
+     "tr": "Mert spor salonuna gider mi? — Hayır.",
+     "img": "p01-08.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Present",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ to the playground every day.",
+     "answer": "go",
+     "options": [
+      "go",
+      "fishes",
+      "goes",
+      "don't"
+     ],
+     "tr": "Her gün oyun alanına giderim."
+    },
+    {
+     "kind": "fill",
+     "text": "He ___ in the lake.",
+     "answer": "fishes",
+     "options": [
+      "fishes",
+      "go",
+      "goes",
+      "don't"
+     ],
+     "tr": "O gölde balık tutar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Present",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "She ___ to Paris in summer.",
+     "answer": "goes",
+     "options": [
+      "goes",
+      "go",
+      "fishes",
+      "don't"
+     ],
+     "tr": "O yazın Paris'e gider."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "She doesn't go to the cinema.",
+     "tr": "O sinemaya gitmez."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "rule": "Tek heceli sıfat + *-er*. \"e\" ile bitiyorsa + *-r*. Sessiz-sesli-sessiz ise son harf çiftlenir + *-er*. İki+ heceli sıfatların önüne *more / less*. Karşılaştırırken *than* kullanılır.",
+   "examples": [
+    {
+     "en": "small → small*er*",
+     "tr": "tek heceli"
+    },
+    {
+     "en": "wide → wide*r*",
+     "tr": "e ile biten"
+    },
+    {
+     "en": "big → big*ger*",
+     "tr": "sessiz-sesli-sessiz"
+    },
+    {
+     "en": "heavy → heav*ier*",
+     "tr": "sessiz + y"
+    },
+    {
+     "en": "crowded → *more* crowded",
+     "tr": "iki+ heceli"
+    },
+    {
+     "en": "good → *better*  ·  bad → *worse*  ·  much/many → *more*  ·  little → *less*  ·  far → *farther*",
+     "tr": "düzensiz sıfatlar"
+    },
+    {
+     "en": "The sofa is *more comfortable than* the armchair.",
+     "tr": "Kanepe, koltuktan daha rahat."
+    },
+    {
+     "en": "My flat is *closer than* your flat.",
+     "tr": "Benim dairem, senin dairenden daha yakın."
+    },
+    {
+     "en": "The terrace is *bigger than* the balcony.",
+     "tr": "Teras, balkondan daha büyük."
+    },
+    {
+     "en": "City life is *better than* town life.",
+     "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir.",
+     "img": "p01-19.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Comparative Adjectives",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "small → small___",
+     "answer": "er",
+     "options": [
+      "er",
+      "r",
+      "ger",
+      "ier"
+     ],
+     "tr": "tek heceli"
+    },
+    {
+     "kind": "fill",
+     "text": "wide → wide___",
+     "answer": "r",
+     "options": [
+      "r",
+      "er",
+      "ger",
+      "ier"
+     ],
+     "tr": "e ile biten"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Comparative Adjectives",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "big → big___",
+     "answer": "ger",
+     "options": [
+      "ger",
+      "er",
+      "r",
+      "ier"
+     ],
+     "tr": "sessiz-sesli-sessiz"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "City life is better than town life.",
+     "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir."
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "gökdelen → ?",
+     "a": "skyscraper"
+    },
+    {
+     "q": "big → karşılaştırma hâli?",
+     "a": "bigger"
+    },
+    {
+     "q": "comfortable → karşılaştırma hâli?",
+     "a": "more comfortable"
+    },
+    {
+     "q": "good → ?",
+     "a": "better"
+    },
+    {
+     "q": "Bu Emre'nin koltuğu. → ?",
+     "a": "This is Emre's armchair."
+    },
+    {
+     "q": "Mutfakta iki buzdolabı var. → ?",
+     "a": "There are two fridges in the kitchen."
+    },
+    {
+     "q": "She goes to the art gallery, ___ ?",
+     "a": "doesn't she?"
+    }
+   ]
+  },
+  {
+   "type": "pages",
+   "title": "Kaynak Sayfalar",
+   "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
+  },
+  {
+   "type": "end",
+   "emoji": "🌆",
+   "title": "Excellent!",
+   "titleTr": "Şehir kelimelerini oyunlarla pekiştirelim."
+  }
+ ]
+}

@@ -1,0 +1,842 @@
+{
+ "title": "The Internet",
+ "titleTr": "İnternet",
+ "emoji": "🌐",
+ "accent": [
+  "#60a5fa",
+  "#4f46e5"
+ ],
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "UNIT 5",
+   "title": "The Internet",
+   "titleTr": "İnternet",
+   "emoji": "🌐"
+  },
+  {
+   "type": "vocab",
+   "title": "Internet Basics",
+   "titleTr": "İnternetin temelleri",
+   "items": [
+    {
+     "en": "account",
+     "tr": "hesap",
+     "emoji": "👤",
+     "img": "/app/img/words/account.jpg"
+    },
+    {
+     "en": "browser",
+     "tr": "tarayıcı",
+     "emoji": "🌐"
+    },
+    {
+     "en": "browse",
+     "tr": "gezinmek",
+     "emoji": "🧭"
+    },
+    {
+     "en": "connection",
+     "tr": "bağlantı",
+     "emoji": "📶"
+    },
+    {
+     "en": "screen",
+     "tr": "ekran",
+     "emoji": "🖥️",
+     "img": "/app/img/words/screen.jpg"
+    },
+    {
+     "en": "search engine",
+     "tr": "arama motoru",
+     "emoji": "🔎"
+    },
+    {
+     "en": "social networking site",
+     "tr": "sosyal ağ sitesi",
+     "emoji": "👥"
+    },
+    {
+     "en": "attachment",
+     "tr": "ek dosya",
+     "emoji": "📎",
+     "img": "/app/img/words/attachment.jpg"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Internet Basics",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "screen",
+       "b": "ekran"
+      },
+      {
+       "a": "browse",
+       "b": "gezinmek"
+      },
+      {
+       "a": "social networking site",
+       "b": "sosyal ağ sitesi"
+      },
+      {
+       "a": "browser",
+       "b": "tarayıcı"
+      },
+      {
+       "a": "search engine",
+       "b": "arama motoru"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"bağlantı\"?",
+     "answer": "connection",
+     "options": [
+      "connection",
+      "account",
+      "social networking site",
+      "search engine"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Internet Basics",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"sosyal ağ sitesi\"?",
+     "answer": "social networking site",
+     "options": [
+      "social networking site",
+      "connection",
+      "browser",
+      "browse"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Online Actions",
+   "titleTr": "İnternette yaptıklarımız",
+   "items": [
+    {
+     "en": "download",
+     "tr": "indirmek",
+     "emoji": "⬇️"
+    },
+    {
+     "en": "upload",
+     "tr": "yüklemek",
+     "emoji": "⬆️",
+     "img": "/app/img/words/upload.jpg"
+    },
+    {
+     "en": "delete",
+     "tr": "silmek",
+     "emoji": "🗑️"
+    },
+    {
+     "en": "reply",
+     "tr": "yanıtlamak",
+     "emoji": "↩️"
+    },
+    {
+     "en": "comment",
+     "tr": "yorum yapmak",
+     "emoji": "💬"
+    },
+    {
+     "en": "confirm",
+     "tr": "onaylamak",
+     "emoji": "✔️"
+    },
+    {
+     "en": "register",
+     "tr": "kayıt olmak",
+     "emoji": "📝"
+    },
+    {
+     "en": "sign up",
+     "tr": "üye olmak",
+     "emoji": "✍️"
+    },
+    {
+     "en": "sign in",
+     "tr": "giriş yapmak",
+     "emoji": "🔑"
+    },
+    {
+     "en": "log on",
+     "tr": "oturum açmak",
+     "emoji": "🔓"
+    },
+    {
+     "en": "log off",
+     "tr": "oturumu kapatmak",
+     "emoji": "🚪"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Online Actions",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "comment",
+       "b": "yorum yapmak"
+      },
+      {
+       "a": "reply",
+       "b": "yanıtlamak"
+      },
+      {
+       "a": "log on",
+       "b": "oturum açmak"
+      },
+      {
+       "a": "sign in",
+       "b": "giriş yapmak"
+      },
+      {
+       "a": "sign up",
+       "b": "üye olmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"oturumu kapatmak\"?",
+     "answer": "log off",
+     "options": [
+      "log off",
+      "log on",
+      "sign up",
+      "comment"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Online Actions",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"üye olmak\"?",
+     "answer": "sign up",
+     "options": [
+      "sign up",
+      "log on",
+      "sign in",
+      "upload"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "İnternet — ek kelimeler",
+   "items": [
+    {
+     "en": "friend request",
+     "tr": "arkadaşlık isteği"
+    },
+    {
+     "en": "habit",
+     "tr": "alışkanlık"
+    },
+    {
+     "en": "ignore",
+     "tr": "reddetmek"
+    },
+    {
+     "en": "important",
+     "tr": "önemli"
+    },
+    {
+     "en": "improve",
+     "tr": "geliştirmek"
+    },
+    {
+     "en": "information",
+     "tr": "bilgi"
+    },
+    {
+     "en": "instant",
+     "tr": "anlık"
+    },
+    {
+     "en": "isolated",
+     "tr": "soyutlanmış"
+    },
+    {
+     "en": "create",
+     "tr": "oluşturmak"
+    },
+    {
+     "en": "dangerous",
+     "tr": "tehlikeli"
+    },
+    {
+     "en": "develop",
+     "tr": "geliştirmek"
+    },
+    {
+     "en": "device",
+     "tr": "alet, cihaz"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "important",
+       "b": "önemli"
+      },
+      {
+       "a": "ignore",
+       "b": "reddetmek"
+      },
+      {
+       "a": "isolated",
+       "b": "soyutlanmış"
+      },
+      {
+       "a": "device",
+       "b": "alet, cihaz"
+      },
+      {
+       "a": "habit",
+       "b": "alışkanlık"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"oluşturmak\"?",
+     "answer": "create",
+     "options": [
+      "create",
+      "instant",
+      "improve",
+      "important"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"geliştirmek\"?",
+     "answer": "improve",
+     "options": [
+      "improve",
+      "develop",
+      "habit",
+      "isolated"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "İnternet — ek kelimeler",
+   "items": [
+    {
+     "en": "file",
+     "tr": "dosya"
+    },
+    {
+     "en": "find",
+     "tr": "bulmak"
+    },
+    {
+     "en": "follow",
+     "tr": "takip etmek"
+    },
+    {
+     "en": "free time",
+     "tr": "boş zaman"
+    },
+    {
+     "en": "blog",
+     "tr": "internet günlüğü"
+    },
+    {
+     "en": "break",
+     "tr": "bozmak"
+    },
+    {
+     "en": "broken",
+     "tr": "arızalı, bozuk, kesik"
+    },
+    {
+     "en": "check",
+     "tr": "kontrol etmek"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "file",
+       "b": "dosya"
+      },
+      {
+       "a": "check",
+       "b": "kontrol etmek"
+      },
+      {
+       "a": "follow",
+       "b": "takip etmek"
+      },
+      {
+       "a": "broken",
+       "b": "arızalı, bozuk, kesik"
+      },
+      {
+       "a": "break",
+       "b": "bozmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"bozmak\"?",
+     "answer": "break",
+     "options": [
+      "break",
+      "file",
+      "find",
+      "broken"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"internet günlüğü\"?",
+     "answer": "blog",
+     "options": [
+      "blog",
+      "check",
+      "free time",
+      "break"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Asking for Help",
+   "titleTr": "Yardım isteme",
+   "rule": "İnternette veya bilgisayarda yardım isterken *Can you ...?*, *Could you ...?*, *Shall I ...?* kullanılır.",
+   "chips": [
+    "Can you ...?",
+    "Could you ...?",
+    "Shall I ...?",
+    "Would you mind ...?"
+   ],
+   "examples": [
+    {
+     "en": "*Can you* help me download this file?",
+     "tr": "Bu dosyayı indirmeme yardım eder misin?"
+    },
+    {
+     "en": "*Could you* show me how to log in?",
+     "tr": "Nasıl giriş yapacağımı gösterir misin?"
+    },
+    {
+     "en": "*Shall I* send you the link?",
+     "tr": "Sana bağlantıyı göndereyim mi?"
+    },
+    {
+     "en": "*Would you mind* checking my e-mail?",
+     "tr": "E-postama bakar mısın?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Asking for Help",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ help me download this file?",
+     "answer": "Can you",
+     "options": [
+      "Can you",
+      "Could you",
+      "Shall I",
+      "Would you mind"
+     ],
+     "tr": "Bu dosyayı indirmeme yardım eder misin?"
+    },
+    {
+     "kind": "fill",
+     "text": "___ show me how to log in?",
+     "answer": "Could you",
+     "options": [
+      "Could you",
+      "Can you",
+      "Shall I",
+      "Would you mind"
+     ],
+     "tr": "Nasıl giriş yapacağımı gösterir misin?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Asking for Help",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ send you the link?",
+     "answer": "Shall I",
+     "options": [
+      "Shall I",
+      "Can you",
+      "Could you",
+      "Would you mind"
+     ],
+     "tr": "Sana bağlantıyı göndereyim mi?"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Would you mind checking my e-mail?",
+     "tr": "E-postama bakar mısın?"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Instructions",
+   "titleTr": "Yönerge verme",
+   "rule": "Bilgisayar yönergelerinde emir cümleleri kullanılır: *click, type, open, save, download*.",
+   "chips": [
+    "click on",
+    "type",
+    "open",
+    "save",
+    "download",
+    "log in"
+   ],
+   "examples": [
+    {
+     "en": "*Click on* the download button.",
+     "tr": "İndir düğmesine tıkla."
+    },
+    {
+     "en": "*Type* your username and password.",
+     "tr": "Kullanıcı adını ve şifreni yaz."
+    },
+    {
+     "en": "*Save* the file to your desktop.",
+     "tr": "Dosyayı masaüstüne kaydet."
+    },
+    {
+     "en": "*Don't* share your password with anyone.",
+     "tr": "Şifreni kimseyle paylaşma."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Giving Instructions",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ the download button.",
+     "answer": "Click on",
+     "options": [
+      "Click on",
+      "Type",
+      "Save",
+      "Don't"
+     ],
+     "tr": "İndir düğmesine tıkla."
+    },
+    {
+     "kind": "fill",
+     "text": "___ your username and password.",
+     "answer": "Type",
+     "options": [
+      "Type",
+      "Click on",
+      "Save",
+      "Don't"
+     ],
+     "tr": "Kullanıcı adını ve şifreni yaz."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Giving Instructions",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ the file to your desktop.",
+     "answer": "Save",
+     "options": [
+      "Save",
+      "Click on",
+      "Type",
+      "Don't"
+     ],
+     "tr": "Dosyayı masaüstüne kaydet."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Don't share your password with anyone.",
+     "tr": "Şifreni kimseyle paylaşma."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Internet Safety",
+   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+   "columns": [
+    {
+     "title": "DO ✅",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "You *should* use a strong password.",
+       "tr": "Güçlü bir şifre kullanmalısın."
+      },
+      {
+       "en": "You *should* log out on public computers.",
+       "tr": "Ortak bilgisayarlarda çıkış yapmalısın."
+      },
+      {
+       "en": "You *should* tell an adult about strange messages.",
+       "tr": "Garip mesajları bir yetişkine söylemelisin."
+      }
+     ]
+    },
+    {
+     "title": "DON'T ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "You *shouldn't* accept friend requests from strangers.",
+       "tr": "Yabancılardan arkadaşlık isteği kabul etmemelisin."
+      },
+      {
+       "en": "You *shouldn't* share personal information.",
+       "tr": "Kişisel bilgilerini paylaşmamalısın."
+      },
+      {
+       "en": "You *mustn't* click on suspicious links.",
+       "tr": "Şüpheli bağlantılara tıklamamalısın."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Internet Safety",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ use a strong password.",
+     "answer": "should",
+     "options": [
+      "should",
+      "shouldn't",
+      "mustn't"
+     ],
+     "tr": "Güçlü bir şifre kullanmalısın."
+    },
+    {
+     "kind": "fill",
+     "text": "You ___ log out on public computers.",
+     "answer": "should",
+     "options": [
+      "should",
+      "shouldn't",
+      "mustn't"
+     ],
+     "tr": "Ortak bilgisayarlarda çıkış yapmalısın."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Internet Safety",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ tell an adult about strange messages.",
+     "answer": "should",
+     "options": [
+      "should",
+      "shouldn't",
+      "mustn't"
+     ],
+     "tr": "Garip mesajları bir yetişkine söylemelisin."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "You mustn't click on suspicious links.",
+     "tr": "Şüpheli bağlantılara tıklamamalısın."
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "hesap → ?",
+     "a": "account"
+    },
+    {
+     "q": "tarayıcı → ?",
+     "a": "browser"
+    },
+    {
+     "q": "gezinmek → ?",
+     "a": "browse"
+    },
+    {
+     "q": "bağlantı → ?",
+     "a": "connection"
+    },
+    {
+     "q": "ekran → ?",
+     "a": "screen"
+    },
+    {
+     "q": "arama motoru → ?",
+     "a": "search engine"
+    },
+    {
+     "q": "sosyal ağ sitesi → ?",
+     "a": "social networking site"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ],
+ "source": "res/book_8.pdf"
+}

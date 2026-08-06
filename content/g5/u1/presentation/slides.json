@@ -1,0 +1,1715 @@
+{
+ "title": "School Life",
+ "titleTr": "Okul Hayatı",
+ "emoji": "🏫",
+ "accent": [
+  "#38bdf8",
+  "#6366f1"
+ ],
+ "pages": [
+  "p01.webp",
+  "p02.webp",
+  "p03.webp",
+  "p04.webp",
+  "p05.webp",
+  "p06.webp"
+ ],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 1",
+   "title": "School Life",
+   "titleTr": "Okul Hayatı — kişiler, yerler, kulüpler ve kurallar",
+   "emoji": "🏫"
+  },
+  {
+   "type": "vocab",
+   "title": "People at School",
+   "titleTr": "Okuldaki kişiler",
+   "items": [
+    {
+     "en": "headmaster",
+     "tr": "okul müdürü",
+     "emoji": "👨‍💼",
+     "img": "p01-01.png"
+    },
+    {
+     "en": "assistant",
+     "tr": "müdür yardımcısı",
+     "emoji": "👩‍💼",
+     "img": "p01-02.png"
+    },
+    {
+     "en": "teacher",
+     "tr": "öğretmen",
+     "emoji": "👨‍🏫",
+     "img": "p01-03.png"
+    },
+    {
+     "en": "student",
+     "tr": "öğrenci",
+     "emoji": "🎒",
+     "img": "p01-04.png"
+    },
+    {
+     "en": "secretary",
+     "tr": "sekreter",
+     "emoji": "👩‍💻",
+     "img": "p01-05.png"
+    },
+    {
+     "en": "coach",
+     "tr": "antrenör",
+     "emoji": "🏃",
+     "img": "p01-06.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "People at School",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "coach",
+       "b": "antrenör"
+      },
+      {
+       "a": "assistant",
+       "b": "müdür yardımcısı"
+      },
+      {
+       "a": "teacher",
+       "b": "öğretmen"
+      },
+      {
+       "a": "headmaster",
+       "b": "okul müdürü"
+      },
+      {
+       "a": "student",
+       "b": "öğrenci"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-05.png",
+     "answer": "secretary",
+     "tr": "sekreter",
+     "options": [
+      "secretary",
+      "student",
+      "assistant",
+      "teacher"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "People at School",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-03.png",
+     "answer": "teacher",
+     "tr": "öğretmen",
+     "options": [
+      "teacher",
+      "headmaster",
+      "coach",
+      "secretary"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"müdür yardımcısı\"?",
+     "answer": "assistant",
+     "options": [
+      "assistant",
+      "secretary",
+      "headmaster",
+      "student"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Places at School",
+   "titleTr": "Okuldaki yerler",
+   "items": [
+    {
+     "en": "classroom",
+     "tr": "sınıf",
+     "emoji": "🪑",
+     "img": "p01-07.png"
+    },
+    {
+     "en": "science lab",
+     "tr": "fen laboratuvarı",
+     "emoji": "🔬",
+     "img": "p01-08.png"
+    },
+    {
+     "en": "sports field",
+     "tr": "spor sahası",
+     "emoji": "⚽",
+     "img": "p01-09.png"
+    },
+    {
+     "en": "conference hall",
+     "tr": "konferans salonu",
+     "emoji": "🎭",
+     "img": "p01-10.png"
+    },
+    {
+     "en": "canteen",
+     "tr": "kantin",
+     "emoji": "🥪",
+     "img": "p01-11.png"
+    },
+    {
+     "en": "library",
+     "tr": "kütüphane",
+     "emoji": "📚",
+     "img": "p01-12.png"
+    },
+    {
+     "en": "administration department",
+     "tr": "idari bölüm",
+     "emoji": "🏢",
+     "img": "p01-13.png"
+    },
+    {
+     "en": "gate",
+     "tr": "kapı",
+     "emoji": "🚪",
+     "img": "p01-14.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Places at School",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "science lab",
+       "b": "fen laboratuvarı"
+      },
+      {
+       "a": "canteen",
+       "b": "kantin"
+      },
+      {
+       "a": "classroom",
+       "b": "sınıf"
+      },
+      {
+       "a": "conference hall",
+       "b": "konferans salonu"
+      },
+      {
+       "a": "sports field",
+       "b": "spor sahası"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-10.png",
+     "answer": "conference hall",
+     "tr": "konferans salonu",
+     "options": [
+      "conference hall",
+      "administration department",
+      "canteen",
+      "sports field"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Places at School",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-07.png",
+     "answer": "classroom",
+     "tr": "sınıf",
+     "options": [
+      "classroom",
+      "gate",
+      "canteen",
+      "conference hall"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"fen laboratuvarı\"?",
+     "answer": "science lab",
+     "options": [
+      "science lab",
+      "library",
+      "canteen",
+      "gate"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "rule": "*a/an* “bir” demektir ve ilk kez bahsedilen, belirsiz kelimelerin önünde kullanılır. *the* ise daha önce bahsedilmiş, belirli olan veya tek olan (güneş, dünya vb.) kelimelerin önünde kullanılır.",
+   "chips": [
+    "a",
+    "an",
+    "the"
+   ],
+   "examples": [
+    {
+     "en": "*a* teacher",
+     "tr": "sessiz harfle başlıyor → a",
+     "img": "p01-03.png"
+    },
+    {
+     "en": "*a* gate",
+     "tr": "sessiz harfle başlıyor → a",
+     "img": "p01-14.png"
+    },
+    {
+     "en": "*a* library",
+     "tr": "sessiz harfle başlıyor → a",
+     "img": "p01-12.png"
+    },
+    {
+     "en": "*an* orange",
+     "tr": "sesli harfle (a, e, i, o, u) başlıyor → an"
+    },
+    {
+     "en": "*an* apple",
+     "tr": "sesli harfle başlıyor → an"
+    },
+    {
+     "en": "*an* umbrella",
+     "tr": "sesli harfle başlıyor → an"
+    },
+    {
+     "en": "*the* student",
+     "tr": "belirli bir öğrenci",
+     "img": "p01-04.png"
+    },
+    {
+     "en": "*the* Sun",
+     "tr": "tek olan şey"
+    },
+    {
+     "en": "*the* cinema",
+     "tr": "bilinen, belirli yer"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "A / AN / THE",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ teacher",
+     "answer": "a",
+     "options": [
+      "a",
+      "an",
+      "the"
+     ],
+     "tr": "sessiz harfle başlıyor → a"
+    },
+    {
+     "kind": "fill",
+     "text": "___ gate",
+     "answer": "a",
+     "options": [
+      "a",
+      "an",
+      "the"
+     ],
+     "tr": "sessiz harfle başlıyor → a"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "A / AN / THE",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ library",
+     "answer": "a",
+     "options": [
+      "a",
+      "an",
+      "the"
+     ],
+     "tr": "sessiz harfle başlıyor → a"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School Clubs",
+   "titleTr": "Okul kulüpleri",
+   "items": [
+    {
+     "en": "Drama Club",
+     "tr": "Tiyatro Kulübü",
+     "emoji": "🎭"
+    },
+    {
+     "en": "Technology Club",
+     "tr": "Teknoloji Kulübü",
+     "emoji": "🤖"
+    },
+    {
+     "en": "Maths Club",
+     "tr": "Matematik Kulübü",
+     "emoji": "➗"
+    },
+    {
+     "en": "Art Club",
+     "tr": "Resim Kulübü",
+     "emoji": "🎨"
+    },
+    {
+     "en": "Music Club",
+     "tr": "Müzik Kulübü",
+     "emoji": "🎸"
+    },
+    {
+     "en": "Environment Club",
+     "tr": "Çevre Kulübü",
+     "emoji": "🌱"
+    },
+    {
+     "en": "Folk Dance Club",
+     "tr": "Halk Dansları Kulübü",
+     "emoji": "💃"
+    },
+    {
+     "en": "Science Club",
+     "tr": "Bilim Kulübü",
+     "emoji": "🧪"
+    },
+    {
+     "en": "Film Club",
+     "tr": "Film Kulübü",
+     "emoji": "🍿"
+    },
+    {
+     "en": "Chess Club",
+     "tr": "Satranç Kulübü",
+     "emoji": "♟️"
+    },
+    {
+     "en": "Sports Club",
+     "tr": "Spor Kulübü",
+     "emoji": "🏀"
+    },
+    {
+     "en": "Ballet Club",
+     "tr": "Bale Kulübü",
+     "emoji": "🩰"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "School Clubs",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "Technology Club",
+       "b": "Teknoloji Kulübü"
+      },
+      {
+       "a": "Folk Dance Club",
+       "b": "Halk Dansları Kulübü"
+      },
+      {
+       "a": "Maths Club",
+       "b": "Matematik Kulübü"
+      },
+      {
+       "a": "Art Club",
+       "b": "Resim Kulübü"
+      },
+      {
+       "a": "Science Club",
+       "b": "Bilim Kulübü"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"Müzik Kulübü\"?",
+     "answer": "Music Club",
+     "options": [
+      "Music Club",
+      "Science Club",
+      "Sports Club",
+      "Folk Dance Club"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "School Clubs",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"Spor Kulübü\"?",
+     "answer": "Sports Club",
+     "options": [
+      "Sports Club",
+      "Technology Club",
+      "Music Club",
+      "Science Club"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Expressing Likes",
+   "titleTr": "Sevdiğimiz şeyleri ifade etme",
+   "items": [
+    {
+     "en": "act in plays",
+     "tr": "tiyatro oyunu oynamak",
+     "emoji": "🎭"
+    },
+    {
+     "en": "solve problems",
+     "tr": "problem çözmek",
+     "emoji": "🧩"
+    },
+    {
+     "en": "draw pictures",
+     "tr": "resim çizmek",
+     "emoji": "🖍️"
+    },
+    {
+     "en": "play the guitar",
+     "tr": "gitar çalmak",
+     "emoji": "🎸"
+    },
+    {
+     "en": "sing songs",
+     "tr": "şarkı söylemek",
+     "emoji": "🎤"
+    },
+    {
+     "en": "dance",
+     "tr": "dans etmek",
+     "emoji": "💃"
+    },
+    {
+     "en": "read books",
+     "tr": "kitap okumak",
+     "emoji": "📖"
+    },
+    {
+     "en": "do experiments",
+     "tr": "deney yapmak",
+     "emoji": "⚗️"
+    },
+    {
+     "en": "watch movies",
+     "tr": "film izlemek",
+     "emoji": "🎬"
+    },
+    {
+     "en": "play chess",
+     "tr": "satranç oynamak",
+     "emoji": "♟️"
+    },
+    {
+     "en": "play football",
+     "tr": "futbol oynamak",
+     "emoji": "⚽"
+    },
+    {
+     "en": "play basketball",
+     "tr": "basketbol oynamak",
+     "emoji": "🏀"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Expressing Likes",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "sing songs",
+       "b": "şarkı söylemek"
+      },
+      {
+       "a": "play the guitar",
+       "b": "gitar çalmak"
+      },
+      {
+       "a": "read books",
+       "b": "kitap okumak"
+      },
+      {
+       "a": "watch movies",
+       "b": "film izlemek"
+      },
+      {
+       "a": "play football",
+       "b": "futbol oynamak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"futbol oynamak\"?",
+     "answer": "play football",
+     "options": [
+      "play football",
+      "solve problems",
+      "dance",
+      "play chess"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Expressing Likes",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"şarkı söylemek\"?",
+     "answer": "sing songs",
+     "options": [
+      "sing songs",
+      "act in plays",
+      "watch movies",
+      "play the guitar"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Do you like ...?",
+   "titleTr": "İkinci fiile -ing eklemeyi unutma!",
+   "rule": "Sevip sevmediğimizi sorarken *Do you like ...?* kullanırız. Cümlede ikinci bir fiil varsa o fiile *-ing* takısı eklenir. Cevap verirken *I like ...* deriz.",
+   "examples": [
+    {
+     "en": "Do you like *playing* the guitar?",
+     "tr": "Gitar çalmayı sever misin?"
+    },
+    {
+     "en": "Do you like *reading* books?",
+     "tr": "Kitap okumayı sever misin?"
+    },
+    {
+     "en": "I like *playing* basketball.",
+     "tr": "Basketbol oynamayı severim."
+    },
+    {
+     "en": "I like *drawing* pictures.",
+     "tr": "Resim çizmeyi severim."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Do you like ...?",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "Do you like ___ the guitar?",
+     "answer": "playing",
+     "options": [
+      "playing",
+      "reading",
+      "drawing"
+     ],
+     "tr": "Gitar çalmayı sever misin?"
+    },
+    {
+     "kind": "fill",
+     "text": "Do you like ___ books?",
+     "answer": "reading",
+     "options": [
+      "reading",
+      "playing",
+      "drawing"
+     ],
+     "tr": "Kitap okumayı sever misin?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Do you like ...?",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I like ___ basketball.",
+     "answer": "playing",
+     "options": [
+      "playing",
+      "reading",
+      "drawing"
+     ],
+     "tr": "Basketbol oynamayı severim."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "I like drawing pictures.",
+     "tr": "Resim çizmeyi severim."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School Rules — Verbs",
+   "titleTr": "Kurallarda kullanılan fiiller",
+   "items": [
+    {
+     "en": "sit",
+     "tr": "oturmak",
+     "emoji": "🪑"
+    },
+    {
+     "en": "clean",
+     "tr": "temizlemek",
+     "emoji": "🧽"
+    },
+    {
+     "en": "do",
+     "tr": "yapmak",
+     "emoji": "✅"
+    },
+    {
+     "en": "run",
+     "tr": "koşmak",
+     "emoji": "🏃"
+    },
+    {
+     "en": "listen",
+     "tr": "dinlemek",
+     "emoji": "👂"
+    },
+    {
+     "en": "fight",
+     "tr": "kavga etmek",
+     "emoji": "🥊"
+    },
+    {
+     "en": "shout",
+     "tr": "bağırmak",
+     "emoji": "📢"
+    },
+    {
+     "en": "eat",
+     "tr": "yemek",
+     "emoji": "🍽️"
+    },
+    {
+     "en": "drink",
+     "tr": "içmek",
+     "emoji": "🥤"
+    },
+    {
+     "en": "wear",
+     "tr": "giymek",
+     "emoji": "👕"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "School Rules — Verbs",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "do",
+       "b": "yapmak"
+      },
+      {
+       "a": "listen",
+       "b": "dinlemek"
+      },
+      {
+       "a": "drink",
+       "b": "içmek"
+      },
+      {
+       "a": "run",
+       "b": "koşmak"
+      },
+      {
+       "a": "eat",
+       "b": "yemek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"dinlemek\"?",
+     "answer": "listen",
+     "options": [
+      "listen",
+      "do",
+      "drink",
+      "fight"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "School Rules — Verbs",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"içmek\"?",
+     "answer": "drink",
+     "options": [
+      "drink",
+      "eat",
+      "do",
+      "fight"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Imperatives",
+   "titleTr": "Emir cümleleri",
+   "rule": "Olumlu emir cümleleri fiilin yalın hâli ile başlar. Olumsuz emir cümleleri *don't* ile başlar.",
+   "columns": [
+    {
+     "title": "POSITIVE ✅",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "Sit down!",
+       "tr": "Otur."
+      },
+      {
+       "en": "Listen to the teacher.",
+       "tr": "Öğretmeni dinle.",
+       "img": "p01-03.png"
+      }
+     ]
+    },
+    {
+     "title": "NEGATIVE ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "*Don't* run in the classroom.",
+       "tr": "Sınıfta koşma.",
+       "img": "p01-07.png"
+      },
+      {
+       "en": "*Don't* shout in the library.",
+       "tr": "Kütüphanede bağırma.",
+       "img": "p01-12.png"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Imperatives",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ run in the classroom.",
+     "answer": "Don't",
+     "options": [
+      "Don't"
+     ],
+     "tr": "Sınıfta koşma."
+    },
+    {
+     "kind": "fill",
+     "text": "___ shout in the library.",
+     "answer": "Don't",
+     "options": [
+      "Don't"
+     ],
+     "tr": "Kütüphanede bağırma."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Imperatives",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Don't shout in the library.",
+     "tr": "Kütüphanede bağırma."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Obligations — must / mustn't",
+   "titleTr": "Zorunluluklar ve yasaklar",
+   "rule": "*must* = -meli / -malı (zorunluluk).  *mustn't* = yapılmaması gereken, yasak olan şeyler.",
+   "columns": [
+    {
+     "title": "must ✅",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "You *must* wear the school uniform.",
+       "tr": "Okul üniformasını giymelisin."
+      },
+      {
+       "en": "We *must* do our homework.",
+       "tr": "Ödevimizi yapmalıyız."
+      }
+     ]
+    },
+    {
+     "title": "mustn't ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "You *mustn't* fight with your friends.",
+       "tr": "Arkadaşlarınla kavga etmemelisin."
+      },
+      {
+       "en": "We *mustn't* eat in the lab.",
+       "tr": "Laboratuvarda yemek yememeliyiz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Obligations — must / mustn't",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ wear the school uniform.",
+     "answer": "must",
+     "options": [
+      "must",
+      "mustn't"
+     ],
+     "tr": "Okul üniformasını giymelisin."
+    },
+    {
+     "kind": "fill",
+     "text": "We ___ do our homework.",
+     "answer": "must",
+     "options": [
+      "must",
+      "mustn't"
+     ],
+     "tr": "Ödevimizi yapmalıyız."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Obligations — must / mustn't",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ fight with your friends.",
+     "answer": "mustn't",
+     "options": [
+      "mustn't",
+      "must"
+     ],
+     "tr": "Arkadaşlarınla kavga etmemelisin."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "We mustn't eat in the lab.",
+     "tr": "Laboratuvarda yemek yememeliyiz."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "titleTr": "Ülkeler",
+   "items": [
+    {
+     "en": "Türkiye",
+     "tr": "Türkiye",
+     "img": "/app/img/flags/tr.svg"
+    },
+    {
+     "en": "Germany",
+     "tr": "Almanya",
+     "img": "/app/img/flags/de.svg"
+    },
+    {
+     "en": "France",
+     "tr": "Fransa",
+     "img": "/app/img/flags/fr.svg"
+    },
+    {
+     "en": "Italy",
+     "tr": "İtalya",
+     "img": "/app/img/flags/it.svg"
+    },
+    {
+     "en": "Spain",
+     "tr": "İspanya",
+     "img": "/app/img/flags/es.svg"
+    },
+    {
+     "en": "Russia",
+     "tr": "Rusya",
+     "img": "/app/img/flags/ru.svg"
+    },
+    {
+     "en": "the USA",
+     "tr": "Amerika Birleşik Devletleri",
+     "img": "/app/img/flags/us.svg"
+    },
+    {
+     "en": "the UK",
+     "tr": "Birleşik Krallık",
+     "img": "/app/img/flags/gb.svg"
+    },
+    {
+     "en": "England",
+     "tr": "İngiltere",
+     "img": "/app/img/flags/gb-eng.svg"
+    },
+    {
+     "en": "Scotland",
+     "tr": "İskoçya",
+     "img": "/app/img/flags/gb-sct.svg"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Countries",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "Russia",
+       "b": "Rusya"
+      },
+      {
+       "a": "France",
+       "b": "Fransa"
+      },
+      {
+       "a": "Türkiye",
+       "b": "Türkiye"
+      },
+      {
+       "a": "the USA",
+       "b": "Amerika Birleşik Devletleri"
+      },
+      {
+       "a": "Spain",
+       "b": "İspanya"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/flags/es.svg",
+     "answer": "Spain",
+     "tr": "İspanya",
+     "options": [
+      "Spain",
+      "England",
+      "the UK",
+      "France"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Countries",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/flags/it.svg",
+     "answer": "Italy",
+     "tr": "İtalya",
+     "options": [
+      "Italy",
+      "France",
+      "Scotland",
+      "Spain"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"Amerika Birleşik Devletleri\"?",
+     "answer": "the USA",
+     "options": [
+      "the USA",
+      "France",
+      "Scotland",
+      "England"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "titleTr": "Ülkeler",
+   "items": [
+    {
+     "en": "Northern Ireland",
+     "tr": "Kuzey İrlanda",
+     "img": "/app/img/flags/gb-nir.svg"
+    },
+    {
+     "en": "Wales",
+     "tr": "Galler",
+     "img": "/app/img/flags/gb-wls.svg"
+    },
+    {
+     "en": "Canada",
+     "tr": "Kanada",
+     "img": "/app/img/flags/ca.svg"
+    },
+    {
+     "en": "Mexico",
+     "tr": "Meksika",
+     "img": "/app/img/flags/mx.svg"
+    },
+    {
+     "en": "Australia",
+     "tr": "Avustralya",
+     "img": "/app/img/flags/au.svg"
+    },
+    {
+     "en": "Greece",
+     "tr": "Yunanistan",
+     "img": "/app/img/flags/gr.svg"
+    },
+    {
+     "en": "Egypt",
+     "tr": "Mısır",
+     "img": "/app/img/flags/eg.svg"
+    },
+    {
+     "en": "Argentina",
+     "tr": "Arjantin",
+     "img": "/app/img/flags/ar.svg"
+    },
+    {
+     "en": "Brazil",
+     "tr": "Brezilya",
+     "img": "/app/img/flags/br.svg"
+    },
+    {
+     "en": "Japan",
+     "tr": "Japonya",
+     "img": "/app/img/flags/jp.svg"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Countries",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "Canada",
+       "b": "Kanada"
+      },
+      {
+       "a": "Argentina",
+       "b": "Arjantin"
+      },
+      {
+       "a": "Brazil",
+       "b": "Brezilya"
+      },
+      {
+       "a": "Wales",
+       "b": "Galler"
+      },
+      {
+       "a": "Japan",
+       "b": "Japonya"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/flags/gb-nir.svg",
+     "answer": "Northern Ireland",
+     "tr": "Kuzey İrlanda",
+     "options": [
+      "Northern Ireland",
+      "Canada",
+      "Mexico",
+      "Egypt"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Countries",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/flags/au.svg",
+     "answer": "Australia",
+     "tr": "Avustralya",
+     "options": [
+      "Australia",
+      "Greece",
+      "Wales",
+      "Canada"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"Avustralya\"?",
+     "answer": "Australia",
+     "options": [
+      "Australia",
+      "Northern Ireland",
+      "Mexico",
+      "Wales"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "titleTr": "Ülkeler",
+   "items": [
+    {
+     "en": "China",
+     "tr": "Çin",
+     "img": "/app/img/flags/cn.svg"
+    },
+    {
+     "en": "South Korea",
+     "tr": "Güney Kore",
+     "img": "/app/img/flags/kr.svg"
+    },
+    {
+     "en": "Azerbaijan",
+     "tr": "Azerbaycan",
+     "img": "/app/img/flags/az.svg"
+    },
+    {
+     "en": "Uzbekistan",
+     "tr": "Özbekistan",
+     "img": "/app/img/flags/uz.svg"
+    },
+    {
+     "en": "Turkmenistan",
+     "tr": "Türkmenistan",
+     "img": "/app/img/flags/tm.svg"
+    },
+    {
+     "en": "Kazakhstan",
+     "tr": "Kazakistan",
+     "img": "/app/img/flags/kz.svg"
+    },
+    {
+     "en": "Kyrgyzstan",
+     "tr": "Kırgızistan",
+     "img": "/app/img/flags/kg.svg"
+    },
+    {
+     "en": "Northern Cyprus",
+     "tr": "Kuzey Kıbrıs (K.K.T.C.)",
+     "img": "/app/img/flags/kktc.svg"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Countries",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "Kazakhstan",
+       "b": "Kazakistan"
+      },
+      {
+       "a": "Northern Cyprus",
+       "b": "Kuzey Kıbrıs (K.K.T.C.)"
+      },
+      {
+       "a": "Azerbaijan",
+       "b": "Azerbaycan"
+      },
+      {
+       "a": "Uzbekistan",
+       "b": "Özbekistan"
+      },
+      {
+       "a": "Kyrgyzstan",
+       "b": "Kırgızistan"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/flags/kktc.svg",
+     "answer": "Northern Cyprus",
+     "tr": "Kuzey Kıbrıs (K.K.T.C.)",
+     "options": [
+      "Northern Cyprus",
+      "China",
+      "Kyrgyzstan",
+      "Uzbekistan"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Countries",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/flags/az.svg",
+     "answer": "Azerbaijan",
+     "tr": "Azerbaycan",
+     "options": [
+      "Azerbaijan",
+      "Turkmenistan",
+      "Kyrgyzstan",
+      "Kazakhstan"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"Azerbaycan\"?",
+     "answer": "Azerbaijan",
+     "options": [
+      "Azerbaijan",
+      "Uzbekistan",
+      "Turkmenistan",
+      "South Korea"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Where are you from?",
+   "titleTr": "Nerelisin? — ... am/is/are from ...",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Sally",
+       "text": "Where are you from?"
+      },
+      {
+       "who": "Melike",
+       "text": "I am from Türkiye."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Harry",
+       "text": "Where are you from?"
+      },
+      {
+       "who": "Max",
+       "text": "I am from Germany."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Nico",
+       "text": "Where is he from?"
+      },
+      {
+       "who": "Tracy",
+       "text": "He is from Japan."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Betty",
+       "text": "Where is she from?"
+      },
+      {
+       "who": "Vicky",
+       "text": "She is from the USA."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Omar",
+       "text": "Where is Hwang from?"
+      },
+      {
+       "who": "Marcos",
+       "text": "He is from South Korea."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Liam",
+       "text": "Where is Natalie from?"
+      },
+      {
+       "who": "Jake",
+       "text": "She is from Italy."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "National and Religious Days",
+   "titleTr": "Ulusal ve dinî günler",
+   "items": [
+    {
+     "en": "Eid al-Fitr (Festival of Ramadan)",
+     "tr": "Ramazan Bayramı",
+     "emoji": "🌙"
+    },
+    {
+     "en": "Eid al-Adha (Festival of Sacrifice)",
+     "tr": "Kurban Bayramı",
+     "emoji": "🕌"
+    },
+    {
+     "en": "23rd April — Children's Day",
+     "tr": "Çocuk Bayramı",
+     "emoji": "🧒"
+    },
+    {
+     "en": "19th May — Youth and Sports Day",
+     "tr": "Gençlik ve Spor Bayramı",
+     "emoji": "🏃"
+    },
+    {
+     "en": "29th October — Republic Day",
+     "tr": "Cumhuriyet Bayramı",
+     "emoji": "🇹🇷"
+    },
+    {
+     "en": "30th August — Victory Day",
+     "tr": "Zafer Bayramı",
+     "emoji": "🐎"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "National and Religious Days",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "29th October — Republic Day",
+       "b": "Cumhuriyet Bayramı"
+      },
+      {
+       "a": "19th May — Youth and Sports Day",
+       "b": "Gençlik ve Spor Bayramı"
+      },
+      {
+       "a": "Eid al-Adha (Festival of Sacrifice)",
+       "b": "Kurban Bayramı"
+      },
+      {
+       "a": "30th August — Victory Day",
+       "b": "Zafer Bayramı"
+      },
+      {
+       "a": "Eid al-Fitr (Festival of Ramadan)",
+       "b": "Ramazan Bayramı"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"Ramazan Bayramı\"?",
+     "answer": "Eid al-Fitr (Festival of Ramadan)",
+     "options": [
+      "Eid al-Fitr (Festival of Ramadan)",
+      "23rd April — Children's Day",
+      "30th August — Victory Day",
+      "19th May — Youth and Sports Day"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "National and Religious Days",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"Gençlik ve Spor Bayramı\"?",
+     "answer": "19th May — Youth and Sports Day",
+     "options": [
+      "19th May — Youth and Sports Day",
+      "23rd April — Children's Day",
+      "29th October — Republic Day",
+      "Eid al-Fitr (Festival of Ramadan)"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "Who is the head of the school?",
+     "a": "the headmaster"
+    },
+    {
+     "q": "Where do we do experiments?",
+     "a": "in the science lab"
+    },
+    {
+     "q": "___ apple  →  a or an?",
+     "a": "an apple"
+    },
+    {
+     "q": "She ___ a teacher.  (am / is / are)",
+     "a": "is"
+    },
+    {
+     "q": "Sınıfta koşma. → ?",
+     "a": "Don't run in the classroom."
+    },
+    {
+     "q": "Okul üniformasını giymelisin. → ?",
+     "a": "You must wear the school uniform."
+    },
+    {
+     "q": "Where are you from? (Türkiye)",
+     "a": "I am from Türkiye."
+    }
+   ]
+  },
+  {
+   "type": "pages",
+   "title": "Kaynak Sayfalar",
+   "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
+  },
+  {
+   "type": "end",
+   "emoji": "🎉",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyun zamanı — kelimeleri pekiştirelim."
+  }
+ ]
+}

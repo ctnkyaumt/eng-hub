@@ -1,0 +1,766 @@
+{
+ "title": "Tourism",
+ "titleTr": "Turizm",
+ "emoji": "🧳",
+ "accent": [
+  "#22d3ee",
+  "#0284c7"
+ ],
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "UNIT 7",
+   "title": "Tourism",
+   "titleTr": "Turizm",
+   "emoji": "🧳"
+  },
+  {
+   "type": "vocab",
+   "title": "Places to Visit",
+   "titleTr": "Gezilecek yerler",
+   "items": [
+    {
+     "en": "destination",
+     "tr": "gidilecek yer",
+     "emoji": "🧭"
+    },
+    {
+     "en": "attraction",
+     "tr": "gezilecek yer",
+     "emoji": "📍",
+     "img": "/app/img/words/attraction.jpg"
+    },
+    {
+     "en": "historic site",
+     "tr": "tarihi alan",
+     "emoji": "🏺"
+    },
+    {
+     "en": "square",
+     "tr": "meydan",
+     "emoji": "⛲"
+    },
+    {
+     "en": "resort",
+     "tr": "tatil köyü",
+     "emoji": "🏖️",
+     "img": "/app/img/words/resort.jpg"
+    },
+    {
+     "en": "countryside",
+     "tr": "kırsal kesim",
+     "emoji": "🌄"
+    },
+    {
+     "en": "bed and breakfast",
+     "tr": "pansiyon",
+     "emoji": "🛏️"
+    },
+    {
+     "en": "all-inclusive",
+     "tr": "her şey dahil",
+     "emoji": "🏨"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Places to Visit",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "resort",
+       "b": "tatil köyü"
+      },
+      {
+       "a": "destination",
+       "b": "gidilecek yer"
+      },
+      {
+       "a": "historic site",
+       "b": "tarihi alan"
+      },
+      {
+       "a": "countryside",
+       "b": "kırsal kesim"
+      },
+      {
+       "a": "bed and breakfast",
+       "b": "pansiyon"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"gidilecek yer\"?",
+     "answer": "destination",
+     "options": [
+      "destination",
+      "square",
+      "historic site",
+      "attraction"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Places to Visit",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"tatil köyü\"?",
+     "answer": "resort",
+     "options": [
+      "resort",
+      "square",
+      "historic site",
+      "countryside"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Describing Places",
+   "titleTr": "Yerleri anlatmak",
+   "items": [
+    {
+     "en": "ancient",
+     "tr": "antik",
+     "emoji": "🏛️",
+     "img": "/app/img/words/ancient.jpg"
+    },
+    {
+     "en": "architecture",
+     "tr": "mimari",
+     "emoji": "🏗️",
+     "img": "/app/img/words/architecture.jpg"
+    },
+    {
+     "en": "culture",
+     "tr": "kültür",
+     "emoji": "🎭"
+    },
+    {
+     "en": "cultural",
+     "tr": "kültürel",
+     "emoji": "🎎"
+    },
+    {
+     "en": "fascinating",
+     "tr": "büyüleyici",
+     "emoji": "✨"
+    },
+    {
+     "en": "incredible",
+     "tr": "inanılmaz",
+     "emoji": "🤯"
+    },
+    {
+     "en": "rural",
+     "tr": "kırsal",
+     "emoji": "🚜"
+    },
+    {
+     "en": "urban",
+     "tr": "kentsel",
+     "emoji": "🏙️",
+     "img": "/app/img/words/urban.jpg"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Describing Places",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "urban",
+       "b": "kentsel"
+      },
+      {
+       "a": "incredible",
+       "b": "inanılmaz"
+      },
+      {
+       "a": "rural",
+       "b": "kırsal"
+      },
+      {
+       "a": "architecture",
+       "b": "mimari"
+      },
+      {
+       "a": "culture",
+       "b": "kültür"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"inanılmaz\"?",
+     "answer": "incredible",
+     "options": [
+      "incredible",
+      "cultural",
+      "urban",
+      "rural"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Describing Places",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"kırsal\"?",
+     "answer": "rural",
+     "options": [
+      "rural",
+      "architecture",
+      "incredible",
+      "fascinating"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Turizm — ek kelimeler",
+   "items": [
+    {
+     "en": "taste",
+     "tr": "tadına bakmak"
+    },
+    {
+     "en": "terrible / awful",
+     "tr": "korkunç, berbat"
+    },
+    {
+     "en": "tradition",
+     "tr": "gelenek"
+    },
+    {
+     "en": "truly",
+     "tr": "gerçekten"
+    },
+    {
+     "en": "unbelievable / incredible",
+     "tr": "inanılmaz"
+    },
+    {
+     "en": "visit",
+     "tr": "ziyaret etmek"
+    },
+    {
+     "en": "rich",
+     "tr": "zengin"
+    },
+    {
+     "en": "sightseeing",
+     "tr": "gezi"
+    },
+    {
+     "en": "summer",
+     "tr": "yaz"
+    },
+    {
+     "en": "sunbath",
+     "tr": "güneşlenmek"
+    },
+    {
+     "en": "sunny",
+     "tr": "güneşli"
+    },
+    {
+     "en": "mysterious",
+     "tr": "gizemli"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "tradition",
+       "b": "gelenek"
+      },
+      {
+       "a": "sunbath",
+       "b": "güneşlenmek"
+      },
+      {
+       "a": "taste",
+       "b": "tadına bakmak"
+      },
+      {
+       "a": "unbelievable / incredible",
+       "b": "inanılmaz"
+      },
+      {
+       "a": "visit",
+       "b": "ziyaret etmek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"gezi\"?",
+     "answer": "sightseeing",
+     "options": [
+      "sightseeing",
+      "sunbath",
+      "unbelievable / incredible",
+      "terrible / awful"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"tadına bakmak\"?",
+     "answer": "taste",
+     "options": [
+      "taste",
+      "unbelievable / incredible",
+      "truly",
+      "terrible / awful"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Turizm — ek kelimeler",
+   "items": [
+    {
+     "en": "natural",
+     "tr": "doğal"
+    },
+    {
+     "en": "palace",
+     "tr": "saray"
+    },
+    {
+     "en": "peaceful",
+     "tr": "huzurlu"
+    },
+    {
+     "en": "rainy",
+     "tr": "yağmurlu"
+    },
+    {
+     "en": "relaxing",
+     "tr": "rahatlatıcı"
+    },
+    {
+     "en": "heritage",
+     "tr": "miras"
+    },
+    {
+     "en": "holiday",
+     "tr": "tatil"
+    },
+    {
+     "en": "hospitable",
+     "tr": "misafirperver"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "rainy",
+       "b": "yağmurlu"
+      },
+      {
+       "a": "hospitable",
+       "b": "misafirperver"
+      },
+      {
+       "a": "peaceful",
+       "b": "huzurlu"
+      },
+      {
+       "a": "natural",
+       "b": "doğal"
+      },
+      {
+       "a": "heritage",
+       "b": "miras"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"misafirperver\"?",
+     "answer": "hospitable",
+     "options": [
+      "hospitable",
+      "relaxing",
+      "palace",
+      "rainy"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"rahatlatıcı\"?",
+     "answer": "relaxing",
+     "options": [
+      "relaxing",
+      "natural",
+      "rainy",
+      "holiday"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Regular",
+   "titleTr": "Geçmiş zaman: düzenli fiiller",
+   "rule": "Geçmişte biten işler için fiile *-ed* eklenir. Olumsuz ve soruda *didn't / did* kullanılır, fiil yalın kalır.",
+   "chips": [
+    "visited",
+    "travelled",
+    "stayed",
+    "enjoyed"
+   ],
+   "examples": [
+    {
+     "en": "We *visited* Cappadocia last summer.",
+     "tr": "Geçen yaz Kapadokya'yı ziyaret ettik."
+    },
+    {
+     "en": "They *stayed* at a lovely hotel.",
+     "tr": "Güzel bir otelde kaldılar."
+    },
+    {
+     "en": "I *didn't* like the food there.",
+     "tr": "Oradaki yemekleri sevmedim."
+    },
+    {
+     "en": "*Did* you *enjoy* the tour? — Yes, I did.",
+     "tr": "Turdan keyif aldın mı? — Evet."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Past — Regular",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "We ___ Cappadocia last summer.",
+     "answer": "visited",
+     "options": [
+      "visited",
+      "stayed",
+      "didn't",
+      "Did"
+     ],
+     "tr": "Geçen yaz Kapadokya'yı ziyaret ettik."
+    },
+    {
+     "kind": "fill",
+     "text": "They ___ at a lovely hotel.",
+     "answer": "stayed",
+     "options": [
+      "stayed",
+      "visited",
+      "didn't",
+      "Did"
+     ],
+     "tr": "Güzel bir otelde kaldılar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Past — Regular",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ like the food there.",
+     "answer": "didn't",
+     "options": [
+      "didn't",
+      "visited",
+      "stayed",
+      "Did"
+     ],
+     "tr": "Oradaki yemekleri sevmedim."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "I didn't like the food there.",
+     "tr": "Oradaki yemekleri sevmedim."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Irregular",
+   "titleTr": "Geçmiş zaman: düzensiz fiiller",
+   "rule": "Bazı fiiller *-ed* almaz, ikinci hâlleri ezberlenir.",
+   "chips": [
+    "go → went",
+    "see → saw",
+    "take → took",
+    "eat → ate",
+    "buy → bought"
+   ],
+   "examples": [
+    {
+     "en": "We *went* to Antalya by plane.",
+     "tr": "Antalya'ya uçakla gittik."
+    },
+    {
+     "en": "I *saw* the ancient theatre.",
+     "tr": "Antik tiyatroyu gördüm."
+    },
+    {
+     "en": "She *took* a lot of photographs.",
+     "tr": "Bir sürü fotoğraf çekti."
+    },
+    {
+     "en": "We *ate* delicious local food.",
+     "tr": "Nefis yöresel yemekler yedik."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Past — Irregular",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "We ___ to Antalya by plane.",
+     "answer": "went",
+     "options": [
+      "went",
+      "saw",
+      "took",
+      "ate"
+     ],
+     "tr": "Antalya'ya uçakla gittik."
+    },
+    {
+     "kind": "fill",
+     "text": "I ___ the ancient theatre.",
+     "answer": "saw",
+     "options": [
+      "saw",
+      "went",
+      "took",
+      "ate"
+     ],
+     "tr": "Antik tiyatroyu gördüm."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Past — Irregular",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "She ___ a lot of photographs.",
+     "answer": "took",
+     "options": [
+      "took",
+      "went",
+      "saw",
+      "ate"
+     ],
+     "tr": "Bir sürü fotoğraf çekti."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "We ate delicious local food.",
+     "tr": "Nefis yöresel yemekler yedik."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Talking about a Holiday",
+   "titleTr": "Tatili anlatma",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Deniz",
+       "text": "Where did you go last summer?"
+      },
+      {
+       "who": "Efe",
+       "text": "I went to Bodrum with my family."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Deniz",
+       "text": "What did you do there?"
+      },
+      {
+       "who": "Efe",
+       "text": "We swam every day and visited the castle."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Deniz",
+       "text": "How was the weather?"
+      },
+      {
+       "who": "Efe",
+       "text": "It was sunny and really hot."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "gidilecek yer → ?",
+     "a": "destination"
+    },
+    {
+     "q": "gezilecek yer → ?",
+     "a": "attraction"
+    },
+    {
+     "q": "tarihi alan → ?",
+     "a": "historic site"
+    },
+    {
+     "q": "meydan → ?",
+     "a": "square"
+    },
+    {
+     "q": "tatil köyü → ?",
+     "a": "resort"
+    },
+    {
+     "q": "kırsal kesim → ?",
+     "a": "countryside"
+    },
+    {
+     "q": "pansiyon → ?",
+     "a": "bed and breakfast"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ],
+ "source": "res/book_8.pdf"
+}

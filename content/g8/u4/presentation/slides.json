@@ -1,0 +1,755 @@
+{
+ "title": "On the Phone",
+ "titleTr": "Telefonda",
+ "emoji": "📞",
+ "accent": [
+  "#34d399",
+  "#0ea5e9"
+ ],
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "UNIT 4",
+   "title": "On the Phone",
+   "titleTr": "Telefonda",
+   "emoji": "📞"
+  },
+  {
+   "type": "vocab",
+   "title": "On the Phone",
+   "titleTr": "Telefonda",
+   "items": [
+    {
+     "en": "dial",
+     "tr": "numara çevirmek",
+     "emoji": "☎️"
+    },
+    {
+     "en": "pick up",
+     "tr": "telefonu açmak",
+     "emoji": "📞"
+    },
+    {
+     "en": "hang on",
+     "tr": "hatta beklemek",
+     "emoji": "⏳"
+    },
+    {
+     "en": "hang up",
+     "tr": "telefonu kapatmak",
+     "emoji": "📴"
+    },
+    {
+     "en": "hold",
+     "tr": "beklemek",
+     "emoji": "🤙"
+    },
+    {
+     "en": "line",
+     "tr": "hat",
+     "emoji": "📞"
+    },
+    {
+     "en": "engaged",
+     "tr": "meşgul (hat)",
+     "emoji": "📵"
+    },
+    {
+     "en": "extension",
+     "tr": "dahili numara",
+     "emoji": "🔢"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "On the Phone",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "hold",
+       "b": "beklemek"
+      },
+      {
+       "a": "dial",
+       "b": "numara çevirmek"
+      },
+      {
+       "a": "hang up",
+       "b": "telefonu kapatmak"
+      },
+      {
+       "a": "hang on",
+       "b": "hatta beklemek"
+      },
+      {
+       "a": "pick up",
+       "b": "telefonu açmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"numara çevirmek\"?",
+     "answer": "dial",
+     "options": [
+      "dial",
+      "line",
+      "hold",
+      "hang up"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "On the Phone",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"hatta beklemek\"?",
+     "answer": "hang on",
+     "options": [
+      "hang on",
+      "dial",
+      "line",
+      "engaged"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Keeping in Touch",
+   "titleTr": "İletişimde kalmak",
+   "items": [
+    {
+     "en": "available",
+     "tr": "müsait",
+     "emoji": "✅"
+    },
+    {
+     "en": "connect",
+     "tr": "bağlamak",
+     "emoji": "🔌"
+    },
+    {
+     "en": "contact",
+     "tr": "iletişim kurmak",
+     "emoji": "📇"
+    },
+    {
+     "en": "get in touch",
+     "tr": "iletişime geçmek",
+     "emoji": "📱"
+    },
+    {
+     "en": "keep in touch",
+     "tr": "iletişimde kalmak",
+     "emoji": "💬"
+    },
+    {
+     "en": "get back",
+     "tr": "geri dönmek",
+     "emoji": "↩️"
+    },
+    {
+     "en": "put someone through",
+     "tr": "birini bağlamak",
+     "emoji": "🔀"
+    },
+    {
+     "en": "memo",
+     "tr": "not",
+     "emoji": "📝"
+    },
+    {
+     "en": "polite",
+     "tr": "kibar",
+     "emoji": "🙇"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Keeping in Touch",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "contact",
+       "b": "iletişim kurmak"
+      },
+      {
+       "a": "connect",
+       "b": "bağlamak"
+      },
+      {
+       "a": "available",
+       "b": "müsait"
+      },
+      {
+       "a": "get back",
+       "b": "geri dönmek"
+      },
+      {
+       "a": "put someone through",
+       "b": "birini bağlamak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"iletişim kurmak\"?",
+     "answer": "contact",
+     "options": [
+      "contact",
+      "connect",
+      "get back",
+      "keep in touch"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Keeping in Touch",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"iletişimde kalmak\"?",
+     "answer": "keep in touch",
+     "options": [
+      "keep in touch",
+      "get back",
+      "available",
+      "connect"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Telefonda — ek kelimeler",
+   "items": [
+    {
+     "en": "conversation",
+     "tr": "görüşme"
+    },
+    {
+     "en": "customer service",
+     "tr": "müşteri hizmetleri"
+    },
+    {
+     "en": "delivery",
+     "tr": "gönderi"
+    },
+    {
+     "en": "device",
+     "tr": "alet, aygıt, cihaz"
+    },
+    {
+     "en": "discovery",
+     "tr": "keşif"
+    },
+    {
+     "en": "disturb",
+     "tr": "rahatsız etmek"
+    },
+    {
+     "en": "easy way",
+     "tr": "kolay yol"
+    },
+    {
+     "en": "cell phone",
+     "tr": "cep telefonu"
+    },
+    {
+     "en": "change",
+     "tr": "değiştirmek"
+    },
+    {
+     "en": "cheap",
+     "tr": "ucuz"
+    },
+    {
+     "en": "clearly",
+     "tr": "net şekilde"
+    },
+    {
+     "en": "communicate",
+     "tr": "iletişim kurmak"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "communicate",
+       "b": "iletişim kurmak"
+      },
+      {
+       "a": "change",
+       "b": "değiştirmek"
+      },
+      {
+       "a": "customer service",
+       "b": "müşteri hizmetleri"
+      },
+      {
+       "a": "cheap",
+       "b": "ucuz"
+      },
+      {
+       "a": "delivery",
+       "b": "gönderi"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"cep telefonu\"?",
+     "answer": "cell phone",
+     "options": [
+      "cell phone",
+      "conversation",
+      "delivery",
+      "discovery"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"ucuz\"?",
+     "answer": "cheap",
+     "options": [
+      "cheap",
+      "easy way",
+      "communicate",
+      "disturb"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Telefonda — ek kelimeler",
+   "items": [
+    {
+     "en": "company",
+     "tr": "şirket"
+    },
+    {
+     "en": "confirm",
+     "tr": "doğrulamak, onaylamak"
+    },
+    {
+     "en": "badline",
+     "tr": "kötü hat"
+    },
+    {
+     "en": "book",
+     "tr": "rezervasyon yapmak"
+    },
+    {
+     "en": "busy",
+     "tr": "meşgul"
+    },
+    {
+     "en": "call",
+     "tr": "telefon ile aramak"
+    },
+    {
+     "en": "call back",
+     "tr": "geri aramak"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "busy",
+       "b": "meşgul"
+      },
+      {
+       "a": "call",
+       "b": "telefon ile aramak"
+      },
+      {
+       "a": "company",
+       "b": "şirket"
+      },
+      {
+       "a": "book",
+       "b": "rezervasyon yapmak"
+      },
+      {
+       "a": "call back",
+       "b": "geri aramak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"doğrulamak, onaylamak\"?",
+     "answer": "confirm",
+     "options": [
+      "confirm",
+      "badline",
+      "book",
+      "busy"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"kötü hat\"?",
+     "answer": "badline",
+     "options": [
+      "badline",
+      "confirm",
+      "call back",
+      "company"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "On the Phone",
+   "titleTr": "Telefonda konuşma kalıpları",
+   "rule": "Telefonda kibar kalıplar kullanırız: *Could I speak to ...?*, *Hold on, please.*, *Can I take a message?*",
+   "chips": [
+    "Could I speak to ...?",
+    "Hold on, please.",
+    "Can I take a message?",
+    "Speaking."
+   ],
+   "examples": [
+    {
+     "en": "*Could I speak to* Mr Yılmaz, please?",
+     "tr": "Bay Yılmaz ile görüşebilir miyim, lütfen?"
+    },
+    {
+     "en": "*Hold on*, please. I'll put you through.",
+     "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+    },
+    {
+     "en": "*Can I take a message*?",
+     "tr": "Mesajınızı alabilir miyim?"
+    },
+    {
+     "en": "Sorry, she *isn't available* right now.",
+     "tr": "Üzgünüm, şu anda müsait değil."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "On the Phone",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ Mr Yılmaz, please?",
+     "answer": "Could I speak to",
+     "options": [
+      "Could I speak to",
+      "Hold on",
+      "Can I take a message",
+      "isn't available"
+     ],
+     "tr": "Bay Yılmaz ile görüşebilir miyim, lütfen?"
+    },
+    {
+     "kind": "fill",
+     "text": "___, please. I'll put you through.",
+     "answer": "Hold on",
+     "options": [
+      "Hold on",
+      "Could I speak to",
+      "Can I take a message",
+      "isn't available"
+     ],
+     "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "On the Phone",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___?",
+     "answer": "Can I take a message",
+     "options": [
+      "Can I take a message",
+      "Could I speak to",
+      "Hold on",
+      "isn't available"
+     ],
+     "tr": "Mesajınızı alabilir miyim?"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Sorry, she isn't available right now.",
+     "tr": "Üzgünüm, şu anda müsait değil."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous",
+   "titleTr": "Şimdiki zaman: şu an olanlar",
+   "rule": "Konuşma anında olan işler için *am / is / are + V-ing* kullanılır.",
+   "examples": [
+    {
+     "en": "I *am calling* about the delivery.",
+     "tr": "Gönderi hakkında arıyorum."
+    },
+    {
+     "en": "She *is talking* on the phone now.",
+     "tr": "O şimdi telefonda konuşuyor."
+    },
+    {
+     "en": "They *aren't answering* the phone.",
+     "tr": "Telefona cevap vermiyorlar."
+    },
+    {
+     "en": "*Are* you *listening* to me?",
+     "tr": "Beni dinliyor musun?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Present Continuous",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ about the delivery.",
+     "answer": "am calling",
+     "options": [
+      "am calling",
+      "is talking",
+      "aren't answering",
+      "Are"
+     ],
+     "tr": "Gönderi hakkında arıyorum."
+    },
+    {
+     "kind": "fill",
+     "text": "She ___ on the phone now.",
+     "answer": "is talking",
+     "options": [
+      "is talking",
+      "am calling",
+      "aren't answering",
+      "Are"
+     ],
+     "tr": "O şimdi telefonda konuşuyor."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Present Continuous",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "They ___ the phone.",
+     "answer": "aren't answering",
+     "options": [
+      "aren't answering",
+      "am calling",
+      "is talking",
+      "Are"
+     ],
+     "tr": "Telefona cevap vermiyorlar."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Are you listening to me?",
+     "tr": "Beni dinliyor musun?"
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "A Phone Call",
+   "titleTr": "Bir telefon görüşmesi",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Operator",
+       "text": "Good morning, customer service. How can I help you?"
+      },
+      {
+       "who": "Ayşe",
+       "text": "Hello, I'm calling about my order."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Operator",
+       "text": "Could you give me your order number?"
+      },
+      {
+       "who": "Ayşe",
+       "text": "Sure, it's 4517."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Operator",
+       "text": "Hold on, please. I'll check it for you."
+      },
+      {
+       "who": "Ayşe",
+       "text": "Thank you very much."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "numara çevirmek → ?",
+     "a": "dial"
+    },
+    {
+     "q": "telefonu açmak → ?",
+     "a": "pick up"
+    },
+    {
+     "q": "hatta beklemek → ?",
+     "a": "hang on"
+    },
+    {
+     "q": "telefonu kapatmak → ?",
+     "a": "hang up"
+    },
+    {
+     "q": "beklemek → ?",
+     "a": "hold"
+    },
+    {
+     "q": "hat → ?",
+     "a": "line"
+    },
+    {
+     "q": "meşgul (hat) → ?",
+     "a": "engaged"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ],
+ "source": "res/book_8.pdf"
+}

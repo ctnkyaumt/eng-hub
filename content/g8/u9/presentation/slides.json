@@ -1,0 +1,762 @@
+{
+ "title": "Science",
+ "titleTr": "Bilim",
+ "emoji": "🔬",
+ "accent": [
+  "#4ade80",
+  "#059669"
+ ],
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "UNIT 9",
+   "title": "Science",
+   "titleTr": "Bilim",
+   "emoji": "🔬"
+  },
+  {
+   "type": "vocab",
+   "title": "In the Lab",
+   "titleTr": "Laboratuvarda",
+   "items": [
+    {
+     "en": "lab",
+     "tr": "laboratuvar",
+     "emoji": "🧪"
+    },
+    {
+     "en": "do an experiment",
+     "tr": "deney yapmak",
+     "emoji": "⚗️"
+    },
+    {
+     "en": "test tube",
+     "tr": "deney tüpü",
+     "emoji": "🧫"
+    },
+    {
+     "en": "cell",
+     "tr": "hücre",
+     "emoji": "🔬"
+    },
+    {
+     "en": "safety",
+     "tr": "güvenlik",
+     "emoji": "🦺"
+    },
+    {
+     "en": "scientific",
+     "tr": "bilimsel",
+     "emoji": "📐"
+    },
+    {
+     "en": "process",
+     "tr": "süreç",
+     "emoji": "🔄"
+    },
+    {
+     "en": "result",
+     "tr": "sonuç",
+     "emoji": "📊"
+    },
+    {
+     "en": "explode",
+     "tr": "patlamak",
+     "emoji": "💥",
+     "img": "/app/img/words/explode.jpg"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "In the Lab",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "cell",
+       "b": "hücre"
+      },
+      {
+       "a": "safety",
+       "b": "güvenlik"
+      },
+      {
+       "a": "process",
+       "b": "süreç"
+      },
+      {
+       "a": "result",
+       "b": "sonuç"
+      },
+      {
+       "a": "do an experiment",
+       "b": "deney yapmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"laboratuvar\"?",
+     "answer": "lab",
+     "options": [
+      "lab",
+      "result",
+      "explode",
+      "scientific"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "In the Lab",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"bilimsel\"?",
+     "answer": "scientific",
+     "options": [
+      "scientific",
+      "result",
+      "explode",
+      "process"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Science & Discovery",
+   "titleTr": "Bilim ve keşif",
+   "items": [
+    {
+     "en": "discover",
+     "tr": "keşfetmek",
+     "emoji": "🔍"
+    },
+    {
+     "en": "invent",
+     "tr": "icat etmek",
+     "emoji": "💡"
+    },
+    {
+     "en": "explore",
+     "tr": "araştırmak",
+     "emoji": "🧭"
+    },
+    {
+     "en": "search",
+     "tr": "araştırmak",
+     "emoji": "🔎"
+    },
+    {
+     "en": "succeed",
+     "tr": "başarmak",
+     "emoji": "🏅"
+    },
+    {
+     "en": "genius",
+     "tr": "dâhi",
+     "emoji": "🧠",
+     "img": "/app/img/words/genius.jpg"
+    },
+    {
+     "en": "high-tech",
+     "tr": "ileri teknoloji",
+     "emoji": "🤖"
+    },
+    {
+     "en": "cure",
+     "tr": "tedavi etmek",
+     "emoji": "💊"
+    },
+    {
+     "en": "vaccination",
+     "tr": "aşılama",
+     "emoji": "💉"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Science & Discovery",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "discover",
+       "b": "keşfetmek"
+      },
+      {
+       "a": "cure",
+       "b": "tedavi etmek"
+      },
+      {
+       "a": "genius",
+       "b": "dâhi"
+      },
+      {
+       "a": "search",
+       "b": "araştırmak"
+      },
+      {
+       "a": "explore",
+       "b": "araştırmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"ileri teknoloji\"?",
+     "answer": "high-tech",
+     "options": [
+      "high-tech",
+      "explore",
+      "invent",
+      "genius"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Science & Discovery",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"aşılama\"?",
+     "answer": "vaccination",
+     "options": [
+      "vaccination",
+      "invent",
+      "cure",
+      "succeed"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Bilim — ek kelimeler",
+   "items": [
+    {
+     "en": "healthcare",
+     "tr": "sağlık hizmeti"
+    },
+    {
+     "en": "horizon",
+     "tr": "ufuk, görüş, anlayış"
+    },
+    {
+     "en": "improve",
+     "tr": "geliştirmek"
+    },
+    {
+     "en": "improvement",
+     "tr": "gelişim, iyileşme"
+    },
+    {
+     "en": "infection",
+     "tr": "bulaşma, enfeksiyon"
+    },
+    {
+     "en": "ink",
+     "tr": "mürekkep"
+    },
+    {
+     "en": "electric bulb",
+     "tr": "ampul"
+    },
+    {
+     "en": "entertainment",
+     "tr": "eğlence"
+    },
+    {
+     "en": "explosion",
+     "tr": "patlama"
+    },
+    {
+     "en": "facts",
+     "tr": "gerçekler"
+    },
+    {
+     "en": "gain",
+     "tr": "kazanmak"
+    },
+    {
+     "en": "goldsmith",
+     "tr": "kuyumcu"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "entertainment",
+       "b": "eğlence"
+      },
+      {
+       "a": "horizon",
+       "b": "ufuk, görüş, anlayış"
+      },
+      {
+       "a": "electric bulb",
+       "b": "ampul"
+      },
+      {
+       "a": "ink",
+       "b": "mürekkep"
+      },
+      {
+       "a": "infection",
+       "b": "bulaşma, enfeksiyon"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"ufuk, görüş, anlayış\"?",
+     "answer": "horizon",
+     "options": [
+      "horizon",
+      "improvement",
+      "infection",
+      "electric bulb"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"bulaşma, enfeksiyon\"?",
+     "answer": "infection",
+     "options": [
+      "infection",
+      "improvement",
+      "horizon",
+      "facts"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Bilim — ek kelimeler",
+   "items": [
+    {
+     "en": "gravity of the matter",
+     "tr": "maddenin yer çekimi"
+    },
+    {
+     "en": "deserve",
+     "tr": "hak etmek"
+    },
+    {
+     "en": "develop",
+     "tr": "geliştirmek"
+    },
+    {
+     "en": "diagnose",
+     "tr": "teşhis etmek"
+    },
+    {
+     "en": "die",
+     "tr": "ölmek"
+    },
+    {
+     "en": "discoverer",
+     "tr": "kaşif"
+    },
+    {
+     "en": "discovery",
+     "tr": "keşif"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "die",
+       "b": "ölmek"
+      },
+      {
+       "a": "discovery",
+       "b": "keşif"
+      },
+      {
+       "a": "gravity of the matter",
+       "b": "maddenin yer çekimi"
+      },
+      {
+       "a": "discoverer",
+       "b": "kaşif"
+      },
+      {
+       "a": "develop",
+       "b": "geliştirmek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"ölmek\"?",
+     "answer": "die",
+     "options": [
+      "die",
+      "discoverer",
+      "discovery",
+      "diagnose"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"maddenin yer çekimi\"?",
+     "answer": "gravity of the matter",
+     "options": [
+      "gravity of the matter",
+      "deserve",
+      "diagnose",
+      "discoverer"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Present",
+   "titleTr": "Edilgen çatı: geniş zaman",
+   "rule": "İşi kimin yaptığı önemli değilse edilgen kullanılır: *am / is / are + V3*.",
+   "examples": [
+    {
+     "en": "Experiments *are done* in the laboratory.",
+     "tr": "Deneyler laboratuvarda yapılır."
+    },
+    {
+     "en": "This machine *is used* by scientists.",
+     "tr": "Bu makine bilim insanları tarafından kullanılır."
+    },
+    {
+     "en": "New medicines *are developed* every year.",
+     "tr": "Her yıl yeni ilaçlar geliştirilir."
+    },
+    {
+     "en": "The results *are written* in a report.",
+     "tr": "Sonuçlar bir rapora yazılır."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Passive Voice — Present",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "Experiments ___ in the laboratory.",
+     "answer": "are done",
+     "options": [
+      "are done",
+      "is used",
+      "are developed",
+      "are written"
+     ],
+     "tr": "Deneyler laboratuvarda yapılır."
+    },
+    {
+     "kind": "fill",
+     "text": "This machine ___ by scientists.",
+     "answer": "is used",
+     "options": [
+      "is used",
+      "are done",
+      "are developed",
+      "are written"
+     ],
+     "tr": "Bu makine bilim insanları tarafından kullanılır."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Passive Voice — Present",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "New medicines ___ every year.",
+     "answer": "are developed",
+     "options": [
+      "are developed",
+      "are done",
+      "is used",
+      "are written"
+     ],
+     "tr": "Her yıl yeni ilaçlar geliştirilir."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "The results are written in a report.",
+     "tr": "Sonuçlar bir rapora yazılır."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Past",
+   "titleTr": "Edilgen çatı: geçmiş zaman",
+   "rule": "Geçmişte yapılan işler için *was / were + V3*. Yapan kişi *by* ile belirtilir.",
+   "chips": [
+    "was invented",
+    "was discovered",
+    "were built",
+    "was written"
+   ],
+   "examples": [
+    {
+     "en": "The telephone *was invented* by Alexander Graham Bell.",
+     "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
+    },
+    {
+     "en": "Penicillin *was discovered* in 1928.",
+     "tr": "Penisilin 1928'de keşfedildi."
+    },
+    {
+     "en": "The pyramids *were built* thousands of years ago.",
+     "tr": "Piramitler binlerce yıl önce inşa edildi."
+    },
+    {
+     "en": "This book *was written* by a Turkish scientist.",
+     "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Passive Voice — Past",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "The telephone ___ by Alexander Graham Bell.",
+     "answer": "was invented",
+     "options": [
+      "was invented",
+      "was discovered",
+      "were built",
+      "was written"
+     ],
+     "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
+    },
+    {
+     "kind": "fill",
+     "text": "Penicillin ___ in 1928.",
+     "answer": "was discovered",
+     "options": [
+      "was discovered",
+      "was invented",
+      "were built",
+      "was written"
+     ],
+     "tr": "Penisilin 1928'de keşfedildi."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Passive Voice — Past",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "The pyramids ___ thousands of years ago.",
+     "answer": "were built",
+     "options": [
+      "were built",
+      "was invented",
+      "was discovered",
+      "was written"
+     ],
+     "tr": "Piramitler binlerce yıl önce inşa edildi."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "This book was written by a Turkish scientist.",
+     "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Inventions",
+   "titleTr": "İcatlar hakkında konuşma",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Zeynep",
+       "text": "Who was the light bulb invented by?"
+      },
+      {
+       "who": "Berk",
+       "text": "It was invented by Thomas Edison."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Zeynep",
+       "text": "When was the first computer built?"
+      },
+      {
+       "who": "Berk",
+       "text": "It was built in the 1940s."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Zeynep",
+       "text": "What is graphene used for?"
+      },
+      {
+       "who": "Berk",
+       "text": "It is used in electronics and medicine."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "laboratuvar → ?",
+     "a": "lab"
+    },
+    {
+     "q": "deney yapmak → ?",
+     "a": "do an experiment"
+    },
+    {
+     "q": "deney tüpü → ?",
+     "a": "test tube"
+    },
+    {
+     "q": "hücre → ?",
+     "a": "cell"
+    },
+    {
+     "q": "güvenlik → ?",
+     "a": "safety"
+    },
+    {
+     "q": "bilimsel → ?",
+     "a": "scientific"
+    },
+    {
+     "q": "süreç → ?",
+     "a": "process"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ],
+ "source": "res/book_8.pdf"
+}

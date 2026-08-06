@@ -1,0 +1,957 @@
+{
+ "title": "Friendship",
+ "titleTr": "Arkadaşlık",
+ "emoji": "🤝",
+ "accent": [
+  "#f472b6",
+  "#8b5cf6"
+ ],
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "UNIT 1",
+   "title": "Friendship",
+   "titleTr": "Arkadaşlık",
+   "emoji": "🤝"
+  },
+  {
+   "type": "vocab",
+   "title": "Friends",
+   "titleTr": "Arkadaşlar",
+   "items": [
+    {
+     "en": "friendship",
+     "tr": "arkadaşlık",
+     "emoji": "❤️"
+    },
+    {
+     "en": "best friend",
+     "tr": "en iyi arkadaş",
+     "emoji": "👯"
+    },
+    {
+     "en": "buddy",
+     "tr": "dost",
+     "emoji": "🧑‍🤝‍🧑"
+    },
+    {
+     "en": "mate",
+     "tr": "arkadaş",
+     "emoji": "🙋"
+    },
+    {
+     "en": "advice",
+     "tr": "tavsiye",
+     "emoji": "💡"
+    },
+    {
+     "en": "concert",
+     "tr": "konser",
+     "emoji": "🎤"
+    },
+    {
+     "en": "come over",
+     "tr": "uğramak",
+     "emoji": "🚪"
+    },
+    {
+     "en": "go for a walk",
+     "tr": "yürüyüşe çıkmak",
+     "emoji": "🚶"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Friends",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "mate",
+       "b": "arkadaş"
+      },
+      {
+       "a": "come over",
+       "b": "uğramak"
+      },
+      {
+       "a": "buddy",
+       "b": "dost"
+      },
+      {
+       "a": "friendship",
+       "b": "arkadaşlık"
+      },
+      {
+       "a": "advice",
+       "b": "tavsiye"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"konser\"?",
+     "answer": "concert",
+     "options": [
+      "concert",
+      "best friend",
+      "come over",
+      "friendship"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Friends",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"arkadaş\"?",
+     "answer": "mate",
+     "options": [
+      "mate",
+      "concert",
+      "friendship",
+      "best friend"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Qualities of Friendship",
+   "titleTr": "Arkadaşlığın nitelikleri",
+   "items": [
+    {
+     "en": "loyalty",
+     "tr": "sadakat",
+     "emoji": "🤝"
+    },
+    {
+     "en": "trust",
+     "tr": "güven",
+     "emoji": "🫱"
+    },
+    {
+     "en": "patience",
+     "tr": "sabır",
+     "emoji": "⏳"
+    },
+    {
+     "en": "mutual",
+     "tr": "karşılıklı",
+     "emoji": "↔️"
+    },
+    {
+     "en": "unconditional",
+     "tr": "koşulsuz",
+     "emoji": "💗"
+    },
+    {
+     "en": "priceless",
+     "tr": "paha biçilmez",
+     "emoji": "💎"
+    },
+    {
+     "en": "treasure",
+     "tr": "hazine",
+     "emoji": "🏆"
+    },
+    {
+     "en": "secret",
+     "tr": "sır",
+     "emoji": "🤫"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Qualities of Friendship",
+   "titleTr": "Arkadaşlığın nitelikleri",
+   "items": [
+    {
+     "en": "promise",
+     "tr": "söz vermek",
+     "emoji": "🤞"
+    },
+    {
+     "en": "share",
+     "tr": "paylaşmak",
+     "emoji": "🤲"
+    },
+    {
+     "en": "support",
+     "tr": "desteklemek",
+     "emoji": "🙌"
+    },
+    {
+     "en": "count on",
+     "tr": "güvenmek",
+     "emoji": "🫶"
+    },
+    {
+     "en": "back up",
+     "tr": "arka çıkmak",
+     "emoji": "🛡️"
+    },
+    {
+     "en": "get on well with somebody",
+     "tr": "biriyle iyi geçinmek",
+     "emoji": "😊"
+    },
+    {
+     "en": "survive",
+     "tr": "hayatta kalmak",
+     "emoji": "💪"
+    }
+   ],
+   "part": [
+    2,
+    2
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Qualities of Friendship",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "survive",
+       "b": "hayatta kalmak"
+      },
+      {
+       "a": "mutual",
+       "b": "karşılıklı"
+      },
+      {
+       "a": "share",
+       "b": "paylaşmak"
+      },
+      {
+       "a": "secret",
+       "b": "sır"
+      },
+      {
+       "a": "loyalty",
+       "b": "sadakat"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"desteklemek\"?",
+     "answer": "support",
+     "options": [
+      "support",
+      "trust",
+      "count on",
+      "patience"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Qualities of Friendship",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"güvenmek\"?",
+     "answer": "count on",
+     "options": [
+      "count on",
+      "loyalty",
+      "trust",
+      "promise"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Describing People",
+   "titleTr": "İnsanları anlatmak",
+   "items": [
+    {
+     "en": "awesome",
+     "tr": "harika",
+     "emoji": "🤩"
+    },
+    {
+     "en": "cool",
+     "tr": "havalı",
+     "emoji": "😎"
+    },
+    {
+     "en": "laid-back",
+     "tr": "rahat, sakin",
+     "emoji": "😌"
+    },
+    {
+     "en": "thrilling",
+     "tr": "heyecan verici",
+     "emoji": "⚡"
+    },
+    {
+     "en": "serious",
+     "tr": "ciddi",
+     "emoji": "😐"
+    },
+    {
+     "en": "busy",
+     "tr": "meşgul",
+     "emoji": "📅"
+    },
+    {
+     "en": "full",
+     "tr": "tok",
+     "emoji": "🍽️"
+    },
+    {
+     "en": "stuffed",
+     "tr": "çok tok",
+     "emoji": "😋"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Describing People",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "awesome",
+       "b": "harika"
+      },
+      {
+       "a": "full",
+       "b": "tok"
+      },
+      {
+       "a": "thrilling",
+       "b": "heyecan verici"
+      },
+      {
+       "a": "laid-back",
+       "b": "rahat, sakin"
+      },
+      {
+       "a": "cool",
+       "b": "havalı"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"havalı\"?",
+     "answer": "cool",
+     "options": [
+      "cool",
+      "serious",
+      "full",
+      "thrilling"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Describing People",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"meşgul\"?",
+     "answer": "busy",
+     "options": [
+      "busy",
+      "stuffed",
+      "thrilling",
+      "laid-back"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Arkadaşlık — ek kelimeler",
+   "items": [
+    {
+     "en": "weekdays",
+     "tr": "hafta içi"
+    },
+    {
+     "en": "weekend",
+     "tr": "hafta sonu"
+    },
+    {
+     "en": "write a diary",
+     "tr": "günlük yazmak"
+    },
+    {
+     "en": "visit relatives",
+     "tr": "akrabaları ziyaret etmek"
+    },
+    {
+     "en": "wake up",
+     "tr": "uyanmak"
+    },
+    {
+     "en": "walk the dog",
+     "tr": "köpeği gezdirmek"
+    },
+    {
+     "en": "wash face",
+     "tr": "yüz yıkamak"
+    },
+    {
+     "en": "watch TV",
+     "tr": "televizyon izlemek"
+    },
+    {
+     "en": "water the flowers",
+     "tr": "çiçekleri sulamak"
+    },
+    {
+     "en": "ride a bike",
+     "tr": "bisiklete binmek"
+    },
+    {
+     "en": "run errands",
+     "tr": "günlük işleri yapmak"
+    },
+    {
+     "en": "study",
+     "tr": "ders çalışmak"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "water the flowers",
+       "b": "çiçekleri sulamak"
+      },
+      {
+       "a": "weekend",
+       "b": "hafta sonu"
+      },
+      {
+       "a": "visit relatives",
+       "b": "akrabaları ziyaret etmek"
+      },
+      {
+       "a": "watch TV",
+       "b": "televizyon izlemek"
+      },
+      {
+       "a": "ride a bike",
+       "b": "bisiklete binmek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"günlük yazmak\"?",
+     "answer": "write a diary",
+     "options": [
+      "write a diary",
+      "watch TV",
+      "visit relatives",
+      "wake up"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"hafta sonu\"?",
+     "answer": "weekend",
+     "options": [
+      "weekend",
+      "water the flowers",
+      "walk the dog",
+      "watch TV"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Arkadaşlık — ek kelimeler",
+   "items": [
+    {
+     "en": "take a course",
+     "tr": "kurs almak"
+    },
+    {
+     "en": "take a nap",
+     "tr": "şekerleme yapmak"
+    },
+    {
+     "en": "take care of a pet",
+     "tr": "evcil hayvan ile ilgilenmek"
+    },
+    {
+     "en": "life",
+     "tr": "yaşam, hayat"
+    },
+    {
+     "en": "listen to music",
+     "tr": "müzik dinlemek"
+    },
+    {
+     "en": "meet friends",
+     "tr": "arkadaşlarla buluşmak"
+    },
+    {
+     "en": "noon",
+     "tr": "öğlen"
+    },
+    {
+     "en": "play chess",
+     "tr": "satranç oynamak"
+    },
+    {
+     "en": "read a book",
+     "tr": "kitap okumak"
+    },
+    {
+     "en": "have breakfast",
+     "tr": "kahvaltı yapmak"
+    },
+    {
+     "en": "have dinner",
+     "tr": "akşam yemeği yemek"
+    },
+    {
+     "en": "have lunch",
+     "tr": "öğle yemeği yemek"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "have lunch",
+       "b": "öğle yemeği yemek"
+      },
+      {
+       "a": "have breakfast",
+       "b": "kahvaltı yapmak"
+      },
+      {
+       "a": "meet friends",
+       "b": "arkadaşlarla buluşmak"
+      },
+      {
+       "a": "take a nap",
+       "b": "şekerleme yapmak"
+      },
+      {
+       "a": "listen to music",
+       "b": "müzik dinlemek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"satranç oynamak\"?",
+     "answer": "play chess",
+     "options": [
+      "play chess",
+      "life",
+      "noon",
+      "have breakfast"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"müzik dinlemek\"?",
+     "answer": "listen to music",
+     "options": [
+      "listen to music",
+      "life",
+      "meet friends",
+      "take a nap"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Making Invitations",
+   "titleTr": "Davet etme",
+   "rule": "Birini bir şeye davet ederken *Would you like to ...?*, *How about ...?* veya *Let's ...* kullanırız.",
+   "chips": [
+    "Would you like to ...?",
+    "How about ...?",
+    "Let's ...",
+    "Why don't we ...?"
+   ],
+   "examples": [
+    {
+     "en": "*Would you like to* come to my birthday party?",
+     "tr": "Doğum günü partime gelmek ister misin?"
+    },
+    {
+     "en": "*How about* going to the cinema tonight?",
+     "tr": "Bu akşam sinemaya gitmeye ne dersin?"
+    },
+    {
+     "en": "*Let's* study together at the library.",
+     "tr": "Hadi kütüphanede birlikte çalışalım."
+    },
+    {
+     "en": "*Why don't we* play basketball after school?",
+     "tr": "Okuldan sonra neden basketbol oynamıyoruz?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Making Invitations",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ come to my birthday party?",
+     "answer": "Would you like to",
+     "options": [
+      "Would you like to",
+      "How about",
+      "Let's",
+      "Why don't we"
+     ],
+     "tr": "Doğum günü partime gelmek ister misin?"
+    },
+    {
+     "kind": "fill",
+     "text": "___ going to the cinema tonight?",
+     "answer": "How about",
+     "options": [
+      "How about",
+      "Would you like to",
+      "Let's",
+      "Why don't we"
+     ],
+     "tr": "Bu akşam sinemaya gitmeye ne dersin?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Making Invitations",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ study together at the library.",
+     "answer": "Let's",
+     "options": [
+      "Let's",
+      "Would you like to",
+      "How about",
+      "Why don't we"
+     ],
+     "tr": "Hadi kütüphanede birlikte çalışalım."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Why don't we play basketball after school?",
+     "tr": "Okuldan sonra neden basketbol oynamıyoruz?"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Accepting & Refusing",
+   "titleTr": "Kabul etme ve reddetme",
+   "rule": "Daveti kabul ederken sevinç, reddederken *özür + mazeret* belirtiriz.",
+   "columns": [
+    {
+     "title": "ACCEPT ✅",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "*I'd love to*, thanks!",
+       "tr": "Çok isterim, teşekkürler!"
+      },
+      {
+       "en": "*Sure*, that sounds great.",
+       "tr": "Tabii, kulağa harika geliyor."
+      },
+      {
+       "en": "*Of course*, I'll be there.",
+       "tr": "Elbette, orada olacağım."
+      }
+     ]
+    },
+    {
+     "title": "REFUSE ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "*I'm sorry*, I can't. I have to study.",
+       "tr": "Üzgünüm, gelemem. Ders çalışmam gerek."
+      },
+      {
+       "en": "*I'd love to, but* I'm busy tomorrow.",
+       "tr": "Çok isterdim ama yarın meşgulüm."
+      },
+      {
+       "en": "*Maybe next time*, I'm not feeling well.",
+       "tr": "Belki başka zaman, kendimi iyi hissetmiyorum."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Accepting & Refusing",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___, thanks!",
+     "answer": "I'd love to",
+     "options": [
+      "I'd love to",
+      "Sure",
+      "Of course",
+      "I'm sorry"
+     ],
+     "tr": "Çok isterim, teşekkürler!"
+    },
+    {
+     "kind": "fill",
+     "text": "___, that sounds great.",
+     "answer": "Sure",
+     "options": [
+      "Sure",
+      "I'd love to",
+      "Of course",
+      "I'm sorry"
+     ],
+     "tr": "Tabii, kulağa harika geliyor."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Accepting & Refusing",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___, I'll be there.",
+     "answer": "Of course",
+     "options": [
+      "Of course",
+      "I'd love to",
+      "Sure",
+      "I'm sorry"
+     ],
+     "tr": "Elbette, orada olacağım."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Maybe next time, I'm not feeling well.",
+     "tr": "Belki başka zaman, kendimi iyi hissetmiyorum."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Talking with Friends",
+   "titleTr": "Arkadaşlarla konuşma",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Ali",
+       "text": "Would you like to join our chess club?"
+      },
+      {
+       "who": "Deniz",
+       "text": "I'd love to! When do you meet?"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Ece",
+       "text": "How about a picnic on Sunday?"
+      },
+      {
+       "who": "Mert",
+       "text": "I'm sorry, I can't. I'm visiting my grandparents."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Sena",
+       "text": "Let's watch a film tonight."
+      },
+      {
+       "who": "Kaan",
+       "text": "Sure, that sounds great!"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "arkadaşlık → ?",
+     "a": "friendship"
+    },
+    {
+     "q": "en iyi arkadaş → ?",
+     "a": "best friend"
+    },
+    {
+     "q": "dost → ?",
+     "a": "buddy"
+    },
+    {
+     "q": "arkadaş → ?",
+     "a": "mate"
+    },
+    {
+     "q": "tavsiye → ?",
+     "a": "advice"
+    },
+    {
+     "q": "konser → ?",
+     "a": "concert"
+    },
+    {
+     "q": "uğramak → ?",
+     "a": "come over"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ],
+ "source": "res/book_8.pdf"
+}

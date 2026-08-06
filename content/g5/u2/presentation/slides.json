@@ -1,0 +1,1953 @@
+{
+ "title": "Classroom Life",
+ "titleTr": "Sınıf Hayatı",
+ "emoji": "✏️",
+ "accent": [
+  "#f472b6",
+  "#a855f7"
+ ],
+ "pages": [
+  "p01.webp",
+  "p02.webp",
+  "p03.webp",
+  "p04.webp",
+  "p05.webp",
+  "p06.webp"
+ ],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 2",
+   "title": "Classroom Life",
+   "titleTr": "Sınıf Hayatı — kurallar, eşyalar, saatler ve dersler",
+   "emoji": "✏️"
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Fiiller",
+   "items": [
+    {
+     "en": "start",
+     "tr": "başlamak",
+     "emoji": "▶️"
+    },
+    {
+     "en": "finish",
+     "tr": "bitmek",
+     "emoji": "🏁"
+    },
+    {
+     "en": "talk / speak",
+     "tr": "konuşmak",
+     "emoji": "💬"
+    },
+    {
+     "en": "borrow",
+     "tr": "ödünç almak",
+     "emoji": "🤲"
+    },
+    {
+     "en": "lend",
+     "tr": "ödünç vermek",
+     "emoji": "🎁"
+    },
+    {
+     "en": "bring",
+     "tr": "getirmek",
+     "emoji": "📦"
+    },
+    {
+     "en": "tidy up",
+     "tr": "toparlamak",
+     "emoji": "🧹"
+    },
+    {
+     "en": "forget",
+     "tr": "unutmak",
+     "emoji": "🤔"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Verbs",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "forget",
+       "b": "unutmak"
+      },
+      {
+       "a": "start",
+       "b": "başlamak"
+      },
+      {
+       "a": "finish",
+       "b": "bitmek"
+      },
+      {
+       "a": "talk / speak",
+       "b": "konuşmak"
+      },
+      {
+       "a": "bring",
+       "b": "getirmek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"başlamak\"?",
+     "answer": "start",
+     "options": [
+      "start",
+      "tidy up",
+      "finish",
+      "talk / speak"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Verbs",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"ödünç vermek\"?",
+     "answer": "lend",
+     "options": [
+      "lend",
+      "borrow",
+      "finish",
+      "start"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Fiiller",
+   "items": [
+    {
+     "en": "keep",
+     "tr": "tutmak",
+     "emoji": "🤝"
+    },
+    {
+     "en": "follow",
+     "tr": "uymak",
+     "emoji": "👣"
+    },
+    {
+     "en": "hang",
+     "tr": "asmak",
+     "emoji": "🧷"
+    },
+    {
+     "en": "shout",
+     "tr": "bağırmak",
+     "emoji": "📢"
+    },
+    {
+     "en": "leave",
+     "tr": "ayrılmak",
+     "emoji": "🚪"
+    },
+    {
+     "en": "warn",
+     "tr": "uyarmak",
+     "emoji": "⚠️"
+    },
+    {
+     "en": "hold on",
+     "tr": "beklemek",
+     "emoji": "⏳"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Verbs",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "follow",
+       "b": "uymak"
+      },
+      {
+       "a": "hang",
+       "b": "asmak"
+      },
+      {
+       "a": "keep",
+       "b": "tutmak"
+      },
+      {
+       "a": "leave",
+       "b": "ayrılmak"
+      },
+      {
+       "a": "warn",
+       "b": "uyarmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"uymak\"?",
+     "answer": "follow",
+     "options": [
+      "follow",
+      "warn",
+      "keep",
+      "hang"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Verbs",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"tutmak\"?",
+     "answer": "keep",
+     "options": [
+      "keep",
+      "shout",
+      "hang",
+      "follow"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Classroom Rules",
+   "titleTr": "Sınıf kuralları — emir cümleleri",
+   "rule": "Olumlu emir cümleleri fiilin yalın hâli ile, olumsuz emir cümleleri *don't* ile başlar.",
+   "columns": [
+    {
+     "title": "DO ✅",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "Listen to your teachers carefully.",
+       "tr": "Öğretmenlerini dikkatlice dinle."
+      },
+      {
+       "en": "Bring the school materials.",
+       "tr": "Okul materyallerini getir."
+      },
+      {
+       "en": "Raise your hand to speak.",
+       "tr": "Konuşmak için elini kaldır."
+      },
+      {
+       "en": "Keep the classroom clean.",
+       "tr": "Sınıfı temiz tut."
+      },
+      {
+       "en": "Speak quietly.",
+       "tr": "Sessizce konuş."
+      },
+      {
+       "en": "Tidy up your desk.",
+       "tr": "Sıranı toparla."
+      },
+      {
+       "en": "Follow the classroom rules.",
+       "tr": "Sınıf kurallarına uy."
+      }
+     ]
+    },
+    {
+     "title": "DON'T ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "*Don't* throw rubbish on the ground.",
+       "tr": "Yere çöp atma."
+      },
+      {
+       "en": "*Don't* run in the classroom.",
+       "tr": "Sınıfta koşma."
+      },
+      {
+       "en": "*Don't* shout at your friends.",
+       "tr": "Arkadaşlarına bağırma."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Classroom Rules",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ throw rubbish on the ground.",
+     "answer": "Don't",
+     "options": [
+      "Don't"
+     ],
+     "tr": "Yere çöp atma."
+    },
+    {
+     "kind": "fill",
+     "text": "___ run in the classroom.",
+     "answer": "Don't",
+     "options": [
+      "Don't"
+     ],
+     "tr": "Sınıfta koşma."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Classroom Rules",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ shout at your friends.",
+     "answer": "Don't",
+     "options": [
+      "Don't"
+     ],
+     "tr": "Arkadaşlarına bağırma."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Don't shout at your friends.",
+     "tr": "Arkadaşlarına bağırma."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School Subjects",
+   "titleTr": "Okul dersleri",
+   "items": [
+    {
+     "en": "Maths",
+     "tr": "Matematik",
+     "emoji": "➗",
+     "img": "p05-01.png"
+    },
+    {
+     "en": "Science",
+     "tr": "Fen Bilimleri",
+     "emoji": "🔬",
+     "img": "p05-02.png"
+    },
+    {
+     "en": "Social Studies",
+     "tr": "Sosyal Bilgiler",
+     "emoji": "🌍",
+     "img": "p05-03.png"
+    },
+    {
+     "en": "Foreign Language",
+     "tr": "Yabancı Dil",
+     "emoji": "🇬🇧",
+     "img": "p05-04.png"
+    },
+    {
+     "en": "Turkish",
+     "tr": "Türkçe",
+     "emoji": "📖",
+     "img": "p05-05.png"
+    },
+    {
+     "en": "Art",
+     "tr": "Görsel Sanatlar",
+     "emoji": "🎨",
+     "img": "p05-06.png"
+    },
+    {
+     "en": "Music",
+     "tr": "Müzik",
+     "emoji": "🎵",
+     "img": "p05-07.png"
+    },
+    {
+     "en": "Religion and Morals",
+     "tr": "Din Kültürü ve Ahlak Bilgisi",
+     "emoji": "🕌",
+     "img": "p05-08.png"
+    },
+    {
+     "en": "Physical Education (P.E.)",
+     "tr": "Beden Eğitimi",
+     "emoji": "⚽",
+     "img": "p05-09.png"
+    },
+    {
+     "en": "Drama",
+     "tr": "Tiyatro",
+     "emoji": "🎭",
+     "img": "p05-10.png"
+    },
+    {
+     "en": "Information Technology (IT)",
+     "tr": "Bilişim Teknolojileri",
+     "emoji": "💻",
+     "img": "p05-11.png"
+    },
+    {
+     "en": "Elective Lesson",
+     "tr": "Seçmeli Ders",
+     "emoji": "📝",
+     "img": "p05-12.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "School Subjects",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "Drama",
+       "b": "Tiyatro"
+      },
+      {
+       "a": "Music",
+       "b": "Müzik"
+      },
+      {
+       "a": "Elective Lesson",
+       "b": "Seçmeli Ders"
+      },
+      {
+       "a": "Physical Education (P.E.)",
+       "b": "Beden Eğitimi"
+      },
+      {
+       "a": "Information Technology (IT)",
+       "b": "Bilişim Teknolojileri"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p05-04.png",
+     "answer": "Foreign Language",
+     "tr": "Yabancı Dil",
+     "options": [
+      "Foreign Language",
+      "Turkish",
+      "Social Studies",
+      "Maths"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "School Subjects",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p05-01.png",
+     "answer": "Maths",
+     "tr": "Matematik",
+     "options": [
+      "Maths",
+      "Art",
+      "Music",
+      "Information Technology (IT)"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"Matematik\"?",
+     "answer": "Maths",
+     "options": [
+      "Maths",
+      "Art",
+      "Information Technology (IT)",
+      "Religion and Morals"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "have got / has got",
+   "titleTr": "Derslerimizden bahsederken",
+   "rule": "I / You / We / They → *have got*.  He / She / It → *has got*.  Günlerden önce *on*, saatlerden önce *at* kullanılır.",
+   "examples": [
+    {
+     "en": "I *have got* a Science class *at* nine o'clock *on* Monday.",
+     "tr": "Ben Pazartesi günü saat dokuzda bir Fen Bilimleri dersine sahibim.",
+     "img": "p05-02.png"
+    },
+    {
+     "en": "He *has got* double Maths classes *at* half past ten *on* Friday.",
+     "tr": "O Cuma günü saat on buçukta iki Matematik dersine sahip.",
+     "img": "p05-01.png"
+    },
+    {
+     "en": "You *have got* an English class *at* two o'clock *on* Wednesday.",
+     "tr": "Sen Çarşamba günü saat ikide bir İngilizce dersine sahipsin."
+    },
+    {
+     "en": "They *have got* a Music class *on* Tuesday.",
+     "tr": "Onlar Salı günü bir Müzik dersine sahipler.",
+     "img": "p05-07.png"
+    },
+    {
+     "en": "She *has got* a P.E. class *at* eleven o'clock.",
+     "tr": "O saat on birde bir Beden Eğitimi dersine sahip."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "have got / has got",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ a Science class at nine o'clock on Monday.",
+     "answer": "have got",
+     "options": [
+      "have got",
+      "has got"
+     ],
+     "tr": "Ben Pazartesi günü saat dokuzda bir Fen Bilimleri dersine sahibim."
+    },
+    {
+     "kind": "fill",
+     "text": "He ___ double Maths classes at half past ten on Friday.",
+     "answer": "has got",
+     "options": [
+      "has got",
+      "have got"
+     ],
+     "tr": "O Cuma günü saat on buçukta iki Matematik dersine sahip."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "have got / has got",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ an English class at two o'clock on Wednesday.",
+     "answer": "have got",
+     "options": [
+      "have got",
+      "has got"
+     ],
+     "tr": "Sen Çarşamba günü saat ikide bir İngilizce dersine sahipsin."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "They have got a Music class on Tuesday.",
+     "tr": "Onlar Salı günü bir Müzik dersine sahipler."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "What time? / When?",
+   "titleTr": "Saat kaçta? / Ne zaman?",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Susan",
+       "text": "What time does the Art class start?"
+      },
+      {
+       "who": "Fiona",
+       "text": "It starts at quarter to eleven."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Barney",
+       "text": "What time does the Art class finish?"
+      },
+      {
+       "who": "Mike",
+       "text": "It finishes at 3 p.m."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "John",
+       "text": "When do you have an Art class?"
+      },
+      {
+       "who": "Nora",
+       "text": "On Wednesdays."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Emily",
+       "text": "When do you have a Maths class?"
+      },
+      {
+       "who": "Alex",
+       "text": "On Tuesdays."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Classroom Objects",
+   "titleTr": "Sınıf eşyaları",
+   "items": [
+    {
+     "en": "pencil",
+     "tr": "kurşun kalem",
+     "emoji": "✏️"
+    },
+    {
+     "en": "pen",
+     "tr": "tükenmez kalem",
+     "emoji": "🖊️"
+    },
+    {
+     "en": "coloured pencil",
+     "tr": "renkli kalem",
+     "emoji": "🖍️"
+    },
+    {
+     "en": "crayon",
+     "tr": "pastel boya",
+     "emoji": "🖍️"
+    },
+    {
+     "en": "rubber / eraser",
+     "tr": "silgi",
+     "emoji": "🧽"
+    },
+    {
+     "en": "sharpener",
+     "tr": "kalemtıraş",
+     "emoji": "🔺"
+    },
+    {
+     "en": "pencil case",
+     "tr": "kalem kutusu",
+     "emoji": "🧰"
+    },
+    {
+     "en": "book",
+     "tr": "kitap",
+     "emoji": "📕"
+    },
+    {
+     "en": "notebook",
+     "tr": "defter",
+     "emoji": "📓"
+    },
+    {
+     "en": "dictionary",
+     "tr": "sözlük",
+     "emoji": "📚"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Classroom Objects",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "pencil",
+       "b": "kurşun kalem"
+      },
+      {
+       "a": "coloured pencil",
+       "b": "renkli kalem"
+      },
+      {
+       "a": "pen",
+       "b": "tükenmez kalem"
+      },
+      {
+       "a": "book",
+       "b": "kitap"
+      },
+      {
+       "a": "sharpener",
+       "b": "kalemtıraş"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"silgi\"?",
+     "answer": "rubber / eraser",
+     "options": [
+      "rubber / eraser",
+      "coloured pencil",
+      "pencil case",
+      "dictionary"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Classroom Objects",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"pastel boya\"?",
+     "answer": "crayon",
+     "options": [
+      "crayon",
+      "book",
+      "notebook",
+      "coloured pencil"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Classroom Objects",
+   "titleTr": "Sınıf eşyaları",
+   "items": [
+    {
+     "en": "sheet",
+     "tr": "kağıt",
+     "emoji": "📄"
+    },
+    {
+     "en": "material",
+     "tr": "materyal",
+     "emoji": "🧩"
+    },
+    {
+     "en": "scissors",
+     "tr": "makas",
+     "emoji": "✂️"
+    },
+    {
+     "en": "ruler",
+     "tr": "cetvel",
+     "emoji": "📏"
+    },
+    {
+     "en": "glue",
+     "tr": "yapıştırıcı",
+     "emoji": "🧴"
+    },
+    {
+     "en": "school bag",
+     "tr": "okul çantası",
+     "emoji": "🎒"
+    },
+    {
+     "en": "poster",
+     "tr": "poster",
+     "emoji": "🖼️"
+    },
+    {
+     "en": "map",
+     "tr": "harita",
+     "emoji": "🗺️"
+    },
+    {
+     "en": "notice board",
+     "tr": "duyuru panosu",
+     "emoji": "📌"
+    },
+    {
+     "en": "board",
+     "tr": "tahta",
+     "emoji": "🟩"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Classroom Objects",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "map",
+       "b": "harita"
+      },
+      {
+       "a": "notice board",
+       "b": "duyuru panosu"
+      },
+      {
+       "a": "school bag",
+       "b": "okul çantası"
+      },
+      {
+       "a": "scissors",
+       "b": "makas"
+      },
+      {
+       "a": "sheet",
+       "b": "kağıt"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"duyuru panosu\"?",
+     "answer": "notice board",
+     "options": [
+      "notice board",
+      "glue",
+      "ruler",
+      "board"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Classroom Objects",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"harita\"?",
+     "answer": "map",
+     "options": [
+      "map",
+      "board",
+      "sheet",
+      "notice board"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Classroom Objects",
+   "titleTr": "Sınıf eşyaları",
+   "items": [
+    {
+     "en": "smart board",
+     "tr": "akıllı tahta",
+     "emoji": "🖥️"
+    },
+    {
+     "en": "board marker",
+     "tr": "tahta kalemi",
+     "emoji": "🖊️"
+    },
+    {
+     "en": "bookcase",
+     "tr": "kitaplık",
+     "emoji": "🗄️"
+    },
+    {
+     "en": "bookshelf",
+     "tr": "kitap rafı",
+     "emoji": "📚"
+    },
+    {
+     "en": "desk",
+     "tr": "sıra",
+     "emoji": "🪑"
+    },
+    {
+     "en": "table",
+     "tr": "masa",
+     "emoji": "🛋️"
+    },
+    {
+     "en": "seat",
+     "tr": "oturak",
+     "emoji": "💺"
+    },
+    {
+     "en": "rubbish bin / trash can",
+     "tr": "çöp kutusu",
+     "emoji": "🗑️"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Classroom Objects",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "rubbish bin / trash can",
+       "b": "çöp kutusu"
+      },
+      {
+       "a": "seat",
+       "b": "oturak"
+      },
+      {
+       "a": "bookshelf",
+       "b": "kitap rafı"
+      },
+      {
+       "a": "board marker",
+       "b": "tahta kalemi"
+      },
+      {
+       "a": "bookcase",
+       "b": "kitaplık"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kitap rafı\"?",
+     "answer": "bookshelf",
+     "options": [
+      "bookshelf",
+      "smart board",
+      "table",
+      "rubbish bin / trash can"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Classroom Objects",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"akıllı tahta\"?",
+     "answer": "smart board",
+     "options": [
+      "smart board",
+      "board marker",
+      "table",
+      "desk"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Days of the Week",
+   "titleTr": "Haftanın günleri",
+   "items": [
+    {
+     "en": "Monday",
+     "tr": "Pazartesi",
+     "emoji": "📅"
+    },
+    {
+     "en": "Tuesday",
+     "tr": "Salı",
+     "emoji": "📅"
+    },
+    {
+     "en": "Wednesday",
+     "tr": "Çarşamba",
+     "emoji": "📅"
+    },
+    {
+     "en": "Thursday",
+     "tr": "Perşembe",
+     "emoji": "📅"
+    },
+    {
+     "en": "Friday",
+     "tr": "Cuma",
+     "emoji": "📅"
+    },
+    {
+     "en": "Saturday",
+     "tr": "Cumartesi",
+     "emoji": "🌞"
+    },
+    {
+     "en": "Sunday",
+     "tr": "Pazar",
+     "emoji": "🌞"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Days of the Week",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "Tuesday",
+       "b": "Salı"
+      },
+      {
+       "a": "Thursday",
+       "b": "Perşembe"
+      },
+      {
+       "a": "Saturday",
+       "b": "Cumartesi"
+      },
+      {
+       "a": "Friday",
+       "b": "Cuma"
+      },
+      {
+       "a": "Wednesday",
+       "b": "Çarşamba"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"Pazartesi\"?",
+     "answer": "Monday",
+     "options": [
+      "Monday",
+      "Saturday",
+      "Friday",
+      "Thursday"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Days of the Week",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"Pazar\"?",
+     "answer": "Sunday",
+     "options": [
+      "Sunday",
+      "Wednesday",
+      "Thursday",
+      "Saturday"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Numbers 1–20",
+   "titleTr": "Sayılar",
+   "items": [
+    {
+     "en": "one",
+     "tr": "1",
+     "num": "1"
+    },
+    {
+     "en": "two",
+     "tr": "2",
+     "num": "2"
+    },
+    {
+     "en": "three",
+     "tr": "3",
+     "num": "3"
+    },
+    {
+     "en": "four",
+     "tr": "4",
+     "num": "4"
+    },
+    {
+     "en": "five",
+     "tr": "5",
+     "num": "5"
+    },
+    {
+     "en": "six",
+     "tr": "6",
+     "num": "6"
+    },
+    {
+     "en": "seven",
+     "tr": "7",
+     "num": "7"
+    },
+    {
+     "en": "eight",
+     "tr": "8",
+     "num": "8"
+    },
+    {
+     "en": "nine",
+     "tr": "9",
+     "num": "9"
+    },
+    {
+     "en": "ten",
+     "tr": "10",
+     "num": "10"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Numbers 1–20",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "six",
+       "b": "6"
+      },
+      {
+       "a": "three",
+       "b": "3"
+      },
+      {
+       "a": "one",
+       "b": "1"
+      },
+      {
+       "a": "five",
+       "b": "5"
+      },
+      {
+       "a": "eight",
+       "b": "8"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"4\"?",
+     "answer": "four",
+     "options": [
+      "four",
+      "ten",
+      "six",
+      "five"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Numbers 1–20",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"2\"?",
+     "answer": "two",
+     "options": [
+      "two",
+      "nine",
+      "three",
+      "six"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Numbers 1–20",
+   "titleTr": "Sayılar",
+   "items": [
+    {
+     "en": "eleven",
+     "tr": "11",
+     "num": "11"
+    },
+    {
+     "en": "twelve",
+     "tr": "12",
+     "num": "12"
+    },
+    {
+     "en": "thirteen",
+     "tr": "13",
+     "num": "13"
+    },
+    {
+     "en": "fourteen",
+     "tr": "14",
+     "num": "14"
+    },
+    {
+     "en": "fifteen",
+     "tr": "15",
+     "num": "15"
+    },
+    {
+     "en": "sixteen",
+     "tr": "16",
+     "num": "16"
+    },
+    {
+     "en": "seventeen",
+     "tr": "17",
+     "num": "17"
+    },
+    {
+     "en": "eighteen",
+     "tr": "18",
+     "num": "18"
+    },
+    {
+     "en": "nineteen",
+     "tr": "19",
+     "num": "19"
+    },
+    {
+     "en": "twenty",
+     "tr": "20",
+     "num": "20"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Numbers 1–20",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "nineteen",
+       "b": "19"
+      },
+      {
+       "a": "seventeen",
+       "b": "17"
+      },
+      {
+       "a": "eighteen",
+       "b": "18"
+      },
+      {
+       "a": "fourteen",
+       "b": "14"
+      },
+      {
+       "a": "thirteen",
+       "b": "13"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"14\"?",
+     "answer": "fourteen",
+     "options": [
+      "fourteen",
+      "nineteen",
+      "twelve",
+      "eleven"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Numbers 1–20",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"13\"?",
+     "answer": "thirteen",
+     "options": [
+      "thirteen",
+      "seventeen",
+      "eighteen",
+      "fourteen"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Numbers 21–100",
+   "titleTr": "Onluklar ve birleşik sayılar",
+   "items": [
+    {
+     "en": "twenty-one",
+     "tr": "21",
+     "num": "21"
+    },
+    {
+     "en": "twenty-five",
+     "tr": "25",
+     "num": "25"
+    },
+    {
+     "en": "twenty-nine",
+     "tr": "29",
+     "num": "29"
+    },
+    {
+     "en": "thirty",
+     "tr": "30",
+     "num": "30"
+    },
+    {
+     "en": "thirty-three",
+     "tr": "33",
+     "num": "33"
+    },
+    {
+     "en": "forty",
+     "tr": "40",
+     "num": "40"
+    },
+    {
+     "en": "fifty",
+     "tr": "50",
+     "num": "50"
+    },
+    {
+     "en": "sixty",
+     "tr": "60",
+     "num": "60"
+    },
+    {
+     "en": "seventy",
+     "tr": "70",
+     "num": "70"
+    },
+    {
+     "en": "eighty",
+     "tr": "80",
+     "num": "80"
+    },
+    {
+     "en": "ninety",
+     "tr": "90",
+     "num": "90"
+    },
+    {
+     "en": "one hundred",
+     "tr": "100",
+     "num": "100"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Numbers 21–100",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "eighty",
+       "b": "80"
+      },
+      {
+       "a": "thirty-three",
+       "b": "33"
+      },
+      {
+       "a": "twenty-one",
+       "b": "21"
+      },
+      {
+       "a": "fifty",
+       "b": "50"
+      },
+      {
+       "a": "twenty-five",
+       "b": "25"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"90\"?",
+     "answer": "ninety",
+     "options": [
+      "ninety",
+      "fifty",
+      "eighty",
+      "forty"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Numbers 21–100",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"33\"?",
+     "answer": "thirty-three",
+     "options": [
+      "thirty-three",
+      "seventy",
+      "twenty-one",
+      "twenty-five"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Telling the Time",
+   "titleTr": "Saati söyleme",
+   "rule": "Saati sormak için *What time is it?* veya *What is the time?* deriz.",
+   "chips": [
+    "o'clock",
+    "half past",
+    "quarter past",
+    "quarter to",
+    "past",
+    "to"
+   ],
+   "examples": [
+    {
+     "en": "08:00 → It is eight *o'clock*.",
+     "tr": "Dakikası olmayan tam saatler"
+    },
+    {
+     "en": "10:30 → It is *half past* ten.",
+     "tr": "Buçuk geçiyor (30 dakika)"
+    },
+    {
+     "en": "16:15 → It is *quarter past* four.",
+     "tr": "Çeyrek geçiyor (15 dakika)"
+    },
+    {
+     "en": "01:45 → It is *quarter to* two.",
+     "tr": "Çeyrek var (45 dakika)"
+    },
+    {
+     "en": "09:22 → It is twenty-two *past* nine.",
+     "tr": "30'dan küçük dakikalar: geçiyor"
+    },
+    {
+     "en": "08:33 → It is twenty-seven *to* nine.",
+     "tr": "30'dan büyük dakikalar: var"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Telling the Time",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "08:00 → It is eight ___.",
+     "answer": "o'clock",
+     "options": [
+      "o'clock",
+      "half past",
+      "quarter past",
+      "quarter to"
+     ],
+     "tr": "Dakikası olmayan tam saatler"
+    },
+    {
+     "kind": "fill",
+     "text": "10:30 → It is ___ ten.",
+     "answer": "half past",
+     "options": [
+      "half past",
+      "o'clock",
+      "quarter past",
+      "quarter to"
+     ],
+     "tr": "Buçuk geçiyor (30 dakika)"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Telling the Time",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "16:15 → It is ___ four.",
+     "answer": "quarter past",
+     "options": [
+      "quarter past",
+      "o'clock",
+      "half past",
+      "quarter to"
+     ],
+     "tr": "Çeyrek geçiyor (15 dakika)"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "08:33 → It is twenty-seven to nine.",
+     "tr": "30'dan büyük dakikalar: var"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "a.m. / p.m.",
+   "titleTr": "Günün bölümleri",
+   "rule": "00:00 – 11:59 arası *a.m.* (öğleden önce), 12:00 – 23:59 arası *p.m.* (öğleden sonra).",
+   "examples": [
+    {
+     "en": "A: What time is it?  B: It is 8:15 *a.m.*",
+     "tr": "Sabah 8:15"
+    },
+    {
+     "en": "A: What time is it?  B: It is 8:15 *p.m.*",
+     "tr": "Akşam 8:15"
+    },
+    {
+     "en": "The first class starts at 9:00 *a.m.*",
+     "tr": "İlk ders sabah 9'da başlar."
+    },
+    {
+     "en": "School finishes at 3:15 *p.m.*",
+     "tr": "Okul öğleden sonra 3:15'te biter."
+    },
+    {
+     "en": "I go to bed at 10:00 *p.m.*",
+     "tr": "Gece 10'da yatarım."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "a.m. / p.m.",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "A: What time is it?  B: It is 8:15 ___",
+     "answer": "a.m.",
+     "options": [
+      "a.m.",
+      "p.m."
+     ],
+     "tr": "Sabah 8:15"
+    },
+    {
+     "kind": "fill",
+     "text": "A: What time is it?  B: It is 8:15 ___",
+     "answer": "p.m.",
+     "options": [
+      "p.m.",
+      "a.m."
+     ],
+     "tr": "Akşam 8:15"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "a.m. / p.m.",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "The first class starts at 9:00 ___",
+     "answer": "a.m.",
+     "options": [
+      "a.m.",
+      "p.m."
+     ],
+     "tr": "İlk ders sabah 9'da başlar."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "I go to bed at 10:00 p.m.",
+     "tr": "Gece 10'da yatarım."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "There is / There are",
+   "titleTr": "Bir yerde bir şeyin var olduğunu söylerken",
+   "rule": "Tekil isimlerden önce *there is*, çoğul isimlerden önce *there are*.",
+   "columns": [
+    {
+     "title": "OLUMLU ✅",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "*There is* a smart board in the classroom.",
+       "tr": "Sınıfta bir akıllı tahta var."
+      },
+      {
+       "en": "*There are* fifteen students in the classroom.",
+       "tr": "Sınıfta on beş öğrenci var."
+      },
+      {
+       "en": "*There is* a Music lesson on Monday.",
+       "tr": "Pazartesi günü bir Müzik dersi var.",
+       "img": "p05-07.png"
+      }
+     ]
+    },
+    {
+     "title": "OLUMSUZ ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "*There isn't* a coach at school.",
+       "tr": "Okulda bir antrenör yok."
+      },
+      {
+       "en": "*There aren't* two sports fields at school.",
+       "tr": "Okulda iki spor sahası yok."
+      },
+      {
+       "en": "*There isn't* a Science class at ten o'clock.",
+       "tr": "Saat onda bir Fen Bilimleri dersi yok.",
+       "img": "p05-02.png"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "There is / There are",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ a smart board in the classroom.",
+     "answer": "There is",
+     "options": [
+      "There is",
+      "There are",
+      "There isn't",
+      "There aren't"
+     ],
+     "tr": "Sınıfta bir akıllı tahta var."
+    },
+    {
+     "kind": "fill",
+     "text": "___ fifteen students in the classroom.",
+     "answer": "There are",
+     "options": [
+      "There are",
+      "There is",
+      "There isn't",
+      "There aren't"
+     ],
+     "tr": "Sınıfta on beş öğrenci var."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "There is / There are",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ a Music lesson on Monday.",
+     "answer": "There is",
+     "options": [
+      "There is",
+      "There are",
+      "There isn't",
+      "There aren't"
+     ],
+     "tr": "Pazartesi günü bir Müzik dersi var."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "There isn't a Science class at ten o'clock.",
+     "tr": "Saat onda bir Fen Bilimleri dersi yok."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Is there ...? / Are there ...?",
+   "titleTr": "Kısa cevaplar: Yes, there is. / No, there aren't.",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Peter",
+       "text": "Is there a P.E. lesson today?"
+      },
+      {
+       "who": "Rose",
+       "text": "Yes, there is."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Liam",
+       "text": "Are there double Art classes today?"
+      },
+      {
+       "who": "Cedric",
+       "text": "No, there aren't."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "?",
+       "text": "Is there a bookcase in the classroom?"
+      },
+      {
+       "who": "!",
+       "text": "Sınıfta bir kitaplık var mı?"
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "?",
+       "text": "Are there ten desks in the classroom?"
+      },
+      {
+       "who": "!",
+       "text": "Sınıfta on sıra var mı?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "kalemtıraş → ?",
+     "a": "sharpener"
+    },
+    {
+     "q": "07:15 → ?",
+     "a": "It is quarter past seven."
+    },
+    {
+     "q": "08:33 → ?",
+     "a": "It is twenty-seven to nine."
+    },
+    {
+     "q": "She ___ got a Music class. (have / has)",
+     "a": "has"
+    },
+    {
+     "q": "___ are fifteen students in the class.",
+     "a": "There"
+    },
+    {
+     "q": "Is there a bookcase in the classroom? (evet)",
+     "a": "Yes, there is."
+    },
+    {
+     "q": "Yere çöp atma. → ?",
+     "a": "Don't throw rubbish on the ground."
+    }
+   ]
+  },
+  {
+   "type": "pages",
+   "title": "Kaynak Sayfalar",
+   "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Great job!",
+   "titleTr": "Sıra oyunlarda — kelimeleri ve saatleri pekiştirelim."
+  }
+ ]
+}

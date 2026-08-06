@@ -1,0 +1,2537 @@
+{
+ "title": "Personal Life",
+ "titleTr": "Kişisel Hayat",
+ "emoji": "🙋",
+ "accent": [
+  "#fb7185",
+  "#f59e0b"
+ ],
+ "pages": [
+  "p01.webp",
+  "p02.webp",
+  "p03.webp",
+  "p04.webp",
+  "p05.webp",
+  "p06.webp"
+ ],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 3",
+   "title": "Personal Life",
+   "titleTr": "Kişisel Hayat — görünüş, kıyafetler ve günlük rutin",
+   "emoji": "🙋"
+  },
+  {
+   "type": "vocab",
+   "title": "Body Parts",
+   "titleTr": "Vücudun bölümleri",
+   "items": [
+    {
+     "en": "body",
+     "tr": "vücut",
+     "emoji": "🧍",
+     "img": "p01-01.png"
+    },
+    {
+     "en": "head",
+     "tr": "kafa",
+     "emoji": "🗣️",
+     "img": "p01-02.png"
+    },
+    {
+     "en": "face",
+     "tr": "yüz",
+     "emoji": "😊",
+     "img": "p01-03.png"
+    },
+    {
+     "en": "hair",
+     "tr": "saç",
+     "emoji": "💇",
+     "img": "p01-04.png"
+    },
+    {
+     "en": "eye",
+     "tr": "göz",
+     "emoji": "👁️",
+     "img": "p01-05.png"
+    },
+    {
+     "en": "ear",
+     "tr": "kulak",
+     "emoji": "👂",
+     "img": "p01-06.png"
+    },
+    {
+     "en": "nose",
+     "tr": "burun",
+     "emoji": "👃",
+     "img": "p01-07.png"
+    },
+    {
+     "en": "mouth",
+     "tr": "ağız",
+     "emoji": "👄",
+     "img": "p01-08.png"
+    },
+    {
+     "en": "tooth",
+     "tr": "diş",
+     "emoji": "🦷",
+     "img": "p01-09.png"
+    },
+    {
+     "en": "neck",
+     "tr": "boyun",
+     "emoji": "🧣",
+     "img": "p01-10.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Body Parts",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "face",
+       "b": "yüz"
+      },
+      {
+       "a": "hair",
+       "b": "saç"
+      },
+      {
+       "a": "neck",
+       "b": "boyun"
+      },
+      {
+       "a": "eye",
+       "b": "göz"
+      },
+      {
+       "a": "mouth",
+       "b": "ağız"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-01.png",
+     "answer": "body",
+     "tr": "vücut",
+     "options": [
+      "body",
+      "tooth",
+      "eye",
+      "face"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Body Parts",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-02.png",
+     "answer": "head",
+     "tr": "kafa",
+     "options": [
+      "head",
+      "nose",
+      "face",
+      "body"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"boyun\"?",
+     "answer": "neck",
+     "options": [
+      "neck",
+      "eye",
+      "mouth",
+      "tooth"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Body Parts",
+   "titleTr": "Vücudun bölümleri",
+   "items": [
+    {
+     "en": "shoulder",
+     "tr": "omuz",
+     "emoji": "💪",
+     "img": "p01-11.png"
+    },
+    {
+     "en": "arm",
+     "tr": "kol",
+     "emoji": "💪",
+     "img": "p01-12.png"
+    },
+    {
+     "en": "hand",
+     "tr": "el",
+     "emoji": "✋",
+     "img": "p01-13.png"
+    },
+    {
+     "en": "finger",
+     "tr": "el parmağı",
+     "emoji": "☝️",
+     "img": "p01-14.png"
+    },
+    {
+     "en": "back",
+     "tr": "sırt",
+     "emoji": "🔙",
+     "img": "p01-15.png"
+    },
+    {
+     "en": "chest",
+     "tr": "göğüs",
+     "emoji": "🫁",
+     "img": "p01-16.png"
+    },
+    {
+     "en": "leg",
+     "tr": "bacak",
+     "emoji": "🦵",
+     "img": "p01-17.png"
+    },
+    {
+     "en": "knee",
+     "tr": "diz",
+     "emoji": "🦵",
+     "img": "p01-18.png"
+    },
+    {
+     "en": "foot",
+     "tr": "ayak",
+     "emoji": "🦶",
+     "img": "p01-19.png"
+    },
+    {
+     "en": "toe",
+     "tr": "ayak parmağı",
+     "emoji": "🦶",
+     "img": "p01-20.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Body Parts",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "hand",
+       "b": "el"
+      },
+      {
+       "a": "arm",
+       "b": "kol"
+      },
+      {
+       "a": "back",
+       "b": "sırt"
+      },
+      {
+       "a": "knee",
+       "b": "diz"
+      },
+      {
+       "a": "finger",
+       "b": "el parmağı"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-19.png",
+     "answer": "foot",
+     "tr": "ayak",
+     "options": [
+      "foot",
+      "chest",
+      "toe",
+      "back"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Body Parts",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-16.png",
+     "answer": "chest",
+     "tr": "göğüs",
+     "options": [
+      "chest",
+      "arm",
+      "leg",
+      "hand"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"diz\"?",
+     "answer": "knee",
+     "options": [
+      "knee",
+      "back",
+      "hand",
+      "foot"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Physical Features",
+   "titleTr": "Fiziksel özellikler",
+   "items": [
+    {
+     "en": "straight",
+     "tr": "düz",
+     "emoji": "📏"
+    },
+    {
+     "en": "wavy",
+     "tr": "dalgalı",
+     "emoji": "🌊"
+    },
+    {
+     "en": "curly",
+     "tr": "kıvırcık",
+     "emoji": "➰"
+    },
+    {
+     "en": "dark",
+     "tr": "koyu renk",
+     "emoji": "🌑"
+    },
+    {
+     "en": "fair",
+     "tr": "açık renk",
+     "emoji": "🌕"
+    },
+    {
+     "en": "blonde",
+     "tr": "sarışın",
+     "emoji": "👱"
+    },
+    {
+     "en": "thin / slim",
+     "tr": "zayıf, ince",
+     "emoji": "🧍"
+    },
+    {
+     "en": "medium weight",
+     "tr": "orta kilolu",
+     "emoji": "⚖️"
+    },
+    {
+     "en": "fat",
+     "tr": "şişman",
+     "emoji": "🧸"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Physical Features",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "thin / slim",
+       "b": "zayıf, ince"
+      },
+      {
+       "a": "medium weight",
+       "b": "orta kilolu"
+      },
+      {
+       "a": "fat",
+       "b": "şişman"
+      },
+      {
+       "a": "fair",
+       "b": "açık renk"
+      },
+      {
+       "a": "blonde",
+       "b": "sarışın"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"koyu renk\"?",
+     "answer": "dark",
+     "options": [
+      "dark",
+      "wavy",
+      "straight",
+      "fat"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Physical Features",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"açık renk\"?",
+     "answer": "fair",
+     "options": [
+      "fair",
+      "curly",
+      "wavy",
+      "straight"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Physical Features",
+   "titleTr": "Fiziksel özellikler",
+   "items": [
+    {
+     "en": "short",
+     "tr": "kısa",
+     "emoji": "🔽"
+    },
+    {
+     "en": "medium height",
+     "tr": "orta boylu",
+     "emoji": "📐"
+    },
+    {
+     "en": "tall",
+     "tr": "uzun",
+     "emoji": "🔼"
+    },
+    {
+     "en": "small",
+     "tr": "küçük",
+     "emoji": "🐜"
+    },
+    {
+     "en": "average",
+     "tr": "ortalama",
+     "emoji": "➖"
+    },
+    {
+     "en": "big",
+     "tr": "büyük",
+     "emoji": "🐘"
+    },
+    {
+     "en": "round",
+     "tr": "yuvarlak",
+     "emoji": "⚪"
+    },
+    {
+     "en": "oval",
+     "tr": "oval",
+     "emoji": "🥚"
+    },
+    {
+     "en": "square",
+     "tr": "kare şeklinde",
+     "emoji": "🟦"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Physical Features",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "short",
+       "b": "kısa"
+      },
+      {
+       "a": "small",
+       "b": "küçük"
+      },
+      {
+       "a": "big",
+       "b": "büyük"
+      },
+      {
+       "a": "oval",
+       "b": "oval"
+      },
+      {
+       "a": "round",
+       "b": "yuvarlak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kısa\"?",
+     "answer": "short",
+     "options": [
+      "short",
+      "oval",
+      "medium height",
+      "average"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Physical Features",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"yuvarlak\"?",
+     "answer": "round",
+     "options": [
+      "round",
+      "big",
+      "short",
+      "square"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "What do/does ... look like?",
+   "titleTr": "Birinin görünüşünü anlatmak",
+   "rule": "Boy, kilo ve genel görünüm için *am / is / are*. Sahip olunan saç, göz ve yüz özellikleri için *have got / has got*.",
+   "examples": [
+    {
+     "en": "I *am* short and slim.",
+     "tr": "Ben kısa ve zayıfım."
+    },
+    {
+     "en": "She *is* of medium height.",
+     "tr": "O orta boylu."
+    },
+    {
+     "en": "I *have got* straight hair.",
+     "tr": "Ben düz saçlara sahibim.",
+     "img": "p01-04.png"
+    },
+    {
+     "en": "She *has got* a small and round face.",
+     "tr": "O küçük ve yuvarlak bir yüze sahip.",
+     "img": "p01-03.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "What do/does ... look like?",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ short and slim.",
+     "answer": "am",
+     "options": [
+      "am",
+      "is",
+      "have got",
+      "has got"
+     ],
+     "tr": "Ben kısa ve zayıfım."
+    },
+    {
+     "kind": "fill",
+     "text": "She ___ of medium height.",
+     "answer": "is",
+     "options": [
+      "is",
+      "am",
+      "have got",
+      "has got"
+     ],
+     "tr": "O orta boylu."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "What do/does ... look like?",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ straight hair.",
+     "answer": "have got",
+     "options": [
+      "have got",
+      "am",
+      "is",
+      "has got"
+     ],
+     "tr": "Ben düz saçlara sahibim."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "She has got a small and round face.",
+     "tr": "O küçük ve yuvarlak bir yüze sahip."
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "Describing People",
+   "titleTr": "Nasıl görünüyor?",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Henry",
+       "text": "What does Emre look like?"
+      },
+      {
+       "who": "Luis",
+       "text": "He is tall and of medium weight."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Fiona",
+       "text": "What does Ceren look like?"
+      },
+      {
+       "who": "Molly",
+       "text": "She has got dark, wavy hair."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Clothes",
+   "titleTr": "Kıyafetler",
+   "items": [
+    {
+     "en": "trousers / pants",
+     "tr": "pantolon",
+     "emoji": "👖"
+    },
+    {
+     "en": "jeans",
+     "tr": "kot pantolon",
+     "emoji": "👖"
+    },
+    {
+     "en": "coat",
+     "tr": "mont",
+     "emoji": "🧥"
+    },
+    {
+     "en": "raincoat",
+     "tr": "yağmurluk",
+     "emoji": "🌧️"
+    },
+    {
+     "en": "jacket",
+     "tr": "ceket",
+     "emoji": "🧥"
+    },
+    {
+     "en": "jumper / sweater",
+     "tr": "kazak",
+     "emoji": "🧶"
+    },
+    {
+     "en": "cardigan",
+     "tr": "hırka",
+     "emoji": "🧶"
+    },
+    {
+     "en": "blouse",
+     "tr": "bluz",
+     "emoji": "👚"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Clothes",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "jumper / sweater",
+       "b": "kazak"
+      },
+      {
+       "a": "coat",
+       "b": "mont"
+      },
+      {
+       "a": "jacket",
+       "b": "ceket"
+      },
+      {
+       "a": "blouse",
+       "b": "bluz"
+      },
+      {
+       "a": "jeans",
+       "b": "kot pantolon"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"hırka\"?",
+     "answer": "cardigan",
+     "options": [
+      "cardigan",
+      "trousers / pants",
+      "raincoat",
+      "jumper / sweater"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Clothes",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"bluz\"?",
+     "answer": "blouse",
+     "options": [
+      "blouse",
+      "coat",
+      "jumper / sweater",
+      "jeans"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Clothes",
+   "titleTr": "Kıyafetler",
+   "items": [
+    {
+     "en": "shirt",
+     "tr": "gömlek",
+     "emoji": "👔"
+    },
+    {
+     "en": "T-shirt",
+     "tr": "tişört",
+     "emoji": "👕"
+    },
+    {
+     "en": "shorts",
+     "tr": "şort",
+     "emoji": "🩳"
+    },
+    {
+     "en": "dress",
+     "tr": "elbise",
+     "emoji": "👗"
+    },
+    {
+     "en": "skirt",
+     "tr": "etek",
+     "emoji": "👗"
+    },
+    {
+     "en": "fancy dress / costume",
+     "tr": "kostüm",
+     "emoji": "🎭"
+    },
+    {
+     "en": "uniform",
+     "tr": "üniforma",
+     "emoji": "🎽"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Clothes",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "dress",
+       "b": "elbise"
+      },
+      {
+       "a": "uniform",
+       "b": "üniforma"
+      },
+      {
+       "a": "skirt",
+       "b": "etek"
+      },
+      {
+       "a": "T-shirt",
+       "b": "tişört"
+      },
+      {
+       "a": "fancy dress / costume",
+       "b": "kostüm"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"gömlek\"?",
+     "answer": "shirt",
+     "options": [
+      "shirt",
+      "shorts",
+      "uniform",
+      "skirt"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Clothes",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"elbise\"?",
+     "answer": "dress",
+     "options": [
+      "dress",
+      "uniform",
+      "shirt",
+      "T-shirt"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Accessories",
+   "titleTr": "Aksesuarlar",
+   "items": [
+    {
+     "en": "gloves",
+     "tr": "eldiven",
+     "emoji": "🧤"
+    },
+    {
+     "en": "scarf",
+     "tr": "atkı",
+     "emoji": "🧣"
+    },
+    {
+     "en": "headscarf",
+     "tr": "başörtüsü",
+     "emoji": "🧕"
+    },
+    {
+     "en": "socks",
+     "tr": "çorap",
+     "emoji": "🧦"
+    },
+    {
+     "en": "bow",
+     "tr": "papyon",
+     "emoji": "🎀"
+    },
+    {
+     "en": "hat",
+     "tr": "şapka",
+     "emoji": "🎩"
+    },
+    {
+     "en": "cap",
+     "tr": "kep",
+     "emoji": "🧢"
+    },
+    {
+     "en": "shoes",
+     "tr": "ayakkabı",
+     "emoji": "👟"
+    },
+    {
+     "en": "boots",
+     "tr": "bot",
+     "emoji": "🥾"
+    },
+    {
+     "en": "belt",
+     "tr": "kemer",
+     "emoji": "🎗️"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Accessories",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "socks",
+       "b": "çorap"
+      },
+      {
+       "a": "hat",
+       "b": "şapka"
+      },
+      {
+       "a": "boots",
+       "b": "bot"
+      },
+      {
+       "a": "scarf",
+       "b": "atkı"
+      },
+      {
+       "a": "gloves",
+       "b": "eldiven"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kep\"?",
+     "answer": "cap",
+     "options": [
+      "cap",
+      "shoes",
+      "scarf",
+      "hat"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Accessories",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"atkı\"?",
+     "answer": "scarf",
+     "options": [
+      "scarf",
+      "cap",
+      "headscarf",
+      "socks"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Accessories",
+   "titleTr": "Aksesuarlar",
+   "items": [
+    {
+     "en": "bag",
+     "tr": "çanta",
+     "emoji": "👜"
+    },
+    {
+     "en": "handbag",
+     "tr": "el çantası",
+     "emoji": "👜"
+    },
+    {
+     "en": "backpack",
+     "tr": "sırt çantası",
+     "emoji": "🎒"
+    },
+    {
+     "en": "glasses",
+     "tr": "gözlük",
+     "emoji": "👓"
+    },
+    {
+     "en": "sunglasses",
+     "tr": "güneş gözlüğü",
+     "emoji": "🕶️"
+    },
+    {
+     "en": "watch",
+     "tr": "kol saati",
+     "emoji": "⌚"
+    },
+    {
+     "en": "umbrella",
+     "tr": "şemsiye",
+     "emoji": "☂️"
+    },
+    {
+     "en": "ring",
+     "tr": "yüzük",
+     "emoji": "💍"
+    },
+    {
+     "en": "earrings",
+     "tr": "küpe",
+     "emoji": "💎"
+    },
+    {
+     "en": "necklace",
+     "tr": "kolye",
+     "emoji": "📿"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Accessories",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "necklace",
+       "b": "kolye"
+      },
+      {
+       "a": "watch",
+       "b": "kol saati"
+      },
+      {
+       "a": "backpack",
+       "b": "sırt çantası"
+      },
+      {
+       "a": "earrings",
+       "b": "küpe"
+      },
+      {
+       "a": "glasses",
+       "b": "gözlük"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"el çantası\"?",
+     "answer": "handbag",
+     "options": [
+      "handbag",
+      "glasses",
+      "sunglasses",
+      "earrings"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Accessories",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"küpe\"?",
+     "answer": "earrings",
+     "options": [
+      "earrings",
+      "handbag",
+      "glasses",
+      "watch"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
+    {
+     "en": "thick",
+     "tr": "kalın",
+     "emoji": "🧱"
+    },
+    {
+     "en": "thin",
+     "tr": "ince",
+     "emoji": "📄"
+    },
+    {
+     "en": "long",
+     "tr": "uzun",
+     "emoji": "📏"
+    },
+    {
+     "en": "short",
+     "tr": "kısa",
+     "emoji": "📐"
+    },
+    {
+     "en": "trendy",
+     "tr": "modaya uygun",
+     "emoji": "✨"
+    },
+    {
+     "en": "old-fashioned",
+     "tr": "eski moda",
+     "emoji": "📻"
+    },
+    {
+     "en": "new",
+     "tr": "yeni",
+     "emoji": "🆕"
+    },
+    {
+     "en": "stylish",
+     "tr": "şık",
+     "emoji": "💃"
+    },
+    {
+     "en": "traditional",
+     "tr": "geleneksel",
+     "emoji": "🏺"
+    },
+    {
+     "en": "ordinary",
+     "tr": "sıradan",
+     "emoji": "🔘"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "long",
+       "b": "uzun"
+      },
+      {
+       "a": "stylish",
+       "b": "şık"
+      },
+      {
+       "a": "ordinary",
+       "b": "sıradan"
+      },
+      {
+       "a": "trendy",
+       "b": "modaya uygun"
+      },
+      {
+       "a": "old-fashioned",
+       "b": "eski moda"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"yeni\"?",
+     "answer": "new",
+     "options": [
+      "new",
+      "thick",
+      "old-fashioned",
+      "ordinary"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"ince\"?",
+     "answer": "thin",
+     "options": [
+      "thin",
+      "short",
+      "traditional",
+      "stylish"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
+    {
+     "en": "casual",
+     "tr": "günlük",
+     "emoji": "👕"
+    },
+    {
+     "en": "fancy",
+     "tr": "süslü",
+     "emoji": "💫"
+    },
+    {
+     "en": "comfortable",
+     "tr": "rahat",
+     "emoji": "😌"
+    },
+    {
+     "en": "uncomfortable",
+     "tr": "rahatsız",
+     "emoji": "😣"
+    },
+    {
+     "en": "same",
+     "tr": "aynı",
+     "emoji": "🟰"
+    },
+    {
+     "en": "different",
+     "tr": "farklı",
+     "emoji": "🔀"
+    },
+    {
+     "en": "good",
+     "tr": "iyi",
+     "emoji": "👍"
+    },
+    {
+     "en": "great",
+     "tr": "harika",
+     "emoji": "🤩"
+    },
+    {
+     "en": "perfect",
+     "tr": "mükemmel",
+     "emoji": "💯"
+    },
+    {
+     "en": "cool",
+     "tr": "havalı",
+     "emoji": "😎"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "casual",
+       "b": "günlük"
+      },
+      {
+       "a": "uncomfortable",
+       "b": "rahatsız"
+      },
+      {
+       "a": "cool",
+       "b": "havalı"
+      },
+      {
+       "a": "good",
+       "b": "iyi"
+      },
+      {
+       "a": "great",
+       "b": "harika"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"farklı\"?",
+     "answer": "different",
+     "options": [
+      "different",
+      "uncomfortable",
+      "perfect",
+      "fancy"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"aynı\"?",
+     "answer": "same",
+     "options": [
+      "same",
+      "good",
+      "perfect",
+      "uncomfortable"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
+    {
+     "en": "clean",
+     "tr": "temiz",
+     "emoji": "🧼"
+    },
+    {
+     "en": "dirty",
+     "tr": "kirli",
+     "emoji": "🪣"
+    },
+    {
+     "en": "colourful",
+     "tr": "renkli",
+     "emoji": "🌈"
+    },
+    {
+     "en": "bright",
+     "tr": "parlak",
+     "emoji": "🔆"
+    },
+    {
+     "en": "soft",
+     "tr": "yumuşak",
+     "emoji": "🧸"
+    },
+    {
+     "en": "cotton",
+     "tr": "pamuk",
+     "emoji": "🌿"
+    },
+    {
+     "en": "silk",
+     "tr": "ipek",
+     "emoji": "🎗️"
+    },
+    {
+     "en": "wool",
+     "tr": "yün",
+     "emoji": "🐑"
+    },
+    {
+     "en": "silver",
+     "tr": "gümüş",
+     "emoji": "🥈"
+    },
+    {
+     "en": "gold",
+     "tr": "altın",
+     "emoji": "🥇"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "cotton",
+       "b": "pamuk"
+      },
+      {
+       "a": "gold",
+       "b": "altın"
+      },
+      {
+       "a": "soft",
+       "b": "yumuşak"
+      },
+      {
+       "a": "silk",
+       "b": "ipek"
+      },
+      {
+       "a": "clean",
+       "b": "temiz"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"altın\"?",
+     "answer": "gold",
+     "options": [
+      "gold",
+      "silver",
+      "bright",
+      "cotton"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adjectives",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"gümüş\"?",
+     "answer": "silver",
+     "options": [
+      "silver",
+      "bright",
+      "cotton",
+      "colourful"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Clothes Verbs",
+   "titleTr": "Giyim tarzını anlatan fiiller",
+   "chips": [
+    "wear",
+    "buy",
+    "need",
+    "own",
+    "try on",
+    "look",
+    "create"
+   ],
+   "rule": "*wear* giymek · *buy* satın almak · *need* ihtiyaç duymak · *own* sahip olmak · *try on* denemek · *look* görünmek · *create* oluşturmak",
+   "examples": [
+    {
+     "en": "I *wear* a thick coat in winter.",
+     "tr": "Kışın kalın bir mont giyerim."
+    },
+    {
+     "en": "I *buy* trendy clothes.",
+     "tr": "Modaya uygun kıyafetler satın alırım."
+    },
+    {
+     "en": "I *need* new shoes.",
+     "tr": "Yeni ayakkabılara ihtiyacım var."
+    },
+    {
+     "en": "I *own* silver earrings.",
+     "tr": "Gümüş küpelere sahibim."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Clothes Verbs",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ a thick coat in winter.",
+     "answer": "wear",
+     "options": [
+      "wear",
+      "buy",
+      "need",
+      "own"
+     ],
+     "tr": "Kışın kalın bir mont giyerim."
+    },
+    {
+     "kind": "fill",
+     "text": "I ___ trendy clothes.",
+     "answer": "buy",
+     "options": [
+      "buy",
+      "wear",
+      "need",
+      "own"
+     ],
+     "tr": "Modaya uygun kıyafetler satın alırım."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Clothes Verbs",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ new shoes.",
+     "answer": "need",
+     "options": [
+      "need",
+      "wear",
+      "buy",
+      "own"
+     ],
+     "tr": "Yeni ayakkabılara ihtiyacım var."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "I own silver earrings.",
+     "tr": "Gümüş küpelere sahibim."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines",
+   "titleTr": "Günlük rutin ve aktiviteler",
+   "items": [
+    {
+     "en": "read a book",
+     "tr": "kitap okumak",
+     "emoji": "📖",
+     "img": "p04-01.png"
+    },
+    {
+     "en": "read a magazine",
+     "tr": "dergi okumak",
+     "emoji": "📰",
+     "img": "p04-02.png"
+    },
+    {
+     "en": "watch TV",
+     "tr": "televizyon izlemek",
+     "emoji": "📺",
+     "img": "p04-03.png"
+    },
+    {
+     "en": "watch videos",
+     "tr": "video izlemek",
+     "emoji": "📱",
+     "img": "p04-04.png"
+    },
+    {
+     "en": "watch fashion shows",
+     "tr": "defile izlemek",
+     "emoji": "👗",
+     "img": "p04-05.png"
+    },
+    {
+     "en": "play computer games",
+     "tr": "bilgisayar oyunu oynamak",
+     "emoji": "🎮",
+     "img": "p04-06.png"
+    },
+    {
+     "en": "listen to music",
+     "tr": "müzik dinlemek",
+     "emoji": "🎧",
+     "img": "p04-07.png"
+    },
+    {
+     "en": "meet friends",
+     "tr": "arkadaşlarla buluşmak",
+     "emoji": "🧑‍🤝‍🧑",
+     "img": "p04-08.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Daily Routines",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "play computer games",
+       "b": "bilgisayar oyunu oynamak"
+      },
+      {
+       "a": "read a book",
+       "b": "kitap okumak"
+      },
+      {
+       "a": "meet friends",
+       "b": "arkadaşlarla buluşmak"
+      },
+      {
+       "a": "watch videos",
+       "b": "video izlemek"
+      },
+      {
+       "a": "listen to music",
+       "b": "müzik dinlemek"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p04-02.png",
+     "answer": "read a magazine",
+     "tr": "dergi okumak",
+     "options": [
+      "read a magazine",
+      "watch fashion shows",
+      "watch videos",
+      "watch TV"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Daily Routines",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p04-01.png",
+     "answer": "read a book",
+     "tr": "kitap okumak",
+     "options": [
+      "read a book",
+      "read a magazine",
+      "watch fashion shows",
+      "watch videos"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"bilgisayar oyunu oynamak\"?",
+     "answer": "play computer games",
+     "options": [
+      "play computer games",
+      "watch videos",
+      "watch fashion shows",
+      "read a magazine"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines",
+   "titleTr": "Günlük rutin ve aktiviteler",
+   "items": [
+    {
+     "en": "play chess",
+     "tr": "satranç oynamak",
+     "emoji": "♟️",
+     "img": "p04-09.png"
+    },
+    {
+     "en": "draw pictures",
+     "tr": "resim çizmek",
+     "emoji": "🎨",
+     "img": "p04-10.png"
+    },
+    {
+     "en": "go for a walk",
+     "tr": "yürüyüşe gitmek",
+     "emoji": "🚶",
+     "img": "p04-11.png"
+    },
+    {
+     "en": "go out",
+     "tr": "dışarı gitmek",
+     "emoji": "🚪",
+     "img": "p04-12.png"
+    },
+    {
+     "en": "go jogging",
+     "tr": "koşuya gitmek",
+     "emoji": "🏃",
+     "img": "p04-13.png"
+    },
+    {
+     "en": "go shopping",
+     "tr": "alışverişe gitmek",
+     "emoji": "🛒",
+     "img": "p04-14.png"
+    },
+    {
+     "en": "go to the park",
+     "tr": "parka gitmek",
+     "emoji": "🌳",
+     "img": "p04-15.png"
+    },
+    {
+     "en": "travel around the world",
+     "tr": "dünyayı gezmek",
+     "emoji": "✈️",
+     "img": "p04-16.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Daily Routines",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "draw pictures",
+       "b": "resim çizmek"
+      },
+      {
+       "a": "go for a walk",
+       "b": "yürüyüşe gitmek"
+      },
+      {
+       "a": "go to the park",
+       "b": "parka gitmek"
+      },
+      {
+       "a": "play chess",
+       "b": "satranç oynamak"
+      },
+      {
+       "a": "go out",
+       "b": "dışarı gitmek"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p04-11.png",
+     "answer": "go for a walk",
+     "tr": "yürüyüşe gitmek",
+     "options": [
+      "go for a walk",
+      "go out",
+      "go jogging",
+      "draw pictures"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Daily Routines",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p04-16.png",
+     "answer": "travel around the world",
+     "tr": "dünyayı gezmek",
+     "options": [
+      "travel around the world",
+      "go shopping",
+      "go out",
+      "go for a walk"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"dışarı gitmek\"?",
+     "answer": "go out",
+     "options": [
+      "go out",
+      "go to the park",
+      "travel around the world",
+      "go shopping"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Time Expressions",
+   "titleTr": "Zaman ifadeleri — in / on / at",
+   "rule": "Aylardan ve mevsimlerden önce *in*, günlerden önce *on*, saatlerden önce *at* kullanılır.",
+   "chips": [
+    "every",
+    "in",
+    "on",
+    "at"
+   ],
+   "examples": [
+    {
+     "en": "*every* day / week / month / year",
+     "tr": "her gün / hafta / ay / yıl"
+    },
+    {
+     "en": "*in* January, *in* winter, *in* the morning",
+     "tr": "Ocak ayı, kışın, sabah"
+    },
+    {
+     "en": "*on* Sunday, *on* Friday, *on* weekdays",
+     "tr": "Pazar, Cuma, hafta içi"
+    },
+    {
+     "en": "*at* 8 o'clock, *at* weekend, *at* noon, *at* night",
+     "tr": "saat sekizde, hafta sonu, öğlen, gece"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Time Expressions",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ day / week / month / year",
+     "answer": "every",
+     "options": [
+      "every",
+      "in",
+      "on",
+      "at"
+     ],
+     "tr": "her gün / hafta / ay / yıl"
+    },
+    {
+     "kind": "fill",
+     "text": "___ January, in winter, in the morning",
+     "answer": "in",
+     "options": [
+      "in",
+      "every",
+      "on",
+      "at"
+     ],
+     "tr": "Ocak ayı, kışın, sabah"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Time Expressions",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ Sunday, on Friday, on weekdays",
+     "answer": "on",
+     "options": [
+      "on",
+      "every",
+      "in",
+      "at"
+     ],
+     "tr": "Pazar, Cuma, hafta içi"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "on Sunday, on Friday, on weekdays",
+     "tr": "Pazar, Cuma, hafta içi"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Positive",
+   "titleTr": "Geniş zaman olumlu cümleler",
+   "rule": "I / You / We / They → fiil yalın.  He / She / It → fiile *-s*, *-es* veya *-ies* eklenir.",
+   "examples": [
+    {
+     "en": "Çoğu fiil *-s* alır:  wear → wear*s*, read → read*s*",
+     "tr": "1. kural"
+    },
+    {
+     "en": "-ss, -sh, -ch, -x, -o ile bitenler *-es* alır:  go → go*es*, watch → watch*es*",
+     "tr": "2. kural"
+    },
+    {
+     "en": "Sessiz harf + y ile bitenlerde y düşer, *-ies* gelir:  study → stud*ies*, fly → fl*ies*",
+     "tr": "3. kural"
+    },
+    {
+     "en": "have → *has*",
+     "tr": "4. kural"
+    },
+    {
+     "en": "I *go* to school on weekdays.",
+     "tr": "Ben hafta içi okula giderim."
+    },
+    {
+     "en": "He *watches* TV at nights.",
+     "tr": "O geceleri televizyon izler."
+    },
+    {
+     "en": "She *goes* to Izmir in summer.",
+     "tr": "O yazın İzmir'e gider."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Present — Positive",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "Çoğu fiil ___ alır:  wear → wears, read → reads",
+     "answer": "-s",
+     "options": [
+      "-s",
+      "-es",
+      "-ies",
+      "has"
+     ],
+     "tr": "1. kural"
+    },
+    {
+     "kind": "fill",
+     "text": "-ss, -sh, -ch, -x, -o ile bitenler ___ alır:  go → goes, watch → watches",
+     "answer": "-es",
+     "options": [
+      "-es",
+      "-s",
+      "-ies",
+      "has"
+     ],
+     "tr": "2. kural"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Present — Positive",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "Sessiz harf + y ile bitenlerde y düşer, ___ gelir:  study → studies, fly → flies",
+     "answer": "-ies",
+     "options": [
+      "-ies",
+      "-s",
+      "-es",
+      "has"
+     ],
+     "tr": "3. kural"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "She goes to Izmir in summer.",
+     "tr": "O yazın İzmir'e gider."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
+   "columns": [
+    {
+     "title": "NEGATIVE ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "I *don't* go to school on Sundays.",
+       "tr": "Ben Pazar günleri okula gitmem."
+      },
+      {
+       "en": "You *don't* wear ordinary clothes.",
+       "tr": "Sen sıradan kıyafetler giymezsin."
+      },
+      {
+       "en": "He *doesn't* play chess.",
+       "tr": "O satranç oynamaz.",
+       "img": "p04-09.png"
+      },
+      {
+       "en": "She *doesn't* draw pictures.",
+       "tr": "O resim çizmez.",
+       "img": "p04-10.png"
+      }
+     ]
+    },
+    {
+     "title": "QUESTION ❓",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "*Do* you wear glasses? — Yes, I do.",
+       "tr": "Sen gözlük takar mısın? — Evet, takarım."
+      },
+      {
+       "en": "*Does* Mert like pink shirts? — No, he doesn't.",
+       "tr": "Mert pembe gömlek sever mi? — Hayır, sevmez."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Negative & Question",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ go to school on Sundays.",
+     "answer": "don't",
+     "options": [
+      "don't",
+      "doesn't",
+      "Do",
+      "Does"
+     ],
+     "tr": "Ben Pazar günleri okula gitmem."
+    },
+    {
+     "kind": "fill",
+     "text": "You ___ wear ordinary clothes.",
+     "answer": "don't",
+     "options": [
+      "don't",
+      "doesn't",
+      "Do",
+      "Does"
+     ],
+     "tr": "Sen sıradan kıyafetler giymezsin."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Negative & Question",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "He ___ play chess.",
+     "answer": "doesn't",
+     "options": [
+      "doesn't",
+      "don't",
+      "Do",
+      "Does"
+     ],
+     "tr": "O satranç oynamaz."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Do you wear glasses? — Yes, I do.",
+     "tr": "Sen gözlük takar mısın? — Evet, takarım."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Question Tags",
+   "titleTr": "Soru ekleri — değil mi?",
+   "rule": "Cümle olumlu ise soru eki *olumsuz*, cümle olumsuz ise soru eki *olumlu* olur.",
+   "examples": [
+    {
+     "en": "You wear jeans, *don't you*?",
+     "tr": "Sen kot pantolon giyersin, değil mi?"
+    },
+    {
+     "en": "She plays the guitar, *doesn't she*?",
+     "tr": "O gitar çalar, değil mi?"
+    },
+    {
+     "en": "You don't wear glasses, *do you*?",
+     "tr": "Sen gözlük takmazsın, değil mi?"
+    },
+    {
+     "en": "She doesn't watch TV, *does she*?",
+     "tr": "O televizyon izlemez, değil mi?",
+     "img": "p04-03.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Question Tags",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You wear jeans, ___?",
+     "answer": "don't you",
+     "options": [
+      "don't you",
+      "doesn't she",
+      "do you",
+      "does she"
+     ],
+     "tr": "Sen kot pantolon giyersin, değil mi?"
+    },
+    {
+     "kind": "fill",
+     "text": "She plays the guitar, ___?",
+     "answer": "doesn't she",
+     "options": [
+      "doesn't she",
+      "don't you",
+      "do you",
+      "does she"
+     ],
+     "tr": "O gitar çalar, değil mi?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Question Tags",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You don't wear glasses, ___?",
+     "answer": "do you",
+     "options": [
+      "do you",
+      "don't you",
+      "doesn't she",
+      "does she"
+     ],
+     "tr": "Sen gözlük takmazsın, değil mi?"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "She doesn't watch TV, does she?",
+     "tr": "O televizyon izlemez, değil mi?"
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adverbs of Frequency",
+   "titleTr": "Sıklık zarfları — How often?",
+   "items": [
+    {
+     "en": "always",
+     "tr": "her zaman",
+     "emoji": "⭐⭐⭐"
+    },
+    {
+     "en": "usually",
+     "tr": "genellikle",
+     "emoji": "⭐⭐"
+    },
+    {
+     "en": "often",
+     "tr": "sık sık",
+     "emoji": "⭐"
+    },
+    {
+     "en": "sometimes",
+     "tr": "bazen",
+     "emoji": "🔸"
+    },
+    {
+     "en": "rarely",
+     "tr": "nadiren",
+     "emoji": "▫️"
+    },
+    {
+     "en": "never",
+     "tr": "hiçbir zaman",
+     "emoji": "🚫"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adverbs of Frequency",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "sometimes",
+       "b": "bazen"
+      },
+      {
+       "a": "always",
+       "b": "her zaman"
+      },
+      {
+       "a": "usually",
+       "b": "genellikle"
+      },
+      {
+       "a": "never",
+       "b": "hiçbir zaman"
+      },
+      {
+       "a": "rarely",
+       "b": "nadiren"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"nadiren\"?",
+     "answer": "rarely",
+     "options": [
+      "rarely",
+      "often",
+      "sometimes",
+      "always"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Adverbs of Frequency",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"genellikle\"?",
+     "answer": "usually",
+     "options": [
+      "usually",
+      "always",
+      "rarely",
+      "never"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "How often ...?",
+   "titleTr": "Ne sıklıkla?",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Daniel",
+       "text": "How often do you read a book?"
+      },
+      {
+       "who": "Ryan",
+       "text": "I often read a book."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "Lily",
+       "text": "How often do you listen to music?"
+      },
+      {
+       "who": "Sarah",
+       "text": "I usually listen to music."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "•",
+       "text": "I always wear stylish clothes."
+      },
+      {
+       "who": "TR",
+       "text": "Ben her zaman şık kıyafetler giyerim."
+      }
+     ]
+    },
+    {
+     "lines": [
+      {
+       "who": "•",
+       "text": "They never watch a fashion show."
+      },
+      {
+       "who": "TR",
+       "text": "Onlar hiçbir zaman defile izlemez."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "kıvırcık saç → ?",
+     "a": "curly hair"
+    },
+    {
+     "q": "She ___ got a round face. (have / has)",
+     "a": "has"
+    },
+    {
+     "q": "study → he ___",
+     "a": "studies"
+    },
+    {
+     "q": "He ___ play chess. (don't / doesn't)",
+     "a": "doesn't"
+    },
+    {
+     "q": "You wear jeans, ___ ?",
+     "a": "don't you?"
+    },
+    {
+     "q": "___ winter  /  ___ Friday  /  ___ 8 o'clock",
+     "a": "in / on / at"
+    },
+    {
+     "q": "nadiren → ?",
+     "a": "rarely"
+    }
+   ]
+  },
+  {
+   "type": "pages",
+   "title": "Kaynak Sayfalar",
+   "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
+  },
+  {
+   "type": "end",
+   "emoji": "😎",
+   "title": "Nice work!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ]
+}

@@ -1,0 +1,1234 @@
+{
+ "title": "Family Life",
+ "titleTr": "Aile Hayatı",
+ "emoji": "👨‍👩‍👧",
+ "accent": [
+  "#34d399",
+  "#0ea5e9"
+ ],
+ "pages": [
+  "p01.webp",
+  "p02.webp",
+  "p03.webp",
+  "p04.webp"
+ ],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 4",
+   "title": "Family Life",
+   "titleTr": "Aile Hayatı — aile üyeleri, rutinler ve hobiler",
+   "emoji": "👨‍👩‍👧"
+  },
+  {
+   "type": "vocab",
+   "title": "Family Members",
+   "titleTr": "Aile üyeleri",
+   "items": [
+    {
+     "en": "grandfather",
+     "tr": "büyükbaba",
+     "emoji": "👴",
+     "img": "p01-01.png"
+    },
+    {
+     "en": "grandmother",
+     "tr": "büyükanne",
+     "emoji": "👵",
+     "img": "p01-02.png"
+    },
+    {
+     "en": "father / dad",
+     "tr": "baba",
+     "emoji": "👨",
+     "img": "p01-03.png"
+    },
+    {
+     "en": "mother / mum",
+     "tr": "anne",
+     "emoji": "👩",
+     "img": "p01-04.png"
+    },
+    {
+     "en": "uncle",
+     "tr": "amca / dayı",
+     "emoji": "🧔",
+     "img": "p01-05.png"
+    },
+    {
+     "en": "aunt",
+     "tr": "hala / teyze",
+     "emoji": "👩‍🦰",
+     "img": "p01-06.png"
+    },
+    {
+     "en": "brother",
+     "tr": "erkek kardeş",
+     "emoji": "👦",
+     "img": "p01-07.png"
+    },
+    {
+     "en": "sister",
+     "tr": "kız kardeş",
+     "emoji": "👧",
+     "img": "p01-08.png"
+    },
+    {
+     "en": "cousin",
+     "tr": "kuzen",
+     "emoji": "🧒",
+     "img": "p01-09.png"
+    },
+    {
+     "en": "son",
+     "tr": "erkek evlat",
+     "emoji": "👶",
+     "img": "p01-10.png"
+    },
+    {
+     "en": "daughter",
+     "tr": "kız evlat",
+     "emoji": "👧",
+     "img": "p01-11.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Family Members",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "uncle",
+       "b": "amca / dayı"
+      },
+      {
+       "a": "grandfather",
+       "b": "büyükbaba"
+      },
+      {
+       "a": "brother",
+       "b": "erkek kardeş"
+      },
+      {
+       "a": "aunt",
+       "b": "hala / teyze"
+      },
+      {
+       "a": "grandmother",
+       "b": "büyükanne"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-01.png",
+     "answer": "grandfather",
+     "tr": "büyükbaba",
+     "options": [
+      "grandfather",
+      "daughter",
+      "sister",
+      "aunt"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Family Members",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-05.png",
+     "answer": "uncle",
+     "tr": "amca / dayı",
+     "options": [
+      "uncle",
+      "grandfather",
+      "father / dad",
+      "grandmother"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"büyükbaba\"?",
+     "answer": "grandfather",
+     "options": [
+      "grandfather",
+      "mother / mum",
+      "aunt",
+      "father / dad"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines (1)",
+   "titleTr": "Günlük rutinler",
+   "items": [
+    {
+     "en": "wake up",
+     "tr": "uyanmak",
+     "emoji": "⏰",
+     "img": "p01-12.png"
+    },
+    {
+     "en": "get up",
+     "tr": "kalkmak",
+     "emoji": "🛏️",
+     "img": "p01-13.png"
+    },
+    {
+     "en": "brush teeth",
+     "tr": "dişleri fırçalamak",
+     "emoji": "🪥",
+     "img": "p01-14.png"
+    },
+    {
+     "en": "wash hands",
+     "tr": "elleri yıkamak",
+     "emoji": "🧼",
+     "img": "p01-15.png"
+    },
+    {
+     "en": "wash face",
+     "tr": "yüzü yıkamak",
+     "emoji": "💦",
+     "img": "p01-16.png"
+    },
+    {
+     "en": "comb hair",
+     "tr": "saçları taramak",
+     "emoji": "💇",
+     "img": "p01-17.png"
+    },
+    {
+     "en": "take a shower",
+     "tr": "duş almak",
+     "emoji": "🚿",
+     "img": "p01-18.png"
+    },
+    {
+     "en": "get dressed",
+     "tr": "giyinmek",
+     "emoji": "👕",
+     "img": "p01-19.png"
+    },
+    {
+     "en": "go to school",
+     "tr": "okula gitmek",
+     "emoji": "🚌",
+     "img": "p01-20.png"
+    },
+    {
+     "en": "study",
+     "tr": "ders çalışmak",
+     "emoji": "📚",
+     "img": "p01-21.png"
+    },
+    {
+     "en": "have breakfast",
+     "tr": "kahvaltı yapmak",
+     "emoji": "🍳",
+     "img": "p01-22.png"
+    },
+    {
+     "en": "have lunch",
+     "tr": "öğle yemeği yemek",
+     "emoji": "🍽️",
+     "img": "p01-23.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Daily Routines (1)",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "wake up",
+       "b": "uyanmak"
+      },
+      {
+       "a": "brush teeth",
+       "b": "dişleri fırçalamak"
+      },
+      {
+       "a": "go to school",
+       "b": "okula gitmek"
+      },
+      {
+       "a": "get up",
+       "b": "kalkmak"
+      },
+      {
+       "a": "study",
+       "b": "ders çalışmak"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-14.png",
+     "answer": "brush teeth",
+     "tr": "dişleri fırçalamak",
+     "options": [
+      "brush teeth",
+      "have breakfast",
+      "wake up",
+      "wash hands"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Daily Routines (1)",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p01-19.png",
+     "answer": "get dressed",
+     "tr": "giyinmek",
+     "options": [
+      "get dressed",
+      "wash face",
+      "take a shower",
+      "have breakfast"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"saçları taramak\"?",
+     "answer": "comb hair",
+     "options": [
+      "comb hair",
+      "have lunch",
+      "get up",
+      "get dressed"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines (2)",
+   "titleTr": "Günlük rutinler",
+   "items": [
+    {
+     "en": "have dinner",
+     "tr": "akşam yemeği yemek",
+     "emoji": "🍲",
+     "img": "p02-01.png"
+    },
+    {
+     "en": "do homework",
+     "tr": "ödev yapmak",
+     "emoji": "📝",
+     "img": "p02-02.png"
+    },
+    {
+     "en": "watch TV",
+     "tr": "televizyon izlemek",
+     "emoji": "📺",
+     "img": "p02-03.png"
+    },
+    {
+     "en": "take care of the pet",
+     "tr": "evcil hayvanla ilgilenmek",
+     "emoji": "🐕",
+     "img": "p02-04.png"
+    },
+    {
+     "en": "rest / relax",
+     "tr": "dinlenmek",
+     "emoji": "🛋️",
+     "img": "p02-05.png"
+    },
+    {
+     "en": "tidy up the house",
+     "tr": "evi toparlamak",
+     "emoji": "🧹",
+     "img": "p02-06.png"
+    },
+    {
+     "en": "go to bed",
+     "tr": "yatmak",
+     "emoji": "🛌",
+     "img": "p02-07.png"
+    },
+    {
+     "en": "sleep",
+     "tr": "uyumak",
+     "emoji": "😴",
+     "img": "p02-08.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Daily Routines (2)",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "take care of the pet",
+       "b": "evcil hayvanla ilgilenmek"
+      },
+      {
+       "a": "tidy up the house",
+       "b": "evi toparlamak"
+      },
+      {
+       "a": "watch TV",
+       "b": "televizyon izlemek"
+      },
+      {
+       "a": "sleep",
+       "b": "uyumak"
+      },
+      {
+       "a": "do homework",
+       "b": "ödev yapmak"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p02-04.png",
+     "answer": "take care of the pet",
+     "tr": "evcil hayvanla ilgilenmek",
+     "options": [
+      "take care of the pet",
+      "have dinner",
+      "watch TV",
+      "do homework"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Daily Routines (2)",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p02-01.png",
+     "answer": "have dinner",
+     "tr": "akşam yemeği yemek",
+     "options": [
+      "have dinner",
+      "sleep",
+      "tidy up the house",
+      "take care of the pet"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"yatmak\"?",
+     "answer": "go to bed",
+     "options": [
+      "go to bed",
+      "have dinner",
+      "tidy up the house",
+      "do homework"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Hobbies and Activities",
+   "titleTr": "Hobiler ve aktiviteler",
+   "items": [
+    {
+     "en": "have a picnic",
+     "tr": "piknik yapmak",
+     "emoji": "🧺",
+     "img": "p02-09.png"
+    },
+    {
+     "en": "have a barbecue",
+     "tr": "mangal yapmak",
+     "emoji": "🍖",
+     "img": "p02-10.png"
+    },
+    {
+     "en": "ride a bicycle / cycle",
+     "tr": "bisiklete binmek",
+     "emoji": "🚲",
+     "img": "p02-11.png"
+    },
+    {
+     "en": "ride a scooter",
+     "tr": "skutere binmek",
+     "emoji": "🛴",
+     "img": "p02-12.png"
+    },
+    {
+     "en": "play a board game",
+     "tr": "kutu oyunu oynamak",
+     "emoji": "🎲",
+     "img": "p02-13.png"
+    },
+    {
+     "en": "play computer games",
+     "tr": "bilgisayar oyunu oynamak",
+     "emoji": "🎮",
+     "img": "p02-14.png"
+    },
+    {
+     "en": "go to the beach",
+     "tr": "plaja gitmek",
+     "emoji": "🏖️",
+     "img": "p02-15.png"
+    },
+    {
+     "en": "go on holiday",
+     "tr": "tatile gitmek",
+     "emoji": "🧳",
+     "img": "p02-16.png"
+    },
+    {
+     "en": "play the guitar",
+     "tr": "gitar çalmak",
+     "emoji": "🎸",
+     "img": "p02-17.png"
+    },
+    {
+     "en": "play the piano",
+     "tr": "piyano çalmak",
+     "emoji": "🎹",
+     "img": "p02-18.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Hobbies and Activities",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "play a board game",
+       "b": "kutu oyunu oynamak"
+      },
+      {
+       "a": "ride a bicycle / cycle",
+       "b": "bisiklete binmek"
+      },
+      {
+       "a": "go to the beach",
+       "b": "plaja gitmek"
+      },
+      {
+       "a": "play computer games",
+       "b": "bilgisayar oyunu oynamak"
+      },
+      {
+       "a": "play the piano",
+       "b": "piyano çalmak"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p02-10.png",
+     "answer": "have a barbecue",
+     "tr": "mangal yapmak",
+     "options": [
+      "have a barbecue",
+      "play the piano",
+      "go on holiday",
+      "play the guitar"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Hobbies and Activities",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p02-13.png",
+     "answer": "play a board game",
+     "tr": "kutu oyunu oynamak",
+     "options": [
+      "play a board game",
+      "play the piano",
+      "have a barbecue",
+      "ride a scooter"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kutu oyunu oynamak\"?",
+     "answer": "play a board game",
+     "options": [
+      "play a board game",
+      "play the piano",
+      "ride a bicycle / cycle",
+      "go to the beach"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Hobbies and Activities",
+   "titleTr": "Hobiler ve aktiviteler",
+   "items": [
+    {
+     "en": "visit a museum",
+     "tr": "müzeyi ziyaret etmek",
+     "emoji": "🏛️",
+     "img": "p02-19.png"
+    },
+    {
+     "en": "take a photograph",
+     "tr": "fotoğraf çekmek",
+     "emoji": "📷",
+     "img": "p02-20.png"
+    },
+    {
+     "en": "camp in the forest",
+     "tr": "ormanda kamp yapmak",
+     "emoji": "🏕️",
+     "img": "p02-21.png"
+    },
+    {
+     "en": "stay in a tent",
+     "tr": "çadırda kalmak",
+     "emoji": "⛺",
+     "img": "p02-22.png"
+    },
+    {
+     "en": "have a party",
+     "tr": "parti yapmak",
+     "emoji": "🎉",
+     "img": "p02-23.png"
+    },
+    {
+     "en": "play golf",
+     "tr": "golf oynamak",
+     "emoji": "⛳",
+     "img": "p02-24.png"
+    },
+    {
+     "en": "cook",
+     "tr": "yemek pişirmek",
+     "emoji": "👨‍🍳",
+     "img": "p02-25.png"
+    },
+    {
+     "en": "dance",
+     "tr": "dans etmek",
+     "emoji": "💃",
+     "img": "p02-26.png"
+    },
+    {
+     "en": "fish",
+     "tr": "balık tutmak",
+     "emoji": "🎣",
+     "img": "p02-27.png"
+    },
+    {
+     "en": "swim",
+     "tr": "yüzmek",
+     "emoji": "🏊",
+     "img": "p02-28.png"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Hobbies and Activities",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "visit a museum",
+       "b": "müzeyi ziyaret etmek"
+      },
+      {
+       "a": "dance",
+       "b": "dans etmek"
+      },
+      {
+       "a": "stay in a tent",
+       "b": "çadırda kalmak"
+      },
+      {
+       "a": "take a photograph",
+       "b": "fotoğraf çekmek"
+      },
+      {
+       "a": "swim",
+       "b": "yüzmek"
+      }
+     ]
+    },
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p02-19.png",
+     "answer": "visit a museum",
+     "tr": "müzeyi ziyaret etmek",
+     "options": [
+      "visit a museum",
+      "take a photograph",
+      "fish",
+      "swim"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Hobbies and Activities",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "p02-27.png",
+     "answer": "fish",
+     "tr": "balık tutmak",
+     "options": [
+      "fish",
+      "cook",
+      "have a party",
+      "play golf"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"müzeyi ziyaret etmek\"?",
+     "answer": "visit a museum",
+     "options": [
+      "visit a museum",
+      "take a photograph",
+      "cook",
+      "stay in a tent"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous — -ing",
+   "titleTr": "Şimdiki zaman: now, at the moment",
+   "rule": "Konuşma anında gerçekleşen olaylar için kullanılır. Fiile *-ing* eklenir.",
+   "chips": [
+    "now",
+    "at the moment"
+   ],
+   "examples": [
+    {
+     "en": "\"e\" ile biten fiillerde e düşer:  ride → *riding*",
+     "tr": "1. kural"
+    },
+    {
+     "en": "Sessiz–sesli–sessiz ile bitenlerde son harf çiftlenir:  run → *running*",
+     "tr": "2. kural",
+     "img": "p01-10.png"
+    },
+    {
+     "en": "I *am watching* TV now.",
+     "tr": "Ben şimdi televizyon izliyorum."
+    },
+    {
+     "en": "He *is sleeping* at the moment.",
+     "tr": "O şu anda uyuyor."
+    },
+    {
+     "en": "They *are swimming*.",
+     "tr": "Onlar yüzüyorlar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Present Continuous — -ing",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "\"e\" ile biten fiillerde e düşer:  ride → ___",
+     "answer": "riding",
+     "options": [
+      "riding",
+      "running",
+      "am watching",
+      "is sleeping"
+     ],
+     "tr": "1. kural"
+    },
+    {
+     "kind": "fill",
+     "text": "Sessiz–sesli–sessiz ile bitenlerde son harf çiftlenir:  run → ___",
+     "answer": "running",
+     "options": [
+      "running",
+      "riding",
+      "am watching",
+      "is sleeping"
+     ],
+     "tr": "2. kural"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Present Continuous — -ing",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ TV now.",
+     "answer": "am watching",
+     "options": [
+      "am watching",
+      "riding",
+      "running",
+      "is sleeping"
+     ],
+     "tr": "Ben şimdi televizyon izliyorum."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "They are swimming.",
+     "tr": "Onlar yüzüyorlar."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "rule": "Olumsuzda *am/is/are + not*, soruda *am/is/are* özneden önce gelir.",
+   "columns": [
+    {
+     "title": "NEGATIVE ⛔",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "I *am not* doing homework.",
+       "tr": "Ödev yapmıyorum."
+      },
+      {
+       "en": "She *isn't* cooking now.",
+       "tr": "O şimdi yemek pişirmiyor."
+      },
+      {
+       "en": "You *aren't* playing the guitar.",
+       "tr": "Gitar çalmıyorsun."
+      }
+     ]
+    },
+    {
+     "title": "QUESTION ❓",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "*Are* you studying? — Yes, I am.",
+       "tr": "Ders çalışıyor musun? — Evet, çalışıyorum."
+      },
+      {
+       "en": "*Is* she sleeping? — No, she isn't.",
+       "tr": "O uyuyor mu? — Hayır, uyumuyor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Negative & Question",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ doing homework.",
+     "answer": "am not",
+     "options": [
+      "am not",
+      "isn't",
+      "aren't",
+      "Are"
+     ],
+     "tr": "Ödev yapmıyorum."
+    },
+    {
+     "kind": "fill",
+     "text": "She ___ cooking now.",
+     "answer": "isn't",
+     "options": [
+      "isn't",
+      "am not",
+      "aren't",
+      "Are"
+     ],
+     "tr": "O şimdi yemek pişirmiyor."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Negative & Question",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ playing the guitar.",
+     "answer": "aren't",
+     "options": [
+      "aren't",
+      "am not",
+      "isn't",
+      "Are"
+     ],
+     "tr": "Gitar çalmıyorsun."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Is she sleeping? — No, she isn't.",
+     "tr": "O uyuyor mu? — Hayır, uyumuyor."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Question Tags",
+   "titleTr": "Soru ekleri — değil mi?",
+   "rule": "Cümle olumlu ise soru eki *olumsuz*, olumsuz ise soru eki *olumlu* olur.",
+   "examples": [
+    {
+     "en": "You are having a picnic, *aren't you*?",
+     "tr": "Sen piknik yapıyorsun, değil mi?"
+    },
+    {
+     "en": "She is going to school, *isn't she*?",
+     "tr": "O okula gidiyor, değil mi?"
+    },
+    {
+     "en": "You aren't playing golf, *are you*?",
+     "tr": "Sen golf oynamıyorsun, değil mi?"
+    },
+    {
+     "en": "She isn't fishing, *is she*?",
+     "tr": "O balık tutmuyor, değil mi?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Question Tags",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You are having a picnic, ___?",
+     "answer": "aren't you",
+     "options": [
+      "aren't you",
+      "isn't she",
+      "are you",
+      "is she"
+     ],
+     "tr": "Sen piknik yapıyorsun, değil mi?"
+    },
+    {
+     "kind": "fill",
+     "text": "She is going to school, ___?",
+     "answer": "isn't she",
+     "options": [
+      "isn't she",
+      "aren't you",
+      "are you",
+      "is she"
+     ],
+     "tr": "O okula gidiyor, değil mi?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Question Tags",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You aren't playing golf, ___?",
+     "answer": "are you",
+     "options": [
+      "are you",
+      "aren't you",
+      "isn't she",
+      "is she"
+     ],
+     "tr": "Sen golf oynamıyorsun, değil mi?"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "She isn't fishing, is she?",
+     "tr": "O balık tutmuyor, değil mi?"
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "Simple Present vs Present Continuous",
+   "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
+   "columns": [
+    {
+     "title": "Simple Present ⏳",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "I go to school *every day*.",
+       "tr": "Ben her gün okula giderim.",
+       "img": "p01-20.png"
+      },
+      {
+       "en": "She brushes her teeth *in the mornings*.",
+       "tr": "O sabahları dişlerini fırçalar."
+      },
+      {
+       "en": "We watch TV *in the evenings*.",
+       "tr": "Biz akşamları televizyon izleriz.",
+       "img": "p02-03.png"
+      }
+     ]
+    },
+    {
+     "title": "Present Continuous ⚡",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "I am going to school *now*.",
+       "tr": "Ben şimdi okula gidiyorum."
+      },
+      {
+       "en": "She is brushing her teeth *now*.",
+       "tr": "O şimdi dişlerini fırçalıyor."
+      },
+      {
+       "en": "We are watching TV *at the moment*.",
+       "tr": "Biz şu anda televizyon izliyoruz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Present vs Present Continuous",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I go to school ___.",
+     "answer": "every day",
+     "options": [
+      "every day",
+      "in the mornings",
+      "in the evenings",
+      "now"
+     ],
+     "tr": "Ben her gün okula giderim."
+    },
+    {
+     "kind": "fill",
+     "text": "She brushes her teeth ___.",
+     "answer": "in the mornings",
+     "options": [
+      "in the mornings",
+      "every day",
+      "in the evenings",
+      "now"
+     ],
+     "tr": "O sabahları dişlerini fırçalar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Simple Present vs Present Continuous",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "We watch TV ___.",
+     "answer": "in the evenings",
+     "options": [
+      "in the evenings",
+      "every day",
+      "in the mornings",
+      "now"
+     ],
+     "tr": "Biz akşamları televizyon izleriz."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "We are watching TV at the moment.",
+     "tr": "Biz şu anda televizyon izliyoruz."
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "büyükanne → ?",
+     "a": "grandmother"
+    },
+    {
+     "q": "run + -ing → ?",
+     "a": "running"
+    },
+    {
+     "q": "ride + -ing → ?",
+     "a": "riding"
+    },
+    {
+     "q": "She ___ cooking now. (isn't / doesn't)",
+     "a": "isn't"
+    },
+    {
+     "q": "I go to school every day.  /  I ___ to school now.",
+     "a": "am going"
+    },
+    {
+     "q": "Whose pet is it? (o kadının)",
+     "a": "It is hers."
+    },
+    {
+     "q": "You are having a picnic, ___ ?",
+     "a": "aren't you?"
+    }
+   ]
+  },
+  {
+   "type": "pages",
+   "title": "Kaynak Sayfalar",
+   "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
+  },
+  {
+   "type": "end",
+   "emoji": "🏡",
+   "title": "Well done!",
+   "titleTr": "Aile kelimelerini oyunlarla pekiştirelim."
+  }
+ ]
+}

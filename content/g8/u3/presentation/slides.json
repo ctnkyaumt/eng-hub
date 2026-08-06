@@ -1,0 +1,963 @@
+{
+ "title": "In the Kitchen",
+ "titleTr": "Mutfakta",
+ "emoji": "🍲",
+ "accent": [
+  "#fb923c",
+  "#ef4444"
+ ],
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "UNIT 3",
+   "title": "In the Kitchen",
+   "titleTr": "Mutfakta",
+   "emoji": "🍲"
+  },
+  {
+   "type": "vocab",
+   "title": "Cooking Verbs",
+   "titleTr": "Yemek fiilleri",
+   "items": [
+    {
+     "en": "bake",
+     "tr": "fırında pişirmek",
+     "emoji": "🥧"
+    },
+    {
+     "en": "boil",
+     "tr": "haşlamak",
+     "emoji": "🫧"
+    },
+    {
+     "en": "chop",
+     "tr": "doğramak",
+     "emoji": "🔪"
+    },
+    {
+     "en": "cut",
+     "tr": "kesmek",
+     "emoji": "✂️"
+    },
+    {
+     "en": "dice",
+     "tr": "küp küp doğramak",
+     "emoji": "🎲"
+    },
+    {
+     "en": "fry",
+     "tr": "kızartmak",
+     "emoji": "🍳"
+    },
+    {
+     "en": "mash",
+     "tr": "ezmek",
+     "emoji": "🥔"
+    },
+    {
+     "en": "mix",
+     "tr": "karıştırmak",
+     "emoji": "🌀",
+     "img": "/app/img/words/mix.jpg"
+    },
+    {
+     "en": "peel",
+     "tr": "soymak",
+     "emoji": "🥕"
+    },
+    {
+     "en": "pour",
+     "tr": "dökmek",
+     "emoji": "🚰"
+    },
+    {
+     "en": "slice",
+     "tr": "dilimlemek",
+     "emoji": "🍞"
+    },
+    {
+     "en": "spread",
+     "tr": "sürmek",
+     "emoji": "🧈"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Cooking Verbs",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "chop",
+       "b": "doğramak"
+      },
+      {
+       "a": "cut",
+       "b": "kesmek"
+      },
+      {
+       "a": "spread",
+       "b": "sürmek"
+      },
+      {
+       "a": "dice",
+       "b": "küp küp doğramak"
+      },
+      {
+       "a": "bake",
+       "b": "fırında pişirmek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"dilimlemek\"?",
+     "answer": "slice",
+     "options": [
+      "slice",
+      "mix",
+      "cut",
+      "chop"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Cooking Verbs",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"haşlamak\"?",
+     "answer": "boil",
+     "options": [
+      "boil",
+      "mash",
+      "chop",
+      "bake"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Kitchen Tools",
+   "titleTr": "Mutfak gereçleri",
+   "items": [
+    {
+     "en": "bowl",
+     "tr": "kase",
+     "emoji": "🥣"
+    },
+    {
+     "en": "grater",
+     "tr": "rende",
+     "emoji": "🧀"
+    },
+    {
+     "en": "oven",
+     "tr": "fırın",
+     "emoji": "🔥"
+    },
+    {
+     "en": "pan",
+     "tr": "tava",
+     "emoji": "🍳"
+    },
+    {
+     "en": "saucepan",
+     "tr": "tencere",
+     "emoji": "🍲"
+    },
+    {
+     "en": "spoon",
+     "tr": "kaşık",
+     "emoji": "🥄",
+     "img": "/app/img/words/spoon.jpg"
+    },
+    {
+     "en": "oil",
+     "tr": "yağ",
+     "emoji": "🫗"
+    },
+    {
+     "en": "ingredient",
+     "tr": "malzeme",
+     "emoji": "🧂"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Kitchen Tools",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "saucepan",
+       "b": "tencere"
+      },
+      {
+       "a": "pan",
+       "b": "tava"
+      },
+      {
+       "a": "ingredient",
+       "b": "malzeme"
+      },
+      {
+       "a": "grater",
+       "b": "rende"
+      },
+      {
+       "a": "oil",
+       "b": "yağ"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"tencere\"?",
+     "answer": "saucepan",
+     "options": [
+      "saucepan",
+      "oil",
+      "spoon",
+      "bowl"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Kitchen Tools",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"rende\"?",
+     "answer": "grater",
+     "options": [
+      "grater",
+      "pan",
+      "spoon",
+      "saucepan"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Taste & Food",
+   "titleTr": "Tat ve yemek",
+   "items": [
+    {
+     "en": "recipe",
+     "tr": "tarif",
+     "emoji": "📜"
+    },
+    {
+     "en": "meal",
+     "tr": "öğün",
+     "emoji": "🍽️"
+    },
+    {
+     "en": "dessert",
+     "tr": "tatlı",
+     "emoji": "🍰"
+    },
+    {
+     "en": "delicious",
+     "tr": "nefis",
+     "emoji": "😋"
+    },
+    {
+     "en": "tasty",
+     "tr": "lezzetli",
+     "emoji": "🤤"
+    },
+    {
+     "en": "salty",
+     "tr": "tuzlu",
+     "emoji": "🧂"
+    },
+    {
+     "en": "sour",
+     "tr": "ekşi",
+     "emoji": "🍋"
+    },
+    {
+     "en": "spicy",
+     "tr": "baharatlı",
+     "emoji": "🌶️"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Taste & Food",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "salty",
+       "b": "tuzlu"
+      },
+      {
+       "a": "dessert",
+       "b": "tatlı"
+      },
+      {
+       "a": "sour",
+       "b": "ekşi"
+      },
+      {
+       "a": "tasty",
+       "b": "lezzetli"
+      },
+      {
+       "a": "recipe",
+       "b": "tarif"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"tuzlu\"?",
+     "answer": "salty",
+     "options": [
+      "salty",
+      "spicy",
+      "sour",
+      "delicious"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Taste & Food",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"tatlı\"?",
+     "answer": "dessert",
+     "options": [
+      "dessert",
+      "salty",
+      "delicious",
+      "meal"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Mutfakta — ek kelimeler",
+   "items": [
+    {
+     "en": "stir",
+     "tr": "karıştırmak, çırpmak"
+    },
+    {
+     "en": "strain",
+     "tr": "süzmek"
+    },
+    {
+     "en": "wrap",
+     "tr": "sarmak, paketlemek"
+    },
+    {
+     "en": "scoop",
+     "tr": "kepçe ile almak, kepçe"
+    },
+    {
+     "en": "roll",
+     "tr": "yuvarlamak"
+    },
+    {
+     "en": "season",
+     "tr": "baharat katmak"
+    },
+    {
+     "en": "shape",
+     "tr": "şekil vermek, şekil"
+    },
+    {
+     "en": "sprinkle",
+     "tr": "serpiştirmek"
+    },
+    {
+     "en": "place",
+     "tr": "yerleştirmek"
+    },
+    {
+     "en": "preheat",
+     "tr": "önceden ısıtmak"
+    },
+    {
+     "en": "prepare",
+     "tr": "hazırlamak"
+    },
+    {
+     "en": "put",
+     "tr": "koymak"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "roll",
+       "b": "yuvarlamak"
+      },
+      {
+       "a": "place",
+       "b": "yerleştirmek"
+      },
+      {
+       "a": "stir",
+       "b": "karıştırmak, çırpmak"
+      },
+      {
+       "a": "shape",
+       "b": "şekil vermek, şekil"
+      },
+      {
+       "a": "sprinkle",
+       "b": "serpiştirmek"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"yerleştirmek\"?",
+     "answer": "place",
+     "options": [
+      "place",
+      "scoop",
+      "roll",
+      "strain"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 1",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"koymak\"?",
+     "answer": "put",
+     "options": [
+      "put",
+      "strain",
+      "scoop",
+      "wrap"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Mutfakta — ek kelimeler",
+   "items": [
+    {
+     "en": "remove",
+     "tr": "çıkarmak"
+    },
+    {
+     "en": "rinse",
+     "tr": "durulamak"
+    },
+    {
+     "en": "roast",
+     "tr": "fırında kızartmak"
+    },
+    {
+     "en": "knead",
+     "tr": "yoğurmak"
+    },
+    {
+     "en": "make it rest",
+     "tr": "dinlendirmek"
+    },
+    {
+     "en": "make the dough",
+     "tr": "hamur yapmak"
+    },
+    {
+     "en": "melt",
+     "tr": "erimek, eritmek"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "rinse",
+       "b": "durulamak"
+      },
+      {
+       "a": "remove",
+       "b": "çıkarmak"
+      },
+      {
+       "a": "make the dough",
+       "b": "hamur yapmak"
+      },
+      {
+       "a": "melt",
+       "b": "erimek, eritmek"
+      },
+      {
+       "a": "roast",
+       "b": "fırında kızartmak"
+      }
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"erimek, eritmek\"?",
+     "answer": "melt",
+     "options": [
+      "melt",
+      "knead",
+      "remove",
+      "make the dough"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "More Words 2",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"yoğurmak\"?",
+     "answer": "knead",
+     "options": [
+      "knead",
+      "make it rest",
+      "remove",
+      "melt"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives in Recipes",
+   "titleTr": "Tariflerde emir cümleleri",
+   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+   "chips": [
+    "chop",
+    "stir",
+    "boil",
+    "add",
+    "pour",
+    "serve"
+   ],
+   "examples": [
+    {
+     "en": "*Chop* the onions into small pieces.",
+     "tr": "Soğanları küçük parçalar hâlinde doğra."
+    },
+    {
+     "en": "*Add* a teaspoon of salt.",
+     "tr": "Bir çay kaşığı tuz ekle."
+    },
+    {
+     "en": "*Boil* the water for five minutes.",
+     "tr": "Suyu beş dakika kaynat."
+    },
+    {
+     "en": "*Don't* forget to stir the soup.",
+     "tr": "Çorbayı karıştırmayı unutma."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Imperatives in Recipes",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ the onions into small pieces.",
+     "answer": "Chop",
+     "options": [
+      "Chop",
+      "Add",
+      "Boil",
+      "Don't"
+     ],
+     "tr": "Soğanları küçük parçalar hâlinde doğra."
+    },
+    {
+     "kind": "fill",
+     "text": "___ a teaspoon of salt.",
+     "answer": "Add",
+     "options": [
+      "Add",
+      "Chop",
+      "Boil",
+      "Don't"
+     ],
+     "tr": "Bir çay kaşığı tuz ekle."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Imperatives in Recipes",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ the water for five minutes.",
+     "answer": "Boil",
+     "options": [
+      "Boil",
+      "Chop",
+      "Add",
+      "Don't"
+     ],
+     "tr": "Suyu beş dakika kaynat."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Don't forget to stir the soup.",
+     "tr": "Çorbayı karıştırmayı unutma."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Sequencing Words",
+   "titleTr": "Sıralama ifadeleri",
+   "rule": "Tarifin adımlarını *first, then, next, after that, finally* ile sıralarız.",
+   "chips": [
+    "first",
+    "then",
+    "next",
+    "after that",
+    "finally"
+   ],
+   "examples": [
+    {
+     "en": "*First*, wash the vegetables.",
+     "tr": "Önce sebzeleri yıka."
+    },
+    {
+     "en": "*Then*, slice the tomatoes.",
+     "tr": "Sonra domatesleri dilimle."
+    },
+    {
+     "en": "*After that*, mix everything in a bowl.",
+     "tr": "Ondan sonra her şeyi bir kasede karıştır."
+    },
+    {
+     "en": "*Finally*, serve the salad cold.",
+     "tr": "Son olarak salatayı soğuk servis et."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Sequencing Words",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___, wash the vegetables.",
+     "answer": "First",
+     "options": [
+      "First",
+      "Then",
+      "After that",
+      "Finally"
+     ],
+     "tr": "Önce sebzeleri yıka."
+    },
+    {
+     "kind": "fill",
+     "text": "___, slice the tomatoes.",
+     "answer": "Then",
+     "options": [
+      "Then",
+      "First",
+      "After that",
+      "Finally"
+     ],
+     "tr": "Sonra domatesleri dilimle."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "Sequencing Words",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___, mix everything in a bowl.",
+     "answer": "After that",
+     "options": [
+      "After that",
+      "First",
+      "Then",
+      "Finally"
+     ],
+     "tr": "Ondan sonra her şeyi bir kasede karıştır."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Finally, serve the salad cold.",
+     "tr": "Son olarak salatayı soğuk servis et."
+    }
+   ]
+  },
+  {
+   "type": "compare",
+   "title": "How much / How many",
+   "titleTr": "Miktar sorma",
+   "rule": "Sayılabilen isimler için *How many*, sayılamayanlar için *How much* kullanılır.",
+   "columns": [
+    {
+     "title": "HOW MANY 🔢",
+     "tone": "good",
+     "examples": [
+      {
+       "en": "*How many* eggs do we need?",
+       "tr": "Kaç yumurtaya ihtiyacımız var?"
+      },
+      {
+       "en": "*How many* potatoes are there?",
+       "tr": "Kaç patates var?"
+      },
+      {
+       "en": "We need *three* tomatoes.",
+       "tr": "Üç domatese ihtiyacımız var."
+      }
+     ]
+    },
+    {
+     "title": "HOW MUCH ⚖️",
+     "tone": "bad",
+     "examples": [
+      {
+       "en": "*How much* flour do you need?",
+       "tr": "Ne kadar una ihtiyacın var?"
+      },
+      {
+       "en": "*How much* sugar is there?",
+       "tr": "Ne kadar şeker var?"
+      },
+      {
+       "en": "Add *a cup of* milk.",
+       "tr": "Bir fincan süt ekle."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "How much / How many",
+   "part": [
+    1,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ eggs do we need?",
+     "answer": "How many",
+     "options": [
+      "How many",
+      "three",
+      "How much",
+      "a cup of"
+     ],
+     "tr": "Kaç yumurtaya ihtiyacımız var?"
+    },
+    {
+     "kind": "fill",
+     "text": "___ potatoes are there?",
+     "answer": "How many",
+     "options": [
+      "How many",
+      "three",
+      "How much",
+      "a cup of"
+     ],
+     "tr": "Kaç patates var?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Practice",
+   "titleTr": "How much / How many",
+   "part": [
+    2,
+    2
+   ],
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "We need ___ tomatoes.",
+     "answer": "three",
+     "options": [
+      "three",
+      "How many",
+      "How much",
+      "a cup of"
+     ],
+     "tr": "Üç domatese ihtiyacımız var."
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Add a cup of milk.",
+     "tr": "Bir fincan süt ekle."
+    }
+   ]
+  },
+  {
+   "type": "practice",
+   "title": "Quick Practice",
+   "titleTr": "Hızlı tekrar — cevabı görmek için tıkla",
+   "items": [
+    {
+     "q": "fırında pişirmek → ?",
+     "a": "bake"
+    },
+    {
+     "q": "haşlamak → ?",
+     "a": "boil"
+    },
+    {
+     "q": "doğramak → ?",
+     "a": "chop"
+    },
+    {
+     "q": "kesmek → ?",
+     "a": "cut"
+    },
+    {
+     "q": "küp küp doğramak → ?",
+     "a": "dice"
+    },
+    {
+     "q": "kızartmak → ?",
+     "a": "fry"
+    },
+    {
+     "q": "ezmek → ?",
+     "a": "mash"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "emoji": "🎯",
+   "title": "Well done!",
+   "titleTr": "Şimdi oyunlarla pekiştirelim."
+  }
+ ],
+ "source": "res/book_8.pdf"
+}

@@ -1,0 +1,11 @@
+# The Windows launcher MUST keep CRLF: with LF endings cmd.exe cannot find its
+# own labels and drops straight to the "no Python" branch. The shell launcher
+# must stay LF for the same kind of reason.
+* text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh  text eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.pdf binary
