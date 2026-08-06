@@ -11,8 +11,12 @@ echo.
 
 set "PYEXE="
 
+rem --- 0) Where the program lives: next to this file, or under src\ ---------
+set "APP=%~dp0"
+if exist "%~dp0src\server\enghub.py" set "APP=%~dp0src\"
+
 rem --- 1) Portable Python on the USB (no install, no admin) ------------------
-if exist "%~dp0runtime\python-win\python.exe" set "PYEXE=%~dp0runtime\python-win\python.exe"
+if exist "%APP%runtime\python-win\python.exe" set "PYEXE=%APP%runtime\python-win\python.exe"
 
 rem --- 2) Python already on this computer ------------------------------------
 if not defined PYEXE call :find python.exe
@@ -38,7 +42,7 @@ goto bail
 :run
 echo   Python: %PYEXE%
 echo.
-"%PYEXE%" "%~dp0server\enghub.py"
+"%PYEXE%" "%APP%server\enghub.py"
 echo.
 echo   ENG HUB kapandi.
 timeout /t 3 >nul

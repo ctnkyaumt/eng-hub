@@ -1,0 +1,135 @@
+name: Release
+
+# Builds the ready-to-use package: one folder holding the program in src/,
+# both launchers and a first-time README, zipped for the Releases page.
+#
+#   eng-hub/
+#   ├─ Start-Windows.bat
+#   ├─ start-pardus.sh
+#   ├─ README.md
+#   └─ src/           app, server, tools, content, res, runtime, memories
+#
+# Runs on a v* tag, or by hand from the Actions tab.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag (e.g. v1.0.1)"
+        required: true
+        default: v0.0.0-test
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Work out the version
+        id: v
+        run: echo "tag=${{ github.event.inputs.tag || github.ref_name }}" >> "$GITHUB_OUTPUT"
+
+      - name: Lay out the package
+        run: |
+          set -euo pipefail
+          mkdir -p pkg/eng-hub/src
+
+          # the program and its content go under src/
+          for d in app server tools content res memories runtime; do
+            [ -e "$d" ] && cp -r "$d" pkg/eng-hub/src/
+          done
+
+          # launchers and the first-time README stay at the top
+          cp Start-Windows.bat pkg/eng-hub/
+          cp start-pardus.sh   pkg/eng-hub/
+          cp packaging/PACKAGE-README.md pkg/eng-hub/README.md
+          chmod +x pkg/eng-hub/start-pardus.sh
+
+          # the .bat must keep CRLF, the .sh must keep LF
+          sed -i 's/\r\?$/\r/' pkg/eng-hub/Start-Windows.bat
+          sed -i 's/\r$//'     pkg/eng-hub/start-pardus.sh
+
+          # stamp the version so a teacher can tell two USBs apart
+          echo "${{ steps.v.outputs.tag }}  $(date -u +%Y-%m-%d)" > pkg/eng-hub/src/VERSION.txt
+
+      - name: Sanity-check the layout
+        run: |
+          set -euo pipefail
+          test -f pkg/eng-hub/src/server/enghub.py
+          test -f pkg/eng-hub/src/app/index.html
+          test -f pkg/eng-hub/Start-Windows.bat
+          test -f pkg/eng-hub/start-pardus.sh
+          test -f pkg/eng-hub/README.md
+          # the launcher must find the program under src/
+          grep -q 'src\\server\\enghub.py' pkg/eng-hub/Start-Windows.bat
+          grep -q 'src/server/enghub.py'   pkg/eng-hub/start-pardus.sh
+          # and the server must actually start from that layout
+          python3 - <<'PY'
+          import http.client, os, subprocess, sys, time
+          env = dict(os.environ, ENGHUB_NO_BROWSER="1", ENGHUB_PORT="8899")
+          p = subprocess.Popen([sys.executable, "pkg/eng-hub/src/server/enghub.py"], env=env)
+          try:
+              for _ in range(40):
+                  time.sleep(0.25)
+                  try:
+                      c = http.client.HTTPConnection("127.0.0.1", 8899, timeout=2)
+                      c.request("GET", "/app/data/catalog.json")
+                      r = c.getresponse()
+                      assert r.status == 200, r.status
+                      print("server answers, catalog served")
+                      break
+                  except (ConnectionRefusedError, OSError):
+                      continue
+              else:
+                  sys.exit("server did not come up")
+          finally:
+              p.terminate()
+          PY
+
+      - name: Zip the full package
+        run: |
+          cd pkg
+          zip -qr "../eng-hub-${{ steps.v.outputs.tag }}.zip" eng-hub
+          cd ..
+          ls -lh eng-hub-*.zip
+
+      - name: Zip the lite package (program + presentations only)
+        run: |
+          set -euo pipefail
+          cp -r pkg pkg-lite
+          rm -rf pkg-lite/eng-hub/src/res
+          # keep the presentation pictures, drop the heavy extras
+          find pkg-lite/eng-hub/src/content -type d \( -name worksheets -o -name sites -o -name games \) -prune -exec rm -rf {} +
+          cd pkg-lite
+          zip -qr "../eng-hub-${{ steps.v.outputs.tag }}-lite.zip" eng-hub
+          cd ..
+          ls -lh eng-hub-*-lite.zip
+
+      - name: Publish the release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.v.outputs.tag }}
+          name: ENG HUB ${{ steps.v.outputs.tag }}
+          body: |
+            Taşınabilir İngilizce ders yardımcısı — kurulum yok, internet yok.
+
+            **`eng-hub-${{ steps.v.outputs.tag }}.zip`** — tam paket (sunumlar, oyunlar,
+            çalışma kâğıtları, çevrimdışı etkinlikler). USB'ye çıkarın, başlatıcıya çift tıklayın.
+
+            **`…-lite.zip`** — sadece program ve sunumlar; çalışma kâğıtları ve oyun
+            görselleri olmadan, çok daha küçük.
+
+            Kurulum ve kullanım: paketin içindeki `README.md`.
+
+            > İki ders kitabı PDF'i (`res/book.pdf`, `res/book_8.pdf`) GitHub'ın dosya
+            > sınırını aştığı için pakette değil. Programın çalışması için gerekmezler;
+            > yalnızca içeriği kaynaktan yeniden üretmek isteyenler içindir.
+          files: |
+            eng-hub-${{ steps.v.outputs.tag }}.zip
+            eng-hub-${{ steps.v.outputs.tag }}-lite.zip

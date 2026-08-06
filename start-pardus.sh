@@ -4,6 +4,10 @@
 
 cd "$(dirname "$0")" || exit 1
 
+# the program sits next to this file, or under src/ in the release package
+APP="."
+[ -f ./src/server/enghub.py ] && APP="./src"
+
 echo
 echo "  ==========================================="
 echo "    ENG HUB  -  baslatiliyor / starting..."
@@ -11,7 +15,7 @@ echo "  ==========================================="
 echo
 
 find_python() {
-    for cand in ./runtime/python-linux/bin/python3 python3 python; do
+    for cand in "$APP/runtime/python-linux/bin/python3" python3 python; do
         if command -v "$cand" >/dev/null 2>&1 || [ -x "$cand" ]; then
             if "$cand" -c 'import sys;sys.exit(0 if sys.version_info>=(3,8) else 1)' >/dev/null 2>&1; then
                 echo "$cand"
@@ -58,7 +62,7 @@ fi
 
 echo "  Python: $PYEXE"
 echo
-"$PYEXE" ./server/enghub.py
+"$PYEXE" "$APP/server/enghub.py"
 
 echo
 echo "  ENG HUB kapandi."
