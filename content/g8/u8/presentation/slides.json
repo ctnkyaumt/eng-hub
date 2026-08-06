@@ -28,27 +28,32 @@
     {
      "en": "make the bed",
      "tr": "yatağı toplamak",
-     "emoji": "🛏️"
+     "emoji": "🛏️",
+     "img": "/app/img/words/make-the-bed.jpg"
     },
     {
      "en": "set the table",
      "tr": "sofrayı kurmak",
-     "emoji": "🍴"
+     "emoji": "🍴",
+     "img": "/app/img/words/set-the-table.jpg"
     },
     {
      "en": "wash the dishes",
      "tr": "bulaşık yıkamak",
-     "emoji": "🧼"
+     "emoji": "🧼",
+     "img": "/app/img/words/wash-the-dishes.jpg"
     },
     {
      "en": "dry the dishes",
      "tr": "bulaşık kurulamak",
-     "emoji": "🌀"
+     "emoji": "🌀",
+     "img": "/app/img/words/dry-the-dishes.jpg"
     },
     {
      "en": "load the dishwasher",
      "tr": "bulaşık makinesini doldurmak",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "/app/img/words/load-the-dishwasher.jpg"
     },
     {
      "en": "empty the dishwasher",
@@ -70,12 +75,14 @@
     {
      "en": "do the laundry",
      "tr": "çamaşır yıkamak",
-     "emoji": "🧺"
+     "emoji": "🧺",
+     "img": "/app/img/words/do-the-laundry.jpg"
     },
     {
      "en": "laundry",
      "tr": "çamaşır",
-     "emoji": "👕"
+     "emoji": "👕",
+     "img": "/app/img/words/laundry.jpg"
     },
     {
      "en": "iron",
@@ -86,12 +93,14 @@
     {
      "en": "clean up",
      "tr": "temizlemek",
-     "emoji": "🧹"
+     "emoji": "🧹",
+     "img": "/app/img/words/clean-up.jpg"
     },
     {
      "en": "tidy up",
      "tr": "toparlamak",
-     "emoji": "🧽"
+     "emoji": "🧽",
+     "img": "/app/img/words/tidy-up.jpg"
     },
     {
      "en": "take out the garbage",
@@ -140,13 +149,15 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"temizlemek\"?",
-     "answer": "clean up",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/tidy-up.jpg",
+     "answer": "tidy up",
+     "tr": "toparlamak",
      "options": [
-      "clean up",
-      "do the laundry",
       "tidy up",
+      "do the laundry",
+      "clean up",
       "empty the dishwasher"
      ]
     }
@@ -162,14 +173,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"bulaşık kurulamak\"?",
-     "answer": "dry the dishes",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/load-the-dishwasher.jpg",
+     "answer": "load the dishwasher",
+     "tr": "bulaşık makinesini doldurmak",
      "options": [
-      "dry the dishes",
       "load the dishwasher",
+      "dry the dishes",
       "clean up",
       "tidy up"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"bulaşık yıkamak\"?",
+     "answer": "wash the dishes",
+     "options": [
+      "wash the dishes",
+      "laundry",
+      "take out the garbage",
+      "make the bed"
      ]
     }
    ]
@@ -207,12 +231,14 @@
     {
      "en": "return books",
      "tr": "kitapları iade etmek",
-     "emoji": "📚"
+     "emoji": "📚",
+     "img": "/app/img/words/return-books.jpg"
     },
     {
      "en": "to-do list",
      "tr": "yapılacaklar listesi",
-     "emoji": "📝"
+     "emoji": "📝",
+     "img": "/app/img/words/to-do-list.jpg"
     }
    ]
   },
@@ -230,34 +256,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "arrive on time",
-       "b": "zamanında gelmek"
+       "a": "to-do list",
+       "b": "yapılacaklar listesi"
       },
       {
-       "a": "return books",
-       "b": "kitapları iade etmek"
+       "a": "obey the rules",
+       "b": "kurallara uymak"
       },
       {
        "a": "keep a promise",
        "b": "sözünü tutmak"
       },
       {
-       "a": "break a promise",
-       "b": "sözünü bozmak"
+       "a": "return books",
+       "b": "kitapları iade etmek"
       },
       {
-       "a": "obey the rules",
-       "b": "kurallara uymak"
+       "a": "break a promise",
+       "b": "sözünü bozmak"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"kurallara uymak\"?",
-     "answer": "obey the rules",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/return-books.jpg",
+     "answer": "return books",
+     "tr": "kitapları iade etmek",
      "options": [
-      "obey the rules",
-      "break a promise",
+      "return books",
+      "keep quiet",
       "arrive on time",
       "to-do list"
      ]
@@ -274,14 +302,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"sözünü tutmak\"?",
-     "answer": "keep a promise",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/to-do-list.jpg",
+     "answer": "to-do list",
+     "tr": "yapılacaklar listesi",
      "options": [
-      "keep a promise",
-      "return books",
+      "to-do list",
+      "arrive on time",
+      "keep quiet",
+      "break a promise"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kurallara uymak\"?",
+     "answer": "obey the rules",
+     "options": [
       "obey the rules",
-      "to-do list"
+      "keep quiet",
+      "to-do list",
+      "return books"
      ]
     }
    ]
@@ -355,36 +396,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "feel relaxed",
-       "b": "rahat hissetmek"
+       "a": "kitchen chores",
+       "b": "mutfak işleri"
       },
       {
-       "a": "feel worried",
-       "b": "endişelenmek (endişeli hissetmek)"
+       "a": "feel annoyed",
+       "b": "sinirlenmek (kızgın"
       },
       {
-       "a": "be responsible for",
-       "b": "-den/-dan sorumlu olmak"
+       "a": "feel happy",
+       "b": "sevinmek"
       },
       {
        "a": "be good at",
        "b": "bir şeyde iyi olmak"
       },
       {
-       "a": "admire",
-       "b": "hayran olmak"
+       "a": "be late",
+       "b": "geç kalmak"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"sorumlulukları ihmal etmek\"?",
-     "answer": "ignore responsibilities",
+     "q": "Which word means \"bir şeyde iyi olmak\"?",
+     "answer": "be good at",
      "options": [
-      "ignore responsibilities",
-      "share the chores",
-      "admire",
-      "be late"
+      "be good at",
+      "feel worried",
+      "be responsible for",
+      "kitchen chores"
      ]
     }
    ]
@@ -400,13 +441,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"ev işlerini paylaşmak\"?",
-     "answer": "share the chores",
+     "q": "Which word means \"mutfak işleri\"?",
+     "answer": "kitchen chores",
      "options": [
-      "share the chores",
-      "be good at",
+      "kitchen chores",
       "ignore responsibilities",
-      "feel relaxed"
+      "be good at",
+      "admire"
      ]
     }
    ]
@@ -480,20 +521,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "For example,",
-       "b": "Örneğin"
-      },
-      {
        "a": "some chores",
        "b": "bazı ev işleri"
       },
       {
-       "a": "before the meal",
-       "b": "yemekten önce"
+       "a": "feel bored",
+       "b": "içi sıkılmak"
       },
       {
        "a": "be happy",
        "b": "mutlu olmak"
+      },
+      {
+       "a": "feel so hungry",
+       "b": "çok acıkmak"
       },
       {
        "a": "do the shopping",
@@ -503,13 +544,13 @@
     },
     {
      "kind": "choose",
-     "q": "Which word means \"Örneğin\"?",
-     "answer": "For example,",
+     "q": "Which word means \"faturaları ödemek\"?",
+     "answer": "pay the bills",
      "options": [
-      "For example,",
       "pay the bills",
-      "feel bored",
-      "feel so hungry"
+      "waiting to eat",
+      "be happy",
+      "For example,"
      ]
     }
    ]
@@ -525,13 +566,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"çok acıkmak\"?",
-     "answer": "feel so hungry",
+     "q": "Which word means \"yemekten önce\"?",
+     "answer": "before the meal",
      "options": [
-      "feel so hungry",
-      "feel bored",
-      "For example,",
-      "before the meal"
+      "before the meal",
+      "waiting to eat",
+      "some chores",
+      "feel so hungry"
      ]
     }
    ]
@@ -638,7 +679,8 @@
    "examples": [
     {
      "en": "*Could you* help me with the laundry?",
-     "tr": "Çamaşırlarda bana yardım eder misin?"
+     "tr": "Çamaşırlarda bana yardım eder misin?",
+     "img": "/app/img/words/laundry.jpg"
     },
     {
      "en": "*Would you mind* taking out the rubbish?",
@@ -646,7 +688,8 @@
     },
     {
      "en": "*Shall I* set the table?",
-     "tr": "Masayı ben mi kurayım?"
+     "tr": "Masayı ben mi kurayım?",
+     "img": "/app/img/words/set-the-table.jpg"
     },
     {
      "en": "Can you *give me a hand* in the kitchen?",

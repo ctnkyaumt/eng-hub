@@ -23,27 +23,32 @@
     {
      "en": "lab",
      "tr": "laboratuvar",
-     "emoji": "🧪"
+     "emoji": "🧪",
+     "img": "/app/img/words/lab.jpg"
     },
     {
      "en": "do an experiment",
      "tr": "deney yapmak",
-     "emoji": "⚗️"
+     "emoji": "⚗️",
+     "img": "/app/img/words/do-an-experiment.jpg"
     },
     {
      "en": "test tube",
      "tr": "deney tüpü",
-     "emoji": "🧫"
+     "emoji": "🧫",
+     "img": "/app/img/words/test-tube.jpg"
     },
     {
      "en": "cell",
      "tr": "hücre",
-     "emoji": "🔬"
+     "emoji": "🔬",
+     "img": "/app/img/words/cell.jpg"
     },
     {
      "en": "safety",
      "tr": "güvenlik",
-     "emoji": "🦺"
+     "emoji": "🦺",
+     "img": "/app/img/words/safety.jpg"
     },
     {
      "en": "scientific",
@@ -104,9 +109,11 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"laboratuvar\"?",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/lab.jpg",
      "answer": "lab",
+     "tr": "laboratuvar",
      "options": [
       "lab",
       "result",
@@ -126,14 +133,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"bilimsel\"?",
-     "answer": "scientific",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/test-tube.jpg",
+     "answer": "test tube",
+     "tr": "deney tüpü",
      "options": [
-      "scientific",
+      "test tube",
       "result",
       "explode",
       "process"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"laboratuvar\"?",
+     "answer": "lab",
+     "options": [
+      "lab",
+      "explode",
+      "cell",
+      "safety"
      ]
     }
    ]
@@ -146,12 +166,14 @@
     {
      "en": "discover",
      "tr": "keşfetmek",
-     "emoji": "🔍"
+     "emoji": "🔍",
+     "img": "/app/img/words/discover.jpg"
     },
     {
      "en": "invent",
      "tr": "icat etmek",
-     "emoji": "💡"
+     "emoji": "💡",
+     "img": "/app/img/words/invent.jpg"
     },
     {
      "en": "explore",
@@ -177,17 +199,20 @@
     {
      "en": "high-tech",
      "tr": "ileri teknoloji",
-     "emoji": "🤖"
+     "emoji": "🤖",
+     "img": "/app/img/words/high-tech.jpg"
     },
     {
      "en": "cure",
      "tr": "tedavi etmek",
-     "emoji": "💊"
+     "emoji": "💊",
+     "img": "/app/img/words/cure.jpg"
     },
     {
      "en": "vaccination",
      "tr": "aşılama",
-     "emoji": "💉"
+     "emoji": "💉",
+     "img": "/app/img/words/vaccination.jpg"
     }
    ]
   },
@@ -205,36 +230,38 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "discover",
-       "b": "keşfetmek"
-      },
-      {
-       "a": "cure",
-       "b": "tedavi etmek"
-      },
-      {
-       "a": "genius",
-       "b": "dâhi"
-      },
-      {
-       "a": "search",
-       "b": "araştırmak"
+       "a": "invent",
+       "b": "icat etmek"
       },
       {
        "a": "explore",
+       "b": "araştırmak"
+      },
+      {
+       "a": "high-tech",
+       "b": "ileri teknoloji"
+      },
+      {
+       "a": "succeed",
+       "b": "başarmak"
+      },
+      {
+       "a": "search",
        "b": "araştırmak"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"ileri teknoloji\"?",
-     "answer": "high-tech",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/discover.jpg",
+     "answer": "discover",
+     "tr": "keşfetmek",
      "options": [
+      "discover",
       "high-tech",
-      "explore",
-      "invent",
-      "genius"
+      "genius",
+      "search"
      ]
     }
    ]
@@ -249,14 +276,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"aşılama\"?",
-     "answer": "vaccination",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/high-tech.jpg",
+     "answer": "high-tech",
+     "tr": "ileri teknoloji",
      "options": [
-      "vaccination",
+      "high-tech",
       "invent",
-      "cure",
-      "succeed"
+      "explore",
+      "vaccination"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"araştırmak\"?",
+     "answer": "search",
+     "options": [
+      "search",
+      "succeed",
+      "discover",
+      "high-tech"
      ]
     }
    ]
@@ -330,36 +370,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "entertainment",
-       "b": "eğlence"
+       "a": "facts",
+       "b": "gerçekler"
       },
       {
        "a": "horizon",
        "b": "ufuk, görüş, anlayış"
       },
       {
-       "a": "electric bulb",
-       "b": "ampul"
+       "a": "goldsmith",
+       "b": "kuyumcu"
       },
       {
-       "a": "ink",
-       "b": "mürekkep"
+       "a": "entertainment",
+       "b": "eğlence"
       },
       {
-       "a": "infection",
-       "b": "bulaşma, enfeksiyon"
+       "a": "gain",
+       "b": "kazanmak"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"ufuk, görüş, anlayış\"?",
-     "answer": "horizon",
+     "q": "Which word means \"mürekkep\"?",
+     "answer": "ink",
      "options": [
-      "horizon",
-      "improvement",
-      "infection",
-      "electric bulb"
+      "ink",
+      "gain",
+      "goldsmith",
+      "horizon"
      ]
     }
    ]
@@ -375,13 +415,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"bulaşma, enfeksiyon\"?",
-     "answer": "infection",
+     "q": "Which word means \"kuyumcu\"?",
+     "answer": "goldsmith",
      "options": [
-      "infection",
+      "goldsmith",
+      "improve",
       "improvement",
-      "horizon",
-      "facts"
+      "horizon"
      ]
     }
    ]
@@ -435,24 +475,24 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "deserve",
+       "b": "hak etmek"
+      },
+      {
+       "a": "diagnose",
+       "b": "teşhis etmek"
+      },
+      {
        "a": "die",
        "b": "ölmek"
-      },
-      {
-       "a": "discovery",
-       "b": "keşif"
-      },
-      {
-       "a": "gravity of the matter",
-       "b": "maddenin yer çekimi"
       },
       {
        "a": "discoverer",
        "b": "kaşif"
       },
       {
-       "a": "develop",
-       "b": "geliştirmek"
+       "a": "gravity of the matter",
+       "b": "maddenin yer çekimi"
       }
      ]
     },
@@ -464,7 +504,7 @@
       "die",
       "discoverer",
       "discovery",
-      "diagnose"
+      "deserve"
      ]
     }
    ]
@@ -480,13 +520,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"maddenin yer çekimi\"?",
-     "answer": "gravity of the matter",
+     "q": "Which word means \"geliştirmek\"?",
+     "answer": "develop",
      "options": [
+      "develop",
+      "discovery",
       "gravity of the matter",
-      "deserve",
-      "diagnose",
-      "discoverer"
+      "die"
      ]
     }
    ]

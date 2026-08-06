@@ -23,12 +23,14 @@
     {
      "en": "teenager",
      "tr": "genç",
-     "emoji": "🧑"
+     "emoji": "🧑",
+     "img": "/app/img/words/teenager.jpg"
     },
     {
      "en": "hang out",
      "tr": "takılmak",
-     "emoji": "🧑‍🤝‍🧑"
+     "emoji": "🧑‍🤝‍🧑",
+     "img": "/app/img/words/hang-out.jpg"
     },
     {
      "en": "relationship",
@@ -44,7 +46,8 @@
     {
      "en": "fashion",
      "tr": "moda",
-     "emoji": "👗"
+     "emoji": "👗",
+     "img": "/app/img/words/fashion.jpg"
     },
     {
      "en": "trendy",
@@ -59,7 +62,8 @@
     {
      "en": "concert",
      "tr": "konser",
-     "emoji": "🎤"
+     "emoji": "🎤",
+     "img": "/app/img/words/concert.jpg"
     },
     {
      "en": "types of music",
@@ -105,14 +109,16 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"tartışmak\"?",
-     "answer": "argue",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/concert.jpg",
+     "answer": "concert",
+     "tr": "konser",
      "options": [
-      "argue",
-      "teenager",
       "concert",
-      "hang out"
+      "teenager",
+      "fashion",
+      "trendy"
      ]
     }
    ]
@@ -127,14 +133,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"genç\"?",
-     "answer": "teenager",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/hang-out.jpg",
+     "answer": "hang out",
+     "tr": "takılmak",
      "options": [
+      "hang out",
       "teenager",
       "concert",
-      "relationship",
-      "hang out"
+      "relationship"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"züppe\"?",
+     "answer": "snob",
+     "options": [
+      "snob",
+      "teenager",
+      "hang out",
+      "relationship"
      ]
     }
    ]
@@ -210,36 +229,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "recommend",
-       "b": "tavsiye etmek"
-      },
-      {
-       "a": "terrific",
-       "b": "muhteşem"
+       "a": "relaxing",
+       "b": "rahatlatıcı"
       },
       {
        "a": "prefer",
        "b": "tercih etmek"
       },
       {
+       "a": "loud",
+       "b": "gürültülü"
+      },
+      {
        "a": "ridiculous",
        "b": "saçma"
       },
       {
-       "a": "unbearable",
-       "b": "dayanılmaz"
+       "a": "terrific",
+       "b": "muhteşem"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"rahatlatıcı\"?",
-     "answer": "relaxing",
+     "q": "Which word means \"tavsiye etmek\"?",
+     "answer": "recommend",
      "options": [
-      "relaxing",
-      "prefer",
       "recommend",
-      "loud"
+      "impressive",
+      "prefer",
+      "terrific"
      ]
     }
    ]
@@ -255,13 +274,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"tercih etmek\"?",
-     "answer": "prefer",
+     "q": "Which word means \"muhteşem\"?",
+     "answer": "terrific",
      "options": [
-      "prefer",
-      "impressive",
-      "fond of",
-      "terrific"
+      "terrific",
+      "unbearable",
+      "serious",
+      "fond of"
      ]
     }
    ]
@@ -335,36 +354,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "follow",
-       "b": "takip etmek"
+       "a": "hiking",
+       "b": "doğa yürüyüşü"
       },
       {
-       "a": "gym",
-       "b": "spor salonu"
+       "a": "fashionable",
+       "b": "modaya uygun"
       },
       {
-       "a": "free time",
-       "b": "boş zaman"
+       "a": "how often",
+       "b": "ne sıklıkla"
       },
       {
        "a": "energetic",
        "b": "enerjik"
       },
       {
-       "a": "fashionable",
-       "b": "modaya uygun"
+       "a": "fast",
+       "b": "hızlı"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"doğa yürüyüşü\"?",
-     "answer": "hiking",
+     "q": "Which word means \"enerjik\"?",
+     "answer": "energetic",
      "options": [
-      "hiking",
-      "fashionable",
-      "horizon",
-      "folk music"
+      "energetic",
+      "hate",
+      "folk music",
+      "hiking"
      ]
     }
    ]
@@ -380,13 +399,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"modaya uygun\"?",
-     "answer": "fashionable",
+     "q": "Which word means \"halk müziği\"?",
+     "answer": "folk music",
      "options": [
-      "fashionable",
-      "follow",
-      "energetic",
-      "hiking"
+      "folk music",
+      "free time",
+      "fast",
+      "form"
      ]
     }
    ]
@@ -426,7 +445,8 @@
     },
     {
      "en": "come over",
-     "tr": "uğramak, ziyaret etmek"
+     "tr": "uğramak, ziyaret etmek",
+     "img": "/app/img/words/come-over.jpg"
     }
    ]
   },
@@ -444,36 +464,38 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "fantasy",
+       "b": "hayal ürünü"
+      },
+      {
        "a": "come over",
        "b": "uğramak, ziyaret etmek"
       },
       {
-       "a": "enlarge",
-       "b": "genişletmek, büyütmek"
-      },
-      {
-       "a": "exercise",
-       "b": "egzersiz"
-      },
-      {
-       "a": "exciting",
-       "b": "heyecan verici"
+       "a": "enjoy",
+       "b": "sevmek, hoşlanmak"
       },
       {
        "a": "fascinating",
        "b": "büyüleyici"
+      },
+      {
+       "a": "exercise",
+       "b": "egzersiz"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"sevmek, hoşlanmak\"?",
-     "answer": "enjoy",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/come-over.jpg",
+     "answer": "come over",
+     "tr": "uğramak, ziyaret etmek",
      "options": [
-      "enjoy",
       "come over",
-      "enjoyable",
-      "fascinating"
+      "exercise",
+      "enjoy",
+      "enjoyable"
      ]
     }
    ]
@@ -489,13 +511,24 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"büyüleyici\"?",
-     "answer": "fascinating",
+     "q": "Which word means \"egzersiz\"?",
+     "answer": "exercise",
      "options": [
-      "fascinating",
-      "fantasy",
+      "exercise",
+      "come over",
       "enjoyable",
-      "exercise"
+      "fascinating"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"uğramak, ziyaret etmek\"?",
+     "answer": "come over",
+     "options": [
+      "come over",
+      "enlarge",
+      "fascinating",
+      "exciting"
      ]
     }
    ]

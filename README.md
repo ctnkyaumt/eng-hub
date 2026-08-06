@@ -40,7 +40,8 @@ başlığıyla durur — bağlantı varsa tek tıkla açılır.
 * Her konu slaydının **arkasından bir alıştırma slaydı** gelir: eşleştirme, çoktan seçmeli, boşluk
   doldurma, cümleyi sıraya dizme. Sorular o slaydın kendi kelime ve örneklerinden üretilir.
 * Konu sırası **ders kitabına** göredir (`res/book.pdf` tema tablosu); kitapta olmayan konular çıkarıldı.
-* Kelime kartlarında mümkün olan yerde **tema föyünün kendi resimleri** kullanılır (emoji yerine).
+* Kelime kartlarında mümkün olan yerde gerçek resim kullanılır: 5. sınıfta **tema föyünün kendi
+  görselleri**, 8. sınıfta **Wikimedia Commons**'tan kelime başına indirilen fotoğraflar.
 * Diyaloglar **konuşma balonu** olarak gösterilir.
 * Başlıklar ve kapak sayfası **tek seferde** görünür; sadece içerik adım adım açılır.
 * Üstteki **adım çubuğu** o slaytta kaç parça kaldığını gösterir.

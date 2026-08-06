@@ -28,7 +28,8 @@
     {
      "en": "best friend",
      "tr": "en iyi arkadaş",
-     "emoji": "👯"
+     "emoji": "👯",
+     "img": "/app/img/words/best-friend.jpg"
     },
     {
      "en": "buddy",
@@ -48,17 +49,20 @@
     {
      "en": "concert",
      "tr": "konser",
-     "emoji": "🎤"
+     "emoji": "🎤",
+     "img": "/app/img/words/concert.jpg"
     },
     {
      "en": "come over",
      "tr": "uğramak",
-     "emoji": "🚪"
+     "emoji": "🚪",
+     "img": "/app/img/words/come-over.jpg"
     },
     {
      "en": "go for a walk",
      "tr": "yürüyüşe çıkmak",
-     "emoji": "🚶"
+     "emoji": "🚶",
+     "img": "/app/img/words/go-for-a-walk.jpg"
     }
    ]
   },
@@ -98,13 +102,15 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"konser\"?",
-     "answer": "concert",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/come-over.jpg",
+     "answer": "come over",
+     "tr": "uğramak",
      "options": [
-      "concert",
-      "best friend",
       "come over",
+      "best friend",
+      "concert",
       "friendship"
      ]
     }
@@ -120,14 +126,27 @@
    ],
    "tasks": [
     {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/concert.jpg",
+     "answer": "concert",
+     "tr": "konser",
+     "options": [
+      "concert",
+      "advice",
+      "friendship",
+      "best friend"
+     ]
+    },
+    {
      "kind": "choose",
      "q": "Which word means \"arkadaş\"?",
      "answer": "mate",
      "options": [
       "mate",
-      "concert",
+      "advice",
       "friendship",
-      "best friend"
+      "come over"
      ]
     }
    ]
@@ -170,12 +189,14 @@
     {
      "en": "treasure",
      "tr": "hazine",
-     "emoji": "🏆"
+     "emoji": "🏆",
+     "img": "/app/img/words/treasure.jpg"
     },
     {
      "en": "secret",
      "tr": "sır",
-     "emoji": "🤫"
+     "emoji": "🤫",
+     "img": "/app/img/words/secret.jpg"
     }
    ],
    "part": [
@@ -196,7 +217,8 @@
     {
      "en": "share",
      "tr": "paylaşmak",
-     "emoji": "🤲"
+     "emoji": "🤲",
+     "img": "/app/img/words/share.jpg"
     },
     {
      "en": "support",
@@ -243,36 +265,38 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "survive",
-       "b": "hayatta kalmak"
+       "a": "trust",
+       "b": "güven"
       },
       {
-       "a": "mutual",
-       "b": "karşılıklı"
+       "a": "promise",
+       "b": "söz vermek"
       },
       {
-       "a": "share",
-       "b": "paylaşmak"
+       "a": "loyalty",
+       "b": "sadakat"
       },
       {
        "a": "secret",
        "b": "sır"
       },
       {
-       "a": "loyalty",
-       "b": "sadakat"
+       "a": "support",
+       "b": "desteklemek"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"desteklemek\"?",
-     "answer": "support",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/secret.jpg",
+     "answer": "secret",
+     "tr": "sır",
      "options": [
-      "support",
+      "secret",
       "trust",
       "count on",
-      "patience"
+      "promise"
      ]
     }
    ]
@@ -287,14 +311,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"güvenmek\"?",
-     "answer": "count on",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/treasure.jpg",
+     "answer": "treasure",
+     "tr": "hazine",
      "options": [
-      "count on",
-      "loyalty",
-      "trust",
+      "treasure",
+      "back up",
+      "unconditional",
       "promise"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"biriyle iyi geçinmek\"?",
+     "answer": "get on well with somebody",
+     "options": [
+      "get on well with somebody",
+      "unconditional",
+      "promise",
+      "trust"
      ]
     }
    ]
@@ -360,36 +397,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "awesome",
-       "b": "harika"
-      },
-      {
-       "a": "full",
-       "b": "tok"
-      },
-      {
        "a": "thrilling",
        "b": "heyecan verici"
       },
       {
-       "a": "laid-back",
-       "b": "rahat, sakin"
-      },
-      {
        "a": "cool",
        "b": "havalı"
+      },
+      {
+       "a": "awesome",
+       "b": "harika"
+      },
+      {
+       "a": "stuffed",
+       "b": "çok tok"
+      },
+      {
+       "a": "full",
+       "b": "tok"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"havalı\"?",
-     "answer": "cool",
+     "q": "Which word means \"heyecan verici\"?",
+     "answer": "thrilling",
      "options": [
-      "cool",
+      "thrilling",
+      "stuffed",
       "serious",
-      "full",
-      "thrilling"
+      "laid-back"
      ]
     }
    ]
@@ -405,13 +442,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"meşgul\"?",
-     "answer": "busy",
+     "q": "Which word means \"tok\"?",
+     "answer": "full",
      "options": [
+      "full",
       "busy",
       "stuffed",
-      "thrilling",
-      "laid-back"
+      "thrilling"
      ]
     }
    ]
@@ -485,36 +522,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "water the flowers",
-       "b": "çiçekleri sulamak"
+       "a": "study",
+       "b": "ders çalışmak"
+      },
+      {
+       "a": "ride a bike",
+       "b": "bisiklete binmek"
+      },
+      {
+       "a": "walk the dog",
+       "b": "köpeği gezdirmek"
       },
       {
        "a": "weekend",
        "b": "hafta sonu"
       },
       {
-       "a": "visit relatives",
-       "b": "akrabaları ziyaret etmek"
-      },
-      {
-       "a": "watch TV",
-       "b": "televizyon izlemek"
-      },
-      {
-       "a": "ride a bike",
-       "b": "bisiklete binmek"
+       "a": "wake up",
+       "b": "uyanmak"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"günlük yazmak\"?",
-     "answer": "write a diary",
+     "q": "Which word means \"televizyon izlemek\"?",
+     "answer": "watch TV",
      "options": [
-      "write a diary",
       "watch TV",
       "visit relatives",
-      "wake up"
+      "wash face",
+      "ride a bike"
      ]
     }
    ]
@@ -530,13 +567,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"hafta sonu\"?",
-     "answer": "weekend",
+     "q": "Which word means \"uyanmak\"?",
+     "answer": "wake up",
      "options": [
-      "weekend",
-      "water the flowers",
+      "wake up",
+      "visit relatives",
       "walk the dog",
-      "watch TV"
+      "weekend"
      ]
     }
    ]
@@ -610,36 +647,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "have lunch",
-       "b": "öğle yemeği yemek"
+       "a": "meet friends",
+       "b": "arkadaşlarla buluşmak"
       },
       {
        "a": "have breakfast",
        "b": "kahvaltı yapmak"
       },
       {
-       "a": "meet friends",
-       "b": "arkadaşlarla buluşmak"
+       "a": "have lunch",
+       "b": "öğle yemeği yemek"
       },
       {
-       "a": "take a nap",
-       "b": "şekerleme yapmak"
+       "a": "take a course",
+       "b": "kurs almak"
       },
       {
-       "a": "listen to music",
-       "b": "müzik dinlemek"
+       "a": "play chess",
+       "b": "satranç oynamak"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"satranç oynamak\"?",
-     "answer": "play chess",
+     "q": "Which word means \"yaşam, hayat\"?",
+     "answer": "life",
      "options": [
-      "play chess",
       "life",
-      "noon",
-      "have breakfast"
+      "meet friends",
+      "have lunch",
+      "read a book"
      ]
     }
    ]
@@ -655,13 +692,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"müzik dinlemek\"?",
-     "answer": "listen to music",
+     "q": "Which word means \"evcil hayvan ile ilgilenmek\"?",
+     "answer": "take care of a pet",
      "options": [
-      "listen to music",
-      "life",
+      "take care of a pet",
+      "have breakfast",
       "meet friends",
-      "take a nap"
+      "have lunch"
      ]
     }
    ]

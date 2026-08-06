@@ -23,37 +23,44 @@
     {
      "en": "earthquake",
      "tr": "deprem",
-     "emoji": "🌎"
+     "emoji": "🌎",
+     "img": "/app/img/words/earthquake.jpg"
     },
     {
      "en": "flood",
      "tr": "sel",
-     "emoji": "🌊"
+     "emoji": "🌊",
+     "img": "/app/img/words/flood.jpg"
     },
     {
      "en": "drought",
      "tr": "kuraklık",
-     "emoji": "🏜️"
+     "emoji": "🏜️",
+     "img": "/app/img/words/drought.jpg"
     },
     {
      "en": "avalanche",
      "tr": "çığ",
-     "emoji": "🏔️"
+     "emoji": "🏔️",
+     "img": "/app/img/words/avalanche.jpg"
     },
     {
      "en": "landslide",
      "tr": "heyelan",
-     "emoji": "⛰️"
+     "emoji": "⛰️",
+     "img": "/app/img/words/landslide.jpg"
     },
     {
      "en": "hurricane",
      "tr": "kasırga",
-     "emoji": "🌀"
+     "emoji": "🌀",
+     "img": "/app/img/words/hurricane.jpg"
     },
     {
      "en": "tornado",
      "tr": "hortum",
-     "emoji": "🌪️"
+     "emoji": "🌪️",
+     "img": "/app/img/words/tornado.jpg"
     },
     {
      "en": "tsunami",
@@ -70,7 +77,8 @@
     {
      "en": "disaster",
      "tr": "felaket",
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "img": "/app/img/words/disaster.jpg"
     }
    ]
   },
@@ -110,9 +118,11 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"hortum\"?",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/tornado.jpg",
      "answer": "tornado",
+     "tr": "hortum",
      "options": [
       "tornado",
       "hurricane",
@@ -132,14 +142,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"deprem\"?",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/earthquake.jpg",
      "answer": "earthquake",
+     "tr": "deprem",
      "options": [
       "earthquake",
       "drought",
       "tornado",
       "volcano"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"çığ\"?",
+     "answer": "avalanche",
+     "options": [
+      "avalanche",
+      "earthquake",
+      "volcano",
+      "disaster"
      ]
     }
    ]
@@ -158,7 +181,8 @@
     {
      "en": "melt",
      "tr": "erimek",
-     "emoji": "💧"
+     "emoji": "💧",
+     "img": "/app/img/words/melt.jpg"
     },
     {
      "en": "precaution",
@@ -173,7 +197,8 @@
     {
      "en": "survivor",
      "tr": "hayatta kalan",
-     "emoji": "🙏"
+     "emoji": "🙏",
+     "img": "/app/img/words/survivor.jpg"
     }
    ]
   },
@@ -191,35 +216,37 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "melt",
-       "b": "erimek"
-      },
-      {
-       "a": "global warming",
-       "b": "küresel ısınma"
-      },
-      {
-       "a": "precaution",
-       "b": "önlem"
+       "a": "survivor",
+       "b": "hayatta kalan"
       },
       {
        "a": "suffer",
        "b": "acı çekmek"
       },
       {
-       "a": "survivor",
-       "b": "hayatta kalan"
+       "a": "precaution",
+       "b": "önlem"
+      },
+      {
+       "a": "global warming",
+       "b": "küresel ısınma"
+      },
+      {
+       "a": "melt",
+       "b": "erimek"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"küresel ısınma\"?",
-     "answer": "global warming",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/melt.jpg",
+     "answer": "melt",
+     "tr": "erimek",
      "options": [
-      "global warming",
       "melt",
-      "suffer",
+      "global warming",
+      "survivor",
       "precaution"
      ]
     }
@@ -235,14 +262,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"erimek\"?",
-     "answer": "melt",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/survivor.jpg",
+     "answer": "survivor",
+     "tr": "hayatta kalan",
      "options": [
-      "melt",
-      "global warming",
+      "survivor",
       "suffer",
-      "survivor"
+      "precaution",
+      "global warming"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"acı çekmek\"?",
+     "answer": "suffer",
+     "options": [
+      "suffer",
+      "global warming",
+      "melt",
+      "precaution"
      ]
     }
    ]
@@ -316,36 +356,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "emergency",
-       "b": "acil durum"
+       "a": "debris",
+       "b": "enkaz"
       },
       {
-       "a": "rescue team",
-       "b": "kurtarma ekibi"
-      },
-      {
-       "a": "eruption",
-       "b": "patlama"
+       "a": "damage",
+       "b": "hasar"
       },
       {
        "a": "warning",
        "b": "uyarı"
       },
       {
-       "a": "debris",
-       "b": "enkaz"
+       "a": "rescue team",
+       "b": "kurtarma ekibi"
+      },
+      {
+       "a": "shelter",
+       "b": "sığınak"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"kurtarma ekibi\"?",
-     "answer": "rescue team",
+     "q": "Which word means \"orman yangını\"?",
+     "answer": "wildfire",
      "options": [
+      "wildfire",
       "rescue team",
-      "eruption",
-      "emergency",
-      "aftershock"
+      "lightning",
+      "shelter"
      ]
     }
    ]
@@ -361,13 +401,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"uyarı\"?",
-     "answer": "warning",
+     "q": "Which word means \"kurtarma ekibi\"?",
+     "answer": "rescue team",
      "options": [
+      "rescue team",
+      "wildfire",
       "warning",
-      "shelter",
-      "storm",
-      "emergency"
+      "damage"
      ]
     }
    ]
@@ -405,7 +445,8 @@
     },
     {
      "en": "The river *won't* flood this year.",
-     "tr": "Nehir bu yıl taşmayacak."
+     "tr": "Nehir bu yıl taşmayacak.",
+     "img": "/app/img/words/flood.jpg"
     },
     {
      "en": "It *might* snow in the mountains.",
@@ -489,11 +530,13 @@
    "examples": [
     {
      "en": "*If* it rains, the streets *will* flood.",
-     "tr": "Yağmur yağarsa sokaklar su altında kalır."
+     "tr": "Yağmur yağarsa sokaklar su altında kalır.",
+     "img": "/app/img/words/flood.jpg"
     },
     {
      "en": "*If* an earthquake happens, we *will* go outside.",
-     "tr": "Deprem olursa dışarı çıkacağız."
+     "tr": "Deprem olursa dışarı çıkacağız.",
+     "img": "/app/img/words/earthquake.jpg"
     },
     {
      "en": "*If* you stay calm, you *will* be safer.",
@@ -575,7 +618,8 @@
     },
     {
      "en": "You *shouldn't* use the lift during an earthquake.",
-     "tr": "Deprem sırasında asansörü kullanmamalısın."
+     "tr": "Deprem sırasında asansörü kullanmamalısın.",
+     "img": "/app/img/words/earthquake.jpg"
     },
     {
      "en": "*Stay away* from windows.",

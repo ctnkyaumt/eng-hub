@@ -59,7 +59,7 @@ WORDS = {
     "browser": "web browser screen", "screen": "computer screen",
     "search engine": "search engine screen", "download": "download icon screen",
     "upload": "upload cloud icon", "attachment": "paper clip attachment",
-    "account": "login screen account", "connection": "wifi router",
+    "account": "login form username password", "connection": "wifi router",
     # unit 6 adventures
     "bungee-jumping": "bungee jumping", "canoeing": "canoe paddling river",
     "caving": "caving cave explorer", "hang-gliding": "hang glider",
@@ -86,16 +86,16 @@ WORDS = {
     "test tube": "test tubes rack", "cell": "plant cell microscope",
     "safety": "safety goggles lab", "explode": "explosion smoke",
     "genius": "albert einstein", "high-tech": "robot technology",
-    "invent": "old invention machine", "vaccination": "vaccination injection arm",
-    "cure": "medicine pills", "discover": "microscope discovery",
+    "invent": "thomas edison light bulb invention", "vaccination": "vaccination injection arm",
+    "cure": "medicine pills", "discover": "scientist looking through microscope",
     # unit 10 natural forces
-    "earthquake": "earthquake damaged building", "flood": "flooded street town",
+    "earthquake": "earthquake collapsed building rubble", "flood": "flooded street town",
     "drought": "drought cracked dry earth", "avalanche": "snow avalanche mountain",
     "landslide": "landslide road damage", "hurricane": "hurricane satellite image",
     "tornado": "tornado funnel storm", "tsunami": "tsunami wave coast",
-    "volcano": "volcano eruption lava", "disaster": "disaster rescue rubble",
+    "volcano": "volcano eruption lava", "disaster": "natural disaster destruction aftermath",
     "global warming": "melting glacier climate", "melt": "melting ice",
-    "survivor": "rescue worker survivor",
+    "survivor": "earthquake rescue team survivor",
 }
 
 

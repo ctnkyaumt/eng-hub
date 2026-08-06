@@ -23,12 +23,14 @@
     {
      "en": "dial",
      "tr": "numara çevirmek",
-     "emoji": "☎️"
+     "emoji": "☎️",
+     "img": "/app/img/words/dial.jpg"
     },
     {
      "en": "pick up",
      "tr": "telefonu açmak",
-     "emoji": "📞"
+     "emoji": "📞",
+     "img": "/app/img/words/pick-up.jpg"
     },
     {
      "en": "hang on",
@@ -38,7 +40,8 @@
     {
      "en": "hang up",
      "tr": "telefonu kapatmak",
-     "emoji": "📴"
+     "emoji": "📴",
+     "img": "/app/img/words/hang-up.jpg"
     },
     {
      "en": "hold",
@@ -48,7 +51,8 @@
     {
      "en": "line",
      "tr": "hat",
-     "emoji": "📞"
+     "emoji": "📞",
+     "img": "/app/img/words/line.jpg"
     },
     {
      "en": "engaged",
@@ -98,9 +102,11 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"numara çevirmek\"?",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/dial.jpg",
      "answer": "dial",
+     "tr": "numara çevirmek",
      "options": [
       "dial",
       "line",
@@ -120,14 +126,27 @@
    ],
    "tasks": [
     {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/pick-up.jpg",
+     "answer": "pick up",
+     "tr": "telefonu açmak",
+     "options": [
+      "pick up",
+      "dial",
+      "line",
+      "engaged"
+     ]
+    },
+    {
      "kind": "choose",
      "q": "Which word means \"hatta beklemek\"?",
      "answer": "hang on",
      "options": [
       "hang on",
-      "dial",
+      "engaged",
       "line",
-      "engaged"
+      "extension"
      ]
     }
    ]
@@ -175,7 +194,8 @@
     {
      "en": "memo",
      "tr": "not",
-     "emoji": "📝"
+     "emoji": "📝",
+     "img": "/app/img/words/memo.jpg"
     },
     {
      "en": "polite",
@@ -202,16 +222,16 @@
        "b": "iletişim kurmak"
       },
       {
-       "a": "connect",
-       "b": "bağlamak"
+       "a": "keep in touch",
+       "b": "iletişimde kalmak"
+      },
+      {
+       "a": "memo",
+       "b": "not"
       },
       {
        "a": "available",
        "b": "müsait"
-      },
-      {
-       "a": "get back",
-       "b": "geri dönmek"
       },
       {
        "a": "put someone through",
@@ -220,14 +240,16 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"iletişim kurmak\"?",
-     "answer": "contact",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/memo.jpg",
+     "answer": "memo",
+     "tr": "not",
      "options": [
-      "contact",
-      "connect",
-      "get back",
-      "keep in touch"
+      "memo",
+      "keep in touch",
+      "available",
+      "connect"
      ]
     }
    ]
@@ -243,13 +265,24 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"iletişimde kalmak\"?",
-     "answer": "keep in touch",
+     "q": "Which word means \"kibar\"?",
+     "answer": "polite",
      "options": [
-      "keep in touch",
-      "get back",
+      "polite",
+      "connect",
+      "memo",
+      "get in touch"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"bağlamak\"?",
+     "answer": "connect",
+     "options": [
+      "connect",
       "available",
-      "connect"
+      "memo",
+      "contact"
      ]
     }
    ]
@@ -323,36 +356,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "communicate",
-       "b": "iletişim kurmak"
+       "a": "discovery",
+       "b": "keşif"
       },
       {
-       "a": "change",
-       "b": "değiştirmek"
+       "a": "easy way",
+       "b": "kolay yol"
+      },
+      {
+       "a": "clearly",
+       "b": "net şekilde"
+      },
+      {
+       "a": "disturb",
+       "b": "rahatsız etmek"
       },
       {
        "a": "customer service",
        "b": "müşteri hizmetleri"
-      },
-      {
-       "a": "cheap",
-       "b": "ucuz"
-      },
-      {
-       "a": "delivery",
-       "b": "gönderi"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"cep telefonu\"?",
-     "answer": "cell phone",
+     "q": "Which word means \"net şekilde\"?",
+     "answer": "clearly",
      "options": [
-      "cell phone",
-      "conversation",
+      "clearly",
       "delivery",
-      "discovery"
+      "device",
+      "disturb"
      ]
     }
    ]
@@ -368,13 +401,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"ucuz\"?",
-     "answer": "cheap",
+     "q": "Which word means \"kolay yol\"?",
+     "answer": "easy way",
      "options": [
-      "cheap",
       "easy way",
-      "communicate",
-      "disturb"
+      "device",
+      "discovery",
+      "cell phone"
      ]
     }
    ]
@@ -428,24 +461,24 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "busy",
-       "b": "meşgul"
+       "a": "confirm",
+       "b": "doğrulamak, onaylamak"
       },
       {
-       "a": "call",
-       "b": "telefon ile aramak"
+       "a": "call back",
+       "b": "geri aramak"
       },
       {
        "a": "company",
        "b": "şirket"
       },
       {
-       "a": "book",
-       "b": "rezervasyon yapmak"
+       "a": "busy",
+       "b": "meşgul"
       },
       {
-       "a": "call back",
-       "b": "geri aramak"
+       "a": "call",
+       "b": "telefon ile aramak"
       }
      ]
     },
@@ -455,9 +488,9 @@
      "answer": "confirm",
      "options": [
       "confirm",
-      "badline",
       "book",
-      "busy"
+      "busy",
+      "badline"
      ]
     }
    ]
@@ -473,13 +506,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"kötü hat\"?",
-     "answer": "badline",
+     "q": "Which word means \"meşgul\"?",
+     "answer": "busy",
      "options": [
-      "badline",
+      "busy",
+      "company",
       "confirm",
-      "call back",
-      "company"
+      "call"
      ]
     }
    ]

@@ -23,17 +23,20 @@
     {
      "en": "bake",
      "tr": "fırında pişirmek",
-     "emoji": "🥧"
+     "emoji": "🥧",
+     "img": "/app/img/words/bake.jpg"
     },
     {
      "en": "boil",
      "tr": "haşlamak",
-     "emoji": "🫧"
+     "emoji": "🫧",
+     "img": "/app/img/words/boil.jpg"
     },
     {
      "en": "chop",
      "tr": "doğramak",
-     "emoji": "🔪"
+     "emoji": "🔪",
+     "img": "/app/img/words/chop.jpg"
     },
     {
      "en": "cut",
@@ -43,17 +46,20 @@
     {
      "en": "dice",
      "tr": "küp küp doğramak",
-     "emoji": "🎲"
+     "emoji": "🎲",
+     "img": "/app/img/words/dice.jpg"
     },
     {
      "en": "fry",
      "tr": "kızartmak",
-     "emoji": "🍳"
+     "emoji": "🍳",
+     "img": "/app/img/words/fry.jpg"
     },
     {
      "en": "mash",
      "tr": "ezmek",
-     "emoji": "🥔"
+     "emoji": "🥔",
+     "img": "/app/img/words/mash.jpg"
     },
     {
      "en": "mix",
@@ -64,22 +70,26 @@
     {
      "en": "peel",
      "tr": "soymak",
-     "emoji": "🥕"
+     "emoji": "🥕",
+     "img": "/app/img/words/peel.jpg"
     },
     {
      "en": "pour",
      "tr": "dökmek",
-     "emoji": "🚰"
+     "emoji": "🚰",
+     "img": "/app/img/words/pour.jpg"
     },
     {
      "en": "slice",
      "tr": "dilimlemek",
-     "emoji": "🍞"
+     "emoji": "🍞",
+     "img": "/app/img/words/slice.jpg"
     },
     {
      "en": "spread",
      "tr": "sürmek",
-     "emoji": "🧈"
+     "emoji": "🧈",
+     "img": "/app/img/words/spread.jpg"
     }
    ]
   },
@@ -119,11 +129,13 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"dilimlemek\"?",
-     "answer": "slice",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/spread.jpg",
+     "answer": "spread",
+     "tr": "sürmek",
      "options": [
-      "slice",
+      "spread",
       "mix",
       "cut",
       "chop"
@@ -141,14 +153,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"haşlamak\"?",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/boil.jpg",
      "answer": "boil",
+     "tr": "haşlamak",
      "options": [
       "boil",
       "mash",
       "chop",
       "bake"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"dökmek\"?",
+     "answer": "pour",
+     "options": [
+      "pour",
+      "dice",
+      "mix",
+      "peel"
      ]
     }
    ]
@@ -161,27 +186,32 @@
     {
      "en": "bowl",
      "tr": "kase",
-     "emoji": "🥣"
+     "emoji": "🥣",
+     "img": "/app/img/words/bowl.jpg"
     },
     {
      "en": "grater",
      "tr": "rende",
-     "emoji": "🧀"
+     "emoji": "🧀",
+     "img": "/app/img/words/grater.jpg"
     },
     {
      "en": "oven",
      "tr": "fırın",
-     "emoji": "🔥"
+     "emoji": "🔥",
+     "img": "/app/img/words/oven.jpg"
     },
     {
      "en": "pan",
      "tr": "tava",
-     "emoji": "🍳"
+     "emoji": "🍳",
+     "img": "/app/img/words/pan.jpg"
     },
     {
      "en": "saucepan",
      "tr": "tencere",
-     "emoji": "🍲"
+     "emoji": "🍲",
+     "img": "/app/img/words/saucepan.jpg"
     },
     {
      "en": "spoon",
@@ -192,12 +222,14 @@
     {
      "en": "oil",
      "tr": "yağ",
-     "emoji": "🫗"
+     "emoji": "🫗",
+     "img": "/app/img/words/oil.jpg"
     },
     {
      "en": "ingredient",
      "tr": "malzeme",
-     "emoji": "🧂"
+     "emoji": "🧂",
+     "img": "/app/img/words/ingredient.jpg"
     }
    ]
   },
@@ -215,36 +247,38 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "oven",
+       "b": "fırın"
+      },
+      {
+       "a": "spoon",
+       "b": "kaşık"
+      },
+      {
        "a": "saucepan",
        "b": "tencere"
       },
       {
-       "a": "pan",
-       "b": "tava"
+       "a": "bowl",
+       "b": "kase"
       },
       {
        "a": "ingredient",
        "b": "malzeme"
-      },
-      {
-       "a": "grater",
-       "b": "rende"
-      },
-      {
-       "a": "oil",
-       "b": "yağ"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"tencere\"?",
-     "answer": "saucepan",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/oil.jpg",
+     "answer": "oil",
+     "tr": "yağ",
      "options": [
-      "saucepan",
       "oil",
-      "spoon",
-      "bowl"
+      "oven",
+      "ingredient",
+      "spoon"
      ]
     }
    ]
@@ -259,14 +293,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"rende\"?",
-     "answer": "grater",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/saucepan.jpg",
+     "answer": "saucepan",
+     "tr": "tencere",
      "options": [
-      "grater",
-      "pan",
+      "saucepan",
       "spoon",
-      "saucepan"
+      "ingredient",
+      "bowl"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kaşık\"?",
+     "answer": "spoon",
+     "options": [
+      "spoon",
+      "ingredient",
+      "oil",
+      "pan"
      ]
     }
    ]
@@ -279,17 +326,20 @@
     {
      "en": "recipe",
      "tr": "tarif",
-     "emoji": "📜"
+     "emoji": "📜",
+     "img": "/app/img/words/recipe.jpg"
     },
     {
      "en": "meal",
      "tr": "öğün",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "/app/img/words/meal.jpg"
     },
     {
      "en": "dessert",
      "tr": "tatlı",
-     "emoji": "🍰"
+     "emoji": "🍰",
+     "img": "/app/img/words/dessert.jpg"
     },
     {
      "en": "delicious",
@@ -332,36 +382,38 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "salty",
-       "b": "tuzlu"
-      },
-      {
-       "a": "dessert",
-       "b": "tatlı"
-      },
-      {
-       "a": "sour",
-       "b": "ekşi"
-      },
-      {
        "a": "tasty",
        "b": "lezzetli"
       },
       {
+       "a": "spicy",
+       "b": "baharatlı"
+      },
+      {
        "a": "recipe",
        "b": "tarif"
+      },
+      {
+       "a": "delicious",
+       "b": "nefis"
+      },
+      {
+       "a": "sour",
+       "b": "ekşi"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"tuzlu\"?",
-     "answer": "salty",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/dessert.jpg",
+     "answer": "dessert",
+     "tr": "tatlı",
      "options": [
-      "salty",
-      "spicy",
+      "dessert",
+      "delicious",
       "sour",
-      "delicious"
+      "salty"
      ]
     }
    ]
@@ -376,13 +428,26 @@
    ],
    "tasks": [
     {
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/recipe.jpg",
+     "answer": "recipe",
+     "tr": "tarif",
+     "options": [
+      "recipe",
+      "meal",
+      "spicy",
+      "dessert"
+     ]
+    },
+    {
      "kind": "choose",
      "q": "Which word means \"tatlı\"?",
      "answer": "dessert",
      "options": [
       "dessert",
-      "salty",
-      "delicious",
+      "recipe",
+      "spicy",
       "meal"
      ]
     }
@@ -457,36 +522,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "roll",
-       "b": "yuvarlamak"
-      },
-      {
-       "a": "place",
-       "b": "yerleştirmek"
+       "a": "prepare",
+       "b": "hazırlamak"
       },
       {
        "a": "stir",
        "b": "karıştırmak, çırpmak"
       },
       {
+       "a": "preheat",
+       "b": "önceden ısıtmak"
+      },
+      {
        "a": "shape",
        "b": "şekil vermek, şekil"
       },
       {
-       "a": "sprinkle",
-       "b": "serpiştirmek"
+       "a": "place",
+       "b": "yerleştirmek"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"yerleştirmek\"?",
-     "answer": "place",
+     "q": "Which word means \"süzmek\"?",
+     "answer": "strain",
      "options": [
-      "place",
-      "scoop",
-      "roll",
-      "strain"
+      "strain",
+      "shape",
+      "wrap",
+      "put"
      ]
     }
    ]
@@ -502,12 +567,12 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"koymak\"?",
-     "answer": "put",
+     "q": "Which word means \"serpiştirmek\"?",
+     "answer": "sprinkle",
      "options": [
-      "put",
-      "strain",
-      "scoop",
+      "sprinkle",
+      "roll",
+      "prepare",
       "wrap"
      ]
     }
@@ -544,7 +609,8 @@
     },
     {
      "en": "melt",
-     "tr": "erimek, eritmek"
+     "tr": "erimek, eritmek",
+     "img": "/app/img/words/melt.jpg"
     }
    ]
   },
@@ -562,36 +628,38 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "rinse",
-       "b": "durulamak"
+       "a": "make the dough",
+       "b": "hamur yapmak"
+      },
+      {
+       "a": "knead",
+       "b": "yoğurmak"
       },
       {
        "a": "remove",
        "b": "çıkarmak"
       },
       {
-       "a": "make the dough",
-       "b": "hamur yapmak"
-      },
-      {
        "a": "melt",
        "b": "erimek, eritmek"
       },
       {
-       "a": "roast",
-       "b": "fırında kızartmak"
+       "a": "rinse",
+       "b": "durulamak"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"erimek, eritmek\"?",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/melt.jpg",
      "answer": "melt",
+     "tr": "erimek, eritmek",
      "options": [
       "melt",
-      "knead",
-      "remove",
-      "make the dough"
+      "make the dough",
+      "rinse",
+      "knead"
      ]
     }
    ]
@@ -611,9 +679,20 @@
      "answer": "knead",
      "options": [
       "knead",
-      "make it rest",
+      "make the dough",
+      "rinse",
+      "make it rest"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"hamur yapmak\"?",
+     "answer": "make the dough",
+     "options": [
+      "make the dough",
       "remove",
-      "melt"
+      "knead",
+      "rinse"
      ]
     }
    ]
@@ -634,7 +713,8 @@
    "examples": [
     {
      "en": "*Chop* the onions into small pieces.",
-     "tr": "Soğanları küçük parçalar hâlinde doğra."
+     "tr": "Soğanları küçük parçalar hâlinde doğra.",
+     "img": "/app/img/words/chop.jpg"
     },
     {
      "en": "*Add* a teaspoon of salt.",
@@ -642,7 +722,8 @@
     },
     {
      "en": "*Boil* the water for five minutes.",
-     "tr": "Suyu beş dakika kaynat."
+     "tr": "Suyu beş dakika kaynat.",
+     "img": "/app/img/words/boil.jpg"
     },
     {
      "en": "*Don't* forget to stir the soup.",
@@ -733,11 +814,13 @@
     },
     {
      "en": "*Then*, slice the tomatoes.",
-     "tr": "Sonra domatesleri dilimle."
+     "tr": "Sonra domatesleri dilimle.",
+     "img": "/app/img/words/slice.jpg"
     },
     {
      "en": "*After that*, mix everything in a bowl.",
-     "tr": "Ondan sonra her şeyi bir kasede karıştır."
+     "tr": "Ondan sonra her şeyi bir kasede karıştır.",
+     "img": "/app/img/words/bowl.jpg"
     },
     {
      "en": "*Finally*, serve the salad cold.",

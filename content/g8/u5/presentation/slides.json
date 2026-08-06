@@ -29,7 +29,8 @@
     {
      "en": "browser",
      "tr": "tarayıcı",
-     "emoji": "🌐"
+     "emoji": "🌐",
+     "img": "/app/img/words/browser.jpg"
     },
     {
      "en": "browse",
@@ -39,7 +40,8 @@
     {
      "en": "connection",
      "tr": "bağlantı",
-     "emoji": "📶"
+     "emoji": "📶",
+     "img": "/app/img/words/connection.jpg"
     },
     {
      "en": "screen",
@@ -50,7 +52,8 @@
     {
      "en": "search engine",
      "tr": "arama motoru",
-     "emoji": "🔎"
+     "emoji": "🔎",
+     "img": "/app/img/words/search-engine.jpg"
     },
     {
      "en": "social networking site",
@@ -101,14 +104,16 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"bağlantı\"?",
-     "answer": "connection",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/browser.jpg",
+     "answer": "browser",
+     "tr": "tarayıcı",
      "options": [
-      "connection",
-      "account",
+      "browser",
       "social networking site",
-      "search engine"
+      "search engine",
+      "screen"
      ]
     }
    ]
@@ -123,14 +128,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"sosyal ağ sitesi\"?",
-     "answer": "social networking site",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/account.jpg",
+     "answer": "account",
+     "tr": "hesap",
      "options": [
-      "social networking site",
+      "account",
+      "browse",
+      "connection",
+      "social networking site"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"bağlantı\"?",
+     "answer": "connection",
+     "options": [
       "connection",
       "browser",
-      "browse"
+      "search engine",
+      "social networking site"
      ]
     }
    ]
@@ -143,7 +161,8 @@
     {
      "en": "download",
      "tr": "indirmek",
-     "emoji": "⬇️"
+     "emoji": "⬇️",
+     "img": "/app/img/words/download.jpg"
     },
     {
      "en": "upload",
@@ -212,36 +231,38 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "comment",
-       "b": "yorum yapmak"
+       "a": "register",
+       "b": "kayıt olmak"
       },
       {
-       "a": "reply",
-       "b": "yanıtlamak"
+       "a": "sign up",
+       "b": "üye olmak"
       },
       {
        "a": "log on",
        "b": "oturum açmak"
       },
       {
-       "a": "sign in",
-       "b": "giriş yapmak"
+       "a": "comment",
+       "b": "yorum yapmak"
       },
       {
-       "a": "sign up",
-       "b": "üye olmak"
+       "a": "sign in",
+       "b": "giriş yapmak"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"oturumu kapatmak\"?",
-     "answer": "log off",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/upload.jpg",
+     "answer": "upload",
+     "tr": "yüklemek",
      "options": [
-      "log off",
-      "log on",
-      "sign up",
-      "comment"
+      "upload",
+      "comment",
+      "reply",
+      "sign in"
      ]
     }
    ]
@@ -256,14 +277,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"üye olmak\"?",
-     "answer": "sign up",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/download.jpg",
+     "answer": "download",
+     "tr": "indirmek",
      "options": [
-      "sign up",
-      "log on",
-      "sign in",
-      "upload"
+      "download",
+      "comment",
+      "delete",
+      "confirm"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"kayıt olmak\"?",
+     "answer": "register",
+     "options": [
+      "register",
+      "reply",
+      "upload",
+      "sign up"
      ]
     }
    ]
@@ -337,36 +371,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "important",
-       "b": "önemli"
-      },
-      {
-       "a": "ignore",
-       "b": "reddetmek"
-      },
-      {
-       "a": "isolated",
-       "b": "soyutlanmış"
-      },
-      {
-       "a": "device",
-       "b": "alet, cihaz"
-      },
-      {
        "a": "habit",
        "b": "alışkanlık"
+      },
+      {
+       "a": "information",
+       "b": "bilgi"
+      },
+      {
+       "a": "develop",
+       "b": "geliştirmek"
+      },
+      {
+       "a": "create",
+       "b": "oluşturmak"
+      },
+      {
+       "a": "friend request",
+       "b": "arkadaşlık isteği"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"oluşturmak\"?",
-     "answer": "create",
+     "q": "Which word means \"reddetmek\"?",
+     "answer": "ignore",
      "options": [
+      "ignore",
       "create",
-      "instant",
-      "improve",
-      "important"
+      "develop",
+      "isolated"
      ]
     }
    ]
@@ -382,11 +416,11 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"geliştirmek\"?",
-     "answer": "improve",
+     "q": "Which word means \"alet, cihaz\"?",
+     "answer": "device",
      "options": [
-      "improve",
-      "develop",
+      "device",
+      "information",
       "habit",
       "isolated"
      ]
@@ -446,8 +480,8 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "file",
-       "b": "dosya"
+       "a": "find",
+       "b": "bulmak"
       },
       {
        "a": "check",
@@ -458,24 +492,24 @@
        "b": "takip etmek"
       },
       {
-       "a": "broken",
-       "b": "arızalı, bozuk, kesik"
+       "a": "free time",
+       "b": "boş zaman"
       },
       {
-       "a": "break",
-       "b": "bozmak"
+       "a": "blog",
+       "b": "internet günlüğü"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"bozmak\"?",
-     "answer": "break",
+     "q": "Which word means \"bulmak\"?",
+     "answer": "find",
      "options": [
+      "find",
       "break",
       "file",
-      "find",
-      "broken"
+      "follow"
      ]
     }
    ]
@@ -491,13 +525,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"internet günlüğü\"?",
-     "answer": "blog",
+     "q": "Which word means \"dosya\"?",
+     "answer": "file",
      "options": [
+      "file",
       "blog",
-      "check",
-      "free time",
-      "break"
+      "break",
+      "broken"
      ]
     }
    ]
@@ -516,7 +550,8 @@
    "examples": [
     {
      "en": "*Can you* help me download this file?",
-     "tr": "Bu dosyayı indirmeme yardım eder misin?"
+     "tr": "Bu dosyayı indirmeme yardım eder misin?",
+     "img": "/app/img/words/download.jpg"
     },
     {
      "en": "*Could you* show me how to log in?",
@@ -612,7 +647,8 @@
    "examples": [
     {
      "en": "*Click on* the download button.",
-     "tr": "İndir düğmesine tıkla."
+     "tr": "İndir düğmesine tıkla.",
+     "img": "/app/img/words/download.jpg"
     },
     {
      "en": "*Type* your username and password.",

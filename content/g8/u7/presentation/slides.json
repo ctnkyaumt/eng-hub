@@ -23,7 +23,8 @@
     {
      "en": "destination",
      "tr": "gidilecek yer",
-     "emoji": "🧭"
+     "emoji": "🧭",
+     "img": "/app/img/words/destination.jpg"
     },
     {
      "en": "attraction",
@@ -34,12 +35,14 @@
     {
      "en": "historic site",
      "tr": "tarihi alan",
-     "emoji": "🏺"
+     "emoji": "🏺",
+     "img": "/app/img/words/historic-site.jpg"
     },
     {
      "en": "square",
      "tr": "meydan",
-     "emoji": "⛲"
+     "emoji": "⛲",
+     "img": "/app/img/words/square.jpg"
     },
     {
      "en": "resort",
@@ -50,12 +53,14 @@
     {
      "en": "countryside",
      "tr": "kırsal kesim",
-     "emoji": "🌄"
+     "emoji": "🌄",
+     "img": "/app/img/words/countryside.jpg"
     },
     {
      "en": "bed and breakfast",
      "tr": "pansiyon",
-     "emoji": "🛏️"
+     "emoji": "🛏️",
+     "img": "/app/img/words/bed-and-breakfast.jpg"
     },
     {
      "en": "all-inclusive",
@@ -100,12 +105,14 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"gidilecek yer\"?",
-     "answer": "destination",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/resort.jpg",
+     "answer": "resort",
+     "tr": "tatil köyü",
      "options": [
-      "destination",
-      "square",
+      "resort",
+      "countryside",
       "historic site",
       "attraction"
      ]
@@ -122,14 +129,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"tatil köyü\"?",
-     "answer": "resort",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/destination.jpg",
+     "answer": "destination",
+     "tr": "gidilecek yer",
      "options": [
+      "destination",
+      "attraction",
       "resort",
-      "square",
-      "historic site",
-      "countryside"
+      "square"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"her şey dahil\"?",
+     "answer": "all-inclusive",
+     "options": [
+      "all-inclusive",
+      "countryside",
+      "attraction",
+      "historic site"
      ]
     }
    ]
@@ -154,7 +174,8 @@
     {
      "en": "culture",
      "tr": "kültür",
-     "emoji": "🎭"
+     "emoji": "🎭",
+     "img": "/app/img/words/culture.jpg"
     },
     {
      "en": "cultural",
@@ -174,7 +195,8 @@
     {
      "en": "rural",
      "tr": "kırsal",
-     "emoji": "🚜"
+     "emoji": "🚜",
+     "img": "/app/img/words/rural.jpg"
     },
     {
      "en": "urban",
@@ -198,35 +220,37 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "urban",
-       "b": "kentsel"
-      },
-      {
-       "a": "incredible",
-       "b": "inanılmaz"
-      },
-      {
        "a": "rural",
        "b": "kırsal"
+      },
+      {
+       "a": "cultural",
+       "b": "kültürel"
       },
       {
        "a": "architecture",
        "b": "mimari"
       },
       {
-       "a": "culture",
-       "b": "kültür"
+       "a": "fascinating",
+       "b": "büyüleyici"
+      },
+      {
+       "a": "incredible",
+       "b": "inanılmaz"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"inanılmaz\"?",
-     "answer": "incredible",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/urban.jpg",
+     "answer": "urban",
+     "tr": "kentsel",
      "options": [
-      "incredible",
-      "cultural",
       "urban",
+      "incredible",
+      "culture",
       "rural"
      ]
     }
@@ -242,14 +266,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"kırsal\"?",
-     "answer": "rural",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/ancient.jpg",
+     "answer": "ancient",
+     "tr": "antik",
      "options": [
-      "rural",
+      "ancient",
+      "fascinating",
       "architecture",
-      "incredible",
-      "fascinating"
+      "incredible"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"büyüleyici\"?",
+     "answer": "fascinating",
+     "options": [
+      "fascinating",
+      "architecture",
+      "urban",
+      "ancient"
      ]
     }
    ]
@@ -323,36 +360,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "tradition",
-       "b": "gelenek"
+       "a": "mysterious",
+       "b": "gizemli"
       },
       {
-       "a": "sunbath",
-       "b": "güneşlenmek"
+       "a": "truly",
+       "b": "gerçekten"
       },
       {
-       "a": "taste",
-       "b": "tadına bakmak"
-      },
-      {
-       "a": "unbelievable / incredible",
-       "b": "inanılmaz"
+       "a": "rich",
+       "b": "zengin"
       },
       {
        "a": "visit",
        "b": "ziyaret etmek"
+      },
+      {
+       "a": "taste",
+       "b": "tadına bakmak"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"gezi\"?",
-     "answer": "sightseeing",
+     "q": "Which word means \"inanılmaz\"?",
+     "answer": "unbelievable / incredible",
      "options": [
-      "sightseeing",
-      "sunbath",
       "unbelievable / incredible",
-      "terrible / awful"
+      "sunbath",
+      "mysterious",
+      "truly"
      ]
     }
    ]
@@ -368,13 +405,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"tadına bakmak\"?",
-     "answer": "taste",
+     "q": "Which word means \"gezi\"?",
+     "answer": "sightseeing",
      "options": [
-      "taste",
-      "unbelievable / incredible",
-      "truly",
-      "terrible / awful"
+      "sightseeing",
+      "rich",
+      "terrible / awful",
+      "summer"
      ]
     }
    ]
@@ -432,10 +469,6 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "rainy",
-       "b": "yağmurlu"
-      },
-      {
        "a": "hospitable",
        "b": "misafirperver"
       },
@@ -444,23 +477,27 @@
        "b": "huzurlu"
       },
       {
-       "a": "natural",
-       "b": "doğal"
-      },
-      {
        "a": "heritage",
        "b": "miras"
+      },
+      {
+       "a": "rainy",
+       "b": "yağmurlu"
+      },
+      {
+       "a": "relaxing",
+       "b": "rahatlatıcı"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"misafirperver\"?",
-     "answer": "hospitable",
+     "q": "Which word means \"doğal\"?",
+     "answer": "natural",
      "options": [
-      "hospitable",
-      "relaxing",
+      "natural",
       "palace",
+      "relaxing",
       "rainy"
      ]
     }
@@ -477,13 +514,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"rahatlatıcı\"?",
-     "answer": "relaxing",
+     "q": "Which word means \"misafirperver\"?",
+     "answer": "hospitable",
      "options": [
-      "relaxing",
-      "natural",
+      "hospitable",
       "rainy",
-      "holiday"
+      "palace",
+      "relaxing"
      ]
     }
    ]
@@ -601,7 +638,8 @@
     },
     {
      "en": "I *saw* the ancient theatre.",
-     "tr": "Antik tiyatroyu gördüm."
+     "tr": "Antik tiyatroyu gördüm.",
+     "img": "/app/img/words/ancient.jpg"
     },
     {
      "en": "She *took* a lot of photographs.",

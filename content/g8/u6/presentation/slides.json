@@ -23,52 +23,62 @@
     {
      "en": "extreme sports",
      "tr": "ekstrem sporlar",
-     "emoji": "🏂"
+     "emoji": "🏂",
+     "img": "/app/img/words/extreme-sports.jpg"
     },
     {
      "en": "bungee-jumping",
      "tr": "bancî atlayışı",
-     "emoji": "🪢"
+     "emoji": "🪢",
+     "img": "/app/img/words/bungee-jumping.jpg"
     },
     {
      "en": "canoeing",
      "tr": "kano sporu",
-     "emoji": "🛶"
+     "emoji": "🛶",
+     "img": "/app/img/words/canoeing.jpg"
     },
     {
      "en": "caving",
      "tr": "mağaracılık",
-     "emoji": "🕳️"
+     "emoji": "🕳️",
+     "img": "/app/img/words/caving.jpg"
     },
     {
      "en": "hang-gliding",
      "tr": "delta kanat",
-     "emoji": "🪁"
+     "emoji": "🪁",
+     "img": "/app/img/words/hang-gliding.jpg"
     },
     {
      "en": "kayaking",
      "tr": "kayak (kano)",
-     "emoji": "🚣"
+     "emoji": "🚣",
+     "img": "/app/img/words/kayaking.jpg"
     },
     {
      "en": "motor racing",
      "tr": "motor yarışı",
-     "emoji": "🏎️"
+     "emoji": "🏎️",
+     "img": "/app/img/words/motor-racing.jpg"
     },
     {
      "en": "paragliding",
      "tr": "yamaç paraşütü",
-     "emoji": "🪂"
+     "emoji": "🪂",
+     "img": "/app/img/words/paragliding.jpg"
     },
     {
      "en": "rafting",
      "tr": "rafting",
-     "emoji": "🌊"
+     "emoji": "🌊",
+     "img": "/app/img/words/rafting.jpg"
     },
     {
      "en": "skateboarding",
      "tr": "kaykay",
-     "emoji": "🛹"
+     "emoji": "🛹",
+     "img": "/app/img/words/skateboarding.jpg"
     },
     {
      "en": "take risks",
@@ -118,9 +128,11 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"rafting\"?",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/rafting.jpg",
      "answer": "rafting",
+     "tr": "rafting",
      "options": [
       "rafting",
       "take risks",
@@ -140,14 +152,27 @@
    ],
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"kano sporu\"?",
+     "kind": "picture",
+     "q": "What is this?",
+     "img": "/app/img/words/canoeing.jpg",
      "answer": "canoeing",
+     "tr": "kano sporu",
      "options": [
       "canoeing",
       "skateboarding",
       "hang-gliding",
       "extreme sports"
+     ]
+    },
+    {
+     "kind": "choose",
+     "q": "Which word means \"aşırı\"?",
+     "answer": "extreme",
+     "options": [
+      "extreme",
+      "extreme sports",
+      "rafting",
+      "bungee-jumping"
      ]
     }
    ]
@@ -211,28 +236,28 @@
        "b": "zorlayıcı"
       },
       {
-       "a": "amusing",
-       "b": "eğlenceli"
-      },
-      {
        "a": "entertaining",
        "b": "eğlendirici"
       },
       {
        "a": "exciting",
        "b": "heyecan verici"
+      },
+      {
+       "a": "fascinating",
+       "b": "büyüleyici"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"zorlayıcı\"?",
-     "answer": "challenging",
+     "q": "Which word means \"heyecan verici\"?",
+     "answer": "exciting",
      "options": [
-      "challenging",
       "exciting",
-      "entertaining",
-      "fascinating"
+      "amusing",
+      "disappointing",
+      "challenging"
      ]
     }
    ]
@@ -248,13 +273,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"eğlenceli\"?",
-     "answer": "amusing",
+     "q": "Which word means \"eğlendirici\"?",
+     "answer": "entertaining",
      "options": [
+      "entertaining",
       "amusing",
-      "exciting",
       "fascinating",
-      "entertaining"
+      "challenging"
      ]
     }
    ]
@@ -328,36 +353,36 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "indoor",
-       "b": "kapalı mekan, iç mekan"
-      },
-      {
-       "a": "inexperienced",
-       "b": "deneyimsiz, tecrübesiz"
-      },
-      {
        "a": "hill",
        "b": "tepe"
       },
       {
-       "a": "incredible",
-       "b": "inanılmaz"
+       "a": "height",
+       "b": "yükseklik"
       },
       {
-       "a": "historical sites",
-       "b": "tarihi yerler"
+       "a": "helmet",
+       "b": "kask"
+      },
+      {
+       "a": "individually",
+       "b": "bireysel"
+      },
+      {
+       "a": "include",
+       "b": "içermek, kapsamak"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"kask\"?",
-     "answer": "helmet",
+     "q": "Which word means \"yükseklik\"?",
+     "answer": "height",
      "options": [
-      "helmet",
       "height",
       "hill",
-      "historical sites"
+      "individually",
+      "helmet"
      ]
     }
    ]
@@ -373,13 +398,13 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"tepe\"?",
-     "answer": "hill",
+     "q": "Which word means \"sıcak hava balonu\"?",
+     "answer": "hot air balloon",
      "options": [
-      "hill",
-      "helmet",
-      "height",
-      "ice skating"
+      "hot air balloon",
+      "individually",
+      "inexperienced",
+      "goggle"
      ]
     }
    ]
@@ -441,32 +466,32 @@
        "b": "keşfetmek"
       },
       {
-       "a": "feel",
-       "b": "hissetmek"
+       "a": "equipment",
+       "b": "araç gereç, ekipman"
       },
       {
        "a": "extreme sport",
        "b": "tehlikeli ve heyecanlı spor"
       },
       {
-       "a": "experience",
-       "b": "deneyim, tecrübe"
+       "a": "experienced",
+       "b": "deneyimli, tecrübeli"
       },
       {
-       "a": "equipment",
-       "b": "araç gereç, ekipman"
+       "a": "diving suit",
+       "b": "dalış kıyafeti"
       }
      ]
     },
     {
      "kind": "choose",
-     "q": "Which word means \"araç gereç, ekipman\"?",
-     "answer": "equipment",
+     "q": "Which word means \"deneyimli, tecrübeli\"?",
+     "answer": "experienced",
      "options": [
-      "equipment",
-      "feel",
-      "experience",
-      "experienced"
+      "experienced",
+      "diving suit",
+      "explore",
+      "fighting"
      ]
     }
    ]
@@ -482,12 +507,12 @@
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"hissetmek\"?",
-     "answer": "feel",
+     "q": "Which word means \"deneyim, tecrübe\"?",
+     "answer": "experience",
      "options": [
-      "feel",
+      "experience",
+      "explore",
       "equipment",
-      "extreme sport",
       "experienced"
      ]
     }
@@ -611,7 +636,8 @@
     },
     {
      "en": "You *mustn't* go rafting without a life jacket.",
-     "tr": "Can yeleği olmadan raftinge gitmemelisin."
+     "tr": "Can yeleği olmadan raftinge gitmemelisin.",
+     "img": "/app/img/words/rafting.jpg"
     },
     {
      "en": "We *mustn't* leave rubbish in nature.",
@@ -685,11 +711,13 @@
    "examples": [
     {
      "en": "Rafting is *more exciting than* hiking.",
-     "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
+     "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir.",
+     "img": "/app/img/words/rafting.jpg"
     },
     {
      "en": "Paragliding is *the most thrilling* sport for me.",
-     "tr": "Yamaç paraşütü benim için en heyecan verici spordur."
+     "tr": "Yamaç paraşütü benim için en heyecan verici spordur.",
+     "img": "/app/img/words/paragliding.jpg"
     },
     {
      "en": "Climbing is *harder than* cycling.",
