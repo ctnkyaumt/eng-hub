@@ -162,18 +162,42 @@ Ders materyalleri [eltarena.com](https://eltarena.com) üzerinde paylaşılan ö
 derlenmiştir. Hazırlayanların adları her çalışma kâğıdının ve etkinliğin yanında korunur.
 5. sınıf tema föyleri MEB Maarif Modeli içeriğidir. Bu USB sınıf içi kullanım içindir.
 
+## Hazır paket (kurulum gerektirmez)
+
+En kolay yol: [Releases](https://github.com/ctnkyaumt/eng-hub/releases) sayfasından zip'i indirin,
+USB'ye çıkarın, başlatıcıya çift tıklayın.
+
+| Dosya | İçerik |
+| --- | --- |
+| `eng-hub-vX.Y.Z.zip` | Tam paket — sunumlar, oyunlar, çalışma kâğıtları, çevrimdışı etkinlikler |
+| `eng-hub-vX.Y.Z-lite.zip` | Sadece program ve sunumlar (çok daha küçük) |
+| `book.pdf`, `book_8.pdf` | Ders kitapları — programın çalışması için gerekmez, içeriği yeniden üretmek isteyenler için |
+
+Paketin yapısı:
+
+```
+eng-hub/
+├─ Start-Windows.bat
+├─ start-pardus.sh
+├─ README.md      ← ilk kullanım kılavuzu
+└─ src/           ← program ve içerik
+```
+
+Yeni sürüm yayınlamak için `v1.2.3` gibi bir etiket gönderin; `.github/workflows/release.yml`
+paketi hazırlar, paketlenmiş sunucuyu ayağa kaldırıp çalıştığını doğrular ve zip'leri yükler.
+
 ## Depo hakkında
 
-Bu depo **programı** ve **yazılan sunumları** içerir; USB'deki 1,3 GB'lık içeriğin tamamını değil.
-Ders kitapları (`res/`), indirilen çalışma kâğıtları, oyun soru havuzları, kopyalanan siteler ve
-tema föylerinden kesilen resimler **başkalarının materyali** olduğu için depoya konmadı. Hepsi
-`tools/` altındaki betiklerle yeniden üretilir:
+Depoda **her şey** var: program, sunumlar, indirilen çalışma kâğıtları, oyun soru havuzları,
+kopyalanan etkinlikler ve resimler. MEB kitapları ile eltarena'da paylaşılan çalışmalar zaten
+herkese açık; bu proje onları tek yerde, internetsiz kullanılabilir hâlde topluyor ve her dosyanın
+yanında hazırlayanın adı duruyor.
+
+GitHub 100 MB üstü dosya kabul etmediği için yalnızca iki ders kitabı PDF'i ve bir büyük çalışma
+kâğıdı depoda değil — onlar Releases sayfasında. İçeriği kaynaktan yeniden üretmek için:
 
 ```bash
 python tools/refresh.py
 ```
-
-Kelime resimleri (`app/img/words/`) Wikimedia Commons'tan çekilir; onları da
-`python tools/fetch_word_images.py` ile indirebilirsiniz.
 
 `memories/` klasöründe projenin nasıl kurulduğuna dair notlar var.

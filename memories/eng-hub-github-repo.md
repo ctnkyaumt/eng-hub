@@ -10,16 +10,21 @@ metadata:
 
 Public repo: **https://github.com/ctnkyaumt/eng-hub** (branch `main`, remote `origin`).
 
-It carries the **program and the decks that were written for it** — `app/`, `server/`, `tools/`,
-the launchers, `content/**/presentation/slides.json`, and a `memories/` folder mirroring the
-notes in this memory directory. Everything else is deliberately left out by `.gitignore`:
+It carries **the whole USB**: the program, the decks, the downloaded worksheets, the harvested
+question banks, the mirrored activities and the pictures. The teacher's position — and it is
+theirs to take — is that MEB's books and the worksheets shared on eltarena.com are already
+public and this project only gathers them in one place; author names travel with every file in
+the unit manifests. So do not strip content out of the repo again.
 
-- `res/` — MEB course books and theme sheets (other people's material, 280 MB)
-- downloaded worksheets, harvested game banks, mirrored sites, cropped sheet pictures
-- `runtime/` portable Python and `app/img/words/*.jpg` (refetchable)
+Only three files stay out, purely because GitHub refuses anything over 100 MB:
+`res/book.pdf`, `res/book_8.pdf` and one 105 MB worksheet. They are attached to the release
+instead, and nothing at runtime reads them (they are sources for rebuilding content).
+`tools/cache/`, `tools/logs/` and `*.bak` are also ignored.
 
-The reason is both size (the USB build is ~1.3 GB) and redistribution: those files belong to
-MEB and to the teachers who published on eltarena. Every one of them is rebuilt by
-`python tools/refresh.py`. Keep it that way when adding files.
+**Releases** are built by `.github/workflows/release.yml` when a `v*` tag is pushed: it lays the
+program out as `eng-hub/{Start-Windows.bat, start-pardus.sh, README.md, src/}`, starts the
+packaged server to prove the layout works, then publishes a full zip (~820 MB) and a lite zip
+(~40 MB, program + presentations). The launchers detect both layouts, so the same file works in
+the repo and in the package. The first-time README lives in `packaging/PACKAGE-README.md`.
 
 `.gitattributes` pins `*.bat` to CRLF — see the launcher note in [[eng-hub-usb-app]].
