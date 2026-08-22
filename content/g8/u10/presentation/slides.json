@@ -41,15 +41,25 @@
     {
      "en": "avalanche",
      "tr": "çığ",
-     "emoji": "🏔️",
-     "img": "/app/img/words/avalanche.jpg"
+     "emoji": "🏔️"
     },
     {
      "en": "landslide",
      "tr": "heyelan",
      "emoji": "⛰️",
      "img": "/app/img/words/landslide.jpg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Natural Disasters",
+   "titleTr": "Doğal afetler",
+   "items": [
     {
      "en": "hurricane",
      "tr": "kasırga",
@@ -77,9 +87,12 @@
     {
      "en": "disaster",
      "tr": "felaket",
-     "emoji": "⚠️",
-     "img": "/app/img/words/disaster.jpg"
+     "emoji": "⚠️"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -138,8 +151,7 @@
     {
      "en": "melt",
      "tr": "erimek",
-     "emoji": "💧",
-     "img": "/app/img/words/melt.jpg"
+     "emoji": "💧"
     },
     {
      "en": "precaution",
@@ -191,52 +203,79 @@
    "items": [
     {
      "en": "storm",
-     "tr": "fırtına"
+     "tr": "fırtına",
+     "emoji": "⛈️"
     },
     {
      "en": "eruption",
-     "tr": "patlama"
+     "tr": "patlama",
+     "emoji": "🌋"
     },
     {
      "en": "wildfire",
-     "tr": "orman yangını"
+     "tr": "orman yangını",
+     "emoji": "🔥"
     },
     {
      "en": "lightning",
-     "tr": "şimşek"
+     "tr": "şimşek",
+     "emoji": "⚡"
     },
     {
      "en": "thunder",
-     "tr": "gök gürültüsü"
+     "tr": "gök gürültüsü",
+     "emoji": "🌩️"
     },
     {
      "en": "damage",
-     "tr": "hasar"
-    },
+     "tr": "hasar",
+     "emoji": "🏚️"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Doğa Güçleri — ek kelimeler",
+   "items": [
     {
      "en": "rescue team",
-     "tr": "kurtarma ekibi"
+     "tr": "kurtarma ekibi",
+     "emoji": "🚑"
     },
     {
      "en": "emergency",
-     "tr": "acil durum"
+     "tr": "acil durum",
+     "emoji": "🚨"
     },
     {
      "en": "shelter",
-     "tr": "sığınak"
+     "tr": "sığınak",
+     "emoji": "⛺"
     },
     {
      "en": "warning",
-     "tr": "uyarı"
+     "tr": "uyarı",
+     "emoji": "⚠️"
     },
     {
      "en": "aftershock",
-     "tr": "artçı sarsıntı"
+     "tr": "artçı sarsıntı",
+     "emoji": "📳"
     },
     {
      "en": "debris",
-     "tr": "enkaz"
+     "tr": "enkaz",
+     "emoji": "🧱"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -281,11 +320,13 @@
    "items": [
     {
      "en": "first aid",
-     "tr": "ilk yardım"
+     "tr": "ilk yardım",
+     "emoji": "🩹"
     },
     {
      "en": "evacuate",
-     "tr": "tahliye etmek"
+     "tr": "tahliye etmek",
+     "emoji": "🚪"
     }
    ]
   },
@@ -496,6 +537,115 @@
      "a": "tornado"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "hurricane",
+      "tr": "kasırga",
+      "img": "/app/img/words/hurricane.jpg",
+      "emoji": "🌀"
+     },
+     {
+      "en": "earthquake",
+      "tr": "deprem",
+      "img": "/app/img/words/earthquake.jpg",
+      "emoji": "🌎"
+     },
+     {
+      "en": "tornado",
+      "tr": "hortum",
+      "img": "/app/img/words/tornado.jpg",
+      "emoji": "🌪️"
+     },
+     {
+      "en": "volcano",
+      "tr": "yanardağ",
+      "img": "/app/img/words/volcano.jpg",
+      "emoji": "🌋"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "drought",
+      "tr": "kuraklık",
+      "img": "/app/img/words/drought.jpg",
+      "emoji": "🏜️",
+      "audio": "/app/audio/words/drought.wav"
+     },
+     {
+      "en": "landslide",
+      "tr": "heyelan",
+      "img": "/app/img/words/landslide.jpg",
+      "emoji": "⛰️",
+      "audio": "/app/audio/words/landslide.wav"
+     },
+     {
+      "en": "flood",
+      "tr": "sel",
+      "img": "/app/img/words/flood.jpg",
+      "emoji": "🌊",
+      "audio": "/app/audio/words/flood.wav"
+     },
+     {
+      "en": "global warming",
+      "tr": "küresel ısınma",
+      "img": "/app/img/words/global-warming.jpg",
+      "emoji": "🌡️",
+      "audio": "/app/audio/words/global-warming.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "You should keep an emergency bag ready.",
+      "tr": "Hazır bir afet çantası bulundurmalısın."
+     },
+     {
+      "answer": "The soil will dry if it doesn't rain.",
+      "tr": "Yağmur yağmazsa toprak kurur."
+     },
+     {
+      "answer": "There will be a storm tomorrow.",
+      "tr": "Yarın fırtına olacak."
+     }
+    ]
+   }
   },
   {
    "type": "end",

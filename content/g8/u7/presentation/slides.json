@@ -41,8 +41,7 @@
     {
      "en": "square",
      "tr": "meydan",
-     "emoji": "⛲",
-     "img": "/app/img/words/square.jpg"
+     "emoji": "⛲"
     },
     {
      "en": "resort",
@@ -195,52 +194,79 @@
    "items": [
     {
      "en": "taste",
-     "tr": "tadına bakmak"
+     "tr": "tadına bakmak",
+     "emoji": "👅"
     },
     {
      "en": "terrible / awful",
-     "tr": "korkunç, berbat"
+     "tr": "korkunç, berbat",
+     "emoji": "😖"
     },
     {
      "en": "tradition",
-     "tr": "gelenek"
+     "tr": "gelenek",
+     "emoji": "🧿"
     },
     {
      "en": "truly",
-     "tr": "gerçekten"
+     "tr": "gerçekten",
+     "emoji": "💯"
     },
     {
      "en": "unbelievable / incredible",
-     "tr": "inanılmaz"
+     "tr": "inanılmaz",
+     "emoji": "🤯"
     },
     {
      "en": "visit",
-     "tr": "ziyaret etmek"
-    },
+     "tr": "ziyaret etmek",
+     "emoji": "📍"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Turizm — ek kelimeler",
+   "items": [
     {
      "en": "rich",
-     "tr": "zengin"
+     "tr": "zengin",
+     "emoji": "💰"
     },
     {
      "en": "sightseeing",
-     "tr": "gezi"
+     "tr": "gezi",
+     "emoji": "🚌"
     },
     {
      "en": "summer",
-     "tr": "yaz"
+     "tr": "yaz",
+     "emoji": "☀️"
     },
     {
-     "en": "sunbath",
-     "tr": "güneşlenmek"
+     "en": "sunbathe",
+     "tr": "güneşlenmek",
+     "emoji": "🏖️"
     },
     {
      "en": "sunny",
-     "tr": "güneşli"
+     "tr": "güneşli",
+     "emoji": "☀️"
     },
     {
      "en": "mysterious",
-     "tr": "gizemli"
+     "tr": "gizemli",
+     "emoji": "🔮"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -285,35 +311,43 @@
    "items": [
     {
      "en": "natural",
-     "tr": "doğal"
+     "tr": "doğal",
+     "emoji": "🌿"
     },
     {
      "en": "palace",
-     "tr": "saray"
+     "tr": "saray",
+     "emoji": "🏰"
     },
     {
      "en": "peaceful",
-     "tr": "huzurlu"
+     "tr": "huzurlu",
+     "emoji": "🕊️"
     },
     {
      "en": "rainy",
-     "tr": "yağmurlu"
+     "tr": "yağmurlu",
+     "emoji": "🌧️"
     },
     {
      "en": "relaxing",
-     "tr": "rahatlatıcı"
+     "tr": "rahatlatıcı",
+     "emoji": "😌"
     },
     {
      "en": "heritage",
-     "tr": "miras"
+     "tr": "miras",
+     "emoji": "🏛️"
     },
     {
      "en": "holiday",
-     "tr": "tatil"
+     "tr": "tatil",
+     "emoji": "🧳"
     },
     {
      "en": "hospitable",
-     "tr": "misafirperver"
+     "tr": "misafirperver",
+     "emoji": "🤗"
     }
    ]
   },
@@ -551,6 +585,115 @@
      "a": "bed and breakfast"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "attraction",
+      "tr": "gezilecek yer",
+      "img": "/app/img/words/attraction.jpg",
+      "emoji": "📍"
+     },
+     {
+      "en": "historic site",
+      "tr": "tarihi alan",
+      "img": "/app/img/words/historic-site.jpg",
+      "emoji": "🏺"
+     },
+     {
+      "en": "resort",
+      "tr": "tatil köyü",
+      "img": "/app/img/words/resort.jpg",
+      "emoji": "🏖️"
+     },
+     {
+      "en": "destination",
+      "tr": "gidilecek yer",
+      "img": "/app/img/words/destination.jpg",
+      "emoji": "🧭"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "bed and breakfast",
+      "tr": "pansiyon",
+      "img": "/app/img/words/bed-and-breakfast.jpg",
+      "emoji": "🛏️",
+      "audio": "/app/audio/words/bed-and-breakfast.wav"
+     },
+     {
+      "en": "rural",
+      "tr": "kırsal",
+      "img": "/app/img/words/rural.jpg",
+      "emoji": "🚜",
+      "audio": "/app/audio/words/rural.wav"
+     },
+     {
+      "en": "culture",
+      "tr": "kültür",
+      "img": "/app/img/words/culture.jpg",
+      "emoji": "🎭",
+      "audio": "/app/audio/words/culture.wav"
+     },
+     {
+      "en": "urban",
+      "tr": "kentsel",
+      "img": "/app/img/words/urban.jpg",
+      "emoji": "🏙️",
+      "audio": "/app/audio/words/urban.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Did you enjoy the tour? — Yes, I did.",
+      "tr": "Turdan keyif aldın mı? — Evet."
+     },
+     {
+      "answer": "She took a lot of photographs.",
+      "tr": "Bir sürü fotoğraf çekti."
+     },
+     {
+      "answer": "I saw the ancient theatre.",
+      "tr": "Antik tiyatroyu gördüm."
+     }
+    ]
+   }
   },
   {
    "type": "end",

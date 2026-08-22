@@ -55,8 +55,7 @@
     {
      "en": "come over",
      "tr": "uğramak",
-     "emoji": "🚪",
-     "img": "/app/img/words/come-over.jpg"
+     "emoji": "🚪"
     },
     {
      "en": "go for a walk",
@@ -146,8 +145,7 @@
     {
      "en": "treasure",
      "tr": "hazine",
-     "emoji": "🏆",
-     "img": "/app/img/words/treasure.jpg"
+     "emoji": "🏆"
     },
     {
      "en": "secret",
@@ -174,8 +172,7 @@
     {
      "en": "share",
      "tr": "paylaşmak",
-     "emoji": "🤲",
-     "img": "/app/img/words/share.jpg"
+     "emoji": "🤲"
     },
     {
      "en": "support",
@@ -322,52 +319,79 @@
    "items": [
     {
      "en": "weekdays",
-     "tr": "hafta içi"
+     "tr": "hafta içi",
+     "emoji": "📅"
     },
     {
      "en": "weekend",
-     "tr": "hafta sonu"
+     "tr": "hafta sonu",
+     "emoji": "🛋️"
     },
     {
      "en": "write a diary",
-     "tr": "günlük yazmak"
+     "tr": "günlük yazmak",
+     "emoji": "📔"
     },
     {
      "en": "visit relatives",
-     "tr": "akrabaları ziyaret etmek"
+     "tr": "akrabaları ziyaret etmek",
+     "emoji": "👪"
     },
     {
      "en": "wake up",
-     "tr": "uyanmak"
+     "tr": "uyanmak",
+     "emoji": "⏰"
     },
     {
      "en": "walk the dog",
-     "tr": "köpeği gezdirmek"
-    },
+     "tr": "köpeği gezdirmek",
+     "emoji": "🐕"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Arkadaşlık — ek kelimeler",
+   "items": [
     {
      "en": "wash face",
-     "tr": "yüz yıkamak"
+     "tr": "yüz yıkamak",
+     "emoji": "🧼"
     },
     {
      "en": "watch TV",
-     "tr": "televizyon izlemek"
+     "tr": "televizyon izlemek",
+     "emoji": "📺"
     },
     {
      "en": "water the flowers",
-     "tr": "çiçekleri sulamak"
+     "tr": "çiçekleri sulamak",
+     "emoji": "🪴"
     },
     {
      "en": "ride a bike",
-     "tr": "bisiklete binmek"
+     "tr": "bisiklete binmek",
+     "emoji": "🚲"
     },
     {
      "en": "run errands",
-     "tr": "günlük işleri yapmak"
+     "tr": "günlük işleri yapmak",
+     "emoji": "🛍️"
     },
     {
      "en": "study",
-     "tr": "ders çalışmak"
+     "tr": "ders çalışmak",
+     "emoji": "📚"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -413,52 +437,79 @@
    "items": [
     {
      "en": "take a course",
-     "tr": "kurs almak"
+     "tr": "kurs almak",
+     "emoji": "🏫"
     },
     {
      "en": "take a nap",
-     "tr": "şekerleme yapmak"
+     "tr": "şekerleme yapmak",
+     "emoji": "😴"
     },
     {
      "en": "take care of a pet",
-     "tr": "evcil hayvan ile ilgilenmek"
+     "tr": "evcil hayvan ile ilgilenmek",
+     "emoji": "🐾"
     },
     {
      "en": "life",
-     "tr": "yaşam, hayat"
+     "tr": "yaşam, hayat",
+     "emoji": "🌱"
     },
     {
      "en": "listen to music",
-     "tr": "müzik dinlemek"
+     "tr": "müzik dinlemek",
+     "emoji": "🎧"
     },
     {
      "en": "meet friends",
-     "tr": "arkadaşlarla buluşmak"
-    },
+     "tr": "arkadaşlarla buluşmak",
+     "emoji": "🧑‍🤝‍🧑"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Arkadaşlık — ek kelimeler",
+   "items": [
     {
      "en": "noon",
-     "tr": "öğlen"
+     "tr": "öğlen",
+     "emoji": "🕛"
     },
     {
      "en": "play chess",
-     "tr": "satranç oynamak"
+     "tr": "satranç oynamak",
+     "emoji": "♟️"
     },
     {
      "en": "read a book",
-     "tr": "kitap okumak"
+     "tr": "kitap okumak",
+     "emoji": "📖"
     },
     {
      "en": "have breakfast",
-     "tr": "kahvaltı yapmak"
+     "tr": "kahvaltı yapmak",
+     "emoji": "🥞"
     },
     {
      "en": "have dinner",
-     "tr": "akşam yemeği yemek"
+     "tr": "akşam yemeği yemek",
+     "emoji": "🍽️"
     },
     {
      "en": "have lunch",
-     "tr": "öğle yemeği yemek"
+     "tr": "öğle yemeği yemek",
+     "emoji": "🥪"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -705,6 +756,111 @@
      "a": "come over"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "best friend",
+      "tr": "en iyi arkadaş",
+      "img": "/app/img/words/best-friend.jpg",
+      "emoji": "👯"
+     },
+     {
+      "en": "secret",
+      "tr": "sır",
+      "img": "/app/img/words/secret.jpg",
+      "emoji": "🤫"
+     },
+     {
+      "en": "go for a walk",
+      "tr": "yürüyüşe çıkmak",
+      "img": "/app/img/words/go-for-a-walk.jpg",
+      "emoji": "🚶"
+     },
+     {
+      "en": "concert",
+      "tr": "konser",
+      "img": "/app/img/words/concert.jpg",
+      "emoji": "🎤"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "awesome",
+      "tr": "harika",
+      "emoji": "🤩",
+      "audio": "/app/audio/words/awesome.wav"
+     },
+     {
+      "en": "have dinner",
+      "tr": "akşam yemeği yemek",
+      "emoji": "🍽️",
+      "audio": "/app/audio/words/have-dinner.wav"
+     },
+     {
+      "en": "watch TV",
+      "tr": "televizyon izlemek",
+      "emoji": "📺",
+      "audio": "/app/audio/words/watch-tv.wav"
+     },
+     {
+      "en": "advice",
+      "tr": "tavsiye",
+      "emoji": "💡",
+      "audio": "/app/audio/words/advice.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Why don't we play basketball after school?",
+      "tr": "Okuldan sonra neden basketbol oynamıyoruz?"
+     },
+     {
+      "answer": "I'm sorry, I can't. I have to study.",
+      "tr": "Üzgünüm, gelemem. Ders çalışmam gerek."
+     },
+     {
+      "answer": "Sure, that sounds great.",
+      "tr": "Tabii, kulağa harika geliyor."
+     }
+    ]
+   }
   },
   {
    "type": "end",

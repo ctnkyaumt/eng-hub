@@ -137,7 +137,18 @@
      "en": "lettuce",
      "tr": "marul",
      "emoji": "🥬"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Food — Vegetables & More",
+   "titleTr": "Yiyecekler",
+   "items": [
     {
      "en": "corn",
      "tr": "mısır",
@@ -152,39 +163,7 @@
      "en": "cinnamon",
      "tr": "tarçın",
      "emoji": "🪵"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Food — Vegetables & More",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"beans\" means \"biber\".",
-     "answer": false,
-     "explain": "beans = fasulye"
     },
-    {
-     "kind": "choose",
-     "q": "Which word means \"mercimek\"?",
-     "answer": "lentil",
-     "options": [
-      "lentil",
-      "cucumber",
-      "tomato",
-      "mushroom"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Food — Vegetables & More",
-   "titleTr": "Yiyecekler",
-   "items": [
     {
      "en": "olives",
      "tr": "zeytin",
@@ -204,7 +183,18 @@
      "en": "meat",
      "tr": "et",
      "emoji": "🥩"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Food — Vegetables & More",
+   "titleTr": "Yiyecekler",
+   "items": [
     {
      "en": "beef",
      "tr": "dana eti",
@@ -235,6 +225,10 @@
      "tr": "süt ürünleri",
      "emoji": "🧺"
     }
+   ],
+   "part": [
+    3,
+    3
    ]
   },
   {
@@ -243,31 +237,21 @@
    "titleTr": "Use what you just learned · Food — Vegetables & More",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "balık eti",
-     "answer": "fish"
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"cucumber\" means \"yağ\".",
+     "answer": false,
+     "explain": "cucumber = salatalık"
     },
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "lemon",
-       "b": "limon"
-      },
-      {
-       "a": "fish",
-       "b": "balık eti"
-      },
-      {
-       "a": "meat",
-       "b": "et"
-      },
-      {
-       "a": "apple",
-       "b": "elma"
-      }
+     "kind": "choose",
+     "q": "Which word means \"fasulye\"?",
+     "answer": "beans",
+     "options": [
+      "beans",
+      "lettuce",
+      "garlic",
+      "lemon"
      ]
     }
    ]
@@ -306,7 +290,18 @@
      "en": "sugar",
      "tr": "şeker",
      "emoji": "🍬"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Food — Sweet & Bakery",
+   "titleTr": "Tatlılar, fırın ürünleri ve içecekler",
+   "items": [
     {
      "en": "flour",
      "tr": "un",
@@ -321,50 +316,7 @@
      "en": "jam",
      "tr": "reçel",
      "emoji": "🍓"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Food — Sweet & Bakery",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"spices\" means \"şeker\".",
-     "answer": false,
-     "explain": "spices = baharatlar"
     },
-    {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "sugar",
-       "b": "şeker"
-      },
-      {
-       "a": "butter",
-       "b": "tereyağı"
-      },
-      {
-       "a": "spices",
-       "b": "baharatlar"
-      },
-      {
-       "a": "sauce",
-       "b": "sos"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Food — Sweet & Bakery",
-   "titleTr": "Tatlılar, fırın ürünleri ve içecekler",
-   "items": [
     {
      "en": "chocolate",
      "tr": "çikolata",
@@ -379,7 +331,18 @@
      "en": "biscuit / cookie",
      "tr": "kurabiye",
      "emoji": "🍪"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Food — Sweet & Bakery",
+   "titleTr": "Tatlılar, fırın ürünleri ve içecekler",
+   "items": [
     {
      "en": "muffin",
      "tr": "kek",
@@ -410,6 +373,10 @@
      "tr": "ekmek",
      "emoji": "🍞"
     }
+   ],
+   "part": [
+    3,
+    3
    ]
   },
   {
@@ -418,32 +385,32 @@
    "titleTr": "Use what you just learned · Food — Sweet & Bakery",
    "tasks": [
     {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "reçel",
+     "answer": "jam"
+    },
+    {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "ice cream",
-       "b": "dondurma"
+       "a": "flour",
+       "b": "un"
       },
       {
-       "a": "pancake",
-       "b": "krep"
+       "a": "chocolate",
+       "b": "çikolata"
       },
       {
-       "a": "croissant",
-       "b": "kruvasan"
+       "a": "sweet / candy",
+       "b": "şekerleme"
       },
       {
-       "a": "tart",
-       "b": "turta"
+       "a": "bread",
+       "b": "ekmek"
       }
      ]
-    },
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "krep",
-     "answer": "pancake"
     }
    ]
   },
@@ -497,19 +464,30 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"dough\" means \"makarna\".",
+     "statement": "\"dough\" means \"su\".",
      "answer": false,
      "explain": "dough = hamur"
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"su\"?",
-     "answer": "water",
-     "options": [
-      "water",
-      "pasta",
-      "milk",
-      "meatball"
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "fruit juice",
+       "b": "meyve suyu"
+      },
+      {
+       "a": "dough",
+       "b": "hamur"
+      },
+      {
+       "a": "ayran",
+       "b": "ayran"
+      },
+      {
+       "a": "meatball",
+       "b": "köfte"
+      }
      ]
     }
    ]
@@ -567,12 +545,6 @@
    "titleTr": "Use what you just learned · Kitchen Utensils",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "tabak",
-     "answer": "plate"
-    },
-    {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
@@ -581,18 +553,24 @@
        "b": "bardak"
       },
       {
-       "a": "teaspoon",
-       "b": "çay kaşığı"
+       "a": "pan",
+       "b": "tava"
       },
       {
-       "a": "plate",
-       "b": "tabak"
+       "a": "cup",
+       "b": "fincan"
       },
       {
        "a": "bowl",
        "b": "kase"
       }
      ]
+    },
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "tencere",
+     "answer": "pot"
     }
    ]
   },
@@ -630,7 +608,18 @@
      "en": "fresh",
      "tr": "taze",
      "emoji": "🥬"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "homemade",
      "tr": "ev yapımı",
@@ -645,50 +634,7 @@
      "en": "fried",
      "tr": "kızartılmış",
      "emoji": "🍳"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Adjectives",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"tasty\" means \"taze\".",
-     "answer": false,
-     "explain": "tasty = lezzetli"
     },
-    {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "fresh",
-       "b": "taze"
-      },
-      {
-       "a": "homemade",
-       "b": "ev yapımı"
-      },
-      {
-       "a": "empty",
-       "b": "boş"
-      },
-      {
-       "a": "tasty",
-       "b": "lezzetli"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Adjectives",
-   "titleTr": "Sıfatlar",
-   "items": [
     {
      "en": "healthy",
      "tr": "sağlıklı",
@@ -703,7 +649,18 @@
      "en": "light",
      "tr": "hafif",
      "emoji": "🪶"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "sweet",
      "tr": "tatlı",
@@ -734,6 +691,10 @@
      "tr": "alt",
      "emoji": "⬇️"
     }
+   ],
+   "part": [
+    3,
+    3
    ]
   },
   {
@@ -742,32 +703,22 @@
    "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "available",
-       "b": "müsait"
-      },
-      {
-       "a": "bottom",
-       "b": "alt"
-      },
-      {
-       "a": "special",
-       "b": "özel"
-      },
-      {
-       "a": "healthy",
-       "b": "sağlıklı"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"available\" means \"haşlanmış\".",
+     "answer": false,
+     "explain": "available = müsait"
     },
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "alt",
-     "answer": "bottom"
+     "kind": "choose",
+     "q": "Which word means \"kızartılmış\"?",
+     "answer": "fried",
+     "options": [
+      "fried",
+      "special",
+      "delicious",
+      "empty"
+     ]
     }
    ]
   },
@@ -815,7 +766,18 @@
      "en": "fry",
      "tr": "kızartmak",
      "emoji": "🍳"
-    },
+    }
+   ],
+   "part": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Mutfak fiilleri",
+   "items": [
     {
      "en": "squeeze",
      "tr": "suyunu sıkmak",
@@ -825,39 +787,7 @@
      "en": "heat",
      "tr": "ısıtmak",
      "emoji": "🔥"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Verbs",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"dry\" means \"ezmek\".",
-     "answer": false,
-     "explain": "dry = kurutmak"
     },
-    {
-     "kind": "choose",
-     "q": "Which word means \"ezmek\"?",
-     "answer": "mash",
-     "options": [
-      "mash",
-      "slice",
-      "boil",
-      "wash"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Verbs",
-   "titleTr": "Mutfak fiilleri",
-   "items": [
     {
      "en": "add",
      "tr": "eklemek",
@@ -887,7 +817,18 @@
      "en": "cook",
      "tr": "pişirmek",
      "emoji": "🍲"
-    },
+    }
+   ],
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Mutfak fiilleri",
+   "items": [
     {
      "en": "serve",
      "tr": "servis etmek",
@@ -907,49 +848,7 @@
      "en": "eat",
      "tr": "yemek",
      "emoji": "🍴"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Verbs",
-   "tasks": [
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "servis etmek",
-     "answer": "serve"
     },
-    {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "add",
-       "b": "eklemek"
-      },
-      {
-       "a": "cook",
-       "b": "pişirmek"
-      },
-      {
-       "a": "mix",
-       "b": "karıştırmak"
-      },
-      {
-       "a": "eat",
-       "b": "yemek"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Verbs",
-   "titleTr": "Mutfak fiilleri",
-   "items": [
     {
      "en": "need",
      "tr": "ihtiyaç duymak",
@@ -969,7 +868,18 @@
      "en": "book",
      "tr": "yer ayırtmak",
      "emoji": "📅"
-    },
+    }
+   ],
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Mutfak fiilleri",
+   "items": [
     {
      "en": "reserve",
      "tr": "yer ayırmak",
@@ -1000,6 +910,10 @@
      "tr": "önermek",
      "emoji": "👍"
     }
+   ],
+   "part": [
+    4,
+    4
    ]
   },
   {
@@ -1008,31 +922,30 @@
    "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"lose weight\" means \"sipariş vermek\".",
-     "answer": false,
-     "explain": "lose weight = kilo vermek"
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "yer ayırmak",
+     "answer": "reserve"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "recommend",
-       "b": "önermek"
+       "a": "fry",
+       "b": "kızartmak"
       },
       {
-       "a": "lose weight",
-       "b": "kilo vermek"
+       "a": "cook",
+       "b": "pişirmek"
       },
       {
        "a": "pay",
        "b": "ödemek"
       },
       {
-       "a": "take order",
-       "b": "sipariş almak"
+       "a": "stir",
+       "b": "karıştırmak (sıvı)"
       }
      ]
     }
@@ -1088,6 +1001,13 @@
    "titleTr": "Use what you just learned · Countable / Uncountable",
    "tasks": [
     {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "an olive → ten olives — salatalık",
+     "answer": false,
+     "explain": "Correct: an olive → ten olives"
+    },
+    {
      "kind": "fill",
      "text": "___ cucumber → two cucumbers",
      "answer": "a",
@@ -1096,12 +1016,6 @@
       "an"
      ],
      "tr": "salatalık"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "an olive → ten olives",
-     "tr": "zeytin"
     }
    ]
   },
@@ -1144,22 +1058,17 @@
    "titleTr": "Use what you just learned · a / an · some · any",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "Does the sentence match the meaning?",
-     "statement": "We don't have a apples. — Hiç elmamız yok.",
-     "answer": false,
-     "explain": "Correct: We don't have any apples."
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "We don't have ___ apples.",
+     "answer": "any",
+     "tr": "Hiç elmamız yok."
     },
     {
-     "kind": "fill",
-     "text": "___ cucumber · a tomato · an orange · an apple",
-     "answer": "a",
-     "options": [
-      "a",
-      "some",
-      "any"
-     ],
-     "tr": "sessiz harf → a, sesli harf → an"
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Do you have any coffee?",
+     "tr": "Hiç kahven var mı?"
     }
    ]
   },
@@ -1195,12 +1104,14 @@
     {
      "lines": [
       {
-       "who": "?",
-       "text": "How many → sayılabilen nesnelerin adedi"
+       "who": "RULE",
+       "text": "Use “How many” with countable nouns.",
+       "tr": "How many → sayılabilen nesnelerin adedi"
       },
       {
-       "who": "?",
-       "text": "How much → sayılamayan nesnelerin miktarı"
+       "who": "RULE",
+       "text": "Use “How much” with uncountable nouns.",
+       "tr": "How much → sayılamayan nesnelerin miktarı"
       }
      ]
     }
@@ -1252,6 +1163,13 @@
    "titleTr": "Use what you just learned · Asking for Permission",
    "tasks": [
     {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "Can I taste the sauce? — Sosu tadabilir miyim?",
+     "answer": true,
+     "explain": "Correct: Can I taste the sauce?"
+    },
+    {
      "kind": "fill",
      "text": "___ order a dessert?",
      "answer": "Can I",
@@ -1259,12 +1177,6 @@
       "Can I"
      ],
      "tr": "Bir tatlı sipariş verebilir miyim?"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Can I eat some pasta?",
-     "tr": "Biraz makarna yiyebilir miyim?"
     }
    ]
   },
@@ -1394,11 +1306,16 @@
    "titleTr": "Use what you just learned · have got / has got",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "We ___ some bread.",
+     "kind": "fill",
+     "text": "I ___ a plate of salad.",
      "answer": "have got",
-     "tr": "Bizim biraz ekmeğimiz var."
+     "options": [
+      "have got",
+      "has got",
+      "haven't got",
+      "hasn't got"
+     ],
+     "tr": "Benim bir tabak salatam var."
     },
     {
      "kind": "order",
@@ -1510,6 +1427,107 @@
      "a": "boiled"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "fresh",
+      "tr": "taze",
+      "emoji": "🥬"
+     },
+     {
+      "en": "tart",
+      "tr": "turta",
+      "emoji": "🥧"
+     },
+     {
+      "en": "cinnamon",
+      "tr": "tarçın",
+      "emoji": "🪵"
+     },
+     {
+      "en": "dessert",
+      "tr": "tatlı",
+      "emoji": "🍰"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "glass",
+      "tr": "bardak",
+      "emoji": "🥛",
+      "audio": "/app/audio/words/glass.wav"
+     },
+     {
+      "en": "ayran",
+      "tr": "ayran",
+      "emoji": "🥛",
+      "audio": "/app/audio/words/ayran.wav"
+     },
+     {
+      "en": "fruit juice",
+      "tr": "meyve suyu",
+      "emoji": "🧃",
+      "audio": "/app/audio/words/fruit-juice.wav"
+     },
+     {
+      "en": "sweet",
+      "tr": "tatlı",
+      "emoji": "🍬",
+      "audio": "/app/audio/words/sweet.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "We have got some bread.",
+      "tr": "Bizim biraz ekmeğimiz var."
+     },
+     {
+      "answer": "Do you have any coffee?",
+      "tr": "Hiç kahven var mı?"
+     },
+     {
+      "answer": "I haven't got a glass.",
+      "tr": "Benim bir bardağım yok."
+     }
+    ]
+   }
   },
   {
    "type": "pages",

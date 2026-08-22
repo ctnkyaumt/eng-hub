@@ -291,7 +291,18 @@
      "tr": "Görsel Sanatlar",
      "emoji": "🎨",
      "img": "p05-06.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School Subjects",
+   "titleTr": "Okul dersleri",
+   "items": [
     {
      "en": "Music",
      "tr": "Müzik",
@@ -328,6 +339,10 @@
      "emoji": "📝",
      "img": "p05-12.png"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -519,7 +534,18 @@
      "en": "pencil case",
      "tr": "kalem kutusu",
      "emoji": "🧰"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Classroom Objects",
+   "titleTr": "Sınıf eşyaları",
+   "items": [
     {
      "en": "book",
      "tr": "kitap",
@@ -534,49 +560,7 @@
      "en": "dictionary",
      "tr": "sözlük",
      "emoji": "📚"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Classroom Objects",
-   "tasks": [
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "kalemtıraş",
-     "answer": "sharpener"
     },
-    {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "coloured pencil",
-       "b": "renkli kalem"
-      },
-      {
-       "a": "pencil",
-       "b": "kurşun kalem"
-      },
-      {
-       "a": "rubber / eraser",
-       "b": "silgi"
-      },
-      {
-       "a": "sharpener",
-       "b": "kalemtıraş"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Classroom Objects",
-   "titleTr": "Sınıf eşyaları",
-   "items": [
     {
      "en": "sheet",
      "tr": "kağıt",
@@ -585,7 +569,7 @@
     {
      "en": "material",
      "tr": "materyal",
-     "emoji": "🧩"
+     "emoji": "📦"
     },
     {
      "en": "scissors",
@@ -596,7 +580,18 @@
      "en": "ruler",
      "tr": "cetvel",
      "emoji": "📏"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Classroom Objects",
+   "titleTr": "Sınıf eşyaları",
+   "items": [
     {
      "en": "glue",
      "tr": "yapıştırıcı",
@@ -627,6 +622,10 @@
      "tr": "tahta",
      "emoji": "🟩"
     }
+   ],
+   "part": [
+    3,
+    3
    ]
   },
   {
@@ -635,31 +634,30 @@
    "titleTr": "Use what you just learned · Classroom Objects",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"sheet\" means \"cetvel\".",
-     "answer": false,
-     "explain": "sheet = kağıt"
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "materyal",
+     "answer": "material"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "poster",
-       "b": "poster"
+       "a": "sharpener",
+       "b": "kalemtıraş"
       },
       {
-       "a": "school bag",
-       "b": "okul çantası"
+       "a": "pencil",
+       "b": "kurşun kalem"
       },
       {
-       "a": "sheet",
-       "b": "kağıt"
+       "a": "notebook",
+       "b": "defter"
       },
       {
-       "a": "board",
-       "b": "tahta"
+       "a": "material",
+       "b": "materyal"
       }
      ]
     }
@@ -718,32 +716,33 @@
    "titleTr": "Use what you just learned · Classroom Objects",
    "tasks": [
     {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"board marker\" means \"kitaplık\".",
+     "answer": false,
+     "explain": "board marker = tahta kalemi"
+    },
+    {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "desk",
-       "b": "sıra"
+       "a": "smart board",
+       "b": "akıllı tahta"
+      },
+      {
+       "a": "seat",
+       "b": "oturak"
       },
       {
        "a": "rubbish bin / trash can",
        "b": "çöp kutusu"
       },
       {
-       "a": "board marker",
-       "b": "tahta kalemi"
-      },
-      {
        "a": "table",
        "b": "masa"
       }
      ]
-    },
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "masa",
-     "answer": "table"
     }
    ]
   },
@@ -795,22 +794,32 @@
    "titleTr": "Use what you just learned · Days of the Week",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"Friday\" means \"Perşembe\".",
-     "answer": false,
-     "explain": "Friday = Cuma"
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "Wednesday",
+       "b": "Çarşamba"
+      },
+      {
+       "a": "Sunday",
+       "b": "Pazar"
+      },
+      {
+       "a": "Thursday",
+       "b": "Perşembe"
+      },
+      {
+       "a": "Friday",
+       "b": "Cuma"
+      }
+     ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"Pazar\"?",
-     "answer": "Sunday",
-     "options": [
-      "Sunday",
-      "Wednesday",
-      "Friday",
-      "Tuesday"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "Çarşamba",
+     "answer": "Wednesday"
     }
    ]
   },
@@ -853,7 +862,18 @@
      "en": "seven",
      "tr": "7",
      "num": "7"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Numbers 1–20",
+   "titleTr": "Sayılar",
+   "items": [
     {
      "en": "eight",
      "tr": "8",
@@ -868,49 +888,7 @@
      "en": "ten",
      "tr": "10",
      "num": "10"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Numbers 1–20",
-   "tasks": [
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "8",
-     "answer": "eight"
     },
-    {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "ten",
-       "b": "10"
-      },
-      {
-       "a": "nine",
-       "b": "9"
-      },
-      {
-       "a": "one",
-       "b": "1"
-      },
-      {
-       "a": "eight",
-       "b": "8"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Numbers 1–20",
-   "titleTr": "Sayılar",
-   "items": [
     {
      "en": "eleven",
      "tr": "11",
@@ -930,7 +908,18 @@
      "en": "fourteen",
      "tr": "14",
      "num": "14"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Numbers 1–20",
+   "titleTr": "Sayılar",
+   "items": [
     {
      "en": "fifteen",
      "tr": "15",
@@ -961,6 +950,10 @@
      "tr": "20",
      "num": "20"
     }
+   ],
+   "part": [
+    3,
+    3
    ]
   },
   {
@@ -971,30 +964,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"seventeen\" means \"14\".",
+     "statement": "\"seven\" means \"19\".",
      "answer": false,
-     "explain": "seventeen = 17"
+     "explain": "seven = 7"
     },
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "eleven",
-       "b": "11"
-      },
-      {
-       "a": "twenty",
-       "b": "20"
-      },
-      {
-       "a": "twelve",
-       "b": "12"
-      },
-      {
-       "a": "nineteen",
-       "b": "19"
-      }
+     "kind": "choose",
+     "q": "Which word means \"1\"?",
+     "answer": "one",
+     "options": [
+      "one",
+      "five",
+      "seventeen",
+      "nineteen"
      ]
     }
    ]
@@ -1033,7 +1015,18 @@
      "en": "forty",
      "tr": "40",
      "num": "40"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Numbers 21–100",
+   "titleTr": "Onluklar ve birleşik sayılar",
+   "items": [
     {
      "en": "fifty",
      "tr": "50",
@@ -1064,6 +1057,10 @@
      "tr": "100",
      "num": "100"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -1072,32 +1069,32 @@
    "titleTr": "Use what you just learned · Numbers 21–100",
    "tasks": [
     {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "21",
+     "answer": "twenty-one"
+    },
+    {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "twenty-one",
-       "b": "21"
+       "a": "thirty",
+       "b": "30"
       },
       {
-       "a": "twenty-five",
-       "b": "25"
+       "a": "seventy",
+       "b": "70"
       },
       {
-       "a": "eighty",
-       "b": "80"
+       "a": "thirty-three",
+       "b": "33"
       },
       {
-       "a": "sixty",
-       "b": "60"
+       "a": "one hundred",
+       "b": "100"
       }
      ]
-    },
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "90",
-     "answer": "ninety"
     }
    ]
   },
@@ -1147,23 +1144,17 @@
    "titleTr": "Use what you just learned · Telling the Time",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "Does the sentence match the meaning?",
-     "statement": "10:30 → It is o'clock ten. — Buçuk geçiyor (30 dakika)",
-     "answer": false,
-     "explain": "Correct: 10:30 → It is half past ten."
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "08:33 → It is twenty-seven ___ nine.",
+     "answer": "to",
+     "tr": "30'dan büyük dakikalar: var"
     },
     {
-     "kind": "fill",
-     "text": "08:00 → It is eight ___.",
-     "answer": "o'clock",
-     "options": [
-      "o'clock",
-      "half past",
-      "quarter past",
-      "quarter to"
-     ],
-     "tr": "Dakikası olmayan tam saatler"
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "08:33 → It is twenty-seven to nine.",
+     "tr": "30'dan büyük dakikalar: var"
     }
    ]
   },
@@ -1201,11 +1192,14 @@
    "titleTr": "Use what you just learned · a.m. / p.m.",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "I go to bed at 10:00 ___",
-     "answer": "p.m.",
-     "tr": "Gece 10'da yatarım."
+     "kind": "fill",
+     "text": "A: What time is it?  B: It is 8:15 ___",
+     "answer": "a.m.",
+     "options": [
+      "a.m.",
+      "p.m."
+     ],
+     "tr": "Sabah 8:15"
     },
     {
      "kind": "order",
@@ -1267,6 +1261,13 @@
    "titleTr": "Use what you just learned · There is / There are",
    "tasks": [
     {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "There are fifteen students in the classroom. — Sınıfta bir akıllı tahta var.",
+     "answer": false,
+     "explain": "Correct: There are fifteen students in the classroom."
+    },
+    {
      "kind": "fill",
      "text": "___ a smart board in the classroom.",
      "answer": "There is",
@@ -1277,12 +1278,6 @@
       "There aren't"
      ],
      "tr": "Sınıfta bir akıllı tahta var."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "There isn't a Science class at ten o'clock.",
-     "tr": "Saat onda bir Fen Bilimleri dersi yok."
     }
    ]
   },
@@ -1307,7 +1302,7 @@
      "lines": [
       {
        "who": "Liam",
-       "text": "Are there double Art classes today?"
+       "text": "Are there two Art classes today?"
       },
       {
        "who": "Cedric",
@@ -1319,11 +1314,8 @@
      "lines": [
       {
        "who": "?",
-       "text": "Is there a bookcase in the classroom?"
-      },
-      {
-       "who": "!",
-       "text": "Sınıfta bir kitaplık var mı?"
+       "text": "Is there a bookcase in the classroom?",
+       "tr": "Sınıfta bir kitaplık var mı?"
       }
      ]
     },
@@ -1331,11 +1323,8 @@
      "lines": [
       {
        "who": "?",
-       "text": "Are there ten desks in the classroom?"
-      },
-      {
-       "who": "!",
-       "text": "Sınıfta on sıra var mı?"
+       "text": "Are there ten desks in the classroom?",
+       "tr": "Sınıfta on sıra var mı?"
       }
      ]
     }
@@ -1388,6 +1377,115 @@
      "a": "Don't throw rubbish on the ground."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "Elective Lesson",
+      "tr": "Seçmeli Ders",
+      "img": "p05-12.png",
+      "emoji": "📝"
+     },
+     {
+      "en": "Science",
+      "tr": "Fen Bilimleri",
+      "img": "p05-02.png",
+      "emoji": "🔬"
+     },
+     {
+      "en": "Social Studies",
+      "tr": "Sosyal Bilgiler",
+      "img": "p05-03.png",
+      "emoji": "🌍"
+     },
+     {
+      "en": "Information Technology (IT)",
+      "tr": "Bilişim Teknolojileri",
+      "img": "p05-11.png",
+      "emoji": "💻"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "Art",
+      "tr": "Görsel Sanatlar",
+      "img": "p05-06.png",
+      "emoji": "🎨",
+      "audio": "/app/audio/words/art.wav"
+     },
+     {
+      "en": "Maths",
+      "tr": "Matematik",
+      "img": "p05-01.png",
+      "emoji": "➗",
+      "audio": "/app/audio/words/maths.wav"
+     },
+     {
+      "en": "Turkish",
+      "tr": "Türkçe",
+      "img": "p05-05.png",
+      "emoji": "📖",
+      "audio": "/app/audio/words/turkish.wav"
+     },
+     {
+      "en": "Physical Education (P.E.)",
+      "tr": "Beden Eğitimi",
+      "img": "p05-09.png",
+      "emoji": "⚽",
+      "audio": "/app/audio/words/physical-education-p-e.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Don't run in the classroom.",
+      "tr": "Sınıfta koşma."
+     },
+     {
+      "answer": "The first class starts at 9:00 a.m.",
+      "tr": "İlk ders sabah 9'da başlar."
+     },
+     {
+      "answer": "School finishes at 3:15 p.m.",
+      "tr": "Okul öğleden sonra 3:15'te biter."
+     }
+    ]
+   }
   },
   {
    "type": "pages",

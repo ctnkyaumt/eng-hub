@@ -7,6 +7,8 @@
     as the "1234" glyph
   * one compact, varied activity break is inserted after every teaching
     section, built from that section's own words and examples
+  * three larger end-of-unit missions add picture dragging, listening and
+    sentence building without replacing the short activity breaks
 
 Run:  python tools/polish_slides.py [--unit 1] [--dry]
 """
@@ -61,13 +63,121 @@ ORDER.update({
 })
 
 STAR = re.compile(r"\*(.+?)\*")
-MAX_CARDS = 12   # vocabulary cards per slide before it is split in two
+MAX_CARDS = 8    # four wide cards x two rows keeps pictures classroom-sized
 MAX_TASKS = 2    # practice tasks per slide - more than this and they shrink
 BACK = chr(92)
+
+# The Grade-8 glossary extras arrive from third-party activity banks without
+# icons.  Every current card gets an intentional, topic-specific pictogram;
+# real, hand-checked photos already linked to a card always take precedence.
+VISUALS = {
+    # Unit 1 - Friendship / routines
+    "weekdays": "📅", "weekend": "🛋️", "write a diary": "📔",
+    "come over": "🚪",
+    "visit relatives": "👪", "wake up": "⏰", "walk the dog": "🐕",
+    "wash face": "🧼", "watch tv": "📺", "water the flowers": "🪴",
+    "ride a bike": "🚲", "run errands": "🛍️", "study": "📚",
+    "take a course": "🏫", "take a nap": "😴", "take care of a pet": "🐾",
+    "life": "🌱", "listen to music": "🎧", "meet friends": "🧑‍🤝‍🧑",
+    "noon": "🕛", "play chess": "♟️", "read a book": "📖",
+    "have breakfast": "🥞", "have dinner": "🍽️", "have lunch": "🥪",
+
+    # Unit 2 - Teen life
+    "hiking": "🥾", "horizon": "🌅", "how often": "🔁",
+    "fashionable": "👗", "fast": "🏃", "folk music": "🪕",
+    "follow": "👣", "form": "📝", "free time": "🕒", "gym": "🏋️",
+    "hate": "😠", "energetic": "⚡", "enjoy": "😊", "enjoyable": "😄",
+    "enlarge": "🔍", "exciting": "🤩", "exercise": "🏃",
+    "fantasy": "🧚", "fascinating": "✨",
+
+    # Unit 3 - In the kitchen
+    "stir": "🥄", "strain": "🥣", "wrap": "🌯", "scoop": "🍨",
+    "roll": "🌀", "season": "🧂", "shape": "🔷", "sprinkle": "✨",
+    "place": "📍", "preheat": "🔥", "prepare": "👩‍🍳", "put": "👇",
+    "remove": "📤", "rinse": "🚿", "roast": "🍗", "knead": "🥖",
+    "make it rest": "⏲️", "make the dough": "🥖",
+    "melt": "💧",
+
+    # Unit 4 - On the phone
+    "conversation": "💬", "customer service": "🎧", "delivery": "📦",
+    "device": "📱", "discovery": "🔎", "disturb": "🔕",
+    "easy way": "🛣️", "cell phone": "📱", "change": "🔄", "cheap": "🪙",
+    "clearly": "🗣️", "communicate": "🗨️", "company": "🏢",
+    "confirm": "✅", "badline": "📵", "bad line": "📵", "book": "📖",
+    "busy": "🚫", "call": "☎️", "call back": "↩️",
+
+    # Unit 5 - The Internet
+    "friend request": "👥", "habit": "🔁", "ignore": "🙈",
+    "important": "❗", "improve": "📈", "information": "ℹ️",
+    "instant": "⚡", "isolated": "🏝️", "create": "✨", "dangerous": "⚠️",
+    "develop": "🛠️", "file": "📄", "find": "🔍", "blog": "✍️",
+    "break": "💔", "broken": "🛠️", "check": "✅",
+
+    # Unit 6 - Adventures
+    "indoor": "🏠", "inexperienced": "🐣", "goggle": "🥽", "goggles": "🥽",
+    "height": "📏", "helmet": "⛑️", "hill": "⛰️",
+    "historical sites": "🏛️", "hot air balloon": "🎈", "ice skating": "⛸️",
+    "include": "➕", "incredible": "🤯", "individually": "👤",
+    "diving suit": "🤿", "equipment": "🎒", "experience": "🧗",
+    "experienced": "🏅", "explore": "🧭", "extreme sport": "🧗",
+    "feel": "🙂", "fighting": "🥊",
+
+    # Unit 7 - Tourism
+    "taste": "👅", "terrible / awful": "😖", "tradition": "🧿",
+    "truly": "💯", "unbelievable / incredible": "🤯", "visit": "📍",
+    "rich": "💰", "sightseeing": "🚌", "summer": "☀️",
+    "sunbath": "🏖️", "sunbathe": "🏖️", "sunny": "☀️",
+    "mysterious": "🔮", "natural": "🌿", "palace": "🏰",
+    "peaceful": "🕊️", "rainy": "🌧️", "relaxing": "😌",
+    "heritage": "🏛️", "holiday": "🧳", "hospitable": "🤗",
+
+    # Unit 8 - Chores
+    "be good at": "🏅", "be responsible for": "📋", "kitchen chores": "🧹",
+    "ignore responsibilities": "🙈", "share the chores": "🤝", "admire": "🌟",
+    "be late": "⏰", "feel annoyed": "😠", "feel worried": "😟",
+    "feel happy": "😊", "feel relaxed": "😌", "feel exhausted": "😫",
+    "feel bored": "😑", "in fact,": "ℹ️", "for example,": "💡",
+    "some chores": "🧺", "be happy": "😄", "can’t stand": "😖",
+    "can't stand": "😖", "feel so hungry": "🍽️", "before the meal": "⏳",
+    "waiting to eat": "⌛", "pay the bills": "🧾", "do the shopping": "🛒",
+
+    # Unit 9 - Science
+    "healthcare": "🏥", "improvement": "📊", "infection": "🦠",
+    "ink": "🖋️", "electric bulb": "💡", "entertainment": "🎭",
+    "explosion": "💥", "facts": "📚", "gain": "📈", "goldsmith": "💍",
+    "gravity of the matter": "⚠️", "deserve": "⚖️", "diagnose": "🩺",
+    "die": "🪦", "discoverer": "🔍",
+
+    # Unit 10 - Natural forces
+    "storm": "⛈️", "eruption": "🌋", "wildfire": "🔥", "lightning": "⚡",
+    "thunder": "🌩️", "damage": "🏚️", "rescue team": "🚑",
+    "emergency": "🚨", "shelter": "⛺", "warning": "⚠️",
+    "aftershock": "📳", "debris": "🧱", "first aid": "🩹", "evacuate": "🚪",
+}
 
 
 def is_number(item):
     return bool(re.fullmatch(r"\d{1,3}", (item.get("tr") or "").strip()))
+
+
+def ensure_visuals(slides):
+    """Give every vocabulary card a real photo, pictogram or number tile."""
+    generic = []
+    for slide in slides:
+        if slide.get("type") != "vocab":
+            continue
+        for item in slide.get("items", []):
+            if item.get("img") or (item.get("emoji") and item.get("emoji") != "🧩") or is_number(item):
+                continue
+            word = (item.get("en") or "").strip().lower()
+            icon = VISUALS.get(word)
+            if not icon:
+                # This visible fallback makes a newly imported word impossible
+                # to miss during QA; verify_lessons.py rejects it.
+                icon = "🧩"
+                generic.append(item.get("en") or "(blank)")
+            item["emoji"] = icon
+    return generic
 
 
 def starred_examples(slide):
@@ -189,12 +299,16 @@ def make_exercise(slide, rng, variant=0):
                 "clue": plain.replace(word, "___", 1), "answer": word,
                 "tr": e.get("tr", ""),
             })
-            alternatives = [w for w in words if w != word]
+            alternatives = [other for other, _ in found if other is not e and other.get("tr")]
             truth = not alternatives or variant % 2 == 0
-            shown = plain if truth else plain.replace(word, alternatives[0], 1)
+            # Keep the English sentence intact. Replacing an auxiliary with an
+            # unrelated highlighted word used to create broken text such as
+            # "go Mert go ...". A false item now pairs a valid sentence with a
+            # different meaning instead.
+            shown_tr = e.get("tr", "") if truth else alternatives[0].get("tr", "")
             candidates.append({
                 "kind": "truefalse", "q": "Does the sentence match the meaning?",
-                "statement": shown + (" — " + e.get("tr", "") if e.get("tr") else ""),
+                "statement": plain + (" — " + shown_tr if shown_tr else ""),
                 "answer": truth, "explain": "Correct: " + plain,
             })
 
@@ -233,6 +347,96 @@ def make_exercise(slide, rng, variant=0):
         "titleTr": "Use what you just learned · " + slide.get("title", ""),
         "tasks": tasks,
     }]
+
+
+def visual_item(item):
+    """Small, stable payload shared by all three end-of-unit missions."""
+    return {k: item[k] for k in ("en", "tr", "img", "emoji", "num") if k in item}
+
+
+def audio_name(word):
+    return re.sub(r"[^a-z0-9]+", "-", word.lower()).strip("-") + ".wav"
+
+
+def mission_sentences(slides):
+    """Grammatically complete unit examples suitable for draggable ordering."""
+    found = []
+    for slide in slides:
+        pools = list(slide.get("examples") or [])
+        for col in slide.get("columns") or []:
+            pools += col.get("examples") or []
+        for example in pools:
+            sentence = STAR.sub(r"\1", example.get("en", "")).strip()
+            words = sentence.split()
+            if not 4 <= len(words) <= 11 or "→" in sentence:
+                continue
+            key = sentence.lower()
+            if any(old["answer"].lower() == key for old in found):
+                continue
+            found.append({"answer": sentence, "tr": example.get("tr", "")})
+    return found
+
+
+def make_missions(slides, rng):
+    """Three substantial unit-final activities: see, hear, then construct."""
+    words, seen = [], set()
+    for slide in slides:
+        if slide.get("type") != "vocab":
+            continue
+        for item in slide.get("items", []):
+            key = (item.get("en") or "").strip().lower()
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            words.append(visual_item(item))
+
+    if len(words) < 4:
+        return []
+    photos = [w for w in words if w.get("img")]
+    pictograms = [w for w in words if not w.get("img")]
+    rng.shuffle(photos)
+    rng.shuffle(pictograms)
+    mixed = photos + pictograms
+    first = mixed[:4]
+    remaining = [w for w in mixed if w not in first]
+    second = (remaining + first)[:4]
+    for item in second:
+        item["audio"] = "/app/audio/words/" + audio_name(item["en"])
+
+    sentences = mission_sentences(slides)
+    rng.shuffle(sentences)
+    sentences = sentences[:3]
+    if not sentences:
+        # Every current unit has sentence examples, but retain a useful mission
+        # if a future vocabulary-only unit is imported.
+        sentences = [{
+            "answer": "I can use %s in a sentence." % words[0]["en"],
+            "tr": "%s kelimesini bir cümlede kullanabilirim." % words[0]["en"],
+        }]
+
+    return [
+        {
+            "type": "mission", "part": [1, 3],
+            "title": "Unit Mission · Picture Dock",
+            "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+            "task": {"kind": "dragmatch", "q": "Drag each picture to its word.",
+                     "items": first},
+        },
+        {
+            "type": "mission", "part": [2, 3],
+            "title": "Unit Mission · Listen & Find",
+            "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+            "task": {"kind": "listenpicture", "q": "Listen, then choose the picture.",
+                     "items": second},
+        },
+        {
+            "type": "mission", "part": [3, 3],
+            "title": "Unit Mission · Sentence Workshop",
+            "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+            "task": {"kind": "dragorder", "q": "Drag the words into the correct order.",
+                     "sentences": sentences},
+        },
+    ]
 
 
 def merge_parts(body):
@@ -280,7 +484,7 @@ def polish(path, dry):
     tail = [s for s in slides if s["type"] in ("pages", "end")]
     body = [s for s in slides if s["type"] not in ("title", "pages", "end")]
 
-    body = [s for s in body if s["type"] != "exercise"]  # regenerate them
+    body = [s for s in body if s["type"] not in ("exercise", "mission")]  # regenerate them
     order = ORDER_BY_GRADE.get(grade, {}).get(unit)
     dropped = []
     if order:
@@ -293,6 +497,7 @@ def polish(path, dry):
         body = keep
 
     body = merge_parts(body)
+    generic_visuals = ensure_visuals(body)
     pics = pic_index(body)
     thin = []
     out = []
@@ -323,6 +528,7 @@ def polish(path, dry):
             if activities:
                 activity_no += 1
 
+    out.extend(make_missions(body, rng))
     data["slides"] = head + out + tail
     if not dry:
         with open(path, "w", encoding="utf-8") as f:
@@ -332,6 +538,8 @@ def polish(path, dry):
           % (unit, len(slides), len(data["slides"]), ", ".join(dropped) or "-"))
     if thin:
         print("     az ornekli (<3): %s" % ", ".join(thin))
+    if generic_visuals:
+        print("     genel gorsel (duzeltilmeli): %s" % ", ".join(generic_visuals))
 
 
 def main():

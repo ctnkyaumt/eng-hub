@@ -2,12 +2,12 @@
    * content appears step by step (Next reveals the next item, then the slide)
    * every slide is scaled to fit the window, and scrolls when it cannot
    * slide types: title | vocab | grammar | compare | dialogue | scene
-                  | practice | exercise | pages | end
+                  | practice | exercise | mission | pages | end
    * edit mode lets the teacher drop pictures, text and shapes onto a slide
 --------------------------------------------------------------------------- */
 import { getSites, getSlides, getUnit, unitPath } from "./store.js";
 import { el, mount, setCrumbs, beep, toast } from "./ui.js";
-import { taskNode } from "./exercises.js";
+import { speakEnglish, taskNode } from "./exercises.js";
 
 if (!document.querySelector('link[href="/app/css/deck.css"]')) {
   document.head.append(el("link", { rel: "stylesheet", href: "/app/css/deck.css" }));
@@ -165,7 +165,7 @@ export async function startDeck(gid, uid, screen) {
     const availW = stage.clientWidth - padW - 2;
     const h = node.offsetHeight, w = node.offsetWidth;
     if (!h || !w) return;
-    const minFit = node.classList.contains("exercise-slide") ? 0.82 : 0.76;
+    const minFit = node.matches(".exercise-slide, .mission-slide") ? 0.82 : 0.76;
     const maxFit = node.classList.contains("title-slide") ? 1 : 1.08;
     const k = Math.max(minFit, Math.min(maxFit, availH / h, availW / w));
     node.style.transform = `scale(${k})`;
@@ -374,9 +374,20 @@ function render(s, ctx) {
     case "vocab":
       return box("", [
         ...head(s),
-        el("div", { class: "vocab-grid" }, (s.items || []).map((v) =>
+        el("div", {
+          class: "vocab-grid",
+          style: `--vocab-cols:${Math.min(4, Math.max(1, (s.items || []).length))}`,
+        }, (s.items || []).map((v) =>
           el("div", { class: "vcard step" }, [
-            vcardMedia(v, ctx),
+            el("div", { class: "vcard-media" }, [vcardMedia(v, ctx)]),
+            el("button", {
+              class: "speak-word", type: "button", title: `Listen to “${v.en}”`,
+              "aria-label": `Listen to ${v.en}`, text: "🔊",
+              onclick: (e) => {
+                e.stopPropagation();
+                if (!speakEnglish(v.en)) toast("Bu cihazda çevrimdışı İngilizce ses bulunamadı.", true);
+              },
+            }),
             el("div", { class: "en", text: v.en }),
             el("div", { class: "tr", text: v.tr }),
           ])
@@ -411,6 +422,7 @@ function render(s, ctx) {
           el("div", { class: "bubble step" }, (d.lines || []).map((l, k) =>
             el("div", { class: "speech " + (k % 2 ? "right" : ""), style: "margin-bottom:14px" }, [
               l.text,
+              l.tr ? el("span", { class: "speech-tr", text: l.tr }) : null,
               el("small", { text: l.who }),
             ])
           ))
@@ -456,6 +468,15 @@ function render(s, ctx) {
           return n;
         })),
       ]);
+
+    case "mission": {
+      const n = taskNode(s.task || {}, ctx);
+      n.classList.add("step");
+      return box("mission-slide", [
+        ...head(s),
+        el("div", { class: "mission-shell" }, [n]),
+      ]);
+    }
 
     case "pages":
       return box("", [

@@ -23,14 +23,12 @@
     {
      "en": "dial",
      "tr": "numara çevirmek",
-     "emoji": "☎️",
-     "img": "/app/img/words/dial.jpg"
+     "emoji": "☎️"
     },
     {
      "en": "pick up",
      "tr": "telefonu açmak",
-     "emoji": "📞",
-     "img": "/app/img/words/pick-up.jpg"
+     "emoji": "📞"
     },
     {
      "en": "hang on",
@@ -40,8 +38,7 @@
     {
      "en": "hang up",
      "tr": "telefonu kapatmak",
-     "emoji": "📴",
-     "img": "/app/img/words/hang-up.jpg"
+     "emoji": "📴"
     },
     {
      "en": "hold",
@@ -96,14 +93,14 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/pick-up.jpg",
-     "answer": "pick up",
-     "tr": "telefonu açmak",
+     "img": "/app/img/words/line.jpg",
+     "answer": "line",
+     "tr": "hat",
      "options": [
-      "pick up",
+      "line",
       "extension",
       "dial",
-      "hang up"
+      "hang on"
      ]
     }
    ]
@@ -137,7 +134,18 @@
      "en": "keep in touch",
      "tr": "iletişimde kalmak",
      "emoji": "💬"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Keeping in Touch",
+   "titleTr": "İletişimde kalmak",
+   "items": [
     {
      "en": "get back",
      "tr": "geri dönmek",
@@ -159,6 +167,10 @@
      "tr": "kibar",
      "emoji": "🙇"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -193,52 +205,79 @@
    "items": [
     {
      "en": "conversation",
-     "tr": "görüşme"
+     "tr": "görüşme",
+     "emoji": "💬"
     },
     {
      "en": "customer service",
-     "tr": "müşteri hizmetleri"
+     "tr": "müşteri hizmetleri",
+     "emoji": "🎧"
     },
     {
      "en": "delivery",
-     "tr": "gönderi"
+     "tr": "gönderi",
+     "emoji": "📦"
     },
     {
      "en": "device",
-     "tr": "alet, aygıt, cihaz"
+     "tr": "alet, aygıt, cihaz",
+     "emoji": "📱"
     },
     {
      "en": "discovery",
-     "tr": "keşif"
+     "tr": "keşif",
+     "emoji": "🔎"
     },
     {
      "en": "disturb",
-     "tr": "rahatsız etmek"
-    },
+     "tr": "rahatsız etmek",
+     "emoji": "🔕"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Telefonda — ek kelimeler",
+   "items": [
     {
      "en": "easy way",
-     "tr": "kolay yol"
+     "tr": "kolay yol",
+     "emoji": "🛣️"
     },
     {
      "en": "cell phone",
-     "tr": "cep telefonu"
+     "tr": "cep telefonu",
+     "emoji": "📱"
     },
     {
      "en": "change",
-     "tr": "değiştirmek"
+     "tr": "değiştirmek",
+     "emoji": "🔄"
     },
     {
      "en": "cheap",
-     "tr": "ucuz"
+     "tr": "ucuz",
+     "emoji": "🪙"
     },
     {
      "en": "clearly",
-     "tr": "net şekilde"
+     "tr": "net şekilde",
+     "emoji": "🗣️"
     },
     {
      "en": "communicate",
-     "tr": "iletişim kurmak"
+     "tr": "iletişim kurmak",
+     "emoji": "🗨️"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -283,31 +322,38 @@
    "items": [
     {
      "en": "company",
-     "tr": "şirket"
+     "tr": "şirket",
+     "emoji": "🏢"
     },
     {
      "en": "confirm",
-     "tr": "doğrulamak, onaylamak"
+     "tr": "doğrulamak, onaylamak",
+     "emoji": "✅"
     },
     {
-     "en": "badline",
-     "tr": "kötü hat"
+     "en": "bad line",
+     "tr": "kötü hat",
+     "emoji": "📵"
     },
     {
      "en": "book",
-     "tr": "rezervasyon yapmak"
+     "tr": "rezervasyon yapmak",
+     "emoji": "📖"
     },
     {
      "en": "busy",
-     "tr": "meşgul"
+     "tr": "meşgul",
+     "emoji": "🚫"
     },
     {
      "en": "call",
-     "tr": "telefon ile aramak"
+     "tr": "telefon ile aramak",
+     "emoji": "☎️"
     },
     {
      "en": "call back",
-     "tr": "geri aramak"
+     "tr": "geri aramak",
+     "emoji": "↩️"
     }
    ]
   },
@@ -332,7 +378,7 @@
        "b": "rezervasyon yapmak"
       },
       {
-       "a": "badline",
+       "a": "bad line",
        "b": "kötü hat"
       },
       {
@@ -537,6 +583,109 @@
      "a": "engaged"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "line",
+      "tr": "hat",
+      "img": "/app/img/words/line.jpg",
+      "emoji": "📞"
+     },
+     {
+      "en": "memo",
+      "tr": "not",
+      "img": "/app/img/words/memo.jpg",
+      "emoji": "📝"
+     },
+     {
+      "en": "device",
+      "tr": "alet, aygıt, cihaz",
+      "emoji": "📱"
+     },
+     {
+      "en": "customer service",
+      "tr": "müşteri hizmetleri",
+      "emoji": "🎧"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "company",
+      "tr": "şirket",
+      "emoji": "🏢",
+      "audio": "/app/audio/words/company.wav"
+     },
+     {
+      "en": "delivery",
+      "tr": "gönderi",
+      "emoji": "📦",
+      "audio": "/app/audio/words/delivery.wav"
+     },
+     {
+      "en": "get in touch",
+      "tr": "iletişime geçmek",
+      "emoji": "📱",
+      "audio": "/app/audio/words/get-in-touch.wav"
+     },
+     {
+      "en": "hang on",
+      "tr": "hatta beklemek",
+      "emoji": "⏳",
+      "audio": "/app/audio/words/hang-on.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Hold on, please. I'll put you through.",
+      "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+     },
+     {
+      "answer": "Are you listening to me?",
+      "tr": "Beni dinliyor musun?"
+     },
+     {
+      "answer": "They aren't answering the phone.",
+      "tr": "Telefona cevap vermiyorlar."
+     }
+    ]
+   }
   },
   {
    "type": "end",

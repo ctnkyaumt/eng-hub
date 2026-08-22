@@ -194,8 +194,7 @@
     {
      "en": "to-do list",
      "tr": "yapılacaklar listesi",
-     "emoji": "📝",
-     "img": "/app/img/words/to-do-list.jpg"
+     "emoji": "📝"
     }
    ]
   },
@@ -231,52 +230,79 @@
    "items": [
     {
      "en": "be good at",
-     "tr": "bir şeyde iyi olmak"
+     "tr": "bir şeyde iyi olmak",
+     "emoji": "🏅"
     },
     {
      "en": "be responsible for",
-     "tr": "-den/-dan sorumlu olmak"
+     "tr": "-den/-dan sorumlu olmak",
+     "emoji": "📋"
     },
     {
      "en": "kitchen chores",
-     "tr": "mutfak işleri"
+     "tr": "mutfak işleri",
+     "emoji": "🧹"
     },
     {
      "en": "ignore responsibilities",
-     "tr": "sorumlulukları ihmal etmek"
+     "tr": "sorumlulukları ihmal etmek",
+     "emoji": "🙈"
     },
     {
      "en": "share the chores",
-     "tr": "ev işlerini paylaşmak"
+     "tr": "ev işlerini paylaşmak",
+     "emoji": "🤝"
     },
     {
      "en": "admire",
-     "tr": "hayran olmak"
-    },
+     "tr": "hayran olmak",
+     "emoji": "🌟"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Ev İşleri — ek kelimeler",
+   "items": [
     {
      "en": "be late",
-     "tr": "geç kalmak"
+     "tr": "geç kalmak",
+     "emoji": "⏰"
     },
     {
      "en": "feel annoyed",
-     "tr": "sinirlenmek (kızgın"
+     "tr": "sinirlenmek (kızgın",
+     "emoji": "😠"
     },
     {
      "en": "feel worried",
-     "tr": "endişelenmek (endişeli hissetmek)"
+     "tr": "endişelenmek (endişeli hissetmek)",
+     "emoji": "😟"
     },
     {
      "en": "feel happy",
-     "tr": "sevinmek"
+     "tr": "sevinmek",
+     "emoji": "😊"
     },
     {
      "en": "feel relaxed",
-     "tr": "rahat hissetmek"
+     "tr": "rahat hissetmek",
+     "emoji": "😌"
     },
     {
      "en": "feel exhausted",
-     "tr": "yorgun"
+     "tr": "yorgun",
+     "emoji": "😫"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -321,52 +347,79 @@
    "items": [
     {
      "en": "feel bored",
-     "tr": "içi sıkılmak"
+     "tr": "içi sıkılmak",
+     "emoji": "😑"
     },
     {
      "en": "In fact,",
-     "tr": "Aslında"
+     "tr": "Aslında",
+     "emoji": "ℹ️"
     },
     {
      "en": "For example,",
-     "tr": "Örneğin"
+     "tr": "Örneğin",
+     "emoji": "💡"
     },
     {
      "en": "some chores",
-     "tr": "bazı ev işleri"
+     "tr": "bazı ev işleri",
+     "emoji": "🧺"
     },
     {
      "en": "be happy",
-     "tr": "mutlu olmak"
+     "tr": "mutlu olmak",
+     "emoji": "😄"
     },
     {
      "en": "How often",
-     "tr": "Ne kadar sıklıkla"
-    },
+     "tr": "Ne kadar sıklıkla",
+     "emoji": "🔁"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Ev İşleri — ek kelimeler",
+   "items": [
     {
-     "en": "can’t stand",
-     "tr": "tahammül edememek"
+     "en": "can't stand",
+     "tr": "tahammül edememek",
+     "emoji": "😖"
     },
     {
      "en": "feel so hungry",
-     "tr": "çok acıkmak"
+     "tr": "çok acıkmak",
+     "emoji": "🍽️"
     },
     {
      "en": "before the meal",
-     "tr": "yemekten önce"
+     "tr": "yemekten önce",
+     "emoji": "⏳"
     },
     {
      "en": "waiting to eat",
-     "tr": "yemek yemeyi beklemek"
+     "tr": "yemek yemeyi beklemek",
+     "emoji": "⌛"
     },
     {
      "en": "pay the bills",
-     "tr": "faturaları ödemek"
+     "tr": "faturaları ödemek",
+     "emoji": "🧾"
     },
     {
      "en": "do the shopping",
-     "tr": "alışveriş yapmak"
+     "tr": "alışveriş yapmak",
+     "emoji": "🛒"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -609,6 +662,115 @@
      "a": "empty the dishwasher"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "dry the dishes",
+      "tr": "bulaşık kurulamak",
+      "img": "/app/img/words/dry-the-dishes.jpg",
+      "emoji": "🌀"
+     },
+     {
+      "en": "load the dishwasher",
+      "tr": "bulaşık makinesini doldurmak",
+      "img": "/app/img/words/load-the-dishwasher.jpg",
+      "emoji": "🍽️"
+     },
+     {
+      "en": "clean up",
+      "tr": "temizlemek",
+      "img": "/app/img/words/clean-up.jpg",
+      "emoji": "🧹"
+     },
+     {
+      "en": "return books",
+      "tr": "kitapları iade etmek",
+      "img": "/app/img/words/return-books.jpg",
+      "emoji": "📚"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "set the table",
+      "tr": "sofrayı kurmak",
+      "img": "/app/img/words/set-the-table.jpg",
+      "emoji": "🍴",
+      "audio": "/app/audio/words/set-the-table.wav"
+     },
+     {
+      "en": "iron",
+      "tr": "ütü yapmak",
+      "img": "/app/img/words/iron.jpg",
+      "emoji": "👔",
+      "audio": "/app/audio/words/iron.wav"
+     },
+     {
+      "en": "empty the dishwasher",
+      "tr": "bulaşık makinesini boşaltmak",
+      "img": "/app/img/words/empty-the-dishwasher.jpg",
+      "emoji": "📤",
+      "audio": "/app/audio/words/empty-the-dishwasher.wav"
+     },
+     {
+      "en": "tidy up",
+      "tr": "toparlamak",
+      "img": "/app/img/words/tidy-up.jpg",
+      "emoji": "🧽",
+      "audio": "/app/audio/words/tidy-up.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Do you have to help your mother?",
+      "tr": "Annene yardım etmek zorunda mısın?"
+     },
+     {
+      "answer": "Not now, I have to finish my homework.",
+      "tr": "Şimdi olmaz, ödevimi bitirmem gerek."
+     },
+     {
+      "answer": "I have to tidy my room every weekend.",
+      "tr": "Her hafta sonu odamı toplamak zorundayım."
+     }
+    ]
+   }
   },
   {
    "type": "end",

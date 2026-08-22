@@ -127,7 +127,18 @@
      "en": "elephant",
      "tr": "fil",
      "emoji": "🐘"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Animals",
+   "titleTr": "Hayvanlar",
+   "items": [
     {
      "en": "zebra",
      "tr": "zebra",
@@ -142,39 +153,7 @@
      "en": "parrot",
      "tr": "papağan",
      "emoji": "🦜"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Animals",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"giraffe\" means \"fil\".",
-     "answer": false,
-     "explain": "giraffe = zürafa"
     },
-    {
-     "kind": "choose",
-     "q": "Which word means \"fil\"?",
-     "answer": "elephant",
-     "options": [
-      "elephant",
-      "zebra",
-      "penguin",
-      "lion"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Animals",
-   "titleTr": "Hayvanlar",
-   "items": [
     {
      "en": "snake",
      "tr": "yılan",
@@ -194,7 +173,18 @@
      "en": "leopard",
      "tr": "leopar",
      "emoji": "🐆"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Animals",
+   "titleTr": "Hayvanlar",
+   "items": [
     {
      "en": "whale",
      "tr": "balina",
@@ -225,6 +215,10 @@
      "tr": "çita",
      "emoji": "🐆"
     }
+   ],
+   "part": [
+    3,
+    3
    ]
   },
   {
@@ -233,31 +227,21 @@
    "titleTr": "Use what you just learned · Animals",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "balina",
-     "answer": "whale"
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"penguin\" means \"timsah\".",
+     "answer": false,
+     "explain": "penguin = penguen"
     },
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "seagull",
-       "b": "martı"
-      },
-      {
-       "a": "gorilla",
-       "b": "goril"
-      },
-      {
-       "a": "snake",
-       "b": "yılan"
-      },
-      {
-       "a": "shark",
-       "b": "köpek balığı"
-      }
+     "kind": "choose",
+     "q": "Which word means \"leopar\"?",
+     "answer": "leopard",
+     "options": [
+      "leopard",
+      "gorilla",
+      "shark",
+      "elephant"
      ]
     }
    ]
@@ -296,7 +280,18 @@
      "tr": "yüzgeç",
      "emoji": "🐬",
      "img": "p02-05.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Body Parts of Animals",
+   "titleTr": "Hayvanların vücut bölümleri",
+   "items": [
     {
      "en": "stripe",
      "tr": "çizgi",
@@ -327,6 +322,10 @@
      "emoji": "🐅",
      "img": "p02-10.png"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -335,24 +334,32 @@
    "titleTr": "Use what you just learned · Body Parts of Animals",
    "tasks": [
     {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "p02-10.png",
-     "answer": "claw",
-     "tr": "pençe",
-     "options": [
-      "claw",
-      "fur",
-      "wing",
-      "neck"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kürk",
+     "answer": "fur"
     },
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"tail\" means \"çizgi\".",
-     "answer": false,
-     "explain": "tail = kuyruk"
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "fur",
+       "b": "kürk"
+      },
+      {
+       "a": "paw",
+       "b": "pati"
+      },
+      {
+       "a": "tail",
+       "b": "kuyruk"
+      },
+      {
+       "a": "stripe",
+       "b": "çizgi"
+      }
+     ]
     }
    ]
   },
@@ -390,7 +397,18 @@
      "tr": "sahil",
      "emoji": "🏖️",
      "img": "p02-15.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Habitats",
+   "titleTr": "Hayvanların yaşam alanları",
+   "items": [
     {
      "en": "savanna",
      "tr": "otlak alan",
@@ -421,6 +439,10 @@
      "emoji": "⛰️",
      "img": "p02-20.png"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -429,39 +451,24 @@
    "titleTr": "Use what you just learned · Habitats",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "field",
-       "b": "tarla"
-      },
-      {
-       "a": "sky",
-       "b": "gökyüzü"
-      },
-      {
-       "a": "national park",
-       "b": "milli park"
-      },
-      {
-       "a": "forest / jungle",
-       "b": "orman"
-      }
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-16.png",
+     "answer": "savanna",
+     "tr": "otlak alan",
+     "options": [
+      "savanna",
+      "farm",
+      "coast",
+      "sky"
      ]
     },
     {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "p02-17.png",
-     "answer": "ocean",
-     "tr": "okyanus",
-     "options": [
-      "ocean",
-      "national park",
-      "farm",
-      "mountain"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"national park\" means \"dağ\".",
+     "answer": false,
+     "explain": "national park = milli park"
     }
    ]
   },
@@ -499,7 +506,18 @@
      "en": "scary",
      "tr": "korkutucu",
      "emoji": "😱"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "quick",
      "tr": "çabuk",
@@ -514,39 +532,7 @@
      "en": "weak",
      "tr": "güçsüz",
      "emoji": "🥀"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Adjectives",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"scary\" means \"güçlü\".",
-     "answer": false,
-     "explain": "scary = korkutucu"
     },
-    {
-     "kind": "choose",
-     "q": "Which word means \"korkutucu\"?",
-     "answer": "scary",
-     "options": [
-      "scary",
-      "wild",
-      "weak",
-      "big / large"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Adjectives",
-   "titleTr": "Sıfatlar",
-   "items": [
     {
      "en": "dangerous",
      "tr": "tehlikeli",
@@ -561,7 +547,18 @@
      "en": "slow",
      "tr": "yavaş",
      "emoji": "🐢"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "furry",
      "tr": "tüylü",
@@ -592,6 +589,10 @@
      "tr": "renkli",
      "emoji": "🌈"
     }
+   ],
+   "part": [
+    3,
+    3
    ]
   },
   {
@@ -600,32 +601,32 @@
    "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "renkli",
-     "answer": "colourful"
-    },
-    {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "heavy",
-       "b": "ağır"
+       "a": "short",
+       "b": "kısa"
       },
       {
        "a": "dangerous",
        "b": "tehlikeli"
       },
       {
-       "a": "tall",
-       "b": "uzun"
+       "a": "furry",
+       "b": "tüylü"
       },
       {
-       "a": "slow",
-       "b": "yavaş"
+       "a": "heavy",
+       "b": "ağır"
       }
      ]
+    },
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kısa",
+     "answer": "short"
     }
    ]
   },
@@ -663,7 +664,18 @@
      "en": "talk",
      "tr": "konuşmak",
      "emoji": "💬"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Fiiller",
+   "items": [
     {
      "en": "fly",
      "tr": "uçmak",
@@ -694,6 +706,10 @@
      "tr": "yüzmek",
      "emoji": "🏊"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -704,30 +720,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"survive\" means \"koşmak\".",
+     "statement": "\"climb\" means \"avlamak\".",
      "answer": false,
-     "explain": "survive = hayatta kalmak"
+     "explain": "climb = tırmanmak"
     },
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "hunt",
-       "b": "avlamak"
-      },
-      {
-       "a": "run",
-       "b": "koşmak"
-      },
-      {
-       "a": "swing",
-       "b": "sallanmak"
-      },
-      {
-       "a": "attack",
-       "b": "saldırmak"
-      }
+     "kind": "choose",
+     "q": "Which word means \"saldırmak\"?",
+     "answer": "attack",
+     "options": [
+      "attack",
+      "fly",
+      "climb",
+      "swim"
      ]
     }
    ]
@@ -782,11 +787,15 @@
    "titleTr": "Use what you just learned · Expressing Ability — can / can't",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "___ a cheetah run fast? — Yes, it can.",
-     "answer": "Can",
-     "tr": "Bir çita hızlı koşabilir mi? — Evet."
+     "kind": "fill",
+     "text": "Sharks ___ swim.",
+     "answer": "can",
+     "options": [
+      "can",
+      "Can",
+      "can't"
+     ],
+     "tr": "Köpek balıkları yüzebilir."
     },
     {
      "kind": "order",
@@ -810,7 +819,7 @@
        "tr": "Vahşi hayvanlar yemek için avlanmalılar."
       },
       {
-       "en": "Birds *must* go to warm habitats in winter.",
+       "en": "Birds *must* move to warmer habitats in winter.",
        "tr": "Kuşlar kışın ılık yaşam alanlarına gitmeliler."
       }
      ]
@@ -837,6 +846,13 @@
    "titleTr": "Use what you just learned · must / mustn't",
    "tasks": [
     {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "We mustn't run in the zoo. — Vahşi hayvanlar yemek için avlanmalılar.",
+     "answer": false,
+     "explain": "Correct: We mustn't run in the zoo."
+    },
+    {
      "kind": "fill",
      "text": "Wild animals ___ hunt to eat.",
      "answer": "must",
@@ -845,12 +861,6 @@
       "mustn't"
      ],
      "tr": "Vahşi hayvanlar yemek için avlanmalılar."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "We mustn't run in the zoo.",
-     "tr": "Hayvanat bahçesinde koşmamalıyız."
     }
    ]
   },
@@ -900,23 +910,17 @@
    "titleTr": "Use what you just learned · Comparative Adjectives",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "Does the sentence match the meaning?",
-     "statement": "good → better · bad → worse · much/many → more · little → less · far → farther — düzensiz",
-     "answer": true,
-     "explain": "Correct: good → better · bad → worse · much/many → more · little → less · far → farther"
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "fast → fast___  ·  large → larger  ·  big → bigger",
+     "answer": "er",
+     "tr": "tek heceli"
     },
     {
-     "kind": "fill",
-     "text": "fast → fast___  ·  large → larger  ·  big → bigger",
-     "answer": "er",
-     "options": [
-      "er",
-      "ier",
-      "better",
-      "stronger than"
-     ],
-     "tr": "tek heceli"
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Crocodiles are scarier than snakes.",
+     "tr": "Timsahlar, yılanlardan daha korkutucudur."
     }
    ]
   },
@@ -966,11 +970,16 @@
    "titleTr": "Use what you just learned · Superlative Adjectives",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "Lions are ___ animals in the forests.",
-     "answer": "the strongest",
-     "tr": "Aslanlar ormanlardaki en güçlü hayvanlardır."
+     "kind": "fill",
+     "text": "fast → the fast___  ·  large → the largest  ·  big → the biggest",
+     "answer": "est",
+     "options": [
+      "est",
+      "iest",
+      "best",
+      "the strongest"
+     ],
+     "tr": "tek heceli"
     },
     {
      "kind": "order",
@@ -1014,6 +1023,115 @@
      "a": "the tallest"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "wing",
+      "tr": "kanat",
+      "img": "p02-04.png",
+      "emoji": "🪶"
+     },
+     {
+      "en": "claw",
+      "tr": "pençe",
+      "img": "p02-10.png",
+      "emoji": "🐅"
+     },
+     {
+      "en": "neck",
+      "tr": "boyun",
+      "img": "p02-08.png",
+      "emoji": "🦒"
+     },
+     {
+      "en": "stripe",
+      "tr": "çizgi",
+      "img": "p02-06.png",
+      "emoji": "🦓"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "tusk",
+      "tr": "fil dişi",
+      "img": "p02-02.png",
+      "emoji": "🐘",
+      "audio": "/app/audio/words/tusk.wav"
+     },
+     {
+      "en": "river",
+      "tr": "nehir",
+      "img": "p02-14.png",
+      "emoji": "🏞️",
+      "audio": "/app/audio/words/river.wav"
+     },
+     {
+      "en": "savanna",
+      "tr": "otlak alan",
+      "img": "p02-16.png",
+      "emoji": "🦁",
+      "audio": "/app/audio/words/savanna.wav"
+     },
+     {
+      "en": "paw",
+      "tr": "pati",
+      "img": "p02-03.png",
+      "emoji": "🐾",
+      "audio": "/app/audio/words/paw.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "We mustn't run in the zoo.",
+      "tr": "Hayvanat bahçesinde koşmamalıyız."
+     },
+     {
+      "answer": "Crocodiles are scarier than snakes.",
+      "tr": "Timsahlar, yılanlardan daha korkutucudur."
+     },
+     {
+      "answer": "Elephants can't climb trees.",
+      "tr": "Filler ağaçlara tırmanamaz."
+     }
+    ]
+   }
   },
   {
    "type": "pages",

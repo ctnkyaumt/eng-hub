@@ -23,8 +23,7 @@
     {
      "en": "account",
      "tr": "hesap",
-     "emoji": "👤",
-     "img": "/app/img/words/account.jpg"
+     "emoji": "👤"
     },
     {
      "en": "browser",
@@ -63,8 +62,7 @@
     {
      "en": "attachment",
      "tr": "ek dosya",
-     "emoji": "📎",
-     "img": "/app/img/words/attachment.jpg"
+     "emoji": "📎"
     }
    ]
   },
@@ -98,11 +96,11 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/connection.jpg",
-     "answer": "connection",
-     "tr": "bağlantı",
+     "img": "/app/img/words/screen.jpg",
+     "answer": "screen",
+     "tr": "ekran",
      "options": [
-      "connection",
+      "screen",
       "browser",
       "account",
       "search engine"
@@ -118,8 +116,7 @@
     {
      "en": "download",
      "tr": "indirmek",
-     "emoji": "⬇️",
-     "img": "/app/img/words/download.jpg"
+     "emoji": "⬇️"
     },
     {
      "en": "upload",
@@ -146,7 +143,18 @@
      "en": "confirm",
      "tr": "onaylamak",
      "emoji": "✔️"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Online Actions",
+   "titleTr": "İnternette yaptıklarımız",
+   "items": [
     {
      "en": "register",
      "tr": "kayıt olmak",
@@ -172,6 +180,10 @@
      "tr": "oturumu kapatmak",
      "emoji": "🚪"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -206,52 +218,79 @@
    "items": [
     {
      "en": "friend request",
-     "tr": "arkadaşlık isteği"
+     "tr": "arkadaşlık isteği",
+     "emoji": "👥"
     },
     {
      "en": "habit",
-     "tr": "alışkanlık"
+     "tr": "alışkanlık",
+     "emoji": "🔁"
     },
     {
      "en": "ignore",
-     "tr": "reddetmek"
+     "tr": "reddetmek",
+     "emoji": "🙈"
     },
     {
      "en": "important",
-     "tr": "önemli"
+     "tr": "önemli",
+     "emoji": "❗"
     },
     {
      "en": "improve",
-     "tr": "geliştirmek"
+     "tr": "geliştirmek",
+     "emoji": "📈"
     },
     {
      "en": "information",
-     "tr": "bilgi"
-    },
+     "tr": "bilgi",
+     "emoji": "ℹ️"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "İnternet — ek kelimeler",
+   "items": [
     {
      "en": "instant",
-     "tr": "anlık"
+     "tr": "anlık",
+     "emoji": "⚡"
     },
     {
      "en": "isolated",
-     "tr": "soyutlanmış"
+     "tr": "soyutlanmış",
+     "emoji": "🏝️"
     },
     {
      "en": "create",
-     "tr": "oluşturmak"
+     "tr": "oluşturmak",
+     "emoji": "✨"
     },
     {
      "en": "dangerous",
-     "tr": "tehlikeli"
+     "tr": "tehlikeli",
+     "emoji": "⚠️"
     },
     {
      "en": "develop",
-     "tr": "geliştirmek"
+     "tr": "geliştirmek",
+     "emoji": "🛠️"
     },
     {
      "en": "device",
-     "tr": "alet, cihaz"
+     "tr": "alet, cihaz",
+     "emoji": "📱"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -296,35 +335,43 @@
    "items": [
     {
      "en": "file",
-     "tr": "dosya"
+     "tr": "dosya",
+     "emoji": "📄"
     },
     {
      "en": "find",
-     "tr": "bulmak"
+     "tr": "bulmak",
+     "emoji": "🔍"
     },
     {
      "en": "follow",
-     "tr": "takip etmek"
+     "tr": "takip etmek",
+     "emoji": "👣"
     },
     {
      "en": "free time",
-     "tr": "boş zaman"
+     "tr": "boş zaman",
+     "emoji": "🕒"
     },
     {
      "en": "blog",
-     "tr": "internet günlüğü"
+     "tr": "internet günlüğü",
+     "emoji": "✍️"
     },
     {
      "en": "break",
-     "tr": "bozmak"
+     "tr": "bozmak",
+     "emoji": "💔"
     },
     {
      "en": "broken",
-     "tr": "arızalı, bozuk, kesik"
+     "tr": "arızalı, bozuk, kesik",
+     "emoji": "🛠️"
     },
     {
      "en": "check",
-     "tr": "kontrol etmek"
+     "tr": "kontrol etmek",
+     "emoji": "✅"
     }
    ]
   },
@@ -378,8 +425,7 @@
    "examples": [
     {
      "en": "*Can you* help me download this file?",
-     "tr": "Bu dosyayı indirmeme yardım eder misin?",
-     "img": "/app/img/words/download.jpg"
+     "tr": "Bu dosyayı indirmeme yardım eder misin?"
     },
     {
      "en": "*Could you* show me how to log in?",
@@ -437,8 +483,7 @@
    "examples": [
     {
      "en": "*Click on* the download button.",
-     "tr": "İndir düğmesine tıkla.",
-     "img": "/app/img/words/download.jpg"
+     "tr": "İndir düğmesine tıkla."
     },
     {
      "en": "*Type* your username and password.",
@@ -575,6 +620,112 @@
      "a": "social networking site"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "screen",
+      "tr": "ekran",
+      "img": "/app/img/words/screen.jpg",
+      "emoji": "🖥️"
+     },
+     {
+      "en": "browser",
+      "tr": "tarayıcı",
+      "img": "/app/img/words/browser.jpg",
+      "emoji": "🌐"
+     },
+     {
+      "en": "connection",
+      "tr": "bağlantı",
+      "img": "/app/img/words/connection.jpg",
+      "emoji": "📶"
+     },
+     {
+      "en": "search engine",
+      "tr": "arama motoru",
+      "img": "/app/img/words/search-engine.jpg",
+      "emoji": "🔎"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "upload",
+      "tr": "yüklemek",
+      "img": "/app/img/words/upload.jpg",
+      "emoji": "⬆️",
+      "audio": "/app/audio/words/upload.wav"
+     },
+     {
+      "en": "confirm",
+      "tr": "onaylamak",
+      "emoji": "✔️",
+      "audio": "/app/audio/words/confirm.wav"
+     },
+     {
+      "en": "habit",
+      "tr": "alışkanlık",
+      "emoji": "🔁",
+      "audio": "/app/audio/words/habit.wav"
+     },
+     {
+      "en": "account",
+      "tr": "hesap",
+      "emoji": "👤",
+      "audio": "/app/audio/words/account.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Save the file to your desktop.",
+      "tr": "Dosyayı masaüstüne kaydet."
+     },
+     {
+      "answer": "You should log out on public computers.",
+      "tr": "Ortak bilgisayarlarda çıkış yapmalısın."
+     },
+     {
+      "answer": "Would you mind checking my e-mail?",
+      "tr": "E-postama bakar mısın?"
+     }
+    ]
+   }
   },
   {
    "type": "end",

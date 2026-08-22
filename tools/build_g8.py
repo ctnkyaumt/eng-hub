@@ -11,7 +11,7 @@ Source of truth is res/book_8.pdf (MEB 8th grade Student's Book):
   * extra words - whatever the unit's activity bank adds on top of the glossary,
     appended after it so the book always comes first
 
-Run:  python tools/build_g8.py [--unit 1] [--words 60]
+Run:  python tools/build_g8.py [--unit 1] [--words 24]
       python tools/polish_slides.py --grade 8     (practice slides + splitting)
 """
 
@@ -69,7 +69,7 @@ GRAMMAR = {
   "chips": ["always", "usually", "often", "sometimes", "never"],
   "examples": [
    {"en": "I *go* to the gym twice a week.", "tr": "Haftada iki kez spor salonuna giderim."},
-   {"en": "She *watches* series in her free time.", "tr": "O boş zamanında dizi izler."},
+   {"en": "She *watches* TV series in her free time.", "tr": "O boş zamanında dizi izler."},
    {"en": "We *don't* stay up late on school nights.", "tr": "Okul gecelerinde geç saate kadar oturmayız."},
    {"en": "*Does* he play the guitar? — Yes, he does.", "tr": "O gitar çalar mı? — Evet, çalar."}]},
  {"type": "grammar", "title": "Preferences", "titleTr": "Tercihleri anlatma",
@@ -181,7 +181,7 @@ GRAMMAR = {
    {"title": "shouldn't ⛔", "tone": "bad", "examples": [
     {"en": "You *shouldn't* climb alone.", "tr": "Yalnız tırmanmamalısın."},
     {"en": "You *shouldn't* forget your equipment.", "tr": "Ekipmanını unutmamalısın."},
-    {"en": "You *shouldn't* swim in a rough sea.", "tr": "Dalgalı denizde yüzmemelisin."}]}]},
+    {"en": "You *shouldn't* swim when the sea is rough.", "tr": "Deniz dalgalıyken yüzmemelisin."}]}]},
  {"type": "grammar", "title": "must / mustn't", "titleTr": "Zorunluluk ve yasak",
   "rule": "Kural ve zorunluluk için *must*, yasak için *mustn't* kullanılır. *should* tavsiyedir, *must* daha güçlüdür.",
   "examples": [
@@ -315,6 +315,14 @@ EXTRA_WORDS = {
 
 BAD_EN = re.compile(r"[0-9?\"]|^\s*$")
 
+# Obvious activity-bank typos are corrected before they become teaching cards.
+WORD_FIXES = {
+    "badline": "bad line",
+    "goggle": "goggles",
+    "sunbath": "sunbathe",
+    "can’t stand": "can't stand",
+}
+
 
 def clean_tr(text):
     text = re.sub(r"^\s*\d+\.\s*", "", text or "")     # "1. baharat katmak" -> "baharat katmak"
@@ -333,6 +341,7 @@ def words_of(unit, limit):
             bank = json.load(f)
         for w in bank.get("words", []):
             en, tr = (w.get("en") or "").strip(), clean_tr(w.get("tr"))
+            en = WORD_FIXES.get(en.lower(), en)
             if not en or not tr or BAD_EN.search(en) or len(en) > 26 or len(tr) > 34:
                 continue
             pairs.append((en, tr))
@@ -407,7 +416,7 @@ def build(unit, limit):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--unit", type=int)
-    ap.add_argument("--words", type=int, default=60, help="unite basina kelime siniri")
+    ap.add_argument("--words", type=int, default=24, help="unite basina ek kelime siniri")
     args = ap.parse_args()
     for u in ([args.unit] if args.unit else range(1, 11)):
         build(u, args.words)

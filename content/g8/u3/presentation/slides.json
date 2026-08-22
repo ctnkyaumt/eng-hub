@@ -54,7 +54,18 @@
      "tr": "kızartmak",
      "emoji": "🍳",
      "img": "/app/img/words/fry.jpg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Cooking Verbs",
+   "titleTr": "Yemek fiilleri",
+   "items": [
     {
      "en": "mash",
      "tr": "ezmek",
@@ -88,9 +99,12 @@
     {
      "en": "spread",
      "tr": "sürmek",
-     "emoji": "🧈",
-     "img": "/app/img/words/spread.jpg"
+     "emoji": "🧈"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -161,8 +175,7 @@
     {
      "en": "pan",
      "tr": "tava",
-     "emoji": "🍳",
-     "img": "/app/img/words/pan.jpg"
+     "emoji": "🍳"
     },
     {
      "en": "saucepan",
@@ -173,8 +186,7 @@
     {
      "en": "spoon",
      "tr": "kaşık",
-     "emoji": "🥄",
-     "img": "/app/img/words/spoon.jpg"
+     "emoji": "🥄"
     },
     {
      "en": "oil",
@@ -307,52 +319,79 @@
    "items": [
     {
      "en": "stir",
-     "tr": "karıştırmak, çırpmak"
+     "tr": "karıştırmak, çırpmak",
+     "emoji": "🥄"
     },
     {
      "en": "strain",
-     "tr": "süzmek"
+     "tr": "süzmek",
+     "emoji": "🥣"
     },
     {
      "en": "wrap",
-     "tr": "sarmak, paketlemek"
+     "tr": "sarmak, paketlemek",
+     "emoji": "🌯"
     },
     {
      "en": "scoop",
-     "tr": "kepçe ile almak, kepçe"
+     "tr": "kepçe ile almak, kepçe",
+     "emoji": "🍨"
     },
     {
      "en": "roll",
-     "tr": "yuvarlamak"
+     "tr": "yuvarlamak",
+     "emoji": "🌀"
     },
     {
      "en": "season",
-     "tr": "baharat katmak"
-    },
+     "tr": "baharat katmak",
+     "emoji": "🧂"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Mutfakta — ek kelimeler",
+   "items": [
     {
      "en": "shape",
-     "tr": "şekil vermek, şekil"
+     "tr": "şekil vermek, şekil",
+     "emoji": "🔷"
     },
     {
      "en": "sprinkle",
-     "tr": "serpiştirmek"
+     "tr": "serpiştirmek",
+     "emoji": "✨"
     },
     {
      "en": "place",
-     "tr": "yerleştirmek"
+     "tr": "yerleştirmek",
+     "emoji": "📍"
     },
     {
      "en": "preheat",
-     "tr": "önceden ısıtmak"
+     "tr": "önceden ısıtmak",
+     "emoji": "🔥"
     },
     {
      "en": "prepare",
-     "tr": "hazırlamak"
+     "tr": "hazırlamak",
+     "emoji": "👩‍🍳"
     },
     {
      "en": "put",
-     "tr": "koymak"
+     "tr": "koymak",
+     "emoji": "👇"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -398,32 +437,38 @@
    "items": [
     {
      "en": "remove",
-     "tr": "çıkarmak"
+     "tr": "çıkarmak",
+     "emoji": "📤"
     },
     {
      "en": "rinse",
-     "tr": "durulamak"
+     "tr": "durulamak",
+     "emoji": "🚿"
     },
     {
      "en": "roast",
-     "tr": "fırında kızartmak"
+     "tr": "fırında kızartmak",
+     "emoji": "🍗"
     },
     {
      "en": "knead",
-     "tr": "yoğurmak"
+     "tr": "yoğurmak",
+     "emoji": "🥖"
     },
     {
      "en": "make it rest",
-     "tr": "dinlendirmek"
+     "tr": "dinlendirmek",
+     "emoji": "⏲️"
     },
     {
      "en": "make the dough",
-     "tr": "hamur yapmak"
+     "tr": "hamur yapmak",
+     "emoji": "🥖"
     },
     {
      "en": "melt",
      "tr": "erimek, eritmek",
-     "img": "/app/img/words/melt.jpg"
+     "emoji": "💧"
     }
    ]
   },
@@ -455,17 +500,10 @@
      ]
     },
     {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "/app/img/words/melt.jpg",
-     "answer": "melt",
-     "tr": "erimek, eritmek",
-     "options": [
-      "melt",
-      "knead",
-      "remove",
-      "make the dough"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "hamur yapmak",
+     "answer": "make the dough"
     }
    ]
   },
@@ -633,7 +671,7 @@
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "three potatoes are there? — Kaç patates var?",
+     "statement": "How many potatoes are there? — Kaç yumurtaya ihtiyacımız var?",
      "answer": false,
      "explain": "Correct: How many potatoes are there?"
     },
@@ -685,6 +723,115 @@
      "a": "mash"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "pour",
+      "tr": "dökmek",
+      "img": "/app/img/words/pour.jpg",
+      "emoji": "🚰"
+     },
+     {
+      "en": "peel",
+      "tr": "soymak",
+      "img": "/app/img/words/peel.jpg",
+      "emoji": "🥕"
+     },
+     {
+      "en": "oil",
+      "tr": "yağ",
+      "img": "/app/img/words/oil.jpg",
+      "emoji": "🫗"
+     },
+     {
+      "en": "mix",
+      "tr": "karıştırmak",
+      "img": "/app/img/words/mix.jpg",
+      "emoji": "🌀"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "bake",
+      "tr": "fırında pişirmek",
+      "img": "/app/img/words/bake.jpg",
+      "emoji": "🥧",
+      "audio": "/app/audio/words/bake.wav"
+     },
+     {
+      "en": "dice",
+      "tr": "küp küp doğramak",
+      "img": "/app/img/words/dice.jpg",
+      "emoji": "🎲",
+      "audio": "/app/audio/words/dice.wav"
+     },
+     {
+      "en": "recipe",
+      "tr": "tarif",
+      "img": "/app/img/words/recipe.jpg",
+      "emoji": "📜",
+      "audio": "/app/audio/words/recipe.wav"
+     },
+     {
+      "en": "meal",
+      "tr": "öğün",
+      "img": "/app/img/words/meal.jpg",
+      "emoji": "🍽️",
+      "audio": "/app/audio/words/meal.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Chop the onions into small pieces.",
+      "tr": "Soğanları küçük parçalar hâlinde doğra."
+     },
+     {
+      "answer": "Don't forget to stir the soup.",
+      "tr": "Çorbayı karıştırmayı unutma."
+     },
+     {
+      "answer": "Add a cup of milk.",
+      "tr": "Bir fincan süt ekle."
+     }
+    ]
+   }
   },
   {
    "type": "end",

@@ -60,7 +60,18 @@
      "tr": "hala / teyze",
      "emoji": "👩‍🦰",
      "img": "p01-06.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Family Members",
+   "titleTr": "Aile üyeleri",
+   "items": [
     {
      "en": "brother",
      "tr": "erkek kardeş",
@@ -91,6 +102,10 @@
      "emoji": "👧",
      "img": "p01-11.png"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -175,7 +190,18 @@
      "tr": "saçları taramak",
      "emoji": "💇",
      "img": "p01-17.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines (1)",
+   "titleTr": "Günlük rutinler",
+   "items": [
     {
      "en": "take a shower",
      "tr": "duş almak",
@@ -212,6 +238,10 @@
      "emoji": "🍽️",
      "img": "p01-23.png"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -375,7 +405,18 @@
      "tr": "plaja gitmek",
      "emoji": "🏖️",
      "img": "p02-15.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Hobbies and Activities",
+   "titleTr": "Hobiler ve aktiviteler",
+   "items": [
     {
      "en": "go on holiday",
      "tr": "tatile gitmek",
@@ -393,41 +434,7 @@
      "tr": "piyano çalmak",
      "emoji": "🎹",
      "img": "p02-18.png"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Hobbies and Activities",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "p02-12.png",
-     "answer": "ride a scooter",
-     "tr": "skutere binmek",
-     "options": [
-      "ride a scooter",
-      "play computer games",
-      "go on holiday",
-      "have a barbecue"
-     ]
     },
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"have a barbecue\" means \"bisiklete binmek\".",
-     "answer": false,
-     "explain": "have a barbecue = mangal yapmak"
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Hobbies and Activities",
-   "titleTr": "Hobiler ve aktiviteler",
-   "items": [
     {
      "en": "visit a museum",
      "tr": "müzeyi ziyaret etmek",
@@ -451,7 +458,18 @@
      "tr": "çadırda kalmak",
      "emoji": "⛺",
      "img": "p02-22.png"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Hobbies and Activities",
+   "titleTr": "Hobiler ve aktiviteler",
+   "items": [
     {
      "en": "have a party",
      "tr": "parti yapmak",
@@ -488,6 +506,10 @@
      "emoji": "🏊",
      "img": "p02-28.png"
     }
+   ],
+   "part": [
+    3,
+    3
    ]
   },
   {
@@ -496,39 +518,24 @@
    "titleTr": "Use what you just learned · Hobbies and Activities",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "cook",
-       "b": "yemek pişirmek"
-      },
-      {
-       "a": "stay in a tent",
-       "b": "çadırda kalmak"
-      },
-      {
-       "a": "visit a museum",
-       "b": "müzeyi ziyaret etmek"
-      },
-      {
-       "a": "play golf",
-       "b": "golf oynamak"
-      }
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-15.png",
+     "answer": "go to the beach",
+     "tr": "plaja gitmek",
+     "options": [
+      "go to the beach",
+      "play the piano",
+      "stay in a tent",
+      "play the guitar"
      ]
     },
     {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "p02-21.png",
-     "answer": "camp in the forest",
-     "tr": "ormanda kamp yapmak",
-     "options": [
-      "camp in the forest",
-      "have a party",
-      "visit a museum",
-      "stay in a tent"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"ride a scooter\" means \"kutu oyunu oynamak\".",
+     "answer": false,
+     "explain": "ride a scooter = skutere binmek"
     }
    ]
   },
@@ -571,17 +578,23 @@
    "titleTr": "Use what you just learned · Present Continuous — -ing",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "\"e\" ile biten fiillerde e düşer:  ride → ___",
-     "answer": "riding",
-     "tr": "1. kural"
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "They are swimming. — Onlar yüzüyorlar.",
+     "answer": true,
+     "explain": "Correct: They are swimming."
     },
     {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "They are swimming.",
-     "tr": "Onlar yüzüyorlar."
+     "kind": "fill",
+     "text": "\"e\" ile biten fiillerde e düşer:  ride → ___",
+     "answer": "riding",
+     "options": [
+      "riding",
+      "running",
+      "am watching",
+      "is sleeping"
+     ],
+     "tr": "1. kural"
     }
    ]
   },
@@ -596,7 +609,7 @@
      "tone": "bad",
      "examples": [
       {
-       "en": "I *am not* doing homework.",
+       "en": "I *am not* doing my homework.",
        "tr": "Ödev yapmıyorum."
       },
       {
@@ -631,15 +644,10 @@
    "titleTr": "Use what you just learned · Negative & Question",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "I ___ doing homework.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "I ___ doing my homework.",
      "answer": "am not",
-     "options": [
-      "am not",
-      "isn't",
-      "aren't",
-      "Are"
-     ],
      "tr": "Ödev yapmıyorum."
     },
     {
@@ -680,13 +688,6 @@
    "titleTr": "Use what you just learned · Question Tags",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "Does the sentence match the meaning?",
-     "statement": "She isn't fishing, aren't you? — O balık tutmuyor, değil mi?",
-     "answer": false,
-     "explain": "Correct: She isn't fishing, is she?"
-    },
-    {
      "kind": "fill",
      "text": "You are having a picnic, ___?",
      "answer": "aren't you",
@@ -697,6 +698,12 @@
       "is she"
      ],
      "tr": "Sen piknik yapıyorsun, değil mi?"
+    },
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "She isn't fishing, is she?",
+     "tr": "O balık tutmuyor, değil mi?"
     }
    ]
   },
@@ -715,7 +722,7 @@
        "img": "p01-20.png"
       },
       {
-       "en": "She brushes her teeth *in the mornings*.",
+       "en": "She brushes her teeth *in the morning*.",
        "tr": "O sabahları dişlerini fırçalar."
       },
       {
@@ -751,17 +758,23 @@
    "titleTr": "Use what you just learned · Simple Present vs Present Continuous",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "We watch TV ___.",
-     "answer": "in the evenings",
-     "tr": "Biz akşamları televizyon izleriz."
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "She brushes her teeth in the morning. — Ben her gün okula giderim.",
+     "answer": false,
+     "explain": "Correct: She brushes her teeth in the morning."
     },
     {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "We are watching TV at the moment.",
-     "tr": "Biz şu anda televizyon izliyoruz."
+     "kind": "fill",
+     "text": "I go to school ___.",
+     "answer": "every day",
+     "options": [
+      "every day",
+      "in the morning",
+      "in the evenings",
+      "now"
+     ],
+     "tr": "Ben her gün okula giderim."
     }
    ]
   },
@@ -799,6 +812,115 @@
      "a": "aren't you?"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "tidy up the house",
+      "tr": "evi toparlamak",
+      "img": "p02-06.png",
+      "emoji": "🧹"
+     },
+     {
+      "en": "cook",
+      "tr": "yemek pişirmek",
+      "img": "p02-25.png",
+      "emoji": "👨‍🍳"
+     },
+     {
+      "en": "rest / relax",
+      "tr": "dinlenmek",
+      "img": "p02-05.png",
+      "emoji": "🛋️"
+     },
+     {
+      "en": "watch TV",
+      "tr": "televizyon izlemek",
+      "img": "p02-03.png",
+      "emoji": "📺"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "have a barbecue",
+      "tr": "mangal yapmak",
+      "img": "p02-10.png",
+      "emoji": "🍖",
+      "audio": "/app/audio/words/have-a-barbecue.wav"
+     },
+     {
+      "en": "brother",
+      "tr": "erkek kardeş",
+      "img": "p01-07.png",
+      "emoji": "👦",
+      "audio": "/app/audio/words/brother.wav"
+     },
+     {
+      "en": "play computer games",
+      "tr": "bilgisayar oyunu oynamak",
+      "img": "p02-14.png",
+      "emoji": "🎮",
+      "audio": "/app/audio/words/play-computer-games.wav"
+     },
+     {
+      "en": "stay in a tent",
+      "tr": "çadırda kalmak",
+      "img": "p02-22.png",
+      "emoji": "⛺",
+      "audio": "/app/audio/words/stay-in-a-tent.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "You aren't playing golf, are you?",
+      "tr": "Sen golf oynamıyorsun, değil mi?"
+     },
+     {
+      "answer": "He is sleeping at the moment.",
+      "tr": "O şu anda uyuyor."
+     },
+     {
+      "answer": "We watch TV in the evenings.",
+      "tr": "Biz akşamları televizyon izleriz."
+     }
+    ]
+   }
   },
   {
    "type": "pages",

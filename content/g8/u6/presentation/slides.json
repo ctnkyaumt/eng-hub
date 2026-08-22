@@ -55,7 +55,18 @@
      "tr": "kayak (kano)",
      "emoji": "🚣",
      "img": "/app/img/words/kayaking.jpg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Extreme Sports",
+   "titleTr": "Ekstrem sporlar",
+   "items": [
     {
      "en": "motor racing",
      "tr": "motor yarışı",
@@ -90,6 +101,10 @@
      "tr": "aşırı",
      "emoji": "🔥"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -203,52 +218,79 @@
    "items": [
     {
      "en": "indoor",
-     "tr": "kapalı mekan, iç mekan"
+     "tr": "kapalı mekan, iç mekan",
+     "emoji": "🏠"
     },
     {
      "en": "inexperienced",
-     "tr": "deneyimsiz, tecrübesiz"
+     "tr": "deneyimsiz, tecrübesiz",
+     "emoji": "🐣"
     },
     {
-     "en": "goggle",
-     "tr": "koruyucu gözlük"
+     "en": "goggles",
+     "tr": "koruyucu gözlük",
+     "emoji": "🥽"
     },
     {
      "en": "height",
-     "tr": "yükseklik"
+     "tr": "yükseklik",
+     "emoji": "📏"
     },
     {
      "en": "helmet",
-     "tr": "kask"
+     "tr": "kask",
+     "emoji": "⛑️"
     },
     {
      "en": "hill",
-     "tr": "tepe"
-    },
+     "tr": "tepe",
+     "emoji": "⛰️"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Maceralar — ek kelimeler",
+   "items": [
     {
      "en": "historical sites",
-     "tr": "tarihi yerler"
+     "tr": "tarihi yerler",
+     "emoji": "🏛️"
     },
     {
      "en": "hot air balloon",
-     "tr": "sıcak hava balonu"
+     "tr": "sıcak hava balonu",
+     "emoji": "🎈"
     },
     {
      "en": "ice skating",
-     "tr": "buz pateni"
+     "tr": "buz pateni",
+     "emoji": "⛸️"
     },
     {
      "en": "include",
-     "tr": "içermek, kapsamak"
+     "tr": "içermek, kapsamak",
+     "emoji": "➕"
     },
     {
      "en": "incredible",
-     "tr": "inanılmaz"
+     "tr": "inanılmaz",
+     "emoji": "🤯"
     },
     {
      "en": "individually",
-     "tr": "bireysel"
+     "tr": "bireysel",
+     "emoji": "👤"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -293,35 +335,43 @@
    "items": [
     {
      "en": "diving suit",
-     "tr": "dalış kıyafeti"
+     "tr": "dalış kıyafeti",
+     "emoji": "🤿"
     },
     {
      "en": "equipment",
-     "tr": "araç gereç, ekipman"
+     "tr": "araç gereç, ekipman",
+     "emoji": "🎒"
     },
     {
      "en": "experience",
-     "tr": "deneyim, tecrübe"
+     "tr": "deneyim, tecrübe",
+     "emoji": "🧗"
     },
     {
      "en": "experienced",
-     "tr": "deneyimli, tecrübeli"
+     "tr": "deneyimli, tecrübeli",
+     "emoji": "🏅"
     },
     {
      "en": "explore",
-     "tr": "keşfetmek"
+     "tr": "keşfetmek",
+     "emoji": "🧭"
     },
     {
      "en": "extreme sport",
-     "tr": "tehlikeli ve heyecanlı spor"
+     "tr": "tehlikeli ve heyecanlı spor",
+     "emoji": "🧗"
     },
     {
      "en": "feel",
-     "tr": "hissetmek"
+     "tr": "hissetmek",
+     "emoji": "🙂"
     },
     {
      "en": "fighting",
-     "tr": "mücadele"
+     "tr": "mücadele",
+     "emoji": "🥊"
     }
    ]
   },
@@ -398,8 +448,8 @@
        "tr": "Ekipmanını unutmamalısın."
       },
       {
-       "en": "You *shouldn't* swim in a rough sea.",
-       "tr": "Dalgalı denizde yüzmemelisin."
+       "en": "You *shouldn't* swim when the sea is rough.",
+       "tr": "Deniz dalgalıyken yüzmemelisin."
       }
      ]
     }
@@ -559,6 +609,115 @@
      "a": "motor racing"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "paragliding",
+      "tr": "yamaç paraşütü",
+      "img": "/app/img/words/paragliding.jpg",
+      "emoji": "🪂"
+     },
+     {
+      "en": "rafting",
+      "tr": "rafting",
+      "img": "/app/img/words/rafting.jpg",
+      "emoji": "🌊"
+     },
+     {
+      "en": "motor racing",
+      "tr": "motor yarışı",
+      "img": "/app/img/words/motor-racing.jpg",
+      "emoji": "🏎️"
+     },
+     {
+      "en": "bungee-jumping",
+      "tr": "bancî atlayışı",
+      "img": "/app/img/words/bungee-jumping.jpg",
+      "emoji": "🪢"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "extreme sports",
+      "tr": "ekstrem sporlar",
+      "img": "/app/img/words/extreme-sports.jpg",
+      "emoji": "🏂",
+      "audio": "/app/audio/words/extreme-sports.wav"
+     },
+     {
+      "en": "caving",
+      "tr": "mağaracılık",
+      "img": "/app/img/words/caving.jpg",
+      "emoji": "🕳️",
+      "audio": "/app/audio/words/caving.wav"
+     },
+     {
+      "en": "kayaking",
+      "tr": "kayak (kano)",
+      "img": "/app/img/words/kayaking.jpg",
+      "emoji": "🚣",
+      "audio": "/app/audio/words/kayaking.wav"
+     },
+     {
+      "en": "skateboarding",
+      "tr": "kaykay",
+      "img": "/app/img/words/skateboarding.jpg",
+      "emoji": "🛹",
+      "audio": "/app/audio/words/skateboarding.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Rafting is more exciting than hiking.",
+      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
+     },
+     {
+      "answer": "You shouldn't climb alone.",
+      "tr": "Yalnız tırmanmamalısın."
+     },
+     {
+      "answer": "We mustn't leave rubbish in nature.",
+      "tr": "Doğaya çöp bırakmamalıyız."
+     }
+    ]
+   }
   },
   {
    "type": "end",

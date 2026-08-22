@@ -23,14 +23,12 @@
     {
      "en": "teenager",
      "tr": "genç",
-     "emoji": "🧑",
-     "img": "/app/img/words/teenager.jpg"
+     "emoji": "🧑"
     },
     {
      "en": "hang out",
      "tr": "takılmak",
-     "emoji": "🧑‍🤝‍🧑",
-     "img": "/app/img/words/hang-out.jpg"
+     "emoji": "🧑‍🤝‍🧑"
     },
     {
      "en": "relationship",
@@ -40,15 +38,24 @@
     {
      "en": "argue",
      "tr": "tartışmak",
-     "emoji": "😠",
-     "img": "/app/img/words/argue.jpg"
+     "emoji": "😠"
     },
     {
      "en": "fashion",
      "tr": "moda",
-     "emoji": "👗",
-     "img": "/app/img/words/fashion.jpg"
-    },
+     "emoji": "👗"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Teen Life",
+   "titleTr": "Gençlik hayatı",
+   "items": [
     {
      "en": "trendy",
      "tr": "moda olan",
@@ -71,6 +78,10 @@
      "emoji": "🎵",
      "img": "/app/img/words/types-of-music.jpg"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -108,9 +119,9 @@
      "tr": "müzik türleri",
      "options": [
       "types of music",
-      "fashion",
-      "concert",
-      "trendy"
+      "argue",
+      "teenager",
+      "fashion"
      ]
     }
    ]
@@ -144,7 +155,18 @@
      "en": "impressive",
      "tr": "etkileyici",
      "emoji": "🌟"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Likes & Preferences",
+   "titleTr": "Beğeni ve tercihler",
+   "items": [
     {
      "en": "terrific",
      "tr": "muhteşem",
@@ -170,6 +192,10 @@
      "tr": "ciddi",
      "emoji": "😐"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -180,19 +206,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"prefer\" means \"etkileyici\".",
+     "statement": "\"prefer\" means \"hoşlanmak\".",
      "answer": false,
      "explain": "prefer = tercih etmek"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"tercih etmek\"?",
-     "answer": "prefer",
+     "q": "Which word means \"tavsiye etmek\"?",
+     "answer": "recommend",
      "options": [
-      "prefer",
-      "fond of",
-      "relaxing",
-      "loud"
+      "recommend",
+      "ridiculous",
+      "impressive",
+      "serious"
      ]
     }
    ]
@@ -204,52 +230,79 @@
    "items": [
     {
      "en": "hiking",
-     "tr": "doğa yürüyüşü"
+     "tr": "doğa yürüyüşü",
+     "emoji": "🥾"
     },
     {
      "en": "horizon",
-     "tr": "ufuk"
+     "tr": "ufuk",
+     "emoji": "🌅"
     },
     {
      "en": "how often",
-     "tr": "ne sıklıkla"
+     "tr": "ne sıklıkla",
+     "emoji": "🔁"
     },
     {
      "en": "fashionable",
-     "tr": "modaya uygun"
+     "tr": "modaya uygun",
+     "emoji": "👗"
     },
     {
      "en": "fast",
-     "tr": "hızlı"
+     "tr": "hızlı",
+     "emoji": "🏃"
     },
     {
      "en": "folk music",
-     "tr": "halk müziği"
-    },
+     "tr": "halk müziği",
+     "emoji": "🪕"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Gençlik Hayatı — ek kelimeler",
+   "items": [
     {
      "en": "follow",
-     "tr": "takip etmek"
+     "tr": "takip etmek",
+     "emoji": "👣"
     },
     {
      "en": "form",
-     "tr": "kurmak, oluşturmak"
+     "tr": "kurmak, oluşturmak",
+     "emoji": "📝"
     },
     {
      "en": "free time",
-     "tr": "boş zaman"
+     "tr": "boş zaman",
+     "emoji": "🕒"
     },
     {
      "en": "gym",
-     "tr": "spor salonu"
+     "tr": "spor salonu",
+     "emoji": "🏋️"
     },
     {
      "en": "hate",
-     "tr": "nefret etmek"
+     "tr": "nefret etmek",
+     "emoji": "😠"
     },
     {
      "en": "energetic",
-     "tr": "enerjik"
+     "tr": "enerjik",
+     "emoji": "⚡"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -260,28 +313,28 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "spor salonu",
-     "answer": "gym"
+     "clue": "takip etmek",
+     "answer": "follow"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "fashionable",
-       "b": "modaya uygun"
-      },
-      {
-       "a": "hate",
-       "b": "nefret etmek"
-      },
-      {
        "a": "hiking",
        "b": "doğa yürüyüşü"
       },
       {
+       "a": "gym",
+       "b": "spor salonu"
+      },
+      {
        "a": "follow",
        "b": "takip etmek"
+      },
+      {
+       "a": "free time",
+       "b": "boş zaman"
       }
      ]
     }
@@ -294,36 +347,43 @@
    "items": [
     {
      "en": "enjoy",
-     "tr": "sevmek, hoşlanmak"
+     "tr": "sevmek, hoşlanmak",
+     "emoji": "😊"
     },
     {
      "en": "enjoyable",
-     "tr": "eğlenceli, zevkli"
+     "tr": "eğlenceli, zevkli",
+     "emoji": "😄"
     },
     {
      "en": "enlarge",
-     "tr": "genişletmek, büyütmek"
+     "tr": "genişletmek, büyütmek",
+     "emoji": "🔍"
     },
     {
      "en": "exciting",
-     "tr": "heyecan verici"
+     "tr": "heyecan verici",
+     "emoji": "🤩"
     },
     {
      "en": "exercise",
-     "tr": "egzersiz"
+     "tr": "egzersiz",
+     "emoji": "🏃"
     },
     {
      "en": "fantasy",
-     "tr": "hayal ürünü"
+     "tr": "hayal ürünü",
+     "emoji": "🧚"
     },
     {
      "en": "fascinating",
-     "tr": "büyüleyici"
+     "tr": "büyüleyici",
+     "emoji": "✨"
     },
     {
      "en": "come over",
      "tr": "uğramak, ziyaret etmek",
-     "img": "/app/img/words/come-over.jpg"
+     "emoji": "🚪"
     }
    ]
   },
@@ -333,24 +393,33 @@
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "/app/img/words/come-over.jpg",
-     "answer": "come over",
-     "tr": "uğramak, ziyaret etmek",
-     "options": [
-      "come over",
-      "fantasy",
-      "enlarge",
-      "fascinating"
-     ]
-    },
-    {
      "kind": "truefalse",
      "q": "True or false?",
      "statement": "\"come over\" means \"genişletmek, büyütmek\".",
      "answer": false,
      "explain": "come over = uğramak, ziyaret etmek"
+    },
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "exercise",
+       "b": "egzersiz"
+      },
+      {
+       "a": "fantasy",
+       "b": "hayal ürünü"
+      },
+      {
+       "a": "enlarge",
+       "b": "genişletmek, büyütmek"
+      },
+      {
+       "a": "fascinating",
+       "b": "büyüleyici"
+      }
+     ]
     }
    ]
   },
@@ -372,7 +441,7 @@
      "tr": "Haftada iki kez spor salonuna giderim."
     },
     {
-     "en": "She *watches* series in her free time.",
+     "en": "She *watches* TV series in her free time.",
      "tr": "O boş zamanında dizi izler."
     },
     {
@@ -543,6 +612,109 @@
      "a": "snob"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "types of music",
+      "tr": "müzik türleri",
+      "img": "/app/img/words/types-of-music.jpg",
+      "emoji": "🎵"
+     },
+     {
+      "en": "concert",
+      "tr": "konser",
+      "img": "/app/img/words/concert.jpg",
+      "emoji": "🎤"
+     },
+     {
+      "en": "energetic",
+      "tr": "enerjik",
+      "emoji": "⚡"
+     },
+     {
+      "en": "horizon",
+      "tr": "ufuk",
+      "emoji": "🌅"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "relationship",
+      "tr": "ilişki",
+      "emoji": "🤝",
+      "audio": "/app/audio/words/relationship.wav"
+     },
+     {
+      "en": "enjoyable",
+      "tr": "eğlenceli, zevkli",
+      "emoji": "😄",
+      "audio": "/app/audio/words/enjoyable.wav"
+     },
+     {
+      "en": "free time",
+      "tr": "boş zaman",
+      "emoji": "🕒",
+      "audio": "/app/audio/words/free-time.wav"
+     },
+     {
+      "en": "hate",
+      "tr": "nefret etmek",
+      "emoji": "😠",
+      "audio": "/app/audio/words/hate.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "We love going to concerts.",
+      "tr": "Konserlere gitmeyi çok severiz."
+     },
+     {
+      "answer": "We don't stay up late on school nights.",
+      "tr": "Okul gecelerinde geç saate kadar oturmayız."
+     },
+     {
+      "answer": "They enjoy hanging out with friends.",
+      "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar."
+     }
+    ]
+   }
   },
   {
    "type": "end",

@@ -24,7 +24,7 @@ hazır gelir). Hiçbiri yoksa açılış ekranı kurulumu adım adım anlatır.
 
 | Bölüm | İçerik |
 | --- | --- |
-| **Sunum** | **5. sınıf** 1–8. tema (270 slayt) ve **8. sınıf** 1–10. ünite (176 slayt) için animasyonlu ders sunumu — 1265 kelime kartı, 191 etkinlik molası ve 369 etkileşimli görev. 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
+| **Sunum** | **5. sınıf** 1–8. tema (303 slayt) ve **8. sınıf** 1–10. ünite (227 slayt) için animasyonlu ders sunumu — 1115 büyük görsel kelime kartı, 168 kısa etkinlik molası ve ünite başına 3 büyük final görevi (54 sayfa: resim sürükleme, çevrimdışı ses ve cümle kurma). 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
 | **Oyunlar** | 6 çevrimdışı oyun modu: Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca kaynaktaki 66 statik etkinliğin çevrimdışı kopyası. |
 | **Çalışma Kâğıtları** | 124 dosya USB'de hazır. Tıklayınca bilgisayarın kendi PDF programında açılır. |
 | **Kitap Sunumları** | Kaynaktaki ders/çalışma kitabı sunumlarının listesi. Bunlar yüzlerce parçadan oluşan slayt oynatıcıları olduğu için USB'ye kopyalanmıyor; **bağlantı olarak** açılır (internet gerekir). |
@@ -41,9 +41,13 @@ başlığıyla durur — bağlantı varsa tek tıkla açılır.
 * Her öğretim bölümünün arkasından tek bir **Activity Break** gelir: eşleştirme, resimli soru,
   doğru/yanlış, cevabı açma, çoktan seçmeli, boşluk doldurma, cümle sıralama veya diyalog rolü.
   Görevler doğrudan bir önceki bölümün kendi kelime, örnek ve konuşmalarından üretilir.
+* Her ünitenin sonunda ayrıca üç büyük **Unit Mission** vardır: resimleri doğru kelime alanına
+  sürükleme, sesi dinleyip doğru resmi bulma ve kelimeleri sürükleyerek cümle kurma. Fare,
+  dokunmatik ekran ve tıklayarak seçme yöntemlerinin üçü de desteklenir.
 * Konu sırası **ders kitabına** göredir (`res/book.pdf` tema tablosu); kitapta olmayan konular çıkarıldı.
-* Kelime kartlarında mümkün olan yerde gerçek resim kullanılır: 5. sınıfta **tema föyünün kendi
-  görselleri**, 8. sınıfta **Wikimedia Commons**'tan kelime başına indirilen fotoğraflar.
+* Her kelime kartında görsel vardır. Mümkün olan yerde gerçek resim kullanılır: 5. sınıfta **tema
+  föyünün kendi görselleri**, 8. sınıfta **Wikimedia Commons** fotoğrafları; fotoğrafın açıkça
+  anlatmadığı soyut kelimelerde ise anlamı belirgin bir piktogram veya sayı kartı gösterilir.
 * Ünite kapağı, yeni ve tahminî eşleme yapmak yerine o ünitede zaten kontrol edilmiş üç kelime
   görselini kullanır.
 * Diyaloglar **konuşma balonu** olarak gösterilir.
@@ -53,7 +57,7 @@ başlığıyla durur — bağlantı varsa tek tıkla açılır.
   okunamayacak kadar küçülmez (en az %82), gerekirse kayar.
 * Bayraklar emoji değil **SVG resim** (Windows'ta emoji bayrak görünmüyor).
 * Gramer örneklerinin yanında ilgili **kelime resmi** çıkar; alıştırmalarda **resimli soru** vardır.
-* Kalabalık kelime sayfaları bölünür (en fazla 12 kart); etkinlik molalarında en fazla 2 görev olur.
+* Kalabalık kelime sayfaları bölünür (en fazla 8 büyük kart); etkinlik molalarında en fazla 2 görev olur.
 * Etkinlik yönergeleri **İngilizce** (Match the words, True or false?, Reveal answer, Try again …).
 
 ### Kalem araçları (🖊️ düğmesi veya `M`)
@@ -95,14 +99,15 @@ ekran boyutunda aynı yerde durur. Şeklin içine yazı yazmak için şekli seç
 8. sınıf için elimizde MEB tema föyü yoktu. Sunumlar iki kaynaktan üretildi:
 
 * **Kelimeler** — ünitenin kendi etkinlik havuzundan (`content/g8/uN/games/bank.json`) çıkarılan
-  gerçek kelime çiftleri; temizlenip 12'lik slaytlara bölündü.
+  gerçek kelime çiftleri; temizlenip en fazla 8 kartlık slaytlara bölündü.
 * **Gramer** — MEB 8. sınıf müfredatının o ünitede öğrettiği yapılar, `tools/build_g8.py` içinde
   yazılı. Örnek cümlelerdeki `*yıldızlı*` kelimeler alıştırmaları otomatik üretir.
 
 Değiştirmek için `tools/build_g8.py` içindeki `GRAMMAR` tablosunu düzenleyip şunu çalıştırın:
 
 ```bash
-python tools/build_g8.py && python tools/polish_slides.py --grade 8
+python tools/build_g8.py && python tools/link_word_images.py && python tools/polish_slides.py --grade 8
+powershell -ExecutionPolicy Bypass -File tools/build_mission_audio.ps1
 ```
 
 ## 6 ve 7. sınıfa sunum eklemek
@@ -119,7 +124,7 @@ Kaynak PDF yoksa 8. sınıftaki gibi kelime havuzundan üretme yolunu izleyebili
 `tools/build_g8.py` dosyasını örnek alın.
 
 `slides.json` slayt tipleri: `title`, `vocab`, `grammar`, `compare`, `dialogue`, `practice`,
-`exercise`, `scene`, `pages`, `end`. Metin içinde `*yıldız*` arasına aldığınız kısım renkli vurgulanır.
+`exercise`, `mission`, `scene`, `pages`, `end`. Metin içinde `*yıldız*` arasına aldığınız kısım renkli vurgulanır.
 
 ## Klasörler
 
@@ -153,10 +158,13 @@ yenilemek için `--full` ekleyin. Tek tek çalıştırmak isterseniz:
 | `tools/mirror_sites.py` | statik etkinliklerin çevrimdışı kopyasını alır (`--presentations` ile kitap sunumları da, çok yavaş) |
 | `tools/crop_vocab.py` | tema föyündeki resimleri tek tek kesip çıkarır (`--sheet` ile kontrol görseli) |
 | `tools/link_images.py` | kesilen resimleri kelime kartlarına bağlar (eşleme tablosu dosyanın içinde) |
-| `tools/polish_slides.py` | slayt sırasını kitaba göre düzenler, konuya bağlı etkinlik molalarını üretir |
+| `tools/polish_slides.py` | kelime sayfalarını büyütüp böler; kısa molaları ve üç ünite final görevini üretir |
+| `tools/build_mission_audio.ps1` | final dinleme görevleri için Windows'un İngilizce sesiyle çevrimdışı WAV dosyaları üretir |
+| `tools/contact_word_images.py` | 8. sınıf kelime fotoğraflarını gözle denetlemek için etiketli kontrol sayfaları üretir |
 | `tools/fetch_flags.py` | ülke bayraklarını SVG olarak indirir ve kartlara bağlar |
 | `tools/build_g8.py` | 8. sınıf sunumlarını kelime havuzu + müfredat yapılarından üretir |
 | `tools/verify_content.py` | eksik dosya var mı diye bakar |
+| `tools/verify_lessons.py` | büyük kelime sayfalarını, tüm görselleri, final görevlerini, sesleri ve dil düzeltmelerini doğrular |
 | `tools/get_python_win.py` | USB'ye taşınabilir Python koyar |
 
 Gerekli tek harici paket: `pymupdf` (yalnız `pdf_to_pages.py` için) — `pip install pymupdf`.

@@ -23,14 +23,12 @@
     {
      "en": "lab",
      "tr": "laboratuvar",
-     "emoji": "🧪",
-     "img": "/app/img/words/lab.jpg"
+     "emoji": "🧪"
     },
     {
      "en": "do an experiment",
      "tr": "deney yapmak",
-     "emoji": "⚗️",
-     "img": "/app/img/words/do-an-experiment.jpg"
+     "emoji": "⚗️"
     },
     {
      "en": "test tube",
@@ -49,7 +47,18 @@
      "tr": "güvenlik",
      "emoji": "🦺",
      "img": "/app/img/words/safety.jpg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "In the Lab",
+   "titleTr": "Laboratuvarda",
+   "items": [
     {
      "en": "scientific",
      "tr": "bilimsel",
@@ -71,6 +80,10 @@
      "emoji": "💥",
      "img": "/app/img/words/explode.jpg"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -103,13 +116,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/do-an-experiment.jpg",
-     "answer": "do an experiment",
-     "tr": "deney yapmak",
+     "img": "/app/img/words/cell.jpg",
+     "answer": "cell",
+     "tr": "hücre",
      "options": [
-      "do an experiment",
-      "lab",
       "cell",
+      "lab",
+      "test tube",
       "scientific"
      ]
     }
@@ -129,8 +142,7 @@
     {
      "en": "invent",
      "tr": "icat etmek",
-     "emoji": "💡",
-     "img": "/app/img/words/invent.jpg"
+     "emoji": "💡"
     },
     {
      "en": "explore",
@@ -146,7 +158,18 @@
      "en": "succeed",
      "tr": "başarmak",
      "emoji": "🏅"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Science & Discovery",
+   "titleTr": "Bilim ve keşif",
+   "items": [
     {
      "en": "genius",
      "tr": "dâhi",
@@ -171,6 +194,10 @@
      "emoji": "💉",
      "img": "/app/img/words/vaccination.jpg"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -205,52 +232,79 @@
    "items": [
     {
      "en": "healthcare",
-     "tr": "sağlık hizmeti"
+     "tr": "sağlık hizmeti",
+     "emoji": "🏥"
     },
     {
      "en": "horizon",
-     "tr": "ufuk, görüş, anlayış"
+     "tr": "ufuk, görüş, anlayış",
+     "emoji": "🌅"
     },
     {
      "en": "improve",
-     "tr": "geliştirmek"
+     "tr": "geliştirmek",
+     "emoji": "📈"
     },
     {
      "en": "improvement",
-     "tr": "gelişim, iyileşme"
+     "tr": "gelişim, iyileşme",
+     "emoji": "📊"
     },
     {
      "en": "infection",
-     "tr": "bulaşma, enfeksiyon"
+     "tr": "bulaşma, enfeksiyon",
+     "emoji": "🦠"
     },
     {
      "en": "ink",
-     "tr": "mürekkep"
-    },
+     "tr": "mürekkep",
+     "emoji": "🖋️"
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Bilim — ek kelimeler",
+   "items": [
     {
      "en": "electric bulb",
-     "tr": "ampul"
+     "tr": "ampul",
+     "emoji": "💡"
     },
     {
      "en": "entertainment",
-     "tr": "eğlence"
+     "tr": "eğlence",
+     "emoji": "🎭"
     },
     {
      "en": "explosion",
-     "tr": "patlama"
+     "tr": "patlama",
+     "emoji": "💥"
     },
     {
      "en": "facts",
-     "tr": "gerçekler"
+     "tr": "gerçekler",
+     "emoji": "📚"
     },
     {
      "en": "gain",
-     "tr": "kazanmak"
+     "tr": "kazanmak",
+     "emoji": "📈"
     },
     {
      "en": "goldsmith",
-     "tr": "kuyumcu"
+     "tr": "kuyumcu",
+     "emoji": "💍"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
@@ -295,31 +349,38 @@
    "items": [
     {
      "en": "gravity of the matter",
-     "tr": "maddenin yer çekimi"
+     "tr": "maddenin yer çekimi",
+     "emoji": "⚠️"
     },
     {
      "en": "deserve",
-     "tr": "hak etmek"
+     "tr": "hak etmek",
+     "emoji": "⚖️"
     },
     {
      "en": "develop",
-     "tr": "geliştirmek"
+     "tr": "geliştirmek",
+     "emoji": "🛠️"
     },
     {
      "en": "diagnose",
-     "tr": "teşhis etmek"
+     "tr": "teşhis etmek",
+     "emoji": "🩺"
     },
     {
      "en": "die",
-     "tr": "ölmek"
+     "tr": "ölmek",
+     "emoji": "🪦"
     },
     {
      "en": "discoverer",
-     "tr": "kaşif"
+     "tr": "kaşif",
+     "emoji": "🔍"
     },
     {
      "en": "discovery",
-     "tr": "keşif"
+     "tr": "keşif",
+     "emoji": "🔎"
     }
    ]
   },
@@ -549,6 +610,115 @@
      "a": "process"
     }
    ]
+  },
+  {
+   "type": "mission",
+   "part": [
+    1,
+    3
+   ],
+   "title": "Unit Mission · Picture Dock",
+   "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
+   "task": {
+    "kind": "dragmatch",
+    "q": "Drag each picture to its word.",
+    "items": [
+     {
+      "en": "vaccination",
+      "tr": "aşılama",
+      "img": "/app/img/words/vaccination.jpg",
+      "emoji": "💉"
+     },
+     {
+      "en": "high-tech",
+      "tr": "ileri teknoloji",
+      "img": "/app/img/words/high-tech.jpg",
+      "emoji": "🤖"
+     },
+     {
+      "en": "explode",
+      "tr": "patlamak",
+      "img": "/app/img/words/explode.jpg",
+      "emoji": "💥"
+     },
+     {
+      "en": "test tube",
+      "tr": "deney tüpü",
+      "img": "/app/img/words/test-tube.jpg",
+      "emoji": "🧫"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    2,
+    3
+   ],
+   "title": "Unit Mission · Listen & Find",
+   "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
+   "task": {
+    "kind": "listenpicture",
+    "q": "Listen, then choose the picture.",
+    "items": [
+     {
+      "en": "cure",
+      "tr": "tedavi etmek",
+      "img": "/app/img/words/cure.jpg",
+      "emoji": "💊",
+      "audio": "/app/audio/words/cure.wav"
+     },
+     {
+      "en": "discover",
+      "tr": "keşfetmek",
+      "img": "/app/img/words/discover.jpg",
+      "emoji": "🔍",
+      "audio": "/app/audio/words/discover.wav"
+     },
+     {
+      "en": "safety",
+      "tr": "güvenlik",
+      "img": "/app/img/words/safety.jpg",
+      "emoji": "🦺",
+      "audio": "/app/audio/words/safety.wav"
+     },
+     {
+      "en": "genius",
+      "tr": "dâhi",
+      "img": "/app/img/words/genius.jpg",
+      "emoji": "🧠",
+      "audio": "/app/audio/words/genius.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "part": [
+    3,
+    3
+   ],
+   "title": "Unit Mission · Sentence Workshop",
+   "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
+   "task": {
+    "kind": "dragorder",
+    "q": "Drag the words into the correct order.",
+    "sentences": [
+     {
+      "answer": "Penicillin was discovered in 1928.",
+      "tr": "Penisilin 1928'de keşfedildi."
+     },
+     {
+      "answer": "This book was written by a Turkish scientist.",
+      "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
+     },
+     {
+      "answer": "The pyramids were built thousands of years ago.",
+      "tr": "Piramitler binlerce yıl önce inşa edildi."
+     }
+    ]
+   }
   },
   {
    "type": "end",

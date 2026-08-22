@@ -20,6 +20,16 @@ from common import CONTENT, ROOT  # noqa: E402
 WORDS_DIR = os.path.join(ROOT, "app", "img", "words")
 WEB_PREFIX = "/app/img/words/"
 
+# Contact-sheet review found these automatic Commons hits misleading (for
+# example, "treasure" was a star cluster and "pan" was an ancient coin). A
+# clear topic pictogram is safer than teaching the wrong visual association.
+REJECTED = {
+    "account", "argue", "attachment", "avalanche", "come over", "dial",
+    "disaster", "do an experiment", "download", "fashion", "hang out",
+    "hang up", "invent", "lab", "melt", "pan", "pick up", "share",
+    "spoon", "spread", "square", "teenager", "to-do list", "treasure",
+}
+
 
 def main():
     ap = argparse.ArgumentParser()
@@ -43,7 +53,8 @@ def main():
             if slide.get("type") != "vocab":
                 continue
             for item in slide.get("items", []):
-                name = index.get((item.get("en") or "").lower())
+                word = (item.get("en") or "").lower()
+                name = None if word in REJECTED else index.get(word)
                 if args.clear or not name:
                     if (item.get("img") or "").startswith(WEB_PREFIX):
                         item.pop("img", None)
