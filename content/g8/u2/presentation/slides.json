@@ -438,19 +438,23 @@
    "examples": [
     {
      "en": "I *go* to the gym twice a week.",
-     "tr": "Haftada iki kez spor salonuna giderim."
+     "tr": "Haftada iki kez spor salonuna giderim.",
+     "emoji": "🏋️"
     },
     {
      "en": "She *watches* TV series in her free time.",
-     "tr": "O boş zamanında dizi izler."
+     "tr": "O boş zamanında dizi izler.",
+     "emoji": "🕒"
     },
     {
      "en": "We *don't* stay up late on school nights.",
-     "tr": "Okul gecelerinde geç saate kadar oturmayız."
+     "tr": "Okul gecelerinde geç saate kadar oturmayız.",
+     "emoji": "🏫"
     },
     {
      "en": "*Does* he play the guitar? — Yes, he does.",
-     "tr": "O gitar çalar mı? — Evet, çalar."
+     "tr": "O gitar çalar mı? — Evet, çalar.",
+     "emoji": "🎸"
     }
    ]
   },
@@ -493,19 +497,23 @@
    "examples": [
     {
      "en": "I *prefer* pop music *to* jazz.",
-     "tr": "Pop müziği caza tercih ederim."
+     "tr": "Pop müziği caza tercih ederim.",
+     "emoji": "⚖️"
     },
     {
      "en": "She *would rather* read a book than watch TV.",
-     "tr": "O televizyon izlemektense kitap okumayı yeğler."
+     "tr": "O televizyon izlemektense kitap okumayı yeğler.",
+     "emoji": "📺"
     },
     {
      "en": "They *enjoy* hanging out with friends.",
-     "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar."
+     "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar.",
+     "emoji": "😊"
     },
     {
      "en": "We *love* going to concerts.",
-     "tr": "Konserlere gitmeyi çok severiz."
+     "tr": "Konserlere gitmeyi çok severiz.",
+     "emoji": "❤️"
     }
    ]
   },
@@ -537,19 +545,23 @@
    "examples": [
     {
      "en": "*How often* do you go swimming?",
-     "tr": "Ne sıklıkla yüzmeye gidersin?"
+     "tr": "Ne sıklıkla yüzmeye gidersin?",
+     "emoji": "🔁"
     },
     {
      "en": "I go swimming *twice a week*.",
-     "tr": "Haftada iki kez yüzmeye giderim."
+     "tr": "Haftada iki kez yüzmeye giderim.",
+     "emoji": "📅"
     },
     {
      "en": "He *hardly ever* plays computer games.",
-     "tr": "O neredeyse hiç bilgisayar oyunu oynamaz."
+     "tr": "O neredeyse hiç bilgisayar oyunu oynamaz.",
+     "emoji": "🔁"
     },
     {
      "en": "They *always* have breakfast together.",
-     "tr": "Onlar her zaman birlikte kahvaltı yaparlar."
+     "tr": "Onlar her zaman birlikte kahvaltı yaparlar.",
+     "emoji": "🔁"
     }
    ]
   },

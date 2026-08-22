@@ -225,32 +225,38 @@
     {
      "en": "straight",
      "tr": "düz",
-     "emoji": "📏"
+     "emoji": "📏",
+     "img": "/app/img/vocab/physical-straight.svg"
     },
     {
      "en": "wavy",
      "tr": "dalgalı",
-     "emoji": "🌊"
+     "emoji": "🌊",
+     "img": "/app/img/vocab/physical-wavy.svg"
     },
     {
      "en": "curly",
      "tr": "kıvırcık",
-     "emoji": "➰"
+     "emoji": "➰",
+     "img": "/app/img/vocab/physical-curly.svg"
     },
     {
      "en": "dark",
      "tr": "koyu renk",
-     "emoji": "🌑"
+     "emoji": "🌑",
+     "img": "/app/img/vocab/physical-dark.svg"
     },
     {
      "en": "fair",
      "tr": "açık renk",
-     "emoji": "🌕"
+     "emoji": "🌕",
+     "img": "/app/img/vocab/physical-fair.svg"
     },
     {
      "en": "blonde",
      "tr": "sarışın",
-     "emoji": "👱"
+     "emoji": "👱",
+     "img": "/app/img/vocab/physical-blonde.svg"
     }
    ],
    "part": [
@@ -266,32 +272,38 @@
     {
      "en": "thin / slim",
      "tr": "zayıf, ince",
-     "emoji": "🧍"
+     "emoji": "🧍",
+     "img": "/app/img/vocab/physical-thin.svg"
     },
     {
      "en": "medium weight",
      "tr": "orta kilolu",
-     "emoji": "⚖️"
+     "emoji": "⚖️",
+     "img": "/app/img/vocab/physical-medium-weight.svg"
     },
     {
      "en": "fat",
      "tr": "şişman",
-     "emoji": "🧸"
+     "emoji": "🧸",
+     "img": "/app/img/vocab/physical-fat.svg"
     },
     {
      "en": "short",
      "tr": "kısa",
-     "emoji": "🔽"
+     "emoji": "🔽",
+     "img": "/app/img/vocab/physical-short.svg"
     },
     {
      "en": "medium height",
      "tr": "orta boylu",
-     "emoji": "📐"
+     "emoji": "📐",
+     "img": "/app/img/vocab/physical-medium-height.svg"
     },
     {
      "en": "tall",
      "tr": "uzun",
-     "emoji": "🔼"
+     "emoji": "🔼",
+     "img": "/app/img/vocab/physical-tall.svg"
     }
    ],
    "part": [
@@ -307,32 +319,38 @@
     {
      "en": "small",
      "tr": "küçük",
-     "emoji": "🐜"
+     "emoji": "🐜",
+     "img": "/app/img/vocab/physical-small.svg"
     },
     {
      "en": "average",
      "tr": "ortalama",
-     "emoji": "➖"
+     "emoji": "➖",
+     "img": "/app/img/vocab/physical-average.svg"
     },
     {
      "en": "big",
      "tr": "büyük",
-     "emoji": "🐘"
+     "emoji": "🐘",
+     "img": "/app/img/vocab/physical-big.svg"
     },
     {
      "en": "round",
      "tr": "yuvarlak",
-     "emoji": "⚪"
+     "emoji": "⚪",
+     "img": "/app/img/vocab/physical-round.svg"
     },
     {
      "en": "oval",
      "tr": "oval",
-     "emoji": "🥚"
+     "emoji": "🥚",
+     "img": "/app/img/vocab/physical-oval.svg"
     },
     {
      "en": "square",
      "tr": "kare şeklinde",
-     "emoji": "🟦"
+     "emoji": "🟦",
+     "img": "/app/img/vocab/physical-square.svg"
     }
    ],
    "part": [
@@ -348,18 +366,18 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"dark\" means \"kısa\".",
+     "statement": "\"oval\" means \"orta boylu\".",
      "answer": false,
-     "explain": "dark = koyu renk"
+     "explain": "oval = oval"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"kare şeklinde\"?",
-     "answer": "square",
+     "q": "Which word means \"uzun\"?",
+     "answer": "tall",
      "options": [
-      "square",
-      "average",
+      "tall",
       "medium height",
+      "curly",
       "blonde"
      ]
     }
@@ -373,11 +391,15 @@
    "examples": [
     {
      "en": "I *am* short and slim.",
-     "tr": "Ben kısa ve zayıfım."
+     "tr": "Ben kısa ve zayıfım.",
+     "img": "/app/img/vocab/physical-short.svg",
+     "emoji": "🔽"
     },
     {
      "en": "She *is* of medium height.",
-     "tr": "O orta boylu."
+     "tr": "O orta boylu.",
+     "img": "/app/img/vocab/physical-medium-height.svg",
+     "emoji": "📐"
     },
     {
      "en": "I *have got* straight hair.",
@@ -463,42 +485,50 @@
     {
      "en": "trousers / pants",
      "tr": "pantolon",
-     "emoji": "👖"
+     "emoji": "👖",
+     "img": "p02-01.png"
     },
     {
      "en": "jeans",
      "tr": "kot pantolon",
-     "emoji": "👖"
+     "emoji": "👖",
+     "img": "p02-02.png"
     },
     {
      "en": "coat",
      "tr": "mont",
-     "emoji": "🧥"
+     "emoji": "🧥",
+     "img": "p02-03.png"
     },
     {
      "en": "raincoat",
      "tr": "yağmurluk",
-     "emoji": "🌧️"
+     "emoji": "🌧️",
+     "img": "p02-04.png"
     },
     {
      "en": "jacket",
      "tr": "ceket",
-     "emoji": "🧥"
+     "emoji": "🧥",
+     "img": "p02-05.png"
     },
     {
      "en": "jumper / sweater",
      "tr": "kazak",
-     "emoji": "🧶"
+     "emoji": "🧶",
+     "img": "p02-06.png"
     },
     {
      "en": "cardigan",
      "tr": "hırka",
-     "emoji": "🧶"
+     "emoji": "🧶",
+     "img": "/app/img/vocab/cardigan.jpg"
     },
     {
      "en": "blouse",
      "tr": "bluz",
-     "emoji": "👚"
+     "emoji": "👚",
+     "img": "p02-07.png"
     }
    ]
   },
@@ -512,10 +542,6 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "jumper / sweater",
-       "b": "kazak"
-      },
-      {
        "a": "jacket",
        "b": "ceket"
       },
@@ -524,16 +550,27 @@
        "b": "hırka"
       },
       {
-       "a": "trousers / pants",
-       "b": "pantolon"
+       "a": "jumper / sweater",
+       "b": "kazak"
+      },
+      {
+       "a": "raincoat",
+       "b": "yağmurluk"
       }
      ]
     },
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "kazak",
-     "answer": "jumper / sweater"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-05.png",
+     "answer": "jacket",
+     "tr": "ceket",
+     "options": [
+      "jacket",
+      "jeans",
+      "coat",
+      "jumper / sweater"
+     ]
     }
    ]
   },
@@ -545,12 +582,14 @@
     {
      "en": "shirt",
      "tr": "gömlek",
-     "emoji": "👔"
+     "emoji": "👔",
+     "img": "p02-08.png"
     },
     {
      "en": "T-shirt",
      "tr": "tişört",
-     "emoji": "👕"
+     "emoji": "👕",
+     "img": "p02-09.png"
     },
     {
      "en": "shorts",
@@ -560,22 +599,26 @@
     {
      "en": "dress",
      "tr": "elbise",
-     "emoji": "👗"
+     "emoji": "👗",
+     "img": "p02-10.png"
     },
     {
      "en": "skirt",
      "tr": "etek",
-     "emoji": "👗"
+     "emoji": "👗",
+     "img": "/app/img/vocab/skirt.jpg"
     },
     {
      "en": "fancy dress / costume",
      "tr": "kostüm",
-     "emoji": "🎭"
+     "emoji": "🎭",
+     "img": "p02-11.png"
     },
     {
      "en": "uniform",
      "tr": "üniforma",
-     "emoji": "🎽"
+     "emoji": "🎽",
+     "img": "p02-12.png"
     }
    ]
   },
@@ -587,19 +630,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"uniform\" means \"etek\".",
+     "statement": "\"shirt\" means \"tişört\".",
      "answer": false,
-     "explain": "uniform = üniforma"
+     "explain": "shirt = gömlek"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"kostüm\"?",
-     "answer": "fancy dress / costume",
+     "q": "Which word means \"tişört\"?",
+     "answer": "T-shirt",
      "options": [
-      "fancy dress / costume",
-      "skirt",
       "T-shirt",
-      "shorts"
+      "uniform",
+      "skirt",
+      "fancy dress / costume"
      ]
     }
    ]
@@ -612,37 +655,44 @@
     {
      "en": "gloves",
      "tr": "eldiven",
-     "emoji": "🧤"
+     "emoji": "🧤",
+     "img": "p02-13.png"
     },
     {
      "en": "scarf",
      "tr": "atkı",
-     "emoji": "🧣"
+     "emoji": "🧣",
+     "img": "p02-14.png"
     },
     {
      "en": "headscarf",
      "tr": "başörtüsü",
-     "emoji": "🧕"
+     "emoji": "🧕",
+     "img": "p02-15.png"
     },
     {
      "en": "socks",
      "tr": "çorap",
-     "emoji": "🧦"
+     "emoji": "🧦",
+     "img": "p02-16.png"
     },
     {
      "en": "bow",
      "tr": "papyon",
-     "emoji": "🎀"
+     "emoji": "🎀",
+     "img": "p02-17.png"
     },
     {
      "en": "hat",
      "tr": "şapka",
-     "emoji": "🎩"
+     "emoji": "🎩",
+     "img": "p02-18.png"
     },
     {
      "en": "cap",
      "tr": "kep",
-     "emoji": "🧢"
+     "emoji": "🧢",
+     "img": "p02-19.png"
     }
    ],
    "part": [
@@ -658,32 +708,38 @@
     {
      "en": "shoes",
      "tr": "ayakkabı",
-     "emoji": "👟"
+     "emoji": "👟",
+     "img": "p02-20.png"
     },
     {
      "en": "boots",
      "tr": "bot",
-     "emoji": "🥾"
+     "emoji": "🥾",
+     "img": "p02-21.png"
     },
     {
      "en": "belt",
      "tr": "kemer",
-     "emoji": "🎗️"
+     "emoji": "🎗️",
+     "img": "p02-22.png"
     },
     {
      "en": "bag",
      "tr": "çanta",
-     "emoji": "👜"
+     "emoji": "👜",
+     "img": "p03-01.png"
     },
     {
      "en": "handbag",
      "tr": "el çantası",
-     "emoji": "👜"
+     "emoji": "👜",
+     "img": "p03-02.png"
     },
     {
      "en": "backpack",
      "tr": "sırt çantası",
-     "emoji": "🎒"
+     "emoji": "🎒",
+     "img": "p03-03.png"
     },
     {
      "en": "glasses",
@@ -709,27 +765,32 @@
     {
      "en": "watch",
      "tr": "kol saati",
-     "emoji": "⌚"
+     "emoji": "⌚",
+     "img": "p03-04.png"
     },
     {
      "en": "umbrella",
      "tr": "şemsiye",
-     "emoji": "☂️"
+     "emoji": "☂️",
+     "img": "p03-05.png"
     },
     {
      "en": "ring",
      "tr": "yüzük",
-     "emoji": "💍"
+     "emoji": "💍",
+     "img": "p03-06.png"
     },
     {
      "en": "earrings",
      "tr": "küpe",
-     "emoji": "💎"
+     "emoji": "💎",
+     "img": "p03-07.png"
     },
     {
      "en": "necklace",
      "tr": "kolye",
-     "emoji": "📿"
+     "emoji": "📿",
+     "img": "p03-08.png"
     }
    ],
    "part": [
@@ -745,28 +806,28 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "küpe",
-     "answer": "earrings"
+     "clue": "bot",
+     "answer": "boots"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "necklace",
-       "b": "kolye"
+       "a": "scarf",
+       "b": "atkı"
+      },
+      {
+       "a": "backpack",
+       "b": "sırt çantası"
+      },
+      {
+       "a": "glasses",
+       "b": "gözlük"
       },
       {
        "a": "headscarf",
        "b": "başörtüsü"
-      },
-      {
-       "a": "socks",
-       "b": "çorap"
-      },
-      {
-       "a": "shoes",
-       "b": "ayakkabı"
       }
      ]
     }
@@ -974,29 +1035,29 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"dirty\" means \"ince\".",
+     "statement": "\"new\" means \"iyi\".",
      "answer": false,
-     "explain": "dirty = kirli"
+     "explain": "new = yeni"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "clean",
-       "b": "temiz"
-      },
-      {
-       "a": "silk",
-       "b": "ipek"
+       "a": "uncomfortable",
+       "b": "rahatsız"
       },
       {
        "a": "comfortable",
        "b": "rahat"
       },
       {
-       "a": "silver",
-       "b": "gümüş"
+       "a": "ordinary",
+       "b": "sıradan"
+      },
+      {
+       "a": "clean",
+       "b": "temiz"
       }
      ]
     }
@@ -1019,19 +1080,25 @@
    "examples": [
     {
      "en": "I *wear* a thick coat in winter.",
-     "tr": "Kışın kalın bir mont giyerim."
+     "tr": "Kışın kalın bir mont giyerim.",
+     "emoji": "🧱"
     },
     {
      "en": "I *buy* trendy clothes.",
-     "tr": "Modaya uygun kıyafetler satın alırım."
+     "tr": "Modaya uygun kıyafetler satın alırım.",
+     "emoji": "✨"
     },
     {
      "en": "I *need* new shoes.",
-     "tr": "Yeni ayakkabılara ihtiyacım var."
+     "tr": "Yeni ayakkabılara ihtiyacım var.",
+     "img": "p02-20.png",
+     "emoji": "👟"
     },
     {
      "en": "I *own* silver earrings.",
-     "tr": "Gümüş küpelere sahibim."
+     "tr": "Gümüş küpelere sahibim.",
+     "img": "p03-07.png",
+     "emoji": "💎"
     }
    ]
   },
@@ -1118,19 +1185,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"listen to music\" means \"arkadaşlarla buluşmak\".",
+     "statement": "\"watch videos\" means \"arkadaşlarla buluşmak\".",
      "answer": false,
-     "explain": "listen to music = müzik dinlemek"
+     "explain": "watch videos = video izlemek"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"dergi okumak\"?",
-     "answer": "read a magazine",
+     "q": "Which word means \"video izlemek\"?",
+     "answer": "watch videos",
      "options": [
-      "read a magazine",
-      "watch fashion shows",
-      "meet friends",
-      "watch videos"
+      "watch videos",
+      "listen to music",
+      "watch TV",
+      "meet friends"
      ]
     }
    ]
@@ -1198,28 +1265,28 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "yürüyüşe gitmek",
-     "answer": "go for a walk"
+     "clue": "resim çizmek",
+     "answer": "draw pictures"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "go out",
-       "b": "dışarı gitmek"
-      },
-      {
-       "a": "travel around the world",
-       "b": "dünyayı gezmek"
+       "a": "go for a walk",
+       "b": "yürüyüşe gitmek"
       },
       {
        "a": "go to the park",
        "b": "parka gitmek"
       },
       {
-       "a": "go jogging",
-       "b": "koşuya gitmek"
+       "a": "play chess",
+       "b": "satranç oynamak"
+      },
+      {
+       "a": "go out",
+       "b": "dışarı gitmek"
       }
      ]
     }
@@ -1239,19 +1306,23 @@
    "examples": [
     {
      "en": "*every* day / week / month / year",
-     "tr": "her gün / hafta / ay / yıl"
+     "tr": "her gün / hafta / ay / yıl",
+     "emoji": "📅"
     },
     {
      "en": "*in* January, *in* winter, *in* the morning",
-     "tr": "Ocak ayı, kışın, sabah"
+     "tr": "Ocak ayı, kışın, sabah",
+     "emoji": "📅"
     },
     {
      "en": "*on* Sunday, *on* Friday, *on* weekdays",
-     "tr": "Pazar, Cuma, hafta içi"
+     "tr": "Pazar, Cuma, hafta içi",
+     "emoji": "📅"
     },
     {
      "en": "*at* 8 o'clock, *at* the weekend, *at* noon, *at* night",
-     "tr": "saat sekizde, hafta sonu, öğlen, gece"
+     "tr": "saat sekizde, hafta sonu, öğlen, gece",
+     "emoji": "🕒"
     }
    ]
   },
@@ -1283,31 +1354,39 @@
    "examples": [
     {
      "en": "Çoğu fiil *-s* alır:  wear → wear*s*, read → read*s*",
-     "tr": "1. kural"
+     "tr": "1. kural",
+     "emoji": "🔁"
     },
     {
      "en": "-ss, -sh, -ch, -x, -o ile bitenler *-es* alır:  go → go*es*, watch → watch*es*",
-     "tr": "2. kural"
+     "tr": "2. kural",
+     "img": "p03-04.png",
+     "emoji": "⌚"
     },
     {
      "en": "Sessiz harf + y ile bitenlerde y düşer, *-ies* gelir:  study → stud*ies*, fly → fl*ies*",
-     "tr": "3. kural"
+     "tr": "3. kural",
+     "emoji": "📚"
     },
     {
      "en": "have → *has*",
-     "tr": "4. kural"
+     "tr": "4. kural",
+     "emoji": "🔁"
     },
     {
      "en": "I *go* to school on weekdays.",
-     "tr": "Ben hafta içi okula giderim."
+     "tr": "Ben hafta içi okula giderim.",
+     "emoji": "🏫"
     },
     {
      "en": "He *watches* TV at night.",
-     "tr": "O geceleri televizyon izler."
+     "tr": "O geceleri televizyon izler.",
+     "emoji": "📺"
     },
     {
      "en": "She *goes* to Izmir in summer.",
-     "tr": "O yazın İzmir'e gider."
+     "tr": "O yazın İzmir'e gider.",
+     "emoji": "🔁"
     }
    ]
   },
@@ -1348,11 +1427,13 @@
      "examples": [
       {
        "en": "I *don't* go to school on Sundays.",
-       "tr": "Ben Pazar günleri okula gitmem."
+       "tr": "Ben Pazar günleri okula gitmem.",
+       "emoji": "🏫"
       },
       {
        "en": "You *don't* wear ordinary clothes.",
-       "tr": "Sen sıradan kıyafetler giymezsin."
+       "tr": "Sen sıradan kıyafetler giymezsin.",
+       "emoji": "🔘"
       },
       {
        "en": "He *doesn't* play chess.",
@@ -1372,11 +1453,13 @@
      "examples": [
       {
        "en": "*Do* you wear glasses? — Yes, I do.",
-       "tr": "Sen gözlük takar mısın? — Evet, takarım."
+       "tr": "Sen gözlük takar mısın? — Evet, takarım.",
+       "emoji": "👓"
       },
       {
        "en": "*Does* Mert like pink shirts? — No, he doesn't.",
-       "tr": "Mert pembe gömlek sever mi? — Hayır, sevmez."
+       "tr": "Mert pembe gömlek sever mi? — Hayır, sevmez.",
+       "emoji": "❓"
       }
      ]
     }
@@ -1416,15 +1499,19 @@
    "examples": [
     {
      "en": "You wear jeans, *don't you*?",
-     "tr": "Sen kot pantolon giyersin, değil mi?"
+     "tr": "Sen kot pantolon giyersin, değil mi?",
+     "img": "p02-02.png",
+     "emoji": "👖"
     },
     {
      "en": "She plays the guitar, *doesn't she*?",
-     "tr": "O gitar çalar, değil mi?"
+     "tr": "O gitar çalar, değil mi?",
+     "emoji": "🎸"
     },
     {
      "en": "You don't wear glasses, *do you*?",
-     "tr": "Sen gözlük takmazsın, değil mi?"
+     "tr": "Sen gözlük takmazsın, değil mi?",
+     "emoji": "👓"
     },
     {
      "en": "She doesn't watch TV, *does she*?",
@@ -1498,29 +1585,29 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"never\" means \"bazen\".",
+     "statement": "\"usually\" means \"hiçbir zaman\".",
      "answer": false,
-     "explain": "never = hiçbir zaman"
+     "explain": "usually = genellikle"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "usually",
-       "b": "genellikle"
+       "a": "never",
+       "b": "hiçbir zaman"
       },
       {
-       "a": "often",
-       "b": "sık sık"
-      },
-      {
-       "a": "rarely",
-       "b": "nadiren"
+       "a": "sometimes",
+       "b": "bazen"
       },
       {
        "a": "always",
        "b": "her zaman"
+      },
+      {
+       "a": "often",
+       "b": "sık sık"
       }
      ]
     }
@@ -1636,28 +1723,28 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "play computer games",
-      "tr": "bilgisayar oyunu oynamak",
-      "img": "p04-06.png",
-      "emoji": "🎮"
+      "en": "go shopping",
+      "tr": "alışverişe gitmek",
+      "img": "p04-14.png",
+      "emoji": "🛒"
      },
      {
-      "en": "hand",
-      "tr": "el",
-      "img": "p01-13.png",
-      "emoji": "✋"
+      "en": "socks",
+      "tr": "çorap",
+      "img": "p02-16.png",
+      "emoji": "🧦"
      },
      {
-      "en": "foot",
-      "tr": "ayak",
-      "img": "p01-19.png",
-      "emoji": "🦶"
+      "en": "curly",
+      "tr": "kıvırcık",
+      "img": "/app/img/vocab/physical-curly.svg",
+      "emoji": "➰"
      },
      {
-      "en": "shoulder",
-      "tr": "omuz",
-      "img": "p01-11.png",
-      "emoji": "💪"
+      "en": "scarf",
+      "tr": "atkı",
+      "img": "p02-14.png",
+      "emoji": "🧣"
      }
     ]
    }
@@ -1675,32 +1762,32 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "read a book",
-      "tr": "kitap okumak",
-      "img": "p04-01.png",
-      "emoji": "📖",
-      "audio": "/app/audio/words/read-a-book.wav"
+      "en": "chest",
+      "tr": "göğüs",
+      "img": "p01-16.png",
+      "emoji": "🫁",
+      "audio": "/app/audio/words/chest.wav"
      },
      {
-      "en": "finger",
-      "tr": "el parmağı",
-      "img": "p01-14.png",
-      "emoji": "☝️",
-      "audio": "/app/audio/words/finger.wav"
+      "en": "trousers / pants",
+      "tr": "pantolon",
+      "img": "p02-01.png",
+      "emoji": "👖",
+      "audio": "/app/audio/words/trousers-pants.wav"
      },
      {
-      "en": "arm",
-      "tr": "kol",
-      "img": "p01-12.png",
-      "emoji": "💪",
-      "audio": "/app/audio/words/arm.wav"
+      "en": "coat",
+      "tr": "mont",
+      "img": "p02-03.png",
+      "emoji": "🧥",
+      "audio": "/app/audio/words/coat.wav"
      },
      {
-      "en": "meet friends",
-      "tr": "arkadaşlarla buluşmak",
-      "img": "p04-08.png",
-      "emoji": "🧑‍🤝‍🧑",
-      "audio": "/app/audio/words/meet-friends.wav"
+      "en": "leg",
+      "tr": "bacak",
+      "img": "p01-17.png",
+      "emoji": "🦵",
+      "audio": "/app/audio/words/leg.wav"
      }
     ]
    }
@@ -1718,16 +1805,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Do you wear glasses? — Yes, I do.",
-      "tr": "Sen gözlük takar mısın? — Evet, takarım."
+      "answer": "You don't wear ordinary clothes.",
+      "tr": "Sen sıradan kıyafetler giymezsin."
      },
      {
-      "answer": "I have got straight hair.",
-      "tr": "Ben düz saçlara sahibim."
+      "answer": "He watches TV at night.",
+      "tr": "O geceleri televizyon izler."
      },
      {
-      "answer": "She doesn't draw pictures.",
-      "tr": "O resim çizmez."
+      "answer": "I go to school on weekdays.",
+      "tr": "Ben hafta içi okula giderim."
      }
     ]
    }

@@ -172,7 +172,7 @@
     {
      "en": "exciting",
      "tr": "heyecan verici",
-     "emoji": "⚡"
+     "emoji": "🤩"
     },
     {
      "en": "fascinating",
@@ -346,7 +346,7 @@
     {
      "en": "experience",
      "tr": "deneyim, tecrübe",
-     "emoji": "🧗"
+     "emoji": "🗺️"
     },
     {
      "en": "experienced",
@@ -423,15 +423,18 @@
      "examples": [
       {
        "en": "You *should* wear a helmet.",
-       "tr": "Kask takmalısın."
+       "tr": "Kask takmalısın.",
+       "emoji": "⛑️"
       },
       {
        "en": "You *should* check the weather first.",
-       "tr": "Önce hava durumunu kontrol etmelisin."
+       "tr": "Önce hava durumunu kontrol etmelisin.",
+       "emoji": "🌨️"
       },
       {
        "en": "Beginners *should* go with a guide.",
-       "tr": "Yeni başlayanlar rehberle gitmeli."
+       "tr": "Yeni başlayanlar rehberle gitmeli.",
+       "emoji": "🧭"
       }
      ]
     },
@@ -441,15 +444,18 @@
      "examples": [
       {
        "en": "You *shouldn't* climb alone.",
-       "tr": "Yalnız tırmanmamalısın."
+       "tr": "Yalnız tırmanmamalısın.",
+       "emoji": "🧗"
       },
       {
        "en": "You *shouldn't* forget your equipment.",
-       "tr": "Ekipmanını unutmamalısın."
+       "tr": "Ekipmanını unutmamalısın.",
+       "emoji": "🎒"
       },
       {
        "en": "You *shouldn't* swim when the sea is rough.",
-       "tr": "Deniz dalgalıyken yüzmemelisin."
+       "tr": "Deniz dalgalıyken yüzmemelisin.",
+       "emoji": "🏊"
       }
      ]
     }
@@ -487,11 +493,13 @@
    "examples": [
     {
      "en": "You *must* follow the safety rules.",
-     "tr": "Güvenlik kurallarına uymalısın."
+     "tr": "Güvenlik kurallarına uymalısın.",
+     "emoji": "⚠️"
     },
     {
      "en": "Divers *must* have a licence.",
-     "tr": "Dalgıçların lisansı olmalı."
+     "tr": "Dalgıçların lisansı olmalı.",
+     "emoji": "🤿"
     },
     {
      "en": "You *mustn't* go rafting without a life jacket.",
@@ -500,7 +508,8 @@
     },
     {
      "en": "We *mustn't* leave rubbish in nature.",
-     "tr": "Doğaya çöp bırakmamalıyız."
+     "tr": "Doğaya çöp bırakmamalıyız.",
+     "emoji": "🗑️"
     }
    ]
   },
@@ -542,11 +551,13 @@
     },
     {
      "en": "Climbing is *harder than* cycling.",
-     "tr": "Tırmanmak, bisiklet sürmekten daha zordur."
+     "tr": "Tırmanmak, bisiklet sürmekten daha zordur.",
+     "emoji": "🧗"
     },
     {
      "en": "Scuba diving is *the most dangerous* of all.",
-     "tr": "Tüplü dalış hepsinin arasında en tehlikelisidir."
+     "tr": "Tüplü dalış hepsinin arasında en tehlikelisidir.",
+     "emoji": "🤿"
     }
    ]
   },

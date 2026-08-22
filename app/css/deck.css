@@ -374,6 +374,11 @@
   width: 78px; height: 60px; object-fit: contain; border-radius: 10px;
   background: #fff; flex: 0 0 auto;
 }
+.ex .ex-emoji {
+  display: flex; align-items: center; justify-content: center; font-size: 38px; line-height: 1;
+}
+.ex .ex-keycaps { display: flex; align-items: center; justify-content: center; }
+.ex .ex-keycaps .num2 b { min-width: 22px; padding: 4px; font-size: 17px; }
 .task-pic {
   display: block; margin: 4px auto 12px; height: clamp(120px, 22vh, 210px); max-width: 100%;
   object-fit: contain; border-radius: 16px; background: #fff;

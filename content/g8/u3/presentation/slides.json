@@ -463,7 +463,7 @@
     {
      "en": "make the dough",
      "tr": "hamur yapmak",
-     "emoji": "🥖"
+     "emoji": "🥣"
     },
     {
      "en": "melt",
@@ -528,7 +528,8 @@
     },
     {
      "en": "*Add* a teaspoon of salt.",
-     "tr": "Bir çay kaşığı tuz ekle."
+     "tr": "Bir çay kaşığı tuz ekle.",
+     "emoji": "👩‍🍳"
     },
     {
      "en": "*Boil* the water for five minutes.",
@@ -537,7 +538,8 @@
     },
     {
      "en": "*Don't* forget to stir the soup.",
-     "tr": "Çorbayı karıştırmayı unutma."
+     "tr": "Çorbayı karıştırmayı unutma.",
+     "emoji": "🥄"
     }
    ]
   },
@@ -576,7 +578,8 @@
    "examples": [
     {
      "en": "*First*, wash the vegetables.",
-     "tr": "Önce sebzeleri yıka."
+     "tr": "Önce sebzeleri yıka.",
+     "emoji": "1️⃣"
     },
     {
      "en": "*Then*, slice the tomatoes.",
@@ -590,7 +593,8 @@
     },
     {
      "en": "*Finally*, serve the salad cold.",
-     "tr": "Son olarak salatayı soğuk servis et."
+     "tr": "Son olarak salatayı soğuk servis et.",
+     "emoji": "1️⃣"
     }
    ]
   },
@@ -631,15 +635,18 @@
      "examples": [
       {
        "en": "*How many* eggs do we need?",
-       "tr": "Kaç yumurtaya ihtiyacımız var?"
+       "tr": "Kaç yumurtaya ihtiyacımız var?",
+       "emoji": "🔢"
       },
       {
        "en": "*How many* potatoes are there?",
-       "tr": "Kaç patates var?"
+       "tr": "Kaç patates var?",
+       "emoji": "🔢"
       },
       {
        "en": "We need *three* tomatoes.",
-       "tr": "Üç domatese ihtiyacımız var."
+       "tr": "Üç domatese ihtiyacımız var.",
+       "emoji": "🍅"
       }
      ]
     },
@@ -649,15 +656,18 @@
      "examples": [
       {
        "en": "*How much* flour do you need?",
-       "tr": "Ne kadar una ihtiyacın var?"
+       "tr": "Ne kadar una ihtiyacın var?",
+       "emoji": "🔢"
       },
       {
        "en": "*How much* sugar is there?",
-       "tr": "Ne kadar şeker var?"
+       "tr": "Ne kadar şeker var?",
+       "emoji": "🔢"
       },
       {
        "en": "Add *a cup of* milk.",
-       "tr": "Bir fincan süt ekle."
+       "tr": "Bir fincan süt ekle.",
+       "emoji": "🔢"
       }
      ]
     }

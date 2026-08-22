@@ -45,7 +45,12 @@ export function speakEnglish(text) {
 }
 
 let spokenAudio = null;
-async function playEnglish(item) {
+export function wordAudioPath(text) {
+  const slug = String(text || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  return slug ? `/app/audio/words/${slug}.wav` : "";
+}
+
+export async function playEnglish(item) {
   if (item.audio) {
     try {
       spokenAudio?.pause();

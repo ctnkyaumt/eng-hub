@@ -407,19 +407,23 @@
    "examples": [
     {
      "en": "*Could I speak to* Mr Yılmaz, please?",
-     "tr": "Bay Yılmaz ile görüşebilir miyim, lütfen?"
+     "tr": "Bay Yılmaz ile görüşebilir miyim, lütfen?",
+     "emoji": "☎️"
     },
     {
      "en": "*Hold on*, please. I'll put you through.",
-     "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+     "tr": "Lütfen bekleyin. Sizi bağlıyorum.",
+     "emoji": "🤙"
     },
     {
      "en": "*Can I take a message*?",
-     "tr": "Mesajınızı alabilir miyim?"
+     "tr": "Mesajınızı alabilir miyim?",
+     "emoji": "☎️"
     },
     {
      "en": "Sorry, she *isn't available* right now.",
-     "tr": "Üzgünüm, şu anda müsait değil."
+     "tr": "Üzgünüm, şu anda müsait değil.",
+     "emoji": "✅"
     }
    ]
   },
@@ -457,19 +461,23 @@
    "examples": [
     {
      "en": "I *am calling* about the delivery.",
-     "tr": "Gönderi hakkında arıyorum."
+     "tr": "Gönderi hakkında arıyorum.",
+     "emoji": "📦"
     },
     {
      "en": "She *is talking* on the phone now.",
-     "tr": "O şimdi telefonda konuşuyor."
+     "tr": "O şimdi telefonda konuşuyor.",
+     "emoji": "☎️"
     },
     {
      "en": "They *aren't answering* the phone.",
-     "tr": "Telefona cevap vermiyorlar."
+     "tr": "Telefona cevap vermiyorlar.",
+     "emoji": "☎️"
     },
     {
      "en": "*Are* you *listening* to me?",
-     "tr": "Beni dinliyor musun?"
+     "tr": "Beni dinliyor musun?",
+     "emoji": "🎬"
     }
    ]
   },

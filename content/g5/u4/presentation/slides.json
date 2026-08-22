@@ -551,7 +551,8 @@
    "examples": [
     {
      "en": "\"e\" ile biten fiillerde e düşer:  ride → *riding*",
-     "tr": "1. kural"
+     "tr": "1. kural",
+     "emoji": "🎬"
     },
     {
      "en": "Sessiz–sesli–sessiz ile bitenlerde son harf çiftlenir:  run → *running*",
@@ -560,15 +561,18 @@
     },
     {
      "en": "I *am watching* TV now.",
-     "tr": "Ben şimdi televizyon izliyorum."
+     "tr": "Ben şimdi televizyon izliyorum.",
+     "emoji": "📺"
     },
     {
      "en": "He *is sleeping* at the moment.",
-     "tr": "O şu anda uyuyor."
+     "tr": "O şu anda uyuyor.",
+     "emoji": "🛏️"
     },
     {
      "en": "They *are swimming*.",
-     "tr": "Onlar yüzüyorlar."
+     "tr": "Onlar yüzüyorlar.",
+     "emoji": "🏊"
     }
    ]
   },
@@ -610,15 +614,18 @@
      "examples": [
       {
        "en": "I *am not* doing my homework.",
-       "tr": "Ödev yapmıyorum."
+       "tr": "Ödev yapmıyorum.",
+       "emoji": "📚"
       },
       {
        "en": "She *isn't* cooking now.",
-       "tr": "O şimdi yemek pişirmiyor."
+       "tr": "O şimdi yemek pişirmiyor.",
+       "emoji": "🍳"
       },
       {
        "en": "You *aren't* playing the guitar.",
-       "tr": "Gitar çalmıyorsun."
+       "tr": "Gitar çalmıyorsun.",
+       "emoji": "🎸"
       }
      ]
     },
@@ -628,11 +635,13 @@
      "examples": [
       {
        "en": "*Are* you studying? — Yes, I am.",
-       "tr": "Ders çalışıyor musun? — Evet, çalışıyorum."
+       "tr": "Ders çalışıyor musun? — Evet, çalışıyorum.",
+       "emoji": "📚"
       },
       {
        "en": "*Is* she sleeping? — No, she isn't.",
-       "tr": "O uyuyor mu? — Hayır, uyumuyor."
+       "tr": "O uyuyor mu? — Hayır, uyumuyor.",
+       "emoji": "🛏️"
       }
      ]
     }
@@ -666,19 +675,23 @@
    "examples": [
     {
      "en": "You are having a picnic, *aren't you*?",
-     "tr": "Sen piknik yapıyorsun, değil mi?"
+     "tr": "Sen piknik yapıyorsun, değil mi?",
+     "emoji": "🧺"
     },
     {
      "en": "She is going to school, *isn't she*?",
-     "tr": "O okula gidiyor, değil mi?"
+     "tr": "O okula gidiyor, değil mi?",
+     "emoji": "🏫"
     },
     {
      "en": "You aren't playing golf, *are you*?",
-     "tr": "Sen golf oynamıyorsun, değil mi?"
+     "tr": "Sen golf oynamıyorsun, değil mi?",
+     "emoji": "💬"
     },
     {
      "en": "She isn't fishing, *is she*?",
-     "tr": "O balık tutmuyor, değil mi?"
+     "tr": "O balık tutmuyor, değil mi?",
+     "emoji": "🎣"
     }
    ]
   },
@@ -723,7 +736,8 @@
       },
       {
        "en": "She brushes her teeth *in the morning*.",
-       "tr": "O sabahları dişlerini fırçalar."
+       "tr": "O sabahları dişlerini fırçalar.",
+       "emoji": "🪥"
       },
       {
        "en": "We watch TV *in the evenings*.",
@@ -738,15 +752,18 @@
      "examples": [
       {
        "en": "I am going to school *now*.",
-       "tr": "Ben şimdi okula gidiyorum."
+       "tr": "Ben şimdi okula gidiyorum.",
+       "emoji": "🏫"
       },
       {
        "en": "She is brushing her teeth *now*.",
-       "tr": "O şimdi dişlerini fırçalıyor."
+       "tr": "O şimdi dişlerini fırçalıyor.",
+       "emoji": "🪥"
       },
       {
        "en": "We are watching TV *at the moment*.",
-       "tr": "Biz şu anda televizyon izliyoruz."
+       "tr": "Biz şu anda televizyon izliyoruz.",
+       "emoji": "📺"
       }
      ]
     }

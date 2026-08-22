@@ -749,15 +749,18 @@
      "examples": [
       {
        "en": "Sharks *can* swim.",
-       "tr": "Köpek balıkları yüzebilir."
+       "tr": "Köpek balıkları yüzebilir.",
+       "emoji": "🏊"
       },
       {
        "en": "Eagles *can* fly.",
-       "tr": "Kartallar uçabilir."
+       "tr": "Kartallar uçabilir.",
+       "emoji": "🕊️"
       },
       {
        "en": "*Can* a cheetah run fast? — Yes, it can.",
-       "tr": "Bir çita hızlı koşabilir mi? — Evet."
+       "tr": "Bir çita hızlı koşabilir mi? — Evet.",
+       "emoji": "🐆"
       }
      ]
     },
@@ -767,15 +770,18 @@
      "examples": [
       {
        "en": "Elephants *can't* climb trees.",
-       "tr": "Filler ağaçlara tırmanamaz."
+       "tr": "Filler ağaçlara tırmanamaz.",
+       "emoji": "🧗"
       },
       {
        "en": "Lions *can't* talk.",
-       "tr": "Aslanlar konuşamaz."
+       "tr": "Aslanlar konuşamaz.",
+       "emoji": "💬"
       },
       {
        "en": "*Can* a penguin fly? — No, it can't.",
-       "tr": "Bir penguen uçabilir mi? — Hayır."
+       "tr": "Bir penguen uçabilir mi? — Hayır.",
+       "emoji": "🐧"
       }
      ]
     }
@@ -816,11 +822,13 @@
      "examples": [
       {
        "en": "Wild animals *must* hunt to eat.",
-       "tr": "Vahşi hayvanlar yemek için avlanmalılar."
+       "tr": "Vahşi hayvanlar yemek için avlanmalılar.",
+       "emoji": "🐅"
       },
       {
        "en": "Birds *must* move to warmer habitats in winter.",
-       "tr": "Kuşlar kışın ılık yaşam alanlarına gitmeliler."
+       "tr": "Kuşlar kışın ılık yaşam alanlarına gitmeliler.",
+       "emoji": "🦅"
       }
      ]
     },
@@ -830,11 +838,13 @@
      "examples": [
       {
        "en": "We *mustn't* hunt wild animals.",
-       "tr": "Vahşi hayvanları avlamamalıyız."
+       "tr": "Vahşi hayvanları avlamamalıyız.",
+       "emoji": "🐅"
       },
       {
        "en": "We *mustn't* run in the zoo.",
-       "tr": "Hayvanat bahçesinde koşmamalıyız."
+       "tr": "Hayvanat bahçesinde koşmamalıyız.",
+       "emoji": "🏃"
       }
      ]
     }
@@ -872,35 +882,43 @@
    "examples": [
     {
      "en": "fast → fast*er*  ·  large → large*r*  ·  big → big*ger*",
-     "tr": "tek heceli"
+     "tr": "tek heceli",
+     "emoji": "🏃"
     },
     {
      "en": "heavy → heav*ier*  ·  dangerous → *more* dangerous",
-     "tr": "iki+ heceli"
+     "tr": "iki+ heceli",
+     "emoji": "⚠️"
     },
     {
      "en": "good → *better* · bad → *worse* · much/many → *more* · little → *less* · far → *farther*",
-     "tr": "düzensiz"
+     "tr": "düzensiz",
+     "emoji": "⚖️"
     },
     {
      "en": "Lions are *stronger than* leopards.",
-     "tr": "Aslanlar, leoparlardan daha güçlüdür."
+     "tr": "Aslanlar, leoparlardan daha güçlüdür.",
+     "emoji": "🦁"
     },
     {
      "en": "Bears are *bigger than* wolves.",
-     "tr": "Ayılar, kurtlardan daha büyüktür."
+     "tr": "Ayılar, kurtlardan daha büyüktür.",
+     "emoji": "🐻"
     },
     {
      "en": "Elephants are *heavier than* gorillas.",
-     "tr": "Filler, gorillerden daha ağırdır."
+     "tr": "Filler, gorillerden daha ağırdır.",
+     "emoji": "🐘"
     },
     {
      "en": "Tigers are *more dangerous than* zebras.",
-     "tr": "Kaplanlar, zebralardan daha tehlikelidir."
+     "tr": "Kaplanlar, zebralardan daha tehlikelidir.",
+     "emoji": "⚠️"
     },
     {
      "en": "Crocodiles are *scarier than* snakes.",
-     "tr": "Timsahlar, yılanlardan daha korkutucudur."
+     "tr": "Timsahlar, yılanlardan daha korkutucudur.",
+     "emoji": "🐊"
     }
    ]
   },
@@ -932,35 +950,43 @@
    "examples": [
     {
      "en": "fast → the fast*est*  ·  large → the large*st*  ·  big → the big*gest*",
-     "tr": "tek heceli"
+     "tr": "tek heceli",
+     "emoji": "🏃"
     },
     {
      "en": "heavy → the heav*iest*  ·  dangerous → the *most* dangerous",
-     "tr": "iki+ heceli"
+     "tr": "iki+ heceli",
+     "emoji": "⚠️"
     },
     {
      "en": "good → *best* · bad → *worst* · much/many → *most* · little → *least* · far → *farthest*",
-     "tr": "düzensiz"
+     "tr": "düzensiz",
+     "emoji": "🏆"
     },
     {
      "en": "Lions are *the strongest* animals in the forests.",
-     "tr": "Aslanlar ormanlardaki en güçlü hayvanlardır."
+     "tr": "Aslanlar ormanlardaki en güçlü hayvanlardır.",
+     "emoji": "🦁"
     },
     {
      "en": "Whales are *the largest* animals in the oceans.",
-     "tr": "Balinalar okyanuslardaki en büyük hayvanlardır."
+     "tr": "Balinalar okyanuslardaki en büyük hayvanlardır.",
+     "emoji": "🐋"
     },
     {
      "en": "Giraffes are *the tallest* animals.",
-     "tr": "Zürafalar en uzun hayvanlardır."
+     "tr": "Zürafalar en uzun hayvanlardır.",
+     "emoji": "🦒"
     },
     {
      "en": "Cheetahs are *the fastest* wild animals.",
-     "tr": "Çitalar en hızlı vahşi hayvanlardır."
+     "tr": "Çitalar en hızlı vahşi hayvanlardır.",
+     "emoji": "🐅"
     },
     {
      "en": "Parrots are *the most colourful* wild birds.",
-     "tr": "Papağanlar en renkli vahşi kuşlardır."
+     "tr": "Papağanlar en renkli vahşi kuşlardır.",
+     "emoji": "🌈"
     }
    ]
   },

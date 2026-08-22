@@ -428,19 +428,23 @@
    "examples": [
     {
      "en": "Experiments *are done* in the laboratory.",
-     "tr": "Deneyler laboratuvarda yapılır."
+     "tr": "Deneyler laboratuvarda yapılır.",
+     "emoji": "🧪"
     },
     {
      "en": "This machine *is used* by scientists.",
-     "tr": "Bu makine bilim insanları tarafından kullanılır."
+     "tr": "Bu makine bilim insanları tarafından kullanılır.",
+     "emoji": "🔬"
     },
     {
      "en": "New medicines *are developed* every year.",
-     "tr": "Her yıl yeni ilaçlar geliştirilir."
+     "tr": "Her yıl yeni ilaçlar geliştirilir.",
+     "emoji": "📅"
     },
     {
      "en": "The results *are written* in a report.",
-     "tr": "Sonuçlar bir rapora yazılır."
+     "tr": "Sonuçlar bir rapora yazılır.",
+     "emoji": "📄"
     }
    ]
   },
@@ -484,19 +488,23 @@
    "examples": [
     {
      "en": "The telephone *was invented* by Alexander Graham Bell.",
-     "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
+     "tr": "Telefon, Alexander Graham Bell tarafından icat edildi.",
+     "emoji": "☎️"
     },
     {
      "en": "Penicillin *was discovered* in 1928.",
-     "tr": "Penisilin 1928'de keşfedildi."
+     "tr": "Penisilin 1928'de keşfedildi.",
+     "emoji": "💊"
     },
     {
      "en": "The pyramids *were built* thousands of years ago.",
-     "tr": "Piramitler binlerce yıl önce inşa edildi."
+     "tr": "Piramitler binlerce yıl önce inşa edildi.",
+     "emoji": "🔺"
     },
     {
      "en": "This book *was written* by a Turkish scientist.",
-     "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
+     "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı.",
+     "emoji": "🔬"
     }
    ]
   },

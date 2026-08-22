@@ -183,31 +183,38 @@
      "examples": [
       {
        "en": "Listen to your teachers carefully.",
-       "tr": "Öğretmenlerini dikkatlice dinle."
+       "tr": "Öğretmenlerini dikkatlice dinle.",
+       "emoji": "👂"
       },
       {
        "en": "Bring the school materials.",
-       "tr": "Okul materyallerini getir."
+       "tr": "Okul materyallerini getir.",
+       "emoji": "📦"
       },
       {
        "en": "Raise your hand to speak.",
-       "tr": "Konuşmak için elini kaldır."
+       "tr": "Konuşmak için elini kaldır.",
+       "emoji": "✋"
       },
       {
        "en": "Keep the classroom clean.",
-       "tr": "Sınıfı temiz tut."
+       "tr": "Sınıfı temiz tut.",
+       "emoji": "🤝"
       },
       {
        "en": "Speak quietly.",
-       "tr": "Sessizce konuş."
+       "tr": "Sessizce konuş.",
+       "emoji": "🤫"
       },
       {
        "en": "Tidy up your desk.",
-       "tr": "Sıranı toparla."
+       "tr": "Sıranı toparla.",
+       "emoji": "🧹"
       },
       {
        "en": "Follow the classroom rules.",
-       "tr": "Sınıf kurallarına uy."
+       "tr": "Sınıf kurallarına uy.",
+       "emoji": "👣"
       }
      ]
     },
@@ -217,15 +224,18 @@
      "examples": [
       {
        "en": "*Don't* throw rubbish on the ground.",
-       "tr": "Yere çöp atma."
+       "tr": "Yere çöp atma.",
+       "emoji": "🗑️"
       },
       {
        "en": "*Don't* run in the classroom.",
-       "tr": "Sınıfta koşma."
+       "tr": "Sınıfta koşma.",
+       "emoji": "🏃"
       },
       {
        "en": "*Don't* shout at your friends.",
-       "tr": "Arkadaşlarına bağırma."
+       "tr": "Arkadaşlarına bağırma.",
+       "emoji": "📢"
       }
      ]
     }
@@ -390,7 +400,8 @@
     },
     {
      "en": "You *have got* an English class *at* two o'clock *on* Wednesday.",
-     "tr": "Sen Çarşamba günü saat ikide bir İngilizce dersine sahipsin."
+     "tr": "Sen Çarşamba günü saat ikide bir İngilizce dersine sahipsin.",
+     "emoji": "3️⃣"
     },
     {
      "en": "They *have got* a Music class *on* Tuesday.",
@@ -399,7 +410,8 @@
     },
     {
      "en": "She *has got* a P.E. class *at* eleven o'clock.",
-     "tr": "O saat on birde bir Beden Eğitimi dersine sahip."
+     "tr": "O saat on birde bir Beden Eğitimi dersine sahip.",
+     "num": "11"
     }
    ]
   },
@@ -503,37 +515,44 @@
     {
      "en": "pencil",
      "tr": "kurşun kalem",
-     "emoji": "✏️"
+     "emoji": "✏️",
+     "img": "p02-01.png"
     },
     {
      "en": "pen",
      "tr": "tükenmez kalem",
-     "emoji": "🖊️"
+     "emoji": "🖊️",
+     "img": "p02-02.png"
     },
     {
      "en": "coloured pencil",
      "tr": "renkli kalem",
-     "emoji": "🖍️"
+     "emoji": "🖍️",
+     "img": "p02-03.png"
     },
     {
      "en": "crayon",
      "tr": "pastel boya",
-     "emoji": "🖍️"
+     "emoji": "🖍️",
+     "img": "p02-04.png"
     },
     {
      "en": "rubber / eraser",
      "tr": "silgi",
-     "emoji": "🧽"
+     "emoji": "🧽",
+     "img": "p02-05.png"
     },
     {
      "en": "sharpener",
      "tr": "kalemtıraş",
-     "emoji": "🔺"
+     "emoji": "🔺",
+     "img": "p02-06.png"
     },
     {
      "en": "pencil case",
      "tr": "kalem kutusu",
-     "emoji": "🧰"
+     "emoji": "🧰",
+     "img": "p02-07.png"
     }
    ],
    "part": [
@@ -549,7 +568,8 @@
     {
      "en": "book",
      "tr": "kitap",
-     "emoji": "📕"
+     "emoji": "📖",
+     "img": "p02-08.png"
     },
     {
      "en": "notebook",
@@ -559,7 +579,8 @@
     {
      "en": "dictionary",
      "tr": "sözlük",
-     "emoji": "📚"
+     "emoji": "📚",
+     "img": "p02-09.png"
     },
     {
      "en": "sheet",
@@ -569,7 +590,8 @@
     {
      "en": "material",
      "tr": "materyal",
-     "emoji": "📦"
+     "emoji": "📦",
+     "img": "p02-10.png"
     },
     {
      "en": "scissors",
@@ -579,7 +601,8 @@
     {
      "en": "ruler",
      "tr": "cetvel",
-     "emoji": "📏"
+     "emoji": "📏",
+     "img": "p02-11.png"
     }
    ],
    "part": [
@@ -595,32 +618,38 @@
     {
      "en": "glue",
      "tr": "yapıştırıcı",
-     "emoji": "🧴"
+     "emoji": "🧴",
+     "img": "p02-12.png"
     },
     {
      "en": "school bag",
      "tr": "okul çantası",
-     "emoji": "🎒"
+     "emoji": "🎒",
+     "img": "p02-13.png"
     },
     {
      "en": "poster",
      "tr": "poster",
-     "emoji": "🖼️"
+     "emoji": "🖼️",
+     "img": "p02-14.png"
     },
     {
      "en": "map",
      "tr": "harita",
-     "emoji": "🗺️"
+     "emoji": "🗺️",
+     "img": "p02-15.png"
     },
     {
      "en": "notice board",
      "tr": "duyuru panosu",
-     "emoji": "📌"
+     "emoji": "📌",
+     "img": "p02-16.png"
     },
     {
      "en": "board",
      "tr": "tahta",
-     "emoji": "🟩"
+     "emoji": "🟩",
+     "img": "p02-17.png"
     }
    ],
    "part": [
@@ -636,8 +665,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "materyal",
-     "answer": "material"
+     "clue": "duyuru panosu",
+     "answer": "notice board"
     },
     {
      "kind": "match",
@@ -681,27 +710,32 @@
     {
      "en": "bookcase",
      "tr": "kitaplık",
-     "emoji": "🗄️"
+     "emoji": "🗄️",
+     "img": "p02-18.png"
     },
     {
      "en": "bookshelf",
      "tr": "kitap rafı",
-     "emoji": "📚"
+     "emoji": "📚",
+     "img": "p02-19.png"
     },
     {
      "en": "desk",
      "tr": "sıra",
-     "emoji": "🪑"
+     "emoji": "🪑",
+     "img": "p02-20.png"
     },
     {
      "en": "table",
      "tr": "masa",
-     "emoji": "🛋️"
+     "emoji": "🛋️",
+     "img": "p02-21.png"
     },
     {
      "en": "seat",
      "tr": "oturak",
-     "emoji": "💺"
+     "emoji": "💺",
+     "img": "p02-22.png"
     },
     {
      "en": "rubbish bin / trash can",
@@ -716,33 +750,24 @@
    "titleTr": "Use what you just learned · Classroom Objects",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"board marker\" means \"kitaplık\".",
-     "answer": false,
-     "explain": "board marker = tahta kalemi"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-20.png",
+     "answer": "desk",
+     "tr": "sıra",
+     "options": [
+      "desk",
+      "table",
+      "board marker",
+      "seat"
+     ]
     },
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "smart board",
-       "b": "akıllı tahta"
-      },
-      {
-       "a": "seat",
-       "b": "oturak"
-      },
-      {
-       "a": "rubbish bin / trash can",
-       "b": "çöp kutusu"
-      },
-      {
-       "a": "table",
-       "b": "masa"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"desk\" means \"çöp kutusu\".",
+     "answer": false,
+     "explain": "desk = sıra"
     }
    ]
   },
@@ -754,37 +779,37 @@
     {
      "en": "Monday",
      "tr": "Pazartesi",
-     "emoji": "📅"
+     "emoji": "1️⃣"
     },
     {
      "en": "Tuesday",
      "tr": "Salı",
-     "emoji": "📅"
+     "emoji": "2️⃣"
     },
     {
      "en": "Wednesday",
      "tr": "Çarşamba",
-     "emoji": "📅"
+     "emoji": "3️⃣"
     },
     {
      "en": "Thursday",
      "tr": "Perşembe",
-     "emoji": "📅"
+     "emoji": "4️⃣"
     },
     {
      "en": "Friday",
      "tr": "Cuma",
-     "emoji": "📅"
+     "emoji": "5️⃣"
     },
     {
      "en": "Saturday",
      "tr": "Cumartesi",
-     "emoji": "🌞"
+     "emoji": "6️⃣"
     },
     {
      "en": "Sunday",
      "tr": "Pazar",
-     "emoji": "🌞"
+     "emoji": "7️⃣"
     }
    ]
   },
@@ -798,28 +823,28 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "Wednesday",
-       "b": "Çarşamba"
+       "a": "Friday",
+       "b": "Cuma"
       },
       {
        "a": "Sunday",
        "b": "Pazar"
       },
       {
-       "a": "Thursday",
-       "b": "Perşembe"
+       "a": "Wednesday",
+       "b": "Çarşamba"
       },
       {
-       "a": "Friday",
-       "b": "Cuma"
+       "a": "Saturday",
+       "b": "Cumartesi"
       }
      ]
     },
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "Çarşamba",
-     "answer": "Wednesday"
+     "clue": "Pazartesi",
+     "answer": "Monday"
     }
    ]
   },
@@ -964,19 +989,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"seven\" means \"19\".",
+     "statement": "\"sixteen\" means \"7\".",
      "answer": false,
-     "explain": "seven = 7"
+     "explain": "sixteen = 16"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"1\"?",
-     "answer": "one",
+     "q": "Which word means \"18\"?",
+     "answer": "eighteen",
      "options": [
-      "one",
-      "five",
-      "seventeen",
-      "nineteen"
+      "eighteen",
+      "ten",
+      "eight",
+      "one"
      ]
     }
    ]
@@ -1071,24 +1096,24 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "21",
-     "answer": "twenty-one"
+     "clue": "70",
+     "answer": "seventy"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "thirty",
-       "b": "30"
+       "a": "twenty-one",
+       "b": "21"
       },
       {
-       "a": "seventy",
-       "b": "70"
+       "a": "eighty",
+       "b": "80"
       },
       {
-       "a": "thirty-three",
-       "b": "33"
+       "a": "twenty-five",
+       "b": "25"
       },
       {
        "a": "one hundred",
@@ -1114,27 +1139,33 @@
    "examples": [
     {
      "en": "08:00 → It is eight *o'clock*.",
-     "tr": "Dakikası olmayan tam saatler"
+     "tr": "Dakikası olmayan tam saatler",
+     "num": "8"
     },
     {
      "en": "10:30 → It is *half past* ten.",
-     "tr": "Buçuk geçiyor (30 dakika)"
+     "tr": "Buçuk geçiyor (30 dakika)",
+     "num": "10"
     },
     {
      "en": "16:15 → It is *quarter past* four.",
-     "tr": "Çeyrek geçiyor (15 dakika)"
+     "tr": "Çeyrek geçiyor (15 dakika)",
+     "num": "4"
     },
     {
      "en": "01:45 → It is *quarter to* two.",
-     "tr": "Çeyrek var (45 dakika)"
+     "tr": "Çeyrek var (45 dakika)",
+     "num": "2"
     },
     {
      "en": "09:22 → It is twenty-two *past* nine.",
-     "tr": "30'dan küçük dakikalar: geçiyor"
+     "tr": "30'dan küçük dakikalar: geçiyor",
+     "num": "20"
     },
     {
      "en": "08:33 → It is twenty-seven *to* nine.",
-     "tr": "30'dan büyük dakikalar: var"
+     "tr": "30'dan büyük dakikalar: var",
+     "num": "20"
     }
    ]
   },
@@ -1166,23 +1197,28 @@
    "examples": [
     {
      "en": "A: What time is it?  B: It is 8:15 *a.m.*",
-     "tr": "Sabah 8:15"
+     "tr": "Sabah 8:15",
+     "emoji": "🕒"
     },
     {
      "en": "A: What time is it?  B: It is 8:15 *p.m.*",
-     "tr": "Akşam 8:15"
+     "tr": "Akşam 8:15",
+     "emoji": "🕒"
     },
     {
      "en": "The first class starts at 9:00 *a.m.*",
-     "tr": "İlk ders sabah 9'da başlar."
+     "tr": "İlk ders sabah 9'da başlar.",
+     "emoji": "🏫"
     },
     {
      "en": "School finishes at 3:15 *p.m.*",
-     "tr": "Okul öğleden sonra 3:15'te biter."
+     "tr": "Okul öğleden sonra 3:15'te biter.",
+     "emoji": "🏫"
     },
     {
      "en": "I go to bed at 10:00 *p.m.*",
-     "tr": "Gece 10'da yatarım."
+     "tr": "Gece 10'da yatarım.",
+     "emoji": "🛏️"
     }
    ]
   },
@@ -1221,11 +1257,13 @@
      "examples": [
       {
        "en": "*There is* a smart board in the classroom.",
-       "tr": "Sınıfta bir akıllı tahta var."
+       "tr": "Sınıfta bir akıllı tahta var.",
+       "emoji": "🖥️"
       },
       {
        "en": "*There are* fifteen students in the classroom.",
-       "tr": "Sınıfta on beş öğrenci var."
+       "tr": "Sınıfta on beş öğrenci var.",
+       "num": "15"
       },
       {
        "en": "*There is* a Music lesson on Monday.",
@@ -1240,11 +1278,13 @@
      "examples": [
       {
        "en": "*There isn't* a coach at school.",
-       "tr": "Okulda bir antrenör yok."
+       "tr": "Okulda bir antrenör yok.",
+       "emoji": "🏫"
       },
       {
        "en": "*There aren't* two sports fields at school.",
-       "tr": "Okulda iki spor sahası yok."
+       "tr": "Okulda iki spor sahası yok.",
+       "num": "2"
       },
       {
        "en": "*There isn't* a Science class at ten o'clock.",
@@ -1391,28 +1431,28 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "Elective Lesson",
-      "tr": "Seçmeli Ders",
-      "img": "p05-12.png",
-      "emoji": "📝"
+      "en": "desk",
+      "tr": "sıra",
+      "img": "p02-20.png",
+      "emoji": "🪑"
      },
      {
-      "en": "Science",
-      "tr": "Fen Bilimleri",
-      "img": "p05-02.png",
-      "emoji": "🔬"
+      "en": "seat",
+      "tr": "oturak",
+      "img": "p02-22.png",
+      "emoji": "💺"
      },
      {
-      "en": "Social Studies",
-      "tr": "Sosyal Bilgiler",
-      "img": "p05-03.png",
-      "emoji": "🌍"
+      "en": "poster",
+      "tr": "poster",
+      "img": "p02-14.png",
+      "emoji": "🖼️"
      },
      {
-      "en": "Information Technology (IT)",
-      "tr": "Bilişim Teknolojileri",
-      "img": "p05-11.png",
-      "emoji": "💻"
+      "en": "glue",
+      "tr": "yapıştırıcı",
+      "img": "p02-12.png",
+      "emoji": "🧴"
      }
     ]
    }
@@ -1430,6 +1470,20 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
+      "en": "bookshelf",
+      "tr": "kitap rafı",
+      "img": "p02-19.png",
+      "emoji": "📚",
+      "audio": "/app/audio/words/bookshelf.wav"
+     },
+     {
+      "en": "coloured pencil",
+      "tr": "renkli kalem",
+      "img": "p02-03.png",
+      "emoji": "🖍️",
+      "audio": "/app/audio/words/coloured-pencil.wav"
+     },
+     {
       "en": "Art",
       "tr": "Görsel Sanatlar",
       "img": "p05-06.png",
@@ -1437,25 +1491,11 @@
       "audio": "/app/audio/words/art.wav"
      },
      {
-      "en": "Maths",
-      "tr": "Matematik",
-      "img": "p05-01.png",
-      "emoji": "➗",
-      "audio": "/app/audio/words/maths.wav"
-     },
-     {
-      "en": "Turkish",
-      "tr": "Türkçe",
-      "img": "p05-05.png",
-      "emoji": "📖",
-      "audio": "/app/audio/words/turkish.wav"
-     },
-     {
-      "en": "Physical Education (P.E.)",
-      "tr": "Beden Eğitimi",
-      "img": "p05-09.png",
-      "emoji": "⚽",
-      "audio": "/app/audio/words/physical-education-p-e.wav"
+      "en": "material",
+      "tr": "materyal",
+      "img": "p02-10.png",
+      "emoji": "📦",
+      "audio": "/app/audio/words/material.wav"
      }
     ]
    }

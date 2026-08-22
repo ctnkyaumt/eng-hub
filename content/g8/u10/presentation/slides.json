@@ -364,7 +364,8 @@
    "examples": [
     {
      "en": "There *will* be a storm tomorrow.",
-     "tr": "Yarın fırtına olacak."
+     "tr": "Yarın fırtına olacak.",
+     "emoji": "⛈️"
     },
     {
      "en": "The river *won't* flood this year.",
@@ -373,11 +374,13 @@
     },
     {
      "en": "It *might* snow in the mountains.",
-     "tr": "Dağlarda kar yağabilir."
+     "tr": "Dağlarda kar yağabilir.",
+     "emoji": "🌨️"
     },
     {
      "en": "Scientists *may* predict earthquakes one day.",
-     "tr": "Bilim insanları bir gün depremleri tahmin edebilir."
+     "tr": "Bilim insanları bir gün depremleri tahmin edebilir.",
+     "emoji": "📅"
     }
    ]
   },
@@ -425,11 +428,13 @@
     },
     {
      "en": "*If* you stay calm, you *will* be safer.",
-     "tr": "Sakin kalırsan daha güvende olursun."
+     "tr": "Sakin kalırsan daha güvende olursun.",
+     "emoji": "🧘"
     },
     {
      "en": "The soil *will* dry *if* it doesn't rain.",
-     "tr": "Yağmur yağmazsa toprak kurur."
+     "tr": "Yağmur yağmazsa toprak kurur.",
+     "emoji": "🔀"
     }
    ]
   },
@@ -461,7 +466,8 @@
    "examples": [
     {
      "en": "You *should* keep an emergency bag ready.",
-     "tr": "Hazır bir afet çantası bulundurmalısın."
+     "tr": "Hazır bir afet çantası bulundurmalısın.",
+     "emoji": "🚨"
     },
     {
      "en": "You *shouldn't* use the lift during an earthquake.",
@@ -470,11 +476,13 @@
     },
     {
      "en": "*Stay away* from windows.",
-     "tr": "Pencerelerden uzak dur."
+     "tr": "Pencerelerden uzak dur.",
+     "emoji": "🪟"
     },
     {
      "en": "*Don't panic* and follow the instructions.",
-     "tr": "Panik yapma ve talimatlara uy."
+     "tr": "Panik yapma ve talimatlara uy.",
+     "emoji": "🧘"
     }
    ]
   },

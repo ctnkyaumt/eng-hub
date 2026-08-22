@@ -263,7 +263,7 @@
     {
      "en": "busy",
      "tr": "meşgul",
-     "emoji": "📅"
+     "emoji": "🚫"
     },
     {
      "en": "full",
@@ -561,19 +561,23 @@
    "examples": [
     {
      "en": "*Would you like to* come to my birthday party?",
-     "tr": "Doğum günü partime gelmek ister misin?"
+     "tr": "Doğum günü partime gelmek ister misin?",
+     "emoji": "🎉"
     },
     {
      "en": "*How about* going to the cinema tonight?",
-     "tr": "Bu akşam sinemaya gitmeye ne dersin?"
+     "tr": "Bu akşam sinemaya gitmeye ne dersin?",
+     "emoji": "🎬"
     },
     {
      "en": "*Let's* study together at the library.",
-     "tr": "Hadi kütüphanede birlikte çalışalım."
+     "tr": "Hadi kütüphanede birlikte çalışalım.",
+     "emoji": "📚"
     },
     {
      "en": "*Why don't we* play basketball after school?",
-     "tr": "Okuldan sonra neden basketbol oynamıyoruz?"
+     "tr": "Okuldan sonra neden basketbol oynamıyoruz?",
+     "emoji": "🏀"
     }
    ]
   },
@@ -609,15 +613,18 @@
      "examples": [
       {
        "en": "*I'd love to*, thanks!",
-       "tr": "Çok isterim, teşekkürler!"
+       "tr": "Çok isterim, teşekkürler!",
+       "emoji": "💬"
       },
       {
        "en": "*Sure*, that sounds great.",
-       "tr": "Tabii, kulağa harika geliyor."
+       "tr": "Tabii, kulağa harika geliyor.",
+       "emoji": "💬"
       },
       {
        "en": "*Of course*, I'll be there.",
-       "tr": "Elbette, orada olacağım."
+       "tr": "Elbette, orada olacağım.",
+       "emoji": "💬"
       }
      ]
     },
@@ -627,15 +634,18 @@
      "examples": [
       {
        "en": "*I'm sorry*, I can't. I have to study.",
-       "tr": "Üzgünüm, gelemem. Ders çalışmam gerek."
+       "tr": "Üzgünüm, gelemem. Ders çalışmam gerek.",
+       "emoji": "📚"
       },
       {
        "en": "*I'd love to, but* I'm busy tomorrow.",
-       "tr": "Çok isterdim ama yarın meşgulüm."
+       "tr": "Çok isterdim ama yarın meşgulüm.",
+       "emoji": "🚫"
       },
       {
        "en": "*Maybe next time*, I'm not feeling well.",
-       "tr": "Belki başka zaman, kendimi iyi hissetmiyorum."
+       "tr": "Belki başka zaman, kendimi iyi hissetmiyorum.",
+       "emoji": "🕒"
       }
      ]
     }

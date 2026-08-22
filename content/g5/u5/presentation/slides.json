@@ -261,7 +261,7 @@
     {
      "en": "experience",
      "tr": "deneyimlemek",
-     "emoji": "✨"
+     "emoji": "🗺️"
     },
     {
      "en": "attend",
@@ -551,27 +551,32 @@
     {
      "en": "flat / apartment",
      "tr": "daire",
-     "emoji": "🏢"
+     "emoji": "🏢",
+     "img": "p02-01.png"
     },
     {
      "en": "sitting / living room",
      "tr": "oturma odası",
-     "emoji": "🛋️"
+     "emoji": "🛋️",
+     "img": "p02-02.png"
     },
     {
      "en": "bedroom",
      "tr": "yatak odası",
-     "emoji": "🛏️"
+     "emoji": "🛏️",
+     "img": "p02-03.png"
     },
     {
      "en": "dining room",
      "tr": "yemek odası",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "p02-04.png"
     },
     {
      "en": "kitchen",
      "tr": "mutfak",
-     "emoji": "🍳"
+     "emoji": "🍳",
+     "img": "p02-05.png"
     },
     {
      "en": "bathroom",
@@ -597,7 +602,8 @@
     {
      "en": "garden",
      "tr": "bahçe",
-     "emoji": "🌷"
+     "emoji": "🌷",
+     "img": "p02-06.png"
     },
     {
      "en": "garage",
@@ -607,27 +613,32 @@
     {
      "en": "balcony",
      "tr": "balkon",
-     "emoji": "🪴"
+     "emoji": "🪴",
+     "img": "p02-07.png"
     },
     {
      "en": "terrace",
      "tr": "teras",
-     "emoji": "☂️"
+     "emoji": "☂️",
+     "img": "p02-08.png"
     },
     {
      "en": "corridor / hallway",
      "tr": "koridor",
-     "emoji": "🚶"
+     "emoji": "🚶",
+     "img": "p02-09.png"
     },
     {
      "en": "floor",
      "tr": "kat / zemin",
-     "emoji": "🔢"
+     "emoji": "🔢",
+     "img": "p02-10.png"
     },
     {
      "en": "ground",
      "tr": "zemin",
-     "emoji": "🟫"
+     "emoji": "🟫",
+     "img": "p02-11.png"
     }
    ],
    "part": [
@@ -643,32 +654,38 @@
     {
      "en": "roof",
      "tr": "çatı",
-     "emoji": "🏠"
+     "emoji": "🏠",
+     "img": "p02-12.png"
     },
     {
      "en": "stairs",
      "tr": "merdiven",
-     "emoji": "🪜"
+     "emoji": "🪜",
+     "img": "p02-13.png"
     },
     {
      "en": "lift / elevator",
      "tr": "asansör",
-     "emoji": "🛗"
+     "emoji": "🛗",
+     "img": "p02-14.png"
     },
     {
      "en": "wall",
      "tr": "duvar",
-     "emoji": "🧱"
+     "emoji": "🧱",
+     "img": "p02-15.png"
     },
     {
      "en": "window",
      "tr": "pencere",
-     "emoji": "🪟"
+     "emoji": "🪟",
+     "img": "p02-16.png"
     },
     {
      "en": "door",
      "tr": "kapı",
-     "emoji": "🚪"
+     "emoji": "🚪",
+     "img": "p02-17.png"
     }
    ],
    "part": [
@@ -682,33 +699,24 @@
    "titleTr": "Use what you just learned · Parts of a House",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"flat / apartment\" means \"yemek odası\".",
-     "answer": false,
-     "explain": "flat / apartment = daire"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-13.png",
+     "answer": "stairs",
+     "tr": "merdiven",
+     "options": [
+      "stairs",
+      "flat / apartment",
+      "bedroom",
+      "balcony"
+     ]
     },
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "ground",
-       "b": "zemin"
-      },
-      {
-       "a": "balcony",
-       "b": "balkon"
-      },
-      {
-       "a": "garden",
-       "b": "bahçe"
-      },
-      {
-       "a": "bedroom",
-       "b": "yatak odası"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"terrace\" means \"koridor\".",
+     "answer": false,
+     "explain": "terrace = teras"
     }
    ]
   },
@@ -720,27 +728,32 @@
     {
      "en": "sofa",
      "tr": "kanepe",
-     "emoji": "🛋️"
+     "emoji": "🛋️",
+     "img": "p02-18.png"
     },
     {
      "en": "armchair",
      "tr": "koltuk",
-     "emoji": "🪑"
+     "emoji": "🪑",
+     "img": "p02-19.png"
     },
     {
      "en": "chair",
      "tr": "sandalye",
-     "emoji": "🪑"
+     "emoji": "🪑",
+     "img": "p02-20.png"
     },
     {
      "en": "table",
      "tr": "masa",
-     "emoji": "🪵"
+     "emoji": "🪵",
+     "img": "p02-21.png"
     },
     {
      "en": "bed",
      "tr": "yatak",
-     "emoji": "🛏️"
+     "emoji": "🛏️",
+     "img": "p02-22.png"
     },
     {
      "en": "bookcase",
@@ -855,28 +868,35 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "spoon",
-       "b": "kaşık"
+       "a": "oven",
+       "b": "fırın"
       },
       {
-       "a": "armchair",
-       "b": "koltuk"
+       "a": "fork",
+       "b": "çatal"
       },
       {
-       "a": "bookcase",
-       "b": "kitaplık"
+       "a": "lamp",
+       "b": "lamba"
       },
       {
-       "a": "bed",
-       "b": "yatak"
+       "a": "fridge",
+       "b": "buzdolabı"
       }
      ]
     },
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "fırın",
-     "answer": "oven"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-18.png",
+     "answer": "sofa",
+     "tr": "kanepe",
+     "options": [
+      "sofa",
+      "knife",
+      "bed",
+      "bath"
+     ]
     }
    ]
   },
@@ -891,15 +911,19 @@
      "examples": [
       {
        "en": "*There is* a wide sofa in the living room.",
-       "tr": "Oturma odasında geniş bir kanepe var."
+       "tr": "Oturma odasında geniş bir kanepe var.",
+       "emoji": "↔️"
       },
       {
        "en": "*There are* two fridges in the kitchen.",
-       "tr": "Mutfakta iki buzdolabı var."
+       "tr": "Mutfakta iki buzdolabı var.",
+       "img": "p02-05.png",
+       "emoji": "🍳"
       },
       {
        "en": "*Is there* an elevator in your apartment?",
-       "tr": "Sizin apartmanınızda bir asansör var mı?"
+       "tr": "Sizin apartmanınızda bir asansör var mı?",
+       "emoji": "🛗"
       }
      ]
     },
@@ -909,15 +933,21 @@
      "examples": [
       {
        "en": "*There isn't* a terrace in our house.",
-       "tr": "Evimizde bir teras yok."
+       "tr": "Evimizde bir teras yok.",
+       "img": "p02-08.png",
+       "emoji": "☂️"
       },
       {
        "en": "*There aren't* two beds in the bedroom.",
-       "tr": "Yatak odasında iki yatak yok."
+       "tr": "Yatak odasında iki yatak yok.",
+       "img": "p02-03.png",
+       "emoji": "🛏️"
       },
       {
        "en": "*Are there* seven chairs in the kitchen?",
-       "tr": "Mutfakta yedi sandalye var mı?"
+       "tr": "Mutfakta yedi sandalye var mı?",
+       "img": "p02-05.png",
+       "emoji": "🍳"
       }
      ]
     }
@@ -951,19 +981,26 @@
    "examples": [
     {
      "en": "This is Emre*'s* armchair.",
-     "tr": "Bu Emre'nin koltuğu."
+     "tr": "Bu Emre'nin koltuğu.",
+     "img": "p02-19.png",
+     "emoji": "🪑"
     },
     {
      "en": "This is Damla*'s* bookcase.",
-     "tr": "Bu Damla'nın kitaplığı."
+     "tr": "Bu Damla'nın kitaplığı.",
+     "emoji": "📚"
     },
     {
      "en": "The teachers*'* cars are in the garden.",
-     "tr": "Öğretmenlerin arabaları bahçede."
+     "tr": "Öğretmenlerin arabaları bahçede.",
+     "img": "p02-06.png",
+     "emoji": "🌷"
     },
     {
      "en": "This is my parents*'* bedroom.",
-     "tr": "Bu anne-babamın yatak odası."
+     "tr": "Bu anne-babamın yatak odası.",
+     "img": "p02-03.png",
+     "emoji": "🛏️"
     }
    ]
   },
@@ -1095,15 +1132,18 @@
     },
     {
      "en": "He *fishes* in the lake.",
-     "tr": "O gölde balık tutar."
+     "tr": "O gölde balık tutar.",
+     "emoji": "🎣"
     },
     {
      "en": "She *goes* to Paris in summer.",
-     "tr": "O yazın Paris'e gider."
+     "tr": "O yazın Paris'e gider.",
+     "emoji": "🗼"
     },
     {
      "en": "You *don't* tell jokes.",
-     "tr": "Sen şaka yapmazsın."
+     "tr": "Sen şaka yapmazsın.",
+     "emoji": "😂"
     },
     {
      "en": "She *doesn't* go to the cinema.",
@@ -1112,7 +1152,8 @@
     },
     {
      "en": "*Do* you like street fairs? — Yes, I do.",
-     "tr": "Sokak panayırlarını sever misin? — Evet."
+     "tr": "Sokak panayırlarını sever misin? — Evet.",
+     "emoji": "🎪"
     },
     {
      "en": "*Does* Mert go to the gym? — No, he doesn't.",
@@ -1149,39 +1190,49 @@
    "examples": [
     {
      "en": "small → small*er*",
-     "tr": "tek heceli"
+     "tr": "tek heceli",
+     "emoji": "🐜"
     },
     {
      "en": "wide → wide*r*",
-     "tr": "e ile biten"
+     "tr": "e ile biten",
+     "emoji": "↔️"
     },
     {
      "en": "big → big*ger*",
-     "tr": "sessiz-sesli-sessiz"
+     "tr": "sessiz-sesli-sessiz",
+     "emoji": "🐘"
     },
     {
      "en": "heavy → heav*ier*",
-     "tr": "sessiz + y"
+     "tr": "sessiz + y",
+     "emoji": "🏋️"
     },
     {
      "en": "crowded → *more* crowded",
-     "tr": "iki+ heceli"
+     "tr": "iki+ heceli",
+     "emoji": "👥"
     },
     {
      "en": "good → *better*  ·  bad → *worse*  ·  much/many → *more*  ·  little → *less*  ·  far → *farther*",
-     "tr": "düzensiz sıfatlar"
+     "tr": "düzensiz sıfatlar",
+     "emoji": "⚖️"
     },
     {
      "en": "The sofa is *more comfortable than* the armchair.",
-     "tr": "Kanepe, koltuktan daha rahat."
+     "tr": "Kanepe, koltuktan daha rahat.",
+     "emoji": "😌"
     },
     {
      "en": "My flat is *closer than* your flat.",
-     "tr": "Benim dairem, senin dairenden daha yakın."
+     "tr": "Benim dairem, senin dairenden daha yakın.",
+     "emoji": "⚖️"
     },
     {
      "en": "The terrace is *bigger than* the balcony.",
-     "tr": "Teras, balkondan daha büyük."
+     "tr": "Teras, balkondan daha büyük.",
+     "img": "p02-07.png",
+     "emoji": "🪴"
     },
     {
      "en": "City life is *better than* town life.",
@@ -1263,16 +1314,10 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "coast",
-      "tr": "sahil",
-      "img": "p01-05.png",
-      "emoji": "🏖️"
-     },
-     {
-      "en": "castle",
-      "tr": "kale",
-      "img": "p01-03.png",
-      "emoji": "🏰"
+      "en": "skyscraper",
+      "tr": "gökdelen",
+      "img": "p01-14.png",
+      "emoji": "🏢"
      },
      {
       "en": "corner",
@@ -1281,10 +1326,16 @@
       "emoji": "📐"
      },
      {
-      "en": "hall",
-      "tr": "salon",
-      "img": "p01-09.png",
-      "emoji": "🚪"
+      "en": "garden",
+      "tr": "bahçe",
+      "img": "p02-06.png",
+      "emoji": "🌷"
+     },
+     {
+      "en": "window",
+      "tr": "pencere",
+      "img": "p02-16.png",
+      "emoji": "🪟"
      }
     ]
    }
@@ -1302,20 +1353,6 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "playground",
-      "tr": "oyun alanı",
-      "img": "p01-12.png",
-      "emoji": "🛝",
-      "audio": "/app/audio/words/playground.wav"
-     },
-     {
-      "en": "shop / store",
-      "tr": "dükkan",
-      "img": "p01-13.png",
-      "emoji": "🏪",
-      "audio": "/app/audio/words/shop-store.wav"
-     },
-     {
       "en": "street fair",
       "tr": "sokak panayırı",
       "img": "p01-17.png",
@@ -1323,11 +1360,25 @@
       "audio": "/app/audio/words/street-fair.wav"
      },
      {
-      "en": "sports centre",
-      "tr": "spor merkezi",
-      "img": "p01-15.png",
-      "emoji": "🏟️",
-      "audio": "/app/audio/words/sports-centre.wav"
+      "en": "art gallery",
+      "tr": "sanat galerisi",
+      "img": "p01-02.png",
+      "emoji": "🖼️",
+      "audio": "/app/audio/words/art-gallery.wav"
+     },
+     {
+      "en": "castle",
+      "tr": "kale",
+      "img": "p01-03.png",
+      "emoji": "🏰",
+      "audio": "/app/audio/words/castle.wav"
+     },
+     {
+      "en": "table",
+      "tr": "masa",
+      "img": "p02-21.png",
+      "emoji": "🪵",
+      "audio": "/app/audio/words/table.wav"
      }
     ]
    }
@@ -1345,16 +1396,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
+      "answer": "I go to the playground every day.",
+      "tr": "Her gün oyun alanına giderim."
+     },
+     {
+      "answer": "She goes to Paris in summer.",
+      "tr": "O yazın Paris'e gider."
+     },
+     {
       "answer": "Is there an elevator in your apartment?",
       "tr": "Sizin apartmanınızda bir asansör var mı?"
-     },
-     {
-      "answer": "He fishes in the lake.",
-      "tr": "O gölde balık tutar."
-     },
-     {
-      "answer": "City life is better than town life.",
-      "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir."
      }
     ]
    }

@@ -466,19 +466,23 @@
    "examples": [
     {
      "en": "I *have to* tidy my room every weekend.",
-     "tr": "Her hafta sonu odamı toplamak zorundayım."
+     "tr": "Her hafta sonu odamı toplamak zorundayım.",
+     "emoji": "📋"
     },
     {
      "en": "He *has to* walk the dog after school.",
-     "tr": "Okuldan sonra köpeği gezdirmek zorunda."
+     "tr": "Okuldan sonra köpeği gezdirmek zorunda.",
+     "emoji": "🏫"
     },
     {
      "en": "We *don't have to* do the dishes today.",
-     "tr": "Bugün bulaşık yıkamak zorunda değiliz."
+     "tr": "Bugün bulaşık yıkamak zorunda değiliz.",
+     "emoji": "📋"
     },
     {
      "en": "*Do* you *have to* help your mother?",
-     "tr": "Annene yardım etmek zorunda mısın?"
+     "tr": "Annene yardım etmek zorunda mısın?",
+     "emoji": "📋"
     }
    ]
   },
@@ -527,7 +531,8 @@
     },
     {
      "en": "*Would you mind* taking out the rubbish?",
-     "tr": "Çöpü çıkarır mısın?"
+     "tr": "Çöpü çıkarır mısın?",
+     "emoji": "🗑️"
     },
     {
      "en": "*Shall I* set the table?",
@@ -536,7 +541,8 @@
     },
     {
      "en": "Can you *give me a hand* in the kitchen?",
-     "tr": "Mutfakta bana el atar mısın?"
+     "tr": "Mutfakta bana el atar mısın?",
+     "emoji": "🙋"
     }
    ]
   },
@@ -571,15 +577,18 @@
      "examples": [
       {
        "en": "*Sure*, no problem.",
-       "tr": "Tabii, sorun değil."
+       "tr": "Tabii, sorun değil.",
+       "emoji": "💬"
       },
       {
        "en": "*Of course*, I'll do it now.",
-       "tr": "Elbette, şimdi yaparım."
+       "tr": "Elbette, şimdi yaparım.",
+       "emoji": "💬"
       },
       {
        "en": "*All right*, I'm coming.",
-       "tr": "Peki, geliyorum."
+       "tr": "Peki, geliyorum.",
+       "emoji": "💬"
       }
      ]
     },
@@ -589,15 +598,18 @@
      "examples": [
       {
        "en": "*Sorry*, I'm busy at the moment.",
-       "tr": "Üzgünüm, şu anda meşgulüm."
+       "tr": "Üzgünüm, şu anda meşgulüm.",
+       "emoji": "💬"
       },
       {
        "en": "*I'm afraid* I can't right now.",
-       "tr": "Korkarım şu an yapamam."
+       "tr": "Korkarım şu an yapamam.",
+       "emoji": "💬"
       },
       {
        "en": "*Not now*, I have to finish my homework.",
-       "tr": "Şimdi olmaz, ödevimi bitirmem gerek."
+       "tr": "Şimdi olmaz, ödevimi bitirmem gerek.",
+       "emoji": "📚"
       }
      ]
     }

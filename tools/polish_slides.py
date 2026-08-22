@@ -67,6 +67,62 @@ MAX_CARDS = 8    # four wide cards x two rows keeps pictures classroom-sized
 MAX_TASKS = 2    # practice tasks per slide - more than this and they shrink
 BACK = chr(92)
 
+# Context pictures for examples that do not repeat a vocabulary-card phrase.
+# Specific content wins; title icons are reserved for grammatical formulae.
+EXAMPLE_ICON_RULES = [
+    (r"\borange\b", "🍊"), (r"\bapples?\b", "🍎"),
+    (r"\bumbrella\b", "☂️"), (r"\bsun\b|\bsunny\b", "☀️"),
+    (r"\bcinema\b|\bfilms?\b", "🎬"), (r"\bbasketball\b", "🏀"),
+    (r"\bdraw(?:ing)?\b|\bpictures?\b", "🎨"), (r"\blisten\b", "👂"),
+    (r"\braise your hand\b", "✋"), (r"\bquiet(?:ly)?\b", "🤫"),
+    (r"\brubbish\b|\bgarbage\b", "🗑️"), (r"\brun\b", "🏃"),
+    (r"\btime\b|\bo'clock\b|\ba\.m\.\b|\bp\.m\.\b", "🕒"),
+    (r"\bgo to bed\b|\bsleep(?:ing)?\b", "🛏️"),
+    (r"\bschool\b|\bclass(?:room)?\b", "🏫"),
+    (r"\bday\b|\bweek\b|\bmonth\b|\byear\b|\bjanuary\b", "📅"),
+    (r"\bwatch(?:es|ing)?\b.*\btv\b", "📺"), (r"\bguitar\b", "🎸"),
+    (r"\bhomework\b|\bstudy(?:ing)?\b", "📚"), (r"\bcook(?:ing)?\b", "🍳"),
+    (r"\bswim(?:ming)?\b", "🏊"), (r"\bpicnic\b", "🧺"),
+    (r"\bfish(?:es|ing)?\b", "🎣"), (r"\bteeth\b", "🪥"),
+    (r"\belevator\b|\blift\b", "🛗"), (r"\bparis\b", "🗼"),
+    (r"\bjokes?\b", "😂"), (r"\bstreet fairs?\b", "🎪"),
+    (r"\btomatoes?\b", "🍅"), (r"\bcoffee\b", "☕"),
+    (r"\blions?\b", "🦁"), (r"\bbears?\b", "🐻"),
+    (r"\belephants?\b", "🐘"), (r"\bcrocodiles?\b", "🐊"),
+    (r"\bwhales?\b", "🐋"), (r"\bgiraffes?\b", "🦒"),
+    (r"\bbirthday\b|\bparty\b", "🎉"), (r"\bnot feeling well\b", "🤒"),
+    (r"\bsnow\b|\bweather\b", "🌨️"), (r"\bearthquakes?\b", "🏚️"),
+    (r"\bstay calm\b|\bdon't panic\b", "🧘"), (r"\bwindows?\b", "🪟"),
+    (r"\bphone\b|\bmessage\b", "☎️"), (r"\blog in\b|\busername\b|\bpassword\b", "🔐"),
+    (r"\be-?mail\b|\blink\b", "🔗"), (r"\bfriend requests?\b|\bstrangers?\b", "👥"),
+    (r"\bguide\b", "🧭"), (r"\bclimb(?:ing)?\b", "🧗"),
+    (r"\bdivers?\b|\bscuba diving\b", "🤿"), (r"\bhotel\b", "🏨"),
+    (r"\bantalya\b|\bplane\b", "✈️"), (r"\bphotographs?\b", "📷"),
+    (r"\blaboratory\b|\bexperiments?\b", "🧪"), (r"\bscientists?\b", "🔬"),
+    (r"\bmedicines?\b|\bpenicillin\b", "💊"), (r"\btelephone\b", "☎️"),
+    (r"\bpyramids?\b", "🔺"), (r"\breport\b|\bwritten\b", "📄"),
+]
+
+TITLE_ICONS = {
+    "A / AN / THE": "🔤", "Classroom Rules": "🏫", "a.m. / p.m.": "🕒",
+    "There is / There are": "🏠", "Time Expressions": "📅",
+    "Simple Present — Positive": "🔁", "Simple Present": "🔁",
+    "Simple Present — Routines": "🔁", "Negative & Question": "❓",
+    "Question Tags": "💬", "Present Continuous — -ing": "🎬",
+    "Present Continuous": "🎬", "Simple Present vs Present Continuous": "⏱️",
+    "Comparative Adjectives": "⚖️", "Superlative Adjectives": "🏆",
+    "Making Invitations": "💌", "Accepting & Refusing": "💬",
+    "Accepting & Refusing Requests": "💬", "Predictions with will": "🔮",
+    "If Clauses (Type 1)": "🔀", "Giving Advice in a Disaster": "🛡️",
+    "Preferences": "❤️", "How often ...?": "🔁", "Imperatives in Recipes": "👩‍🍳",
+    "Sequencing Words": "1️⃣", "How much / How many": "🔢",
+    "On the Phone": "☎️", "Asking for Help": "🙋", "Giving Instructions": "📋",
+    "Internet Safety": "🛡️", "should / shouldn't": "🛡️", "must / mustn't": "⚠️",
+    "Comparing Adventures": "⚖️", "Simple Past — Regular": "⏮️",
+    "Simple Past — Irregular": "⏮️", "have to / has to": "📋",
+    "Passive Voice — Present": "⚙️", "Passive Voice — Past": "🏛️",
+}
+
 # The Grade-8 glossary extras arrive from third-party activity banks without
 # icons.  Every current card gets an intentional, topic-specific pictogram;
 # real, hand-checked photos already linked to a card always take precedence.
@@ -95,7 +151,7 @@ VISUALS = {
     "roll": "🌀", "season": "🧂", "shape": "🔷", "sprinkle": "✨",
     "place": "📍", "preheat": "🔥", "prepare": "👩‍🍳", "put": "👇",
     "remove": "📤", "rinse": "🚿", "roast": "🍗", "knead": "🥖",
-    "make it rest": "⏲️", "make the dough": "🥖",
+    "make it rest": "⏲️", "make the dough": "🥣",
     "melt": "💧",
 
     # Unit 4 - On the phone
@@ -118,14 +174,14 @@ VISUALS = {
     "height": "📏", "helmet": "⛑️", "hill": "⛰️",
     "historical sites": "🏛️", "hot air balloon": "🎈", "ice skating": "⛸️",
     "include": "➕", "incredible": "🤯", "individually": "👤",
-    "diving suit": "🤿", "equipment": "🎒", "experience": "🧗",
+    "diving suit": "🤿", "equipment": "🎒", "experience": "🗺️",
     "experienced": "🏅", "explore": "🧭", "extreme sport": "🧗",
     "feel": "🙂", "fighting": "🥊",
 
     # Unit 7 - Tourism
     "taste": "👅", "terrible / awful": "😖", "tradition": "🧿",
     "truly": "💯", "unbelievable / incredible": "🤯", "visit": "📍",
-    "rich": "💰", "sightseeing": "🚌", "summer": "☀️",
+    "rich": "💰", "sightseeing": "🚌", "summer": "🌻",
     "sunbath": "🏖️", "sunbathe": "🏖️", "sunny": "☀️",
     "mysterious": "🔮", "natural": "🌿", "palace": "🏰",
     "peaceful": "🕊️", "rainy": "🌧️", "relaxing": "😌",
@@ -167,10 +223,15 @@ def ensure_visuals(slides):
         if slide.get("type") != "vocab":
             continue
         for item in slide.get("items", []):
-            if item.get("img") or (item.get("emoji") and item.get("emoji") != "🧩") or is_number(item):
+            if item.get("img"):
                 continue
             word = (item.get("en") or "").strip().lower()
             icon = VISUALS.get(word)
+            if icon:
+                item["emoji"] = icon
+                continue
+            if (item.get("emoji") and item.get("emoji") != "🧩") or is_number(item):
+                continue
             if not icon:
                 # This visible fallback makes a newly imported word impossible
                 # to miss during QA; verify_lessons.py rejects it.
@@ -192,15 +253,24 @@ def starred_examples(slide):
     return out
 
 
-def pic_index(slides):
-    """english word -> its picture, so examples and tasks can show it"""
+def visual_index(slides):
+    """English word -> reviewed visual, so every example can show context."""
     out = {}
     for s in slides:
         if s.get("type") == "vocab":
             for it in s.get("items", []):
-                if it.get("img"):
-                    out.setdefault(it["en"].lower(), (it["img"], it["tr"]))
+                visual = {key: it[key] for key in ("img", "emoji", "num") if key in it}
+                if visual:
+                    out.setdefault(it["en"].lower(), visual)
     return out
+
+
+def example_icon(title, text):
+    plain = STAR.sub(BACK + "1", text or "").lower()
+    for pattern, icon in EXAMPLE_ICON_RULES:
+        if re.search(pattern, plain):
+            return icon
+    return TITLE_ICONS.get(title, "📝")
 
 
 def choose_tasks(candidates, preferred):
@@ -498,7 +568,7 @@ def polish(path, dry):
 
     body = merge_parts(body)
     generic_visuals = ensure_visuals(body)
-    pics = pic_index(body)
+    visuals = visual_index(body)
     thin = []
     out = []
     activity_no = 0
@@ -509,10 +579,15 @@ def polish(path, dry):
             pools += col.get("examples") or []
         for e in pools:
             plain = STAR.sub(BACK+"1", e.get("en", "")).lower()
-            hit = max((w for w in pics if re.search(BACK+"b"+re.escape(w)+BACK+"b", plain)),
+            hit = max((w for w in visuals if re.search(r"(?<![a-z])" + re.escape(w) + r"(?![a-z])", plain)),
                       key=len, default=None)
-            if hit:
-                e["img"] = pics[hit][0]
+            if not e.get("img"):
+                e.pop("emoji", None)
+                e.pop("num", None)
+                if hit:
+                    e.update(visuals[hit])
+                else:
+                    e["emoji"] = example_icon(s.get("title"), e.get("en"))
         if s["type"] in ("grammar", "compare") and len(pools) < 3:
             thin.append(s.get("title"))
         # digits render as keycaps instead of the unreadable numbers emoji

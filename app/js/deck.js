@@ -7,7 +7,7 @@
 --------------------------------------------------------------------------- */
 import { getSites, getSlides, getUnit, unitPath } from "./store.js";
 import { el, mount, setCrumbs, beep, toast } from "./ui.js";
-import { speakEnglish, taskNode } from "./exercises.js";
+import { playEnglish, taskNode, wordAudioPath } from "./exercises.js";
 
 if (!document.querySelector('link[href="/app/css/deck.css"]')) {
   document.head.append(el("link", { rel: "stylesheet", href: "/app/css/deck.css" }));
@@ -295,8 +295,15 @@ function head(s) {
 }
 
 function exNode(e, ctx) {
-  return el("div", { class: "ex step" + (e.img ? " with-pic" : "") }, [
-    e.img ? el("img", { class: "ex-pic", src: imgUrl(e.img, ctx), alt: "" }) : null,
+  const media = e.img
+    ? el("img", { class: "ex-pic", src: imgUrl(e.img, ctx), alt: "" })
+    : e.num !== undefined
+      ? el("span", { class: "ex-pic ex-keycaps" }, [keycaps(e.num)])
+      : e.emoji
+        ? el("span", { class: "ex-pic ex-emoji", text: e.emoji })
+        : null;
+  return el("div", { class: "ex step" + (media ? " with-pic" : "") }, [
+    media,
     el("div", {}, [
       el("div", { class: "en", html: (e.en || "").replace(/\*(.+?)\*/g, "<em>$1</em>") }),
       e.tr ? el("div", { class: "tr", text: e.tr }) : null,
@@ -383,9 +390,11 @@ function render(s, ctx) {
             el("button", {
               class: "speak-word", type: "button", title: `Listen to “${v.en}”`,
               "aria-label": `Listen to ${v.en}`, text: "🔊",
-              onclick: (e) => {
+              onclick: async (e) => {
                 e.stopPropagation();
-                if (!speakEnglish(v.en)) toast("Bu cihazda çevrimdışı İngilizce ses bulunamadı.", true);
+                if (!await playEnglish({ en: v.en, audio: wordAudioPath(v.en) })) {
+                  toast("Bu kelime için çevrimdışı ses bulunamadı.", true);
+                }
               },
             }),
             el("div", { class: "en", text: v.en }),

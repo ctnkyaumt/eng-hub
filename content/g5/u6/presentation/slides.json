@@ -106,37 +106,44 @@
     {
      "en": "pepper",
      "tr": "biber",
-     "emoji": "🌶️"
+     "emoji": "🌶️",
+     "img": "p01-13.png"
     },
     {
      "en": "cucumber",
      "tr": "salatalık",
-     "emoji": "🥒"
+     "emoji": "🥒",
+     "img": "p01-14.png"
     },
     {
      "en": "tomato",
      "tr": "domates",
-     "emoji": "🍅"
+     "emoji": "🍅",
+     "img": "p01-15.png"
     },
     {
      "en": "beans",
      "tr": "fasulye",
-     "emoji": "🫘"
+     "emoji": "🫘",
+     "img": "p01-16.png"
     },
     {
      "en": "garlic",
      "tr": "sarımsak",
-     "emoji": "🧄"
+     "emoji": "🧄",
+     "img": "p01-17.png"
     },
     {
      "en": "mushroom",
      "tr": "mantar",
-     "emoji": "🍄"
+     "emoji": "🍄",
+     "img": "p01-18.png"
     },
     {
      "en": "lettuce",
      "tr": "marul",
-     "emoji": "🥬"
+     "emoji": "🥬",
+     "img": "p01-19.png"
     }
    ],
    "part": [
@@ -152,37 +159,44 @@
     {
      "en": "corn",
      "tr": "mısır",
-     "emoji": "🌽"
+     "emoji": "🌽",
+     "img": "p01-20.png"
     },
     {
      "en": "lentil",
      "tr": "mercimek",
-     "emoji": "🫘"
+     "emoji": "🫘",
+     "img": "p01-21.png"
     },
     {
      "en": "cinnamon",
      "tr": "tarçın",
-     "emoji": "🪵"
+     "emoji": "🪵",
+     "img": "p01-22.png"
     },
     {
      "en": "olives",
      "tr": "zeytin",
-     "emoji": "🫒"
+     "emoji": "🫒",
+     "img": "p01-23.png"
     },
     {
      "en": "lemon",
      "tr": "limon",
-     "emoji": "🍋"
+     "emoji": "🍋",
+     "img": "p01-24.png"
     },
     {
      "en": "apple",
      "tr": "elma",
-     "emoji": "🍎"
+     "emoji": "🍎",
+     "img": "p01-25.png"
     },
     {
      "en": "meat",
      "tr": "et",
-     "emoji": "🥩"
+     "emoji": "🥩",
+     "img": "p01-26.png"
     }
    ],
    "part": [
@@ -198,32 +212,38 @@
     {
      "en": "beef",
      "tr": "dana eti",
-     "emoji": "🥩"
+     "emoji": "🥩",
+     "img": "p01-27.png"
     },
     {
      "en": "fish",
      "tr": "balık eti",
-     "emoji": "🐟"
+     "emoji": "🐟",
+     "img": "p01-28.png"
     },
     {
      "en": "tuna",
      "tr": "ton balığı",
-     "emoji": "🥫"
+     "emoji": "🥫",
+     "img": "p01-29.png"
     },
     {
      "en": "oil",
      "tr": "yağ",
-     "emoji": "🫗"
+     "emoji": "🫗",
+     "img": "p01-30.png"
     },
     {
      "en": "egg",
      "tr": "yumurta",
-     "emoji": "🥚"
+     "emoji": "🥚",
+     "img": "p01-31.png"
     },
     {
      "en": "dairy products",
      "tr": "süt ürünleri",
-     "emoji": "🧺"
+     "emoji": "🧺",
+     "img": "p01-32.png"
     }
    ],
    "part": [
@@ -239,19 +259,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"cucumber\" means \"yağ\".",
+     "statement": "\"beans\" means \"limon\".",
      "answer": false,
-     "explain": "cucumber = salatalık"
+     "explain": "beans = fasulye"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"fasulye\"?",
-     "answer": "beans",
+     "q": "Which word means \"marul\"?",
+     "answer": "lettuce",
      "options": [
-      "beans",
       "lettuce",
-      "garlic",
-      "lemon"
+      "olives",
+      "lemon",
+      "beef"
      ]
     }
    ]
@@ -264,22 +284,26 @@
     {
      "en": "cheese",
      "tr": "peynir",
-     "emoji": "🧀"
+     "emoji": "🧀",
+     "img": "p02-01.png"
     },
     {
      "en": "butter",
      "tr": "tereyağı",
-     "emoji": "🧈"
+     "emoji": "🧈",
+     "img": "p02-02.png"
     },
     {
      "en": "sauce",
      "tr": "sos",
-     "emoji": "🥫"
+     "emoji": "🥫",
+     "img": "p02-03.png"
     },
     {
      "en": "spices",
      "tr": "baharatlar",
-     "emoji": "🧂"
+     "emoji": "🧂",
+     "img": "p02-04.png"
     },
     {
      "en": "salt",
@@ -289,7 +313,8 @@
     {
      "en": "sugar",
      "tr": "şeker",
-     "emoji": "🍬"
+     "emoji": "🍬",
+     "img": "p02-05.png"
     }
    ],
    "part": [
@@ -305,32 +330,38 @@
     {
      "en": "flour",
      "tr": "un",
-     "emoji": "🌾"
+     "emoji": "🌾",
+     "img": "p02-06.png"
     },
     {
      "en": "nuts",
      "tr": "kuruyemiş",
-     "emoji": "🥜"
+     "emoji": "🥜",
+     "img": "p02-07.png"
     },
     {
      "en": "jam",
      "tr": "reçel",
-     "emoji": "🍓"
+     "emoji": "🍓",
+     "img": "p02-08.png"
     },
     {
      "en": "chocolate",
      "tr": "çikolata",
-     "emoji": "🍫"
+     "emoji": "🍫",
+     "img": "p02-09.png"
     },
     {
      "en": "sweet / candy",
      "tr": "şekerleme",
-     "emoji": "🍭"
+     "emoji": "🍭",
+     "img": "p02-10.png"
     },
     {
      "en": "biscuit / cookie",
      "tr": "kurabiye",
-     "emoji": "🍪"
+     "emoji": "🍪",
+     "img": "p02-11.png"
     }
    ],
    "part": [
@@ -346,32 +377,38 @@
     {
      "en": "muffin",
      "tr": "kek",
-     "emoji": "🧁"
+     "emoji": "🧁",
+     "img": "p02-12.png"
     },
     {
      "en": "pancake",
      "tr": "krep",
-     "emoji": "🥞"
+     "emoji": "🥞",
+     "img": "p02-13.png"
     },
     {
      "en": "tart",
      "tr": "turta",
-     "emoji": "🥧"
+     "emoji": "🥧",
+     "img": "p02-14.png"
     },
     {
      "en": "croissant",
      "tr": "kruvasan",
-     "emoji": "🥐"
+     "emoji": "🥐",
+     "img": "p02-15.png"
     },
     {
      "en": "ice cream",
      "tr": "dondurma",
-     "emoji": "🍦"
+     "emoji": "🍦",
+     "img": "p02-16.png"
     },
     {
      "en": "bread",
      "tr": "ekmek",
-     "emoji": "🍞"
+     "emoji": "🍞",
+     "img": "p02-17.png"
     }
    ],
    "part": [
@@ -387,28 +424,28 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "reçel",
-     "answer": "jam"
+     "clue": "çikolata",
+     "answer": "chocolate"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "flour",
-       "b": "un"
+       "a": "jam",
+       "b": "reçel"
       },
       {
-       "a": "chocolate",
-       "b": "çikolata"
+       "a": "cheese",
+       "b": "peynir"
       },
       {
-       "a": "sweet / candy",
-       "b": "şekerleme"
+       "a": "spices",
+       "b": "baharatlar"
       },
       {
-       "a": "bread",
-       "b": "ekmek"
+       "a": "pancake",
+       "b": "krep"
       }
      ]
     }
@@ -422,22 +459,26 @@
     {
      "en": "pasta",
      "tr": "makarna",
-     "emoji": "🍝"
+     "emoji": "🍝",
+     "img": "p02-18.png"
     },
     {
      "en": "meatball",
      "tr": "köfte",
-     "emoji": "🧆"
+     "emoji": "🧆",
+     "img": "p02-19.png"
     },
     {
      "en": "dough",
      "tr": "hamur",
-     "emoji": "🫓"
+     "emoji": "🫓",
+     "img": "p02-20.png"
     },
     {
      "en": "water",
      "tr": "su",
-     "emoji": "💧"
+     "emoji": "💧",
+     "img": "p02-21.png"
     },
     {
      "en": "milk",
@@ -447,12 +488,14 @@
     {
      "en": "ayran",
      "tr": "ayran",
-     "emoji": "🥛"
+     "emoji": "🥛",
+     "img": "/app/img/vocab/ayran.jpg"
     },
     {
      "en": "fruit juice",
      "tr": "meyve suyu",
-     "emoji": "🧃"
+     "emoji": "🧃",
+     "img": "p02-23.png"
     }
    ]
   },
@@ -462,33 +505,24 @@
    "titleTr": "Use what you just learned · Food — Sweet & Bakery",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"dough\" means \"su\".",
-     "answer": false,
-     "explain": "dough = hamur"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-23.png",
+     "answer": "fruit juice",
+     "tr": "meyve suyu",
+     "options": [
+      "fruit juice",
+      "ayran",
+      "dough",
+      "meatball"
+     ]
     },
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "fruit juice",
-       "b": "meyve suyu"
-      },
-      {
-       "a": "dough",
-       "b": "hamur"
-      },
-      {
-       "a": "ayran",
-       "b": "ayran"
-      },
-      {
-       "a": "meatball",
-       "b": "köfte"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"pasta\" means \"meyve suyu\".",
+     "answer": false,
+     "explain": "pasta = makarna"
     }
    ]
   },
@@ -515,27 +549,32 @@
     {
      "en": "plate",
      "tr": "tabak",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "p02-24.png"
     },
     {
      "en": "glass",
      "tr": "bardak",
-     "emoji": "🥛"
+     "emoji": "🥛",
+     "img": "p02-25.png"
     },
     {
      "en": "cup",
      "tr": "fincan",
-     "emoji": "☕"
+     "emoji": "☕",
+     "img": "p02-26.png"
     },
     {
      "en": "tablespoon",
      "tr": "yemek kaşığı",
-     "emoji": "🥄"
+     "emoji": "🥄",
+     "img": "/app/img/vocab/tablespoon.svg"
     },
     {
      "en": "teaspoon",
      "tr": "çay kaşığı",
-     "emoji": "🥄"
+     "emoji": "🥄",
+     "img": "/app/img/vocab/teaspoon.svg"
     }
    ]
   },
@@ -549,28 +588,35 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "glass",
-       "b": "bardak"
+       "a": "teaspoon",
+       "b": "çay kaşığı"
+      },
+      {
+       "a": "bowl",
+       "b": "kase"
       },
       {
        "a": "pan",
        "b": "tava"
       },
       {
-       "a": "cup",
-       "b": "fincan"
-      },
-      {
-       "a": "bowl",
-       "b": "kase"
+       "a": "pot",
+       "b": "tencere"
       }
      ]
     },
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "tencere",
-     "answer": "pot"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-24.png",
+     "answer": "plate",
+     "tr": "tabak",
+     "options": [
+      "plate",
+      "glass",
+      "bowl",
+      "teaspoon"
+     ]
     }
    ]
   },
@@ -705,19 +751,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"available\" means \"haşlanmış\".",
+     "statement": "\"sweet\" means \"özel\".",
      "answer": false,
-     "explain": "available = müsait"
+     "explain": "sweet = tatlı"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"kızartılmış\"?",
-     "answer": "fried",
+     "q": "Which word means \"boş\"?",
+     "answer": "empty",
      "options": [
-      "fried",
-      "special",
-      "delicious",
-      "empty"
+      "empty",
+      "unhealthy",
+      "tasty",
+      "light"
      ]
     }
    ]
@@ -745,7 +791,7 @@
     {
      "en": "prepare",
      "tr": "hazırlamak",
-     "emoji": "👨‍🍳"
+     "emoji": "👩‍🍳"
     },
     {
      "en": "slice",
@@ -867,7 +913,7 @@
     {
      "en": "book",
      "tr": "yer ayırtmak",
-     "emoji": "📅"
+     "emoji": "📖"
     }
    ],
    "part": [
@@ -924,28 +970,28 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "yer ayırmak",
-     "answer": "reserve"
+     "clue": "yer ayırtmak",
+     "answer": "book"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "fry",
-       "b": "kızartmak"
+       "a": "squeeze",
+       "b": "suyunu sıkmak"
       },
       {
-       "a": "cook",
-       "b": "pişirmek"
+       "a": "contain",
+       "b": "içermek"
       },
       {
-       "a": "pay",
-       "b": "ödemek"
+       "a": "taste",
+       "b": "tatmak"
       },
       {
-       "a": "stir",
-       "b": "karıştırmak (sıvı)"
+       "a": "take order",
+       "b": "sipariş almak"
       }
      ]
     }
@@ -963,19 +1009,27 @@
      "examples": [
       {
        "en": "*a* cucumber → *two* cucumbers",
-       "tr": "salatalık"
+       "tr": "salatalık",
+       "img": "p01-14.png",
+       "emoji": "🥒"
       },
       {
        "en": "*an* apple → *five* apples",
-       "tr": "elma"
+       "tr": "elma",
+       "img": "p01-25.png",
+       "emoji": "🍎"
       },
       {
        "en": "*a* lemon → *four* lemons",
-       "tr": "limon"
+       "tr": "limon",
+       "img": "p01-24.png",
+       "emoji": "🍋"
       },
       {
        "en": "*an* olive → *ten* olives",
-       "tr": "zeytin"
+       "tr": "zeytin",
+       "img": "p01-23.png",
+       "emoji": "🫒"
       }
      ]
     },
@@ -985,11 +1039,15 @@
      "examples": [
       {
        "en": "butter, cheese, coffee, tea, soup",
-       "tr": "çoğul hâli yok"
+       "tr": "çoğul hâli yok",
+       "img": "p02-01.png",
+       "emoji": "🧀"
       },
       {
        "en": "honey, milk, jam, sugar, flour",
-       "tr": "çoğul hâli yok"
+       "tr": "çoğul hâli yok",
+       "img": "p02-05.png",
+       "emoji": "🍬"
       }
      ]
     }
@@ -1032,23 +1090,29 @@
    "examples": [
     {
      "en": "*a* cucumber · *a* tomato · *an* orange · *an* apple",
-     "tr": "sessiz harf → a, sesli harf → an"
+     "tr": "sessiz harf → a, sesli harf → an",
+     "img": "p01-14.png",
+     "emoji": "🥒"
     },
     {
      "en": "We have *some* tomatoes.",
-     "tr": "Birkaç domatesimiz var."
+     "tr": "Birkaç domatesimiz var.",
+     "emoji": "🍅"
     },
     {
      "en": "I need *some* milk.",
-     "tr": "Biraz süte ihtiyacım var."
+     "tr": "Biraz süte ihtiyacım var.",
+     "emoji": "🥛"
     },
     {
      "en": "We don't have *any* apples.",
-     "tr": "Hiç elmamız yok."
+     "tr": "Hiç elmamız yok.",
+     "emoji": "🍎"
     },
     {
      "en": "Do you have *any* coffee?",
-     "tr": "Hiç kahven var mı?"
+     "tr": "Hiç kahven var mı?",
+     "emoji": "☕"
     }
    ]
   },
@@ -1145,15 +1209,20 @@
    "examples": [
     {
      "en": "*Can I* order a dessert?",
-     "tr": "Bir tatlı sipariş verebilir miyim?"
+     "tr": "Bir tatlı sipariş verebilir miyim?",
+     "emoji": "🍰"
     },
     {
      "en": "*Can I* taste the sauce?",
-     "tr": "Sosu tadabilir miyim?"
+     "tr": "Sosu tadabilir miyim?",
+     "img": "p02-03.png",
+     "emoji": "🥫"
     },
     {
      "en": "*Can I* eat some pasta?",
-     "tr": "Biraz makarna yiyebilir miyim?"
+     "tr": "Biraz makarna yiyebilir miyim?",
+     "img": "p02-18.png",
+     "emoji": "🍝"
     }
    ]
   },
@@ -1260,19 +1329,24 @@
      "examples": [
       {
        "en": "I *have got* a plate of salad.",
-       "tr": "Benim bir tabak salatam var."
+       "tr": "Benim bir tabak salatam var.",
+       "emoji": "🥗"
       },
       {
        "en": "We *have got* some bread.",
-       "tr": "Bizim biraz ekmeğimiz var."
+       "tr": "Bizim biraz ekmeğimiz var.",
+       "img": "p02-17.png",
+       "emoji": "🍞"
       },
       {
        "en": "He *has got* a boiled egg.",
-       "tr": "Onun bir haşlanmış yumurtası var."
+       "tr": "Onun bir haşlanmış yumurtası var.",
+       "emoji": "🥚"
       },
       {
        "en": "She *has got* two apples.",
-       "tr": "Onun iki elması var."
+       "tr": "Onun iki elması var.",
+       "emoji": "🍎"
       }
      ]
     },
@@ -1282,19 +1356,26 @@
      "examples": [
       {
        "en": "I *haven't got* a glass.",
-       "tr": "Benim bir bardağım yok."
+       "tr": "Benim bir bardağım yok.",
+       "img": "p02-25.png",
+       "emoji": "🥛"
       },
       {
        "en": "You *haven't got* any milk.",
-       "tr": "Senin hiç sütün yok."
+       "tr": "Senin hiç sütün yok.",
+       "emoji": "🥛"
       },
       {
        "en": "He *hasn't got* any lentil soup.",
-       "tr": "Onun hiç mercimek çorbası yok."
+       "tr": "Onun hiç mercimek çorbası yok.",
+       "img": "p01-21.png",
+       "emoji": "🫘"
       },
       {
        "en": "She *hasn't got* any olives.",
-       "tr": "Onun hiç zeytini yok."
+       "tr": "Onun hiç zeytini yok.",
+       "img": "p01-23.png",
+       "emoji": "🫒"
       }
      ]
     }
@@ -1441,24 +1522,28 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "fresh",
-      "tr": "taze",
+      "en": "cheese",
+      "tr": "peynir",
+      "img": "p02-01.png",
+      "emoji": "🧀"
+     },
+     {
+      "en": "pasta",
+      "tr": "makarna",
+      "img": "p02-18.png",
+      "emoji": "🍝"
+     },
+     {
+      "en": "lettuce",
+      "tr": "marul",
+      "img": "p01-19.png",
       "emoji": "🥬"
      },
      {
-      "en": "tart",
-      "tr": "turta",
-      "emoji": "🥧"
-     },
-     {
-      "en": "cinnamon",
-      "tr": "tarçın",
-      "emoji": "🪵"
-     },
-     {
-      "en": "dessert",
-      "tr": "tatlı",
-      "emoji": "🍰"
+      "en": "dough",
+      "tr": "hamur",
+      "img": "p02-20.png",
+      "emoji": "🫓"
      }
     ]
    }
@@ -1476,28 +1561,32 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "glass",
-      "tr": "bardak",
-      "emoji": "🥛",
-      "audio": "/app/audio/words/glass.wav"
+      "en": "beef",
+      "tr": "dana eti",
+      "img": "p01-27.png",
+      "emoji": "🥩",
+      "audio": "/app/audio/words/beef.wav"
      },
      {
-      "en": "ayran",
-      "tr": "ayran",
-      "emoji": "🥛",
-      "audio": "/app/audio/words/ayran.wav"
+      "en": "corn",
+      "tr": "mısır",
+      "img": "p01-20.png",
+      "emoji": "🌽",
+      "audio": "/app/audio/words/corn.wav"
      },
      {
-      "en": "fruit juice",
-      "tr": "meyve suyu",
-      "emoji": "🧃",
-      "audio": "/app/audio/words/fruit-juice.wav"
+      "en": "apple",
+      "tr": "elma",
+      "img": "p01-25.png",
+      "emoji": "🍎",
+      "audio": "/app/audio/words/apple.wav"
      },
      {
-      "en": "sweet",
-      "tr": "tatlı",
-      "emoji": "🍬",
-      "audio": "/app/audio/words/sweet.wav"
+      "en": "cucumber",
+      "tr": "salatalık",
+      "img": "p01-14.png",
+      "emoji": "🥒",
+      "audio": "/app/audio/words/cucumber.wav"
      }
     ]
    }
@@ -1515,16 +1604,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "We have got some bread.",
-      "tr": "Bizim biraz ekmeğimiz var."
+      "answer": "We have some tomatoes.",
+      "tr": "Birkaç domatesimiz var."
      },
      {
-      "answer": "Do you have any coffee?",
-      "tr": "Hiç kahven var mı?"
+      "answer": "Can I order a dessert?",
+      "tr": "Bir tatlı sipariş verebilir miyim?"
      },
      {
-      "answer": "I haven't got a glass.",
-      "tr": "Benim bir bardağım yok."
+      "answer": "You haven't got any milk.",
+      "tr": "Senin hiç sütün yok."
      }
     ]
    }

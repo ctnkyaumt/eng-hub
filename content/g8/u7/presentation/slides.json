@@ -246,7 +246,7 @@
     {
      "en": "summer",
      "tr": "yaz",
-     "emoji": "☀️"
+     "emoji": "🌻"
     },
     {
      "en": "sunbathe",
@@ -401,19 +401,23 @@
    "examples": [
     {
      "en": "We *visited* Cappadocia last summer.",
-     "tr": "Geçen yaz Kapadokya'yı ziyaret ettik."
+     "tr": "Geçen yaz Kapadokya'yı ziyaret ettik.",
+     "emoji": "🌻"
     },
     {
      "en": "They *stayed* at a lovely hotel.",
-     "tr": "Güzel bir otelde kaldılar."
+     "tr": "Güzel bir otelde kaldılar.",
+     "emoji": "🏨"
     },
     {
      "en": "I *didn't* like the food there.",
-     "tr": "Oradaki yemekleri sevmedim."
+     "tr": "Oradaki yemekleri sevmedim.",
+     "emoji": "⏮️"
     },
     {
      "en": "*Did* you *enjoy* the tour? — Yes, I did.",
-     "tr": "Turdan keyif aldın mı? — Evet."
+     "tr": "Turdan keyif aldın mı? — Evet.",
+     "emoji": "⏮️"
     }
    ]
   },
@@ -458,7 +462,8 @@
    "examples": [
     {
      "en": "We *went* to Antalya by plane.",
-     "tr": "Antalya'ya uçakla gittik."
+     "tr": "Antalya'ya uçakla gittik.",
+     "emoji": "✈️"
     },
     {
      "en": "I *saw* the ancient theatre.",
@@ -467,11 +472,13 @@
     },
     {
      "en": "She *took* a lot of photographs.",
-     "tr": "Bir sürü fotoğraf çekti."
+     "tr": "Bir sürü fotoğraf çekti.",
+     "emoji": "📷"
     },
     {
      "en": "We *ate* delicious local food.",
-     "tr": "Nefis yöresel yemekler yedik."
+     "tr": "Nefis yöresel yemekler yedik.",
+     "emoji": "⏮️"
     }
    ]
   },

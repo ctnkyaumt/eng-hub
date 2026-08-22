@@ -215,15 +215,18 @@
     },
     {
      "en": "*an* orange",
-     "tr": "sesli harfle (a, e, i, o, u) başlıyor → an"
+     "tr": "sesli harfle (a, e, i, o, u) başlıyor → an",
+     "emoji": "🍊"
     },
     {
      "en": "*an* apple",
-     "tr": "sesli harfle başlıyor → an"
+     "tr": "sesli harfle başlıyor → an",
+     "emoji": "🍎"
     },
     {
      "en": "*an* umbrella",
-     "tr": "sesli harfle başlıyor → an"
+     "tr": "sesli harfle başlıyor → an",
+     "emoji": "☂️"
     },
     {
      "en": "*the* student",
@@ -232,11 +235,13 @@
     },
     {
      "en": "*the* Sun",
-     "tr": "tek olan şey"
+     "tr": "tek olan şey",
+     "emoji": "☀️"
     },
     {
      "en": "*the* cinema",
-     "tr": "bilinen, belirli yer"
+     "tr": "bilinen, belirli yer",
+     "emoji": "🎬"
     }
    ]
   },
@@ -508,19 +513,23 @@
    "examples": [
     {
      "en": "Do you like *playing* the guitar?",
-     "tr": "Gitar çalmayı sever misin?"
+     "tr": "Gitar çalmayı sever misin?",
+     "emoji": "✅"
     },
     {
      "en": "Do you like *reading* books?",
-     "tr": "Kitap okumayı sever misin?"
+     "tr": "Kitap okumayı sever misin?",
+     "emoji": "✅"
     },
     {
      "en": "I like *playing* basketball.",
-     "tr": "Basketbol oynamayı severim."
+     "tr": "Basketbol oynamayı severim.",
+     "emoji": "🏀"
     },
     {
      "en": "I like *drawing* pictures.",
-     "tr": "Resim çizmeyi severim."
+     "tr": "Resim çizmeyi severim.",
+     "emoji": "🎨"
     }
    ]
   },
@@ -663,7 +672,8 @@
      "examples": [
       {
        "en": "Sit down!",
-       "tr": "Otur."
+       "tr": "Otur.",
+       "emoji": "🪑"
       },
       {
        "en": "Listen to the teacher.",
@@ -725,11 +735,13 @@
      "examples": [
       {
        "en": "You *must* wear the school uniform.",
-       "tr": "Okul üniformasını giymelisin."
+       "tr": "Okul üniformasını giymelisin.",
+       "emoji": "👕"
       },
       {
        "en": "We *must* do our homework.",
-       "tr": "Ödevimizi yapmalıyız."
+       "tr": "Ödevimizi yapmalıyız.",
+       "emoji": "✅"
       }
      ]
     },
@@ -739,11 +751,13 @@
      "examples": [
       {
        "en": "You *mustn't* fight with your friends.",
-       "tr": "Arkadaşlarınla kavga etmemelisin."
+       "tr": "Arkadaşlarınla kavga etmemelisin.",
+       "emoji": "🥊"
       },
       {
        "en": "We *mustn't* eat in the lab.",
-       "tr": "Laboratuvarda yemek yememeliyiz."
+       "tr": "Laboratuvarda yemek yememeliyiz.",
+       "emoji": "🍽️"
       }
      ]
     }

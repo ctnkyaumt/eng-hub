@@ -289,12 +289,12 @@
     {
      "en": "sightseeing",
      "tr": "gezip görme",
-     "emoji": "📸"
+     "emoji": "🚌"
     },
     {
      "en": "season",
      "tr": "mevsim",
-     "emoji": "🍂"
+     "emoji": "🧂"
     },
     {
      "en": "climate",
@@ -366,22 +366,26 @@
     {
      "en": "climb a mountain",
      "tr": "dağa tırmanmak",
-     "emoji": "🧗"
+     "emoji": "🧗",
+     "img": "p02-01.png"
     },
     {
      "en": "go sightseeing",
      "tr": "geziye gitmek",
-     "emoji": "🗼"
+     "emoji": "🗼",
+     "img": "p02-02.png"
     },
     {
      "en": "go hiking",
      "tr": "doğa yürüyüşüne gitmek",
-     "emoji": "🥾"
+     "emoji": "🥾",
+     "img": "p02-03.png"
     },
     {
      "en": "go fishing",
      "tr": "balığa gitmek",
-     "emoji": "🎣"
+     "emoji": "🎣",
+     "img": "p02-04.png"
     },
     {
      "en": "go skiing",
@@ -391,17 +395,20 @@
     {
      "en": "go snorkelling",
      "tr": "şnorkelle yüzmeye gitmek",
-     "emoji": "🤿"
+     "emoji": "🤿",
+     "img": "p02-05.png"
     },
     {
      "en": "go scuba diving",
      "tr": "tüplü dalışa gitmek",
-     "emoji": "🤿"
+     "emoji": "🤿",
+     "img": "p02-06.png"
     },
     {
      "en": "swim",
      "tr": "yüzmek",
-     "emoji": "🏊"
+     "emoji": "🏊",
+     "img": "p02-07.png"
     }
    ]
   },
@@ -411,33 +418,24 @@
    "titleTr": "Use what you just learned · Holiday Activities",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"go hiking\" means \"geziye gitmek\".",
-     "answer": false,
-     "explain": "go hiking = doğa yürüyüşüne gitmek"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-03.png",
+     "answer": "go hiking",
+     "tr": "doğa yürüyüşüne gitmek",
+     "options": [
+      "go hiking",
+      "go sightseeing",
+      "swim",
+      "go skiing"
+     ]
     },
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "go fishing",
-       "b": "balığa gitmek"
-      },
-      {
-       "a": "go sightseeing",
-       "b": "geziye gitmek"
-      },
-      {
-       "a": "go scuba diving",
-       "b": "tüplü dalışa gitmek"
-      },
-      {
-       "a": "go skiing",
-       "b": "kayağa gitmek"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"go scuba diving\" means \"dağa tırmanmak\".",
+     "answer": false,
+     "explain": "go scuba diving = tüplü dalışa gitmek"
     }
    ]
   },
@@ -449,22 +447,26 @@
     {
      "en": "make a sandcastle",
      "tr": "kumdan kale yapmak",
-     "emoji": "🏰"
+     "emoji": "🏰",
+     "img": "p02-08.png"
     },
     {
      "en": "collect seashells",
      "tr": "deniz kabuğu toplamak",
-     "emoji": "🐚"
+     "emoji": "🐚",
+     "img": "p02-09.png"
     },
     {
      "en": "ride a camel",
      "tr": "deveye binmek",
-     "emoji": "🐫"
+     "emoji": "🐫",
+     "img": "p02-10.png"
     },
     {
      "en": "ride a bike",
      "tr": "bisiklete binmek",
-     "emoji": "🚲"
+     "emoji": "🚲",
+     "img": "p02-11.png"
     },
     {
      "en": "ride a roller coaster",
@@ -474,17 +476,20 @@
     {
      "en": "have a picnic",
      "tr": "piknik yapmak",
-     "emoji": "🧺"
+     "emoji": "🧺",
+     "img": "p02-12.png"
     },
     {
      "en": "take a boat tour",
      "tr": "tekne turuna çıkmak",
-     "emoji": "⛵"
+     "emoji": "⛵",
+     "img": "p02-13.png"
     },
     {
      "en": "visit a museum",
      "tr": "müzeyi ziyaret etmek",
-     "emoji": "🏛️"
+     "emoji": "🏛️",
+     "img": "p02-14.png"
     }
    ]
   },
@@ -498,16 +503,16 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "ride a camel",
+       "b": "deveye binmek"
+      },
+      {
+       "a": "have a picnic",
+       "b": "piknik yapmak"
+      },
+      {
        "a": "make a sandcastle",
        "b": "kumdan kale yapmak"
-      },
-      {
-       "a": "collect seashells",
-       "b": "deniz kabuğu toplamak"
-      },
-      {
-       "a": "ride a bike",
-       "b": "bisiklete binmek"
       },
       {
        "a": "visit a museum",
@@ -516,10 +521,17 @@
      ]
     },
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "deniz kabuğu toplamak",
-     "answer": "collect seashells"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-09.png",
+     "answer": "collect seashells",
+     "tr": "deniz kabuğu toplamak",
+     "options": [
+      "collect seashells",
+      "make a sandcastle",
+      "ride a bike",
+      "ride a roller coaster"
+     ]
     }
    ]
   },
@@ -587,7 +599,7 @@
     {
      "en": "visit",
      "tr": "ziyaret etmek",
-     "emoji": "🚪"
+     "emoji": "📍"
     },
     {
      "en": "explore",
@@ -597,7 +609,7 @@
     {
      "en": "book",
      "tr": "yer ayırtmak",
-     "emoji": "📅"
+     "emoji": "📖"
     }
    ],
    "part": [
@@ -654,19 +666,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"recommend\" means \"davet etmek\".",
+     "statement": "\"visit\" means \"planlamak\".",
      "answer": false,
-     "explain": "recommend = tavsiye etmek"
+     "explain": "visit = ziyaret etmek"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"görmek\"?",
-     "answer": "see",
+     "q": "Which word means \"yükselmek\"?",
+     "answer": "rise",
      "options": [
-      "see",
-      "invite",
-      "pack",
-      "rise"
+      "rise",
+      "need",
+      "visit",
+      "involve"
      ]
     }
    ]
@@ -761,28 +773,28 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "tarihi",
-     "answer": "historical"
+     "clue": "eğlenceli",
+     "answer": "fun"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
+       "a": "fun",
+       "b": "eğlenceli"
+      },
+      {
+       "a": "beautiful",
+       "b": "güzel"
+      },
+      {
+       "a": "giant / huge",
+       "b": "kocaman"
+      },
+      {
        "a": "famous",
        "b": "ünlü"
-      },
-      {
-       "a": "historical",
-       "b": "tarihi"
-      },
-      {
-       "a": "amazing",
-       "b": "harika"
-      },
-      {
-       "a": "magical",
-       "b": "büyülü"
       }
      ]
     }
@@ -801,15 +813,20 @@
    "examples": [
     {
      "en": "I *am going to* visit a museum tomorrow.",
-     "tr": "Yarın bir müzeyi ziyaret edeceğim."
+     "tr": "Yarın bir müzeyi ziyaret edeceğim.",
+     "img": "p02-14.png",
+     "emoji": "🏛️"
     },
     {
      "en": "He *is going to* go sightseeing next week.",
-     "tr": "O gelecek hafta geziye gidecek."
+     "tr": "O gelecek hafta geziye gidecek.",
+     "img": "p02-02.png",
+     "emoji": "🗼"
     },
     {
      "en": "They *are going to* stay at a hotel.",
-     "tr": "Onlar bir otelde kalacaklar."
+     "tr": "Onlar bir otelde kalacaklar.",
+     "emoji": "🏨"
     }
    ]
   },
@@ -849,15 +866,19 @@
      "examples": [
       {
        "en": "I *am not going to* ride a camel.",
-       "tr": "Deveye binmeyeceğim."
+       "tr": "Deveye binmeyeceğim.",
+       "img": "p02-10.png",
+       "emoji": "🐫"
       },
       {
        "en": "She *isn't going to* take photos.",
-       "tr": "O fotoğraf çekmeyecek."
+       "tr": "O fotoğraf çekmeyecek.",
+       "emoji": "📷"
       },
       {
        "en": "You *aren't going to* invite your friends.",
-       "tr": "Sen arkadaşlarını davet etmeyeceksin."
+       "tr": "Sen arkadaşlarını davet etmeyeceksin.",
+       "emoji": "💌"
       }
      ]
     },
@@ -947,10 +968,10 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "beach / seaside",
-      "tr": "sahil",
-      "img": "p01-18.png",
-      "emoji": "🏖️"
+      "en": "valley",
+      "tr": "vadi",
+      "img": "p01-07.png",
+      "emoji": "🏔️"
      },
      {
       "en": "sea",
@@ -959,16 +980,16 @@
       "emoji": "🌊"
      },
      {
-      "en": "canyon",
-      "tr": "kanyon",
-      "img": "p01-08.png",
-      "emoji": "🧗"
+      "en": "continent",
+      "tr": "kıta",
+      "img": "p01-01.png",
+      "emoji": "🌍"
      },
      {
-      "en": "island",
-      "tr": "ada",
-      "img": "p01-16.png",
-      "emoji": "🏝️"
+      "en": "go scuba diving",
+      "tr": "tüplü dalışa gitmek",
+      "img": "p02-06.png",
+      "emoji": "🤿"
      }
     ]
    }
@@ -986,32 +1007,32 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "river",
-      "tr": "nehir",
-      "img": "p01-12.png",
-      "emoji": "🌊",
-      "audio": "/app/audio/words/river.wav"
+      "en": "ride a bike",
+      "tr": "bisiklete binmek",
+      "img": "p02-11.png",
+      "emoji": "🚲",
+      "audio": "/app/audio/words/ride-a-bike.wav"
      },
      {
-      "en": "ocean",
-      "tr": "okyanus",
-      "img": "p01-14.png",
-      "emoji": "🌊",
-      "audio": "/app/audio/words/ocean.wav"
+      "en": "canyon",
+      "tr": "kanyon",
+      "img": "p01-08.png",
+      "emoji": "🧗",
+      "audio": "/app/audio/words/canyon.wav"
      },
      {
-      "en": "continent",
-      "tr": "kıta",
-      "img": "p01-01.png",
-      "emoji": "🌍",
-      "audio": "/app/audio/words/continent.wav"
+      "en": "hill",
+      "tr": "tepe",
+      "img": "p01-03.png",
+      "emoji": "🌄",
+      "audio": "/app/audio/words/hill.wav"
      },
      {
-      "en": "sky",
-      "tr": "gökyüzü",
-      "img": "p01-10.png",
-      "emoji": "☁️",
-      "audio": "/app/audio/words/sky.wav"
+      "en": "desert",
+      "tr": "çöl",
+      "img": "p01-05.png",
+      "emoji": "🏜️",
+      "audio": "/app/audio/words/desert.wav"
      }
     ]
    }
@@ -1029,16 +1050,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
+      "answer": "You aren't going to invite your friends.",
+      "tr": "Sen arkadaşlarını davet etmeyeceksin."
+     },
+     {
       "answer": "I am not going to ride a camel.",
       "tr": "Deveye binmeyeceğim."
      },
      {
-      "answer": "She isn't going to take photos.",
-      "tr": "O fotoğraf çekmeyecek."
-     },
-     {
-      "answer": "You aren't going to invite your friends.",
-      "tr": "Sen arkadaşlarını davet etmeyeceksin."
+      "answer": "I am going to visit a museum tomorrow.",
+      "tr": "Yarın bir müzeyi ziyaret edeceğim."
      }
     ]
    }
