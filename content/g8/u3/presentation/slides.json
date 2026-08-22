@@ -524,21 +524,33 @@
     {
      "en": "*Chop* the onions into small pieces.",
      "tr": "Soğanları küçük parçalar hâlinde doğra.",
-     "img": "/app/img/words/chop.jpg"
+     "img": "/app/img/words/chop.jpg",
+     "trEm": [
+      "doğra"
+     ]
     },
     {
      "en": "*Add* a teaspoon of salt.",
      "tr": "Bir çay kaşığı tuz ekle.",
+     "trEm": [
+      "ekle"
+     ],
      "emoji": "👩‍🍳"
     },
     {
      "en": "*Boil* the water for five minutes.",
      "tr": "Suyu beş dakika kaynat.",
-     "img": "/app/img/words/boil.jpg"
+     "img": "/app/img/words/boil.jpg",
+     "trEm": [
+      "kaynat"
+     ]
     },
     {
      "en": "*Don't* forget to stir the soup.",
      "tr": "Çorbayı karıştırmayı unutma.",
+     "trEm": [
+      "unutma"
+     ],
      "emoji": "🥄"
     }
    ]
@@ -579,21 +591,33 @@
     {
      "en": "*First*, wash the vegetables.",
      "tr": "Önce sebzeleri yıka.",
+     "trEm": [
+      "Önce"
+     ],
      "emoji": "1️⃣"
     },
     {
      "en": "*Then*, slice the tomatoes.",
      "tr": "Sonra domatesleri dilimle.",
-     "img": "/app/img/words/slice.jpg"
+     "img": "/app/img/words/slice.jpg",
+     "trEm": [
+      "Sonra"
+     ]
     },
     {
      "en": "*After that*, mix everything in a bowl.",
      "tr": "Ondan sonra her şeyi bir kasede karıştır.",
-     "img": "/app/img/words/bowl.jpg"
+     "img": "/app/img/words/bowl.jpg",
+     "trEm": [
+      "Ondan sonra"
+     ]
     },
     {
      "en": "*Finally*, serve the salad cold.",
      "tr": "Son olarak salatayı soğuk servis et.",
+     "trEm": [
+      "Son olarak"
+     ],
      "emoji": "1️⃣"
     }
    ]
@@ -636,16 +660,25 @@
       {
        "en": "*How many* eggs do we need?",
        "tr": "Kaç yumurtaya ihtiyacımız var?",
+       "trEm": [
+        "Kaç"
+       ],
        "emoji": "🔢"
       },
       {
        "en": "*How many* potatoes are there?",
        "tr": "Kaç patates var?",
+       "trEm": [
+        "Kaç"
+       ],
        "emoji": "🔢"
       },
       {
        "en": "We need *three* tomatoes.",
        "tr": "Üç domatese ihtiyacımız var.",
+       "trEm": [
+        "Üç"
+       ],
        "emoji": "🍅"
       }
      ]
@@ -657,16 +690,25 @@
       {
        "en": "*How much* flour do you need?",
        "tr": "Ne kadar una ihtiyacın var?",
+       "trEm": [
+        "Ne kadar"
+       ],
        "emoji": "🔢"
       },
       {
        "en": "*How much* sugar is there?",
        "tr": "Ne kadar şeker var?",
+       "trEm": [
+        "Ne kadar"
+       ],
        "emoji": "🔢"
       },
       {
        "en": "Add *a cup of* milk.",
        "tr": "Bir fincan süt ekle.",
+       "trEm": [
+        "Bir fincan"
+       ],
        "emoji": "🔢"
       }
      ]

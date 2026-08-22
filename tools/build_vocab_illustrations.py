@@ -2,8 +2,9 @@
 """Generate clear vector diagrams for abstract Grade-5 vocabulary.
 
 The source worksheets contain excellent object art but not unambiguous height,
-weight, face-shape, or spoon-size comparisons. These deliberately simple SVGs
-are generated locally so the USB build stays offline and reproducible.
+weight, face-shape, adjective comparisons, or spoon-size comparisons. These
+deliberately simple SVGs are generated locally so the USB build stays offline
+and reproducible.
 
 Run: python tools/build_vocab_illustrations.py
 """
@@ -81,6 +82,38 @@ def spoon(length, bowl, color):
             f'<rect x="{x-9}" y="{top + bowl*1.65}" width="18" height="{length}" rx="9" fill="{color}" stroke="#17224a" stroke-width="7"/>')
 
 
+def length_pencil(length):
+    """The same object at two lengths is clearer than unrelated rulers."""
+    left = (400 - length) / 2
+    right = left + length
+    return (f'<path d="M{left} 122 L{right-34} 122 L{right} 142 L{right-34} 162 H{left} Z" '
+            'fill="#f6c453" stroke="#17224a" stroke-width="8" stroke-linejoin="round"/>'
+            f'<path d="M{right-34} 122 L{right} 142 L{right-34} 162 Z" fill="#f2b98c" stroke="#17224a" stroke-width="6"/>'
+            f'<path d="M{left+26} 122 V162" stroke="#ef476f" stroke-width="16"/>'
+            f'<path d="M{left} 195 H{right}" stroke="#2f80ed" stroke-width="7" stroke-linecap="round"/>'
+            f'<path d="M{left} 183 V207 M{right} 183 V207" stroke="#2f80ed" stroke-width="7" stroke-linecap="round"/>')
+
+
+def new_shoe():
+    return ('<rect x="72" y="52" width="256" height="142" rx="20" fill="#dbeafe" stroke="#17224a" stroke-width="8"/>'
+            '<path d="M112 138 Q148 128 165 88 H224 Q238 118 284 130 Q302 136 302 157 '
+            'Q302 174 282 174 H118 Q98 174 98 154 Q98 143 112 138 Z" fill="#2f80ed" stroke="#17224a" stroke-width="8"/>'
+            '<path d="M176 104 L228 133 M164 119 L212 143" stroke="#fff" stroke-width="7" stroke-linecap="round"/>'
+            '<path d="M84 35 L91 19 L98 35 L114 42 L98 49 L91 65 L84 49 L68 42 Z" fill="#f6c453" stroke="#17224a" stroke-width="4"/>'
+            '<path d="M315 66 L320 54 L325 66 L337 71 L325 76 L320 88 L315 76 L303 71 Z" fill="#f6c453" stroke="#17224a" stroke-width="4"/>')
+
+
+def seal():
+    return ('<path d="M0 177 Q50 160 100 177 T200 177 T300 177 T400 177 V240 H0 Z" fill="#67c6e3"/>'
+            '<ellipse cx="205" cy="145" rx="92" ry="49" fill="#94a3b8" stroke="#17224a" stroke-width="8"/>'
+            '<circle cx="277" cy="103" r="47" fill="#aebbc9" stroke="#17224a" stroke-width="8"/>'
+            '<path d="M130 155 Q82 132 72 177 Q115 190 153 169" fill="#7d8ea1" stroke="#17224a" stroke-width="8"/>'
+            '<path d="M188 174 Q160 218 221 201" fill="#7d8ea1" stroke="#17224a" stroke-width="8"/>'
+            '<circle cx="292" cy="94" r="6" fill="#17224a"/>'
+            '<ellipse cx="315" cy="116" rx="8" ry="6" fill="#17224a"/>'
+            '<path d="M312 120 L339 112 M312 124 L342 127 M312 128 L335 141" stroke="#17224a" stroke-width="4" stroke-linecap="round"/>')
+
+
 def write(name, body):
     with open(os.path.join(DEST, name + ".svg"), "w", encoding="utf-8", newline="\n") as handle:
         handle.write(svg(body))
@@ -108,7 +141,11 @@ def main():
     write("physical-square", face_shape("square"))
     write("tablespoon", spoon(128, 45, "#a9b6c8"))
     write("teaspoon", spoon(104, 29, "#f6c453"))
-    print("20 reviewed SVG illustrations -> " + DEST)
+    write("adjective-long", length_pencil(292))
+    write("adjective-short", length_pencil(150))
+    write("adjective-new", new_shoe())
+    write("animal-seal", seal())
+    print("24 reviewed SVG illustrations -> " + DEST)
 
 
 if __name__ == "__main__":

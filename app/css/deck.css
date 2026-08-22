@@ -84,10 +84,14 @@
   height: 132px; display: flex; align-items: center; justify-content: center;
   border-radius: 13px; background: #f8fafc; margin-bottom: 10px; overflow: hidden;
 }
+.vcard-media.emoji-media { background: #c7dceb; }
 .vcard .pic {
   width: 100%; height: 100%; object-fit: contain; display: block;
 }
-.vcard .ic { font-size: 68px; line-height: 1; display: block; }
+.vcard .ic {
+  font-size: 68px; line-height: 1; display: block;
+  filter: drop-shadow(0 2px 1px rgba(7,17,31,.28));
+}
 .vcard .num2 {
   display: inline-flex; gap: 5px; justify-content: center;
 }
@@ -124,6 +128,7 @@
 .ex .en { font-size: clamp(15px, 1.9vw, 20px); }
 .ex .en em { font-style: normal; color: var(--accent); font-weight: 800; }
 .ex .tr { color: var(--ink-dim); font-size: 13px; margin-top: 3px; }
+.ex .tr em { font-style: normal; color: var(--accent); font-weight: 800; }
 
 /* two-column compare ------------------------------------------------------- */
 .compare { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); }
@@ -376,9 +381,21 @@
 }
 .ex .ex-emoji {
   display: flex; align-items: center; justify-content: center; font-size: 38px; line-height: 1;
+  background: #c7dceb; filter: drop-shadow(0 2px 1px rgba(7,17,31,.22));
 }
 .ex .ex-keycaps { display: flex; align-items: center; justify-content: center; }
-.ex .ex-keycaps .num2 b { min-width: 22px; padding: 4px; font-size: 17px; }
+.ex .ex-keycaps .num2 b {
+  min-width: 22px; padding: 4px; border-radius: 7px; font-size: 17px;
+  background: var(--a1); color: #07111f;
+}
+.ex .ex-clock { display: flex; align-items: center; justify-content: center; background: #e8f3fb; }
+.ex-clock svg { width: 58px; height: 58px; }
+.ex-clock svg > circle:first-child { fill: #fff; stroke: #17224a; stroke-width: 5; }
+.clock-ticks { stroke: #48647d; stroke-width: 3; stroke-linecap: round; }
+.clock-hour, .clock-minute { stroke: #17224a; stroke-linecap: round; }
+.clock-hour { stroke-width: 7; }
+.clock-minute { stroke-width: 5; }
+.clock-pin { fill: var(--accent); }
 .task-pic {
   display: block; margin: 4px auto 12px; height: clamp(120px, 22vh, 210px); max-width: 100%;
   object-fit: contain; border-radius: 16px; background: #fff;

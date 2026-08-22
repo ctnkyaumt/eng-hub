@@ -424,16 +424,25 @@
       {
        "en": "You *should* wear a helmet.",
        "tr": "Kask takmalısın.",
+       "trEm": [
+        "takmalısın."
+       ],
        "emoji": "⛑️"
       },
       {
        "en": "You *should* check the weather first.",
        "tr": "Önce hava durumunu kontrol etmelisin.",
+       "trEm": [
+        "etmelisin."
+       ],
        "emoji": "🌨️"
       },
       {
        "en": "Beginners *should* go with a guide.",
        "tr": "Yeni başlayanlar rehberle gitmeli.",
+       "trEm": [
+        "gitmeli."
+       ],
        "emoji": "🧭"
       }
      ]
@@ -445,16 +454,25 @@
       {
        "en": "You *shouldn't* climb alone.",
        "tr": "Yalnız tırmanmamalısın.",
+       "trEm": [
+        "tırmanmamalısın."
+       ],
        "emoji": "🧗"
       },
       {
        "en": "You *shouldn't* forget your equipment.",
        "tr": "Ekipmanını unutmamalısın.",
+       "trEm": [
+        "unutmamalısın."
+       ],
        "emoji": "🎒"
       },
       {
        "en": "You *shouldn't* swim when the sea is rough.",
        "tr": "Deniz dalgalıyken yüzmemelisin.",
+       "trEm": [
+        "yüzmemelisin."
+       ],
        "emoji": "🏊"
       }
      ]
@@ -494,21 +512,33 @@
     {
      "en": "You *must* follow the safety rules.",
      "tr": "Güvenlik kurallarına uymalısın.",
+     "trEm": [
+      "uymalısın."
+     ],
      "emoji": "⚠️"
     },
     {
      "en": "Divers *must* have a licence.",
      "tr": "Dalgıçların lisansı olmalı.",
+     "trEm": [
+      "olmalı."
+     ],
      "emoji": "🤿"
     },
     {
      "en": "You *mustn't* go rafting without a life jacket.",
      "tr": "Can yeleği olmadan raftinge gitmemelisin.",
-     "img": "/app/img/words/rafting.jpg"
+     "img": "/app/img/words/rafting.jpg",
+     "trEm": [
+      "gitmemelisin."
+     ]
     },
     {
      "en": "We *mustn't* leave rubbish in nature.",
      "tr": "Doğaya çöp bırakmamalıyız.",
+     "trEm": [
+      "bırakmamalıyız."
+     ],
      "emoji": "🗑️"
     }
    ]
@@ -542,21 +572,33 @@
     {
      "en": "Rafting is *more exciting than* hiking.",
      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir.",
-     "img": "/app/img/words/rafting.jpg"
+     "img": "/app/img/words/rafting.jpg",
+     "trEm": [
+      "daha heyecan vericidir"
+     ]
     },
     {
      "en": "Paragliding is *the most thrilling* sport for me.",
      "tr": "Yamaç paraşütü benim için en heyecan verici spordur.",
-     "img": "/app/img/words/paragliding.jpg"
+     "img": "/app/img/words/paragliding.jpg",
+     "trEm": [
+      "en heyecan verici"
+     ]
     },
     {
      "en": "Climbing is *harder than* cycling.",
      "tr": "Tırmanmak, bisiklet sürmekten daha zordur.",
+     "trEm": [
+      "daha zordur"
+     ],
      "emoji": "🧗"
     },
     {
      "en": "Scuba diving is *the most dangerous* of all.",
      "tr": "Tüplü dalış hepsinin arasında en tehlikelisidir.",
+     "trEm": [
+      "en tehlikelisidir"
+     ],
      "emoji": "🤿"
     }
    ]

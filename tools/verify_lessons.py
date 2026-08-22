@@ -21,6 +21,19 @@ from common import CONTENT, ROOT  # noqa: E402
 MAX_CARDS = 8
 MISSION_KINDS = ["dragmatch", "listenpicture", "dragorder"]
 TURKISH = re.compile(r"[çğıöşüÇĞİÖŞÜ]")
+STAR = re.compile(r"\*(.+?)\*")
+HOURS = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+    "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
+    "twelve": 12,
+}
+
+REQUIRED_VISUALS = {
+    ("g5/u3", "Adjectives", "long"): "/app/img/vocab/adjective-long.svg",
+    ("g5/u3", "Adjectives", "short"): "/app/img/vocab/adjective-short.svg",
+    ("g5/u3", "Adjectives", "new"): "/app/img/vocab/adjective-new.svg",
+    ("g5/u7", "Animals", "seal"): "/app/img/vocab/animal-seal.svg",
+}
 
 # These exact strings were found in the full sentence audit. Keeping the list
 # here prevents a future regeneration from quietly bringing them back.
@@ -45,7 +58,8 @@ def where(path):
 
 
 def has_visual(item):
-    return bool(item.get("img") or item.get("emoji") or item.get("num") is not None)
+    return bool(item.get("img") or item.get("emoji") or item.get("num") is not None
+                or item.get("time"))
 
 
 def image_path(deck_path, name):
@@ -70,7 +84,25 @@ def visual_signature(item):
         return "emoji", item["emoji"]
     if item.get("num") is not None:
         return "num", str(item["num"])
+    if item.get("time"):
+        return "time", item["time"]
     return None
+
+
+def expected_time(text):
+    plain = STAR.sub(r"\1", text or "").lower()
+    explicit = re.search(r"(?<!\d)([01]?\d|2[0-3]):([0-5]\d)(?!\d)", plain)
+    if explicit:
+        return "%02d:%s" % (int(explicit.group(1)) % 12 or 12, explicit.group(2))
+    hour_words = "|".join(HOURS)
+    for phrase, minute, offset in (("half past", 30, 0), ("quarter past", 15, 0),
+                                   ("quarter to", 45, -1)):
+        hit = re.search(r"\b" + phrase + r" (" + hour_words + r")\b", plain)
+        if hit:
+            hour = ((HOURS[hit.group(1)] + offset - 1) % 12) + 1
+            return "%02d:%02d" % (hour, minute)
+    hit = re.search(r"\b(" + hour_words + r") o'clock\b", plain)
+    return "%02d:00" % HOURS[hit.group(1)] if hit else None
 
 
 def language_strings(slides):
@@ -101,7 +133,8 @@ def main():
     problems = []
     stats = {"decks": 0, "slides": 0, "words": 0, "pictures": 0,
              "pictograms": 0, "missions": 0, "mission_audio": 0,
-             "word_audio": 0, "example_visuals": 0, "sentences": 0}
+             "word_audio": 0, "example_visuals": 0, "sentences": 0,
+             "clocks": 0, "bilingual_highlights": 0}
     checked_word_audio = set()
 
     paths = sorted(glob.glob(os.path.join(CONTENT, "g*", "u*", "presentation", "slides.json")))
@@ -137,6 +170,12 @@ def main():
                 else:
                     stats["pictograms"] += 1
 
+                required = REQUIRED_VISUALS.get((unit, slide.get("title"),
+                                                 (item.get("en") or "").lower()))
+                if required and item.get("img") != required:
+                    problems.append("%s: %r must use reviewed visual %s" %
+                                    (unit, item.get("en"), required))
+
                 audio = word_audio_path(item.get("en"))
                 if audio and audio not in checked_word_audio:
                     checked_word_audio.add(audio)
@@ -163,6 +202,24 @@ def main():
                 if example.get("img") and not os.path.isfile(image_path(path, example["img"])):
                     problems.append("%s: missing example picture %s" %
                                     (unit, example["img"]))
+                clock = expected_time(example.get("en"))
+                if clock:
+                    if example.get("time") != clock:
+                        problems.append("%s: %r needs clock %s, found %r" %
+                                        (unit, example.get("en"), clock, example.get("time")))
+                    else:
+                        stats["clocks"] += 1
+                if STAR.search(example.get("en") or ""):
+                    marks = example.get("trEm") or []
+                    if not marks:
+                        problems.append("%s: no Turkish highlight for %r" %
+                                        (unit, example.get("en")))
+                    elif any(str(mark).lower() not in (example.get("tr") or "").lower()
+                             for mark in marks):
+                        problems.append("%s: Turkish highlight is not in translation for %r" %
+                                        (unit, example.get("en")))
+                    else:
+                        stats["bilingual_highlights"] += 1
 
         missions = [slide for slide in slides if slide.get("type") == "mission"]
         kinds = [(slide.get("task") or {}).get("kind") for slide in missions]
@@ -207,7 +264,8 @@ def main():
           "pictograms/numbers: {pictograms}   missions: {missions}   offline audio refs: {audio}   "
           "language fields checked: {sentences}"
           .format(audio=stats["mission_audio"], **stats))
-    print("unique word audio: {word_audio}   examples with visuals: {example_visuals}"
+    print("unique word audio: {word_audio}   examples with visuals: {example_visuals}   "
+          "accurate clocks: {clocks}   bilingual highlights: {bilingual_highlights}"
           .format(**stats))
     if problems:
         print("\n%d lesson problems:" % len(problems))
@@ -216,8 +274,8 @@ def main():
         if len(problems) > 80:
             print("  ... and %d more" % (len(problems) - 80))
         return 1
-    print("Every word and example has a visual, vocabulary audio is complete, duplicate card visuals are gone, "
-          "and the language checks pass.")
+    print("Every word and example has a visual, clocks and bilingual highlights are accurate, "
+          "vocabulary audio is complete, duplicate card visuals are gone, and the language checks pass.")
     return 0
 
 

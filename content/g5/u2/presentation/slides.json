@@ -184,36 +184,43 @@
       {
        "en": "Listen to your teachers carefully.",
        "tr": "Öğretmenlerini dikkatlice dinle.",
+       "trEm": [],
        "emoji": "👂"
       },
       {
        "en": "Bring the school materials.",
        "tr": "Okul materyallerini getir.",
+       "trEm": [],
        "emoji": "📦"
       },
       {
        "en": "Raise your hand to speak.",
        "tr": "Konuşmak için elini kaldır.",
+       "trEm": [],
        "emoji": "✋"
       },
       {
        "en": "Keep the classroom clean.",
        "tr": "Sınıfı temiz tut.",
+       "trEm": [],
        "emoji": "🤝"
       },
       {
        "en": "Speak quietly.",
        "tr": "Sessizce konuş.",
+       "trEm": [],
        "emoji": "🤫"
       },
       {
        "en": "Tidy up your desk.",
        "tr": "Sıranı toparla.",
+       "trEm": [],
        "emoji": "🧹"
       },
       {
        "en": "Follow the classroom rules.",
        "tr": "Sınıf kurallarına uy.",
+       "trEm": [],
        "emoji": "👣"
       }
      ]
@@ -225,16 +232,25 @@
       {
        "en": "*Don't* throw rubbish on the ground.",
        "tr": "Yere çöp atma.",
+       "trEm": [
+        "atma"
+       ],
        "emoji": "🗑️"
       },
       {
        "en": "*Don't* run in the classroom.",
        "tr": "Sınıfta koşma.",
+       "trEm": [
+        "koşma"
+       ],
        "emoji": "🏃"
       },
       {
        "en": "*Don't* shout at your friends.",
        "tr": "Arkadaşlarına bağırma.",
+       "trEm": [
+        "bağırma"
+       ],
        "emoji": "📢"
       }
      ]
@@ -391,27 +407,50 @@
     {
      "en": "I *have got* a Science class *at* nine o'clock *on* Monday.",
      "tr": "Ben Pazartesi günü saat dokuzda bir Fen Bilimleri dersine sahibim.",
-     "img": "p05-02.png"
+     "time": "09:00",
+     "trEm": [
+      "sahibim.",
+      "saat dokuzda",
+      "Pazartesi günü"
+     ]
     },
     {
      "en": "He *has got* double Maths classes *at* half past ten *on* Friday.",
      "tr": "O Cuma günü saat on buçukta iki Matematik dersine sahip.",
-     "img": "p05-01.png"
+     "time": "10:30",
+     "trEm": [
+      "sahip.",
+      "saat on buçukta",
+      "Cuma günü"
+     ]
     },
     {
      "en": "You *have got* an English class *at* two o'clock *on* Wednesday.",
      "tr": "Sen Çarşamba günü saat ikide bir İngilizce dersine sahipsin.",
-     "emoji": "3️⃣"
+     "time": "02:00",
+     "trEm": [
+      "sahipsin.",
+      "saat ikide",
+      "Çarşamba günü"
+     ]
     },
     {
      "en": "They *have got* a Music class *on* Tuesday.",
      "tr": "Onlar Salı günü bir Müzik dersine sahipler.",
-     "img": "p05-07.png"
+     "img": "p05-07.png",
+     "trEm": [
+      "sahipler.",
+      "Salı günü"
+     ]
     },
     {
      "en": "She *has got* a P.E. class *at* eleven o'clock.",
      "tr": "O saat on birde bir Beden Eğitimi dersine sahip.",
-     "num": "11"
+     "time": "11:00",
+     "trEm": [
+      "sahip.",
+      "saat on birde"
+     ]
     }
    ]
   },
@@ -1140,32 +1179,50 @@
     {
      "en": "08:00 → It is eight *o'clock*.",
      "tr": "Dakikası olmayan tam saatler",
-     "num": "8"
+     "time": "08:00",
+     "trEm": [
+      "tam saatler"
+     ]
     },
     {
      "en": "10:30 → It is *half past* ten.",
      "tr": "Buçuk geçiyor (30 dakika)",
-     "num": "10"
+     "time": "10:30",
+     "trEm": [
+      "Buçuk geçiyor"
+     ]
     },
     {
      "en": "16:15 → It is *quarter past* four.",
      "tr": "Çeyrek geçiyor (15 dakika)",
-     "num": "4"
+     "time": "04:15",
+     "trEm": [
+      "Çeyrek geçiyor"
+     ]
     },
     {
      "en": "01:45 → It is *quarter to* two.",
      "tr": "Çeyrek var (45 dakika)",
-     "num": "2"
+     "time": "01:45",
+     "trEm": [
+      "Çeyrek var"
+     ]
     },
     {
      "en": "09:22 → It is twenty-two *past* nine.",
      "tr": "30'dan küçük dakikalar: geçiyor",
-     "num": "20"
+     "time": "09:22",
+     "trEm": [
+      "geçiyor"
+     ]
     },
     {
      "en": "08:33 → It is twenty-seven *to* nine.",
      "tr": "30'dan büyük dakikalar: var",
-     "num": "20"
+     "time": "08:33",
+     "trEm": [
+      "var"
+     ]
     }
    ]
   },
@@ -1198,27 +1255,42 @@
     {
      "en": "A: What time is it?  B: It is 8:15 *a.m.*",
      "tr": "Sabah 8:15",
-     "emoji": "🕒"
+     "time": "08:15",
+     "trEm": [
+      "Sabah"
+     ]
     },
     {
      "en": "A: What time is it?  B: It is 8:15 *p.m.*",
      "tr": "Akşam 8:15",
-     "emoji": "🕒"
+     "time": "08:15",
+     "trEm": [
+      "Akşam"
+     ]
     },
     {
      "en": "The first class starts at 9:00 *a.m.*",
      "tr": "İlk ders sabah 9'da başlar.",
-     "emoji": "🏫"
+     "time": "09:00",
+     "trEm": [
+      "sabah"
+     ]
     },
     {
      "en": "School finishes at 3:15 *p.m.*",
      "tr": "Okul öğleden sonra 3:15'te biter.",
-     "emoji": "🏫"
+     "time": "03:15",
+     "trEm": [
+      "öğleden sonra"
+     ]
     },
     {
      "en": "I go to bed at 10:00 *p.m.*",
      "tr": "Gece 10'da yatarım.",
-     "emoji": "🛏️"
+     "time": "10:00",
+     "trEm": [
+      "Gece"
+     ]
     }
    ]
   },
@@ -1258,17 +1330,26 @@
       {
        "en": "*There is* a smart board in the classroom.",
        "tr": "Sınıfta bir akıllı tahta var.",
+       "trEm": [
+        "var"
+       ],
        "emoji": "🖥️"
       },
       {
        "en": "*There are* fifteen students in the classroom.",
        "tr": "Sınıfta on beş öğrenci var.",
+       "trEm": [
+        "var"
+       ],
        "num": "15"
       },
       {
        "en": "*There is* a Music lesson on Monday.",
        "tr": "Pazartesi günü bir Müzik dersi var.",
-       "img": "p05-07.png"
+       "img": "p05-07.png",
+       "trEm": [
+        "var"
+       ]
       }
      ]
     },
@@ -1279,17 +1360,26 @@
       {
        "en": "*There isn't* a coach at school.",
        "tr": "Okulda bir antrenör yok.",
+       "trEm": [
+        "yok"
+       ],
        "emoji": "🏫"
       },
       {
        "en": "*There aren't* two sports fields at school.",
        "tr": "Okulda iki spor sahası yok.",
+       "trEm": [
+        "yok"
+       ],
        "num": "2"
       },
       {
        "en": "*There isn't* a Science class at ten o'clock.",
        "tr": "Saat onda bir Fen Bilimleri dersi yok.",
-       "img": "p05-02.png"
+       "time": "10:00",
+       "trEm": [
+        "yok"
+       ]
       }
      ]
     }

@@ -67,6 +67,115 @@ MAX_CARDS = 8    # four wide cards x two rows keeps pictures classroom-sized
 MAX_TASKS = 2    # practice tasks per slide - more than this and they shrink
 BACK = chr(92)
 
+HOURS = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6,
+    "seven": 7, "eight": 8, "nine": 9, "ten": 10, "eleven": 11,
+    "twelve": 12,
+}
+
+# The English teaching point and its Turkish realization rarely occupy the
+# same position in a sentence. These patterns identify the translated phrase
+# rather than simply colouring the whole translation. Unusual rule-summary
+# examples deliberately fall back to their complete short Turkish label.
+TR_TERM_PATTERNS = {
+    "playing": (r"(?:gitar )?çalmayı", r"(?:basketbol )?oynamayı"),
+    "reading": (r"(?:kitap )?okumayı",), "drawing": (r"resim çizmeyi",),
+    "must": (r"\S+m[ae]l[ıi]\S*",), "mustn't": (r"\S+m[ae]m[ae]l[ıi]\S*",),
+    "should": (r"\S+m[ae]l[ıi]\S*",), "shouldn't": (r"\S+m[ae]m[ae]l[ıi]\S*",),
+    "have got": (r"\b\S*sahib\S*", r"\bsahip\S*", r"\bvar\b"),
+    "has got": (r"\b\S*sahib\S*", r"\bsahip\S*", r"\bvar\b"),
+    "haven't got": (r"\byok\b",), "hasn't got": (r"\byok\b",),
+    "at": (r"saat\s+[^,.;]+?(?:da|de|ta|te)\b",),
+    "on": (r"(?:Pazartesi|Salı|Çarşamba|Perşembe|Cuma|Cumartesi|Pazar)(?: günü)?",),
+    "o'clock": (r"tam saatler",), "half past": (r"Buçuk geçiyor",),
+    "quarter past": (r"Çeyrek geçiyor",), "quarter to": (r"Çeyrek var",),
+    "past": (r"geçiyor",), "to": (r"\bvar\b", r"\b\S+za\b"),
+    "a.m.": (r"Sabah",), "p.m.": (r"Akşam", r"öğleden sonra", r"Gece"),
+    "there is": (r"\bvar\b",), "there are": (r"\bvar\b",),
+    "there isn't": (r"\byok\b",), "there aren't": (r"\byok\b",),
+    "is there": (r"var mı",), "are there": (r"var mı",),
+    "am": (r"kısa ve zayıfım",),
+    "is": (r"orta boylu", r"\S+yor mu", r"\S+[ae]cak mı"),
+    "wear": (r"giyerim",), "buy": (r"satın alırım",),
+    "need": (r"ihtiyacım var",), "own": (r"sahibim",),
+    "every": (r"\bher\b",), "every day": (r"her gün",),
+    "in the morning": (r"sabahları",), "in the evenings": (r"akşamları",),
+    "now": (r"\bşimdi\b",), "at the moment": (r"şu anda",),
+    "go": (r"giderim",), "goes": (r"gider",), "watches": (r"izler",),
+    "fishes": (r"balık tutar",),
+    "don't": (r"\b(?:koşma|bağırma|atma|unutma|paylaşma|gitmem|giymezsin|oturmayız|yapmazsın)\b",),
+    "doesn't": (r"\b(?:oynamaz|çizmez|sevmez|izlemez|gitmez)\b",),
+    "do": (r"\bmısın\b", r"\bmı\b"), "does": (r"\bmı\b",),
+    "do you": (r"değil mi", r"mısın"), "does she": (r"değil mi",),
+    "don't you": (r"değil mi",), "doesn't she": (r"değil mi",),
+    "aren't you": (r"değil mi",), "isn't she": (r"değil mi",),
+    "are you": (r"değil mi", r"mısın"), "is she": (r"değil mi", r"mu"),
+    "am watching": (r"televizyon izliyorum",), "is sleeping": (r"uyuyor",),
+    "are swimming": (r"yüzüyorlar",), "am not": (r"yapmıyorum",),
+    "isn't": (r"\S+miyor", r"müsait değil"), "aren't": (r"\S+mıyorsun",),
+    "are": (r"\S+yor musun", r"\S+[ae]cek misin",),
+    "listening": (r"dinliyor musun",),
+    "'s": (r"\b\S+(?:'nın|'nin|'nun|'nün)\b",),
+    "'": (r"\b\S+lerin\b", r"\b\S+ların\b", r"\b\S+mın\b"),
+    "more comfortable than": (r"daha rahat",), "closer than": (r"daha yakın",),
+    "bigger than": (r"daha büyük",), "better than": (r"daha iyidir",),
+    "stronger than": (r"daha güçlüdür",), "heavier than": (r"daha ağırdır",),
+    "more dangerous than": (r"daha tehlikelidir",), "scarier than": (r"daha korkutucudur",),
+    "the strongest": (r"en güçlü",), "the largest": (r"en büyük",),
+    "the tallest": (r"en uzun",), "the fastest": (r"en hızlı",),
+    "the most colourful": (r"en renkli",),
+    "some": (r"Birkaç", r"Biraz"), "any": (r"Hiç",),
+    "can i": (r"\S+(?:abilir|ebilir) miyim",),
+    "can": (r"\S+(?:abilir|ebilir)",), "can't": (r"\S+(?:amaz|emez)",),
+    "am going to": (r"\S+eceğim",), "is going to": (r"\S+ecek",),
+    "are going to": (r"\S+acaklar",), "am not going to": (r"\S+meyeceğim",),
+    "isn't going to": (r"\S+meyecek",), "aren't going to": (r"\S+meyeceksin",),
+    "going to": (r"\S+[ae]cek (?:misin|mı)",),
+    "would you like to": (r"ister misin",), "how about": (r"ne dersin",),
+    "let's": (r"\bHadi\b",), "why don't we": (r"neden .+mıyoruz",),
+    "i'd love to": (r"Çok isterim",), "sure": (r"\bTabii\b",),
+    "of course": (r"\bElbette\b",), "i'm sorry": (r"\bÜzgünüm\b",),
+    "i'd love to, but": (r"Çok isterdim ama",),
+    "maybe next time": (r"Belki başka zaman",),
+    "will": (r"\bolacak\b", r"su altında kalır", r"dışarı çıkacağız", r"güvende olursun", r"toprak kurur"),
+    "won't": (r"\S+mayacak",),
+    "might": (r"\S+abilir",), "may": (r"\S+ebilir",),
+    "if": (r"\S+(?:sa|se|san|sen)\b",),
+    "stay away": (r"uzak dur",), "don't panic": (r"Panik yapma",),
+    "prefer": (r"tercih ederim",), "would rather": (r"yeğler",),
+    "enjoy": (r"hoşlanırlar", r"keyif aldın"), "love": (r"çok severiz",),
+    "how often": (r"Ne sıklıkla",), "twice a week": (r"Haftada iki kez",),
+    "hardly ever": (r"neredeyse hiç",), "always": (r"her zaman",),
+    "chop": (r"\bdoğra\b",), "add": (r"\bekle\b",),
+    "boil": (r"\bkaynat\b",), "first": (r"\bÖnce\b",),
+    "then": (r"\bSonra\b",), "after that": (r"Ondan sonra",),
+    "finally": (r"Son olarak",), "how many": (r"\bKaç\b",),
+    "how much": (r"Ne kadar",), "three": (r"\bÜç\b",),
+    "a cup of": (r"Bir fincan",),
+    "could i speak to": (r"görüşebilir miyim",), "hold on": (r"Lütfen bekleyin",),
+    "can i take a message": (r"Mesajınızı alabilir miyim",),
+    "isn't available": (r"müsait değil",), "am calling": (r"arıyorum",),
+    "is talking": (r"konuşuyor",), "aren't answering": (r"cevap vermiyorlar",),
+    "can you": (r"yardım eder misin",), "could you": (r"gösterir misin", r"yardım eder misin"),
+    "shall i": (r"göndereyim mi", r"ben mi kurayım"),
+    "would you mind": (r"bakar mısın", r"çıkarır mısın"),
+    "click on": (r"\btıkla\b",), "type": (r"\byaz\b",), "save": (r"\bkaydet\b",),
+    "more exciting than": (r"daha heyecan vericidir",),
+    "the most thrilling": (r"en heyecan verici",), "harder than": (r"daha zordur",),
+    "the most dangerous": (r"en tehlikelisidir",),
+    "visited": (r"ziyaret ettik",), "stayed": (r"kaldılar",),
+    "didn't": (r"sevmedim",), "did": (r"keyif aldın mı",),
+    "went": (r"gittik",), "saw": (r"gördüm",), "took": (r"fotoğraf çekti",),
+    "ate": (r"yedik",), "have to": (r"zorunda\S*",), "has to": (r"zorunda\S*",),
+    "don't have to": (r"zorunda değiliz",), "give me a hand": (r"el atar mısın",),
+    "all right": (r"\bPeki\b",), "sorry": (r"\bÜzgünüm\b",),
+    "i'm afraid": (r"\bKorkarım\b",), "not now": (r"Şimdi olmaz",),
+    "are done": (r"\byapılır\b",), "is used": (r"\bkullanılır\b",),
+    "are developed": (r"\bgeliştirilir\b",), "are written": (r"\byazılır\b",),
+    "was invented": (r"icat edildi",), "was discovered": (r"keşfedildi",),
+    "were built": (r"inşa edildi",), "was written": (r"yazıldı",),
+}
+
 # Context pictures for examples that do not repeat a vocabulary-card phrase.
 # Specific content wins; title icons are reserved for grammatical formulae.
 EXAMPLE_ICON_RULES = [
@@ -214,6 +323,65 @@ VISUALS = {
 
 def is_number(item):
     return bool(re.fullmatch(r"\d{1,3}", (item.get("tr") or "").strip()))
+
+
+def example_time(text):
+    """Return a canonical 12-hour HH:MM value when a sentence states a time."""
+    plain = STAR.sub(BACK + "1", text or "").lower()
+    explicit = re.search(r"(?<!\d)([01]?\d|2[0-3]):([0-5]\d)(?!\d)", plain)
+    if explicit:
+        return "%02d:%s" % (int(explicit.group(1)) % 12 or 12, explicit.group(2))
+    hour_words = "|".join(HOURS)
+    hit = re.search(r"\bhalf past (" + hour_words + r")\b", plain)
+    if hit:
+        return "%02d:30" % HOURS[hit.group(1)]
+    hit = re.search(r"\bquarter past (" + hour_words + r")\b", plain)
+    if hit:
+        return "%02d:15" % HOURS[hit.group(1)]
+    hit = re.search(r"\bquarter to (" + hour_words + r")\b", plain)
+    if hit:
+        return "%02d:45" % ((HOURS[hit.group(1)] - 2) % 12 + 1)
+    hit = re.search(r"\b(" + hour_words + r") o'clock\b", plain)
+    if hit:
+        return "%02d:00" % HOURS[hit.group(1)]
+    return None
+
+
+def turkish_highlights(title, english, turkish):
+    """Find the Turkish phrases that realize the starred English teaching point."""
+    terms = list(dict.fromkeys(m.group(1).strip().lower() for m in STAR.finditer(english or "")))
+    if not terms or not turkish:
+        return []
+
+    # These are short metalinguistic labels rather than translated sentences.
+    # Highlighting the whole label is the honest one-to-one correspondence.
+    article_label = (title in ("A / AN / THE", "Countable / Uncountable", "a / an · some · any")
+                     and set(terms) <= {"a", "an", "the", "two", "four", "five", "ten"})
+    if (re.search(r"\b(?:kural|heceli|düzensiz|salatalık|elma|limon|zeytin)\b", turkish, re.I)
+            or article_label):
+        return [turkish]
+
+    found = []
+    unresolved = False
+    for term in terms:
+        patterns = TR_TERM_PATTERNS.get(term)
+        if not patterns:
+            unresolved = True
+            continue
+        matches = []
+        for pattern in patterns:
+            matches.extend(re.finditer(pattern, turkish, re.I))
+        if not matches:
+            unresolved = True
+            continue
+        for match in matches:
+            phrase = match.group(0)
+            if phrase not in found:
+                found.append(phrase)
+
+    # A complete orange translation is preferable to implying a false word
+    # alignment when Turkish expresses a point through an inflectional suffix.
+    return [turkish] if unresolved or not found else found
 
 
 def ensure_visuals(slides):
@@ -578,10 +746,19 @@ def polish(path, dry):
         for col in s.get("columns") or []:
             pools += col.get("examples") or []
         for e in pools:
+            clock = example_time(e.get("en"))
+            if clock:
+                e["time"] = clock
+                e.pop("img", None)
+                e.pop("emoji", None)
+                e.pop("num", None)
+            else:
+                e.pop("time", None)
+            e["trEm"] = turkish_highlights(s.get("title"), e.get("en"), e.get("tr"))
             plain = STAR.sub(BACK+"1", e.get("en", "")).lower()
             hit = max((w for w in visuals if re.search(r"(?<![a-z])" + re.escape(w) + r"(?![a-z])", plain)),
                       key=len, default=None)
-            if not e.get("img"):
+            if not e.get("img") and not e.get("time"):
                 e.pop("emoji", None)
                 e.pop("num", None)
                 if hit:

@@ -426,21 +426,33 @@
     {
      "en": "*Can you* help me download this file?",
      "tr": "Bu dosyayı indirmeme yardım eder misin?",
+     "trEm": [
+      "yardım eder misin"
+     ],
      "emoji": "⬇️"
     },
     {
      "en": "*Could you* show me how to log in?",
      "tr": "Nasıl giriş yapacağımı gösterir misin?",
+     "trEm": [
+      "gösterir misin"
+     ],
      "emoji": "🔐"
     },
     {
      "en": "*Shall I* send you the link?",
      "tr": "Sana bağlantıyı göndereyim mi?",
+     "trEm": [
+      "göndereyim mi"
+     ],
      "emoji": "🔗"
     },
     {
      "en": "*Would you mind* checking my e-mail?",
      "tr": "E-postama bakar mısın?",
+     "trEm": [
+      "bakar mısın"
+     ],
      "emoji": "🔗"
     }
    ]
@@ -488,21 +500,33 @@
     {
      "en": "*Click on* the download button.",
      "tr": "İndir düğmesine tıkla.",
+     "trEm": [
+      "tıkla"
+     ],
      "emoji": "⬇️"
     },
     {
      "en": "*Type* your username and password.",
      "tr": "Kullanıcı adını ve şifreni yaz.",
+     "trEm": [
+      "yaz"
+     ],
      "emoji": "🔐"
     },
     {
      "en": "*Save* the file to your desktop.",
      "tr": "Dosyayı masaüstüne kaydet.",
+     "trEm": [
+      "kaydet"
+     ],
      "emoji": "📄"
     },
     {
      "en": "*Don't* share your password with anyone.",
      "tr": "Şifreni kimseyle paylaşma.",
+     "trEm": [
+      "paylaşma"
+     ],
      "emoji": "🔐"
     }
    ]
@@ -539,16 +563,25 @@
       {
        "en": "You *should* use a strong password.",
        "tr": "Güçlü bir şifre kullanmalısın.",
+       "trEm": [
+        "kullanmalısın."
+       ],
        "emoji": "🔐"
       },
       {
        "en": "You *should* log out on public computers.",
        "tr": "Ortak bilgisayarlarda çıkış yapmalısın.",
+       "trEm": [
+        "yapmalısın."
+       ],
        "emoji": "🛡️"
       },
       {
        "en": "You *should* tell an adult about strange messages.",
        "tr": "Garip mesajları bir yetişkine söylemelisin.",
+       "trEm": [
+        "söylemelisin."
+       ],
        "emoji": "🛡️"
       }
      ]
@@ -560,16 +593,25 @@
       {
        "en": "You *shouldn't* accept friend requests from strangers.",
        "tr": "Yabancılardan arkadaşlık isteği kabul etmemelisin.",
+       "trEm": [
+        "etmemelisin."
+       ],
        "emoji": "👥"
       },
       {
        "en": "You *shouldn't* share personal information.",
        "tr": "Kişisel bilgilerini paylaşmamalısın.",
+       "trEm": [
+        "paylaşmamalısın."
+       ],
        "emoji": "ℹ️"
       },
       {
        "en": "You *mustn't* click on suspicious links.",
        "tr": "Şüpheli bağlantılara tıklamamalısın.",
+       "trEm": [
+        "tıklamamalısın."
+       ],
        "emoji": "🛡️"
       }
      ]

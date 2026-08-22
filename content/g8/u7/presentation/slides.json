@@ -402,21 +402,34 @@
     {
      "en": "We *visited* Cappadocia last summer.",
      "tr": "Geçen yaz Kapadokya'yı ziyaret ettik.",
+     "trEm": [
+      "ziyaret ettik"
+     ],
      "emoji": "🌻"
     },
     {
      "en": "They *stayed* at a lovely hotel.",
      "tr": "Güzel bir otelde kaldılar.",
+     "trEm": [
+      "kaldılar"
+     ],
      "emoji": "🏨"
     },
     {
      "en": "I *didn't* like the food there.",
      "tr": "Oradaki yemekleri sevmedim.",
+     "trEm": [
+      "sevmedim"
+     ],
      "emoji": "⏮️"
     },
     {
      "en": "*Did* you *enjoy* the tour? — Yes, I did.",
      "tr": "Turdan keyif aldın mı? — Evet.",
+     "trEm": [
+      "keyif aldın mı",
+      "keyif aldın"
+     ],
      "emoji": "⏮️"
     }
    ]
@@ -463,21 +476,33 @@
     {
      "en": "We *went* to Antalya by plane.",
      "tr": "Antalya'ya uçakla gittik.",
+     "trEm": [
+      "gittik"
+     ],
      "emoji": "✈️"
     },
     {
      "en": "I *saw* the ancient theatre.",
      "tr": "Antik tiyatroyu gördüm.",
-     "img": "/app/img/words/ancient.jpg"
+     "img": "/app/img/words/ancient.jpg",
+     "trEm": [
+      "gördüm"
+     ]
     },
     {
      "en": "She *took* a lot of photographs.",
      "tr": "Bir sürü fotoğraf çekti.",
+     "trEm": [
+      "fotoğraf çekti"
+     ],
      "emoji": "📷"
     },
     {
      "en": "We *ate* delicious local food.",
      "tr": "Nefis yöresel yemekler yedik.",
+     "trEm": [
+      "yedik"
+     ],
      "emoji": "⏮️"
     }
    ]

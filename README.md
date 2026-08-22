@@ -24,7 +24,7 @@ hazır gelir). Hiçbiri yoksa açılış ekranı kurulumu adım adım anlatır.
 
 | Bölüm | İçerik |
 | --- | --- |
-| **Sunum** | **5. sınıf** 1–8. tema (303 slayt) ve **8. sınıf** 1–10. ünite (227 slayt) için animasyonlu ders sunumu — sesli 1115 büyük görsel kelime kartı, 168 kısa etkinlik molası ve ünite başına 3 büyük final görevi (54 sayfa: resim sürükleme, çevrimdışı ses ve cümle kurma). 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
+| **Sunum** | **5. sınıf** 1–8. tema (303 slayt) ve **8. sınıf** 1–10. ünite (227 slayt) için animasyonlu ders sunumu — sesli 1115 büyük görsel kelime kartı, doğru akrep/yelkovanlı saat örnekleri, İngilizce–Türkçe eşlenmiş vurgular, 168 kısa etkinlik molası ve ünite başına 3 büyük final görevi (54 sayfa: resim sürükleme, çevrimdışı ses ve cümle kurma). 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
 | **Oyunlar** | 6 çevrimdışı oyun modu: Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca kaynaktaki 66 statik etkinliğin çevrimdışı kopyası. |
 | **Çalışma Kâğıtları** | 124 dosya USB'de hazır. Tıklayınca bilgisayarın kendi PDF programında açılır. |
 | **Kitap Sunumları** | Kaynaktaki ders/çalışma kitabı sunumlarının listesi. Bunlar yüzlerce parçadan oluşan slayt oynatıcıları olduğu için USB'ye kopyalanmıyor; **bağlantı olarak** açılır (internet gerekir). |
@@ -125,7 +125,8 @@ Kaynak PDF yoksa 8. sınıftaki gibi kelime havuzundan üretme yolunu izleyebili
 `tools/build_g8.py` dosyasını örnek alın.
 
 `slides.json` slayt tipleri: `title`, `vocab`, `grammar`, `compare`, `dialogue`, `practice`,
-`exercise`, `mission`, `scene`, `pages`, `end`. Metin içinde `*yıldız*` arasına aldığınız kısım renkli vurgulanır.
+`exercise`, `mission`, `scene`, `pages`, `end`. İngilizce örnekte `*yıldız*` arasına aldığınız
+kısım renkli vurgulanır; `polish_slides.py` karşılık gelen Türkçe ifadeyi `trEm` alanına ekler.
 
 ## Klasörler
 
@@ -159,16 +160,16 @@ yenilemek için `--full` ekleyin. Tek tek çalıştırmak isterseniz:
 | `tools/mirror_sites.py` | statik etkinliklerin çevrimdışı kopyasını alır (`--presentations` ile kitap sunumları da, çok yavaş) |
 | `tools/crop_vocab.py` | tema föyündeki resimleri tek tek kesip çıkarır (`--sheet` ile kontrol görseli) |
 | `tools/link_images.py` | kesilen resimleri kelime kartlarına bağlar (eşleme tablosu dosyanın içinde) |
-| `tools/polish_slides.py` | kelime sayfalarını büyütüp böler; kısa molaları ve üç ünite final görevini üretir |
+| `tools/polish_slides.py` | kelime sayfalarını büyütüp böler; doğru saatleri, iki dilli vurguları, kısa molaları ve üç ünite final görevini üretir |
 | `tools/build_mission_audio.ps1` | bütün kelime kartları ve final dinleme görevleri için çevrimdışı WAV dosyaları üretir |
-| `tools/build_vocab_illustrations.py` | boy, kilo, yüz şekli ve kaşık boyutu gibi soyut karşılaştırmalar için açık SVG çizimleri üretir |
+| `tools/build_vocab_illustrations.py` | boy, kilo, yüz şekli, uzunluk, durum ve kaşık boyutu gibi karşılaştırmalar için açık SVG çizimleri üretir |
 | `tools/fetch_reviewed_vocab_images.py` | yalnız elle denetlenmiş Commons dosyalarını indirir; kaynak/lisans bilgisi görsellerin yanındadır |
 | `tools/contact_grade5_images.py` | 5. sınıf kaynak görsellerini etiketli kontrol sayfalarında gösterir |
 | `tools/contact_word_images.py` | 8. sınıf kelime fotoğraflarını gözle denetlemek için etiketli kontrol sayfaları üretir |
 | `tools/fetch_flags.py` | ülke bayraklarını SVG olarak indirir ve kartlara bağlar |
 | `tools/build_g8.py` | 8. sınıf sunumlarını kelime havuzu + müfredat yapılarından üretir |
 | `tools/verify_content.py` | eksik dosya var mı diye bakar |
-| `tools/verify_lessons.py` | büyük kelime sayfalarını, tüm görselleri, final görevlerini, sesleri ve dil düzeltmelerini doğrular |
+| `tools/verify_lessons.py` | büyük kelime sayfalarını, tüm görselleri, saatleri, iki dilli vurguları, final görevlerini, sesleri ve dil düzeltmelerini doğrular |
 | `tools/get_python_win.py` | USB'ye taşınabilir Python koyar |
 
 Gerekli tek harici paket: `pymupdf` (yalnız `pdf_to_pages.py` için) — `pip install pymupdf`.

@@ -815,17 +815,27 @@
      "en": "I *am going to* visit a museum tomorrow.",
      "tr": "Yarın bir müzeyi ziyaret edeceğim.",
      "img": "p02-14.png",
-     "emoji": "🏛️"
+     "emoji": "🏛️",
+     "trEm": [
+      "edeceğim"
+     ]
     },
     {
      "en": "He *is going to* go sightseeing next week.",
      "tr": "O gelecek hafta geziye gidecek.",
      "img": "p02-02.png",
-     "emoji": "🗼"
+     "emoji": "🗼",
+     "trEm": [
+      "gelecek",
+      "gidecek"
+     ]
     },
     {
      "en": "They *are going to* stay at a hotel.",
      "tr": "Onlar bir otelde kalacaklar.",
+     "trEm": [
+      "kalacaklar"
+     ],
      "emoji": "🏨"
     }
    ]
@@ -868,16 +878,25 @@
        "en": "I *am not going to* ride a camel.",
        "tr": "Deveye binmeyeceğim.",
        "img": "p02-10.png",
-       "emoji": "🐫"
+       "emoji": "🐫",
+       "trEm": [
+        "binmeyeceğim"
+       ]
       },
       {
        "en": "She *isn't going to* take photos.",
        "tr": "O fotoğraf çekmeyecek.",
+       "trEm": [
+        "çekmeyecek"
+       ],
        "emoji": "📷"
       },
       {
        "en": "You *aren't going to* invite your friends.",
        "tr": "Sen arkadaşlarını davet etmeyeceksin.",
+       "trEm": [
+        "etmeyeceksin"
+       ],
        "emoji": "💌"
       }
      ]
@@ -889,12 +908,18 @@
       {
        "en": "*Are* you *going to* swim in the sea? — Yes, I am.",
        "tr": "Denizde yüzecek misin? — Evet.",
-       "img": "p01-13.png"
+       "img": "p01-13.png",
+       "trEm": [
+        "yüzecek misin"
+       ]
       },
       {
        "en": "*Is* she *going to* climb the mountain tomorrow? — No, she isn't.",
        "tr": "O yarın dağa tırmanacak mı? — Hayır.",
-       "img": "p01-02.png"
+       "img": "p01-02.png",
+       "trEm": [
+        "O yarın dağa tırmanacak mı? — Hayır."
+       ]
       }
      ]
     }

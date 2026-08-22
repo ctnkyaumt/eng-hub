@@ -113,6 +113,9 @@ WORD_MAP = {
     ("u3", "Accessories", "ring"): "p03-06.png",
     ("u3", "Accessories", "earrings"): "p03-07.png",
     ("u3", "Accessories", "necklace"): "p03-08.png",
+    ("u3", "Adjectives", "long"): "/app/img/vocab/adjective-long.svg",
+    ("u3", "Adjectives", "short"): "/app/img/vocab/adjective-short.svg",
+    ("u3", "Adjectives", "new"): "/app/img/vocab/adjective-new.svg",
 
     # Other duplicate or ambiguous cards found by the all-deck audit
     ("u5", "Parts of a House", "flat / apartment"): "p02-01.png",
@@ -160,6 +163,7 @@ WORD_MAP = {
     ("u6", "Kitchen Utensils", "cup"): "p02-26.png",
     ("u6", "Kitchen Utensils", "tablespoon"): "/app/img/vocab/tablespoon.svg",
     ("u6", "Kitchen Utensils", "teaspoon"): "/app/img/vocab/teaspoon.svg",
+    ("u7", "Animals", "seal"): "/app/img/vocab/animal-seal.svg",
     **{("u8", "Holiday Activities", word): "p02-%02d.png" % number
        for word, number in {
            "climb a mountain": 1, "go sightseeing": 2, "go hiking": 3,

@@ -439,21 +439,33 @@
     {
      "en": "I *go* to the gym twice a week.",
      "tr": "Haftada iki kez spor salonuna giderim.",
+     "trEm": [
+      "giderim"
+     ],
      "emoji": "🏋️"
     },
     {
      "en": "She *watches* TV series in her free time.",
      "tr": "O boş zamanında dizi izler.",
+     "trEm": [
+      "izler"
+     ],
      "emoji": "🕒"
     },
     {
      "en": "We *don't* stay up late on school nights.",
      "tr": "Okul gecelerinde geç saate kadar oturmayız.",
+     "trEm": [
+      "oturmayız"
+     ],
      "emoji": "🏫"
     },
     {
      "en": "*Does* he play the guitar? — Yes, he does.",
      "tr": "O gitar çalar mı? — Evet, çalar.",
+     "trEm": [
+      "mı"
+     ],
      "emoji": "🎸"
     }
    ]
@@ -498,21 +510,34 @@
     {
      "en": "I *prefer* pop music *to* jazz.",
      "tr": "Pop müziği caza tercih ederim.",
+     "trEm": [
+      "tercih ederim",
+      "caza"
+     ],
      "emoji": "⚖️"
     },
     {
      "en": "She *would rather* read a book than watch TV.",
      "tr": "O televizyon izlemektense kitap okumayı yeğler.",
+     "trEm": [
+      "yeğler"
+     ],
      "emoji": "📺"
     },
     {
      "en": "They *enjoy* hanging out with friends.",
      "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar.",
+     "trEm": [
+      "hoşlanırlar"
+     ],
      "emoji": "😊"
     },
     {
      "en": "We *love* going to concerts.",
      "tr": "Konserlere gitmeyi çok severiz.",
+     "trEm": [
+      "çok severiz"
+     ],
      "emoji": "❤️"
     }
    ]
@@ -546,21 +571,33 @@
     {
      "en": "*How often* do you go swimming?",
      "tr": "Ne sıklıkla yüzmeye gidersin?",
+     "trEm": [
+      "Ne sıklıkla"
+     ],
      "emoji": "🔁"
     },
     {
      "en": "I go swimming *twice a week*.",
      "tr": "Haftada iki kez yüzmeye giderim.",
+     "trEm": [
+      "Haftada iki kez"
+     ],
      "emoji": "📅"
     },
     {
      "en": "He *hardly ever* plays computer games.",
      "tr": "O neredeyse hiç bilgisayar oyunu oynamaz.",
+     "trEm": [
+      "neredeyse hiç"
+     ],
      "emoji": "🔁"
     },
     {
      "en": "They *always* have breakfast together.",
      "tr": "Onlar her zaman birlikte kahvaltı yaparlar.",
+     "trEm": [
+      "her zaman"
+     ],
      "emoji": "🔁"
     }
    ]

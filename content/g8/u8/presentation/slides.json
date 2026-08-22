@@ -467,21 +467,34 @@
     {
      "en": "I *have to* tidy my room every weekend.",
      "tr": "Her hafta sonu odamı toplamak zorundayım.",
+     "trEm": [
+      "zorundayım."
+     ],
      "emoji": "📋"
     },
     {
      "en": "He *has to* walk the dog after school.",
      "tr": "Okuldan sonra köpeği gezdirmek zorunda.",
+     "trEm": [
+      "zorunda."
+     ],
      "emoji": "🏫"
     },
     {
      "en": "We *don't have to* do the dishes today.",
      "tr": "Bugün bulaşık yıkamak zorunda değiliz.",
+     "trEm": [
+      "zorunda değiliz"
+     ],
      "emoji": "📋"
     },
     {
      "en": "*Do* you *have to* help your mother?",
      "tr": "Annene yardım etmek zorunda mısın?",
+     "trEm": [
+      "mısın",
+      "zorunda"
+     ],
      "emoji": "📋"
     }
    ]
@@ -527,21 +540,33 @@
     {
      "en": "*Could you* help me with the laundry?",
      "tr": "Çamaşırlarda bana yardım eder misin?",
-     "img": "/app/img/words/laundry.jpg"
+     "img": "/app/img/words/laundry.jpg",
+     "trEm": [
+      "yardım eder misin"
+     ]
     },
     {
      "en": "*Would you mind* taking out the rubbish?",
      "tr": "Çöpü çıkarır mısın?",
+     "trEm": [
+      "çıkarır mısın"
+     ],
      "emoji": "🗑️"
     },
     {
      "en": "*Shall I* set the table?",
      "tr": "Masayı ben mi kurayım?",
-     "img": "/app/img/words/set-the-table.jpg"
+     "img": "/app/img/words/set-the-table.jpg",
+     "trEm": [
+      "ben mi kurayım"
+     ]
     },
     {
      "en": "Can you *give me a hand* in the kitchen?",
      "tr": "Mutfakta bana el atar mısın?",
+     "trEm": [
+      "el atar mısın"
+     ],
      "emoji": "🙋"
     }
    ]
@@ -578,16 +603,25 @@
       {
        "en": "*Sure*, no problem.",
        "tr": "Tabii, sorun değil.",
+       "trEm": [
+        "Tabii"
+       ],
        "emoji": "💬"
       },
       {
        "en": "*Of course*, I'll do it now.",
        "tr": "Elbette, şimdi yaparım.",
+       "trEm": [
+        "Elbette"
+       ],
        "emoji": "💬"
       },
       {
        "en": "*All right*, I'm coming.",
        "tr": "Peki, geliyorum.",
+       "trEm": [
+        "Peki"
+       ],
        "emoji": "💬"
       }
      ]
@@ -599,16 +633,25 @@
       {
        "en": "*Sorry*, I'm busy at the moment.",
        "tr": "Üzgünüm, şu anda meşgulüm.",
+       "trEm": [
+        "Üzgünüm"
+       ],
        "emoji": "💬"
       },
       {
        "en": "*I'm afraid* I can't right now.",
        "tr": "Korkarım şu an yapamam.",
+       "trEm": [
+        "Korkarım"
+       ],
        "emoji": "💬"
       },
       {
        "en": "*Not now*, I have to finish my homework.",
        "tr": "Şimdi olmaz, ödevimi bitirmem gerek.",
+       "trEm": [
+        "Şimdi olmaz"
+       ],
        "emoji": "📚"
       }
      ]

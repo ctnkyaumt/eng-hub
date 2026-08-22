@@ -912,17 +912,26 @@
       {
        "en": "*There is* a wide sofa in the living room.",
        "tr": "Oturma odasında geniş bir kanepe var.",
+       "trEm": [
+        "var"
+       ],
        "emoji": "↔️"
       },
       {
        "en": "*There are* two fridges in the kitchen.",
        "tr": "Mutfakta iki buzdolabı var.",
        "img": "p02-05.png",
-       "emoji": "🍳"
+       "emoji": "🍳",
+       "trEm": [
+        "var"
+       ]
       },
       {
        "en": "*Is there* an elevator in your apartment?",
        "tr": "Sizin apartmanınızda bir asansör var mı?",
+       "trEm": [
+        "var mı"
+       ],
        "emoji": "🛗"
       }
      ]
@@ -935,19 +944,28 @@
        "en": "*There isn't* a terrace in our house.",
        "tr": "Evimizde bir teras yok.",
        "img": "p02-08.png",
-       "emoji": "☂️"
+       "emoji": "☂️",
+       "trEm": [
+        "yok"
+       ]
       },
       {
        "en": "*There aren't* two beds in the bedroom.",
        "tr": "Yatak odasında iki yatak yok.",
        "img": "p02-03.png",
-       "emoji": "🛏️"
+       "emoji": "🛏️",
+       "trEm": [
+        "yok"
+       ]
       },
       {
        "en": "*Are there* seven chairs in the kitchen?",
        "tr": "Mutfakta yedi sandalye var mı?",
        "img": "p02-05.png",
-       "emoji": "🍳"
+       "emoji": "🍳",
+       "trEm": [
+        "var mı"
+       ]
       }
      ]
     }
@@ -983,24 +1001,36 @@
      "en": "This is Emre*'s* armchair.",
      "tr": "Bu Emre'nin koltuğu.",
      "img": "p02-19.png",
-     "emoji": "🪑"
+     "emoji": "🪑",
+     "trEm": [
+      "Emre'nin"
+     ]
     },
     {
      "en": "This is Damla*'s* bookcase.",
      "tr": "Bu Damla'nın kitaplığı.",
+     "trEm": [
+      "Damla'nın"
+     ],
      "emoji": "📚"
     },
     {
      "en": "The teachers*'* cars are in the garden.",
      "tr": "Öğretmenlerin arabaları bahçede.",
      "img": "p02-06.png",
-     "emoji": "🌷"
+     "emoji": "🌷",
+     "trEm": [
+      "Öğretmenlerin"
+     ]
     },
     {
      "en": "This is my parents*'* bedroom.",
      "tr": "Bu anne-babamın yatak odası.",
      "img": "p02-03.png",
-     "emoji": "🛏️"
+     "emoji": "🛏️",
+     "trEm": [
+      "anne-babamın"
+     ]
     }
    ]
   },
@@ -1128,37 +1158,58 @@
     {
      "en": "I *go* to the playground every day.",
      "tr": "Her gün oyun alanına giderim.",
-     "img": "p01-12.png"
+     "img": "p01-12.png",
+     "trEm": [
+      "giderim"
+     ]
     },
     {
      "en": "He *fishes* in the lake.",
      "tr": "O gölde balık tutar.",
+     "trEm": [
+      "balık tutar"
+     ],
      "emoji": "🎣"
     },
     {
      "en": "She *goes* to Paris in summer.",
      "tr": "O yazın Paris'e gider.",
+     "trEm": [
+      "gider"
+     ],
      "emoji": "🗼"
     },
     {
      "en": "You *don't* tell jokes.",
      "tr": "Sen şaka yapmazsın.",
+     "trEm": [
+      "yapmazsın"
+     ],
      "emoji": "😂"
     },
     {
      "en": "She *doesn't* go to the cinema.",
      "tr": "O sinemaya gitmez.",
-     "img": "p01-04.png"
+     "img": "p01-04.png",
+     "trEm": [
+      "gitmez"
+     ]
     },
     {
      "en": "*Do* you like street fairs? — Yes, I do.",
      "tr": "Sokak panayırlarını sever misin? — Evet.",
+     "trEm": [
+      "misin"
+     ],
      "emoji": "🎪"
     },
     {
      "en": "*Does* Mert go to the gym? — No, he doesn't.",
      "tr": "Mert spor salonuna gider mi? — Hayır.",
-     "img": "p01-08.png"
+     "img": "p01-08.png",
+     "trEm": [
+      "mi"
+     ]
     }
    ]
   },
@@ -1191,53 +1242,83 @@
     {
      "en": "small → small*er*",
      "tr": "tek heceli",
+     "trEm": [
+      "tek heceli"
+     ],
      "emoji": "🐜"
     },
     {
      "en": "wide → wide*r*",
      "tr": "e ile biten",
+     "trEm": [
+      "e ile biten"
+     ],
      "emoji": "↔️"
     },
     {
      "en": "big → big*ger*",
      "tr": "sessiz-sesli-sessiz",
+     "trEm": [
+      "sessiz-sesli-sessiz"
+     ],
      "emoji": "🐘"
     },
     {
      "en": "heavy → heav*ier*",
      "tr": "sessiz + y",
+     "trEm": [
+      "sessiz + y"
+     ],
      "emoji": "🏋️"
     },
     {
      "en": "crowded → *more* crowded",
      "tr": "iki+ heceli",
+     "trEm": [
+      "iki+ heceli"
+     ],
      "emoji": "👥"
     },
     {
      "en": "good → *better*  ·  bad → *worse*  ·  much/many → *more*  ·  little → *less*  ·  far → *farther*",
      "tr": "düzensiz sıfatlar",
+     "trEm": [
+      "düzensiz sıfatlar"
+     ],
      "emoji": "⚖️"
     },
     {
      "en": "The sofa is *more comfortable than* the armchair.",
      "tr": "Kanepe, koltuktan daha rahat.",
+     "trEm": [
+      "daha rahat"
+     ],
      "emoji": "😌"
     },
     {
      "en": "My flat is *closer than* your flat.",
      "tr": "Benim dairem, senin dairenden daha yakın.",
+     "trEm": [
+      "daha yakın"
+     ],
      "emoji": "⚖️"
     },
     {
      "en": "The terrace is *bigger than* the balcony.",
      "tr": "Teras, balkondan daha büyük.",
      "img": "p02-07.png",
-     "emoji": "🪴"
+     "emoji": "🪴",
+     "trEm": [
+      "daha büyük"
+     ]
     },
     {
      "en": "City life is *better than* town life.",
      "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir.",
-     "img": "p01-19.png"
+     "img": "p01-19.png",
+     "trEm": [
+      "daha iyidir"
+     ]
     }
    ]
   },

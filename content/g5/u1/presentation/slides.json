@@ -201,46 +201,73 @@
     {
      "en": "*a* teacher",
      "tr": "sessiz harfle başlıyor → a",
-     "img": "p01-03.png"
+     "img": "p01-03.png",
+     "trEm": [
+      "sessiz harfle başlıyor → a"
+     ]
     },
     {
      "en": "*a* gate",
      "tr": "sessiz harfle başlıyor → a",
-     "img": "p01-14.png"
+     "img": "p01-14.png",
+     "trEm": [
+      "sessiz harfle başlıyor → a"
+     ]
     },
     {
      "en": "*a* library",
      "tr": "sessiz harfle başlıyor → a",
-     "img": "p01-12.png"
+     "img": "p01-12.png",
+     "trEm": [
+      "sessiz harfle başlıyor → a"
+     ]
     },
     {
      "en": "*an* orange",
      "tr": "sesli harfle (a, e, i, o, u) başlıyor → an",
+     "trEm": [
+      "sesli harfle (a, e, i, o, u) başlıyor → an"
+     ],
      "emoji": "🍊"
     },
     {
      "en": "*an* apple",
      "tr": "sesli harfle başlıyor → an",
+     "trEm": [
+      "sesli harfle başlıyor → an"
+     ],
      "emoji": "🍎"
     },
     {
      "en": "*an* umbrella",
      "tr": "sesli harfle başlıyor → an",
+     "trEm": [
+      "sesli harfle başlıyor → an"
+     ],
      "emoji": "☂️"
     },
     {
      "en": "*the* student",
      "tr": "belirli bir öğrenci",
-     "img": "p01-04.png"
+     "img": "p01-04.png",
+     "trEm": [
+      "belirli bir öğrenci"
+     ]
     },
     {
      "en": "*the* Sun",
      "tr": "tek olan şey",
+     "trEm": [
+      "tek olan şey"
+     ],
      "emoji": "☀️"
     },
     {
      "en": "*the* cinema",
      "tr": "bilinen, belirli yer",
+     "trEm": [
+      "bilinen, belirli yer"
+     ],
      "emoji": "🎬"
     }
    ]
@@ -514,21 +541,33 @@
     {
      "en": "Do you like *playing* the guitar?",
      "tr": "Gitar çalmayı sever misin?",
+     "trEm": [
+      "Gitar çalmayı"
+     ],
      "emoji": "✅"
     },
     {
      "en": "Do you like *reading* books?",
      "tr": "Kitap okumayı sever misin?",
+     "trEm": [
+      "Kitap okumayı"
+     ],
      "emoji": "✅"
     },
     {
      "en": "I like *playing* basketball.",
      "tr": "Basketbol oynamayı severim.",
+     "trEm": [
+      "Basketbol oynamayı"
+     ],
      "emoji": "🏀"
     },
     {
      "en": "I like *drawing* pictures.",
      "tr": "Resim çizmeyi severim.",
+     "trEm": [
+      "Resim çizmeyi"
+     ],
      "emoji": "🎨"
     }
    ]
@@ -673,12 +712,14 @@
       {
        "en": "Sit down!",
        "tr": "Otur.",
+       "trEm": [],
        "emoji": "🪑"
       },
       {
        "en": "Listen to the teacher.",
        "tr": "Öğretmeni dinle.",
-       "img": "p01-03.png"
+       "img": "p01-03.png",
+       "trEm": []
       }
      ]
     },
@@ -689,12 +730,18 @@
       {
        "en": "*Don't* run in the classroom.",
        "tr": "Sınıfta koşma.",
-       "img": "p01-07.png"
+       "img": "p01-07.png",
+       "trEm": [
+        "koşma"
+       ]
       },
       {
        "en": "*Don't* shout in the library.",
        "tr": "Kütüphanede bağırma.",
-       "img": "p01-12.png"
+       "img": "p01-12.png",
+       "trEm": [
+        "bağırma"
+       ]
       }
      ]
     }
@@ -736,11 +783,17 @@
       {
        "en": "You *must* wear the school uniform.",
        "tr": "Okul üniformasını giymelisin.",
+       "trEm": [
+        "giymelisin."
+       ],
        "emoji": "👕"
       },
       {
        "en": "We *must* do our homework.",
        "tr": "Ödevimizi yapmalıyız.",
+       "trEm": [
+        "yapmalıyız."
+       ],
        "emoji": "✅"
       }
      ]
@@ -752,11 +805,17 @@
       {
        "en": "You *mustn't* fight with your friends.",
        "tr": "Arkadaşlarınla kavga etmemelisin.",
+       "trEm": [
+        "etmemelisin."
+       ],
        "emoji": "🥊"
       },
       {
        "en": "We *mustn't* eat in the lab.",
        "tr": "Laboratuvarda yemek yememeliyiz.",
+       "trEm": [
+        "yememeliyiz."
+       ],
        "emoji": "🍽️"
       }
      ]

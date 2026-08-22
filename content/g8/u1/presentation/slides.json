@@ -562,21 +562,33 @@
     {
      "en": "*Would you like to* come to my birthday party?",
      "tr": "Doğum günü partime gelmek ister misin?",
+     "trEm": [
+      "ister misin"
+     ],
      "emoji": "🎉"
     },
     {
      "en": "*How about* going to the cinema tonight?",
      "tr": "Bu akşam sinemaya gitmeye ne dersin?",
+     "trEm": [
+      "ne dersin"
+     ],
      "emoji": "🎬"
     },
     {
      "en": "*Let's* study together at the library.",
      "tr": "Hadi kütüphanede birlikte çalışalım.",
+     "trEm": [
+      "Hadi"
+     ],
      "emoji": "📚"
     },
     {
      "en": "*Why don't we* play basketball after school?",
      "tr": "Okuldan sonra neden basketbol oynamıyoruz?",
+     "trEm": [
+      "neden basketbol oynamıyoruz"
+     ],
      "emoji": "🏀"
     }
    ]
@@ -614,16 +626,25 @@
       {
        "en": "*I'd love to*, thanks!",
        "tr": "Çok isterim, teşekkürler!",
+       "trEm": [
+        "Çok isterim"
+       ],
        "emoji": "💬"
       },
       {
        "en": "*Sure*, that sounds great.",
        "tr": "Tabii, kulağa harika geliyor.",
+       "trEm": [
+        "Tabii"
+       ],
        "emoji": "💬"
       },
       {
        "en": "*Of course*, I'll be there.",
        "tr": "Elbette, orada olacağım.",
+       "trEm": [
+        "Elbette"
+       ],
        "emoji": "💬"
       }
      ]
@@ -635,16 +656,25 @@
       {
        "en": "*I'm sorry*, I can't. I have to study.",
        "tr": "Üzgünüm, gelemem. Ders çalışmam gerek.",
+       "trEm": [
+        "Üzgünüm"
+       ],
        "emoji": "📚"
       },
       {
        "en": "*I'd love to, but* I'm busy tomorrow.",
        "tr": "Çok isterdim ama yarın meşgulüm.",
+       "trEm": [
+        "Çok isterdim ama"
+       ],
        "emoji": "🚫"
       },
       {
        "en": "*Maybe next time*, I'm not feeling well.",
        "tr": "Belki başka zaman, kendimi iyi hissetmiyorum.",
+       "trEm": [
+        "Belki başka zaman"
+       ],
        "emoji": "🕒"
       }
      ]

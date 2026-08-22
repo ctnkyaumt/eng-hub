@@ -408,21 +408,33 @@
     {
      "en": "*Could I speak to* Mr Yılmaz, please?",
      "tr": "Bay Yılmaz ile görüşebilir miyim, lütfen?",
+     "trEm": [
+      "görüşebilir miyim"
+     ],
      "emoji": "☎️"
     },
     {
      "en": "*Hold on*, please. I'll put you through.",
      "tr": "Lütfen bekleyin. Sizi bağlıyorum.",
+     "trEm": [
+      "Lütfen bekleyin"
+     ],
      "emoji": "🤙"
     },
     {
      "en": "*Can I take a message*?",
      "tr": "Mesajınızı alabilir miyim?",
+     "trEm": [
+      "Mesajınızı alabilir miyim"
+     ],
      "emoji": "☎️"
     },
     {
      "en": "Sorry, she *isn't available* right now.",
      "tr": "Üzgünüm, şu anda müsait değil.",
+     "trEm": [
+      "müsait değil"
+     ],
      "emoji": "✅"
     }
    ]
@@ -462,21 +474,33 @@
     {
      "en": "I *am calling* about the delivery.",
      "tr": "Gönderi hakkında arıyorum.",
+     "trEm": [
+      "arıyorum"
+     ],
      "emoji": "📦"
     },
     {
      "en": "She *is talking* on the phone now.",
      "tr": "O şimdi telefonda konuşuyor.",
+     "trEm": [
+      "konuşuyor"
+     ],
      "emoji": "☎️"
     },
     {
      "en": "They *aren't answering* the phone.",
      "tr": "Telefona cevap vermiyorlar.",
+     "trEm": [
+      "cevap vermiyorlar"
+     ],
      "emoji": "☎️"
     },
     {
      "en": "*Are* you *listening* to me?",
      "tr": "Beni dinliyor musun?",
+     "trEm": [
+      "dinliyor musun"
+     ],
      "emoji": "🎬"
     }
    ]

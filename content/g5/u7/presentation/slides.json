@@ -203,7 +203,8 @@
     {
      "en": "seal",
      "tr": "fok",
-     "emoji": "🦭"
+     "emoji": "🦭",
+     "img": "/app/img/vocab/animal-seal.svg"
     },
     {
      "en": "seagull",
@@ -229,19 +230,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"penguin\" means \"timsah\".",
+     "statement": "\"whale\" means \"fil\".",
      "answer": false,
-     "explain": "penguin = penguen"
+     "explain": "whale = balina"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"leopar\"?",
-     "answer": "leopard",
+     "q": "Which word means \"fok\"?",
+     "answer": "seal",
      "options": [
-      "leopard",
-      "gorilla",
-      "shark",
-      "elephant"
+      "seal",
+      "giraffe",
+      "bear",
+      "penguin"
      ]
     }
    ]
@@ -336,28 +337,28 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "kürk",
-     "answer": "fur"
+     "clue": "kuyruk",
+     "answer": "tail"
     },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "fur",
-       "b": "kürk"
+       "a": "stripe",
+       "b": "çizgi"
       },
       {
-       "a": "paw",
-       "b": "pati"
+       "a": "neck",
+       "b": "boyun"
       },
       {
        "a": "tail",
        "b": "kuyruk"
       },
       {
-       "a": "stripe",
-       "b": "çizgi"
+       "a": "flipper",
+       "b": "yüzgeç"
       }
      ]
     }
@@ -453,22 +454,22 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-16.png",
-     "answer": "savanna",
-     "tr": "otlak alan",
+     "img": "p02-19.png",
+     "answer": "national park",
+     "tr": "milli park",
      "options": [
-      "savanna",
-      "farm",
-      "coast",
-      "sky"
+      "national park",
+      "river",
+      "ocean",
+      "farm"
      ]
     },
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"national park\" means \"dağ\".",
+     "statement": "\"sky\" means \"sahil\".",
      "answer": false,
-     "explain": "national park = milli park"
+     "explain": "sky = gökyüzü"
     }
    ]
   },
@@ -605,28 +606,28 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "short",
-       "b": "kısa"
+       "a": "huge",
+       "b": "kocaman"
       },
       {
-       "a": "dangerous",
-       "b": "tehlikeli"
+       "a": "tall",
+       "b": "uzun"
       },
       {
-       "a": "furry",
-       "b": "tüylü"
+       "a": "slow",
+       "b": "yavaş"
       },
       {
-       "a": "heavy",
-       "b": "ağır"
+       "a": "strong",
+       "b": "güçlü"
       }
      ]
     },
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "kısa",
-     "answer": "short"
+     "clue": "güçlü",
+     "answer": "strong"
     }
    ]
   },
@@ -720,19 +721,19 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"climb\" means \"avlamak\".",
+     "statement": "\"attack\" means \"uçmak\".",
      "answer": false,
-     "explain": "climb = tırmanmak"
+     "explain": "attack = saldırmak"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"saldırmak\"?",
-     "answer": "attack",
+     "q": "Which word means \"tırmanmak\"?",
+     "answer": "climb",
      "options": [
-      "attack",
-      "fly",
       "climb",
-      "swim"
+      "attack",
+      "survive",
+      "live"
      ]
     }
    ]
@@ -750,16 +751,25 @@
       {
        "en": "Sharks *can* swim.",
        "tr": "Köpek balıkları yüzebilir.",
+       "trEm": [
+        "yüzebilir"
+       ],
        "emoji": "🏊"
       },
       {
        "en": "Eagles *can* fly.",
        "tr": "Kartallar uçabilir.",
+       "trEm": [
+        "uçabilir"
+       ],
        "emoji": "🕊️"
       },
       {
        "en": "*Can* a cheetah run fast? — Yes, it can.",
        "tr": "Bir çita hızlı koşabilir mi? — Evet.",
+       "trEm": [
+        "koşabilir"
+       ],
        "emoji": "🐆"
       }
      ]
@@ -771,16 +781,25 @@
       {
        "en": "Elephants *can't* climb trees.",
        "tr": "Filler ağaçlara tırmanamaz.",
+       "trEm": [
+        "tırmanamaz"
+       ],
        "emoji": "🧗"
       },
       {
        "en": "Lions *can't* talk.",
        "tr": "Aslanlar konuşamaz.",
+       "trEm": [
+        "konuşamaz"
+       ],
        "emoji": "💬"
       },
       {
        "en": "*Can* a penguin fly? — No, it can't.",
        "tr": "Bir penguen uçabilir mi? — Hayır.",
+       "trEm": [
+        "uçabilir"
+       ],
        "emoji": "🐧"
       }
      ]
@@ -823,11 +842,17 @@
       {
        "en": "Wild animals *must* hunt to eat.",
        "tr": "Vahşi hayvanlar yemek için avlanmalılar.",
+       "trEm": [
+        "avlanmalılar."
+       ],
        "emoji": "🐅"
       },
       {
        "en": "Birds *must* move to warmer habitats in winter.",
        "tr": "Kuşlar kışın ılık yaşam alanlarına gitmeliler.",
+       "trEm": [
+        "gitmeliler."
+       ],
        "emoji": "🦅"
       }
      ]
@@ -839,11 +864,17 @@
       {
        "en": "We *mustn't* hunt wild animals.",
        "tr": "Vahşi hayvanları avlamamalıyız.",
+       "trEm": [
+        "avlamamalıyız."
+       ],
        "emoji": "🐅"
       },
       {
        "en": "We *mustn't* run in the zoo.",
        "tr": "Hayvanat bahçesinde koşmamalıyız.",
+       "trEm": [
+        "koşmamalıyız."
+       ],
        "emoji": "🏃"
       }
      ]
@@ -883,41 +914,65 @@
     {
      "en": "fast → fast*er*  ·  large → large*r*  ·  big → big*ger*",
      "tr": "tek heceli",
+     "trEm": [
+      "tek heceli"
+     ],
      "emoji": "🏃"
     },
     {
      "en": "heavy → heav*ier*  ·  dangerous → *more* dangerous",
      "tr": "iki+ heceli",
+     "trEm": [
+      "iki+ heceli"
+     ],
      "emoji": "⚠️"
     },
     {
      "en": "good → *better* · bad → *worse* · much/many → *more* · little → *less* · far → *farther*",
      "tr": "düzensiz",
+     "trEm": [
+      "düzensiz"
+     ],
      "emoji": "⚖️"
     },
     {
      "en": "Lions are *stronger than* leopards.",
      "tr": "Aslanlar, leoparlardan daha güçlüdür.",
+     "trEm": [
+      "daha güçlüdür"
+     ],
      "emoji": "🦁"
     },
     {
      "en": "Bears are *bigger than* wolves.",
      "tr": "Ayılar, kurtlardan daha büyüktür.",
+     "trEm": [
+      "daha büyük"
+     ],
      "emoji": "🐻"
     },
     {
      "en": "Elephants are *heavier than* gorillas.",
      "tr": "Filler, gorillerden daha ağırdır.",
+     "trEm": [
+      "daha ağırdır"
+     ],
      "emoji": "🐘"
     },
     {
      "en": "Tigers are *more dangerous than* zebras.",
      "tr": "Kaplanlar, zebralardan daha tehlikelidir.",
+     "trEm": [
+      "daha tehlikelidir"
+     ],
      "emoji": "⚠️"
     },
     {
      "en": "Crocodiles are *scarier than* snakes.",
      "tr": "Timsahlar, yılanlardan daha korkutucudur.",
+     "trEm": [
+      "daha korkutucudur"
+     ],
      "emoji": "🐊"
     }
    ]
@@ -951,41 +1006,65 @@
     {
      "en": "fast → the fast*est*  ·  large → the large*st*  ·  big → the big*gest*",
      "tr": "tek heceli",
+     "trEm": [
+      "tek heceli"
+     ],
      "emoji": "🏃"
     },
     {
      "en": "heavy → the heav*iest*  ·  dangerous → the *most* dangerous",
      "tr": "iki+ heceli",
+     "trEm": [
+      "iki+ heceli"
+     ],
      "emoji": "⚠️"
     },
     {
      "en": "good → *best* · bad → *worst* · much/many → *most* · little → *least* · far → *farthest*",
      "tr": "düzensiz",
+     "trEm": [
+      "düzensiz"
+     ],
      "emoji": "🏆"
     },
     {
      "en": "Lions are *the strongest* animals in the forests.",
      "tr": "Aslanlar ormanlardaki en güçlü hayvanlardır.",
+     "trEm": [
+      "en güçlü"
+     ],
      "emoji": "🦁"
     },
     {
      "en": "Whales are *the largest* animals in the oceans.",
      "tr": "Balinalar okyanuslardaki en büyük hayvanlardır.",
+     "trEm": [
+      "en büyük"
+     ],
      "emoji": "🐋"
     },
     {
      "en": "Giraffes are *the tallest* animals.",
      "tr": "Zürafalar en uzun hayvanlardır.",
+     "trEm": [
+      "en uzun"
+     ],
      "emoji": "🦒"
     },
     {
      "en": "Cheetahs are *the fastest* wild animals.",
      "tr": "Çitalar en hızlı vahşi hayvanlardır.",
+     "trEm": [
+      "en hızlı"
+     ],
      "emoji": "🐅"
     },
     {
      "en": "Parrots are *the most colourful* wild birds.",
      "tr": "Papağanlar en renkli vahşi kuşlardır.",
+     "trEm": [
+      "en renkli"
+     ],
      "emoji": "🌈"
     }
    ]
@@ -1063,28 +1142,28 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "wing",
-      "tr": "kanat",
-      "img": "p02-04.png",
-      "emoji": "🪶"
-     },
-     {
-      "en": "claw",
-      "tr": "pençe",
-      "img": "p02-10.png",
-      "emoji": "🐅"
-     },
-     {
-      "en": "neck",
-      "tr": "boyun",
-      "img": "p02-08.png",
-      "emoji": "🦒"
+      "en": "tusk",
+      "tr": "fil dişi",
+      "img": "p02-02.png",
+      "emoji": "🐘"
      },
      {
       "en": "stripe",
       "tr": "çizgi",
       "img": "p02-06.png",
       "emoji": "🦓"
+     },
+     {
+      "en": "river",
+      "tr": "nehir",
+      "img": "p02-14.png",
+      "emoji": "🏞️"
+     },
+     {
+      "en": "sky",
+      "tr": "gökyüzü",
+      "img": "p02-18.png",
+      "emoji": "☁️"
      }
     ]
    }
@@ -1102,32 +1181,32 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "tusk",
-      "tr": "fil dişi",
-      "img": "p02-02.png",
-      "emoji": "🐘",
-      "audio": "/app/audio/words/tusk.wav"
+      "en": "national park",
+      "tr": "milli park",
+      "img": "p02-19.png",
+      "emoji": "🏕️",
+      "audio": "/app/audio/words/national-park.wav"
      },
      {
-      "en": "river",
-      "tr": "nehir",
-      "img": "p02-14.png",
-      "emoji": "🏞️",
-      "audio": "/app/audio/words/river.wav"
+      "en": "fur",
+      "tr": "kürk",
+      "img": "p02-09.png",
+      "emoji": "🐇",
+      "audio": "/app/audio/words/fur.wav"
      },
      {
-      "en": "savanna",
-      "tr": "otlak alan",
-      "img": "p02-16.png",
-      "emoji": "🦁",
-      "audio": "/app/audio/words/savanna.wav"
+      "en": "tail",
+      "tr": "kuyruk",
+      "img": "p02-01.png",
+      "emoji": "🐒",
+      "audio": "/app/audio/words/tail.wav"
      },
      {
-      "en": "paw",
-      "tr": "pati",
-      "img": "p02-03.png",
-      "emoji": "🐾",
-      "audio": "/app/audio/words/paw.wav"
+      "en": "farm",
+      "tr": "çiftlik",
+      "img": "p02-11.png",
+      "emoji": "🚜",
+      "audio": "/app/audio/words/farm.wav"
      }
     ]
    }
@@ -1145,16 +1224,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "We mustn't run in the zoo.",
-      "tr": "Hayvanat bahçesinde koşmamalıyız."
-     },
-     {
       "answer": "Crocodiles are scarier than snakes.",
       "tr": "Timsahlar, yılanlardan daha korkutucudur."
      },
      {
-      "answer": "Elephants can't climb trees.",
-      "tr": "Filler ağaçlara tırmanamaz."
+      "answer": "We mustn't hunt wild animals.",
+      "tr": "Vahşi hayvanları avlamamalıyız."
+     },
+     {
+      "answer": "Lions are stronger than leopards.",
+      "tr": "Aslanlar, leoparlardan daha güçlüdür."
      }
     ]
    }

@@ -295,8 +295,10 @@ function head(s) {
 }
 
 function exNode(e, ctx) {
-  const media = e.img
-    ? el("img", { class: "ex-pic", src: imgUrl(e.img, ctx), alt: "" })
+  const media = e.time
+    ? clockNode(e.time)
+    : e.img
+      ? el("img", { class: "ex-pic", src: imgUrl(e.img, ctx), alt: "" })
     : e.num !== undefined
       ? el("span", { class: "ex-pic ex-keycaps" }, [keycaps(e.num)])
       : e.emoji
@@ -306,9 +308,56 @@ function exNode(e, ctx) {
     media,
     el("div", {}, [
       el("div", { class: "en", html: (e.en || "").replace(/\*(.+?)\*/g, "<em>$1</em>") }),
-      e.tr ? el("div", { class: "tr", text: e.tr }) : null,
+      e.tr ? el("div", { class: "tr" }, emphasizedNodes(e.tr, e.trEm || [])) : null,
     ]),
   ]);
+}
+
+/** Render a real analogue clock. The lesson generator supplies HH:MM so the
+ *  hands can never drift away from the sentence beside it. */
+function clockNode(time) {
+  const [hourText, minuteText] = String(time).split(":");
+  const hour = Number(hourText) % 12;
+  const minute = Number(minuteText);
+  const hourAngle = hour * 30 + minute / 2;
+  const minuteAngle = minute * 6;
+  const ticks = Array.from({ length: 12 }, (_, n) =>
+    `<line x1="50" y1="7" x2="50" y2="12" transform="rotate(${n * 30} 50 50)"/>`
+  ).join("");
+  return el("span", {
+    class: "ex-pic ex-clock",
+    title: time,
+    html: `<svg viewBox="0 0 100 100" role="img" aria-label="${time}">`
+      + `<circle cx="50" cy="50" r="45"/>`
+      + `<g class="clock-ticks">${ticks}</g>`
+      + `<line class="clock-hour" x1="50" y1="50" x2="50" y2="25" transform="rotate(${hourAngle} 50 50)"/>`
+      + `<line class="clock-minute" x1="50" y1="50" x2="50" y2="15" transform="rotate(${minuteAngle} 50 50)"/>`
+      + `<circle class="clock-pin" cx="50" cy="50" r="4"/></svg>`,
+  });
+}
+
+/** Insert emphasis without treating lesson text as HTML. Longest phrases win
+ *  when two translated grammar points overlap. */
+function emphasizedNodes(text, phrases) {
+  const source = String(text || "");
+  const ranges = [];
+  for (const phrase of [...new Set(phrases)].sort((a, b) => b.length - a.length)) {
+    if (!phrase) continue;
+    const start = source.toLocaleLowerCase("tr").indexOf(String(phrase).toLocaleLowerCase("tr"));
+    if (start < 0 || ranges.some((r) => start < r.end && start + phrase.length > r.start)) continue;
+    ranges.push({ start, end: start + phrase.length });
+  }
+  ranges.sort((a, b) => a.start - b.start);
+  if (!ranges.length) return [source];
+  const nodes = [];
+  let cursor = 0;
+  for (const range of ranges) {
+    if (range.start > cursor) nodes.push(source.slice(cursor, range.start));
+    nodes.push(el("em", { text: source.slice(range.start, range.end) }));
+    cursor = range.end;
+  }
+  if (cursor < source.length) nodes.push(source.slice(cursor));
+  return nodes;
 }
 
 /** "/app/img/flags/tr.svg" stays as is; "p01-03.png" is a unit picture. */
@@ -386,7 +435,9 @@ function render(s, ctx) {
           style: `--vocab-cols:${Math.min(4, Math.max(1, (s.items || []).length))}`,
         }, (s.items || []).map((v) =>
           el("div", { class: "vcard step" }, [
-            el("div", { class: "vcard-media" }, [vcardMedia(v, ctx)]),
+            el("div", {
+              class: "vcard-media" + (v.emoji && !v.img ? " emoji-media" : ""),
+            }, [vcardMedia(v, ctx)]),
             el("button", {
               class: "speak-word", type: "button", title: `Listen to “${v.en}”`,
               "aria-label": `Listen to ${v.en}`, text: "🔊",

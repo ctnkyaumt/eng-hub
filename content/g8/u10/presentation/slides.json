@@ -365,21 +365,33 @@
     {
      "en": "There *will* be a storm tomorrow.",
      "tr": "Yarın fırtına olacak.",
+     "trEm": [
+      "olacak"
+     ],
      "emoji": "⛈️"
     },
     {
      "en": "The river *won't* flood this year.",
      "tr": "Nehir bu yıl taşmayacak.",
-     "img": "/app/img/words/flood.jpg"
+     "img": "/app/img/words/flood.jpg",
+     "trEm": [
+      "taşmayacak"
+     ]
     },
     {
      "en": "It *might* snow in the mountains.",
      "tr": "Dağlarda kar yağabilir.",
+     "trEm": [
+      "yağabilir"
+     ],
      "emoji": "🌨️"
     },
     {
      "en": "Scientists *may* predict earthquakes one day.",
      "tr": "Bilim insanları bir gün depremleri tahmin edebilir.",
+     "trEm": [
+      "edebilir"
+     ],
      "emoji": "📅"
     }
    ]
@@ -419,21 +431,37 @@
     {
      "en": "*If* it rains, the streets *will* flood.",
      "tr": "Yağmur yağarsa sokaklar su altında kalır.",
-     "img": "/app/img/words/flood.jpg"
+     "img": "/app/img/words/flood.jpg",
+     "trEm": [
+      "yağarsa",
+      "su altında kalır"
+     ]
     },
     {
      "en": "*If* an earthquake happens, we *will* go outside.",
      "tr": "Deprem olursa dışarı çıkacağız.",
-     "img": "/app/img/words/earthquake.jpg"
+     "img": "/app/img/words/earthquake.jpg",
+     "trEm": [
+      "olursa",
+      "dışarı çıkacağız"
+     ]
     },
     {
      "en": "*If* you stay calm, you *will* be safer.",
      "tr": "Sakin kalırsan daha güvende olursun.",
+     "trEm": [
+      "kalırsan",
+      "güvende olursun"
+     ],
      "emoji": "🧘"
     },
     {
      "en": "The soil *will* dry *if* it doesn't rain.",
      "tr": "Yağmur yağmazsa toprak kurur.",
+     "trEm": [
+      "toprak kurur",
+      "yağmazsa"
+     ],
      "emoji": "🔀"
     }
    ]
@@ -467,21 +495,33 @@
     {
      "en": "You *should* keep an emergency bag ready.",
      "tr": "Hazır bir afet çantası bulundurmalısın.",
+     "trEm": [
+      "bulundurmalısın."
+     ],
      "emoji": "🚨"
     },
     {
      "en": "You *shouldn't* use the lift during an earthquake.",
      "tr": "Deprem sırasında asansörü kullanmamalısın.",
-     "img": "/app/img/words/earthquake.jpg"
+     "img": "/app/img/words/earthquake.jpg",
+     "trEm": [
+      "kullanmamalısın."
+     ]
     },
     {
      "en": "*Stay away* from windows.",
      "tr": "Pencerelerden uzak dur.",
+     "trEm": [
+      "uzak dur"
+     ],
      "emoji": "🪟"
     },
     {
      "en": "*Don't panic* and follow the instructions.",
      "tr": "Panik yapma ve talimatlara uy.",
+     "trEm": [
+      "Panik yapma"
+     ],
      "emoji": "🧘"
     }
    ]

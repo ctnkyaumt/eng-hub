@@ -1011,25 +1011,37 @@
        "en": "*a* cucumber → *two* cucumbers",
        "tr": "salatalık",
        "img": "p01-14.png",
-       "emoji": "🥒"
+       "emoji": "🥒",
+       "trEm": [
+        "salatalık"
+       ]
       },
       {
        "en": "*an* apple → *five* apples",
        "tr": "elma",
        "img": "p01-25.png",
-       "emoji": "🍎"
+       "emoji": "🍎",
+       "trEm": [
+        "elma"
+       ]
       },
       {
        "en": "*a* lemon → *four* lemons",
        "tr": "limon",
        "img": "p01-24.png",
-       "emoji": "🍋"
+       "emoji": "🍋",
+       "trEm": [
+        "limon"
+       ]
       },
       {
        "en": "*an* olive → *ten* olives",
        "tr": "zeytin",
        "img": "p01-23.png",
-       "emoji": "🫒"
+       "emoji": "🫒",
+       "trEm": [
+        "zeytin"
+       ]
       }
      ]
     },
@@ -1041,13 +1053,15 @@
        "en": "butter, cheese, coffee, tea, soup",
        "tr": "çoğul hâli yok",
        "img": "p02-01.png",
-       "emoji": "🧀"
+       "emoji": "🧀",
+       "trEm": []
       },
       {
        "en": "honey, milk, jam, sugar, flour",
        "tr": "çoğul hâli yok",
        "img": "p02-05.png",
-       "emoji": "🍬"
+       "emoji": "🍬",
+       "trEm": []
       }
      ]
     }
@@ -1092,26 +1106,41 @@
      "en": "*a* cucumber · *a* tomato · *an* orange · *an* apple",
      "tr": "sessiz harf → a, sesli harf → an",
      "img": "p01-14.png",
-     "emoji": "🥒"
+     "emoji": "🥒",
+     "trEm": [
+      "sessiz harf → a, sesli harf → an"
+     ]
     },
     {
      "en": "We have *some* tomatoes.",
      "tr": "Birkaç domatesimiz var.",
+     "trEm": [
+      "Birkaç"
+     ],
      "emoji": "🍅"
     },
     {
      "en": "I need *some* milk.",
      "tr": "Biraz süte ihtiyacım var.",
+     "trEm": [
+      "Biraz"
+     ],
      "emoji": "🥛"
     },
     {
      "en": "We don't have *any* apples.",
      "tr": "Hiç elmamız yok.",
+     "trEm": [
+      "Hiç"
+     ],
      "emoji": "🍎"
     },
     {
      "en": "Do you have *any* coffee?",
      "tr": "Hiç kahven var mı?",
+     "trEm": [
+      "Hiç"
+     ],
      "emoji": "☕"
     }
    ]
@@ -1210,19 +1239,28 @@
     {
      "en": "*Can I* order a dessert?",
      "tr": "Bir tatlı sipariş verebilir miyim?",
+     "trEm": [
+      "verebilir miyim"
+     ],
      "emoji": "🍰"
     },
     {
      "en": "*Can I* taste the sauce?",
      "tr": "Sosu tadabilir miyim?",
      "img": "p02-03.png",
-     "emoji": "🥫"
+     "emoji": "🥫",
+     "trEm": [
+      "tadabilir miyim"
+     ]
     },
     {
      "en": "*Can I* eat some pasta?",
      "tr": "Biraz makarna yiyebilir miyim?",
      "img": "p02-18.png",
-     "emoji": "🍝"
+     "emoji": "🍝",
+     "trEm": [
+      "yiyebilir miyim"
+     ]
     }
    ]
   },
@@ -1330,22 +1368,34 @@
       {
        "en": "I *have got* a plate of salad.",
        "tr": "Benim bir tabak salatam var.",
+       "trEm": [
+        "var"
+       ],
        "emoji": "🥗"
       },
       {
        "en": "We *have got* some bread.",
        "tr": "Bizim biraz ekmeğimiz var.",
        "img": "p02-17.png",
-       "emoji": "🍞"
+       "emoji": "🍞",
+       "trEm": [
+        "var"
+       ]
       },
       {
        "en": "He *has got* a boiled egg.",
        "tr": "Onun bir haşlanmış yumurtası var.",
+       "trEm": [
+        "var"
+       ],
        "emoji": "🥚"
       },
       {
        "en": "She *has got* two apples.",
        "tr": "Onun iki elması var.",
+       "trEm": [
+        "var"
+       ],
        "emoji": "🍎"
       }
      ]
@@ -1358,24 +1408,36 @@
        "en": "I *haven't got* a glass.",
        "tr": "Benim bir bardağım yok.",
        "img": "p02-25.png",
-       "emoji": "🥛"
+       "emoji": "🥛",
+       "trEm": [
+        "yok"
+       ]
       },
       {
        "en": "You *haven't got* any milk.",
        "tr": "Senin hiç sütün yok.",
+       "trEm": [
+        "yok"
+       ],
        "emoji": "🥛"
       },
       {
        "en": "He *hasn't got* any lentil soup.",
        "tr": "Onun hiç mercimek çorbası yok.",
        "img": "p01-21.png",
-       "emoji": "🫘"
+       "emoji": "🫘",
+       "trEm": [
+        "yok"
+       ]
       },
       {
        "en": "She *hasn't got* any olives.",
        "tr": "Onun hiç zeytini yok.",
        "img": "p01-23.png",
-       "emoji": "🫒"
+       "emoji": "🫒",
+       "trEm": [
+        "yok"
+       ]
       }
      ]
     }
