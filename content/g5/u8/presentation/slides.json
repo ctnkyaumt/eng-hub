@@ -88,12 +88,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Planet Earth",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Planet Earth",
    "tasks": [
     {
      "kind": "match",
@@ -114,59 +110,20 @@
       {
        "a": "rock",
        "b": "kaya"
-      },
-      {
-       "a": "sky",
-       "b": "gökyüzü"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
+     "q": "Which word matches the picture?",
      "img": "p01-05.png",
      "answer": "desert",
      "tr": "çöl",
      "options": [
       "desert",
-      "canyon",
-      "sand dune",
-      "rock"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Planet Earth",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-08.png",
-     "answer": "canyon",
-     "tr": "kanyon",
-     "options": [
-      "canyon",
-      "national park",
       "rock",
-      "valley"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"kanyon\"?",
-     "answer": "canyon",
-     "options": [
       "canyon",
-      "continent",
-      "rock",
-      "national park"
+      "hill"
      ]
     }
    ]
@@ -240,85 +197,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Planet Earth",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Planet Earth",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "river",
-       "b": "nehir"
-      },
-      {
-       "a": "lake",
-       "b": "göl"
-      },
-      {
-       "a": "cave",
-       "b": "mağara"
-      },
-      {
-       "a": "forest",
-       "b": "orman"
-      },
-      {
-       "a": "sea",
-       "b": "deniz"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-14.png",
-     "answer": "ocean",
-     "tr": "okyanus",
-     "options": [
-      "ocean",
-      "coral reef",
-      "island",
-      "sea"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Planet Earth",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-15.png",
-     "answer": "coral reef",
-     "tr": "mercan kayalığı",
-     "options": [
-      "coral reef",
-      "lake",
-      "ocean",
-      "river"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"river\" means \"göl\".",
+     "answer": false,
+     "explain": "river = nehir"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"deniz\"?",
-     "answer": "sea",
+     "q": "Which word means \"ada\"?",
+     "answer": "island",
      "options": [
-      "sea",
-      "cave",
       "island",
-      "river"
+      "ocean",
+      "coral reef",
+      "beach / seaside"
      ]
     }
    ]
@@ -367,70 +264,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Holidays & Travel",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Holidays & Travel",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kış tatili",
+     "answer": "winter holiday"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "summer holiday",
-       "b": "yaz tatili"
-      },
-      {
-       "a": "half-term holiday",
-       "b": "ara tatil"
-      },
-      {
-       "a": "trip",
-       "b": "gezi"
-      },
-      {
        "a": "winter holiday",
        "b": "kış tatili"
       },
       {
+       "a": "spring holiday",
+       "b": "bahar tatili"
+      },
+      {
        "a": "journey",
        "b": "yolculuk"
+      },
+      {
+       "a": "summer holiday",
+       "b": "yaz tatili"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"yaz tatili\"?",
-     "answer": "summer holiday",
-     "options": [
-      "summer holiday",
-      "winter holiday",
-      "spring holiday",
-      "trip"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Holidays & Travel",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"yolculuk\"?",
-     "answer": "journey",
-     "options": [
-      "journey",
-      "trip",
-      "spring holiday",
-      "winter holiday"
      ]
     }
    ]
@@ -479,70 +341,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Holidays & Travel",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Holidays & Travel",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"sightseeing\" means \"iklim\".",
+     "answer": false,
+     "explain": "sightseeing = gezip görme"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "sightseeing",
-       "b": "gezip görme"
+       "a": "season",
+       "b": "mevsim"
       },
       {
-       "a": "climate",
-       "b": "iklim"
+       "a": "tourism",
+       "b": "turizm"
       },
       {
        "a": "temperature",
        "b": "sıcaklık"
       },
       {
-       "a": "season",
-       "b": "mevsim"
-      },
-      {
-       "a": "view",
-       "b": "manzara"
+       "a": "sightseeing",
+       "b": "gezip görme"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"gidilecek yer\"?",
-     "answer": "destination",
-     "options": [
-      "destination",
-      "climate",
-      "season",
-      "view"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Holidays & Travel",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"turizm\"?",
-     "answer": "tourism",
-     "options": [
-      "tourism",
-      "view",
-      "temperature",
-      "destination"
      ]
     }
    ]
@@ -596,71 +424,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Holiday Activities",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Holiday Activities",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "go fishing",
-       "b": "balığa gitmek"
-      },
-      {
-       "a": "go sightseeing",
-       "b": "geziye gitmek"
-      },
-      {
-       "a": "go hiking",
-       "b": "doğa yürüyüşüne gitmek"
+       "a": "climb a mountain",
+       "b": "dağa tırmanmak"
       },
       {
        "a": "go snorkelling",
        "b": "şnorkelle yüzmeye gitmek"
       },
       {
-       "a": "go scuba diving",
-       "b": "tüplü dalışa gitmek"
+       "a": "go hiking",
+       "b": "doğa yürüyüşüne gitmek"
+      },
+      {
+       "a": "go sightseeing",
+       "b": "geziye gitmek"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"yüzmek\"?",
-     "answer": "swim",
-     "options": [
-      "swim",
-      "go scuba diving",
-      "climb a mountain",
-      "go skiing"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Holiday Activities",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"doğa yürüyüşüne gitmek\"?",
-     "answer": "go hiking",
-     "options": [
-      "go hiking",
-      "go snorkelling",
-      "go sightseeing",
-      "climb a mountain"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "dağa tırmanmak",
+     "answer": "climb a mountain"
     }
    ]
   },
@@ -713,69 +506,24 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Holiday Activities",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Holiday Activities",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "ride a bike",
-       "b": "bisiklete binmek"
-      },
-      {
-       "a": "make a sandcastle",
-       "b": "kumdan kale yapmak"
-      },
-      {
-       "a": "ride a camel",
-       "b": "deveye binmek"
-      },
-      {
-       "a": "have a picnic",
-       "b": "piknik yapmak"
-      },
-      {
-       "a": "visit a museum",
-       "b": "müzeyi ziyaret etmek"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"visit a museum\" means \"bisiklete binmek\".",
+     "answer": false,
+     "explain": "visit a museum = müzeyi ziyaret etmek"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"deveye binmek\"?",
-     "answer": "ride a camel",
+     "q": "Which word means \"bisiklete binmek\"?",
+     "answer": "ride a bike",
      "options": [
-      "ride a camel",
-      "visit a museum",
       "ride a bike",
-      "have a picnic"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Holiday Activities",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"müzeyi ziyaret etmek\"?",
-     "answer": "visit a museum",
-     "options": [
-      "visit a museum",
+      "collect seashells",
       "ride a camel",
-      "make a sandcastle",
       "take a boat tour"
      ]
     }
@@ -835,70 +583,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "davet etmek",
+     "answer": "invite"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "invite",
-       "b": "davet etmek"
+       "a": "stay",
+       "b": "kalmak"
       },
       {
        "a": "take photos",
        "b": "fotoğraf çekmek"
       },
       {
-       "a": "see",
-       "b": "görmek"
-      },
-      {
-       "a": "travel",
-       "b": "seyahat etmek"
+       "a": "invite",
+       "b": "davet etmek"
       },
       {
        "a": "go",
        "b": "gitmek"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"gitmek\"?",
-     "answer": "go",
-     "options": [
-      "go",
-      "invite",
-      "see",
-      "join"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"katılmak\"?",
-     "answer": "join",
-     "options": [
-      "join",
-      "see",
-      "invite",
-      "plan"
      ]
     }
    ]
@@ -957,70 +670,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"rise\" means \"içermek\".",
+     "answer": false,
+     "explain": "rise = yükselmek"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "rise",
-       "b": "yükselmek"
-      },
-      {
-       "a": "explore",
-       "b": "keşfetmek"
+       "a": "need",
+       "b": "ihtiyaç duymak"
       },
       {
        "a": "pack",
        "b": "eşya toplamak"
       },
       {
-       "a": "book",
-       "b": "yer ayırtmak"
+       "a": "explore",
+       "b": "keşfetmek"
       },
       {
-       "a": "need",
-       "b": "ihtiyaç duymak"
+       "a": "book",
+       "b": "yer ayırtmak"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"dinlenmek\"?",
-     "answer": "rest / relax",
-     "options": [
-      "rest / relax",
-      "need",
-      "recommend",
-      "rise"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"içermek\"?",
-     "answer": "involve",
-     "options": [
-      "involve",
-      "rest / relax",
-      "visit",
-      "rise"
      ]
     }
    ]
@@ -1094,71 +773,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "giant / huge",
-       "b": "kocaman"
-      },
-      {
-       "a": "historical",
-       "b": "tarihi"
-      },
-      {
-       "a": "amazing",
-       "b": "harika"
+       "a": "perfect",
+       "b": "mükemmel"
       },
       {
        "a": "jolly",
        "b": "neşeli, keyifli"
       },
       {
-       "a": "calm",
-       "b": "sakin"
+       "a": "historical",
+       "b": "tarihi"
+      },
+      {
+       "a": "peaceful",
+       "b": "huzurlu"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"huzurlu\"?",
-     "answer": "peaceful",
-     "options": [
-      "peaceful",
-      "perfect",
-      "magical",
-      "amazing"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"yorucu\"?",
-     "answer": "tiring",
-     "options": [
-      "tiring",
-      "fun",
-      "historical",
-      "amazing"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "eğlenceli",
+     "answer": "fun"
     }
    ]
   },
@@ -1189,12 +833,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Future — be going to",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Simple Future — be going to",
    "tasks": [
     {
      "kind": "fill",
@@ -1206,39 +846,6 @@
       "are going to"
      ],
      "tr": "Yarın bir müzeyi ziyaret edeceğim."
-    },
-    {
-     "kind": "fill",
-     "text": "He ___ go sightseeing next week.",
-     "answer": "is going to",
-     "options": [
-      "is going to",
-      "am going to",
-      "are going to"
-     ],
-     "tr": "O gelecek hafta geziye gidecek."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Future — be going to",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "They ___ stay at a hotel.",
-     "answer": "are going to",
-     "options": [
-      "are going to",
-      "am going to",
-      "is going to"
-     ],
-     "tr": "Onlar bir otelde kalacaklar."
     },
     {
      "kind": "order",
@@ -1291,13 +898,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Negative & Question",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Negative & Question",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "I am not going to ride a camel. — Deveye binmeyeceğim.",
+     "answer": true,
+     "explain": "Correct: I am not going to ride a camel."
+    },
     {
      "kind": "fill",
      "text": "I ___ ride a camel.",
@@ -1309,47 +919,6 @@
       "Are"
      ],
      "tr": "Deveye binmeyeceğim."
-    },
-    {
-     "kind": "fill",
-     "text": "She ___ take photos.",
-     "answer": "isn't going to",
-     "options": [
-      "isn't going to",
-      "am not going to",
-      "aren't going to",
-      "Are"
-     ],
-     "tr": "O fotoğraf çekmeyecek."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Negative & Question",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "You ___ invite your friends.",
-     "answer": "aren't going to",
-     "options": [
-      "aren't going to",
-      "am not going to",
-      "isn't going to",
-      "Are"
-     ],
-     "tr": "Sen arkadaşlarını davet etmeyeceksin."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "You aren't going to invite your friends.",
-     "tr": "Sen arkadaşlarını davet etmeyeceksin."
     }
    ]
   },

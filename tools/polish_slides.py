@@ -5,8 +5,8 @@
     teaching order); sections the book does not cover are dropped
   * number cards store the digits instead of an emoji, so 11 no longer shows up
     as the "1234" glyph
-  * an interactive practice slide is inserted after every content slide, built
-    from that slide's own words and examples
+  * one compact, varied activity break is inserted after every teaching
+    section, built from that section's own words and examples
 
 Run:  python tools/polish_slides.py [--unit 1] [--dry]
 """
@@ -93,71 +93,146 @@ def pic_index(slides):
     return out
 
 
-def make_exercise(slide, rng, pics=None):
-    """A practice slide built from the content slide that comes before it."""
-    tasks = []
+def choose_tasks(candidates, preferred):
+    """Pick one task per preferred kind, then fill any remaining slot."""
+    picked, used = [], set()
+    for kind in preferred:
+        hit = next((t for t in candidates if t["kind"] == kind and id(t) not in used), None)
+        if hit:
+            picked.append(hit)
+            used.add(id(hit))
+    for task in candidates:
+        if len(picked) >= MAX_TASKS:
+            break
+        if id(task) not in used:
+            picked.append(task)
+            used.add(id(task))
+    return picked[:MAX_TASKS]
+
+
+def make_exercise(slide, rng, variant=0):
+    """One compact, varied activity break built from the preceding section."""
+    candidates = []
 
     if slide.get("type") == "vocab":
         items = [i for i in slide["items"] if i.get("en") and i.get("tr")]
         if len(items) >= 4:
-            pairs = rng.sample(items, min(5, len(items)))
-            tasks.append({"kind": "match", "q": "Match the words",
-                          "pairs": [{"a": p["en"], "b": p["tr"]} for p in pairs]})
+            pairs = rng.sample(items, min(4, len(items)))
+            candidates.append({"kind": "match", "q": "Match the words",
+                               "pairs": [{"a": p["en"], "b": p["tr"]} for p in pairs]})
+
         with_pic = [i for i in items if i.get("img")]
-        for target in rng.sample(with_pic, min(2, len(with_pic))):
+        if with_pic:
+            target = rng.choice(with_pic)
             others = [i["en"] for i in items if i is not target]
-            tasks.append({
-                "kind": "picture",
-                "q": "What is this?",
-                "img": target["img"],
-                "answer": target["en"],
-                "tr": target["tr"],
+            candidates.append({
+                "kind": "picture", "q": "Which word matches the picture?", "img": target["img"],
+                "answer": target["en"], "tr": target["tr"],
                 "options": [target["en"]] + rng.sample(others, min(3, len(others))),
             })
-        if len(items) >= 4:
-            for target in rng.sample(items, min(2, len(items))):
-                others = [i["en"] for i in items if i is not target]
-                tasks.append({
-                    "kind": "choose",
-                    "q": 'Which word means "%s"?' % target["tr"],
-                    "answer": target["en"],
-                    "options": [target["en"]] + rng.sample(others, min(3, len(others))),
-                })
 
+        if items:
+            target = rng.choice(items)
+            candidates.append({
+                "kind": "flash", "q": "Guess the English word",
+                "clue": target["tr"], "answer": target["en"],
+            })
+
+        if len(items) >= 2:
+            target = rng.choice(items)
+            truth = variant % 2 == 0
+            shown = target["tr"] if truth else rng.choice([i["tr"] for i in items if i is not target])
+            candidates.append({
+                "kind": "truefalse", "q": "True or false?",
+                "statement": '"%s" means "%s".' % (target["en"], shown),
+                "answer": truth,
+                "explain": '%s = %s' % (target["en"], target["tr"]),
+            })
+
+        if len(items) >= 4:
+            target = rng.choice(items)
+            others = [i["en"] for i in items if i is not target]
+            candidates.append({
+                "kind": "choose", "q": 'Which word means "%s"?' % target["tr"],
+                "answer": target["en"],
+                "options": [target["en"]] + rng.sample(others, min(3, len(others))),
+            })
+
+        patterns = [
+            ("match", "picture"), ("truefalse", "choose"),
+            ("flash", "match"), ("picture", "truefalse"),
+        ]
     else:
         found = starred_examples(slide)
         words = list(dict.fromkeys(w for _, w in found))
-        for e, w in found[:3]:
+        for e, word in found[:3]:
             plain = STAR.sub(r"\1", e["en"])
-            tasks.append({
-                "kind": "fill",
-                "text": plain.replace(w, "___", 1),
-                "answer": w,
-                "options": [w] + [x for x in words if x != w][:3],
-                "tr": e.get("tr", ""),
-            })
-        long_ex = [e for e, _ in found if 3 <= len(STAR.sub(r"\1", e["en"]).split()) <= 8]
-        if long_ex:
-            e = long_ex[-1]
-            tasks.append({
-                "kind": "order",
-                "q": "Put the sentence in order",
-                "answer": STAR.sub(r"\1", e["en"]),
+            candidates.append({
+                "kind": "fill", "text": plain.replace(word, "___", 1),
+                "answer": word, "options": [word] + [x for x in words if x != word][:3],
                 "tr": e.get("tr", ""),
             })
 
-    tasks = tasks[:4]
+        long_ex = [e for e, _ in found if 3 <= len(STAR.sub(r"\1", e["en"]).split()) <= 8]
+        if long_ex:
+            e = long_ex[-1]
+            candidates.append({
+                "kind": "order", "q": "Put the sentence in order",
+                "answer": STAR.sub(r"\1", e["en"]), "tr": e.get("tr", ""),
+            })
+
+        if found:
+            e, word = found[variant % len(found)]
+            plain = STAR.sub(r"\1", e["en"])
+            candidates.append({
+                "kind": "flash", "q": "Complete the sentence aloud",
+                "clue": plain.replace(word, "___", 1), "answer": word,
+                "tr": e.get("tr", ""),
+            })
+            alternatives = [w for w in words if w != word]
+            truth = not alternatives or variant % 2 == 0
+            shown = plain if truth else plain.replace(word, alternatives[0], 1)
+            candidates.append({
+                "kind": "truefalse", "q": "Does the sentence match the meaning?",
+                "statement": shown + (" — " + e.get("tr", "") if e.get("tr") else ""),
+                "answer": truth, "explain": "Correct: " + plain,
+            })
+
+        # Dialogue sections do not use starred grammar examples. Turn a real
+        # exchange from the section into a short whole-class role-play instead.
+        if not found and slide.get("type") == "dialogue":
+            exchange = next((d for d in slide.get("dialogues", [])
+                             if len(d.get("lines", [])) >= 2), None)
+            if exchange:
+                first, second = exchange["lines"][:2]
+                candidates.append({
+                    "kind": "flash", "q": "Role-play: what comes next?",
+                    "clue": "%s: %s" % (first.get("who", "A"), first.get("text", "")),
+                    "answer": "%s: %s" % (second.get("who", "B"), second.get("text", "")),
+                })
+
+        if not found and slide.get("type") == "scene":
+            bubbles = slide.get("bubbles", [])
+            if len(bubbles) >= 2:
+                candidates.append({
+                    "kind": "flash", "q": "Role-play: what comes next?",
+                    "clue": bubbles[0].get("text", ""),
+                    "answer": bubbles[1].get("text", ""),
+                })
+
+        patterns = [
+            ("fill", "order"), ("truefalse", "fill"), ("flash", "order"),
+        ]
+
+    tasks = choose_tasks(candidates, patterns[variant % len(patterns)]) if candidates else []
     if not tasks:
         return []
-    # a page full of tasks ends up unreadably small, so hand them out in pairs
-    chunks = [tasks[i:i + MAX_TASKS] for i in range(0, len(tasks), MAX_TASKS)]
     return [{
         "type": "exercise",
-        "title": "Practice",
-        "titleTr": slide.get("title", ""),
-        "part": [n + 1, len(chunks)] if len(chunks) > 1 else None,
-        "tasks": chunk,
-    } for n, chunk in enumerate(chunks)]
+        "title": "Activity Break",
+        "titleTr": "Use what you just learned · " + slide.get("title", ""),
+        "tasks": tasks,
+    }]
 
 
 def merge_parts(body):
@@ -221,6 +296,7 @@ def polish(path, dry):
     pics = pic_index(body)
     thin = []
     out = []
+    activity_no = 0
     for s in body:
         # a picture next to an example makes the rule concrete
         pools = list(s.get("examples") or [])
@@ -242,7 +318,10 @@ def polish(path, dry):
                     it.pop("emoji", None)
         out.extend(split_cards(s) if s["type"] == "vocab" else [s])
         if s["type"] not in ("practice", "exercise"):
-            out.extend(make_exercise(s, rng, pics))
+            activities = make_exercise(s, rng, activity_no)
+            out.extend(activities)
+            if activities:
+                activity_no += 1
 
     data["slides"] = head + out + tail
     if not dry:

@@ -24,7 +24,7 @@ hazır gelir). Hiçbiri yoksa açılış ekranı kurulumu adım adım anlatır.
 
 | Bölüm | İçerik |
 | --- | --- |
-| **Sunum** | **5. sınıf** 1–8. tema (371 slayt) ve **8. sınıf** 1–10. ünite (250 slayt) için animasyonlu ders sunumu — 1265 kelime kartı, 364 alıştırma slaydı. 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
+| **Sunum** | **5. sınıf** 1–8. tema (270 slayt) ve **8. sınıf** 1–10. ünite (176 slayt) için animasyonlu ders sunumu — 1265 kelime kartı, 191 etkinlik molası ve 369 etkileşimli görev. 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
 | **Oyunlar** | 6 çevrimdışı oyun modu: Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca kaynaktaki 66 statik etkinliğin çevrimdışı kopyası. |
 | **Çalışma Kâğıtları** | 124 dosya USB'de hazır. Tıklayınca bilgisayarın kendi PDF programında açılır. |
 | **Kitap Sunumları** | Kaynaktaki ders/çalışma kitabı sunumlarının listesi. Bunlar yüzlerce parçadan oluşan slayt oynatıcıları olduğu için USB'ye kopyalanmıyor; **bağlantı olarak** açılır (internet gerekir). |
@@ -36,20 +36,25 @@ başlığıyla durur — bağlantı varsa tek tıkla açılır.
 
 * İçerik **tek tek açılır**: her "Sonraki" bir kelime/örnek daha gösterir, hepsi bitince sonraki
   slayda geçer. `↓` tuşu o slaydın kalanını bir anda açar.
-* Slayt **ekrana sığacak şekilde küçültülür**; sığmayacak kadar uzunsa kaydırılır ve her slayt başa sarar.
-* Her konu slaydının **arkasından bir alıştırma slaydı** gelir: eşleştirme, çoktan seçmeli, boşluk
-  doldurma, cümleyi sıraya dizme. Sorular o slaydın kendi kelime ve örneklerinden üretilir.
+* Slayt önce **ekrana göre yeniden düzenlenir**, sonra okunabilirlik sınırına kadar küçültülür;
+  hâlâ sığmıyorsa yazıyı minik yapmak yerine kaydırılır ve her slayt başa sarar.
+* Her öğretim bölümünün arkasından tek bir **Activity Break** gelir: eşleştirme, resimli soru,
+  doğru/yanlış, cevabı açma, çoktan seçmeli, boşluk doldurma, cümle sıralama veya diyalog rolü.
+  Görevler doğrudan bir önceki bölümün kendi kelime, örnek ve konuşmalarından üretilir.
 * Konu sırası **ders kitabına** göredir (`res/book.pdf` tema tablosu); kitapta olmayan konular çıkarıldı.
 * Kelime kartlarında mümkün olan yerde gerçek resim kullanılır: 5. sınıfta **tema föyünün kendi
   görselleri**, 8. sınıfta **Wikimedia Commons**'tan kelime başına indirilen fotoğraflar.
+* Ünite kapağı, yeni ve tahminî eşleme yapmak yerine o ünitede zaten kontrol edilmiş üç kelime
+  görselini kullanır.
 * Diyaloglar **konuşma balonu** olarak gösterilir.
 * Başlıklar ve kapak sayfası **tek seferde** görünür; sadece içerik adım adım açılır.
 * Üstteki **adım çubuğu** o slaytta kaç parça kaldığını gösterir.
-* Slayt az içerik barındırıyorsa **büyütülür**, kalabalıksa küçültülür (%55–%180).
+* Kelime ve etkinlik ızgaraları projektör boyutuna göre sütun değiştirir; etkinlik slaytları
+  okunamayacak kadar küçülmez (en az %82), gerekirse kayar.
 * Bayraklar emoji değil **SVG resim** (Windows'ta emoji bayrak görünmüyor).
 * Gramer örneklerinin yanında ilgili **kelime resmi** çıkar; alıştırmalarda **resimli soru** vardır.
-* Kalabalık sayfalar ikiye bölünür (en fazla 12 kelime kartı, 2 alıştırma sorusu); başlıkta `1/2` rozeti olur.
-* Alıştırma yönergeleri **İngilizce** (Match the words, What is this?, Try again …).
+* Kalabalık kelime sayfaları bölünür (en fazla 12 kart); etkinlik molalarında en fazla 2 görev olur.
+* Etkinlik yönergeleri **İngilizce** (Match the words, True or false?, Reveal answer, Try again …).
 
 ### Kalem araçları (🖊️ düğmesi veya `M`)
 
@@ -148,7 +153,7 @@ yenilemek için `--full` ekleyin. Tek tek çalıştırmak isterseniz:
 | `tools/mirror_sites.py` | statik etkinliklerin çevrimdışı kopyasını alır (`--presentations` ile kitap sunumları da, çok yavaş) |
 | `tools/crop_vocab.py` | tema föyündeki resimleri tek tek kesip çıkarır (`--sheet` ile kontrol görseli) |
 | `tools/link_images.py` | kesilen resimleri kelime kartlarına bağlar (eşleme tablosu dosyanın içinde) |
-| `tools/polish_slides.py` | slayt sırasını kitaba göre düzenler, alıştırma slaytlarını üretir |
+| `tools/polish_slides.py` | slayt sırasını kitaba göre düzenler, konuya bağlı etkinlik molalarını üretir |
 | `tools/fetch_flags.py` | ülke bayraklarını SVG olarak indirir ve kartlara bağlar |
 | `tools/build_g8.py` | 8. sınıf sunumlarını kelime havuzu + müfredat yapılarından üretir |
 | `tools/verify_content.py` | eksik dosya var mı diye bakar |

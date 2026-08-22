@@ -75,12 +75,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "In the Lab",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · In the Lab",
    "tasks": [
     {
      "kind": "match",
@@ -101,59 +97,20 @@
       {
        "a": "result",
        "b": "sonuç"
-      },
-      {
-       "a": "do an experiment",
-       "b": "deney yapmak"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/lab.jpg",
-     "answer": "lab",
-     "tr": "laboratuvar",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/do-an-experiment.jpg",
+     "answer": "do an experiment",
+     "tr": "deney yapmak",
      "options": [
+      "do an experiment",
       "lab",
-      "result",
-      "explode",
-      "scientific"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "In the Lab",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/test-tube.jpg",
-     "answer": "test tube",
-     "tr": "deney tüpü",
-     "options": [
-      "test tube",
-      "result",
-      "explode",
-      "process"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"laboratuvar\"?",
-     "answer": "lab",
-     "options": [
-      "lab",
-      "explode",
       "cell",
-      "safety"
+      "scientific"
      ]
     }
    ]
@@ -218,85 +175,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Science & Discovery",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Science & Discovery",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "invent",
-       "b": "icat etmek"
-      },
-      {
-       "a": "explore",
-       "b": "araştırmak"
-      },
-      {
-       "a": "high-tech",
-       "b": "ileri teknoloji"
-      },
-      {
-       "a": "succeed",
-       "b": "başarmak"
-      },
-      {
-       "a": "search",
-       "b": "araştırmak"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/discover.jpg",
-     "answer": "discover",
-     "tr": "keşfetmek",
-     "options": [
-      "discover",
-      "high-tech",
-      "genius",
-      "search"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Science & Discovery",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/high-tech.jpg",
-     "answer": "high-tech",
-     "tr": "ileri teknoloji",
-     "options": [
-      "high-tech",
-      "invent",
-      "explore",
-      "vaccination"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"explore\" means \"aşılama\".",
+     "answer": false,
+     "explain": "explore = araştırmak"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"araştırmak\"?",
-     "answer": "search",
+     "q": "Which word means \"icat etmek\"?",
+     "answer": "invent",
      "options": [
+      "invent",
+      "cure",
       "search",
-      "succeed",
-      "discover",
-      "high-tech"
+      "genius"
      ]
     }
    ]
@@ -358,20 +255,22 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "gelişim, iyileşme",
+     "answer": "improvement"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "facts",
-       "b": "gerçekler"
+       "a": "infection",
+       "b": "bulaşma, enfeksiyon"
       },
       {
        "a": "horizon",
@@ -382,46 +281,9 @@
        "b": "kuyumcu"
       },
       {
-       "a": "entertainment",
-       "b": "eğlence"
-      },
-      {
-       "a": "gain",
-       "b": "kazanmak"
+       "a": "improve",
+       "b": "geliştirmek"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"mürekkep\"?",
-     "answer": "ink",
-     "options": [
-      "ink",
-      "gain",
-      "goldsmith",
-      "horizon"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"kuyumcu\"?",
-     "answer": "goldsmith",
-     "options": [
-      "goldsmith",
-      "improve",
-      "improvement",
-      "horizon"
      ]
     }
    ]
@@ -463,70 +325,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"die\" means \"maddenin yer çekimi\".",
+     "answer": false,
+     "explain": "die = ölmek"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "deserve",
-       "b": "hak etmek"
-      },
-      {
-       "a": "diagnose",
-       "b": "teşhis etmek"
-      },
-      {
        "a": "die",
        "b": "ölmek"
       },
       {
-       "a": "discoverer",
-       "b": "kaşif"
+       "a": "discovery",
+       "b": "keşif"
       },
       {
        "a": "gravity of the matter",
        "b": "maddenin yer çekimi"
+      },
+      {
+       "a": "discoverer",
+       "b": "kaşif"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"ölmek\"?",
-     "answer": "die",
-     "options": [
-      "die",
-      "discoverer",
-      "discovery",
-      "deserve"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"geliştirmek\"?",
-     "answer": "develop",
-     "options": [
-      "develop",
-      "discovery",
-      "gravity of the matter",
-      "die"
      ]
     }
    ]
@@ -557,13 +385,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Passive Voice — Present",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Passive Voice — Present",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "Experiments are done in the laboratory. — Deneyler laboratuvarda yapılır.",
+     "answer": true,
+     "explain": "Correct: Experiments are done in the laboratory."
+    },
     {
      "kind": "fill",
      "text": "Experiments ___ in the laboratory.",
@@ -575,47 +406,6 @@
       "are written"
      ],
      "tr": "Deneyler laboratuvarda yapılır."
-    },
-    {
-     "kind": "fill",
-     "text": "This machine ___ by scientists.",
-     "answer": "is used",
-     "options": [
-      "is used",
-      "are done",
-      "are developed",
-      "are written"
-     ],
-     "tr": "Bu makine bilim insanları tarafından kullanılır."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Passive Voice — Present",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "New medicines ___ every year.",
-     "answer": "are developed",
-     "options": [
-      "are developed",
-      "are done",
-      "is used",
-      "are written"
-     ],
-     "tr": "Her yıl yeni ilaçlar geliştirilir."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "The results are written in a report.",
-     "tr": "Sonuçlar bir rapora yazılır."
     }
    ]
   },
@@ -651,59 +441,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Passive Voice — Past",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Passive Voice — Past",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "The telephone ___ by Alexander Graham Bell.",
-     "answer": "was invented",
-     "options": [
-      "was invented",
-      "was discovered",
-      "were built",
-      "was written"
-     ],
-     "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
-    },
-    {
-     "kind": "fill",
-     "text": "Penicillin ___ in 1928.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "Penicillin ___ in 1928.",
      "answer": "was discovered",
-     "options": [
-      "was discovered",
-      "was invented",
-      "were built",
-      "was written"
-     ],
      "tr": "Penisilin 1928'de keşfedildi."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Passive Voice — Past",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "The pyramids ___ thousands of years ago.",
-     "answer": "were built",
-     "options": [
-      "were built",
-      "was invented",
-      "was discovered",
-      "was written"
-     ],
-     "tr": "Piramitler binlerce yıl önce inşa edildi."
     },
     {
      "kind": "order",
@@ -753,6 +499,19 @@
        "text": "It is used in electronics and medicine."
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Inventions",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Zeynep: Who was the light bulb invented by?",
+     "answer": "Berk: It was invented by Thomas Edison."
     }
    ]
   },

@@ -68,12 +68,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "On the Phone",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · On the Phone",
    "tasks": [
     {
      "kind": "match",
@@ -94,59 +90,20 @@
       {
        "a": "hang on",
        "b": "hatta beklemek"
-      },
-      {
-       "a": "pick up",
-       "b": "telefonu açmak"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/dial.jpg",
-     "answer": "dial",
-     "tr": "numara çevirmek",
-     "options": [
-      "dial",
-      "line",
-      "hold",
-      "hang up"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "On the Phone",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
+     "q": "Which word matches the picture?",
      "img": "/app/img/words/pick-up.jpg",
      "answer": "pick up",
      "tr": "telefonu açmak",
      "options": [
       "pick up",
+      "extension",
       "dial",
-      "line",
-      "engaged"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"hatta beklemek\"?",
-     "answer": "hang on",
-     "options": [
-      "hang on",
-      "engaged",
-      "line",
-      "extension"
+      "hang up"
      ]
     }
    ]
@@ -206,83 +163,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Keeping in Touch",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Keeping in Touch",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "contact",
-       "b": "iletişim kurmak"
-      },
-      {
-       "a": "keep in touch",
-       "b": "iletişimde kalmak"
-      },
-      {
-       "a": "memo",
-       "b": "not"
-      },
-      {
-       "a": "available",
-       "b": "müsait"
-      },
-      {
-       "a": "put someone through",
-       "b": "birini bağlamak"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"polite\" means \"not\".",
+     "answer": false,
+     "explain": "polite = kibar"
     },
     {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/memo.jpg",
-     "answer": "memo",
-     "tr": "not",
+     "kind": "choose",
+     "q": "Which word means \"iletişimde kalmak\"?",
+     "answer": "keep in touch",
      "options": [
-      "memo",
       "keep in touch",
       "available",
-      "connect"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Keeping in Touch",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"kibar\"?",
-     "answer": "polite",
-     "options": [
-      "polite",
       "connect",
-      "memo",
-      "get in touch"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"bağlamak\"?",
-     "answer": "connect",
-     "options": [
-      "connect",
-      "available",
-      "memo",
-      "contact"
+      "put someone through"
      ]
     }
    ]
@@ -344,70 +243,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "cep telefonu",
+     "answer": "cell phone"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "discovery",
-       "b": "keşif"
+       "a": "change",
+       "b": "değiştirmek"
       },
       {
-       "a": "easy way",
-       "b": "kolay yol"
+       "a": "customer service",
+       "b": "müşteri hizmetleri"
       },
       {
        "a": "clearly",
        "b": "net şekilde"
       },
       {
-       "a": "disturb",
-       "b": "rahatsız etmek"
-      },
-      {
-       "a": "customer service",
-       "b": "müşteri hizmetleri"
+       "a": "delivery",
+       "b": "gönderi"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"net şekilde\"?",
-     "answer": "clearly",
-     "options": [
-      "clearly",
-      "delivery",
-      "device",
-      "disturb"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"kolay yol\"?",
-     "answer": "easy way",
-     "options": [
-      "easy way",
-      "device",
-      "discovery",
-      "cell phone"
      ]
     }
    ]
@@ -449,70 +313,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"call\" means \"rezervasyon yapmak\".",
+     "answer": false,
+     "explain": "call = telefon ile aramak"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "confirm",
-       "b": "doğrulamak, onaylamak"
+       "a": "book",
+       "b": "rezervasyon yapmak"
       },
       {
-       "a": "call back",
-       "b": "geri aramak"
-      },
-      {
-       "a": "company",
-       "b": "şirket"
+       "a": "badline",
+       "b": "kötü hat"
       },
       {
        "a": "busy",
        "b": "meşgul"
       },
       {
-       "a": "call",
-       "b": "telefon ile aramak"
+       "a": "company",
+       "b": "şirket"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"doğrulamak, onaylamak\"?",
-     "answer": "confirm",
-     "options": [
-      "confirm",
-      "book",
-      "busy",
-      "badline"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"meşgul\"?",
-     "answer": "busy",
-     "options": [
-      "busy",
-      "company",
-      "confirm",
-      "call"
      ]
     }
    ]
@@ -549,13 +379,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "On the Phone",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · On the Phone",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "Could I speak to Mr Yılmaz, please? — Bay Yılmaz ile görüşebilir miyim, lütfen?",
+     "answer": true,
+     "explain": "Correct: Could I speak to Mr Yılmaz, please?"
+    },
     {
      "kind": "fill",
      "text": "___ Mr Yılmaz, please?",
@@ -567,47 +400,6 @@
       "isn't available"
      ],
      "tr": "Bay Yılmaz ile görüşebilir miyim, lütfen?"
-    },
-    {
-     "kind": "fill",
-     "text": "___, please. I'll put you through.",
-     "answer": "Hold on",
-     "options": [
-      "Hold on",
-      "Could I speak to",
-      "Can I take a message",
-      "isn't available"
-     ],
-     "tr": "Lütfen bekleyin. Sizi bağlıyorum."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "On the Phone",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___?",
-     "answer": "Can I take a message",
-     "options": [
-      "Can I take a message",
-      "Could I speak to",
-      "Hold on",
-      "isn't available"
-     ],
-     "tr": "Mesajınızı alabilir miyim?"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Sorry, she isn't available right now.",
-     "tr": "Üzgünüm, şu anda müsait değil."
     }
    ]
   },
@@ -637,59 +429,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Present Continuous",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Present Continuous",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "I ___ about the delivery.",
-     "answer": "am calling",
-     "options": [
-      "am calling",
-      "is talking",
-      "aren't answering",
-      "Are"
-     ],
-     "tr": "Gönderi hakkında arıyorum."
-    },
-    {
-     "kind": "fill",
-     "text": "She ___ on the phone now.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "She ___ on the phone now.",
      "answer": "is talking",
-     "options": [
-      "is talking",
-      "am calling",
-      "aren't answering",
-      "Are"
-     ],
      "tr": "O şimdi telefonda konuşuyor."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Present Continuous",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "They ___ the phone.",
-     "answer": "aren't answering",
-     "options": [
-      "aren't answering",
-      "am calling",
-      "is talking",
-      "Are"
-     ],
-     "tr": "Telefona cevap vermiyorlar."
     },
     {
      "kind": "order",
@@ -739,6 +487,19 @@
        "text": "Thank you very much."
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · A Phone Call",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Operator: Good morning, customer service. How can I help you?",
+     "answer": "Ayşe: Hello, I'm calling about my order."
     }
    ]
   },

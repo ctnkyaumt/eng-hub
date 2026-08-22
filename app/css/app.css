@@ -2,18 +2,18 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 :root {
-  --bg: #0e1230;
-  --bg-2: #171c4a;
-  --ink: #f4f6ff;
-  --ink-dim: #a9b1e0;
-  --card: rgba(255, 255, 255, .07);
-  --card-hi: rgba(255, 255, 255, .14);
-  --stroke: rgba(255, 255, 255, .16);
+  --bg: #0b1020;
+  --bg-2: #11182b;
+  --ink: #f7f8fc;
+  --ink-dim: #aeb8cf;
+  --card: #151d31;
+  --card-hi: #1b263d;
+  --stroke: #2a3650;
   --accent: #ffd166;
   --good: #4ade80;
   --bad: #fb7185;
-  --radius: 22px;
-  --shadow: 0 18px 45px rgba(0, 0, 0, .38);
+  --radius: 18px;
+  --shadow: 0 14px 34px rgba(0, 0, 0, .28);
   --g5: #38bdf8; --g5b: #6366f1;
   --g6: #34d399; --g6b: #0ea5e9;
   --g7: #fbbf24; --g7b: #f43f5e;
@@ -26,38 +26,27 @@ body {
   margin: 0;
   font-family: var(--font);
   color: var(--ink);
-  background: radial-gradient(120% 120% at 15% 0%, var(--bg-2), var(--bg) 62%);
+  background: var(--bg);
   overflow-x: hidden;
 }
 
-/* floating background blobs */
-.bg-blobs { position: fixed; inset: 0; overflow: hidden; z-index: 0; pointer-events: none; }
-.bg-blobs i {
-  position: absolute; display: block; border-radius: 50%;
-  filter: blur(70px); opacity: .38; animation: drift 26s ease-in-out infinite;
-}
-.bg-blobs i:nth-child(1) { width: 46vw; height: 46vw; left: -8vw; top: -10vw; background: #4f46e5; }
-.bg-blobs i:nth-child(2) { width: 38vw; height: 38vw; right: -6vw; top: 18vh; background: #0ea5e9; animation-delay: -9s; }
-.bg-blobs i:nth-child(3) { width: 34vw; height: 34vw; left: 26vw; bottom: -16vw; background: #db2777; animation-delay: -17s; }
-@keyframes drift {
-  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
-  50%      { transform: translate3d(3vw, -4vh, 0) scale(1.12); }
-}
+/* Kept in the markup for backwards compatibility; the old colour blobs made
+   projected text and photos look muddy. */
+.bg-blobs { display: none; }
 
 /* topbar ------------------------------------------------------------------ */
 #topbar {
   position: sticky; top: 0; z-index: 40;
   display: flex; align-items: center; gap: 10px;
-  padding: 12px 20px;
-  background: rgba(10, 13, 40, .55);
-  backdrop-filter: blur(14px);
+  padding: 10px 20px;
+  background: #0f1728;
   border-bottom: 1px solid var(--stroke);
 }
 .tb-btn {
   font-size: 18px; line-height: 1;
   width: 42px; height: 42px; flex: 0 0 auto;
   border-radius: 14px; border: 1px solid var(--stroke);
-  background: var(--card); color: var(--ink);
+  background: #172138; color: var(--ink);
   cursor: pointer; transition: transform .15s, background .15s;
 }
 .tb-btn:hover { background: var(--card-hi); transform: translateY(-2px); }
@@ -73,17 +62,16 @@ body {
 /* screen ------------------------------------------------------------------ */
 #screen {
   position: relative; z-index: 1;
-  max-width: 1180px; margin: 0 auto; padding: 34px 22px 70px;
+  max-width: 1240px; margin: 0 auto; padding: clamp(24px, 4vh, 42px) 24px 70px;
   outline: none;
   animation: fadeUp .35s ease both;
 }
 @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 
-.hero { text-align: center; margin-bottom: 34px; }
+.hero { text-align: center; margin-bottom: clamp(24px, 4vh, 36px); }
 .hero h1 {
   margin: 0 0 8px; font-size: clamp(34px, 6vw, 62px); letter-spacing: -1.5px;
-  background: linear-gradient(92deg, #fff, var(--accent));
-  -webkit-background-clip: text; background-clip: text; color: transparent;
+  color: var(--ink);
 }
 .hero p { margin: 0; color: var(--ink-dim); font-size: clamp(15px, 2vw, 19px); }
 .hero .kicker {
@@ -94,7 +82,7 @@ body {
 }
 
 /* card grids -------------------------------------------------------------- */
-.grid { display: grid; gap: 20px; }
+.grid { display: grid; gap: 18px; }
 .grid.g-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
 .grid.g-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
 .grid.g-4 { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
@@ -108,16 +96,16 @@ body {
   transition: transform .18s cubic-bezier(.2,.8,.3,1.2), background .18s, border-color .18s;
   animation: pop .4s ease both;
 }
-.card:hover { transform: translateY(-6px) scale(1.02); background: var(--card-hi); border-color: rgba(255,255,255,.34); }
+.card:hover { transform: translateY(-5px); background: var(--card-hi); border-color: #43516e; }
 .card:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
 .card.dim { opacity: .42; cursor: not-allowed; }
 .card.dim:hover { transform: none; }
 @keyframes pop { from { opacity: 0; transform: translateY(18px) scale(.96); } to { opacity: 1; transform: none; } }
 
 .card .glow {
-  position: absolute; inset: auto -30% -60% -30%; height: 160px;
-  background: radial-gradient(closest-side, var(--c1, #fff), transparent);
-  opacity: .28; pointer-events: none;
+  position: absolute; inset: 0 0 auto; height: 4px;
+  background: var(--c1, var(--accent));
+  opacity: 1; pointer-events: none;
 }
 .card .emoji { font-size: 46px; line-height: 1; display: block; margin-bottom: 12px; }
 .card h3 { margin: 0 0 6px; font-size: 22px; }
@@ -138,6 +126,10 @@ body {
 .card.grade[data-g="6"] { --c1: var(--g6); }
 .card.grade[data-g="7"] { --c1: var(--g7); }
 .card.grade[data-g="8"] { --c1: var(--g8); }
+.card[data-g="5"] { --c1: var(--g5); }
+.card[data-g="6"] { --c1: var(--g6); }
+.card[data-g="7"] { --c1: var(--g7); }
+.card[data-g="8"] { --c1: var(--g8); }
 
 /* unit list --------------------------------------------------------------- */
 .unit-card .no { font-size: 13px; letter-spacing: 3px; color: var(--ink-dim); text-transform: uppercase; }
@@ -194,11 +186,19 @@ body {
   transition: background .15s, transform .15s;
 }
 .btn:hover { background: var(--card-hi); transform: translateY(-2px); }
-.btn.primary { background: linear-gradient(100deg, var(--g5b), var(--g5)); border-color: transparent; }
+.btn.primary { background: #4f7cff; border-color: #7298ff; color: #fff; }
 .btn.big { font-size: 19px; padding: 16px 30px; }
 
 .hidden { display: none !important; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+@media (max-width: 720px) {
+  #topbar { padding-inline: 10px; }
+  #screen { padding-inline: 14px; }
+  #crumbs { font-size: 13px; gap: 3px; }
+  #crumbs a { padding-inline: 5px; }
+  .grid.g-2, .grid.g-3, .grid.g-4 { grid-template-columns: 1fr; }
 }

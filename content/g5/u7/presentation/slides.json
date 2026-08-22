@@ -55,12 +55,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Types of Animals",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Types of Animals",
    "tasks": [
     {
      "kind": "match",
@@ -81,45 +77,14 @@
       {
        "a": "insects",
        "b": "böcekler"
-      },
-      {
-       "a": "reptiles",
-       "b": "sürüngenler"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"böcekler\"?",
-     "answer": "insects",
-     "options": [
-      "insects",
-      "fish",
-      "mammals",
-      "reptiles"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Types of Animals",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"memeliler\"?",
-     "answer": "mammals",
-     "options": [
-      "mammals",
-      "insects",
-      "fish",
-      "reptiles"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "memeliler",
+     "answer": "mammals"
     }
    ]
   },
@@ -182,38 +147,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Animals",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Animals",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "tiger",
-       "b": "kaplan"
-      },
-      {
-       "a": "giraffe",
-       "b": "zürafa"
-      },
-      {
-       "a": "monkey",
-       "b": "maymun"
-      },
-      {
-       "a": "elephant",
-       "b": "fil"
-      },
-      {
-       "a": "wolf",
-       "b": "kurt"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"giraffe\" means \"fil\".",
+     "answer": false,
+     "explain": "giraffe = zürafa"
     },
     {
      "kind": "choose",
@@ -221,31 +163,9 @@
      "answer": "elephant",
      "options": [
       "elephant",
-      "wolf",
-      "tiger",
-      "giraffe"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Animals",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"zebra\"?",
-     "answer": "zebra",
-     "options": [
       "zebra",
-      "bear",
-      "giraffe",
-      "elephant"
+      "penguin",
+      "lion"
      ]
     }
    ]
@@ -309,70 +229,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Animals",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Animals",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "balina",
+     "answer": "whale"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "shark",
-       "b": "köpek balığı"
+       "a": "seagull",
+       "b": "martı"
       },
       {
-       "a": "seal",
-       "b": "fok"
+       "a": "gorilla",
+       "b": "goril"
       },
       {
        "a": "snake",
        "b": "yılan"
       },
       {
-       "a": "whale",
-       "b": "balina"
-      },
-      {
-       "a": "gorilla",
-       "b": "goril"
+       "a": "shark",
+       "b": "köpek balığı"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"timsah\"?",
-     "answer": "crocodile",
-     "options": [
-      "crocodile",
-      "leopard",
-      "snake",
-      "eagle"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Animals",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"leopar\"?",
-     "answer": "leopard",
-     "options": [
-      "leopard",
-      "cheetah",
-      "whale",
-      "seagull"
      ]
     }
    ]
@@ -446,86 +331,28 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Body Parts of Animals",
-   "part": [
-    1,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "stripe",
-       "b": "çizgi"
-      },
-      {
-       "a": "tail",
-       "b": "kuyruk"
-      },
-      {
-       "a": "flipper",
-       "b": "yüzgeç"
-      },
-      {
-       "a": "feather",
-       "b": "tüy"
-      },
-      {
-       "a": "wing",
-       "b": "kanat"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-09.png",
-     "answer": "fur",
-     "tr": "kürk",
-     "options": [
-      "fur",
-      "wing",
-      "feather",
-      "tail"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Body Parts of Animals",
-   "part": [
-    2,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Body Parts of Animals",
    "tasks": [
     {
      "kind": "picture",
-     "q": "What is this?",
+     "q": "Which word matches the picture?",
      "img": "p02-10.png",
      "answer": "claw",
      "tr": "pençe",
      "options": [
       "claw",
-      "neck",
       "fur",
-      "paw"
+      "wing",
+      "neck"
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"tüy\"?",
-     "answer": "feather",
-     "options": [
-      "feather",
-      "tail",
-      "tusk",
-      "claw"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"tail\" means \"çizgi\".",
+     "answer": false,
+     "explain": "tail = kuyruk"
     }
    ]
   },
@@ -598,85 +425,42 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Habitats",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Habitats",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "river",
-       "b": "nehir"
-      },
-      {
-       "a": "national park",
-       "b": "milli park"
+       "a": "field",
+       "b": "tarla"
       },
       {
        "a": "sky",
        "b": "gökyüzü"
       },
       {
-       "a": "mountain",
-       "b": "dağ"
+       "a": "national park",
+       "b": "milli park"
       },
       {
-       "a": "ocean",
-       "b": "okyanus"
+       "a": "forest / jungle",
+       "b": "orman"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-13.png",
-     "answer": "forest / jungle",
-     "tr": "orman",
+     "q": "Which word matches the picture?",
+     "img": "p02-17.png",
+     "answer": "ocean",
+     "tr": "okyanus",
      "options": [
-      "forest / jungle",
       "ocean",
-      "sky",
-      "river"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Habitats",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-11.png",
-     "answer": "farm",
-     "tr": "çiftlik",
-     "options": [
+      "national park",
       "farm",
-      "field",
-      "mountain",
-      "river"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"gökyüzü\"?",
-     "answer": "sky",
-     "options": [
-      "sky",
-      "coast",
-      "ocean",
-      "field"
+      "mountain"
      ]
     }
    ]
@@ -735,70 +519,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "weak",
-       "b": "güçsüz"
-      },
-      {
-       "a": "wild",
-       "b": "vahşi"
-      },
-      {
-       "a": "scary",
-       "b": "korkutucu"
-      },
-      {
-       "a": "big / large",
-       "b": "büyük"
-      },
-      {
-       "a": "small",
-       "b": "küçük"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"scary\" means \"güçlü\".",
+     "answer": false,
+     "explain": "scary = korkutucu"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"güçlü\"?",
-     "answer": "strong",
+     "q": "Which word means \"korkutucu\"?",
+     "answer": "scary",
      "options": [
-      "strong",
-      "big / large",
-      "huge",
-      "wild"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"devasa\"?",
-     "answer": "enormous",
-     "options": [
-      "enormous",
-      "strong",
+      "scary",
       "wild",
-      "quick"
+      "weak",
+      "big / large"
      ]
     }
    ]
@@ -857,70 +596,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "renkli",
+     "answer": "colourful"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "short",
-       "b": "kısa"
-      },
-      {
        "a": "heavy",
        "b": "ağır"
-      },
-      {
-       "a": "colourful",
-       "b": "renkli"
       },
       {
        "a": "dangerous",
        "b": "tehlikeli"
       },
       {
-       "a": "fast",
-       "b": "hızlı"
+       "a": "tall",
+       "b": "uzun"
+      },
+      {
+       "a": "slow",
+       "b": "yavaş"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"renkli\"?",
-     "answer": "colourful",
-     "options": [
-      "colourful",
-      "fast",
-      "short",
-      "dangerous"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"uzun\"?",
-     "answer": "tall",
-     "options": [
-      "tall",
-      "dangerous",
-      "short",
-      "quiet"
      ]
     }
    ]
@@ -994,70 +698,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"survive\" means \"koşmak\".",
+     "answer": false,
+     "explain": "survive = hayatta kalmak"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "survive",
-       "b": "hayatta kalmak"
+       "a": "hunt",
+       "b": "avlamak"
       },
       {
-       "a": "climb",
-       "b": "tırmanmak"
+       "a": "run",
+       "b": "koşmak"
       },
       {
-       "a": "fly",
-       "b": "uçmak"
-      },
-      {
-       "a": "live",
-       "b": "yaşamak"
+       "a": "swing",
+       "b": "sallanmak"
       },
       {
        "a": "attack",
        "b": "saldırmak"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"hareket etmek\"?",
-     "answer": "move",
-     "options": [
-      "move",
-      "survive",
-      "run",
-      "talk"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"uçmak\"?",
-     "answer": "fly",
-     "options": [
-      "fly",
-      "swim",
-      "move",
-      "attack"
      ]
     }
    ]
@@ -1108,55 +778,14 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Expressing Ability — can / can't",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Expressing Ability — can / can't",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "Sharks ___ swim.",
-     "answer": "can",
-     "options": [
-      "can",
-      "Can",
-      "can't"
-     ],
-     "tr": "Köpek balıkları yüzebilir."
-    },
-    {
-     "kind": "fill",
-     "text": "Eagles ___ fly.",
-     "answer": "can",
-     "options": [
-      "can",
-      "Can",
-      "can't"
-     ],
-     "tr": "Kartallar uçabilir."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Expressing Ability — can / can't",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ a cheetah run fast? — Yes, it can.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "___ a cheetah run fast? — Yes, it can.",
      "answer": "Can",
-     "options": [
-      "Can",
-      "can",
-      "can't"
-     ],
      "tr": "Bir çita hızlı koşabilir mi? — Evet."
     },
     {
@@ -1204,12 +833,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "must / mustn't",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · must / mustn't",
    "tasks": [
     {
      "kind": "fill",
@@ -1220,37 +845,6 @@
       "mustn't"
      ],
      "tr": "Vahşi hayvanlar yemek için avlanmalılar."
-    },
-    {
-     "kind": "fill",
-     "text": "Birds ___ go to warm habitats in winter.",
-     "answer": "must",
-     "options": [
-      "must",
-      "mustn't"
-     ],
-     "tr": "Kuşlar kışın ılık yaşam alanlarına gitmeliler."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "must / mustn't",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "We ___ hunt wild animals.",
-     "answer": "mustn't",
-     "options": [
-      "mustn't",
-      "must"
-     ],
-     "tr": "Vahşi hayvanları avlamamalıyız."
     },
     {
      "kind": "order",
@@ -1302,13 +896,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Comparative Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Comparative Adjectives",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "good → better · bad → worse · much/many → more · little → less · far → farther — düzensiz",
+     "answer": true,
+     "explain": "Correct: good → better · bad → worse · much/many → more · little → less · far → farther"
+    },
     {
      "kind": "fill",
      "text": "fast → fast___  ·  large → larger  ·  big → bigger",
@@ -1320,47 +917,6 @@
       "stronger than"
      ],
      "tr": "tek heceli"
-    },
-    {
-     "kind": "fill",
-     "text": "heavy → heav___  ·  dangerous → more dangerous",
-     "answer": "ier",
-     "options": [
-      "ier",
-      "er",
-      "better",
-      "stronger than"
-     ],
-     "tr": "iki+ heceli"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Comparative Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "good → ___ · bad → worse · much/many → more · little → less · far → farther",
-     "answer": "better",
-     "options": [
-      "better",
-      "er",
-      "ier",
-      "stronger than"
-     ],
-     "tr": "düzensiz"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Crocodiles are scarier than snakes.",
-     "tr": "Timsahlar, yılanlardan daha korkutucudur."
     }
    ]
   },
@@ -1406,59 +962,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Superlative Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Superlative Adjectives",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "fast → the fast___  ·  large → the largest  ·  big → the biggest",
-     "answer": "est",
-     "options": [
-      "est",
-      "iest",
-      "best",
-      "the strongest"
-     ],
-     "tr": "tek heceli"
-    },
-    {
-     "kind": "fill",
-     "text": "heavy → the heav___  ·  dangerous → the most dangerous",
-     "answer": "iest",
-     "options": [
-      "iest",
-      "est",
-      "best",
-      "the strongest"
-     ],
-     "tr": "iki+ heceli"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Superlative Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "good → ___ · bad → worst · much/many → most · little → least · far → farthest",
-     "answer": "best",
-     "options": [
-      "best",
-      "est",
-      "iest",
-      "the strongest"
-     ],
-     "tr": "düzensiz"
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "Lions are ___ animals in the forests.",
+     "answer": "the strongest",
+     "tr": "Aslanlar ormanlardaki en güçlü hayvanlardır."
     },
     {
      "kind": "order",

@@ -65,12 +65,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Menu Sections",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Menu Sections",
    "tasks": [
     {
      "kind": "match",
@@ -91,45 +87,14 @@
       {
        "a": "main dish",
        "b": "ana yemek"
-      },
-      {
-       "a": "soup",
-       "b": "çorba"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"çorba\"?",
-     "answer": "soup",
-     "options": [
-      "soup",
-      "dessert",
-      "side dish",
-      "drink / beverage"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Menu Sections",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"ana yemek\"?",
-     "answer": "main dish",
-     "options": [
-      "main dish",
-      "side dish",
-      "dessert",
-      "starter / appetizer"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "çorba",
+     "answer": "soup"
     }
    ]
   },
@@ -192,70 +157,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Vegetables & More",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Food — Vegetables & More",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "pepper",
-       "b": "biber"
-      },
-      {
-       "a": "beans",
-       "b": "fasulye"
-      },
-      {
-       "a": "cinnamon",
-       "b": "tarçın"
-      },
-      {
-       "a": "garlic",
-       "b": "sarımsak"
-      },
-      {
-       "a": "corn",
-       "b": "mısır"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"beans\" means \"biber\".",
+     "answer": false,
+     "explain": "beans = fasulye"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"domates\"?",
-     "answer": "tomato",
+     "q": "Which word means \"mercimek\"?",
+     "answer": "lentil",
      "options": [
-      "tomato",
-      "lettuce",
-      "garlic",
-      "beans"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Vegetables & More",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"salatalık\"?",
-     "answer": "cucumber",
-     "options": [
+      "lentil",
       "cucumber",
-      "lettuce",
-      "corn",
-      "beans"
+      "tomato",
+      "mushroom"
      ]
     }
    ]
@@ -319,21 +239,19 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Vegetables & More",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Food — Vegetables & More",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "balık eti",
+     "answer": "fish"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
-      {
-       "a": "olives",
-       "b": "zeytin"
-      },
       {
        "a": "lemon",
        "b": "limon"
@@ -343,46 +261,13 @@
        "b": "balık eti"
       },
       {
-       "a": "dairy products",
-       "b": "süt ürünleri"
-      },
-      {
        "a": "meat",
        "b": "et"
+      },
+      {
+       "a": "apple",
+       "b": "elma"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"dana eti\"?",
-     "answer": "beef",
-     "options": [
-      "beef",
-      "meat",
-      "fish",
-      "apple"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Vegetables & More",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"balık eti\"?",
-     "answer": "fish",
-     "options": [
-      "fish",
-      "beef",
-      "meat",
-      "tuna"
      ]
     }
    ]
@@ -441,70 +326,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Sweet & Bakery",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Food — Sweet & Bakery",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"spices\" means \"şeker\".",
+     "answer": false,
+     "explain": "spices = baharatlar"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "nuts",
-       "b": "kuruyemiş"
-      },
-      {
-       "a": "salt",
-       "b": "tuz"
-      },
-      {
-       "a": "flour",
-       "b": "un"
-      },
-      {
        "a": "sugar",
        "b": "şeker"
+      },
+      {
+       "a": "butter",
+       "b": "tereyağı"
+      },
+      {
+       "a": "spices",
+       "b": "baharatlar"
       },
       {
        "a": "sauce",
        "b": "sos"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"baharatlar\"?",
-     "answer": "spices",
-     "options": [
-      "spices",
-      "sauce",
-      "flour",
-      "jam"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Sweet & Bakery",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"tereyağı\"?",
-     "answer": "butter",
-     "options": [
-      "butter",
-      "spices",
-      "flour",
-      "salt"
      ]
     }
    ]
@@ -563,71 +414,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Sweet & Bakery",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Food — Sweet & Bakery",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "chocolate",
-       "b": "çikolata"
-      },
-      {
-       "a": "muffin",
-       "b": "kek"
-      },
-      {
-       "a": "biscuit / cookie",
-       "b": "kurabiye"
-      },
-      {
-       "a": "bread",
-       "b": "ekmek"
-      },
-      {
        "a": "ice cream",
        "b": "dondurma"
+      },
+      {
+       "a": "pancake",
+       "b": "krep"
+      },
+      {
+       "a": "croissant",
+       "b": "kruvasan"
+      },
+      {
+       "a": "tart",
+       "b": "turta"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"çikolata\"?",
-     "answer": "chocolate",
-     "options": [
-      "chocolate",
-      "pancake",
-      "muffin",
-      "tart"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Sweet & Bakery",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"dondurma\"?",
-     "answer": "ice cream",
-     "options": [
-      "ice cream",
-      "croissant",
-      "tart",
-      "chocolate"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "krep",
+     "answer": "pancake"
     }
    ]
   },
@@ -675,70 +491,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Sweet & Bakery",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Food — Sweet & Bakery",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "meatball",
-       "b": "köfte"
-      },
-      {
-       "a": "fruit juice",
-       "b": "meyve suyu"
-      },
-      {
-       "a": "water",
-       "b": "su"
-      },
-      {
-       "a": "dough",
-       "b": "hamur"
-      },
-      {
-       "a": "milk",
-       "b": "süt"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"dough\" means \"makarna\".",
+     "answer": false,
+     "explain": "dough = hamur"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"süt\"?",
-     "answer": "milk",
+     "q": "Which word means \"su\"?",
+     "answer": "water",
      "options": [
-      "milk",
-      "fruit juice",
       "water",
-      "ayran"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Food — Sweet & Bakery",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"hamur\"?",
-     "answer": "dough",
-     "options": [
-      "dough",
       "pasta",
-      "water",
-      "fruit juice"
+      "milk",
+      "meatball"
      ]
     }
    ]
@@ -792,13 +563,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Kitchen Utensils",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Kitchen Utensils",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "tabak",
+     "answer": "plate"
+    },
     {
      "kind": "match",
      "q": "Match the words",
@@ -808,54 +581,17 @@
        "b": "bardak"
       },
       {
-       "a": "tablespoon",
-       "b": "yemek kaşığı"
-      },
-      {
        "a": "teaspoon",
        "b": "çay kaşığı"
       },
       {
-       "a": "cup",
-       "b": "fincan"
+       "a": "plate",
+       "b": "tabak"
       },
       {
-       "a": "pan",
-       "b": "tava"
+       "a": "bowl",
+       "b": "kase"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"tabak\"?",
-     "answer": "plate",
-     "options": [
-      "plate",
-      "glass",
-      "cup",
-      "tablespoon"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Kitchen Utensils",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"tencere\"?",
-     "answer": "pot",
-     "options": [
-      "pot",
-      "glass",
-      "tablespoon",
-      "bowl"
      ]
     }
    ]
@@ -914,70 +650,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"tasty\" means \"taze\".",
+     "answer": false,
+     "explain": "tasty = lezzetli"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "fried",
-       "b": "kızartılmış"
+       "a": "fresh",
+       "b": "taze"
+      },
+      {
+       "a": "homemade",
+       "b": "ev yapımı"
+      },
+      {
+       "a": "empty",
+       "b": "boş"
       },
       {
        "a": "tasty",
        "b": "lezzetli"
-      },
-      {
-       "a": "yummy",
-       "b": "nefis"
-      },
-      {
-       "a": "full",
-       "b": "dolu / tok"
-      },
-      {
-       "a": "boiled",
-       "b": "haşlanmış"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"lezzetli\"?",
-     "answer": "tasty",
-     "options": [
-      "tasty",
-      "empty",
-      "yummy",
-      "fried"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"dolu / tok\"?",
-     "answer": "full",
-     "options": [
-      "full",
-      "empty",
-      "tasty",
-      "yummy"
      ]
     }
    ]
@@ -1036,32 +738,24 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "special",
-       "b": "özel"
-      },
-      {
-       "a": "fatty",
-       "b": "yağlı"
-      },
-      {
        "a": "available",
        "b": "müsait"
       },
       {
-       "a": "light",
-       "b": "hafif"
+       "a": "bottom",
+       "b": "alt"
+      },
+      {
+       "a": "special",
+       "b": "özel"
       },
       {
        "a": "healthy",
@@ -1070,37 +764,10 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"sağlıklı\"?",
-     "answer": "healthy",
-     "options": [
-      "healthy",
-      "sweet",
-      "unhealthy",
-      "fatty"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"özel\"?",
-     "answer": "special",
-     "options": [
-      "special",
-      "fatty",
-      "top",
-      "bottom"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "alt",
+     "answer": "bottom"
     }
    ]
   },
@@ -1163,70 +830,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "heat",
-       "b": "ısıtmak"
-      },
-      {
-       "a": "dry",
-       "b": "kurutmak"
-      },
-      {
-       "a": "slice",
-       "b": "dilimlemek"
-      },
-      {
-       "a": "boil",
-       "b": "haşlamak"
-      },
-      {
-       "a": "fry",
-       "b": "kızartmak"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"dry\" means \"ezmek\".",
+     "answer": false,
+     "explain": "dry = kurutmak"
     },
-    {
-     "kind": "choose",
-     "q": "Which word means \"suyunu sıkmak\"?",
-     "answer": "squeeze",
-     "options": [
-      "squeeze",
-      "slice",
-      "dry",
-      "mash"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"ezmek\"?",
      "answer": "mash",
      "options": [
       "mash",
-      "prepare",
+      "slice",
       "boil",
-      "heat"
+      "wash"
      ]
     }
    ]
@@ -1290,70 +912,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "servis etmek",
+     "answer": "serve"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "cook",
-       "b": "pişirmek"
-      },
-      {
        "a": "add",
        "b": "eklemek"
       },
       {
-       "a": "eat",
-       "b": "yemek"
-      },
-      {
-       "a": "stir",
-       "b": "karıştırmak (sıvı)"
+       "a": "cook",
+       "b": "pişirmek"
       },
       {
        "a": "mix",
        "b": "karıştırmak"
+      },
+      {
+       "a": "eat",
+       "b": "yemek"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"eklemek\"?",
-     "answer": "add",
-     "options": [
-      "add",
-      "serve",
-      "make",
-      "cook"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"koklamak\"?",
-     "answer": "smell",
-     "options": [
-      "smell",
-      "serve",
-      "taste",
-      "marinate"
      ]
     }
    ]
@@ -1417,70 +1004,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"lose weight\" means \"sipariş vermek\".",
+     "answer": false,
+     "explain": "lose weight = kilo vermek"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "reserve",
-       "b": "yer ayırmak"
-      },
-      {
        "a": "recommend",
        "b": "önermek"
       },
       {
-       "a": "order",
-       "b": "sipariş vermek"
+       "a": "lose weight",
+       "b": "kilo vermek"
+      },
+      {
+       "a": "pay",
+       "b": "ödemek"
       },
       {
        "a": "take order",
        "b": "sipariş almak"
-      },
-      {
-       "a": "contain",
-       "b": "içermek"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"önermek\"?",
-     "answer": "recommend",
-     "options": [
-      "recommend",
-      "reserve",
-      "book",
-      "order"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"ödemek\"?",
-     "answer": "pay",
-     "options": [
-      "pay",
-      "put on weight",
-      "lose weight",
-      "order"
      ]
     }
    ]
@@ -1531,12 +1084,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Countable / Uncountable",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Countable / Uncountable",
    "tasks": [
     {
      "kind": "fill",
@@ -1547,37 +1096,6 @@
       "an"
      ],
      "tr": "salatalık"
-    },
-    {
-     "kind": "fill",
-     "text": "___ apple → five apples",
-     "answer": "an",
-     "options": [
-      "an",
-      "a"
-     ],
-     "tr": "elma"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Countable / Uncountable",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ lemon → four lemons",
-     "answer": "a",
-     "options": [
-      "a",
-      "an"
-     ],
-     "tr": "limon"
     },
     {
      "kind": "order",
@@ -1622,13 +1140,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "a / an · some · any",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · a / an · some · any",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "We don't have a apples. — Hiç elmamız yok.",
+     "answer": false,
+     "explain": "Correct: We don't have any apples."
+    },
     {
      "kind": "fill",
      "text": "___ cucumber · a tomato · an orange · an apple",
@@ -1639,45 +1160,6 @@
       "any"
      ],
      "tr": "sessiz harf → a, sesli harf → an"
-    },
-    {
-     "kind": "fill",
-     "text": "We have ___ tomatoes.",
-     "answer": "some",
-     "options": [
-      "some",
-      "a",
-      "any"
-     ],
-     "tr": "Birkaç domatesimiz var."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "a / an · some · any",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "I need ___ milk.",
-     "answer": "some",
-     "options": [
-      "some",
-      "a",
-      "any"
-     ],
-     "tr": "Biraz süte ihtiyacım var."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Do you have any coffee?",
-     "tr": "Hiç kahven var mı?"
     }
    ]
   },
@@ -1725,6 +1207,19 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · How many? / How much?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Sophia: How many lemons do we need?",
+     "answer": "Betty: We need two lemons."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Asking for Permission",
    "titleTr": "İzin isteme — Can I ...?",
@@ -1753,12 +1248,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Asking for Permission",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Asking for Permission",
    "tasks": [
     {
      "kind": "fill",
@@ -1768,35 +1259,6 @@
       "Can I"
      ],
      "tr": "Bir tatlı sipariş verebilir miyim?"
-    },
-    {
-     "kind": "fill",
-     "text": "___ taste the sauce?",
-     "answer": "Can I",
-     "options": [
-      "Can I"
-     ],
-     "tr": "Sosu tadabilir miyim?"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Asking for Permission",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ eat some pasta?",
-     "answer": "Can I",
-     "options": [
-      "Can I"
-     ],
-     "tr": "Biraz makarna yiyebilir miyim?"
     },
     {
      "kind": "order",
@@ -1862,6 +1324,19 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Can I ...?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Ryan: Can I pay in cash?",
+     "answer": "Helen: Of course."
+    }
+   ]
+  },
+  {
    "type": "compare",
    "title": "have got / has got",
    "titleTr": "Sahiplik belirtme",
@@ -1915,59 +1390,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "have got / has got",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · have got / has got",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "I ___ a plate of salad.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "We ___ some bread.",
      "answer": "have got",
-     "options": [
-      "have got",
-      "has got",
-      "haven't got",
-      "hasn't got"
-     ],
-     "tr": "Benim bir tabak salatam var."
-    },
-    {
-     "kind": "fill",
-     "text": "We ___ some bread.",
-     "answer": "have got",
-     "options": [
-      "have got",
-      "has got",
-      "haven't got",
-      "hasn't got"
-     ],
      "tr": "Bizim biraz ekmeğimiz var."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "have got / has got",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "He ___ a boiled egg.",
-     "answer": "has got",
-     "options": [
-      "has got",
-      "have got",
-      "haven't got",
-      "hasn't got"
-     ],
-     "tr": "Onun bir haşlanmış yumurtası var."
     },
     {
      "kind": "order",
@@ -2029,6 +1460,19 @@
        "text": "No, she hasn't."
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Have ... got? / Has ... got?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Brian: Have we got any cheese?",
+     "answer": "Susan: Yes, we have."
     }
    ]
   },

@@ -67,12 +67,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "People at School",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · People at School",
    "tasks": [
     {
      "kind": "match",
@@ -93,59 +89,20 @@
       {
        "a": "headmaster",
        "b": "okul müdürü"
-      },
-      {
-       "a": "student",
-       "b": "öğrenci"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-05.png",
-     "answer": "secretary",
-     "tr": "sekreter",
+     "q": "Which word matches the picture?",
+     "img": "p01-01.png",
+     "answer": "headmaster",
+     "tr": "okul müdürü",
      "options": [
-      "secretary",
-      "student",
-      "assistant",
-      "teacher"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "People at School",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-03.png",
-     "answer": "teacher",
-     "tr": "öğretmen",
-     "options": [
-      "teacher",
       "headmaster",
       "coach",
-      "secretary"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"müdür yardımcısı\"?",
-     "answer": "assistant",
-     "options": [
-      "assistant",
-      "secretary",
-      "headmaster",
-      "student"
+      "student",
+      "teacher"
      ]
     }
    ]
@@ -207,85 +164,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Places at School",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Places at School",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "science lab",
-       "b": "fen laboratuvarı"
-      },
-      {
-       "a": "canteen",
-       "b": "kantin"
-      },
-      {
-       "a": "classroom",
-       "b": "sınıf"
-      },
-      {
-       "a": "conference hall",
-       "b": "konferans salonu"
-      },
-      {
-       "a": "sports field",
-       "b": "spor sahası"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-10.png",
-     "answer": "conference hall",
-     "tr": "konferans salonu",
-     "options": [
-      "conference hall",
-      "administration department",
-      "canteen",
-      "sports field"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Places at School",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-07.png",
-     "answer": "classroom",
-     "tr": "sınıf",
-     "options": [
-      "classroom",
-      "gate",
-      "canteen",
-      "conference hall"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"classroom\" means \"kapı\".",
+     "answer": false,
+     "explain": "classroom = sınıf"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"fen laboratuvarı\"?",
-     "answer": "science lab",
+     "q": "Which word means \"kapı\"?",
+     "answer": "gate",
      "options": [
-      "science lab",
+      "gate",
       "library",
-      "canteen",
-      "gate"
+      "sports field",
+      "canteen"
      ]
     }
    ]
@@ -345,49 +242,19 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "A / AN / THE",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · A / AN / THE",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "___ teacher",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "___ library",
      "answer": "a",
-     "options": [
-      "a",
-      "an",
-      "the"
-     ],
      "tr": "sessiz harfle başlıyor → a"
     },
     {
      "kind": "fill",
-     "text": "___ gate",
-     "answer": "a",
-     "options": [
-      "a",
-      "an",
-      "the"
-     ],
-     "tr": "sessiz harfle başlıyor → a"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "A / AN / THE",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ library",
+     "text": "___ teacher",
      "answer": "a",
      "options": [
       "a",
@@ -467,70 +334,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "School Clubs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · School Clubs",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"Music Club\" means \"Film Kulübü\".",
+     "answer": false,
+     "explain": "Music Club = Müzik Kulübü"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "Technology Club",
-       "b": "Teknoloji Kulübü"
-      },
-      {
-       "a": "Folk Dance Club",
-       "b": "Halk Dansları Kulübü"
-      },
-      {
-       "a": "Maths Club",
-       "b": "Matematik Kulübü"
+       "a": "Film Club",
+       "b": "Film Kulübü"
       },
       {
        "a": "Art Club",
        "b": "Resim Kulübü"
       },
       {
+       "a": "Technology Club",
+       "b": "Teknoloji Kulübü"
+      },
+      {
        "a": "Science Club",
        "b": "Bilim Kulübü"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"Müzik Kulübü\"?",
-     "answer": "Music Club",
-     "options": [
-      "Music Club",
-      "Science Club",
-      "Sports Club",
-      "Folk Dance Club"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "School Clubs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"Spor Kulübü\"?",
-     "answer": "Sports Club",
-     "options": [
-      "Sports Club",
-      "Technology Club",
-      "Music Club",
-      "Science Club"
      ]
     }
    ]
@@ -604,71 +437,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Expressing Likes",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Expressing Likes",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "sing songs",
-       "b": "şarkı söylemek"
+       "a": "play chess",
+       "b": "satranç oynamak"
       },
       {
-       "a": "play the guitar",
-       "b": "gitar çalmak"
-      },
-      {
-       "a": "read books",
-       "b": "kitap okumak"
+       "a": "do experiments",
+       "b": "deney yapmak"
       },
       {
        "a": "watch movies",
        "b": "film izlemek"
       },
       {
-       "a": "play football",
-       "b": "futbol oynamak"
+       "a": "play the guitar",
+       "b": "gitar çalmak"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"futbol oynamak\"?",
-     "answer": "play football",
-     "options": [
-      "play football",
-      "solve problems",
-      "dance",
-      "play chess"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Expressing Likes",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"şarkı söylemek\"?",
-     "answer": "sing songs",
-     "options": [
-      "sing songs",
-      "act in plays",
-      "watch movies",
-      "play the guitar"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "resim çizmek",
+     "answer": "draw pictures"
     }
    ]
   },
@@ -698,56 +496,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Do you like ...?",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Do you like ...?",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "Do you like ___ the guitar?",
-     "answer": "playing",
-     "options": [
-      "playing",
-      "reading",
-      "drawing"
-     ],
-     "tr": "Gitar çalmayı sever misin?"
-    },
-    {
-     "kind": "fill",
-     "text": "Do you like ___ books?",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "Do you like ___ books?",
      "answer": "reading",
-     "options": [
-      "reading",
-      "playing",
-      "drawing"
-     ],
      "tr": "Kitap okumayı sever misin?"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Do you like ...?",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "I like ___ basketball.",
-     "answer": "playing",
-     "options": [
-      "playing",
-      "reading",
-      "drawing"
-     ],
-     "tr": "Basketbol oynamayı severim."
     },
     {
      "kind": "order",
@@ -816,70 +573,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "School Rules — Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · School Rules — Verbs",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "giymek",
+     "answer": "wear"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "do",
-       "b": "yapmak"
+       "a": "eat",
+       "b": "yemek"
       },
       {
        "a": "listen",
        "b": "dinlemek"
       },
       {
-       "a": "drink",
-       "b": "içmek"
+       "a": "shout",
+       "b": "bağırmak"
       },
       {
-       "a": "run",
-       "b": "koşmak"
-      },
-      {
-       "a": "eat",
-       "b": "yemek"
+       "a": "wear",
+       "b": "giymek"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"dinlemek\"?",
-     "answer": "listen",
-     "options": [
-      "listen",
-      "do",
-      "drink",
-      "fight"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "School Rules — Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"içmek\"?",
-     "answer": "drink",
-     "options": [
-      "drink",
-      "eat",
-      "do",
-      "fight"
      ]
     }
    ]
@@ -925,13 +647,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Imperatives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Imperatives",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "Don't shout in the library. — Kütüphanede bağırma.",
+     "answer": true,
+     "explain": "Correct: Don't shout in the library."
+    },
     {
      "kind": "fill",
      "text": "___ run in the classroom.",
@@ -940,32 +665,6 @@
       "Don't"
      ],
      "tr": "Sınıfta koşma."
-    },
-    {
-     "kind": "fill",
-     "text": "___ shout in the library.",
-     "answer": "Don't",
-     "options": [
-      "Don't"
-     ],
-     "tr": "Kütüphanede bağırma."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Imperatives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Don't shout in the library.",
-     "tr": "Kütüphanede bağırma."
     }
    ]
   },
@@ -1007,53 +706,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Obligations — must / mustn't",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Obligations — must / mustn't",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "You ___ wear the school uniform.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "You ___ wear the school uniform.",
      "answer": "must",
-     "options": [
-      "must",
-      "mustn't"
-     ],
      "tr": "Okul üniformasını giymelisin."
-    },
-    {
-     "kind": "fill",
-     "text": "We ___ do our homework.",
-     "answer": "must",
-     "options": [
-      "must",
-      "mustn't"
-     ],
-     "tr": "Ödevimizi yapmalıyız."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Obligations — must / mustn't",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "You ___ fight with your friends.",
-     "answer": "mustn't",
-     "options": [
-      "mustn't",
-      "must"
-     ],
-     "tr": "Arkadaşlarınla kavga etmemelisin."
     },
     {
      "kind": "order",
@@ -1122,85 +783,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Countries",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Countries",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "Russia",
-       "b": "Rusya"
-      },
-      {
-       "a": "France",
-       "b": "Fransa"
-      },
-      {
-       "a": "Türkiye",
-       "b": "Türkiye"
-      },
-      {
-       "a": "the USA",
-       "b": "Amerika Birleşik Devletleri"
-      },
-      {
-       "a": "Spain",
-       "b": "İspanya"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/flags/es.svg",
-     "answer": "Spain",
-     "tr": "İspanya",
-     "options": [
-      "Spain",
-      "England",
-      "the UK",
-      "France"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Countries",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/flags/it.svg",
-     "answer": "Italy",
-     "tr": "İtalya",
-     "options": [
-      "Italy",
-      "France",
-      "Scotland",
-      "Spain"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"Türkiye\" means \"İngiltere\".",
+     "answer": false,
+     "explain": "Türkiye = Türkiye"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"Amerika Birleşik Devletleri\"?",
-     "answer": "the USA",
+     "q": "Which word means \"İtalya\"?",
+     "answer": "Italy",
      "options": [
-      "the USA",
+      "Italy",
       "France",
-      "Scotland",
-      "England"
+      "Russia",
+      "Scotland"
      ]
     }
    ]
@@ -1264,21 +865,19 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Countries",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Countries",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "Brezilya",
+     "answer": "Brazil"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
-      {
-       "a": "Canada",
-       "b": "Kanada"
-      },
       {
        "a": "Argentina",
        "b": "Arjantin"
@@ -1288,61 +887,13 @@
        "b": "Brezilya"
       },
       {
-       "a": "Wales",
-       "b": "Galler"
+       "a": "Australia",
+       "b": "Avustralya"
       },
       {
        "a": "Japan",
        "b": "Japonya"
       }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/flags/gb-nir.svg",
-     "answer": "Northern Ireland",
-     "tr": "Kuzey İrlanda",
-     "options": [
-      "Northern Ireland",
-      "Canada",
-      "Mexico",
-      "Egypt"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Countries",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/flags/au.svg",
-     "answer": "Australia",
-     "tr": "Avustralya",
-     "options": [
-      "Australia",
-      "Greece",
-      "Wales",
-      "Canada"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"Avustralya\"?",
-     "answer": "Australia",
-     "options": [
-      "Australia",
-      "Northern Ireland",
-      "Mexico",
-      "Wales"
      ]
     }
    ]
@@ -1396,86 +947,28 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Countries",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Countries",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "Kazakhstan",
-       "b": "Kazakistan"
-      },
-      {
-       "a": "Northern Cyprus",
-       "b": "Kuzey Kıbrıs (K.K.T.C.)"
-      },
-      {
-       "a": "Azerbaijan",
-       "b": "Azerbaycan"
-      },
-      {
-       "a": "Uzbekistan",
-       "b": "Özbekistan"
-      },
-      {
-       "a": "Kyrgyzstan",
-       "b": "Kırgızistan"
-      }
-     ]
-    },
-    {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/flags/kktc.svg",
-     "answer": "Northern Cyprus",
-     "tr": "Kuzey Kıbrıs (K.K.T.C.)",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/flags/kz.svg",
+     "answer": "Kazakhstan",
+     "tr": "Kazakistan",
      "options": [
+      "Kazakhstan",
       "Northern Cyprus",
-      "China",
-      "Kyrgyzstan",
-      "Uzbekistan"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Countries",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/flags/az.svg",
-     "answer": "Azerbaijan",
-     "tr": "Azerbaycan",
-     "options": [
-      "Azerbaijan",
-      "Turkmenistan",
-      "Kyrgyzstan",
-      "Kazakhstan"
+      "South Korea",
+      "Turkmenistan"
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"Azerbaycan\"?",
-     "answer": "Azerbaijan",
-     "options": [
-      "Azerbaijan",
-      "Uzbekistan",
-      "Turkmenistan",
-      "South Korea"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"Kyrgyzstan\" means \"Özbekistan\".",
+     "answer": false,
+     "explain": "Kyrgyzstan = Kırgızistan"
     }
    ]
   },
@@ -1559,6 +1052,19 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Where are you from?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Sally: Where are you from?",
+     "answer": "Melike: I am from Türkiye."
+    }
+   ]
+  },
+  {
    "type": "vocab",
    "title": "National and Religious Days",
    "titleTr": "Ulusal ve dinî günler",
@@ -1597,69 +1103,24 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "National and Religious Days",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · National and Religious Days",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "29th October — Republic Day",
-       "b": "Cumhuriyet Bayramı"
-      },
-      {
-       "a": "19th May — Youth and Sports Day",
-       "b": "Gençlik ve Spor Bayramı"
-      },
-      {
-       "a": "Eid al-Adha (Festival of Sacrifice)",
-       "b": "Kurban Bayramı"
-      },
-      {
-       "a": "30th August — Victory Day",
-       "b": "Zafer Bayramı"
-      },
-      {
-       "a": "Eid al-Fitr (Festival of Ramadan)",
-       "b": "Ramazan Bayramı"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"Eid al-Adha (Festival of Sacrifice)\" means \"Cumhuriyet Bayramı\".",
+     "answer": false,
+     "explain": "Eid al-Adha (Festival of Sacrifice) = Kurban Bayramı"
     },
-    {
-     "kind": "choose",
-     "q": "Which word means \"Ramazan Bayramı\"?",
-     "answer": "Eid al-Fitr (Festival of Ramadan)",
-     "options": [
-      "Eid al-Fitr (Festival of Ramadan)",
-      "23rd April — Children's Day",
-      "30th August — Victory Day",
-      "19th May — Youth and Sports Day"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "National and Religious Days",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"Gençlik ve Spor Bayramı\"?",
      "answer": "19th May — Youth and Sports Day",
      "options": [
       "19th May — Youth and Sports Day",
+      "Eid al-Adha (Festival of Sacrifice)",
       "23rd April — Children's Day",
-      "29th October — Republic Day",
       "Eid al-Fitr (Festival of Ramadan)"
      ]
     }

@@ -94,12 +94,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Extreme Sports",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Extreme Sports",
    "tasks": [
     {
      "kind": "match",
@@ -120,59 +116,20 @@
       {
        "a": "rafting",
        "b": "rafting"
-      },
-      {
-       "a": "skateboarding",
-       "b": "kaykay"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/rafting.jpg",
-     "answer": "rafting",
-     "tr": "rafting",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/bungee-jumping.jpg",
+     "answer": "bungee-jumping",
+     "tr": "bancî atlayışı",
      "options": [
-      "rafting",
-      "take risks",
-      "canoeing",
-      "bungee-jumping"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Extreme Sports",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/canoeing.jpg",
-     "answer": "canoeing",
-     "tr": "kano sporu",
-     "options": [
-      "canoeing",
+      "bungee-jumping",
       "skateboarding",
-      "hang-gliding",
-      "extreme sports"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"aşırı\"?",
-     "answer": "extreme",
-     "options": [
-      "extreme",
-      "extreme sports",
-      "rafting",
-      "bungee-jumping"
+      "caving",
+      "take risks"
      ]
     }
    ]
@@ -216,70 +173,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Describing Activities",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Describing Activities",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "disappointing",
-       "b": "hayal kırıklığı yaratan"
-      },
-      {
-       "a": "challenging",
-       "b": "zorlayıcı"
-      },
-      {
-       "a": "entertaining",
-       "b": "eğlendirici"
-      },
-      {
-       "a": "exciting",
-       "b": "heyecan verici"
-      },
-      {
-       "a": "fascinating",
-       "b": "büyüleyici"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"disappointing\" means \"eğlendirici\".",
+     "answer": false,
+     "explain": "disappointing = hayal kırıklığı yaratan"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"heyecan verici\"?",
-     "answer": "exciting",
+     "q": "Which word means \"hayal kırıklığı yaratan\"?",
+     "answer": "disappointing",
      "options": [
-      "exciting",
-      "amusing",
       "disappointing",
-      "challenging"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Describing Activities",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"eğlendirici\"?",
-     "answer": "entertaining",
-     "options": [
+      "challenging",
       "entertaining",
-      "amusing",
-      "fascinating",
-      "challenging"
+      "exciting"
      ]
     }
    ]
@@ -341,13 +253,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "deneyimsiz, tecrübesiz",
+     "answer": "inexperienced"
+    },
     {
      "kind": "match",
      "q": "Match the words",
@@ -357,54 +271,17 @@
        "b": "tepe"
       },
       {
-       "a": "height",
-       "b": "yükseklik"
+       "a": "historical sites",
+       "b": "tarihi yerler"
       },
       {
        "a": "helmet",
        "b": "kask"
       },
       {
-       "a": "individually",
-       "b": "bireysel"
-      },
-      {
-       "a": "include",
-       "b": "içermek, kapsamak"
+       "a": "indoor",
+       "b": "kapalı mekan, iç mekan"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"yükseklik\"?",
-     "answer": "height",
-     "options": [
-      "height",
-      "hill",
-      "individually",
-      "helmet"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"sıcak hava balonu\"?",
-     "answer": "hot air balloon",
-     "options": [
-      "hot air balloon",
-      "individually",
-      "inexperienced",
-      "goggle"
      ]
     }
    ]
@@ -450,70 +327,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"fighting\" means \"deneyim, tecrübe\".",
+     "answer": false,
+     "explain": "fighting = mücadele"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "explore",
-       "b": "keşfetmek"
-      },
-      {
-       "a": "equipment",
-       "b": "araç gereç, ekipman"
-      },
-      {
-       "a": "extreme sport",
-       "b": "tehlikeli ve heyecanlı spor"
-      },
-      {
        "a": "experienced",
        "b": "deneyimli, tecrübeli"
       },
       {
-       "a": "diving suit",
-       "b": "dalış kıyafeti"
+       "a": "experience",
+       "b": "deneyim, tecrübe"
+      },
+      {
+       "a": "feel",
+       "b": "hissetmek"
+      },
+      {
+       "a": "extreme sport",
+       "b": "tehlikeli ve heyecanlı spor"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"deneyimli, tecrübeli\"?",
-     "answer": "experienced",
-     "options": [
-      "experienced",
-      "diving suit",
-      "explore",
-      "fighting"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"deneyim, tecrübe\"?",
-     "answer": "experience",
-     "options": [
-      "experience",
-      "explore",
-      "equipment",
-      "experienced"
      ]
     }
    ]
@@ -564,13 +407,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "should / shouldn't",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · should / shouldn't",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "You shouldn't forget your equipment. — Ekipmanını unutmamalısın.",
+     "answer": true,
+     "explain": "Correct: You shouldn't forget your equipment."
+    },
     {
      "kind": "fill",
      "text": "You ___ wear a helmet.",
@@ -580,43 +426,6 @@
       "shouldn't"
      ],
      "tr": "Kask takmalısın."
-    },
-    {
-     "kind": "fill",
-     "text": "You ___ check the weather first.",
-     "answer": "should",
-     "options": [
-      "should",
-      "shouldn't"
-     ],
-     "tr": "Önce hava durumunu kontrol etmelisin."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "should / shouldn't",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "Beginners ___ go with a guide.",
-     "answer": "should",
-     "options": [
-      "should",
-      "shouldn't"
-     ],
-     "tr": "Yeni başlayanlar rehberle gitmeli."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "You shouldn't swim in a rough sea.",
-     "tr": "Dalgalı denizde yüzmemelisin."
     }
    ]
   },
@@ -647,53 +456,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "must / mustn't",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · must / mustn't",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "You ___ follow the safety rules.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "Divers ___ have a licence.",
      "answer": "must",
-     "options": [
-      "must",
-      "mustn't"
-     ],
-     "tr": "Güvenlik kurallarına uymalısın."
-    },
-    {
-     "kind": "fill",
-     "text": "Divers ___ have a licence.",
-     "answer": "must",
-     "options": [
-      "must",
-      "mustn't"
-     ],
      "tr": "Dalgıçların lisansı olmalı."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "must / mustn't",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "You ___ go rafting without a life jacket.",
-     "answer": "mustn't",
-     "options": [
-      "mustn't",
-      "must"
-     ],
-     "tr": "Can yeleği olmadan raftinge gitmemelisin."
     },
     {
      "kind": "order",
@@ -731,12 +502,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Comparing Adventures",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Comparing Adventures",
    "tasks": [
     {
      "kind": "fill",
@@ -749,41 +516,6 @@
       "the most dangerous"
      ],
      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
-    },
-    {
-     "kind": "fill",
-     "text": "Paragliding is ___ sport for me.",
-     "answer": "the most thrilling",
-     "options": [
-      "the most thrilling",
-      "more exciting than",
-      "harder than",
-      "the most dangerous"
-     ],
-     "tr": "Yamaç paraşütü benim için en heyecan verici spordur."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Comparing Adventures",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "Climbing is ___ cycling.",
-     "answer": "harder than",
-     "options": [
-      "harder than",
-      "more exciting than",
-      "the most thrilling",
-      "the most dangerous"
-     ],
-     "tr": "Tırmanmak, bisiklet sürmekten daha zordur."
     },
     {
      "kind": "order",

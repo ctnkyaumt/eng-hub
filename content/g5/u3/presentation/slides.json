@@ -91,12 +91,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Body Parts",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Body Parts",
    "tasks": [
     {
      "kind": "match",
@@ -117,59 +113,20 @@
       {
        "a": "eye",
        "b": "göz"
-      },
-      {
-       "a": "mouth",
-       "b": "ağız"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-01.png",
-     "answer": "body",
-     "tr": "vücut",
+     "q": "Which word matches the picture?",
+     "img": "p01-05.png",
+     "answer": "eye",
+     "tr": "göz",
      "options": [
+      "eye",
       "body",
-      "tooth",
-      "eye",
-      "face"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Body Parts",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-02.png",
-     "answer": "head",
-     "tr": "kafa",
-     "options": [
       "head",
-      "nose",
-      "face",
-      "body"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"boyun\"?",
-     "answer": "neck",
-     "options": [
-      "neck",
-      "eye",
-      "mouth",
-      "tooth"
+      "hair"
      ]
     }
    ]
@@ -243,85 +200,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Body Parts",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Body Parts",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "hand",
-       "b": "el"
-      },
-      {
-       "a": "arm",
-       "b": "kol"
-      },
-      {
-       "a": "back",
-       "b": "sırt"
-      },
-      {
-       "a": "knee",
-       "b": "diz"
-      },
-      {
-       "a": "finger",
-       "b": "el parmağı"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-19.png",
-     "answer": "foot",
-     "tr": "ayak",
-     "options": [
-      "foot",
-      "chest",
-      "toe",
-      "back"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Body Parts",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-16.png",
-     "answer": "chest",
-     "tr": "göğüs",
-     "options": [
-      "chest",
-      "arm",
-      "leg",
-      "hand"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"toe\" means \"kol\".",
+     "answer": false,
+     "explain": "toe = ayak parmağı"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"diz\"?",
-     "answer": "knee",
+     "q": "Which word means \"sırt\"?",
+     "answer": "back",
      "options": [
-      "knee",
       "back",
-      "hand",
-      "foot"
+      "toe",
+      "knee",
+      "chest"
      ]
     }
    ]
@@ -380,70 +277,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Physical Features",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Physical Features",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "dalgalı",
+     "answer": "wavy"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "thin / slim",
-       "b": "zayıf, ince"
-      },
-      {
-       "a": "medium weight",
-       "b": "orta kilolu"
+       "a": "blonde",
+       "b": "sarışın"
       },
       {
        "a": "fat",
        "b": "şişman"
       },
       {
-       "a": "fair",
-       "b": "açık renk"
+       "a": "thin / slim",
+       "b": "zayıf, ince"
       },
       {
-       "a": "blonde",
-       "b": "sarışın"
+       "a": "curly",
+       "b": "kıvırcık"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"koyu renk\"?",
-     "answer": "dark",
-     "options": [
-      "dark",
-      "wavy",
-      "straight",
-      "fat"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Physical Features",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"açık renk\"?",
-     "answer": "fair",
-     "options": [
-      "fair",
-      "curly",
-      "wavy",
-      "straight"
      ]
     }
    ]
@@ -502,70 +364,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Physical Features",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Physical Features",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"oval\" means \"küçük\".",
+     "answer": false,
+     "explain": "oval = oval"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "short",
-       "b": "kısa"
+       "a": "tall",
+       "b": "uzun"
       },
       {
-       "a": "small",
-       "b": "küçük"
-      },
-      {
-       "a": "big",
-       "b": "büyük"
+       "a": "average",
+       "b": "ortalama"
       },
       {
        "a": "oval",
        "b": "oval"
       },
       {
-       "a": "round",
-       "b": "yuvarlak"
+       "a": "short",
+       "b": "kısa"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"kısa\"?",
-     "answer": "short",
-     "options": [
-      "short",
-      "oval",
-      "medium height",
-      "average"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Physical Features",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"yuvarlak\"?",
-     "answer": "round",
-     "options": [
-      "round",
-      "big",
-      "short",
-      "square"
      ]
     }
    ]
@@ -598,13 +426,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "What do/does ... look like?",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · What do/does ... look like?",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "I am short and slim. — Ben kısa ve zayıfım.",
+     "answer": true,
+     "explain": "Correct: I am short and slim."
+    },
     {
      "kind": "fill",
      "text": "I ___ short and slim.",
@@ -616,47 +447,6 @@
       "has got"
      ],
      "tr": "Ben kısa ve zayıfım."
-    },
-    {
-     "kind": "fill",
-     "text": "She ___ of medium height.",
-     "answer": "is",
-     "options": [
-      "is",
-      "am",
-      "have got",
-      "has got"
-     ],
-     "tr": "O orta boylu."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "What do/does ... look like?",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "I ___ straight hair.",
-     "answer": "have got",
-     "options": [
-      "have got",
-      "am",
-      "is",
-      "has got"
-     ],
-     "tr": "Ben düz saçlara sahibim."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "She has got a small and round face.",
-     "tr": "O küçük ve yuvarlak bir yüze sahip."
     }
    ]
   },
@@ -688,6 +478,19 @@
        "text": "She has got dark, wavy hair."
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Describing People",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Henry: What does Emre look like?",
+     "answer": "Luis: He is tall and of medium weight."
     }
    ]
   },
@@ -740,70 +543,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Clothes",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Clothes",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "yağmurluk",
+     "answer": "raincoat"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "jumper / sweater",
-       "b": "kazak"
-      },
-      {
        "a": "coat",
        "b": "mont"
       },
       {
-       "a": "jacket",
-       "b": "ceket"
-      },
-      {
-       "a": "blouse",
-       "b": "bluz"
-      },
-      {
        "a": "jeans",
        "b": "kot pantolon"
+      },
+      {
+       "a": "trousers / pants",
+       "b": "pantolon"
+      },
+      {
+       "a": "jumper / sweater",
+       "b": "kazak"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"hırka\"?",
-     "answer": "cardigan",
-     "options": [
-      "cardigan",
-      "trousers / pants",
-      "raincoat",
-      "jumper / sweater"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Clothes",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"bluz\"?",
-     "answer": "blouse",
-     "options": [
-      "blouse",
-      "coat",
-      "jumper / sweater",
-      "jeans"
      ]
     }
    ]
@@ -852,13 +620,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Clothes",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Clothes",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"shirt\" means \"üniforma\".",
+     "answer": false,
+     "explain": "shirt = gömlek"
+    },
     {
      "kind": "match",
      "q": "Match the words",
@@ -872,50 +643,13 @@
        "b": "üniforma"
       },
       {
-       "a": "skirt",
-       "b": "etek"
-      },
-      {
-       "a": "T-shirt",
-       "b": "tişört"
+       "a": "shirt",
+       "b": "gömlek"
       },
       {
        "a": "fancy dress / costume",
        "b": "kostüm"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"gömlek\"?",
-     "answer": "shirt",
-     "options": [
-      "shirt",
-      "shorts",
-      "uniform",
-      "skirt"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Clothes",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"elbise\"?",
-     "answer": "dress",
-     "options": [
-      "dress",
-      "uniform",
-      "shirt",
-      "T-shirt"
      ]
     }
    ]
@@ -979,71 +713,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Accessories",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Accessories",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "socks",
-       "b": "çorap"
+       "a": "belt",
+       "b": "kemer"
       },
       {
-       "a": "hat",
-       "b": "şapka"
+       "a": "headscarf",
+       "b": "başörtüsü"
       },
       {
-       "a": "boots",
-       "b": "bot"
+       "a": "cap",
+       "b": "kep"
       },
       {
-       "a": "scarf",
-       "b": "atkı"
-      },
-      {
-       "a": "gloves",
-       "b": "eldiven"
+       "a": "shoes",
+       "b": "ayakkabı"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"kep\"?",
-     "answer": "cap",
-     "options": [
-      "cap",
-      "shoes",
-      "scarf",
-      "hat"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Accessories",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"atkı\"?",
-     "answer": "scarf",
-     "options": [
-      "scarf",
-      "cap",
-      "headscarf",
-      "socks"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "atkı",
+     "answer": "scarf"
     }
    ]
   },
@@ -1106,70 +805,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Accessories",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Accessories",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "necklace",
-       "b": "kolye"
-      },
-      {
-       "a": "watch",
-       "b": "kol saati"
-      },
-      {
-       "a": "backpack",
-       "b": "sırt çantası"
-      },
-      {
-       "a": "earrings",
-       "b": "küpe"
-      },
-      {
-       "a": "glasses",
-       "b": "gözlük"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"ring\" means \"sırt çantası\".",
+     "answer": false,
+     "explain": "ring = yüzük"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"el çantası\"?",
-     "answer": "handbag",
+     "q": "Which word means \"gözlük\"?",
+     "answer": "glasses",
      "options": [
-      "handbag",
       "glasses",
-      "sunglasses",
-      "earrings"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Accessories",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"küpe\"?",
-     "answer": "earrings",
-     "options": [
       "earrings",
       "handbag",
-      "glasses",
-      "watch"
+      "necklace"
      ]
     }
    ]
@@ -1233,70 +887,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kalın",
+     "answer": "thick"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "long",
-       "b": "uzun"
-      },
-      {
-       "a": "stylish",
-       "b": "şık"
-      },
-      {
-       "a": "ordinary",
-       "b": "sıradan"
-      },
-      {
-       "a": "trendy",
-       "b": "modaya uygun"
+       "a": "short",
+       "b": "kısa"
       },
       {
        "a": "old-fashioned",
        "b": "eski moda"
+      },
+      {
+       "a": "traditional",
+       "b": "geleneksel"
+      },
+      {
+       "a": "thin",
+       "b": "ince"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"yeni\"?",
-     "answer": "new",
-     "options": [
-      "new",
-      "thick",
-      "old-fashioned",
-      "ordinary"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"ince\"?",
-     "answer": "thin",
-     "options": [
-      "thin",
-      "short",
-      "traditional",
-      "stylish"
      ]
     }
    ]
@@ -1360,70 +979,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"different\" means \"rahat\".",
+     "answer": false,
+     "explain": "different = farklı"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "casual",
-       "b": "günlük"
+       "a": "different",
+       "b": "farklı"
       },
       {
-       "a": "uncomfortable",
-       "b": "rahatsız"
+       "a": "perfect",
+       "b": "mükemmel"
       },
       {
-       "a": "cool",
-       "b": "havalı"
+       "a": "fancy",
+       "b": "süslü"
       },
       {
-       "a": "good",
-       "b": "iyi"
-      },
-      {
-       "a": "great",
-       "b": "harika"
+       "a": "comfortable",
+       "b": "rahat"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"farklı\"?",
-     "answer": "different",
-     "options": [
-      "different",
-      "uncomfortable",
-      "perfect",
-      "fancy"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"aynı\"?",
-     "answer": "same",
-     "options": [
-      "same",
-      "good",
-      "perfect",
-      "uncomfortable"
      ]
     }
    ]
@@ -1487,32 +1072,24 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "cotton",
-       "b": "pamuk"
+       "a": "silver",
+       "b": "gümüş"
       },
       {
-       "a": "gold",
-       "b": "altın"
+       "a": "bright",
+       "b": "parlak"
       },
       {
-       "a": "soft",
-       "b": "yumuşak"
-      },
-      {
-       "a": "silk",
-       "b": "ipek"
+       "a": "wool",
+       "b": "yün"
       },
       {
        "a": "clean",
@@ -1521,37 +1098,10 @@
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"altın\"?",
-     "answer": "gold",
-     "options": [
-      "gold",
-      "silver",
-      "bright",
-      "cotton"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"gümüş\"?",
-     "answer": "silver",
-     "options": [
-      "silver",
-      "bright",
-      "cotton",
-      "colourful"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "gümüş",
+     "answer": "silver"
     }
    ]
   },
@@ -1590,13 +1140,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Clothes Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Clothes Verbs",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "I wear trendy clothes. — Modaya uygun kıyafetler satın alırım.",
+     "answer": false,
+     "explain": "Correct: I buy trendy clothes."
+    },
     {
      "kind": "fill",
      "text": "I ___ a thick coat in winter.",
@@ -1608,47 +1161,6 @@
       "own"
      ],
      "tr": "Kışın kalın bir mont giyerim."
-    },
-    {
-     "kind": "fill",
-     "text": "I ___ trendy clothes.",
-     "answer": "buy",
-     "options": [
-      "buy",
-      "wear",
-      "need",
-      "own"
-     ],
-     "tr": "Modaya uygun kıyafetler satın alırım."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Clothes Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "I ___ new shoes.",
-     "answer": "need",
-     "options": [
-      "need",
-      "wear",
-      "buy",
-      "own"
-     ],
-     "tr": "Yeni ayakkabılara ihtiyacım var."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "I own silver earrings.",
-     "tr": "Gümüş küpelere sahibim."
     }
    ]
   },
@@ -1709,20 +1221,22 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Daily Routines",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Daily Routines",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kitap okumak",
+     "answer": "read a book"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "play computer games",
-       "b": "bilgisayar oyunu oynamak"
+       "a": "listen to music",
+       "b": "müzik dinlemek"
       },
       {
        "a": "read a book",
@@ -1733,61 +1247,9 @@
        "b": "arkadaşlarla buluşmak"
       },
       {
-       "a": "watch videos",
-       "b": "video izlemek"
-      },
-      {
-       "a": "listen to music",
-       "b": "müzik dinlemek"
+       "a": "watch TV",
+       "b": "televizyon izlemek"
       }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p04-02.png",
-     "answer": "read a magazine",
-     "tr": "dergi okumak",
-     "options": [
-      "read a magazine",
-      "watch fashion shows",
-      "watch videos",
-      "watch TV"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Daily Routines",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p04-01.png",
-     "answer": "read a book",
-     "tr": "kitap okumak",
-     "options": [
-      "read a book",
-      "read a magazine",
-      "watch fashion shows",
-      "watch videos"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"bilgisayar oyunu oynamak\"?",
-     "answer": "play computer games",
-     "options": [
-      "play computer games",
-      "watch videos",
-      "watch fashion shows",
-      "read a magazine"
      ]
     }
    ]
@@ -1849,86 +1311,28 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Daily Routines",
-   "part": [
-    1,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "draw pictures",
-       "b": "resim çizmek"
-      },
-      {
-       "a": "go for a walk",
-       "b": "yürüyüşe gitmek"
-      },
-      {
-       "a": "go to the park",
-       "b": "parka gitmek"
-      },
-      {
-       "a": "play chess",
-       "b": "satranç oynamak"
-      },
-      {
-       "a": "go out",
-       "b": "dışarı gitmek"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p04-11.png",
-     "answer": "go for a walk",
-     "tr": "yürüyüşe gitmek",
-     "options": [
-      "go for a walk",
-      "go out",
-      "go jogging",
-      "draw pictures"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Daily Routines",
-   "part": [
-    2,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Daily Routines",
    "tasks": [
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "p04-16.png",
-     "answer": "travel around the world",
-     "tr": "dünyayı gezmek",
+     "q": "Which word matches the picture?",
+     "img": "p04-14.png",
+     "answer": "go shopping",
+     "tr": "alışverişe gitmek",
      "options": [
-      "travel around the world",
       "go shopping",
+      "go jogging",
       "go out",
-      "go for a walk"
+      "go to the park"
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"dışarı gitmek\"?",
-     "answer": "go out",
-     "options": [
-      "go out",
-      "go to the park",
-      "travel around the world",
-      "go shopping"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"go shopping\" means \"yürüyüşe gitmek\".",
+     "answer": false,
+     "explain": "go shopping = alışverişe gitmek"
     }
    ]
   },
@@ -1964,13 +1368,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Time Expressions",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Time Expressions",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "every day / week / month / year — her gün / hafta / ay / yıl",
+     "answer": true,
+     "explain": "Correct: every day / week / month / year"
+    },
     {
      "kind": "fill",
      "text": "___ day / week / month / year",
@@ -1982,47 +1389,6 @@
       "at"
      ],
      "tr": "her gün / hafta / ay / yıl"
-    },
-    {
-     "kind": "fill",
-     "text": "___ January, in winter, in the morning",
-     "answer": "in",
-     "options": [
-      "in",
-      "every",
-      "on",
-      "at"
-     ],
-     "tr": "Ocak ayı, kışın, sabah"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Time Expressions",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ Sunday, on Friday, on weekdays",
-     "answer": "on",
-     "options": [
-      "on",
-      "every",
-      "in",
-      "at"
-     ],
-     "tr": "Pazar, Cuma, hafta içi"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "on Sunday, on Friday, on weekdays",
-     "tr": "Pazar, Cuma, hafta içi"
     }
    ]
   },
@@ -2064,59 +1430,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Present — Positive",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Simple Present — Positive",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "Çoğu fiil ___ alır:  wear → wears, read → reads",
-     "answer": "-s",
-     "options": [
-      "-s",
-      "-es",
-      "-ies",
-      "has"
-     ],
-     "tr": "1. kural"
-    },
-    {
-     "kind": "fill",
-     "text": "-ss, -sh, -ch, -x, -o ile bitenler ___ alır:  go → goes, watch → watches",
-     "answer": "-es",
-     "options": [
-      "-es",
-      "-s",
-      "-ies",
-      "has"
-     ],
-     "tr": "2. kural"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Present — Positive",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "Sessiz harf + y ile bitenlerde y düşer, ___ gelir:  study → studies, fly → flies",
-     "answer": "-ies",
-     "options": [
-      "-ies",
-      "-s",
-      "-es",
-      "has"
-     ],
-     "tr": "3. kural"
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "have → ___",
+     "answer": "has",
+     "tr": "4. kural"
     },
     {
      "kind": "order",
@@ -2174,12 +1496,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Negative & Question",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Negative & Question",
    "tasks": [
     {
      "kind": "fill",
@@ -2192,41 +1510,6 @@
       "Does"
      ],
      "tr": "Ben Pazar günleri okula gitmem."
-    },
-    {
-     "kind": "fill",
-     "text": "You ___ wear ordinary clothes.",
-     "answer": "don't",
-     "options": [
-      "don't",
-      "doesn't",
-      "Do",
-      "Does"
-     ],
-     "tr": "Sen sıradan kıyafetler giymezsin."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Negative & Question",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "He ___ play chess.",
-     "answer": "doesn't",
-     "options": [
-      "doesn't",
-      "don't",
-      "Do",
-      "Does"
-     ],
-     "tr": "O satranç oynamaz."
     },
     {
      "kind": "order",
@@ -2263,13 +1546,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Question Tags",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Question Tags",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "She doesn't watch TV, don't you? — O televizyon izlemez, değil mi?",
+     "answer": false,
+     "explain": "Correct: She doesn't watch TV, does she?"
+    },
     {
      "kind": "fill",
      "text": "You wear jeans, ___?",
@@ -2281,47 +1567,6 @@
       "does she"
      ],
      "tr": "Sen kot pantolon giyersin, değil mi?"
-    },
-    {
-     "kind": "fill",
-     "text": "She plays the guitar, ___?",
-     "answer": "doesn't she",
-     "options": [
-      "doesn't she",
-      "don't you",
-      "do you",
-      "does she"
-     ],
-     "tr": "O gitar çalar, değil mi?"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Question Tags",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "You don't wear glasses, ___?",
-     "answer": "do you",
-     "options": [
-      "do you",
-      "don't you",
-      "doesn't she",
-      "does she"
-     ],
-     "tr": "Sen gözlük takmazsın, değil mi?"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "She doesn't watch TV, does she?",
-     "tr": "O televizyon izlemez, değil mi?"
     }
    ]
   },
@@ -2364,25 +1609,13 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adverbs of Frequency",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adverbs of Frequency",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
-      {
-       "a": "sometimes",
-       "b": "bazen"
-      },
-      {
-       "a": "always",
-       "b": "her zaman"
-      },
       {
        "a": "usually",
        "b": "genellikle"
@@ -2392,43 +1625,20 @@
        "b": "hiçbir zaman"
       },
       {
+       "a": "often",
+       "b": "sık sık"
+      },
+      {
        "a": "rarely",
        "b": "nadiren"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"nadiren\"?",
-     "answer": "rarely",
-     "options": [
-      "rarely",
-      "often",
-      "sometimes",
-      "always"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adverbs of Frequency",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"genellikle\"?",
-     "answer": "usually",
-     "options": [
-      "usually",
-      "always",
-      "rarely",
-      "never"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "sık sık",
+     "answer": "often"
     }
    ]
   },
@@ -2484,6 +1694,19 @@
        "text": "Onlar hiçbir zaman defile izlemez."
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · How often ...?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Daniel: How often do you read a book?",
+     "answer": "Ryan: I often read a book."
     }
    ]
   },

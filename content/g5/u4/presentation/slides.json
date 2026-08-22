@@ -95,12 +95,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Family Members",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Family Members",
    "tasks": [
     {
      "kind": "match",
@@ -121,59 +117,20 @@
       {
        "a": "aunt",
        "b": "hala / teyze"
-      },
-      {
-       "a": "grandmother",
-       "b": "büyükanne"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-01.png",
-     "answer": "grandfather",
-     "tr": "büyükbaba",
+     "q": "Which word matches the picture?",
+     "img": "p01-04.png",
+     "answer": "mother / mum",
+     "tr": "anne",
      "options": [
-      "grandfather",
-      "daughter",
-      "sister",
-      "aunt"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Family Members",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-05.png",
-     "answer": "uncle",
-     "tr": "amca / dayı",
-     "options": [
-      "uncle",
-      "grandfather",
-      "father / dad",
-      "grandmother"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"büyükbaba\"?",
-     "answer": "grandfather",
-     "options": [
-      "grandfather",
       "mother / mum",
+      "grandfather",
       "aunt",
-      "father / dad"
+      "sister"
      ]
     }
    ]
@@ -259,85 +216,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Daily Routines (1)",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Daily Routines (1)",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "wake up",
-       "b": "uyanmak"
-      },
-      {
-       "a": "brush teeth",
-       "b": "dişleri fırçalamak"
-      },
-      {
-       "a": "go to school",
-       "b": "okula gitmek"
-      },
-      {
-       "a": "get up",
-       "b": "kalkmak"
-      },
-      {
-       "a": "study",
-       "b": "ders çalışmak"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-14.png",
-     "answer": "brush teeth",
-     "tr": "dişleri fırçalamak",
-     "options": [
-      "brush teeth",
-      "have breakfast",
-      "wake up",
-      "wash hands"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Daily Routines (1)",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-19.png",
-     "answer": "get dressed",
-     "tr": "giyinmek",
-     "options": [
-      "get dressed",
-      "wash face",
-      "take a shower",
-      "have breakfast"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"have breakfast\" means \"yüzü yıkamak\".",
+     "answer": false,
+     "explain": "have breakfast = kahvaltı yapmak"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"saçları taramak\"?",
-     "answer": "comb hair",
+     "q": "Which word means \"uyanmak\"?",
+     "answer": "wake up",
      "options": [
-      "comb hair",
-      "have lunch",
-      "get up",
-      "get dressed"
+      "wake up",
+      "wash hands",
+      "study",
+      "brush teeth"
      ]
     }
    ]
@@ -399,85 +296,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Daily Routines (2)",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Daily Routines (2)",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "yatmak",
+     "answer": "go to bed"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "take care of the pet",
-       "b": "evcil hayvanla ilgilenmek"
-      },
-      {
-       "a": "tidy up the house",
-       "b": "evi toparlamak"
-      },
-      {
-       "a": "watch TV",
-       "b": "televizyon izlemek"
+       "a": "do homework",
+       "b": "ödev yapmak"
       },
       {
        "a": "sleep",
        "b": "uyumak"
       },
       {
-       "a": "do homework",
-       "b": "ödev yapmak"
+       "a": "take care of the pet",
+       "b": "evcil hayvanla ilgilenmek"
+      },
+      {
+       "a": "rest / relax",
+       "b": "dinlenmek"
       }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-04.png",
-     "answer": "take care of the pet",
-     "tr": "evcil hayvanla ilgilenmek",
-     "options": [
-      "take care of the pet",
-      "have dinner",
-      "watch TV",
-      "do homework"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Daily Routines (2)",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-01.png",
-     "answer": "have dinner",
-     "tr": "akşam yemeği yemek",
-     "options": [
-      "have dinner",
-      "sleep",
-      "tidy up the house",
-      "take care of the pet"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"yatmak\"?",
-     "answer": "go to bed",
-     "options": [
-      "go to bed",
-      "have dinner",
-      "tidy up the house",
-      "do homework"
      ]
     }
    ]
@@ -551,86 +398,28 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Hobbies and Activities",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Hobbies and Activities",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "play a board game",
-       "b": "kutu oyunu oynamak"
-      },
-      {
-       "a": "ride a bicycle / cycle",
-       "b": "bisiklete binmek"
-      },
-      {
-       "a": "go to the beach",
-       "b": "plaja gitmek"
-      },
-      {
-       "a": "play computer games",
-       "b": "bilgisayar oyunu oynamak"
-      },
-      {
-       "a": "play the piano",
-       "b": "piyano çalmak"
-      }
-     ]
-    },
-    {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-10.png",
-     "answer": "have a barbecue",
-     "tr": "mangal yapmak",
+     "q": "Which word matches the picture?",
+     "img": "p02-12.png",
+     "answer": "ride a scooter",
+     "tr": "skutere binmek",
      "options": [
-      "have a barbecue",
-      "play the piano",
+      "ride a scooter",
+      "play computer games",
       "go on holiday",
-      "play the guitar"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Hobbies and Activities",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-13.png",
-     "answer": "play a board game",
-     "tr": "kutu oyunu oynamak",
-     "options": [
-      "play a board game",
-      "play the piano",
-      "have a barbecue",
-      "ride a scooter"
+      "have a barbecue"
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"kutu oyunu oynamak\"?",
-     "answer": "play a board game",
-     "options": [
-      "play a board game",
-      "play the piano",
-      "ride a bicycle / cycle",
-      "go to the beach"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"have a barbecue\" means \"bisiklete binmek\".",
+     "answer": false,
+     "explain": "have a barbecue = mangal yapmak"
     }
    ]
   },
@@ -703,84 +492,41 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Hobbies and Activities",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Hobbies and Activities",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "visit a museum",
-       "b": "müzeyi ziyaret etmek"
-      },
-      {
-       "a": "dance",
-       "b": "dans etmek"
+       "a": "cook",
+       "b": "yemek pişirmek"
       },
       {
        "a": "stay in a tent",
        "b": "çadırda kalmak"
       },
       {
-       "a": "take a photograph",
-       "b": "fotoğraf çekmek"
+       "a": "visit a museum",
+       "b": "müzeyi ziyaret etmek"
       },
       {
-       "a": "swim",
-       "b": "yüzmek"
+       "a": "play golf",
+       "b": "golf oynamak"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-19.png",
-     "answer": "visit a museum",
-     "tr": "müzeyi ziyaret etmek",
+     "q": "Which word matches the picture?",
+     "img": "p02-21.png",
+     "answer": "camp in the forest",
+     "tr": "ormanda kamp yapmak",
      "options": [
-      "visit a museum",
-      "take a photograph",
-      "fish",
-      "swim"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Hobbies and Activities",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p02-27.png",
-     "answer": "fish",
-     "tr": "balık tutmak",
-     "options": [
-      "fish",
-      "cook",
+      "camp in the forest",
       "have a party",
-      "play golf"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"müzeyi ziyaret etmek\"?",
-     "answer": "visit a museum",
-     "options": [
       "visit a museum",
-      "take a photograph",
-      "cook",
       "stay in a tent"
      ]
     }
@@ -821,59 +567,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Present Continuous — -ing",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Present Continuous — -ing",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "\"e\" ile biten fiillerde e düşer:  ride → ___",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "\"e\" ile biten fiillerde e düşer:  ride → ___",
      "answer": "riding",
-     "options": [
-      "riding",
-      "running",
-      "am watching",
-      "is sleeping"
-     ],
      "tr": "1. kural"
-    },
-    {
-     "kind": "fill",
-     "text": "Sessiz–sesli–sessiz ile bitenlerde son harf çiftlenir:  run → ___",
-     "answer": "running",
-     "options": [
-      "running",
-      "riding",
-      "am watching",
-      "is sleeping"
-     ],
-     "tr": "2. kural"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Present Continuous — -ing",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "I ___ TV now.",
-     "answer": "am watching",
-     "options": [
-      "am watching",
-      "riding",
-      "running",
-      "is sleeping"
-     ],
-     "tr": "Ben şimdi televizyon izliyorum."
     },
     {
      "kind": "order",
@@ -925,12 +627,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Negative & Question",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Negative & Question",
    "tasks": [
     {
      "kind": "fill",
@@ -943,41 +641,6 @@
       "Are"
      ],
      "tr": "Ödev yapmıyorum."
-    },
-    {
-     "kind": "fill",
-     "text": "She ___ cooking now.",
-     "answer": "isn't",
-     "options": [
-      "isn't",
-      "am not",
-      "aren't",
-      "Are"
-     ],
-     "tr": "O şimdi yemek pişirmiyor."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Negative & Question",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "You ___ playing the guitar.",
-     "answer": "aren't",
-     "options": [
-      "aren't",
-      "am not",
-      "isn't",
-      "Are"
-     ],
-     "tr": "Gitar çalmıyorsun."
     },
     {
      "kind": "order",
@@ -1013,13 +676,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Question Tags",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Question Tags",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "She isn't fishing, aren't you? — O balık tutmuyor, değil mi?",
+     "answer": false,
+     "explain": "Correct: She isn't fishing, is she?"
+    },
     {
      "kind": "fill",
      "text": "You are having a picnic, ___?",
@@ -1031,47 +697,6 @@
       "is she"
      ],
      "tr": "Sen piknik yapıyorsun, değil mi?"
-    },
-    {
-     "kind": "fill",
-     "text": "She is going to school, ___?",
-     "answer": "isn't she",
-     "options": [
-      "isn't she",
-      "aren't you",
-      "are you",
-      "is she"
-     ],
-     "tr": "O okula gidiyor, değil mi?"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Question Tags",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "You aren't playing golf, ___?",
-     "answer": "are you",
-     "options": [
-      "are you",
-      "aren't you",
-      "isn't she",
-      "is she"
-     ],
-     "tr": "Sen golf oynamıyorsun, değil mi?"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "She isn't fishing, is she?",
-     "tr": "O balık tutmuyor, değil mi?"
     }
    ]
   },
@@ -1122,58 +747,14 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Present vs Present Continuous",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Simple Present vs Present Continuous",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "I go to school ___.",
-     "answer": "every day",
-     "options": [
-      "every day",
-      "in the mornings",
-      "in the evenings",
-      "now"
-     ],
-     "tr": "Ben her gün okula giderim."
-    },
-    {
-     "kind": "fill",
-     "text": "She brushes her teeth ___.",
-     "answer": "in the mornings",
-     "options": [
-      "in the mornings",
-      "every day",
-      "in the evenings",
-      "now"
-     ],
-     "tr": "O sabahları dişlerini fırçalar."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Present vs Present Continuous",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "We watch TV ___.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "We watch TV ___.",
      "answer": "in the evenings",
-     "options": [
-      "in the evenings",
-      "every day",
-      "in the mornings",
-      "now"
-     ],
      "tr": "Biz akşamları televizyon izleriz."
     },
     {

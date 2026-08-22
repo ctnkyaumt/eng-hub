@@ -91,12 +91,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Places for Recreation & Attractions",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Places for Recreation & Attractions",
    "tasks": [
     {
      "kind": "match",
@@ -117,59 +113,20 @@
       {
        "a": "art gallery",
        "b": "sanat galerisi"
-      },
-      {
-       "a": "castle",
-       "b": "kale"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-04.png",
-     "answer": "cinema",
-     "tr": "sinema",
+     "q": "Which word matches the picture?",
+     "img": "p01-06.png",
+     "answer": "corner",
+     "tr": "köşe",
      "options": [
-      "cinema",
-      "mosque",
-      "hall",
-      "art gallery"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Places for Recreation & Attractions",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-02.png",
-     "answer": "art gallery",
-     "tr": "sanat galerisi",
-     "options": [
-      "art gallery",
-      "forest",
       "corner",
-      "castle"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"cami\"?",
-     "answer": "mosque",
-     "options": [
-      "mosque",
-      "hall",
       "cinema",
-      "gym"
+      "art gallery",
+      "forest"
      ]
     }
    ]
@@ -243,85 +200,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Places for Recreation & Attractions",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Places for Recreation & Attractions",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "town",
-       "b": "kasaba"
-      },
-      {
-       "a": "tower",
-       "b": "kule"
-      },
-      {
-       "a": "playground",
-       "b": "oyun alanı"
-      },
-      {
-       "a": "zoo",
-       "b": "hayvanat bahçesi"
-      },
-      {
-       "a": "street fair",
-       "b": "sokak panayırı"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-18.png",
-     "answer": "tower",
-     "tr": "kule",
-     "options": [
-      "tower",
-      "playground",
-      "sports centre",
-      "street fair"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Places for Recreation & Attractions",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p01-14.png",
-     "answer": "skyscraper",
-     "tr": "gökdelen",
-     "options": [
-      "skyscraper",
-      "tower",
-      "square",
-      "playground"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"playground\" means \"spor merkezi\".",
+     "answer": false,
+     "explain": "playground = oyun alanı"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"hayvanat bahçesi\"?",
-     "answer": "zoo",
+     "q": "Which word means \"dükkan\"?",
+     "answer": "shop / store",
      "options": [
-      "zoo",
-      "street fair",
-      "museum",
-      "tower"
+      "shop / store",
+      "town",
+      "sports centre",
+      "museum"
      ]
     }
    ]
@@ -385,70 +282,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "rehberlik etmek",
+     "answer": "guide"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "experience",
-       "b": "deneyimlemek"
+       "a": "take a photo",
+       "b": "fotoğraf çekmek"
       },
       {
-       "a": "hire / rent",
-       "b": "kiralamak"
-      },
-      {
-       "a": "cycle",
-       "b": "bisiklete binmek"
-      },
-      {
-       "a": "fish",
-       "b": "balık tutmak"
+       "a": "joke",
+       "b": "şaka yapmak"
       },
       {
        "a": "attend",
        "b": "katılmak"
+      },
+      {
+       "a": "jump",
+       "b": "zıplamak"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"tur atmak\"?",
-     "answer": "take a tour",
-     "options": [
-      "take a tour",
-      "experience",
-      "fish",
-      "guide"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"katılmak\"?",
-     "answer": "attend",
-     "options": [
-      "attend",
-      "fish",
-      "guide",
-      "jump"
      ]
     }
    ]
@@ -512,70 +374,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"ancient\" means \"ünlü\".",
+     "answer": false,
+     "explain": "ancient = antik, çok eski"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "peaceful",
-       "b": "huzurlu"
-      },
-      {
-       "a": "close",
-       "b": "yakın"
+       "a": "crowded",
+       "b": "kalabalık"
       },
       {
        "a": "historical",
        "b": "tarihi"
       },
       {
-       "a": "ancient",
-       "b": "antik, çok eski"
+       "a": "traditional",
+       "b": "geleneksel"
       },
       {
-       "a": "crowded",
-       "b": "kalabalık"
+       "a": "modern",
+       "b": "modern"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"tarihi\"?",
-     "answer": "historical",
-     "options": [
-      "historical",
-      "eco-friendly",
-      "local",
-      "modern"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"ünlü\"?",
-     "answer": "famous",
-     "options": [
-      "famous",
-      "historical",
-      "local",
-      "eco-friendly"
      ]
     }
    ]
@@ -639,25 +467,13 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
-      {
-       "a": "top",
-       "b": "üst"
-      },
-      {
-       "a": "quiet",
-       "b": "sessiz"
-      },
       {
        "a": "social",
        "b": "sosyal"
@@ -667,43 +483,20 @@
        "b": "hafif"
       },
       {
+       "a": "top",
+       "b": "üst"
+      },
+      {
        "a": "bottom",
        "b": "alt"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"hafif\"?",
-     "answer": "light",
-     "options": [
-      "light",
-      "bottom",
-      "bright",
-      "quiet"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"parlak\"?",
-     "answer": "bright",
-     "options": [
-      "bright",
-      "wide",
-      "bottom",
-      "heavy"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "parlak",
+     "answer": "bright"
     }
    ]
   },
@@ -766,38 +559,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "metal",
-       "b": "metal"
-      },
-      {
-       "a": "handmade",
-       "b": "el yapımı"
-      },
-      {
-       "a": "steel",
-       "b": "çelik"
-      },
-      {
-       "a": "small",
-       "b": "küçük"
-      },
-      {
-       "a": "cold",
-       "b": "soğuk"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"big\" means \"metal\".",
+     "answer": false,
+     "explain": "big = büyük"
     },
     {
      "kind": "choose",
@@ -805,31 +575,9 @@
      "answer": "wooden",
      "options": [
       "wooden",
-      "steel",
-      "hot",
+      "small",
+      "plastic",
       "cold"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"el yapımı\"?",
-     "answer": "handmade",
-     "options": [
-      "handmade",
-      "steel",
-      "cold",
-      "metal"
      ]
     }
    ]
@@ -893,17 +641,27 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Parts of a House",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Parts of a House",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "banyo",
+     "answer": "bathroom"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
+      {
+       "a": "sitting / living room",
+       "b": "oturma odası"
+      },
+      {
+       "a": "bedroom",
+       "b": "yatak odası"
+      },
       {
        "a": "bathroom",
        "b": "banyo"
@@ -911,52 +669,7 @@
       {
        "a": "dining room",
        "b": "yemek odası"
-      },
-      {
-       "a": "toilet",
-       "b": "tuvalet"
-      },
-      {
-       "a": "bedroom",
-       "b": "yatak odası"
-      },
-      {
-       "a": "kitchen",
-       "b": "mutfak"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"tuvalet\"?",
-     "answer": "toilet",
-     "options": [
-      "toilet",
-      "bedroom",
-      "kitchen",
-      "flat / apartment"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Parts of a House",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"yemek odası\"?",
-     "answer": "dining room",
-     "options": [
-      "dining room",
-      "bathroom",
-      "flat / apartment",
-      "garden"
      ]
     }
    ]
@@ -1020,70 +733,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Parts of a House",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Parts of a House",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"corridor / hallway\" means \"teras\".",
+     "answer": false,
+     "explain": "corridor / hallway = koridor"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "terrace",
-       "b": "teras"
+       "a": "floor",
+       "b": "kat / zemin"
       },
       {
-       "a": "roof",
-       "b": "çatı"
+       "a": "terrace",
+       "b": "teras"
       },
       {
        "a": "stairs",
        "b": "merdiven"
       },
       {
-       "a": "door",
-       "b": "kapı"
-      },
-      {
-       "a": "lift / elevator",
-       "b": "asansör"
+       "a": "wall",
+       "b": "duvar"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"kapı\"?",
-     "answer": "door",
-     "options": [
-      "door",
-      "roof",
-      "floor",
-      "ground"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Parts of a House",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"pencere\"?",
-     "answer": "window",
-     "options": [
-      "window",
-      "wall",
-      "ground",
-      "corridor / hallway"
      ]
     }
    ]
@@ -1147,71 +826,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Furniture & Kitchen Utensils",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "wardrobe",
-       "b": "giysi dolabı"
+       "a": "bed",
+       "b": "yatak"
       },
       {
-       "a": "chair",
-       "b": "sandalye"
+       "a": "table",
+       "b": "masa"
       },
       {
-       "a": "bath",
-       "b": "küvet"
+       "a": "bookcase",
+       "b": "kitaplık"
       },
       {
        "a": "armchair",
        "b": "koltuk"
-      },
-      {
-       "a": "cupboard",
-       "b": "mutfak dolabı"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"koltuk\"?",
-     "answer": "armchair",
-     "options": [
-      "armchair",
-      "wardrobe",
-      "bath",
-      "bookcase"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Furniture & Kitchen Utensils",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"sandalye\"?",
-     "answer": "chair",
-     "options": [
-      "chair",
-      "bookcase",
-      "table",
-      "wardrobe"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "giysi dolabı",
+     "answer": "wardrobe"
     }
    ]
   },
@@ -1274,70 +918,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Furniture & Kitchen Utensils",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "oven",
-       "b": "fırın"
-      },
-      {
-       "a": "fork",
-       "b": "çatal"
-      },
-      {
-       "a": "knife",
-       "b": "bıçak"
-      },
-      {
-       "a": "plate",
-       "b": "tabak"
-      },
-      {
-       "a": "fridge",
-       "b": "buzdolabı"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"fridge\" means \"ocak\".",
+     "answer": false,
+     "explain": "fridge = buzdolabı"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"fırın\"?",
-     "answer": "oven",
+     "q": "Which word means \"tabak\"?",
+     "answer": "plate",
      "options": [
-      "oven",
+      "plate",
       "stove",
-      "knife",
-      "rubbish bin"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Furniture & Kitchen Utensils",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"bıçak\"?",
-     "answer": "knife",
-     "options": [
-      "knife",
-      "rubbish bin",
-      "spoon",
-      "shelf"
+      "shelf",
+      "fridge"
      ]
     }
    ]
@@ -1387,13 +986,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "There is / There are",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · There is / There are",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "There aren't two beds in the bedroom. — Yatak odasında iki yatak yok.",
+     "answer": true,
+     "explain": "Correct: There aren't two beds in the bedroom."
+    },
     {
      "kind": "fill",
      "text": "___ a wide sofa in the living room.",
@@ -1405,47 +1007,6 @@
       "There isn't"
      ],
      "tr": "Oturma odasında geniş bir kanepe var."
-    },
-    {
-     "kind": "fill",
-     "text": "___ two fridges in the kitchen.",
-     "answer": "There are",
-     "options": [
-      "There are",
-      "There is",
-      "Is there",
-      "There isn't"
-     ],
-     "tr": "Mutfakta iki buzdolabı var."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "There is / There are",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ an elevator in your apartment?",
-     "answer": "Is there",
-     "options": [
-      "Is there",
-      "There is",
-      "There are",
-      "There isn't"
-     ],
-     "tr": "Sizin apartmanınızda bir asansör var mı?"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Are there seven chairs in the kitchen?",
-     "tr": "Mutfakta yedi sandalye var mı?"
     }
    ]
   },
@@ -1475,53 +1036,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Possessive 's",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Possessive 's",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "This is Emre___ armchair.",
-     "answer": "'s",
-     "options": [
-      "'s",
-      "'"
-     ],
-     "tr": "Bu Emre'nin koltuğu."
-    },
-    {
-     "kind": "fill",
-     "text": "This is Damla___ bookcase.",
-     "answer": "'s",
-     "options": [
-      "'s",
-      "'"
-     ],
-     "tr": "Bu Damla'nın kitaplığı."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Possessive 's",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "The teachers___ cars are in the garden.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "This is my parents___ bedroom.",
      "answer": "'",
-     "options": [
-      "'",
-      "'s"
-     ],
-     "tr": "Öğretmenlerin arabaları bahçede."
+     "tr": "Bu anne-babamın yatak odası."
     },
     {
      "kind": "order",
@@ -1611,6 +1134,19 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Whose ...?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Dave: Whose bicycle is it?",
+     "answer": "Tyler: It is Sally's bicycle."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Simple Present",
    "titleTr": "Geniş zaman tekrarı",
@@ -1651,13 +1187,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Present",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Simple Present",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "go Mert go to the gym? — No, he doesn't. — Mert spor salonuna gider mi? — Hayır.",
+     "answer": false,
+     "explain": "Correct: Does Mert go to the gym? — No, he doesn't."
+    },
     {
      "kind": "fill",
      "text": "I ___ to the playground every day.",
@@ -1669,47 +1208,6 @@
       "don't"
      ],
      "tr": "Her gün oyun alanına giderim."
-    },
-    {
-     "kind": "fill",
-     "text": "He ___ in the lake.",
-     "answer": "fishes",
-     "options": [
-      "fishes",
-      "go",
-      "goes",
-      "don't"
-     ],
-     "tr": "O gölde balık tutar."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Present",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "She ___ to Paris in summer.",
-     "answer": "goes",
-     "options": [
-      "goes",
-      "go",
-      "fishes",
-      "don't"
-     ],
-     "tr": "O yazın Paris'e gider."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "She doesn't go to the cinema.",
-     "tr": "O sinemaya gitmez."
     }
    ]
   },
@@ -1764,59 +1262,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Comparative Adjectives",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Comparative Adjectives",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "small → small___",
-     "answer": "er",
-     "options": [
-      "er",
-      "r",
-      "ger",
-      "ier"
-     ],
-     "tr": "tek heceli"
-    },
-    {
-     "kind": "fill",
-     "text": "wide → wide___",
-     "answer": "r",
-     "options": [
-      "r",
-      "er",
-      "ger",
-      "ier"
-     ],
-     "tr": "e ile biten"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Comparative Adjectives",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "big → big___",
-     "answer": "ger",
-     "options": [
-      "ger",
-      "er",
-      "r",
-      "ier"
-     ],
-     "tr": "sessiz-sesli-sessiz"
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "crowded → ___ crowded",
+     "answer": "more",
+     "tr": "iki+ heceli"
     },
     {
      "kind": "order",

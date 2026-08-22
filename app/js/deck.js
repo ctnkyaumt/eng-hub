@@ -87,7 +87,7 @@ export async function startDeck(gid, uid, screen) {
       markerSlot,
       el("button", { class: "tb-btn", title: "Düzenle (E)", text: "✏️", onclick: toggleEdit }),
       el("button", { class: "tb-btn", title: "Tam ekran (F)", text: "⛶", onclick: toggleFull }),
-      el("button", { class: "tb-btn", title: "Kapat (Esc)", text: "✕", onclick: close }),
+      el("button", { class: "tb-btn", title: "Kapat (Esc)", text: "✕", onclick: () => close() }),
     ]),
     editSlot,
     el("div", { class: "deck-progress" }, [bar]),
@@ -150,20 +150,24 @@ export async function startDeck(gid, uid, screen) {
     stepbar.classList.toggle("done", step >= steps.length);
   }
 
-  /** Scale the slide to the window: small slides grow, crowded ones shrink
-   *  (down to 55%, after which the stage scrolls instead). */
+  /** Keep slides readable first, then fit them to the available classroom
+   *  viewport. Very tall slides scroll instead of shrinking into fine print. */
   function fit() {
     const node = ctx.slideNode;
     if (!node) return;
     node.style.transform = "none";
     wrap.style.height = "";
-    const pad = 2 * parseFloat(getComputedStyle(wrap).paddingTop);
+    const css = getComputedStyle(wrap);
+    const padH = parseFloat(css.paddingTop) + parseFloat(css.paddingBottom);
+    const padW = parseFloat(css.paddingLeft) + parseFloat(css.paddingRight);
     // 2px of slack keeps a rounding error from summoning a scrollbar
-    const availH = stage.clientHeight - pad - 2;
-    const availW = stage.clientWidth - pad - 2;
+    const availH = stage.clientHeight - padH - 2;
+    const availW = stage.clientWidth - padW - 2;
     const h = node.offsetHeight, w = node.offsetWidth;
     if (!h || !w) return;
-    const k = Math.max(0.55, Math.min(1.8, availH / h, availW / w));
+    const minFit = node.classList.contains("exercise-slide") ? 0.82 : 0.76;
+    const maxFit = node.classList.contains("title-slide") ? 1 : 1.08;
+    const k = Math.max(minFit, Math.min(maxFit, availH / h, availW / w));
     node.style.transform = `scale(${k})`;
     wrap.style.height = h * k + "px";
   }
@@ -185,11 +189,19 @@ export async function startDeck(gid, uid, screen) {
     else deck.requestFullscreen?.();
   }
 
-  function close() {
+  let closed = false;
+  function close(navigate = true) {
+    if (closed) return;
+    closed = true;
     document.removeEventListener("keydown", onKey);
     window.removeEventListener("resize", fit);
+    window.removeEventListener("hashchange", onRouteChange);
     deck.remove();
-    if (!mirrorList.length) location.hash = `#/${gid}/${uid}`;
+    if (navigate && !mirrorList.length) location.hash = `#/${gid}/${uid}`;
+  }
+
+  function onRouteChange() {
+    if (location.hash !== `#/${gid}/${uid}/sunum`) close(false);
   }
 
   let editor = null;
@@ -214,6 +226,7 @@ export async function startDeck(gid, uid, screen) {
     else if (e.key === "m" || e.key === "M") marker.toggleMenu();
   }
   document.addEventListener("keydown", onKey);
+  window.addEventListener("hashchange", onRouteChange);
 
   show(0);
 }
@@ -310,18 +323,52 @@ function vcardMedia(v, ctx) {
   return v.emoji ? el("span", { class: "ic", text: v.emoji }) : null;
 }
 
+/** Use only pictures already attached to reviewed vocabulary cards. This keeps
+ *  the unit cover specific without guessing at new word/image matches. */
+function unitPictures(ctx, limit = 3) {
+  const seen = new Set();
+  const out = [];
+  for (const slide of ctx.data.slides || []) {
+    if (slide.type !== "vocab") continue;
+    for (const item of slide.items || []) {
+      if (!item.img || seen.has(item.img)) continue;
+      seen.add(item.img);
+      out.push({ src: imgUrl(item.img, ctx), alt: item.en || "" });
+      if (out.length >= limit) return out;
+    }
+  }
+  return out;
+}
+
+function titleVisual(s, ctx) {
+  if (s.cover) {
+    return el("div", { class: "unit-visual" }, [
+      el("img", { class: "cover", src: imgUrl(s.cover, ctx), alt: "" }),
+    ]);
+  }
+  const pictures = unitPictures(ctx);
+  if (pictures.length) {
+    return el("div", { class: "unit-visual" }, pictures.map((p) =>
+      el("img", { class: "cover-card", src: p.src, alt: p.alt })
+    ));
+  }
+  return el("div", { class: "big-emoji", text: s.emoji || ctx.data.emoji || "📘" });
+}
+
 function render(s, ctx) {
   const box = (cls, kids) => el("div", { class: "slide " + (cls || "") }, kids);
 
   switch (s.type) {
     case "title": // shown all at once - it is the cover of the lesson
       return box("title-slide", [
-        s.cover
-          ? el("img", { class: "cover", src: ctx.base + "img/" + s.cover, alt: "" })
-          : el("div", { class: "big-emoji", text: s.emoji || ctx.data.emoji || "📘" }),
-        el("div", { class: "theme-no", text: s.kicker || `THEME ${ctx.unit.no}` }),
-        el("h1", { text: s.title }),
-        el("p", { class: "sub-tr", style: "font-size:clamp(16px,2.4vw,24px)", text: s.titleTr || "" }),
+        el("div", { class: "title-layout" }, [
+          titleVisual(s, ctx),
+          el("div", { class: "title-copy" }, [
+            el("div", { class: "theme-no", text: s.kicker || `THEME ${ctx.unit.no}` }),
+            el("h1", { text: s.title }),
+            el("p", { class: "sub-tr", style: "font-size:clamp(16px,2.4vw,24px)", text: s.titleTr || "" }),
+          ]),
+        ]),
       ]);
 
     case "vocab":
@@ -401,9 +448,9 @@ function render(s, ctx) {
       ]);
 
     case "exercise":
-      return box("", [
+      return box("exercise-slide", [
         ...head(s),
-        el("div", {}, (s.tasks || []).map((t) => {
+        el("div", { class: "exercise-grid" + ((s.tasks || []).length === 1 ? " single" : "") }, (s.tasks || []).map((t) => {
           const n = taskNode(t, ctx);
           n.classList.add("step");
           return n;

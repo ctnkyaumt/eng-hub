@@ -71,12 +71,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Places to Visit",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Places to Visit",
    "tasks": [
     {
      "kind": "match",
@@ -97,59 +93,20 @@
       {
        "a": "countryside",
        "b": "kırsal kesim"
-      },
-      {
-       "a": "bed and breakfast",
-       "b": "pansiyon"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/resort.jpg",
-     "answer": "resort",
-     "tr": "tatil köyü",
-     "options": [
-      "resort",
-      "countryside",
-      "historic site",
-      "attraction"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Places to Visit",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
+     "q": "Which word matches the picture?",
      "img": "/app/img/words/destination.jpg",
      "answer": "destination",
      "tr": "gidilecek yer",
      "options": [
       "destination",
-      "attraction",
-      "resort",
-      "square"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"her şey dahil\"?",
-     "answer": "all-inclusive",
-     "options": [
-      "all-inclusive",
       "countryside",
       "attraction",
-      "historic site"
+      "all-inclusive"
      ]
     }
    ]
@@ -208,85 +165,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Describing Places",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Describing Places",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "rural",
-       "b": "kırsal"
-      },
-      {
-       "a": "cultural",
-       "b": "kültürel"
-      },
-      {
-       "a": "architecture",
-       "b": "mimari"
-      },
-      {
-       "a": "fascinating",
-       "b": "büyüleyici"
-      },
-      {
-       "a": "incredible",
-       "b": "inanılmaz"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/urban.jpg",
-     "answer": "urban",
-     "tr": "kentsel",
-     "options": [
-      "urban",
-      "incredible",
-      "culture",
-      "rural"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Describing Places",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/ancient.jpg",
-     "answer": "ancient",
-     "tr": "antik",
-     "options": [
-      "ancient",
-      "fascinating",
-      "architecture",
-      "incredible"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"urban\" means \"mimari\".",
+     "answer": false,
+     "explain": "urban = kentsel"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"büyüleyici\"?",
-     "answer": "fascinating",
+     "q": "Which word means \"kültür\"?",
+     "answer": "culture",
      "options": [
-      "fascinating",
-      "architecture",
-      "urban",
-      "ancient"
+      "culture",
+      "incredible",
+      "ancient",
+      "cultural"
      ]
     }
    ]
@@ -348,70 +245,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "inanılmaz",
+     "answer": "unbelievable / incredible"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "mysterious",
-       "b": "gizemli"
-      },
-      {
-       "a": "truly",
-       "b": "gerçekten"
-      },
-      {
-       "a": "rich",
-       "b": "zengin"
-      },
-      {
        "a": "visit",
        "b": "ziyaret etmek"
       },
       {
+       "a": "sightseeing",
+       "b": "gezi"
+      },
+      {
        "a": "taste",
        "b": "tadına bakmak"
+      },
+      {
+       "a": "summer",
+       "b": "yaz"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"inanılmaz\"?",
-     "answer": "unbelievable / incredible",
-     "options": [
-      "unbelievable / incredible",
-      "sunbath",
-      "mysterious",
-      "truly"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"gezi\"?",
-     "answer": "sightseeing",
-     "options": [
-      "sightseeing",
-      "rich",
-      "terrible / awful",
-      "summer"
      ]
     }
    ]
@@ -457,17 +319,24 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"hospitable\" means \"rahatlatıcı\".",
+     "answer": false,
+     "explain": "hospitable = misafirperver"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
+      {
+       "a": "rainy",
+       "b": "yağmurlu"
+      },
       {
        "a": "hospitable",
        "b": "misafirperver"
@@ -477,50 +346,9 @@
        "b": "huzurlu"
       },
       {
-       "a": "heritage",
-       "b": "miras"
-      },
-      {
-       "a": "rainy",
-       "b": "yağmurlu"
-      },
-      {
-       "a": "relaxing",
-       "b": "rahatlatıcı"
+       "a": "natural",
+       "b": "doğal"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"doğal\"?",
-     "answer": "natural",
-     "options": [
-      "natural",
-      "palace",
-      "relaxing",
-      "rainy"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"misafirperver\"?",
-     "answer": "hospitable",
-     "options": [
-      "hospitable",
-      "rainy",
-      "palace",
-      "relaxing"
      ]
     }
    ]
@@ -557,13 +385,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Past — Regular",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Simple Past — Regular",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "We visited Cappadocia last summer. — Geçen yaz Kapadokya'yı ziyaret ettik.",
+     "answer": true,
+     "explain": "Correct: We visited Cappadocia last summer."
+    },
     {
      "kind": "fill",
      "text": "We ___ Cappadocia last summer.",
@@ -575,47 +406,6 @@
       "Did"
      ],
      "tr": "Geçen yaz Kapadokya'yı ziyaret ettik."
-    },
-    {
-     "kind": "fill",
-     "text": "They ___ at a lovely hotel.",
-     "answer": "stayed",
-     "options": [
-      "stayed",
-      "visited",
-      "didn't",
-      "Did"
-     ],
-     "tr": "Güzel bir otelde kaldılar."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Past — Regular",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "I ___ like the food there.",
-     "answer": "didn't",
-     "options": [
-      "didn't",
-      "visited",
-      "stayed",
-      "Did"
-     ],
-     "tr": "Oradaki yemekleri sevmedim."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "I didn't like the food there.",
-     "tr": "Oradaki yemekleri sevmedim."
     }
    ]
   },
@@ -653,59 +443,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Past — Irregular",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Simple Past — Irregular",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "We ___ to Antalya by plane.",
-     "answer": "went",
-     "options": [
-      "went",
-      "saw",
-      "took",
-      "ate"
-     ],
-     "tr": "Antalya'ya uçakla gittik."
-    },
-    {
-     "kind": "fill",
-     "text": "I ___ the ancient theatre.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "I ___ the ancient theatre.",
      "answer": "saw",
-     "options": [
-      "saw",
-      "went",
-      "took",
-      "ate"
-     ],
      "tr": "Antik tiyatroyu gördüm."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Past — Irregular",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "She ___ a lot of photographs.",
-     "answer": "took",
-     "options": [
-      "took",
-      "went",
-      "saw",
-      "ate"
-     ],
-     "tr": "Bir sürü fotoğraf çekti."
     },
     {
      "kind": "order",
@@ -755,6 +501,19 @@
        "text": "It was sunny and really hot."
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Talking about a Holiday",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Deniz: Where did you go last summer?",
+     "answer": "Efe: I went to Bodrum with my family."
     }
    ]
   },

@@ -75,12 +75,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Teen Life",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Teen Life",
    "tasks": [
     {
      "kind": "match",
@@ -101,59 +97,20 @@
       {
        "a": "types of music",
        "b": "müzik türleri"
-      },
-      {
-       "a": "relationship",
-       "b": "ilişki"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/concert.jpg",
-     "answer": "concert",
-     "tr": "konser",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/types-of-music.jpg",
+     "answer": "types of music",
+     "tr": "müzik türleri",
      "options": [
-      "concert",
-      "teenager",
+      "types of music",
       "fashion",
-      "trendy"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Teen Life",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/hang-out.jpg",
-     "answer": "hang out",
-     "tr": "takılmak",
-     "options": [
-      "hang out",
-      "teenager",
       "concert",
-      "relationship"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"züppe\"?",
-     "answer": "snob",
-     "options": [
-      "snob",
-      "teenager",
-      "hang out",
-      "relationship"
+      "trendy"
      ]
     }
    ]
@@ -217,70 +174,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Likes & Preferences",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Likes & Preferences",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "relaxing",
-       "b": "rahatlatıcı"
-      },
-      {
-       "a": "prefer",
-       "b": "tercih etmek"
-      },
-      {
-       "a": "loud",
-       "b": "gürültülü"
-      },
-      {
-       "a": "ridiculous",
-       "b": "saçma"
-      },
-      {
-       "a": "terrific",
-       "b": "muhteşem"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"prefer\" means \"etkileyici\".",
+     "answer": false,
+     "explain": "prefer = tercih etmek"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"tavsiye etmek\"?",
-     "answer": "recommend",
+     "q": "Which word means \"tercih etmek\"?",
+     "answer": "prefer",
      "options": [
-      "recommend",
-      "impressive",
       "prefer",
-      "terrific"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Likes & Preferences",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"muhteşem\"?",
-     "answer": "terrific",
-     "options": [
-      "terrific",
-      "unbearable",
-      "serious",
-      "fond of"
+      "fond of",
+      "relaxing",
+      "loud"
      ]
     }
    ]
@@ -342,70 +254,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "spor salonu",
+     "answer": "gym"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "hiking",
-       "b": "doğa yürüyüşü"
-      },
-      {
        "a": "fashionable",
        "b": "modaya uygun"
       },
       {
-       "a": "how often",
-       "b": "ne sıklıkla"
+       "a": "hate",
+       "b": "nefret etmek"
       },
       {
-       "a": "energetic",
-       "b": "enerjik"
+       "a": "hiking",
+       "b": "doğa yürüyüşü"
       },
       {
-       "a": "fast",
-       "b": "hızlı"
+       "a": "follow",
+       "b": "takip etmek"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"enerjik\"?",
-     "answer": "energetic",
-     "options": [
-      "energetic",
-      "hate",
-      "folk music",
-      "hiking"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"halk müziği\"?",
-     "answer": "folk music",
-     "options": [
-      "folk music",
-      "free time",
-      "fast",
-      "form"
      ]
     }
    ]
@@ -452,84 +329,28 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "fantasy",
-       "b": "hayal ürünü"
-      },
-      {
-       "a": "come over",
-       "b": "uğramak, ziyaret etmek"
-      },
-      {
-       "a": "enjoy",
-       "b": "sevmek, hoşlanmak"
-      },
-      {
-       "a": "fascinating",
-       "b": "büyüleyici"
-      },
-      {
-       "a": "exercise",
-       "b": "egzersiz"
-      }
-     ]
-    },
-    {
      "kind": "picture",
-     "q": "What is this?",
+     "q": "Which word matches the picture?",
      "img": "/app/img/words/come-over.jpg",
      "answer": "come over",
      "tr": "uğramak, ziyaret etmek",
      "options": [
       "come over",
-      "exercise",
-      "enjoy",
-      "enjoyable"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"egzersiz\"?",
-     "answer": "exercise",
-     "options": [
-      "exercise",
-      "come over",
-      "enjoyable",
+      "fantasy",
+      "enlarge",
       "fascinating"
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"uğramak, ziyaret etmek\"?",
-     "answer": "come over",
-     "options": [
-      "come over",
-      "enlarge",
-      "fascinating",
-      "exciting"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"come over\" means \"genişletmek, büyütmek\".",
+     "answer": false,
+     "explain": "come over = uğramak, ziyaret etmek"
     }
    ]
   },
@@ -566,13 +387,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Present — Routines",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Simple Present — Routines",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "I go to the gym twice a week. — Haftada iki kez spor salonuna giderim.",
+     "answer": true,
+     "explain": "Correct: I go to the gym twice a week."
+    },
     {
      "kind": "fill",
      "text": "I ___ to the gym twice a week.",
@@ -584,47 +408,6 @@
       "Does"
      ],
      "tr": "Haftada iki kez spor salonuna giderim."
-    },
-    {
-     "kind": "fill",
-     "text": "She ___ series in her free time.",
-     "answer": "watches",
-     "options": [
-      "watches",
-      "go",
-      "don't",
-      "Does"
-     ],
-     "tr": "O boş zamanında dizi izler."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Simple Present — Routines",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "We ___ stay up late on school nights.",
-     "answer": "don't",
-     "options": [
-      "don't",
-      "go",
-      "watches",
-      "Does"
-     ],
-     "tr": "Okul gecelerinde geç saate kadar oturmayız."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "We don't stay up late on school nights.",
-     "tr": "Okul gecelerinde geç saate kadar oturmayız."
     }
    ]
   },
@@ -659,59 +442,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Preferences",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Preferences",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "I ___ pop music to jazz.",
-     "answer": "prefer",
-     "options": [
-      "prefer",
-      "would rather",
-      "enjoy",
-      "love"
-     ],
-     "tr": "Pop müziği caza tercih ederim."
-    },
-    {
-     "kind": "fill",
-     "text": "She ___ read a book than watch TV.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "She ___ read a book than watch TV.",
      "answer": "would rather",
-     "options": [
-      "would rather",
-      "prefer",
-      "enjoy",
-      "love"
-     ],
      "tr": "O televizyon izlemektense kitap okumayı yeğler."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Preferences",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "They ___ hanging out with friends.",
-     "answer": "enjoy",
-     "options": [
-      "enjoy",
-      "prefer",
-      "would rather",
-      "love"
-     ],
-     "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar."
     },
     {
      "kind": "order",
@@ -747,12 +486,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "How often ...?",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · How often ...?",
    "tasks": [
     {
      "kind": "fill",
@@ -765,41 +500,6 @@
       "always"
      ],
      "tr": "Ne sıklıkla yüzmeye gidersin?"
-    },
-    {
-     "kind": "fill",
-     "text": "I go swimming ___.",
-     "answer": "twice a week",
-     "options": [
-      "twice a week",
-      "How often",
-      "hardly ever",
-      "always"
-     ],
-     "tr": "Haftada iki kez yüzmeye giderim."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "How often ...?",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "He ___ plays computer games.",
-     "answer": "hardly ever",
-     "options": [
-      "hardly ever",
-      "How often",
-      "twice a week",
-      "always"
-     ],
-     "tr": "O neredeyse hiç bilgisayar oyunu oynamaz."
     },
     {
      "kind": "order",

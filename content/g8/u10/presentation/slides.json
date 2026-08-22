@@ -84,12 +84,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Natural Disasters",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Natural Disasters",
    "tasks": [
     {
      "kind": "match",
@@ -110,59 +106,20 @@
       {
        "a": "avalanche",
        "b": "çığ"
-      },
-      {
-       "a": "earthquake",
-       "b": "deprem"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/tornado.jpg",
-     "answer": "tornado",
-     "tr": "hortum",
-     "options": [
-      "tornado",
-      "hurricane",
-      "disaster",
-      "tsunami"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Natural Disasters",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
+     "q": "Which word matches the picture?",
      "img": "/app/img/words/earthquake.jpg",
      "answer": "earthquake",
      "tr": "deprem",
      "options": [
       "earthquake",
-      "drought",
-      "tornado",
-      "volcano"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"çığ\"?",
-     "answer": "avalanche",
-     "options": [
-      "avalanche",
-      "earthquake",
-      "volcano",
-      "disaster"
+      "tsunami",
+      "flood",
+      "avalanche"
      ]
     }
    ]
@@ -204,85 +161,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Causes & Precautions",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Causes & Precautions",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "survivor",
-       "b": "hayatta kalan"
-      },
-      {
-       "a": "suffer",
-       "b": "acı çekmek"
-      },
-      {
-       "a": "precaution",
-       "b": "önlem"
-      },
-      {
-       "a": "global warming",
-       "b": "küresel ısınma"
-      },
-      {
-       "a": "melt",
-       "b": "erimek"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/melt.jpg",
-     "answer": "melt",
-     "tr": "erimek",
-     "options": [
-      "melt",
-      "global warming",
-      "survivor",
-      "precaution"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Causes & Precautions",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/survivor.jpg",
-     "answer": "survivor",
-     "tr": "hayatta kalan",
-     "options": [
-      "survivor",
-      "suffer",
-      "precaution",
-      "global warming"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"suffer\" means \"hayatta kalan\".",
+     "answer": false,
+     "explain": "suffer = acı çekmek"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"acı çekmek\"?",
-     "answer": "suffer",
+     "q": "Which word means \"küresel ısınma\"?",
+     "answer": "global warming",
      "options": [
-      "suffer",
       "global warming",
       "melt",
-      "precaution"
+      "precaution",
+      "suffer"
      ]
     }
    ]
@@ -344,70 +241,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "sığınak",
+     "answer": "shelter"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "debris",
-       "b": "enkaz"
-      },
-      {
-       "a": "damage",
-       "b": "hasar"
-      },
-      {
        "a": "warning",
        "b": "uyarı"
+      },
+      {
+       "a": "eruption",
+       "b": "patlama"
       },
       {
        "a": "rescue team",
        "b": "kurtarma ekibi"
       },
       {
-       "a": "shelter",
-       "b": "sığınak"
+       "a": "debris",
+       "b": "enkaz"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"orman yangını\"?",
-     "answer": "wildfire",
-     "options": [
-      "wildfire",
-      "rescue team",
-      "lightning",
-      "shelter"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"kurtarma ekibi\"?",
-     "answer": "rescue team",
-     "options": [
-      "rescue team",
-      "wildfire",
-      "warning",
-      "damage"
      ]
     }
    ]
@@ -424,6 +286,26 @@
     {
      "en": "evacuate",
      "tr": "tahliye etmek"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"first aid\" means \"tahliye etmek\".",
+     "answer": false,
+     "explain": "first aid = ilk yardım"
+    },
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "ilk yardım",
+     "answer": "first aid"
     }
    ]
   },
@@ -460,13 +342,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Predictions with will",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Predictions with will",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "There will be a storm tomorrow. — Yarın fırtına olacak.",
+     "answer": true,
+     "explain": "Correct: There will be a storm tomorrow."
+    },
     {
      "kind": "fill",
      "text": "There ___ be a storm tomorrow.",
@@ -478,47 +363,6 @@
       "may"
      ],
      "tr": "Yarın fırtına olacak."
-    },
-    {
-     "kind": "fill",
-     "text": "The river ___ flood this year.",
-     "answer": "won't",
-     "options": [
-      "won't",
-      "will",
-      "might",
-      "may"
-     ],
-     "tr": "Nehir bu yıl taşmayacak."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Predictions with will",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "It ___ snow in the mountains.",
-     "answer": "might",
-     "options": [
-      "might",
-      "will",
-      "won't",
-      "may"
-     ],
-     "tr": "Dağlarda kar yağabilir."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Scientists may predict earthquakes one day.",
-     "tr": "Bilim insanları bir gün depremleri tahmin edebilir."
     }
    ]
   },
@@ -550,53 +394,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "If Clauses (Type 1)",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · If Clauses (Type 1)",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "___ it rains, the streets will flood.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "___ an earthquake happens, we will go outside.",
      "answer": "If",
-     "options": [
-      "If",
-      "will"
-     ],
-     "tr": "Yağmur yağarsa sokaklar su altında kalır."
-    },
-    {
-     "kind": "fill",
-     "text": "___ an earthquake happens, we will go outside.",
-     "answer": "If",
-     "options": [
-      "If",
-      "will"
-     ],
      "tr": "Deprem olursa dışarı çıkacağız."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "If Clauses (Type 1)",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ you stay calm, you will be safer.",
-     "answer": "If",
-     "options": [
-      "If",
-      "will"
-     ],
-     "tr": "Sakin kalırsan daha güvende olursun."
     },
     {
      "kind": "order",
@@ -633,12 +439,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Giving Advice in a Disaster",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Giving Advice in a Disaster",
    "tasks": [
     {
      "kind": "fill",
@@ -651,41 +453,6 @@
       "Don't panic"
      ],
      "tr": "Hazır bir afet çantası bulundurmalısın."
-    },
-    {
-     "kind": "fill",
-     "text": "You ___ use the lift during an earthquake.",
-     "answer": "shouldn't",
-     "options": [
-      "shouldn't",
-      "should",
-      "Stay away",
-      "Don't panic"
-     ],
-     "tr": "Deprem sırasında asansörü kullanmamalısın."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Giving Advice in a Disaster",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ from windows.",
-     "answer": "Stay away",
-     "options": [
-      "Stay away",
-      "should",
-      "shouldn't",
-      "Don't panic"
-     ],
-     "tr": "Pencerelerden uzak dur."
     },
     {
      "kind": "order",

@@ -95,12 +95,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Cooking Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Cooking Verbs",
    "tasks": [
     {
      "kind": "match",
@@ -121,58 +117,19 @@
       {
        "a": "dice",
        "b": "küp küp doğramak"
-      },
-      {
-       "a": "bake",
-       "b": "fırında pişirmek"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/spread.jpg",
-     "answer": "spread",
-     "tr": "sürmek",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/bake.jpg",
+     "answer": "bake",
+     "tr": "fırında pişirmek",
      "options": [
+      "bake",
       "spread",
-      "mix",
-      "cut",
-      "chop"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Cooking Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/boil.jpg",
-     "answer": "boil",
-     "tr": "haşlamak",
-     "options": [
-      "boil",
-      "mash",
       "chop",
-      "bake"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"dökmek\"?",
-     "answer": "pour",
-     "options": [
-      "pour",
-      "dice",
-      "mix",
       "peel"
      ]
     }
@@ -235,85 +192,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Kitchen Tools",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Kitchen Tools",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "oven",
-       "b": "fırın"
-      },
-      {
-       "a": "spoon",
-       "b": "kaşık"
-      },
-      {
-       "a": "saucepan",
-       "b": "tencere"
-      },
-      {
-       "a": "bowl",
-       "b": "kase"
-      },
-      {
-       "a": "ingredient",
-       "b": "malzeme"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/oil.jpg",
-     "answer": "oil",
-     "tr": "yağ",
-     "options": [
-      "oil",
-      "oven",
-      "ingredient",
-      "spoon"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Kitchen Tools",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/saucepan.jpg",
-     "answer": "saucepan",
-     "tr": "tencere",
-     "options": [
-      "saucepan",
-      "spoon",
-      "ingredient",
-      "bowl"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"saucepan\" means \"kaşık\".",
+     "answer": false,
+     "explain": "saucepan = tencere"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"kaşık\"?",
-     "answer": "spoon",
+     "q": "Which word means \"yağ\"?",
+     "answer": "oil",
      "options": [
-      "spoon",
-      "ingredient",
       "oil",
-      "pan"
+      "saucepan",
+      "oven",
+      "spoon"
      ]
     }
    ]
@@ -370,85 +267,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Taste & Food",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Taste & Food",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "lezzetli",
+     "answer": "tasty"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
+       "a": "salty",
+       "b": "tuzlu"
+      },
+      {
        "a": "tasty",
        "b": "lezzetli"
       },
       {
-       "a": "spicy",
-       "b": "baharatlı"
+       "a": "sour",
+       "b": "ekşi"
       },
       {
        "a": "recipe",
        "b": "tarif"
-      },
-      {
-       "a": "delicious",
-       "b": "nefis"
-      },
-      {
-       "a": "sour",
-       "b": "ekşi"
       }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/dessert.jpg",
-     "answer": "dessert",
-     "tr": "tatlı",
-     "options": [
-      "dessert",
-      "delicious",
-      "sour",
-      "salty"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Taste & Food",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/recipe.jpg",
-     "answer": "recipe",
-     "tr": "tarif",
-     "options": [
-      "recipe",
-      "meal",
-      "spicy",
-      "dessert"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"tatlı\"?",
-     "answer": "dessert",
-     "options": [
-      "dessert",
-      "recipe",
-      "spicy",
-      "meal"
      ]
     }
    ]
@@ -510,70 +357,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"put\" means \"önceden ısıtmak\".",
+     "answer": false,
+     "explain": "put = koymak"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "prepare",
-       "b": "hazırlamak"
-      },
-      {
-       "a": "stir",
-       "b": "karıştırmak, çırpmak"
-      },
-      {
-       "a": "preheat",
-       "b": "önceden ısıtmak"
-      },
-      {
-       "a": "shape",
-       "b": "şekil vermek, şekil"
+       "a": "sprinkle",
+       "b": "serpiştirmek"
       },
       {
        "a": "place",
        "b": "yerleştirmek"
+      },
+      {
+       "a": "prepare",
+       "b": "hazırlamak"
+      },
+      {
+       "a": "scoop",
+       "b": "kepçe ile almak, kepçe"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"süzmek\"?",
-     "answer": "strain",
-     "options": [
-      "strain",
-      "shape",
-      "wrap",
-      "put"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"serpiştirmek\"?",
-     "answer": "sprinkle",
-     "options": [
-      "sprinkle",
-      "roll",
-      "prepare",
-      "wrap"
      ]
     }
    ]
@@ -616,83 +429,42 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "make the dough",
-       "b": "hamur yapmak"
-      },
-      {
-       "a": "knead",
-       "b": "yoğurmak"
+       "a": "rinse",
+       "b": "durulamak"
       },
       {
        "a": "remove",
        "b": "çıkarmak"
       },
       {
-       "a": "melt",
-       "b": "erimek, eritmek"
+       "a": "make the dough",
+       "b": "hamur yapmak"
       },
       {
-       "a": "rinse",
-       "b": "durulamak"
+       "a": "melt",
+       "b": "erimek, eritmek"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
+     "q": "Which word matches the picture?",
      "img": "/app/img/words/melt.jpg",
      "answer": "melt",
      "tr": "erimek, eritmek",
      "options": [
       "melt",
-      "make the dough",
-      "rinse",
-      "knead"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"yoğurmak\"?",
-     "answer": "knead",
-     "options": [
       "knead",
-      "make the dough",
-      "rinse",
-      "make it rest"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"hamur yapmak\"?",
-     "answer": "make the dough",
-     "options": [
-      "make the dough",
       "remove",
-      "knead",
-      "rinse"
+      "make the dough"
      ]
     }
    ]
@@ -733,59 +505,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Imperatives in Recipes",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Imperatives in Recipes",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "___ the onions into small pieces.",
-     "answer": "Chop",
-     "options": [
-      "Chop",
-      "Add",
-      "Boil",
-      "Don't"
-     ],
-     "tr": "Soğanları küçük parçalar hâlinde doğra."
-    },
-    {
-     "kind": "fill",
-     "text": "___ a teaspoon of salt.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "___ a teaspoon of salt.",
      "answer": "Add",
-     "options": [
-      "Add",
-      "Chop",
-      "Boil",
-      "Don't"
-     ],
      "tr": "Bir çay kaşığı tuz ekle."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Imperatives in Recipes",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ the water for five minutes.",
-     "answer": "Boil",
-     "options": [
-      "Boil",
-      "Chop",
-      "Add",
-      "Don't"
-     ],
-     "tr": "Suyu beş dakika kaynat."
     },
     {
      "kind": "order",
@@ -830,12 +558,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Sequencing Words",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Sequencing Words",
    "tasks": [
     {
      "kind": "fill",
@@ -848,41 +572,6 @@
       "Finally"
      ],
      "tr": "Önce sebzeleri yıka."
-    },
-    {
-     "kind": "fill",
-     "text": "___, slice the tomatoes.",
-     "answer": "Then",
-     "options": [
-      "Then",
-      "First",
-      "After that",
-      "Finally"
-     ],
-     "tr": "Sonra domatesleri dilimle."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Sequencing Words",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___, mix everything in a bowl.",
-     "answer": "After that",
-     "options": [
-      "After that",
-      "First",
-      "Then",
-      "Finally"
-     ],
-     "tr": "Ondan sonra her şeyi bir kasede karıştır."
     },
     {
      "kind": "order",
@@ -938,13 +627,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "How much / How many",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · How much / How many",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "three potatoes are there? — Kaç patates var?",
+     "answer": false,
+     "explain": "Correct: How many potatoes are there?"
+    },
     {
      "kind": "fill",
      "text": "___ eggs do we need?",
@@ -956,47 +648,6 @@
       "a cup of"
      ],
      "tr": "Kaç yumurtaya ihtiyacımız var?"
-    },
-    {
-     "kind": "fill",
-     "text": "___ potatoes are there?",
-     "answer": "How many",
-     "options": [
-      "How many",
-      "three",
-      "How much",
-      "a cup of"
-     ],
-     "tr": "Kaç patates var?"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "How much / How many",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "We need ___ tomatoes.",
-     "answer": "three",
-     "options": [
-      "three",
-      "How many",
-      "How much",
-      "a cup of"
-     ],
-     "tr": "Üç domatese ihtiyacımız var."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Add a cup of milk.",
-     "tr": "Bir fincan süt ekle."
     }
    ]
   },

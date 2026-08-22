@@ -115,12 +115,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Chores at Home",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Chores at Home",
    "tasks": [
     {
      "kind": "match",
@@ -141,59 +137,20 @@
       {
        "a": "dry the dishes",
        "b": "bulaşık kurulamak"
-      },
-      {
-       "a": "clean up",
-       "b": "temizlemek"
       }
      ]
     },
     {
      "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/tidy-up.jpg",
-     "answer": "tidy up",
-     "tr": "toparlamak",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/make-the-bed.jpg",
+     "answer": "make the bed",
+     "tr": "yatağı toplamak",
      "options": [
+      "make the bed",
       "tidy up",
-      "do the laundry",
-      "clean up",
-      "empty the dishwasher"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Chores at Home",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/load-the-dishwasher.jpg",
-     "answer": "load the dishwasher",
-     "tr": "bulaşık makinesini doldurmak",
-     "options": [
       "load the dishwasher",
-      "dry the dishes",
-      "clean up",
-      "tidy up"
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"bulaşık yıkamak\"?",
-     "answer": "wash the dishes",
-     "options": [
-      "wash the dishes",
-      "laundry",
-      "take out the garbage",
-      "make the bed"
+      "laundry"
      ]
     }
    ]
@@ -244,85 +201,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Rules & Responsibilities",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Rules & Responsibilities",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "to-do list",
-       "b": "yapılacaklar listesi"
-      },
-      {
-       "a": "obey the rules",
-       "b": "kurallara uymak"
-      },
-      {
-       "a": "keep a promise",
-       "b": "sözünü tutmak"
-      },
-      {
-       "a": "return books",
-       "b": "kitapları iade etmek"
-      },
-      {
-       "a": "break a promise",
-       "b": "sözünü bozmak"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/return-books.jpg",
-     "answer": "return books",
-     "tr": "kitapları iade etmek",
-     "options": [
-      "return books",
-      "keep quiet",
-      "arrive on time",
-      "to-do list"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Rules & Responsibilities",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "/app/img/words/to-do-list.jpg",
-     "answer": "to-do list",
-     "tr": "yapılacaklar listesi",
-     "options": [
-      "to-do list",
-      "arrive on time",
-      "keep quiet",
-      "break a promise"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"to-do list\" means \"kurallara uymak\".",
+     "answer": false,
+     "explain": "to-do list = yapılacaklar listesi"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"kurallara uymak\"?",
-     "answer": "obey the rules",
+     "q": "Which word means \"sözünü tutmak\"?",
+     "answer": "keep a promise",
      "options": [
+      "keep a promise",
+      "return books",
       "obey the rules",
-      "keep quiet",
-      "to-do list",
-      "return books"
+      "to-do list"
      ]
     }
    ]
@@ -384,70 +281,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "hayran olmak",
+     "answer": "admire"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "kitchen chores",
-       "b": "mutfak işleri"
+       "a": "feel relaxed",
+       "b": "rahat hissetmek"
       },
       {
-       "a": "feel annoyed",
-       "b": "sinirlenmek (kızgın"
+       "a": "feel worried",
+       "b": "endişelenmek (endişeli hissetmek)"
       },
       {
-       "a": "feel happy",
-       "b": "sevinmek"
+       "a": "be responsible for",
+       "b": "-den/-dan sorumlu olmak"
       },
       {
        "a": "be good at",
        "b": "bir şeyde iyi olmak"
-      },
-      {
-       "a": "be late",
-       "b": "geç kalmak"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"bir şeyde iyi olmak\"?",
-     "answer": "be good at",
-     "options": [
-      "be good at",
-      "feel worried",
-      "be responsible for",
-      "kitchen chores"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 1",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"mutfak işleri\"?",
-     "answer": "kitchen chores",
-     "options": [
-      "kitchen chores",
-      "ignore responsibilities",
-      "be good at",
-      "admire"
      ]
     }
    ]
@@ -509,70 +371,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"before the meal\" means \"mutlu olmak\".",
+     "answer": false,
+     "explain": "before the meal = yemekten önce"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "some chores",
-       "b": "bazı ev işleri"
-      },
-      {
        "a": "feel bored",
        "b": "içi sıkılmak"
       },
       {
-       "a": "be happy",
-       "b": "mutlu olmak"
+       "a": "some chores",
+       "b": "bazı ev işleri"
       },
       {
-       "a": "feel so hungry",
-       "b": "çok acıkmak"
+       "a": "pay the bills",
+       "b": "faturaları ödemek"
       },
       {
-       "a": "do the shopping",
-       "b": "alışveriş yapmak"
+       "a": "For example,",
+       "b": "Örneğin"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"faturaları ödemek\"?",
-     "answer": "pay the bills",
-     "options": [
-      "pay the bills",
-      "waiting to eat",
-      "be happy",
-      "For example,"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "More Words 2",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"yemekten önce\"?",
-     "answer": "before the meal",
-     "options": [
-      "before the meal",
-      "waiting to eat",
-      "some chores",
-      "feel so hungry"
      ]
     }
    ]
@@ -603,13 +431,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "have to / has to",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · have to / has to",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "I have to tidy my room every weekend. — Her hafta sonu odamı toplamak zorundayım.",
+     "answer": true,
+     "explain": "Correct: I have to tidy my room every weekend."
+    },
     {
      "kind": "fill",
      "text": "I ___ tidy my room every weekend.",
@@ -621,47 +452,6 @@
       "Do"
      ],
      "tr": "Her hafta sonu odamı toplamak zorundayım."
-    },
-    {
-     "kind": "fill",
-     "text": "He ___ walk the dog after school.",
-     "answer": "has to",
-     "options": [
-      "has to",
-      "have to",
-      "don't have to",
-      "Do"
-     ],
-     "tr": "Okuldan sonra köpeği gezdirmek zorunda."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "have to / has to",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "We ___ do the dishes today.",
-     "answer": "don't have to",
-     "options": [
-      "don't have to",
-      "have to",
-      "has to",
-      "Do"
-     ],
-     "tr": "Bugün bulaşık yıkamak zorunda değiliz."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Do you have to help your mother?",
-     "tr": "Annene yardım etmek zorunda mısın?"
     }
    ]
   },
@@ -699,59 +489,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Asking for Help",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Asking for Help",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "___ help me with the laundry?",
-     "answer": "Could you",
-     "options": [
-      "Could you",
-      "Would you mind",
-      "Shall I",
-      "give me a hand"
-     ],
-     "tr": "Çamaşırlarda bana yardım eder misin?"
-    },
-    {
-     "kind": "fill",
-     "text": "___ taking out the rubbish?",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "___ taking out the rubbish?",
      "answer": "Would you mind",
-     "options": [
-      "Would you mind",
-      "Could you",
-      "Shall I",
-      "give me a hand"
-     ],
      "tr": "Çöpü çıkarır mısın?"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Asking for Help",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ set the table?",
-     "answer": "Shall I",
-     "options": [
-      "Shall I",
-      "Could you",
-      "Would you mind",
-      "give me a hand"
-     ],
-     "tr": "Masayı ben mi kurayım?"
     },
     {
      "kind": "order",
@@ -806,12 +552,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Accepting & Refusing Requests",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Accepting & Refusing Requests",
    "tasks": [
     {
      "kind": "fill",
@@ -824,41 +566,6 @@
       "Sorry"
      ],
      "tr": "Tabii, sorun değil."
-    },
-    {
-     "kind": "fill",
-     "text": "___, I'll do it now.",
-     "answer": "Of course",
-     "options": [
-      "Of course",
-      "Sure",
-      "All right",
-      "Sorry"
-     ],
-     "tr": "Elbette, şimdi yaparım."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Accepting & Refusing Requests",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___, I'm coming.",
-     "answer": "All right",
-     "options": [
-      "All right",
-      "Sure",
-      "Of course",
-      "Sorry"
-     ],
-     "tr": "Peki, geliyorum."
     },
     {
      "kind": "order",

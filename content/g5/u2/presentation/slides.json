@@ -71,12 +71,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
      "kind": "match",
@@ -97,45 +93,14 @@
       {
        "a": "talk / speak",
        "b": "konuşmak"
-      },
-      {
-       "a": "bring",
-       "b": "getirmek"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"başlamak\"?",
-     "answer": "start",
-     "options": [
-      "start",
-      "tidy up",
-      "finish",
-      "talk / speak"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"ödünç vermek\"?",
-     "answer": "lend",
-     "options": [
-      "lend",
-      "borrow",
-      "finish",
-      "start"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "ödünç almak",
+     "answer": "borrow"
     }
    ]
   },
@@ -183,70 +148,25 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "follow",
-       "b": "uymak"
-      },
-      {
-       "a": "hang",
-       "b": "asmak"
-      },
-      {
-       "a": "keep",
-       "b": "tutmak"
-      },
-      {
-       "a": "leave",
-       "b": "ayrılmak"
-      },
-      {
-       "a": "warn",
-       "b": "uyarmak"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"hold on\" means \"tutmak\".",
+     "answer": false,
+     "explain": "hold on = beklemek"
     },
     {
      "kind": "choose",
-     "q": "Which word means \"uymak\"?",
-     "answer": "follow",
+     "q": "Which word means \"beklemek\"?",
+     "answer": "hold on",
      "options": [
+      "hold on",
+      "keep",
       "follow",
-      "warn",
-      "keep",
-      "hang"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Verbs",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"tutmak\"?",
-     "answer": "keep",
-     "options": [
-      "keep",
-      "shout",
-      "hang",
-      "follow"
+      "warn"
      ]
     }
    ]
@@ -313,49 +233,14 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Classroom Rules",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Classroom Rules",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "___ throw rubbish on the ground.",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "___ shout at your friends.",
      "answer": "Don't",
-     "options": [
-      "Don't"
-     ],
-     "tr": "Yere çöp atma."
-    },
-    {
-     "kind": "fill",
-     "text": "___ run in the classroom.",
-     "answer": "Don't",
-     "options": [
-      "Don't"
-     ],
-     "tr": "Sınıfta koşma."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Classroom Rules",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ shout at your friends.",
-     "answer": "Don't",
-     "options": [
-      "Don't"
-     ],
      "tr": "Arkadaşlarına bağırma."
     },
     {
@@ -447,86 +332,28 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "School Subjects",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · School Subjects",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "Drama",
-       "b": "Tiyatro"
-      },
-      {
-       "a": "Music",
-       "b": "Müzik"
-      },
-      {
-       "a": "Elective Lesson",
-       "b": "Seçmeli Ders"
-      },
-      {
-       "a": "Physical Education (P.E.)",
-       "b": "Beden Eğitimi"
-      },
-      {
-       "a": "Information Technology (IT)",
-       "b": "Bilişim Teknolojileri"
-      }
-     ]
-    },
-    {
      "kind": "picture",
-     "q": "What is this?",
+     "q": "Which word matches the picture?",
      "img": "p05-04.png",
      "answer": "Foreign Language",
      "tr": "Yabancı Dil",
      "options": [
       "Foreign Language",
-      "Turkish",
-      "Social Studies",
-      "Maths"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "School Subjects",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "What is this?",
-     "img": "p05-01.png",
-     "answer": "Maths",
-     "tr": "Matematik",
-     "options": [
+      "Elective Lesson",
       "Maths",
-      "Art",
-      "Music",
-      "Information Technology (IT)"
+      "Religion and Morals"
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"Matematik\"?",
-     "answer": "Maths",
-     "options": [
-      "Maths",
-      "Art",
-      "Information Technology (IT)",
-      "Religion and Morals"
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"Information Technology (IT)\" means \"Beden Eğitimi\".",
+     "answer": false,
+     "explain": "Information Technology (IT) = Bilişim Teknolojileri"
     }
    ]
   },
@@ -563,13 +390,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "have got / has got",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · have got / has got",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "She has got a P.E. class at eleven o'clock. — O saat on birde bir Beden Eğitimi dersine sahip.",
+     "answer": true,
+     "explain": "Correct: She has got a P.E. class at eleven o'clock."
+    },
     {
      "kind": "fill",
      "text": "I ___ a Science class at nine o'clock on Monday.",
@@ -579,43 +409,6 @@
       "has got"
      ],
      "tr": "Ben Pazartesi günü saat dokuzda bir Fen Bilimleri dersine sahibim."
-    },
-    {
-     "kind": "fill",
-     "text": "He ___ double Maths classes at half past ten on Friday.",
-     "answer": "has got",
-     "options": [
-      "has got",
-      "have got"
-     ],
-     "tr": "O Cuma günü saat on buçukta iki Matematik dersine sahip."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "have got / has got",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "You ___ an English class at two o'clock on Wednesday.",
-     "answer": "have got",
-     "options": [
-      "have got",
-      "has got"
-     ],
-     "tr": "Sen Çarşamba günü saat ikide bir İngilizce dersine sahipsin."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "They have got a Music class on Tuesday.",
-     "tr": "Onlar Salı günü bir Müzik dersine sahipler."
     }
    ]
   },
@@ -671,6 +464,19 @@
        "text": "On Tuesdays."
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · What time? / When?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Susan: What time does the Art class start?",
+     "answer": "Fiona: It starts at quarter to eleven."
     }
    ]
   },
@@ -733,70 +539,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Classroom Objects",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Classroom Objects",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kalemtıraş",
+     "answer": "sharpener"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "pencil",
-       "b": "kurşun kalem"
-      },
-      {
        "a": "coloured pencil",
        "b": "renkli kalem"
       },
       {
-       "a": "pen",
-       "b": "tükenmez kalem"
+       "a": "pencil",
+       "b": "kurşun kalem"
       },
       {
-       "a": "book",
-       "b": "kitap"
+       "a": "rubber / eraser",
+       "b": "silgi"
       },
       {
        "a": "sharpener",
        "b": "kalemtıraş"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"silgi\"?",
-     "answer": "rubber / eraser",
-     "options": [
-      "rubber / eraser",
-      "coloured pencil",
-      "pencil case",
-      "dictionary"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Classroom Objects",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"pastel boya\"?",
-     "answer": "crayon",
-     "options": [
-      "crayon",
-      "book",
-      "notebook",
-      "coloured pencil"
      ]
     }
    ]
@@ -860,70 +631,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Classroom Objects",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Classroom Objects",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"sheet\" means \"cetvel\".",
+     "answer": false,
+     "explain": "sheet = kağıt"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "map",
-       "b": "harita"
-      },
-      {
-       "a": "notice board",
-       "b": "duyuru panosu"
+       "a": "poster",
+       "b": "poster"
       },
       {
        "a": "school bag",
        "b": "okul çantası"
       },
       {
-       "a": "scissors",
-       "b": "makas"
-      },
-      {
        "a": "sheet",
        "b": "kağıt"
+      },
+      {
+       "a": "board",
+       "b": "tahta"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"duyuru panosu\"?",
-     "answer": "notice board",
-     "options": [
-      "notice board",
-      "glue",
-      "ruler",
-      "board"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Classroom Objects",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"harita\"?",
-     "answer": "map",
-     "options": [
-      "map",
-      "board",
-      "sheet",
-      "notice board"
      ]
     }
    ]
@@ -977,71 +714,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Classroom Objects",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Classroom Objects",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
+       "a": "desk",
+       "b": "sıra"
+      },
+      {
        "a": "rubbish bin / trash can",
        "b": "çöp kutusu"
-      },
-      {
-       "a": "seat",
-       "b": "oturak"
-      },
-      {
-       "a": "bookshelf",
-       "b": "kitap rafı"
       },
       {
        "a": "board marker",
        "b": "tahta kalemi"
       },
       {
-       "a": "bookcase",
-       "b": "kitaplık"
+       "a": "table",
+       "b": "masa"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"kitap rafı\"?",
-     "answer": "bookshelf",
-     "options": [
-      "bookshelf",
-      "smart board",
-      "table",
-      "rubbish bin / trash can"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Classroom Objects",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"akıllı tahta\"?",
-     "answer": "smart board",
-     "options": [
-      "smart board",
-      "board marker",
-      "table",
-      "desk"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "masa",
+     "answer": "table"
     }
    ]
   },
@@ -1089,61 +791,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Days of the Week",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Days of the Week",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "Tuesday",
-       "b": "Salı"
-      },
-      {
-       "a": "Thursday",
-       "b": "Perşembe"
-      },
-      {
-       "a": "Saturday",
-       "b": "Cumartesi"
-      },
-      {
-       "a": "Friday",
-       "b": "Cuma"
-      },
-      {
-       "a": "Wednesday",
-       "b": "Çarşamba"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"Friday\" means \"Perşembe\".",
+     "answer": false,
+     "explain": "Friday = Cuma"
     },
-    {
-     "kind": "choose",
-     "q": "Which word means \"Pazartesi\"?",
-     "answer": "Monday",
-     "options": [
-      "Monday",
-      "Saturday",
-      "Friday",
-      "Thursday"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Days of the Week",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"Pazar\"?",
@@ -1151,8 +808,8 @@
      "options": [
       "Sunday",
       "Wednesday",
-      "Thursday",
-      "Saturday"
+      "Friday",
+      "Tuesday"
      ]
     }
    ]
@@ -1216,70 +873,35 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Numbers 1–20",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Numbers 1–20",
    "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "8",
+     "answer": "eight"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "six",
-       "b": "6"
+       "a": "ten",
+       "b": "10"
       },
       {
-       "a": "three",
-       "b": "3"
+       "a": "nine",
+       "b": "9"
       },
       {
        "a": "one",
        "b": "1"
       },
       {
-       "a": "five",
-       "b": "5"
-      },
-      {
        "a": "eight",
        "b": "8"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"4\"?",
-     "answer": "four",
-     "options": [
-      "four",
-      "ten",
-      "six",
-      "five"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Numbers 1–20",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"2\"?",
-     "answer": "two",
-     "options": [
-      "two",
-      "nine",
-      "three",
-      "six"
      ]
     }
    ]
@@ -1343,70 +965,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Numbers 1–20",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Numbers 1–20",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"seventeen\" means \"14\".",
+     "answer": false,
+     "explain": "seventeen = 17"
+    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
+       "a": "eleven",
+       "b": "11"
+      },
+      {
+       "a": "twenty",
+       "b": "20"
+      },
+      {
+       "a": "twelve",
+       "b": "12"
+      },
+      {
        "a": "nineteen",
        "b": "19"
-      },
-      {
-       "a": "seventeen",
-       "b": "17"
-      },
-      {
-       "a": "eighteen",
-       "b": "18"
-      },
-      {
-       "a": "fourteen",
-       "b": "14"
-      },
-      {
-       "a": "thirteen",
-       "b": "13"
       }
-     ]
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"14\"?",
-     "answer": "fourteen",
-     "options": [
-      "fourteen",
-      "nineteen",
-      "twelve",
-      "eleven"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Numbers 1–20",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"13\"?",
-     "answer": "thirteen",
-     "options": [
-      "thirteen",
-      "seventeen",
-      "eighteen",
-      "fourteen"
      ]
     }
    ]
@@ -1480,71 +1068,36 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Numbers 21–100",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Numbers 21–100",
    "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "eighty",
-       "b": "80"
-      },
-      {
-       "a": "thirty-three",
-       "b": "33"
-      },
-      {
        "a": "twenty-one",
        "b": "21"
       },
       {
-       "a": "fifty",
-       "b": "50"
-      },
-      {
        "a": "twenty-five",
        "b": "25"
+      },
+      {
+       "a": "eighty",
+       "b": "80"
+      },
+      {
+       "a": "sixty",
+       "b": "60"
       }
      ]
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"90\"?",
-     "answer": "ninety",
-     "options": [
-      "ninety",
-      "fifty",
-      "eighty",
-      "forty"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Numbers 21–100",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Which word means \"33\"?",
-     "answer": "thirty-three",
-     "options": [
-      "thirty-three",
-      "seventy",
-      "twenty-one",
-      "twenty-five"
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "90",
+     "answer": "ninety"
     }
    ]
   },
@@ -1590,13 +1143,16 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Telling the Time",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Telling the Time",
    "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "10:30 → It is o'clock ten. — Buçuk geçiyor (30 dakika)",
+     "answer": false,
+     "explain": "Correct: 10:30 → It is half past ten."
+    },
     {
      "kind": "fill",
      "text": "08:00 → It is eight ___.",
@@ -1608,47 +1164,6 @@
       "quarter to"
      ],
      "tr": "Dakikası olmayan tam saatler"
-    },
-    {
-     "kind": "fill",
-     "text": "10:30 → It is ___ ten.",
-     "answer": "half past",
-     "options": [
-      "half past",
-      "o'clock",
-      "quarter past",
-      "quarter to"
-     ],
-     "tr": "Buçuk geçiyor (30 dakika)"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "Telling the Time",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "16:15 → It is ___ four.",
-     "answer": "quarter past",
-     "options": [
-      "quarter past",
-      "o'clock",
-      "half past",
-      "quarter to"
-     ],
-     "tr": "Çeyrek geçiyor (15 dakika)"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "08:33 → It is twenty-seven to nine.",
-     "tr": "30'dan büyük dakikalar: var"
     }
    ]
   },
@@ -1682,53 +1197,15 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "a.m. / p.m.",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · a.m. / p.m.",
    "tasks": [
     {
-     "kind": "fill",
-     "text": "A: What time is it?  B: It is 8:15 ___",
-     "answer": "a.m.",
-     "options": [
-      "a.m.",
-      "p.m."
-     ],
-     "tr": "Sabah 8:15"
-    },
-    {
-     "kind": "fill",
-     "text": "A: What time is it?  B: It is 8:15 ___",
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "I go to bed at 10:00 ___",
      "answer": "p.m.",
-     "options": [
-      "p.m.",
-      "a.m."
-     ],
-     "tr": "Akşam 8:15"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "a.m. / p.m.",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "The first class starts at 9:00 ___",
-     "answer": "a.m.",
-     "options": [
-      "a.m.",
-      "p.m."
-     ],
-     "tr": "İlk ders sabah 9'da başlar."
+     "tr": "Gece 10'da yatarım."
     },
     {
      "kind": "order",
@@ -1786,12 +1263,8 @@
   },
   {
    "type": "exercise",
-   "title": "Practice",
-   "titleTr": "There is / There are",
-   "part": [
-    1,
-    2
-   ],
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · There is / There are",
    "tasks": [
     {
      "kind": "fill",
@@ -1804,41 +1277,6 @@
       "There aren't"
      ],
      "tr": "Sınıfta bir akıllı tahta var."
-    },
-    {
-     "kind": "fill",
-     "text": "___ fifteen students in the classroom.",
-     "answer": "There are",
-     "options": [
-      "There are",
-      "There is",
-      "There isn't",
-      "There aren't"
-     ],
-     "tr": "Sınıfta on beş öğrenci var."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Practice",
-   "titleTr": "There is / There are",
-   "part": [
-    2,
-    2
-   ],
-   "tasks": [
-    {
-     "kind": "fill",
-     "text": "___ a Music lesson on Monday.",
-     "answer": "There is",
-     "options": [
-      "There is",
-      "There are",
-      "There isn't",
-      "There aren't"
-     ],
-     "tr": "Pazartesi günü bir Müzik dersi var."
     },
     {
      "kind": "order",
@@ -1900,6 +1338,19 @@
        "text": "Sınıfta on sıra var mı?"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break",
+   "titleTr": "Use what you just learned · Is there ...? / Are there ...?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Role-play: what comes next?",
+     "clue": "Peter: Is there a P.E. lesson today?",
+     "answer": "Rose: Yes, there is."
     }
    ]
   },
