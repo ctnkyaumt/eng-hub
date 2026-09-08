@@ -43,7 +43,18 @@
      "tr": "mağaracılık",
      "emoji": "🕳️",
      "img": "/app/img/words/caving.jpg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Extreme Sports",
+   "titleTr": "Ekstrem sporlar",
+   "items": [
     {
      "en": "hang-gliding",
      "tr": "delta kanat",
@@ -55,18 +66,7 @@
      "tr": "kayak (kano)",
      "emoji": "🚣",
      "img": "/app/img/words/kayaking.jpg"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Extreme Sports",
-   "titleTr": "Ekstrem sporlar",
-   "items": [
+    },
     {
      "en": "motor racing",
      "tr": "motor yarışı",
@@ -78,7 +78,18 @@
      "tr": "yamaç paraşütü",
      "emoji": "🪂",
      "img": "/app/img/words/paragliding.jpg"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Extreme Sports",
+   "titleTr": "Ekstrem sporlar",
+   "items": [
     {
      "en": "rafting",
      "tr": "rafting",
@@ -103,13 +114,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Extreme Sports",
    "tasks": [
     {
@@ -133,7 +144,14 @@
        "b": "rafting"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Extreme Sports",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -146,6 +164,19 @@
       "caving",
       "take risks"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Extreme Sports",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "bancî atlayışı",
+     "answer": "bungee-jumping"
     }
    ]
   },
@@ -168,7 +199,18 @@
      "en": "entertaining",
      "tr": "eğlendirici",
      "emoji": "🎪"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Describing Activities",
+   "titleTr": "Etkinlikleri anlatmak",
+   "items": [
     {
      "en": "exciting",
      "tr": "heyecan verici",
@@ -184,11 +226,15 @@
      "tr": "hayal kırıklığı yaratan",
      "emoji": "😞"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Describing Activities",
    "tasks": [
     {
@@ -197,7 +243,14 @@
      "statement": "\"disappointing\" means \"eğlendirici\".",
      "answer": false,
      "explain": "disappointing = hayal kırıklığı yaratan"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"hayal kırıklığı yaratan\"?",
+   "titleTr": "Use what you just learned · Describing Activities",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"hayal kırıklığı yaratan\"?",
@@ -207,6 +260,35 @@
       "challenging",
       "entertaining",
       "exciting"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Describing Activities",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "fascinating",
+       "b": "büyüleyici"
+      },
+      {
+       "a": "amusing",
+       "b": "eğlenceli"
+      },
+      {
+       "a": "challenging",
+       "b": "zorlayıcı"
+      },
+      {
+       "a": "entertaining",
+       "b": "eğlendirici"
+      }
      ]
     }
    ]
@@ -235,7 +317,18 @@
      "en": "height",
      "tr": "yükseklik",
      "emoji": "📏"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Maceralar — ek kelimeler",
+   "items": [
     {
      "en": "helmet",
      "tr": "kask",
@@ -245,18 +338,7 @@
      "en": "hill",
      "tr": "tepe",
      "emoji": "⛰️"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "Maceralar — ek kelimeler",
-   "items": [
+    },
     {
      "en": "historical sites",
      "tr": "tarihi yerler",
@@ -266,7 +348,18 @@
      "en": "hot air balloon",
      "tr": "sıcak hava balonu",
      "emoji": "🎈"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Maceralar — ek kelimeler",
+   "items": [
     {
      "en": "ice skating",
      "tr": "buz pateni",
@@ -289,13 +382,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -303,7 +396,14 @@
      "q": "Guess the English word",
      "clue": "deneyimsiz, tecrübesiz",
      "answer": "inexperienced"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -325,6 +425,20 @@
        "b": "kapalı mekan, iç mekan"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"hill\" means \"tepe\".",
+     "answer": true,
+     "explain": "hill = tepe"
     }
    ]
   },
@@ -352,7 +466,18 @@
      "en": "experienced",
      "tr": "deneyimli, tecrübeli",
      "emoji": "🏅"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Maceralar — ek kelimeler",
+   "items": [
     {
      "en": "explore",
      "tr": "keşfetmek",
@@ -373,11 +498,15 @@
      "tr": "mücadele",
      "emoji": "🥊"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -386,7 +515,14 @@
      "statement": "\"fighting\" means \"deneyim, tecrübe\".",
      "answer": false,
      "explain": "fighting = mücadele"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -412,85 +548,300 @@
    ]
   },
   {
-   "type": "compare",
-   "title": "should / shouldn't",
-   "titleTr": "Tavsiye verme",
-   "rule": "Tavsiye verirken *should*, uyarırken *shouldn't* kullanırız.",
-   "columns": [
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
-     "title": "should ✅",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "You *should* wear a helmet.",
-       "tr": "Kask takmalısın.",
-       "trEm": [
-        "takmalısın."
-       ],
-       "emoji": "⛑️"
-      },
-      {
-       "en": "You *should* check the weather first.",
-       "tr": "Önce hava durumunu kontrol etmelisin.",
-       "trEm": [
-        "etmelisin."
-       ],
-       "emoji": "🌨️"
-      },
-      {
-       "en": "Beginners *should* go with a guide.",
-       "tr": "Yeni başlayanlar rehberle gitmeli.",
-       "trEm": [
-        "gitmeli."
-       ],
-       "emoji": "🧭"
-      }
-     ]
-    },
-    {
-     "title": "shouldn't ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "You *shouldn't* climb alone.",
-       "tr": "Yalnız tırmanmamalısın.",
-       "trEm": [
-        "tırmanmamalısın."
-       ],
-       "emoji": "🧗"
-      },
-      {
-       "en": "You *shouldn't* forget your equipment.",
-       "tr": "Ekipmanını unutmamalısın.",
-       "trEm": [
-        "unutmamalısın."
-       ],
-       "emoji": "🎒"
-      },
-      {
-       "en": "You *shouldn't* swim when the sea is rough.",
-       "tr": "Deniz dalgalıyken yüzmemelisin.",
-       "trEm": [
-        "yüzmemelisin."
-       ],
-       "emoji": "🏊"
-      }
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "deneyimli, tecrübeli",
+     "answer": "experienced"
     }
    ]
   },
   {
+   "type": "grammar",
+   "title": "should / shouldn't",
+   "titleTr": "Tavsiye verme",
+   "chips": [
+    "should"
+   ],
+   "examples": [
+    {
+     "en": "You *should* wear a helmet when you cycle.",
+     "tr": "Bisiklete binerken kask takmalısın.",
+     "trEm": [
+      "takmalısın."
+     ],
+     "emoji": "⛑️"
+    }
+   ],
+   "paced": true,
+   "rule": "Tavsiye: *should + yalın fiil* (-meli / -malı).",
+   "part": [
+    1,
+    7
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "should / shouldn't",
+    "titleTr": "Tavsiye verme",
+    "rule": "Tavsiye verirken *should*, uyarırken *shouldn't* kullanırız.",
+    "columns": [
+     {
+      "title": "should ✅",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "You *should* wear a helmet.",
+        "tr": "Kask takmalısın.",
+        "trEm": [
+         "takmalısın."
+        ],
+        "emoji": "⛑️"
+       },
+       {
+        "en": "You *should* check the weather first.",
+        "tr": "Önce hava durumunu kontrol etmelisin.",
+        "trEm": [
+         "etmelisin."
+        ],
+        "emoji": "🌨️"
+       },
+       {
+        "en": "Beginners *should* go with a guide.",
+        "tr": "Yeni başlayanlar rehberle gitmeli.",
+        "trEm": [
+         "gitmeli."
+        ],
+        "emoji": "🧭"
+       }
+      ]
+     },
+     {
+      "title": "shouldn't ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "You *shouldn't* climb alone.",
+        "tr": "Yalnız tırmanmamalısın.",
+        "trEm": [
+         "tırmanmamalısın."
+        ],
+        "emoji": "🧗"
+       },
+       {
+        "en": "You *shouldn't* forget your equipment.",
+        "tr": "Ekipmanını unutmamalısın.",
+        "trEm": [
+         "unutmamalısın."
+        ],
+        "emoji": "🎒"
+       },
+       {
+        "en": "You *shouldn't* swim when the sea is rough.",
+        "tr": "Deniz dalgalıyken yüzmemelisin.",
+        "trEm": [
+         "yüzmemelisin."
+        ],
+        "emoji": "🏊"
+       }
+      ]
+     }
+    ],
+    "examples": [
+     {
+      "en": "You *should* wear a helmet when you cycle.",
+      "tr": "Bisiklete binerken kask takmalısın.",
+      "trEm": [
+       "takmalısın."
+      ],
+      "emoji": "⛑️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "should / shouldn't",
+   "titleTr": "Tavsiye verme",
+   "chips": [
+    "should ✅"
+   ],
+   "examples": [
+    {
+     "en": "You *should* wear a helmet.",
+     "tr": "Kask takmalısın.",
+     "trEm": [
+      "takmalısın."
+     ],
+     "emoji": "⛑️",
+     "focus": "should ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "should / shouldn't",
+   "titleTr": "Tavsiye verme",
+   "chips": [
+    "should ✅"
+   ],
+   "examples": [
+    {
+     "en": "You *should* check the weather first.",
+     "tr": "Önce hava durumunu kontrol etmelisin.",
+     "trEm": [
+      "etmelisin."
+     ],
+     "emoji": "🌨️",
+     "focus": "should ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "should / shouldn't",
+   "titleTr": "Tavsiye verme",
+   "chips": [
+    "should ✅"
+   ],
+   "examples": [
+    {
+     "en": "Beginners *should* go with a guide.",
+     "tr": "Yeni başlayanlar rehberle gitmeli.",
+     "trEm": [
+      "gitmeli."
+     ],
+     "emoji": "🧭",
+     "focus": "should ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "should / shouldn't",
+   "titleTr": "Tavsiye verme",
+   "chips": [
+    "shouldn't ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *shouldn't* climb alone.",
+     "tr": "Yalnız tırmanmamalısın.",
+     "trEm": [
+      "tırmanmamalısın."
+     ],
+     "emoji": "🧗",
+     "focus": "shouldn't ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "should / shouldn't",
+   "titleTr": "Tavsiye verme",
+   "chips": [
+    "shouldn't ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *shouldn't* forget your equipment.",
+     "tr": "Ekipmanını unutmamalısın.",
+     "trEm": [
+      "unutmamalısın."
+     ],
+     "emoji": "🎒",
+     "focus": "shouldn't ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "should / shouldn't",
+   "titleTr": "Tavsiye verme",
+   "chips": [
+    "shouldn't ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *shouldn't* swim when the sea is rough.",
+     "tr": "Deniz dalgalıyken yüzmemelisin.",
+     "trEm": [
+      "yüzmemelisin."
+     ],
+     "emoji": "🏊",
+     "focus": "shouldn't ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    7,
+    7
+   ]
+  },
+  {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · should / shouldn't",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "You shouldn't forget your equipment. — Ekipmanını unutmamalısın.",
+     "statement": "You shouldn't climb alone. — Yalnız tırmanmamalısın.",
      "answer": true,
-     "explain": "Correct: You shouldn't forget your equipment."
-    },
+     "explain": "Correct: You shouldn't climb alone."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · should / shouldn't",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ wear a helmet when you cycle.",
+     "answer": "should",
+     "options": [
+      "should",
+      "shouldn't"
+     ],
+     "tr": "Bisiklete binerken kask takmalısın."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · should / shouldn't",
+   "tasks": [
     {
      "kind": "fill",
      "text": "You ___ wear a helmet.",
@@ -507,7 +858,9 @@
    "type": "grammar",
    "title": "must / mustn't",
    "titleTr": "Zorunluluk ve yasak",
-   "rule": "Kural ve zorunluluk için *must*, yasak için *mustn't* kullanılır. *should* tavsiyedir, *must* daha güçlüdür.",
+   "chips": [
+    "must"
+   ],
    "examples": [
     {
      "en": "You *must* follow the safety rules.",
@@ -516,7 +869,71 @@
       "uymalısın."
      ],
      "emoji": "⚠️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Zorunluluk: *must + yalın fiil* (-meli / -malı).",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "must / mustn't",
+    "titleTr": "Zorunluluk ve yasak",
+    "rule": "Kural ve zorunluluk için *must*, yasak için *mustn't* kullanılır. *should* tavsiyedir, *must* daha güçlüdür.",
+    "examples": [
+     {
+      "en": "You *must* follow the safety rules.",
+      "tr": "Güvenlik kurallarına uymalısın.",
+      "trEm": [
+       "uymalısın."
+      ],
+      "emoji": "⚠️"
+     },
+     {
+      "en": "Divers *must* have a licence.",
+      "tr": "Dalgıçların lisansı olmalı.",
+      "trEm": [
+       "olmalı."
+      ],
+      "emoji": "🤿"
+     },
+     {
+      "en": "You *mustn't* go rafting without a life jacket.",
+      "tr": "Can yeleği olmadan raftinge gitmemelisin.",
+      "img": "/app/img/words/rafting.jpg",
+      "trEm": [
+       "gitmemelisin."
+      ]
+     },
+     {
+      "en": "We *mustn't* leave rubbish in nature.",
+      "tr": "Doğaya çöp bırakmamalıyız.",
+      "trEm": [
+       "bırakmamalıyız."
+      ],
+      "emoji": "🗑️"
+     },
+     {
+      "en": "You *mustn't* leave rubbish here.",
+      "tr": "Buraya çöp bırakmamalısın.",
+      "trEm": [
+       "bırakmamalısın."
+      ],
+      "emoji": "🗑️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "must / mustn't",
+   "titleTr": "Zorunluluk ve yasak",
+   "chips": [
+    "must"
+   ],
+   "examples": [
     {
      "en": "Divers *must* have a licence.",
      "tr": "Dalgıçların lisansı olmalı.",
@@ -524,7 +941,23 @@
       "olmalı."
      ],
      "emoji": "🤿"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Zorunluluk: *must + yalın fiil* (-meli / -malı).",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "must / mustn't",
+   "titleTr": "Zorunluluk ve yasak",
+   "chips": [
+    "mustn't"
+   ],
+   "examples": [
     {
      "en": "You *mustn't* go rafting without a life jacket.",
      "tr": "Can yeleği olmadan raftinge gitmemelisin.",
@@ -532,7 +965,23 @@
      "trEm": [
       "gitmemelisin."
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Yasak: *mustn't + yalın fiil* (yapılmaması gereken davranış).",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "must / mustn't",
+   "titleTr": "Zorunluluk ve yasak",
+   "chips": [
+    "mustn't"
+   ],
+   "examples": [
     {
      "en": "We *mustn't* leave rubbish in nature.",
      "tr": "Doğaya çöp bırakmamalıyız.",
@@ -541,25 +990,79 @@
      ],
      "emoji": "🗑️"
     }
+   ],
+   "paced": true,
+   "rule": "Yasak: *mustn't + yalın fiil* (yapılmaması gereken davranış).",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "must / mustn't",
+   "titleTr": "Zorunluluk ve yasak",
+   "chips": [
+    "mustn't"
+   ],
+   "examples": [
+    {
+     "en": "You *mustn't* leave rubbish here.",
+     "tr": "Buraya çöp bırakmamalısın.",
+     "trEm": [
+      "bırakmamalısın."
+     ],
+     "emoji": "🗑️"
+    }
+   ],
+   "paced": true,
+   "rule": "Yasak: *mustn't + yalın fiil* (yapılmaması gereken davranış).",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · must / mustn't",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "Divers ___ have a licence.",
+     "clue": "You ___ follow the safety rules.",
      "answer": "must",
-     "tr": "Dalgıçların lisansı olmalı."
-    },
+     "tr": "Güvenlik kurallarına uymalısın."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · must / mustn't",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "We mustn't leave rubbish in nature.",
-     "tr": "Doğaya çöp bırakmamalıyız."
+     "answer": "You mustn't leave rubbish here.",
+     "tr": "Buraya çöp bırakmamalısın."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · must / mustn't",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ follow the safety rules.",
+     "answer": "must",
+     "options": [
+      "must",
+      "mustn't"
+     ],
+     "tr": "Güvenlik kurallarına uymalısın."
     }
    ]
   },
@@ -567,7 +1070,9 @@
    "type": "grammar",
    "title": "Comparing Adventures",
    "titleTr": "Karşılaştırma",
-   "rule": "İki etkinliği karşılaştırırken *more ... than*, en üstünü söylerken *the most ...* kullanılır.",
+   "chips": [
+    "more exciting than"
+   ],
    "examples": [
     {
      "en": "Rafting is *more exciting than* hiking.",
@@ -576,7 +1081,63 @@
      "trEm": [
       "daha heyecan vericidir"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "İki etkinliği karşılaştırırken *more ...",
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Comparing Adventures",
+    "titleTr": "Karşılaştırma",
+    "rule": "İki etkinliği karşılaştırırken *more ... than*, en üstünü söylerken *the most ...* kullanılır.",
+    "examples": [
+     {
+      "en": "Rafting is *more exciting than* hiking.",
+      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir.",
+      "img": "/app/img/words/rafting.jpg",
+      "trEm": [
+       "daha heyecan vericidir"
+      ]
+     },
+     {
+      "en": "Paragliding is *the most thrilling* sport for me.",
+      "tr": "Yamaç paraşütü benim için en heyecan verici spordur.",
+      "img": "/app/img/words/paragliding.jpg",
+      "trEm": [
+       "en heyecan verici"
+      ]
+     },
+     {
+      "en": "Climbing is *harder than* cycling.",
+      "tr": "Tırmanmak, bisiklet sürmekten daha zordur.",
+      "trEm": [
+       "daha zordur"
+      ],
+      "emoji": "🧗"
+     },
+     {
+      "en": "Scuba diving is *the most dangerous* of all.",
+      "tr": "Tüplü dalış hepsinin arasında en tehlikelisidir.",
+      "trEm": [
+       "en tehlikelisidir"
+      ],
+      "emoji": "🤿"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing Adventures",
+   "titleTr": "Karşılaştırma",
+   "chips": [
+    "the most thrilling"
+   ],
+   "examples": [
     {
      "en": "Paragliding is *the most thrilling* sport for me.",
      "tr": "Yamaç paraşütü benim için en heyecan verici spordur.",
@@ -584,7 +1145,23 @@
      "trEm": [
       "en heyecan verici"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "İki etkinliği karşılaştırırken *more ...",
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing Adventures",
+   "titleTr": "Karşılaştırma",
+   "chips": [
+    "harder than"
+   ],
+   "examples": [
     {
      "en": "Climbing is *harder than* cycling.",
      "tr": "Tırmanmak, bisiklet sürmekten daha zordur.",
@@ -592,7 +1169,23 @@
       "daha zordur"
      ],
      "emoji": "🧗"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "İki etkinliği karşılaştırırken *more ...",
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing Adventures",
+   "titleTr": "Karşılaştırma",
+   "chips": [
+    "the most dangerous"
+   ],
+   "examples": [
     {
      "en": "Scuba diving is *the most dangerous* of all.",
      "tr": "Tüplü dalış hepsinin arasında en tehlikelisidir.",
@@ -601,11 +1194,17 @@
      ],
      "emoji": "🤿"
     }
+   ],
+   "paced": true,
+   "rule": "İki etkinliği karşılaştırırken *more ...",
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Comparing Adventures",
    "tasks": [
     {
@@ -619,12 +1218,38 @@
       "the most dangerous"
      ],
      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Comparing Adventures",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
      "answer": "Scuba diving is the most dangerous of all.",
      "tr": "Tüplü dalış hepsinin arasında en tehlikelisidir."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Comparing Adventures",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "Paragliding is ___ sport for me.",
+     "answer": "the most thrilling",
+     "options": [
+      "the most thrilling",
+      "more exciting than",
+      "harder than",
+      "the most dangerous"
+     ],
+     "tr": "Yamaç paraşütü benim için en heyecan verici spordur."
     }
    ]
   },
@@ -667,7 +1292,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -706,7 +1331,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -749,7 +1374,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -758,19 +1383,67 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
+      "answer": "You mustn't leave rubbish here.",
+      "tr": "Buraya çöp bırakmamalısın."
+     },
+     {
+      "answer": "Beginners should go with a guide.",
+      "tr": "Yeni başlayanlar rehberle gitmeli."
+     },
+     {
       "answer": "Rafting is more exciting than hiking.",
       "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
-     },
-     {
-      "answer": "You shouldn't climb alone.",
-      "tr": "Yalnız tırmanmamalısın."
-     },
-     {
-      "answer": "We mustn't leave rubbish in nature.",
-      "tr": "Doğaya çöp bırakmamalıyız."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "should / shouldn't",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "You should check the weather first.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Önce hava durumunu kontrol etmelisin."
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "must / mustn't",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "Divers must have a licence.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Dalgıçların lisansı olmalı."
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Comparing Adventures",
+   "task": {
+    "kind": "flash",
+    "q": "Choose an adventure for a class trip. Compare two activities and explain your choice.",
+    "clue": "Rafting is more exciting than hiking.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

@@ -41,7 +41,18 @@
      "tr": "bağlantı",
      "emoji": "📶",
      "img": "/app/img/words/connection.jpg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Internet Basics",
+   "titleTr": "İnternetin temelleri",
+   "items": [
     {
      "en": "screen",
      "tr": "ekran",
@@ -64,11 +75,15 @@
      "tr": "ek dosya",
      "emoji": "📎"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Internet Basics",
    "tasks": [
     {
@@ -92,7 +107,14 @@
        "b": "tarayıcı"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Internet Basics",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -105,6 +127,19 @@
       "account",
       "search engine"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Internet Basics",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "ek dosya",
+     "answer": "attachment"
     }
    ]
   },
@@ -133,7 +168,18 @@
      "en": "reply",
      "tr": "yanıtlamak",
      "emoji": "↩️"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Online Actions",
+   "titleTr": "İnternette yaptıklarımız",
+   "items": [
     {
      "en": "comment",
      "tr": "yorum yapmak",
@@ -143,18 +189,7 @@
      "en": "confirm",
      "tr": "onaylamak",
      "emoji": "✅"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Online Actions",
-   "titleTr": "İnternette yaptıklarımız",
-   "items": [
+    },
     {
      "en": "register",
      "tr": "kayıt olmak",
@@ -164,7 +199,18 @@
      "en": "sign up",
      "tr": "üye olmak",
      "emoji": "✍️"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Online Actions",
+   "titleTr": "İnternette yaptıklarımız",
+   "items": [
     {
      "en": "sign in",
      "tr": "giriş yapmak",
@@ -182,13 +228,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Online Actions",
    "tasks": [
     {
@@ -197,7 +243,14 @@
      "statement": "\"sign up\" means \"yüklemek\".",
      "answer": false,
      "explain": "sign up = üye olmak"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"yanıtlamak\"?",
+   "titleTr": "Use what you just learned · Online Actions",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"yanıtlamak\"?",
@@ -207,6 +260,35 @@
       "delete",
       "sign in",
       "comment"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Online Actions",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "reply",
+       "b": "yanıtlamak"
+      },
+      {
+       "a": "log on",
+       "b": "oturum açmak"
+      },
+      {
+       "a": "log off",
+       "b": "oturumu kapatmak"
+      },
+      {
+       "a": "sign in",
+       "b": "giriş yapmak"
+      }
      ]
     }
    ]
@@ -235,7 +317,18 @@
      "en": "important",
      "tr": "önemli",
      "emoji": "❗"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "İnternet — ek kelimeler",
+   "items": [
     {
      "en": "improve",
      "tr": "geliştirmek",
@@ -245,18 +338,7 @@
      "en": "information",
      "tr": "bilgi",
      "emoji": "ℹ️"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "İnternet — ek kelimeler",
-   "items": [
+    },
     {
      "en": "instant",
      "tr": "anlık",
@@ -266,7 +348,18 @@
      "en": "isolated",
      "tr": "soyutlanmış",
      "emoji": "🏝️"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "İnternet — ek kelimeler",
+   "items": [
     {
      "en": "create",
      "tr": "oluşturmak",
@@ -289,13 +382,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -303,7 +396,14 @@
      "q": "Guess the English word",
      "clue": "geliştirmek",
      "answer": "improve"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -325,6 +425,20 @@
        "b": "anlık"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"important\" means \"önemli\".",
+     "answer": true,
+     "explain": "important = önemli"
     }
    ]
   },
@@ -352,7 +466,18 @@
      "en": "free time",
      "tr": "boş zaman",
      "emoji": "🕒"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "İnternet — ek kelimeler",
+   "items": [
     {
      "en": "blog",
      "tr": "internet günlüğü",
@@ -373,11 +498,15 @@
      "tr": "kontrol etmek",
      "emoji": "✅"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -386,7 +515,14 @@
      "statement": "\"break\" means \"internet günlüğü\".",
      "answer": false,
      "explain": "break = bozmak"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -412,15 +548,24 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "bozmak",
+     "answer": "break"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Asking for Help",
    "titleTr": "Yardım isteme",
-   "rule": "İnternette veya bilgisayarda yardım isterken *Can you ...?*, *Could you ...?*, *Shall I ...?* kullanılır.",
    "chips": [
-    "Can you ...?",
-    "Could you ...?",
-    "Shall I ...?",
-    "Would you mind ...?"
+    "Can you"
    ],
    "examples": [
     {
@@ -430,7 +575,68 @@
       "yardım eder misin"
      ],
      "emoji": "⬇️"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Asking for Help",
+    "titleTr": "Yardım isteme",
+    "rule": "İnternette veya bilgisayarda yardım isterken *Can you ...?*, *Could you ...?*, *Shall I ...?* kullanılır.",
+    "chips": [
+     "Can you ...?",
+     "Could you ...?",
+     "Shall I ...?",
+     "Would you mind ...?"
+    ],
+    "examples": [
+     {
+      "en": "*Can you* help me download this file?",
+      "tr": "Bu dosyayı indirmeme yardım eder misin?",
+      "trEm": [
+       "yardım eder misin"
+      ],
+      "emoji": "⬇️"
+     },
+     {
+      "en": "*Could you* show me how to log in?",
+      "tr": "Nasıl giriş yapacağımı gösterir misin?",
+      "trEm": [
+       "gösterir misin"
+      ],
+      "emoji": "🔐"
+     },
+     {
+      "en": "*Shall I* send you the link?",
+      "tr": "Sana bağlantıyı göndereyim mi?",
+      "trEm": [
+       "göndereyim mi"
+      ],
+      "emoji": "🔗"
+     },
+     {
+      "en": "*Would you mind* checking my e-mail?",
+      "tr": "E-postama bakar mısın?",
+      "trEm": [
+       "bakar mısın"
+      ],
+      "emoji": "🔗"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Asking for Help",
+   "titleTr": "Yardım isteme",
+   "chips": [
+    "Could you"
+   ],
+   "examples": [
     {
      "en": "*Could you* show me how to log in?",
      "tr": "Nasıl giriş yapacağımı gösterir misin?",
@@ -438,7 +644,23 @@
       "gösterir misin"
      ],
      "emoji": "🔐"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Kibar rica: *Could you + yalın fiil?*",
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Asking for Help",
+   "titleTr": "Yardım isteme",
+   "chips": [
+    "Shall I"
+   ],
+   "examples": [
     {
      "en": "*Shall I* send you the link?",
      "tr": "Sana bağlantıyı göndereyim mi?",
@@ -446,7 +668,23 @@
       "göndereyim mi"
      ],
      "emoji": "🔗"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Yardım teklif etmek için: *Shall I + yalın fiil?*",
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Asking for Help",
+   "titleTr": "Yardım isteme",
+   "chips": [
+    "Would you mind"
+   ],
+   "examples": [
     {
      "en": "*Would you mind* checking my e-mail?",
      "tr": "E-postama bakar mısın?",
@@ -455,11 +693,17 @@
      ],
      "emoji": "🔗"
     }
+   ],
+   "paced": true,
+   "rule": "Kibar rica: *Would you mind + fiil-ing?*",
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Asking for Help",
    "tasks": [
     {
@@ -468,7 +712,14 @@
      "statement": "Can you help me download this file? — Bu dosyayı indirmeme yardım eder misin?",
      "answer": true,
      "explain": "Correct: Can you help me download this file?"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Asking for Help",
+   "tasks": [
     {
      "kind": "fill",
      "text": "___ help me download this file?",
@@ -484,17 +735,30 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Asking for Help",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ show me how to log in?",
+     "answer": "Could you",
+     "options": [
+      "Could you",
+      "Can you",
+      "Shall I",
+      "Would you mind"
+     ],
+     "tr": "Nasıl giriş yapacağımı gösterir misin?"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Giving Instructions",
    "titleTr": "Yönerge verme",
-   "rule": "Bilgisayar yönergelerinde emir cümleleri kullanılır: *click, type, open, save, download*.",
    "chips": [
-    "click on",
-    "type",
-    "open",
-    "save",
-    "download",
-    "log in"
+    "Click on"
    ],
    "examples": [
     {
@@ -504,7 +768,95 @@
       "tıkla"
      ],
      "emoji": "⬇️"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    7
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Giving Instructions",
+    "titleTr": "Yönerge verme",
+    "rule": "Bilgisayar yönergelerinde emir cümleleri kullanılır: *click, type, open, save, download*.",
+    "chips": [
+     "click on",
+     "type",
+     "open",
+     "save",
+     "download",
+     "log in"
+    ],
+    "examples": [
+     {
+      "en": "*Click on* the download button.",
+      "tr": "İndir düğmesine tıkla.",
+      "trEm": [
+       "tıkla"
+      ],
+      "emoji": "⬇️"
+     },
+     {
+      "en": "*Type* your username and password.",
+      "tr": "Kullanıcı adını ve şifreni yaz.",
+      "trEm": [
+       "yaz"
+      ],
+      "emoji": "🔐"
+     },
+     {
+      "en": "*Save* the file to your desktop.",
+      "tr": "Dosyayı masaüstüne kaydet.",
+      "trEm": [
+       "kaydet"
+      ],
+      "emoji": "📄"
+     },
+     {
+      "en": "*Don't* share your password with anyone.",
+      "tr": "Şifreni kimseyle paylaşma.",
+      "trEm": [
+       "paylaşma"
+      ],
+      "emoji": "🔐"
+     },
+     {
+      "en": "*Open* your browser.",
+      "tr": "Tarayıcını aç.",
+      "trEm": [
+       "Tarayıcını aç."
+      ],
+      "img": "/app/img/words/browser.jpg",
+      "emoji": "🌐"
+     },
+     {
+      "en": "*Download* the worksheet.",
+      "tr": "Çalışma kağıdını indir.",
+      "trEm": [
+       "Çalışma kağıdını indir."
+      ],
+      "emoji": "⬇️"
+     },
+     {
+      "en": "*Log in* to your account.",
+      "tr": "Hesabına giriş yap.",
+      "trEm": [
+       "Hesabına giriş yap."
+      ],
+      "emoji": "👤"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Instructions",
+   "titleTr": "Yönerge verme",
+   "chips": [
+    "Type"
+   ],
+   "examples": [
     {
      "en": "*Type* your username and password.",
      "tr": "Kullanıcı adını ve şifreni yaz.",
@@ -512,7 +864,23 @@
       "yaz"
      ],
      "emoji": "🔐"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Bilgisayar yönergelerinde emir cümleleri kullanılır: *click, type, open, save, download*.",
+   "part": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Instructions",
+   "titleTr": "Yönerge verme",
+   "chips": [
+    "Save"
+   ],
+   "examples": [
     {
      "en": "*Save* the file to your desktop.",
      "tr": "Dosyayı masaüstüne kaydet.",
@@ -520,7 +888,23 @@
       "kaydet"
      ],
      "emoji": "📄"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Bilgisayar yönergelerinde emir cümleleri kullanılır: *click, type, open, save, download*.",
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Instructions",
+   "titleTr": "Yönerge verme",
+   "chips": [
+    "Don't"
+   ],
+   "examples": [
     {
      "en": "*Don't* share your password with anyone.",
      "tr": "Şifreni kimseyle paylaşma.",
@@ -529,98 +913,410 @@
      ],
      "emoji": "🔐"
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Instructions",
+   "titleTr": "Yönerge verme",
+   "chips": [
+    "Open"
+   ],
+   "examples": [
+    {
+     "en": "*Open* your browser.",
+     "tr": "Tarayıcını aç.",
+     "trEm": [
+      "Tarayıcını aç."
+     ],
+     "img": "/app/img/words/browser.jpg",
+     "emoji": "🌐"
+    }
+   ],
+   "paced": true,
+   "rule": "Bilgisayar yönergelerinde emir cümleleri kullanılır: *click, type, open, save, download*.",
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Instructions",
+   "titleTr": "Yönerge verme",
+   "chips": [
+    "Download"
+   ],
+   "examples": [
+    {
+     "en": "*Download* the worksheet.",
+     "tr": "Çalışma kağıdını indir.",
+     "trEm": [
+      "Çalışma kağıdını indir."
+     ],
+     "emoji": "⬇️"
+    }
+   ],
+   "paced": true,
+   "rule": "Bilgisayar yönergelerinde emir cümleleri kullanılır: *click, type, open, save, download*.",
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Instructions",
+   "titleTr": "Yönerge verme",
+   "chips": [
+    "Log in"
+   ],
+   "examples": [
+    {
+     "en": "*Log in* to your account.",
+     "tr": "Hesabına giriş yap.",
+     "trEm": [
+      "Hesabına giriş yap."
+     ],
+     "emoji": "👤"
+    }
+   ],
+   "paced": true,
+   "part": [
+    7,
+    7
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Giving Instructions",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "___ your username and password.",
-     "answer": "Type",
-     "tr": "Kullanıcı adını ve şifreni yaz."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Don't share your password with anyone.",
-     "tr": "Şifreni kimseyle paylaşma."
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Internet Safety",
-   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
-   "columns": [
-    {
-     "title": "DO ✅",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "You *should* use a strong password.",
-       "tr": "Güçlü bir şifre kullanmalısın.",
-       "trEm": [
-        "kullanmalısın."
-       ],
-       "emoji": "🔐"
-      },
-      {
-       "en": "You *should* log out on public computers.",
-       "tr": "Ortak bilgisayarlarda çıkış yapmalısın.",
-       "trEm": [
-        "yapmalısın."
-       ],
-       "emoji": "🛡️"
-      },
-      {
-       "en": "You *should* tell an adult about strange messages.",
-       "tr": "Garip mesajları bir yetişkine söylemelisin.",
-       "trEm": [
-        "söylemelisin."
-       ],
-       "emoji": "🛡️"
-      }
-     ]
-    },
-    {
-     "title": "DON'T ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "You *shouldn't* accept friend requests from strangers.",
-       "tr": "Yabancılardan arkadaşlık isteği kabul etmemelisin.",
-       "trEm": [
-        "etmemelisin."
-       ],
-       "emoji": "👥"
-      },
-      {
-       "en": "You *shouldn't* share personal information.",
-       "tr": "Kişisel bilgilerini paylaşmamalısın.",
-       "trEm": [
-        "paylaşmamalısın."
-       ],
-       "emoji": "ℹ️"
-      },
-      {
-       "en": "You *mustn't* click on suspicious links.",
-       "tr": "Şüpheli bağlantılara tıklamamalısın.",
-       "trEm": [
-        "tıklamamalısın."
-       ],
-       "emoji": "🛡️"
-      }
-     ]
+     "clue": "___ the worksheet.",
+     "answer": "Download",
+     "tr": "Çalışma kağıdını indir."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Giving Instructions",
+   "tasks": [
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Log in to your account.",
+     "tr": "Hesabına giriş yap."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Giving Instructions",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ the download button.",
+     "answer": "Click on",
+     "options": [
+      "Click on",
+      "Type",
+      "Save",
+      "Don't"
+     ],
+     "tr": "İndir düğmesine tıkla."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Internet Safety",
+   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+   "chips": [
+    "Don't"
+   ],
+   "examples": [
+    {
+     "en": "*Don't* open messages from strangers.",
+     "tr": "Yabancılardan gelen mesajları açma.",
+     "trEm": [
+      "Yabancılardan gelen mesajları açma."
+     ],
+     "emoji": "👥"
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    7
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "Internet Safety",
+    "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+    "columns": [
+     {
+      "title": "DO ✅",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "You *should* use a strong password.",
+        "tr": "Güçlü bir şifre kullanmalısın.",
+        "trEm": [
+         "kullanmalısın."
+        ],
+        "emoji": "🔐"
+       },
+       {
+        "en": "You *should* log out on public computers.",
+        "tr": "Ortak bilgisayarlarda çıkış yapmalısın.",
+        "trEm": [
+         "yapmalısın."
+        ],
+        "emoji": "🛡️"
+       },
+       {
+        "en": "You *should* tell an adult about strange messages.",
+        "tr": "Garip mesajları bir yetişkine söylemelisin.",
+        "trEm": [
+         "söylemelisin."
+        ],
+        "emoji": "🛡️"
+       }
+      ]
+     },
+     {
+      "title": "DON'T ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "You *shouldn't* accept friend requests from strangers.",
+        "tr": "Yabancılardan arkadaşlık isteği kabul etmemelisin.",
+        "trEm": [
+         "etmemelisin."
+        ],
+        "emoji": "👥"
+       },
+       {
+        "en": "You *shouldn't* share personal information.",
+        "tr": "Kişisel bilgilerini paylaşmamalısın.",
+        "trEm": [
+         "paylaşmamalısın."
+        ],
+        "emoji": "ℹ️"
+       },
+       {
+        "en": "You *mustn't* click on suspicious links.",
+        "tr": "Şüpheli bağlantılara tıklamamalısın.",
+        "trEm": [
+         "tıklamamalısın."
+        ],
+        "emoji": "🛡️"
+       }
+      ]
+     }
+    ],
+    "examples": [
+     {
+      "en": "*Don't* open messages from strangers.",
+      "tr": "Yabancılardan gelen mesajları açma.",
+      "trEm": [
+       "Yabancılardan gelen mesajları açma."
+      ],
+      "emoji": "👥"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Internet Safety",
+   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+   "chips": [
+    "DO ✅"
+   ],
+   "examples": [
+    {
+     "en": "You *should* use a strong password.",
+     "tr": "Güçlü bir şifre kullanmalısın.",
+     "trEm": [
+      "kullanmalısın."
+     ],
+     "emoji": "🔐",
+     "focus": "DO ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Internet Safety",
+   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+   "chips": [
+    "DO ✅"
+   ],
+   "examples": [
+    {
+     "en": "You *should* log out on public computers.",
+     "tr": "Ortak bilgisayarlarda çıkış yapmalısın.",
+     "trEm": [
+      "yapmalısın."
+     ],
+     "emoji": "🛡️",
+     "focus": "DO ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Internet Safety",
+   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+   "chips": [
+    "DO ✅"
+   ],
+   "examples": [
+    {
+     "en": "You *should* tell an adult about strange messages.",
+     "tr": "Garip mesajları bir yetişkine söylemelisin.",
+     "trEm": [
+      "söylemelisin."
+     ],
+     "emoji": "🛡️",
+     "focus": "DO ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Internet Safety",
+   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+   "chips": [
+    "DON'T ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *shouldn't* accept friend requests from strangers.",
+     "tr": "Yabancılardan arkadaşlık isteği kabul etmemelisin.",
+     "trEm": [
+      "etmemelisin."
+     ],
+     "emoji": "👥",
+     "focus": "DON'T ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Internet Safety",
+   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+   "chips": [
+    "DON'T ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *shouldn't* share personal information.",
+     "tr": "Kişisel bilgilerini paylaşmamalısın.",
+     "trEm": [
+      "paylaşmamalısın."
+     ],
+     "emoji": "ℹ️",
+     "focus": "DON'T ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Internet Safety",
+   "titleTr": "İnternet güvenliği: yapılması ve yapılmaması gerekenler",
+   "chips": [
+    "DON'T ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *mustn't* click on suspicious links.",
+     "tr": "Şüpheli bağlantılara tıklamamalısın.",
+     "trEm": [
+      "tıklamamalısın."
+     ],
+     "emoji": "🛡️",
+     "focus": "DON'T ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    7,
+    7
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Internet Safety",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ open messages from strangers.",
+     "answer": "Don't",
+     "options": [
+      "Don't",
+      "should",
+      "shouldn't",
+      "mustn't"
+     ],
+     "tr": "Yabancılardan gelen mesajları açma."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Internet Safety",
+   "tasks": [
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "You mustn't click on suspicious links.",
+     "tr": "Şüpheli bağlantılara tıklamamalısın."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Internet Safety",
    "tasks": [
     {
@@ -629,16 +1325,11 @@
      "answer": "should",
      "options": [
       "should",
+      "Don't",
       "shouldn't",
       "mustn't"
      ],
      "tr": "Güçlü bir şifre kullanmalısın."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "You mustn't click on suspicious links.",
-     "tr": "Şüpheli bağlantılara tıklamamalısın."
     }
    ]
   },
@@ -681,7 +1372,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -720,7 +1411,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -760,7 +1451,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -769,19 +1460,67 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Save the file to your desktop.",
-      "tr": "Dosyayı masaüstüne kaydet."
+      "answer": "You should tell an adult about strange messages.",
+      "tr": "Garip mesajları bir yetişkine söylemelisin."
      },
      {
-      "answer": "You should log out on public computers.",
-      "tr": "Ortak bilgisayarlarda çıkış yapmalısın."
+      "answer": "Type your username and password.",
+      "tr": "Kullanıcı adını ve şifreni yaz."
      },
      {
-      "answer": "Would you mind checking my e-mail?",
-      "tr": "E-postama bakar mısın?"
+      "answer": "You shouldn't accept friend requests from strangers.",
+      "tr": "Yabancılardan arkadaşlık isteği kabul etmemelisin."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Asking for Help",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "Could you show me how to log in?",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Nasıl giriş yapacağımı gösterir misin?"
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Giving Instructions",
+   "task": {
+    "kind": "flash",
+    "q": "Help your partner open a browser and save a worksheet. Give the steps aloud.",
+    "clue": "Type your username and password.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Kullanıcı adını ve şifreni yaz."
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Internet Safety",
+   "task": {
+    "kind": "flash",
+    "q": "Your partner gets a message from a stranger. Give two safety instructions.",
+    "clue": "You should log out on public computers.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Ortak bilgisayarlarda çıkış yapmalısın."
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

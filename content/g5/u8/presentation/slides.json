@@ -47,7 +47,18 @@
      "tr": "milli park",
      "emoji": "🏞️",
      "img": "p01-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Planet Earth",
+   "titleTr": "Dünya gezegeni",
+   "items": [
     {
      "en": "desert",
      "tr": "çöl",
@@ -65,11 +76,17 @@
      "tr": "vadi",
      "emoji": "🏔️",
      "img": "p01-07.png"
+    },
+    {
+     "en": "canyon",
+     "tr": "kanyon",
+     "emoji": "🧗",
+     "img": "p01-08.png"
     }
    ],
    "part": [
-    1,
-    3
+    2,
+    5
    ]
   },
   {
@@ -77,12 +94,6 @@
    "title": "Planet Earth",
    "titleTr": "Dünya gezegeni",
    "items": [
-    {
-     "en": "canyon",
-     "tr": "kanyon",
-     "emoji": "🧗",
-     "img": "p01-08.png"
-    },
     {
      "en": "rock",
      "tr": "kaya",
@@ -106,7 +117,18 @@
      "tr": "nehir",
      "emoji": "🌊",
      "img": "p01-12.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Planet Earth",
+   "titleTr": "Dünya gezegeni",
+   "items": [
     {
      "en": "sea",
      "tr": "deniz",
@@ -118,18 +140,7 @@
      "tr": "okyanus",
      "emoji": "🌊",
      "img": "p01-14.png"
-    }
-   ],
-   "part": [
-    2,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Planet Earth",
-   "titleTr": "Dünya gezegeni",
-   "items": [
+    },
     {
      "en": "coral reef",
      "tr": "mercan kayalığı",
@@ -141,7 +152,18 @@
      "tr": "ada",
      "emoji": "🏝️",
      "img": "p01-16.png"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Planet Earth",
+   "titleTr": "Dünya gezegeni",
+   "items": [
     {
      "en": "bridge",
      "tr": "köprü",
@@ -168,13 +190,13 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Planet Earth",
    "tasks": [
     {
@@ -198,7 +220,14 @@
        "b": "kıta"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Planet Earth",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -211,6 +240,19 @@
       "coral reef",
       "lake"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Planet Earth",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "mağara",
+     "answer": "cave"
     }
    ]
   },
@@ -238,7 +280,18 @@
      "en": "half-term holiday",
      "tr": "ara tatil",
      "emoji": "🎀"
-    },
+    }
+   ],
+   "part": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Holidays & Travel",
+   "titleTr": "Tatiller ve seyahat",
+   "items": [
     {
      "en": "tour",
      "tr": "tur",
@@ -253,32 +306,16 @@
      "en": "trip",
      "tr": "gezi",
      "emoji": "🎒"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Holidays & Travel",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"tour\" means \"yaz tatili\".",
-     "answer": false,
-     "explain": "tour = tur"
     },
     {
-     "kind": "choose",
-     "q": "Which word means \"yaz tatili\"?",
-     "answer": "summer holiday",
-     "options": [
-      "summer holiday",
-      "trip",
-      "journey",
-      "winter holiday"
-     ]
+     "en": "sightseeing",
+     "tr": "gezip görme",
+     "emoji": "🏙️"
     }
+   ],
+   "part": [
+    2,
+    4
    ]
   },
   {
@@ -286,11 +323,6 @@
    "title": "Holidays & Travel",
    "titleTr": "Tatiller ve seyahat",
    "items": [
-    {
-     "en": "sightseeing",
-     "tr": "gezip görme",
-     "emoji": "🚌"
-    },
     {
      "en": "season",
      "tr": "mevsim",
@@ -310,7 +342,18 @@
      "en": "destination",
      "tr": "gidilecek yer",
      "emoji": "📍"
-    },
+    }
+   ],
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Holidays & Travel",
+   "titleTr": "Tatiller ve seyahat",
+   "items": [
     {
      "en": "view",
      "tr": "manzara",
@@ -321,38 +364,68 @@
      "tr": "turizm",
      "emoji": "🧳"
     }
+   ],
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Holidays & Travel",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "turizm",
-     "answer": "tourism"
-    },
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"season\" means \"kış tatili\".",
+     "answer": false,
+     "explain": "season = mevsim"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"yaz tatili\"?",
+   "titleTr": "Use what you just learned · Holidays & Travel",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"yaz tatili\"?",
+     "answer": "summer holiday",
+     "options": [
+      "summer holiday",
+      "destination",
+      "climate",
+      "spring holiday"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Holidays & Travel",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
+       "a": "summer holiday",
+       "b": "yaz tatili"
+      },
+      {
        "a": "sightseeing",
        "b": "gezip görme"
       },
       {
-       "a": "climate",
-       "b": "iklim"
-      },
-      {
-       "a": "season",
-       "b": "mevsim"
-      },
-      {
        "a": "view",
        "b": "manzara"
+      },
+      {
+       "a": "winter holiday",
+       "b": "kış tatili"
       }
      ]
     }
@@ -386,7 +459,18 @@
      "tr": "balığa gitmek",
      "emoji": "🎣",
      "img": "p02-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Holiday Activities",
+   "titleTr": "Tatil aktiviteleri",
+   "items": [
     {
      "en": "go skiing",
      "tr": "kayağa gitmek",
@@ -410,33 +494,10 @@
      "emoji": "🏊",
      "img": "p02-07.png"
     }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Holiday Activities",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "p02-03.png",
-     "answer": "go hiking",
-     "tr": "doğa yürüyüşüne gitmek",
-     "options": [
-      "go hiking",
-      "go sightseeing",
-      "swim",
-      "go skiing"
-     ]
-    },
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"go scuba diving\" means \"dağa tırmanmak\".",
-     "answer": false,
-     "explain": "go scuba diving = tüplü dalışa gitmek"
-    }
+   ],
+   "part": [
+    2,
+    4
    ]
   },
   {
@@ -467,7 +528,18 @@
      "tr": "bisiklete binmek",
      "emoji": "🚲",
      "img": "p02-11.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Holiday Activities",
+   "titleTr": "Tatil aktiviteleri",
+   "items": [
     {
      "en": "ride a roller coaster",
      "tr": "hız trenine binmek",
@@ -491,11 +563,28 @@
      "emoji": "🏛️",
      "img": "p02-14.png"
     }
+   ],
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Holiday Activities",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "dağa tırmanmak",
+     "answer": "climb a mountain"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Holiday Activities",
    "tasks": [
     {
@@ -503,34 +592,41 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "ride a camel",
-       "b": "deveye binmek"
+       "a": "go sightseeing",
+       "b": "geziye gitmek"
       },
       {
-       "a": "have a picnic",
-       "b": "piknik yapmak"
+       "a": "go snorkelling",
+       "b": "şnorkelle yüzmeye gitmek"
       },
       {
-       "a": "make a sandcastle",
-       "b": "kumdan kale yapmak"
+       "a": "go fishing",
+       "b": "balığa gitmek"
       },
       {
-       "a": "visit a museum",
-       "b": "müzeyi ziyaret etmek"
+       "a": "go skiing",
+       "b": "kayağa gitmek"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Holiday Activities",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-09.png",
-     "answer": "collect seashells",
-     "tr": "deniz kabuğu toplamak",
+     "img": "p02-13.png",
+     "answer": "take a boat tour",
+     "tr": "tekne turuna çıkmak",
      "options": [
-      "collect seashells",
-      "make a sandcastle",
-      "ride a bike",
-      "ride a roller coaster"
+      "take a boat tour",
+      "go fishing",
+      "go skiing",
+      "go snorkelling"
      ]
     }
    ]
@@ -559,7 +655,18 @@
      "en": "enjoy",
      "tr": "keyif almak",
      "emoji": "😊"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Fiiller",
+   "items": [
     {
      "en": "plan",
      "tr": "planlamak",
@@ -569,18 +676,7 @@
      "en": "see",
      "tr": "görmek",
      "emoji": "👀"
-    }
-   ],
-   "part": [
-    1,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Verbs",
-   "titleTr": "Fiiller",
-   "items": [
+    },
     {
      "en": "join",
      "tr": "katılmak",
@@ -590,7 +686,18 @@
      "en": "take photos",
      "tr": "fotoğraf çekmek",
      "emoji": "📷"
-    },
+    }
+   ],
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Fiiller",
+   "items": [
     {
      "en": "invite",
      "tr": "davet etmek",
@@ -613,8 +720,8 @@
     }
    ],
    "part": [
-    2,
-    3
+    3,
+    5
    ]
   },
   {
@@ -641,7 +748,18 @@
      "en": "pack",
      "tr": "eşya toplamak",
      "emoji": "🧳"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Fiiller",
+   "items": [
     {
      "en": "recommend",
      "tr": "tavsiye etmek",
@@ -654,32 +772,63 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"visit\" means \"planlamak\".",
+     "statement": "\"involve\" means \"gitmek\".",
      "answer": false,
-     "explain": "visit = ziyaret etmek"
-    },
+     "explain": "involve = içermek"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
     {
-     "kind": "choose",
-     "q": "Which word means \"yükselmek\"?",
-     "answer": "rise",
-     "options": [
-      "rise",
-      "need",
-      "visit",
-      "involve"
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "invite",
+       "b": "davet etmek"
+      },
+      {
+       "a": "see",
+       "b": "görmek"
+      },
+      {
+       "a": "plan",
+       "b": "planlamak"
+      },
+      {
+       "a": "take photos",
+       "b": "fotoğraf çekmek"
+      }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "seyahat etmek",
+     "answer": "travel"
     }
    ]
   },
@@ -707,7 +856,18 @@
      "en": "famous",
      "tr": "ünlü",
      "emoji": "⭐"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "magical",
      "tr": "büyülü",
@@ -717,18 +877,7 @@
      "en": "amazing",
      "tr": "harika",
      "emoji": "🤩"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Adjectives",
-   "titleTr": "Sıfatlar",
-   "items": [
+    },
     {
      "en": "calm",
      "tr": "sakin",
@@ -738,7 +887,18 @@
      "en": "jolly",
      "tr": "neşeli, keyifli",
      "emoji": "😄"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "beautiful",
      "tr": "güzel",
@@ -761,42 +921,63 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "eğlenceli",
-     "answer": "fun"
-    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
+       "a": "peaceful",
+       "b": "huzurlu"
+      },
+      {
+       "a": "historical",
+       "b": "tarihi"
+      },
+      {
        "a": "fun",
        "b": "eğlenceli"
       },
       {
-       "a": "beautiful",
-       "b": "güzel"
-      },
-      {
-       "a": "giant / huge",
-       "b": "kocaman"
-      },
-      {
-       "a": "famous",
-       "b": "ünlü"
+       "a": "magical",
+       "b": "büyülü"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "ünlü",
+     "answer": "famous"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"fun\" means \"eğlenceli\".",
+     "answer": true,
+     "explain": "fun = eğlenceli"
     }
    ]
   },
@@ -804,11 +985,8 @@
    "type": "grammar",
    "title": "Simple Future — be going to",
    "titleTr": "Gelecek zaman: -ecek / -acak",
-   "rule": "Gelecek planlarımızı anlatırken *am/is/are going to* + yalın fiil kullanırız.",
    "chips": [
-    "tomorrow",
-    "... later",
-    "next ..."
+    "am going to"
    ],
    "examples": [
     {
@@ -819,7 +997,70 @@
      "trEm": [
       "edeceğim"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Simple Future — be going to",
+    "titleTr": "Gelecek zaman: -ecek / -acak",
+    "rule": "Gelecek planlarımızı anlatırken *am/is/are going to* + yalın fiil kullanırız.",
+    "chips": [
+     "tomorrow",
+     "... later",
+     "next ..."
+    ],
+    "examples": [
+     {
+      "en": "I *am going to* visit a museum tomorrow.",
+      "tr": "Yarın bir müzeyi ziyaret edeceğim.",
+      "img": "p02-14.png",
+      "emoji": "🏛️",
+      "trEm": [
+       "edeceğim"
+      ]
+     },
+     {
+      "en": "He *is going to* go sightseeing next week.",
+      "tr": "O gelecek hafta geziye gidecek.",
+      "img": "p02-02.png",
+      "emoji": "🗼",
+      "trEm": [
+       "gelecek",
+       "gidecek"
+      ]
+     },
+     {
+      "en": "They *are going to* stay at a hotel.",
+      "tr": "Onlar bir otelde kalacaklar.",
+      "trEm": [
+       "kalacaklar"
+      ],
+      "emoji": "🏨"
+     },
+     {
+      "en": "We *are going to* travel by train next month.",
+      "tr": "Gelecek ay trenle seyahat edeceğiz.",
+      "trEm": [
+       "Gelecek ay trenle seyahat edeceğiz."
+      ],
+      "emoji": "✈️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Future — be going to",
+   "titleTr": "Gelecek zaman: -ecek / -acak",
+   "chips": [
+    "is going to"
+   ],
+   "examples": [
     {
      "en": "He *is going to* go sightseeing next week.",
      "tr": "O gelecek hafta geziye gidecek.",
@@ -829,7 +1070,22 @@
       "gelecek",
       "gidecek"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Future — be going to",
+   "titleTr": "Gelecek zaman: -ecek / -acak",
+   "chips": [
+    "are going to"
+   ],
+   "examples": [
     {
      "en": "They *are going to* stay at a hotel.",
      "tr": "Onlar bir otelde kalacaklar.",
@@ -838,20 +1094,70 @@
      ],
      "emoji": "🏨"
     }
+   ],
+   "paced": true,
+   "rule": "Gelecek planlarımızı anlatırken *am/is/are going to* + yalın fiil kullanırız.",
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Future — be going to",
+   "titleTr": "Gelecek zaman: -ecek / -acak",
+   "chips": [
+    "are going to"
+   ],
+   "examples": [
+    {
+     "en": "We *are going to* travel by train next month.",
+     "tr": "Gelecek ay trenle seyahat edeceğiz.",
+     "trEm": [
+      "Gelecek ay trenle seyahat edeceğiz."
+     ],
+     "emoji": "✈️"
+    }
+   ],
+   "paced": true,
+   "rule": "Gelecek planlarımızı anlatırken *am/is/are going to* + yalın fiil kullanırız.",
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Simple Future — be going to",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "Does the sentence match the meaning?",
-     "statement": "He is going to go sightseeing next week. — Yarın bir müzeyi ziyaret edeceğim.",
-     "answer": false,
-     "explain": "Correct: He is going to go sightseeing next week."
-    },
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "He ___ go sightseeing next week.",
+     "answer": "is going to",
+     "tr": "O gelecek hafta geziye gidecek."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Simple Future — be going to",
+   "tasks": [
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "They are going to stay at a hotel.",
+     "tr": "Onlar bir otelde kalacaklar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Future — be going to",
+   "tasks": [
     {
      "kind": "fill",
      "text": "I ___ visit a museum tomorrow.",
@@ -866,82 +1172,234 @@
    ]
   },
   {
-   "type": "compare",
+   "type": "grammar",
    "title": "Negative & Question",
    "titleTr": "Olumsuz ve soru cümleleri",
-   "columns": [
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
     {
-     "title": "NEGATIVE ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "I *am not going to* ride a camel.",
-       "tr": "Deveye binmeyeceğim.",
-       "img": "p02-10.png",
-       "emoji": "🐫",
-       "trEm": [
-        "binmeyeceğim"
-       ]
-      },
-      {
-       "en": "She *isn't going to* take photos.",
-       "tr": "O fotoğraf çekmeyecek.",
-       "trEm": [
-        "çekmeyecek"
-       ],
-       "emoji": "📷"
-      },
-      {
-       "en": "You *aren't going to* invite your friends.",
-       "tr": "Sen arkadaşlarını davet etmeyeceksin.",
-       "trEm": [
-        "etmeyeceksin"
-       ],
-       "emoji": "💌"
-      }
-     ]
-    },
+     "en": "I *am not going to* ride a camel.",
+     "tr": "Deveye binmeyeceğim.",
+     "img": "p02-10.png",
+     "emoji": "🐫",
+     "trEm": [
+      "binmeyeceğim"
+     ],
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "Negative & Question",
+    "titleTr": "Olumsuz ve soru cümleleri",
+    "columns": [
+     {
+      "title": "NEGATIVE ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "I *am not going to* ride a camel.",
+        "tr": "Deveye binmeyeceğim.",
+        "img": "p02-10.png",
+        "emoji": "🐫",
+        "trEm": [
+         "binmeyeceğim"
+        ]
+       },
+       {
+        "en": "She *isn't going to* take photos.",
+        "tr": "O fotoğraf çekmeyecek.",
+        "trEm": [
+         "çekmeyecek"
+        ],
+        "emoji": "📷"
+       },
+       {
+        "en": "You *aren't going to* invite your friends.",
+        "tr": "Sen arkadaşlarını davet etmeyeceksin.",
+        "trEm": [
+         "etmeyeceksin"
+        ],
+        "emoji": "💌"
+       }
+      ]
+     },
+     {
+      "title": "QUESTION ❓",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "*Are* you *going to* swim in the sea? — Yes, I am.",
+        "tr": "Denizde yüzecek misin? — Evet.",
+        "img": "p01-13.png",
+        "trEm": [
+         "yüzecek misin"
+        ]
+       },
+       {
+        "en": "*Is* she *going to* climb the mountain tomorrow? — No, she isn't.",
+        "tr": "O yarın dağa tırmanacak mı? — Hayır.",
+        "img": "p01-02.png",
+        "trEm": [
+         "O yarın dağa tırmanacak mı? — Hayır."
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
     {
-     "title": "QUESTION ❓",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "*Are* you *going to* swim in the sea? — Yes, I am.",
-       "tr": "Denizde yüzecek misin? — Evet.",
-       "img": "p01-13.png",
-       "trEm": [
-        "yüzecek misin"
-       ]
-      },
-      {
-       "en": "*Is* she *going to* climb the mountain tomorrow? — No, she isn't.",
-       "tr": "O yarın dağa tırmanacak mı? — Hayır.",
-       "img": "p01-02.png",
-       "trEm": [
-        "O yarın dağa tırmanacak mı? — Hayır."
-       ]
-      }
-     ]
+     "en": "She *isn't going to* take photos.",
+     "tr": "O fotoğraf çekmeyecek.",
+     "trEm": [
+      "çekmeyecek"
+     ],
+     "emoji": "📷",
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *aren't going to* invite your friends.",
+     "tr": "Sen arkadaşlarını davet etmeyeceksin.",
+     "trEm": [
+      "etmeyeceksin"
+     ],
+     "emoji": "💌",
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "QUESTION ❓"
+   ],
+   "examples": [
+    {
+     "en": "*Are* you *going to* swim in the sea? — Yes, I am.",
+     "tr": "Denizde yüzecek misin? — Evet.",
+     "img": "p01-13.png",
+     "trEm": [
+      "yüzecek misin"
+     ],
+     "focus": "QUESTION ❓"
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "QUESTION ❓"
+   ],
+   "examples": [
+    {
+     "en": "*Is* she *going to* climb the mountain tomorrow? — No, she isn't.",
+     "tr": "O yarın dağa tırmanacak mı? — Hayır.",
+     "img": "p01-02.png",
+     "trEm": [
+      "O yarın dağa tırmanacak mı? — Hayır."
+     ],
+     "focus": "QUESTION ❓"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    5
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Negative & Question",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ ride a camel.",
+     "answer": "am not going to",
+     "options": [
+      "am not going to",
+      "isn't going to",
+      "aren't going to",
+      "Are"
+     ],
+     "tr": "Deveye binmeyeceğim."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Put the sentence in order",
    "titleTr": "Use what you just learned · Negative & Question",
    "tasks": [
-    {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "___ you going to swim in the sea? — Yes, I am.",
-     "answer": "Are",
-     "tr": "Denizde yüzecek misin? — Evet."
-    },
     {
      "kind": "order",
      "q": "Put the sentence in order",
      "answer": "You aren't going to invite your friends.",
      "tr": "Sen arkadaşlarını davet etmeyeceksin."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Negative & Question",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "She ___ take photos.",
+     "answer": "isn't going to",
+     "options": [
+      "isn't going to",
+      "am not going to",
+      "aren't going to",
+      "Are"
+     ],
+     "tr": "O fotoğraf çekmeyecek."
     }
    ]
   },
@@ -984,7 +1442,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    5
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -993,28 +1451,28 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "valley",
-      "tr": "vadi",
-      "img": "p01-07.png",
-      "emoji": "🏔️"
+      "en": "have a picnic",
+      "tr": "piknik yapmak",
+      "img": "p02-12.png",
+      "emoji": "🧺"
      },
      {
-      "en": "sea",
-      "tr": "deniz",
-      "img": "p01-13.png",
-      "emoji": "🌊"
+      "en": "sand dune",
+      "tr": "kum tepesi",
+      "img": "p01-06.png",
+      "emoji": "🏜️"
      },
      {
-      "en": "continent",
-      "tr": "kıta",
-      "img": "p01-01.png",
-      "emoji": "🌍"
+      "en": "forest",
+      "tr": "orman",
+      "img": "p01-19.png",
+      "emoji": "🌲"
      },
      {
-      "en": "go scuba diving",
-      "tr": "tüplü dalışa gitmek",
-      "img": "p02-06.png",
-      "emoji": "🤿"
+      "en": "ride a bike",
+      "tr": "bisiklete binmek",
+      "img": "p02-11.png",
+      "emoji": "🚲"
      }
     ]
    }
@@ -1023,7 +1481,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    5
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -1032,18 +1490,18 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "ride a bike",
-      "tr": "bisiklete binmek",
-      "img": "p02-11.png",
-      "emoji": "🚲",
-      "audio": "/app/audio/words/ride-a-bike.wav"
+      "en": "sea",
+      "tr": "deniz",
+      "img": "p01-13.png",
+      "emoji": "🌊",
+      "audio": "/app/audio/words/sea.wav"
      },
      {
-      "en": "canyon",
-      "tr": "kanyon",
-      "img": "p01-08.png",
-      "emoji": "🧗",
-      "audio": "/app/audio/words/canyon.wav"
+      "en": "valley",
+      "tr": "vadi",
+      "img": "p01-07.png",
+      "emoji": "🏔️",
+      "audio": "/app/audio/words/valley.wav"
      },
      {
       "en": "hill",
@@ -1053,11 +1511,11 @@
       "audio": "/app/audio/words/hill.wav"
      },
      {
-      "en": "desert",
-      "tr": "çöl",
-      "img": "p01-05.png",
-      "emoji": "🏜️",
-      "audio": "/app/audio/words/desert.wav"
+      "en": "mountain",
+      "tr": "dağ",
+      "img": "p01-02.png",
+      "emoji": "⛰️",
+      "audio": "/app/audio/words/mountain.wav"
      }
     ]
    }
@@ -1066,7 +1524,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    5
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -1075,19 +1533,51 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "You aren't going to invite your friends.",
-      "tr": "Sen arkadaşlarını davet etmeyeceksin."
+      "answer": "They are going to stay at a hotel.",
+      "tr": "Onlar bir otelde kalacaklar."
      },
      {
       "answer": "I am not going to ride a camel.",
       "tr": "Deveye binmeyeceğim."
      },
      {
-      "answer": "I am going to visit a museum tomorrow.",
-      "tr": "Yarın bir müzeyi ziyaret edeceğim."
+      "answer": "She isn't going to take photos.",
+      "tr": "O fotoğraf çekmeyecek."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Simple Future — be going to",
+   "task": {
+    "kind": "flash",
+    "q": "Plan a holiday together. Say where you are going to go and two things you are going to do.",
+    "clue": "We are going to travel by train next month.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Gelecek ay trenle seyahat edeceğiz."
+   },
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Negative & Question",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "Is she going to climb the mountain tomorrow? — No, she isn't.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "O yarın dağa tırmanacak mı? — Hayır."
+   },
+   "part": [
+    5,
+    5
+   ]
   },
   {
    "type": "pages",

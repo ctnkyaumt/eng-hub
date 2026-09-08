@@ -44,7 +44,18 @@
      "tr": "öğretmen",
      "emoji": "👨‍🏫",
      "img": "p01-03.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "People at School",
+   "titleTr": "Okuldaki kişiler",
+   "items": [
     {
      "en": "student",
      "tr": "öğrenci",
@@ -63,11 +74,15 @@
      "emoji": "🏃",
      "img": "p01-06.png"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · People at School",
    "tasks": [
     {
@@ -91,7 +106,14 @@
        "b": "okul müdürü"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · People at School",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -104,6 +126,19 @@
       "student",
       "teacher"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · People at School",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "müdür yardımcısı",
+     "answer": "assistant"
     }
    ]
   },
@@ -135,7 +170,18 @@
      "tr": "konferans salonu",
      "emoji": "🎭",
      "img": "p01-10.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Places at School",
+   "titleTr": "Okuldaki yerler",
+   "items": [
     {
      "en": "canteen",
      "tr": "kantin",
@@ -160,11 +206,15 @@
      "emoji": "🚪",
      "img": "p01-14.png"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Places at School",
    "tasks": [
     {
@@ -173,7 +223,14 @@
      "statement": "\"classroom\" means \"kapı\".",
      "answer": false,
      "explain": "classroom = sınıf"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"kapı\"?",
+   "titleTr": "Use what you just learned · Places at School",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"kapı\"?",
@@ -188,14 +245,40 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Places at School",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "conference hall",
+       "b": "konferans salonu"
+      },
+      {
+       "a": "canteen",
+       "b": "kantin"
+      },
+      {
+       "a": "gate",
+       "b": "kapı"
+      },
+      {
+       "a": "classroom",
+       "b": "sınıf"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "A / AN / THE",
    "titleTr": "Belirli ve belirsiz tanımlıklar",
-   "rule": "*a/an* “bir” demektir ve ilk kez bahsedilen, belirsiz kelimelerin önünde kullanılır. *the* ise daha önce bahsedilmiş, belirli olan veya tek olan (güneş, dünya vb.) kelimelerin önünde kullanılır.",
    "chips": [
-    "a",
-    "an",
-    "the"
+    "a"
    ],
    "examples": [
     {
@@ -205,7 +288,108 @@
      "trEm": [
       "sessiz harfle başlıyor → a"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Sessiz sesle başlayan tekil, sayılabilen bir isimden önce *a* kullanılır.",
+   "part": [
+    1,
+    9
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "A / AN / THE",
+    "titleTr": "Belirli ve belirsiz tanımlıklar",
+    "rule": "*a/an* “bir” demektir ve ilk kez bahsedilen, belirsiz kelimelerin önünde kullanılır. *the* ise daha önce bahsedilmiş, belirli olan veya tek olan (güneş, dünya vb.) kelimelerin önünde kullanılır.",
+    "chips": [
+     "a",
+     "an",
+     "the"
+    ],
+    "examples": [
+     {
+      "en": "*a* teacher",
+      "tr": "sessiz harfle başlıyor → a",
+      "img": "p01-03.png",
+      "trEm": [
+       "sessiz harfle başlıyor → a"
+      ]
+     },
+     {
+      "en": "*a* gate",
+      "tr": "sessiz harfle başlıyor → a",
+      "img": "p01-14.png",
+      "trEm": [
+       "sessiz harfle başlıyor → a"
+      ]
+     },
+     {
+      "en": "*a* library",
+      "tr": "sessiz harfle başlıyor → a",
+      "img": "p01-12.png",
+      "trEm": [
+       "sessiz harfle başlıyor → a"
+      ]
+     },
+     {
+      "en": "*an* orange",
+      "tr": "sesli harfle (a, e, i, o, u) başlıyor → an",
+      "trEm": [
+       "sesli harfle (a, e, i, o, u) başlıyor → an"
+      ],
+      "emoji": "🍊"
+     },
+     {
+      "en": "*an* apple",
+      "tr": "sesli harfle başlıyor → an",
+      "trEm": [
+       "sesli harfle başlıyor → an"
+      ],
+      "emoji": "🍎"
+     },
+     {
+      "en": "*an* umbrella",
+      "tr": "sesli harfle başlıyor → an",
+      "trEm": [
+       "sesli harfle başlıyor → an"
+      ],
+      "emoji": "☂️"
+     },
+     {
+      "en": "*the* student",
+      "tr": "belirli bir öğrenci",
+      "img": "p01-04.png",
+      "trEm": [
+       "belirli bir öğrenci"
+      ]
+     },
+     {
+      "en": "*the* Sun",
+      "tr": "tek olan şey",
+      "trEm": [
+       "tek olan şey"
+      ],
+      "emoji": "☀️"
+     },
+     {
+      "en": "*the* cinema",
+      "tr": "bilinen, belirli yer",
+      "trEm": [
+       "bilinen, belirli yer"
+      ],
+      "emoji": "🎬"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "chips": [
+    "a"
+   ],
+   "examples": [
     {
      "en": "*a* gate",
      "tr": "sessiz harfle başlıyor → a",
@@ -213,7 +397,23 @@
      "trEm": [
       "sessiz harfle başlıyor → a"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Sessiz sesle başlayan tekil, sayılabilen bir isimden önce *a* kullanılır.",
+   "part": [
+    2,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "chips": [
+    "a"
+   ],
+   "examples": [
     {
      "en": "*a* library",
      "tr": "sessiz harfle başlıyor → a",
@@ -221,7 +421,23 @@
      "trEm": [
       "sessiz harfle başlıyor → a"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Sessiz sesle başlayan tekil, sayılabilen bir isimden önce *a* kullanılır.",
+   "part": [
+    3,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "chips": [
+    "an"
+   ],
+   "examples": [
     {
      "en": "*an* orange",
      "tr": "sesli harfle (a, e, i, o, u) başlıyor → an",
@@ -229,7 +445,23 @@
       "sesli harfle (a, e, i, o, u) başlıyor → an"
      ],
      "emoji": "🍊"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Sesli sesle başlayan tekil, sayılabilen bir isimden önce *an* kullanılır.",
+   "part": [
+    4,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "chips": [
+    "an"
+   ],
+   "examples": [
     {
      "en": "*an* apple",
      "tr": "sesli harfle başlıyor → an",
@@ -237,7 +469,23 @@
       "sesli harfle başlıyor → an"
      ],
      "emoji": "🍎"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Sesli sesle başlayan tekil, sayılabilen bir isimden önce *an* kullanılır.",
+   "part": [
+    5,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "chips": [
+    "an"
+   ],
+   "examples": [
     {
      "en": "*an* umbrella",
      "tr": "sesli harfle başlıyor → an",
@@ -245,7 +493,23 @@
       "sesli harfle başlıyor → an"
      ],
      "emoji": "☂️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Sesli sesle başlayan tekil, sayılabilen bir isimden önce *an* kullanılır.",
+   "part": [
+    6,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "chips": [
+    "the"
+   ],
+   "examples": [
     {
      "en": "*the* student",
      "tr": "belirli bir öğrenci",
@@ -253,7 +517,23 @@
      "trEm": [
       "belirli bir öğrenci"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Belirli, daha önce sözü edilen veya tek olan bir şeyi anlatırken *the* kullanılır.",
+   "part": [
+    7,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "chips": [
+    "the"
+   ],
+   "examples": [
     {
      "en": "*the* Sun",
      "tr": "tek olan şey",
@@ -261,7 +541,23 @@
       "tek olan şey"
      ],
      "emoji": "☀️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Belirli, daha önce sözü edilen veya tek olan bir şeyi anlatırken *the* kullanılır.",
+   "part": [
+    8,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A / AN / THE",
+   "titleTr": "Belirli ve belirsiz tanımlıklar",
+   "chips": [
+    "the"
+   ],
+   "examples": [
     {
      "en": "*the* cinema",
      "tr": "bilinen, belirli yer",
@@ -270,11 +566,17 @@
      ],
      "emoji": "🎬"
     }
+   ],
+   "paced": true,
+   "rule": "Belirli, daha önce sözü edilen veya tek olan bir şeyi anlatırken *the* kullanılır.",
+   "part": [
+    9,
+    9
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · A / AN / THE",
    "tasks": [
     {
@@ -283,10 +585,35 @@
      "clue": "___ library",
      "answer": "a",
      "tr": "sessiz harfle başlıyor → a"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · A / AN / THE",
+   "tasks": [
     {
      "kind": "fill",
      "text": "___ teacher",
+     "answer": "a",
+     "options": [
+      "a",
+      "an",
+      "the"
+     ],
+     "tr": "sessiz harfle başlıyor → a"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · A / AN / THE",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ gate",
      "answer": "a",
      "options": [
       "a",
@@ -321,7 +648,18 @@
      "en": "Art Club",
      "tr": "Resim Kulübü",
      "emoji": "🎨"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School Clubs",
+   "titleTr": "Okul kulüpleri",
+   "items": [
     {
      "en": "Music Club",
      "tr": "Müzik Kulübü",
@@ -331,18 +669,7 @@
      "en": "Environment Club",
      "tr": "Çevre Kulübü",
      "emoji": "🌱"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "School Clubs",
-   "titleTr": "Okul kulüpleri",
-   "items": [
+    },
     {
      "en": "Folk Dance Club",
      "tr": "Halk Dansları Kulübü",
@@ -352,7 +679,18 @@
      "en": "Science Club",
      "tr": "Bilim Kulübü",
      "emoji": "🧪"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School Clubs",
+   "titleTr": "Okul kulüpleri",
+   "items": [
     {
      "en": "Film Club",
      "tr": "Film Kulübü",
@@ -375,13 +713,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · School Clubs",
    "tasks": [
     {
@@ -390,7 +728,14 @@
      "statement": "\"Music Club\" means \"Film Kulübü\".",
      "answer": false,
      "explain": "Music Club = Müzik Kulübü"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · School Clubs",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -412,6 +757,19 @@
        "b": "Bilim Kulübü"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · School Clubs",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "Bale Kulübü",
+     "answer": "Ballet Club"
     }
    ]
   },
@@ -439,7 +797,18 @@
      "en": "play the guitar",
      "tr": "gitar çalmak",
      "emoji": "🎸"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Expressing Likes",
+   "titleTr": "Sevdiğimiz şeyleri ifade etme",
+   "items": [
     {
      "en": "sing songs",
      "tr": "şarkı söylemek",
@@ -449,18 +818,7 @@
      "en": "dance",
      "tr": "dans etmek",
      "emoji": "💃"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Expressing Likes",
-   "titleTr": "Sevdiğimiz şeyleri ifade etme",
-   "items": [
+    },
     {
      "en": "read books",
      "tr": "kitap okumak",
@@ -470,7 +828,18 @@
      "en": "do experiments",
      "tr": "deney yapmak",
      "emoji": "⚗️"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Expressing Likes",
+   "titleTr": "Sevdiğimiz şeyleri ifade etme",
+   "items": [
     {
      "en": "watch movies",
      "tr": "film izlemek",
@@ -493,13 +862,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Expressing Likes",
    "tasks": [
     {
@@ -523,7 +892,14 @@
        "b": "gitar çalmak"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Expressing Likes",
+   "tasks": [
     {
      "kind": "flash",
      "q": "Guess the English word",
@@ -533,10 +909,26 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · Expressing Likes",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"solve problems\" means \"problem çözmek\".",
+     "answer": true,
+     "explain": "solve problems = problem çözmek"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Do you like ...?",
    "titleTr": "İkinci fiile -ing eklemeyi unutma!",
-   "rule": "Sevip sevmediğimizi sorarken *Do you like ...?* kullanırız. Cümlede ikinci bir fiil varsa o fiile *-ing* takısı eklenir. Cevap verirken *I like ...* deriz.",
+   "chips": [
+    "playing"
+   ],
    "examples": [
     {
      "en": "Do you like *playing* the guitar?",
@@ -545,15 +937,71 @@
       "Gitar çalmayı"
      ],
      "emoji": "✅"
-    },
-    {
-     "en": "Do you like *reading* books?",
-     "tr": "Kitap okumayı sever misin?",
-     "trEm": [
-      "Kitap okumayı"
-     ],
-     "emoji": "✅"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Sevip sevmediğimizi sorarken *Do you like ...?* kullanırız.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Do you like ...?",
+    "titleTr": "İkinci fiile -ing eklemeyi unutma!",
+    "rule": "Sevip sevmediğimizi sorarken *Do you like ...?* kullanırız. Cümlede ikinci bir fiil varsa o fiile *-ing* takısı eklenir. Cevap verirken *I like ...* deriz.",
+    "examples": [
+     {
+      "en": "Do you like *playing* the guitar?",
+      "tr": "Gitar çalmayı sever misin?",
+      "trEm": [
+       "Gitar çalmayı"
+      ],
+      "emoji": "✅"
+     },
+     {
+      "en": "Do you like *reading* books?",
+      "tr": "Kitap okumayı sever misin?",
+      "trEm": [
+       "Kitap okumayı"
+      ],
+      "emoji": "✅"
+     },
+     {
+      "en": "I like *playing* basketball.",
+      "tr": "Basketbol oynamayı severim.",
+      "trEm": [
+       "Basketbol oynamayı"
+      ],
+      "emoji": "🏀"
+     },
+     {
+      "en": "I like *drawing* pictures.",
+      "tr": "Resim çizmeyi severim.",
+      "trEm": [
+       "Resim çizmeyi"
+      ],
+      "emoji": "🎨"
+     },
+     {
+      "en": "*Do you like* reading comics?",
+      "tr": "Çizgi roman okumayı sever misin?",
+      "trEm": [
+       "Çizgi roman okumayı sever misin?"
+      ],
+      "emoji": "✅"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Do you like ...?",
+   "titleTr": "İkinci fiile -ing eklemeyi unutma!",
+   "chips": [
+    "playing"
+   ],
+   "examples": [
     {
      "en": "I like *playing* basketball.",
      "tr": "Basketbol oynamayı severim.",
@@ -561,7 +1009,47 @@
       "Basketbol oynamayı"
      ],
      "emoji": "🏀"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Sevip sevmediğimizi sorarken *Do you like ...?* kullanırız.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Do you like ...?",
+   "titleTr": "İkinci fiile -ing eklemeyi unutma!",
+   "chips": [
+    "reading"
+   ],
+   "examples": [
+    {
+     "en": "Do you like *reading* books?",
+     "tr": "Kitap okumayı sever misin?",
+     "trEm": [
+      "Kitap okumayı"
+     ],
+     "emoji": "✅"
+    }
+   ],
+   "paced": true,
+   "rule": "Sevip sevmediğimizi sorarken *Do you like ...?* kullanırız.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Do you like ...?",
+   "titleTr": "İkinci fiile -ing eklemeyi unutma!",
+   "chips": [
+    "drawing"
+   ],
+   "examples": [
     {
      "en": "I like *drawing* pictures.",
      "tr": "Resim çizmeyi severim.",
@@ -570,25 +1058,81 @@
      ],
      "emoji": "🎨"
     }
+   ],
+   "paced": true,
+   "rule": "Sevip sevmediğimizi sorarken *Do you like ...?* kullanırız.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Do you like ...?",
+   "titleTr": "İkinci fiile -ing eklemeyi unutma!",
+   "chips": [
+    "Do you like"
+   ],
+   "examples": [
+    {
+     "en": "*Do you like* reading comics?",
+     "tr": "Çizgi roman okumayı sever misin?",
+     "trEm": [
+      "Çizgi roman okumayı sever misin?"
+     ],
+     "emoji": "✅"
+    }
+   ],
+   "paced": true,
+   "rule": "Sevip sevmediğimizi sorarken *Do you like ...?* kullanırız.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Do you like ...?",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "Do you like ___ books?",
-     "answer": "reading",
-     "tr": "Kitap okumayı sever misin?"
-    },
+     "clue": "Do you like ___ the guitar?",
+     "answer": "playing",
+     "tr": "Gitar çalmayı sever misin?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Do you like ...?",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "I like drawing pictures.",
-     "tr": "Resim çizmeyi severim."
+     "answer": "Do you like reading comics?",
+     "tr": "Çizgi roman okumayı sever misin?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Do you like ...?",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "Do you like ___ the guitar?",
+     "answer": "playing",
+     "options": [
+      "playing",
+      "reading",
+      "drawing",
+      "Do you like"
+     ],
+     "tr": "Gitar çalmayı sever misin?"
     }
    ]
   },
@@ -616,16 +1160,11 @@
      "en": "run",
      "tr": "koşmak",
      "emoji": "🏃"
-    },
-    {
-     "en": "listen",
-     "tr": "dinlemek",
-     "emoji": "👂"
     }
    ],
    "part": [
     1,
-    2
+    3
    ]
   },
   {
@@ -633,6 +1172,11 @@
    "title": "School Rules — Verbs",
    "titleTr": "Kurallarda kullanılan fiiller",
    "items": [
+    {
+     "en": "listen",
+     "tr": "dinlemek",
+     "emoji": "👂"
+    },
     {
      "en": "fight",
      "tr": "kavga etmek",
@@ -647,7 +1191,18 @@
      "en": "eat",
      "tr": "yemek",
      "emoji": "🍽️"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School Rules — Verbs",
+   "titleTr": "Kurallarda kullanılan fiiller",
+   "items": [
     {
      "en": "drink",
      "tr": "içmek",
@@ -660,13 +1215,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · School Rules — Verbs",
    "tasks": [
     {
@@ -674,7 +1229,14 @@
      "q": "Guess the English word",
      "clue": "giymek",
      "answer": "wear"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · School Rules — Verbs",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -700,145 +1262,474 @@
    ]
   },
   {
-   "type": "compare",
-   "title": "Imperatives",
-   "titleTr": "Emir cümleleri",
-   "rule": "Olumlu emir cümleleri fiilin yalın hâli ile başlar. Olumsuz emir cümleleri *don't* ile başlar.",
-   "columns": [
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · School Rules — Verbs",
+   "tasks": [
     {
-     "title": "POSITIVE ✅",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "Sit down!",
-       "tr": "Otur.",
-       "trEm": [],
-       "emoji": "🪑"
-      },
-      {
-       "en": "Listen to the teacher.",
-       "tr": "Öğretmeni dinle.",
-       "img": "p01-03.png",
-       "trEm": []
-      }
-     ]
-    },
-    {
-     "title": "NEGATIVE ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "*Don't* run in the classroom.",
-       "tr": "Sınıfta koşma.",
-       "img": "p01-07.png",
-       "trEm": [
-        "koşma"
-       ]
-      },
-      {
-       "en": "*Don't* shout in the library.",
-       "tr": "Kütüphanede bağırma.",
-       "img": "p01-12.png",
-       "trEm": [
-        "bağırma"
-       ]
-      }
-     ]
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"fight\" means \"kavga etmek\".",
+     "answer": true,
+     "explain": "fight = kavga etmek"
     }
    ]
   },
   {
+   "type": "grammar",
+   "title": "Imperatives",
+   "titleTr": "Emir cümleleri",
+   "chips": [
+    "Open"
+   ],
+   "examples": [
+    {
+     "en": "*Open* your book, please.",
+     "tr": "Lütfen kitabını aç.",
+     "trEm": [
+      "Lütfen kitabını aç."
+     ],
+     "emoji": "📝"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumlu emir cümleleri fiilin yalın hâli ile başlar.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "Imperatives",
+    "titleTr": "Emir cümleleri",
+    "rule": "Olumlu emir cümleleri fiilin yalın hâli ile başlar. Olumsuz emir cümleleri *don't* ile başlar.",
+    "columns": [
+     {
+      "title": "POSITIVE ✅",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "Sit down!",
+        "tr": "Otur.",
+        "trEm": [],
+        "emoji": "🪑"
+       },
+       {
+        "en": "Listen to the teacher.",
+        "tr": "Öğretmeni dinle.",
+        "img": "p01-03.png",
+        "trEm": []
+       }
+      ]
+     },
+     {
+      "title": "NEGATIVE ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "*Don't* run in the classroom.",
+        "tr": "Sınıfta koşma.",
+        "img": "p01-07.png",
+        "trEm": [
+         "koşma"
+        ]
+       },
+       {
+        "en": "*Don't* shout in the library.",
+        "tr": "Kütüphanede bağırma.",
+        "img": "p01-12.png",
+        "trEm": [
+         "bağırma"
+        ]
+       }
+      ]
+     }
+    ],
+    "examples": [
+     {
+      "en": "*Open* your book, please.",
+      "tr": "Lütfen kitabını aç.",
+      "trEm": [
+       "Lütfen kitabını aç."
+      ],
+      "emoji": "📝"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives",
+   "titleTr": "Emir cümleleri",
+   "chips": [
+    "POSITIVE ✅"
+   ],
+   "examples": [
+    {
+     "en": "Sit down!",
+     "tr": "Otur.",
+     "trEm": [],
+     "emoji": "🪑",
+     "focus": "POSITIVE ✅"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumlu emir cümleleri fiilin yalın hâli ile başlar.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives",
+   "titleTr": "Emir cümleleri",
+   "chips": [
+    "POSITIVE ✅"
+   ],
+   "examples": [
+    {
+     "en": "Listen to the teacher.",
+     "tr": "Öğretmeni dinle.",
+     "img": "p01-03.png",
+     "trEm": [],
+     "focus": "POSITIVE ✅"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumlu emir cümleleri fiilin yalın hâli ile başlar.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives",
+   "titleTr": "Emir cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "*Don't* run in the classroom.",
+     "tr": "Sınıfta koşma.",
+     "img": "p01-07.png",
+     "trEm": [
+      "koşma"
+     ],
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumlu emir cümleleri fiilin yalın hâli ile başlar.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives",
+   "titleTr": "Emir cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "*Don't* shout in the library.",
+     "tr": "Kütüphanede bağırma.",
+     "img": "p01-12.png",
+     "trEm": [
+      "bağırma"
+     ],
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumlu emir cümleleri fiilin yalın hâli ile başlar.",
+   "part": [
+    5,
+    5
+   ]
+  },
+  {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Imperatives",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "Don't shout in the library. — Sınıfta koşma.",
+     "statement": "Don't run in the classroom. — Lütfen kitabını aç.",
      "answer": false,
-     "explain": "Correct: Don't shout in the library."
-    },
+     "explain": "Correct: Don't run in the classroom."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Imperatives",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ your book, please.",
+     "answer": "Open",
+     "options": [
+      "Open",
+      "Don't"
+     ],
+     "tr": "Lütfen kitabını aç."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Imperatives",
+   "tasks": [
     {
      "kind": "fill",
      "text": "___ run in the classroom.",
      "answer": "Don't",
      "options": [
-      "Don't"
+      "Don't",
+      "Open"
      ],
      "tr": "Sınıfta koşma."
     }
    ]
   },
   {
-   "type": "compare",
+   "type": "grammar",
    "title": "Obligations — must / mustn't",
    "titleTr": "Zorunluluklar ve yasaklar",
-   "rule": "*must* = -meli / -malı (zorunluluk).  *mustn't* = yapılmaması gereken, yasak olan şeyler.",
-   "columns": [
+   "chips": [
+    "must"
+   ],
+   "examples": [
     {
-     "title": "must ✅",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "You *must* wear the school uniform.",
-       "tr": "Okul üniformasını giymelisin.",
-       "trEm": [
-        "giymelisin."
-       ],
-       "emoji": "👕"
-      },
-      {
-       "en": "We *must* do our homework.",
-       "tr": "Ödevimizi yapmalıyız.",
-       "trEm": [
-        "yapmalıyız."
-       ],
-       "emoji": "✅"
-      }
-     ]
-    },
-    {
-     "title": "mustn't ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "You *mustn't* fight with your friends.",
-       "tr": "Arkadaşlarınla kavga etmemelisin.",
-       "trEm": [
-        "etmemelisin."
-       ],
-       "emoji": "🥊"
-      },
-      {
-       "en": "We *mustn't* eat in the lab.",
-       "tr": "Laboratuvarda yemek yememeliyiz.",
-       "trEm": [
-        "yememeliyiz."
-       ],
-       "emoji": "🍽️"
-      }
-     ]
+     "en": "We *must* listen to our teacher.",
+     "tr": "Öğretmenimizi dinlemeliyiz.",
+     "trEm": [
+      "dinlemeliyiz."
+     ],
+     "img": "p01-03.png",
+     "emoji": "👨‍🏫"
     }
+   ],
+   "paced": true,
+   "rule": "Zorunluluk: *must + yalın fiil* (-meli / -malı).",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "Obligations — must / mustn't",
+    "titleTr": "Zorunluluklar ve yasaklar",
+    "rule": "*must* = -meli / -malı (zorunluluk).  *mustn't* = yapılmaması gereken, yasak olan şeyler.",
+    "columns": [
+     {
+      "title": "must ✅",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "You *must* wear the school uniform.",
+        "tr": "Okul üniformasını giymelisin.",
+        "trEm": [
+         "giymelisin."
+        ],
+        "emoji": "👕"
+       },
+       {
+        "en": "We *must* do our homework.",
+        "tr": "Ödevimizi yapmalıyız.",
+        "trEm": [
+         "yapmalıyız."
+        ],
+        "emoji": "✅"
+       }
+      ]
+     },
+     {
+      "title": "mustn't ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "You *mustn't* fight with your friends.",
+        "tr": "Arkadaşlarınla kavga etmemelisin.",
+        "trEm": [
+         "etmemelisin."
+        ],
+        "emoji": "🥊"
+       },
+       {
+        "en": "We *mustn't* eat in the lab.",
+        "tr": "Laboratuvarda yemek yememeliyiz.",
+        "trEm": [
+         "yememeliyiz."
+        ],
+        "emoji": "🍽️"
+       }
+      ]
+     }
+    ],
+    "examples": [
+     {
+      "en": "We *must* listen to our teacher.",
+      "tr": "Öğretmenimizi dinlemeliyiz.",
+      "trEm": [
+       "dinlemeliyiz."
+      ],
+      "img": "p01-03.png",
+      "emoji": "👨‍🏫"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Obligations — must / mustn't",
+   "titleTr": "Zorunluluklar ve yasaklar",
+   "chips": [
+    "must ✅"
+   ],
+   "examples": [
+    {
+     "en": "You *must* wear the school uniform.",
+     "tr": "Okul üniformasını giymelisin.",
+     "trEm": [
+      "giymelisin."
+     ],
+     "emoji": "👕",
+     "focus": "must ✅"
+    }
+   ],
+   "paced": true,
+   "rule": "*must* = -meli / -malı (zorunluluk).",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Obligations — must / mustn't",
+   "titleTr": "Zorunluluklar ve yasaklar",
+   "chips": [
+    "must ✅"
+   ],
+   "examples": [
+    {
+     "en": "We *must* do our homework.",
+     "tr": "Ödevimizi yapmalıyız.",
+     "trEm": [
+      "yapmalıyız."
+     ],
+     "emoji": "✅",
+     "focus": "must ✅"
+    }
+   ],
+   "paced": true,
+   "rule": "*must* = -meli / -malı (zorunluluk).",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Obligations — must / mustn't",
+   "titleTr": "Zorunluluklar ve yasaklar",
+   "chips": [
+    "mustn't ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *mustn't* fight with your friends.",
+     "tr": "Arkadaşlarınla kavga etmemelisin.",
+     "trEm": [
+      "etmemelisin."
+     ],
+     "emoji": "🥊",
+     "focus": "mustn't ⛔"
+    }
+   ],
+   "paced": true,
+   "rule": "*must* = -meli / -malı (zorunluluk).",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Obligations — must / mustn't",
+   "titleTr": "Zorunluluklar ve yasaklar",
+   "chips": [
+    "mustn't ⛔"
+   ],
+   "examples": [
+    {
+     "en": "We *mustn't* eat in the lab.",
+     "tr": "Laboratuvarda yemek yememeliyiz.",
+     "trEm": [
+      "yememeliyiz."
+     ],
+     "emoji": "🍽️",
+     "focus": "mustn't ⛔"
+    }
+   ],
+   "paced": true,
+   "rule": "*must* = -meli / -malı (zorunluluk).",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Obligations — must / mustn't",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "You ___ wear the school uniform.",
-     "answer": "must",
-     "tr": "Okul üniformasını giymelisin."
-    },
+     "clue": "You ___ fight with your friends.",
+     "answer": "mustn't",
+     "tr": "Arkadaşlarınla kavga etmemelisin."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Obligations — must / mustn't",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
      "answer": "We mustn't eat in the lab.",
      "tr": "Laboratuvarda yemek yememeliyiz."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Obligations — must / mustn't",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "We ___ listen to our teacher.",
+     "answer": "must",
+     "options": [
+      "must",
+      "mustn't"
+     ],
+     "tr": "Öğretmenimizi dinlemeliyiz."
     }
    ]
   },
@@ -866,7 +1757,18 @@
      "en": "Italy",
      "tr": "İtalya",
      "img": "/app/img/flags/it.svg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    7
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "titleTr": "Ülkeler",
+   "items": [
     {
      "en": "Spain",
      "tr": "İspanya",
@@ -881,11 +1783,16 @@
      "en": "the USA",
      "tr": "Amerika Birleşik Devletleri",
      "img": "/app/img/flags/us.svg"
+    },
+    {
+     "en": "the UK",
+     "tr": "Birleşik Krallık",
+     "img": "/app/img/flags/gb.svg"
     }
    ],
    "part": [
-    1,
-    3
+    2,
+    7
    ]
   },
   {
@@ -893,11 +1800,6 @@
    "title": "Countries",
    "titleTr": "Ülkeler",
    "items": [
-    {
-     "en": "the UK",
-     "tr": "Birleşik Krallık",
-     "img": "/app/img/flags/gb.svg"
-    },
     {
      "en": "England",
      "tr": "İngiltere",
@@ -917,7 +1819,18 @@
      "en": "Wales",
      "tr": "Galler",
      "img": "/app/img/flags/gb-wls.svg"
-    },
+    }
+   ],
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "titleTr": "Ülkeler",
+   "items": [
     {
      "en": "Canada",
      "tr": "Kanada",
@@ -927,18 +1840,7 @@
      "en": "Mexico",
      "tr": "Meksika",
      "img": "/app/img/flags/mx.svg"
-    }
-   ],
-   "part": [
-    2,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Countries",
-   "titleTr": "Ülkeler",
-   "items": [
+    },
     {
      "en": "Australia",
      "tr": "Avustralya",
@@ -948,7 +1850,18 @@
      "en": "Greece",
      "tr": "Yunanistan",
      "img": "/app/img/flags/gr.svg"
-    },
+    }
+   ],
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "titleTr": "Ülkeler",
+   "items": [
     {
      "en": "Egypt",
      "tr": "Mısır",
@@ -971,33 +1884,8 @@
     }
    ],
    "part": [
-    3,
-    3
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Countries",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"Australia\" means \"Amerika Birleşik Devletleri\".",
-     "answer": false,
-     "explain": "Australia = Avustralya"
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"Rusya\"?",
-     "answer": "Russia",
-     "options": [
-      "Russia",
-      "Scotland",
-      "Japan",
-      "Egypt"
-     ]
-    }
+    5,
+    7
    ]
   },
   {
@@ -1024,7 +1912,18 @@
      "en": "Uzbekistan",
      "tr": "Özbekistan",
      "img": "/app/img/flags/uz.svg"
-    },
+    }
+   ],
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "titleTr": "Ülkeler",
+   "items": [
     {
      "en": "Turkmenistan",
      "tr": "Türkmenistan",
@@ -1045,38 +1944,68 @@
      "tr": "Kuzey Kıbrıs (K.K.T.C.)",
      "img": "/app/img/flags/kktc.svg"
     }
+   ],
+   "part": [
+    7,
+    7
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Countries",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "Azerbaycan",
-     "answer": "Azerbaijan"
-    },
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"Turkmenistan\" means \"İtalya\".",
+     "answer": false,
+     "explain": "Turkmenistan = Türkmenistan"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"Kuzey İrlanda\"?",
+   "titleTr": "Use what you just learned · Countries",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"Kuzey İrlanda\"?",
+     "answer": "Northern Ireland",
+     "options": [
+      "Northern Ireland",
+      "Japan",
+      "Canada",
+      "Türkiye"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Countries",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "Turkmenistan",
-       "b": "Türkmenistan"
-      },
-      {
-       "a": "Northern Cyprus",
-       "b": "Kuzey Kıbrıs (K.K.T.C.)"
+       "a": "the USA",
+       "b": "Amerika Birleşik Devletleri"
       },
       {
        "a": "Kazakhstan",
        "b": "Kazakistan"
       },
       {
-       "a": "South Korea",
-       "b": "Güney Kore"
+       "a": "Canada",
+       "b": "Kanada"
+      },
+      {
+       "a": "Northern Cyprus",
+       "b": "Kuzey Kıbrıs (K.K.T.C.)"
       }
      ]
     }
@@ -1163,7 +2092,7 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Role-play: what comes next?",
    "titleTr": "Use what you just learned · Where are you from?",
    "tasks": [
     {
@@ -1193,7 +2122,18 @@
      "en": "23rd April — Children's Day",
      "tr": "Çocuk Bayramı",
      "emoji": "🧒"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "National and Religious Days",
+   "titleTr": "Ulusal ve dinî günler",
+   "items": [
     {
      "en": "19th May — Youth and Sports Day",
      "tr": "Gençlik ve Spor Bayramı",
@@ -1209,11 +2149,29 @@
      "tr": "Zafer Bayramı",
      "emoji": "🐎"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · National and Religious Days",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"19th May — Youth and Sports Day\" means \"Zafer Bayramı\".",
+     "answer": false,
+     "explain": "19th May — Youth and Sports Day = Gençlik ve Spor Bayramı"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · National and Religious Days",
    "tasks": [
     {
@@ -1221,12 +2179,12 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "Eid al-Adha (Festival of Sacrifice)",
-       "b": "Kurban Bayramı"
-      },
-      {
        "a": "19th May — Youth and Sports Day",
        "b": "Gençlik ve Spor Bayramı"
+      },
+      {
+       "a": "Eid al-Adha (Festival of Sacrifice)",
+       "b": "Kurban Bayramı"
       },
       {
        "a": "29th October — Republic Day",
@@ -1237,12 +2195,19 @@
        "b": "Zafer Bayramı"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · National and Religious Days",
+   "tasks": [
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "Kurban Bayramı",
-     "answer": "Eid al-Adha (Festival of Sacrifice)"
+     "clue": "Çocuk Bayramı",
+     "answer": "23rd April — Children's Day"
     }
    ]
   },
@@ -1285,7 +2250,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    8
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -1294,26 +2259,25 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "Germany",
-      "tr": "Almanya",
-      "img": "/app/img/flags/de.svg"
+      "en": "Spain",
+      "tr": "İspanya",
+      "img": "/app/img/flags/es.svg"
      },
      {
-      "en": "Kyrgyzstan",
-      "tr": "Kırgızistan",
-      "img": "/app/img/flags/kg.svg"
+      "en": "Kazakhstan",
+      "tr": "Kazakistan",
+      "img": "/app/img/flags/kz.svg"
      },
      {
-      "en": "assistant",
-      "tr": "müdür yardımcısı",
-      "img": "p01-02.png",
-      "emoji": "👩‍💼"
+      "en": "Wales",
+      "tr": "Galler",
+      "img": "/app/img/flags/gb-wls.svg"
      },
      {
-      "en": "gate",
-      "tr": "kapı",
-      "img": "p01-14.png",
-      "emoji": "🚪"
+      "en": "classroom",
+      "tr": "sınıf",
+      "img": "p01-07.png",
+      "emoji": "🪑"
      }
     ]
    }
@@ -1322,7 +2286,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    8
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -1331,10 +2295,17 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "France",
-      "tr": "Fransa",
-      "img": "/app/img/flags/fr.svg",
-      "audio": "/app/audio/words/france.wav"
+      "en": "Türkiye",
+      "tr": "Türkiye",
+      "img": "/app/img/flags/tr.svg",
+      "audio": "/app/audio/words/t-rkiye.wav"
+     },
+     {
+      "en": "canteen",
+      "tr": "kantin",
+      "img": "p01-11.png",
+      "emoji": "🥪",
+      "audio": "/app/audio/words/canteen.wav"
      },
      {
       "en": "England",
@@ -1343,16 +2314,10 @@
       "audio": "/app/audio/words/england.wav"
      },
      {
-      "en": "Türkiye",
-      "tr": "Türkiye",
-      "img": "/app/img/flags/tr.svg",
-      "audio": "/app/audio/words/t-rkiye.wav"
-     },
-     {
-      "en": "Kazakhstan",
-      "tr": "Kazakistan",
-      "img": "/app/img/flags/kz.svg",
-      "audio": "/app/audio/words/kazakhstan.wav"
+      "en": "Northern Cyprus",
+      "tr": "Kuzey Kıbrıs (K.K.T.C.)",
+      "img": "/app/img/flags/kktc.svg",
+      "audio": "/app/audio/words/northern-cyprus.wav"
      }
     ]
    }
@@ -1361,7 +2326,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    8
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -1370,19 +2335,98 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "I like playing basketball.",
-      "tr": "Basketbol oynamayı severim."
+      "answer": "Do you like reading books?",
+      "tr": "Kitap okumayı sever misin?"
      },
      {
-      "answer": "We mustn't eat in the lab.",
-      "tr": "Laboratuvarda yemek yememeliyiz."
+      "answer": "Do you like playing the guitar?",
+      "tr": "Gitar çalmayı sever misin?"
      },
      {
-      "answer": "Listen to the teacher.",
-      "tr": "Öğretmeni dinle."
+      "answer": "Don't shout in the library.",
+      "tr": "Kütüphanede bağırma."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "A / AN / THE",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "a gate",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "sessiz harfle başlıyor → a"
+   },
+   "part": [
+    4,
+    8
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Do you like ...?",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "Do you like reading comics?",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Çizgi roman okumayı sever misin?"
+   },
+   "part": [
+    5,
+    8
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Imperatives",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "Sit down!",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Otur."
+   },
+   "part": [
+    6,
+    8
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Obligations — must / mustn't",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "You must wear the school uniform.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Okul üniformasını giymelisin."
+   },
+   "part": [
+    7,
+    8
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Partner Challenge",
+   "titleTr": "Where are you from?",
+   "task": {
+    "kind": "flash",
+    "q": "Work in pairs. Reply, then swap roles and change the situation.",
+    "clue": "Where are you from?",
+    "answer": "Model reply: I am from Türkiye."
+   },
+   "part": [
+    8,
+    8
+   ]
   },
   {
    "type": "pages",

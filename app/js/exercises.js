@@ -29,28 +29,70 @@ export function taskNode(t, ctx) {
 
 /** Speak only through an installed English system voice. We deliberately do
  * not fall back to a remote voice, so the USB lesson stays local and offline. */
-export function speakEnglish(text) {
+export function speakEnglish(text, preferredVoice = null) {
   const synth = window.speechSynthesis;
   if (!synth || !text) return false;
-  const voice = synth.getVoices().find((v) => v.localService && /^en[-_]/i.test(v.lang));
+  const voice = preferredVoice || englishVoices().find((v) => v.localService);
   if (!voice) return false;
   synth.cancel();
   const utterance = new SpeechSynthesisUtterance(text);
   utterance.voice = voice;
   utterance.lang = voice.lang;
-  utterance.rate = 0.82;
+  utterance.rate = 0.95;
   utterance.pitch = 1;
   synth.speak(utterance);
   return true;
 }
 
 let spokenAudio = null;
+let playbackRequest = 0;
+function englishVoices() {
+  return (window.speechSynthesis?.getVoices() || [])
+    .filter((v) => /^en[-_]/i.test(v.lang) && (v.localService || navigator.onLine))
+    .sort((a, b) => voiceScore(b) - voiceScore(a));
+}
+function voiceScore(v) {
+  return (/natural|neural|premium|enhanced/i.test(v.name) ? 100 : 0)
+    + (/Google|Aria|Jenny|Sonia/i.test(v.name) ? 50 : 0)
+    + (/en[-_](GB|US)/i.test(v.lang) ? 10 : 0);
+}
+export function stopEnglish() {
+  playbackRequest++;
+  spokenAudio?.pause();
+  window.speechSynthesis?.cancel();
+}
 export function wordAudioPath(text) {
   const slug = String(text || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   return slug ? `/app/audio/words/${slug}.wav` : "";
 }
 
 export async function playEnglish(item) {
+  stopEnglish();
+  const request = playbackRequest;
+  // Chromium can load its voice list after the first click.
+  if (window.speechSynthesis && !englishVoices().length) {
+    await new Promise((resolve) => {
+      const done = () => { clearTimeout(timer); window.speechSynthesis.removeEventListener("voiceschanged", done); resolve(); };
+      const timer = setTimeout(done, 500);
+      window.speechSynthesis.addEventListener("voiceschanged", done);
+    });
+  }
+  if (request !== playbackRequest) return false;
+  const natural = englishVoices().find((v) => voiceScore(v) >= 50);
+  if (natural && item.en) {
+    const utterance = new SpeechSynthesisUtterance(item.en.replace(/\s*\/\s*/g, ", "));
+    utterance.voice = natural;
+    utterance.lang = natural.lang;
+    utterance.rate = 0.95;
+    utterance.onerror = () => {
+      if (request === playbackRequest && item.audio) {
+        spokenAudio = new Audio(item.audio);
+        spokenAudio.play().catch(() => speakEnglish(item.en));
+      }
+    };
+    window.speechSynthesis.speak(utterance);
+    return true;
+  }
   if (item.audio) {
     try {
       spokenAudio?.pause();
@@ -59,7 +101,7 @@ export async function playEnglish(item) {
       return true;
     } catch { /* fall through to an installed system voice */ }
   }
-  return speakEnglish(item.en);
+  return request === playbackRequest ? speakEnglish(item.en) : false;
 }
 
 function mediaSrc(name, ctx) {

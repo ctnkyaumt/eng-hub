@@ -18,7 +18,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import CONTENT, ROOT  # noqa: E402
 
 
-MAX_CARDS = 8
+MAX_CARDS = 4
 MISSION_KINDS = ["dragmatch", "listenpicture", "dragorder"]
 TURKISH = re.compile(r"[çğıöşüÇĞİÖŞÜ]")
 STAR = re.compile(r"\*(.+?)\*")
@@ -223,9 +223,15 @@ def main():
 
         missions = [slide for slide in slides if slide.get("type") == "mission"]
         kinds = [(slide.get("task") or {}).get("kind") for slide in missions]
-        if kinds != MISSION_KINDS:
+        if kinds[:3] != MISSION_KINDS or len(kinds) < 4:
             problems.append("%s: missions are %r, expected %r" % (unit, kinds, MISSION_KINDS))
         stats["missions"] += len(missions)
+        for slide in slides:
+            if slide.get("type") == "exercise" and len(slide.get("tasks", [])) != 1:
+                problems.append("%s: activity must have one large task per page" % unit)
+            if slide.get("type") == "grammar":
+                if len(slide.get("chips", [])) > 1 or len(slide.get("examples", [])) > 1:
+                    problems.append("%s: grammar page mixes patterns/examples" % unit)
         for slide in missions[:2]:
             task = slide.get("task") or {}
             items = task.get("items") or []
@@ -240,7 +246,7 @@ def main():
                         problems.append("%s: missing offline audio %s" % (unit, audio))
                     else:
                         stats["mission_audio"] += 1
-        if len(missions) == 3:
+        if len(missions) >= 3:
             sentences = (missions[2].get("task") or {}).get("sentences") or []
             if not sentences:
                 problems.append("%s: sentence mission is empty" % unit)

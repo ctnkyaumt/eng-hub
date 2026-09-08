@@ -42,7 +42,18 @@
      "tr": "bulaşık yıkamak",
      "emoji": "🧼",
      "img": "/app/img/words/wash-the-dishes.jpg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Chores at Home",
+   "titleTr": "Evdeki işler",
+   "items": [
     {
      "en": "dry the dishes",
      "tr": "bulaşık kurulamak",
@@ -60,11 +71,17 @@
      "tr": "bulaşık makinesini boşaltmak",
      "emoji": "📤",
      "img": "/app/img/words/empty-the-dishwasher.jpg"
+    },
+    {
+     "en": "do the laundry",
+     "tr": "çamaşır yıkamak",
+     "emoji": "🧺",
+     "img": "/app/img/words/do-the-laundry.jpg"
     }
    ],
    "part": [
-    1,
-    2
+    2,
+    4
    ]
   },
   {
@@ -72,12 +89,6 @@
    "title": "Chores at Home",
    "titleTr": "Evdeki işler",
    "items": [
-    {
-     "en": "do the laundry",
-     "tr": "çamaşır yıkamak",
-     "emoji": "🧺",
-     "img": "/app/img/words/do-the-laundry.jpg"
-    },
     {
      "en": "laundry",
      "tr": "çamaşır",
@@ -101,7 +112,18 @@
      "tr": "toparlamak",
      "emoji": "🧽",
      "img": "/app/img/words/tidy-up.jpg"
-    },
+    }
+   ],
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Chores at Home",
+   "titleTr": "Evdeki işler",
+   "items": [
     {
      "en": "take out the garbage",
      "tr": "çöpü çıkarmak",
@@ -109,13 +131,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Chores at Home",
    "tasks": [
     {
@@ -139,7 +161,14 @@
        "b": "bulaşık kurulamak"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Chores at Home",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -152,6 +181,19 @@
       "load the dishwasher",
       "laundry"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Chores at Home",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "toparlamak",
+     "answer": "tidy up"
     }
    ]
   },
@@ -179,7 +221,18 @@
      "en": "keep a promise",
      "tr": "sözünü tutmak",
      "emoji": "🤞"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Rules & Responsibilities",
+   "titleTr": "Kurallar ve sorumluluklar",
+   "items": [
     {
      "en": "break a promise",
      "tr": "sözünü bozmak",
@@ -196,11 +249,15 @@
      "tr": "yapılacaklar listesi",
      "emoji": "📝"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Rules & Responsibilities",
    "tasks": [
     {
@@ -209,7 +266,14 @@
      "statement": "\"to-do list\" means \"kurallara uymak\".",
      "answer": false,
      "explain": "to-do list = yapılacaklar listesi"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"sözünü tutmak\"?",
+   "titleTr": "Use what you just learned · Rules & Responsibilities",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"sözünü tutmak\"?",
@@ -219,6 +283,35 @@
       "return books",
       "obey the rules",
       "to-do list"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Rules & Responsibilities",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "arrive on time",
+       "b": "zamanında gelmek"
+      },
+      {
+       "a": "return books",
+       "b": "kitapları iade etmek"
+      },
+      {
+       "a": "keep a promise",
+       "b": "sözünü tutmak"
+      },
+      {
+       "a": "break a promise",
+       "b": "sözünü bozmak"
+      }
      ]
     }
    ]
@@ -247,7 +340,18 @@
      "en": "ignore responsibilities",
      "tr": "sorumlulukları ihmal etmek",
      "emoji": "🙈"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Ev İşleri — ek kelimeler",
+   "items": [
     {
      "en": "share the chores",
      "tr": "ev işlerini paylaşmak",
@@ -257,18 +361,7 @@
      "en": "admire",
      "tr": "hayran olmak",
      "emoji": "🌟"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "Ev İşleri — ek kelimeler",
-   "items": [
+    },
     {
      "en": "be late",
      "tr": "geç kalmak",
@@ -278,7 +371,18 @@
      "en": "feel annoyed",
      "tr": "sinirlenmek (kızgın",
      "emoji": "😠"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Ev İşleri — ek kelimeler",
+   "items": [
     {
      "en": "feel worried",
      "tr": "endişelenmek (endişeli hissetmek)",
@@ -301,13 +405,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -315,7 +419,14 @@
      "q": "Guess the English word",
      "clue": "hayran olmak",
      "answer": "admire"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -337,6 +448,20 @@
        "b": "bir şeyde iyi olmak"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"ignore responsibilities\" means \"sorumlulukları ihmal etmek\".",
+     "answer": true,
+     "explain": "ignore responsibilities = sorumlulukları ihmal etmek"
     }
    ]
   },
@@ -364,7 +489,18 @@
      "en": "some chores",
      "tr": "bazı ev işleri",
      "emoji": "🧺"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Ev İşleri — ek kelimeler",
+   "items": [
     {
      "en": "be happy",
      "tr": "mutlu olmak",
@@ -374,18 +510,7 @@
      "en": "How often",
      "tr": "Ne kadar sıklıkla",
      "emoji": "🔁"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 2",
-   "titleTr": "Ev İşleri — ek kelimeler",
-   "items": [
+    },
     {
      "en": "can't stand",
      "tr": "tahammül edememek",
@@ -395,7 +520,18 @@
      "en": "feel so hungry",
      "tr": "çok acıkmak",
      "emoji": "🍽️"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Ev İşleri — ek kelimeler",
+   "items": [
     {
      "en": "before the meal",
      "tr": "yemekten önce",
@@ -418,13 +554,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -433,7 +569,14 @@
      "statement": "\"before the meal\" means \"mutlu olmak\".",
      "answer": false,
      "explain": "before the meal = yemekten önce"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -459,10 +602,25 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "bazı ev işleri",
+     "answer": "some chores"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "have to / has to",
    "titleTr": "Sorumluluklar",
-   "rule": "Yapmak zorunda olduğumuz işler için *have to*, He/She/It için *has to* kullanılır. Zorunlu olmadığında *don't have to*.",
+   "chips": [
+    "have to"
+   ],
    "examples": [
     {
      "en": "I *have to* tidy my room every weekend.",
@@ -471,7 +629,72 @@
       "zorundayım."
      ],
      "emoji": "📋"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Zorunlu olmadığında *don't have to*.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "have to / has to",
+    "titleTr": "Sorumluluklar",
+    "rule": "Yapmak zorunda olduğumuz işler için *have to*, He/She/It için *has to* kullanılır. Zorunlu olmadığında *don't have to*.",
+    "examples": [
+     {
+      "en": "I *have to* tidy my room every weekend.",
+      "tr": "Her hafta sonu odamı toplamak zorundayım.",
+      "trEm": [
+       "zorundayım."
+      ],
+      "emoji": "📋"
+     },
+     {
+      "en": "He *has to* walk the dog after school.",
+      "tr": "Okuldan sonra köpeği gezdirmek zorunda.",
+      "trEm": [
+       "zorunda."
+      ],
+      "emoji": "🏫"
+     },
+     {
+      "en": "We *don't have to* do the dishes today.",
+      "tr": "Bugün bulaşık yıkamak zorunda değiliz.",
+      "trEm": [
+       "zorunda değiliz"
+      ],
+      "emoji": "📋"
+     },
+     {
+      "en": "*Do* you *have to* help your mother?",
+      "tr": "Annene yardım etmek zorunda mısın?",
+      "trEm": [
+       "mısın",
+       "zorunda"
+      ],
+      "emoji": "📋"
+     },
+     {
+      "en": "My brother *has to* tidy his room.",
+      "tr": "Erkek kardeşim odasını toplamak zorunda.",
+      "trEm": [
+       "zorunda."
+      ],
+      "emoji": "📋"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "have to / has to",
+   "titleTr": "Sorumluluklar",
+   "chips": [
+    "has to"
+   ],
+   "examples": [
     {
      "en": "He *has to* walk the dog after school.",
      "tr": "Okuldan sonra köpeği gezdirmek zorunda.",
@@ -479,7 +702,47 @@
       "zorunda."
      ],
      "emoji": "🏫"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Zorunlu olmadığında *don't have to*.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "have to / has to",
+   "titleTr": "Sorumluluklar",
+   "chips": [
+    "has to"
+   ],
+   "examples": [
+    {
+     "en": "My brother *has to* tidy his room.",
+     "tr": "Erkek kardeşim odasını toplamak zorunda.",
+     "trEm": [
+      "zorunda."
+     ],
+     "emoji": "📋"
+    }
+   ],
+   "paced": true,
+   "rule": "Zorunlu olmadığında *don't have to*.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "have to / has to",
+   "titleTr": "Sorumluluklar",
+   "chips": [
+    "don't have to"
+   ],
+   "examples": [
     {
      "en": "We *don't have to* do the dishes today.",
      "tr": "Bugün bulaşık yıkamak zorunda değiliz.",
@@ -487,7 +750,23 @@
       "zorunda değiliz"
      ],
      "emoji": "📋"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Zorunlu olmadığında *don't have to*.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "have to / has to",
+   "titleTr": "Sorumluluklar",
+   "chips": [
+    "Do / have to"
+   ],
+   "examples": [
     {
      "en": "*Do* you *have to* help your mother?",
      "tr": "Annene yardım etmek zorunda mısın?",
@@ -497,20 +776,33 @@
      ],
      "emoji": "📋"
     }
+   ],
+   "paced": true,
+   "rule": "Zorunlu olmadığında *don't have to*.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · have to / has to",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "I have to tidy my room every weekend. — Her hafta sonu odamı toplamak zorundayım.",
+     "statement": "My brother has to tidy his room. — Erkek kardeşim odasını toplamak zorunda.",
      "answer": true,
-     "explain": "Correct: I have to tidy my room every weekend."
-    },
+     "explain": "Correct: My brother has to tidy his room."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · have to / has to",
+   "tasks": [
     {
      "kind": "fill",
      "text": "I ___ tidy my room every weekend.",
@@ -526,15 +818,30 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · have to / has to",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "He ___ walk the dog after school.",
+     "answer": "has to",
+     "options": [
+      "has to",
+      "have to",
+      "don't have to",
+      "Do"
+     ],
+     "tr": "Okuldan sonra köpeği gezdirmek zorunda."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Asking for Help",
    "titleTr": "Yardım isteme ve teklif etme",
-   "rule": "Kibar rica için *Could you ...?* ve *Would you mind + V-ing?*, yardım teklifi için *Shall I ...?* kullanılır.",
    "chips": [
-    "Could you ...?",
-    "Would you mind ...?",
-    "Shall I ...?",
-    "Can you give me a hand?"
+    "Could you"
    ],
    "examples": [
     {
@@ -544,7 +851,69 @@
      "trEm": [
       "yardım eder misin"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Kibar rica: *Could you + yalın fiil?*",
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Asking for Help",
+    "titleTr": "Yardım isteme ve teklif etme",
+    "rule": "Kibar rica için *Could you ...?* ve *Would you mind + V-ing?*, yardım teklifi için *Shall I ...?* kullanılır.",
+    "chips": [
+     "Could you ...?",
+     "Would you mind ...?",
+     "Shall I ...?",
+     "Can you give me a hand?"
+    ],
+    "examples": [
+     {
+      "en": "*Could you* help me with the laundry?",
+      "tr": "Çamaşırlarda bana yardım eder misin?",
+      "img": "/app/img/words/laundry.jpg",
+      "trEm": [
+       "yardım eder misin"
+      ]
+     },
+     {
+      "en": "*Would you mind* taking out the rubbish?",
+      "tr": "Çöpü çıkarır mısın?",
+      "trEm": [
+       "çıkarır mısın"
+      ],
+      "emoji": "🗑️"
+     },
+     {
+      "en": "*Shall I* set the table?",
+      "tr": "Masayı ben mi kurayım?",
+      "img": "/app/img/words/set-the-table.jpg",
+      "trEm": [
+       "ben mi kurayım"
+      ]
+     },
+     {
+      "en": "Can you *give me a hand* in the kitchen?",
+      "tr": "Mutfakta bana el atar mısın?",
+      "trEm": [
+       "el atar mısın"
+      ],
+      "emoji": "🙋"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Asking for Help",
+   "titleTr": "Yardım isteme ve teklif etme",
+   "chips": [
+    "Would you mind"
+   ],
+   "examples": [
     {
      "en": "*Would you mind* taking out the rubbish?",
      "tr": "Çöpü çıkarır mısın?",
@@ -552,7 +921,23 @@
       "çıkarır mısın"
      ],
      "emoji": "🗑️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Kibar rica: *Would you mind + fiil-ing?*",
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Asking for Help",
+   "titleTr": "Yardım isteme ve teklif etme",
+   "chips": [
+    "Shall I"
+   ],
+   "examples": [
     {
      "en": "*Shall I* set the table?",
      "tr": "Masayı ben mi kurayım?",
@@ -560,7 +945,23 @@
      "trEm": [
       "ben mi kurayım"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Yardım teklif etmek için: *Shall I + yalın fiil?*",
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Asking for Help",
+   "titleTr": "Yardım isteme ve teklif etme",
+   "chips": [
+    "give me a hand"
+   ],
+   "examples": [
     {
      "en": "Can you *give me a hand* in the kitchen?",
      "tr": "Mutfakta bana el atar mısın?",
@@ -569,11 +970,16 @@
      ],
      "emoji": "🙋"
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Asking for Help",
    "tasks": [
     {
@@ -582,7 +988,14 @@
      "clue": "___ taking out the rubbish?",
      "answer": "Would you mind",
      "tr": "Çöpü çıkarır mısın?"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Asking for Help",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
@@ -592,75 +1005,303 @@
    ]
   },
   {
-   "type": "compare",
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Asking for Help",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ help me with the laundry?",
+     "answer": "Could you",
+     "options": [
+      "Could you",
+      "Would you mind",
+      "Shall I",
+      "give me a hand"
+     ],
+     "tr": "Çamaşırlarda bana yardım eder misin?"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
    "title": "Accepting & Refusing Requests",
    "titleTr": "Ricayı kabul etme ve reddetme",
-   "columns": [
+   "chips": [
+    "Of course."
+   ],
+   "examples": [
     {
-     "title": "ACCEPT ✅",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "*Sure*, no problem.",
-       "tr": "Tabii, sorun değil.",
-       "trEm": [
-        "Tabii"
-       ],
-       "emoji": "💬"
-      },
-      {
-       "en": "*Of course*, I'll do it now.",
-       "tr": "Elbette, şimdi yaparım.",
-       "trEm": [
-        "Elbette"
-       ],
-       "emoji": "💬"
-      },
-      {
-       "en": "*All right*, I'm coming.",
-       "tr": "Peki, geliyorum.",
-       "trEm": [
-        "Peki"
-       ],
-       "emoji": "💬"
-      }
-     ]
-    },
+     "en": "*Of course.* I can help you.",
+     "tr": "Elbette. Sana yardım edebilirim.",
+     "trEm": [
+      "Elbette. Sana yardım edebilirim."
+     ],
+     "emoji": "💬"
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    7
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "Accepting & Refusing Requests",
+    "titleTr": "Ricayı kabul etme ve reddetme",
+    "columns": [
+     {
+      "title": "ACCEPT ✅",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "*Sure*, no problem.",
+        "tr": "Tabii, sorun değil.",
+        "trEm": [
+         "Tabii"
+        ],
+        "emoji": "💬"
+       },
+       {
+        "en": "*Of course*, I'll do it now.",
+        "tr": "Elbette, şimdi yaparım.",
+        "trEm": [
+         "Elbette"
+        ],
+        "emoji": "💬"
+       },
+       {
+        "en": "*All right*, I'm coming.",
+        "tr": "Peki, geliyorum.",
+        "trEm": [
+         "Peki"
+        ],
+        "emoji": "💬"
+       }
+      ]
+     },
+     {
+      "title": "REFUSE ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "*Sorry*, I'm busy at the moment.",
+        "tr": "Üzgünüm, şu anda meşgulüm.",
+        "trEm": [
+         "Üzgünüm"
+        ],
+        "emoji": "💬"
+       },
+       {
+        "en": "*I'm afraid* I can't right now.",
+        "tr": "Korkarım şu an yapamam.",
+        "trEm": [
+         "Korkarım"
+        ],
+        "emoji": "💬"
+       },
+       {
+        "en": "*Not now*, I have to finish my homework.",
+        "tr": "Şimdi olmaz, ödevimi bitirmem gerek.",
+        "trEm": [
+         "Şimdi olmaz"
+        ],
+        "emoji": "📚"
+       }
+      ]
+     }
+    ],
+    "examples": [
+     {
+      "en": "*Of course.* I can help you.",
+      "tr": "Elbette. Sana yardım edebilirim.",
+      "trEm": [
+       "Elbette. Sana yardım edebilirim."
+      ],
+      "emoji": "💬"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Accepting & Refusing Requests",
+   "titleTr": "Ricayı kabul etme ve reddetme",
+   "chips": [
+    "ACCEPT ✅"
+   ],
+   "examples": [
     {
-     "title": "REFUSE ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "*Sorry*, I'm busy at the moment.",
-       "tr": "Üzgünüm, şu anda meşgulüm.",
-       "trEm": [
-        "Üzgünüm"
-       ],
-       "emoji": "💬"
-      },
-      {
-       "en": "*I'm afraid* I can't right now.",
-       "tr": "Korkarım şu an yapamam.",
-       "trEm": [
-        "Korkarım"
-       ],
-       "emoji": "💬"
-      },
-      {
-       "en": "*Not now*, I have to finish my homework.",
-       "tr": "Şimdi olmaz, ödevimi bitirmem gerek.",
-       "trEm": [
-        "Şimdi olmaz"
-       ],
-       "emoji": "📚"
-      }
-     ]
+     "en": "*Sure*, no problem.",
+     "tr": "Tabii, sorun değil.",
+     "trEm": [
+      "Tabii"
+     ],
+     "emoji": "💬",
+     "focus": "ACCEPT ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Accepting & Refusing Requests",
+   "titleTr": "Ricayı kabul etme ve reddetme",
+   "chips": [
+    "ACCEPT ✅"
+   ],
+   "examples": [
+    {
+     "en": "*Of course*, I'll do it now.",
+     "tr": "Elbette, şimdi yaparım.",
+     "trEm": [
+      "Elbette"
+     ],
+     "emoji": "💬",
+     "focus": "ACCEPT ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Accepting & Refusing Requests",
+   "titleTr": "Ricayı kabul etme ve reddetme",
+   "chips": [
+    "ACCEPT ✅"
+   ],
+   "examples": [
+    {
+     "en": "*All right*, I'm coming.",
+     "tr": "Peki, geliyorum.",
+     "trEm": [
+      "Peki"
+     ],
+     "emoji": "💬",
+     "focus": "ACCEPT ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Accepting & Refusing Requests",
+   "titleTr": "Ricayı kabul etme ve reddetme",
+   "chips": [
+    "REFUSE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "*Sorry*, I'm busy at the moment.",
+     "tr": "Üzgünüm, şu anda meşgulüm.",
+     "trEm": [
+      "Üzgünüm"
+     ],
+     "emoji": "💬",
+     "focus": "REFUSE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Accepting & Refusing Requests",
+   "titleTr": "Ricayı kabul etme ve reddetme",
+   "chips": [
+    "REFUSE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "*I'm afraid* I can't right now.",
+     "tr": "Korkarım şu an yapamam.",
+     "trEm": [
+      "Korkarım"
+     ],
+     "emoji": "💬",
+     "focus": "REFUSE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Accepting & Refusing Requests",
+   "titleTr": "Ricayı kabul etme ve reddetme",
+   "chips": [
+    "REFUSE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "*Not now*, I have to finish my homework.",
+     "tr": "Şimdi olmaz, ödevimi bitirmem gerek.",
+     "trEm": [
+      "Şimdi olmaz"
+     ],
+     "emoji": "📚",
+     "focus": "REFUSE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    7,
+    7
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Accepting & Refusing Requests",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ I can help you.",
+     "answer": "Of course.",
+     "options": [
+      "Of course.",
+      "Sure",
+      "Of course",
+      "All right"
+     ],
+     "tr": "Elbette. Sana yardım edebilirim."
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Accepting & Refusing Requests",
+   "tasks": [
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Not now, I have to finish my homework.",
+     "tr": "Şimdi olmaz, ödevimi bitirmem gerek."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Accepting & Refusing Requests",
    "tasks": [
     {
@@ -669,17 +1310,11 @@
      "answer": "Sure",
      "options": [
       "Sure",
+      "Of course.",
       "Of course",
-      "All right",
-      "Sorry"
+      "All right"
      ],
      "tr": "Tabii, sorun değil."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Not now, I have to finish my homework.",
-     "tr": "Şimdi olmaz, ödevimi bitirmem gerek."
     }
    ]
   },
@@ -722,7 +1357,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -761,7 +1396,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -804,7 +1439,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -813,19 +1448,67 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Do you have to help your mother?",
-      "tr": "Annene yardım etmek zorunda mısın?"
-     },
-     {
       "answer": "Not now, I have to finish my homework.",
       "tr": "Şimdi olmaz, ödevimi bitirmem gerek."
      },
      {
-      "answer": "I have to tidy my room every weekend.",
-      "tr": "Her hafta sonu odamı toplamak zorundayım."
+      "answer": "All right, I'm coming.",
+      "tr": "Peki, geliyorum."
+     },
+     {
+      "answer": "Shall I set the table?",
+      "tr": "Masayı ben mi kurayım?"
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "have to / has to",
+   "task": {
+    "kind": "flash",
+    "q": "Share the housework. Give each family member a job and report their responsibilities.",
+    "clue": "I have to tidy my room every weekend.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Her hafta sonu odamı toplamak zorundayım."
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Asking for Help",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "Could you help me with the laundry?",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Çamaşırlarda bana yardım eder misin?"
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Accepting & Refusing Requests",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "I'm afraid I can't right now.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Korkarım şu an yapamam."
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

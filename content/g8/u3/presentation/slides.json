@@ -42,7 +42,18 @@
      "en": "cut",
      "tr": "kesmek",
      "emoji": "✂️"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Cooking Verbs",
+   "titleTr": "Yemek fiilleri",
+   "items": [
     {
      "en": "dice",
      "tr": "küp küp doğramak",
@@ -54,18 +65,7 @@
      "tr": "kızartmak",
      "emoji": "🍳",
      "img": "/app/img/words/fry.jpg"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Cooking Verbs",
-   "titleTr": "Yemek fiilleri",
-   "items": [
+    },
     {
      "en": "mash",
      "tr": "ezmek",
@@ -77,7 +77,18 @@
      "tr": "karıştırmak",
      "emoji": "🌀",
      "img": "/app/img/words/mix.jpg"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Cooking Verbs",
+   "titleTr": "Yemek fiilleri",
+   "items": [
     {
      "en": "peel",
      "tr": "soymak",
@@ -103,13 +114,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Cooking Verbs",
    "tasks": [
     {
@@ -133,7 +144,14 @@
        "b": "küp küp doğramak"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Cooking Verbs",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -146,6 +164,19 @@
       "chop",
       "peel"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Cooking Verbs",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kesmek",
+     "answer": "cut"
     }
    ]
   },
@@ -176,7 +207,18 @@
      "en": "pan",
      "tr": "tava",
      "emoji": "🍳"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Kitchen Tools",
+   "titleTr": "Mutfak gereçleri",
+   "items": [
     {
      "en": "saucepan",
      "tr": "tencere",
@@ -200,11 +242,15 @@
      "emoji": "🧂",
      "img": "/app/img/words/ingredient.jpg"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Kitchen Tools",
    "tasks": [
     {
@@ -213,7 +259,14 @@
      "statement": "\"saucepan\" means \"kaşık\".",
      "answer": false,
      "explain": "saucepan = tencere"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"yağ\"?",
+   "titleTr": "Use what you just learned · Kitchen Tools",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"yağ\"?",
@@ -223,6 +276,35 @@
       "saucepan",
       "oven",
       "spoon"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Kitchen Tools",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "saucepan",
+       "b": "tencere"
+      },
+      {
+       "a": "pan",
+       "b": "tava"
+      },
+      {
+       "a": "ingredient",
+       "b": "malzeme"
+      },
+      {
+       "a": "grater",
+       "b": "rende"
+      }
      ]
     }
    ]
@@ -254,7 +336,18 @@
      "en": "delicious",
      "tr": "nefis",
      "emoji": "😋"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Taste & Food",
+   "titleTr": "Tat ve yemek",
+   "items": [
     {
      "en": "tasty",
      "tr": "lezzetli",
@@ -275,11 +368,15 @@
      "tr": "baharatlı",
      "emoji": "🌶️"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · Taste & Food",
    "tasks": [
     {
@@ -287,7 +384,14 @@
      "q": "Guess the English word",
      "clue": "lezzetli",
      "answer": "tasty"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Taste & Food",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -308,6 +412,26 @@
        "a": "recipe",
        "b": "tarif"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Taste & Food",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/meal.jpg",
+     "answer": "meal",
+     "tr": "öğün",
+     "options": [
+      "meal",
+      "delicious",
+      "sour",
+      "tasty"
      ]
     }
    ]
@@ -336,7 +460,18 @@
      "en": "scoop",
      "tr": "kepçe ile almak, kepçe",
      "emoji": "🍨"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Mutfakta — ek kelimeler",
+   "items": [
     {
      "en": "roll",
      "tr": "yuvarlamak",
@@ -346,18 +481,7 @@
      "en": "season",
      "tr": "baharat katmak",
      "emoji": "🧂"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "Mutfakta — ek kelimeler",
-   "items": [
+    },
     {
      "en": "shape",
      "tr": "şekil vermek, şekil",
@@ -367,7 +491,18 @@
      "en": "sprinkle",
      "tr": "serpiştirmek",
      "emoji": "✨"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Mutfakta — ek kelimeler",
+   "items": [
     {
      "en": "place",
      "tr": "yerleştirmek",
@@ -390,13 +525,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -405,7 +540,14 @@
      "statement": "\"put\" means \"önceden ısıtmak\".",
      "answer": false,
      "explain": "put = koymak"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -427,6 +569,19 @@
        "b": "kepçe ile almak, kepçe"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "yuvarlamak",
+     "answer": "roll"
     }
    ]
   },
@@ -454,7 +609,18 @@
      "en": "knead",
      "tr": "yoğurmak",
      "emoji": "🥖"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Mutfakta — ek kelimeler",
+   "items": [
     {
      "en": "make it rest",
      "tr": "dinlendirmek",
@@ -470,11 +636,15 @@
      "tr": "erimek, eritmek",
      "emoji": "💧"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -498,7 +668,14 @@
        "b": "erimek, eritmek"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "flash",
      "q": "Guess the English word",
@@ -508,17 +685,25 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"melt\" means \"erimek, eritmek\".",
+     "answer": true,
+     "explain": "melt = erimek, eritmek"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Imperatives in Recipes",
    "titleTr": "Tariflerde emir cümleleri",
-   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
    "chips": [
-    "chop",
-    "stir",
-    "boil",
-    "add",
-    "pour",
-    "serve"
+    "Chop"
    ],
    "examples": [
     {
@@ -528,7 +713,96 @@
      "trEm": [
       "doğra"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+   "part": [
+    1,
+    7
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Imperatives in Recipes",
+    "titleTr": "Tariflerde emir cümleleri",
+    "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+    "chips": [
+     "chop",
+     "stir",
+     "boil",
+     "add",
+     "pour",
+     "serve"
+    ],
+    "examples": [
+     {
+      "en": "*Chop* the onions into small pieces.",
+      "tr": "Soğanları küçük parçalar hâlinde doğra.",
+      "img": "/app/img/words/chop.jpg",
+      "trEm": [
+       "doğra"
+      ]
+     },
+     {
+      "en": "*Add* a teaspoon of salt.",
+      "tr": "Bir çay kaşığı tuz ekle.",
+      "trEm": [
+       "ekle"
+      ],
+      "emoji": "👩‍🍳"
+     },
+     {
+      "en": "*Boil* the water for five minutes.",
+      "tr": "Suyu beş dakika kaynat.",
+      "img": "/app/img/words/boil.jpg",
+      "trEm": [
+       "kaynat"
+      ]
+     },
+     {
+      "en": "*Don't* forget to stir the soup.",
+      "tr": "Çorbayı karıştırmayı unutma.",
+      "trEm": [
+       "unutma"
+      ],
+      "emoji": "🥄"
+     },
+     {
+      "en": "*Stir* the sauce slowly.",
+      "tr": "Sosu yavaşça karıştır.",
+      "trEm": [
+       "Sosu yavaşça karıştır."
+      ],
+      "emoji": "🥄"
+     },
+     {
+      "en": "*Pour* the milk into a bowl.",
+      "tr": "Sütü bir kaseye dök.",
+      "trEm": [
+       "Sütü bir kaseye dök."
+      ],
+      "img": "/app/img/words/pour.jpg",
+      "emoji": "🚰"
+     },
+     {
+      "en": "*Serve* the soup hot.",
+      "tr": "Çorbayı sıcak servis et.",
+      "trEm": [
+       "Çorbayı sıcak servis et."
+      ],
+      "emoji": "👩‍🍳"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives in Recipes",
+   "titleTr": "Tariflerde emir cümleleri",
+   "chips": [
+    "Add"
+   ],
+   "examples": [
     {
      "en": "*Add* a teaspoon of salt.",
      "tr": "Bir çay kaşığı tuz ekle.",
@@ -536,7 +810,23 @@
       "ekle"
      ],
      "emoji": "👩‍🍳"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+   "part": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives in Recipes",
+   "titleTr": "Tariflerde emir cümleleri",
+   "chips": [
+    "Boil"
+   ],
+   "examples": [
     {
      "en": "*Boil* the water for five minutes.",
      "tr": "Suyu beş dakika kaynat.",
@@ -544,7 +834,23 @@
      "trEm": [
       "kaynat"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives in Recipes",
+   "titleTr": "Tariflerde emir cümleleri",
+   "chips": [
+    "Don't"
+   ],
+   "examples": [
     {
      "en": "*Don't* forget to stir the soup.",
      "tr": "Çorbayı karıştırmayı unutma.",
@@ -553,25 +859,130 @@
      ],
      "emoji": "🥄"
     }
+   ],
+   "paced": true,
+   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives in Recipes",
+   "titleTr": "Tariflerde emir cümleleri",
+   "chips": [
+    "Stir"
+   ],
+   "examples": [
+    {
+     "en": "*Stir* the sauce slowly.",
+     "tr": "Sosu yavaşça karıştır.",
+     "trEm": [
+      "Sosu yavaşça karıştır."
+     ],
+     "emoji": "🥄"
+    }
+   ],
+   "paced": true,
+   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives in Recipes",
+   "titleTr": "Tariflerde emir cümleleri",
+   "chips": [
+    "Pour"
+   ],
+   "examples": [
+    {
+     "en": "*Pour* the milk into a bowl.",
+     "tr": "Sütü bir kaseye dök.",
+     "trEm": [
+      "Sütü bir kaseye dök."
+     ],
+     "img": "/app/img/words/pour.jpg",
+     "emoji": "🚰"
+    }
+   ],
+   "paced": true,
+   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Imperatives in Recipes",
+   "titleTr": "Tariflerde emir cümleleri",
+   "chips": [
+    "Serve"
+   ],
+   "examples": [
+    {
+     "en": "*Serve* the soup hot.",
+     "tr": "Çorbayı sıcak servis et.",
+     "trEm": [
+      "Çorbayı sıcak servis et."
+     ],
+     "emoji": "👩‍🍳"
+    }
+   ],
+   "paced": true,
+   "rule": "Tarif verirken fiilin yalın hâli ile emir cümlesi kurarız.",
+   "part": [
+    7,
+    7
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Imperatives in Recipes",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "___ a teaspoon of salt.",
-     "answer": "Add",
-     "tr": "Bir çay kaşığı tuz ekle."
-    },
+     "clue": "___ the milk into a bowl.",
+     "answer": "Pour",
+     "tr": "Sütü bir kaseye dök."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Imperatives in Recipes",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "Don't forget to stir the soup.",
-     "tr": "Çorbayı karıştırmayı unutma."
+     "answer": "Serve the soup hot.",
+     "tr": "Çorbayı sıcak servis et."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Imperatives in Recipes",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ the onions into small pieces.",
+     "answer": "Chop",
+     "options": [
+      "Chop",
+      "Add",
+      "Boil",
+      "Don't"
+     ],
+     "tr": "Soğanları küçük parçalar hâlinde doğra."
     }
    ]
   },
@@ -579,13 +990,8 @@
    "type": "grammar",
    "title": "Sequencing Words",
    "titleTr": "Sıralama ifadeleri",
-   "rule": "Tarifin adımlarını *first, then, next, after that, finally* ile sıralarız.",
    "chips": [
-    "first",
-    "then",
-    "next",
-    "after that",
-    "finally"
+    "First"
    ],
    "examples": [
     {
@@ -595,7 +1001,78 @@
       "Önce"
      ],
      "emoji": "1️⃣"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tarifin adımlarını *first, then, next, after that, finally* ile sıralarız.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Sequencing Words",
+    "titleTr": "Sıralama ifadeleri",
+    "rule": "Tarifin adımlarını *first, then, next, after that, finally* ile sıralarız.",
+    "chips": [
+     "first",
+     "then",
+     "next",
+     "after that",
+     "finally"
+    ],
+    "examples": [
+     {
+      "en": "*First*, wash the vegetables.",
+      "tr": "Önce sebzeleri yıka.",
+      "trEm": [
+       "Önce"
+      ],
+      "emoji": "1️⃣"
+     },
+     {
+      "en": "*Then*, slice the tomatoes.",
+      "tr": "Sonra domatesleri dilimle.",
+      "img": "/app/img/words/slice.jpg",
+      "trEm": [
+       "Sonra"
+      ]
+     },
+     {
+      "en": "*After that*, mix everything in a bowl.",
+      "tr": "Ondan sonra her şeyi bir kasede karıştır.",
+      "img": "/app/img/words/bowl.jpg",
+      "trEm": [
+       "Ondan sonra"
+      ]
+     },
+     {
+      "en": "*Finally*, serve the salad cold.",
+      "tr": "Son olarak salatayı soğuk servis et.",
+      "trEm": [
+       "Son olarak"
+      ],
+      "emoji": "1️⃣"
+     },
+     {
+      "en": "*Next*, add the cheese.",
+      "tr": "Sonra peyniri ekle.",
+      "trEm": [
+       "Sonra peyniri ekle."
+      ],
+      "emoji": "1️⃣"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Sequencing Words",
+   "titleTr": "Sıralama ifadeleri",
+   "chips": [
+    "Then"
+   ],
+   "examples": [
     {
      "en": "*Then*, slice the tomatoes.",
      "tr": "Sonra domatesleri dilimle.",
@@ -603,7 +1080,23 @@
      "trEm": [
       "Sonra"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tarifin adımlarını *first, then, next, after that, finally* ile sıralarız.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Sequencing Words",
+   "titleTr": "Sıralama ifadeleri",
+   "chips": [
+    "After that"
+   ],
+   "examples": [
     {
      "en": "*After that*, mix everything in a bowl.",
      "tr": "Ondan sonra her şeyi bir kasede karıştır.",
@@ -611,7 +1104,23 @@
      "trEm": [
       "Ondan sonra"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tarifin adımlarını *first, then, next, after that, finally* ile sıralarız.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Sequencing Words",
+   "titleTr": "Sıralama ifadeleri",
+   "chips": [
+    "Finally"
+   ],
+   "examples": [
     {
      "en": "*Finally*, serve the salad cold.",
      "tr": "Son olarak salatayı soğuk servis et.",
@@ -620,11 +1129,41 @@
      ],
      "emoji": "1️⃣"
     }
+   ],
+   "paced": true,
+   "rule": "Tarifin adımlarını *first, then, next, after that, finally* ile sıralarız.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Sequencing Words",
+   "titleTr": "Sıralama ifadeleri",
+   "chips": [
+    "Next"
+   ],
+   "examples": [
+    {
+     "en": "*Next*, add the cheese.",
+     "tr": "Sonra peyniri ekle.",
+     "trEm": [
+      "Sonra peyniri ekle."
+     ],
+     "emoji": "1️⃣"
+    }
+   ],
+   "paced": true,
+   "rule": "Tarifin adımlarını *first, then, next, after that, finally* ile sıralarız.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Sequencing Words",
    "tasks": [
     {
@@ -638,95 +1177,324 @@
       "Finally"
      ],
      "tr": "Önce sebzeleri yıka."
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "Finally, serve the salad cold.",
-     "tr": "Son olarak salatayı soğuk servis et."
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "How much / How many",
-   "titleTr": "Miktar sorma",
-   "rule": "Sayılabilen isimler için *How many*, sayılamayanlar için *How much* kullanılır.",
-   "columns": [
-    {
-     "title": "HOW MANY 🔢",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "*How many* eggs do we need?",
-       "tr": "Kaç yumurtaya ihtiyacımız var?",
-       "trEm": [
-        "Kaç"
-       ],
-       "emoji": "🔢"
-      },
-      {
-       "en": "*How many* potatoes are there?",
-       "tr": "Kaç patates var?",
-       "trEm": [
-        "Kaç"
-       ],
-       "emoji": "🔢"
-      },
-      {
-       "en": "We need *three* tomatoes.",
-       "tr": "Üç domatese ihtiyacımız var.",
-       "trEm": [
-        "Üç"
-       ],
-       "emoji": "🍅"
-      }
-     ]
-    },
-    {
-     "title": "HOW MUCH ⚖️",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "*How much* flour do you need?",
-       "tr": "Ne kadar una ihtiyacın var?",
-       "trEm": [
-        "Ne kadar"
-       ],
-       "emoji": "🔢"
-      },
-      {
-       "en": "*How much* sugar is there?",
-       "tr": "Ne kadar şeker var?",
-       "trEm": [
-        "Ne kadar"
-       ],
-       "emoji": "🔢"
-      },
-      {
-       "en": "Add *a cup of* milk.",
-       "tr": "Bir fincan süt ekle.",
-       "trEm": [
-        "Bir fincan"
-       ],
-       "emoji": "🔢"
-      }
-     ]
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Sequencing Words",
+   "tasks": [
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Next, add the cheese.",
+     "tr": "Sonra peyniri ekle."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Sequencing Words",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___, slice the tomatoes.",
+     "answer": "Then",
+     "options": [
+      "Then",
+      "First",
+      "After that",
+      "Finally"
+     ],
+     "tr": "Sonra domatesleri dilimle."
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How much / How many",
+   "titleTr": "Miktar sorma",
+   "chips": [
+    "How many"
+   ],
+   "examples": [
+    {
+     "en": "*How many* eggs do we need?",
+     "tr": "Kaç yumurtaya ihtiyacımız var?",
+     "trEm": [
+      "Kaç"
+     ],
+     "emoji": "🔢"
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    7
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "How much / How many",
+    "titleTr": "Miktar sorma",
+    "rule": "Sayılabilen isimler için *How many*, sayılamayanlar için *How much* kullanılır.",
+    "columns": [
+     {
+      "title": "HOW MANY 🔢",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "*How many* eggs do we need?",
+        "tr": "Kaç yumurtaya ihtiyacımız var?",
+        "trEm": [
+         "Kaç"
+        ],
+        "emoji": "🔢"
+       },
+       {
+        "en": "*How many* potatoes are there?",
+        "tr": "Kaç patates var?",
+        "trEm": [
+         "Kaç"
+        ],
+        "emoji": "🔢"
+       },
+       {
+        "en": "We need *three* tomatoes.",
+        "tr": "Üç domatese ihtiyacımız var.",
+        "trEm": [
+         "Üç"
+        ],
+        "emoji": "🍅"
+       }
+      ]
+     },
+     {
+      "title": "HOW MUCH ⚖️",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "*How much* flour do you need?",
+        "tr": "Ne kadar una ihtiyacın var?",
+        "trEm": [
+         "Ne kadar"
+        ],
+        "emoji": "🔢"
+       },
+       {
+        "en": "*How much* sugar is there?",
+        "tr": "Ne kadar şeker var?",
+        "trEm": [
+         "Ne kadar"
+        ],
+        "emoji": "🔢"
+       },
+       {
+        "en": "Add *a cup of* milk.",
+        "tr": "Bir fincan süt ekle.",
+        "trEm": [
+         "Bir fincan"
+        ],
+        "emoji": "🔢"
+       }
+      ]
+     }
+    ],
+    "examples": [
+     {
+      "en": "*How many* eggs do we need?",
+      "tr": "Kaç yumurtaya ihtiyacımız var?",
+      "trEm": [
+       "Kaç"
+      ],
+      "emoji": "🔢"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "How much / How many",
+   "titleTr": "Miktar sorma",
+   "chips": [
+    "HOW MANY 🔢"
+   ],
+   "examples": [
+    {
+     "en": "*How many* eggs do we need?",
+     "tr": "Kaç yumurtaya ihtiyacımız var?",
+     "trEm": [
+      "Kaç"
+     ],
+     "emoji": "🔢",
+     "focus": "HOW MANY 🔢"
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How much / How many",
+   "titleTr": "Miktar sorma",
+   "chips": [
+    "HOW MANY 🔢"
+   ],
+   "examples": [
+    {
+     "en": "*How many* potatoes are there?",
+     "tr": "Kaç patates var?",
+     "trEm": [
+      "Kaç"
+     ],
+     "emoji": "🔢",
+     "focus": "HOW MANY 🔢"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How much / How many",
+   "titleTr": "Miktar sorma",
+   "chips": [
+    "HOW MANY 🔢"
+   ],
+   "examples": [
+    {
+     "en": "We need *three* tomatoes.",
+     "tr": "Üç domatese ihtiyacımız var.",
+     "trEm": [
+      "Üç"
+     ],
+     "emoji": "🍅",
+     "focus": "HOW MANY 🔢"
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How much / How many",
+   "titleTr": "Miktar sorma",
+   "chips": [
+    "HOW MUCH ⚖️"
+   ],
+   "examples": [
+    {
+     "en": "*How much* flour do you need?",
+     "tr": "Ne kadar una ihtiyacın var?",
+     "trEm": [
+      "Ne kadar"
+     ],
+     "emoji": "🔢",
+     "focus": "HOW MUCH ⚖️"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How much / How many",
+   "titleTr": "Miktar sorma",
+   "chips": [
+    "HOW MUCH ⚖️"
+   ],
+   "examples": [
+    {
+     "en": "*How much* sugar is there?",
+     "tr": "Ne kadar şeker var?",
+     "trEm": [
+      "Ne kadar"
+     ],
+     "emoji": "🔢",
+     "focus": "HOW MUCH ⚖️"
+    }
+   ],
+   "paced": true,
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How much / How many",
+   "titleTr": "Miktar sorma",
+   "chips": [
+    "HOW MUCH ⚖️"
+   ],
+   "examples": [
+    {
+     "en": "Add *a cup of* milk.",
+     "tr": "Bir fincan süt ekle.",
+     "trEm": [
+      "Bir fincan"
+     ],
+     "emoji": "🔢",
+     "focus": "HOW MUCH ⚖️"
+    }
+   ],
+   "paced": true,
+   "part": [
+    7,
+    7
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · How much / How many",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "How many potatoes are there? — Kaç yumurtaya ihtiyacımız var?",
+     "statement": "How many eggs do we need? — Kaç yumurtaya ihtiyacımız var?",
      "answer": false,
-     "explain": "Correct: How many potatoes are there?"
-    },
+     "explain": "Correct: How many eggs do we need?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · How much / How many",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ eggs do we need?",
+     "answer": "How many",
+     "options": [
+      "How many",
+      "three",
+      "How much",
+      "a cup of"
+     ],
+     "tr": "Kaç yumurtaya ihtiyacımız var?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · How much / How many",
+   "tasks": [
     {
      "kind": "fill",
      "text": "___ eggs do we need?",
@@ -780,7 +1548,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -819,7 +1587,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -862,7 +1630,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -871,19 +1639,67 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Chop the onions into small pieces.",
-      "tr": "Soğanları küçük parçalar hâlinde doğra."
+      "answer": "Serve the soup hot.",
+      "tr": "Çorbayı sıcak servis et."
      },
      {
-      "answer": "Don't forget to stir the soup.",
-      "tr": "Çorbayı karıştırmayı unutma."
+      "answer": "After that, mix everything in a bowl.",
+      "tr": "Ondan sonra her şeyi bir kasede karıştır."
      },
      {
-      "answer": "Add a cup of milk.",
-      "tr": "Bir fincan süt ekle."
+      "answer": "First, wash the vegetables.",
+      "tr": "Önce sebzeleri yıka."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Imperatives in Recipes",
+   "task": {
+    "kind": "flash",
+    "q": "Teach your partner how to make a sandwich. Give three short instructions.",
+    "clue": "Don't forget to stir the soup.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Çorbayı karıştırmayı unutma."
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Sequencing Words",
+   "task": {
+    "kind": "flash",
+    "q": "Explain a simple recipe. Your partner repeats the steps in the same order.",
+    "clue": "First, wash the vegetables.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Önce sebzeleri yıka."
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "How much / How many",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "How much flour do you need?",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Ne kadar una ihtiyacın var?"
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

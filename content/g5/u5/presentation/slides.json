@@ -50,7 +50,18 @@
      "tr": "sinema",
      "emoji": "🎬",
      "img": "p01-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Places for Recreation & Attractions",
+   "titleTr": "Dinlenme ve gezme yerleri",
+   "items": [
     {
      "en": "coast",
      "tr": "sahil",
@@ -68,11 +79,17 @@
      "tr": "orman",
      "emoji": "🌲",
      "img": "p01-07.png"
+    },
+    {
+     "en": "gym",
+     "tr": "spor salonu",
+     "emoji": "🏋️",
+     "img": "p01-08.png"
     }
    ],
    "part": [
-    1,
-    3
+    2,
+    5
    ]
   },
   {
@@ -80,12 +97,6 @@
    "title": "Places for Recreation & Attractions",
    "titleTr": "Dinlenme ve gezme yerleri",
    "items": [
-    {
-     "en": "gym",
-     "tr": "spor salonu",
-     "emoji": "🏋️",
-     "img": "p01-08.png"
-    },
     {
      "en": "hall",
      "tr": "salon",
@@ -109,7 +120,18 @@
      "tr": "oyun alanı",
      "emoji": "🛝",
      "img": "p01-12.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Places for Recreation & Attractions",
+   "titleTr": "Dinlenme ve gezme yerleri",
+   "items": [
     {
      "en": "shop / store",
      "tr": "dükkan",
@@ -121,18 +143,7 @@
      "tr": "gökdelen",
      "emoji": "🏢",
      "img": "p01-14.png"
-    }
-   ],
-   "part": [
-    2,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Places for Recreation & Attractions",
-   "titleTr": "Dinlenme ve gezme yerleri",
-   "items": [
+    },
     {
      "en": "sports centre",
      "tr": "spor merkezi",
@@ -144,7 +155,18 @@
      "tr": "meydan",
      "emoji": "⛲",
      "img": "p01-16.png"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Places for Recreation & Attractions",
+   "titleTr": "Dinlenme ve gezme yerleri",
+   "items": [
     {
      "en": "street fair",
      "tr": "sokak panayırı",
@@ -171,13 +193,13 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Places for Recreation & Attractions",
    "tasks": [
     {
@@ -201,7 +223,14 @@
        "b": "spor salonu"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places for Recreation & Attractions",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -214,6 +243,19 @@
       "cinema",
       "tower"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Places for Recreation & Attractions",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "spor merkezi",
+     "answer": "sports centre"
     }
    ]
   },
@@ -241,16 +283,11 @@
      "en": "guide",
      "tr": "rehberlik etmek",
      "emoji": "🧭"
-    },
-    {
-     "en": "joke",
-     "tr": "şaka yapmak",
-     "emoji": "😂"
     }
    ],
    "part": [
     1,
-    2
+    3
    ]
   },
   {
@@ -258,6 +295,11 @@
    "title": "Verbs",
    "titleTr": "Fiiller",
    "items": [
+    {
+     "en": "joke",
+     "tr": "şaka yapmak",
+     "emoji": "😂"
+    },
     {
      "en": "experience",
      "tr": "deneyimlemek",
@@ -272,7 +314,18 @@
      "en": "take a tour",
      "tr": "tur atmak",
      "emoji": "🚌"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Verbs",
+   "titleTr": "Fiiller",
+   "items": [
     {
      "en": "take a photo",
      "tr": "fotoğraf çekmek",
@@ -285,13 +338,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
@@ -300,7 +353,14 @@
      "statement": "\"hire / rent\" means \"tur atmak\".",
      "answer": false,
      "explain": "hire / rent = kiralamak"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"şaka yapmak\"?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"şaka yapmak\"?",
@@ -310,6 +370,35 @@
       "hire / rent",
       "take a photo",
       "cycle"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "take a photo",
+       "b": "fotoğraf çekmek"
+      },
+      {
+       "a": "hire / rent",
+       "b": "kiralamak"
+      },
+      {
+       "a": "guide",
+       "b": "rehberlik etmek"
+      },
+      {
+       "a": "take a tour",
+       "b": "tur atmak"
+      }
      ]
     }
    ]
@@ -338,7 +427,18 @@
      "en": "famous",
      "tr": "ünlü",
      "emoji": "⭐"
-    },
+    }
+   ],
+   "part": [
+    1,
+    8
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "crowded",
      "tr": "kalabalık",
@@ -361,8 +461,8 @@
     }
    ],
    "part": [
-    1,
-    4
+    2,
+    8
    ]
   },
   {
@@ -389,7 +489,18 @@
      "en": "social",
      "tr": "sosyal",
      "emoji": "🗣️"
-    },
+    }
+   ],
+   "part": [
+    3,
+    8
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "quiet",
      "tr": "sessiz",
@@ -412,8 +523,8 @@
     }
    ],
    "part": [
-    2,
-    4
+    4,
+    8
    ]
   },
   {
@@ -440,7 +551,18 @@
      "en": "top",
      "tr": "üst",
      "emoji": "⬆️"
-    },
+    }
+   ],
+   "part": [
+    5,
+    8
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "handmade",
      "tr": "el yapımı",
@@ -463,8 +585,8 @@
     }
    ],
    "part": [
-    3,
-    4
+    6,
+    8
    ]
   },
   {
@@ -491,7 +613,18 @@
      "en": "small",
      "tr": "küçük",
      "emoji": "🐜"
-    },
+    }
+   ],
+   "part": [
+    7,
+    8
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "hot",
      "tr": "sıcak",
@@ -504,13 +637,13 @@
     }
    ],
    "part": [
-    4,
-    4
+    8,
+    8
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
@@ -518,7 +651,14 @@
      "q": "Guess the English word",
      "clue": "yerel",
      "answer": "local"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -540,6 +680,20 @@
        "b": "parlak"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"famous\" means \"ünlü\".",
+     "answer": true,
+     "explain": "famous = ünlü"
     }
    ]
   },
@@ -571,7 +725,18 @@
      "tr": "yemek odası",
      "emoji": "🍽️",
      "img": "p02-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Parts of a House",
+   "titleTr": "Evin bölümleri",
+   "items": [
     {
      "en": "kitchen",
      "tr": "mutfak",
@@ -587,11 +752,17 @@
      "en": "toilet",
      "tr": "tuvalet",
      "emoji": "🚽"
+    },
+    {
+     "en": "garden",
+     "tr": "bahçe",
+     "emoji": "🌷",
+     "img": "p02-06.png"
     }
    ],
    "part": [
-    1,
-    3
+    2,
+    5
    ]
   },
   {
@@ -599,12 +770,6 @@
    "title": "Parts of a House",
    "titleTr": "Evin bölümleri",
    "items": [
-    {
-     "en": "garden",
-     "tr": "bahçe",
-     "emoji": "🌷",
-     "img": "p02-06.png"
-    },
     {
      "en": "garage",
      "tr": "garaj",
@@ -627,7 +792,18 @@
      "tr": "koridor",
      "emoji": "🚶",
      "img": "p02-09.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Parts of a House",
+   "titleTr": "Evin bölümleri",
+   "items": [
     {
      "en": "floor",
      "tr": "kat / zemin",
@@ -639,18 +815,7 @@
      "tr": "zemin",
      "emoji": "🟫",
      "img": "p02-11.png"
-    }
-   ],
-   "part": [
-    2,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Parts of a House",
-   "titleTr": "Evin bölümleri",
-   "items": [
+    },
     {
      "en": "roof",
      "tr": "çatı",
@@ -662,7 +827,18 @@
      "tr": "merdiven",
      "emoji": "🪜",
      "img": "p02-13.png"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Parts of a House",
+   "titleTr": "Evin bölümleri",
+   "items": [
     {
      "en": "lift / elevator",
      "tr": "asansör",
@@ -689,13 +865,13 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Parts of a House",
    "tasks": [
     {
@@ -710,13 +886,49 @@
       "bedroom",
       "balcony"
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · Parts of a House",
+   "tasks": [
     {
      "kind": "truefalse",
      "q": "True or false?",
      "statement": "\"terrace\" means \"koridor\".",
      "answer": false,
      "explain": "terrace = teras"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Parts of a House",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "ground",
+       "b": "zemin"
+      },
+      {
+       "a": "balcony",
+       "b": "balkon"
+      },
+      {
+       "a": "garden",
+       "b": "bahçe"
+      },
+      {
+       "a": "bedroom",
+       "b": "yatak odası"
+      }
+     ]
     }
    ]
   },
@@ -748,7 +960,18 @@
      "tr": "masa",
      "emoji": "🪵",
      "img": "p02-21.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Furniture & Kitchen Utensils",
+   "titleTr": "Mobilyalar ve mutfak gereçleri",
+   "items": [
     {
      "en": "bed",
      "tr": "yatak",
@@ -764,11 +987,16 @@
      "en": "wardrobe",
      "tr": "giysi dolabı",
      "emoji": "🚪"
+    },
+    {
+     "en": "cupboard",
+     "tr": "mutfak dolabı",
+     "emoji": "🗄️"
     }
    ],
    "part": [
-    1,
-    3
+    2,
+    5
    ]
   },
   {
@@ -776,11 +1004,6 @@
    "title": "Furniture & Kitchen Utensils",
    "titleTr": "Mobilyalar ve mutfak gereçleri",
    "items": [
-    {
-     "en": "cupboard",
-     "tr": "mutfak dolabı",
-     "emoji": "🗄️"
-    },
     {
      "en": "bath",
      "tr": "küvet",
@@ -800,7 +1023,18 @@
      "en": "shelf",
      "tr": "raf",
      "emoji": "🪟"
-    },
+    }
+   ],
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Furniture & Kitchen Utensils",
+   "titleTr": "Mobilyalar ve mutfak gereçleri",
+   "items": [
     {
      "en": "rubbish bin",
      "tr": "çöp kutusu",
@@ -810,18 +1044,7 @@
      "en": "lamp",
      "tr": "lamba",
      "emoji": "💡"
-    }
-   ],
-   "part": [
-    2,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Furniture & Kitchen Utensils",
-   "titleTr": "Mobilyalar ve mutfak gereçleri",
-   "items": [
+    },
     {
      "en": "oven",
      "tr": "fırın",
@@ -831,7 +1054,18 @@
      "en": "stove",
      "tr": "ocak",
      "emoji": "🍲"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Furniture & Kitchen Utensils",
+   "titleTr": "Mobilyalar ve mutfak gereçleri",
+   "items": [
     {
      "en": "knife",
      "tr": "bıçak",
@@ -854,13 +1088,13 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
    "tasks": [
     {
@@ -884,7 +1118,14 @@
        "b": "buzdolabı"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -901,88 +1142,290 @@
    ]
   },
   {
-   "type": "compare",
-   "title": "There is / There are",
-   "titleTr": "Evde neler var?",
-   "columns": [
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
+   "tasks": [
     {
-     "title": "OLUMLU ✅",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "*There is* a wide sofa in the living room.",
-       "tr": "Oturma odasında geniş bir kanepe var.",
-       "trEm": [
-        "var"
-       ],
-       "emoji": "↔️"
-      },
-      {
-       "en": "*There are* two fridges in the kitchen.",
-       "tr": "Mutfakta iki buzdolabı var.",
-       "img": "p02-05.png",
-       "emoji": "🍳",
-       "trEm": [
-        "var"
-       ]
-      },
-      {
-       "en": "*Is there* an elevator in your apartment?",
-       "tr": "Sizin apartmanınızda bir asansör var mı?",
-       "trEm": [
-        "var mı"
-       ],
-       "emoji": "🛗"
-      }
-     ]
-    },
-    {
-     "title": "OLUMSUZ ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "*There isn't* a terrace in our house.",
-       "tr": "Evimizde bir teras yok.",
-       "img": "p02-08.png",
-       "emoji": "☂️",
-       "trEm": [
-        "yok"
-       ]
-      },
-      {
-       "en": "*There aren't* two beds in the bedroom.",
-       "tr": "Yatak odasında iki yatak yok.",
-       "img": "p02-03.png",
-       "emoji": "🛏️",
-       "trEm": [
-        "yok"
-       ]
-      },
-      {
-       "en": "*Are there* seven chairs in the kitchen?",
-       "tr": "Mutfakta yedi sandalye var mı?",
-       "img": "p02-05.png",
-       "emoji": "🍳",
-       "trEm": [
-        "var mı"
-       ]
-      }
-     ]
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "buzdolabı",
+     "answer": "fridge"
     }
    ]
   },
   {
+   "type": "grammar",
+   "title": "There is / There are",
+   "titleTr": "Evde neler var?",
+   "chips": [
+    "There are"
+   ],
+   "examples": [
+    {
+     "en": "*There are* two chairs in the room.",
+     "tr": "Odada iki sandalye var.",
+     "trEm": [
+      "var"
+     ],
+     "emoji": "🏠"
+    }
+   ],
+   "paced": true,
+   "rule": "Birden fazla şeyin varlığı: *There are + çoğul isim*.",
+   "part": [
+    1,
+    7
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "There is / There are",
+    "titleTr": "Evde neler var?",
+    "columns": [
+     {
+      "title": "OLUMLU ✅",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "*There is* a wide sofa in the living room.",
+        "tr": "Oturma odasında geniş bir kanepe var.",
+        "trEm": [
+         "var"
+        ],
+        "emoji": "↔️"
+       },
+       {
+        "en": "*There are* two fridges in the kitchen.",
+        "tr": "Mutfakta iki buzdolabı var.",
+        "img": "p02-05.png",
+        "emoji": "🍳",
+        "trEm": [
+         "var"
+        ]
+       },
+       {
+        "en": "*Is there* an elevator in your apartment?",
+        "tr": "Sizin apartmanınızda bir asansör var mı?",
+        "trEm": [
+         "var mı"
+        ],
+        "emoji": "🛗"
+       }
+      ]
+     },
+     {
+      "title": "OLUMSUZ ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "*There isn't* a terrace in our house.",
+        "tr": "Evimizde bir teras yok.",
+        "img": "p02-08.png",
+        "emoji": "☂️",
+        "trEm": [
+         "yok"
+        ]
+       },
+       {
+        "en": "*There aren't* two beds in the bedroom.",
+        "tr": "Yatak odasında iki yatak yok.",
+        "img": "p02-03.png",
+        "emoji": "🛏️",
+        "trEm": [
+         "yok"
+        ]
+       },
+       {
+        "en": "*Are there* seven chairs in the kitchen?",
+        "tr": "Mutfakta yedi sandalye var mı?",
+        "img": "p02-05.png",
+        "emoji": "🍳",
+        "trEm": [
+         "var mı"
+        ]
+       }
+      ]
+     }
+    ],
+    "examples": [
+     {
+      "en": "*There are* two chairs in the room.",
+      "tr": "Odada iki sandalye var.",
+      "trEm": [
+       "var"
+      ],
+      "emoji": "🏠"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "There is / There are",
+   "titleTr": "Evde neler var?",
+   "chips": [
+    "OLUMLU ✅"
+   ],
+   "examples": [
+    {
+     "en": "*There is* a wide sofa in the living room.",
+     "tr": "Oturma odasında geniş bir kanepe var.",
+     "trEm": [
+      "var"
+     ],
+     "emoji": "↔️",
+     "focus": "OLUMLU ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "There is / There are",
+   "titleTr": "Evde neler var?",
+   "chips": [
+    "OLUMLU ✅"
+   ],
+   "examples": [
+    {
+     "en": "*There are* two fridges in the kitchen.",
+     "tr": "Mutfakta iki buzdolabı var.",
+     "img": "p02-05.png",
+     "emoji": "🍳",
+     "trEm": [
+      "var"
+     ],
+     "focus": "OLUMLU ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "There is / There are",
+   "titleTr": "Evde neler var?",
+   "chips": [
+    "OLUMLU ✅"
+   ],
+   "examples": [
+    {
+     "en": "*Is there* an elevator in your apartment?",
+     "tr": "Sizin apartmanınızda bir asansör var mı?",
+     "trEm": [
+      "var mı"
+     ],
+     "emoji": "🛗",
+     "focus": "OLUMLU ✅"
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "There is / There are",
+   "titleTr": "Evde neler var?",
+   "chips": [
+    "OLUMSUZ ⛔"
+   ],
+   "examples": [
+    {
+     "en": "*There isn't* a terrace in our house.",
+     "tr": "Evimizde bir teras yok.",
+     "img": "p02-08.png",
+     "emoji": "☂️",
+     "trEm": [
+      "yok"
+     ],
+     "focus": "OLUMSUZ ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "There is / There are",
+   "titleTr": "Evde neler var?",
+   "chips": [
+    "OLUMSUZ ⛔"
+   ],
+   "examples": [
+    {
+     "en": "*There aren't* two beds in the bedroom.",
+     "tr": "Yatak odasında iki yatak yok.",
+     "img": "p02-03.png",
+     "emoji": "🛏️",
+     "trEm": [
+      "yok"
+     ],
+     "focus": "OLUMSUZ ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "There is / There are",
+   "titleTr": "Evde neler var?",
+   "chips": [
+    "OLUMSUZ ⛔"
+   ],
+   "examples": [
+    {
+     "en": "*Are there* seven chairs in the kitchen?",
+     "tr": "Mutfakta yedi sandalye var mı?",
+     "img": "p02-05.png",
+     "emoji": "🍳",
+     "trEm": [
+      "var mı"
+     ],
+     "focus": "OLUMSUZ ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    7,
+    7
+   ]
+  },
+  {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · There is / There are",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "___ seven chairs in the kitchen?",
-     "answer": "Are there",
-     "tr": "Mutfakta yedi sandalye var mı?"
-    },
+     "clue": "___ two beds in the bedroom.",
+     "answer": "There aren't",
+     "tr": "Yatak odasında iki yatak yok."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · There is / There are",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
@@ -992,10 +1435,31 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · There is / There are",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ two chairs in the room.",
+     "answer": "There are",
+     "options": [
+      "There are",
+      "There is",
+      "Is there",
+      "There isn't"
+     ],
+     "tr": "Odada iki sandalye var."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Possessive 's",
    "titleTr": "Sahiplik bildiren 's",
-   "rule": "Özel isimlerin sonuna *'s* eklenir. Çoğul isimlerde sadece *'* konur. Sormak için *Whose?* (Kimin?)",
+   "chips": [
+    "'s"
+   ],
    "examples": [
     {
      "en": "This is Emre*'s* armchair.",
@@ -1005,7 +1469,74 @@
      "trEm": [
       "Emre'nin"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Özel isimlerin sonuna *'s* eklenir.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Possessive 's",
+    "titleTr": "Sahiplik bildiren 's",
+    "rule": "Özel isimlerin sonuna *'s* eklenir. Çoğul isimlerde sadece *'* konur. Sormak için *Whose?* (Kimin?)",
+    "examples": [
+     {
+      "en": "This is Emre*'s* armchair.",
+      "tr": "Bu Emre'nin koltuğu.",
+      "img": "p02-19.png",
+      "emoji": "🪑",
+      "trEm": [
+       "Emre'nin"
+      ]
+     },
+     {
+      "en": "This is Damla*'s* bookcase.",
+      "tr": "Bu Damla'nın kitaplığı.",
+      "trEm": [
+       "Damla'nın"
+      ],
+      "emoji": "📚"
+     },
+     {
+      "en": "The teachers*'* cars are in the garden.",
+      "tr": "Öğretmenlerin arabaları bahçede.",
+      "img": "p02-06.png",
+      "emoji": "🌷",
+      "trEm": [
+       "Öğretmenlerin"
+      ]
+     },
+     {
+      "en": "This is my parents*'* bedroom.",
+      "tr": "Bu anne-babamın yatak odası.",
+      "img": "p02-03.png",
+      "emoji": "🛏️",
+      "trEm": [
+       "anne-babamın"
+      ]
+     },
+     {
+      "en": "This is Ece*'s* bicycle.",
+      "tr": "Bu Ece'nin bisikleti.",
+      "trEm": [
+       "Ece'nin"
+      ],
+      "emoji": "📝"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Possessive 's",
+   "titleTr": "Sahiplik bildiren 's",
+   "chips": [
+    "'s"
+   ],
+   "examples": [
     {
      "en": "This is Damla*'s* bookcase.",
      "tr": "Bu Damla'nın kitaplığı.",
@@ -1013,7 +1544,47 @@
       "Damla'nın"
      ],
      "emoji": "📚"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Özel isimlerin sonuna *'s* eklenir.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Possessive 's",
+   "titleTr": "Sahiplik bildiren 's",
+   "chips": [
+    "'s"
+   ],
+   "examples": [
+    {
+     "en": "This is Ece*'s* bicycle.",
+     "tr": "Bu Ece'nin bisikleti.",
+     "trEm": [
+      "Ece'nin"
+     ],
+     "emoji": "📝"
+    }
+   ],
+   "paced": true,
+   "rule": "Özel isimlerin sonuna *'s* eklenir.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Possessive 's",
+   "titleTr": "Sahiplik bildiren 's",
+   "chips": [
+    "'"
+   ],
+   "examples": [
     {
      "en": "The teachers*'* cars are in the garden.",
      "tr": "Öğretmenlerin arabaları bahçede.",
@@ -1022,7 +1593,23 @@
      "trEm": [
       "Öğretmenlerin"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Özel isimlerin sonuna *'s* eklenir.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Possessive 's",
+   "titleTr": "Sahiplik bildiren 's",
+   "chips": [
+    "'"
+   ],
+   "examples": [
     {
      "en": "This is my parents*'* bedroom.",
      "tr": "Bu anne-babamın yatak odası.",
@@ -1032,11 +1619,17 @@
       "anne-babamın"
      ]
     }
+   ],
+   "paced": true,
+   "rule": "Özel isimlerin sonuna *'s* eklenir.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Possessive 's",
    "tasks": [
     {
@@ -1048,12 +1641,36 @@
       "'"
      ],
      "tr": "Bu Emre'nin koltuğu."
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Possessive 's",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "This is my parents' bedroom.",
-     "tr": "Bu anne-babamın yatak odası."
+     "answer": "This is Ece's bicycle.",
+     "tr": "Bu Ece'nin bisikleti."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Possessive 's",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "This is Damla___ bookcase.",
+     "answer": "'s",
+     "options": [
+      "'s",
+      "'"
+     ],
+     "tr": "Bu Damla'nın kitaplığı."
     }
    ]
   },
@@ -1138,7 +1755,7 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Role-play: what comes next?",
    "titleTr": "Use what you just learned · Whose ...?",
    "tasks": [
     {
@@ -1153,7 +1770,9 @@
    "type": "grammar",
    "title": "Simple Present",
    "titleTr": "Geniş zaman tekrarı",
-   "rule": "He / She / It → fiile *-s*, *-es* veya *-ies*. Olumsuz ve soruda takı yok: *don't / doesn't*, *Do / Does*.",
+   "chips": [
+    "go"
+   ],
    "examples": [
     {
      "en": "I *go* to the playground every day.",
@@ -1162,7 +1781,94 @@
      "trEm": [
       "giderim"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    8
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Simple Present",
+    "titleTr": "Geniş zaman tekrarı",
+    "rule": "He / She / It → fiile *-s*, *-es* veya *-ies*. Olumsuz ve soruda takı yok: *don't / doesn't*, *Do / Does*.",
+    "examples": [
+     {
+      "en": "I *go* to the playground every day.",
+      "tr": "Her gün oyun alanına giderim.",
+      "img": "p01-12.png",
+      "trEm": [
+       "giderim"
+      ]
+     },
+     {
+      "en": "He *fishes* in the lake.",
+      "tr": "O gölde balık tutar.",
+      "trEm": [
+       "balık tutar"
+      ],
+      "emoji": "🎣"
+     },
+     {
+      "en": "She *goes* to Paris in summer.",
+      "tr": "O yazın Paris'e gider.",
+      "trEm": [
+       "gider"
+      ],
+      "emoji": "🗼"
+     },
+     {
+      "en": "You *don't* tell jokes.",
+      "tr": "Sen şaka yapmazsın.",
+      "trEm": [
+       "yapmazsın"
+      ],
+      "emoji": "😂"
+     },
+     {
+      "en": "She *doesn't* go to the cinema.",
+      "tr": "O sinemaya gitmez.",
+      "img": "p01-04.png",
+      "trEm": [
+       "gitmez"
+      ]
+     },
+     {
+      "en": "*Do* you like street fairs? — Yes, I do.",
+      "tr": "Sokak panayırlarını sever misin? — Evet.",
+      "trEm": [
+       "misin"
+      ],
+      "emoji": "🎪"
+     },
+     {
+      "en": "*Does* Mert go to the gym? — No, he doesn't.",
+      "tr": "Mert spor salonuna gider mi? — Hayır.",
+      "img": "p01-08.png",
+      "trEm": [
+       "mi"
+      ]
+     },
+     {
+      "en": "He *plays* football on Saturdays.",
+      "tr": "Cumartesi günleri futbol oynar.",
+      "trEm": [
+       "Cumartesi günleri futbol oynar."
+      ],
+      "emoji": "🔁"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present",
+   "titleTr": "Geniş zaman tekrarı",
+   "chips": [
+    "fishes"
+   ],
+   "examples": [
     {
      "en": "He *fishes* in the lake.",
      "tr": "O gölde balık tutar.",
@@ -1170,7 +1876,22 @@
       "balık tutar"
      ],
      "emoji": "🎣"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present",
+   "titleTr": "Geniş zaman tekrarı",
+   "chips": [
+    "goes"
+   ],
+   "examples": [
     {
      "en": "She *goes* to Paris in summer.",
      "tr": "O yazın Paris'e gider.",
@@ -1178,7 +1899,22 @@
       "gider"
      ],
      "emoji": "🗼"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present",
+   "titleTr": "Geniş zaman tekrarı",
+   "chips": [
+    "don't"
+   ],
+   "examples": [
     {
      "en": "You *don't* tell jokes.",
      "tr": "Sen şaka yapmazsın.",
@@ -1186,7 +1922,22 @@
       "yapmazsın"
      ],
      "emoji": "😂"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present",
+   "titleTr": "Geniş zaman tekrarı",
+   "chips": [
+    "doesn't"
+   ],
+   "examples": [
     {
      "en": "She *doesn't* go to the cinema.",
      "tr": "O sinemaya gitmez.",
@@ -1194,7 +1945,22 @@
      "trEm": [
       "gitmez"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present",
+   "titleTr": "Geniş zaman tekrarı",
+   "chips": [
+    "Do"
+   ],
+   "examples": [
     {
      "en": "*Do* you like street fairs? — Yes, I do.",
      "tr": "Sokak panayırlarını sever misin? — Evet.",
@@ -1202,7 +1968,22 @@
       "misin"
      ],
      "emoji": "🎪"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    6,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present",
+   "titleTr": "Geniş zaman tekrarı",
+   "chips": [
+    "Does"
+   ],
+   "examples": [
     {
      "en": "*Does* Mert go to the gym? — No, he doesn't.",
      "tr": "Mert spor salonuna gider mi? — Hayır.",
@@ -1211,25 +1992,79 @@
       "mi"
      ]
     }
+   ],
+   "paced": true,
+   "part": [
+    7,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present",
+   "titleTr": "Geniş zaman tekrarı",
+   "chips": [
+    "plays"
+   ],
+   "examples": [
+    {
+     "en": "He *plays* football on Saturdays.",
+     "tr": "Cumartesi günleri futbol oynar.",
+     "trEm": [
+      "Cumartesi günleri futbol oynar."
+     ],
+     "emoji": "🔁"
+    }
+   ],
+   "paced": true,
+   "part": [
+    8,
+    8
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Simple Present",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "He ___ in the lake.",
-     "answer": "fishes",
-     "tr": "O gölde balık tutar."
-    },
+     "clue": "I ___ to the playground every day.",
+     "answer": "go",
+     "tr": "Her gün oyun alanına giderim."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Simple Present",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "She doesn't go to the cinema.",
-     "tr": "O sinemaya gitmez."
+     "answer": "He plays football on Saturdays.",
+     "tr": "Cumartesi günleri futbol oynar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Present",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ to the playground every day.",
+     "answer": "go",
+     "options": [
+      "go",
+      "fishes",
+      "goes",
+      "don't"
+     ],
+     "tr": "Her gün oyun alanına giderim."
     }
    ]
   },
@@ -1237,7 +2072,9 @@
    "type": "grammar",
    "title": "Comparative Adjectives",
    "titleTr": "Karşılaştırma sıfatları — than",
-   "rule": "Tek heceli sıfat + *-er*. \"e\" ile bitiyorsa + *-r*. Sessiz-sesli-sessiz ise son harf çiftlenir + *-er*. İki+ heceli sıfatların önüne *more / less*. Karşılaştırırken *than* kullanılır.",
+   "chips": [
+    "er"
+   ],
    "examples": [
     {
      "en": "small → small*er*",
@@ -1246,7 +2083,120 @@
       "tek heceli"
      ],
      "emoji": "🐜"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    1,
+    11
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Comparative Adjectives",
+    "titleTr": "Karşılaştırma sıfatları — than",
+    "rule": "Tek heceli sıfat + *-er*. \"e\" ile bitiyorsa + *-r*. Sessiz-sesli-sessiz ise son harf çiftlenir + *-er*. İki+ heceli sıfatların önüne *more / less*. Karşılaştırırken *than* kullanılır.",
+    "examples": [
+     {
+      "en": "small → small*er*",
+      "tr": "tek heceli",
+      "trEm": [
+       "tek heceli"
+      ],
+      "emoji": "🐜"
+     },
+     {
+      "en": "wide → wide*r*",
+      "tr": "e ile biten",
+      "trEm": [
+       "e ile biten"
+      ],
+      "emoji": "↔️"
+     },
+     {
+      "en": "big → big*ger*",
+      "tr": "sessiz-sesli-sessiz",
+      "trEm": [
+       "sessiz-sesli-sessiz"
+      ],
+      "emoji": "🐘"
+     },
+     {
+      "en": "heavy → heav*ier*",
+      "tr": "sessiz + y",
+      "trEm": [
+       "sessiz + y"
+      ],
+      "emoji": "🏋️"
+     },
+     {
+      "en": "crowded → *more* crowded",
+      "tr": "iki+ heceli",
+      "trEm": [
+       "iki+ heceli"
+      ],
+      "emoji": "👥"
+     },
+     {
+      "en": "good → *better*  ·  bad → *worse*  ·  much/many → *more*  ·  little → *less*  ·  far → *farther*",
+      "tr": "düzensiz sıfatlar",
+      "trEm": [
+       "düzensiz sıfatlar"
+      ],
+      "emoji": "⚖️"
+     },
+     {
+      "en": "The sofa is *more comfortable than* the armchair.",
+      "tr": "Kanepe, koltuktan daha rahat.",
+      "trEm": [
+       "daha rahat"
+      ],
+      "emoji": "😌"
+     },
+     {
+      "en": "My flat is *closer than* your flat.",
+      "tr": "Benim dairem, senin dairenden daha yakın.",
+      "trEm": [
+       "daha yakın"
+      ],
+      "emoji": "⚖️"
+     },
+     {
+      "en": "The terrace is *bigger than* the balcony.",
+      "tr": "Teras, balkondan daha büyük.",
+      "img": "p02-07.png",
+      "emoji": "🪴",
+      "trEm": [
+       "daha büyük"
+      ]
+     },
+     {
+      "en": "City life is *better than* town life.",
+      "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir.",
+      "img": "p01-19.png",
+      "trEm": [
+       "daha iyidir"
+      ]
+     },
+     {
+      "en": "An elephant is *bigger than* a lion.",
+      "tr": "Bir fil bir aslandan daha büyüktür.",
+      "trEm": [
+       "daha büyük"
+      ],
+      "emoji": "🦁"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "r"
+   ],
+   "examples": [
     {
      "en": "wide → wide*r*",
      "tr": "e ile biten",
@@ -1254,7 +2204,23 @@
       "e ile biten"
      ],
      "emoji": "↔️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    2,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "ger"
+   ],
+   "examples": [
     {
      "en": "big → big*ger*",
      "tr": "sessiz-sesli-sessiz",
@@ -1262,7 +2228,23 @@
       "sessiz-sesli-sessiz"
      ],
      "emoji": "🐘"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    3,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "ier"
+   ],
+   "examples": [
     {
      "en": "heavy → heav*ier*",
      "tr": "sessiz + y",
@@ -1270,7 +2252,23 @@
       "sessiz + y"
      ],
      "emoji": "🏋️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    4,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "more"
+   ],
+   "examples": [
     {
      "en": "crowded → *more* crowded",
      "tr": "iki+ heceli",
@@ -1278,7 +2276,23 @@
       "iki+ heceli"
      ],
      "emoji": "👥"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    5,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "better / worse / more / less / farther"
+   ],
+   "examples": [
     {
      "en": "good → *better*  ·  bad → *worse*  ·  much/many → *more*  ·  little → *less*  ·  far → *farther*",
      "tr": "düzensiz sıfatlar",
@@ -1286,7 +2300,23 @@
       "düzensiz sıfatlar"
      ],
      "emoji": "⚖️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    6,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "more comfortable than"
+   ],
+   "examples": [
     {
      "en": "The sofa is *more comfortable than* the armchair.",
      "tr": "Kanepe, koltuktan daha rahat.",
@@ -1294,7 +2324,23 @@
       "daha rahat"
      ],
      "emoji": "😌"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    7,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "closer than"
+   ],
+   "examples": [
     {
      "en": "My flat is *closer than* your flat.",
      "tr": "Benim dairem, senin dairenden daha yakın.",
@@ -1302,7 +2348,23 @@
       "daha yakın"
      ],
      "emoji": "⚖️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    8,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "bigger than"
+   ],
+   "examples": [
     {
      "en": "The terrace is *bigger than* the balcony.",
      "tr": "Teras, balkondan daha büyük.",
@@ -1311,7 +2373,47 @@
      "trEm": [
       "daha büyük"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    9,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "bigger than"
+   ],
+   "examples": [
+    {
+     "en": "An elephant is *bigger than* a lion.",
+     "tr": "Bir fil bir aslandan daha büyüktür.",
+     "trEm": [
+      "daha büyük"
+     ],
+     "emoji": "🦁"
+    }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    10,
+    11
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparative Adjectives",
+   "titleTr": "Karşılaştırma sıfatları — than",
+   "chips": [
+    "better than"
+   ],
+   "examples": [
     {
      "en": "City life is *better than* town life.",
      "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir.",
@@ -1320,11 +2422,17 @@
       "daha iyidir"
      ]
     }
+   ],
+   "paced": true,
+   "rule": "Tek heceli sıfat + *-er*.",
+   "part": [
+    11,
+    11
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Comparative Adjectives",
    "tasks": [
     {
@@ -1338,12 +2446,38 @@
       "ier"
      ],
      "tr": "tek heceli"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Comparative Adjectives",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "City life is better than town life.",
-     "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir."
+     "answer": "An elephant is bigger than a lion.",
+     "tr": "Bir fil bir aslandan daha büyüktür."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Comparative Adjectives",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "wide → wide___",
+     "answer": "r",
+     "options": [
+      "r",
+      "er",
+      "ger",
+      "ier"
+     ],
+     "tr": "e ile biten"
     }
    ]
   },
@@ -1386,7 +2520,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    8
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -1425,7 +2559,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    8
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -1468,7 +2602,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    8
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -1477,19 +2611,98 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "I go to the playground every day.",
-      "tr": "Her gün oyun alanına giderim."
+      "answer": "There are two fridges in the kitchen.",
+      "tr": "Mutfakta iki buzdolabı var."
+     },
+     {
+      "answer": "This is Ece's bicycle.",
+      "tr": "Bu Ece'nin bisikleti."
      },
      {
       "answer": "She goes to Paris in summer.",
       "tr": "O yazın Paris'e gider."
-     },
-     {
-      "answer": "Is there an elevator in your apartment?",
-      "tr": "Sizin apartmanınızda bir asansör var mı?"
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "There is / There are",
+   "task": {
+    "kind": "flash",
+    "q": "Describe a room without naming it. Your partner draws or guesses the room.",
+    "clue": "Is there an elevator in your apartment?",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Sizin apartmanınızda bir asansör var mı?"
+   },
+   "part": [
+    4,
+    8
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Possessive 's",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "This is Ece's bicycle.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Bu Ece'nin bisikleti."
+   },
+   "part": [
+    5,
+    8
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Partner Challenge",
+   "titleTr": "Whose ...?",
+   "task": {
+    "kind": "flash",
+    "q": "Work in pairs. Reply, then swap roles and change the situation.",
+    "clue": "Whose bicycle is it?",
+    "answer": "Model reply: It is Sally's bicycle."
+   },
+   "part": [
+    6,
+    8
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Simple Present",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "Do you like street fairs? — Yes, I do.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Sokak panayırlarını sever misin? — Evet."
+   },
+   "part": [
+    7,
+    8
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Comparative Adjectives",
+   "task": {
+    "kind": "flash",
+    "q": "Choose two things from this unit. Make two comparisons; your partner checks them.",
+    "clue": "small → smaller",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "tek heceli"
+   },
+   "part": [
+    8,
+    8
+   ]
   },
   {
    "type": "pages",

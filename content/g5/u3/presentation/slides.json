@@ -50,7 +50,18 @@
      "tr": "saç",
      "emoji": "💇",
      "img": "p01-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Body Parts",
+   "titleTr": "Vücudun bölümleri",
+   "items": [
     {
      "en": "eye",
      "tr": "göz",
@@ -68,11 +79,17 @@
      "tr": "burun",
      "emoji": "👃",
      "img": "p01-07.png"
+    },
+    {
+     "en": "mouth",
+     "tr": "ağız",
+     "emoji": "👄",
+     "img": "p01-08.png"
     }
    ],
    "part": [
-    1,
-    3
+    2,
+    5
    ]
   },
   {
@@ -80,12 +97,6 @@
    "title": "Body Parts",
    "titleTr": "Vücudun bölümleri",
    "items": [
-    {
-     "en": "mouth",
-     "tr": "ağız",
-     "emoji": "👄",
-     "img": "p01-08.png"
-    },
     {
      "en": "tooth",
      "tr": "diş",
@@ -109,7 +120,18 @@
      "tr": "kol",
      "emoji": "💪",
      "img": "p01-12.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Body Parts",
+   "titleTr": "Vücudun bölümleri",
+   "items": [
     {
      "en": "hand",
      "tr": "el",
@@ -121,18 +143,7 @@
      "tr": "el parmağı",
      "emoji": "☝️",
      "img": "p01-14.png"
-    }
-   ],
-   "part": [
-    2,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Body Parts",
-   "titleTr": "Vücudun bölümleri",
-   "items": [
+    },
     {
      "en": "back",
      "tr": "sırt",
@@ -144,7 +155,18 @@
      "tr": "göğüs",
      "emoji": "🫁",
      "img": "p01-16.png"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Body Parts",
+   "titleTr": "Vücudun bölümleri",
+   "items": [
     {
      "en": "leg",
      "tr": "bacak",
@@ -171,13 +193,13 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Body Parts",
    "tasks": [
     {
@@ -201,7 +223,14 @@
        "b": "diş"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Body Parts",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -214,6 +243,19 @@
       "chest",
       "tooth"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Body Parts",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kulak",
+     "answer": "ear"
     }
    ]
   },
@@ -245,7 +287,18 @@
      "tr": "koyu renk",
      "emoji": "🌑",
      "img": "/app/img/vocab/physical-dark.svg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Physical Features",
+   "titleTr": "Fiziksel özellikler",
+   "items": [
     {
      "en": "fair",
      "tr": "açık renk",
@@ -257,18 +310,7 @@
      "tr": "sarışın",
      "emoji": "👱",
      "img": "/app/img/vocab/physical-blonde.svg"
-    }
-   ],
-   "part": [
-    1,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Physical Features",
-   "titleTr": "Fiziksel özellikler",
-   "items": [
+    },
     {
      "en": "thin / slim",
      "tr": "zayıf, ince",
@@ -280,7 +322,18 @@
      "tr": "orta kilolu",
      "emoji": "⚖️",
      "img": "/app/img/vocab/physical-medium-weight.svg"
-    },
+    }
+   ],
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Physical Features",
+   "titleTr": "Fiziksel özellikler",
+   "items": [
     {
      "en": "fat",
      "tr": "şişman",
@@ -307,8 +360,8 @@
     }
    ],
    "part": [
-    2,
-    3
+    3,
+    5
    ]
   },
   {
@@ -339,7 +392,18 @@
      "tr": "yuvarlak",
      "emoji": "⚪",
      "img": "/app/img/vocab/physical-round.svg"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Physical Features",
+   "titleTr": "Fiziksel özellikler",
+   "items": [
     {
      "en": "oval",
      "tr": "oval",
@@ -354,13 +418,13 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Physical Features",
    "tasks": [
     {
@@ -369,7 +433,14 @@
      "statement": "\"oval\" means \"orta boylu\".",
      "answer": false,
      "explain": "oval = oval"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"uzun\"?",
+   "titleTr": "Use what you just learned · Physical Features",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"uzun\"?",
@@ -384,10 +455,41 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Physical Features",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "big",
+       "b": "büyük"
+      },
+      {
+       "a": "fair",
+       "b": "açık renk"
+      },
+      {
+       "a": "average",
+       "b": "ortalama"
+      },
+      {
+       "a": "oval",
+       "b": "oval"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "What do/does ... look like?",
    "titleTr": "Birinin görünüşünü anlatmak",
-   "rule": "Boy, kilo ve genel görünüm için *am / is / are*. Sahip olunan saç, göz ve yüz özellikleri için *have got / has got*.",
+   "chips": [
+    "am"
+   ],
    "examples": [
     {
      "en": "I *am* short and slim.",
@@ -397,7 +499,74 @@
      "trEm": [
       "kısa ve zayıfım"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Boy, kilo ve genel görünüm için *am / is / are*.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "What do/does ... look like?",
+    "titleTr": "Birinin görünüşünü anlatmak",
+    "rule": "Boy, kilo ve genel görünüm için *am / is / are*. Sahip olunan saç, göz ve yüz özellikleri için *have got / has got*.",
+    "examples": [
+     {
+      "en": "I *am* short and slim.",
+      "tr": "Ben kısa ve zayıfım.",
+      "img": "/app/img/vocab/physical-short.svg",
+      "emoji": "🔽",
+      "trEm": [
+       "kısa ve zayıfım"
+      ]
+     },
+     {
+      "en": "She *is* of medium height.",
+      "tr": "O orta boylu.",
+      "img": "/app/img/vocab/physical-medium-height.svg",
+      "emoji": "📐",
+      "trEm": [
+       "orta boylu"
+      ]
+     },
+     {
+      "en": "I *have got* straight hair.",
+      "tr": "Ben düz saçlara sahibim.",
+      "img": "p01-04.png",
+      "trEm": [
+       "sahibim."
+      ]
+     },
+     {
+      "en": "She *has got* a small, round face.",
+      "tr": "O küçük ve yuvarlak bir yüze sahip.",
+      "img": "p01-03.png",
+      "trEm": [
+       "sahip."
+      ]
+     },
+     {
+      "en": "She *has got* curly hair.",
+      "tr": "Onun kıvırcık saçları var.",
+      "trEm": [
+       "var"
+      ],
+      "img": "/app/img/vocab/physical-curly.svg",
+      "emoji": "➰"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "What do/does ... look like?",
+   "titleTr": "Birinin görünüşünü anlatmak",
+   "chips": [
+    "is"
+   ],
+   "examples": [
     {
      "en": "She *is* of medium height.",
      "tr": "O orta boylu.",
@@ -406,7 +575,23 @@
      "trEm": [
       "orta boylu"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Boy, kilo ve genel görünüm için *am / is / are*.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "What do/does ... look like?",
+   "titleTr": "Birinin görünüşünü anlatmak",
+   "chips": [
+    "have got"
+   ],
+   "examples": [
     {
      "en": "I *have got* straight hair.",
      "tr": "Ben düz saçlara sahibim.",
@@ -414,7 +599,23 @@
      "trEm": [
       "sahibim."
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They ile sahiplik: *have got*.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "What do/does ... look like?",
+   "titleTr": "Birinin görünüşünü anlatmak",
+   "chips": [
+    "has got"
+   ],
+   "examples": [
     {
      "en": "She *has got* a small, round face.",
      "tr": "O küçük ve yuvarlak bir yüze sahip.",
@@ -423,11 +624,42 @@
       "sahip."
      ]
     }
+   ],
+   "paced": true,
+   "rule": "He / She / It ile sahiplik: *has got*.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "What do/does ... look like?",
+   "titleTr": "Birinin görünüşünü anlatmak",
+   "chips": [
+    "has got"
+   ],
+   "examples": [
+    {
+     "en": "She *has got* curly hair.",
+     "tr": "Onun kıvırcık saçları var.",
+     "trEm": [
+      "var"
+     ],
+     "img": "/app/img/vocab/physical-curly.svg",
+     "emoji": "➰"
+    }
+   ],
+   "paced": true,
+   "rule": "He / She / It ile sahiplik: *has got*.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · What do/does ... look like?",
    "tasks": [
     {
@@ -436,12 +668,38 @@
      "clue": "I ___ straight hair.",
      "answer": "have got",
      "tr": "Ben düz saçlara sahibim."
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · What do/does ... look like?",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "She has got a small, round face.",
-     "tr": "O küçük ve yuvarlak bir yüze sahip."
+     "answer": "She has got curly hair.",
+     "tr": "Onun kıvırcık saçları var."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · What do/does ... look like?",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ short and slim.",
+     "answer": "am",
+     "options": [
+      "am",
+      "is",
+      "have got",
+      "has got"
+     ],
+     "tr": "Ben kısa ve zayıfım."
     }
    ]
   },
@@ -478,7 +736,7 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Role-play: what comes next?",
    "titleTr": "Use what you just learned · Describing People",
    "tasks": [
     {
@@ -517,7 +775,18 @@
      "tr": "yağmurluk",
      "emoji": "🌧️",
      "img": "p02-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Clothes",
+   "titleTr": "Kıyafetler",
+   "items": [
     {
      "en": "jacket",
      "tr": "ceket",
@@ -542,48 +811,10 @@
      "emoji": "👚",
      "img": "p02-07.png"
     }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Clothes",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words",
-     "pairs": [
-      {
-       "a": "jacket",
-       "b": "ceket"
-      },
-      {
-       "a": "cardigan",
-       "b": "hırka"
-      },
-      {
-       "a": "jumper / sweater",
-       "b": "kazak"
-      },
-      {
-       "a": "raincoat",
-       "b": "yağmurluk"
-      }
-     ]
-    },
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "p02-05.png",
-     "answer": "jacket",
-     "tr": "ceket",
-     "options": [
-      "jacket",
-      "jeans",
-      "coat",
-      "jumper / sweater"
-     ]
-    }
+   ],
+   "part": [
+    2,
+    4
    ]
   },
   {
@@ -613,7 +844,18 @@
      "tr": "elbise",
      "emoji": "👗",
      "img": "p02-10.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Clothes",
+   "titleTr": "Kıyafetler",
+   "items": [
     {
      "en": "skirt",
      "tr": "etek",
@@ -632,30 +874,71 @@
      "emoji": "🎽",
      "img": "p02-12.png"
     }
+   ],
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Clothes",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"shirt\" means \"tişört\".",
-     "answer": false,
-     "explain": "shirt = gömlek"
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"tişört\"?",
-     "answer": "T-shirt",
-     "options": [
-      "T-shirt",
-      "uniform",
-      "skirt",
-      "fancy dress / costume"
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "jacket",
+       "b": "ceket"
+      },
+      {
+       "a": "fancy dress / costume",
+       "b": "kostüm"
+      },
+      {
+       "a": "shorts",
+       "b": "şort"
+      },
+      {
+       "a": "blouse",
+       "b": "bluz"
+      }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Clothes",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-08.png",
+     "answer": "shirt",
+     "tr": "gömlek",
+     "options": [
+      "shirt",
+      "jacket",
+      "coat",
+      "uniform"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Clothes",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "gömlek",
+     "answer": "shirt"
     }
    ]
   },
@@ -687,7 +970,18 @@
      "tr": "çorap",
      "emoji": "🧦",
      "img": "p02-16.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Accessories",
+   "titleTr": "Aksesuarlar",
+   "items": [
     {
      "en": "bow",
      "tr": "papyon",
@@ -705,11 +999,17 @@
      "tr": "kep",
      "emoji": "🧢",
      "img": "p02-19.png"
+    },
+    {
+     "en": "shoes",
+     "tr": "ayakkabı",
+     "emoji": "👟",
+     "img": "p02-20.png"
     }
    ],
    "part": [
-    1,
-    3
+    2,
+    5
    ]
   },
   {
@@ -717,12 +1017,6 @@
    "title": "Accessories",
    "titleTr": "Aksesuarlar",
    "items": [
-    {
-     "en": "shoes",
-     "tr": "ayakkabı",
-     "emoji": "👟",
-     "img": "p02-20.png"
-    },
     {
      "en": "boots",
      "tr": "bot",
@@ -746,7 +1040,18 @@
      "tr": "el çantası",
      "emoji": "👜",
      "img": "p03-02.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Accessories",
+   "titleTr": "Aksesuarlar",
+   "items": [
     {
      "en": "backpack",
      "tr": "sırt çantası",
@@ -757,18 +1062,7 @@
      "en": "glasses",
      "tr": "gözlük",
      "emoji": "👓"
-    }
-   ],
-   "part": [
-    2,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Accessories",
-   "titleTr": "Aksesuarlar",
-   "items": [
+    },
     {
      "en": "sunglasses",
      "tr": "güneş gözlüğü",
@@ -779,7 +1073,18 @@
      "tr": "kol saati",
      "emoji": "⌚",
      "img": "p03-04.png"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Accessories",
+   "titleTr": "Aksesuarlar",
+   "items": [
     {
      "en": "umbrella",
      "tr": "şemsiye",
@@ -806,40 +1111,66 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Accessories",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "bot",
-     "answer": "boots"
-    },
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"gloves\" means \"atkı\".",
+     "answer": false,
+     "explain": "gloves = eldiven"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"ayakkabı\"?",
+   "titleTr": "Use what you just learned · Accessories",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"ayakkabı\"?",
+     "answer": "shoes",
+     "options": [
+      "shoes",
+      "glasses",
+      "watch",
+      "scarf"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Accessories",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "scarf",
-       "b": "atkı"
+       "a": "umbrella",
+       "b": "şemsiye"
       },
       {
-       "a": "backpack",
-       "b": "sırt çantası"
+       "a": "necklace",
+       "b": "kolye"
       },
       {
-       "a": "glasses",
-       "b": "gözlük"
+       "a": "cap",
+       "b": "kep"
       },
       {
-       "a": "headscarf",
-       "b": "başörtüsü"
+       "a": "belt",
+       "b": "kemer"
       }
      ]
     }
@@ -871,7 +1202,18 @@
      "tr": "kısa",
      "emoji": "📐",
      "img": "/app/img/vocab/adjective-short.svg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    8
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "trendy",
      "tr": "modaya uygun",
@@ -895,8 +1237,8 @@
     }
    ],
    "part": [
-    1,
-    4
+    2,
+    8
    ]
   },
   {
@@ -923,7 +1265,18 @@
      "en": "fancy",
      "tr": "süslü",
      "emoji": "💫"
-    },
+    }
+   ],
+   "part": [
+    3,
+    8
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "comfortable",
      "tr": "rahat",
@@ -946,8 +1299,8 @@
     }
    ],
    "part": [
-    2,
-    4
+    4,
+    8
    ]
   },
   {
@@ -974,7 +1327,18 @@
      "en": "cool",
      "tr": "havalı",
      "emoji": "😎"
-    },
+    }
+   ],
+   "part": [
+    5,
+    8
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "clean",
      "tr": "temiz",
@@ -997,8 +1361,8 @@
     }
    ],
    "part": [
-    3,
-    4
+    6,
+    8
    ]
   },
   {
@@ -1025,7 +1389,18 @@
      "en": "wool",
      "tr": "yün",
      "emoji": "🐑"
-    },
+    }
+   ],
+   "part": [
+    7,
+    8
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adjectives",
+   "titleTr": "Sıfatlar",
+   "items": [
     {
      "en": "silver",
      "tr": "gümüş",
@@ -1038,34 +1413,69 @@
     }
    ],
    "part": [
-    4,
-    4
+    8,
+    8
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "yün",
+     "answer": "wool"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "silk",
+       "b": "ipek"
+      },
+      {
+       "a": "cool",
+       "b": "havalı"
+      },
+      {
+       "a": "comfortable",
+       "b": "rahat"
+      },
+      {
+       "a": "uncomfortable",
+       "b": "rahatsız"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/vocab/adjective-new.svg",
-     "answer": "new",
-     "tr": "yeni",
+     "img": "/app/img/vocab/adjective-long.svg",
+     "answer": "long",
+     "tr": "uzun",
      "options": [
-      "new",
-      "stylish",
+      "long",
       "good",
-      "uncomfortable"
+      "comfortable",
+      "trendy"
      ]
-    },
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"great\" means \"yeni\".",
-     "answer": false,
-     "explain": "great = harika"
     }
    ]
   },
@@ -1074,15 +1484,8 @@
    "title": "Clothes Verbs",
    "titleTr": "Giyim tarzını anlatan fiiller",
    "chips": [
-    "wear",
-    "buy",
-    "need",
-    "own",
-    "try on",
-    "look",
-    "create"
+    "wear"
    ],
-   "rule": "*wear* giymek · *buy* satın almak · *need* ihtiyaç duymak · *own* sahip olmak · *try on* denemek · *look* görünmek · *create* oluşturmak",
    "examples": [
     {
      "en": "I *wear* a thick coat in winter.",
@@ -1091,7 +1494,101 @@
       "giyerim"
      ],
      "emoji": "🧱"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "*wear* giymek",
+   "part": [
+    1,
+    7
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Clothes Verbs",
+    "titleTr": "Giyim tarzını anlatan fiiller",
+    "chips": [
+     "wear",
+     "buy",
+     "need",
+     "own",
+     "try on",
+     "look",
+     "create"
+    ],
+    "rule": "*wear* giymek · *buy* satın almak · *need* ihtiyaç duymak · *own* sahip olmak · *try on* denemek · *look* görünmek · *create* oluşturmak",
+    "examples": [
+     {
+      "en": "I *wear* a thick coat in winter.",
+      "tr": "Kışın kalın bir mont giyerim.",
+      "trEm": [
+       "giyerim"
+      ],
+      "emoji": "🧱"
+     },
+     {
+      "en": "I *buy* trendy clothes.",
+      "tr": "Modaya uygun kıyafetler satın alırım.",
+      "trEm": [
+       "satın alırım"
+      ],
+      "emoji": "✨"
+     },
+     {
+      "en": "I *need* new shoes.",
+      "tr": "Yeni ayakkabılara ihtiyacım var.",
+      "img": "p02-20.png",
+      "emoji": "👟",
+      "trEm": [
+       "ihtiyacım var"
+      ]
+     },
+     {
+      "en": "I *own* silver earrings.",
+      "tr": "Gümüş küpelere sahibim.",
+      "img": "p03-07.png",
+      "emoji": "💎",
+      "trEm": [
+       "sahibim"
+      ]
+     },
+     {
+      "en": "I *try on* a jacket before I buy it.",
+      "tr": "Bir ceketi almadan önce denerim.",
+      "trEm": [
+       "Bir ceketi almadan önce denerim."
+      ],
+      "img": "p02-05.png",
+      "emoji": "🧥"
+     },
+     {
+      "en": "You *look* great in that shirt.",
+      "tr": "O gömlekle harika görünüyorsun.",
+      "trEm": [
+       "O gömlekle harika görünüyorsun."
+      ],
+      "img": "p02-08.png",
+      "emoji": "👔"
+     },
+     {
+      "en": "Designers *create* new clothes.",
+      "tr": "Tasarımcılar yeni kıyafetler tasarlar.",
+      "trEm": [
+       "Tasarımcılar yeni kıyafetler tasarlar."
+      ],
+      "img": "/app/img/vocab/adjective-new.svg",
+      "emoji": "🆕"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Clothes Verbs",
+   "titleTr": "Giyim tarzını anlatan fiiller",
+   "chips": [
+    "buy"
+   ],
+   "examples": [
     {
      "en": "I *buy* trendy clothes.",
      "tr": "Modaya uygun kıyafetler satın alırım.",
@@ -1099,7 +1596,23 @@
       "satın alırım"
      ],
      "emoji": "✨"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "*buy* satın almak",
+   "part": [
+    2,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Clothes Verbs",
+   "titleTr": "Giyim tarzını anlatan fiiller",
+   "chips": [
+    "need"
+   ],
+   "examples": [
     {
      "en": "I *need* new shoes.",
      "tr": "Yeni ayakkabılara ihtiyacım var.",
@@ -1108,7 +1621,23 @@
      "trEm": [
       "ihtiyacım var"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "*need* ihtiyaç duymak",
+   "part": [
+    3,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Clothes Verbs",
+   "titleTr": "Giyim tarzını anlatan fiiller",
+   "chips": [
+    "own"
+   ],
+   "examples": [
     {
      "en": "I *own* silver earrings.",
      "tr": "Gümüş küpelere sahibim.",
@@ -1118,25 +1647,138 @@
       "sahibim"
      ]
     }
+   ],
+   "paced": true,
+   "rule": "*own* sahip olmak",
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Clothes Verbs",
+   "titleTr": "Giyim tarzını anlatan fiiller",
+   "chips": [
+    "try on"
+   ],
+   "examples": [
+    {
+     "en": "I *try on* a jacket before I buy it.",
+     "tr": "Bir ceketi almadan önce denerim.",
+     "trEm": [
+      "Bir ceketi almadan önce denerim."
+     ],
+     "img": "p02-05.png",
+     "emoji": "🧥"
+    }
+   ],
+   "paced": true,
+   "rule": "*try on* denemek",
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Clothes Verbs",
+   "titleTr": "Giyim tarzını anlatan fiiller",
+   "chips": [
+    "look"
+   ],
+   "examples": [
+    {
+     "en": "You *look* great in that shirt.",
+     "tr": "O gömlekle harika görünüyorsun.",
+     "trEm": [
+      "O gömlekle harika görünüyorsun."
+     ],
+     "img": "p02-08.png",
+     "emoji": "👔"
+    }
+   ],
+   "paced": true,
+   "rule": "*look* görünmek",
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Clothes Verbs",
+   "titleTr": "Giyim tarzını anlatan fiiller",
+   "chips": [
+    "create"
+   ],
+   "examples": [
+    {
+     "en": "Designers *create* new clothes.",
+     "tr": "Tasarımcılar yeni kıyafetler tasarlar.",
+     "trEm": [
+      "Tasarımcılar yeni kıyafetler tasarlar."
+     ],
+     "img": "/app/img/vocab/adjective-new.svg",
+     "emoji": "🆕"
+    }
+   ],
+   "paced": true,
+   "rule": "*create* oluşturmak",
+   "part": [
+    7,
+    7
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Clothes Verbs",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "I ___ a thick coat in winter.",
-     "answer": "wear",
-     "tr": "Kışın kalın bir mont giyerim."
-    },
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "I wear a thick coat in winter. — Modaya uygun kıyafetler satın alırım.",
+     "answer": false,
+     "explain": "Correct: I wear a thick coat in winter."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Clothes Verbs",
+   "tasks": [
     {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "I own silver earrings.",
-     "tr": "Gümüş küpelere sahibim."
+     "kind": "fill",
+     "text": "I ___ a thick coat in winter.",
+     "answer": "wear",
+     "options": [
+      "wear",
+      "buy",
+      "need",
+      "own"
+     ],
+     "tr": "Kışın kalın bir mont giyerim."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Clothes Verbs",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ trendy clothes.",
+     "answer": "buy",
+     "options": [
+      "buy",
+      "wear",
+      "need",
+      "own"
+     ],
+     "tr": "Modaya uygun kıyafetler satın alırım."
     }
    ]
   },
@@ -1168,7 +1810,18 @@
      "tr": "video izlemek",
      "emoji": "📱",
      "img": "p04-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines",
+   "titleTr": "Günlük rutin ve aktiviteler",
+   "items": [
     {
      "en": "watch fashion shows",
      "tr": "defile izlemek",
@@ -1193,31 +1846,10 @@
      "emoji": "🧑‍🤝‍🧑",
      "img": "p04-08.png"
     }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break",
-   "titleTr": "Use what you just learned · Daily Routines",
-   "tasks": [
-    {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"watch TV\" means \"arkadaşlarla buluşmak\".",
-     "answer": false,
-     "explain": "watch TV = televizyon izlemek"
-    },
-    {
-     "kind": "choose",
-     "q": "Which word means \"kitap okumak\"?",
-     "answer": "read a book",
-     "options": [
-      "read a book",
-      "listen to music",
-      "watch fashion shows",
-      "play computer games"
-     ]
-    }
+   ],
+   "part": [
+    2,
+    4
    ]
   },
   {
@@ -1248,7 +1880,18 @@
      "tr": "dışarı gitmek",
      "emoji": "🚪",
      "img": "p04-12.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines",
+   "titleTr": "Günlük rutin ve aktiviteler",
+   "items": [
     {
      "en": "go jogging",
      "tr": "koşuya gitmek",
@@ -1273,40 +1916,71 @@
      "emoji": "✈️",
      "img": "p04-16.png"
     }
+   ],
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Daily Routines",
    "tasks": [
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "yürüyüşe gitmek",
-     "answer": "go for a walk"
-    },
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
       {
-       "a": "draw pictures",
-       "b": "resim çizmek"
-      },
-      {
-       "a": "go out",
-       "b": "dışarı gitmek"
-      },
-      {
        "a": "play chess",
        "b": "satranç oynamak"
       },
       {
-       "a": "go for a walk",
-       "b": "yürüyüşe gitmek"
+       "a": "draw pictures",
+       "b": "resim çizmek"
+      },
+      {
+       "a": "go to the park",
+       "b": "parka gitmek"
+      },
+      {
+       "a": "watch TV",
+       "b": "televizyon izlemek"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Daily Routines",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p04-13.png",
+     "answer": "go jogging",
+     "tr": "koşuya gitmek",
+     "options": [
+      "go jogging",
+      "go shopping",
+      "read a magazine",
+      "listen to music"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Daily Routines",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "koşuya gitmek",
+     "answer": "go jogging"
     }
    ]
   },
@@ -1314,12 +1988,8 @@
    "type": "grammar",
    "title": "Time Expressions",
    "titleTr": "Zaman ifadeleri — in / on / at",
-   "rule": "Aylardan ve mevsimlerden önce *in*, günlerden önce *on*, saatlerden önce *at* kullanılır.",
    "chips": [
-    "every",
-    "in",
-    "on",
-    "at"
+    "every"
    ],
    "examples": [
     {
@@ -1329,7 +1999,69 @@
       "her"
      ],
      "emoji": "📅"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Time Expressions",
+    "titleTr": "Zaman ifadeleri — in / on / at",
+    "rule": "Aylardan ve mevsimlerden önce *in*, günlerden önce *on*, saatlerden önce *at* kullanılır.",
+    "chips": [
+     "every",
+     "in",
+     "on",
+     "at"
+    ],
+    "examples": [
+     {
+      "en": "*every* day / week / month / year",
+      "tr": "her gün / hafta / ay / yıl",
+      "trEm": [
+       "her"
+      ],
+      "emoji": "📅"
+     },
+     {
+      "en": "*in* January, *in* winter, *in* the morning",
+      "tr": "Ocak ayı, kışın, sabah",
+      "trEm": [
+       "Ocak ayı, kışın, sabah"
+      ],
+      "emoji": "📅"
+     },
+     {
+      "en": "*on* Sunday, *on* Friday, *on* weekdays",
+      "tr": "Pazar, Cuma, hafta içi",
+      "trEm": [
+       "Pazar",
+       "Cuma"
+      ],
+      "emoji": "📅"
+     },
+     {
+      "en": "*at* 8 o'clock, *at* the weekend, *at* noon, *at* night",
+      "tr": "saat sekizde, hafta sonu, öğlen, gece",
+      "trEm": [
+       "saat sekizde"
+      ],
+      "emoji": "🕒"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Time Expressions",
+   "titleTr": "Zaman ifadeleri — in / on / at",
+   "chips": [
+    "in"
+   ],
+   "examples": [
     {
      "en": "*in* January, *in* winter, *in* the morning",
      "tr": "Ocak ayı, kışın, sabah",
@@ -1337,7 +2069,22 @@
       "Ocak ayı, kışın, sabah"
      ],
      "emoji": "📅"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Time Expressions",
+   "titleTr": "Zaman ifadeleri — in / on / at",
+   "chips": [
+    "on"
+   ],
+   "examples": [
     {
      "en": "*on* Sunday, *on* Friday, *on* weekdays",
      "tr": "Pazar, Cuma, hafta içi",
@@ -1346,7 +2093,22 @@
       "Cuma"
      ],
      "emoji": "📅"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Time Expressions",
+   "titleTr": "Zaman ifadeleri — in / on / at",
+   "chips": [
+    "at"
+   ],
+   "examples": [
     {
      "en": "*at* 8 o'clock, *at* the weekend, *at* noon, *at* night",
      "tr": "saat sekizde, hafta sonu, öğlen, gece",
@@ -1355,20 +2117,37 @@
      ],
      "emoji": "🕒"
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Time Expressions",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "___ 8 o'clock, at the weekend, at noon, at night",
-     "answer": "at",
-     "tr": "saat sekizde, hafta sonu, öğlen, gece"
-    },
+     "kind": "fill",
+     "text": "___ day / week / month / year",
+     "answer": "every",
+     "options": [
+      "every",
+      "in",
+      "on",
+      "at"
+     ],
+     "tr": "her gün / hafta / ay / yıl"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Time Expressions",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
@@ -1378,10 +2157,31 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Time Expressions",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ January, in winter, in the morning",
+     "answer": "in",
+     "options": [
+      "in",
+      "every",
+      "on",
+      "at"
+     ],
+     "tr": "Ocak ayı, kışın, sabah"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Simple Present — Positive",
    "titleTr": "Geniş zaman olumlu cümleler",
-   "rule": "I / You / We / They → fiil yalın.  He / She / It → fiile *-s*, *-es* veya *-ies* eklenir.",
+   "chips": [
+    "-s / s"
+   ],
    "examples": [
     {
      "en": "Çoğu fiil *-s* alır:  wear → wear*s*, read → read*s*",
@@ -1390,7 +2190,96 @@
       "1. kural"
      ],
      "emoji": "🔁"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They → fiil yalın.",
+   "part": [
+    1,
+    8
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Simple Present — Positive",
+    "titleTr": "Geniş zaman olumlu cümleler",
+    "rule": "I / You / We / They → fiil yalın.  He / She / It → fiile *-s*, *-es* veya *-ies* eklenir.",
+    "examples": [
+     {
+      "en": "Çoğu fiil *-s* alır:  wear → wear*s*, read → read*s*",
+      "tr": "1. kural",
+      "trEm": [
+       "1. kural"
+      ],
+      "emoji": "🔁"
+     },
+     {
+      "en": "-ss, -sh, -ch, -x, -o ile bitenler *-es* alır:  go → go*es*, watch → watch*es*",
+      "tr": "2. kural",
+      "img": "p03-04.png",
+      "emoji": "⌚",
+      "trEm": [
+       "2. kural"
+      ]
+     },
+     {
+      "en": "Sessiz harf + y ile bitenlerde y düşer, *-ies* gelir:  study → stud*ies*, fly → fl*ies*",
+      "tr": "3. kural",
+      "trEm": [
+       "3. kural"
+      ],
+      "emoji": "📚"
+     },
+     {
+      "en": "have → *has*",
+      "tr": "4. kural",
+      "trEm": [
+       "4. kural"
+      ],
+      "emoji": "🔁"
+     },
+     {
+      "en": "I *go* to school on weekdays.",
+      "tr": "Ben hafta içi okula giderim.",
+      "trEm": [
+       "giderim"
+      ],
+      "emoji": "🏫"
+     },
+     {
+      "en": "He *watches* TV at night.",
+      "tr": "O geceleri televizyon izler.",
+      "trEm": [
+       "izler"
+      ],
+      "emoji": "📺"
+     },
+     {
+      "en": "She *goes* to Izmir in summer.",
+      "tr": "O yazın İzmir'e gider.",
+      "trEm": [
+       "gider"
+      ],
+      "emoji": "🔁"
+     },
+     {
+      "en": "My sister *walks* to school.",
+      "tr": "Kız kardeşim okula yürüyerek gider.",
+      "trEm": [
+       "Kız kardeşim okula yürüyerek gider."
+      ],
+      "emoji": "🏫"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Positive",
+   "titleTr": "Geniş zaman olumlu cümleler",
+   "chips": [
+    "-es / es"
+   ],
+   "examples": [
     {
      "en": "-ss, -sh, -ch, -x, -o ile bitenler *-es* alır:  go → go*es*, watch → watch*es*",
      "tr": "2. kural",
@@ -1399,7 +2288,23 @@
      "trEm": [
       "2. kural"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They → fiil yalın.",
+   "part": [
+    2,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Positive",
+   "titleTr": "Geniş zaman olumlu cümleler",
+   "chips": [
+    "-ies / ies"
+   ],
+   "examples": [
     {
      "en": "Sessiz harf + y ile bitenlerde y düşer, *-ies* gelir:  study → stud*ies*, fly → fl*ies*",
      "tr": "3. kural",
@@ -1407,7 +2312,23 @@
       "3. kural"
      ],
      "emoji": "📚"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They → fiil yalın.",
+   "part": [
+    3,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Positive",
+   "titleTr": "Geniş zaman olumlu cümleler",
+   "chips": [
+    "has"
+   ],
+   "examples": [
     {
      "en": "have → *has*",
      "tr": "4. kural",
@@ -1415,7 +2336,23 @@
       "4. kural"
      ],
      "emoji": "🔁"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They → fiil yalın.",
+   "part": [
+    4,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Positive",
+   "titleTr": "Geniş zaman olumlu cümleler",
+   "chips": [
+    "go"
+   ],
+   "examples": [
     {
      "en": "I *go* to school on weekdays.",
      "tr": "Ben hafta içi okula giderim.",
@@ -1423,7 +2360,23 @@
       "giderim"
      ],
      "emoji": "🏫"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They → fiil yalın.",
+   "part": [
+    5,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Positive",
+   "titleTr": "Geniş zaman olumlu cümleler",
+   "chips": [
+    "watches"
+   ],
+   "examples": [
     {
      "en": "He *watches* TV at night.",
      "tr": "O geceleri televizyon izler.",
@@ -1431,7 +2384,23 @@
       "izler"
      ],
      "emoji": "📺"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They → fiil yalın.",
+   "part": [
+    6,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Positive",
+   "titleTr": "Geniş zaman olumlu cümleler",
+   "chips": [
+    "goes"
+   ],
+   "examples": [
     {
      "en": "She *goes* to Izmir in summer.",
      "tr": "O yazın İzmir'e gider.",
@@ -1440,11 +2409,55 @@
      ],
      "emoji": "🔁"
     }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They → fiil yalın.",
+   "part": [
+    7,
+    8
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Positive",
+   "titleTr": "Geniş zaman olumlu cümleler",
+   "chips": [
+    "walks"
+   ],
+   "examples": [
+    {
+     "en": "My sister *walks* to school.",
+     "tr": "Kız kardeşim okula yürüyerek gider.",
+     "trEm": [
+      "Kız kardeşim okula yürüyerek gider."
+     ],
+     "emoji": "🏫"
+    }
+   ],
+   "paced": true,
+   "rule": "I / You / We / They → fiil yalın.",
+   "part": [
+    8,
+    8
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
+   "titleTr": "Use what you just learned · Simple Present — Positive",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does the sentence match the meaning?",
+     "statement": "Sessiz harf + y ile bitenlerde y düşer, -ies gelir:  study → studies, fly → flies — 3. kural",
+     "answer": true,
+     "explain": "Correct: Sessiz harf + y ile bitenlerde y düşer, -ies gelir:  study → studies, fly → flies"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Simple Present — Positive",
    "tasks": [
     {
@@ -1458,95 +2471,278 @@
       "has"
      ],
      "tr": "1. kural"
-    },
-    {
-     "kind": "order",
-     "q": "Put the sentence in order",
-     "answer": "She goes to Izmir in summer.",
-     "tr": "O yazın İzmir'e gider."
-    }
-   ]
-  },
-  {
-   "type": "compare",
-   "title": "Negative & Question",
-   "titleTr": "Olumsuz ve soru cümleleri",
-   "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
-   "columns": [
-    {
-     "title": "NEGATIVE ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "I *don't* go to school on Sundays.",
-       "tr": "Ben Pazar günleri okula gitmem.",
-       "trEm": [
-        "gitmem"
-       ],
-       "emoji": "🏫"
-      },
-      {
-       "en": "You *don't* wear ordinary clothes.",
-       "tr": "Sen sıradan kıyafetler giymezsin.",
-       "trEm": [
-        "giymezsin"
-       ],
-       "emoji": "🔘"
-      },
-      {
-       "en": "He *doesn't* play chess.",
-       "tr": "O satranç oynamaz.",
-       "img": "p04-09.png",
-       "trEm": [
-        "oynamaz"
-       ]
-      },
-      {
-       "en": "She *doesn't* draw pictures.",
-       "tr": "O resim çizmez.",
-       "img": "p04-10.png",
-       "trEm": [
-        "çizmez"
-       ]
-      }
-     ]
-    },
-    {
-     "title": "QUESTION ❓",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "*Do* you wear glasses? — Yes, I do.",
-       "tr": "Sen gözlük takar mısın? — Evet, takarım.",
-       "trEm": [
-        "mısın"
-       ],
-       "emoji": "👓"
-      },
-      {
-       "en": "*Does* Mert like pink shirts? — No, he doesn't.",
-       "tr": "Mert pembe gömlek sever mi? — Hayır, sevmez.",
-       "trEm": [
-        "mi"
-       ],
-       "emoji": "❓"
-      }
-     ]
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Present — Positive",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "-ss, -sh, -ch, -x, -o ile bitenler ___ alır:  go → goes, watch → watches",
+     "answer": "-es",
+     "options": [
+      "-es",
+      "-s",
+      "-ies",
+      "has"
+     ],
+     "tr": "2. kural"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "I *don't* go to school on Sundays.",
+     "tr": "Ben Pazar günleri okula gitmem.",
+     "trEm": [
+      "gitmem"
+     ],
+     "emoji": "🏫",
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
+   "part": [
+    1,
+    6
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "Negative & Question",
+    "titleTr": "Olumsuz ve soru cümleleri",
+    "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
+    "columns": [
+     {
+      "title": "NEGATIVE ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "I *don't* go to school on Sundays.",
+        "tr": "Ben Pazar günleri okula gitmem.",
+        "trEm": [
+         "gitmem"
+        ],
+        "emoji": "🏫"
+       },
+       {
+        "en": "You *don't* wear ordinary clothes.",
+        "tr": "Sen sıradan kıyafetler giymezsin.",
+        "trEm": [
+         "giymezsin"
+        ],
+        "emoji": "🔘"
+       },
+       {
+        "en": "He *doesn't* play chess.",
+        "tr": "O satranç oynamaz.",
+        "img": "p04-09.png",
+        "trEm": [
+         "oynamaz"
+        ]
+       },
+       {
+        "en": "She *doesn't* draw pictures.",
+        "tr": "O resim çizmez.",
+        "img": "p04-10.png",
+        "trEm": [
+         "çizmez"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "QUESTION ❓",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "*Do* you wear glasses? — Yes, I do.",
+        "tr": "Sen gözlük takar mısın? — Evet, takarım.",
+        "trEm": [
+         "mısın"
+        ],
+        "emoji": "👓"
+       },
+       {
+        "en": "*Does* Mert like pink shirts? — No, he doesn't.",
+        "tr": "Mert pembe gömlek sever mi? — Hayır, sevmez.",
+        "trEm": [
+         "mi"
+        ],
+        "emoji": "❓"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *don't* wear ordinary clothes.",
+     "tr": "Sen sıradan kıyafetler giymezsin.",
+     "trEm": [
+      "giymezsin"
+     ],
+     "emoji": "🔘",
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
+   "part": [
+    2,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "He *doesn't* play chess.",
+     "tr": "O satranç oynamaz.",
+     "img": "p04-09.png",
+     "trEm": [
+      "oynamaz"
+     ],
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
+   "part": [
+    3,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "She *doesn't* draw pictures.",
+     "tr": "O resim çizmez.",
+     "img": "p04-10.png",
+     "trEm": [
+      "çizmez"
+     ],
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "QUESTION ❓"
+   ],
+   "examples": [
+    {
+     "en": "*Do* you wear glasses? — Yes, I do.",
+     "tr": "Sen gözlük takar mısın? — Evet, takarım.",
+     "trEm": [
+      "mısın"
+     ],
+     "emoji": "👓",
+     "focus": "QUESTION ❓"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "QUESTION ❓"
+   ],
+   "examples": [
+    {
+     "en": "*Does* Mert like pink shirts? — No, he doesn't.",
+     "tr": "Mert pembe gömlek sever mi? — Hayır, sevmez.",
+     "trEm": [
+      "mi"
+     ],
+     "emoji": "❓",
+     "focus": "QUESTION ❓"
+    }
+   ],
+   "paced": true,
+   "rule": "Olumsuz ve soru cümlelerinde fiile takı *eklenmez*.",
+   "part": [
+    6,
+    6
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Negative & Question",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "Does the sentence match the meaning?",
-     "statement": "You don't wear ordinary clothes. — Ben Pazar günleri okula gitmem.",
-     "answer": false,
-     "explain": "Correct: You don't wear ordinary clothes."
-    },
+     "kind": "flash",
+     "q": "Complete the sentence aloud",
+     "clue": "___ Mert like pink shirts? — No, he doesn't.",
+     "answer": "Does",
+     "tr": "Mert pembe gömlek sever mi? — Hayır, sevmez."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Negative & Question",
+   "tasks": [
+    {
+     "kind": "order",
+     "q": "Put the sentence in order",
+     "answer": "Do you wear glasses? — Yes, I do.",
+     "tr": "Sen gözlük takar mısın? — Evet, takarım."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Negative & Question",
+   "tasks": [
     {
      "kind": "fill",
      "text": "I ___ go to school on Sundays.",
@@ -1565,7 +2761,9 @@
    "type": "grammar",
    "title": "Question Tags",
    "titleTr": "Soru ekleri — değil mi?",
-   "rule": "Cümle olumlu ise soru eki *olumsuz*, cümle olumsuz ise soru eki *olumlu* olur.",
+   "chips": [
+    "don't you"
+   ],
    "examples": [
     {
      "en": "You wear jeans, *don't you*?",
@@ -1575,7 +2773,63 @@
      "trEm": [
       "değil mi"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Question Tags",
+    "titleTr": "Soru ekleri — değil mi?",
+    "rule": "Cümle olumlu ise soru eki *olumsuz*, cümle olumsuz ise soru eki *olumlu* olur.",
+    "examples": [
+     {
+      "en": "You wear jeans, *don't you*?",
+      "tr": "Sen kot pantolon giyersin, değil mi?",
+      "img": "p02-02.png",
+      "emoji": "👖",
+      "trEm": [
+       "değil mi"
+      ]
+     },
+     {
+      "en": "She plays the guitar, *doesn't she*?",
+      "tr": "O gitar çalar, değil mi?",
+      "trEm": [
+       "değil mi"
+      ],
+      "emoji": "🎸"
+     },
+     {
+      "en": "You don't wear glasses, *do you*?",
+      "tr": "Sen gözlük takmazsın, değil mi?",
+      "trEm": [
+       "değil mi"
+      ],
+      "emoji": "👓"
+     },
+     {
+      "en": "She doesn't watch TV, *does she*?",
+      "tr": "O televizyon izlemez, değil mi?",
+      "img": "p04-03.png",
+      "trEm": [
+       "değil mi"
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Question Tags",
+   "titleTr": "Soru ekleri — değil mi?",
+   "chips": [
+    "doesn't she"
+   ],
+   "examples": [
     {
      "en": "She plays the guitar, *doesn't she*?",
      "tr": "O gitar çalar, değil mi?",
@@ -1583,7 +2837,22 @@
       "değil mi"
      ],
      "emoji": "🎸"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Question Tags",
+   "titleTr": "Soru ekleri — değil mi?",
+   "chips": [
+    "do you"
+   ],
+   "examples": [
     {
      "en": "You don't wear glasses, *do you*?",
      "tr": "Sen gözlük takmazsın, değil mi?",
@@ -1591,7 +2860,22 @@
       "değil mi"
      ],
      "emoji": "👓"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Question Tags",
+   "titleTr": "Soru ekleri — değil mi?",
+   "chips": [
+    "does she"
+   ],
+   "examples": [
     {
      "en": "She doesn't watch TV, *does she*?",
      "tr": "O televizyon izlemez, değil mi?",
@@ -1600,25 +2884,61 @@
       "değil mi"
      ]
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Question Tags",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Complete the sentence aloud",
-     "clue": "You don't wear glasses, ___?",
-     "answer": "do you",
-     "tr": "Sen gözlük takmazsın, değil mi?"
-    },
+     "kind": "fill",
+     "text": "You wear jeans, ___?",
+     "answer": "don't you",
+     "options": [
+      "don't you",
+      "doesn't she",
+      "do you",
+      "does she"
+     ],
+     "tr": "Sen kot pantolon giyersin, değil mi?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Question Tags",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
      "answer": "She doesn't watch TV, does she?",
      "tr": "O televizyon izlemez, değil mi?"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Question Tags",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "She plays the guitar, ___?",
+     "answer": "doesn't she",
+     "options": [
+      "doesn't she",
+      "don't you",
+      "do you",
+      "does she"
+     ],
+     "tr": "O gitar çalar, değil mi?"
     }
    ]
   },
@@ -1641,7 +2961,18 @@
      "en": "often",
      "tr": "sık sık",
      "emoji": "⭐"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Adverbs of Frequency",
+   "titleTr": "Sıklık zarfları — How often?",
+   "items": [
     {
      "en": "sometimes",
      "tr": "bazen",
@@ -1657,28 +2988,53 @@
      "tr": "hiçbir zaman",
      "emoji": "🚫"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Adverbs of Frequency",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"rarely\" means \"genellikle\".",
+     "statement": "\"usually\" means \"sık sık\".",
      "answer": false,
-     "explain": "rarely = nadiren"
-    },
+     "explain": "usually = genellikle"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"hiçbir zaman\"?",
+   "titleTr": "Use what you just learned · Adverbs of Frequency",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Which word means \"hiçbir zaman\"?",
+     "answer": "never",
+     "options": [
+      "never",
+      "sometimes",
+      "always",
+      "rarely"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Adverbs of Frequency",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
      "pairs": [
-      {
-       "a": "never",
-       "b": "hiçbir zaman"
-      },
       {
        "a": "rarely",
        "b": "nadiren"
@@ -1690,6 +3046,10 @@
       {
        "a": "sometimes",
        "b": "bazen"
+      },
+      {
+       "a": "always",
+       "b": "her zaman"
       }
      ]
     }
@@ -1746,7 +3106,7 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Role-play: what comes next?",
    "titleTr": "Use what you just learned · How often ...?",
    "tasks": [
     {
@@ -1796,7 +3156,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    11
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -1805,28 +3165,28 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "handbag",
-      "tr": "el çantası",
-      "img": "p03-02.png",
-      "emoji": "👜"
+      "en": "trousers / pants",
+      "tr": "pantolon",
+      "img": "p02-01.png",
+      "emoji": "👖"
      },
      {
-      "en": "play computer games",
-      "tr": "bilgisayar oyunu oynamak",
-      "img": "p04-06.png",
-      "emoji": "🎮"
+      "en": "go shopping",
+      "tr": "alışverişe gitmek",
+      "img": "p04-14.png",
+      "emoji": "🛒"
      },
      {
-      "en": "oval",
-      "tr": "oval",
-      "img": "/app/img/vocab/physical-oval.svg",
-      "emoji": "🥚"
+      "en": "raincoat",
+      "tr": "yağmurluk",
+      "img": "p02-04.png",
+      "emoji": "🌧️"
      },
      {
-      "en": "curly",
-      "tr": "kıvırcık",
-      "img": "/app/img/vocab/physical-curly.svg",
-      "emoji": "➰"
+      "en": "fat",
+      "tr": "şişman",
+      "img": "/app/img/vocab/physical-fat.svg",
+      "emoji": "🧸"
      }
     ]
    }
@@ -1835,7 +3195,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    11
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -1844,32 +3204,32 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "cardigan",
-      "tr": "hırka",
-      "img": "/app/img/vocab/cardigan.jpg",
-      "emoji": "🧶",
-      "audio": "/app/audio/words/cardigan.wav"
+      "en": "blouse",
+      "tr": "bluz",
+      "img": "p02-07.png",
+      "emoji": "👚",
+      "audio": "/app/audio/words/blouse.wav"
      },
      {
-      "en": "go jogging",
-      "tr": "koşuya gitmek",
-      "img": "p04-13.png",
-      "emoji": "🏃",
-      "audio": "/app/audio/words/go-jogging.wav"
+      "en": "round",
+      "tr": "yuvarlak",
+      "img": "/app/img/vocab/physical-round.svg",
+      "emoji": "⚪",
+      "audio": "/app/audio/words/round.wav"
      },
      {
-      "en": "earrings",
-      "tr": "küpe",
-      "img": "p03-07.png",
-      "emoji": "💎",
-      "audio": "/app/audio/words/earrings.wav"
+      "en": "shoes",
+      "tr": "ayakkabı",
+      "img": "p02-20.png",
+      "emoji": "👟",
+      "audio": "/app/audio/words/shoes.wav"
      },
      {
-      "en": "dress",
-      "tr": "elbise",
-      "img": "p02-10.png",
-      "emoji": "👗",
-      "audio": "/app/audio/words/dress.wav"
+      "en": "umbrella",
+      "tr": "şemsiye",
+      "img": "p03-05.png",
+      "emoji": "☂️",
+      "audio": "/app/audio/words/umbrella.wav"
      }
     ]
    }
@@ -1878,7 +3238,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    11
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -1887,19 +3247,145 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "You wear jeans, don't you?",
-      "tr": "Sen kot pantolon giyersin, değil mi?"
+      "answer": "I don't go to school on Sundays.",
+      "tr": "Ben Pazar günleri okula gitmem."
      },
      {
-      "answer": "every day / week / month / year",
-      "tr": "her gün / hafta / ay / yıl"
+      "answer": "She has got a small, round face.",
+      "tr": "O küçük ve yuvarlak bir yüze sahip."
      },
      {
-      "answer": "I own silver earrings.",
-      "tr": "Gümüş küpelere sahibim."
+      "answer": "She goes to Izmir in summer.",
+      "tr": "O yazın İzmir'e gider."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "What do/does ... look like?",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "She has got a small, round face.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "O küçük ve yuvarlak bir yüze sahip."
+   },
+   "part": [
+    4,
+    11
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Partner Challenge",
+   "titleTr": "Describing People",
+   "task": {
+    "kind": "flash",
+    "q": "Work in pairs. Reply, then swap roles and change the situation.",
+    "clue": "What does Emre look like?",
+    "answer": "Model reply: He is tall and of medium weight."
+   },
+   "part": [
+    5,
+    11
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Clothes Verbs",
+   "task": {
+    "kind": "flash",
+    "q": "Act out a clothes-shopping conversation. Try something on and describe how it looks.",
+    "clue": "I buy trendy clothes.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Modaya uygun kıyafetler satın alırım."
+   },
+   "part": [
+    6,
+    11
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Time Expressions",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "every day / week / month / year",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "her gün / hafta / ay / yıl"
+   },
+   "part": [
+    7,
+    11
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Simple Present — Positive",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "-ss, -sh, -ch, -x, -o ile bitenler -es alır:  go → goes, watch → watches",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "2. kural"
+   },
+   "part": [
+    8,
+    11
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Negative & Question",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "She doesn't draw pictures.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "O resim çizmez."
+   },
+   "part": [
+    9,
+    11
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Question Tags",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "She doesn't watch TV, does she?",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "O televizyon izlemez, değil mi?"
+   },
+   "part": [
+    10,
+    11
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Partner Challenge",
+   "titleTr": "How often ...?",
+   "task": {
+    "kind": "flash",
+    "q": "Work in pairs. Reply, then swap roles and change the situation.",
+    "clue": "How often do you read a book?",
+    "answer": "Model reply: I often read books."
+   },
+   "part": [
+    11,
+    11
+   ]
   },
   {
    "type": "pages",

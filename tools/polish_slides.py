@@ -63,8 +63,8 @@ ORDER.update({
 })
 
 STAR = re.compile(r"\*(.+?)\*")
-MAX_CARDS = 8    # four wide cards x two rows keeps pictures classroom-sized
-MAX_TASKS = 2    # practice tasks per slide - more than this and they shrink
+MAX_CARDS = 4    # at most four large cards per teaching page
+MAX_TASKS = 3    # distinct activities, each on its own page
 BACK = chr(92)
 
 HOURS = {
@@ -290,7 +290,7 @@ VISUALS = {
     # Unit 7 - Tourism
     "taste": "👅", "terrible / awful": "😖", "tradition": "🧿",
     "truly": "💯", "unbelievable / incredible": "🤯", "visit": "📍",
-    "rich": "💰", "sightseeing": "🚌", "summer": "🌻",
+    "rich": "💰", "sightseeing": "🏙️", "summer": "🌻",
     "sunbath": "🏖️", "sunbathe": "🏖️", "sunny": "☀️",
     "mysterious": "🔮", "natural": "🌿", "palace": "🏰",
     "peaceful": "🕊️", "rainy": "🌧️", "relaxing": "😌",
@@ -581,10 +581,10 @@ def make_exercise(slide, rng, variant=0):
         return []
     return [{
         "type": "exercise",
-        "title": "Activity Break",
+        "title": "Activity Break · " + task.get("q", "Complete the sentence"),
         "titleTr": "Use what you just learned · " + slide.get("title", ""),
-        "tasks": tasks,
-    }]
+        "tasks": [task],
+    } for task in tasks]
 
 
 def visual_item(item):
@@ -723,6 +723,8 @@ def polish(path, dry):
     body = [s for s in slides if s["type"] not in ("title", "pages", "end")]
 
     body = [s for s in body if s["type"] not in ("exercise", "mission")]  # regenerate them
+    from lesson_pacing import restore_teaching, pace_teaching, extra_missions
+    body = restore_teaching(body)
     order = ORDER_BY_GRADE.get(grade, {}).get(unit)
     dropped = []
     if order:
@@ -735,6 +737,15 @@ def polish(path, dry):
         body = keep
 
     body = merge_parts(body)
+    from lesson_examples import EXAMPLES
+    for section in body:
+        if section["type"] not in ("grammar", "compare"):
+            continue
+        known = {e["en"] for e in section.get("examples", [])}
+        for en, tr in EXAMPLES.get(section.get("title"), []):
+            if en not in known:
+                section.setdefault("examples", []).append({"en": en, "tr": tr})
+                known.add(en)
     generic_visuals = ensure_visuals(body)
     visuals = visual_index(body)
     thin = []
@@ -773,7 +784,7 @@ def polish(path, dry):
                 if is_number(it):
                     it["num"] = it["tr"]
                     it.pop("emoji", None)
-        out.extend(split_cards(s) if s["type"] == "vocab" else [s])
+        out.extend(split_cards(s) if s["type"] == "vocab" else pace_teaching(s))
         if s["type"] not in ("practice", "exercise"):
             activities = make_exercise(s, rng, activity_no)
             out.extend(activities)
@@ -781,6 +792,10 @@ def polish(path, dry):
                 activity_no += 1
 
     out.extend(make_missions(body, rng))
+    out.extend(extra_missions(body, rng))
+    missions = [s for s in out if s["type"] == "mission"]
+    for n, mission in enumerate(missions, 1):
+        mission["part"] = [n, len(missions)]
     data["slides"] = head + out + tail
     if not dry:
         with open(path, "w", encoding="utf-8") as f:

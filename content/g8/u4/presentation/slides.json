@@ -39,7 +39,18 @@
      "en": "hang up",
      "tr": "telefonu kapatmak",
      "emoji": "📴"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "On the Phone",
+   "titleTr": "Telefonda",
+   "items": [
     {
      "en": "hold",
      "tr": "beklemek",
@@ -61,11 +72,15 @@
      "tr": "dahili numara",
      "emoji": "🔢"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · On the Phone",
    "tasks": [
     {
@@ -89,7 +104,14 @@
        "b": "hatta beklemek"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · On the Phone",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -102,6 +124,19 @@
       "dial",
       "hang on"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · On the Phone",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "meşgul (hat)",
+     "answer": "engaged"
     }
    ]
   },
@@ -124,7 +159,18 @@
      "en": "contact",
      "tr": "iletişim kurmak",
      "emoji": "📇"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Keeping in Touch",
+   "titleTr": "İletişimde kalmak",
+   "items": [
     {
      "en": "get in touch",
      "tr": "iletişime geçmek",
@@ -134,11 +180,16 @@
      "en": "keep in touch",
      "tr": "iletişimde kalmak",
      "emoji": "💬"
+    },
+    {
+     "en": "get back",
+     "tr": "geri dönmek",
+     "emoji": "↩️"
     }
    ],
    "part": [
-    1,
-    2
+    2,
+    3
    ]
   },
   {
@@ -146,11 +197,6 @@
    "title": "Keeping in Touch",
    "titleTr": "İletişimde kalmak",
    "items": [
-    {
-     "en": "get back",
-     "tr": "geri dönmek",
-     "emoji": "↩️"
-    },
     {
      "en": "put someone through",
      "tr": "birini bağlamak",
@@ -169,13 +215,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Keeping in Touch",
    "tasks": [
     {
@@ -184,7 +230,14 @@
      "statement": "\"polite\" means \"not\".",
      "answer": false,
      "explain": "polite = kibar"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"iletişimde kalmak\"?",
+   "titleTr": "Use what you just learned · Keeping in Touch",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"iletişimde kalmak\"?",
@@ -194,6 +247,35 @@
       "available",
       "connect",
       "put someone through"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Keeping in Touch",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "polite",
+       "b": "kibar"
+      },
+      {
+       "a": "connect",
+       "b": "bağlamak"
+      },
+      {
+       "a": "available",
+       "b": "müsait"
+      },
+      {
+       "a": "get back",
+       "b": "geri dönmek"
+      }
      ]
     }
    ]
@@ -222,7 +304,18 @@
      "en": "device",
      "tr": "alet, aygıt, cihaz",
      "emoji": "📱"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Telefonda — ek kelimeler",
+   "items": [
     {
      "en": "discovery",
      "tr": "keşif",
@@ -232,18 +325,7 @@
      "en": "disturb",
      "tr": "rahatsız etmek",
      "emoji": "🔕"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "Telefonda — ek kelimeler",
-   "items": [
+    },
     {
      "en": "easy way",
      "tr": "kolay yol",
@@ -253,7 +335,18 @@
      "en": "cell phone",
      "tr": "cep telefonu",
      "emoji": "📱"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Telefonda — ek kelimeler",
+   "items": [
     {
      "en": "change",
      "tr": "değiştirmek",
@@ -276,13 +369,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -290,7 +383,14 @@
      "q": "Guess the English word",
      "clue": "cep telefonu",
      "answer": "cell phone"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -312,6 +412,20 @@
        "b": "gönderi"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"cheap\" means \"ucuz\".",
+     "answer": true,
+     "explain": "cheap = ucuz"
     }
    ]
   },
@@ -339,7 +453,18 @@
      "en": "book",
      "tr": "rezervasyon yapmak",
      "emoji": "📖"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Telefonda — ek kelimeler",
+   "items": [
     {
      "en": "busy",
      "tr": "meşgul",
@@ -355,11 +480,15 @@
      "tr": "geri aramak",
      "emoji": "↩️"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -368,7 +497,14 @@
      "statement": "\"call\" means \"rezervasyon yapmak\".",
      "answer": false,
      "explain": "call = telefon ile aramak"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -394,15 +530,24 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "geri aramak",
+     "answer": "call back"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "On the Phone",
    "titleTr": "Telefonda konuşma kalıpları",
-   "rule": "Telefonda kibar kalıplar kullanırız: *Could I speak to ...?*, *Hold on, please.*, *Can I take a message?*",
    "chips": [
-    "Could I speak to ...?",
-    "Hold on, please.",
-    "Can I take a message?",
-    "Speaking."
+    "Could I speak to"
    ],
    "examples": [
     {
@@ -412,7 +557,76 @@
       "görüşebilir miyim"
      ],
      "emoji": "☎️"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "On the Phone",
+    "titleTr": "Telefonda konuşma kalıpları",
+    "rule": "Telefonda kibar kalıplar kullanırız: *Could I speak to ...?*, *Hold on, please.*, *Can I take a message?*",
+    "chips": [
+     "Could I speak to ...?",
+     "Hold on, please.",
+     "Can I take a message?",
+     "Speaking."
+    ],
+    "examples": [
+     {
+      "en": "*Could I speak to* Mr Yılmaz, please?",
+      "tr": "Bay Yılmaz ile görüşebilir miyim, lütfen?",
+      "trEm": [
+       "görüşebilir miyim"
+      ],
+      "emoji": "☎️"
+     },
+     {
+      "en": "*Hold on*, please. I'll put you through.",
+      "tr": "Lütfen bekleyin. Sizi bağlıyorum.",
+      "trEm": [
+       "Lütfen bekleyin"
+      ],
+      "emoji": "🤙"
+     },
+     {
+      "en": "*Can I take a message*?",
+      "tr": "Mesajınızı alabilir miyim?",
+      "trEm": [
+       "Mesajınızı alabilir miyim"
+      ],
+      "emoji": "☎️"
+     },
+     {
+      "en": "Sorry, she *isn't available* right now.",
+      "tr": "Üzgünüm, şu anda müsait değil.",
+      "trEm": [
+       "müsait değil"
+      ],
+      "emoji": "✅"
+     },
+     {
+      "en": "This is Ece *speaking*.",
+      "tr": "Ben Ece, konuşuyorum.",
+      "trEm": [
+       "Ben Ece, konuşuyorum."
+      ],
+      "emoji": "☎️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "On the Phone",
+   "titleTr": "Telefonda konuşma kalıpları",
+   "chips": [
+    "Hold on"
+   ],
+   "examples": [
     {
      "en": "*Hold on*, please. I'll put you through.",
      "tr": "Lütfen bekleyin. Sizi bağlıyorum.",
@@ -420,7 +634,22 @@
       "Lütfen bekleyin"
      ],
      "emoji": "🤙"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "On the Phone",
+   "titleTr": "Telefonda konuşma kalıpları",
+   "chips": [
+    "Can I take a message"
+   ],
+   "examples": [
     {
      "en": "*Can I take a message*?",
      "tr": "Mesajınızı alabilir miyim?",
@@ -428,7 +657,22 @@
       "Mesajınızı alabilir miyim"
      ],
      "emoji": "☎️"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "On the Phone",
+   "titleTr": "Telefonda konuşma kalıpları",
+   "chips": [
+    "isn't available"
+   ],
+   "examples": [
     {
      "en": "Sorry, she *isn't available* right now.",
      "tr": "Üzgünüm, şu anda müsait değil.",
@@ -437,20 +681,55 @@
      ],
      "emoji": "✅"
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "On the Phone",
+   "titleTr": "Telefonda konuşma kalıpları",
+   "chips": [
+    "speaking"
+   ],
+   "examples": [
+    {
+     "en": "This is Ece *speaking*.",
+     "tr": "Ben Ece, konuşuyorum.",
+     "trEm": [
+      "Ben Ece, konuşuyorum."
+     ],
+     "emoji": "☎️"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · On the Phone",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "Could I speak to Mr Yılmaz, please? — Bay Yılmaz ile görüşebilir miyim, lütfen?",
+     "statement": "This is Ece speaking. — Ben Ece, konuşuyorum.",
      "answer": true,
-     "explain": "Correct: Could I speak to Mr Yılmaz, please?"
-    },
+     "explain": "Correct: This is Ece speaking."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · On the Phone",
+   "tasks": [
     {
      "kind": "fill",
      "text": "___ Mr Yılmaz, please?",
@@ -466,10 +745,31 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · On the Phone",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___, please. I'll put you through.",
+     "answer": "Hold on",
+     "options": [
+      "Hold on",
+      "Could I speak to",
+      "Can I take a message",
+      "isn't available"
+     ],
+     "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Present Continuous",
    "titleTr": "Şimdiki zaman: şu an olanlar",
-   "rule": "Konuşma anında olan işler için *am / is / are + V-ing* kullanılır.",
+   "chips": [
+    "am calling"
+   ],
    "examples": [
     {
      "en": "I *am calling* about the delivery.",
@@ -478,7 +778,71 @@
       "arıyorum"
      ],
      "emoji": "📦"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında olan işler için *am / is / are + V-ing* kullanılır.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Present Continuous",
+    "titleTr": "Şimdiki zaman: şu an olanlar",
+    "rule": "Konuşma anında olan işler için *am / is / are + V-ing* kullanılır.",
+    "examples": [
+     {
+      "en": "I *am calling* about the delivery.",
+      "tr": "Gönderi hakkında arıyorum.",
+      "trEm": [
+       "arıyorum"
+      ],
+      "emoji": "📦"
+     },
+     {
+      "en": "She *is talking* on the phone now.",
+      "tr": "O şimdi telefonda konuşuyor.",
+      "trEm": [
+       "konuşuyor"
+      ],
+      "emoji": "☎️"
+     },
+     {
+      "en": "They *aren't answering* the phone.",
+      "tr": "Telefona cevap vermiyorlar.",
+      "trEm": [
+       "cevap vermiyorlar"
+      ],
+      "emoji": "☎️"
+     },
+     {
+      "en": "*Are* you *listening* to me?",
+      "tr": "Beni dinliyor musun?",
+      "trEm": [
+       "dinliyor musun"
+      ],
+      "emoji": "🎬"
+     },
+     {
+      "en": "My brother *is talking* on the phone.",
+      "tr": "Erkek kardeşim telefonda konuşuyor.",
+      "trEm": [
+       "konuşuyor"
+      ],
+      "emoji": "☎️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous",
+   "titleTr": "Şimdiki zaman: şu an olanlar",
+   "chips": [
+    "is talking"
+   ],
+   "examples": [
     {
      "en": "She *is talking* on the phone now.",
      "tr": "O şimdi telefonda konuşuyor.",
@@ -486,7 +850,47 @@
       "konuşuyor"
      ],
      "emoji": "☎️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında olan işler için *am / is / are + V-ing* kullanılır.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous",
+   "titleTr": "Şimdiki zaman: şu an olanlar",
+   "chips": [
+    "is talking"
+   ],
+   "examples": [
+    {
+     "en": "My brother *is talking* on the phone.",
+     "tr": "Erkek kardeşim telefonda konuşuyor.",
+     "trEm": [
+      "konuşuyor"
+     ],
+     "emoji": "☎️"
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında olan işler için *am / is / are + V-ing* kullanılır.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous",
+   "titleTr": "Şimdiki zaman: şu an olanlar",
+   "chips": [
+    "aren't answering"
+   ],
+   "examples": [
     {
      "en": "They *aren't answering* the phone.",
      "tr": "Telefona cevap vermiyorlar.",
@@ -494,7 +898,23 @@
       "cevap vermiyorlar"
      ],
      "emoji": "☎️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında olan işler için *am / is / are + V-ing* kullanılır.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous",
+   "titleTr": "Şimdiki zaman: şu an olanlar",
+   "chips": [
+    "Are / listening"
+   ],
+   "examples": [
     {
      "en": "*Are* you *listening* to me?",
      "tr": "Beni dinliyor musun?",
@@ -503,25 +923,57 @@
      ],
      "emoji": "🎬"
     }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında olan işler için *am / is / are + V-ing* kullanılır.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Present Continuous",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "She ___ on the phone now.",
-     "answer": "is talking",
-     "tr": "O şimdi telefonda konuşuyor."
-    },
+     "clue": "I ___ about the delivery.",
+     "answer": "am calling",
+     "tr": "Gönderi hakkında arıyorum."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Present Continuous",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "Are you listening to me?",
-     "tr": "Beni dinliyor musun?"
+     "answer": "My brother is talking on the phone.",
+     "tr": "Erkek kardeşim telefonda konuşuyor."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Present Continuous",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ about the delivery.",
+     "answer": "am calling",
+     "options": [
+      "am calling",
+      "is talking",
+      "aren't answering",
+      "Are"
+     ],
+     "tr": "Gönderi hakkında arıyorum."
     }
    ]
   },
@@ -570,7 +1022,7 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Role-play: what comes next?",
    "titleTr": "Use what you just learned · A Phone Call",
    "tasks": [
     {
@@ -620,7 +1072,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -657,7 +1109,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -696,7 +1148,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -705,12 +1157,12 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Hold on, please. I'll put you through.",
-      "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+      "answer": "She is talking on the phone now.",
+      "tr": "O şimdi telefonda konuşuyor."
      },
      {
-      "answer": "Are you listening to me?",
-      "tr": "Beni dinliyor musun?"
+      "answer": "Can I take a message?",
+      "tr": "Mesajınızı alabilir miyim?"
      },
      {
       "answer": "They aren't answering the phone.",
@@ -718,6 +1170,53 @@
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "On the Phone",
+   "task": {
+    "kind": "flash",
+    "q": "Caller: ask for a friend. Receiver: your friend is out. Take a message, then swap roles.",
+    "clue": "This is Ece speaking.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Ben Ece, konuşuyorum."
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Present Continuous",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "I am calling about the delivery.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Gönderi hakkında arıyorum."
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Partner Challenge",
+   "titleTr": "A Phone Call",
+   "task": {
+    "kind": "flash",
+    "q": "Work in pairs. Reply, then swap roles and change the situation.",
+    "clue": "Good morning, customer service. How can I help you?",
+    "answer": "Model reply: Hello, I'm calling about my order."
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

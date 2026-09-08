@@ -7,7 +7,7 @@
 --------------------------------------------------------------------------- */
 import { getSites, getSlides, getUnit, unitPath } from "./store.js";
 import { el, mount, setCrumbs, beep, toast } from "./ui.js";
-import { playEnglish, taskNode, wordAudioPath } from "./exercises.js";
+import { playEnglish, stopEnglish, taskNode, wordAudioPath } from "./exercises.js";
 
 if (!document.querySelector('link[href="/app/css/deck.css"]')) {
   document.head.append(el("link", { rel: "stylesheet", href: "/app/css/deck.css" }));
@@ -115,6 +115,7 @@ export async function startDeck(gid, uid, screen) {
 
   /* ------------------------------------------------------------- rendering */
   function show(n, atEnd = false) {
+    stopEnglish();
     i = Math.max(0, Math.min(slides.length - 1, n));
     const node = render(slides[i], ctx);
     wrap.replaceChildren(node);
@@ -193,6 +194,7 @@ export async function startDeck(gid, uid, screen) {
   function close(navigate = true) {
     if (closed) return;
     closed = true;
+    stopEnglish();
     document.removeEventListener("keydown", onKey);
     window.removeEventListener("resize", fit);
     window.removeEventListener("hashchange", onRouteChange);
@@ -308,7 +310,7 @@ function exNode(e, ctx) {
     media,
     el("div", {}, [
       el("div", { class: "en", html: (e.en || "").replace(/\*(.+?)\*/g, "<em>$1</em>") }),
-      e.tr ? el("div", { class: "tr" }, emphasizedNodes(e.tr, e.trEm || [])) : null,
+      e.tr ? el("div", { class: "tr step" }, emphasizedNodes(e.tr, e.trEm || [])) : null,
     ]),
   ]);
 }
@@ -482,7 +484,7 @@ function render(s, ctx) {
           el("div", { class: "bubble step" }, (d.lines || []).map((l, k) =>
             el("div", { class: "speech " + (k % 2 ? "right" : ""), style: "margin-bottom:14px" }, [
               l.text,
-              l.tr ? el("span", { class: "speech-tr", text: l.tr }) : null,
+              l.tr ? el("span", { class: "speech-tr step", text: l.tr }) : null,
               el("small", { text: l.who }),
             ])
           ))
@@ -499,7 +501,7 @@ function render(s, ctx) {
           el("div", {}, (s.bubbles || []).map((b, k) =>
             el("div", { class: "speech step " + (k % 2 ? "right" : ""), }, [
               b.text,
-              b.tr ? el("small", { text: b.tr }) : null,
+              b.tr ? el("small", { class: "step", text: b.tr }) : null,
             ])
           )),
         ]),

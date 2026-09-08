@@ -35,7 +35,18 @@
      "tr": "deney tüpü",
      "emoji": "🧫",
      "img": "/app/img/words/test-tube.jpg"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "In the Lab",
+   "titleTr": "Laboratuvarda",
+   "items": [
     {
      "en": "cell",
      "tr": "hücre",
@@ -47,11 +58,16 @@
      "tr": "güvenlik",
      "emoji": "🦺",
      "img": "/app/img/words/safety.jpg"
+    },
+    {
+     "en": "scientific",
+     "tr": "bilimsel",
+     "emoji": "📐"
     }
    ],
    "part": [
-    1,
-    2
+    2,
+    3
    ]
   },
   {
@@ -59,11 +75,6 @@
    "title": "In the Lab",
    "titleTr": "Laboratuvarda",
    "items": [
-    {
-     "en": "scientific",
-     "tr": "bilimsel",
-     "emoji": "📐"
-    },
     {
      "en": "process",
      "tr": "süreç",
@@ -82,13 +93,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · In the Lab",
    "tasks": [
     {
@@ -112,7 +123,14 @@
        "b": "sonuç"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · In the Lab",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -125,6 +143,19 @@
       "test tube",
       "scientific"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · In the Lab",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "süreç",
+     "answer": "process"
     }
    ]
   },
@@ -148,7 +179,18 @@
      "en": "explore",
      "tr": "araştırmak",
      "emoji": "🧭"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Science & Discovery",
+   "titleTr": "Bilim ve keşif",
+   "items": [
     {
      "en": "search",
      "tr": "araştırmak",
@@ -158,11 +200,17 @@
      "en": "succeed",
      "tr": "başarmak",
      "emoji": "🏅"
+    },
+    {
+     "en": "genius",
+     "tr": "dâhi",
+     "emoji": "🧠",
+     "img": "/app/img/words/genius.jpg"
     }
    ],
    "part": [
-    1,
-    2
+    2,
+    3
    ]
   },
   {
@@ -170,12 +218,6 @@
    "title": "Science & Discovery",
    "titleTr": "Bilim ve keşif",
    "items": [
-    {
-     "en": "genius",
-     "tr": "dâhi",
-     "emoji": "🧠",
-     "img": "/app/img/words/genius.jpg"
-    },
     {
      "en": "high-tech",
      "tr": "ileri teknoloji",
@@ -196,13 +238,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Science & Discovery",
    "tasks": [
     {
@@ -211,7 +253,14 @@
      "statement": "\"explore\" means \"aşılama\".",
      "answer": false,
      "explain": "explore = araştırmak"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"icat etmek\"?",
+   "titleTr": "Use what you just learned · Science & Discovery",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"icat etmek\"?",
@@ -221,6 +270,35 @@
       "cure",
       "search",
       "genius"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Science & Discovery",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "cure",
+       "b": "tedavi etmek"
+      },
+      {
+       "a": "succeed",
+       "b": "başarmak"
+      },
+      {
+       "a": "high-tech",
+       "b": "ileri teknoloji"
+      },
+      {
+       "a": "search",
+       "b": "araştırmak"
+      }
      ]
     }
    ]
@@ -249,7 +327,18 @@
      "en": "improvement",
      "tr": "gelişim, iyileşme",
      "emoji": "📊"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Bilim — ek kelimeler",
+   "items": [
     {
      "en": "infection",
      "tr": "bulaşma, enfeksiyon",
@@ -259,18 +348,7 @@
      "en": "ink",
      "tr": "mürekkep",
      "emoji": "🖋️"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "Bilim — ek kelimeler",
-   "items": [
+    },
     {
      "en": "electric bulb",
      "tr": "ampul",
@@ -280,7 +358,18 @@
      "en": "entertainment",
      "tr": "eğlence",
      "emoji": "🎭"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Bilim — ek kelimeler",
+   "items": [
     {
      "en": "explosion",
      "tr": "patlama",
@@ -303,13 +392,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -317,7 +406,14 @@
      "q": "Guess the English word",
      "clue": "gelişim, iyileşme",
      "answer": "improvement"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -339,6 +435,20 @@
        "b": "geliştirmek"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"ink\" means \"mürekkep\".",
+     "answer": true,
+     "explain": "ink = mürekkep"
     }
    ]
   },
@@ -366,7 +476,18 @@
      "en": "diagnose",
      "tr": "teşhis etmek",
      "emoji": "🩺"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Bilim — ek kelimeler",
+   "items": [
     {
      "en": "die",
      "tr": "ölmek",
@@ -382,11 +503,15 @@
      "tr": "keşif",
      "emoji": "🔎"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -395,7 +520,14 @@
      "statement": "\"die\" means \"maddenin yer çekimi\".",
      "answer": false,
      "explain": "die = ölmek"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -421,10 +553,25 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kaşif",
+     "answer": "discoverer"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Passive Voice — Present",
    "titleTr": "Edilgen çatı: geniş zaman",
-   "rule": "İşi kimin yaptığı önemli değilse edilgen kullanılır: *am / is / are + V3*.",
+   "chips": [
+    "are done"
+   ],
    "examples": [
     {
      "en": "Experiments *are done* in the laboratory.",
@@ -433,7 +580,71 @@
       "yapılır"
      ],
      "emoji": "🧪"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "İşi kimin yaptığı önemli değilse edilgen kullanılır: *am / is / are + V3*.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Passive Voice — Present",
+    "titleTr": "Edilgen çatı: geniş zaman",
+    "rule": "İşi kimin yaptığı önemli değilse edilgen kullanılır: *am / is / are + V3*.",
+    "examples": [
+     {
+      "en": "Experiments *are done* in the laboratory.",
+      "tr": "Deneyler laboratuvarda yapılır.",
+      "trEm": [
+       "yapılır"
+      ],
+      "emoji": "🧪"
+     },
+     {
+      "en": "This machine *is used* by scientists.",
+      "tr": "Bu makine bilim insanları tarafından kullanılır.",
+      "trEm": [
+       "kullanılır"
+      ],
+      "emoji": "🔬"
+     },
+     {
+      "en": "New medicines *are developed* every year.",
+      "tr": "Her yıl yeni ilaçlar geliştirilir.",
+      "trEm": [
+       "geliştirilir"
+      ],
+      "emoji": "📅"
+     },
+     {
+      "en": "The results *are written* in a report.",
+      "tr": "Sonuçlar bir rapora yazılır.",
+      "trEm": [
+       "yazılır"
+      ],
+      "emoji": "📄"
+     },
+     {
+      "en": "Glass *is recycled* in this factory.",
+      "tr": "Bu fabrikada cam geri dönüştürülür.",
+      "trEm": [
+       "Bu fabrikada cam geri dönüştürülür."
+      ],
+      "emoji": "⚙️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Present",
+   "titleTr": "Edilgen çatı: geniş zaman",
+   "chips": [
+    "is used"
+   ],
+   "examples": [
     {
      "en": "This machine *is used* by scientists.",
      "tr": "Bu makine bilim insanları tarafından kullanılır.",
@@ -441,7 +652,23 @@
       "kullanılır"
      ],
      "emoji": "🔬"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "İşi kimin yaptığı önemli değilse edilgen kullanılır: *am / is / are + V3*.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Present",
+   "titleTr": "Edilgen çatı: geniş zaman",
+   "chips": [
+    "are developed"
+   ],
+   "examples": [
     {
      "en": "New medicines *are developed* every year.",
      "tr": "Her yıl yeni ilaçlar geliştirilir.",
@@ -449,7 +676,23 @@
       "geliştirilir"
      ],
      "emoji": "📅"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "İşi kimin yaptığı önemli değilse edilgen kullanılır: *am / is / are + V3*.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Present",
+   "titleTr": "Edilgen çatı: geniş zaman",
+   "chips": [
+    "are written"
+   ],
+   "examples": [
     {
      "en": "The results *are written* in a report.",
      "tr": "Sonuçlar bir rapora yazılır.",
@@ -458,20 +701,57 @@
      ],
      "emoji": "📄"
     }
+   ],
+   "paced": true,
+   "rule": "İşi kimin yaptığı önemli değilse edilgen kullanılır: *am / is / are + V3*.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Present",
+   "titleTr": "Edilgen çatı: geniş zaman",
+   "chips": [
+    "is recycled"
+   ],
+   "examples": [
+    {
+     "en": "Glass *is recycled* in this factory.",
+     "tr": "Bu fabrikada cam geri dönüştürülür.",
+     "trEm": [
+      "Bu fabrikada cam geri dönüştürülür."
+     ],
+     "emoji": "⚙️"
+    }
+   ],
+   "paced": true,
+   "rule": "İşi kimin yaptığı önemli değilse edilgen kullanılır: *am / is / are + V3*.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Passive Voice — Present",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "Experiments are done in the laboratory. — Deneyler laboratuvarda yapılır.",
+     "statement": "Glass is recycled in this factory. — Bu fabrikada cam geri dönüştürülür.",
      "answer": true,
-     "explain": "Correct: Experiments are done in the laboratory."
-    },
+     "explain": "Correct: Glass is recycled in this factory."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Passive Voice — Present",
+   "tasks": [
     {
      "kind": "fill",
      "text": "Experiments ___ in the laboratory.",
@@ -487,15 +767,30 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Passive Voice — Present",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "This machine ___ by scientists.",
+     "answer": "is used",
+     "options": [
+      "is used",
+      "are done",
+      "are developed",
+      "are written"
+     ],
+     "tr": "Bu makine bilim insanları tarafından kullanılır."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Passive Voice — Past",
    "titleTr": "Edilgen çatı: geçmiş zaman",
-   "rule": "Geçmişte yapılan işler için *was / were + V3*. Yapan kişi *by* ile belirtilir.",
    "chips": [
-    "was invented",
-    "was discovered",
-    "were built",
-    "was written"
+    "was invented"
    ],
    "examples": [
     {
@@ -505,7 +800,76 @@
       "icat edildi"
      ],
      "emoji": "☎️"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Passive Voice — Past",
+    "titleTr": "Edilgen çatı: geçmiş zaman",
+    "rule": "Geçmişte yapılan işler için *was / were + V3*. Yapan kişi *by* ile belirtilir.",
+    "chips": [
+     "was invented",
+     "was discovered",
+     "were built",
+     "was written"
+    ],
+    "examples": [
+     {
+      "en": "The telephone *was invented* by Alexander Graham Bell.",
+      "tr": "Telefon, Alexander Graham Bell tarafından icat edildi.",
+      "trEm": [
+       "icat edildi"
+      ],
+      "emoji": "☎️"
+     },
+     {
+      "en": "Penicillin *was discovered* in 1928.",
+      "tr": "Penisilin 1928'de keşfedildi.",
+      "trEm": [
+       "keşfedildi"
+      ],
+      "emoji": "💊"
+     },
+     {
+      "en": "The pyramids *were built* thousands of years ago.",
+      "tr": "Piramitler binlerce yıl önce inşa edildi.",
+      "trEm": [
+       "inşa edildi"
+      ],
+      "emoji": "🔺"
+     },
+     {
+      "en": "This book *was written* by a Turkish scientist.",
+      "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı.",
+      "trEm": [
+       "yazıldı"
+      ],
+      "emoji": "🔬"
+     },
+     {
+      "en": "The bridge *was built* in 1990.",
+      "tr": "Köprü 1990 yılında inşa edildi.",
+      "trEm": [
+       "Köprü 1990 yılında inşa edildi."
+      ],
+      "emoji": "🏛️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Past",
+   "titleTr": "Edilgen çatı: geçmiş zaman",
+   "chips": [
+    "was discovered"
+   ],
+   "examples": [
     {
      "en": "Penicillin *was discovered* in 1928.",
      "tr": "Penisilin 1928'de keşfedildi.",
@@ -513,7 +877,22 @@
       "keşfedildi"
      ],
      "emoji": "💊"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Past",
+   "titleTr": "Edilgen çatı: geçmiş zaman",
+   "chips": [
+    "were built"
+   ],
+   "examples": [
     {
      "en": "The pyramids *were built* thousands of years ago.",
      "tr": "Piramitler binlerce yıl önce inşa edildi.",
@@ -521,7 +900,22 @@
       "inşa edildi"
      ],
      "emoji": "🔺"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Past",
+   "titleTr": "Edilgen çatı: geçmiş zaman",
+   "chips": [
+    "was written"
+   ],
+   "examples": [
     {
      "en": "This book *was written* by a Turkish scientist.",
      "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı.",
@@ -530,25 +924,79 @@
      ],
      "emoji": "🔬"
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Passive Voice — Past",
+   "titleTr": "Edilgen çatı: geçmiş zaman",
+   "chips": [
+    "was built"
+   ],
+   "examples": [
+    {
+     "en": "The bridge *was built* in 1990.",
+     "tr": "Köprü 1990 yılında inşa edildi.",
+     "trEm": [
+      "Köprü 1990 yılında inşa edildi."
+     ],
+     "emoji": "🏛️"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Passive Voice — Past",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "Penicillin ___ in 1928.",
-     "answer": "was discovered",
-     "tr": "Penisilin 1928'de keşfedildi."
-    },
+     "clue": "The telephone ___ by Alexander Graham Bell.",
+     "answer": "was invented",
+     "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Passive Voice — Past",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "This book was written by a Turkish scientist.",
-     "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
+     "answer": "The bridge was built in 1990.",
+     "tr": "Köprü 1990 yılında inşa edildi."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Passive Voice — Past",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "The telephone ___ by Alexander Graham Bell.",
+     "answer": "was invented",
+     "options": [
+      "was invented",
+      "was discovered",
+      "were built",
+      "was written"
+     ],
+     "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
     }
    ]
   },
@@ -597,7 +1045,7 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Role-play: what comes next?",
    "titleTr": "Use what you just learned · Inventions",
    "tasks": [
     {
@@ -647,7 +1095,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -686,7 +1134,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -729,7 +1177,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -746,11 +1194,58 @@
       "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
      },
      {
-      "answer": "The pyramids were built thousands of years ago.",
-      "tr": "Piramitler binlerce yıl önce inşa edildi."
+      "answer": "New medicines are developed every year.",
+      "tr": "Her yıl yeni ilaçlar geliştirilir."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Passive Voice — Present",
+   "task": {
+    "kind": "flash",
+    "q": "Describe how objects are used in a laboratory. Your partner guesses the object.",
+    "clue": "New medicines are developed every year.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Her yıl yeni ilaçlar geliştirilir."
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Passive Voice — Past",
+   "task": {
+    "kind": "flash",
+    "q": "Choose an invention. Tell your partner when it was invented and who invented it, if you know.",
+    "clue": "This book was written by a Turkish scientist.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Partner Challenge",
+   "titleTr": "Inventions",
+   "task": {
+    "kind": "flash",
+    "q": "Work in pairs. Reply, then swap roles and change the situation.",
+    "clue": "Who was the light bulb invented by?",
+    "answer": "Model reply: It was invented by Thomas Edison."
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

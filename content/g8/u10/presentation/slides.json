@@ -42,17 +42,11 @@
      "en": "avalanche",
      "tr": "çığ",
      "emoji": "🏔️"
-    },
-    {
-     "en": "landslide",
-     "tr": "heyelan",
-     "emoji": "⛰️",
-     "img": "/app/img/words/landslide.jpg"
     }
    ],
    "part": [
     1,
-    2
+    3
    ]
   },
   {
@@ -60,6 +54,12 @@
    "title": "Natural Disasters",
    "titleTr": "Doğal afetler",
    "items": [
+    {
+     "en": "landslide",
+     "tr": "heyelan",
+     "emoji": "⛰️",
+     "img": "/app/img/words/landslide.jpg"
+    },
     {
      "en": "hurricane",
      "tr": "kasırga",
@@ -77,7 +77,18 @@
      "tr": "tsunami",
      "emoji": "🌊",
      "img": "/app/img/words/tsunami.jpg"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Natural Disasters",
+   "titleTr": "Doğal afetler",
+   "items": [
     {
      "en": "volcano",
      "tr": "yanardağ",
@@ -91,13 +102,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Natural Disasters",
    "tasks": [
     {
@@ -121,7 +132,14 @@
        "b": "çığ"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Natural Disasters",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -134,6 +152,19 @@
       "flood",
       "avalanche"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Natural Disasters",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "kasırga",
+     "answer": "hurricane"
     }
    ]
   },
@@ -157,7 +188,18 @@
      "en": "precaution",
      "tr": "önlem",
      "emoji": "🛡️"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Causes & Precautions",
+   "titleTr": "Sebepler ve önlemler",
+   "items": [
     {
      "en": "suffer",
      "tr": "acı çekmek",
@@ -169,11 +211,15 @@
      "emoji": "🙏",
      "img": "/app/img/words/survivor.jpg"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Causes & Precautions",
    "tasks": [
     {
@@ -182,7 +228,14 @@
      "statement": "\"suffer\" means \"hayatta kalan\".",
      "answer": false,
      "explain": "suffer = acı çekmek"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"küresel ısınma\"?",
+   "titleTr": "Use what you just learned · Causes & Precautions",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"küresel ısınma\"?",
@@ -192,6 +245,35 @@
       "melt",
       "precaution",
       "suffer"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Causes & Precautions",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "global warming",
+       "b": "küresel ısınma"
+      },
+      {
+       "a": "suffer",
+       "b": "acı çekmek"
+      },
+      {
+       "a": "survivor",
+       "b": "hayatta kalan"
+      },
+      {
+       "a": "precaution",
+       "b": "önlem"
+      }
      ]
     }
    ]
@@ -220,7 +302,18 @@
      "en": "lightning",
      "tr": "şimşek",
      "emoji": "⚡"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Doğa Güçleri — ek kelimeler",
+   "items": [
     {
      "en": "thunder",
      "tr": "gök gürültüsü",
@@ -230,18 +323,7 @@
      "en": "damage",
      "tr": "hasar",
      "emoji": "🏚️"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "Doğa Güçleri — ek kelimeler",
-   "items": [
+    },
     {
      "en": "rescue team",
      "tr": "kurtarma ekibi",
@@ -251,7 +333,18 @@
      "en": "emergency",
      "tr": "acil durum",
      "emoji": "🚨"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Doğa Güçleri — ek kelimeler",
+   "items": [
     {
      "en": "shelter",
      "tr": "sığınak",
@@ -274,13 +367,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -288,7 +381,14 @@
      "q": "Guess the English word",
      "clue": "sığınak",
      "answer": "shelter"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -314,6 +414,20 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"storm\" means \"fırtına\".",
+     "answer": true,
+     "explain": "storm = fırtına"
+    }
+   ]
+  },
+  {
    "type": "vocab",
    "title": "More Words 2",
    "titleTr": "Doğa Güçleri — ek kelimeler",
@@ -332,7 +446,7 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -341,7 +455,14 @@
      "statement": "\"first aid\" means \"tahliye etmek\".",
      "answer": false,
      "explain": "first aid = ilk yardım"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "flash",
      "q": "Guess the English word",
@@ -354,12 +475,8 @@
    "type": "grammar",
    "title": "Predictions with will",
    "titleTr": "Gelecek tahminleri",
-   "rule": "Gelecekle ilgili tahminlerde *will* kullanılır. Emin değilsek *may / might* deriz.",
    "chips": [
-    "will",
-    "won't",
-    "may",
-    "might"
+    "will"
    ],
    "examples": [
     {
@@ -369,7 +486,77 @@
       "olacak"
      ],
      "emoji": "⛈️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Gelecekle ilgili tahminlerde *will* kullanılır.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Predictions with will",
+    "titleTr": "Gelecek tahminleri",
+    "rule": "Gelecekle ilgili tahminlerde *will* kullanılır. Emin değilsek *may / might* deriz.",
+    "chips": [
+     "will",
+     "won't",
+     "may",
+     "might"
+    ],
+    "examples": [
+     {
+      "en": "There *will* be a storm tomorrow.",
+      "tr": "Yarın fırtına olacak.",
+      "trEm": [
+       "olacak"
+      ],
+      "emoji": "⛈️"
+     },
+     {
+      "en": "The river *won't* flood this year.",
+      "tr": "Nehir bu yıl taşmayacak.",
+      "img": "/app/img/words/flood.jpg",
+      "trEm": [
+       "taşmayacak"
+      ]
+     },
+     {
+      "en": "It *might* snow in the mountains.",
+      "tr": "Dağlarda kar yağabilir.",
+      "trEm": [
+       "yağabilir"
+      ],
+      "emoji": "🌨️"
+     },
+     {
+      "en": "Scientists *may* predict earthquakes one day.",
+      "tr": "Bilim insanları bir gün depremleri tahmin edebilir.",
+      "trEm": [
+       "edebilir"
+      ],
+      "emoji": "📅"
+     },
+     {
+      "en": "The storm *may* reach our town tonight.",
+      "tr": "Fırtına bu gece kasabamıza ulaşabilir.",
+      "trEm": [
+       "Fırtına bu gece kasabamıza ulaşabilir."
+      ],
+      "emoji": "⛈️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Predictions with will",
+   "titleTr": "Gelecek tahminleri",
+   "chips": [
+    "won't"
+   ],
+   "examples": [
     {
      "en": "The river *won't* flood this year.",
      "tr": "Nehir bu yıl taşmayacak.",
@@ -377,7 +564,22 @@
      "trEm": [
       "taşmayacak"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Predictions with will",
+   "titleTr": "Gelecek tahminleri",
+   "chips": [
+    "might"
+   ],
+   "examples": [
     {
      "en": "It *might* snow in the mountains.",
      "tr": "Dağlarda kar yağabilir.",
@@ -385,7 +587,23 @@
       "yağabilir"
      ],
      "emoji": "🌨️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Emin değilsek *may / might* deriz.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Predictions with will",
+   "titleTr": "Gelecek tahminleri",
+   "chips": [
+    "may"
+   ],
+   "examples": [
     {
      "en": "Scientists *may* predict earthquakes one day.",
      "tr": "Bilim insanları bir gün depremleri tahmin edebilir.",
@@ -394,20 +612,57 @@
      ],
      "emoji": "📅"
     }
+   ],
+   "paced": true,
+   "rule": "Emin değilsek *may / might* deriz.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Predictions with will",
+   "titleTr": "Gelecek tahminleri",
+   "chips": [
+    "may"
+   ],
+   "examples": [
+    {
+     "en": "The storm *may* reach our town tonight.",
+     "tr": "Fırtına bu gece kasabamıza ulaşabilir.",
+     "trEm": [
+      "Fırtına bu gece kasabamıza ulaşabilir."
+     ],
+     "emoji": "⛈️"
+    }
+   ],
+   "paced": true,
+   "rule": "Emin değilsek *may / might* deriz.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Predictions with will",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "There will be a storm tomorrow. — Yarın fırtına olacak.",
+     "statement": "The storm may reach our town tonight. — Fırtına bu gece kasabamıza ulaşabilir.",
      "answer": true,
-     "explain": "Correct: There will be a storm tomorrow."
-    },
+     "explain": "Correct: The storm may reach our town tonight."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Predictions with will",
+   "tasks": [
     {
      "kind": "fill",
      "text": "There ___ be a storm tomorrow.",
@@ -423,10 +678,31 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Predictions with will",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "The river ___ flood this year.",
+     "answer": "won't",
+     "options": [
+      "won't",
+      "will",
+      "might",
+      "may"
+     ],
+     "tr": "Nehir bu yıl taşmayacak."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "If Clauses (Type 1)",
    "titleTr": "Koşul cümleleri",
-   "rule": "Gerçekleşmesi mümkün durumlar için *If + geniş zaman, will + fiil* yapısı kullanılır.",
+   "chips": [
+    "If / will"
+   ],
    "examples": [
     {
      "en": "*If* it rains, the streets *will* flood.",
@@ -436,7 +712,75 @@
       "yağarsa",
       "su altında kalır"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Gerçekleşmesi mümkün durumlar için *If + geniş zaman, will + fiil* yapısı kullanılır.",
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "If Clauses (Type 1)",
+    "titleTr": "Koşul cümleleri",
+    "rule": "Gerçekleşmesi mümkün durumlar için *If + geniş zaman, will + fiil* yapısı kullanılır.",
+    "examples": [
+     {
+      "en": "*If* it rains, the streets *will* flood.",
+      "tr": "Yağmur yağarsa sokaklar su altında kalır.",
+      "img": "/app/img/words/flood.jpg",
+      "trEm": [
+       "yağarsa",
+       "su altında kalır"
+      ]
+     },
+     {
+      "en": "*If* an earthquake happens, we *will* go outside.",
+      "tr": "Deprem olursa dışarı çıkacağız.",
+      "img": "/app/img/words/earthquake.jpg",
+      "trEm": [
+       "olursa",
+       "dışarı çıkacağız"
+      ]
+     },
+     {
+      "en": "*If* you stay calm, you *will* be safer.",
+      "tr": "Sakin kalırsan daha güvende olursun.",
+      "trEm": [
+       "kalırsan",
+       "güvende olursun"
+      ],
+      "emoji": "🧘"
+     },
+     {
+      "en": "The soil *will* dry *if* it doesn't rain.",
+      "tr": "Yağmur yağmazsa toprak kurur.",
+      "trEm": [
+       "toprak kurur",
+       "yağmazsa"
+      ],
+      "emoji": "🔀"
+     },
+     {
+      "en": "*If* it rains, we *will* stay indoors.",
+      "tr": "Yağmur yağarsa içeride kalacağız.",
+      "trEm": [
+       "Yağmur yağarsa içeride kalacağız."
+      ],
+      "emoji": "🔀"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "If Clauses (Type 1)",
+   "titleTr": "Koşul cümleleri",
+   "chips": [
+    "If / will"
+   ],
+   "examples": [
     {
      "en": "*If* an earthquake happens, we *will* go outside.",
      "tr": "Deprem olursa dışarı çıkacağız.",
@@ -445,7 +789,23 @@
       "olursa",
       "dışarı çıkacağız"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Gerçekleşmesi mümkün durumlar için *If + geniş zaman, will + fiil* yapısı kullanılır.",
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "If Clauses (Type 1)",
+   "titleTr": "Koşul cümleleri",
+   "chips": [
+    "If / will"
+   ],
+   "examples": [
     {
      "en": "*If* you stay calm, you *will* be safer.",
      "tr": "Sakin kalırsan daha güvende olursun.",
@@ -454,7 +814,47 @@
       "güvende olursun"
      ],
      "emoji": "🧘"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Gerçekleşmesi mümkün durumlar için *If + geniş zaman, will + fiil* yapısı kullanılır.",
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "If Clauses (Type 1)",
+   "titleTr": "Koşul cümleleri",
+   "chips": [
+    "If / will"
+   ],
+   "examples": [
+    {
+     "en": "*If* it rains, we *will* stay indoors.",
+     "tr": "Yağmur yağarsa içeride kalacağız.",
+     "trEm": [
+      "Yağmur yağarsa içeride kalacağız."
+     ],
+     "emoji": "🔀"
+    }
+   ],
+   "paced": true,
+   "rule": "Gerçekleşmesi mümkün durumlar için *If + geniş zaman, will + fiil* yapısı kullanılır.",
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "If Clauses (Type 1)",
+   "titleTr": "Koşul cümleleri",
+   "chips": [
+    "will / if"
+   ],
+   "examples": [
     {
      "en": "The soil *will* dry *if* it doesn't rain.",
      "tr": "Yağmur yağmazsa toprak kurur.",
@@ -464,25 +864,55 @@
      ],
      "emoji": "🔀"
     }
+   ],
+   "paced": true,
+   "rule": "Gerçekleşmesi mümkün durumlar için *If + geniş zaman, will + fiil* yapısı kullanılır.",
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · If Clauses (Type 1)",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "___ an earthquake happens, we will go outside.",
+     "clue": "___ it rains, the streets will flood.",
      "answer": "If",
-     "tr": "Deprem olursa dışarı çıkacağız."
-    },
+     "tr": "Yağmur yağarsa sokaklar su altında kalır."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · If Clauses (Type 1)",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "The soil will dry if it doesn't rain.",
-     "tr": "Yağmur yağmazsa toprak kurur."
+     "answer": "If it rains, we will stay indoors.",
+     "tr": "Yağmur yağarsa içeride kalacağız."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · If Clauses (Type 1)",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "___ it rains, the streets will flood.",
+     "answer": "If",
+     "options": [
+      "If",
+      "will"
+     ],
+     "tr": "Yağmur yağarsa sokaklar su altında kalır."
     }
    ]
   },
@@ -490,7 +920,9 @@
    "type": "grammar",
    "title": "Giving Advice in a Disaster",
    "titleTr": "Afetlerde tavsiye",
-   "rule": "Afet anındaki davranışlar için *should / shouldn't* ve emir cümleleri kullanılır.",
+   "chips": [
+    "should"
+   ],
    "examples": [
     {
      "en": "You *should* keep an emergency bag ready.",
@@ -499,7 +931,63 @@
       "bulundurmalısın."
      ],
      "emoji": "🚨"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Tavsiye: *should + yalın fiil* (-meli / -malı).",
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Giving Advice in a Disaster",
+    "titleTr": "Afetlerde tavsiye",
+    "rule": "Afet anındaki davranışlar için *should / shouldn't* ve emir cümleleri kullanılır.",
+    "examples": [
+     {
+      "en": "You *should* keep an emergency bag ready.",
+      "tr": "Hazır bir afet çantası bulundurmalısın.",
+      "trEm": [
+       "bulundurmalısın."
+      ],
+      "emoji": "🚨"
+     },
+     {
+      "en": "You *shouldn't* use the lift during an earthquake.",
+      "tr": "Deprem sırasında asansörü kullanmamalısın.",
+      "img": "/app/img/words/earthquake.jpg",
+      "trEm": [
+       "kullanmamalısın."
+      ]
+     },
+     {
+      "en": "*Stay away* from windows.",
+      "tr": "Pencerelerden uzak dur.",
+      "trEm": [
+       "uzak dur"
+      ],
+      "emoji": "🪟"
+     },
+     {
+      "en": "*Don't panic* and follow the instructions.",
+      "tr": "Panik yapma ve talimatlara uy.",
+      "trEm": [
+       "Panik yapma"
+      ],
+      "emoji": "🧘"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Advice in a Disaster",
+   "titleTr": "Afetlerde tavsiye",
+   "chips": [
+    "shouldn't"
+   ],
+   "examples": [
     {
      "en": "You *shouldn't* use the lift during an earthquake.",
      "tr": "Deprem sırasında asansörü kullanmamalısın.",
@@ -507,7 +995,23 @@
      "trEm": [
       "kullanmamalısın."
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Olumsuz tavsiye: *shouldn't + yalın fiil*.",
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Advice in a Disaster",
+   "titleTr": "Afetlerde tavsiye",
+   "chips": [
+    "Stay away"
+   ],
+   "examples": [
     {
      "en": "*Stay away* from windows.",
      "tr": "Pencerelerden uzak dur.",
@@ -515,7 +1019,23 @@
       "uzak dur"
      ],
      "emoji": "🪟"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Afet anındaki davranışlar için *should / shouldn't* ve emir cümleleri kullanılır.",
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Giving Advice in a Disaster",
+   "titleTr": "Afetlerde tavsiye",
+   "chips": [
+    "Don't panic"
+   ],
+   "examples": [
     {
      "en": "*Don't panic* and follow the instructions.",
      "tr": "Panik yapma ve talimatlara uy.",
@@ -524,11 +1044,17 @@
      ],
      "emoji": "🧘"
     }
+   ],
+   "paced": true,
+   "rule": "Afet anındaki davranışlar için *should / shouldn't* ve emir cümleleri kullanılır.",
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Giving Advice in a Disaster",
    "tasks": [
     {
@@ -542,12 +1068,38 @@
       "Don't panic"
      ],
      "tr": "Hazır bir afet çantası bulundurmalısın."
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Giving Advice in a Disaster",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
      "answer": "Don't panic and follow the instructions.",
      "tr": "Panik yapma ve talimatlara uy."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Giving Advice in a Disaster",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "You ___ use the lift during an earthquake.",
+     "answer": "shouldn't",
+     "options": [
+      "shouldn't",
+      "should",
+      "Stay away",
+      "Don't panic"
+     ],
+     "tr": "Deprem sırasında asansörü kullanmamalısın."
     }
    ]
   },
@@ -590,7 +1142,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -629,7 +1181,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -672,7 +1224,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -681,19 +1233,67 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "You should keep an emergency bag ready.",
-      "tr": "Hazır bir afet çantası bulundurmalısın."
-     },
-     {
-      "answer": "The soil will dry if it doesn't rain.",
-      "tr": "Yağmur yağmazsa toprak kurur."
-     },
-     {
       "answer": "There will be a storm tomorrow.",
       "tr": "Yarın fırtına olacak."
+     },
+     {
+      "answer": "Don't panic and follow the instructions.",
+      "tr": "Panik yapma ve talimatlara uy."
+     },
+     {
+      "answer": "Scientists may predict earthquakes one day.",
+      "tr": "Bilim insanları bir gün depremleri tahmin edebilir."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Predictions with will",
+   "task": {
+    "kind": "flash",
+    "q": "You are a weather reporter. Make two predictions for tomorrow and one uncertain prediction.",
+    "clue": "Scientists may predict earthquakes one day.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Bilim insanları bir gün depremleri tahmin edebilir."
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "If Clauses (Type 1)",
+   "task": {
+    "kind": "flash",
+    "q": "Plan a picnic. Say what you will do if it rains. Your partner adds another possible situation.",
+    "clue": "If it rains, the streets will flood.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Yağmur yağarsa sokaklar su altında kalır."
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Giving Advice in a Disaster",
+   "task": {
+    "kind": "flash",
+    "q": "Make an emergency plan. Give your partner two useful pieces of advice.",
+    "clue": "You shouldn't use the lift during an earthquake.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Deprem sırasında asansörü kullanmamalısın."
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

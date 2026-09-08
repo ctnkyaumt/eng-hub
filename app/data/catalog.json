@@ -132,7 +132,7 @@
      },
      "counts": {
       "games": 540,
-      "worksheets": 3,
+      "worksheets": 2,
       "offlineSites": 3,
       "sourceWorksheets": 6,
       "sourceGames": 16
@@ -897,7 +897,7 @@
      "has": {
       "presentation": true,
       "games": true,
-      "worksheets": false
+      "worksheets": true
      },
      "counts": {
       "games": 0,

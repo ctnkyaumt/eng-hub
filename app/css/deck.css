@@ -484,3 +484,25 @@
   .unit-visual { height: 260px; }
   .slide .sub-tr { margin-bottom: 14px; }
 }
+
+/* Classroom pacing: large content, one task/example per page. */
+.step:not(.on) { visibility: hidden; pointer-events: none; }
+.vcard-media { height: clamp(150px, 21vh, 215px); }
+.vcard .en { font-size: clamp(23px, 2.7vw, 34px); line-height: 1.2; overflow-wrap: anywhere; }
+.vcard .tr { font-size: clamp(17px, 2vw, 24px); }
+.ex-list { grid-template-columns: 1fr; }
+.ex .en { font-size: clamp(28px, 3.4vw, 42px); line-height: 1.4; }
+.ex .tr { font-size: clamp(20px, 2.4vw, 29px); margin-top: 14px; }
+.ex.with-pic { padding: 24px; }
+.ex .ex-pic { width: 140px; height: 130px; flex-shrink: 0; }
+.exercise-slide .task .prompt, .mission-shell .task .prompt { font-size: clamp(24px, 2.8vw, 34px); }
+.exercise-slide .task .sentence, .task .tf-statement { font-size: clamp(27px, 3vw, 38px); }
+.exercise-slide .task .opt, .exercise-slide .task .tile, .exercise-slide .task .match-item,
+.mission-shell .task .opt, .drop-zone b { font-size: clamp(22px, 2.5vw, 30px); }
+.task .flash-answer { font-size: clamp(23px, 2.7vw, 32px); }
+.task .hint { font-size: 18px; }
+@media (max-width: 850px) {
+  .vocab-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .vcard-media { height: 125px; }
+  .ex .ex-pic { width: 85px; height: 85px; }
+}

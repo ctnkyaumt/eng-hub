@@ -48,7 +48,18 @@
      "tr": "anne",
      "emoji": "👩",
      "img": "p01-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Family Members",
+   "titleTr": "Aile üyeleri",
+   "items": [
     {
      "en": "uncle",
      "tr": "amca / dayı",
@@ -60,18 +71,7 @@
      "tr": "hala / teyze",
      "emoji": "👩‍🦰",
      "img": "p01-06.png"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Family Members",
-   "titleTr": "Aile üyeleri",
-   "items": [
+    },
     {
      "en": "brother",
      "tr": "erkek kardeş",
@@ -83,7 +83,18 @@
      "tr": "kız kardeş",
      "emoji": "👧",
      "img": "p01-08.png"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Family Members",
+   "titleTr": "Aile üyeleri",
+   "items": [
     {
      "en": "cousin",
      "tr": "kuzen",
@@ -104,13 +115,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Family Members",
    "tasks": [
     {
@@ -134,7 +145,14 @@
        "b": "hala / teyze"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Family Members",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -147,6 +165,19 @@
       "aunt",
       "sister"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Family Members",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "amca / dayı",
+     "answer": "uncle"
     }
    ]
   },
@@ -178,7 +209,18 @@
      "tr": "elleri yıkamak",
      "emoji": "🧼",
      "img": "p01-15.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines (1)",
+   "titleTr": "Günlük rutinler",
+   "items": [
     {
      "en": "wash face",
      "tr": "yüzü yıkamak",
@@ -190,18 +232,7 @@
      "tr": "saçları taramak",
      "emoji": "💇",
      "img": "p01-17.png"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Daily Routines (1)",
-   "titleTr": "Günlük rutinler",
-   "items": [
+    },
     {
      "en": "take a shower",
      "tr": "duş almak",
@@ -213,7 +244,18 @@
      "tr": "giyinmek",
      "emoji": "👕",
      "img": "p01-19.png"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines (1)",
+   "titleTr": "Günlük rutinler",
+   "items": [
     {
      "en": "go to school",
      "tr": "okula gitmek",
@@ -240,13 +282,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Daily Routines (1)",
    "tasks": [
     {
@@ -255,7 +297,14 @@
      "statement": "\"have breakfast\" means \"yüzü yıkamak\".",
      "answer": false,
      "explain": "have breakfast = kahvaltı yapmak"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"uyanmak\"?",
+   "titleTr": "Use what you just learned · Daily Routines (1)",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"uyanmak\"?",
@@ -265,6 +314,35 @@
       "wash hands",
       "study",
       "brush teeth"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Daily Routines (1)",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "wake up",
+       "b": "uyanmak"
+      },
+      {
+       "a": "have breakfast",
+       "b": "kahvaltı yapmak"
+      },
+      {
+       "a": "have lunch",
+       "b": "öğle yemeği yemek"
+      },
+      {
+       "a": "brush teeth",
+       "b": "dişleri fırçalamak"
+      }
      ]
     }
    ]
@@ -297,7 +375,18 @@
      "tr": "evcil hayvanla ilgilenmek",
      "emoji": "🐕",
      "img": "p02-04.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Daily Routines (2)",
+   "titleTr": "Günlük rutinler",
+   "items": [
     {
      "en": "rest / relax",
      "tr": "dinlenmek",
@@ -322,11 +411,15 @@
      "emoji": "😴",
      "img": "p02-08.png"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · Daily Routines (2)",
    "tasks": [
     {
@@ -334,7 +427,14 @@
      "q": "Guess the English word",
      "clue": "yatmak",
      "answer": "go to bed"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Daily Routines (2)",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -355,6 +455,26 @@
        "a": "rest / relax",
        "b": "dinlenmek"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Daily Routines (2)",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-01.png",
+     "answer": "have dinner",
+     "tr": "akşam yemeği yemek",
+     "options": [
+      "have dinner",
+      "sleep",
+      "watch TV",
+      "take care of the pet"
      ]
     }
    ]
@@ -387,7 +507,18 @@
      "tr": "skutere binmek",
      "emoji": "🛴",
      "img": "p02-12.png"
-    },
+    }
+   ],
+   "part": [
+    1,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Hobbies and Activities",
+   "titleTr": "Hobiler ve aktiviteler",
+   "items": [
     {
      "en": "play a board game",
      "tr": "kutu oyunu oynamak",
@@ -405,11 +536,17 @@
      "tr": "plaja gitmek",
      "emoji": "🏖️",
      "img": "p02-15.png"
+    },
+    {
+     "en": "go on holiday",
+     "tr": "tatile gitmek",
+     "emoji": "🧳",
+     "img": "p02-16.png"
     }
    ],
    "part": [
-    1,
-    3
+    2,
+    5
    ]
   },
   {
@@ -417,12 +554,6 @@
    "title": "Hobbies and Activities",
    "titleTr": "Hobiler ve aktiviteler",
    "items": [
-    {
-     "en": "go on holiday",
-     "tr": "tatile gitmek",
-     "emoji": "🧳",
-     "img": "p02-16.png"
-    },
     {
      "en": "play the guitar",
      "tr": "gitar çalmak",
@@ -446,7 +577,18 @@
      "tr": "fotoğraf çekmek",
      "emoji": "📷",
      "img": "p02-20.png"
-    },
+    }
+   ],
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Hobbies and Activities",
+   "titleTr": "Hobiler ve aktiviteler",
+   "items": [
     {
      "en": "camp in the forest",
      "tr": "ormanda kamp yapmak",
@@ -458,18 +600,7 @@
      "tr": "çadırda kalmak",
      "emoji": "⛺",
      "img": "p02-22.png"
-    }
-   ],
-   "part": [
-    2,
-    3
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Hobbies and Activities",
-   "titleTr": "Hobiler ve aktiviteler",
-   "items": [
+    },
     {
      "en": "have a party",
      "tr": "parti yapmak",
@@ -481,7 +612,18 @@
      "tr": "golf oynamak",
      "emoji": "⛳",
      "img": "p02-24.png"
-    },
+    }
+   ],
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Hobbies and Activities",
+   "titleTr": "Hobiler ve aktiviteler",
+   "items": [
     {
      "en": "cook",
      "tr": "yemek pişirmek",
@@ -508,13 +650,13 @@
     }
    ],
    "part": [
-    3,
-    3
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Hobbies and Activities",
    "tasks": [
     {
@@ -529,7 +671,14 @@
       "stay in a tent",
       "play the guitar"
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · Hobbies and Activities",
+   "tasks": [
     {
      "kind": "truefalse",
      "q": "True or false?",
@@ -540,13 +689,40 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Hobbies and Activities",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "stay in a tent",
+       "b": "çadırda kalmak"
+      },
+      {
+       "a": "play computer games",
+       "b": "bilgisayar oyunu oynamak"
+      },
+      {
+       "a": "go to the beach",
+       "b": "plaja gitmek"
+      },
+      {
+       "a": "take a photograph",
+       "b": "fotoğraf çekmek"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Present Continuous — -ing",
    "titleTr": "Şimdiki zaman: now, at the moment",
-   "rule": "Konuşma anında gerçekleşen olaylar için kullanılır. Fiile *-ing* eklenir.",
    "chips": [
-    "now",
-    "at the moment"
+    "riding"
    ],
    "examples": [
     {
@@ -556,7 +732,83 @@
       "1. kural"
      ],
      "emoji": "🎬"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında gerçekleşen olaylar için kullanılır.",
+   "part": [
+    1,
+    6
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Present Continuous — -ing",
+    "titleTr": "Şimdiki zaman: now, at the moment",
+    "rule": "Konuşma anında gerçekleşen olaylar için kullanılır. Fiile *-ing* eklenir.",
+    "chips": [
+     "now",
+     "at the moment"
+    ],
+    "examples": [
+     {
+      "en": "\"e\" ile biten fiillerde e düşer:  ride → *riding*",
+      "tr": "1. kural",
+      "trEm": [
+       "1. kural"
+      ],
+      "emoji": "🎬"
+     },
+     {
+      "en": "Sessiz–sesli–sessiz ile bitenlerde son harf çiftlenir:  run → *running*",
+      "tr": "2. kural",
+      "img": "p01-10.png",
+      "trEm": [
+       "2. kural"
+      ]
+     },
+     {
+      "en": "I *am watching* TV now.",
+      "tr": "Ben şimdi televizyon izliyorum.",
+      "trEm": [
+       "televizyon izliyorum"
+      ],
+      "emoji": "📺"
+     },
+     {
+      "en": "He *is sleeping* at the moment.",
+      "tr": "O şu anda uyuyor.",
+      "trEm": [
+       "uyuyor"
+      ],
+      "emoji": "🛏️"
+     },
+     {
+      "en": "They *are swimming*.",
+      "tr": "Onlar yüzüyorlar.",
+      "trEm": [
+       "yüzüyorlar"
+      ],
+      "emoji": "🏊"
+     },
+     {
+      "en": "We *are reading* a story now.",
+      "tr": "Şimdi bir hikaye okuyoruz.",
+      "trEm": [
+       "Şimdi bir hikaye okuyoruz."
+      ],
+      "emoji": "🎬"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous — -ing",
+   "titleTr": "Şimdiki zaman: now, at the moment",
+   "chips": [
+    "running"
+   ],
+   "examples": [
     {
      "en": "Sessiz–sesli–sessiz ile bitenlerde son harf çiftlenir:  run → *running*",
      "tr": "2. kural",
@@ -564,7 +816,23 @@
      "trEm": [
       "2. kural"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında gerçekleşen olaylar için kullanılır.",
+   "part": [
+    2,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous — -ing",
+   "titleTr": "Şimdiki zaman: now, at the moment",
+   "chips": [
+    "am watching"
+   ],
+   "examples": [
     {
      "en": "I *am watching* TV now.",
      "tr": "Ben şimdi televizyon izliyorum.",
@@ -572,7 +840,23 @@
       "televizyon izliyorum"
      ],
      "emoji": "📺"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında gerçekleşen olaylar için kullanılır.",
+   "part": [
+    3,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous — -ing",
+   "titleTr": "Şimdiki zaman: now, at the moment",
+   "chips": [
+    "is sleeping"
+   ],
+   "examples": [
     {
      "en": "He *is sleeping* at the moment.",
      "tr": "O şu anda uyuyor.",
@@ -580,7 +864,23 @@
       "uyuyor"
      ],
      "emoji": "🛏️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında gerçekleşen olaylar için kullanılır.",
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous — -ing",
+   "titleTr": "Şimdiki zaman: now, at the moment",
+   "chips": [
+    "are swimming"
+   ],
+   "examples": [
     {
      "en": "They *are swimming*.",
      "tr": "Onlar yüzüyorlar.",
@@ -589,11 +889,41 @@
      ],
      "emoji": "🏊"
     }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında gerçekleşen olaylar için kullanılır.",
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Present Continuous — -ing",
+   "titleTr": "Şimdiki zaman: now, at the moment",
+   "chips": [
+    "are reading"
+   ],
+   "examples": [
+    {
+     "en": "We *are reading* a story now.",
+     "tr": "Şimdi bir hikaye okuyoruz.",
+     "trEm": [
+      "Şimdi bir hikaye okuyoruz."
+     ],
+     "emoji": "🎬"
+    }
+   ],
+   "paced": true,
+   "rule": "Konuşma anında gerçekleşen olaylar için kullanılır.",
+   "part": [
+    6,
+    6
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Present Continuous — -ing",
    "tasks": [
     {
@@ -602,7 +932,14 @@
      "statement": "They are swimming. — Onlar yüzüyorlar.",
      "answer": true,
      "explain": "Correct: They are swimming."
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Present Continuous — -ing",
+   "tasks": [
     {
      "kind": "fill",
      "text": "\"e\" ile biten fiillerde e düşer:  ride → ___",
@@ -618,68 +955,207 @@
    ]
   },
   {
-   "type": "compare",
-   "title": "Negative & Question",
-   "titleTr": "Olumsuz ve soru cümleleri",
-   "rule": "Olumsuzda *am/is/are + not*, soruda *am/is/are* özneden önce gelir.",
-   "columns": [
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Present Continuous — -ing",
+   "tasks": [
     {
-     "title": "NEGATIVE ⛔",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "I *am not* doing my homework.",
-       "tr": "Ödev yapmıyorum.",
-       "trEm": [
-        "yapmıyorum"
-       ],
-       "emoji": "📚"
-      },
-      {
-       "en": "She *isn't* cooking now.",
-       "tr": "O şimdi yemek pişirmiyor.",
-       "trEm": [
-        "pişirmiyor"
-       ],
-       "emoji": "🍳"
-      },
-      {
-       "en": "You *aren't* playing the guitar.",
-       "tr": "Gitar çalmıyorsun.",
-       "trEm": [
-        "çalmıyorsun"
-       ],
-       "emoji": "🎸"
-      }
-     ]
-    },
-    {
-     "title": "QUESTION ❓",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "*Are* you studying? — Yes, I am.",
-       "tr": "Ders çalışıyor musun? — Evet, çalışıyorum.",
-       "trEm": [
-        "çalışıyor musun"
-       ],
-       "emoji": "📚"
-      },
-      {
-       "en": "*Is* she sleeping? — No, she isn't.",
-       "tr": "O uyuyor mu? — Hayır, uyumuyor.",
-       "trEm": [
-        "uyuyor mu"
-       ],
-       "emoji": "🛏️"
-      }
-     ]
+     "kind": "fill",
+     "text": "Sessiz–sesli–sessiz ile bitenlerde son harf çiftlenir:  run → ___",
+     "answer": "running",
+     "options": [
+      "running",
+      "riding",
+      "am watching",
+      "is sleeping"
+     ],
+     "tr": "2. kural"
     }
    ]
   },
   {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "I *am not* doing my homework.",
+     "tr": "Ödev yapmıyorum.",
+     "trEm": [
+      "yapmıyorum"
+     ],
+     "emoji": "📚",
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "Negative & Question",
+    "titleTr": "Olumsuz ve soru cümleleri",
+    "rule": "Olumsuzda *am/is/are + not*, soruda *am/is/are* özneden önce gelir.",
+    "columns": [
+     {
+      "title": "NEGATIVE ⛔",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "I *am not* doing my homework.",
+        "tr": "Ödev yapmıyorum.",
+        "trEm": [
+         "yapmıyorum"
+        ],
+        "emoji": "📚"
+       },
+       {
+        "en": "She *isn't* cooking now.",
+        "tr": "O şimdi yemek pişirmiyor.",
+        "trEm": [
+         "pişirmiyor"
+        ],
+        "emoji": "🍳"
+       },
+       {
+        "en": "You *aren't* playing the guitar.",
+        "tr": "Gitar çalmıyorsun.",
+        "trEm": [
+         "çalmıyorsun"
+        ],
+        "emoji": "🎸"
+       }
+      ]
+     },
+     {
+      "title": "QUESTION ❓",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "*Are* you studying? — Yes, I am.",
+        "tr": "Ders çalışıyor musun? — Evet, çalışıyorum.",
+        "trEm": [
+         "çalışıyor musun"
+        ],
+        "emoji": "📚"
+       },
+       {
+        "en": "*Is* she sleeping? — No, she isn't.",
+        "tr": "O uyuyor mu? — Hayır, uyumuyor.",
+        "trEm": [
+         "uyuyor mu"
+        ],
+        "emoji": "🛏️"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "She *isn't* cooking now.",
+     "tr": "O şimdi yemek pişirmiyor.",
+     "trEm": [
+      "pişirmiyor"
+     ],
+     "emoji": "🍳",
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "NEGATIVE ⛔"
+   ],
+   "examples": [
+    {
+     "en": "You *aren't* playing the guitar.",
+     "tr": "Gitar çalmıyorsun.",
+     "trEm": [
+      "çalmıyorsun"
+     ],
+     "emoji": "🎸",
+     "focus": "NEGATIVE ⛔"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "QUESTION ❓"
+   ],
+   "examples": [
+    {
+     "en": "*Are* you studying? — Yes, I am.",
+     "tr": "Ders çalışıyor musun? — Evet, çalışıyorum.",
+     "trEm": [
+      "çalışıyor musun"
+     ],
+     "emoji": "📚",
+     "focus": "QUESTION ❓"
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Negative & Question",
+   "titleTr": "Olumsuz ve soru cümleleri",
+   "chips": [
+    "QUESTION ❓"
+   ],
+   "examples": [
+    {
+     "en": "*Is* she sleeping? — No, she isn't.",
+     "tr": "O uyuyor mu? — Hayır, uyumuyor.",
+     "trEm": [
+      "uyuyor mu"
+     ],
+     "emoji": "🛏️",
+     "focus": "QUESTION ❓"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    5
+   ]
+  },
+  {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Negative & Question",
    "tasks": [
     {
@@ -688,7 +1164,14 @@
      "clue": "I ___ doing my homework.",
      "answer": "am not",
      "tr": "Ödev yapmıyorum."
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Negative & Question",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
@@ -698,10 +1181,31 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Negative & Question",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ doing my homework.",
+     "answer": "am not",
+     "options": [
+      "am not",
+      "isn't",
+      "aren't",
+      "Are"
+     ],
+     "tr": "Ödev yapmıyorum."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Question Tags",
    "titleTr": "Soru ekleri — değil mi?",
-   "rule": "Cümle olumlu ise soru eki *olumsuz*, olumsuz ise soru eki *olumlu* olur.",
+   "chips": [
+    "aren't you"
+   ],
    "examples": [
     {
      "en": "You are having a picnic, *aren't you*?",
@@ -710,7 +1214,63 @@
       "değil mi"
      ],
      "emoji": "🧺"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Question Tags",
+    "titleTr": "Soru ekleri — değil mi?",
+    "rule": "Cümle olumlu ise soru eki *olumsuz*, olumsuz ise soru eki *olumlu* olur.",
+    "examples": [
+     {
+      "en": "You are having a picnic, *aren't you*?",
+      "tr": "Sen piknik yapıyorsun, değil mi?",
+      "trEm": [
+       "değil mi"
+      ],
+      "emoji": "🧺"
+     },
+     {
+      "en": "She is going to school, *isn't she*?",
+      "tr": "O okula gidiyor, değil mi?",
+      "trEm": [
+       "değil mi"
+      ],
+      "emoji": "🏫"
+     },
+     {
+      "en": "You aren't playing golf, *are you*?",
+      "tr": "Sen golf oynamıyorsun, değil mi?",
+      "trEm": [
+       "değil mi"
+      ],
+      "emoji": "💬"
+     },
+     {
+      "en": "She isn't fishing, *is she*?",
+      "tr": "O balık tutmuyor, değil mi?",
+      "trEm": [
+       "değil mi",
+       "mu"
+      ],
+      "emoji": "🎣"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Question Tags",
+   "titleTr": "Soru ekleri — değil mi?",
+   "chips": [
+    "isn't she"
+   ],
+   "examples": [
     {
      "en": "She is going to school, *isn't she*?",
      "tr": "O okula gidiyor, değil mi?",
@@ -718,7 +1278,22 @@
       "değil mi"
      ],
      "emoji": "🏫"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Question Tags",
+   "titleTr": "Soru ekleri — değil mi?",
+   "chips": [
+    "are you"
+   ],
+   "examples": [
     {
      "en": "You aren't playing golf, *are you*?",
      "tr": "Sen golf oynamıyorsun, değil mi?",
@@ -726,7 +1301,22 @@
       "değil mi"
      ],
      "emoji": "💬"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Question Tags",
+   "titleTr": "Soru ekleri — değil mi?",
+   "chips": [
+    "is she"
+   ],
+   "examples": [
     {
      "en": "She isn't fishing, *is she*?",
      "tr": "O balık tutmuyor, değil mi?",
@@ -736,11 +1326,16 @@
      ],
      "emoji": "🎣"
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · Question Tags",
    "tasks": [
     {
@@ -754,7 +1349,14 @@
       "is she"
      ],
      "tr": "Sen piknik yapıyorsun, değil mi?"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Question Tags",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
@@ -764,75 +1366,238 @@
    ]
   },
   {
-   "type": "compare",
-   "title": "Simple Present vs Present Continuous",
-   "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
-   "columns": [
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Question Tags",
+   "tasks": [
     {
-     "title": "Simple Present ⏳",
-     "tone": "good",
-     "examples": [
-      {
-       "en": "I go to school *every day*.",
-       "tr": "Ben her gün okula giderim.",
-       "img": "p01-20.png",
-       "trEm": [
-        "her gün"
-       ]
-      },
-      {
-       "en": "She brushes her teeth *in the morning*.",
-       "tr": "O sabahları dişlerini fırçalar.",
-       "trEm": [
-        "sabahları"
-       ],
-       "emoji": "🪥"
-      },
-      {
-       "en": "We watch TV *in the evenings*.",
-       "tr": "Biz akşamları televizyon izleriz.",
-       "img": "p02-03.png",
-       "trEm": [
-        "akşamları"
-       ]
-      }
-     ]
-    },
-    {
-     "title": "Present Continuous ⚡",
-     "tone": "bad",
-     "examples": [
-      {
-       "en": "I am going to school *now*.",
-       "tr": "Ben şimdi okula gidiyorum.",
-       "trEm": [
-        "şimdi"
-       ],
-       "emoji": "🏫"
-      },
-      {
-       "en": "She is brushing her teeth *now*.",
-       "tr": "O şimdi dişlerini fırçalıyor.",
-       "trEm": [
-        "şimdi"
-       ],
-       "emoji": "🪥"
-      },
-      {
-       "en": "We are watching TV *at the moment*.",
-       "tr": "Biz şu anda televizyon izliyoruz.",
-       "trEm": [
-        "şu anda"
-       ],
-       "emoji": "📺"
-      }
-     ]
+     "kind": "fill",
+     "text": "She is going to school, ___?",
+     "answer": "isn't she",
+     "options": [
+      "isn't she",
+      "aren't you",
+      "are you",
+      "is she"
+     ],
+     "tr": "O okula gidiyor, değil mi?"
     }
    ]
   },
   {
+   "type": "grammar",
+   "title": "Simple Present vs Present Continuous",
+   "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
+   "chips": [
+    "Simple Present ⏳"
+   ],
+   "examples": [
+    {
+     "en": "I go to school *every day*.",
+     "tr": "Ben her gün okula giderim.",
+     "img": "p01-20.png",
+     "trEm": [
+      "her gün"
+     ],
+     "focus": "Simple Present ⏳"
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    6
+   ],
+   "teachingSource": {
+    "type": "compare",
+    "title": "Simple Present vs Present Continuous",
+    "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
+    "columns": [
+     {
+      "title": "Simple Present ⏳",
+      "tone": "good",
+      "examples": [
+       {
+        "en": "I go to school *every day*.",
+        "tr": "Ben her gün okula giderim.",
+        "img": "p01-20.png",
+        "trEm": [
+         "her gün"
+        ]
+       },
+       {
+        "en": "She brushes her teeth *in the morning*.",
+        "tr": "O sabahları dişlerini fırçalar.",
+        "trEm": [
+         "sabahları"
+        ],
+        "emoji": "🪥"
+       },
+       {
+        "en": "We watch TV *in the evenings*.",
+        "tr": "Biz akşamları televizyon izleriz.",
+        "img": "p02-03.png",
+        "trEm": [
+         "akşamları"
+        ]
+       }
+      ]
+     },
+     {
+      "title": "Present Continuous ⚡",
+      "tone": "bad",
+      "examples": [
+       {
+        "en": "I am going to school *now*.",
+        "tr": "Ben şimdi okula gidiyorum.",
+        "trEm": [
+         "şimdi"
+        ],
+        "emoji": "🏫"
+       },
+       {
+        "en": "She is brushing her teeth *now*.",
+        "tr": "O şimdi dişlerini fırçalıyor.",
+        "trEm": [
+         "şimdi"
+        ],
+        "emoji": "🪥"
+       },
+       {
+        "en": "We are watching TV *at the moment*.",
+        "tr": "Biz şu anda televizyon izliyoruz.",
+        "trEm": [
+         "şu anda"
+        ],
+        "emoji": "📺"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present vs Present Continuous",
+   "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
+   "chips": [
+    "Simple Present ⏳"
+   ],
+   "examples": [
+    {
+     "en": "She brushes her teeth *in the morning*.",
+     "tr": "O sabahları dişlerini fırçalar.",
+     "trEm": [
+      "sabahları"
+     ],
+     "emoji": "🪥",
+     "focus": "Simple Present ⏳"
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present vs Present Continuous",
+   "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
+   "chips": [
+    "Simple Present ⏳"
+   ],
+   "examples": [
+    {
+     "en": "We watch TV *in the evenings*.",
+     "tr": "Biz akşamları televizyon izleriz.",
+     "img": "p02-03.png",
+     "trEm": [
+      "akşamları"
+     ],
+     "focus": "Simple Present ⏳"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present vs Present Continuous",
+   "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
+   "chips": [
+    "Present Continuous ⚡"
+   ],
+   "examples": [
+    {
+     "en": "I am going to school *now*.",
+     "tr": "Ben şimdi okula gidiyorum.",
+     "trEm": [
+      "şimdi"
+     ],
+     "emoji": "🏫",
+     "focus": "Present Continuous ⚡"
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present vs Present Continuous",
+   "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
+   "chips": [
+    "Present Continuous ⚡"
+   ],
+   "examples": [
+    {
+     "en": "She is brushing her teeth *now*.",
+     "tr": "O şimdi dişlerini fırçalıyor.",
+     "trEm": [
+      "şimdi"
+     ],
+     "emoji": "🪥",
+     "focus": "Present Continuous ⚡"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present vs Present Continuous",
+   "titleTr": "Geniş zaman ile şimdiki zamanın farkı",
+   "chips": [
+    "Present Continuous ⚡"
+   ],
+   "examples": [
+    {
+     "en": "We are watching TV *at the moment*.",
+     "tr": "Biz şu anda televizyon izliyoruz.",
+     "trEm": [
+      "şu anda"
+     ],
+     "emoji": "📺",
+     "focus": "Present Continuous ⚡"
+    }
+   ],
+   "paced": true,
+   "part": [
+    6,
+    6
+   ]
+  },
+  {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Simple Present vs Present Continuous",
    "tasks": [
     {
@@ -841,7 +1606,14 @@
      "statement": "She brushes her teeth in the morning. — Ben her gün okula giderim.",
      "answer": false,
      "explain": "Correct: She brushes her teeth in the morning."
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Present vs Present Continuous",
+   "tasks": [
     {
      "kind": "fill",
      "text": "I go to school ___.",
@@ -853,6 +1625,25 @@
       "now"
      ],
      "tr": "Ben her gün okula giderim."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Present vs Present Continuous",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "She brushes her teeth ___.",
+     "answer": "in the morning",
+     "options": [
+      "in the morning",
+      "every day",
+      "in the evenings",
+      "now"
+     ],
+     "tr": "O sabahları dişlerini fırçalar."
     }
    ]
   },
@@ -895,7 +1686,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    7
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -934,7 +1725,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    7
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -977,7 +1768,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    7
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -986,19 +1777,83 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "You aren't playing golf, are you?",
-      "tr": "Sen golf oynamıyorsun, değil mi?"
-     },
-     {
-      "answer": "He is sleeping at the moment.",
-      "tr": "O şu anda uyuyor."
+      "answer": "She brushes her teeth in the morning.",
+      "tr": "O sabahları dişlerini fırçalar."
      },
      {
       "answer": "We watch TV in the evenings.",
       "tr": "Biz akşamları televizyon izleriz."
+     },
+     {
+      "answer": "She is going to school, isn't she?",
+      "tr": "O okula gidiyor, değil mi?"
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Present Continuous — -ing",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "I am watching TV now.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Ben şimdi televizyon izliyorum."
+   },
+   "part": [
+    4,
+    7
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Negative & Question",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "I am not doing my homework.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Ödev yapmıyorum."
+   },
+   "part": [
+    5,
+    7
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Question Tags",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "She is going to school, isn't she?",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "O okula gidiyor, değil mi?"
+   },
+   "part": [
+    6,
+    7
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Simple Present vs Present Continuous",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "She brushes her teeth in the morning.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "O sabahları dişlerini fırçalar."
+   },
+   "part": [
+    7,
+    7
+   ]
   },
   {
    "type": "pages",

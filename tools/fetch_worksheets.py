@@ -144,6 +144,9 @@ def main():
         manifest = []
 
         for i, it in enumerate(items, 1):
+            from resource_kind import online_game
+            if online_game(it):
+                continue
             done += 1
             entry = {"title": it["title"], "desc": it["desc"], "by": it["by"], "link": it["link"]}
             prefix = "%02d " % i
@@ -166,7 +169,13 @@ def main():
             manifest.append(entry)
             progress(done, total, key)
 
-        with open(os.path.join(dest, "manifest.json"), "w", encoding="utf-8") as f:
+        manifest_path = os.path.join(dest, "manifest.json")
+        if os.path.isfile(manifest_path):
+            with open(manifest_path, encoding="utf-8") as f:
+                previous = json.load(f).get("items", [])
+            links = {item.get("link") for item in manifest}
+            manifest.extend(item for item in previous if item.get("source") and item.get("link") not in links)
+        with open(manifest_path, "w", encoding="utf-8") as f:
             json.dump({"items": manifest}, f, ensure_ascii=False, indent=1)
 
     print("\nindirilen: %d  atlanan: %d  basarisiz: %d" % (ok, skip, fail))

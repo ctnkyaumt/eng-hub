@@ -34,7 +34,18 @@
      "en": "relationship",
      "tr": "ilişki",
      "emoji": "🤝"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Teen Life",
+   "titleTr": "Gençlik hayatı",
+   "items": [
     {
      "en": "argue",
      "tr": "tartışmak",
@@ -44,11 +55,16 @@
      "en": "fashion",
      "tr": "moda",
      "emoji": "👗"
+    },
+    {
+     "en": "trendy",
+     "tr": "moda olan",
+     "emoji": "✨"
     }
    ],
    "part": [
-    1,
-    2
+    2,
+    3
    ]
   },
   {
@@ -56,11 +72,6 @@
    "title": "Teen Life",
    "titleTr": "Gençlik hayatı",
    "items": [
-    {
-     "en": "trendy",
-     "tr": "moda olan",
-     "emoji": "✨"
-    },
     {
      "en": "snob",
      "tr": "züppe",
@@ -80,13 +91,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Teen Life",
    "tasks": [
     {
@@ -110,7 +121,14 @@
        "b": "müzik türleri"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Teen Life",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -123,6 +141,19 @@
       "teenager",
       "fashion"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Teen Life",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "genç",
+     "answer": "teenager"
     }
    ]
   },
@@ -150,16 +181,11 @@
      "en": "relaxing",
      "tr": "rahatlatıcı",
      "emoji": "😌"
-    },
-    {
-     "en": "impressive",
-     "tr": "etkileyici",
-     "emoji": "🌟"
     }
    ],
    "part": [
     1,
-    2
+    3
    ]
   },
   {
@@ -167,6 +193,11 @@
    "title": "Likes & Preferences",
    "titleTr": "Beğeni ve tercihler",
    "items": [
+    {
+     "en": "impressive",
+     "tr": "etkileyici",
+     "emoji": "🌟"
+    },
     {
      "en": "terrific",
      "tr": "muhteşem",
@@ -181,7 +212,18 @@
      "en": "unbearable",
      "tr": "dayanılmaz",
      "emoji": "😖"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Likes & Preferences",
+   "titleTr": "Beğeni ve tercihler",
+   "items": [
     {
      "en": "loud",
      "tr": "gürültülü",
@@ -194,13 +236,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Likes & Preferences",
    "tasks": [
     {
@@ -209,7 +251,14 @@
      "statement": "\"prefer\" means \"hoşlanmak\".",
      "answer": false,
      "explain": "prefer = tercih etmek"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"tavsiye etmek\"?",
+   "titleTr": "Use what you just learned · Likes & Preferences",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"tavsiye etmek\"?",
@@ -219,6 +268,35 @@
       "ridiculous",
       "impressive",
       "serious"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Likes & Preferences",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "terrific",
+       "b": "muhteşem"
+      },
+      {
+       "a": "prefer",
+       "b": "tercih etmek"
+      },
+      {
+       "a": "loud",
+       "b": "gürültülü"
+      },
+      {
+       "a": "serious",
+       "b": "ciddi"
+      }
      ]
     }
    ]
@@ -247,7 +325,18 @@
      "en": "fashionable",
      "tr": "modaya uygun",
      "emoji": "👗"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Gençlik Hayatı — ek kelimeler",
+   "items": [
     {
      "en": "fast",
      "tr": "hızlı",
@@ -257,18 +346,7 @@
      "en": "folk music",
      "tr": "halk müziği",
      "emoji": "🪕"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "Gençlik Hayatı — ek kelimeler",
-   "items": [
+    },
     {
      "en": "follow",
      "tr": "takip etmek",
@@ -278,7 +356,18 @@
      "en": "form",
      "tr": "kurmak, oluşturmak",
      "emoji": "📝"
-    },
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Gençlik Hayatı — ek kelimeler",
+   "items": [
     {
      "en": "free time",
      "tr": "boş zaman",
@@ -301,13 +390,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -315,7 +404,14 @@
      "q": "Guess the English word",
      "clue": "takip etmek",
      "answer": "follow"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -337,6 +433,20 @@
        "b": "boş zaman"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"fashionable\" means \"modaya uygun\".",
+     "answer": true,
+     "explain": "fashionable = modaya uygun"
     }
    ]
   },
@@ -364,7 +474,18 @@
      "en": "exciting",
      "tr": "heyecan verici",
      "emoji": "🤩"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Gençlik Hayatı — ek kelimeler",
+   "items": [
     {
      "en": "exercise",
      "tr": "egzersiz",
@@ -385,11 +506,15 @@
      "tr": "uğramak, ziyaret etmek",
      "emoji": "🚪"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -398,7 +523,14 @@
      "statement": "\"come over\" means \"genişletmek, büyütmek\".",
      "answer": false,
      "explain": "come over = uğramak, ziyaret etmek"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -424,16 +556,24 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "sevmek, hoşlanmak",
+     "answer": "enjoy"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Simple Present — Routines",
    "titleTr": "Geniş zaman: günlük hayat",
-   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız. He / She / It ile fiile *-s* eklenir.",
    "chips": [
-    "always",
-    "usually",
-    "often",
-    "sometimes",
-    "never"
+    "go"
    ],
    "examples": [
     {
@@ -443,7 +583,110 @@
       "giderim"
      ],
      "emoji": "🏋️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    1,
+    9
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Simple Present — Routines",
+    "titleTr": "Geniş zaman: günlük hayat",
+    "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız. He / She / It ile fiile *-s* eklenir.",
+    "chips": [
+     "always",
+     "usually",
+     "often",
+     "sometimes",
+     "never"
+    ],
+    "examples": [
+     {
+      "en": "I *go* to the gym twice a week.",
+      "tr": "Haftada iki kez spor salonuna giderim.",
+      "trEm": [
+       "giderim"
+      ],
+      "emoji": "🏋️"
+     },
+     {
+      "en": "She *watches* TV series in her free time.",
+      "tr": "O boş zamanında dizi izler.",
+      "trEm": [
+       "izler"
+      ],
+      "emoji": "🕒"
+     },
+     {
+      "en": "We *don't* stay up late on school nights.",
+      "tr": "Okul gecelerinde geç saate kadar oturmayız.",
+      "trEm": [
+       "oturmayız"
+      ],
+      "emoji": "🏫"
+     },
+     {
+      "en": "*Does* he play the guitar? — Yes, he does.",
+      "tr": "O gitar çalar mı? — Evet, çalar.",
+      "trEm": [
+       "mı"
+      ],
+      "emoji": "🎸"
+     },
+     {
+      "en": "I *always* brush my teeth before bed.",
+      "tr": "Yatmadan önce her zaman dişlerimi fırçalarım.",
+      "trEm": [
+       "her zaman"
+      ],
+      "emoji": "🪥"
+     },
+     {
+      "en": "She *usually* listens to music after school.",
+      "tr": "Okuldan sonra genellikle müzik dinler.",
+      "trEm": [
+       "Okuldan sonra genellikle müzik dinler."
+      ],
+      "emoji": "🏫"
+     },
+     {
+      "en": "We *often* play basketball.",
+      "tr": "Sık sık basketbol oynarız.",
+      "trEm": [
+       "Sık sık basketbol oynarız."
+      ],
+      "emoji": "🏀"
+     },
+     {
+      "en": "He *sometimes* goes to concerts.",
+      "tr": "Bazen konserlere gider.",
+      "trEm": [
+       "Bazen konserlere gider."
+      ],
+      "emoji": "🔁"
+     },
+     {
+      "en": "I *never* skip breakfast.",
+      "tr": "Kahvaltıyı asla atlamam.",
+      "trEm": [
+       "Kahvaltıyı asla atlamam."
+      ],
+      "emoji": "🔁"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "chips": [
+    "watches"
+   ],
+   "examples": [
     {
      "en": "She *watches* TV series in her free time.",
      "tr": "O boş zamanında dizi izler.",
@@ -451,7 +694,23 @@
       "izler"
      ],
      "emoji": "🕒"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    2,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "chips": [
+    "don't"
+   ],
+   "examples": [
     {
      "en": "We *don't* stay up late on school nights.",
      "tr": "Okul gecelerinde geç saate kadar oturmayız.",
@@ -459,7 +718,23 @@
       "oturmayız"
      ],
      "emoji": "🏫"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    3,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "chips": [
+    "Does"
+   ],
+   "examples": [
     {
      "en": "*Does* he play the guitar? — Yes, he does.",
      "tr": "O gitar çalar mı? — Evet, çalar.",
@@ -468,20 +743,153 @@
      ],
      "emoji": "🎸"
     }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    4,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "chips": [
+    "always"
+   ],
+   "examples": [
+    {
+     "en": "I *always* brush my teeth before bed.",
+     "tr": "Yatmadan önce her zaman dişlerimi fırçalarım.",
+     "trEm": [
+      "her zaman"
+     ],
+     "emoji": "🪥"
+    }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    5,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "chips": [
+    "usually"
+   ],
+   "examples": [
+    {
+     "en": "She *usually* listens to music after school.",
+     "tr": "Okuldan sonra genellikle müzik dinler.",
+     "trEm": [
+      "Okuldan sonra genellikle müzik dinler."
+     ],
+     "emoji": "🏫"
+    }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    6,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "chips": [
+    "often"
+   ],
+   "examples": [
+    {
+     "en": "We *often* play basketball.",
+     "tr": "Sık sık basketbol oynarız.",
+     "trEm": [
+      "Sık sık basketbol oynarız."
+     ],
+     "emoji": "🏀"
+    }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    7,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "chips": [
+    "sometimes"
+   ],
+   "examples": [
+    {
+     "en": "He *sometimes* goes to concerts.",
+     "tr": "Bazen konserlere gider.",
+     "trEm": [
+      "Bazen konserlere gider."
+     ],
+     "emoji": "🔁"
+    }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    8,
+    9
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Present — Routines",
+   "titleTr": "Geniş zaman: günlük hayat",
+   "chips": [
+    "never"
+   ],
+   "examples": [
+    {
+     "en": "I *never* skip breakfast.",
+     "tr": "Kahvaltıyı asla atlamam.",
+     "trEm": [
+      "Kahvaltıyı asla atlamam."
+     ],
+     "emoji": "🔁"
+    }
+   ],
+   "paced": true,
+   "rule": "Alışkanlıklardan ve düzenli işlerden bahsederken geniş zaman kullanırız.",
+   "part": [
+    9,
+    9
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Simple Present — Routines",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "I go to the gym twice a week. — Haftada iki kez spor salonuna giderim.",
+     "statement": "I always brush my teeth before bed. — Yatmadan önce her zaman dişlerimi fırçalarım.",
      "answer": true,
-     "explain": "Correct: I go to the gym twice a week."
-    },
+     "explain": "Correct: I always brush my teeth before bed."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Present — Routines",
+   "tasks": [
     {
      "kind": "fill",
      "text": "I ___ to the gym twice a week.",
@@ -497,14 +905,30 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Present — Routines",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "She ___ TV series in her free time.",
+     "answer": "watches",
+     "options": [
+      "watches",
+      "go",
+      "don't",
+      "Does"
+     ],
+     "tr": "O boş zamanında dizi izler."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Preferences",
    "titleTr": "Tercihleri anlatma",
-   "rule": "*prefer*, *would rather* ve *like/love/enjoy + V-ing* ile tercihlerimizi söyleriz.",
    "chips": [
-    "prefer ... to ...",
-    "would rather",
-    "enjoy + V-ing"
+    "prefer / to"
    ],
    "examples": [
     {
@@ -515,7 +939,76 @@
       "caza"
      ],
      "emoji": "⚖️"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Preferences",
+    "titleTr": "Tercihleri anlatma",
+    "rule": "*prefer*, *would rather* ve *like/love/enjoy + V-ing* ile tercihlerimizi söyleriz.",
+    "chips": [
+     "prefer ... to ...",
+     "would rather",
+     "enjoy + V-ing"
+    ],
+    "examples": [
+     {
+      "en": "I *prefer* pop music *to* jazz.",
+      "tr": "Pop müziği caza tercih ederim.",
+      "trEm": [
+       "tercih ederim",
+       "caza"
+      ],
+      "emoji": "⚖️"
+     },
+     {
+      "en": "She *would rather* read a book than watch TV.",
+      "tr": "O televizyon izlemektense kitap okumayı yeğler.",
+      "trEm": [
+       "yeğler"
+      ],
+      "emoji": "📺"
+     },
+     {
+      "en": "They *enjoy* hanging out with friends.",
+      "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar.",
+      "trEm": [
+       "hoşlanırlar"
+      ],
+      "emoji": "😊"
+     },
+     {
+      "en": "We *love* going to concerts.",
+      "tr": "Konserlere gitmeyi çok severiz.",
+      "trEm": [
+       "çok severiz"
+      ],
+      "emoji": "❤️"
+     },
+     {
+      "en": "I *would rather* cycle than drive.",
+      "tr": "Araba kullanmaktansa bisiklete binmeyi tercih ederim.",
+      "trEm": [
+       "Araba kullanmaktansa bisiklete binmeyi tercih ederim."
+      ],
+      "emoji": "❤️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Preferences",
+   "titleTr": "Tercihleri anlatma",
+   "chips": [
+    "would rather"
+   ],
+   "examples": [
     {
      "en": "She *would rather* read a book than watch TV.",
      "tr": "O televizyon izlemektense kitap okumayı yeğler.",
@@ -523,7 +1016,45 @@
       "yeğler"
      ],
      "emoji": "📺"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Preferences",
+   "titleTr": "Tercihleri anlatma",
+   "chips": [
+    "would rather"
+   ],
+   "examples": [
+    {
+     "en": "I *would rather* cycle than drive.",
+     "tr": "Araba kullanmaktansa bisiklete binmeyi tercih ederim.",
+     "trEm": [
+      "Araba kullanmaktansa bisiklete binmeyi tercih ederim."
+     ],
+     "emoji": "❤️"
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Preferences",
+   "titleTr": "Tercihleri anlatma",
+   "chips": [
+    "enjoy"
+   ],
+   "examples": [
     {
      "en": "They *enjoy* hanging out with friends.",
      "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar.",
@@ -531,7 +1062,22 @@
       "hoşlanırlar"
      ],
      "emoji": "😊"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Preferences",
+   "titleTr": "Tercihleri anlatma",
+   "chips": [
+    "love"
+   ],
+   "examples": [
     {
      "en": "We *love* going to concerts.",
      "tr": "Konserlere gitmeyi çok severiz.",
@@ -540,25 +1086,56 @@
      ],
      "emoji": "❤️"
     }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Preferences",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "She ___ read a book than watch TV.",
-     "answer": "would rather",
-     "tr": "O televizyon izlemektense kitap okumayı yeğler."
-    },
+     "clue": "I ___ pop music to jazz.",
+     "answer": "prefer",
+     "tr": "Pop müziği caza tercih ederim."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Preferences",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "We love going to concerts.",
-     "tr": "Konserlere gitmeyi çok severiz."
+     "answer": "I would rather cycle than drive.",
+     "tr": "Araba kullanmaktansa bisiklete binmeyi tercih ederim."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Preferences",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I ___ pop music to jazz.",
+     "answer": "prefer",
+     "options": [
+      "prefer",
+      "would rather",
+      "enjoy",
+      "love"
+     ],
+     "tr": "Pop müziği caza tercih ederim."
     }
    ]
   },
@@ -566,7 +1143,9 @@
    "type": "grammar",
    "title": "How often ...?",
    "titleTr": "Sıklık sorma",
-   "rule": "Bir işin ne sıklıkla yapıldığını *How often ...?* ile sorarız. Cevapta sıklık zarfı veya *once / twice / three times a week* kullanılır.",
+   "chips": [
+    "How often"
+   ],
    "examples": [
     {
      "en": "*How often* do you go swimming?",
@@ -575,7 +1154,63 @@
       "Ne sıklıkla"
      ],
      "emoji": "🔁"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Bir işin ne sıklıkla yapıldığını *How often ...?* ile sorarız.",
+   "part": [
+    1,
+    4
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "How often ...?",
+    "titleTr": "Sıklık sorma",
+    "rule": "Bir işin ne sıklıkla yapıldığını *How often ...?* ile sorarız. Cevapta sıklık zarfı veya *once / twice / three times a week* kullanılır.",
+    "examples": [
+     {
+      "en": "*How often* do you go swimming?",
+      "tr": "Ne sıklıkla yüzmeye gidersin?",
+      "trEm": [
+       "Ne sıklıkla"
+      ],
+      "emoji": "🔁"
+     },
+     {
+      "en": "I go swimming *twice a week*.",
+      "tr": "Haftada iki kez yüzmeye giderim.",
+      "trEm": [
+       "Haftada iki kez"
+      ],
+      "emoji": "📅"
+     },
+     {
+      "en": "He *hardly ever* plays computer games.",
+      "tr": "O neredeyse hiç bilgisayar oyunu oynamaz.",
+      "trEm": [
+       "neredeyse hiç"
+      ],
+      "emoji": "🔁"
+     },
+     {
+      "en": "They *always* have breakfast together.",
+      "tr": "Onlar her zaman birlikte kahvaltı yaparlar.",
+      "trEm": [
+       "her zaman"
+      ],
+      "emoji": "🔁"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "How often ...?",
+   "titleTr": "Sıklık sorma",
+   "chips": [
+    "twice a week"
+   ],
+   "examples": [
     {
      "en": "I go swimming *twice a week*.",
      "tr": "Haftada iki kez yüzmeye giderim.",
@@ -583,7 +1218,23 @@
       "Haftada iki kez"
      ],
      "emoji": "📅"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Bir işin ne sıklıkla yapıldığını *How often ...?* ile sorarız.",
+   "part": [
+    2,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How often ...?",
+   "titleTr": "Sıklık sorma",
+   "chips": [
+    "hardly ever"
+   ],
+   "examples": [
     {
      "en": "He *hardly ever* plays computer games.",
      "tr": "O neredeyse hiç bilgisayar oyunu oynamaz.",
@@ -591,7 +1242,23 @@
       "neredeyse hiç"
      ],
      "emoji": "🔁"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Bir işin ne sıklıkla yapıldığını *How often ...?* ile sorarız.",
+   "part": [
+    3,
+    4
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How often ...?",
+   "titleTr": "Sıklık sorma",
+   "chips": [
+    "always"
+   ],
+   "examples": [
     {
      "en": "They *always* have breakfast together.",
      "tr": "Onlar her zaman birlikte kahvaltı yaparlar.",
@@ -600,11 +1267,17 @@
      ],
      "emoji": "🔁"
     }
+   ],
+   "paced": true,
+   "rule": "Bir işin ne sıklıkla yapıldığını *How often ...?* ile sorarız.",
+   "part": [
+    4,
+    4
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence",
    "titleTr": "Use what you just learned · How often ...?",
    "tasks": [
     {
@@ -618,12 +1291,38 @@
       "always"
      ],
      "tr": "Ne sıklıkla yüzmeye gidersin?"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · How often ...?",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
      "answer": "They always have breakfast together.",
      "tr": "Onlar her zaman birlikte kahvaltı yaparlar."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · How often ...?",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "I go swimming ___.",
+     "answer": "twice a week",
+     "options": [
+      "twice a week",
+      "How often",
+      "hardly ever",
+      "always"
+     ],
+     "tr": "Haftada iki kez yüzmeye giderim."
     }
    ]
   },
@@ -666,7 +1365,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -703,7 +1402,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -742,7 +1441,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -751,19 +1450,67 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "We love going to concerts.",
-      "tr": "Konserlere gitmeyi çok severiz."
-     },
-     {
       "answer": "We don't stay up late on school nights.",
       "tr": "Okul gecelerinde geç saate kadar oturmayız."
      },
      {
-      "answer": "They enjoy hanging out with friends.",
-      "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar."
+      "answer": "I would rather cycle than drive.",
+      "tr": "Araba kullanmaktansa bisiklete binmeyi tercih ederim."
+     },
+     {
+      "answer": "She would rather read a book than watch TV.",
+      "tr": "O televizyon izlemektense kitap okumayı yeğler."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Simple Present — Routines",
+   "task": {
+    "kind": "flash",
+    "q": "Read the model. Change one detail. Your partner makes a new sentence.",
+    "clue": "I always brush my teeth before bed.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Yatmadan önce her zaman dişlerimi fırçalarım."
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Preferences",
+   "task": {
+    "kind": "flash",
+    "q": "Plan a music afternoon. Compare your preferences and choose something you both like.",
+    "clue": "They enjoy hanging out with friends.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar."
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "How often ...?",
+   "task": {
+    "kind": "flash",
+    "q": "Interview your partner about two hobbies. Report one answer to the class.",
+    "clue": "They always have breakfast together.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Onlar her zaman birlikte kahvaltı yaparlar."
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

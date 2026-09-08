@@ -42,7 +42,18 @@
      "en": "square",
      "tr": "meydan",
      "emoji": "⛲"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Places to Visit",
+   "titleTr": "Gezilecek yerler",
+   "items": [
     {
      "en": "resort",
      "tr": "tatil köyü",
@@ -66,11 +77,15 @@
      "tr": "her şey dahil",
      "emoji": "🏨"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Match the words",
    "titleTr": "Use what you just learned · Places to Visit",
    "tasks": [
     {
@@ -94,7 +109,14 @@
        "b": "kırsal kesim"
       }
      ]
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places to Visit",
+   "tasks": [
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
@@ -107,6 +129,19 @@
       "attraction",
       "all-inclusive"
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Places to Visit",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "tatil köyü",
+     "answer": "resort"
     }
    ]
   },
@@ -137,7 +172,18 @@
      "en": "cultural",
      "tr": "kültürel",
      "emoji": "🎎"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Describing Places",
+   "titleTr": "Yerleri anlatmak",
+   "items": [
     {
      "en": "fascinating",
      "tr": "büyüleyici",
@@ -160,11 +206,15 @@
      "emoji": "🏙️",
      "img": "/app/img/words/urban.jpg"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · Describing Places",
    "tasks": [
     {
@@ -173,7 +223,14 @@
      "statement": "\"urban\" means \"mimari\".",
      "answer": false,
      "explain": "urban = kentsel"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word means \"kültür\"?",
+   "titleTr": "Use what you just learned · Describing Places",
+   "tasks": [
     {
      "kind": "choose",
      "q": "Which word means \"kültür\"?",
@@ -183,6 +240,35 @@
       "incredible",
       "ancient",
       "cultural"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · Describing Places",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words",
+     "pairs": [
+      {
+       "a": "urban",
+       "b": "kentsel"
+      },
+      {
+       "a": "incredible",
+       "b": "inanılmaz"
+      },
+      {
+       "a": "rural",
+       "b": "kırsal"
+      },
+      {
+       "a": "architecture",
+       "b": "mimari"
+      }
      ]
     }
    ]
@@ -211,7 +297,18 @@
      "en": "truly",
      "tr": "gerçekten",
      "emoji": "💯"
-    },
+    }
+   ],
+   "part": [
+    1,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Turizm — ek kelimeler",
+   "items": [
     {
      "en": "unbelievable / incredible",
      "tr": "inanılmaz",
@@ -221,18 +318,7 @@
      "en": "visit",
      "tr": "ziyaret etmek",
      "emoji": "📍"
-    }
-   ],
-   "part": [
-    1,
-    2
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "More Words 1",
-   "titleTr": "Turizm — ek kelimeler",
-   "items": [
+    },
     {
      "en": "rich",
      "tr": "zengin",
@@ -241,8 +327,19 @@
     {
      "en": "sightseeing",
      "tr": "gezi",
-     "emoji": "🚌"
-    },
+     "emoji": "🏙️"
+    }
+   ],
+   "part": [
+    2,
+    3
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 1",
+   "titleTr": "Turizm — ek kelimeler",
+   "items": [
     {
      "en": "summer",
      "tr": "yaz",
@@ -265,13 +362,13 @@
     }
    ],
    "part": [
-    2,
-    2
+    3,
+    3
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
@@ -279,7 +376,14 @@
      "q": "Guess the English word",
      "clue": "inanılmaz",
      "answer": "unbelievable / incredible"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -301,6 +405,20 @@
        "b": "yaz"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · True or false?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "True or false?",
+     "statement": "\"terrible / awful\" means \"korkunç, berbat\".",
+     "answer": true,
+     "explain": "terrible / awful = korkunç, berbat"
     }
    ]
   },
@@ -328,7 +446,18 @@
      "en": "rainy",
      "tr": "yağmurlu",
      "emoji": "🌧️"
-    },
+    }
+   ],
+   "part": [
+    1,
+    2
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "More Words 2",
+   "titleTr": "Turizm — ek kelimeler",
+   "items": [
     {
      "en": "relaxing",
      "tr": "rahatlatıcı",
@@ -349,11 +478,15 @@
      "tr": "misafirperver",
      "emoji": "🤗"
     }
+   ],
+   "part": [
+    2,
+    2
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · True or false?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
@@ -362,7 +495,14 @@
      "statement": "\"hospitable\" means \"rahatlatıcı\".",
      "answer": false,
      "explain": "hospitable = misafirperver"
-    },
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Match the words",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
     {
      "kind": "match",
      "q": "Match the words",
@@ -388,15 +528,24 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "rahatlatıcı",
+     "answer": "relaxing"
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Simple Past — Regular",
    "titleTr": "Geçmiş zaman: düzenli fiiller",
-   "rule": "Geçmişte biten işler için fiile *-ed* eklenir. Olumsuz ve soruda *didn't / did* kullanılır, fiil yalın kalır.",
    "chips": [
-    "visited",
-    "travelled",
-    "stayed",
-    "enjoyed"
+    "visited"
    ],
    "examples": [
     {
@@ -406,7 +555,85 @@
       "ziyaret ettik"
      ],
      "emoji": "🌻"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    6
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Simple Past — Regular",
+    "titleTr": "Geçmiş zaman: düzenli fiiller",
+    "rule": "Geçmişte biten işler için fiile *-ed* eklenir. Olumsuz ve soruda *didn't / did* kullanılır, fiil yalın kalır.",
+    "chips": [
+     "visited",
+     "travelled",
+     "stayed",
+     "enjoyed"
+    ],
+    "examples": [
+     {
+      "en": "We *visited* Cappadocia last summer.",
+      "tr": "Geçen yaz Kapadokya'yı ziyaret ettik.",
+      "trEm": [
+       "ziyaret ettik"
+      ],
+      "emoji": "🌻"
+     },
+     {
+      "en": "They *stayed* at a lovely hotel.",
+      "tr": "Güzel bir otelde kaldılar.",
+      "trEm": [
+       "kaldılar"
+      ],
+      "emoji": "🏨"
+     },
+     {
+      "en": "I *didn't* like the food there.",
+      "tr": "Oradaki yemekleri sevmedim.",
+      "trEm": [
+       "sevmedim"
+      ],
+      "emoji": "⏮️"
+     },
+     {
+      "en": "*Did* you *enjoy* the tour? — Yes, I did.",
+      "tr": "Turdan keyif aldın mı? — Evet.",
+      "trEm": [
+       "keyif aldın mı",
+       "keyif aldın"
+      ],
+      "emoji": "⏮️"
+     },
+     {
+      "en": "We *travelled* by train last summer.",
+      "tr": "Geçen yaz trenle seyahat ettik.",
+      "trEm": [
+       "Geçen yaz trenle seyahat ettik."
+      ],
+      "emoji": "🌻"
+     },
+     {
+      "en": "I *enjoyed* the boat tour.",
+      "tr": "Tekne turundan keyif aldım.",
+      "trEm": [
+       "Tekne turundan keyif aldım."
+      ],
+      "emoji": "⏮️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Regular",
+   "titleTr": "Geçmiş zaman: düzenli fiiller",
+   "chips": [
+    "stayed"
+   ],
+   "examples": [
     {
      "en": "They *stayed* at a lovely hotel.",
      "tr": "Güzel bir otelde kaldılar.",
@@ -414,7 +641,22 @@
       "kaldılar"
      ],
      "emoji": "🏨"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Regular",
+   "titleTr": "Geçmiş zaman: düzenli fiiller",
+   "chips": [
+    "didn't"
+   ],
+   "examples": [
     {
      "en": "I *didn't* like the food there.",
      "tr": "Oradaki yemekleri sevmedim.",
@@ -422,7 +664,23 @@
       "sevmedim"
      ],
      "emoji": "⏮️"
-    },
+    }
+   ],
+   "paced": true,
+   "rule": "Olumsuz ve soruda *didn't / did* kullanılır, fiil yalın kalır.",
+   "part": [
+    3,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Regular",
+   "titleTr": "Geçmiş zaman: düzenli fiiller",
+   "chips": [
+    "Did / enjoy"
+   ],
+   "examples": [
     {
      "en": "*Did* you *enjoy* the tour? — Yes, I did.",
      "tr": "Turdan keyif aldın mı? — Evet.",
@@ -432,20 +690,78 @@
      ],
      "emoji": "⏮️"
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Regular",
+   "titleTr": "Geçmiş zaman: düzenli fiiller",
+   "chips": [
+    "travelled"
+   ],
+   "examples": [
+    {
+     "en": "We *travelled* by train last summer.",
+     "tr": "Geçen yaz trenle seyahat ettik.",
+     "trEm": [
+      "Geçen yaz trenle seyahat ettik."
+     ],
+     "emoji": "🌻"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Regular",
+   "titleTr": "Geçmiş zaman: düzenli fiiller",
+   "chips": [
+    "enjoyed"
+   ],
+   "examples": [
+    {
+     "en": "I *enjoyed* the boat tour.",
+     "tr": "Tekne turundan keyif aldım.",
+     "trEm": [
+      "Tekne turundan keyif aldım."
+     ],
+     "emoji": "⏮️"
+    }
+   ],
+   "paced": true,
+   "part": [
+    6,
+    6
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Does the sentence match the meaning?",
    "titleTr": "Use what you just learned · Simple Past — Regular",
    "tasks": [
     {
      "kind": "truefalse",
      "q": "Does the sentence match the meaning?",
-     "statement": "We visited Cappadocia last summer. — Geçen yaz Kapadokya'yı ziyaret ettik.",
+     "statement": "We travelled by train last summer. — Geçen yaz trenle seyahat ettik.",
      "answer": true,
-     "explain": "Correct: We visited Cappadocia last summer."
-    },
+     "explain": "Correct: We travelled by train last summer."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Past — Regular",
+   "tasks": [
     {
      "kind": "fill",
      "text": "We ___ Cappadocia last summer.",
@@ -461,16 +777,30 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Past — Regular",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "They ___ at a lovely hotel.",
+     "answer": "stayed",
+     "options": [
+      "stayed",
+      "visited",
+      "didn't",
+      "Did"
+     ],
+     "tr": "Güzel bir otelde kaldılar."
+    }
+   ]
+  },
+  {
    "type": "grammar",
    "title": "Simple Past — Irregular",
    "titleTr": "Geçmiş zaman: düzensiz fiiller",
-   "rule": "Bazı fiiller *-ed* almaz, ikinci hâlleri ezberlenir.",
    "chips": [
-    "go → went",
-    "see → saw",
-    "take → took",
-    "eat → ate",
-    "buy → bought"
+    "went"
    ],
    "examples": [
     {
@@ -480,7 +810,77 @@
       "gittik"
      ],
      "emoji": "✈️"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    1,
+    5
+   ],
+   "teachingSource": {
+    "type": "grammar",
+    "title": "Simple Past — Irregular",
+    "titleTr": "Geçmiş zaman: düzensiz fiiller",
+    "rule": "Bazı fiiller *-ed* almaz, ikinci hâlleri ezberlenir.",
+    "chips": [
+     "go → went",
+     "see → saw",
+     "take → took",
+     "eat → ate",
+     "buy → bought"
+    ],
+    "examples": [
+     {
+      "en": "We *went* to Antalya by plane.",
+      "tr": "Antalya'ya uçakla gittik.",
+      "trEm": [
+       "gittik"
+      ],
+      "emoji": "✈️"
+     },
+     {
+      "en": "I *saw* the ancient theatre.",
+      "tr": "Antik tiyatroyu gördüm.",
+      "img": "/app/img/words/ancient.jpg",
+      "trEm": [
+       "gördüm"
+      ]
+     },
+     {
+      "en": "She *took* a lot of photographs.",
+      "tr": "Bir sürü fotoğraf çekti.",
+      "trEm": [
+       "fotoğraf çekti"
+      ],
+      "emoji": "📷"
+     },
+     {
+      "en": "We *ate* delicious local food.",
+      "tr": "Nefis yöresel yemekler yedik.",
+      "trEm": [
+       "yedik"
+      ],
+      "emoji": "⏮️"
+     },
+     {
+      "en": "I *bought* a souvenir for my sister.",
+      "tr": "Kız kardeşime bir hediyelik eşya aldım.",
+      "trEm": [
+       "Kız kardeşime bir hediyelik eşya aldım."
+      ],
+      "emoji": "⏮️"
+     }
+    ]
+   }
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Irregular",
+   "titleTr": "Geçmiş zaman: düzensiz fiiller",
+   "chips": [
+    "saw"
+   ],
+   "examples": [
     {
      "en": "I *saw* the ancient theatre.",
      "tr": "Antik tiyatroyu gördüm.",
@@ -488,7 +888,22 @@
      "trEm": [
       "gördüm"
      ]
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    2,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Irregular",
+   "titleTr": "Geçmiş zaman: düzensiz fiiller",
+   "chips": [
+    "took"
+   ],
+   "examples": [
     {
      "en": "She *took* a lot of photographs.",
      "tr": "Bir sürü fotoğraf çekti.",
@@ -496,7 +911,22 @@
       "fotoğraf çekti"
      ],
      "emoji": "📷"
-    },
+    }
+   ],
+   "paced": true,
+   "part": [
+    3,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Irregular",
+   "titleTr": "Geçmiş zaman: düzensiz fiiller",
+   "chips": [
+    "ate"
+   ],
+   "examples": [
     {
      "en": "We *ate* delicious local food.",
      "tr": "Nefis yöresel yemekler yedik.",
@@ -505,25 +935,79 @@
      ],
      "emoji": "⏮️"
     }
+   ],
+   "paced": true,
+   "part": [
+    4,
+    5
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Simple Past — Irregular",
+   "titleTr": "Geçmiş zaman: düzensiz fiiller",
+   "chips": [
+    "bought"
+   ],
+   "examples": [
+    {
+     "en": "I *bought* a souvenir for my sister.",
+     "tr": "Kız kardeşime bir hediyelik eşya aldım.",
+     "trEm": [
+      "Kız kardeşime bir hediyelik eşya aldım."
+     ],
+     "emoji": "⏮️"
+    }
+   ],
+   "paced": true,
+   "part": [
+    5,
+    5
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Complete the sentence aloud",
    "titleTr": "Use what you just learned · Simple Past — Irregular",
    "tasks": [
     {
      "kind": "flash",
      "q": "Complete the sentence aloud",
-     "clue": "I ___ the ancient theatre.",
-     "answer": "saw",
-     "tr": "Antik tiyatroyu gördüm."
-    },
+     "clue": "We ___ to Antalya by plane.",
+     "answer": "went",
+     "tr": "Antalya'ya uçakla gittik."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Put the sentence in order",
+   "titleTr": "Use what you just learned · Simple Past — Irregular",
+   "tasks": [
     {
      "kind": "order",
      "q": "Put the sentence in order",
-     "answer": "We ate delicious local food.",
-     "tr": "Nefis yöresel yemekler yedik."
+     "answer": "I bought a souvenir for my sister.",
+     "tr": "Kız kardeşime bir hediyelik eşya aldım."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Complete the sentence",
+   "titleTr": "Use what you just learned · Simple Past — Irregular",
+   "tasks": [
+    {
+     "kind": "fill",
+     "text": "We ___ to Antalya by plane.",
+     "answer": "went",
+     "options": [
+      "went",
+      "saw",
+      "took",
+      "ate"
+     ],
+     "tr": "Antalya'ya uçakla gittik."
     }
    ]
   },
@@ -572,7 +1056,7 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break",
+   "title": "Activity Break · Role-play: what comes next?",
    "titleTr": "Use what you just learned · Talking about a Holiday",
    "tasks": [
     {
@@ -622,7 +1106,7 @@
    "type": "mission",
    "part": [
     1,
-    3
+    6
    ],
    "title": "Unit Mission · Picture Dock",
    "titleTr": "Resimleri doğru İngilizce kelimelere sürükle.",
@@ -661,7 +1145,7 @@
    "type": "mission",
    "part": [
     2,
-    3
+    6
    ],
    "title": "Unit Mission · Listen & Find",
    "titleTr": "Dinle, doğru resmi bul ve dört turu tamamla.",
@@ -704,7 +1188,7 @@
    "type": "mission",
    "part": [
     3,
-    3
+    6
    ],
    "title": "Unit Mission · Sentence Workshop",
    "titleTr": "Kelime parçalarını sürükleyerek ünite cümlelerini kur.",
@@ -713,19 +1197,66 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Did you enjoy the tour? — Yes, I did.",
-      "tr": "Turdan keyif aldın mı? — Evet."
-     },
-     {
-      "answer": "She took a lot of photographs.",
-      "tr": "Bir sürü fotoğraf çekti."
+      "answer": "We went to Antalya by plane.",
+      "tr": "Antalya'ya uçakla gittik."
      },
      {
       "answer": "I saw the ancient theatre.",
       "tr": "Antik tiyatroyu gördüm."
+     },
+     {
+      "answer": "We travelled by train last summer.",
+      "tr": "Geçen yaz trenle seyahat ettik."
      }
     ]
    }
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Simple Past — Regular",
+   "task": {
+    "kind": "flash",
+    "q": "Describe yesterday's trip: a place, an activity and your opinion. Ask your partner a question.",
+    "clue": "Did you enjoy the tour? — Yes, I did.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Turdan keyif aldın mı? — Evet."
+   },
+   "part": [
+    4,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Say It Your Way",
+   "titleTr": "Simple Past — Irregular",
+   "task": {
+    "kind": "flash",
+    "q": "Tell your partner three things about your last holiday: where you went, what you saw and what you ate.",
+    "clue": "We went to Antalya by plane.",
+    "answer": "Check: keep the same grammar pattern and use words from this unit.",
+    "tr": "Antalya'ya uçakla gittik."
+   },
+   "part": [
+    5,
+    6
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Unit Mission · Partner Challenge",
+   "titleTr": "Talking about a Holiday",
+   "task": {
+    "kind": "flash",
+    "q": "Work in pairs. Reply, then swap roles and change the situation.",
+    "clue": "Where did you go last summer?",
+    "answer": "Model reply: I went to Bodrum with my family."
+   },
+   "part": [
+    6,
+    6
+   ]
   },
   {
    "type": "end",

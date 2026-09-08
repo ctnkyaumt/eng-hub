@@ -42,7 +42,10 @@ def classify(resources):
             "link": link,
             "type": rtype,
         }
-        if rtype in ("worksheet", "file"):
+        from resource_kind import online_game
+        if rtype in ("worksheet", "file") and online_game(item):
+            online_games.append(item)
+        elif rtype in ("worksheet", "file"):
             worksheets.append(item)
         elif rtype == "game":
             if host_of(link) == OFFLINE_GAME_HOST:
