@@ -8,6 +8,8 @@
 import { getSites, getSlides, getUnit, unitPath } from "./store.js";
 import { el, mount, setCrumbs, beep, toast } from "./ui.js";
 import { playEnglish, stopEnglish, taskNode, wordAudioPath } from "./exercises.js";
+import { earlierSetup, setupKey } from "./deck-steps.js";
+import { lessonImage, mediaUrl } from "./lesson-media.js";
 
 if (!document.querySelector('link[href="/app/css/deck.css"]')) {
   document.head.append(el("link", { rel: "stylesheet", href: "/app/css/deck.css" }));
@@ -120,7 +122,16 @@ export async function startDeck(gid, uid, screen) {
     const node = render(slides[i], ctx);
     wrap.replaceChildren(node);
     ctx.slideNode = node;
-    steps = [...node.querySelectorAll(".step")];
+    if (node.querySelector('img[src^="https://static.arasaac.org/"]')) {
+      node.append(el("a", { class: "image-credit", href: "https://arasaac.org/terms-of-use", target: "_blank", rel: "noopener", text: "Illustrations: Sergio Palao · ARASAAC / Gobierno de Aragón · CC BY-NC-SA" }));
+    }
+    node.querySelectorAll("img").forEach((img) => img.addEventListener("load", fit, { once: true }));
+    const repeated = earlierSetup(slides, i);
+    steps = [...node.querySelectorAll(".step")].filter((item) => {
+      if (!repeated.has(item.dataset.setup)) return true;
+      item.classList.add("on");
+      return false;
+    });
     step = atEnd ? steps.length : 0;
     applySteps();
     drawOverlays(node, slides[i], ctx);
@@ -300,12 +311,10 @@ function exNode(e, ctx) {
   const media = e.time
     ? clockNode(e.time)
     : e.img
-      ? el("img", { class: "ex-pic", src: imgUrl(e.img, ctx), alt: "" })
+      ? lessonImage(e, ctx, "ex-pic")
     : e.num !== undefined
       ? el("span", { class: "ex-pic ex-keycaps" }, [keycaps(e.num)])
-      : e.emoji
-        ? el("span", { class: "ex-pic ex-emoji", text: e.emoji })
-        : null;
+      : null;
   return el("div", { class: "ex step" + (media ? " with-pic" : "") }, [
     media,
     el("div", {}, [
@@ -364,7 +373,7 @@ function emphasizedNodes(text, phrases) {
 
 /** "/app/img/flags/tr.svg" stays as is; "p01-03.png" is a unit picture. */
 function imgUrl(name, ctx) {
-  return name.startsWith("/") ? name : ctx.base + "img/" + name;
+  return mediaUrl(name, ctx);
 }
 
 /** Numbers show as two keycap digits instead of the unreadable 1234 glyph. */
@@ -376,9 +385,9 @@ function keycaps(text) {
 
 function vcardMedia(v, ctx) {
   // not lazy: the files are local and lazy images never load inside a scaled slide
-  if (v.img) return el("img", { class: "pic", src: imgUrl(v.img, ctx), alt: v.en });
+  if (v.img) return lessonImage(v, ctx, "pic", v.en);
   if (v.num !== undefined) return keycaps(v.num);
-  return v.emoji ? el("span", { class: "ic", text: v.emoji }) : null;
+  return null; // Abstract terms without a verified picture use large text.
 }
 
 /** Use only pictures already attached to reviewed vocabulary cards. This keeps
@@ -436,7 +445,7 @@ function render(s, ctx) {
           class: "vocab-grid",
           style: `--vocab-cols:${Math.min(4, Math.max(1, (s.items || []).length))}`,
         }, (s.items || []).map((v) =>
-          el("div", { class: "vcard step" }, [
+          el("div", { class: "vcard step" + (!v.img && v.num === undefined ? " text-card" : "") }, [
             el("div", {
               class: "vcard-media" + (v.emoji && !v.img ? " emoji-media" : ""),
             }, [vcardMedia(v, ctx)]),
@@ -459,15 +468,15 @@ function render(s, ctx) {
     case "grammar":
       return box("", [
         ...head(s),
-        s.rule ? el("div", { class: "rule-box step", html: s.rule.replace(/\*(.+?)\*/g, "<b>$1</b>") }) : null,
-        s.chips ? el("div", { class: "chips" }, s.chips.map((c) => el("div", { class: "chip-word step", text: c }))) : null,
+        s.rule ? el("div", { class: "rule-box step", "data-setup": setupKey("rule", s.rule), html: s.rule.replace(/\*(.+?)\*/g, "<b>$1</b>") }) : null,
+        s.chips ? el("div", { class: "chips" }, s.chips.map((c) => el("div", { class: "chip-word step", "data-setup": setupKey("chip", c), text: c }))) : null,
         s.examples ? el("div", { class: "ex-list" }, s.examples.map((e) => exNode(e, ctx))) : null,
       ]);
 
     case "compare":
       return box("", [
         ...head(s),
-        s.rule ? el("div", { class: "rule-box step", html: s.rule.replace(/\*(.+?)\*/g, "<b>$1</b>") }) : null,
+        s.rule ? el("div", { class: "rule-box step", "data-setup": setupKey("rule", s.rule), html: s.rule.replace(/\*(.+?)\*/g, "<b>$1</b>") }) : null,
         el("div", { class: "compare" }, (s.columns || []).map((c) =>
           el("div", { class: "col " + (c.tone || "") }, [
             el("h3", { class: "step", text: c.title }),

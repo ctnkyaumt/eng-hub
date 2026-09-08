@@ -118,13 +118,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "p01-01.png",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "headmaster",
      "tr": "okul müdürü",
      "options": [
       "headmaster",
-      "coach",
-      "student",
-      "teacher"
+      "secretary",
+      "teacher",
+      "student"
      ]
     }
    ]
@@ -137,8 +139,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "müdür yardımcısı",
-     "answer": "assistant"
+     "clue": "antrenör",
+     "answer": "coach"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · People at School",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-05.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "secretary",
+     "tr": "sekreter",
+     "options": [
+      "secretary",
+      "headmaster",
+      "coach",
+      "student"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · People at School",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-03.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "teacher",
+     "tr": "öğretmen",
+     "options": [
+      "teacher",
+      "assistant",
+      "secretary",
+      "headmaster"
+     ]
     }
    ]
   },
@@ -220,26 +266,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"classroom\" means \"kapı\".",
+     "statement": "\"conference hall\" means \"fen laboratuvarı\".",
      "answer": false,
-     "explain": "classroom = sınıf"
+     "explain": "conference hall = konferans salonu"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"kapı\"?",
+   "title": "Activity Break · Which word means \"fen laboratuvarı\"?",
    "titleTr": "Use what you just learned · Places at School",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"kapı\"?",
-     "answer": "gate",
+     "q": "Which word means \"fen laboratuvarı\"?",
+     "answer": "science lab",
      "options": [
-      "gate",
-      "library",
-      "sports field",
-      "canteen"
+      "science lab",
+      "administration department",
+      "canteen",
+      "sports field"
      ]
     }
    ]
@@ -254,21 +300,87 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "classroom",
+       "b": "sınıf"
+      },
+      {
+       "a": "administration department",
+       "b": "idari bölüm"
+      },
+      {
        "a": "conference hall",
        "b": "konferans salonu"
       },
       {
-       "a": "canteen",
-       "b": "kantin"
-      },
-      {
-       "a": "gate",
-       "b": "kapı"
-      },
-      {
-       "a": "classroom",
-       "b": "sınıf"
+       "a": "sports field",
+       "b": "spor sahası"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places at School",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-10.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "conference hall",
+     "tr": "konferans salonu",
+     "options": [
+      "conference hall",
+      "canteen",
+      "administration department",
+      "sports field"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places at School",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-07.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "classroom",
+     "tr": "sınıf",
+     "options": [
+      "classroom",
+      "gate",
+      "canteen",
+      "conference hall"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places at School",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-12.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "library",
+     "tr": "kütüphane",
+     "options": [
+      "library",
+      "canteen",
+      "classroom",
+      "science lab"
      ]
     }
    ]
@@ -564,7 +676,10 @@
      "trEm": [
       "bilinen, belirli yer"
      ],
-     "emoji": "🎬"
+     "emoji": "🎬",
+     "img": "https://static.arasaac.org/pictograms/4602/4602_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -632,22 +747,38 @@
     {
      "en": "Drama Club",
      "tr": "Tiyatro Kulübü",
-     "emoji": "🎭"
+     "emoji": "🎭",
+     "img": "https://static.arasaac.org/pictograms/10284/10284_500.png",
+     "imageConcept": "theatre",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Technology Club",
      "tr": "Teknoloji Kulübü",
-     "emoji": "🤖"
+     "emoji": "🤖",
+     "img": "https://static.arasaac.org/pictograms/11459/11459_500.png",
+     "imageConcept": "technology",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Maths Club",
      "tr": "Matematik Kulübü",
-     "emoji": "➗"
+     "emoji": "➗",
+     "img": "https://static.arasaac.org/pictograms/10260/10260_500.png",
+     "imageConcept": "mathematics",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Art Club",
      "tr": "Resim Kulübü",
-     "emoji": "🎨"
+     "emoji": "🎨",
+     "img": "https://static.arasaac.org/pictograms/2360/2360_500.png",
+     "imageConcept": "painting",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -663,22 +794,38 @@
     {
      "en": "Music Club",
      "tr": "Müzik Kulübü",
-     "emoji": "🎸"
+     "emoji": "🎸",
+     "img": "https://static.arasaac.org/pictograms/24795/24795_500.png",
+     "imageConcept": "music",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Environment Club",
      "tr": "Çevre Kulübü",
-     "emoji": "🌱"
+     "emoji": "🌱",
+     "img": "https://static.arasaac.org/pictograms/14552/14552_500.png",
+     "imageConcept": "environment",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Folk Dance Club",
      "tr": "Halk Dansları Kulübü",
-     "emoji": "💃"
+     "emoji": "💃",
+     "img": "https://static.arasaac.org/pictograms/2652/2652_500.png",
+     "imageConcept": "dance",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Science Club",
      "tr": "Bilim Kulübü",
-     "emoji": "🧪"
+     "emoji": "🧪",
+     "img": "https://static.arasaac.org/pictograms/32542/32542_500.png",
+     "imageConcept": "science",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -694,27 +841,65 @@
     {
      "en": "Film Club",
      "tr": "Film Kulübü",
-     "emoji": "🍿"
+     "emoji": "🍿",
+     "img": "https://static.arasaac.org/pictograms/4602/4602_500.png",
+     "imageConcept": "cinema",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Chess Club",
      "tr": "Satranç Kulübü",
-     "emoji": "♟️"
+     "emoji": "♟️",
+     "img": "https://static.arasaac.org/pictograms/3054/3054_500.png",
+     "imageConcept": "chess",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Sports Club",
      "tr": "Spor Kulübü",
-     "emoji": "🏀"
+     "emoji": "🏀",
+     "img": "https://static.arasaac.org/pictograms/29919/29919_500.png",
+     "imageConcept": "sports club",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "Ballet Club",
      "tr": "Bale Kulübü",
-     "emoji": "🩰"
+     "emoji": "🩰",
+     "img": "https://static.arasaac.org/pictograms/32560/32560_500.png",
+     "imageConcept": "ballet",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     3,
     3
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · School Clubs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/32560/32560_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "Ballet Club",
+     "tr": "Bale Kulübü",
+     "options": [
+      "Ballet Club",
+      "Technology Club",
+      "Music Club",
+      "Science Club"
+     ]
+    }
    ]
   },
   {
@@ -725,9 +910,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"Music Club\" means \"Film Kulübü\".",
+     "statement": "\"Environment Club\" means \"Spor Kulübü\".",
      "answer": false,
-     "explain": "Music Club = Müzik Kulübü"
+     "explain": "Environment Club = Çevre Kulübü"
     }
    ]
   },
@@ -741,20 +926,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "Film Club",
-       "b": "Film Kulübü"
-      },
-      {
        "a": "Art Club",
        "b": "Resim Kulübü"
       },
       {
-       "a": "Technology Club",
-       "b": "Teknoloji Kulübü"
-      },
-      {
        "a": "Science Club",
        "b": "Bilim Kulübü"
+      },
+      {
+       "a": "Music Club",
+       "b": "Müzik Kulübü"
+      },
+      {
+       "a": "Folk Dance Club",
+       "b": "Halk Dansları Kulübü"
       }
      ]
     }
@@ -762,14 +947,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · School Clubs",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "Bale Kulübü",
-     "answer": "Ballet Club"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/3054/3054_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "Chess Club",
+     "tr": "Satranç Kulübü",
+     "options": [
+      "Chess Club",
+      "Music Club",
+      "Art Club",
+      "Folk Dance Club"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · School Clubs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/14552/14552_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "Environment Club",
+     "tr": "Çevre Kulübü",
+     "options": [
+      "Environment Club",
+      "Chess Club",
+      "Art Club",
+      "Music Club"
+     ]
     }
    ]
   },
@@ -781,22 +997,38 @@
     {
      "en": "act in plays",
      "tr": "tiyatro oyunu oynamak",
-     "emoji": "🎭"
+     "emoji": "🎭",
+     "img": "https://static.arasaac.org/pictograms/35709/35709_500.png",
+     "imageConcept": "act",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "solve problems",
      "tr": "problem çözmek",
-     "emoji": "🧠"
+     "emoji": "🧠",
+     "img": "https://static.arasaac.org/pictograms/37711/37711_500.png",
+     "imageConcept": "solve",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "draw pictures",
      "tr": "resim çizmek",
-     "emoji": "🖍️"
+     "emoji": "🖍️",
+     "img": "https://static.arasaac.org/pictograms/5506/5506_500.png",
+     "imageConcept": "draw",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "play the guitar",
      "tr": "gitar çalmak",
-     "emoji": "🎸"
+     "emoji": "🎸",
+     "img": "https://static.arasaac.org/pictograms/8709/8709_500.png",
+     "imageConcept": "play guitar",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -812,22 +1044,38 @@
     {
      "en": "sing songs",
      "tr": "şarkı söylemek",
-     "emoji": "🎤"
+     "emoji": "🎤",
+     "img": "https://static.arasaac.org/pictograms/2315/2315_500.png",
+     "imageConcept": "sing",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "dance",
      "tr": "dans etmek",
-     "emoji": "💃"
+     "emoji": "💃",
+     "img": "https://static.arasaac.org/pictograms/2652/2652_500.png",
+     "imageConcept": "dance",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "read books",
      "tr": "kitap okumak",
-     "emoji": "📖"
+     "emoji": "📖",
+     "img": "https://static.arasaac.org/pictograms/7141/7141_500.png",
+     "imageConcept": "read",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "do experiments",
      "tr": "deney yapmak",
-     "emoji": "⚗️"
+     "emoji": "⚗️",
+     "img": "https://static.arasaac.org/pictograms/8119/8119_500.png",
+     "imageConcept": "experiment",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -843,22 +1091,38 @@
     {
      "en": "watch movies",
      "tr": "film izlemek",
-     "emoji": "🎬"
+     "emoji": "🎬",
+     "img": "https://static.arasaac.org/pictograms/34319/34319_500.png",
+     "imageConcept": "watch a film",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "play chess",
      "tr": "satranç oynamak",
-     "emoji": "♟️"
+     "emoji": "♟️",
+     "img": "https://static.arasaac.org/pictograms/25181/25181_500.png",
+     "imageConcept": "play chess",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "play football",
      "tr": "futbol oynamak",
-     "emoji": "⚽"
+     "emoji": "⚽",
+     "img": "https://static.arasaac.org/pictograms/16743/16743_500.png",
+     "imageConcept": "play football",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "play basketball",
      "tr": "basketbol oynamak",
-     "emoji": "🏀"
+     "emoji": "🏀",
+     "img": "https://static.arasaac.org/pictograms/35749/35749_500.png",
+     "imageConcept": "play basketball",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -876,21 +1140,43 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "play chess",
-       "b": "satranç oynamak"
+       "a": "draw pictures",
+       "b": "resim çizmek"
+      },
+      {
+       "a": "sing songs",
+       "b": "şarkı söylemek"
+      },
+      {
+       "a": "play football",
+       "b": "futbol oynamak"
       },
       {
        "a": "do experiments",
        "b": "deney yapmak"
-      },
-      {
-       "a": "watch movies",
-       "b": "film izlemek"
-      },
-      {
-       "a": "play the guitar",
-       "b": "gitar çalmak"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Expressing Likes",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/34319/34319_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "watch movies",
+     "tr": "film izlemek",
+     "options": [
+      "watch movies",
+      "draw pictures",
+      "do experiments",
+      "play chess"
      ]
     }
    ]
@@ -903,22 +1189,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "resim çizmek",
-     "answer": "draw pictures"
+     "clue": "tiyatro oyunu oynamak",
+     "answer": "act in plays"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Expressing Likes",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"solve problems\" means \"problem çözmek\".",
-     "answer": true,
-     "explain": "solve problems = problem çözmek"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2315/2315_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "sing songs",
+     "tr": "şarkı söylemek",
+     "options": [
+      "sing songs",
+      "watch movies",
+      "play chess",
+      "play football"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Expressing Likes",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/35749/35749_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "play basketball",
+     "tr": "basketbol oynamak",
+     "options": [
+      "play basketball",
+      "draw pictures",
+      "dance",
+      "play football"
+     ]
     }
    ]
   },
@@ -936,6 +1252,10 @@
      "trEm": [
       "Gitar çalmayı"
      ],
+     "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "do",
      "emoji": "✅"
     }
    ],
@@ -957,6 +1277,10 @@
       "trEm": [
        "Gitar çalmayı"
       ],
+      "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "do",
       "emoji": "✅"
      },
      {
@@ -965,6 +1289,10 @@
       "trEm": [
        "Kitap okumayı"
       ],
+      "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "do",
       "emoji": "✅"
      },
      {
@@ -989,6 +1317,10 @@
       "trEm": [
        "Çizgi roman okumayı sever misin?"
       ],
+      "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "do",
       "emoji": "✅"
      }
     ]
@@ -1008,7 +1340,10 @@
      "trEm": [
       "Basketbol oynamayı"
      ],
-     "emoji": "🏀"
+     "emoji": "🏀",
+     "img": "https://static.arasaac.org/pictograms/4918/4918_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -1032,6 +1367,10 @@
      "trEm": [
       "Kitap okumayı"
      ],
+     "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "do",
      "emoji": "✅"
     }
    ],
@@ -1080,6 +1419,10 @@
      "trEm": [
       "Çizgi roman okumayı sever misin?"
      ],
+     "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "do",
      "emoji": "✅"
     }
    ],
@@ -1144,22 +1487,38 @@
     {
      "en": "sit",
      "tr": "oturmak",
-     "emoji": "🪑"
+     "emoji": "🪑",
+     "img": "https://static.arasaac.org/pictograms/6611/6611_500.png",
+     "imageConcept": "sit",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "clean",
      "tr": "temizlemek",
-     "emoji": "🧽"
+     "emoji": "🧽",
+     "img": "https://static.arasaac.org/pictograms/3351/3351_500.png",
+     "imageConcept": "clean",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "do",
      "tr": "yapmak",
-     "emoji": "✅"
+     "emoji": "✅",
+     "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+     "imageConcept": "do",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "run",
      "tr": "koşmak",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "img": "https://static.arasaac.org/pictograms/2719/2719_500.png",
+     "imageConcept": "run",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -1175,22 +1534,38 @@
     {
      "en": "listen",
      "tr": "dinlemek",
-     "emoji": "👂"
+     "emoji": "👂",
+     "img": "https://static.arasaac.org/pictograms/2381/2381_500.png",
+     "imageConcept": "listen",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fight",
      "tr": "kavga etmek",
-     "emoji": "🥊"
+     "emoji": "🥊",
+     "img": "https://static.arasaac.org/pictograms/9007/9007_500.png",
+     "imageConcept": "fight",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "shout",
      "tr": "bağırmak",
-     "emoji": "📢"
+     "emoji": "📢",
+     "img": "https://static.arasaac.org/pictograms/4686/4686_500.png",
+     "imageConcept": "shout",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "eat",
      "tr": "yemek",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "https://static.arasaac.org/pictograms/2349/2349_500.png",
+     "imageConcept": "eat",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -1206,12 +1581,20 @@
     {
      "en": "drink",
      "tr": "içmek",
-     "emoji": "🥤"
+     "emoji": "🥤",
+     "img": "https://static.arasaac.org/pictograms/2276/2276_500.png",
+     "imageConcept": "drink",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "wear",
      "tr": "giymek",
-     "emoji": "👕"
+     "emoji": "👕",
+     "img": "https://static.arasaac.org/pictograms/2781/2781_500.png",
+     "imageConcept": "get dressed",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -1227,8 +1610,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "giymek",
-     "answer": "wear"
+     "clue": "koşmak",
+     "answer": "run"
     }
    ]
   },
@@ -1242,20 +1625,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "eat",
-       "b": "yemek"
+       "a": "fight",
+       "b": "kavga etmek"
       },
       {
-       "a": "listen",
-       "b": "dinlemek"
+       "a": "do",
+       "b": "yapmak"
       },
       {
-       "a": "shout",
-       "b": "bağırmak"
+       "a": "drink",
+       "b": "içmek"
       },
       {
-       "a": "wear",
-       "b": "giymek"
+       "a": "run",
+       "b": "koşmak"
       }
      ]
     }
@@ -1263,15 +1646,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · School Rules — Verbs",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"fight\" means \"kavga etmek\".",
-     "answer": true,
-     "explain": "fight = kavga etmek"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4686/4686_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "shout",
+     "tr": "bağırmak",
+     "options": [
+      "shout",
+      "do",
+      "listen",
+      "fight"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · School Rules — Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/9007/9007_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "fight",
+     "tr": "kavga etmek",
+     "options": [
+      "fight",
+      "clean",
+      "drink",
+      "sit"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · School Rules — Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "do",
+     "tr": "yapmak",
+     "options": [
+      "do",
+      "run",
+      "drink",
+      "listen"
+     ]
     }
    ]
   },
@@ -1312,6 +1747,10 @@
         "en": "Sit down!",
         "tr": "Otur.",
         "trEm": [],
+        "img": "https://static.arasaac.org/pictograms/6611/6611_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "sit",
         "emoji": "🪑"
        },
        {
@@ -1369,6 +1808,10 @@
      "en": "Sit down!",
      "tr": "Otur.",
      "trEm": [],
+     "img": "https://static.arasaac.org/pictograms/6611/6611_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "sit",
      "emoji": "🪑",
      "focus": "POSITIVE ✅"
     }
@@ -1541,6 +1984,10 @@
         "trEm": [
          "giymelisin."
         ],
+        "img": "https://static.arasaac.org/pictograms/2781/2781_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "get dressed",
         "emoji": "👕"
        },
        {
@@ -1549,6 +1996,10 @@
         "trEm": [
          "yapmalıyız."
         ],
+        "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "do",
         "emoji": "✅"
        }
       ]
@@ -1563,6 +2014,10 @@
         "trEm": [
          "etmemelisin."
         ],
+        "img": "https://static.arasaac.org/pictograms/9007/9007_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "fight",
         "emoji": "🥊"
        },
        {
@@ -1571,6 +2026,10 @@
         "trEm": [
          "yememeliyiz."
         ],
+        "img": "https://static.arasaac.org/pictograms/2349/2349_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "eat",
         "emoji": "🍽️"
        }
       ]
@@ -1603,6 +2062,10 @@
      "trEm": [
       "giymelisin."
      ],
+     "img": "https://static.arasaac.org/pictograms/2781/2781_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "get dressed",
      "emoji": "👕",
      "focus": "must ✅"
     }
@@ -1628,6 +2091,10 @@
      "trEm": [
       "yapmalıyız."
      ],
+     "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "do",
      "emoji": "✅",
      "focus": "must ✅"
     }
@@ -1653,6 +2120,10 @@
      "trEm": [
       "etmemelisin."
      ],
+     "img": "https://static.arasaac.org/pictograms/9007/9007_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "fight",
      "emoji": "🥊",
      "focus": "mustn't ⛔"
     }
@@ -1678,6 +2149,10 @@
      "trEm": [
       "yememeliyiz."
      ],
+     "img": "https://static.arasaac.org/pictograms/2349/2349_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "eat",
      "emoji": "🍽️",
      "focus": "mustn't ⛔"
     }
@@ -1958,26 +2433,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"Turkmenistan\" means \"İtalya\".",
+     "statement": "\"Greece\" means \"İngiltere\".",
      "answer": false,
-     "explain": "Turkmenistan = Türkmenistan"
+     "explain": "Greece = Yunanistan"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"Kuzey İrlanda\"?",
+   "title": "Activity Break · Which word means \"Avustralya\"?",
    "titleTr": "Use what you just learned · Countries",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"Kuzey İrlanda\"?",
-     "answer": "Northern Ireland",
+     "q": "Which word means \"Avustralya\"?",
+     "answer": "Australia",
      "options": [
+      "Australia",
       "Northern Ireland",
-      "Japan",
-      "Canada",
-      "Türkiye"
+      "Germany",
+      "Greece"
      ]
     }
    ]
@@ -1992,21 +2467,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "the USA",
-       "b": "Amerika Birleşik Devletleri"
+       "a": "Spain",
+       "b": "İspanya"
+      },
+      {
+       "a": "China",
+       "b": "Çin"
       },
       {
        "a": "Kazakhstan",
        "b": "Kazakistan"
       },
       {
-       "a": "Canada",
-       "b": "Kanada"
-      },
-      {
        "a": "Northern Cyprus",
        "b": "Kuzey Kıbrıs (K.K.T.C.)"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Countries",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/flags/gb-eng.svg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "England",
+     "tr": "İngiltere",
+     "options": [
+      "England",
+      "Northern Ireland",
+      "Scotland",
+      "Türkiye"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Countries",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/flags/fr.svg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "France",
+     "tr": "Fransa",
+     "options": [
+      "France",
+      "China",
+      "the UK",
+      "Argentina"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Countries",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/flags/gb-nir.svg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "Northern Ireland",
+     "tr": "Kuzey İrlanda",
+     "options": [
+      "Northern Ireland",
+      "Wales",
+      "Canada",
+      "South Korea"
      ]
     }
    ]
@@ -2121,7 +2662,11 @@
     {
      "en": "23rd April — Children's Day",
      "tr": "Çocuk Bayramı",
-     "emoji": "🧒"
+     "emoji": "🧒",
+     "img": "/app/img/concepts/23rd-april-children-s-day.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "23rd april — children's day"
     }
    ],
    "part": [
@@ -2137,22 +2682,56 @@
     {
      "en": "19th May — Youth and Sports Day",
      "tr": "Gençlik ve Spor Bayramı",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "img": "/app/img/concepts/19th-may-youth-and-sports-day.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "19th may — youth and sports day"
     },
     {
      "en": "29th October — Republic Day",
      "tr": "Cumhuriyet Bayramı",
-     "emoji": "🇹🇷"
+     "emoji": "🇹🇷",
+     "img": "/app/img/concepts/29th-october-republic-day.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "29th october — republic day"
     },
     {
      "en": "30th August — Victory Day",
      "tr": "Zafer Bayramı",
-     "emoji": "🐎"
+     "emoji": "🐎",
+     "img": "/app/img/concepts/30th-august-victory-day.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "30th august — victory day"
     }
    ],
    "part": [
     2,
     2
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · National and Religious Days",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/29th-october-republic-day.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "29th October — Republic Day",
+     "tr": "Cumhuriyet Bayramı",
+     "options": [
+      "29th October — Republic Day",
+      "23rd April — Children's Day",
+      "Eid al-Fitr (Festival of Ramadan)",
+      "Eid al-Adha (Festival of Sacrifice)"
+     ]
+    }
    ]
   },
   {
@@ -2163,9 +2742,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"19th May — Youth and Sports Day\" means \"Zafer Bayramı\".",
+     "statement": "\"Eid al-Fitr (Festival of Ramadan)\" means \"Cumhuriyet Bayramı\".",
      "answer": false,
-     "explain": "19th May — Youth and Sports Day = Gençlik ve Spor Bayramı"
+     "explain": "Eid al-Fitr (Festival of Ramadan) = Ramazan Bayramı"
     }
    ]
   },
@@ -2183,12 +2762,12 @@
        "b": "Gençlik ve Spor Bayramı"
       },
       {
-       "a": "Eid al-Adha (Festival of Sacrifice)",
-       "b": "Kurban Bayramı"
-      },
-      {
        "a": "29th October — Republic Day",
        "b": "Cumhuriyet Bayramı"
+      },
+      {
+       "a": "Eid al-Adha (Festival of Sacrifice)",
+       "b": "Kurban Bayramı"
       },
       {
        "a": "30th August — Victory Day",
@@ -2200,14 +2779,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · National and Religious Days",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "Çocuk Bayramı",
-     "answer": "23rd April — Children's Day"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/19th-may-youth-and-sports-day.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "19th May — Youth and Sports Day",
+     "tr": "Gençlik ve Spor Bayramı",
+     "options": [
+      "19th May — Youth and Sports Day",
+      "30th August — Victory Day",
+      "29th October — Republic Day",
+      "23rd April — Children's Day"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · National and Religious Days",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/23rd-april-children-s-day.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "23rd April — Children's Day",
+     "tr": "Çocuk Bayramı",
+     "options": [
+      "23rd April — Children's Day",
+      "Eid al-Adha (Festival of Sacrifice)",
+      "29th October — Republic Day",
+      "19th May — Youth and Sports Day"
+     ]
     }
    ]
   },
@@ -2259,25 +2869,28 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "Spain",
-      "tr": "İspanya",
-      "img": "/app/img/flags/es.svg"
+      "en": "the UK",
+      "tr": "Birleşik Krallık",
+      "img": "/app/img/flags/gb.svg"
      },
      {
-      "en": "Kazakhstan",
-      "tr": "Kazakistan",
-      "img": "/app/img/flags/kz.svg"
+      "en": "Greece",
+      "tr": "Yunanistan",
+      "img": "/app/img/flags/gr.svg"
      },
      {
-      "en": "Wales",
-      "tr": "Galler",
-      "img": "/app/img/flags/gb-wls.svg"
+      "en": "sit",
+      "tr": "oturmak",
+      "img": "https://static.arasaac.org/pictograms/6611/6611_500.png",
+      "emoji": "🪑",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "sit"
      },
      {
-      "en": "classroom",
-      "tr": "sınıf",
-      "img": "p01-07.png",
-      "emoji": "🪑"
+      "en": "South Korea",
+      "tr": "Güney Kore",
+      "img": "/app/img/flags/kr.svg"
      }
     ]
    }
@@ -2295,29 +2908,37 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "Türkiye",
-      "tr": "Türkiye",
-      "img": "/app/img/flags/tr.svg",
-      "audio": "/app/audio/words/t-rkiye.wav"
+      "en": "Argentina",
+      "tr": "Arjantin",
+      "img": "/app/img/flags/ar.svg",
+      "audio": "/app/audio/words/argentina.wav"
      },
      {
-      "en": "canteen",
-      "tr": "kantin",
-      "img": "p01-11.png",
-      "emoji": "🥪",
-      "audio": "/app/audio/words/canteen.wav"
+      "en": "Music Club",
+      "tr": "Müzik Kulübü",
+      "img": "https://static.arasaac.org/pictograms/24795/24795_500.png",
+      "emoji": "🎸",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "music",
+      "audio": "/app/audio/words/music-club.wav"
      },
      {
-      "en": "England",
-      "tr": "İngiltere",
-      "img": "/app/img/flags/gb-eng.svg",
-      "audio": "/app/audio/words/england.wav"
+      "en": "conference hall",
+      "tr": "konferans salonu",
+      "img": "p01-10.png",
+      "emoji": "🎭",
+      "audio": "/app/audio/words/conference-hall.wav"
      },
      {
-      "en": "Northern Cyprus",
-      "tr": "Kuzey Kıbrıs (K.K.T.C.)",
-      "img": "/app/img/flags/kktc.svg",
-      "audio": "/app/audio/words/northern-cyprus.wav"
+      "en": "play football",
+      "tr": "futbol oynamak",
+      "img": "https://static.arasaac.org/pictograms/16743/16743_500.png",
+      "emoji": "⚽",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "play football",
+      "audio": "/app/audio/words/play-football.wav"
      }
     ]
    }
@@ -2335,16 +2956,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Do you like reading books?",
-      "tr": "Kitap okumayı sever misin?"
+      "answer": "Open your book, please.",
+      "tr": "Lütfen kitabını aç."
      },
      {
-      "answer": "Do you like playing the guitar?",
-      "tr": "Gitar çalmayı sever misin?"
+      "answer": "You mustn't fight with your friends.",
+      "tr": "Arkadaşlarınla kavga etmemelisin."
      },
      {
-      "answer": "Don't shout in the library.",
-      "tr": "Kütüphanede bağırma."
+      "answer": "Do you like reading comics?",
+      "tr": "Çizgi roman okumayı sever misin?"
      }
     ]
    }
@@ -2356,9 +2977,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "a gate",
+    "clue": "an umbrella",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "sessiz harfle başlıyor → a"
+    "tr": "sesli harfle başlıyor → an"
    },
    "part": [
     4,
@@ -2372,9 +2993,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Do you like reading comics?",
+    "clue": "I like playing basketball.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Çizgi roman okumayı sever misin?"
+    "tr": "Basketbol oynamayı severim."
    },
    "part": [
     5,
@@ -2388,9 +3009,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Sit down!",
+    "clue": "Open your book, please.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Otur."
+    "tr": "Lütfen kitabını aç."
    },
    "part": [
     6,

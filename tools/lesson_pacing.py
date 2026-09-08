@@ -68,6 +68,12 @@ def pace_teaching(slide):
         return [slide]
     pages = []
     for example in examples:
+        if not example.get("img") and not example.get("time"):
+            scenes = {"library": 3065, "picnic": 10236, "chess": 3054, "museum": 3132,
+                      "classmates": 39421, "basketball": 4918, "cinema": 4602}
+            scene = next((pid for word, pid in scenes.items() if word in example["en"].lower()), None)
+            if scene:
+                example.update(img=f"https://static.arasaac.org/pictograms/{scene}/{scene}_500.png", imageSource="ARASAAC", imageFit="contain")
         marks = re.findall(r"\*(.+?)\*", example["en"])
         focus = example.get("focus") or " / ".join(dict.fromkeys(marks)) or slide["title"]
         # Each English example gets a full page; its translation is a separate Next step.

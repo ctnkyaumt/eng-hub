@@ -23,12 +23,20 @@
     {
      "en": "lab",
      "tr": "laboratuvar",
-     "emoji": "🧪"
+     "emoji": "🧪",
+     "img": "https://static.arasaac.org/pictograms/8150/8150_500.png",
+     "imageConcept": "lab",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "do an experiment",
      "tr": "deney yapmak",
-     "emoji": "⚗️"
+     "emoji": "⚗️",
+     "img": "https://static.arasaac.org/pictograms/8119/8119_500.png",
+     "imageConcept": "experiment",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "test tube",
@@ -62,7 +70,11 @@
     {
      "en": "scientific",
      "tr": "bilimsel",
-     "emoji": "📐"
+     "emoji": "📐",
+     "img": "https://static.arasaac.org/pictograms/32542/32542_500.png",
+     "imageConcept": "science",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -83,7 +95,11 @@
     {
      "en": "result",
      "tr": "sonuç",
-     "emoji": "📊"
+     "emoji": "📊",
+     "img": "https://static.arasaac.org/pictograms/32802/32802_500.png",
+     "imageConcept": "result",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "explode",
@@ -135,12 +151,14 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "/app/img/words/cell.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "cell",
      "tr": "hücre",
      "options": [
       "cell",
-      "lab",
-      "test tube",
+      "result",
+      "explode",
       "scientific"
      ]
     }
@@ -154,8 +172,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "süreç",
-     "answer": "process"
+     "clue": "sonuç",
+     "answer": "result"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · In the Lab",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8150/8150_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "lab",
+     "tr": "laboratuvar",
+     "options": [
+      "lab",
+      "result",
+      "explode",
+      "process"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · In the Lab",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/test-tube.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "test tube",
+     "tr": "deney tüpü",
+     "options": [
+      "test tube",
+      "lab",
+      "safety",
+      "process"
+     ]
     }
    ]
   },
@@ -173,12 +235,20 @@
     {
      "en": "invent",
      "tr": "icat etmek",
-     "emoji": "💡"
+     "emoji": "💡",
+     "img": "https://static.arasaac.org/pictograms/6019/6019_500.png",
+     "imageConcept": "invent",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "explore",
      "tr": "araştırmak",
-     "emoji": "🧭"
+     "emoji": "🧭",
+     "img": "https://static.arasaac.org/pictograms/36922/36922_500.png",
+     "imageConcept": "explore",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -194,12 +264,20 @@
     {
      "en": "search",
      "tr": "araştırmak",
-     "emoji": "🔎"
+     "emoji": "🔎",
+     "img": "https://static.arasaac.org/pictograms/6947/6947_500.png",
+     "imageConcept": "search",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "succeed",
      "tr": "başarmak",
-     "emoji": "🏅"
+     "emoji": "🏅",
+     "img": "https://static.arasaac.org/pictograms/11599/11599_500.png",
+     "imageConcept": "success",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "genius",
@@ -250,9 +328,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"explore\" means \"aşılama\".",
+     "statement": "\"vaccination\" means \"keşfetmek\".",
      "answer": false,
-     "explain": "explore = araştırmak"
+     "explain": "vaccination = aşılama"
     }
    ]
   },
@@ -267,8 +345,8 @@
      "answer": "invent",
      "options": [
       "invent",
+      "explore",
       "cure",
-      "search",
       "genius"
      ]
     }
@@ -284,21 +362,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "cure",
-       "b": "tedavi etmek"
+       "a": "invent",
+       "b": "icat etmek"
       },
       {
-       "a": "succeed",
-       "b": "başarmak"
+       "a": "explore",
+       "b": "araştırmak"
       },
       {
        "a": "high-tech",
        "b": "ileri teknoloji"
       },
       {
-       "a": "search",
-       "b": "araştırmak"
+       "a": "succeed",
+       "b": "başarmak"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Science & Discovery",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/cure.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "cure",
+     "tr": "tedavi etmek",
+     "options": [
+      "cure",
+      "genius",
+      "succeed",
+      "explore"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Science & Discovery",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/6019/6019_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "invent",
+     "tr": "icat etmek",
+     "options": [
+      "invent",
+      "explore",
+      "search",
+      "vaccination"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Science & Discovery",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/6947/6947_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "search",
+     "tr": "araştırmak",
+     "options": [
+      "search",
+      "invent",
+      "succeed",
+      "vaccination"
      ]
     }
    ]
@@ -311,22 +455,38 @@
     {
      "en": "healthcare",
      "tr": "sağlık hizmeti",
-     "emoji": "🏥"
+     "emoji": "🏥",
+     "img": "https://static.arasaac.org/pictograms/14264/14264_500.png",
+     "imageConcept": "health",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "horizon",
      "tr": "ufuk, görüş, anlayış",
-     "emoji": "🌅"
+     "emoji": "🌅",
+     "img": "https://static.arasaac.org/pictograms/20393/20393_500.png",
+     "imageConcept": "horizon",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "improve",
      "tr": "geliştirmek",
-     "emoji": "📈"
+     "emoji": "📈",
+     "img": "https://static.arasaac.org/pictograms/11705/11705_500.png",
+     "imageConcept": "improve",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "improvement",
      "tr": "gelişim, iyileşme",
-     "emoji": "📊"
+     "emoji": "📊",
+     "img": "https://static.arasaac.org/pictograms/11705/11705_500.png",
+     "imageConcept": "improve",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -342,22 +502,38 @@
     {
      "en": "infection",
      "tr": "bulaşma, enfeksiyon",
-     "emoji": "🦠"
+     "emoji": "🦠",
+     "img": "https://static.arasaac.org/pictograms/31773/31773_500.png",
+     "imageConcept": "infection",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "ink",
      "tr": "mürekkep",
-     "emoji": "🖋️"
+     "emoji": "🖋️",
+     "img": "https://static.arasaac.org/pictograms/37754/37754_500.png",
+     "imageConcept": "ink",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "electric bulb",
      "tr": "ampul",
-     "emoji": "💡"
+     "emoji": "💡",
+     "img": "https://static.arasaac.org/pictograms/2285/2285_500.png",
+     "imageConcept": "light bulb",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "entertainment",
      "tr": "eğlence",
-     "emoji": "🎭"
+     "emoji": "🎭",
+     "img": "https://static.arasaac.org/pictograms/11653/11653_500.png",
+     "imageConcept": "leisure time",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -373,12 +549,20 @@
     {
      "en": "explosion",
      "tr": "patlama",
-     "emoji": "💥"
+     "emoji": "💥",
+     "img": "https://static.arasaac.org/pictograms/4791/4791_500.png",
+     "imageConcept": "explosion",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "facts",
      "tr": "gerçekler",
-     "emoji": "📚"
+     "emoji": "📚",
+     "img": "https://static.arasaac.org/pictograms/9899/9899_500.png",
+     "imageConcept": "information",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "gain",
@@ -404,8 +588,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "gelişim, iyileşme",
-     "answer": "improvement"
+     "clue": "ampul",
+     "answer": "electric bulb"
     }
    ]
   },
@@ -419,20 +603,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "infection",
-       "b": "bulaşma, enfeksiyon"
+       "a": "facts",
+       "b": "gerçekler"
+      },
+      {
+       "a": "gain",
+       "b": "kazanmak"
+      },
+      {
+       "a": "entertainment",
+       "b": "eğlence"
       },
       {
        "a": "horizon",
        "b": "ufuk, görüş, anlayış"
-      },
-      {
-       "a": "goldsmith",
-       "b": "kuyumcu"
-      },
-      {
-       "a": "improve",
-       "b": "geliştirmek"
       }
      ]
     }
@@ -440,15 +624,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"ink\" means \"mürekkep\".",
-     "answer": true,
-     "explain": "ink = mürekkep"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2285/2285_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "electric bulb",
+     "tr": "ampul",
+     "options": [
+      "electric bulb",
+      "gain",
+      "horizon",
+      "improve"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/9899/9899_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "facts",
+     "tr": "gerçekler",
+     "options": [
+      "facts",
+      "goldsmith",
+      "improvement",
+      "horizon"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/37754/37754_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "ink",
+     "tr": "mürekkep",
+     "options": [
+      "ink",
+      "improvement",
+      "entertainment",
+      "facts"
+     ]
     }
    ]
   },
@@ -470,12 +706,20 @@
     {
      "en": "develop",
      "tr": "geliştirmek",
-     "emoji": "🛠️"
+     "emoji": "🛠️",
+     "img": "https://static.arasaac.org/pictograms/11683/11683_500.png",
+     "imageConcept": "develop",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "diagnose",
      "tr": "teşhis etmek",
-     "emoji": "🩺"
+     "emoji": "🩺",
+     "img": "https://static.arasaac.org/pictograms/25678/25678_500.png",
+     "imageConcept": "diagnose",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -491,22 +735,56 @@
     {
      "en": "die",
      "tr": "ölmek",
-     "emoji": "🪦"
+     "emoji": "🪦",
+     "img": "https://static.arasaac.org/pictograms/29862/29862_500.png",
+     "imageConcept": "die",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "discoverer",
      "tr": "kaşif",
-     "emoji": "🔍"
+     "emoji": "🔍",
+     "img": "https://static.arasaac.org/pictograms/8076/8076_500.png",
+     "imageConcept": "scientist",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "discovery",
      "tr": "keşif",
-     "emoji": "🔎"
+     "emoji": "🔎",
+     "img": "https://static.arasaac.org/pictograms/6019/6019_500.png",
+     "imageConcept": "discover",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     2,
     2
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/25678/25678_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "diagnose",
+     "tr": "teşhis etmek",
+     "options": [
+      "diagnose",
+      "die",
+      "gravity of the matter",
+      "deserve"
+     ]
+    }
    ]
   },
   {
@@ -517,9 +795,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"die\" means \"maddenin yer çekimi\".",
+     "statement": "\"gravity of the matter\" means \"teşhis etmek\".",
      "answer": false,
-     "explain": "die = ölmek"
+     "explain": "gravity of the matter = maddenin yer çekimi"
     }
    ]
   },
@@ -533,20 +811,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "die",
-       "b": "ölmek"
-      },
-      {
-       "a": "discovery",
-       "b": "keşif"
+       "a": "discoverer",
+       "b": "kaşif"
       },
       {
        "a": "gravity of the matter",
        "b": "maddenin yer çekimi"
       },
       {
-       "a": "discoverer",
-       "b": "kaşif"
+       "a": "diagnose",
+       "b": "teşhis etmek"
+      },
+      {
+       "a": "develop",
+       "b": "geliştirmek"
       }
      ]
     }
@@ -554,14 +832,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "kaşif",
-     "answer": "discoverer"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/6019/6019_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "discovery",
+     "tr": "keşif",
+     "options": [
+      "discovery",
+      "gravity of the matter",
+      "discoverer",
+      "die"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/11683/11683_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "develop",
+     "tr": "geliştirmek",
+     "options": [
+      "develop",
+      "die",
+      "deserve",
+      "diagnose"
+     ]
     }
    ]
   },
@@ -1110,22 +1419,25 @@
       "emoji": "💉"
      },
      {
-      "en": "high-tech",
-      "tr": "ileri teknoloji",
-      "img": "/app/img/words/high-tech.jpg",
-      "emoji": "🤖"
+      "en": "discover",
+      "tr": "keşfetmek",
+      "img": "/app/img/words/discover.jpg",
+      "emoji": "🔍"
      },
      {
-      "en": "explode",
-      "tr": "patlamak",
-      "img": "/app/img/words/explode.jpg",
-      "emoji": "💥"
+      "en": "cell",
+      "tr": "hücre",
+      "img": "/app/img/words/cell.jpg",
+      "emoji": "🔬"
      },
      {
-      "en": "test tube",
-      "tr": "deney tüpü",
-      "img": "/app/img/words/test-tube.jpg",
-      "emoji": "🧫"
+      "en": "discoverer",
+      "tr": "kaşif",
+      "img": "https://static.arasaac.org/pictograms/8076/8076_500.png",
+      "emoji": "🔍",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "scientist"
      }
     ]
    }
@@ -1143,32 +1455,44 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "cure",
-      "tr": "tedavi etmek",
-      "img": "/app/img/words/cure.jpg",
-      "emoji": "💊",
-      "audio": "/app/audio/words/cure.wav"
+      "en": "ink",
+      "tr": "mürekkep",
+      "img": "https://static.arasaac.org/pictograms/37754/37754_500.png",
+      "emoji": "🖋️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "ink",
+      "audio": "/app/audio/words/ink.wav"
      },
      {
-      "en": "discover",
-      "tr": "keşfetmek",
-      "img": "/app/img/words/discover.jpg",
-      "emoji": "🔍",
-      "audio": "/app/audio/words/discover.wav"
+      "en": "diagnose",
+      "tr": "teşhis etmek",
+      "img": "https://static.arasaac.org/pictograms/25678/25678_500.png",
+      "emoji": "🩺",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "diagnose",
+      "audio": "/app/audio/words/diagnose.wav"
      },
      {
-      "en": "safety",
-      "tr": "güvenlik",
-      "img": "/app/img/words/safety.jpg",
-      "emoji": "🦺",
-      "audio": "/app/audio/words/safety.wav"
+      "en": "explosion",
+      "tr": "patlama",
+      "img": "https://static.arasaac.org/pictograms/4791/4791_500.png",
+      "emoji": "💥",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "explosion",
+      "audio": "/app/audio/words/explosion.wav"
      },
      {
-      "en": "genius",
-      "tr": "dâhi",
-      "img": "/app/img/words/genius.jpg",
-      "emoji": "🧠",
-      "audio": "/app/audio/words/genius.wav"
+      "en": "scientific",
+      "tr": "bilimsel",
+      "img": "https://static.arasaac.org/pictograms/32542/32542_500.png",
+      "emoji": "📐",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "science",
+      "audio": "/app/audio/words/scientific.wav"
      }
     ]
    }
@@ -1186,16 +1510,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
+      "answer": "Glass is recycled in this factory.",
+      "tr": "Bu fabrikada cam geri dönüştürülür."
+     },
+     {
       "answer": "Penicillin was discovered in 1928.",
       "tr": "Penisilin 1928'de keşfedildi."
      },
      {
-      "answer": "This book was written by a Turkish scientist.",
-      "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
-     },
-     {
-      "answer": "New medicines are developed every year.",
-      "tr": "Her yıl yeni ilaçlar geliştirilir."
+      "answer": "The bridge was built in 1990.",
+      "tr": "Köprü 1990 yılında inşa edildi."
      }
     ]
    }
@@ -1207,9 +1531,9 @@
    "task": {
     "kind": "flash",
     "q": "Describe how objects are used in a laboratory. Your partner guesses the object.",
-    "clue": "New medicines are developed every year.",
+    "clue": "The results are written in a report.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Her yıl yeni ilaçlar geliştirilir."
+    "tr": "Sonuçlar bir rapora yazılır."
    },
    "part": [
     4,
@@ -1223,9 +1547,9 @@
    "task": {
     "kind": "flash",
     "q": "Choose an invention. Tell your partner when it was invented and who invented it, if you know.",
-    "clue": "This book was written by a Turkish scientist.",
+    "clue": "The telephone was invented by Alexander Graham Bell.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Bu kitap bir Türk bilim insanı tarafından yazıldı."
+    "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
    },
    "part": [
     5,

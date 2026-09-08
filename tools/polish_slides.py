@@ -427,7 +427,7 @@ def visual_index(slides):
     for s in slides:
         if s.get("type") == "vocab":
             for it in s.get("items", []):
-                visual = {key: it[key] for key in ("img", "emoji", "num") if key in it}
+                visual = {key: it[key] for key in ("img", "emoji", "num", "imageFit", "imageSource", "imageConcept") if key in it}
                 if visual:
                     out.setdefault(it["en"].lower(), visual)
     return out
@@ -461,6 +461,7 @@ def choose_tasks(candidates, preferred):
 def make_exercise(slide, rng, variant=0):
     """One compact, varied activity break built from the preceding section."""
     candidates = []
+    picture_tasks = []
 
     if slide.get("type") == "vocab":
         items = [i for i in slide["items"] if i.get("en") and i.get("tr")]
@@ -470,14 +471,20 @@ def make_exercise(slide, rng, variant=0):
                                "pairs": [{"a": p["en"], "b": p["tr"]} for p in pairs]})
 
         with_pic = [i for i in items if i.get("img")]
-        if with_pic:
-            target = rng.choice(with_pic)
-            others = [i["en"] for i in items if i is not target]
-            candidates.append({
+        unique_pictures = list({i["img"]: i for i in with_pic}.values())
+        for target in rng.sample(unique_pictures, min(3, len(unique_pictures))):
+            others = list(dict.fromkeys(i["en"] for i in items if i is not target
+                and i.get("img") != target["img"] and i.get("tr") != target.get("tr")))
+            if not others:
+                continue
+            picture_tasks.append({
                 "kind": "picture", "q": "Which word matches the picture?", "img": target["img"],
+                "imageFit": target.get("imageFit", "contain"),
+                "imageSource": target.get("imageSource", ""),
                 "answer": target["en"], "tr": target["tr"],
                 "options": [target["en"]] + rng.sample(others, min(3, len(others))),
             })
+        candidates.extend(picture_tasks[:1])
 
         if items:
             target = rng.choice(items)
@@ -577,6 +584,8 @@ def make_exercise(slide, rng, variant=0):
         ]
 
     tasks = choose_tasks(candidates, patterns[variant % len(patterns)]) if candidates else []
+    shown = {t.get("img") for t in tasks if t["kind"] == "picture"}
+    tasks.extend(t for t in picture_tasks if t["img"] not in shown)
     if not tasks:
         return []
     return [{
@@ -589,7 +598,7 @@ def make_exercise(slide, rng, variant=0):
 
 def visual_item(item):
     """Small, stable payload shared by all three end-of-unit missions."""
-    return {k: item[k] for k in ("en", "tr", "img", "emoji", "num") if k in item}
+    return {k: item[k] for k in ("en", "tr", "img", "emoji", "num", "imageFit", "imageSource", "imageConcept") if k in item}
 
 
 def audio_name(word):
@@ -769,7 +778,7 @@ def polish(path, dry):
             plain = STAR.sub(BACK+"1", e.get("en", "")).lower()
             hit = max((w for w in visuals if re.search(r"(?<![a-z])" + re.escape(w) + r"(?![a-z])", plain)),
                       key=len, default=None)
-            if not e.get("img") and not e.get("time"):
+            if (not e.get("img") or e.get("imageSource") == "ARASAAC") and not e.get("time"):
                 e.pop("emoji", None)
                 e.pop("num", None)
                 if hit:

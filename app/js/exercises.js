@@ -11,6 +11,7 @@
             dragorder - drag words into complete unit sentences
 --------------------------------------------------------------------------- */
 import { el, shuffle, beep } from "./ui.js";
+import { lessonImage, mediaUrl } from "./lesson-media.js";
 
 export function taskNode(t, ctx) {
   switch (t.kind) {
@@ -105,11 +106,11 @@ export async function playEnglish(item) {
 }
 
 function mediaSrc(name, ctx) {
-  return name.startsWith("/") ? name : (ctx?.base || "") + "img/" + name;
+  return mediaUrl(name, ctx);
 }
 
 function visualNode(item, ctx, cls = "mission-picture") {
-  if (item.img) return el("img", { class: cls, src: mediaSrc(item.img, ctx), alt: item.en || "" });
+  if (item.img) return lessonImage(item, ctx, cls);
   if (item.num !== undefined) return el("span", { class: cls + " mission-number", text: item.num });
   return el("span", { class: cls + " mission-emoji", text: item.emoji || "🧩" });
 }
@@ -409,11 +410,7 @@ function flashTask(t, ctx) {
     beep("ok");
   };
   const picture = t.img
-    ? el("img", {
-        class: "task-pic",
-        src: t.img.startsWith("/") ? t.img : (ctx?.base || "") + "img/" + t.img,
-        alt: "",
-      })
+    ? lessonImage(t, ctx, "task-pic")
     : null;
   return el("div", { class: "task" }, [
     ...head(t, "Say your answer before you reveal it."),
@@ -450,8 +447,8 @@ function trueFalseTask(t) {
 
 /* ------------------------------------------------------- picture -> word */
 function pictureTask(t, ctx) {
-  const src = t.img.startsWith("/") ? t.img : (ctx?.base || "") + "img/" + t.img;
   const v = verdict();
+  let solved = false;
   const opts = el("div", { class: "opts" });
   shuffle(t.options || []).forEach((o) => {
     const b = el("button", { class: "opt", text: o });
@@ -459,6 +456,7 @@ function pictureTask(t, ctx) {
       const ok = o === t.answer;
       b.classList.add(ok ? "right" : "wrong");
       if (ok) {
+        solved = true;
         [...opts.children].forEach((c) => (c.disabled = true));
         say(v, true, "✔ " + t.answer + (t.tr ? "  (" + t.tr + ")" : ""));
       } else {
@@ -468,11 +466,22 @@ function pictureTask(t, ctx) {
     };
     opts.append(b);
   });
-  return el("div", { class: "task" }, [
-    ...head(t, "Which word matches the picture?"),
-    el("img", { class: "task-pic", src, alt: "" }),
+  const root = el("div", { class: "task picture-task" }, [
+    ...head({ ...t, tr: "" }, "Look at the picture, then choose the English word."),
+    lessonImage(t, ctx, "task-pic"),
     opts, v,
   ]);
+  root.addEventListener("imageunavailable", () => {
+    [...opts.children].forEach((button) => { button.disabled = true; });
+    v.textContent = "Resmi yüklemek için internet bağlantısını kontrol edip yeniden deneyin.";
+  });
+  root.addEventListener("imageready", () => {
+    if (!solved) {
+      [...opts.children].forEach((button) => { button.disabled = false; });
+      v.textContent = "";
+    }
+  });
+  return root;
 }
 
 function head(t, hint) {

@@ -235,13 +235,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "p01-11.png",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "museum",
      "tr": "müze",
      "options": [
       "museum",
-      "forest",
-      "cinema",
-      "tower"
+      "tower",
+      "square",
+      "corner"
      ]
     }
    ]
@@ -254,8 +256,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "spor merkezi",
-     "answer": "sports centre"
+     "clue": "gökdelen",
+     "answer": "skyscraper"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places for Recreation & Attractions",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-07.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "forest",
+     "tr": "orman",
+     "options": [
+      "forest",
+      "shop / store",
+      "mosque",
+      "hall"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places for Recreation & Attractions",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-04.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "cinema",
+     "tr": "sinema",
+     "options": [
+      "cinema",
+      "hall",
+      "town",
+      "zoo"
+     ]
     }
    ]
   },
@@ -267,22 +313,38 @@
     {
      "en": "cycle",
      "tr": "bisiklete binmek",
-     "emoji": "🚲"
+     "emoji": "🚲",
+     "img": "https://static.arasaac.org/pictograms/5517/5517_500.png",
+     "imageConcept": "cycle",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fish",
      "tr": "balık tutmak",
-     "emoji": "🎣"
+     "emoji": "🎣",
+     "img": "https://static.arasaac.org/pictograms/6592/6592_500.png",
+     "imageConcept": "fish",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "jump",
      "tr": "zıplamak",
-     "emoji": "🤸"
+     "emoji": "🤸",
+     "img": "https://static.arasaac.org/pictograms/2804/2804_500.png",
+     "imageConcept": "jump",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "guide",
      "tr": "rehberlik etmek",
-     "emoji": "🧭"
+     "emoji": "🧭",
+     "img": "https://static.arasaac.org/pictograms/8993/8993_500.png",
+     "imageConcept": "guide",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -298,7 +360,11 @@
     {
      "en": "joke",
      "tr": "şaka yapmak",
-     "emoji": "😂"
+     "emoji": "😂",
+     "img": "https://static.arasaac.org/pictograms/21537/21537_500.png",
+     "imageConcept": "joke",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "experience",
@@ -308,12 +374,20 @@
     {
      "en": "attend",
      "tr": "katılmak",
-     "emoji": "🙋"
+     "emoji": "🙋",
+     "img": "https://static.arasaac.org/pictograms/21385/21385_500.png",
+     "imageConcept": "attend",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "take a tour",
      "tr": "tur atmak",
-     "emoji": "🚌"
+     "emoji": "🚌",
+     "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
+     "imageConcept": "tour",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -329,12 +403,20 @@
     {
      "en": "take a photo",
      "tr": "fotoğraf çekmek",
-     "emoji": "📷"
+     "emoji": "📷",
+     "img": "https://static.arasaac.org/pictograms/28341/28341_500.png",
+     "imageConcept": "take pictures",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "hire / rent",
      "tr": "kiralamak",
-     "emoji": "🔑"
+     "emoji": "🔑",
+     "img": "https://static.arasaac.org/pictograms/8012/8012_500.png",
+     "imageConcept": "rent",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -350,26 +432,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"hire / rent\" means \"tur atmak\".",
+     "statement": "\"joke\" means \"balık tutmak\".",
      "answer": false,
-     "explain": "hire / rent = kiralamak"
+     "explain": "joke = şaka yapmak"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"şaka yapmak\"?",
+   "title": "Activity Break · Which word means \"deneyimlemek\"?",
    "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"şaka yapmak\"?",
-     "answer": "joke",
+     "q": "Which word means \"deneyimlemek\"?",
+     "answer": "experience",
      "options": [
-      "joke",
-      "hire / rent",
-      "take a photo",
-      "cycle"
+      "experience",
+      "attend",
+      "cycle",
+      "fish"
      ]
     }
    ]
@@ -384,21 +466,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "take a photo",
-       "b": "fotoğraf çekmek"
-      },
-      {
-       "a": "hire / rent",
-       "b": "kiralamak"
+       "a": "fish",
+       "b": "balık tutmak"
       },
       {
        "a": "guide",
        "b": "rehberlik etmek"
       },
       {
-       "a": "take a tour",
-       "b": "tur atmak"
+       "a": "jump",
+       "b": "zıplamak"
+      },
+      {
+       "a": "experience",
+       "b": "deneyimlemek"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/28341/28341_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "take a photo",
+     "tr": "fotoğraf çekmek",
+     "options": [
+      "take a photo",
+      "hire / rent",
+      "joke",
+      "attend"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8993/8993_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "guide",
+     "tr": "rehberlik etmek",
+     "options": [
+      "guide",
+      "take a tour",
+      "experience",
+      "fish"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/5517/5517_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "cycle",
+     "tr": "bisiklete binmek",
+     "options": [
+      "cycle",
+      "jump",
+      "take a tour",
+      "fish"
      ]
     }
    ]
@@ -411,12 +559,17 @@
     {
      "en": "ancient",
      "tr": "antik, çok eski",
-     "emoji": "🏺"
+     "emoji": "🏺",
+     "img": "/app/img/words/ancient.jpg"
     },
     {
      "en": "historical",
      "tr": "tarihi",
-     "emoji": "📜"
+     "emoji": "📜",
+     "img": "https://static.arasaac.org/pictograms/32806/32806_500.png",
+     "imageConcept": "ancient",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "modern",
@@ -426,7 +579,11 @@
     {
      "en": "famous",
      "tr": "ünlü",
-     "emoji": "⭐"
+     "emoji": "⭐",
+     "img": "https://static.arasaac.org/pictograms/10202/10202_500.png",
+     "imageConcept": "famous",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -442,7 +599,11 @@
     {
      "en": "crowded",
      "tr": "kalabalık",
-     "emoji": "👥"
+     "emoji": "👥",
+     "img": "https://static.arasaac.org/pictograms/38445/38445_500.png",
+     "imageConcept": "crowded",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "traditional",
@@ -452,12 +613,20 @@
     {
      "en": "peaceful",
      "tr": "huzurlu",
-     "emoji": "🕊️"
+     "emoji": "🕊️",
+     "img": "https://static.arasaac.org/pictograms/8182/8182_500.png",
+     "imageConcept": "peace",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "local",
      "tr": "yerel",
-     "emoji": "📍"
+     "emoji": "📍",
+     "img": "https://static.arasaac.org/pictograms/5367/5367_500.png",
+     "imageConcept": "near",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -473,17 +642,29 @@
     {
      "en": "eco-friendly",
      "tr": "çevre dostu",
-     "emoji": "♻️"
+     "emoji": "♻️",
+     "img": "https://static.arasaac.org/pictograms/27210/27210_500.png",
+     "imageConcept": "recycle",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "close",
      "tr": "yakın",
-     "emoji": "📏"
+     "emoji": "📏",
+     "img": "https://static.arasaac.org/pictograms/30383/30383_500.png",
+     "imageConcept": "close",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "comfortable",
      "tr": "rahat",
-     "emoji": "😌"
+     "emoji": "😌",
+     "img": "https://static.arasaac.org/pictograms/11248/11248_500.png",
+     "imageConcept": "comfortable",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "social",
@@ -504,22 +685,38 @@
     {
      "en": "quiet",
      "tr": "sessiz",
-     "emoji": "🤫"
+     "emoji": "🤫",
+     "img": "https://static.arasaac.org/pictograms/38050/38050_500.png",
+     "imageConcept": "quiet",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "brand-new",
      "tr": "yepyeni",
-     "emoji": "🆕"
+     "emoji": "🆕",
+     "img": "https://static.arasaac.org/pictograms/4705/4705_500.png",
+     "imageConcept": "new",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "wide",
      "tr": "geniş",
-     "emoji": "↔️"
+     "emoji": "↔️",
+     "img": "https://static.arasaac.org/pictograms/4559/4559_500.png",
+     "imageConcept": "wide",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "bright",
      "tr": "parlak",
-     "emoji": "🔆"
+     "emoji": "🔆",
+     "img": "https://static.arasaac.org/pictograms/8619/8619_500.png",
+     "imageConcept": "brightness",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -535,22 +732,38 @@
     {
      "en": "heavy",
      "tr": "ağır",
-     "emoji": "🏋️"
+     "emoji": "🏋️",
+     "img": "https://static.arasaac.org/pictograms/27025/27025_500.png",
+     "imageConcept": "heavy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "light",
      "tr": "hafif",
-     "emoji": "🪶"
+     "emoji": "🪶",
+     "img": "https://static.arasaac.org/pictograms/4679/4679_500.png",
+     "imageConcept": "light",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "bottom",
      "tr": "alt",
-     "emoji": "⬇️"
+     "emoji": "⬇️",
+     "img": "https://static.arasaac.org/pictograms/5355/5355_500.png",
+     "imageConcept": "bottom",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "top",
      "tr": "üst",
-     "emoji": "⬆️"
+     "emoji": "⬆️",
+     "img": "https://static.arasaac.org/pictograms/5451/5451_500.png",
+     "imageConcept": "top",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -566,22 +779,38 @@
     {
      "en": "handmade",
      "tr": "el yapımı",
-     "emoji": "🤲"
+     "emoji": "🤲",
+     "img": "https://static.arasaac.org/pictograms/22769/22769_500.png",
+     "imageConcept": "traditional craftwork",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "wooden",
      "tr": "ahşap",
-     "emoji": "🪵"
+     "emoji": "🪵",
+     "img": "https://static.arasaac.org/pictograms/6143/6143_500.png",
+     "imageConcept": "wood",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "metal",
      "tr": "metal",
-     "emoji": "🔩"
+     "emoji": "🔩",
+     "img": "https://static.arasaac.org/pictograms/6148/6148_500.png",
+     "imageConcept": "metal",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "plastic",
      "tr": "plastik",
-     "emoji": "🧴"
+     "emoji": "🧴",
+     "img": "https://static.arasaac.org/pictograms/10288/10288_500.png",
+     "imageConcept": "plastic",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -597,22 +826,32 @@
     {
      "en": "glass",
      "tr": "cam",
-     "emoji": "🥛"
+     "emoji": "🥛",
+     "img": "https://static.arasaac.org/pictograms/9140/9140_500.png",
+     "imageConcept": "glass",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "steel",
      "tr": "çelik",
-     "emoji": "⚙️"
+     "emoji": "⚙️",
+     "img": "https://static.arasaac.org/pictograms/6148/6148_500.png",
+     "imageConcept": "metal",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "big",
      "tr": "büyük",
-     "emoji": "🐘"
+     "emoji": "🐘",
+     "img": "/app/img/vocab/physical-big.svg"
     },
     {
      "en": "small",
      "tr": "küçük",
-     "emoji": "🐜"
+     "emoji": "🐜",
+     "img": "/app/img/vocab/physical-small.svg"
     }
    ],
    "part": [
@@ -628,12 +867,20 @@
     {
      "en": "hot",
      "tr": "sıcak",
-     "emoji": "🔥"
+     "emoji": "🔥",
+     "img": "https://static.arasaac.org/pictograms/2300/2300_500.png",
+     "imageConcept": "hot",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "cold",
      "tr": "soğuk",
-     "emoji": "❄️"
+     "emoji": "❄️",
+     "img": "https://static.arasaac.org/pictograms/4652/4652_500.png",
+     "imageConcept": "cold",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -649,8 +896,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "yerel",
-     "answer": "local"
+     "clue": "rahat",
+     "answer": "comfortable"
     }
    ]
   },
@@ -664,20 +911,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "peaceful",
-       "b": "huzurlu"
+       "a": "hot",
+       "b": "sıcak"
       },
       {
        "a": "crowded",
        "b": "kalabalık"
       },
       {
-       "a": "metal",
-       "b": "metal"
+       "a": "small",
+       "b": "küçük"
       },
       {
-       "a": "bright",
-       "b": "parlak"
+       "a": "wide",
+       "b": "geniş"
       }
      ]
     }
@@ -685,15 +932,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"famous\" means \"ünlü\".",
-     "answer": true,
-     "explain": "famous = ünlü"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/vocab/physical-small.svg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "small",
+     "tr": "küçük",
+     "options": [
+      "small",
+      "comfortable",
+      "metal",
+      "modern"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/6143/6143_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "wooden",
+     "tr": "ahşap",
+     "options": [
+      "wooden",
+      "bright",
+      "metal",
+      "big"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/27025/27025_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "heavy",
+     "tr": "ağır",
+     "options": [
+      "heavy",
+      "handmade",
+      "famous",
+      "local"
+     ]
     }
    ]
   },
@@ -746,12 +1045,20 @@
     {
      "en": "bathroom",
      "tr": "banyo",
-     "emoji": "🛁"
+     "emoji": "🛁",
+     "img": "https://static.arasaac.org/pictograms/5921/5921_500.png",
+     "imageConcept": "bathroom",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "toilet",
      "tr": "tuvalet",
-     "emoji": "🚽"
+     "emoji": "🚽",
+     "img": "https://static.arasaac.org/pictograms/2430/2430_500.png",
+     "imageConcept": "toilet",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "garden",
@@ -773,7 +1080,11 @@
     {
      "en": "garage",
      "tr": "garaj",
-     "emoji": "🚗"
+     "emoji": "🚗",
+     "img": "https://static.arasaac.org/pictograms/6003/6003_500.png",
+     "imageConcept": "garage",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "balcony",
@@ -877,14 +1188,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-13.png",
-     "answer": "stairs",
-     "tr": "merdiven",
+     "img": "https://static.arasaac.org/pictograms/5921/5921_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "bathroom",
+     "tr": "banyo",
      "options": [
-      "stairs",
-      "flat / apartment",
-      "bedroom",
-      "balcony"
+      "bathroom",
+      "kitchen",
+      "dining room",
+      "toilet"
      ]
     }
    ]
@@ -897,9 +1210,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"terrace\" means \"koridor\".",
+     "statement": "\"roof\" means \"mutfak\".",
      "answer": false,
-     "explain": "terrace = teras"
+     "explain": "roof = çatı"
     }
    ]
   },
@@ -913,21 +1226,65 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "ground",
-       "b": "zemin"
-      },
-      {
-       "a": "balcony",
-       "b": "balkon"
+       "a": "bedroom",
+       "b": "yatak odası"
       },
       {
        "a": "garden",
        "b": "bahçe"
       },
       {
-       "a": "bedroom",
-       "b": "yatak odası"
+       "a": "roof",
+       "b": "çatı"
+      },
+      {
+       "a": "floor",
+       "b": "kat / zemin"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Parts of a House",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-04.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "dining room",
+     "tr": "yemek odası",
+     "options": [
+      "dining room",
+      "floor",
+      "stairs",
+      "corridor / hallway"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Parts of a House",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-11.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "ground",
+     "tr": "zemin",
+     "options": [
+      "ground",
+      "lift / elevator",
+      "terrace",
+      "balcony"
      ]
     }
    ]
@@ -981,17 +1338,29 @@
     {
      "en": "bookcase",
      "tr": "kitaplık",
-     "emoji": "📚"
+     "emoji": "📚",
+     "img": "https://static.arasaac.org/pictograms/3279/3279_500.png",
+     "imageConcept": "bookshelf",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "wardrobe",
      "tr": "giysi dolabı",
-     "emoji": "🚪"
+     "emoji": "🚪",
+     "img": "https://static.arasaac.org/pictograms/2258/2258_500.png",
+     "imageConcept": "wardrobe",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "cupboard",
      "tr": "mutfak dolabı",
-     "emoji": "🗄️"
+     "emoji": "🗄️",
+     "img": "https://static.arasaac.org/pictograms/23753/23753_500.png",
+     "imageConcept": "cupboard",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -1007,22 +1376,38 @@
     {
      "en": "bath",
      "tr": "küvet",
-     "emoji": "🛁"
+     "emoji": "🛁",
+     "img": "https://static.arasaac.org/pictograms/2272/2272_500.png",
+     "imageConcept": "bath",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "dishwasher",
      "tr": "bulaşık makinesi",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "https://static.arasaac.org/pictograms/2444/2444_500.png",
+     "imageConcept": "dishwasher",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fridge",
      "tr": "buzdolabı",
-     "emoji": "🧊"
+     "emoji": "🧊",
+     "img": "https://static.arasaac.org/pictograms/3272/3272_500.png",
+     "imageConcept": "fridge",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "shelf",
      "tr": "raf",
-     "emoji": "🪟"
+     "emoji": "🪟",
+     "img": "https://static.arasaac.org/pictograms/2386/2386_500.png",
+     "imageConcept": "shelves",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -1038,22 +1423,35 @@
     {
      "en": "rubbish bin",
      "tr": "çöp kutusu",
-     "emoji": "🗑️"
+     "emoji": "🗑️",
+     "img": "https://static.arasaac.org/pictograms/2724/2724_500.png",
+     "imageConcept": "rubbish bin",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "lamp",
      "tr": "lamba",
-     "emoji": "💡"
+     "emoji": "💡",
+     "img": "https://static.arasaac.org/pictograms/4937/4937_500.png",
+     "imageConcept": "lamp",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "oven",
      "tr": "fırın",
-     "emoji": "🔥"
+     "emoji": "🔥",
+     "img": "/app/img/words/oven.jpg"
     },
     {
      "en": "stove",
      "tr": "ocak",
-     "emoji": "🍲"
+     "emoji": "🍲",
+     "img": "https://static.arasaac.org/pictograms/2341/2341_500.png",
+     "imageConcept": "stove",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -1069,22 +1467,38 @@
     {
      "en": "knife",
      "tr": "bıçak",
-     "emoji": "🔪"
+     "emoji": "🔪",
+     "img": "https://static.arasaac.org/pictograms/3237/3237_500.png",
+     "imageConcept": "knife",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "spoon",
      "tr": "kaşık",
-     "emoji": "🥄"
+     "emoji": "🥄",
+     "img": "https://static.arasaac.org/pictograms/2362/2362_500.png",
+     "imageConcept": "spoon",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fork",
      "tr": "çatal",
-     "emoji": "🍴"
+     "emoji": "🍴",
+     "img": "https://static.arasaac.org/pictograms/2588/2588_500.png",
+     "imageConcept": "fork",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "plate",
      "tr": "tabak",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "https://static.arasaac.org/pictograms/2532/2532_500.png",
+     "imageConcept": "plate",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -1102,20 +1516,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "armchair",
+       "b": "koltuk"
+      },
+      {
+       "a": "dishwasher",
+       "b": "bulaşık makinesi"
+      },
+      {
        "a": "oven",
        "b": "fırın"
       },
       {
-       "a": "fork",
-       "b": "çatal"
-      },
-      {
-       "a": "lamp",
-       "b": "lamba"
-      },
-      {
-       "a": "fridge",
-       "b": "buzdolabı"
+       "a": "knife",
+       "b": "bıçak"
       }
      ]
     }
@@ -1129,14 +1543,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-18.png",
-     "answer": "sofa",
-     "tr": "kanepe",
+     "img": "https://static.arasaac.org/pictograms/2444/2444_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "dishwasher",
+     "tr": "bulaşık makinesi",
      "options": [
-      "sofa",
-      "knife",
-      "bed",
-      "bath"
+      "dishwasher",
+      "shelf",
+      "wardrobe",
+      "lamp"
      ]
     }
    ]
@@ -1149,8 +1565,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "buzdolabı",
-     "answer": "fridge"
+     "clue": "küvet",
+     "answer": "bath"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2532/2532_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "plate",
+     "tr": "tabak",
+     "options": [
+      "plate",
+      "bath",
+      "lamp",
+      "cupboard"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/23753/23753_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "cupboard",
+     "tr": "mutfak dolabı",
+     "options": [
+      "cupboard",
+      "bookcase",
+      "fridge",
+      "armchair"
+     ]
     }
    ]
   },
@@ -1192,6 +1652,10 @@
         "trEm": [
          "var"
         ],
+        "img": "https://static.arasaac.org/pictograms/4559/4559_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "wide",
         "emoji": "↔️"
        },
        {
@@ -1273,6 +1737,10 @@
      "trEm": [
       "var"
      ],
+     "img": "https://static.arasaac.org/pictograms/4559/4559_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "wide",
      "emoji": "↔️",
      "focus": "OLUMLU ✅"
     }
@@ -1498,6 +1966,10 @@
       "trEm": [
        "Damla'nın"
       ],
+      "img": "https://static.arasaac.org/pictograms/3279/3279_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "bookshelf",
       "emoji": "📚"
      },
      {
@@ -1543,6 +2015,10 @@
      "trEm": [
       "Damla'nın"
      ],
+     "img": "https://static.arasaac.org/pictograms/3279/3279_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "bookshelf",
      "emoji": "📚"
     }
    ],
@@ -2082,6 +2558,7 @@
      "trEm": [
       "tek heceli"
      ],
+     "img": "/app/img/vocab/physical-small.svg",
      "emoji": "🐜"
     }
    ],
@@ -2103,6 +2580,7 @@
       "trEm": [
        "tek heceli"
       ],
+      "img": "/app/img/vocab/physical-small.svg",
       "emoji": "🐜"
      },
      {
@@ -2111,6 +2589,10 @@
       "trEm": [
        "e ile biten"
       ],
+      "img": "https://static.arasaac.org/pictograms/4559/4559_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "wide",
       "emoji": "↔️"
      },
      {
@@ -2119,6 +2601,7 @@
       "trEm": [
        "sessiz-sesli-sessiz"
       ],
+      "img": "/app/img/vocab/physical-big.svg",
       "emoji": "🐘"
      },
      {
@@ -2127,6 +2610,10 @@
       "trEm": [
        "sessiz + y"
       ],
+      "img": "https://static.arasaac.org/pictograms/27025/27025_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "heavy",
       "emoji": "🏋️"
      },
      {
@@ -2135,6 +2622,10 @@
       "trEm": [
        "iki+ heceli"
       ],
+      "img": "https://static.arasaac.org/pictograms/38445/38445_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "crowded",
       "emoji": "👥"
      },
      {
@@ -2151,6 +2642,10 @@
       "trEm": [
        "daha rahat"
       ],
+      "img": "https://static.arasaac.org/pictograms/11248/11248_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "comfortable",
       "emoji": "😌"
      },
      {
@@ -2203,6 +2698,10 @@
      "trEm": [
       "e ile biten"
      ],
+     "img": "https://static.arasaac.org/pictograms/4559/4559_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "wide",
      "emoji": "↔️"
     }
    ],
@@ -2227,6 +2726,7 @@
      "trEm": [
       "sessiz-sesli-sessiz"
      ],
+     "img": "/app/img/vocab/physical-big.svg",
      "emoji": "🐘"
     }
    ],
@@ -2251,6 +2751,10 @@
      "trEm": [
       "sessiz + y"
      ],
+     "img": "https://static.arasaac.org/pictograms/27025/27025_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "heavy",
      "emoji": "🏋️"
     }
    ],
@@ -2275,6 +2779,10 @@
      "trEm": [
       "iki+ heceli"
      ],
+     "img": "https://static.arasaac.org/pictograms/38445/38445_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "crowded",
      "emoji": "👥"
     }
    ],
@@ -2323,6 +2831,10 @@
      "trEm": [
       "daha rahat"
      ],
+     "img": "https://static.arasaac.org/pictograms/11248/11248_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "comfortable",
      "emoji": "😌"
     }
    ],
@@ -2529,28 +3041,37 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "skyscraper",
-      "tr": "gökdelen",
-      "img": "p01-14.png",
-      "emoji": "🏢"
+      "en": "eco-friendly",
+      "tr": "çevre dostu",
+      "img": "https://static.arasaac.org/pictograms/27210/27210_500.png",
+      "emoji": "♻️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "recycle"
      },
      {
-      "en": "corner",
-      "tr": "köşe",
-      "img": "p01-06.png",
-      "emoji": "📐"
+      "en": "bath",
+      "tr": "küvet",
+      "img": "https://static.arasaac.org/pictograms/2272/2272_500.png",
+      "emoji": "🛁",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "bath"
      },
      {
-      "en": "garden",
-      "tr": "bahçe",
-      "img": "p02-06.png",
-      "emoji": "🌷"
+      "en": "wall",
+      "tr": "duvar",
+      "img": "p02-15.png",
+      "emoji": "🧱"
      },
      {
-      "en": "window",
-      "tr": "pencere",
-      "img": "p02-16.png",
-      "emoji": "🪟"
+      "en": "fridge",
+      "tr": "buzdolabı",
+      "img": "https://static.arasaac.org/pictograms/3272/3272_500.png",
+      "emoji": "🧊",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fridge"
      }
     ]
    }
@@ -2568,32 +3089,41 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "street fair",
-      "tr": "sokak panayırı",
-      "img": "p01-17.png",
-      "emoji": "🎪",
-      "audio": "/app/audio/words/street-fair.wav"
+      "en": "rubbish bin",
+      "tr": "çöp kutusu",
+      "img": "https://static.arasaac.org/pictograms/2724/2724_500.png",
+      "emoji": "🗑️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "rubbish bin",
+      "audio": "/app/audio/words/rubbish-bin.wav"
      },
      {
-      "en": "art gallery",
-      "tr": "sanat galerisi",
-      "img": "p01-02.png",
-      "emoji": "🖼️",
-      "audio": "/app/audio/words/art-gallery.wav"
+      "en": "glass",
+      "tr": "cam",
+      "img": "https://static.arasaac.org/pictograms/9140/9140_500.png",
+      "emoji": "🥛",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "glass",
+      "audio": "/app/audio/words/glass.wav"
      },
      {
-      "en": "castle",
-      "tr": "kale",
-      "img": "p01-03.png",
-      "emoji": "🏰",
-      "audio": "/app/audio/words/castle.wav"
+      "en": "garage",
+      "tr": "garaj",
+      "img": "https://static.arasaac.org/pictograms/6003/6003_500.png",
+      "emoji": "🚗",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "garage",
+      "audio": "/app/audio/words/garage.wav"
      },
      {
-      "en": "table",
-      "tr": "masa",
-      "img": "p02-21.png",
-      "emoji": "🪵",
-      "audio": "/app/audio/words/table.wav"
+      "en": "forest",
+      "tr": "orman",
+      "img": "p01-07.png",
+      "emoji": "🌲",
+      "audio": "/app/audio/words/forest.wav"
      }
     ]
    }
@@ -2611,16 +3141,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "There are two fridges in the kitchen.",
-      "tr": "Mutfakta iki buzdolabı var."
+      "answer": "City life is better than town life.",
+      "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir."
      },
      {
-      "answer": "This is Ece's bicycle.",
-      "tr": "Bu Ece'nin bisikleti."
+      "answer": "Does Mert go to the gym? — No, he doesn't.",
+      "tr": "Mert spor salonuna gider mi? — Hayır."
      },
      {
-      "answer": "She goes to Paris in summer.",
-      "tr": "O yazın Paris'e gider."
+      "answer": "He fishes in the lake.",
+      "tr": "O gölde balık tutar."
      }
     ]
    }
@@ -2632,9 +3162,9 @@
    "task": {
     "kind": "flash",
     "q": "Describe a room without naming it. Your partner draws or guesses the room.",
-    "clue": "Is there an elevator in your apartment?",
+    "clue": "There aren't two beds in the bedroom.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Sizin apartmanınızda bir asansör var mı?"
+    "tr": "Yatak odasında iki yatak yok."
    },
    "part": [
     4,
@@ -2679,9 +3209,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Do you like street fairs? — Yes, I do.",
+    "clue": "I go to the playground every day.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Sokak panayırlarını sever misin? — Evet."
+    "tr": "Her gün oyun alanına giderim."
    },
    "part": [
     7,
@@ -2695,9 +3225,9 @@
    "task": {
     "kind": "flash",
     "q": "Choose two things from this unit. Make two comparisons; your partner checks them.",
-    "clue": "small → smaller",
+    "clue": "City life is better than town life.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "tek heceli"
+    "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir."
    },
    "part": [
     8,

@@ -506,3 +506,28 @@
   .vcard-media { height: 125px; }
   .ex .ex-pic { width: 85px; height: 85px; }
 }
+
+/* Image-led teaching: preserve aspect ratio; photos fill, diagrams stay whole. */
+.vcard-media { height: clamp(205px, 32vh, 300px); margin: -8px -8px 14px; }
+.vcard img.pic { width: 100%; height: 100%; object-fit: cover; }
+.slide img[data-fit="contain"] { object-fit: contain; }
+.slide img[data-fit="cover"] { object-fit: cover; }
+.ex .ex-pic { width: clamp(190px, 24vw, 290px); height: clamp(180px, 29vh, 260px); }
+.exercise-grid.single:has(.picture-task) { max-width: 1080px; width: 100%; }
+.picture-task { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(200px, 1fr); gap: 12px 24px; }
+.picture-task .prompt, .picture-task .hint, .picture-task .verdict { grid-column: 1 / -1; margin: 0; }
+.picture-task .task-pic { width: 100%; height: clamp(250px, 40vh, 380px); margin: 0; }
+.picture-task .opts { flex-direction: column; justify-content: center; }
+.picture-task .opt { min-height: 58px; }
+.image-credit { display: block; text-align: right; font-size: 11px; color: var(--ink-dim); margin-top: 8px; }
+.image-unavailable { display: flex; align-items: center; justify-content: center; padding: 12px; background: #eef2f6; color: #334155; font: 16px/1.4 var(--font); text-align: center; }
+@media (max-width: 850px) {
+  .vcard-media { height: 175px; }
+  .ex .ex-pic { width: 135px; height: 155px; }
+  .picture-task { grid-template-columns: 1fr; }
+  .picture-task .task-pic { height: 250px; }
+}
+.vcard.text-card { min-height: 300px; display: flex; flex-direction: column; justify-content: center; }
+.vcard.text-card .vcard-media { display: none; }
+.vcard.text-card .en { font-size: clamp(28px, 3vw, 42px); }
+.vcard.text-card .tr { margin-top: 18px; }

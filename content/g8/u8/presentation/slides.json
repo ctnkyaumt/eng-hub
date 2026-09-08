@@ -127,7 +127,11 @@
     {
      "en": "take out the garbage",
      "tr": "çöpü çıkarmak",
-     "emoji": "🗑️"
+     "emoji": "🗑️",
+     "img": "https://static.arasaac.org/pictograms/27208/27208_500.png",
+     "imageConcept": "take out trash",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -173,13 +177,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "/app/img/words/make-the-bed.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "make the bed",
      "tr": "yatağı toplamak",
      "options": [
       "make the bed",
+      "laundry",
       "tidy up",
-      "load the dishwasher",
-      "laundry"
+      "do the laundry"
      ]
     }
    ]
@@ -192,8 +198,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "toparlamak",
-     "answer": "tidy up"
+     "clue": "çamaşır yıkamak",
+     "answer": "do the laundry"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Chores at Home",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/tidy-up.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "tidy up",
+     "tr": "toparlamak",
+     "options": [
+      "tidy up",
+      "dry the dishes",
+      "iron",
+      "clean up"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Chores at Home",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/load-the-dishwasher.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "load the dishwasher",
+     "tr": "bulaşık makinesini doldurmak",
+     "options": [
+      "load the dishwasher",
+      "wash the dishes",
+      "tidy up",
+      "laundry"
+     ]
     }
    ]
   },
@@ -205,7 +255,11 @@
     {
      "en": "obey the rules",
      "tr": "kurallara uymak",
-     "emoji": "📏"
+     "emoji": "📏",
+     "img": "https://static.arasaac.org/pictograms/22007/22007_500.png",
+     "imageConcept": "obey",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "arrive on time",
@@ -215,12 +269,20 @@
     {
      "en": "keep quiet",
      "tr": "sessiz olmak",
-     "emoji": "🤫"
+     "emoji": "🤫",
+     "img": "https://static.arasaac.org/pictograms/5936/5936_500.png",
+     "imageConcept": "silence",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "keep a promise",
      "tr": "sözünü tutmak",
-     "emoji": "🤞"
+     "emoji": "🤞",
+     "img": "https://static.arasaac.org/pictograms/37046/37046_500.png",
+     "imageConcept": "promise",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -247,7 +309,11 @@
     {
      "en": "to-do list",
      "tr": "yapılacaklar listesi",
-     "emoji": "📝"
+     "emoji": "📝",
+     "img": "https://static.arasaac.org/pictograms/7144/7144_500.png",
+     "imageConcept": "list",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -263,26 +329,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"to-do list\" means \"kurallara uymak\".",
+     "statement": "\"arrive on time\" means \"kitapları iade etmek\".",
      "answer": false,
-     "explain": "to-do list = yapılacaklar listesi"
+     "explain": "arrive on time = zamanında gelmek"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"sözünü tutmak\"?",
+   "title": "Activity Break · Which word means \"sessiz olmak\"?",
    "titleTr": "Use what you just learned · Rules & Responsibilities",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"sözünü tutmak\"?",
-     "answer": "keep a promise",
+     "q": "Which word means \"sessiz olmak\"?",
+     "answer": "keep quiet",
      "options": [
-      "keep a promise",
-      "return books",
-      "obey the rules",
-      "to-do list"
+      "keep quiet",
+      "arrive on time",
+      "to-do list",
+      "break a promise"
      ]
     }
    ]
@@ -297,21 +363,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "arrive on time",
-       "b": "zamanında gelmek"
-      },
-      {
-       "a": "return books",
-       "b": "kitapları iade etmek"
-      },
-      {
        "a": "keep a promise",
        "b": "sözünü tutmak"
       },
       {
        "a": "break a promise",
        "b": "sözünü bozmak"
+      },
+      {
+       "a": "obey the rules",
+       "b": "kurallara uymak"
+      },
+      {
+       "a": "return books",
+       "b": "kitapları iade etmek"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Rules & Responsibilities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/7144/7144_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "to-do list",
+     "tr": "yapılacaklar listesi",
+     "options": [
+      "to-do list",
+      "keep quiet",
+      "arrive on time",
+      "return books"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Rules & Responsibilities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/22007/22007_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "obey the rules",
+     "tr": "kurallara uymak",
+     "options": [
+      "obey the rules",
+      "keep quiet",
+      "keep a promise",
+      "return books"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Rules & Responsibilities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/return-books.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "return books",
+     "tr": "kitapları iade etmek",
+     "options": [
+      "return books",
+      "obey the rules",
+      "arrive on time",
+      "break a promise"
      ]
     }
    ]
@@ -329,17 +461,29 @@
     {
      "en": "be responsible for",
      "tr": "-den/-dan sorumlu olmak",
-     "emoji": "📋"
+     "emoji": "📋",
+     "img": "https://static.arasaac.org/pictograms/37234/37234_500.png",
+     "imageConcept": "responsibility",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "kitchen chores",
      "tr": "mutfak işleri",
-     "emoji": "🧹"
+     "emoji": "🧹",
+     "img": "https://static.arasaac.org/pictograms/22791/22791_500.png",
+     "imageConcept": "cleaning",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "ignore responsibilities",
      "tr": "sorumlulukları ihmal etmek",
-     "emoji": "🙈"
+     "emoji": "🙈",
+     "img": "https://static.arasaac.org/pictograms/24719/24719_500.png",
+     "imageConcept": "ignore",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -355,22 +499,38 @@
     {
      "en": "share the chores",
      "tr": "ev işlerini paylaşmak",
-     "emoji": "🤝"
+     "emoji": "🤝",
+     "img": "https://static.arasaac.org/pictograms/4570/4570_500.png",
+     "imageConcept": "cooperate",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "admire",
      "tr": "hayran olmak",
-     "emoji": "🌟"
+     "emoji": "🌟",
+     "img": "https://static.arasaac.org/pictograms/11470/11470_500.png",
+     "imageConcept": "admire",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "be late",
      "tr": "geç kalmak",
-     "emoji": "⏰"
+     "emoji": "⏰",
+     "img": "https://static.arasaac.org/pictograms/37780/37780_500.png",
+     "imageConcept": "late",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "feel annoyed",
      "tr": "sinirlenmek (kızgın",
-     "emoji": "😠"
+     "emoji": "😠",
+     "img": "https://static.arasaac.org/pictograms/2374/2374_500.png",
+     "imageConcept": "annoyed",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -386,22 +546,38 @@
     {
      "en": "feel worried",
      "tr": "endişelenmek (endişeli hissetmek)",
-     "emoji": "😟"
+     "emoji": "😟",
+     "img": "https://static.arasaac.org/pictograms/26985/26985_500.png",
+     "imageConcept": "worried",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "feel happy",
      "tr": "sevinmek",
-     "emoji": "😊"
+     "emoji": "😊",
+     "img": "https://static.arasaac.org/pictograms/3245/3245_500.png",
+     "imageConcept": "happy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "feel relaxed",
      "tr": "rahat hissetmek",
-     "emoji": "😌"
+     "emoji": "😌",
+     "img": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+     "imageConcept": "calm",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "feel exhausted",
      "tr": "yorgun",
-     "emoji": "😫"
+     "emoji": "😫",
+     "img": "https://static.arasaac.org/pictograms/2314/2314_500.png",
+     "imageConcept": "exhausted",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -417,8 +593,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "hayran olmak",
-     "answer": "admire"
+     "clue": "endişelenmek (endişeli hissetmek)",
+     "answer": "feel worried"
     }
    ]
   },
@@ -432,20 +608,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "feel relaxed",
-       "b": "rahat hissetmek"
-      },
-      {
-       "a": "feel worried",
-       "b": "endişelenmek (endişeli hissetmek)"
-      },
-      {
-       "a": "be responsible for",
-       "b": "-den/-dan sorumlu olmak"
+       "a": "feel happy",
+       "b": "sevinmek"
       },
       {
        "a": "be good at",
        "b": "bir şeyde iyi olmak"
+      },
+      {
+       "a": "be late",
+       "b": "geç kalmak"
+      },
+      {
+       "a": "feel relaxed",
+       "b": "rahat hissetmek"
       }
      ]
     }
@@ -453,15 +629,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"ignore responsibilities\" means \"sorumlulukları ihmal etmek\".",
-     "answer": true,
-     "explain": "ignore responsibilities = sorumlulukları ihmal etmek"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/24719/24719_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "ignore responsibilities",
+     "tr": "sorumlulukları ihmal etmek",
+     "options": [
+      "ignore responsibilities",
+      "be responsible for",
+      "kitchen chores",
+      "be good at"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/26985/26985_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "feel worried",
+     "tr": "endişelenmek (endişeli hissetmek)",
+     "options": [
+      "feel worried",
+      "feel exhausted",
+      "share the chores",
+      "ignore responsibilities"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/37234/37234_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "be responsible for",
+     "tr": "-den/-dan sorumlu olmak",
+     "options": [
+      "be responsible for",
+      "be good at",
+      "admire",
+      "feel worried"
+     ]
     }
    ]
   },
@@ -473,7 +701,11 @@
     {
      "en": "feel bored",
      "tr": "içi sıkılmak",
-     "emoji": "😑"
+     "emoji": "😑",
+     "img": "https://static.arasaac.org/pictograms/35531/35531_500.png",
+     "imageConcept": "bored",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "In fact,",
@@ -488,7 +720,11 @@
     {
      "en": "some chores",
      "tr": "bazı ev işleri",
-     "emoji": "🧺"
+     "emoji": "🧺",
+     "img": "https://static.arasaac.org/pictograms/22791/22791_500.png",
+     "imageConcept": "cleaning",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -504,22 +740,38 @@
     {
      "en": "be happy",
      "tr": "mutlu olmak",
-     "emoji": "😄"
+     "emoji": "😄",
+     "img": "https://static.arasaac.org/pictograms/3245/3245_500.png",
+     "imageConcept": "happy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "How often",
      "tr": "Ne kadar sıklıkla",
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "img": "/app/img/concepts/how-often.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "how often"
     },
     {
      "en": "can't stand",
      "tr": "tahammül edememek",
-     "emoji": "😖"
+     "emoji": "😖",
+     "img": "https://static.arasaac.org/pictograms/38936/38936_500.png",
+     "imageConcept": "hate",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "feel so hungry",
      "tr": "çok acıkmak",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "https://static.arasaac.org/pictograms/4962/4962_500.png",
+     "imageConcept": "hungry",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -540,22 +792,56 @@
     {
      "en": "waiting to eat",
      "tr": "yemek yemeyi beklemek",
-     "emoji": "⌛"
+     "emoji": "⌛",
+     "img": "https://static.arasaac.org/pictograms/8109/8109_500.png",
+     "imageConcept": "wait",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "pay the bills",
      "tr": "faturaları ödemek",
-     "emoji": "🧾"
+     "emoji": "🧾",
+     "img": "https://static.arasaac.org/pictograms/6457/6457_500.png",
+     "imageConcept": "pay",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "do the shopping",
      "tr": "alışveriş yapmak",
-     "emoji": "🛒"
+     "emoji": "🛒",
+     "img": "https://static.arasaac.org/pictograms/8986/8986_500.png",
+     "imageConcept": "do the shopping",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     3,
     3
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/6457/6457_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "pay the bills",
+     "tr": "faturaları ödemek",
+     "options": [
+      "pay the bills",
+      "How often",
+      "be happy",
+      "For example,"
+     ]
+    }
    ]
   },
   {
@@ -566,9 +852,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"before the meal\" means \"mutlu olmak\".",
+     "statement": "\"some chores\" means \"Aslında\".",
      "answer": false,
-     "explain": "before the meal = yemekten önce"
+     "explain": "some chores = bazı ev işleri"
     }
    ]
   },
@@ -582,20 +868,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "feel bored",
-       "b": "içi sıkılmak"
+       "a": "For example,",
+       "b": "Örneğin"
+      },
+      {
+       "a": "before the meal",
+       "b": "yemekten önce"
       },
       {
        "a": "some chores",
        "b": "bazı ev işleri"
       },
       {
-       "a": "pay the bills",
-       "b": "faturaları ödemek"
-      },
-      {
-       "a": "For example,",
-       "b": "Örneğin"
+       "a": "feel so hungry",
+       "b": "çok acıkmak"
       }
      ]
     }
@@ -603,14 +889,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "bazı ev işleri",
-     "answer": "some chores"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/how-often.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "How often",
+     "tr": "Ne kadar sıklıkla",
+     "options": [
+      "How often",
+      "waiting to eat",
+      "before the meal",
+      "be happy"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/22791/22791_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "some chores",
+     "tr": "bazı ev işleri",
+     "options": [
+      "some chores",
+      "feel bored",
+      "waiting to eat",
+      "be happy"
+     ]
     }
    ]
   },
@@ -1366,16 +1683,13 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "dry the dishes",
-      "tr": "bulaşık kurulamak",
-      "img": "/app/img/words/dry-the-dishes.jpg",
-      "emoji": "🌀"
-     },
-     {
-      "en": "load the dishwasher",
-      "tr": "bulaşık makinesini doldurmak",
-      "img": "/app/img/words/load-the-dishwasher.jpg",
-      "emoji": "🍽️"
+      "en": "can't stand",
+      "tr": "tahammül edememek",
+      "img": "https://static.arasaac.org/pictograms/38936/38936_500.png",
+      "emoji": "😖",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "hate"
      },
      {
       "en": "clean up",
@@ -1384,10 +1698,19 @@
       "emoji": "🧹"
      },
      {
-      "en": "return books",
-      "tr": "kitapları iade etmek",
-      "img": "/app/img/words/return-books.jpg",
-      "emoji": "📚"
+      "en": "make the bed",
+      "tr": "yatağı toplamak",
+      "img": "/app/img/words/make-the-bed.jpg",
+      "emoji": "🛏️"
+     },
+     {
+      "en": "feel bored",
+      "tr": "içi sıkılmak",
+      "img": "https://static.arasaac.org/pictograms/35531/35531_500.png",
+      "emoji": "😑",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "bored"
      }
     ]
    }
@@ -1405,11 +1728,28 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "set the table",
-      "tr": "sofrayı kurmak",
-      "img": "/app/img/words/set-the-table.jpg",
-      "emoji": "🍴",
-      "audio": "/app/audio/words/set-the-table.wav"
+      "en": "be responsible for",
+      "tr": "-den/-dan sorumlu olmak",
+      "img": "https://static.arasaac.org/pictograms/37234/37234_500.png",
+      "emoji": "📋",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "responsibility",
+      "audio": "/app/audio/words/be-responsible-for.wav"
+     },
+     {
+      "en": "laundry",
+      "tr": "çamaşır",
+      "img": "/app/img/words/laundry.jpg",
+      "emoji": "👕",
+      "audio": "/app/audio/words/laundry.wav"
+     },
+     {
+      "en": "do the laundry",
+      "tr": "çamaşır yıkamak",
+      "img": "/app/img/words/do-the-laundry.jpg",
+      "emoji": "🧺",
+      "audio": "/app/audio/words/do-the-laundry.wav"
      },
      {
       "en": "iron",
@@ -1417,20 +1757,6 @@
       "img": "/app/img/words/iron.jpg",
       "emoji": "👔",
       "audio": "/app/audio/words/iron.wav"
-     },
-     {
-      "en": "empty the dishwasher",
-      "tr": "bulaşık makinesini boşaltmak",
-      "img": "/app/img/words/empty-the-dishwasher.jpg",
-      "emoji": "📤",
-      "audio": "/app/audio/words/empty-the-dishwasher.wav"
-     },
-     {
-      "en": "tidy up",
-      "tr": "toparlamak",
-      "img": "/app/img/words/tidy-up.jpg",
-      "emoji": "🧽",
-      "audio": "/app/audio/words/tidy-up.wav"
      }
     ]
    }
@@ -1448,16 +1774,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Not now, I have to finish my homework.",
-      "tr": "Şimdi olmaz, ödevimi bitirmem gerek."
+      "answer": "Of course. I can help you.",
+      "tr": "Elbette. Sana yardım edebilirim."
      },
      {
-      "answer": "All right, I'm coming.",
-      "tr": "Peki, geliyorum."
+      "answer": "Could you help me with the laundry?",
+      "tr": "Çamaşırlarda bana yardım eder misin?"
      },
      {
-      "answer": "Shall I set the table?",
-      "tr": "Masayı ben mi kurayım?"
+      "answer": "Can you give me a hand in the kitchen?",
+      "tr": "Mutfakta bana el atar mısın?"
      }
     ]
    }
@@ -1469,9 +1795,9 @@
    "task": {
     "kind": "flash",
     "q": "Share the housework. Give each family member a job and report their responsibilities.",
-    "clue": "I have to tidy my room every weekend.",
+    "clue": "He has to walk the dog after school.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Her hafta sonu odamı toplamak zorundayım."
+    "tr": "Okuldan sonra köpeği gezdirmek zorunda."
    },
    "part": [
     4,
@@ -1485,9 +1811,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Could you help me with the laundry?",
+    "clue": "Would you mind taking out the rubbish?",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Çamaşırlarda bana yardım eder misin?"
+    "tr": "Çöpü çıkarır mısın?"
    },
    "part": [
     5,
@@ -1501,9 +1827,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I'm afraid I can't right now.",
+    "clue": "Of course. I can help you.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Korkarım şu an yapamam."
+    "tr": "Elbette. Sana yardım edebilirim."
    },
    "part": [
     6,

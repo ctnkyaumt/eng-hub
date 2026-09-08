@@ -41,7 +41,11 @@
     {
      "en": "cut",
      "tr": "kesmek",
-     "emoji": "✂️"
+     "emoji": "✂️",
+     "img": "https://static.arasaac.org/pictograms/10185/10185_500.png",
+     "imageConcept": "cut",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -110,7 +114,11 @@
     {
      "en": "spread",
      "tr": "sürmek",
-     "emoji": "🧈"
+     "emoji": "🧈",
+     "img": "https://static.arasaac.org/pictograms/7292/7292_500.png",
+     "imageConcept": "spread",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -155,14 +163,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/bake.jpg",
-     "answer": "bake",
-     "tr": "fırında pişirmek",
+     "img": "https://static.arasaac.org/pictograms/7292/7292_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "spread",
+     "tr": "sürmek",
      "options": [
-      "bake",
       "spread",
-      "chop",
-      "peel"
+      "mix",
+      "cut",
+      "chop"
      ]
     }
    ]
@@ -175,8 +185,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "kesmek",
-     "answer": "cut"
+     "clue": "karıştırmak",
+     "answer": "mix"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Cooking Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/bake.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "bake",
+     "tr": "fırında pişirmek",
+     "options": [
+      "bake",
+      "mash",
+      "chop",
+      "boil"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Cooking Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/boil.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "boil",
+     "tr": "haşlamak",
+     "options": [
+      "boil",
+      "slice",
+      "pour",
+      "fry"
+     ]
     }
    ]
   },
@@ -206,7 +260,11 @@
     {
      "en": "pan",
      "tr": "tava",
-     "emoji": "🍳"
+     "emoji": "🍳",
+     "img": "https://static.arasaac.org/pictograms/2558/2558_500.png",
+     "imageConcept": "frying pan",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -228,7 +286,11 @@
     {
      "en": "spoon",
      "tr": "kaşık",
-     "emoji": "🥄"
+     "emoji": "🥄",
+     "img": "https://static.arasaac.org/pictograms/2362/2362_500.png",
+     "imageConcept": "spoon",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "oil",
@@ -256,24 +318,24 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"saucepan\" means \"kaşık\".",
+     "statement": "\"ingredient\" means \"tencere\".",
      "answer": false,
-     "explain": "saucepan = tencere"
+     "explain": "ingredient = malzeme"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"yağ\"?",
+   "title": "Activity Break · Which word means \"tencere\"?",
    "titleTr": "Use what you just learned · Kitchen Tools",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"yağ\"?",
-     "answer": "oil",
+     "q": "Which word means \"tencere\"?",
+     "answer": "saucepan",
      "options": [
-      "oil",
       "saucepan",
+      "grater",
       "oven",
       "spoon"
      ]
@@ -290,21 +352,87 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "oven",
+       "b": "fırın"
+      },
+      {
+       "a": "spoon",
+       "b": "kaşık"
+      },
+      {
        "a": "saucepan",
        "b": "tencere"
       },
       {
-       "a": "pan",
-       "b": "tava"
-      },
-      {
-       "a": "ingredient",
-       "b": "malzeme"
-      },
-      {
-       "a": "grater",
-       "b": "rende"
+       "a": "bowl",
+       "b": "kase"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Kitchen Tools",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/saucepan.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "saucepan",
+     "tr": "tencere",
+     "options": [
+      "saucepan",
+      "spoon",
+      "oven",
+      "oil"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Kitchen Tools",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/ingredient.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "ingredient",
+     "tr": "malzeme",
+     "options": [
+      "ingredient",
+      "oil",
+      "oven",
+      "saucepan"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Kitchen Tools",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2558/2558_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "pan",
+     "tr": "tava",
+     "options": [
+      "pan",
+      "spoon",
+      "bowl",
+      "oven"
      ]
     }
    ]
@@ -335,7 +463,11 @@
     {
      "en": "delicious",
      "tr": "nefis",
-     "emoji": "😋"
+     "emoji": "😋",
+     "img": "https://static.arasaac.org/pictograms/32340/32340_500.png",
+     "imageConcept": "delicious",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -351,22 +483,38 @@
     {
      "en": "tasty",
      "tr": "lezzetli",
-     "emoji": "🤤"
+     "emoji": "🤤",
+     "img": "https://static.arasaac.org/pictograms/32340/32340_500.png",
+     "imageConcept": "tasty",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "salty",
      "tr": "tuzlu",
-     "emoji": "🧂"
+     "emoji": "🧂",
+     "img": "https://static.arasaac.org/pictograms/4739/4739_500.png",
+     "imageConcept": "salty",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "sour",
      "tr": "ekşi",
-     "emoji": "🍋"
+     "emoji": "🍋",
+     "img": "https://static.arasaac.org/pictograms/3022/3022_500.png",
+     "imageConcept": "lemon",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "spicy",
      "tr": "baharatlı",
-     "emoji": "🌶️"
+     "emoji": "🌶️",
+     "img": "https://static.arasaac.org/pictograms/4719/4719_500.png",
+     "imageConcept": "spicy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -382,8 +530,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "lezzetli",
-     "answer": "tasty"
+     "clue": "tarif",
+     "answer": "recipe"
     }
    ]
   },
@@ -397,20 +545,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "recipe",
+       "b": "tarif"
+      },
+      {
        "a": "salty",
        "b": "tuzlu"
       },
       {
-       "a": "tasty",
-       "b": "lezzetli"
+       "a": "delicious",
+       "b": "nefis"
       },
       {
        "a": "sour",
        "b": "ekşi"
-      },
-      {
-       "a": "recipe",
-       "b": "tarif"
       }
      ]
     }
@@ -424,14 +572,60 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/meal.jpg",
-     "answer": "meal",
-     "tr": "öğün",
+     "img": "https://static.arasaac.org/pictograms/4719/4719_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "spicy",
+     "tr": "baharatlı",
      "options": [
+      "spicy",
       "meal",
-      "delicious",
-      "sour",
+      "dessert",
       "tasty"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Taste & Food",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4739/4739_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "salty",
+     "tr": "tuzlu",
+     "options": [
+      "salty",
+      "recipe",
+      "spicy",
+      "meal"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Taste & Food",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/3022/3022_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "sour",
+     "tr": "ekşi",
+     "options": [
+      "sour",
+      "tasty",
+      "meal",
+      "salty"
      ]
     }
    ]
@@ -444,22 +638,38 @@
     {
      "en": "stir",
      "tr": "karıştırmak, çırpmak",
-     "emoji": "🥄"
+     "emoji": "🥄",
+     "img": "https://static.arasaac.org/pictograms/5981/5981_500.png",
+     "imageConcept": "stir",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "strain",
      "tr": "süzmek",
-     "emoji": "🥣"
+     "emoji": "🥣",
+     "img": "https://static.arasaac.org/pictograms/8568/8568_500.png",
+     "imageConcept": "strain",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "wrap",
      "tr": "sarmak, paketlemek",
-     "emoji": "🌯"
+     "emoji": "🌯",
+     "img": "https://static.arasaac.org/pictograms/7084/7084_500.png",
+     "imageConcept": "wrap",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "scoop",
      "tr": "kepçe ile almak, kepçe",
-     "emoji": "🍨"
+     "emoji": "🍨",
+     "img": "https://static.arasaac.org/pictograms/39645/39645_500.png",
+     "imageConcept": "scoop",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -475,22 +685,38 @@
     {
      "en": "roll",
      "tr": "yuvarlamak",
-     "emoji": "🌀"
+     "emoji": "🌀",
+     "img": "https://static.arasaac.org/pictograms/6603/6603_500.png",
+     "imageConcept": "roll",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "season",
      "tr": "baharat katmak",
-     "emoji": "🧂"
+     "emoji": "🧂",
+     "img": "https://static.arasaac.org/pictograms/5464/5464_500.png",
+     "imageConcept": "season",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "shape",
      "tr": "şekil vermek, şekil",
-     "emoji": "🔷"
+     "emoji": "🔷",
+     "img": "https://static.arasaac.org/pictograms/32619/32619_500.png",
+     "imageConcept": "shape",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "sprinkle",
      "tr": "serpiştirmek",
-     "emoji": "✨"
+     "emoji": "✨",
+     "img": "https://static.arasaac.org/pictograms/16699/16699_500.png",
+     "imageConcept": "sprinkle",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -506,27 +732,65 @@
     {
      "en": "place",
      "tr": "yerleştirmek",
-     "emoji": "📍"
+     "emoji": "📍",
+     "img": "https://static.arasaac.org/pictograms/6989/6989_500.png",
+     "imageConcept": "place",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "preheat",
      "tr": "önceden ısıtmak",
-     "emoji": "🔥"
+     "emoji": "🔥",
+     "img": "https://static.arasaac.org/pictograms/8520/8520_500.png",
+     "imageConcept": "heat",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "prepare",
      "tr": "hazırlamak",
-     "emoji": "👩‍🍳"
+     "emoji": "👩‍🍳",
+     "img": "https://static.arasaac.org/pictograms/6190/6190_500.png",
+     "imageConcept": "prepare",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "put",
      "tr": "koymak",
-     "emoji": "👇"
+     "emoji": "👇",
+     "img": "https://static.arasaac.org/pictograms/5447/5447_500.png",
+     "imageConcept": "put",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     3,
     3
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/32619/32619_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "shape",
+     "tr": "şekil vermek, şekil",
+     "options": [
+      "shape",
+      "season",
+      "strain",
+      "put"
+     ]
+    }
    ]
   },
   {
@@ -537,9 +801,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"put\" means \"önceden ısıtmak\".",
+     "statement": "\"roll\" means \"koymak\".",
      "answer": false,
-     "explain": "put = koymak"
+     "explain": "roll = yuvarlamak"
     }
    ]
   },
@@ -553,20 +817,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "sprinkle",
-       "b": "serpiştirmek"
-      },
-      {
-       "a": "place",
-       "b": "yerleştirmek"
-      },
-      {
        "a": "prepare",
        "b": "hazırlamak"
       },
       {
-       "a": "scoop",
-       "b": "kepçe ile almak, kepçe"
+       "a": "stir",
+       "b": "karıştırmak, çırpmak"
+      },
+      {
+       "a": "preheat",
+       "b": "önceden ısıtmak"
+      },
+      {
+       "a": "shape",
+       "b": "şekil vermek, şekil"
       }
      ]
     }
@@ -574,14 +838,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "yuvarlamak",
-     "answer": "roll"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8568/8568_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "strain",
+     "tr": "süzmek",
+     "options": [
+      "strain",
+      "season",
+      "prepare",
+      "scoop"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/16699/16699_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "sprinkle",
+     "tr": "serpiştirmek",
+     "options": [
+      "sprinkle",
+      "shape",
+      "strain",
+      "put"
+     ]
     }
    ]
   },
@@ -593,22 +888,38 @@
     {
      "en": "remove",
      "tr": "çıkarmak",
-     "emoji": "📤"
+     "emoji": "📤",
+     "img": "https://static.arasaac.org/pictograms/11751/11751_500.png",
+     "imageConcept": "remove",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "rinse",
      "tr": "durulamak",
-     "emoji": "🚿"
+     "emoji": "🚿",
+     "img": "https://static.arasaac.org/pictograms/8560/8560_500.png",
+     "imageConcept": "rinse",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "roast",
      "tr": "fırında kızartmak",
-     "emoji": "🍗"
+     "emoji": "🍗",
+     "img": "https://static.arasaac.org/pictograms/5389/5389_500.png",
+     "imageConcept": "roast",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "knead",
      "tr": "yoğurmak",
-     "emoji": "🥖"
+     "emoji": "🥖",
+     "img": "https://static.arasaac.org/pictograms/8015/8015_500.png",
+     "imageConcept": "knead",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -624,17 +935,29 @@
     {
      "en": "make it rest",
      "tr": "dinlendirmek",
-     "emoji": "⏲️"
+     "emoji": "⏲️",
+     "img": "https://static.arasaac.org/pictograms/8109/8109_500.png",
+     "imageConcept": "wait",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "make the dough",
      "tr": "hamur yapmak",
-     "emoji": "🥣"
+     "emoji": "🥣",
+     "img": "https://static.arasaac.org/pictograms/8015/8015_500.png",
+     "imageConcept": "knead",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "melt",
      "tr": "erimek, eritmek",
-     "emoji": "💧"
+     "emoji": "💧",
+     "img": "https://static.arasaac.org/pictograms/7011/7011_500.png",
+     "imageConcept": "melt",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -652,21 +975,43 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "rinse",
-       "b": "durulamak"
-      },
-      {
-       "a": "remove",
-       "b": "çıkarmak"
-      },
-      {
        "a": "make the dough",
        "b": "hamur yapmak"
       },
       {
-       "a": "melt",
-       "b": "erimek, eritmek"
+       "a": "make it rest",
+       "b": "dinlendirmek"
+      },
+      {
+       "a": "rinse",
+       "b": "durulamak"
+      },
+      {
+       "a": "knead",
+       "b": "yoğurmak"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/11751/11751_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "remove",
+     "tr": "çıkarmak",
+     "options": [
+      "remove",
+      "roast",
+      "make it rest",
+      "rinse"
      ]
     }
    ]
@@ -679,22 +1024,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "hamur yapmak",
-     "answer": "make the dough"
+     "clue": "erimek, eritmek",
+     "answer": "melt"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"melt\" means \"erimek, eritmek\".",
-     "answer": true,
-     "explain": "melt = erimek, eritmek"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8015/8015_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "make the dough",
+     "tr": "hamur yapmak",
+     "options": [
+      "make the dough",
+      "rinse",
+      "melt",
+      "roast"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8560/8560_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "rinse",
+     "tr": "durulamak",
+     "options": [
+      "rinse",
+      "knead",
+      "melt",
+      "roast"
+     ]
     }
    ]
   },
@@ -765,6 +1140,10 @@
       "trEm": [
        "unutma"
       ],
+      "img": "https://static.arasaac.org/pictograms/5981/5981_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "stir",
       "emoji": "🥄"
      },
      {
@@ -773,6 +1152,10 @@
       "trEm": [
        "Sosu yavaşça karıştır."
       ],
+      "img": "https://static.arasaac.org/pictograms/5981/5981_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "stir",
       "emoji": "🥄"
      },
      {
@@ -857,6 +1240,10 @@
      "trEm": [
       "unutma"
      ],
+     "img": "https://static.arasaac.org/pictograms/5981/5981_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "stir",
      "emoji": "🥄"
     }
    ],
@@ -881,6 +1268,10 @@
      "trEm": [
       "Sosu yavaşça karıştır."
      ],
+     "img": "https://static.arasaac.org/pictograms/5981/5981_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "stir",
      "emoji": "🥄"
     }
    ],
@@ -1557,28 +1948,37 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "pour",
-      "tr": "dökmek",
-      "img": "/app/img/words/pour.jpg",
-      "emoji": "🚰"
+      "en": "remove",
+      "tr": "çıkarmak",
+      "img": "https://static.arasaac.org/pictograms/11751/11751_500.png",
+      "emoji": "📤",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "remove"
      },
      {
-      "en": "peel",
-      "tr": "soymak",
-      "img": "/app/img/words/peel.jpg",
-      "emoji": "🥕"
+      "en": "sour",
+      "tr": "ekşi",
+      "img": "https://static.arasaac.org/pictograms/3022/3022_500.png",
+      "emoji": "🍋",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "lemon"
      },
      {
-      "en": "oil",
-      "tr": "yağ",
-      "img": "/app/img/words/oil.jpg",
-      "emoji": "🫗"
+      "en": "grater",
+      "tr": "rende",
+      "img": "/app/img/words/grater.jpg",
+      "emoji": "🧀"
      },
      {
-      "en": "mix",
-      "tr": "karıştırmak",
-      "img": "/app/img/words/mix.jpg",
-      "emoji": "🌀"
+      "en": "sprinkle",
+      "tr": "serpiştirmek",
+      "img": "https://static.arasaac.org/pictograms/16699/16699_500.png",
+      "emoji": "✨",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "sprinkle"
      }
     ]
    }
@@ -1596,32 +1996,35 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "bake",
-      "tr": "fırında pişirmek",
-      "img": "/app/img/words/bake.jpg",
-      "emoji": "🥧",
-      "audio": "/app/audio/words/bake.wav"
+      "en": "saucepan",
+      "tr": "tencere",
+      "img": "/app/img/words/saucepan.jpg",
+      "emoji": "🍲",
+      "audio": "/app/audio/words/saucepan.wav"
      },
      {
-      "en": "dice",
-      "tr": "küp küp doğramak",
-      "img": "/app/img/words/dice.jpg",
-      "emoji": "🎲",
-      "audio": "/app/audio/words/dice.wav"
+      "en": "mash",
+      "tr": "ezmek",
+      "img": "/app/img/words/mash.jpg",
+      "emoji": "🥔",
+      "audio": "/app/audio/words/mash.wav"
      },
      {
-      "en": "recipe",
-      "tr": "tarif",
-      "img": "/app/img/words/recipe.jpg",
-      "emoji": "📜",
-      "audio": "/app/audio/words/recipe.wav"
+      "en": "rinse",
+      "tr": "durulamak",
+      "img": "https://static.arasaac.org/pictograms/8560/8560_500.png",
+      "emoji": "🚿",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "rinse",
+      "audio": "/app/audio/words/rinse.wav"
      },
      {
-      "en": "meal",
-      "tr": "öğün",
-      "img": "/app/img/words/meal.jpg",
-      "emoji": "🍽️",
-      "audio": "/app/audio/words/meal.wav"
+      "en": "peel",
+      "tr": "soymak",
+      "img": "/app/img/words/peel.jpg",
+      "emoji": "🥕",
+      "audio": "/app/audio/words/peel.wav"
      }
     ]
    }
@@ -1639,16 +2042,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Serve the soup hot.",
-      "tr": "Çorbayı sıcak servis et."
-     },
-     {
-      "answer": "After that, mix everything in a bowl.",
-      "tr": "Ondan sonra her şeyi bir kasede karıştır."
+      "answer": "Chop the onions into small pieces.",
+      "tr": "Soğanları küçük parçalar hâlinde doğra."
      },
      {
       "answer": "First, wash the vegetables.",
       "tr": "Önce sebzeleri yıka."
+     },
+     {
+      "answer": "How many eggs do we need?",
+      "tr": "Kaç yumurtaya ihtiyacımız var?"
      }
     ]
    }
@@ -1660,9 +2063,9 @@
    "task": {
     "kind": "flash",
     "q": "Teach your partner how to make a sandwich. Give three short instructions.",
-    "clue": "Don't forget to stir the soup.",
+    "clue": "Chop the onions into small pieces.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Çorbayı karıştırmayı unutma."
+    "tr": "Soğanları küçük parçalar hâlinde doğra."
    },
    "part": [
     4,
@@ -1676,9 +2079,9 @@
    "task": {
     "kind": "flash",
     "q": "Explain a simple recipe. Your partner repeats the steps in the same order.",
-    "clue": "First, wash the vegetables.",
+    "clue": "Finally, serve the salad cold.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Önce sebzeleri yıka."
+    "tr": "Son olarak salatayı soğuk servis et."
    },
    "part": [
     5,
@@ -1692,9 +2095,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "How much flour do you need?",
+    "clue": "How many eggs do we need?",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Ne kadar una ihtiyacın var?"
+    "tr": "Kaç yumurtaya ihtiyacımız var?"
    },
    "part": [
     6,

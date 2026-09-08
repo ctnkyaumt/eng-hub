@@ -156,13 +156,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "/app/img/words/bungee-jumping.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "bungee-jumping",
      "tr": "bancî atlayışı",
      "options": [
       "bungee-jumping",
-      "skateboarding",
+      "take risks",
       "caving",
-      "take risks"
+      "canoeing"
      ]
     }
    ]
@@ -181,6 +183,50 @@
    ]
   },
   {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Extreme Sports",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/rafting.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "rafting",
+     "tr": "rafting",
+     "options": [
+      "rafting",
+      "skateboarding",
+      "caving",
+      "extreme sports"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Extreme Sports",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/canoeing.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "canoeing",
+     "tr": "kano sporu",
+     "options": [
+      "canoeing",
+      "hang-gliding",
+      "extreme sports",
+      "skateboarding"
+     ]
+    }
+   ]
+  },
+  {
    "type": "vocab",
    "title": "Describing Activities",
    "titleTr": "Etkinlikleri anlatmak",
@@ -188,17 +234,29 @@
     {
      "en": "amusing",
      "tr": "eğlenceli",
-     "emoji": "😄"
+     "emoji": "😄",
+     "img": "https://static.arasaac.org/pictograms/8593/8593_500.png",
+     "imageConcept": "amusing",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "challenging",
      "tr": "zorlayıcı",
-     "emoji": "💪"
+     "emoji": "💪",
+     "img": "https://static.arasaac.org/pictograms/4629/4629_500.png",
+     "imageConcept": "difficult",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "entertaining",
      "tr": "eğlendirici",
-     "emoji": "🎪"
+     "emoji": "🎪",
+     "img": "https://static.arasaac.org/pictograms/24733/24733_500.png",
+     "imageConcept": "fun",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -214,12 +272,20 @@
     {
      "en": "exciting",
      "tr": "heyecan verici",
-     "emoji": "🤩"
+     "emoji": "🤩",
+     "img": "https://static.arasaac.org/pictograms/39090/39090_500.png",
+     "imageConcept": "excited",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fascinating",
      "tr": "büyüleyici",
-     "emoji": "✨"
+     "emoji": "✨",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageConcept": "surprised",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "disappointing",
@@ -240,9 +306,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"disappointing\" means \"eğlendirici\".",
+     "statement": "\"exciting\" means \"eğlendirici\".",
      "answer": false,
-     "explain": "disappointing = hayal kırıklığı yaratan"
+     "explain": "exciting = heyecan verici"
     }
    ]
   },
@@ -257,9 +323,9 @@
      "answer": "disappointing",
      "options": [
       "disappointing",
-      "challenging",
       "entertaining",
-      "exciting"
+      "challenging",
+      "fascinating"
      ]
     }
    ]
@@ -274,21 +340,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "fascinating",
-       "b": "büyüleyici"
+       "a": "entertaining",
+       "b": "eğlendirici"
       },
       {
-       "a": "amusing",
-       "b": "eğlenceli"
+       "a": "disappointing",
+       "b": "hayal kırıklığı yaratan"
+      },
+      {
+       "a": "exciting",
+       "b": "heyecan verici"
       },
       {
        "a": "challenging",
        "b": "zorlayıcı"
-      },
-      {
-       "a": "entertaining",
-       "b": "eğlendirici"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Describing Activities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8593/8593_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "amusing",
+     "tr": "eğlenceli",
+     "options": [
+      "amusing",
+      "challenging",
+      "fascinating",
+      "entertaining"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Describing Activities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "fascinating",
+     "tr": "büyüleyici",
+     "options": [
+      "fascinating",
+      "entertaining",
+      "challenging",
+      "exciting"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Describing Activities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4629/4629_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "challenging",
+     "tr": "zorlayıcı",
+     "options": [
+      "challenging",
+      "exciting",
+      "disappointing",
+      "amusing"
      ]
     }
    ]
@@ -301,7 +433,11 @@
     {
      "en": "indoor",
      "tr": "kapalı mekan, iç mekan",
-     "emoji": "🏠"
+     "emoji": "🏠",
+     "img": "https://static.arasaac.org/pictograms/5439/5439_500.png",
+     "imageConcept": "inside",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "inexperienced",
@@ -311,12 +447,20 @@
     {
      "en": "goggles",
      "tr": "koruyucu gözlük",
-     "emoji": "🥽"
+     "emoji": "🥽",
+     "img": "https://static.arasaac.org/pictograms/3105/3105_500.png",
+     "imageConcept": "swimming goggles",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "height",
      "tr": "yükseklik",
-     "emoji": "📏"
+     "emoji": "📏",
+     "img": "https://static.arasaac.org/pictograms/8013/8013_500.png",
+     "imageConcept": "height",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -332,22 +476,38 @@
     {
      "en": "helmet",
      "tr": "kask",
-     "emoji": "⛑️"
+     "emoji": "⛑️",
+     "img": "https://static.arasaac.org/pictograms/2691/2691_500.png",
+     "imageConcept": "helmet",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "hill",
      "tr": "tepe",
-     "emoji": "⛰️"
+     "emoji": "⛰️",
+     "img": "https://static.arasaac.org/pictograms/38728/38728_500.png",
+     "imageConcept": "hill",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "historical sites",
      "tr": "tarihi yerler",
-     "emoji": "🏛️"
+     "emoji": "🏛️",
+     "img": "https://static.arasaac.org/pictograms/36297/36297_500.png",
+     "imageConcept": "monument",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "hot air balloon",
      "tr": "sıcak hava balonu",
-     "emoji": "🎈"
+     "emoji": "🎈",
+     "img": "https://static.arasaac.org/pictograms/2407/2407_500.png",
+     "imageConcept": "balloon",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -363,22 +523,38 @@
     {
      "en": "ice skating",
      "tr": "buz pateni",
-     "emoji": "⛸️"
+     "emoji": "⛸️",
+     "img": "https://static.arasaac.org/pictograms/7198/7198_500.png",
+     "imageConcept": "ice skating",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "include",
      "tr": "içermek, kapsamak",
-     "emoji": "➕"
+     "emoji": "➕",
+     "img": "https://static.arasaac.org/pictograms/11702/11702_500.png",
+     "imageConcept": "include",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "incredible",
      "tr": "inanılmaz",
-     "emoji": "🤯"
+     "emoji": "🤯",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageConcept": "surprised",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "individually",
      "tr": "bireysel",
-     "emoji": "👤"
+     "emoji": "👤",
+     "img": "https://static.arasaac.org/pictograms/7253/7253_500.png",
+     "imageConcept": "alone",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -394,8 +570,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "deneyimsiz, tecrübesiz",
-     "answer": "inexperienced"
+     "clue": "bireysel",
+     "answer": "individually"
     }
    ]
   },
@@ -409,20 +585,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "hill",
-       "b": "tepe"
+       "a": "inexperienced",
+       "b": "deneyimsiz, tecrübesiz"
       },
       {
-       "a": "historical sites",
-       "b": "tarihi yerler"
+       "a": "incredible",
+       "b": "inanılmaz"
+      },
+      {
+       "a": "goggles",
+       "b": "koruyucu gözlük"
       },
       {
        "a": "helmet",
        "b": "kask"
-      },
-      {
-       "a": "indoor",
-       "b": "kapalı mekan, iç mekan"
       }
      ]
     }
@@ -430,15 +606,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"hill\" means \"tepe\".",
-     "answer": true,
-     "explain": "hill = tepe"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8013/8013_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "height",
+     "tr": "yükseklik",
+     "options": [
+      "height",
+      "helmet",
+      "historical sites",
+      "indoor"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/7198/7198_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "ice skating",
+     "tr": "buz pateni",
+     "options": [
+      "ice skating",
+      "hot air balloon",
+      "indoor",
+      "individually"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/5439/5439_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "indoor",
+     "tr": "kapalı mekan, iç mekan",
+     "options": [
+      "indoor",
+      "helmet",
+      "hill",
+      "hot air balloon"
+     ]
     }
    ]
   },
@@ -450,12 +678,20 @@
     {
      "en": "diving suit",
      "tr": "dalış kıyafeti",
-     "emoji": "🤿"
+     "emoji": "🤿",
+     "img": "https://static.arasaac.org/pictograms/27284/27284_500.png",
+     "imageConcept": "wetsuit",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "equipment",
      "tr": "araç gereç, ekipman",
-     "emoji": "🎒"
+     "emoji": "🎒",
+     "img": "https://static.arasaac.org/pictograms/7127/7127_500.png",
+     "imageConcept": "tools",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "experience",
@@ -481,7 +717,11 @@
     {
      "en": "explore",
      "tr": "keşfetmek",
-     "emoji": "🧭"
+     "emoji": "🧭",
+     "img": "https://static.arasaac.org/pictograms/36922/36922_500.png",
+     "imageConcept": "explore",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "extreme sport",
@@ -491,17 +731,47 @@
     {
      "en": "feel",
      "tr": "hissetmek",
-     "emoji": "🙂"
+     "emoji": "🙂",
+     "img": "https://static.arasaac.org/pictograms/30197/30197_500.png",
+     "imageConcept": "feel",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fighting",
      "tr": "mücadele",
-     "emoji": "🥊"
+     "emoji": "🥊",
+     "img": "https://static.arasaac.org/pictograms/9007/9007_500.png",
+     "imageConcept": "fight",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     2,
     2
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/27284/27284_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "diving suit",
+     "tr": "dalış kıyafeti",
+     "options": [
+      "diving suit",
+      "feel",
+      "experienced",
+      "extreme sport"
+     ]
+    }
    ]
   },
   {
@@ -512,9 +782,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"fighting\" means \"deneyim, tecrübe\".",
+     "statement": "\"feel\" means \"tehlikeli ve heyecanlı spor\".",
      "answer": false,
-     "explain": "fighting = mücadele"
+     "explain": "feel = hissetmek"
     }
    ]
   },
@@ -528,20 +798,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "extreme sport",
+       "b": "tehlikeli ve heyecanlı spor"
+      },
+      {
+       "a": "fighting",
+       "b": "mücadele"
+      },
+      {
        "a": "experienced",
        "b": "deneyimli, tecrübeli"
       },
       {
-       "a": "experience",
-       "b": "deneyim, tecrübe"
-      },
-      {
        "a": "feel",
        "b": "hissetmek"
-      },
-      {
-       "a": "extreme sport",
-       "b": "tehlikeli ve heyecanlı spor"
       }
      ]
     }
@@ -549,14 +819,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "deneyimli, tecrübeli",
-     "answer": "experienced"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/36922/36922_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "explore",
+     "tr": "keşfetmek",
+     "options": [
+      "explore",
+      "feel",
+      "fighting",
+      "extreme sport"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/9007/9007_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "fighting",
+     "tr": "mücadele",
+     "options": [
+      "fighting",
+      "equipment",
+      "feel",
+      "experience"
+     ]
     }
    ]
   },
@@ -574,6 +875,10 @@
      "trEm": [
       "takmalısın."
      ],
+     "img": "https://static.arasaac.org/pictograms/2691/2691_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "helmet",
      "emoji": "⛑️"
     }
    ],
@@ -599,6 +904,10 @@
         "trEm": [
          "takmalısın."
         ],
+        "img": "https://static.arasaac.org/pictograms/2691/2691_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "helmet",
         "emoji": "⛑️"
        },
        {
@@ -637,6 +946,10 @@
         "trEm": [
          "unutmamalısın."
         ],
+        "img": "https://static.arasaac.org/pictograms/7127/7127_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "tools",
         "emoji": "🎒"
        },
        {
@@ -657,6 +970,10 @@
       "trEm": [
        "takmalısın."
       ],
+      "img": "https://static.arasaac.org/pictograms/2691/2691_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "helmet",
       "emoji": "⛑️"
      }
     ]
@@ -676,6 +993,10 @@
      "trEm": [
       "takmalısın."
      ],
+     "img": "https://static.arasaac.org/pictograms/2691/2691_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "helmet",
      "emoji": "⛑️",
      "focus": "should ✅"
     }
@@ -772,6 +1093,10 @@
      "trEm": [
       "unutmamalısın."
      ],
+     "img": "https://static.arasaac.org/pictograms/7127/7127_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "tools",
      "emoji": "🎒",
      "focus": "shouldn't ⛔"
     }
@@ -1301,28 +1626,37 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "paragliding",
-      "tr": "yamaç paraşütü",
-      "img": "/app/img/words/paragliding.jpg",
-      "emoji": "🪂"
+      "en": "caving",
+      "tr": "mağaracılık",
+      "img": "/app/img/words/caving.jpg",
+      "emoji": "🕳️"
      },
      {
-      "en": "rafting",
-      "tr": "rafting",
-      "img": "/app/img/words/rafting.jpg",
-      "emoji": "🌊"
+      "en": "helmet",
+      "tr": "kask",
+      "img": "https://static.arasaac.org/pictograms/2691/2691_500.png",
+      "emoji": "⛑️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "helmet"
      },
      {
-      "en": "motor racing",
-      "tr": "motor yarışı",
-      "img": "/app/img/words/motor-racing.jpg",
-      "emoji": "🏎️"
+      "en": "hot air balloon",
+      "tr": "sıcak hava balonu",
+      "img": "https://static.arasaac.org/pictograms/2407/2407_500.png",
+      "emoji": "🎈",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "balloon"
      },
      {
-      "en": "bungee-jumping",
-      "tr": "bancî atlayışı",
-      "img": "/app/img/words/bungee-jumping.jpg",
-      "emoji": "🪢"
+      "en": "exciting",
+      "tr": "heyecan verici",
+      "img": "https://static.arasaac.org/pictograms/39090/39090_500.png",
+      "emoji": "🤩",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "excited"
      }
     ]
    }
@@ -1340,32 +1674,44 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "extreme sports",
-      "tr": "ekstrem sporlar",
-      "img": "/app/img/words/extreme-sports.jpg",
-      "emoji": "🏂",
-      "audio": "/app/audio/words/extreme-sports.wav"
+      "en": "fighting",
+      "tr": "mücadele",
+      "img": "https://static.arasaac.org/pictograms/9007/9007_500.png",
+      "emoji": "🥊",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fight",
+      "audio": "/app/audio/words/fighting.wav"
      },
      {
-      "en": "caving",
-      "tr": "mağaracılık",
-      "img": "/app/img/words/caving.jpg",
-      "emoji": "🕳️",
-      "audio": "/app/audio/words/caving.wav"
+      "en": "entertaining",
+      "tr": "eğlendirici",
+      "img": "https://static.arasaac.org/pictograms/24733/24733_500.png",
+      "emoji": "🎪",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fun",
+      "audio": "/app/audio/words/entertaining.wav"
      },
      {
-      "en": "kayaking",
-      "tr": "kayak (kano)",
-      "img": "/app/img/words/kayaking.jpg",
-      "emoji": "🚣",
-      "audio": "/app/audio/words/kayaking.wav"
+      "en": "height",
+      "tr": "yükseklik",
+      "img": "https://static.arasaac.org/pictograms/8013/8013_500.png",
+      "emoji": "📏",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "height",
+      "audio": "/app/audio/words/height.wav"
      },
      {
-      "en": "skateboarding",
-      "tr": "kaykay",
-      "img": "/app/img/words/skateboarding.jpg",
-      "emoji": "🛹",
-      "audio": "/app/audio/words/skateboarding.wav"
+      "en": "diving suit",
+      "tr": "dalış kıyafeti",
+      "img": "https://static.arasaac.org/pictograms/27284/27284_500.png",
+      "emoji": "🤿",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "wetsuit",
+      "audio": "/app/audio/words/diving-suit.wav"
      }
     ]
    }
@@ -1383,16 +1729,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "You mustn't leave rubbish here.",
-      "tr": "Buraya çöp bırakmamalısın."
+      "answer": "You mustn't go rafting without a life jacket.",
+      "tr": "Can yeleği olmadan raftinge gitmemelisin."
      },
      {
-      "answer": "Beginners should go with a guide.",
-      "tr": "Yeni başlayanlar rehberle gitmeli."
+      "answer": "You should check the weather first.",
+      "tr": "Önce hava durumunu kontrol etmelisin."
      },
      {
-      "answer": "Rafting is more exciting than hiking.",
-      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
+      "answer": "You shouldn't swim when the sea is rough.",
+      "tr": "Deniz dalgalıyken yüzmemelisin."
      }
     ]
    }
@@ -1420,9 +1766,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Divers must have a licence.",
+    "clue": "You must follow the safety rules.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Dalgıçların lisansı olmalı."
+    "tr": "Güvenlik kurallarına uymalısın."
    },
    "part": [
     5,
@@ -1436,9 +1782,9 @@
    "task": {
     "kind": "flash",
     "q": "Choose an adventure for a class trip. Compare two activities and explain your choice.",
-    "clue": "Rafting is more exciting than hiking.",
+    "clue": "Climbing is harder than cycling.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
+    "tr": "Tırmanmak, bisiklet sürmekten daha zordur."
    },
    "part": [
     6,

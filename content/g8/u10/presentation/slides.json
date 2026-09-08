@@ -41,7 +41,11 @@
     {
      "en": "avalanche",
      "tr": "çığ",
-     "emoji": "🏔️"
+     "emoji": "🏔️",
+     "img": "https://static.arasaac.org/pictograms/29686/29686_500.png",
+     "imageConcept": "avalanche",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -98,7 +102,11 @@
     {
      "en": "disaster",
      "tr": "felaket",
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "img": "https://static.arasaac.org/pictograms/25052/25052_500.png",
+     "imageConcept": "disaster",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -144,13 +152,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "/app/img/words/earthquake.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "earthquake",
      "tr": "deprem",
      "options": [
       "earthquake",
-      "tsunami",
-      "flood",
-      "avalanche"
+      "tornado",
+      "disaster",
+      "tsunami"
      ]
     }
    ]
@@ -163,8 +173,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "kasırga",
-     "answer": "hurricane"
+     "clue": "deprem",
+     "answer": "earthquake"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Natural Disasters",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/tornado.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "tornado",
+     "tr": "hortum",
+     "options": [
+      "tornado",
+      "flood",
+      "hurricane",
+      "volcano"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Natural Disasters",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/25052/25052_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "disaster",
+     "tr": "felaket",
+     "options": [
+      "disaster",
+      "avalanche",
+      "flood",
+      "landslide"
+     ]
     }
    ]
   },
@@ -182,12 +236,20 @@
     {
      "en": "melt",
      "tr": "erimek",
-     "emoji": "💧"
+     "emoji": "💧",
+     "img": "https://static.arasaac.org/pictograms/7011/7011_500.png",
+     "imageConcept": "melt",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "precaution",
      "tr": "önlem",
-     "emoji": "🛡️"
+     "emoji": "🛡️",
+     "img": "https://static.arasaac.org/pictograms/25618/25618_500.png",
+     "imageConcept": "precaution",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -203,7 +265,11 @@
     {
      "en": "suffer",
      "tr": "acı çekmek",
-     "emoji": "😣"
+     "emoji": "😣",
+     "img": "https://static.arasaac.org/pictograms/30620/30620_500.png",
+     "imageConcept": "suffer",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "survivor",
@@ -225,26 +291,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"suffer\" means \"hayatta kalan\".",
+     "statement": "\"precaution\" means \"hayatta kalan\".",
      "answer": false,
-     "explain": "suffer = acı çekmek"
+     "explain": "precaution = önlem"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"küresel ısınma\"?",
+   "title": "Activity Break · Which word means \"erimek\"?",
    "titleTr": "Use what you just learned · Causes & Precautions",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"küresel ısınma\"?",
-     "answer": "global warming",
+     "q": "Which word means \"erimek\"?",
+     "answer": "melt",
      "options": [
-      "global warming",
       "melt",
-      "precaution",
-      "suffer"
+      "global warming",
+      "suffer",
+      "precaution"
      ]
     }
    ]
@@ -259,21 +325,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "global warming",
-       "b": "küresel ısınma"
+       "a": "survivor",
+       "b": "hayatta kalan"
       },
       {
        "a": "suffer",
        "b": "acı çekmek"
       },
       {
-       "a": "survivor",
-       "b": "hayatta kalan"
-      },
-      {
        "a": "precaution",
        "b": "önlem"
+      },
+      {
+       "a": "global warming",
+       "b": "küresel ısınma"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Causes & Precautions",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/7011/7011_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "melt",
+     "tr": "erimek",
+     "options": [
+      "melt",
+      "global warming",
+      "survivor",
+      "precaution"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Causes & Precautions",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/30620/30620_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "suffer",
+     "tr": "acı çekmek",
+     "options": [
+      "suffer",
+      "survivor",
+      "precaution",
+      "global warming"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Causes & Precautions",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/survivor.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "survivor",
+     "tr": "hayatta kalan",
+     "options": [
+      "survivor",
+      "suffer",
+      "melt",
+      "global warming"
      ]
     }
    ]
@@ -286,12 +418,20 @@
     {
      "en": "storm",
      "tr": "fırtına",
-     "emoji": "⛈️"
+     "emoji": "⛈️",
+     "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
+     "imageConcept": "stormy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "eruption",
      "tr": "patlama",
-     "emoji": "🌋"
+     "emoji": "🌋",
+     "img": "https://static.arasaac.org/pictograms/26834/26834_500.png",
+     "imageConcept": "eruption",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "wildfire",
@@ -301,7 +441,11 @@
     {
      "en": "lightning",
      "tr": "şimşek",
-     "emoji": "⚡"
+     "emoji": "⚡",
+     "img": "https://static.arasaac.org/pictograms/2819/2819_500.png",
+     "imageConcept": "lightning",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -317,7 +461,11 @@
     {
      "en": "thunder",
      "tr": "gök gürültüsü",
-     "emoji": "🌩️"
+     "emoji": "🌩️",
+     "img": "https://static.arasaac.org/pictograms/3225/3225_500.png",
+     "imageConcept": "thunder",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "damage",
@@ -327,7 +475,11 @@
     {
      "en": "rescue team",
      "tr": "kurtarma ekibi",
-     "emoji": "🚑"
+     "emoji": "🚑",
+     "img": "https://static.arasaac.org/pictograms/9046/9046_500.png",
+     "imageConcept": "rescue",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "emergency",
@@ -348,17 +500,29 @@
     {
      "en": "shelter",
      "tr": "sığınak",
-     "emoji": "⛺"
+     "emoji": "⛺",
+     "img": "https://static.arasaac.org/pictograms/11222/11222_500.png",
+     "imageConcept": "shelter",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "warning",
      "tr": "uyarı",
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+     "imageConcept": "warning",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "aftershock",
      "tr": "artçı sarsıntı",
-     "emoji": "📳"
+     "emoji": "📳",
+     "img": "https://static.arasaac.org/pictograms/4755/4755_500.png",
+     "imageConcept": "earthquake",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "debris",
@@ -379,8 +543,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "sığınak",
-     "answer": "shelter"
+     "clue": "enkaz",
+     "answer": "debris"
     }
    ]
   },
@@ -398,16 +562,16 @@
        "b": "uyarı"
       },
       {
-       "a": "eruption",
-       "b": "patlama"
-      },
-      {
        "a": "rescue team",
        "b": "kurtarma ekibi"
       },
       {
-       "a": "debris",
-       "b": "enkaz"
+       "a": "aftershock",
+       "b": "artçı sarsıntı"
+      },
+      {
+       "a": "wildfire",
+       "b": "orman yangını"
       }
      ]
     }
@@ -415,15 +579,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"storm\" means \"fırtına\".",
-     "answer": true,
-     "explain": "storm = fırtına"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "warning",
+     "tr": "uyarı",
+     "options": [
+      "warning",
+      "emergency",
+      "wildfire",
+      "shelter"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2819/2819_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "lightning",
+     "tr": "şimşek",
+     "options": [
+      "lightning",
+      "rescue team",
+      "eruption",
+      "thunder"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/26834/26834_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "eruption",
+     "tr": "patlama",
+     "options": [
+      "eruption",
+      "rescue team",
+      "emergency",
+      "aftershock"
+     ]
     }
    ]
   },
@@ -435,12 +651,40 @@
     {
      "en": "first aid",
      "tr": "ilk yardım",
-     "emoji": "🩹"
+     "emoji": "🩹",
+     "img": "https://static.arasaac.org/pictograms/5930/5930_500.png",
+     "imageConcept": "medicine cabinet",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "evacuate",
      "tr": "tahliye etmek",
-     "emoji": "🚪"
+     "emoji": "🚪",
+     "img": "https://static.arasaac.org/pictograms/37863/37863_500.png",
+     "imageConcept": "evacuate",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/5930/5930_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "first aid",
+     "tr": "ilk yardım",
+     "options": [
+      "first aid",
+      "evacuate"
+     ]
     }
    ]
   },
@@ -452,9 +696,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"first aid\" means \"tahliye etmek\".",
+     "statement": "\"evacuate\" means \"ilk yardım\".",
      "answer": false,
-     "explain": "first aid = ilk yardım"
+     "explain": "evacuate = tahliye etmek"
     }
    ]
   },
@@ -466,8 +710,28 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "ilk yardım",
-     "answer": "first aid"
+     "clue": "tahliye etmek",
+     "answer": "evacuate"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/37863/37863_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "evacuate",
+     "tr": "tahliye etmek",
+     "options": [
+      "evacuate",
+      "first aid"
+     ]
     }
    ]
   },
@@ -485,6 +749,10 @@
      "trEm": [
       "olacak"
      ],
+     "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "stormy",
      "emoji": "⛈️"
     }
    ],
@@ -512,6 +780,10 @@
       "trEm": [
        "olacak"
       ],
+      "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "stormy",
       "emoji": "⛈️"
      },
      {
@@ -544,6 +816,10 @@
       "trEm": [
        "Fırtına bu gece kasabamıza ulaşabilir."
       ],
+      "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "stormy",
       "emoji": "⛈️"
      }
     ]
@@ -634,6 +910,10 @@
      "trEm": [
       "Fırtına bu gece kasabamıza ulaşabilir."
      ],
+     "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "stormy",
      "emoji": "⛈️"
     }
    ],
@@ -1157,22 +1437,28 @@
       "emoji": "🌀"
      },
      {
-      "en": "earthquake",
-      "tr": "deprem",
-      "img": "/app/img/words/earthquake.jpg",
-      "emoji": "🌎"
+      "en": "lightning",
+      "tr": "şimşek",
+      "img": "https://static.arasaac.org/pictograms/2819/2819_500.png",
+      "emoji": "⚡",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "lightning"
      },
      {
-      "en": "tornado",
-      "tr": "hortum",
-      "img": "/app/img/words/tornado.jpg",
-      "emoji": "🌪️"
+      "en": "landslide",
+      "tr": "heyelan",
+      "img": "/app/img/words/landslide.jpg",
+      "emoji": "⛰️"
      },
      {
-      "en": "volcano",
-      "tr": "yanardağ",
-      "img": "/app/img/words/volcano.jpg",
-      "emoji": "🌋"
+      "en": "warning",
+      "tr": "uyarı",
+      "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+      "emoji": "⚠️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "warning"
      }
     ]
    }
@@ -1190,20 +1476,6 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "drought",
-      "tr": "kuraklık",
-      "img": "/app/img/words/drought.jpg",
-      "emoji": "🏜️",
-      "audio": "/app/audio/words/drought.wav"
-     },
-     {
-      "en": "landslide",
-      "tr": "heyelan",
-      "img": "/app/img/words/landslide.jpg",
-      "emoji": "⛰️",
-      "audio": "/app/audio/words/landslide.wav"
-     },
-     {
       "en": "flood",
       "tr": "sel",
       "img": "/app/img/words/flood.jpg",
@@ -1211,11 +1483,31 @@
       "audio": "/app/audio/words/flood.wav"
      },
      {
-      "en": "global warming",
-      "tr": "küresel ısınma",
-      "img": "/app/img/words/global-warming.jpg",
-      "emoji": "🌡️",
-      "audio": "/app/audio/words/global-warming.wav"
+      "en": "melt",
+      "tr": "erimek",
+      "img": "https://static.arasaac.org/pictograms/7011/7011_500.png",
+      "emoji": "💧",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "melt",
+      "audio": "/app/audio/words/melt.wav"
+     },
+     {
+      "en": "tsunami",
+      "tr": "tsunami",
+      "img": "/app/img/words/tsunami.jpg",
+      "emoji": "🌊",
+      "audio": "/app/audio/words/tsunami.wav"
+     },
+     {
+      "en": "first aid",
+      "tr": "ilk yardım",
+      "img": "https://static.arasaac.org/pictograms/5930/5930_500.png",
+      "emoji": "🩹",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "medicine cabinet",
+      "audio": "/app/audio/words/first-aid.wav"
      }
     ]
    }
@@ -1233,16 +1525,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "There will be a storm tomorrow.",
-      "tr": "Yarın fırtına olacak."
+      "answer": "If it rains, we will stay indoors.",
+      "tr": "Yağmur yağarsa içeride kalacağız."
      },
      {
-      "answer": "Don't panic and follow the instructions.",
-      "tr": "Panik yapma ve talimatlara uy."
+      "answer": "The storm may reach our town tonight.",
+      "tr": "Fırtına bu gece kasabamıza ulaşabilir."
      },
      {
-      "answer": "Scientists may predict earthquakes one day.",
-      "tr": "Bilim insanları bir gün depremleri tahmin edebilir."
+      "answer": "The river won't flood this year.",
+      "tr": "Nehir bu yıl taşmayacak."
      }
     ]
    }
@@ -1254,9 +1546,9 @@
    "task": {
     "kind": "flash",
     "q": "You are a weather reporter. Make two predictions for tomorrow and one uncertain prediction.",
-    "clue": "Scientists may predict earthquakes one day.",
+    "clue": "There will be a storm tomorrow.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Bilim insanları bir gün depremleri tahmin edebilir."
+    "tr": "Yarın fırtına olacak."
    },
    "part": [
     4,
@@ -1270,9 +1562,9 @@
    "task": {
     "kind": "flash",
     "q": "Plan a picnic. Say what you will do if it rains. Your partner adds another possible situation.",
-    "clue": "If it rains, the streets will flood.",
+    "clue": "The soil will dry if it doesn't rain.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Yağmur yağarsa sokaklar su altında kalır."
+    "tr": "Yağmur yağmazsa toprak kurur."
    },
    "part": [
     5,
@@ -1286,9 +1578,9 @@
    "task": {
     "kind": "flash",
     "q": "Make an emergency plan. Give your partner two useful pieces of advice.",
-    "clue": "You shouldn't use the lift during an earthquake.",
+    "clue": "Stay away from windows.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Deprem sırasında asansörü kullanmamalısın."
+    "tr": "Pencerelerden uzak dur."
    },
    "part": [
     6,

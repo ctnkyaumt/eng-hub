@@ -23,7 +23,11 @@
     {
      "en": "friendship",
      "tr": "arkadaşlık",
-     "emoji": "❤️"
+     "emoji": "❤️",
+     "img": "https://static.arasaac.org/pictograms/8488/8488_500.png",
+     "imageConcept": "friendship",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "best friend",
@@ -34,12 +38,20 @@
     {
      "en": "buddy",
      "tr": "dost",
-     "emoji": "🧑‍🤝‍🧑"
+     "emoji": "🧑‍🤝‍🧑",
+     "img": "https://static.arasaac.org/pictograms/8486/8486_500.png",
+     "imageConcept": "friend",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "mate",
      "tr": "arkadaş",
-     "emoji": "🙋"
+     "emoji": "🙋",
+     "img": "https://static.arasaac.org/pictograms/8486/8486_500.png",
+     "imageConcept": "friend",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -55,7 +67,11 @@
     {
      "en": "advice",
      "tr": "tavsiye",
-     "emoji": "💡"
+     "emoji": "💡",
+     "img": "https://static.arasaac.org/pictograms/29959/29959_500.png",
+     "imageConcept": "advise",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "concert",
@@ -66,7 +82,11 @@
     {
      "en": "come over",
      "tr": "uğramak",
-     "emoji": "🚪"
+     "emoji": "🚪",
+     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
+     "imageConcept": "visit",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "go for a walk",
@@ -117,14 +137,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/best-friend.jpg",
-     "answer": "best friend",
-     "tr": "en iyi arkadaş",
+     "img": "https://static.arasaac.org/pictograms/8488/8488_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "friendship",
+     "tr": "arkadaşlık",
      "options": [
-      "best friend",
-      "concert",
-      "mate",
-      "advice"
+      "friendship",
+      "advice",
+      "buddy",
+      "best friend"
      ]
     }
    ]
@@ -137,8 +159,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "arkadaş",
-     "answer": "mate"
+     "clue": "arkadaşlık",
+     "answer": "friendship"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Friends",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/concert.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "concert",
+     "tr": "konser",
+     "options": [
+      "concert",
+      "advice",
+      "friendship",
+      "best friend"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Friends",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8486/8486_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "mate",
+     "tr": "arkadaş",
+     "options": [
+      "mate",
+      "best friend",
+      "come over",
+      "concert"
+     ]
     }
    ]
   },
@@ -155,17 +221,29 @@
     {
      "en": "trust",
      "tr": "güven",
-     "emoji": "🫱"
+     "emoji": "🫱",
+     "img": "https://static.arasaac.org/pictograms/36694/36694_500.png",
+     "imageConcept": "trust",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "patience",
      "tr": "sabır",
-     "emoji": "⏳"
+     "emoji": "⏳",
+     "img": "https://static.arasaac.org/pictograms/27333/27333_500.png",
+     "imageConcept": "patience",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "mutual",
      "tr": "karşılıklı",
-     "emoji": "↔️"
+     "emoji": "↔️",
+     "img": "https://static.arasaac.org/pictograms/5367/5367_500.png",
+     "imageConcept": "together",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -191,7 +269,11 @@
     {
      "en": "treasure",
      "tr": "hazine",
-     "emoji": "🏆"
+     "emoji": "🏆",
+     "img": "https://static.arasaac.org/pictograms/6229/6229_500.png",
+     "imageConcept": "treasure",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "secret",
@@ -213,22 +295,38 @@
     {
      "en": "promise",
      "tr": "söz vermek",
-     "emoji": "🤞"
+     "emoji": "🤞",
+     "img": "https://static.arasaac.org/pictograms/37046/37046_500.png",
+     "imageConcept": "promise",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "share",
      "tr": "paylaşmak",
-     "emoji": "🤲"
+     "emoji": "🤲",
+     "img": "https://static.arasaac.org/pictograms/15361/15361_500.png",
+     "imageConcept": "share",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "support",
      "tr": "desteklemek",
-     "emoji": "🙌"
+     "emoji": "🙌",
+     "img": "https://static.arasaac.org/pictograms/30008/30008_500.png",
+     "imageConcept": "support",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "count on",
      "tr": "güvenmek",
-     "emoji": "🫶"
+     "emoji": "🫶",
+     "img": "https://static.arasaac.org/pictograms/36694/36694_500.png",
+     "imageConcept": "trust",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -244,12 +342,20 @@
     {
      "en": "back up",
      "tr": "arka çıkmak",
-     "emoji": "🛡️"
+     "emoji": "🛡️",
+     "img": "https://static.arasaac.org/pictograms/4570/4570_500.png",
+     "imageConcept": "help",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "get on well with somebody",
      "tr": "biriyle iyi geçinmek",
-     "emoji": "😊"
+     "emoji": "😊",
+     "img": "https://static.arasaac.org/pictograms/8488/8488_500.png",
+     "imageConcept": "friendship",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "survive",
@@ -270,26 +376,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"promise\" means \"sadakat\".",
+     "statement": "\"trust\" means \"koşulsuz\".",
      "answer": false,
-     "explain": "promise = söz vermek"
+     "explain": "trust = güven"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"arka çıkmak\"?",
+   "title": "Activity Break · Which word means \"paylaşmak\"?",
    "titleTr": "Use what you just learned · Qualities of Friendship",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"arka çıkmak\"?",
-     "answer": "back up",
+     "q": "Which word means \"paylaşmak\"?",
+     "answer": "share",
      "options": [
-      "back up",
+      "share",
       "secret",
-      "support",
-      "priceless"
+      "promise",
+      "mutual"
      ]
     }
    ]
@@ -304,21 +410,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "secret",
-       "b": "sır"
-      },
-      {
        "a": "loyalty",
        "b": "sadakat"
       },
       {
-       "a": "support",
-       "b": "desteklemek"
+       "a": "back up",
+       "b": "arka çıkmak"
       },
       {
-       "a": "count on",
-       "b": "güvenmek"
+       "a": "secret",
+       "b": "sır"
+      },
+      {
+       "a": "support",
+       "b": "desteklemek"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Qualities of Friendship",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/37046/37046_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "promise",
+     "tr": "söz vermek",
+     "options": [
+      "promise",
+      "trust",
+      "count on",
+      "secret"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Qualities of Friendship",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4570/4570_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "back up",
+     "tr": "arka çıkmak",
+     "options": [
+      "back up",
+      "count on",
+      "unconditional",
+      "secret"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Qualities of Friendship",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/6229/6229_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "treasure",
+     "tr": "hazine",
+     "options": [
+      "treasure",
+      "survive",
+      "get on well with somebody",
+      "unconditional"
      ]
     }
    ]
@@ -331,22 +503,38 @@
     {
      "en": "awesome",
      "tr": "harika",
-     "emoji": "🤩"
+     "emoji": "🤩",
+     "img": "https://static.arasaac.org/pictograms/11599/11599_500.png",
+     "imageConcept": "fantastic",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "cool",
      "tr": "havalı",
-     "emoji": "😎"
+     "emoji": "😎",
+     "img": "https://static.arasaac.org/pictograms/11599/11599_500.png",
+     "imageConcept": "cool",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "laid-back",
      "tr": "rahat, sakin",
-     "emoji": "😌"
+     "emoji": "😌",
+     "img": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+     "imageConcept": "calm",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "thrilling",
      "tr": "heyecan verici",
-     "emoji": "⚡"
+     "emoji": "⚡",
+     "img": "https://static.arasaac.org/pictograms/39090/39090_500.png",
+     "imageConcept": "excited",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -362,7 +550,11 @@
     {
      "en": "serious",
      "tr": "ciddi",
-     "emoji": "😐"
+     "emoji": "😐",
+     "img": "https://static.arasaac.org/pictograms/8690/8690_500.png",
+     "imageConcept": "serious",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "busy",
@@ -372,12 +564,20 @@
     {
      "en": "full",
      "tr": "tok",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "https://static.arasaac.org/pictograms/4688/4688_500.png",
+     "imageConcept": "full",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "stuffed",
      "tr": "çok tok",
-     "emoji": "😋"
+     "emoji": "😋",
+     "img": "https://static.arasaac.org/pictograms/38801/38801_500.png",
+     "imageConcept": "stuffed",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -408,8 +608,8 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "thrilling",
-       "b": "heyecan verici"
+       "a": "laid-back",
+       "b": "rahat, sakin"
       },
       {
        "a": "awesome",
@@ -420,8 +620,8 @@
        "b": "meşgul"
       },
       {
-       "a": "stuffed",
-       "b": "çok tok"
+       "a": "thrilling",
+       "b": "heyecan verici"
       }
      ]
     }
@@ -429,15 +629,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Describing People",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"stuffed\" means \"çok tok\".",
-     "answer": true,
-     "explain": "stuffed = çok tok"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "laid-back",
+     "tr": "rahat, sakin",
+     "options": [
+      "laid-back",
+      "thrilling",
+      "full",
+      "serious"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Describing People",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/38801/38801_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "stuffed",
+     "tr": "çok tok",
+     "options": [
+      "stuffed",
+      "full",
+      "busy",
+      "serious"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Describing People",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8690/8690_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "serious",
+     "tr": "ciddi",
+     "options": [
+      "serious",
+      "full",
+      "laid-back",
+      "awesome"
+     ]
     }
    ]
   },
@@ -449,22 +701,38 @@
     {
      "en": "weekdays",
      "tr": "hafta içi",
-     "emoji": "📅"
+     "emoji": "📅",
+     "img": "/app/img/concepts/weekdays.svg",
+     "imageConcept": "weekdays",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain"
     },
     {
      "en": "weekend",
      "tr": "hafta sonu",
-     "emoji": "🛋️"
+     "emoji": "🛋️",
+     "img": "/app/img/concepts/weekend.svg",
+     "imageConcept": "weekend",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain"
     },
     {
      "en": "write a diary",
      "tr": "günlük yazmak",
-     "emoji": "📔"
+     "emoji": "📔",
+     "img": "https://static.arasaac.org/pictograms/2380/2380_500.png",
+     "imageConcept": "write",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "visit relatives",
      "tr": "akrabaları ziyaret etmek",
-     "emoji": "👪"
+     "emoji": "👪",
+     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
+     "imageConcept": "visit",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -480,22 +748,38 @@
     {
      "en": "wake up",
      "tr": "uyanmak",
-     "emoji": "⏰"
+     "emoji": "⏰",
+     "img": "https://static.arasaac.org/pictograms/8988/8988_500.png",
+     "imageConcept": "wake up",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "walk the dog",
      "tr": "köpeği gezdirmek",
-     "emoji": "🐕"
+     "emoji": "🐕",
+     "img": "https://static.arasaac.org/pictograms/9016/9016_500.png",
+     "imageConcept": "walk the dog",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "wash face",
      "tr": "yüz yıkamak",
-     "emoji": "🧼"
+     "emoji": "🧼",
+     "img": "https://static.arasaac.org/pictograms/4939/4939_500.png",
+     "imageConcept": "soap the face",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "watch TV",
      "tr": "televizyon izlemek",
-     "emoji": "📺"
+     "emoji": "📺",
+     "img": "https://static.arasaac.org/pictograms/2782/2782_500.png",
+     "imageConcept": "watch tv",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -511,27 +795,65 @@
     {
      "en": "water the flowers",
      "tr": "çiçekleri sulamak",
-     "emoji": "🪴"
+     "emoji": "🪴",
+     "img": "https://static.arasaac.org/pictograms/2817/2817_500.png",
+     "imageConcept": "watering can",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "ride a bike",
      "tr": "bisiklete binmek",
-     "emoji": "🚲"
+     "emoji": "🚲",
+     "img": "https://static.arasaac.org/pictograms/5517/5517_500.png",
+     "imageConcept": "ride a bike",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "run errands",
      "tr": "günlük işleri yapmak",
-     "emoji": "🛍️"
+     "emoji": "🛍️",
+     "img": "https://static.arasaac.org/pictograms/9058/9058_500.png",
+     "imageConcept": "shopping",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "study",
      "tr": "ders çalışmak",
-     "emoji": "📚"
+     "emoji": "📚",
+     "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+     "imageConcept": "study",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     3,
     3
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/9016/9016_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "walk the dog",
+     "tr": "köpeği gezdirmek",
+     "options": [
+      "walk the dog",
+      "weekdays",
+      "water the flowers",
+      "visit relatives"
+     ]
+    }
    ]
   },
   {
@@ -542,9 +864,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"weekend\" means \"televizyon izlemek\".",
+     "statement": "\"study\" means \"günlük yazmak\".",
      "answer": false,
-     "explain": "weekend = hafta sonu"
+     "explain": "study = ders çalışmak"
     }
    ]
   },
@@ -558,20 +880,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "ride a bike",
-       "b": "bisiklete binmek"
-      },
-      {
-       "a": "watch TV",
-       "b": "televizyon izlemek"
-      },
-      {
-       "a": "water the flowers",
-       "b": "çiçekleri sulamak"
+       "a": "study",
+       "b": "ders çalışmak"
       },
       {
        "a": "visit relatives",
        "b": "akrabaları ziyaret etmek"
+      },
+      {
+       "a": "wake up",
+       "b": "uyanmak"
+      },
+      {
+       "a": "weekend",
+       "b": "hafta sonu"
       }
      ]
     }
@@ -579,14 +901,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "günlük yazmak",
-     "answer": "write a diary"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/5517/5517_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "ride a bike",
+     "tr": "bisiklete binmek",
+     "options": [
+      "ride a bike",
+      "write a diary",
+      "wake up",
+      "run errands"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "study",
+     "tr": "ders çalışmak",
+     "options": [
+      "study",
+      "watch TV",
+      "water the flowers",
+      "wake up"
+     ]
     }
    ]
   },
@@ -598,12 +951,20 @@
     {
      "en": "take a course",
      "tr": "kurs almak",
-     "emoji": "🏫"
+     "emoji": "🏫",
+     "img": "https://static.arasaac.org/pictograms/23404/23404_500.png",
+     "imageConcept": "course",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "take a nap",
      "tr": "şekerleme yapmak",
-     "emoji": "😴"
+     "emoji": "😴",
+     "img": "https://static.arasaac.org/pictograms/28425/28425_500.png",
+     "imageConcept": "nap",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "take care of a pet",
@@ -613,7 +974,11 @@
     {
      "en": "life",
      "tr": "yaşam, hayat",
-     "emoji": "🌱"
+     "emoji": "🌱",
+     "img": "https://static.arasaac.org/pictograms/8717/8717_500.png",
+     "imageConcept": "life",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -629,22 +994,38 @@
     {
      "en": "listen to music",
      "tr": "müzik dinlemek",
-     "emoji": "🎧"
+     "emoji": "🎧",
+     "img": "https://static.arasaac.org/pictograms/2746/2746_500.png",
+     "imageConcept": "listen to music",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "meet friends",
      "tr": "arkadaşlarla buluşmak",
-     "emoji": "🧑‍🤝‍🧑"
+     "emoji": "🧑‍🤝‍🧑",
+     "img": "https://static.arasaac.org/pictograms/2255/2255_500.png",
+     "imageConcept": "friends",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "noon",
      "tr": "öğlen",
-     "emoji": "🕛"
+     "emoji": "🕛",
+     "img": "https://static.arasaac.org/pictograms/32708/32708_500.png",
+     "imageConcept": "midday",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "play chess",
      "tr": "satranç oynamak",
-     "emoji": "♟️"
+     "emoji": "♟️",
+     "img": "https://static.arasaac.org/pictograms/25181/25181_500.png",
+     "imageConcept": "play chess",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -660,22 +1041,38 @@
     {
      "en": "read a book",
      "tr": "kitap okumak",
-     "emoji": "📖"
+     "emoji": "📖",
+     "img": "https://static.arasaac.org/pictograms/7141/7141_500.png",
+     "imageConcept": "read",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "have breakfast",
      "tr": "kahvaltı yapmak",
-     "emoji": "🥞"
+     "emoji": "🥞",
+     "img": "https://static.arasaac.org/pictograms/4625/4625_500.png",
+     "imageConcept": "breakfast",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "have dinner",
      "tr": "akşam yemeği yemek",
-     "emoji": "🍽️"
+     "emoji": "🍽️",
+     "img": "https://static.arasaac.org/pictograms/4593/4593_500.png",
+     "imageConcept": "have dinner",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "have lunch",
      "tr": "öğle yemeği yemek",
-     "emoji": "🥪"
+     "emoji": "🥪",
+     "img": "https://static.arasaac.org/pictograms/4609/4609_500.png",
+     "imageConcept": "lunch",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -693,21 +1090,43 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "have dinner",
-       "b": "akşam yemeği yemek"
+       "a": "read a book",
+       "b": "kitap okumak"
       },
       {
-       "a": "noon",
-       "b": "öğlen"
-      },
-      {
-       "a": "have breakfast",
-       "b": "kahvaltı yapmak"
+       "a": "take care of a pet",
+       "b": "evcil hayvan ile ilgilenmek"
       },
       {
        "a": "meet friends",
        "b": "arkadaşlarla buluşmak"
+      },
+      {
+       "a": "have dinner",
+       "b": "akşam yemeği yemek"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/23404/23404_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "take a course",
+     "tr": "kurs almak",
+     "options": [
+      "take a course",
+      "listen to music",
+      "read a book",
+      "play chess"
      ]
     }
    ]
@@ -720,22 +1139,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "şekerleme yapmak",
-     "answer": "take a nap"
+     "clue": "evcil hayvan ile ilgilenmek",
+     "answer": "take care of a pet"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"listen to music\" means \"müzik dinlemek\".",
-     "answer": true,
-     "explain": "listen to music = müzik dinlemek"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4625/4625_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "have breakfast",
+     "tr": "kahvaltı yapmak",
+     "options": [
+      "have breakfast",
+      "meet friends",
+      "take care of a pet",
+      "have dinner"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2255/2255_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "meet friends",
+     "tr": "arkadaşlarla buluşmak",
+     "options": [
+      "meet friends",
+      "play chess",
+      "have lunch",
+      "noon"
+     ]
     }
    ]
   },
@@ -796,6 +1245,10 @@
       "trEm": [
        "Hadi"
       ],
+      "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "study",
       "emoji": "📚"
      },
      {
@@ -824,7 +1277,10 @@
      "trEm": [
       "Pikniğimize katılmak ister misin?"
      ],
-     "focus": "Would you like to"
+     "focus": "Would you like to",
+     "img": "https://static.arasaac.org/pictograms/10236/10236_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -849,7 +1305,10 @@
      "trEm": [
       "Okuldan sonra satranç oynamak ister misin?"
      ],
-     "focus": "Would you like to"
+     "focus": "Would you like to",
+     "img": "https://static.arasaac.org/pictograms/3054/3054_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -873,7 +1332,10 @@
      "trEm": [
       "ne dersin"
      ],
-     "emoji": "🎬"
+     "emoji": "🎬",
+     "img": "https://static.arasaac.org/pictograms/4602/4602_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -923,7 +1385,10 @@
      "trEm": [
       "Pazar günü bir müzeyi gezmeye ne dersin?"
      ],
-     "focus": "How about"
+     "focus": "How about",
+     "img": "https://static.arasaac.org/pictograms/3132/3132_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -947,6 +1412,10 @@
      "trEm": [
       "Hadi"
      ],
+     "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "study",
      "emoji": "📚"
     }
    ],
@@ -1021,7 +1490,10 @@
      "trEm": [
       "neden basketbol oynamıyoruz"
      ],
-     "emoji": "🏀"
+     "emoji": "🏀",
+     "img": "https://static.arasaac.org/pictograms/4918/4918_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -1046,7 +1518,10 @@
      "trEm": [
       "Neden kütüphanede buluşmuyoruz?"
      ],
-     "focus": "Why don't we"
+     "focus": "Why don't we",
+     "img": "https://static.arasaac.org/pictograms/3065/3065_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -1071,7 +1546,10 @@
      "trEm": [
       "Neden sınıf arkadaşlarımızı davet etmiyoruz?"
      ],
-     "focus": "Why don't we"
+     "focus": "Why don't we",
+     "img": "https://static.arasaac.org/pictograms/39421/39421_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -1141,6 +1619,10 @@
      "trEm": [
       "Çok isterim"
      ],
+     "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "study",
      "emoji": "📚"
     }
    ],
@@ -1196,6 +1678,10 @@
         "trEm": [
          "Üzgünüm"
         ],
+        "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "study",
         "emoji": "📚"
        },
        {
@@ -1224,6 +1710,10 @@
       "trEm": [
        "Çok isterim"
       ],
+      "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "study",
       "emoji": "📚"
      }
     ]
@@ -1318,6 +1808,10 @@
      "trEm": [
       "Üzgünüm"
      ],
+     "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "study",
      "emoji": "📚",
      "focus": "REFUSE ⛔"
     }
@@ -1534,28 +2028,40 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "best friend",
-      "tr": "en iyi arkadaş",
-      "img": "/app/img/words/best-friend.jpg",
-      "emoji": "👯"
+      "en": "advice",
+      "tr": "tavsiye",
+      "img": "https://static.arasaac.org/pictograms/29959/29959_500.png",
+      "emoji": "💡",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "advise"
      },
      {
-      "en": "secret",
-      "tr": "sır",
-      "img": "/app/img/words/secret.jpg",
-      "emoji": "🤫"
+      "en": "watch TV",
+      "tr": "televizyon izlemek",
+      "img": "https://static.arasaac.org/pictograms/2782/2782_500.png",
+      "emoji": "📺",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "watch tv"
      },
      {
-      "en": "go for a walk",
-      "tr": "yürüyüşe çıkmak",
-      "img": "/app/img/words/go-for-a-walk.jpg",
-      "emoji": "🚶"
+      "en": "listen to music",
+      "tr": "müzik dinlemek",
+      "img": "https://static.arasaac.org/pictograms/2746/2746_500.png",
+      "emoji": "🎧",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "listen to music"
      },
      {
-      "en": "concert",
-      "tr": "konser",
-      "img": "/app/img/words/concert.jpg",
-      "emoji": "🎤"
+      "en": "mate",
+      "tr": "arkadaş",
+      "img": "https://static.arasaac.org/pictograms/8486/8486_500.png",
+      "emoji": "🙋",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "friend"
      }
     ]
    }
@@ -1573,28 +2079,44 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "awesome",
-      "tr": "harika",
-      "emoji": "🤩",
-      "audio": "/app/audio/words/awesome.wav"
+      "en": "noon",
+      "tr": "öğlen",
+      "img": "https://static.arasaac.org/pictograms/32708/32708_500.png",
+      "emoji": "🕛",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "midday",
+      "audio": "/app/audio/words/noon.wav"
      },
      {
-      "en": "have dinner",
-      "tr": "akşam yemeği yemek",
-      "emoji": "🍽️",
-      "audio": "/app/audio/words/have-dinner.wav"
+      "en": "wash face",
+      "tr": "yüz yıkamak",
+      "img": "https://static.arasaac.org/pictograms/4939/4939_500.png",
+      "emoji": "🧼",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "soap the face",
+      "audio": "/app/audio/words/wash-face.wav"
      },
      {
-      "en": "watch TV",
-      "tr": "televizyon izlemek",
-      "emoji": "📺",
-      "audio": "/app/audio/words/watch-tv.wav"
+      "en": "weekdays",
+      "tr": "hafta içi",
+      "img": "/app/img/concepts/weekdays.svg",
+      "emoji": "📅",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "weekdays",
+      "audio": "/app/audio/words/weekdays.wav"
      },
      {
-      "en": "advice",
-      "tr": "tavsiye",
-      "emoji": "💡",
-      "audio": "/app/audio/words/advice.wav"
+      "en": "study",
+      "tr": "ders çalışmak",
+      "img": "https://static.arasaac.org/pictograms/2387/2387_500.png",
+      "emoji": "📚",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "study",
+      "audio": "/app/audio/words/study.wav"
      }
     ]
    }
@@ -1612,16 +2134,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Why don't we play basketball after school?",
-      "tr": "Okuldan sonra neden basketbol oynamıyoruz?"
+      "answer": "Sure, that sounds great.",
+      "tr": "Tabii, kulağa harika geliyor."
      },
      {
-      "answer": "I'm sorry, I can't. I have to study.",
-      "tr": "Üzgünüm, gelemem. Ders çalışmam gerek."
+      "answer": "Maybe next time, I'm not feeling well.",
+      "tr": "Belki başka zaman, kendimi iyi hissetmiyorum."
      },
      {
-      "answer": "I'd love to, thanks!",
-      "tr": "Çok isterim, teşekkürler!"
+      "answer": "I'd love to, but I have to study.",
+      "tr": "Çok isterim ama ders çalışmak zorundayım."
      }
     ]
    }
@@ -1649,9 +2171,9 @@
    "task": {
     "kind": "flash",
     "q": "Your partner invites you out. Accept once, then refuse politely with a reason.",
-    "clue": "I'd love to, but I have to study.",
+    "clue": "I'd love to, but I'm busy tomorrow.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Çok isterim ama ders çalışmak zorundayım."
+    "tr": "Çok isterdim ama yarın meşgulüm."
    },
    "part": [
     5,

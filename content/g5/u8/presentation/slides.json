@@ -232,13 +232,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "p01-10.png",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "sky",
      "tr": "gökyüzü",
      "options": [
       "sky",
-      "island",
-      "coral reef",
-      "lake"
+      "lake",
+      "valley",
+      "island"
      ]
     }
    ]
@@ -251,8 +253,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "mağara",
-     "answer": "cave"
+     "clue": "mercan kayalığı",
+     "answer": "coral reef"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Planet Earth",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-15.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "coral reef",
+     "tr": "mercan kayalığı",
+     "options": [
+      "coral reef",
+      "island",
+      "hill",
+      "mountain"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Planet Earth",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-14.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "ocean",
+     "tr": "okyanus",
+     "options": [
+      "ocean",
+      "bridge",
+      "cave",
+      "hill"
+     ]
     }
    ]
   },
@@ -264,22 +310,38 @@
     {
      "en": "summer holiday",
      "tr": "yaz tatili",
-     "emoji": "☀️"
+     "emoji": "☀️",
+     "img": "https://static.arasaac.org/pictograms/3166/3166_500.png",
+     "imageConcept": "holidays",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "winter holiday",
      "tr": "kış tatili",
-     "emoji": "⛄"
+     "emoji": "⛄",
+     "img": "https://static.arasaac.org/pictograms/3166/3166_500.png",
+     "imageConcept": "holidays",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "spring holiday",
      "tr": "bahar tatili",
-     "emoji": "🌸"
+     "emoji": "🌸",
+     "img": "https://static.arasaac.org/pictograms/3166/3166_500.png",
+     "imageConcept": "holidays",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "half-term holiday",
      "tr": "ara tatil",
-     "emoji": "🎀"
+     "emoji": "🎀",
+     "img": "https://static.arasaac.org/pictograms/3166/3166_500.png",
+     "imageConcept": "holidays",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -295,22 +357,38 @@
     {
      "en": "tour",
      "tr": "tur",
-     "emoji": "🚌"
+     "emoji": "🚌",
+     "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
+     "imageConcept": "tour",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "journey",
      "tr": "yolculuk",
-     "emoji": "🧭"
+     "emoji": "🧭",
+     "img": "https://static.arasaac.org/pictograms/10186/10186_500.png",
+     "imageConcept": "journey",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "trip",
      "tr": "gezi",
-     "emoji": "🎒"
+     "emoji": "🎒",
+     "img": "https://static.arasaac.org/pictograms/4670/4670_500.png",
+     "imageConcept": "trip",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "sightseeing",
      "tr": "gezip görme",
-     "emoji": "🏙️"
+     "emoji": "🏙️",
+     "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
+     "imageConcept": "sightseeing",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -326,22 +404,35 @@
     {
      "en": "season",
      "tr": "mevsim",
-     "emoji": "🧂"
+     "emoji": "🧂",
+     "img": "https://static.arasaac.org/pictograms/5464/5464_500.png",
+     "imageConcept": "season",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "climate",
      "tr": "iklim",
-     "emoji": "🌦️"
+     "emoji": "🌦️",
+     "img": "https://static.arasaac.org/pictograms/24721/24721_500.png",
+     "imageConcept": "climate",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "temperature",
      "tr": "sıcaklık",
-     "emoji": "🌡️"
+     "emoji": "🌡️",
+     "img": "https://static.arasaac.org/pictograms/8230/8230_500.png",
+     "imageConcept": "temperature",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "destination",
      "tr": "gidilecek yer",
-     "emoji": "📍"
+     "emoji": "📍",
+     "img": "/app/img/words/destination.jpg"
     }
    ],
    "part": [
@@ -362,7 +453,11 @@
     {
      "en": "tourism",
      "tr": "turizm",
-     "emoji": "🧳"
+     "emoji": "🧳",
+     "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
+     "imageConcept": "tourism",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -378,26 +473,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"season\" means \"kış tatili\".",
+     "statement": "\"climate\" means \"yaz tatili\".",
      "answer": false,
-     "explain": "season = mevsim"
+     "explain": "climate = iklim"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"yaz tatili\"?",
+   "title": "Activity Break · Which word means \"gezi\"?",
    "titleTr": "Use what you just learned · Holidays & Travel",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"yaz tatili\"?",
-     "answer": "summer holiday",
+     "q": "Which word means \"gezi\"?",
+     "answer": "trip",
      "options": [
+      "trip",
       "summer holiday",
-      "destination",
-      "climate",
-      "spring holiday"
+      "spring holiday",
+      "season"
      ]
     }
    ]
@@ -416,17 +511,83 @@
        "b": "yaz tatili"
       },
       {
-       "a": "sightseeing",
-       "b": "gezip görme"
+       "a": "journey",
+       "b": "yolculuk"
       },
       {
-       "a": "view",
-       "b": "manzara"
+       "a": "half-term holiday",
+       "b": "ara tatil"
       },
       {
-       "a": "winter holiday",
-       "b": "kış tatili"
+       "a": "tour",
+       "b": "tur"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Holidays & Travel",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4670/4670_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "trip",
+     "tr": "gezi",
+     "options": [
+      "trip",
+      "summer holiday",
+      "half-term holiday",
+      "view"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Holidays & Travel",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/10186/10186_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "journey",
+     "tr": "yolculuk",
+     "options": [
+      "journey",
+      "spring holiday",
+      "half-term holiday",
+      "climate"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Holidays & Travel",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8230/8230_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "temperature",
+     "tr": "sıcaklık",
+     "options": [
+      "temperature",
+      "tour",
+      "spring holiday",
+      "view"
      ]
     }
    ]
@@ -474,7 +635,11 @@
     {
      "en": "go skiing",
      "tr": "kayağa gitmek",
-     "emoji": "⛷️"
+     "emoji": "⛷️",
+     "img": "https://static.arasaac.org/pictograms/8348/8348_500.png",
+     "imageConcept": "ski",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "go snorkelling",
@@ -543,7 +708,11 @@
     {
      "en": "ride a roller coaster",
      "tr": "hız trenine binmek",
-     "emoji": "🎢"
+     "emoji": "🎢",
+     "img": "https://static.arasaac.org/pictograms/4699/4699_500.png",
+     "imageConcept": "roller coaster",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "have a picnic",
@@ -577,8 +746,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "dağa tırmanmak",
-     "answer": "climb a mountain"
+     "clue": "tüplü dalışa gitmek",
+     "answer": "go scuba diving"
     }
    ]
   },
@@ -592,20 +761,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "climb a mountain",
+       "b": "dağa tırmanmak"
+      },
+      {
+       "a": "ride a bike",
+       "b": "bisiklete binmek"
+      },
+      {
+       "a": "ride a roller coaster",
+       "b": "hız trenine binmek"
+      },
+      {
        "a": "go sightseeing",
        "b": "geziye gitmek"
-      },
-      {
-       "a": "go snorkelling",
-       "b": "şnorkelle yüzmeye gitmek"
-      },
-      {
-       "a": "go fishing",
-       "b": "balığa gitmek"
-      },
-      {
-       "a": "go skiing",
-       "b": "kayağa gitmek"
       }
      ]
     }
@@ -619,14 +788,60 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
+     "img": "p02-05.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "go snorkelling",
+     "tr": "şnorkelle yüzmeye gitmek",
+     "options": [
+      "go snorkelling",
+      "climb a mountain",
+      "ride a bike",
+      "go skiing"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Holiday Activities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
      "img": "p02-13.png",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "take a boat tour",
      "tr": "tekne turuna çıkmak",
      "options": [
       "take a boat tour",
       "go fishing",
-      "go skiing",
-      "go snorkelling"
+      "climb a mountain",
+      "go skiing"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Holiday Activities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-11.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "ride a bike",
+     "tr": "bisiklete binmek",
+     "options": [
+      "ride a bike",
+      "visit a museum",
+      "have a picnic",
+      "swim"
      ]
     }
    ]
@@ -639,12 +854,20 @@
     {
      "en": "go",
      "tr": "gitmek",
-     "emoji": "🚶"
+     "emoji": "🚶",
+     "img": "https://static.arasaac.org/pictograms/2432/2432_500.png",
+     "imageConcept": "go",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "travel",
      "tr": "seyahat etmek",
-     "emoji": "✈️"
+     "emoji": "✈️",
+     "img": "https://static.arasaac.org/pictograms/4671/4671_500.png",
+     "imageConcept": "travel",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "stay",
@@ -654,7 +877,11 @@
     {
      "en": "enjoy",
      "tr": "keyif almak",
-     "emoji": "😊"
+     "emoji": "😊",
+     "img": "https://static.arasaac.org/pictograms/8992/8992_500.png",
+     "imageConcept": "enjoy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -670,12 +897,20 @@
     {
      "en": "plan",
      "tr": "planlamak",
-     "emoji": "🗒️"
+     "emoji": "🗒️",
+     "img": "https://static.arasaac.org/pictograms/11706/11706_500.png",
+     "imageConcept": "plan",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "see",
      "tr": "görmek",
-     "emoji": "👀"
+     "emoji": "👀",
+     "img": "https://static.arasaac.org/pictograms/2474/2474_500.png",
+     "imageConcept": "see",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "join",
@@ -685,7 +920,11 @@
     {
      "en": "take photos",
      "tr": "fotoğraf çekmek",
-     "emoji": "📷"
+     "emoji": "📷",
+     "img": "https://static.arasaac.org/pictograms/28341/28341_500.png",
+     "imageConcept": "take pictures",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -701,22 +940,38 @@
     {
      "en": "invite",
      "tr": "davet etmek",
-     "emoji": "💌"
+     "emoji": "💌",
+     "img": "https://static.arasaac.org/pictograms/11287/11287_500.png",
+     "imageConcept": "invite",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "visit",
      "tr": "ziyaret etmek",
-     "emoji": "📍"
+     "emoji": "📍",
+     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
+     "imageConcept": "visit",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "explore",
      "tr": "keşfetmek",
-     "emoji": "🧭"
+     "emoji": "🧭",
+     "img": "https://static.arasaac.org/pictograms/36922/36922_500.png",
+     "imageConcept": "explore",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "book",
      "tr": "yer ayırtmak",
-     "emoji": "📖"
+     "emoji": "📖",
+     "img": "https://static.arasaac.org/pictograms/2450/2450_500.png",
+     "imageConcept": "book",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -732,22 +987,38 @@
     {
      "en": "rest / relax",
      "tr": "dinlenmek",
-     "emoji": "🛋️"
+     "emoji": "🛋️",
+     "img": "https://static.arasaac.org/pictograms/3299/3299_500.png",
+     "imageConcept": "rest",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "involve",
      "tr": "içermek",
-     "emoji": "📦"
+     "emoji": "📦",
+     "img": "https://static.arasaac.org/pictograms/11486/11486_500.png",
+     "imageConcept": "participation",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "need",
      "tr": "ihtiyaç duymak",
-     "emoji": "🙏"
+     "emoji": "🙏",
+     "img": "https://static.arasaac.org/pictograms/37160/37160_500.png",
+     "imageConcept": "need",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "pack",
      "tr": "eşya toplamak",
-     "emoji": "🧳"
+     "emoji": "🧳",
+     "img": "https://static.arasaac.org/pictograms/2931/2931_500.png",
+     "imageConcept": "pack",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -763,17 +1034,47 @@
     {
      "en": "recommend",
      "tr": "tavsiye etmek",
-     "emoji": "👍"
+     "emoji": "👍",
+     "img": "https://static.arasaac.org/pictograms/37708/37708_500.png",
+     "imageConcept": "recommend",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "rise",
      "tr": "yükselmek",
-     "emoji": "📈"
+     "emoji": "📈",
+     "img": "https://static.arasaac.org/pictograms/6548/6548_500.png",
+     "imageConcept": "rise",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     5,
     5
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2474/2474_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "see",
+     "tr": "görmek",
+     "options": [
+      "see",
+      "plan",
+      "pack",
+      "recommend"
+     ]
+    }
    ]
   },
   {
@@ -784,9 +1085,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"involve\" means \"gitmek\".",
+     "statement": "\"book\" means \"keşfetmek\".",
      "answer": false,
-     "explain": "involve = içermek"
+     "explain": "book = yer ayırtmak"
     }
    ]
   },
@@ -800,20 +1101,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "invite",
-       "b": "davet etmek"
-      },
-      {
-       "a": "see",
-       "b": "görmek"
-      },
-      {
-       "a": "plan",
-       "b": "planlamak"
-      },
-      {
        "a": "take photos",
        "b": "fotoğraf çekmek"
+      },
+      {
+       "a": "need",
+       "b": "ihtiyaç duymak"
+      },
+      {
+       "a": "pack",
+       "b": "eşya toplamak"
+      },
+      {
+       "a": "enjoy",
+       "b": "keyif almak"
       }
      ]
     }
@@ -821,14 +1122,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "seyahat etmek",
-     "answer": "travel"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/28341/28341_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "take photos",
+     "tr": "fotoğraf çekmek",
+     "options": [
+      "take photos",
+      "explore",
+      "go",
+      "visit"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/6548/6548_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "rise",
+     "tr": "yükselmek",
+     "options": [
+      "rise",
+      "join",
+      "travel",
+      "enjoy"
+     ]
     }
    ]
   },
@@ -840,22 +1172,38 @@
     {
      "en": "fun",
      "tr": "eğlenceli",
-     "emoji": "🎉"
+     "emoji": "🎉",
+     "img": "https://static.arasaac.org/pictograms/24733/24733_500.png",
+     "imageConcept": "fun",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "peaceful",
      "tr": "huzurlu",
-     "emoji": "🕊️"
+     "emoji": "🕊️",
+     "img": "https://static.arasaac.org/pictograms/8182/8182_500.png",
+     "imageConcept": "peace",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "historical",
      "tr": "tarihi",
-     "emoji": "📜"
+     "emoji": "📜",
+     "img": "https://static.arasaac.org/pictograms/32806/32806_500.png",
+     "imageConcept": "ancient",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "famous",
      "tr": "ünlü",
-     "emoji": "⭐"
+     "emoji": "⭐",
+     "img": "https://static.arasaac.org/pictograms/10202/10202_500.png",
+     "imageConcept": "famous",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -871,22 +1219,38 @@
     {
      "en": "magical",
      "tr": "büyülü",
-     "emoji": "✨"
+     "emoji": "✨",
+     "img": "https://static.arasaac.org/pictograms/10157/10157_500.png",
+     "imageConcept": "magic",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "amazing",
      "tr": "harika",
-     "emoji": "🤩"
+     "emoji": "🤩",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageConcept": "surprised",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "calm",
      "tr": "sakin",
-     "emoji": "😌"
+     "emoji": "😌",
+     "img": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+     "imageConcept": "calm",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "jolly",
      "tr": "neşeli, keyifli",
-     "emoji": "😄"
+     "emoji": "😄",
+     "img": "https://static.arasaac.org/pictograms/3245/3245_500.png",
+     "imageConcept": "happy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -902,22 +1266,38 @@
     {
      "en": "beautiful",
      "tr": "güzel",
-     "emoji": "🌺"
+     "emoji": "🌺",
+     "img": "https://static.arasaac.org/pictograms/4660/4660_500.png",
+     "imageConcept": "beautiful",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "giant / huge",
      "tr": "kocaman",
-     "emoji": "🦣"
+     "emoji": "🦣",
+     "img": "https://static.arasaac.org/pictograms/4658/4658_500.png",
+     "imageConcept": "giant",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "tiring",
      "tr": "yorucu",
-     "emoji": "😮‍💨"
+     "emoji": "😮‍💨",
+     "img": "https://static.arasaac.org/pictograms/2314/2314_500.png",
+     "imageConcept": "tired",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "perfect",
      "tr": "mükemmel",
-     "emoji": "💯"
+     "emoji": "💯",
+     "img": "https://static.arasaac.org/pictograms/38006/38006_500.png",
+     "imageConcept": "perfect",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -935,21 +1315,43 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "peaceful",
-       "b": "huzurlu"
+       "a": "magical",
+       "b": "büyülü"
       },
       {
-       "a": "historical",
-       "b": "tarihi"
+       "a": "beautiful",
+       "b": "güzel"
+      },
+      {
+       "a": "perfect",
+       "b": "mükemmel"
       },
       {
        "a": "fun",
        "b": "eğlenceli"
-      },
-      {
-       "a": "magical",
-       "b": "büyülü"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2314/2314_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "tiring",
+     "tr": "yorucu",
+     "options": [
+      "tiring",
+      "jolly",
+      "historical",
+      "peaceful"
      ]
     }
    ]
@@ -962,22 +1364,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "ünlü",
-     "answer": "famous"
+     "clue": "yorucu",
+     "answer": "tiring"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"fun\" means \"eğlenceli\".",
-     "answer": true,
-     "explain": "fun = eğlenceli"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/10157/10157_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "magical",
+     "tr": "büyülü",
+     "options": [
+      "magical",
+      "fun",
+      "tiring",
+      "jolly"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4660/4660_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "beautiful",
+     "tr": "güzel",
+     "options": [
+      "beautiful",
+      "jolly",
+      "tiring",
+      "amazing"
+     ]
     }
    ]
   },
@@ -1048,6 +1480,10 @@
       "trEm": [
        "Gelecek ay trenle seyahat edeceğiz."
       ],
+      "img": "https://static.arasaac.org/pictograms/4671/4671_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "travel",
       "emoji": "✈️"
      }
     ]
@@ -1116,6 +1552,10 @@
      "trEm": [
       "Gelecek ay trenle seyahat edeceğiz."
      ],
+     "img": "https://static.arasaac.org/pictograms/4671/4671_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "travel",
      "emoji": "✈️"
     }
    ],
@@ -1219,6 +1659,10 @@
         "trEm": [
          "çekmeyecek"
         ],
+        "img": "https://static.arasaac.org/pictograms/28341/28341_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "take pictures",
         "emoji": "📷"
        },
        {
@@ -1227,6 +1671,10 @@
         "trEm": [
          "etmeyeceksin"
         ],
+        "img": "https://static.arasaac.org/pictograms/11287/11287_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "invite",
         "emoji": "💌"
        }
       ]
@@ -1270,6 +1718,10 @@
      "trEm": [
       "çekmeyecek"
      ],
+     "img": "https://static.arasaac.org/pictograms/28341/28341_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "take pictures",
      "emoji": "📷",
      "focus": "NEGATIVE ⛔"
     }
@@ -1294,6 +1746,10 @@
      "trEm": [
       "etmeyeceksin"
      ],
+     "img": "https://static.arasaac.org/pictograms/11287/11287_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "invite",
      "emoji": "💌",
      "focus": "NEGATIVE ⛔"
     }
@@ -1451,28 +1907,31 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "have a picnic",
-      "tr": "piknik yapmak",
-      "img": "p02-12.png",
-      "emoji": "🧺"
+      "en": "mountain",
+      "tr": "dağ",
+      "img": "p01-02.png",
+      "emoji": "⛰️"
      },
      {
-      "en": "sand dune",
-      "tr": "kum tepesi",
-      "img": "p01-06.png",
-      "emoji": "🏜️"
+      "en": "bridge",
+      "tr": "köprü",
+      "img": "p01-17.png",
+      "emoji": "🌉"
      },
      {
-      "en": "forest",
-      "tr": "orman",
-      "img": "p01-19.png",
-      "emoji": "🌲"
+      "en": "destination",
+      "tr": "gidilecek yer",
+      "img": "/app/img/words/destination.jpg",
+      "emoji": "📍"
      },
      {
-      "en": "ride a bike",
-      "tr": "bisiklete binmek",
-      "img": "p02-11.png",
-      "emoji": "🚲"
+      "en": "jolly",
+      "tr": "neşeli, keyifli",
+      "img": "https://static.arasaac.org/pictograms/3245/3245_500.png",
+      "emoji": "😄",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "happy"
      }
     ]
    }
@@ -1490,32 +1949,38 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "sea",
-      "tr": "deniz",
-      "img": "p01-13.png",
-      "emoji": "🌊",
-      "audio": "/app/audio/words/sea.wav"
+      "en": "rock",
+      "tr": "kaya",
+      "img": "p01-09.png",
+      "emoji": "🪨",
+      "audio": "/app/audio/words/rock.wav"
      },
      {
-      "en": "valley",
-      "tr": "vadi",
-      "img": "p01-07.png",
-      "emoji": "🏔️",
-      "audio": "/app/audio/words/valley.wav"
+      "en": "tour",
+      "tr": "tur",
+      "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
+      "emoji": "🚌",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "tour",
+      "audio": "/app/audio/words/tour.wav"
      },
      {
-      "en": "hill",
-      "tr": "tepe",
-      "img": "p01-03.png",
-      "emoji": "🌄",
-      "audio": "/app/audio/words/hill.wav"
+      "en": "amazing",
+      "tr": "harika",
+      "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+      "emoji": "🤩",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "surprised",
+      "audio": "/app/audio/words/amazing.wav"
      },
      {
-      "en": "mountain",
-      "tr": "dağ",
-      "img": "p01-02.png",
-      "emoji": "⛰️",
-      "audio": "/app/audio/words/mountain.wav"
+      "en": "lake",
+      "tr": "göl",
+      "img": "p01-11.png",
+      "emoji": "🏞️",
+      "audio": "/app/audio/words/lake.wav"
      }
     ]
    }
@@ -1533,16 +1998,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "They are going to stay at a hotel.",
-      "tr": "Onlar bir otelde kalacaklar."
+      "answer": "We are going to travel by train next month.",
+      "tr": "Gelecek ay trenle seyahat edeceğiz."
      },
      {
-      "answer": "I am not going to ride a camel.",
-      "tr": "Deveye binmeyeceğim."
+      "answer": "You aren't going to invite your friends.",
+      "tr": "Sen arkadaşlarını davet etmeyeceksin."
      },
      {
-      "answer": "She isn't going to take photos.",
-      "tr": "O fotoğraf çekmeyecek."
+      "answer": "I am going to visit a museum tomorrow.",
+      "tr": "Yarın bir müzeyi ziyaret edeceğim."
      }
     ]
    }
@@ -1554,9 +2019,9 @@
    "task": {
     "kind": "flash",
     "q": "Plan a holiday together. Say where you are going to go and two things you are going to do.",
-    "clue": "We are going to travel by train next month.",
+    "clue": "I am going to visit a museum tomorrow.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Gelecek ay trenle seyahat edeceğiz."
+    "tr": "Yarın bir müzeyi ziyaret edeceğim."
    },
    "part": [
     4,
@@ -1570,9 +2035,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Is she going to climb the mountain tomorrow? — No, she isn't.",
+    "clue": "Are you going to swim in the sea? — Yes, I am.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "O yarın dağa tırmanacak mı? — Hayır."
+    "tr": "Denizde yüzecek misin? — Evet."
    },
    "part": [
     5,

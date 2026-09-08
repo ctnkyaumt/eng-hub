@@ -29,17 +29,29 @@
     {
      "en": "mammals",
      "tr": "memeliler",
-     "emoji": "🦓"
+     "emoji": "🦓",
+     "img": "https://static.arasaac.org/pictograms/7777/7777_500.png",
+     "imageConcept": "mammals",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "birds",
      "tr": "kuşlar",
-     "emoji": "🦅"
+     "emoji": "🦅",
+     "img": "https://static.arasaac.org/pictograms/6923/6923_500.png",
+     "imageConcept": "birds",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fish",
      "tr": "balıklar",
-     "emoji": "🐟"
+     "emoji": "🐟",
+     "img": "https://static.arasaac.org/pictograms/2520/2520_500.png",
+     "imageConcept": "fish",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -55,12 +67,20 @@
     {
      "en": "reptiles",
      "tr": "sürüngenler",
-     "emoji": "🐊"
+     "emoji": "🐊",
+     "img": "https://static.arasaac.org/pictograms/7806/7806_500.png",
+     "imageConcept": "reptiles",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "insects",
      "tr": "böcekler",
-     "emoji": "🐞"
+     "emoji": "🐞",
+     "img": "https://static.arasaac.org/pictograms/7134/7134_500.png",
+     "imageConcept": "insects",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -99,28 +119,80 @@
   },
   {
    "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Types of Animals",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/7777/7777_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "mammals",
+     "tr": "memeliler",
+     "options": [
+      "mammals",
+      "reptiles",
+      "birds",
+      "insects"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
    "title": "Activity Break · Guess the English word",
    "titleTr": "Use what you just learned · Types of Animals",
    "tasks": [
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "memeliler",
-     "answer": "mammals"
+     "clue": "sürüngenler",
+     "answer": "reptiles"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Types of Animals",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"insects\" means \"böcekler\".",
-     "answer": true,
-     "explain": "insects = böcekler"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/7134/7134_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "insects",
+     "tr": "böcekler",
+     "options": [
+      "insects",
+      "reptiles",
+      "birds",
+      "fish"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Types of Animals",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2520/2520_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "fish",
+     "tr": "balıklar",
+     "options": [
+      "fish",
+      "birds",
+      "insects",
+      "reptiles"
+     ]
     }
    ]
   },
@@ -132,22 +204,38 @@
     {
      "en": "bear",
      "tr": "ayı",
-     "emoji": "🐻"
+     "emoji": "🐻",
+     "img": "https://static.arasaac.org/pictograms/2488/2488_500.png",
+     "imageConcept": "bear",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "lion",
      "tr": "aslan",
-     "emoji": "🦁"
+     "emoji": "🦁",
+     "img": "https://static.arasaac.org/pictograms/2449/2449_500.png",
+     "imageConcept": "lion",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "tiger",
      "tr": "kaplan",
-     "emoji": "🐯"
+     "emoji": "🐯",
+     "img": "https://static.arasaac.org/pictograms/2590/2590_500.png",
+     "imageConcept": "tiger",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "wolf",
      "tr": "kurt",
-     "emoji": "🐺"
+     "emoji": "🐺",
+     "img": "https://static.arasaac.org/pictograms/5892/5892_500.png",
+     "imageConcept": "wolf",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -163,22 +251,38 @@
     {
      "en": "giraffe",
      "tr": "zürafa",
-     "emoji": "🦒"
+     "emoji": "🦒",
+     "img": "https://static.arasaac.org/pictograms/2437/2437_500.png",
+     "imageConcept": "giraffe",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "monkey",
      "tr": "maymun",
-     "emoji": "🐒"
+     "emoji": "🐒",
+     "img": "https://static.arasaac.org/pictograms/2477/2477_500.png",
+     "imageConcept": "monkey",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "elephant",
      "tr": "fil",
-     "emoji": "🐘"
+     "emoji": "🐘",
+     "img": "https://static.arasaac.org/pictograms/2372/2372_500.png",
+     "imageConcept": "elephant",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "zebra",
      "tr": "zebra",
-     "emoji": "🦓"
+     "emoji": "🦓",
+     "img": "https://static.arasaac.org/pictograms/2324/2324_500.png",
+     "imageConcept": "zebra",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -194,22 +298,38 @@
     {
      "en": "penguin",
      "tr": "penguen",
-     "emoji": "🐧"
+     "emoji": "🐧",
+     "img": "https://static.arasaac.org/pictograms/3243/3243_500.png",
+     "imageConcept": "penguin",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "parrot",
      "tr": "papağan",
-     "emoji": "🦜"
+     "emoji": "🦜",
+     "img": "https://static.arasaac.org/pictograms/2934/2934_500.png",
+     "imageConcept": "parrot",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "snake",
      "tr": "yılan",
-     "emoji": "🐍"
+     "emoji": "🐍",
+     "img": "https://static.arasaac.org/pictograms/2568/2568_500.png",
+     "imageConcept": "snake",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "crocodile",
      "tr": "timsah",
-     "emoji": "🐊"
+     "emoji": "🐊",
+     "img": "https://static.arasaac.org/pictograms/2343/2343_500.png",
+     "imageConcept": "crocodile",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -225,22 +345,38 @@
     {
      "en": "gorilla",
      "tr": "goril",
-     "emoji": "🦍"
+     "emoji": "🦍",
+     "img": "https://static.arasaac.org/pictograms/2410/2410_500.png",
+     "imageConcept": "gorilla",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "leopard",
      "tr": "leopar",
-     "emoji": "🐆"
+     "emoji": "🐆",
+     "img": "https://static.arasaac.org/pictograms/2942/2942_500.png",
+     "imageConcept": "leopard",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "whale",
      "tr": "balina",
-     "emoji": "🐋"
+     "emoji": "🐋",
+     "img": "https://static.arasaac.org/pictograms/2268/2268_500.png",
+     "imageConcept": "whale",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "shark",
      "tr": "köpek balığı",
-     "emoji": "🦈"
+     "emoji": "🦈",
+     "img": "https://static.arasaac.org/pictograms/2589/2589_500.png",
+     "imageConcept": "shark",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -256,7 +392,11 @@
     {
      "en": "eagle",
      "tr": "kartal",
-     "emoji": "🦅"
+     "emoji": "🦅",
+     "img": "https://static.arasaac.org/pictograms/2638/2638_500.png",
+     "imageConcept": "eagle",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "seal",
@@ -267,12 +407,20 @@
     {
      "en": "seagull",
      "tr": "martı",
-     "emoji": "🕊️"
+     "emoji": "🕊️",
+     "img": "https://static.arasaac.org/pictograms/3334/3334_500.png",
+     "imageConcept": "seagull",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "cheetah",
      "tr": "çita",
-     "emoji": "🐆"
+     "emoji": "🐆",
+     "img": "https://static.arasaac.org/pictograms/39488/39488_500.png",
+     "imageConcept": "cheetah",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -288,9 +436,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"whale\" means \"fil\".",
+     "statement": "\"shark\" means \"fok\".",
      "answer": false,
-     "explain": "whale = balina"
+     "explain": "shark = köpek balığı"
     }
    ]
   },
@@ -305,9 +453,9 @@
      "answer": "seal",
      "options": [
       "seal",
-      "giraffe",
-      "bear",
-      "penguin"
+      "elephant",
+      "leopard",
+      "wolf"
      ]
     }
    ]
@@ -322,21 +470,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "leopard",
-       "b": "leopar"
+       "a": "cheetah",
+       "b": "çita"
+      },
+      {
+       "a": "bear",
+       "b": "ayı"
       },
       {
        "a": "penguin",
        "b": "penguen"
       },
       {
-       "a": "eagle",
-       "b": "kartal"
-      },
-      {
-       "a": "whale",
-       "b": "balina"
+       "a": "crocodile",
+       "b": "timsah"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Animals",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2589/2589_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "shark",
+     "tr": "köpek balığı",
+     "options": [
+      "shark",
+      "parrot",
+      "wolf",
+      "zebra"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Animals",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2488/2488_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "bear",
+     "tr": "ayı",
+     "options": [
+      "bear",
+      "monkey",
+      "tiger",
+      "zebra"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Animals",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/vocab/animal-seal.svg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "seal",
+     "tr": "fok",
+     "options": [
+      "seal",
+      "leopard",
+      "crocodile",
+      "lion"
      ]
     }
    ]
@@ -442,8 +656,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "kuyruk",
-     "answer": "tail"
+     "clue": "boyun",
+     "answer": "neck"
     }
    ]
   },
@@ -457,20 +671,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "stripe",
-       "b": "çizgi"
-      },
-      {
        "a": "neck",
        "b": "boyun"
       },
       {
-       "a": "tail",
-       "b": "kuyruk"
+       "a": "claw",
+       "b": "pençe"
       },
       {
        "a": "flipper",
        "b": "yüzgeç"
+      },
+      {
+       "a": "stripe",
+       "b": "çizgi"
       }
      ]
     }
@@ -484,13 +698,59 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-05.png",
-     "answer": "flipper",
-     "tr": "yüzgeç",
+     "img": "p02-07.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "feather",
+     "tr": "tüy",
      "options": [
-      "flipper",
+      "feather",
       "tusk",
-      "wing",
+      "claw",
+      "wing"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Body Parts of Animals",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-08.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "neck",
+     "tr": "boyun",
+     "options": [
+      "neck",
+      "stripe",
+      "fur",
+      "feather"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Body Parts of Animals",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-01.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "tail",
+     "tr": "kuyruk",
+     "options": [
+      "tail",
+      "flipper",
+      "fur",
       "claw"
      ]
     }
@@ -597,14 +857,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-19.png",
-     "answer": "national park",
-     "tr": "milli park",
+     "img": "p02-11.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "farm",
+     "tr": "çiftlik",
      "options": [
-      "national park",
+      "farm",
       "river",
-      "ocean",
-      "farm"
+      "field",
+      "savanna"
      ]
     }
    ]
@@ -617,9 +879,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"sky\" means \"sahil\".",
+     "statement": "\"river\" means \"milli park\".",
      "answer": false,
-     "explain": "sky = gökyüzü"
+     "explain": "river = nehir"
     }
    ]
   },
@@ -637,17 +899,61 @@
        "b": "çiftlik"
       },
       {
-       "a": "coast",
-       "b": "sahil"
+       "a": "mountain",
+       "b": "dağ"
       },
       {
-       "a": "sky",
-       "b": "gökyüzü"
+       "a": "savanna",
+       "b": "otlak alan"
       },
       {
-       "a": "national park",
-       "b": "milli park"
+       "a": "river",
+       "b": "nehir"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Habitats",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-15.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "coast",
+     "tr": "sahil",
+     "options": [
+      "coast",
+      "forest / jungle",
+      "river",
+      "sky"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Habitats",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-17.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "ocean",
+     "tr": "okyanus",
+     "options": [
+      "ocean",
+      "mountain",
+      "farm",
+      "savanna"
      ]
     }
    ]
@@ -660,22 +966,35 @@
     {
      "en": "wild",
      "tr": "vahşi",
-     "emoji": "🐅"
+     "emoji": "🐅",
+     "img": "https://static.arasaac.org/pictograms/7237/7237_500.png",
+     "imageConcept": "wild",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "small",
      "tr": "küçük",
-     "emoji": "🐜"
+     "emoji": "🐜",
+     "img": "/app/img/vocab/physical-small.svg"
     },
     {
      "en": "big / large",
      "tr": "büyük",
-     "emoji": "🐘"
+     "emoji": "🐘",
+     "img": "https://static.arasaac.org/pictograms/4658/4658_500.png",
+     "imageConcept": "big",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "huge",
      "tr": "kocaman",
-     "emoji": "🐋"
+     "emoji": "🐋",
+     "img": "https://static.arasaac.org/pictograms/4658/4658_500.png",
+     "imageConcept": "giant",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -691,7 +1010,11 @@
     {
      "en": "enormous",
      "tr": "devasa",
-     "emoji": "🦕"
+     "emoji": "🦕",
+     "img": "https://static.arasaac.org/pictograms/4658/4658_500.png",
+     "imageConcept": "giant",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "scary",
@@ -701,12 +1024,20 @@
     {
      "en": "quick",
      "tr": "çabuk",
-     "emoji": "⚡"
+     "emoji": "⚡",
+     "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+     "imageConcept": "quick",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "strong",
      "tr": "güçlü",
-     "emoji": "💪"
+     "emoji": "💪",
+     "img": "https://static.arasaac.org/pictograms/4655/4655_500.png",
+     "imageConcept": "strong",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -722,22 +1053,38 @@
     {
      "en": "weak",
      "tr": "güçsüz",
-     "emoji": "🥀"
+     "emoji": "🥀",
+     "img": "https://static.arasaac.org/pictograms/4620/4620_500.png",
+     "imageConcept": "weak",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "dangerous",
      "tr": "tehlikeli",
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+     "imageConcept": "danger",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fast",
      "tr": "hızlı",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+     "imageConcept": "fast",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "slow",
      "tr": "yavaş",
-     "emoji": "🐢"
+     "emoji": "🐢",
+     "img": "https://static.arasaac.org/pictograms/4676/4676_500.png",
+     "imageConcept": "slow",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -753,22 +1100,32 @@
     {
      "en": "furry",
      "tr": "tüylü",
-     "emoji": "🧸"
+     "emoji": "🧸",
+     "img": "https://static.arasaac.org/pictograms/7205/7205_500.png",
+     "imageConcept": "fur",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "quiet",
      "tr": "sessiz",
-     "emoji": "🤫"
+     "emoji": "🤫",
+     "img": "https://static.arasaac.org/pictograms/38050/38050_500.png",
+     "imageConcept": "quiet",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "tall",
      "tr": "uzun",
-     "emoji": "🦒"
+     "emoji": "🦒",
+     "img": "/app/img/vocab/physical-tall.svg"
     },
     {
      "en": "short",
      "tr": "kısa",
-     "emoji": "🐧"
+     "emoji": "🐧",
+     "img": "/app/img/vocab/physical-short.svg"
     }
    ],
    "part": [
@@ -784,12 +1141,20 @@
     {
      "en": "heavy",
      "tr": "ağır",
-     "emoji": "🏋️"
+     "emoji": "🏋️",
+     "img": "https://static.arasaac.org/pictograms/27025/27025_500.png",
+     "imageConcept": "heavy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "colourful",
      "tr": "renkli",
-     "emoji": "🌈"
+     "emoji": "🌈",
+     "img": "https://static.arasaac.org/pictograms/5968/5968_500.png",
+     "imageConcept": "colours",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -807,21 +1172,43 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "huge",
-       "b": "kocaman"
+       "a": "furry",
+       "b": "tüylü"
       },
       {
-       "a": "tall",
-       "b": "uzun"
+       "a": "wild",
+       "b": "vahşi"
+      },
+      {
+       "a": "quiet",
+       "b": "sessiz"
       },
       {
        "a": "slow",
        "b": "yavaş"
-      },
-      {
-       "a": "strong",
-       "b": "güçlü"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4676/4676_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "slow",
+     "tr": "yavaş",
+     "options": [
+      "slow",
+      "scary",
+      "furry",
+      "small"
      ]
     }
    ]
@@ -834,22 +1221,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "güçlü",
-     "answer": "strong"
+     "clue": "tüylü",
+     "answer": "furry"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · Adjectives",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"colourful\" means \"renkli\".",
-     "answer": true,
-     "explain": "colourful = renkli"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/27025/27025_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "heavy",
+     "tr": "ağır",
+     "options": [
+      "heavy",
+      "wild",
+      "colourful",
+      "fast"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/7237/7237_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "wild",
+     "tr": "vahşi",
+     "options": [
+      "wild",
+      "fast",
+      "short",
+      "quiet"
+     ]
     }
    ]
   },
@@ -861,22 +1278,38 @@
     {
      "en": "attack",
      "tr": "saldırmak",
-     "emoji": "⚔️"
+     "emoji": "⚔️",
+     "img": "https://static.arasaac.org/pictograms/36045/36045_500.png",
+     "imageConcept": "attack",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "move",
      "tr": "hareket etmek",
-     "emoji": "➡️"
+     "emoji": "➡️",
+     "img": "https://static.arasaac.org/pictograms/7167/7167_500.png",
+     "imageConcept": "move",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "hunt",
      "tr": "avlamak",
-     "emoji": "🏹"
+     "emoji": "🏹",
+     "img": "https://static.arasaac.org/pictograms/8533/8533_500.png",
+     "imageConcept": "hunt",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "run",
      "tr": "koşmak",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "img": "https://static.arasaac.org/pictograms/2719/2719_500.png",
+     "imageConcept": "run",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -897,17 +1330,29 @@
     {
      "en": "talk",
      "tr": "konuşmak",
-     "emoji": "💬"
+     "emoji": "💬",
+     "img": "https://static.arasaac.org/pictograms/3345/3345_500.png",
+     "imageConcept": "talk",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fly",
      "tr": "uçmak",
-     "emoji": "🕊️"
+     "emoji": "🕊️",
+     "img": "https://static.arasaac.org/pictograms/6246/6246_500.png",
+     "imageConcept": "fly",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "climb",
      "tr": "tırmanmak",
-     "emoji": "🧗"
+     "emoji": "🧗",
+     "img": "https://static.arasaac.org/pictograms/6617/6617_500.png",
+     "imageConcept": "climb",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -923,22 +1368,38 @@
     {
      "en": "swing",
      "tr": "sallanmak",
-     "emoji": "🐒"
+     "emoji": "🐒",
+     "img": "https://static.arasaac.org/pictograms/4608/4608_500.png",
+     "imageConcept": "swing",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "live",
      "tr": "yaşamak",
-     "emoji": "🏡"
+     "emoji": "🏡",
+     "img": "https://static.arasaac.org/pictograms/7302/7302_500.png",
+     "imageConcept": "live",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "eat",
      "tr": "yemek",
-     "emoji": "🍖"
+     "emoji": "🍖",
+     "img": "https://static.arasaac.org/pictograms/2349/2349_500.png",
+     "imageConcept": "eat",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "swim",
      "tr": "yüzmek",
-     "emoji": "🏊"
+     "emoji": "🏊",
+     "img": "https://static.arasaac.org/pictograms/6568/6568_500.png",
+     "imageConcept": "swim",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -954,26 +1415,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"attack\" means \"uçmak\".",
+     "statement": "\"eat\" means \"hayatta kalmak\".",
      "answer": false,
-     "explain": "attack = saldırmak"
+     "explain": "eat = yemek"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"tırmanmak\"?",
+   "title": "Activity Break · Which word means \"yaşamak\"?",
    "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"tırmanmak\"?",
-     "answer": "climb",
+     "q": "Which word means \"yaşamak\"?",
+     "answer": "live",
      "options": [
-      "climb",
-      "attack",
-      "survive",
-      "live"
+      "live",
+      "fly",
+      "run",
+      "attack"
      ]
     }
    ]
@@ -988,21 +1449,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "attack",
-       "b": "saldırmak"
+       "a": "run",
+       "b": "koşmak"
       },
       {
-       "a": "talk",
-       "b": "konuşmak"
+       "a": "hunt",
+       "b": "avlamak"
       },
       {
-       "a": "fly",
-       "b": "uçmak"
+       "a": "survive",
+       "b": "hayatta kalmak"
       },
       {
-       "a": "eat",
-       "b": "yemek"
+       "a": "move",
+       "b": "hareket etmek"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/36045/36045_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "attack",
+     "tr": "saldırmak",
+     "options": [
+      "attack",
+      "move",
+      "swing",
+      "fly"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/3345/3345_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "talk",
+     "tr": "konuşmak",
+     "options": [
+      "talk",
+      "run",
+      "swim",
+      "swing"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/6617/6617_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "climb",
+     "tr": "tırmanmak",
+     "options": [
+      "climb",
+      "eat",
+      "hunt",
+      "talk"
      ]
     }
    ]
@@ -1021,6 +1548,10 @@
      "trEm": [
       "yüzebilir"
      ],
+     "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "fast",
      "emoji": "🏃"
     }
    ],
@@ -1046,6 +1577,10 @@
         "trEm": [
          "yüzebilir"
         ],
+        "img": "https://static.arasaac.org/pictograms/6568/6568_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "swim",
         "emoji": "🏊"
        },
        {
@@ -1054,6 +1589,10 @@
         "trEm": [
          "uçabilir"
         ],
+        "img": "https://static.arasaac.org/pictograms/6246/6246_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "fly",
         "emoji": "🕊️"
        },
        {
@@ -1062,6 +1601,10 @@
         "trEm": [
          "koşabilir"
         ],
+        "img": "https://static.arasaac.org/pictograms/39488/39488_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "cheetah",
         "emoji": "🐆"
        }
       ]
@@ -1076,6 +1619,10 @@
         "trEm": [
          "tırmanamaz"
         ],
+        "img": "https://static.arasaac.org/pictograms/6617/6617_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "climb",
         "emoji": "🧗"
        },
        {
@@ -1084,6 +1631,10 @@
         "trEm": [
          "konuşamaz"
         ],
+        "img": "https://static.arasaac.org/pictograms/3345/3345_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "talk",
         "emoji": "💬"
        },
        {
@@ -1092,6 +1643,10 @@
         "trEm": [
          "uçabilir"
         ],
+        "img": "https://static.arasaac.org/pictograms/3243/3243_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "penguin",
         "emoji": "🐧"
        }
       ]
@@ -1104,6 +1659,10 @@
       "trEm": [
        "yüzebilir"
       ],
+      "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fast",
       "emoji": "🏃"
      }
     ]
@@ -1123,6 +1682,10 @@
      "trEm": [
       "yüzebilir"
      ],
+     "img": "https://static.arasaac.org/pictograms/6568/6568_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "swim",
      "emoji": "🏊",
      "focus": "can ✅"
     }
@@ -1148,6 +1711,10 @@
      "trEm": [
       "uçabilir"
      ],
+     "img": "https://static.arasaac.org/pictograms/6246/6246_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "fly",
      "emoji": "🕊️",
      "focus": "can ✅"
     }
@@ -1173,6 +1740,10 @@
      "trEm": [
       "koşabilir"
      ],
+     "img": "https://static.arasaac.org/pictograms/39488/39488_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "cheetah",
      "emoji": "🐆",
      "focus": "can ✅"
     }
@@ -1198,6 +1769,10 @@
      "trEm": [
       "tırmanamaz"
      ],
+     "img": "https://static.arasaac.org/pictograms/6617/6617_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "climb",
      "emoji": "🧗",
      "focus": "can't ⛔"
     }
@@ -1223,6 +1798,10 @@
      "trEm": [
       "konuşamaz"
      ],
+     "img": "https://static.arasaac.org/pictograms/3345/3345_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "talk",
      "emoji": "💬",
      "focus": "can't ⛔"
     }
@@ -1248,6 +1827,10 @@
      "trEm": [
       "uçabilir"
      ],
+     "img": "https://static.arasaac.org/pictograms/3243/3243_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "penguin",
      "emoji": "🐧",
      "focus": "can't ⛔"
     }
@@ -1346,6 +1929,10 @@
         "trEm": [
          "avlanmalılar."
         ],
+        "img": "https://static.arasaac.org/pictograms/7237/7237_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "wild",
         "emoji": "🐅"
        },
        {
@@ -1354,6 +1941,10 @@
         "trEm": [
          "gitmeliler."
         ],
+        "img": "https://static.arasaac.org/pictograms/6923/6923_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "birds",
         "emoji": "🦅"
        }
       ]
@@ -1368,6 +1959,10 @@
         "trEm": [
          "avlamamalıyız."
         ],
+        "img": "https://static.arasaac.org/pictograms/7237/7237_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "wild",
         "emoji": "🐅"
        },
        {
@@ -1376,6 +1971,10 @@
         "trEm": [
          "koşmamalıyız."
         ],
+        "img": "https://static.arasaac.org/pictograms/2719/2719_500.png",
+        "imageFit": "contain",
+        "imageSource": "ARASAAC",
+        "imageConcept": "run",
         "emoji": "🏃"
        }
       ]
@@ -1407,6 +2006,10 @@
      "trEm": [
       "avlanmalılar."
      ],
+     "img": "https://static.arasaac.org/pictograms/7237/7237_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "wild",
      "emoji": "🐅",
      "focus": "must ✅"
     }
@@ -1431,6 +2034,10 @@
      "trEm": [
       "gitmeliler."
      ],
+     "img": "https://static.arasaac.org/pictograms/6923/6923_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "birds",
      "emoji": "🦅",
      "focus": "must ✅"
     }
@@ -1455,6 +2062,10 @@
      "trEm": [
       "avlamamalıyız."
      ],
+     "img": "https://static.arasaac.org/pictograms/7237/7237_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "wild",
      "emoji": "🐅",
      "focus": "mustn't ⛔"
     }
@@ -1479,6 +2090,10 @@
      "trEm": [
       "koşmamalıyız."
      ],
+     "img": "https://static.arasaac.org/pictograms/2719/2719_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "run",
      "emoji": "🏃",
      "focus": "mustn't ⛔"
     }
@@ -1551,6 +2166,10 @@
      "trEm": [
       "tek heceli"
      ],
+     "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "fast",
      "emoji": "🏃"
     }
    ],
@@ -1572,6 +2191,10 @@
       "trEm": [
        "tek heceli"
       ],
+      "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fast",
       "emoji": "🏃"
      },
      {
@@ -1580,6 +2203,10 @@
       "trEm": [
        "iki+ heceli"
       ],
+      "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "danger",
       "emoji": "⚠️"
      },
      {
@@ -1620,6 +2247,10 @@
       "trEm": [
        "daha tehlikelidir"
       ],
+      "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "danger",
       "emoji": "⚠️"
      },
      {
@@ -1636,6 +2267,10 @@
       "trEm": [
        "daha büyük"
       ],
+      "img": "https://static.arasaac.org/pictograms/2372/2372_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "elephant",
       "emoji": "🐘"
      }
     ]
@@ -1655,6 +2290,10 @@
      "trEm": [
       "iki+ heceli"
      ],
+     "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "danger",
      "emoji": "⚠️"
     }
    ],
@@ -1751,6 +2390,10 @@
      "trEm": [
       "daha büyük"
      ],
+     "img": "https://static.arasaac.org/pictograms/2372/2372_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "elephant",
      "emoji": "🐘"
     }
    ],
@@ -1799,6 +2442,10 @@
      "trEm": [
       "daha tehlikelidir"
      ],
+     "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "danger",
      "emoji": "⚠️"
     }
    ],
@@ -1893,6 +2540,10 @@
      "trEm": [
       "tek heceli"
      ],
+     "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "fast",
      "emoji": "🏃"
     }
    ],
@@ -1914,6 +2565,10 @@
       "trEm": [
        "tek heceli"
       ],
+      "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fast",
       "emoji": "🏃"
      },
      {
@@ -1922,6 +2577,10 @@
       "trEm": [
        "iki+ heceli"
       ],
+      "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "danger",
       "emoji": "⚠️"
      },
      {
@@ -1962,6 +2621,10 @@
       "trEm": [
        "en hızlı"
       ],
+      "img": "https://static.arasaac.org/pictograms/7237/7237_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "wild",
       "emoji": "🐅"
      },
      {
@@ -1970,6 +2633,10 @@
       "trEm": [
        "en renkli"
       ],
+      "img": "https://static.arasaac.org/pictograms/5968/5968_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "colours",
       "emoji": "🌈"
      },
      {
@@ -1978,6 +2645,10 @@
       "trEm": [
        "en uzun"
       ],
+      "img": "https://static.arasaac.org/pictograms/2437/2437_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "giraffe",
       "emoji": "🦒"
      }
     ]
@@ -1997,6 +2668,10 @@
      "trEm": [
       "iki+ heceli"
      ],
+     "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "danger",
      "emoji": "⚠️"
     }
    ],
@@ -2117,6 +2792,10 @@
      "trEm": [
       "en uzun"
      ],
+     "img": "https://static.arasaac.org/pictograms/2437/2437_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "giraffe",
      "emoji": "🦒"
     }
    ],
@@ -2141,6 +2820,10 @@
      "trEm": [
       "en hızlı"
      ],
+     "img": "https://static.arasaac.org/pictograms/7237/7237_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "wild",
      "emoji": "🐅"
     }
    ],
@@ -2165,6 +2848,10 @@
      "trEm": [
       "en renkli"
      ],
+     "img": "https://static.arasaac.org/pictograms/5968/5968_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "colours",
      "emoji": "🌈"
     }
    ],
@@ -2274,28 +2961,37 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "tusk",
-      "tr": "fil dişi",
-      "img": "p02-02.png",
-      "emoji": "🐘"
+      "en": "furry",
+      "tr": "tüylü",
+      "img": "https://static.arasaac.org/pictograms/7205/7205_500.png",
+      "emoji": "🧸",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fur"
      },
      {
-      "en": "stripe",
-      "tr": "çizgi",
-      "img": "p02-06.png",
-      "emoji": "🦓"
+      "en": "leopard",
+      "tr": "leopar",
+      "img": "https://static.arasaac.org/pictograms/2942/2942_500.png",
+      "emoji": "🐆",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "leopard"
      },
      {
-      "en": "river",
-      "tr": "nehir",
-      "img": "p02-14.png",
-      "emoji": "🏞️"
+      "en": "savanna",
+      "tr": "otlak alan",
+      "img": "p02-16.png",
+      "emoji": "🦁"
      },
      {
-      "en": "sky",
-      "tr": "gökyüzü",
-      "img": "p02-18.png",
-      "emoji": "☁️"
+      "en": "snake",
+      "tr": "yılan",
+      "img": "https://static.arasaac.org/pictograms/2568/2568_500.png",
+      "emoji": "🐍",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "snake"
      }
     ]
    }
@@ -2313,32 +3009,35 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "national park",
-      "tr": "milli park",
-      "img": "p02-19.png",
-      "emoji": "🏕️",
-      "audio": "/app/audio/words/national-park.wav"
+      "en": "quiet",
+      "tr": "sessiz",
+      "img": "https://static.arasaac.org/pictograms/38050/38050_500.png",
+      "emoji": "🤫",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "quiet",
+      "audio": "/app/audio/words/quiet.wav"
      },
      {
-      "en": "fur",
-      "tr": "kürk",
-      "img": "p02-09.png",
-      "emoji": "🐇",
-      "audio": "/app/audio/words/fur.wav"
+      "en": "field",
+      "tr": "tarla",
+      "img": "p02-12.png",
+      "emoji": "🌾",
+      "audio": "/app/audio/words/field.wav"
      },
      {
-      "en": "tail",
-      "tr": "kuyruk",
-      "img": "p02-01.png",
-      "emoji": "🐒",
-      "audio": "/app/audio/words/tail.wav"
+      "en": "tusk",
+      "tr": "fil dişi",
+      "img": "p02-02.png",
+      "emoji": "🐘",
+      "audio": "/app/audio/words/tusk.wav"
      },
      {
-      "en": "farm",
-      "tr": "çiftlik",
-      "img": "p02-11.png",
-      "emoji": "🚜",
-      "audio": "/app/audio/words/farm.wav"
+      "en": "small",
+      "tr": "küçük",
+      "img": "/app/img/vocab/physical-small.svg",
+      "emoji": "🐜",
+      "audio": "/app/audio/words/small.wav"
      }
     ]
    }
@@ -2356,16 +3055,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Parrots are the most colourful wild birds.",
-      "tr": "Papağanlar en renkli vahşi kuşlardır."
+      "answer": "Cheetahs are the fastest wild animals.",
+      "tr": "Çitalar en hızlı vahşi hayvanlardır."
      },
      {
-      "answer": "We mustn't run in the zoo.",
-      "tr": "Hayvanat bahçesinde koşmamalıyız."
+      "answer": "Wild animals must hunt to eat.",
+      "tr": "Vahşi hayvanlar yemek için avlanmalılar."
      },
      {
-      "answer": "Tigers are more dangerous than zebras.",
-      "tr": "Kaplanlar, zebralardan daha tehlikelidir."
+      "answer": "An elephant is bigger than a lion.",
+      "tr": "Bir fil bir aslandan daha büyüktür."
      }
     ]
    }
@@ -2377,9 +3076,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "A dolphin can swim very fast.",
+    "clue": "Can a cheetah run fast? — Yes, it can.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Bir yunus çok hızlı yüzebilir."
+    "tr": "Bir çita hızlı koşabilir mi? — Evet."
    },
    "part": [
     4,
@@ -2393,9 +3092,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Wild animals must hunt to eat.",
+    "clue": "We mustn't run in the zoo.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Vahşi hayvanlar yemek için avlanmalılar."
+    "tr": "Hayvanat bahçesinde koşmamalıyız."
    },
    "part": [
     5,
@@ -2409,9 +3108,9 @@
    "task": {
     "kind": "flash",
     "q": "Choose two things from this unit. Make two comparisons; your partner checks them.",
-    "clue": "good → better · bad → worse · much/many → more · little → less · far → farther",
+    "clue": "heavy → heavier  ·  dangerous → more dangerous",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "düzensiz"
+    "tr": "iki+ heceli"
    },
    "part": [
     6,
@@ -2425,9 +3124,9 @@
    "task": {
     "kind": "flash",
     "q": "Make an animal record card. Give two facts using superlatives.",
-    "clue": "good → best · bad → worst · much/many → most · little → least · far → farthest",
+    "clue": "fast → the fastest  ·  large → the largest  ·  big → the biggest",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "düzensiz"
+    "tr": "tek heceli"
    },
    "part": [
     7,

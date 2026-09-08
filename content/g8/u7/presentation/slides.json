@@ -41,7 +41,8 @@
     {
      "en": "square",
      "tr": "meydan",
-     "emoji": "⛲"
+     "emoji": "⛲",
+     "img": "/app/img/vocab/physical-square.svg"
     }
    ],
    "part": [
@@ -121,13 +122,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "/app/img/words/destination.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "destination",
      "tr": "gidilecek yer",
      "options": [
       "destination",
       "countryside",
-      "attraction",
-      "all-inclusive"
+      "square",
+      "historic site"
      ]
     }
    ]
@@ -140,8 +143,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "tatil köyü",
-     "answer": "resort"
+     "clue": "tarihi alan",
+     "answer": "historic site"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places to Visit",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/resort.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "resort",
+     "tr": "tatil köyü",
+     "options": [
+      "resort",
+      "destination",
+      "square",
+      "historic site"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Places to Visit",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/bed-and-breakfast.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "bed and breakfast",
+     "tr": "pansiyon",
+     "options": [
+      "bed and breakfast",
+      "resort",
+      "countryside",
+      "square"
+     ]
     }
    ]
   },
@@ -171,7 +218,11 @@
     {
      "en": "cultural",
      "tr": "kültürel",
-     "emoji": "🎎"
+     "emoji": "🎎",
+     "img": "https://static.arasaac.org/pictograms/11693/11693_500.png",
+     "imageConcept": "culture",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -187,12 +238,20 @@
     {
      "en": "fascinating",
      "tr": "büyüleyici",
-     "emoji": "✨"
+     "emoji": "✨",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageConcept": "surprised",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "incredible",
      "tr": "inanılmaz",
-     "emoji": "🤯"
+     "emoji": "🤯",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageConcept": "surprised",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "rural",
@@ -220,25 +279,25 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"urban\" means \"mimari\".",
+     "statement": "\"cultural\" means \"büyüleyici\".",
      "answer": false,
-     "explain": "urban = kentsel"
+     "explain": "cultural = kültürel"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"kültür\"?",
+   "title": "Activity Break · Which word means \"inanılmaz\"?",
    "titleTr": "Use what you just learned · Describing Places",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"kültür\"?",
-     "answer": "culture",
+     "q": "Which word means \"inanılmaz\"?",
+     "answer": "incredible",
      "options": [
-      "culture",
       "incredible",
       "ancient",
+      "culture",
       "cultural"
      ]
     }
@@ -258,17 +317,83 @@
        "b": "kentsel"
       },
       {
+       "a": "architecture",
+       "b": "mimari"
+      },
+      {
        "a": "incredible",
        "b": "inanılmaz"
       },
       {
-       "a": "rural",
-       "b": "kırsal"
-      },
-      {
-       "a": "architecture",
-       "b": "mimari"
+       "a": "fascinating",
+       "b": "büyüleyici"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Describing Places",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/architecture.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "architecture",
+     "tr": "mimari",
+     "options": [
+      "architecture",
+      "rural",
+      "cultural",
+      "urban"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Describing Places",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "incredible",
+     "tr": "inanılmaz",
+     "options": [
+      "incredible",
+      "cultural",
+      "ancient",
+      "culture"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Describing Places",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/ancient.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "ancient",
+     "tr": "antik",
+     "options": [
+      "ancient",
+      "architecture",
+      "culture",
+      "rural"
      ]
     }
    ]
@@ -286,7 +411,11 @@
     {
      "en": "terrible / awful",
      "tr": "korkunç, berbat",
-     "emoji": "😖"
+     "emoji": "😖",
+     "img": "https://static.arasaac.org/pictograms/4690/4690_500.png",
+     "imageConcept": "bad",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "tradition",
@@ -296,7 +425,11 @@
     {
      "en": "truly",
      "tr": "gerçekten",
-     "emoji": "💯"
+     "emoji": "💯",
+     "img": "https://static.arasaac.org/pictograms/8715/8715_500.png",
+     "imageConcept": "true",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -312,22 +445,38 @@
     {
      "en": "unbelievable / incredible",
      "tr": "inanılmaz",
-     "emoji": "🤯"
+     "emoji": "🤯",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageConcept": "surprised",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "visit",
      "tr": "ziyaret etmek",
-     "emoji": "📍"
+     "emoji": "📍",
+     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
+     "imageConcept": "visit",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "rich",
      "tr": "zengin",
-     "emoji": "💰"
+     "emoji": "💰",
+     "img": "https://static.arasaac.org/pictograms/4733/4733_500.png",
+     "imageConcept": "rich",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "sightseeing",
      "tr": "gezi",
-     "emoji": "🏙️"
+     "emoji": "🏙️",
+     "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
+     "imageConcept": "sightseeing",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -343,17 +492,29 @@
     {
      "en": "summer",
      "tr": "yaz",
-     "emoji": "🌻"
+     "emoji": "🌻",
+     "img": "https://static.arasaac.org/pictograms/5604/5604_500.png",
+     "imageConcept": "summer",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "sunbathe",
      "tr": "güneşlenmek",
-     "emoji": "🏖️"
+     "emoji": "🏖️",
+     "img": "https://static.arasaac.org/pictograms/5402/5402_500.png",
+     "imageConcept": "sunbathe",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "sunny",
      "tr": "güneşli",
-     "emoji": "☀️"
+     "emoji": "☀️",
+     "img": "https://static.arasaac.org/pictograms/2796/2796_500.png",
+     "imageConcept": "sunny",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "mysterious",
@@ -374,8 +535,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "inanılmaz",
-     "answer": "unbelievable / incredible"
+     "clue": "ziyaret etmek",
+     "answer": "visit"
     }
    ]
   },
@@ -389,20 +550,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "visit",
-       "b": "ziyaret etmek"
-      },
-      {
-       "a": "sightseeing",
-       "b": "gezi"
-      },
-      {
-       "a": "taste",
-       "b": "tadına bakmak"
-      },
-      {
        "a": "summer",
        "b": "yaz"
+      },
+      {
+       "a": "mysterious",
+       "b": "gizemli"
+      },
+      {
+       "a": "truly",
+       "b": "gerçekten"
+      },
+      {
+       "a": "rich",
+       "b": "zengin"
       }
      ]
     }
@@ -410,15 +571,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"terrible / awful\" means \"korkunç, berbat\".",
-     "answer": true,
-     "explain": "terrible / awful = korkunç, berbat"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8715/8715_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "truly",
+     "tr": "gerçekten",
+     "options": [
+      "truly",
+      "visit",
+      "sightseeing",
+      "summer"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/5402/5402_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "sunbathe",
+     "tr": "güneşlenmek",
+     "options": [
+      "sunbathe",
+      "sunny",
+      "mysterious",
+      "taste"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "visit",
+     "tr": "ziyaret etmek",
+     "options": [
+      "visit",
+      "terrible / awful",
+      "mysterious",
+      "summer"
+     ]
     }
    ]
   },
@@ -430,22 +643,38 @@
     {
      "en": "natural",
      "tr": "doğal",
-     "emoji": "🌿"
+     "emoji": "🌿",
+     "img": "https://static.arasaac.org/pictograms/20389/20389_500.png",
+     "imageConcept": "nature",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "palace",
      "tr": "saray",
-     "emoji": "🏰"
+     "emoji": "🏰",
+     "img": "https://static.arasaac.org/pictograms/17279/17279_500.png",
+     "imageConcept": "palace",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "peaceful",
      "tr": "huzurlu",
-     "emoji": "🕊️"
+     "emoji": "🕊️",
+     "img": "https://static.arasaac.org/pictograms/8182/8182_500.png",
+     "imageConcept": "peace",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "rainy",
      "tr": "yağmurlu",
-     "emoji": "🌧️"
+     "emoji": "🌧️",
+     "img": "https://static.arasaac.org/pictograms/2936/2936_500.png",
+     "imageConcept": "rainy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -461,27 +690,65 @@
     {
      "en": "relaxing",
      "tr": "rahatlatıcı",
-     "emoji": "😌"
+     "emoji": "😌",
+     "img": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+     "imageConcept": "relax",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "heritage",
      "tr": "miras",
-     "emoji": "🏛️"
+     "emoji": "🏛️",
+     "img": "https://static.arasaac.org/pictograms/36297/36297_500.png",
+     "imageConcept": "monument",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "holiday",
      "tr": "tatil",
-     "emoji": "🧳"
+     "emoji": "🧳",
+     "img": "https://static.arasaac.org/pictograms/3166/3166_500.png",
+     "imageConcept": "holidays",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "hospitable",
      "tr": "misafirperver",
-     "emoji": "🤗"
+     "emoji": "🤗",
+     "img": "https://static.arasaac.org/pictograms/6936/6936_500.png",
+     "imageConcept": "welcome",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     2,
     2
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/3166/3166_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "holiday",
+     "tr": "tatil",
+     "options": [
+      "holiday",
+      "natural",
+      "peaceful",
+      "rainy"
+     ]
+    }
    ]
   },
   {
@@ -492,9 +759,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"hospitable\" means \"rahatlatıcı\".",
+     "statement": "\"peaceful\" means \"doğal\".",
      "answer": false,
-     "explain": "hospitable = misafirperver"
+     "explain": "peaceful = huzurlu"
     }
    ]
   },
@@ -508,20 +775,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "rainy",
-       "b": "yağmurlu"
-      },
-      {
        "a": "hospitable",
        "b": "misafirperver"
       },
       {
-       "a": "peaceful",
-       "b": "huzurlu"
+       "a": "palace",
+       "b": "saray"
       },
       {
        "a": "natural",
        "b": "doğal"
+      },
+      {
+       "a": "peaceful",
+       "b": "huzurlu"
       }
      ]
     }
@@ -529,14 +796,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "rahatlatıcı",
-     "answer": "relaxing"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/8182/8182_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "peaceful",
+     "tr": "huzurlu",
+     "options": [
+      "peaceful",
+      "natural",
+      "holiday",
+      "rainy"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/20389/20389_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "natural",
+     "tr": "doğal",
+     "options": [
+      "natural",
+      "hospitable",
+      "holiday",
+      "heritage"
+     ]
     }
    ]
   },
@@ -554,6 +852,10 @@
      "trEm": [
       "ziyaret ettik"
      ],
+     "img": "https://static.arasaac.org/pictograms/5604/5604_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "summer",
      "emoji": "🌻"
     }
    ],
@@ -580,6 +882,10 @@
       "trEm": [
        "ziyaret ettik"
       ],
+      "img": "https://static.arasaac.org/pictograms/5604/5604_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "summer",
       "emoji": "🌻"
      },
      {
@@ -613,6 +919,10 @@
       "trEm": [
        "Geçen yaz trenle seyahat ettik."
       ],
+      "img": "https://static.arasaac.org/pictograms/5604/5604_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "summer",
       "emoji": "🌻"
      },
      {
@@ -711,6 +1021,10 @@
      "trEm": [
       "Geçen yaz trenle seyahat ettik."
      ],
+     "img": "https://static.arasaac.org/pictograms/5604/5604_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "summer",
      "emoji": "🌻"
     }
    ],
@@ -1115,10 +1429,13 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "attraction",
-      "tr": "gezilecek yer",
-      "img": "/app/img/words/attraction.jpg",
-      "emoji": "📍"
+      "en": "rich",
+      "tr": "zengin",
+      "img": "https://static.arasaac.org/pictograms/4733/4733_500.png",
+      "emoji": "💰",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "rich"
      },
      {
       "en": "historic site",
@@ -1127,16 +1444,19 @@
       "emoji": "🏺"
      },
      {
-      "en": "resort",
-      "tr": "tatil köyü",
-      "img": "/app/img/words/resort.jpg",
-      "emoji": "🏖️"
+      "en": "heritage",
+      "tr": "miras",
+      "img": "https://static.arasaac.org/pictograms/36297/36297_500.png",
+      "emoji": "🏛️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "monument"
      },
      {
-      "en": "destination",
-      "tr": "gidilecek yer",
-      "img": "/app/img/words/destination.jpg",
-      "emoji": "🧭"
+      "en": "architecture",
+      "tr": "mimari",
+      "img": "/app/img/words/architecture.jpg",
+      "emoji": "🏗️"
      }
     ]
    }
@@ -1154,6 +1474,23 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
+      "en": "square",
+      "tr": "meydan",
+      "img": "/app/img/vocab/physical-square.svg",
+      "emoji": "⛲",
+      "audio": "/app/audio/words/square.wav"
+     },
+     {
+      "en": "unbelievable / incredible",
+      "tr": "inanılmaz",
+      "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+      "emoji": "🤯",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "surprised",
+      "audio": "/app/audio/words/unbelievable-incredible.wav"
+     },
+     {
       "en": "bed and breakfast",
       "tr": "pansiyon",
       "img": "/app/img/words/bed-and-breakfast.jpg",
@@ -1161,25 +1498,14 @@
       "audio": "/app/audio/words/bed-and-breakfast.wav"
      },
      {
-      "en": "rural",
-      "tr": "kırsal",
-      "img": "/app/img/words/rural.jpg",
-      "emoji": "🚜",
-      "audio": "/app/audio/words/rural.wav"
-     },
-     {
-      "en": "culture",
-      "tr": "kültür",
-      "img": "/app/img/words/culture.jpg",
-      "emoji": "🎭",
-      "audio": "/app/audio/words/culture.wav"
-     },
-     {
-      "en": "urban",
-      "tr": "kentsel",
-      "img": "/app/img/words/urban.jpg",
-      "emoji": "🏙️",
-      "audio": "/app/audio/words/urban.wav"
+      "en": "holiday",
+      "tr": "tatil",
+      "img": "https://static.arasaac.org/pictograms/3166/3166_500.png",
+      "emoji": "🧳",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "holidays",
+      "audio": "/app/audio/words/holiday.wav"
      }
     ]
    }
@@ -1197,16 +1523,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
+      "answer": "We ate delicious local food.",
+      "tr": "Nefis yöresel yemekler yedik."
+     },
+     {
       "answer": "We went to Antalya by plane.",
       "tr": "Antalya'ya uçakla gittik."
      },
      {
-      "answer": "I saw the ancient theatre.",
-      "tr": "Antik tiyatroyu gördüm."
-     },
-     {
-      "answer": "We travelled by train last summer.",
-      "tr": "Geçen yaz trenle seyahat ettik."
+      "answer": "She took a lot of photographs.",
+      "tr": "Bir sürü fotoğraf çekti."
      }
     ]
    }
@@ -1218,9 +1544,9 @@
    "task": {
     "kind": "flash",
     "q": "Describe yesterday's trip: a place, an activity and your opinion. Ask your partner a question.",
-    "clue": "Did you enjoy the tour? — Yes, I did.",
+    "clue": "They stayed at a lovely hotel.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Turdan keyif aldın mı? — Evet."
+    "tr": "Güzel bir otelde kaldılar."
    },
    "part": [
     4,
@@ -1234,9 +1560,9 @@
    "task": {
     "kind": "flash",
     "q": "Tell your partner three things about your last holiday: where you went, what you saw and what you ate.",
-    "clue": "We went to Antalya by plane.",
+    "clue": "I saw the ancient theatre.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Antalya'ya uçakla gittik."
+    "tr": "Antik tiyatroyu gördüm."
    },
    "part": [
     5,

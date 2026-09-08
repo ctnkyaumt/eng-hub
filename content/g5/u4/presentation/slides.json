@@ -157,13 +157,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "p01-04.png",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "mother / mum",
      "tr": "anne",
      "options": [
       "mother / mum",
-      "grandfather",
-      "aunt",
-      "sister"
+      "daughter",
+      "sister",
+      "aunt"
      ]
     }
    ]
@@ -178,6 +180,50 @@
      "q": "Guess the English word",
      "clue": "amca / dayı",
      "answer": "uncle"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Family Members",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-01.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "grandfather",
+     "tr": "büyükbaba",
+     "options": [
+      "grandfather",
+      "grandmother",
+      "mother / mum",
+      "father / dad"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Family Members",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-05.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "uncle",
+     "tr": "amca / dayı",
+     "options": [
+      "uncle",
+      "grandfather",
+      "daughter",
+      "father / dad"
+     ]
     }
    ]
   },
@@ -294,26 +340,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"have breakfast\" means \"yüzü yıkamak\".",
+     "statement": "\"take a shower\" means \"dişleri fırçalamak\".",
      "answer": false,
-     "explain": "have breakfast = kahvaltı yapmak"
+     "explain": "take a shower = duş almak"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"uyanmak\"?",
+   "title": "Activity Break · Which word means \"elleri yıkamak\"?",
    "titleTr": "Use what you just learned · Daily Routines (1)",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"uyanmak\"?",
-     "answer": "wake up",
+     "q": "Which word means \"elleri yıkamak\"?",
+     "answer": "wash hands",
      "options": [
-      "wake up",
       "wash hands",
-      "study",
-      "brush teeth"
+      "take a shower",
+      "wash face",
+      "comb hair"
      ]
     }
    ]
@@ -332,17 +378,83 @@
        "b": "uyanmak"
       },
       {
-       "a": "have breakfast",
-       "b": "kahvaltı yapmak"
-      },
-      {
-       "a": "have lunch",
-       "b": "öğle yemeği yemek"
-      },
-      {
        "a": "brush teeth",
        "b": "dişleri fırçalamak"
+      },
+      {
+       "a": "go to school",
+       "b": "okula gitmek"
+      },
+      {
+       "a": "get up",
+       "b": "kalkmak"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Daily Routines (1)",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-13.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "get up",
+     "tr": "kalkmak",
+     "options": [
+      "get up",
+      "have breakfast",
+      "wake up",
+      "wash hands"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Daily Routines (1)",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-14.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "brush teeth",
+     "tr": "dişleri fırçalamak",
+     "options": [
+      "brush teeth",
+      "comb hair",
+      "get dressed",
+      "have breakfast"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Daily Routines (1)",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p01-19.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "get dressed",
+     "tr": "giyinmek",
+     "options": [
+      "get dressed",
+      "comb hair",
+      "study",
+      "get up"
      ]
     }
    ]
@@ -425,8 +537,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "yatmak",
-     "answer": "go to bed"
+     "clue": "evcil hayvanla ilgilenmek",
+     "answer": "take care of the pet"
     }
    ]
   },
@@ -440,6 +552,10 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "go to bed",
+       "b": "yatmak"
+      },
+      {
        "a": "do homework",
        "b": "ödev yapmak"
       },
@@ -448,12 +564,8 @@
        "b": "uyumak"
       },
       {
-       "a": "take care of the pet",
-       "b": "evcil hayvanla ilgilenmek"
-      },
-      {
-       "a": "rest / relax",
-       "b": "dinlenmek"
+       "a": "have dinner",
+       "b": "akşam yemeği yemek"
       }
      ]
     }
@@ -467,14 +579,60 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-01.png",
-     "answer": "have dinner",
-     "tr": "akşam yemeği yemek",
+     "img": "p02-02.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "do homework",
+     "tr": "ödev yapmak",
      "options": [
-      "have dinner",
+      "do homework",
       "sleep",
-      "watch TV",
+      "tidy up the house",
       "take care of the pet"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Daily Routines (2)",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-03.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "watch TV",
+     "tr": "televizyon izlemek",
+     "options": [
+      "watch TV",
+      "sleep",
+      "go to bed",
+      "rest / relax"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Daily Routines (2)",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-08.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "sleep",
+     "tr": "uyumak",
+     "options": [
+      "sleep",
+      "do homework",
+      "have dinner",
+      "go to bed"
      ]
     }
    ]
@@ -662,14 +820,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-15.png",
-     "answer": "go to the beach",
-     "tr": "plaja gitmek",
+     "img": "p02-27.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "fish",
+     "tr": "balık tutmak",
      "options": [
-      "go to the beach",
-      "play the piano",
-      "stay in a tent",
-      "play the guitar"
+      "fish",
+      "camp in the forest",
+      "play the guitar",
+      "have a barbecue"
      ]
     }
    ]
@@ -682,9 +842,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"ride a scooter\" means \"kutu oyunu oynamak\".",
+     "statement": "\"go on holiday\" means \"bilgisayar oyunu oynamak\".",
      "answer": false,
-     "explain": "ride a scooter = skutere binmek"
+     "explain": "go on holiday = tatile gitmek"
     }
    ]
   },
@@ -698,21 +858,65 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "stay in a tent",
-       "b": "çadırda kalmak"
+       "a": "ride a scooter",
+       "b": "skutere binmek"
       },
       {
-       "a": "play computer games",
-       "b": "bilgisayar oyunu oynamak"
+       "a": "play the guitar",
+       "b": "gitar çalmak"
       },
       {
-       "a": "go to the beach",
-       "b": "plaja gitmek"
+       "a": "dance",
+       "b": "dans etmek"
       },
       {
-       "a": "take a photograph",
-       "b": "fotoğraf çekmek"
+       "a": "camp in the forest",
+       "b": "ormanda kamp yapmak"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Hobbies and Activities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-25.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "cook",
+     "tr": "yemek pişirmek",
+     "options": [
+      "cook",
+      "fish",
+      "dance",
+      "play a board game"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Hobbies and Activities",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-12.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "ride a scooter",
+     "tr": "skutere binmek",
+     "options": [
+      "ride a scooter",
+      "visit a museum",
+      "take a photograph",
+      "have a picnic"
      ]
     }
    ]
@@ -1213,7 +1417,10 @@
      "trEm": [
       "değil mi"
      ],
-     "emoji": "🧺"
+     "emoji": "🧺",
+     "img": "https://static.arasaac.org/pictograms/10236/10236_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -1695,28 +1902,28 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "tidy up the house",
-      "tr": "evi toparlamak",
-      "img": "p02-06.png",
-      "emoji": "🧹"
+      "en": "dance",
+      "tr": "dans etmek",
+      "img": "p02-26.png",
+      "emoji": "💃"
      },
      {
-      "en": "cook",
-      "tr": "yemek pişirmek",
-      "img": "p02-25.png",
-      "emoji": "👨‍🍳"
+      "en": "go to the beach",
+      "tr": "plaja gitmek",
+      "img": "p02-15.png",
+      "emoji": "🏖️"
      },
      {
-      "en": "rest / relax",
-      "tr": "dinlenmek",
-      "img": "p02-05.png",
-      "emoji": "🛋️"
+      "en": "grandmother",
+      "tr": "büyükanne",
+      "img": "p01-02.png",
+      "emoji": "👵"
      },
      {
-      "en": "watch TV",
-      "tr": "televizyon izlemek",
-      "img": "p02-03.png",
-      "emoji": "📺"
+      "en": "go to school",
+      "tr": "okula gitmek",
+      "img": "p01-20.png",
+      "emoji": "🚌"
      }
     ]
    }
@@ -1734,11 +1941,11 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "have a barbecue",
-      "tr": "mangal yapmak",
-      "img": "p02-10.png",
-      "emoji": "🍖",
-      "audio": "/app/audio/words/have-a-barbecue.wav"
+      "en": "play golf",
+      "tr": "golf oynamak",
+      "img": "p02-24.png",
+      "emoji": "⛳",
+      "audio": "/app/audio/words/play-golf.wav"
      },
      {
       "en": "brother",
@@ -1748,18 +1955,18 @@
       "audio": "/app/audio/words/brother.wav"
      },
      {
-      "en": "play computer games",
-      "tr": "bilgisayar oyunu oynamak",
-      "img": "p02-14.png",
-      "emoji": "🎮",
-      "audio": "/app/audio/words/play-computer-games.wav"
+      "en": "have lunch",
+      "tr": "öğle yemeği yemek",
+      "img": "p01-23.png",
+      "emoji": "🍽️",
+      "audio": "/app/audio/words/have-lunch.wav"
      },
      {
-      "en": "stay in a tent",
-      "tr": "çadırda kalmak",
-      "img": "p02-22.png",
-      "emoji": "⛺",
-      "audio": "/app/audio/words/stay-in-a-tent.wav"
+      "en": "swim",
+      "tr": "yüzmek",
+      "img": "p02-28.png",
+      "emoji": "🏊",
+      "audio": "/app/audio/words/swim.wav"
      }
     ]
    }
@@ -1777,16 +1984,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "She brushes her teeth in the morning.",
-      "tr": "O sabahları dişlerini fırçalar."
+      "answer": "I am going to school now.",
+      "tr": "Ben şimdi okula gidiyorum."
      },
      {
-      "answer": "We watch TV in the evenings.",
-      "tr": "Biz akşamları televizyon izleriz."
+      "answer": "I go to school every day.",
+      "tr": "Ben her gün okula giderim."
      },
      {
-      "answer": "She is going to school, isn't she?",
-      "tr": "O okula gidiyor, değil mi?"
+      "answer": "She is brushing her teeth now.",
+      "tr": "O şimdi dişlerini fırçalıyor."
      }
     ]
    }
@@ -1798,9 +2005,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I am watching TV now.",
+    "clue": "We are reading a story now.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Ben şimdi televizyon izliyorum."
+    "tr": "Şimdi bir hikaye okuyoruz."
    },
    "part": [
     4,
@@ -1814,9 +2021,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I am not doing my homework.",
+    "clue": "Is she sleeping? — No, she isn't.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Ödev yapmıyorum."
+    "tr": "O uyuyor mu? — Hayır, uyumuyor."
    },
    "part": [
     5,
@@ -1830,9 +2037,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "She is going to school, isn't she?",
+    "clue": "You are having a picnic, aren't you?",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "O okula gidiyor, değil mi?"
+    "tr": "Sen piknik yapıyorsun, değil mi?"
    },
    "part": [
     6,

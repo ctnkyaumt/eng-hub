@@ -23,12 +23,20 @@
     {
      "en": "teenager",
      "tr": "genç",
-     "emoji": "🧑"
+     "emoji": "🧑",
+     "img": "https://static.arasaac.org/pictograms/4673/4673_500.png",
+     "imageConcept": "teenager",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "hang out",
      "tr": "takılmak",
-     "emoji": "🧑‍🤝‍🧑"
+     "emoji": "🧑‍🤝‍🧑",
+     "img": "https://static.arasaac.org/pictograms/2255/2255_500.png",
+     "imageConcept": "hang out",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "relationship",
@@ -49,17 +57,29 @@
     {
      "en": "argue",
      "tr": "tartışmak",
-     "emoji": "😠"
+     "emoji": "😠",
+     "img": "https://static.arasaac.org/pictograms/4634/4634_500.png",
+     "imageConcept": "argue",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fashion",
      "tr": "moda",
-     "emoji": "👗"
+     "emoji": "👗",
+     "img": "https://static.arasaac.org/pictograms/37997/37997_500.png",
+     "imageConcept": "fashion",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "trendy",
      "tr": "moda olan",
-     "emoji": "✨"
+     "emoji": "✨",
+     "img": "https://static.arasaac.org/pictograms/37997/37997_500.png",
+     "imageConcept": "fashion",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -133,13 +153,15 @@
      "kind": "picture",
      "q": "Which word matches the picture?",
      "img": "/app/img/words/types-of-music.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
      "answer": "types of music",
      "tr": "müzik türleri",
      "options": [
       "types of music",
-      "argue",
       "teenager",
-      "fashion"
+      "fashion",
+      "trendy"
      ]
     }
    ]
@@ -152,8 +174,52 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "genç",
-     "answer": "teenager"
+     "clue": "ilişki",
+     "answer": "relationship"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Teen Life",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4634/4634_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "argue",
+     "tr": "tartışmak",
+     "options": [
+      "argue",
+      "teenager",
+      "concert",
+      "hang out"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Teen Life",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2255/2255_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "hang out",
+     "tr": "takılmak",
+     "options": [
+      "hang out",
+      "concert",
+      "relationship",
+      "teenager"
+     ]
     }
    ]
   },
@@ -165,22 +231,38 @@
     {
      "en": "prefer",
      "tr": "tercih etmek",
-     "emoji": "⚖️"
+     "emoji": "⚖️",
+     "img": "https://static.arasaac.org/pictograms/11694/11694_500.png",
+     "imageConcept": "prefer",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fond of",
      "tr": "hoşlanmak",
-     "emoji": "💕"
+     "emoji": "💕",
+     "img": "https://static.arasaac.org/pictograms/2418/2418_500.png",
+     "imageConcept": "like",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "recommend",
      "tr": "tavsiye etmek",
-     "emoji": "👍"
+     "emoji": "👍",
+     "img": "https://static.arasaac.org/pictograms/37708/37708_500.png",
+     "imageConcept": "recommend",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "relaxing",
      "tr": "rahatlatıcı",
-     "emoji": "😌"
+     "emoji": "😌",
+     "img": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+     "imageConcept": "relax",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -196,12 +278,20 @@
     {
      "en": "impressive",
      "tr": "etkileyici",
-     "emoji": "🌟"
+     "emoji": "🌟",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageConcept": "surprised",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "terrific",
      "tr": "muhteşem",
-     "emoji": "🤩"
+     "emoji": "🤩",
+     "img": "https://static.arasaac.org/pictograms/11599/11599_500.png",
+     "imageConcept": "fantastic",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "ridiculous",
@@ -227,12 +317,20 @@
     {
      "en": "loud",
      "tr": "gürültülü",
-     "emoji": "🔊"
+     "emoji": "🔊",
+     "img": "https://static.arasaac.org/pictograms/7157/7157_500.png",
+     "imageConcept": "noisy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "serious",
      "tr": "ciddi",
-     "emoji": "😐"
+     "emoji": "😐",
+     "img": "https://static.arasaac.org/pictograms/8690/8690_500.png",
+     "imageConcept": "serious",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -248,26 +346,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"prefer\" means \"hoşlanmak\".",
+     "statement": "\"terrific\" means \"tercih etmek\".",
      "answer": false,
-     "explain": "prefer = tercih etmek"
+     "explain": "terrific = muhteşem"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"tavsiye etmek\"?",
+   "title": "Activity Break · Which word means \"dayanılmaz\"?",
    "titleTr": "Use what you just learned · Likes & Preferences",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"tavsiye etmek\"?",
-     "answer": "recommend",
+     "q": "Which word means \"dayanılmaz\"?",
+     "answer": "unbearable",
      "options": [
-      "recommend",
-      "ridiculous",
+      "unbearable",
       "impressive",
-      "serious"
+      "ridiculous",
+      "recommend"
      ]
     }
    ]
@@ -282,21 +380,87 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "terrific",
-       "b": "muhteşem"
-      },
-      {
        "a": "prefer",
        "b": "tercih etmek"
       },
       {
-       "a": "loud",
-       "b": "gürültülü"
-      },
-      {
        "a": "serious",
        "b": "ciddi"
+      },
+      {
+       "a": "recommend",
+       "b": "tavsiye etmek"
+      },
+      {
+       "a": "unbearable",
+       "b": "dayanılmaz"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Likes & Preferences",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "relaxing",
+     "tr": "rahatlatıcı",
+     "options": [
+      "relaxing",
+      "unbearable",
+      "serious",
+      "fond of"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Likes & Preferences",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/11599/11599_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "terrific",
+     "tr": "muhteşem",
+     "options": [
+      "terrific",
+      "prefer",
+      "relaxing",
+      "unbearable"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Likes & Preferences",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/11694/11694_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "prefer",
+     "tr": "tercih etmek",
+     "options": [
+      "prefer",
+      "relaxing",
+      "fond of",
+      "serious"
      ]
     }
    ]
@@ -309,22 +473,38 @@
     {
      "en": "hiking",
      "tr": "doğa yürüyüşü",
-     "emoji": "🥾"
+     "emoji": "🥾",
+     "img": "https://static.arasaac.org/pictograms/4670/4670_500.png",
+     "imageConcept": "hike",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "horizon",
      "tr": "ufuk",
-     "emoji": "🌅"
+     "emoji": "🌅",
+     "img": "https://static.arasaac.org/pictograms/20393/20393_500.png",
+     "imageConcept": "horizon",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "how often",
      "tr": "ne sıklıkla",
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "img": "/app/img/concepts/how-often.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "how often"
     },
     {
      "en": "fashionable",
      "tr": "modaya uygun",
-     "emoji": "👗"
+     "emoji": "👗",
+     "img": "https://static.arasaac.org/pictograms/37997/37997_500.png",
+     "imageConcept": "fashion",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -340,22 +520,38 @@
     {
      "en": "fast",
      "tr": "hızlı",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+     "imageConcept": "fast",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "folk music",
      "tr": "halk müziği",
-     "emoji": "🪕"
+     "emoji": "🪕",
+     "img": "https://static.arasaac.org/pictograms/24795/24795_500.png",
+     "imageConcept": "music",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "follow",
      "tr": "takip etmek",
-     "emoji": "👣"
+     "emoji": "👣",
+     "img": "https://static.arasaac.org/pictograms/7037/7037_500.png",
+     "imageConcept": "follow",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "form",
      "tr": "kurmak, oluşturmak",
-     "emoji": "📝"
+     "emoji": "📝",
+     "img": "https://static.arasaac.org/pictograms/9173/9173_500.png",
+     "imageConcept": "form",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -371,17 +567,29 @@
     {
      "en": "free time",
      "tr": "boş zaman",
-     "emoji": "🕒"
+     "emoji": "🕒",
+     "img": "https://static.arasaac.org/pictograms/11653/11653_500.png",
+     "imageConcept": "free time",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "gym",
      "tr": "spor salonu",
-     "emoji": "🏋️"
+     "emoji": "🏋️",
+     "img": "https://static.arasaac.org/pictograms/24785/24785_500.png",
+     "imageConcept": "gym",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "hate",
      "tr": "nefret etmek",
-     "emoji": "😠"
+     "emoji": "😠",
+     "img": "https://static.arasaac.org/pictograms/38936/38936_500.png",
+     "imageConcept": "hate",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "energetic",
@@ -402,8 +610,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "takip etmek",
-     "answer": "follow"
+     "clue": "kurmak, oluşturmak",
+     "answer": "form"
     }
    ]
   },
@@ -417,20 +625,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "hate",
+       "b": "nefret etmek"
+      },
+      {
        "a": "hiking",
        "b": "doğa yürüyüşü"
       },
       {
-       "a": "gym",
-       "b": "spor salonu"
+       "a": "horizon",
+       "b": "ufuk"
       },
       {
-       "a": "follow",
-       "b": "takip etmek"
-      },
-      {
-       "a": "free time",
-       "b": "boş zaman"
+       "a": "energetic",
+       "b": "enerjik"
       }
      ]
     }
@@ -438,15 +646,67 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · True or false?",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 1",
    "tasks": [
     {
-     "kind": "truefalse",
-     "q": "True or false?",
-     "statement": "\"fashionable\" means \"modaya uygun\".",
-     "answer": true,
-     "explain": "fashionable = modaya uygun"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/38936/38936_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "hate",
+     "tr": "nefret etmek",
+     "options": [
+      "hate",
+      "horizon",
+      "how often",
+      "fast"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/how-often.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "how often",
+     "tr": "ne sıklıkla",
+     "options": [
+      "how often",
+      "hate",
+      "fast",
+      "fashionable"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/11653/11653_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "free time",
+     "tr": "boş zaman",
+     "options": [
+      "free time",
+      "folk music",
+      "fast",
+      "follow"
+     ]
     }
    ]
   },
@@ -458,22 +718,38 @@
     {
      "en": "enjoy",
      "tr": "sevmek, hoşlanmak",
-     "emoji": "😊"
+     "emoji": "😊",
+     "img": "https://static.arasaac.org/pictograms/8992/8992_500.png",
+     "imageConcept": "enjoy",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "enjoyable",
      "tr": "eğlenceli, zevkli",
-     "emoji": "😄"
+     "emoji": "😄",
+     "img": "https://static.arasaac.org/pictograms/24733/24733_500.png",
+     "imageConcept": "fun",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "enlarge",
      "tr": "genişletmek, büyütmek",
-     "emoji": "🔍"
+     "emoji": "🔍",
+     "img": "https://static.arasaac.org/pictograms/6920/6920_500.png",
+     "imageConcept": "enlarge",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "exciting",
      "tr": "heyecan verici",
-     "emoji": "🤩"
+     "emoji": "🤩",
+     "img": "https://static.arasaac.org/pictograms/39090/39090_500.png",
+     "imageConcept": "excited",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
@@ -489,27 +765,65 @@
     {
      "en": "exercise",
      "tr": "egzersiz",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "img": "https://static.arasaac.org/pictograms/10156/10156_500.png",
+     "imageConcept": "exercise",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fantasy",
      "tr": "hayal ürünü",
-     "emoji": "🧚"
+     "emoji": "🧚",
+     "img": "https://static.arasaac.org/pictograms/38003/38003_500.png",
+     "imageConcept": "imagination",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "fascinating",
      "tr": "büyüleyici",
-     "emoji": "✨"
+     "emoji": "✨",
+     "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+     "imageConcept": "surprised",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     },
     {
      "en": "come over",
      "tr": "uğramak, ziyaret etmek",
-     "emoji": "🚪"
+     "emoji": "🚪",
+     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
+     "imageConcept": "visit",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "part": [
     2,
     2
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/10156/10156_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "exercise",
+     "tr": "egzersiz",
+     "options": [
+      "exercise",
+      "fantasy",
+      "come over",
+      "enjoy"
+     ]
+    }
    ]
   },
   {
@@ -520,9 +834,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"come over\" means \"genişletmek, büyütmek\".",
+     "statement": "\"enjoy\" means \"eğlenceli, zevkli\".",
      "answer": false,
-     "explain": "come over = uğramak, ziyaret etmek"
+     "explain": "enjoy = sevmek, hoşlanmak"
     }
    ]
   },
@@ -536,20 +850,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "exercise",
-       "b": "egzersiz"
-      },
-      {
        "a": "fantasy",
        "b": "hayal ürünü"
       },
       {
-       "a": "enlarge",
-       "b": "genişletmek, büyütmek"
+       "a": "enjoy",
+       "b": "sevmek, hoşlanmak"
       },
       {
-       "a": "fascinating",
-       "b": "büyüleyici"
+       "a": "exercise",
+       "b": "egzersiz"
+      },
+      {
+       "a": "exciting",
+       "b": "heyecan verici"
       }
      ]
     }
@@ -557,14 +871,45 @@
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Guess the English word",
+   "title": "Activity Break · Which word matches the picture?",
    "titleTr": "Use what you just learned · More Words 2",
    "tasks": [
     {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "sevmek, hoşlanmak",
-     "answer": "enjoy"
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "come over",
+     "tr": "uğramak, ziyaret etmek",
+     "options": [
+      "come over",
+      "enjoy",
+      "exciting",
+      "fantasy"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 2",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/24733/24733_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "enjoyable",
+     "tr": "eğlenceli, zevkli",
+     "options": [
+      "enjoyable",
+      "enlarge",
+      "fantasy",
+      "exciting"
+     ]
     }
    ]
   },
@@ -582,6 +927,10 @@
      "trEm": [
       "giderim"
      ],
+     "img": "https://static.arasaac.org/pictograms/24785/24785_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "gym",
      "emoji": "🏋️"
     }
    ],
@@ -610,6 +959,10 @@
       "trEm": [
        "giderim"
       ],
+      "img": "https://static.arasaac.org/pictograms/24785/24785_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "gym",
       "emoji": "🏋️"
      },
      {
@@ -618,6 +971,10 @@
       "trEm": [
        "izler"
       ],
+      "img": "https://static.arasaac.org/pictograms/11653/11653_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "free time",
       "emoji": "🕒"
      },
      {
@@ -693,6 +1050,10 @@
      "trEm": [
       "izler"
      ],
+     "img": "https://static.arasaac.org/pictograms/11653/11653_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "free time",
      "emoji": "🕒"
     }
    ],
@@ -813,7 +1174,10 @@
      "trEm": [
       "Sık sık basketbol oynarız."
      ],
-     "emoji": "🏀"
+     "emoji": "🏀",
+     "img": "https://static.arasaac.org/pictograms/4918/4918_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain"
     }
    ],
    "paced": true,
@@ -938,6 +1302,10 @@
       "tercih ederim",
       "caza"
      ],
+     "img": "https://static.arasaac.org/pictograms/11694/11694_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "prefer",
      "emoji": "⚖️"
     }
    ],
@@ -964,6 +1332,10 @@
        "tercih ederim",
        "caza"
       ],
+      "img": "https://static.arasaac.org/pictograms/11694/11694_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "prefer",
       "emoji": "⚖️"
      },
      {
@@ -980,6 +1352,10 @@
       "trEm": [
        "hoşlanırlar"
       ],
+      "img": "https://static.arasaac.org/pictograms/8992/8992_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "enjoy",
       "emoji": "😊"
      },
      {
@@ -1061,6 +1437,10 @@
      "trEm": [
       "hoşlanırlar"
      ],
+     "img": "https://static.arasaac.org/pictograms/8992/8992_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "enjoy",
      "emoji": "😊"
     }
    ],
@@ -1153,7 +1533,11 @@
      "trEm": [
       "Ne sıklıkla"
      ],
-     "emoji": "🔁"
+     "img": "/app/img/concepts/how-often.svg",
+     "emoji": "🔁",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "how often"
     }
    ],
    "paced": true,
@@ -1174,7 +1558,11 @@
       "trEm": [
        "Ne sıklıkla"
       ],
-      "emoji": "🔁"
+      "img": "/app/img/concepts/how-often.svg",
+      "emoji": "🔁",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "how often"
      },
      {
       "en": "I go swimming *twice a week*.",
@@ -1374,26 +1762,37 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "types of music",
-      "tr": "müzik türleri",
-      "img": "/app/img/words/types-of-music.jpg",
-      "emoji": "🎵"
-     },
-     {
       "en": "concert",
       "tr": "konser",
       "img": "/app/img/words/concert.jpg",
       "emoji": "🎤"
      },
      {
-      "en": "energetic",
-      "tr": "enerjik",
-      "emoji": "⚡"
+      "en": "follow",
+      "tr": "takip etmek",
+      "img": "https://static.arasaac.org/pictograms/7037/7037_500.png",
+      "emoji": "👣",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "follow"
      },
      {
-      "en": "horizon",
-      "tr": "ufuk",
-      "emoji": "🌅"
+      "en": "argue",
+      "tr": "tartışmak",
+      "img": "https://static.arasaac.org/pictograms/4634/4634_500.png",
+      "emoji": "😠",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "argue"
+     },
+     {
+      "en": "free time",
+      "tr": "boş zaman",
+      "img": "https://static.arasaac.org/pictograms/11653/11653_500.png",
+      "emoji": "🕒",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "free time"
      }
     ]
    }
@@ -1411,28 +1810,41 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "relationship",
-      "tr": "ilişki",
-      "emoji": "🤝",
-      "audio": "/app/audio/words/relationship.wav"
+      "en": "prefer",
+      "tr": "tercih etmek",
+      "img": "https://static.arasaac.org/pictograms/11694/11694_500.png",
+      "emoji": "⚖️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "prefer",
+      "audio": "/app/audio/words/prefer.wav"
      },
      {
-      "en": "enjoyable",
-      "tr": "eğlenceli, zevkli",
-      "emoji": "😄",
-      "audio": "/app/audio/words/enjoyable.wav"
+      "en": "types of music",
+      "tr": "müzik türleri",
+      "img": "/app/img/words/types-of-music.jpg",
+      "emoji": "🎵",
+      "audio": "/app/audio/words/types-of-music.wav"
      },
      {
-      "en": "free time",
-      "tr": "boş zaman",
-      "emoji": "🕒",
-      "audio": "/app/audio/words/free-time.wav"
+      "en": "horizon",
+      "tr": "ufuk",
+      "img": "https://static.arasaac.org/pictograms/20393/20393_500.png",
+      "emoji": "🌅",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "horizon",
+      "audio": "/app/audio/words/horizon.wav"
      },
      {
-      "en": "hate",
-      "tr": "nefret etmek",
-      "emoji": "😠",
-      "audio": "/app/audio/words/hate.wav"
+      "en": "enlarge",
+      "tr": "genişletmek, büyütmek",
+      "img": "https://static.arasaac.org/pictograms/6920/6920_500.png",
+      "emoji": "🔍",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "enlarge",
+      "audio": "/app/audio/words/enlarge.wav"
      }
     ]
    }
@@ -1450,12 +1862,12 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "We don't stay up late on school nights.",
-      "tr": "Okul gecelerinde geç saate kadar oturmayız."
+      "answer": "He sometimes goes to concerts.",
+      "tr": "Bazen konserlere gider."
      },
      {
-      "answer": "I would rather cycle than drive.",
-      "tr": "Araba kullanmaktansa bisiklete binmeyi tercih ederim."
+      "answer": "She watches TV series in her free time.",
+      "tr": "O boş zamanında dizi izler."
      },
      {
       "answer": "She would rather read a book than watch TV.",
@@ -1471,9 +1883,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I always brush my teeth before bed.",
+    "clue": "He sometimes goes to concerts.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Yatmadan önce her zaman dişlerimi fırçalarım."
+    "tr": "Bazen konserlere gider."
    },
    "part": [
     4,
@@ -1487,9 +1899,9 @@
    "task": {
     "kind": "flash",
     "q": "Plan a music afternoon. Compare your preferences and choose something you both like.",
-    "clue": "They enjoy hanging out with friends.",
+    "clue": "I prefer pop music to jazz.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Arkadaşlarıyla vakit geçirmekten hoşlanırlar."
+    "tr": "Pop müziği caza tercih ederim."
    },
    "part": [
     5,
@@ -1503,9 +1915,9 @@
    "task": {
     "kind": "flash",
     "q": "Interview your partner about two hobbies. Report one answer to the class.",
-    "clue": "They always have breakfast together.",
+    "clue": "How often do you go swimming?",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Onlar her zaman birlikte kahvaltı yaparlar."
+    "tr": "Ne sıklıkla yüzmeye gidersin?"
    },
    "part": [
     6,

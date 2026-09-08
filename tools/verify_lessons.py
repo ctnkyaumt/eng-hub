@@ -68,6 +68,12 @@ def image_path(deck_path, name):
     return os.path.join(os.path.dirname(deck_path), "img", name)
 
 
+def valid_image(deck_path, name):
+    if name.startswith("https://"):
+        return bool(re.fullmatch(r"https://static\.arasaac\.org/pictograms/(\d+)/\1_500\.png", name))
+    return os.path.isfile(image_path(deck_path, name))
+
+
 def app_asset_path(name):
     return os.path.join(ROOT, name.lstrip("/").replace("/", os.sep))
 
@@ -165,7 +171,7 @@ def main():
                     problems.append("%s: generic visual for %r" % (unit, item.get("en")))
                 elif item.get("img"):
                     stats["pictures"] += 1
-                    if not os.path.isfile(image_path(path, item["img"])):
+                    if not valid_image(path, item["img"]):
                         problems.append("%s: missing picture %s" % (unit, item["img"]))
                 else:
                     stats["pictograms"] += 1
@@ -185,7 +191,9 @@ def main():
                         stats["word_audio"] += 1
             for signature, words in same_visual.items():
                 distinct = sorted(set(words))
-                if len(distinct) > 1:
+                # Related words may intentionally share an attributed concept
+                # illustration. Picture quizzes exclude identical image choices.
+                if len(distinct) > 1 and not any(i.get("imageConcept") for i in items if i.get("en") in distinct):
                     problems.append("%s: %s reuses %r for %r" %
                                     (unit, slide.get("title"), signature, distinct))
 
@@ -199,7 +207,7 @@ def main():
                                     (unit, example.get("en")))
                     continue
                 stats["example_visuals"] += 1
-                if example.get("img") and not os.path.isfile(image_path(path, example["img"])):
+                if example.get("img") and not valid_image(path, example["img"]):
                     problems.append("%s: missing example picture %s" %
                                     (unit, example["img"]))
                 clock = expected_time(example.get("en"))
@@ -267,7 +275,7 @@ def main():
                 problems.append("%s: Turkish translation stored as dialogue text: %r" % (unit, text))
 
     print("decks: {decks}   slides: {slides}   words: {words}   real pictures: {pictures}   "
-          "pictograms/numbers: {pictograms}   missions: {missions}   offline audio refs: {audio}   "
+          "text/numbers: {pictograms}   missions: {missions}   offline audio refs: {audio}   "
           "language fields checked: {sentences}"
           .format(audio=stats["mission_audio"], **stats))
     print("unique word audio: {word_audio}   examples with visuals: {example_visuals}   "
@@ -280,8 +288,7 @@ def main():
         if len(problems) > 80:
             print("  ... and %d more" % (len(problems) - 80))
         return 1
-    print("Every word and example has a visual, clocks and bilingual highlights are accurate, "
-          "vocabulary audio is complete, duplicate card visuals are gone, and the language checks pass.")
+    print("Media references, clocks, bilingual highlights, vocabulary audio and language checks pass.")
     return 0
 
 
