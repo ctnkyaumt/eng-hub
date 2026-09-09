@@ -41,7 +41,11 @@
     {
      "en": "relationship",
      "tr": "ilişki",
-     "emoji": "🤝"
+     "emoji": "🤝",
+     "img": "/app/img/concepts/relationship.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "relationship"
     }
    ],
    "part": [
@@ -95,7 +99,11 @@
     {
      "en": "snob",
      "tr": "züppe",
-     "emoji": "🎩"
+     "emoji": "🎩",
+     "img": "/app/img/concepts/snob.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "snob"
     },
     {
      "en": "concert",
@@ -107,7 +115,10 @@
      "en": "types of music",
      "tr": "müzik türleri",
      "emoji": "🎵",
-     "img": "/app/img/words/types-of-music.jpg"
+     "img": "/app/img/concepts/types-of-music.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "types of music"
     }
    ],
    "part": [
@@ -152,16 +163,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/types-of-music.jpg",
+     "img": "https://static.arasaac.org/pictograms/37997/37997_500.png",
      "imageFit": "contain",
-     "imageSource": "",
-     "answer": "types of music",
-     "tr": "müzik türleri",
+     "imageSource": "ARASAAC",
+     "answer": "trendy",
+     "tr": "moda olan",
      "options": [
-      "types of music",
+      "trendy",
+      "hang out",
       "teenager",
-      "fashion",
-      "trendy"
+      "snob"
      ]
     }
    ]
@@ -187,15 +198,15 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/4634/4634_500.png",
+     "img": "/app/img/concepts/types-of-music.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "argue",
-     "tr": "tartışmak",
+     "imageSource": "ENG HUB",
+     "answer": "types of music",
+     "tr": "müzik türleri",
      "options": [
-      "argue",
+      "types of music",
       "teenager",
-      "concert",
+      "snob",
       "hang out"
      ]
     }
@@ -209,15 +220,15 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/2255/2255_500.png",
+     "img": "/app/img/concepts/snob.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "hang out",
-     "tr": "takılmak",
+     "imageSource": "ENG HUB",
+     "answer": "snob",
+     "tr": "züppe",
      "options": [
-      "hang out",
+      "snob",
       "concert",
-      "relationship",
+      "hang out",
       "teenager"
      ]
     }
@@ -296,12 +307,20 @@
     {
      "en": "ridiculous",
      "tr": "saçma",
-     "emoji": "🙃"
+     "emoji": "🙃",
+     "img": "/app/img/concepts/ridiculous.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "ridiculous"
     },
     {
      "en": "unbearable",
      "tr": "dayanılmaz",
-     "emoji": "😖"
+     "emoji": "😖",
+     "img": "/app/img/concepts/unbearable.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "unbearable"
     }
    ],
    "part": [
@@ -414,31 +433,9 @@
      "tr": "rahatlatıcı",
      "options": [
       "relaxing",
-      "unbearable",
       "serious",
+      "unbearable",
       "fond of"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Likes & Preferences",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/11599/11599_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "terrific",
-     "tr": "muhteşem",
-     "options": [
-      "terrific",
-      "prefer",
-      "relaxing",
-      "unbearable"
      ]
     }
    ]
@@ -458,8 +455,30 @@
      "tr": "tercih etmek",
      "options": [
       "prefer",
-      "relaxing",
       "fond of",
+      "impressive",
+      "unbearable"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Likes & Preferences",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/ridiculous.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "ridiculous",
+     "tr": "saçma",
+     "options": [
+      "ridiculous",
+      "recommend",
+      "prefer",
       "serious"
      ]
     }
@@ -594,7 +613,11 @@
     {
      "en": "energetic",
      "tr": "enerjik",
-     "emoji": "⚡"
+     "emoji": "⚡",
+     "img": "/app/img/concepts/energetic.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "energetic"
     }
    ],
    "part": [
@@ -1005,7 +1028,7 @@
       "en": "She *usually* listens to music after school.",
       "tr": "Okuldan sonra genellikle müzik dinler.",
       "trEm": [
-       "Okuldan sonra genellikle müzik dinler."
+       "genellikle"
       ],
       "emoji": "🏫"
      },
@@ -1013,7 +1036,7 @@
       "en": "We *often* play basketball.",
       "tr": "Sık sık basketbol oynarız.",
       "trEm": [
-       "Sık sık basketbol oynarız."
+       "Sık sık"
       ],
       "emoji": "🏀"
      },
@@ -1021,7 +1044,7 @@
       "en": "He *sometimes* goes to concerts.",
       "tr": "Bazen konserlere gider.",
       "trEm": [
-       "Bazen konserlere gider."
+       "Bazen"
       ],
       "emoji": "🔁"
      },
@@ -1029,7 +1052,7 @@
       "en": "I *never* skip breakfast.",
       "tr": "Kahvaltıyı asla atlamam.",
       "trEm": [
-       "Kahvaltıyı asla atlamam."
+       "asla"
       ],
       "emoji": "🔁"
      }
@@ -1148,7 +1171,7 @@
      "en": "She *usually* listens to music after school.",
      "tr": "Okuldan sonra genellikle müzik dinler.",
      "trEm": [
-      "Okuldan sonra genellikle müzik dinler."
+      "genellikle"
      ],
      "emoji": "🏫"
     }
@@ -1172,7 +1195,7 @@
      "en": "We *often* play basketball.",
      "tr": "Sık sık basketbol oynarız.",
      "trEm": [
-      "Sık sık basketbol oynarız."
+      "Sık sık"
      ],
      "emoji": "🏀",
      "img": "https://static.arasaac.org/pictograms/4918/4918_500.png",
@@ -1199,7 +1222,7 @@
      "en": "He *sometimes* goes to concerts.",
      "tr": "Bazen konserlere gider.",
      "trEm": [
-      "Bazen konserlere gider."
+      "Bazen"
      ],
      "emoji": "🔁"
     }
@@ -1223,7 +1246,7 @@
      "en": "I *never* skip breakfast.",
      "tr": "Kahvaltıyı asla atlamam.",
      "trEm": [
-      "Kahvaltıyı asla atlamam."
+      "asla"
      ],
      "emoji": "🔁"
     }
@@ -1370,7 +1393,7 @@
       "en": "I *would rather* cycle than drive.",
       "tr": "Araba kullanmaktansa bisiklete binmeyi tercih ederim.",
       "trEm": [
-       "Araba kullanmaktansa bisiklete binmeyi tercih ederim."
+       "tercih ederim"
       ],
       "emoji": "❤️"
      }
@@ -1412,7 +1435,7 @@
      "en": "I *would rather* cycle than drive.",
      "tr": "Araba kullanmaktansa bisiklete binmeyi tercih ederim.",
      "trEm": [
-      "Araba kullanmaktansa bisiklete binmeyi tercih ederim."
+      "tercih ederim"
      ],
      "emoji": "❤️"
     }
@@ -1762,28 +1785,31 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "concert",
-      "tr": "konser",
-      "img": "/app/img/words/concert.jpg",
-      "emoji": "🎤"
-     },
-     {
-      "en": "follow",
-      "tr": "takip etmek",
-      "img": "https://static.arasaac.org/pictograms/7037/7037_500.png",
-      "emoji": "👣",
+      "en": "fast",
+      "tr": "hızlı",
+      "img": "https://static.arasaac.org/pictograms/5306/5306_500.png",
+      "emoji": "🏃",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "follow"
+      "imageConcept": "fast"
      },
      {
-      "en": "argue",
-      "tr": "tartışmak",
-      "img": "https://static.arasaac.org/pictograms/4634/4634_500.png",
-      "emoji": "😠",
+      "en": "exciting",
+      "tr": "heyecan verici",
+      "img": "https://static.arasaac.org/pictograms/39090/39090_500.png",
+      "emoji": "🤩",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "argue"
+      "imageConcept": "excited"
+     },
+     {
+      "en": "gym",
+      "tr": "spor salonu",
+      "img": "https://static.arasaac.org/pictograms/24785/24785_500.png",
+      "emoji": "🏋️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "gym"
      },
      {
       "en": "free time",
@@ -1810,31 +1836,14 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "prefer",
-      "tr": "tercih etmek",
-      "img": "https://static.arasaac.org/pictograms/11694/11694_500.png",
-      "emoji": "⚖️",
+      "en": "fashionable",
+      "tr": "modaya uygun",
+      "img": "https://static.arasaac.org/pictograms/37997/37997_500.png",
+      "emoji": "👗",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "prefer",
-      "audio": "/app/audio/words/prefer.wav"
-     },
-     {
-      "en": "types of music",
-      "tr": "müzik türleri",
-      "img": "/app/img/words/types-of-music.jpg",
-      "emoji": "🎵",
-      "audio": "/app/audio/words/types-of-music.wav"
-     },
-     {
-      "en": "horizon",
-      "tr": "ufuk",
-      "img": "https://static.arasaac.org/pictograms/20393/20393_500.png",
-      "emoji": "🌅",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "horizon",
-      "audio": "/app/audio/words/horizon.wav"
+      "imageConcept": "fashion",
+      "audio": "/app/audio/words/fashionable.wav"
      },
      {
       "en": "enlarge",
@@ -1845,6 +1854,26 @@
       "imageSource": "ARASAAC",
       "imageConcept": "enlarge",
       "audio": "/app/audio/words/enlarge.wav"
+     },
+     {
+      "en": "trendy",
+      "tr": "moda olan",
+      "img": "https://static.arasaac.org/pictograms/37997/37997_500.png",
+      "emoji": "✨",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fashion",
+      "audio": "/app/audio/words/trendy.wav"
+     },
+     {
+      "en": "how often",
+      "tr": "ne sıklıkla",
+      "img": "/app/img/concepts/how-often.svg",
+      "emoji": "🔁",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "how often",
+      "audio": "/app/audio/words/how-often.wav"
      }
     ]
    }

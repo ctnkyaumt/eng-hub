@@ -1150,7 +1150,7 @@
       "en": "*Stir* the sauce slowly.",
       "tr": "Sosu yavaşça karıştır.",
       "trEm": [
-       "Sosu yavaşça karıştır."
+       "karıştır"
       ],
       "img": "https://static.arasaac.org/pictograms/5981/5981_500.png",
       "imageFit": "contain",
@@ -1162,7 +1162,7 @@
       "en": "*Pour* the milk into a bowl.",
       "tr": "Sütü bir kaseye dök.",
       "trEm": [
-       "Sütü bir kaseye dök."
+       "dök"
       ],
       "img": "/app/img/words/pour.jpg",
       "emoji": "🚰"
@@ -1171,7 +1171,7 @@
       "en": "*Serve* the soup hot.",
       "tr": "Çorbayı sıcak servis et.",
       "trEm": [
-       "Çorbayı sıcak servis et."
+       "servis et"
       ],
       "emoji": "👩‍🍳"
      }
@@ -1266,7 +1266,7 @@
      "en": "*Stir* the sauce slowly.",
      "tr": "Sosu yavaşça karıştır.",
      "trEm": [
-      "Sosu yavaşça karıştır."
+      "karıştır"
      ],
      "img": "https://static.arasaac.org/pictograms/5981/5981_500.png",
      "imageFit": "contain",
@@ -1294,7 +1294,7 @@
      "en": "*Pour* the milk into a bowl.",
      "tr": "Sütü bir kaseye dök.",
      "trEm": [
-      "Sütü bir kaseye dök."
+      "dök"
      ],
      "img": "/app/img/words/pour.jpg",
      "emoji": "🚰"
@@ -1319,7 +1319,7 @@
      "en": "*Serve* the soup hot.",
      "tr": "Çorbayı sıcak servis et.",
      "trEm": [
-      "Çorbayı sıcak servis et."
+      "servis et"
      ],
      "emoji": "👩‍🍳"
     }
@@ -1449,7 +1449,7 @@
       "en": "*Next*, add the cheese.",
       "tr": "Sonra peyniri ekle.",
       "trEm": [
-       "Sonra peyniri ekle."
+       "Sonra"
       ],
       "emoji": "1️⃣"
      }
@@ -1540,7 +1540,7 @@
      "en": "*Next*, add the cheese.",
      "tr": "Sonra peyniri ekle.",
      "trEm": [
-      "Sonra peyniri ekle."
+      "Sonra"
      ],
      "emoji": "1️⃣"
     }

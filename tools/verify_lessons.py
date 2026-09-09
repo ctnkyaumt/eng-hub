@@ -17,6 +17,9 @@ import sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import CONTENT, ROOT  # noqa: E402
 
+with open(os.path.join(ROOT, 'app/img/commons-teaching-sources.json'), encoding='utf-8') as source_file:
+    COMMONS_IMAGES = {item['img'] for item in json.load(source_file).values()}
+
 
 MAX_CARDS = 4
 MISSION_KINDS = ["dragmatch", "listenpicture", "dragorder"]
@@ -69,6 +72,8 @@ def image_path(deck_path, name):
 
 
 def valid_image(deck_path, name):
+    if name in COMMONS_IMAGES:
+        return True
     if name.startswith("https://"):
         return bool(re.fullmatch(r"https://static\.arasaac\.org/pictograms/(\d+)/\1_500\.png", name))
     return os.path.isfile(image_path(deck_path, name))
@@ -162,6 +167,8 @@ def main():
             same_visual = {}
             for item in items:
                 stats["words"] += 1
+                if not item.get('img') and item.get('num') is None:
+                    problems.append("%s: missing vocabulary picture for %r" % (unit, item.get('en')))
                 signature = visual_signature(item)
                 if signature:
                     same_visual.setdefault(signature, []).append(item.get("en"))

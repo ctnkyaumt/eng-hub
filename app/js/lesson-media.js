@@ -8,7 +8,7 @@ export function lessonImage(item, ctx, className, alt = "") {
   const img = el("img", {
     class: className, src: mediaUrl(item.img, ctx), alt,
     decoding: "async", referrerpolicy: "no-referrer",
-    "data-fit": item.imageFit || (/\.svg(?:$|\?)/i.test(item.img) ? "contain" : "cover"),
+    "data-fit": "contain",
   });
   img.addEventListener("error", () => {
     img.dispatchEvent(new CustomEvent("imageunavailable", { bubbles: true }));

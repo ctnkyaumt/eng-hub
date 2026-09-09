@@ -1315,7 +1315,7 @@
       "en": "*Do you like* reading comics?",
       "tr": "Çizgi roman okumayı sever misin?",
       "trEm": [
-       "Çizgi roman okumayı sever misin?"
+       "sever misin"
       ],
       "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
       "imageFit": "contain",
@@ -1417,7 +1417,7 @@
      "en": "*Do you like* reading comics?",
      "tr": "Çizgi roman okumayı sever misin?",
      "trEm": [
-      "Çizgi roman okumayı sever misin?"
+      "sever misin"
      ],
      "img": "https://static.arasaac.org/pictograms/11749/11749_500.png",
      "imageFit": "contain",
@@ -1722,7 +1722,7 @@
      "en": "*Open* your book, please.",
      "tr": "Lütfen kitabını aç.",
      "trEm": [
-      "Lütfen kitabını aç."
+      "aç"
      ],
      "emoji": "📝"
     }
@@ -1789,7 +1789,7 @@
       "en": "*Open* your book, please.",
       "tr": "Lütfen kitabını aç.",
       "trEm": [
-       "Lütfen kitabını aç."
+       "aç"
       ],
       "emoji": "📝"
      }
@@ -2652,12 +2652,20 @@
     {
      "en": "Eid al-Fitr (Festival of Ramadan)",
      "tr": "Ramazan Bayramı",
-     "emoji": "🌙"
+     "emoji": "🌙",
+     "img": "/app/img/concepts/eid-al-fitr-festival-of-ramadan.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "eid al-fitr (festival of ramadan)"
     },
     {
      "en": "Eid al-Adha (Festival of Sacrifice)",
      "tr": "Kurban Bayramı",
-     "emoji": "🕌"
+     "emoji": "🕌",
+     "img": "/app/img/concepts/eid-al-adha-festival-of-sacrifice.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "eid al-adha (festival of sacrifice)"
     },
     {
      "en": "23rd April — Children's Day",
@@ -2720,14 +2728,14 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/concepts/29th-october-republic-day.svg",
+     "img": "/app/img/concepts/23rd-april-children-s-day.svg",
      "imageFit": "contain",
      "imageSource": "ENG HUB",
-     "answer": "29th October — Republic Day",
-     "tr": "Cumhuriyet Bayramı",
+     "answer": "23rd April — Children's Day",
+     "tr": "Çocuk Bayramı",
      "options": [
-      "29th October — Republic Day",
       "23rd April — Children's Day",
+      "19th May — Youth and Sports Day",
       "Eid al-Fitr (Festival of Ramadan)",
       "Eid al-Adha (Festival of Sacrifice)"
      ]
@@ -2807,14 +2815,14 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/concepts/23rd-april-children-s-day.svg",
+     "img": "/app/img/concepts/eid-al-adha-festival-of-sacrifice.svg",
      "imageFit": "contain",
      "imageSource": "ENG HUB",
-     "answer": "23rd April — Children's Day",
-     "tr": "Çocuk Bayramı",
+     "answer": "Eid al-Adha (Festival of Sacrifice)",
+     "tr": "Kurban Bayramı",
      "options": [
-      "23rd April — Children's Day",
       "Eid al-Adha (Festival of Sacrifice)",
+      "23rd April — Children's Day",
       "29th October — Republic Day",
       "19th May — Youth and Sports Day"
      ]
@@ -2874,9 +2882,9 @@
       "img": "/app/img/flags/gb.svg"
      },
      {
-      "en": "Greece",
-      "tr": "Yunanistan",
-      "img": "/app/img/flags/gr.svg"
+      "en": "Egypt",
+      "tr": "Mısır",
+      "img": "/app/img/flags/eg.svg"
      },
      {
       "en": "sit",
@@ -2888,9 +2896,9 @@
       "imageConcept": "sit"
      },
      {
-      "en": "South Korea",
-      "tr": "Güney Kore",
-      "img": "/app/img/flags/kr.svg"
+      "en": "Uzbekistan",
+      "tr": "Özbekistan",
+      "img": "/app/img/flags/uz.svg"
      }
     ]
    }
@@ -2908,10 +2916,10 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "Argentina",
-      "tr": "Arjantin",
-      "img": "/app/img/flags/ar.svg",
-      "audio": "/app/audio/words/argentina.wav"
+      "en": "Brazil",
+      "tr": "Brezilya",
+      "img": "/app/img/flags/br.svg",
+      "audio": "/app/audio/words/brazil.wav"
      },
      {
       "en": "Music Club",
@@ -2956,16 +2964,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Open your book, please.",
-      "tr": "Lütfen kitabını aç."
+      "answer": "I like playing basketball.",
+      "tr": "Basketbol oynamayı severim."
      },
      {
-      "answer": "You mustn't fight with your friends.",
-      "tr": "Arkadaşlarınla kavga etmemelisin."
+      "answer": "We must listen to our teacher.",
+      "tr": "Öğretmenimizi dinlemeliyiz."
      },
      {
-      "answer": "Do you like reading comics?",
-      "tr": "Çizgi roman okumayı sever misin?"
+      "answer": "Do you like reading books?",
+      "tr": "Kitap okumayı sever misin?"
      }
     ]
    }
@@ -2977,9 +2985,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "an umbrella",
+    "clue": "a teacher",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "sesli harfle başlıyor → an"
+    "tr": "sessiz harfle başlıyor → a"
    },
    "part": [
     4,
@@ -2993,9 +3001,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I like playing basketball.",
+    "clue": "I like drawing pictures.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Basketbol oynamayı severim."
+    "tr": "Resim çizmeyi severim."
    },
    "part": [
     5,
@@ -3025,9 +3033,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "You must wear the school uniform.",
+    "clue": "We mustn't eat in the lab.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Okul üniformasını giymelisin."
+    "tr": "Laboratuvarda yemek yememeliyiz."
    },
    "part": [
     7,

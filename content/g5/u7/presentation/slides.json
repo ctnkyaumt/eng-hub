@@ -1019,7 +1019,11 @@
     {
      "en": "scary",
      "tr": "korkutucu",
-     "emoji": "😱"
+     "emoji": "😱",
+     "img": "/app/img/concepts/scary.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "scary"
     },
     {
      "en": "quick",
@@ -1199,13 +1203,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/4676/4676_500.png",
+     "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "slow",
-     "tr": "yavaş",
+     "answer": "dangerous",
+     "tr": "tehlikeli",
      "options": [
-      "slow",
+      "dangerous",
       "scary",
       "furry",
       "small"
@@ -1234,13 +1238,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/27025/27025_500.png",
+     "img": "/app/img/vocab/physical-short.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "heavy",
-     "tr": "ağır",
+     "imageSource": "",
+     "answer": "short",
+     "tr": "kısa",
      "options": [
-      "heavy",
+      "short",
       "wild",
       "colourful",
       "fast"
@@ -1325,7 +1329,11 @@
     {
      "en": "survive",
      "tr": "hayatta kalmak",
-     "emoji": "🛡️"
+     "emoji": "🛡️",
+     "img": "/app/img/concepts/survive.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "survive"
     },
     {
      "en": "talk",
@@ -1498,13 +1506,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/3345/3345_500.png",
+     "img": "/app/img/concepts/survive.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "talk",
-     "tr": "konuşmak",
+     "imageSource": "ENG HUB",
+     "answer": "survive",
+     "tr": "hayatta kalmak",
      "options": [
-      "talk",
+      "survive",
       "run",
       "swim",
       "swing"
@@ -1520,13 +1528,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/6617/6617_500.png",
+     "img": "https://static.arasaac.org/pictograms/6246/6246_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "climb",
-     "tr": "tırmanmak",
+     "answer": "fly",
+     "tr": "uçmak",
      "options": [
-      "climb",
+      "fly",
       "eat",
       "hunt",
       "talk"
@@ -2961,37 +2969,31 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "furry",
-      "tr": "tüylü",
-      "img": "https://static.arasaac.org/pictograms/7205/7205_500.png",
-      "emoji": "🧸",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "fur"
+      "en": "short",
+      "tr": "kısa",
+      "img": "/app/img/vocab/physical-short.svg",
+      "emoji": "🐧"
      },
      {
-      "en": "leopard",
-      "tr": "leopar",
-      "img": "https://static.arasaac.org/pictograms/2942/2942_500.png",
-      "emoji": "🐆",
+      "en": "talk",
+      "tr": "konuşmak",
+      "img": "https://static.arasaac.org/pictograms/3345/3345_500.png",
+      "emoji": "💬",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "leopard"
+      "imageConcept": "talk"
      },
      {
-      "en": "savanna",
-      "tr": "otlak alan",
-      "img": "p02-16.png",
-      "emoji": "🦁"
+      "en": "sky",
+      "tr": "gökyüzü",
+      "img": "p02-18.png",
+      "emoji": "☁️"
      },
      {
-      "en": "snake",
-      "tr": "yılan",
-      "img": "https://static.arasaac.org/pictograms/2568/2568_500.png",
-      "emoji": "🐍",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "snake"
+      "en": "tall",
+      "tr": "uzun",
+      "img": "/app/img/vocab/physical-tall.svg",
+      "emoji": "🦒"
      }
     ]
    }
@@ -3009,35 +3011,41 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "quiet",
-      "tr": "sessiz",
-      "img": "https://static.arasaac.org/pictograms/38050/38050_500.png",
-      "emoji": "🤫",
+      "en": "huge",
+      "tr": "kocaman",
+      "img": "https://static.arasaac.org/pictograms/4658/4658_500.png",
+      "emoji": "🐋",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "quiet",
-      "audio": "/app/audio/words/quiet.wav"
+      "imageConcept": "giant",
+      "audio": "/app/audio/words/huge.wav"
      },
      {
-      "en": "field",
-      "tr": "tarla",
-      "img": "p02-12.png",
-      "emoji": "🌾",
-      "audio": "/app/audio/words/field.wav"
+      "en": "seal",
+      "tr": "fok",
+      "img": "/app/img/vocab/animal-seal.svg",
+      "emoji": "🦭",
+      "audio": "/app/audio/words/seal.wav"
      },
      {
-      "en": "tusk",
-      "tr": "fil dişi",
-      "img": "p02-02.png",
-      "emoji": "🐘",
-      "audio": "/app/audio/words/tusk.wav"
+      "en": "giraffe",
+      "tr": "zürafa",
+      "img": "https://static.arasaac.org/pictograms/2437/2437_500.png",
+      "emoji": "🦒",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "giraffe",
+      "audio": "/app/audio/words/giraffe.wav"
      },
      {
-      "en": "small",
-      "tr": "küçük",
-      "img": "/app/img/vocab/physical-small.svg",
-      "emoji": "🐜",
-      "audio": "/app/audio/words/small.wav"
+      "en": "eagle",
+      "tr": "kartal",
+      "img": "https://static.arasaac.org/pictograms/2638/2638_500.png",
+      "emoji": "🦅",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "eagle",
+      "audio": "/app/audio/words/eagle.wav"
      }
     ]
    }
@@ -3055,16 +3063,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Cheetahs are the fastest wild animals.",
-      "tr": "Çitalar en hızlı vahşi hayvanlardır."
+      "answer": "The giraffe is the tallest animal here.",
+      "tr": "Zürafa buradaki en uzun hayvandır."
+     },
+     {
+      "answer": "Lions are the strongest animals in the forests.",
+      "tr": "Aslanlar ormanlardaki en güçlü hayvanlardır."
      },
      {
       "answer": "Wild animals must hunt to eat.",
       "tr": "Vahşi hayvanlar yemek için avlanmalılar."
-     },
-     {
-      "answer": "An elephant is bigger than a lion.",
-      "tr": "Bir fil bir aslandan daha büyüktür."
      }
     ]
    }
@@ -3076,9 +3084,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Can a cheetah run fast? — Yes, it can.",
+    "clue": "Eagles can fly.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Bir çita hızlı koşabilir mi? — Evet."
+    "tr": "Kartallar uçabilir."
    },
    "part": [
     4,
@@ -3092,9 +3100,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "We mustn't run in the zoo.",
+    "clue": "You mustn't leave rubbish here.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Hayvanat bahçesinde koşmamalıyız."
+    "tr": "Buraya çöp bırakmamalısın."
    },
    "part": [
     5,
@@ -3108,9 +3116,9 @@
    "task": {
     "kind": "flash",
     "q": "Choose two things from this unit. Make two comparisons; your partner checks them.",
-    "clue": "heavy → heavier  ·  dangerous → more dangerous",
+    "clue": "Crocodiles are scarier than snakes.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "iki+ heceli"
+    "tr": "Timsahlar, yılanlardan daha korkutucudur."
    },
    "part": [
     6,
@@ -3124,9 +3132,9 @@
    "task": {
     "kind": "flash",
     "q": "Make an animal record card. Give two facts using superlatives.",
-    "clue": "fast → the fastest  ·  large → the largest  ·  big → the biggest",
+    "clue": "Giraffes are the tallest animals.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "tek heceli"
+    "tr": "Zürafalar en uzun hayvanlardır."
    },
    "part": [
     7,

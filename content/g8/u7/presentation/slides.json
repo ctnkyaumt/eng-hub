@@ -76,7 +76,11 @@
     {
      "en": "all-inclusive",
      "tr": "her şey dahil",
-     "emoji": "🏨"
+     "emoji": "🏨",
+     "img": "/app/img/concepts/all-inclusive.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "all-inclusive"
     }
    ],
    "part": [
@@ -121,13 +125,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/destination.jpg",
+     "img": "/app/img/words/attraction.jpg",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "destination",
-     "tr": "gidilecek yer",
+     "answer": "attraction",
+     "tr": "gezilecek yer",
      "options": [
-      "destination",
+      "attraction",
       "countryside",
       "square",
       "historic site"
@@ -178,16 +182,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/bed-and-breakfast.jpg",
+     "img": "/app/img/words/destination.jpg",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "bed and breakfast",
-     "tr": "pansiyon",
+     "answer": "destination",
+     "tr": "gidilecek yer",
      "options": [
-      "bed and breakfast",
-      "resort",
+      "destination",
       "countryside",
-      "square"
+      "bed and breakfast",
+      "resort"
      ]
     }
    ]
@@ -406,7 +410,11 @@
     {
      "en": "taste",
      "tr": "tadına bakmak",
-     "emoji": "👅"
+     "emoji": "👅",
+     "img": "/app/img/concepts/taste.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "taste"
     },
     {
      "en": "terrible / awful",
@@ -420,7 +428,11 @@
     {
      "en": "tradition",
      "tr": "gelenek",
-     "emoji": "🧿"
+     "emoji": "🧿",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Turkish_Folklors%E2%80%93IMG_6294_03.jpg/960px-Turkish_Folklors%E2%80%93IMG_6294_03.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "tradition"
     },
     {
      "en": "truly",
@@ -519,7 +531,11 @@
     {
      "en": "mysterious",
      "tr": "gizemli",
-     "emoji": "🔮"
+     "emoji": "🔮",
+     "img": "/app/img/concepts/mysterious.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "mysterious"
     }
    ],
    "part": [
@@ -577,13 +593,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/8715/8715_500.png",
+     "img": "https://static.arasaac.org/pictograms/4690/4690_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "truly",
-     "tr": "gerçekten",
+     "answer": "terrible / awful",
+     "tr": "korkunç, berbat",
      "options": [
-      "truly",
+      "terrible / awful",
       "visit",
       "sightseeing",
       "summer"
@@ -599,13 +615,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/5402/5402_500.png",
+     "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "sunbathe",
-     "tr": "güneşlenmek",
+     "answer": "sightseeing",
+     "tr": "gezi",
      "options": [
-      "sunbathe",
+      "sightseeing",
       "sunny",
       "mysterious",
       "taste"
@@ -621,16 +637,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
+     "img": "https://static.arasaac.org/pictograms/2796/2796_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "visit",
-     "tr": "ziyaret etmek",
+     "answer": "sunny",
+     "tr": "güneşli",
      "options": [
-      "visit",
+      "sunny",
       "terrible / awful",
       "mysterious",
-      "summer"
+      "sightseeing"
      ]
     }
    ]
@@ -917,7 +933,7 @@
       "en": "We *travelled* by train last summer.",
       "tr": "Geçen yaz trenle seyahat ettik.",
       "trEm": [
-       "Geçen yaz trenle seyahat ettik."
+       "seyahat ettik"
       ],
       "img": "https://static.arasaac.org/pictograms/5604/5604_500.png",
       "imageFit": "contain",
@@ -929,7 +945,7 @@
       "en": "I *enjoyed* the boat tour.",
       "tr": "Tekne turundan keyif aldım.",
       "trEm": [
-       "Tekne turundan keyif aldım."
+       "keyif aldım"
       ],
       "emoji": "⏮️"
      }
@@ -1019,7 +1035,7 @@
      "en": "We *travelled* by train last summer.",
      "tr": "Geçen yaz trenle seyahat ettik.",
      "trEm": [
-      "Geçen yaz trenle seyahat ettik."
+      "seyahat ettik"
      ],
      "img": "https://static.arasaac.org/pictograms/5604/5604_500.png",
      "imageFit": "contain",
@@ -1046,7 +1062,7 @@
      "en": "I *enjoyed* the boat tour.",
      "tr": "Tekne turundan keyif aldım.",
      "trEm": [
-      "Tekne turundan keyif aldım."
+      "keyif aldım"
      ],
      "emoji": "⏮️"
     }
@@ -1180,7 +1196,7 @@
       "en": "I *bought* a souvenir for my sister.",
       "tr": "Kız kardeşime bir hediyelik eşya aldım.",
       "trEm": [
-       "Kız kardeşime bir hediyelik eşya aldım."
+       "aldım"
       ],
       "emoji": "⏮️"
      }
@@ -1268,7 +1284,7 @@
      "en": "I *bought* a souvenir for my sister.",
      "tr": "Kız kardeşime bir hediyelik eşya aldım.",
      "trEm": [
-      "Kız kardeşime bir hediyelik eşya aldım."
+      "aldım"
      ],
      "emoji": "⏮️"
     }
@@ -1429,34 +1445,37 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "rich",
-      "tr": "zengin",
-      "img": "https://static.arasaac.org/pictograms/4733/4733_500.png",
-      "emoji": "💰",
+      "en": "terrible / awful",
+      "tr": "korkunç, berbat",
+      "img": "https://static.arasaac.org/pictograms/4690/4690_500.png",
+      "emoji": "😖",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "rich"
+      "imageConcept": "bad"
      },
      {
-      "en": "historic site",
-      "tr": "tarihi alan",
-      "img": "/app/img/words/historic-site.jpg",
-      "emoji": "🏺"
+      "en": "ancient",
+      "tr": "antik",
+      "img": "/app/img/words/ancient.jpg",
+      "emoji": "🏛️"
      },
      {
-      "en": "heritage",
-      "tr": "miras",
-      "img": "https://static.arasaac.org/pictograms/36297/36297_500.png",
-      "emoji": "🏛️",
+      "en": "unbelievable / incredible",
+      "tr": "inanılmaz",
+      "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
+      "emoji": "🤯",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "monument"
+      "imageConcept": "surprised"
      },
      {
-      "en": "architecture",
-      "tr": "mimari",
-      "img": "/app/img/words/architecture.jpg",
-      "emoji": "🏗️"
+      "en": "mysterious",
+      "tr": "gizemli",
+      "img": "/app/img/concepts/mysterious.svg",
+      "emoji": "🔮",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "mysterious"
      }
     ]
    }
@@ -1474,6 +1493,13 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
+      "en": "attraction",
+      "tr": "gezilecek yer",
+      "img": "/app/img/words/attraction.jpg",
+      "emoji": "📍",
+      "audio": "/app/audio/words/attraction.wav"
+     },
+     {
       "en": "square",
       "tr": "meydan",
       "img": "/app/img/vocab/physical-square.svg",
@@ -1481,31 +1507,21 @@
       "audio": "/app/audio/words/square.wav"
      },
      {
-      "en": "unbelievable / incredible",
-      "tr": "inanılmaz",
-      "img": "https://static.arasaac.org/pictograms/2574/2574_500.png",
-      "emoji": "🤯",
+      "en": "hospitable",
+      "tr": "misafirperver",
+      "img": "https://static.arasaac.org/pictograms/6936/6936_500.png",
+      "emoji": "🤗",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "surprised",
-      "audio": "/app/audio/words/unbelievable-incredible.wav"
+      "imageConcept": "welcome",
+      "audio": "/app/audio/words/hospitable.wav"
      },
      {
-      "en": "bed and breakfast",
-      "tr": "pansiyon",
-      "img": "/app/img/words/bed-and-breakfast.jpg",
-      "emoji": "🛏️",
-      "audio": "/app/audio/words/bed-and-breakfast.wav"
-     },
-     {
-      "en": "holiday",
-      "tr": "tatil",
-      "img": "https://static.arasaac.org/pictograms/3166/3166_500.png",
-      "emoji": "🧳",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "holidays",
-      "audio": "/app/audio/words/holiday.wav"
+      "en": "urban",
+      "tr": "kentsel",
+      "img": "/app/img/words/urban.jpg",
+      "emoji": "🏙️",
+      "audio": "/app/audio/words/urban.wav"
      }
     ]
    }
@@ -1527,12 +1543,12 @@
       "tr": "Nefis yöresel yemekler yedik."
      },
      {
-      "answer": "We went to Antalya by plane.",
-      "tr": "Antalya'ya uçakla gittik."
-     },
-     {
       "answer": "She took a lot of photographs.",
       "tr": "Bir sürü fotoğraf çekti."
+     },
+     {
+      "answer": "I saw the ancient theatre.",
+      "tr": "Antik tiyatroyu gördüm."
      }
     ]
    }
@@ -1544,9 +1560,9 @@
    "task": {
     "kind": "flash",
     "q": "Describe yesterday's trip: a place, an activity and your opinion. Ask your partner a question.",
-    "clue": "They stayed at a lovely hotel.",
+    "clue": "I enjoyed the boat tour.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Güzel bir otelde kaldılar."
+    "tr": "Tekne turundan keyif aldım."
    },
    "part": [
     4,
@@ -1560,9 +1576,9 @@
    "task": {
     "kind": "flash",
     "q": "Tell your partner three things about your last holiday: where you went, what you saw and what you ate.",
-    "clue": "I saw the ancient theatre.",
+    "clue": "I bought a souvenir for my sister.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Antik tiyatroyu gördüm."
+    "tr": "Kız kardeşime bir hediyelik eşya aldım."
    },
    "part": [
     5,

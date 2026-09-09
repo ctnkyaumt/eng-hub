@@ -125,6 +125,9 @@ export async function startDeck(gid, uid, screen) {
     if (node.querySelector('img[src^="https://static.arasaac.org/"]')) {
       node.append(el("a", { class: "image-credit", href: "https://arasaac.org/terms-of-use", target: "_blank", rel: "noopener", text: "Illustrations: Sergio Palao · ARASAAC / Gobierno de Aragón · CC BY-NC-SA" }));
     }
+    if (node.querySelector('img[src*=".wikimedia.org/"]')) {
+      node.append(el("a", { class: "image-credit", href: "/app/img/teaching-credits.html", target: "_blank", rel: "noopener", text: "Photos: Wikimedia Commons · Authors & licences" }));
+    }
     node.querySelectorAll("img").forEach((img) => img.addEventListener("load", fit, { once: true }));
     const repeated = earlierSetup(slides, i);
     steps = [...node.querySelectorAll(".step")].filter((item) => {
@@ -139,6 +142,8 @@ export async function startDeck(gid, uid, screen) {
     count.textContent = `${i + 1} / ${slides.length}`;
     bar.style.width = ((i + 1) / slides.length) * 100 + "%";
     [...dots.children].forEach((d, k) => d.classList.toggle("on", k === i));
+    const activeDot = dots.children[i];
+    if (activeDot) dots.scrollLeft = activeDot.offsetLeft - dots.offsetLeft - dots.clientWidth / 2;
     if (editor?.isOn()) editor.rewire();
     marker.slideChanged();
     fit();

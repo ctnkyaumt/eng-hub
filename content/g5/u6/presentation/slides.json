@@ -38,7 +38,11 @@
     {
      "en": "side dish",
      "tr": "yan yemek",
-     "emoji": "🍟"
+     "emoji": "🍟",
+     "img": "/app/img/concepts/side-dish.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "side dish"
     },
     {
      "en": "starter / appetizer",
@@ -136,14 +140,14 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/dessert.jpg",
+     "img": "https://static.arasaac.org/pictograms/2573/2573_500.png",
      "imageFit": "contain",
-     "imageSource": "",
-     "answer": "dessert",
-     "tr": "tatlı",
+     "imageSource": "ARASAAC",
+     "answer": "soup",
+     "tr": "çorba",
      "options": [
-      "dessert",
       "soup",
+      "dessert",
       "side dish",
       "drink / beverage"
      ]
@@ -1099,7 +1103,11 @@
     {
      "en": "fresh",
      "tr": "taze",
-     "emoji": "🥬"
+     "emoji": "🥬",
+     "img": "https://static.arasaac.org/pictograms/37842/37842_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain",
+     "imageConcept": "fresh"
     },
     {
      "en": "homemade",
@@ -1198,12 +1206,20 @@
     {
      "en": "special",
      "tr": "özel",
-     "emoji": "⭐"
+     "emoji": "⭐",
+     "img": "/app/img/concepts/special.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "special"
     },
     {
      "en": "available",
      "tr": "müsait",
-     "emoji": "✅"
+     "emoji": "✅",
+     "img": "/app/img/concepts/available.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "available"
     }
    ],
    "part": [
@@ -1277,16 +1293,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/4688/4688_500.png",
+     "img": "https://static.arasaac.org/pictograms/2342/2342_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "full",
-     "tr": "dolu / tok",
+     "answer": "homemade",
+     "tr": "ev yapımı",
      "options": [
-      "full",
+      "homemade",
       "fried",
       "yummy",
-      "fresh"
+      "full"
      ]
     }
    ]
@@ -1312,16 +1328,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/5355/5355_500.png",
+     "img": "https://static.arasaac.org/pictograms/4688/4688_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "bottom",
-     "tr": "alt",
+     "answer": "full",
+     "tr": "dolu / tok",
      "options": [
-      "bottom",
-      "light",
-      "healthy",
-      "fatty"
+      "full",
+      "sweet",
+      "unhealthy",
+      "special"
      ]
     }
    ]
@@ -1334,16 +1350,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/15359/15359_500.png",
+     "img": "https://static.arasaac.org/pictograms/5355/5355_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "boiled",
-     "tr": "haşlanmış",
+     "answer": "bottom",
+     "tr": "alt",
      "options": [
-      "boiled",
-      "light",
+      "bottom",
+      "unhealthy",
       "tasty",
-      "top"
+      "available"
      ]
     }
    ]
@@ -1491,7 +1507,11 @@
     {
      "en": "marinate",
      "tr": "terbiye etmek",
-     "emoji": "🧂"
+     "emoji": "🧂",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Marination_set%2C_Marinating%2C_Rostov-on-Don%2C_Russia.jpg/960px-Marination_set%2C_Marinating%2C_Rostov-on-Don%2C_Russia.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "marinate"
     },
     {
      "en": "make",
@@ -1534,7 +1554,11 @@
     {
      "en": "taste",
      "tr": "tatmak",
-     "emoji": "👅"
+     "emoji": "👅",
+     "img": "/app/img/concepts/taste.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "taste"
     },
     {
      "en": "smell",
@@ -1577,7 +1601,11 @@
     {
      "en": "order",
      "tr": "sipariş vermek",
-     "emoji": "📝"
+     "emoji": "📝",
+     "img": "/app/img/concepts/order.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "order"
     },
     {
      "en": "take order",
@@ -1611,7 +1639,11 @@
     {
      "en": "reserve",
      "tr": "yer ayırmak",
-     "emoji": "🪑"
+     "emoji": "🪑",
+     "img": "/app/img/concepts/reserve.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "reserve"
     },
     {
      "en": "pay",
@@ -1625,7 +1657,11 @@
     {
      "en": "contain",
      "tr": "içermek",
-     "emoji": "📦"
+     "emoji": "📦",
+     "img": "/app/img/concepts/contain.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "contain"
     },
     {
      "en": "put on weight",
@@ -1679,26 +1715,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"cut\" means \"yer ayırmak\".",
+     "statement": "\"serve\" means \"kesmek\".",
      "answer": false,
-     "explain": "cut = kesmek"
+     "explain": "serve = servis etmek"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"yer ayırmak\"?",
+   "title": "Activity Break · Which word means \"yer ayırtmak\"?",
    "titleTr": "Use what you just learned · Verbs",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"yer ayırmak\"?",
-     "answer": "reserve",
+     "q": "Which word means \"yer ayırtmak\"?",
+     "answer": "book",
      "options": [
-      "reserve",
+      "book",
+      "pay",
       "contain",
-      "boil",
-      "put on weight"
+      "boil"
      ]
     }
    ]
@@ -1740,16 +1776,38 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/6457/6457_500.png",
+     "img": "https://static.arasaac.org/pictograms/37708/37708_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "pay",
-     "tr": "ödemek",
+     "answer": "recommend",
+     "tr": "önermek",
      "options": [
-      "pay",
+      "recommend",
+      "serve",
       "squeeze",
-      "put on weight",
-      "smell"
+      "contain"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Verbs",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/order.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "order",
+     "tr": "sipariş vermek",
+     "options": [
+      "order",
+      "smell",
+      "need",
+      "taste"
      ]
     }
    ]
@@ -1769,31 +1827,9 @@
      "tr": "kesmek",
      "options": [
       "cut",
-      "order",
-      "smell",
-      "mix"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Verbs",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/2349/2349_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "eat",
-     "tr": "yemek",
-     "options": [
-      "eat",
-      "squeeze",
-      "need",
-      "recommend"
+      "mix",
+      "heat",
+      "need"
      ]
     }
    ]
@@ -3260,31 +3296,34 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "cook",
-      "tr": "pişirmek",
-      "img": "https://static.arasaac.org/pictograms/2342/2342_500.png",
-      "emoji": "🍲",
+      "en": "tart",
+      "tr": "turta",
+      "img": "p02-14.png",
+      "emoji": "🥧"
+     },
+     {
+      "en": "smell",
+      "tr": "koklamak",
+      "img": "https://static.arasaac.org/pictograms/2486/2486_500.png",
+      "emoji": "👃",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "cook"
+      "imageConcept": "smell"
      },
      {
-      "en": "biscuit / cookie",
-      "tr": "kurabiye",
-      "img": "p02-11.png",
-      "emoji": "🍪"
+      "en": "pasta",
+      "tr": "makarna",
+      "img": "p02-18.png",
+      "emoji": "🍝"
      },
      {
-      "en": "mix",
-      "tr": "karıştırmak",
-      "img": "/app/img/words/mix.jpg",
-      "emoji": "🌀"
-     },
-     {
-      "en": "beef",
-      "tr": "dana eti",
-      "img": "p01-27.png",
-      "emoji": "🥩"
+      "en": "fatty",
+      "tr": "yağlı",
+      "img": "https://static.arasaac.org/pictograms/4656/4656_500.png",
+      "emoji": "🥓",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "fat"
      }
     ]
    }
@@ -3302,38 +3341,41 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "butter",
-      "tr": "tereyağı",
-      "img": "p02-02.png",
-      "emoji": "🧈",
-      "audio": "/app/audio/words/butter.wav"
-     },
-     {
-      "en": "salt",
-      "tr": "tuz",
-      "img": "https://static.arasaac.org/pictograms/5579/5579_500.png",
-      "emoji": "🧂",
+      "en": "recommend",
+      "tr": "önermek",
+      "img": "https://static.arasaac.org/pictograms/37708/37708_500.png",
+      "emoji": "👍",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "salt",
-      "audio": "/app/audio/words/salt.wav"
+      "imageConcept": "recommend",
+      "audio": "/app/audio/words/recommend.wav"
      },
      {
-      "en": "add",
-      "tr": "eklemek",
-      "img": "https://static.arasaac.org/pictograms/8026/8026_500.png",
-      "emoji": "➕",
+      "en": "meat",
+      "tr": "et",
+      "img": "p01-26.png",
+      "emoji": "🥩",
+      "audio": "/app/audio/words/meat.wav"
+     },
+     {
+      "en": "wash",
+      "tr": "yıkamak",
+      "img": "https://static.arasaac.org/pictograms/3323/3323_500.png",
+      "emoji": "🚿",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "add",
-      "audio": "/app/audio/words/add.wav"
+      "imageConcept": "wash",
+      "audio": "/app/audio/words/wash.wav"
      },
      {
-      "en": "tablespoon",
-      "tr": "yemek kaşığı",
-      "img": "/app/img/vocab/tablespoon.svg",
-      "emoji": "🥄",
-      "audio": "/app/audio/words/tablespoon.wav"
+      "en": "side dish",
+      "tr": "yan yemek",
+      "img": "/app/img/concepts/side-dish.svg",
+      "emoji": "🍟",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "side dish",
+      "audio": "/app/audio/words/side-dish.wav"
      }
     ]
    }
@@ -3351,16 +3393,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
+      "answer": "honey, milk, jam, sugar, flour",
+      "tr": "çoğul hâli yok"
+     },
+     {
+      "answer": "We don't have any apples.",
+      "tr": "Hiç elmamız yok."
+     },
+     {
       "answer": "We have some tomatoes.",
       "tr": "Birkaç domatesimiz var."
-     },
-     {
-      "answer": "He hasn't got any lentil soup.",
-      "tr": "Onun hiç mercimek çorbası yok."
-     },
-     {
-      "answer": "Can I eat some pasta?",
-      "tr": "Biraz makarna yiyebilir miyim?"
      }
     ]
    }
@@ -3372,9 +3414,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "a cucumber → two cucumbers",
+    "clue": "butter, cheese, coffee, tea, soup",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "salatalık"
+    "tr": "çoğul hâli yok"
    },
    "part": [
     4,
@@ -3419,9 +3461,9 @@
    "task": {
     "kind": "flash",
     "q": "You are at a cafe. Ask permission for two things; your partner gives different replies.",
-    "clue": "Sure.",
+    "clue": "Can I taste the sauce?",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Tabii."
+    "tr": "Sosu tadabilir miyim?"
    },
    "part": [
     7,
@@ -3450,9 +3492,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I haven't got a glass.",
+    "clue": "She has got a red bag.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Benim bir bardağım yok."
+    "tr": "Onun kırmızı bir çantası var."
    },
    "part": [
     9,

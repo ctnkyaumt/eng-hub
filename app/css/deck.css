@@ -507,9 +507,9 @@
   .ex .ex-pic { width: 85px; height: 85px; }
 }
 
-/* Image-led teaching: preserve aspect ratio; photos fill, diagrams stay whole. */
+/* Image-led teaching: preserve aspect ratio and the complete subject. */
 .vcard-media { height: clamp(205px, 32vh, 300px); margin: -8px -8px 14px; }
-.vcard img.pic { width: 100%; height: 100%; object-fit: cover; }
+.vcard img.pic { width: 100%; height: 100%; object-fit: contain; }
 .slide img[data-fit="contain"] { object-fit: contain; }
 .slide img[data-fit="cover"] { object-fit: cover; }
 .ex .ex-pic { width: clamp(190px, 24vw, 290px); height: clamp(180px, 29vh, 260px); }
@@ -531,3 +531,18 @@
 .vcard.text-card .vcard-media { display: none; }
 .vcard.text-card .en { font-size: clamp(28px, 3vw, 42px); }
 .vcard.text-card .tr { margin-top: 18px; }
+
+/* Keep the complete teaching subject visible, including portrait heads. */
+.vcard { overflow: hidden; }
+.vcard-media { min-width: 0; margin: 0 0 12px; }
+.slide .vcard img.pic, .slide .ex img.ex-pic, .slide .task img { object-fit: contain; max-width: 100%; }
+.deck-bar { padding: 4px 12px; gap: 8px; }
+.deck-bar .btn, .deck-bar .icon-btn { min-height: 34px; height: 34px; padding: 4px 10px; }
+.deck-bar .tb-btn { width: 34px; height: 34px; min-height: 34px; padding: 3px; font-size: 18px; }
+.deck-foot { padding: 4px 12px; }
+.deck-foot .btn { min-height: 36px; padding: 6px 14px; font-size: 16px; white-space: nowrap; flex-shrink: 0; }
+.deck-foot .dots { flex-wrap: nowrap; overflow-x: auto; min-width: 0; padding: 5px 2px; scrollbar-width: thin; }
+.deck-foot .dot { flex-shrink: 0; }
+.stepbar { padding: 3px 12px; }
+.stepbar span { height: 4px; }
+.slide-wrap { padding-block: 12px; }

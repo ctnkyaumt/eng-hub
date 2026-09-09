@@ -38,7 +38,11 @@
     {
      "en": "browse",
      "tr": "gezinmek",
-     "emoji": "🧭"
+     "emoji": "🧭",
+     "img": "/app/img/concepts/browse.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "browse"
     },
     {
      "en": "connection",
@@ -130,16 +134,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/10309/10309_500.png",
+     "img": "/app/img/words/search-engine.jpg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "attachment",
-     "tr": "ek dosya",
+     "imageSource": "",
+     "answer": "search engine",
+     "tr": "arama motoru",
      "options": [
-      "attachment",
+      "search engine",
       "social networking site",
-      "account",
-      "screen"
+      "screen",
+      "connection"
      ]
     }
    ]
@@ -165,16 +169,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/connection.jpg",
+     "img": "/app/img/words/browser.jpg",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "connection",
-     "tr": "bağlantı",
+     "answer": "browser",
+     "tr": "tarayıcı",
      "options": [
-      "connection",
-      "screen",
       "browser",
-      "browse"
+      "browse",
+      "connection",
+      "social networking site"
      ]
     }
    ]
@@ -187,16 +191,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/browser.jpg",
+     "img": "/app/img/concepts/account.svg",
      "imageFit": "contain",
-     "imageSource": "",
-     "answer": "browser",
-     "tr": "tarayıcı",
+     "imageSource": "ENG HUB",
+     "answer": "account",
+     "tr": "hesap",
      "options": [
-      "browser",
-      "social networking site",
-      "attachment",
-      "connection"
+      "account",
+      "browse",
+      "search engine",
+      "attachment"
      ]
     }
    ]
@@ -253,12 +257,20 @@
     {
      "en": "comment",
      "tr": "yorum yapmak",
-     "emoji": "💬"
+     "emoji": "💬",
+     "img": "/app/img/concepts/comment.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "comment"
     },
     {
      "en": "confirm",
      "tr": "onaylamak",
-     "emoji": "✅"
+     "emoji": "✅",
+     "img": "/app/img/concepts/confirm.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "confirm"
     },
     {
      "en": "register",
@@ -330,26 +342,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"download\" means \"silmek\".",
+     "statement": "\"upload\" means \"onaylamak\".",
      "answer": false,
-     "explain": "download = indirmek"
+     "explain": "upload = yüklemek"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"yorum yapmak\"?",
+   "title": "Activity Break · Which word means \"yüklemek\"?",
    "titleTr": "Use what you just learned · Online Actions",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"yorum yapmak\"?",
-     "answer": "comment",
+     "q": "Which word means \"yüklemek\"?",
+     "answer": "upload",
      "options": [
-      "comment",
       "upload",
       "register",
-      "log on"
+      "log off",
+      "download"
      ]
     }
    ]
@@ -364,20 +376,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "log on",
-       "b": "oturum açmak"
+       "a": "comment",
+       "b": "yorum yapmak"
+      },
+      {
+       "a": "sign in",
+       "b": "giriş yapmak"
       },
       {
        "a": "sign up",
        "b": "üye olmak"
       },
       {
-       "a": "comment",
-       "b": "yorum yapmak"
-      },
-      {
-       "a": "log off",
-       "b": "oturumu kapatmak"
+       "a": "upload",
+       "b": "yüklemek"
       }
      ]
     }
@@ -391,60 +403,60 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/words/upload.jpg",
+     "img": "https://static.arasaac.org/pictograms/9030/9030_500.png",
      "imageFit": "contain",
-     "imageSource": "",
-     "answer": "upload",
-     "tr": "yüklemek",
+     "imageSource": "ARASAAC",
+     "answer": "reply",
+     "tr": "yanıtlamak",
      "options": [
-      "upload",
-      "sign in",
-      "comment",
-      "delete"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Online Actions",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "/app/img/concepts/log-off.svg",
-     "imageFit": "contain",
-     "imageSource": "ENG HUB",
-     "answer": "log off",
-     "tr": "oturumu kapatmak",
-     "options": [
-      "log off",
-      "sign in",
-      "comment",
-      "register"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Online Actions",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "/app/img/concepts/log-on.svg",
-     "imageFit": "contain",
-     "imageSource": "ENG HUB",
-     "answer": "log on",
-     "tr": "oturum açmak",
-     "options": [
-      "log on",
-      "comment",
       "reply",
-      "upload"
+      "comment",
+      "upload",
+      "confirm"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Online Actions",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2286/2286_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "delete",
+     "tr": "silmek",
+     "options": [
+      "delete",
+      "sign up",
+      "confirm",
+      "comment"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Online Actions",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/sign-in.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "sign in",
+     "tr": "giriş yapmak",
+     "options": [
+      "sign in",
+      "log off",
+      "upload",
+      "register"
      ]
     }
    ]
@@ -466,7 +478,11 @@
     {
      "en": "habit",
      "tr": "alışkanlık",
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "img": "/app/img/concepts/habit.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "habit"
     },
     {
      "en": "ignore",
@@ -594,8 +610,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "alışkanlık",
-     "answer": "habit"
+     "clue": "tehlikeli",
+     "answer": "dangerous"
     }
    ]
   },
@@ -609,20 +625,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "create",
-       "b": "oluşturmak"
-      },
-      {
-       "a": "friend request",
-       "b": "arkadaşlık isteği"
-      },
-      {
        "a": "ignore",
        "b": "reddetmek"
       },
       {
-       "a": "dangerous",
-       "b": "tehlikeli"
+       "a": "device",
+       "b": "alet, cihaz"
+      },
+      {
+       "a": "isolated",
+       "b": "soyutlanmış"
+      },
+      {
+       "a": "instant",
+       "b": "anlık"
       }
      ]
     }
@@ -636,16 +652,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/11698/11698_500.png",
+     "img": "https://static.arasaac.org/pictograms/9899/9899_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "create",
-     "tr": "oluşturmak",
+     "answer": "information",
+     "tr": "bilgi",
      "options": [
-      "create",
       "information",
-      "habit",
-      "isolated"
+      "device",
+      "develop",
+      "habit"
      ]
     }
    ]
@@ -658,16 +674,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/11683/11683_500.png",
+     "img": "/app/img/concepts/habit.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "develop",
-     "tr": "geliştirmek",
+     "imageSource": "ENG HUB",
+     "answer": "habit",
+     "tr": "alışkanlık",
      "options": [
-      "develop",
-      "device",
       "habit",
-      "important"
+      "improve",
+      "instant",
+      "isolated"
      ]
     }
    ]
@@ -687,9 +703,9 @@
      "tr": "soyutlanmış",
      "options": [
       "isolated",
-      "information",
       "instant",
-      "develop"
+      "habit",
+      "friend request"
      ]
     }
    ]
@@ -834,12 +850,8 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "broken",
-       "b": "arızalı, bozuk, kesik"
-      },
-      {
-       "a": "find",
-       "b": "bulmak"
+       "a": "follow",
+       "b": "takip etmek"
       },
       {
        "a": "file",
@@ -848,6 +860,10 @@
       {
        "a": "free time",
        "b": "boş zaman"
+      },
+      {
+       "a": "blog",
+       "b": "internet günlüğü"
       }
      ]
     }
@@ -1182,7 +1198,7 @@
       "en": "*Open* your browser.",
       "tr": "Tarayıcını aç.",
       "trEm": [
-       "Tarayıcını aç."
+       "aç"
       ],
       "img": "/app/img/words/browser.jpg",
       "emoji": "🌐"
@@ -1191,7 +1207,7 @@
       "en": "*Download* the worksheet.",
       "tr": "Çalışma kağıdını indir.",
       "trEm": [
-       "Çalışma kağıdını indir."
+       "indir"
       ],
       "img": "https://static.arasaac.org/pictograms/27397/27397_500.png",
       "imageFit": "contain",
@@ -1203,7 +1219,7 @@
       "en": "*Log in* to your account.",
       "tr": "Hesabına giriş yap.",
       "trEm": [
-       "Hesabına giriş yap."
+       "giriş yap"
       ],
       "img": "/app/img/concepts/account.svg",
       "emoji": "👤",
@@ -1301,7 +1317,7 @@
      "en": "*Open* your browser.",
      "tr": "Tarayıcını aç.",
      "trEm": [
-      "Tarayıcını aç."
+      "aç"
      ],
      "img": "/app/img/words/browser.jpg",
      "emoji": "🌐"
@@ -1326,7 +1342,7 @@
      "en": "*Download* the worksheet.",
      "tr": "Çalışma kağıdını indir.",
      "trEm": [
-      "Çalışma kağıdını indir."
+      "indir"
      ],
      "img": "https://static.arasaac.org/pictograms/27397/27397_500.png",
      "imageFit": "contain",
@@ -1354,7 +1370,7 @@
      "en": "*Log in* to your account.",
      "tr": "Hesabına giriş yap.",
      "trEm": [
-      "Hesabına giriş yap."
+      "giriş yap"
      ],
      "img": "/app/img/concepts/account.svg",
      "emoji": "👤",
@@ -1427,7 +1443,7 @@
      "en": "*Don't* open messages from strangers.",
      "tr": "Yabancılardan gelen mesajları açma.",
      "trEm": [
-      "Yabancılardan gelen mesajları açma."
+      "açma"
      ],
      "emoji": "👥"
     }
@@ -1512,7 +1528,7 @@
       "en": "*Don't* open messages from strangers.",
       "tr": "Yabancılardan gelen mesajları açma.",
       "trEm": [
-       "Yabancılardan gelen mesajları açma."
+       "açma"
       ],
       "emoji": "👥"
      }
@@ -1766,37 +1782,40 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "broken",
-      "tr": "arızalı, bozuk, kesik",
-      "img": "https://static.arasaac.org/pictograms/4736/4736_500.png",
+      "en": "develop",
+      "tr": "geliştirmek",
+      "img": "https://static.arasaac.org/pictograms/11683/11683_500.png",
       "emoji": "🛠️",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "broken"
+      "imageConcept": "develop"
      },
      {
-      "en": "improve",
-      "tr": "geliştirmek",
-      "img": "https://static.arasaac.org/pictograms/11705/11705_500.png",
-      "emoji": "📈",
+      "en": "browse",
+      "tr": "gezinmek",
+      "img": "/app/img/concepts/browse.svg",
+      "emoji": "🧭",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "browse"
+     },
+     {
+      "en": "account",
+      "tr": "hesap",
+      "img": "/app/img/concepts/account.svg",
+      "emoji": "👤",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "account"
+     },
+     {
+      "en": "blog",
+      "tr": "internet günlüğü",
+      "img": "https://static.arasaac.org/pictograms/16577/16577_500.png",
+      "emoji": "✍️",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "improve"
-     },
-     {
-      "en": "dangerous",
-      "tr": "tehlikeli",
-      "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
-      "emoji": "⚠️",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "danger"
-     },
-     {
-      "en": "connection",
-      "tr": "bağlantı",
-      "img": "/app/img/words/connection.jpg",
-      "emoji": "📶"
+      "imageConcept": "blog"
      }
     ]
    }
@@ -1814,44 +1833,41 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "log off",
-      "tr": "oturumu kapatmak",
-      "img": "/app/img/concepts/log-off.svg",
-      "emoji": "🚪",
+      "en": "important",
+      "tr": "önemli",
+      "img": "https://static.arasaac.org/pictograms/11470/11470_500.png",
+      "emoji": "❗",
       "imageFit": "contain",
-      "imageSource": "ENG HUB",
-      "imageConcept": "log off",
-      "audio": "/app/audio/words/log-off.wav"
+      "imageSource": "ARASAAC",
+      "imageConcept": "important",
+      "audio": "/app/audio/words/important.wav"
      },
      {
-      "en": "develop",
-      "tr": "geliştirmek",
-      "img": "https://static.arasaac.org/pictograms/11683/11683_500.png",
+      "en": "broken",
+      "tr": "arızalı, bozuk, kesik",
+      "img": "https://static.arasaac.org/pictograms/4736/4736_500.png",
       "emoji": "🛠️",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "develop",
-      "audio": "/app/audio/words/develop.wav"
+      "imageConcept": "broken",
+      "audio": "/app/audio/words/broken.wav"
      },
      {
-      "en": "register",
-      "tr": "kayıt olmak",
-      "img": "https://static.arasaac.org/pictograms/9902/9902_500.png",
-      "emoji": "📝",
+      "en": "instant",
+      "tr": "anlık",
+      "img": "https://static.arasaac.org/pictograms/22633/22633_500.png",
+      "emoji": "⚡",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "register",
-      "audio": "/app/audio/words/register.wav"
+      "imageConcept": "instant",
+      "audio": "/app/audio/words/instant.wav"
      },
      {
-      "en": "free time",
-      "tr": "boş zaman",
-      "img": "https://static.arasaac.org/pictograms/11653/11653_500.png",
-      "emoji": "🕒",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "free time",
-      "audio": "/app/audio/words/free-time.wav"
+      "en": "screen",
+      "tr": "ekran",
+      "img": "/app/img/words/screen.jpg",
+      "emoji": "🖥️",
+      "audio": "/app/audio/words/screen.wav"
      }
     ]
    }

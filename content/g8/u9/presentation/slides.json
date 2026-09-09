@@ -90,7 +90,11 @@
     {
      "en": "process",
      "tr": "süreç",
-     "emoji": "🔄"
+     "emoji": "🔄",
+     "img": "/app/img/concepts/process.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "process"
     },
     {
      "en": "result",
@@ -567,12 +571,20 @@
     {
      "en": "gain",
      "tr": "kazanmak",
-     "emoji": "📈"
+     "emoji": "📈",
+     "img": "/app/img/concepts/gain.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "gain"
     },
     {
      "en": "goldsmith",
      "tr": "kuyumcu",
-     "emoji": "💍"
+     "emoji": "💍",
+     "img": "/app/img/concepts/goldsmith.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "goldsmith"
     }
    ],
    "part": [
@@ -588,8 +600,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "ampul",
-     "answer": "electric bulb"
+     "clue": "mürekkep",
+     "answer": "ink"
     }
    ]
   },
@@ -637,29 +649,7 @@
      "tr": "ampul",
      "options": [
       "electric bulb",
-      "gain",
-      "horizon",
-      "improve"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · More Words 1",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/9899/9899_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "facts",
-     "tr": "gerçekler",
-     "options": [
-      "facts",
-      "goldsmith",
+      "improve",
       "improvement",
       "horizon"
      ]
@@ -674,15 +664,37 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/37754/37754_500.png",
+     "img": "/app/img/concepts/goldsmith.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "goldsmith",
+     "tr": "kuyumcu",
+     "options": [
+      "goldsmith",
+      "improvement",
+      "electric bulb",
+      "explosion"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/20393/20393_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "ink",
-     "tr": "mürekkep",
+     "answer": "horizon",
+     "tr": "ufuk, görüş, anlayış",
      "options": [
-      "ink",
-      "improvement",
+      "horizon",
       "entertainment",
+      "improvement",
       "facts"
      ]
     }
@@ -696,12 +708,20 @@
     {
      "en": "gravity of the matter",
      "tr": "maddenin yer çekimi",
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "img": "/app/img/concepts/gravity-of-the-matter.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "gravity of the matter"
     },
     {
      "en": "deserve",
      "tr": "hak etmek",
-     "emoji": "⚖️"
+     "emoji": "⚖️",
+     "img": "/app/img/concepts/deserve.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "deserve"
     },
     {
      "en": "develop",
@@ -773,16 +793,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/25678/25678_500.png",
+     "img": "https://static.arasaac.org/pictograms/8076/8076_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "diagnose",
-     "tr": "teşhis etmek",
+     "answer": "discoverer",
+     "tr": "kaşif",
      "options": [
-      "diagnose",
-      "die",
+      "discoverer",
       "gravity of the matter",
-      "deserve"
+      "diagnose",
+      "discovery"
      ]
     }
    ]
@@ -795,9 +815,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"gravity of the matter\" means \"teşhis etmek\".",
+     "statement": "\"develop\" means \"maddenin yer çekimi\".",
      "answer": false,
-     "explain": "gravity of the matter = maddenin yer çekimi"
+     "explain": "develop = geliştirmek"
     }
    ]
   },
@@ -811,12 +831,12 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "discoverer",
-       "b": "kaşif"
+       "a": "discovery",
+       "b": "keşif"
       },
       {
-       "a": "gravity of the matter",
-       "b": "maddenin yer çekimi"
+       "a": "discoverer",
+       "b": "kaşif"
       },
       {
        "a": "diagnose",
@@ -838,16 +858,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/6019/6019_500.png",
+     "img": "/app/img/concepts/deserve.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "discovery",
-     "tr": "keşif",
+     "imageSource": "ENG HUB",
+     "answer": "deserve",
+     "tr": "hak etmek",
      "options": [
+      "deserve",
       "discovery",
-      "gravity of the matter",
-      "discoverer",
-      "die"
+      "develop",
+      "gravity of the matter"
      ]
     }
    ]
@@ -860,15 +880,15 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/11683/11683_500.png",
+     "img": "https://static.arasaac.org/pictograms/6019/6019_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "develop",
-     "tr": "geliştirmek",
+     "answer": "discovery",
+     "tr": "keşif",
      "options": [
-      "develop",
-      "die",
-      "deserve",
+      "discovery",
+      "gravity of the matter",
+      "discoverer",
       "diagnose"
      ]
     }
@@ -939,7 +959,7 @@
       "en": "Glass *is recycled* in this factory.",
       "tr": "Bu fabrikada cam geri dönüştürülür.",
       "trEm": [
-       "Bu fabrikada cam geri dönüştürülür."
+       "geri dönüştürülür"
       ],
       "emoji": "⚙️"
      }
@@ -1030,7 +1050,7 @@
      "en": "Glass *is recycled* in this factory.",
      "tr": "Bu fabrikada cam geri dönüştürülür.",
      "trEm": [
-      "Bu fabrikada cam geri dönüştürülür."
+      "geri dönüştürülür"
      ],
      "emoji": "⚙️"
     }
@@ -1164,7 +1184,7 @@
       "en": "The bridge *was built* in 1990.",
       "tr": "Köprü 1990 yılında inşa edildi.",
       "trEm": [
-       "Köprü 1990 yılında inşa edildi."
+       "inşa edildi"
       ],
       "emoji": "🏛️"
      }
@@ -1252,7 +1272,7 @@
      "en": "The bridge *was built* in 1990.",
      "tr": "Köprü 1990 yılında inşa edildi.",
      "trEm": [
-      "Köprü 1990 yılında inşa edildi."
+      "inşa edildi"
      ],
      "emoji": "🏛️"
     }
@@ -1413,31 +1433,40 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "vaccination",
-      "tr": "aşılama",
-      "img": "/app/img/words/vaccination.jpg",
-      "emoji": "💉"
-     },
-     {
-      "en": "discover",
-      "tr": "keşfetmek",
-      "img": "/app/img/words/discover.jpg",
-      "emoji": "🔍"
-     },
-     {
-      "en": "cell",
-      "tr": "hücre",
-      "img": "/app/img/words/cell.jpg",
-      "emoji": "🔬"
-     },
-     {
-      "en": "discoverer",
-      "tr": "kaşif",
-      "img": "https://static.arasaac.org/pictograms/8076/8076_500.png",
-      "emoji": "🔍",
+      "en": "succeed",
+      "tr": "başarmak",
+      "img": "https://static.arasaac.org/pictograms/11599/11599_500.png",
+      "emoji": "🏅",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "scientist"
+      "imageConcept": "success"
+     },
+     {
+      "en": "explosion",
+      "tr": "patlama",
+      "img": "https://static.arasaac.org/pictograms/4791/4791_500.png",
+      "emoji": "💥",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "explosion"
+     },
+     {
+      "en": "explore",
+      "tr": "araştırmak",
+      "img": "https://static.arasaac.org/pictograms/36922/36922_500.png",
+      "emoji": "🧭",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "explore"
+     },
+     {
+      "en": "electric bulb",
+      "tr": "ampul",
+      "img": "https://static.arasaac.org/pictograms/2285/2285_500.png",
+      "emoji": "💡",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "light bulb"
      }
     ]
    }
@@ -1455,44 +1484,41 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "ink",
-      "tr": "mürekkep",
-      "img": "https://static.arasaac.org/pictograms/37754/37754_500.png",
-      "emoji": "🖋️",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "ink",
-      "audio": "/app/audio/words/ink.wav"
+      "en": "cure",
+      "tr": "tedavi etmek",
+      "img": "/app/img/words/cure.jpg",
+      "emoji": "💊",
+      "audio": "/app/audio/words/cure.wav"
      },
      {
-      "en": "diagnose",
-      "tr": "teşhis etmek",
-      "img": "https://static.arasaac.org/pictograms/25678/25678_500.png",
-      "emoji": "🩺",
+      "en": "gravity of the matter",
+      "tr": "maddenin yer çekimi",
+      "img": "/app/img/concepts/gravity-of-the-matter.svg",
+      "emoji": "⚠️",
       "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "diagnose",
-      "audio": "/app/audio/words/diagnose.wav"
+      "imageSource": "ENG HUB",
+      "imageConcept": "gravity of the matter",
+      "audio": "/app/audio/words/gravity-of-the-matter.wav"
      },
      {
-      "en": "explosion",
-      "tr": "patlama",
-      "img": "https://static.arasaac.org/pictograms/4791/4791_500.png",
-      "emoji": "💥",
+      "en": "die",
+      "tr": "ölmek",
+      "img": "https://static.arasaac.org/pictograms/29862/29862_500.png",
+      "emoji": "🪦",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "explosion",
-      "audio": "/app/audio/words/explosion.wav"
+      "imageConcept": "die",
+      "audio": "/app/audio/words/die.wav"
      },
      {
-      "en": "scientific",
-      "tr": "bilimsel",
-      "img": "https://static.arasaac.org/pictograms/32542/32542_500.png",
-      "emoji": "📐",
+      "en": "lab",
+      "tr": "laboratuvar",
+      "img": "https://static.arasaac.org/pictograms/8150/8150_500.png",
+      "emoji": "🧪",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "science",
-      "audio": "/app/audio/words/scientific.wav"
+      "imageConcept": "lab",
+      "audio": "/app/audio/words/lab.wav"
      }
     ]
    }

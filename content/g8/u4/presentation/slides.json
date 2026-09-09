@@ -85,12 +85,20 @@
     {
      "en": "engaged",
      "tr": "meşgul (hat)",
-     "emoji": "📵"
+     "emoji": "📵",
+     "img": "/app/img/concepts/engaged.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "engaged"
     },
     {
      "en": "extension",
      "tr": "dahili numara",
-     "emoji": "🔢"
+     "emoji": "🔢",
+     "img": "/app/img/concepts/extension.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "extension"
     }
    ],
    "part": [
@@ -135,16 +143,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/36306/36306_500.png",
+     "img": "/app/img/concepts/hang-up.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "pick up",
-     "tr": "telefonu açmak",
+     "imageSource": "ENG HUB",
+     "answer": "hang up",
+     "tr": "telefonu kapatmak",
      "options": [
-      "pick up",
+      "hang up",
+      "hang on",
       "line",
-      "hold",
-      "hang up"
+      "hold"
      ]
     }
    ]
@@ -170,16 +178,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/4691/4691_500.png",
+     "img": "/app/img/concepts/engaged.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "dial",
-     "tr": "numara çevirmek",
+     "imageSource": "ENG HUB",
+     "answer": "engaged",
+     "tr": "meşgul (hat)",
      "options": [
+      "engaged",
+      "hang on",
       "dial",
-      "pick up",
-      "line",
-      "engaged"
+      "hold"
      ]
     }
    ]
@@ -192,16 +200,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/8109/8109_500.png",
+     "img": "https://static.arasaac.org/pictograms/4691/4691_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "hang on",
-     "tr": "hatta beklemek",
+     "answer": "dial",
+     "tr": "numara çevirmek",
      "options": [
+      "dial",
+      "line",
       "hang on",
-      "pick up",
-      "engaged",
-      "line"
+      "extension"
      ]
     }
    ]
@@ -214,7 +222,11 @@
     {
      "en": "available",
      "tr": "müsait",
-     "emoji": "✅"
+     "emoji": "✅",
+     "img": "/app/img/concepts/available.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "available"
     },
     {
      "en": "connect",
@@ -321,9 +333,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"get back\" means \"bağlamak\".",
+     "statement": "\"contact\" means \"geri dönmek\".",
      "answer": false,
-     "explain": "get back = geri dönmek"
+     "explain": "contact = iletişim kurmak"
     }
    ]
   },
@@ -338,9 +350,9 @@
      "answer": "put someone through",
      "options": [
       "put someone through",
+      "memo",
       "contact",
-      "connect",
-      "polite"
+      "keep in touch"
      ]
     }
    ]
@@ -382,38 +394,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/29714/29714_500.png",
+     "img": "https://static.arasaac.org/pictograms/11621/11621_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "get back",
-     "tr": "geri dönmek",
+     "answer": "polite",
+     "tr": "kibar",
      "options": [
-      "get back",
-      "connect",
-      "available",
-      "polite"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Keeping in Touch",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/23763/23763_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "connect",
-     "tr": "bağlamak",
-     "options": [
-      "connect",
       "polite",
-      "get back",
-      "available"
+      "contact",
+      "put someone through",
+      "get back"
      ]
     }
    ]
@@ -433,9 +423,31 @@
      "tr": "iletişimde kalmak",
      "options": [
       "keep in touch",
-      "connect",
-      "get back",
-      "put someone through"
+      "memo",
+      "available",
+      "polite"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Keeping in Touch",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/available.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "available",
+     "tr": "müsait",
+     "options": [
+      "available",
+      "get in touch",
+      "keep in touch",
+      "get back"
      ]
     }
    ]
@@ -513,7 +525,11 @@
     {
      "en": "easy way",
      "tr": "kolay yol",
-     "emoji": "🛣️"
+     "emoji": "🛣️",
+     "img": "/app/img/concepts/easy-way.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "easy way"
     },
     {
      "en": "cell phone",
@@ -556,7 +572,11 @@
     {
      "en": "clearly",
      "tr": "net şekilde",
-     "emoji": "🗣️"
+     "emoji": "🗣️",
+     "img": "/app/img/concepts/clearly.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "clearly"
     },
     {
      "en": "communicate",
@@ -581,8 +601,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "iletişim kurmak",
-     "answer": "communicate"
+     "clue": "ucuz",
+     "answer": "cheap"
     }
    ]
   },
@@ -596,21 +616,43 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "device",
-       "b": "alet, aygıt, cihaz"
+       "a": "communicate",
+       "b": "iletişim kurmak"
       },
       {
-       "a": "discovery",
-       "b": "keşif"
+       "a": "clearly",
+       "b": "net şekilde"
+      },
+      {
+       "a": "customer service",
+       "b": "müşteri hizmetleri"
       },
       {
        "a": "easy way",
        "b": "kolay yol"
-      },
-      {
-       "a": "communicate",
-       "b": "iletişim kurmak"
       }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · More Words 1",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/16351/16351_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "delivery",
+     "tr": "gönderi",
+     "options": [
+      "delivery",
+      "discovery",
+      "disturb",
+      "cell phone"
      ]
     }
    ]
@@ -630,31 +672,9 @@
      "tr": "alet, aygıt, cihaz",
      "options": [
       "device",
-      "disturb",
-      "delivery",
-      "easy way"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · More Words 1",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/24541/24541_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "customer service",
-     "tr": "müşteri hizmetleri",
-     "options": [
-      "customer service",
+      "discovery",
       "communicate",
-      "cell phone",
-      "discovery"
+      "customer service"
      ]
     }
    ]
@@ -667,16 +687,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/4574/4574_500.png",
+     "img": "https://static.arasaac.org/pictograms/7157/7157_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "cheap",
-     "tr": "ucuz",
+     "answer": "disturb",
+     "tr": "rahatsız etmek",
      "options": [
-      "cheap",
-      "conversation",
-      "delivery",
-      "device"
+      "disturb",
+      "customer service",
+      "discovery",
+      "delivery"
      ]
     }
    ]
@@ -698,7 +718,11 @@
     {
      "en": "confirm",
      "tr": "doğrulamak, onaylamak",
-     "emoji": "✅"
+     "emoji": "✅",
+     "img": "/app/img/concepts/confirm.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "confirm"
     },
     {
      "en": "bad line",
@@ -732,7 +756,11 @@
     {
      "en": "busy",
      "tr": "meşgul",
-     "emoji": "🚫"
+     "emoji": "🚫",
+     "img": "/app/img/concepts/busy.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "busy"
     },
     {
      "en": "call",
@@ -766,16 +794,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/8581/8581_500.png",
+     "img": "https://static.arasaac.org/pictograms/2791/2791_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "company",
-     "tr": "şirket",
+     "answer": "bad line",
+     "tr": "kötü hat",
      "options": [
-      "company",
+      "bad line",
+      "call back",
       "call",
-      "confirm",
-      "bad line"
+      "company"
      ]
     }
    ]
@@ -788,9 +816,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"call\" means \"doğrulamak, onaylamak\".",
+     "statement": "\"bad line\" means \"telefon ile aramak\".",
      "answer": false,
-     "explain": "call = telefon ile aramak"
+     "explain": "bad line = kötü hat"
     }
    ]
   },
@@ -804,20 +832,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "call",
+       "b": "telefon ile aramak"
+      },
+      {
+       "a": "confirm",
+       "b": "doğrulamak, onaylamak"
+      },
+      {
+       "a": "call back",
+       "b": "geri aramak"
+      },
+      {
        "a": "company",
        "b": "şirket"
-      },
-      {
-       "a": "bad line",
-       "b": "kötü hat"
-      },
-      {
-       "a": "busy",
-       "b": "meşgul"
-      },
-      {
-       "a": "book",
-       "b": "rezervasyon yapmak"
       }
      ]
     }
@@ -831,16 +859,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/2791/2791_500.png",
+     "img": "/app/img/concepts/confirm.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "bad line",
-     "tr": "kötü hat",
+     "imageSource": "ENG HUB",
+     "answer": "confirm",
+     "tr": "doğrulamak, onaylamak",
      "options": [
-      "bad line",
-      "call back",
+      "confirm",
       "book",
-      "call"
+      "call",
+      "busy"
      ]
     }
    ]
@@ -860,9 +888,9 @@
      "tr": "rezervasyon yapmak",
      "options": [
       "book",
+      "call",
       "call back",
-      "company",
-      "busy"
+      "company"
      ]
     }
    ]
@@ -925,7 +953,7 @@
       "en": "*Can I take a message*?",
       "tr": "Mesajınızı alabilir miyim?",
       "trEm": [
-       "Mesajınızı alabilir miyim"
+       "Mesajınızı alabilir miyim?"
       ],
       "emoji": "☎️"
      },
@@ -935,13 +963,17 @@
       "trEm": [
        "müsait değil"
       ],
-      "emoji": "✅"
+      "img": "/app/img/concepts/available.svg",
+      "emoji": "✅",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "available"
      },
      {
       "en": "This is Ece *speaking*.",
       "tr": "Ben Ece, konuşuyorum.",
       "trEm": [
-       "Ben Ece, konuşuyorum."
+       "konuşuyorum"
       ],
       "emoji": "☎️"
      }
@@ -987,7 +1019,7 @@
      "en": "*Can I take a message*?",
      "tr": "Mesajınızı alabilir miyim?",
      "trEm": [
-      "Mesajınızı alabilir miyim"
+      "Mesajınızı alabilir miyim?"
      ],
      "emoji": "☎️"
     }
@@ -1012,7 +1044,11 @@
      "trEm": [
       "müsait değil"
      ],
-     "emoji": "✅"
+     "img": "/app/img/concepts/available.svg",
+     "emoji": "✅",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "available"
     }
    ],
    "paced": true,
@@ -1033,7 +1069,7 @@
      "en": "This is Ece *speaking*.",
      "tr": "Ben Ece, konuşuyorum.",
      "trEm": [
-      "Ben Ece, konuşuyorum."
+      "konuşuyorum"
      ],
      "emoji": "☎️"
     }
@@ -1422,37 +1458,40 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "memo",
-      "tr": "not",
-      "img": "/app/img/words/memo.jpg",
-      "emoji": "📝"
-     },
-     {
-      "en": "connect",
-      "tr": "bağlamak",
-      "img": "https://static.arasaac.org/pictograms/23763/23763_500.png",
-      "emoji": "🔌",
+      "en": "call",
+      "tr": "telefon ile aramak",
+      "img": "https://static.arasaac.org/pictograms/36305/36305_500.png",
+      "emoji": "☎️",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "connect"
+      "imageConcept": "call"
      },
      {
-      "en": "hold",
-      "tr": "beklemek",
-      "img": "https://static.arasaac.org/pictograms/7271/7271_500.png",
-      "emoji": "🤙",
+      "en": "change",
+      "tr": "değiştirmek",
+      "img": "https://static.arasaac.org/pictograms/8053/8053_500.png",
+      "emoji": "🔄",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "hold"
+      "imageConcept": "change"
      },
      {
-      "en": "conversation",
-      "tr": "görüşme",
-      "img": "https://static.arasaac.org/pictograms/23402/23402_500.png",
-      "emoji": "💬",
+      "en": "get in touch",
+      "tr": "iletişime geçmek",
+      "img": "https://static.arasaac.org/pictograms/11754/11754_500.png",
+      "emoji": "📱",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "conversation"
+      "imageConcept": "communicate"
+     },
+     {
+      "en": "engaged",
+      "tr": "meşgul (hat)",
+      "img": "/app/img/concepts/engaged.svg",
+      "emoji": "📵",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "engaged"
      }
     ]
    }
@@ -1470,44 +1509,44 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "contact",
-      "tr": "iletişim kurmak",
-      "img": "https://static.arasaac.org/pictograms/11754/11754_500.png",
-      "emoji": "📇",
+      "en": "disturb",
+      "tr": "rahatsız etmek",
+      "img": "https://static.arasaac.org/pictograms/7157/7157_500.png",
+      "emoji": "🔕",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "communicate",
-      "audio": "/app/audio/words/contact.wav"
+      "imageConcept": "disturb",
+      "audio": "/app/audio/words/disturb.wav"
      },
      {
-      "en": "book",
-      "tr": "rezervasyon yapmak",
-      "img": "https://static.arasaac.org/pictograms/2450/2450_500.png",
-      "emoji": "📖",
+      "en": "bad line",
+      "tr": "kötü hat",
+      "img": "https://static.arasaac.org/pictograms/2791/2791_500.png",
+      "emoji": "📵",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "book",
-      "audio": "/app/audio/words/book.wav"
+      "imageConcept": "telephone",
+      "audio": "/app/audio/words/bad-line.wav"
      },
      {
-      "en": "change",
-      "tr": "değiştirmek",
-      "img": "https://static.arasaac.org/pictograms/8053/8053_500.png",
-      "emoji": "🔄",
+      "en": "hold",
+      "tr": "beklemek",
+      "img": "https://static.arasaac.org/pictograms/7271/7271_500.png",
+      "emoji": "🤙",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "change",
-      "audio": "/app/audio/words/change.wav"
+      "imageConcept": "hold",
+      "audio": "/app/audio/words/hold.wav"
      },
      {
-      "en": "company",
-      "tr": "şirket",
-      "img": "https://static.arasaac.org/pictograms/8581/8581_500.png",
-      "emoji": "🏢",
+      "en": "polite",
+      "tr": "kibar",
+      "img": "https://static.arasaac.org/pictograms/11621/11621_500.png",
+      "emoji": "🙇",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "company",
-      "audio": "/app/audio/words/company.wav"
+      "imageConcept": "respect",
+      "audio": "/app/audio/words/polite.wav"
      }
     ]
    }
@@ -1525,16 +1564,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "My brother is talking on the phone.",
-      "tr": "Erkek kardeşim telefonda konuşuyor."
+      "answer": "They aren't answering the phone.",
+      "tr": "Telefona cevap vermiyorlar."
      },
      {
       "answer": "She is talking on the phone now.",
       "tr": "O şimdi telefonda konuşuyor."
      },
      {
-      "answer": "This is Ece speaking.",
-      "tr": "Ben Ece, konuşuyorum."
+      "answer": "My brother is talking on the phone.",
+      "tr": "Erkek kardeşim telefonda konuşuyor."
      }
     ]
    }
@@ -1546,9 +1585,9 @@
    "task": {
     "kind": "flash",
     "q": "Caller: ask for a friend. Receiver: your friend is out. Take a message, then swap roles.",
-    "clue": "Could I speak to Mr Yılmaz, please?",
+    "clue": "This is Ece speaking.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Bay Yılmaz ile görüşebilir miyim, lütfen?"
+    "tr": "Ben Ece, konuşuyorum."
    },
    "part": [
     4,
@@ -1562,9 +1601,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I am calling about the delivery.",
+    "clue": "Are you listening to me?",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Gönderi hakkında arıyorum."
+    "tr": "Beni dinliyor musun?"
    },
    "part": [
     5,

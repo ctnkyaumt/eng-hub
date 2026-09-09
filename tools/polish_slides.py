@@ -347,9 +347,29 @@ def example_time(text):
     return None
 
 
+TR_TERM_PATTERNS.update({
+ "usually": (r"genellikle",), "often": (r"sık sık",), "sometimes": (r"bazen",), "never": (r"asla",),
+ "do you like": (r"sever misin",), "open": (r"\baç\b",), "raise": (r"kaldır",),
+ "try on": (r"denerim",), "look": (r"görünüyorsun",), "create": (r"tasarlar",),
+ "in": (r"Ocak ayı", r"kışın", r"sabah"), "walks": (r"yürüyerek gider",),
+ "are reading": (r"okuyoruz",), "plays": (r"oynar",),
+ "are going to": (r"\S+[ae]ca[kğ]\S*", r"\S+[ae]ce[kğ]\S*"),
+ "is": (r"orta boylu", r"\S+yor mu", r"\S+[ae]cak mı",),
+ "going to": (r"\S+[ae]c[ae]k (?:misin|mı)",),
+ "may": (r"\S+[ae]bilir",), "will": (r"\S+[ae]c[ae][kğ]\S*", r"su altında kalır", r"güvende olursun", r"toprak kurur",),
+ "would rather": (r"yeğler", r"tercih ederim",),
+ "stir": (r"karıştır",), "pour": (r"dök",), "serve": (r"servis et",), "next": (r"Sonra",),
+ "speaking": (r"konuşuyorum",), "download": (r"indir",), "log in": (r"giriş yap",),
+ "travelled": (r"seyahat ettik",), "enjoyed": (r"keyif aldım",), "bought": (r"aldım",),
+ "is recycled": (r"geri dönüştürülür",), "was built": (r"inşa edildi",),
+ "why don't we": (r"neden", r"m[ıiuü]yoruz",),
+})
+TR_TERM_PATTERNS["don't"] += (r"\baçma\b",)
+
+
 def turkish_highlights(title, english, turkish):
     """Find the Turkish phrases that realize the starred English teaching point."""
-    terms = list(dict.fromkeys(m.group(1).strip().lower() for m in STAR.finditer(english or "")))
+    terms = list(dict.fromkeys(m.group(1).strip().lower().rstrip('.!?') for m in STAR.finditer(english or "")))
     if not terms or not turkish:
         return []
 
@@ -357,31 +377,30 @@ def turkish_highlights(title, english, turkish):
     # Highlighting the whole label is the honest one-to-one correspondence.
     article_label = (title in ("A / AN / THE", "Countable / Uncountable", "a / an · some · any")
                      and set(terms) <= {"a", "an", "the", "two", "four", "five", "ten"})
-    if (re.search(r"\b(?:kural|heceli|düzensiz|salatalık|elma|limon|zeytin)\b", turkish, re.I)
+    if (re.fullmatch(r"(?:\d+\. kural|tek heceli|iki\+ heceli|düzensiz(?: sıfatlar)?)", turkish, re.I)
+            or turkish in ("e ile biten", "sessiz-sesli-sessiz", "sessiz + y")
             or article_label):
         return [turkish]
 
     found = []
-    unresolved = False
     for term in terms:
-        patterns = TR_TERM_PATTERNS.get(term)
+        patterns = TR_TERM_PATTERNS.get(term) or TR_TERM_PATTERNS.get(term + '.')
         if not patterns:
-            unresolved = True
             continue
         matches = []
         for pattern in patterns:
             matches.extend(re.finditer(pattern, turkish, re.I))
         if not matches:
-            unresolved = True
             continue
         for match in matches:
             phrase = match.group(0)
             if phrase not in found:
                 found.append(phrase)
 
-    # A complete orange translation is preferable to implying a false word
-    # alignment when Turkish expresses a point through an inflectional suffix.
-    return [turkish] if unresolved or not found else found
+    # Unknown alignment must never turn an entire sentence orange.
+    if STAR.sub('', english or '').strip(' .!?') == '':
+        return [turkish]
+    return found
 
 
 def ensure_visuals(slides):
@@ -805,6 +824,10 @@ def polish(path, dry):
     missions = [s for s in out if s["type"] == "mission"]
     for n, mission in enumerate(missions, 1):
         mission["part"] = [n, len(missions)]
+    # Pacing adds examples too; align every final example after pagination.
+    for page in out:
+        for example in page.get("examples", []):
+            example["trEm"] = turkish_highlights(page.get("title"), example.get("en"), example.get("tr"))
     data["slides"] = head + out + tail
     if not dry:
         with open(path, "w", encoding="utf-8") as f:

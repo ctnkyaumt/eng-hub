@@ -1505,17 +1505,29 @@
     {
      "en": "traditional",
      "tr": "geleneksel",
-     "emoji": "🏺"
+     "emoji": "🏺",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Turkish_Folklors%E2%80%93IMG_6294_03.jpg/960px-Turkish_Folklors%E2%80%93IMG_6294_03.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "traditional"
     },
     {
      "en": "ordinary",
      "tr": "sıradan",
-     "emoji": "🔘"
+     "emoji": "🔘",
+     "img": "/app/img/concepts/ordinary.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "ordinary"
     },
     {
      "en": "casual",
      "tr": "günlük",
-     "emoji": "👕"
+     "emoji": "👕",
+     "img": "/app/img/concepts/casual.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "casual"
     },
     {
      "en": "fancy",
@@ -1699,7 +1711,11 @@
     {
      "en": "silk",
      "tr": "ipek",
-     "emoji": "🎗️"
+     "emoji": "🎗️",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Rajshahi_silk_fabric%2C_Sopura_Silk_Mills_Ltd_%2801%29.jpg/960px-Rajshahi_silk_fabric%2C_Sopura_Silk_Mills_Ltd_%2801%29.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "silk"
     },
     {
      "en": "wool",
@@ -1753,8 +1769,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "sıradan",
-     "answer": "ordinary"
+     "clue": "harika",
+     "answer": "great"
     }
    ]
   },
@@ -1795,6 +1811,28 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2948/2948_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "wool",
+     "tr": "yün",
+     "options": [
+      "wool",
+      "uncomfortable",
+      "perfect",
+      "long"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
      "img": "https://static.arasaac.org/pictograms/37063/37063_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
@@ -1802,8 +1840,8 @@
      "tr": "kalın",
      "options": [
       "thick",
-      "short",
       "uncomfortable",
+      "short",
       "bright"
      ]
     }
@@ -1817,38 +1855,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/38006/38006_500.png",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Rajshahi_silk_fabric%2C_Sopura_Silk_Mills_Ltd_%2801%29.jpg/960px-Rajshahi_silk_fabric%2C_Sopura_Silk_Mills_Ltd_%2801%29.jpg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "perfect",
-     "tr": "mükemmel",
+     "imageSource": "Wikimedia Commons",
+     "answer": "silk",
+     "tr": "ipek",
      "options": [
-      "perfect",
+      "silk",
       "fancy",
-      "cotton",
-      "gold"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Adjectives",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/4578/4578_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "soft",
-     "tr": "yumuşak",
-     "options": [
       "soft",
-      "great",
-      "wool",
-      "short"
+      "gold"
      ]
     }
    ]
@@ -1941,7 +1957,7 @@
       "en": "I *try on* a jacket before I buy it.",
       "tr": "Bir ceketi almadan önce denerim.",
       "trEm": [
-       "Bir ceketi almadan önce denerim."
+       "denerim"
       ],
       "img": "p02-05.png",
       "emoji": "🧥"
@@ -1950,7 +1966,7 @@
       "en": "You *look* great in that shirt.",
       "tr": "O gömlekle harika görünüyorsun.",
       "trEm": [
-       "O gömlekle harika görünüyorsun."
+       "görünüyorsun"
       ],
       "img": "p02-08.png",
       "emoji": "👔"
@@ -1959,7 +1975,7 @@
       "en": "Designers *create* new clothes.",
       "tr": "Tasarımcılar yeni kıyafetler tasarlar.",
       "trEm": [
-       "Tasarımcılar yeni kıyafetler tasarlar."
+       "tasarlar"
       ],
       "img": "/app/img/vocab/adjective-new.svg",
       "emoji": "🆕"
@@ -2057,7 +2073,7 @@
      "en": "I *try on* a jacket before I buy it.",
      "tr": "Bir ceketi almadan önce denerim.",
      "trEm": [
-      "Bir ceketi almadan önce denerim."
+      "denerim"
      ],
      "img": "p02-05.png",
      "emoji": "🧥"
@@ -2082,7 +2098,7 @@
      "en": "You *look* great in that shirt.",
      "tr": "O gömlekle harika görünüyorsun.",
      "trEm": [
-      "O gömlekle harika görünüyorsun."
+      "görünüyorsun"
      ],
      "img": "p02-08.png",
      "emoji": "👔"
@@ -2107,7 +2123,7 @@
      "en": "Designers *create* new clothes.",
      "tr": "Tasarımcılar yeni kıyafetler tasarlar.",
      "trEm": [
-      "Tasarımcılar yeni kıyafetler tasarlar."
+      "tasarlar"
      ],
      "img": "/app/img/vocab/adjective-new.svg",
      "emoji": "🆕"
@@ -2322,20 +2338,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "play computer games",
-       "b": "bilgisayar oyunu oynamak"
+       "a": "go out",
+       "b": "dışarı gitmek"
+      },
+      {
+       "a": "travel around the world",
+       "b": "dünyayı gezmek"
       },
       {
        "a": "go to the park",
        "b": "parka gitmek"
       },
       {
-       "a": "go for a walk",
-       "b": "yürüyüşe gitmek"
-      },
-      {
-       "a": "meet friends",
-       "b": "arkadaşlarla buluşmak"
+       "a": "go jogging",
+       "b": "koşuya gitmek"
       }
      ]
     }
@@ -2349,16 +2365,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p04-04.png",
+     "img": "p04-06.png",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "watch videos",
-     "tr": "video izlemek",
+     "answer": "play computer games",
+     "tr": "bilgisayar oyunu oynamak",
      "options": [
-      "watch videos",
-      "watch TV",
-      "go shopping",
-      "go out"
+      "play computer games",
+      "play chess",
+      "read a magazine",
+      "draw pictures"
      ]
     }
    ]
@@ -2384,16 +2400,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p04-09.png",
+     "img": "p04-15.png",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "play chess",
-     "tr": "satranç oynamak",
+     "answer": "go to the park",
+     "tr": "parka gitmek",
      "options": [
-      "play chess",
-      "travel around the world",
-      "go out",
-      "draw pictures"
+      "go to the park",
+      "draw pictures",
+      "watch TV",
+      "go jogging"
      ]
     }
    ]
@@ -2406,16 +2422,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p04-10.png",
+     "img": "p04-11.png",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "draw pictures",
-     "tr": "resim çizmek",
+     "answer": "go for a walk",
+     "tr": "yürüyüşe gitmek",
      "options": [
-      "draw pictures",
-      "watch videos",
-      "meet friends",
-      "read a magazine"
+      "go for a walk",
+      "go out",
+      "travel around the world",
+      "play chess"
      ]
     }
    ]
@@ -2466,7 +2482,9 @@
       "en": "*in* January, *in* winter, *in* the morning",
       "tr": "Ocak ayı, kışın, sabah",
       "trEm": [
-       "Ocak ayı, kışın, sabah"
+       "Ocak ayı",
+       "kışın",
+       "sabah"
       ],
       "emoji": "📅"
      },
@@ -2502,7 +2520,9 @@
      "en": "*in* January, *in* winter, *in* the morning",
      "tr": "Ocak ayı, kışın, sabah",
      "trEm": [
-      "Ocak ayı, kışın, sabah"
+      "Ocak ayı",
+      "kışın",
+      "sabah"
      ],
      "emoji": "📅"
     }
@@ -2701,7 +2721,7 @@
       "en": "My sister *walks* to school.",
       "tr": "Kız kardeşim okula yürüyerek gider.",
       "trEm": [
-       "Kız kardeşim okula yürüyerek gider."
+       "yürüyerek gider"
       ],
       "emoji": "🏫"
      }
@@ -2865,7 +2885,7 @@
      "en": "My sister *walks* to school.",
      "tr": "Kız kardeşim okula yürüyerek gider.",
      "trEm": [
-      "Kız kardeşim okula yürüyerek gider."
+      "yürüyerek gider"
      ],
      "emoji": "🏫"
     }
@@ -2977,7 +2997,11 @@
         "trEm": [
          "giymezsin"
         ],
-        "emoji": "🔘"
+        "img": "/app/img/concepts/ordinary.svg",
+        "emoji": "🔘",
+        "imageFit": "contain",
+        "imageSource": "ENG HUB",
+        "imageConcept": "ordinary"
        },
        {
         "en": "He *doesn't* play chess.",
@@ -3040,7 +3064,11 @@
      "trEm": [
       "giymezsin"
      ],
+     "img": "/app/img/concepts/ordinary.svg",
      "emoji": "🔘",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "ordinary",
      "focus": "NEGATIVE ⛔"
     }
    ],
@@ -3478,26 +3506,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"never\" means \"sık sık\".",
+     "statement": "\"always\" means \"bazen\".",
      "answer": false,
-     "explain": "never = hiçbir zaman"
+     "explain": "always = her zaman"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"nadiren\"?",
+   "title": "Activity Break · Which word means \"sık sık\"?",
    "titleTr": "Use what you just learned · Adverbs of Frequency",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"nadiren\"?",
-     "answer": "rarely",
+     "q": "Which word means \"sık sık\"?",
+     "answer": "often",
      "options": [
+      "often",
+      "usually",
       "rarely",
-      "sometimes",
-      "never",
-      "usually"
+      "always"
      ]
     }
    ]
@@ -3512,6 +3540,10 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "usually",
+       "b": "genellikle"
+      },
+      {
        "a": "never",
        "b": "hiçbir zaman"
       },
@@ -3520,57 +3552,9 @@
        "b": "bazen"
       },
       {
-       "a": "always",
-       "b": "her zaman"
-      },
-      {
-       "a": "rarely",
-       "b": "nadiren"
+       "a": "often",
+       "b": "sık sık"
       }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Adverbs of Frequency",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "/app/img/concepts/often.svg",
-     "imageFit": "contain",
-     "imageSource": "ENG HUB",
-     "answer": "often",
-     "tr": "sık sık",
-     "options": [
-      "often",
-      "rarely",
-      "always",
-      "never"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Adverbs of Frequency",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "/app/img/concepts/always.svg",
-     "imageFit": "contain",
-     "imageSource": "ENG HUB",
-     "answer": "always",
-     "tr": "her zaman",
-     "options": [
-      "always",
-      "usually",
-      "never",
-      "often"
      ]
     }
    ]
@@ -3590,9 +3574,53 @@
      "tr": "genellikle",
      "options": [
       "usually",
+      "always",
+      "never",
+      "often"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adverbs of Frequency",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/rarely.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "rarely",
+     "tr": "nadiren",
+     "options": [
+      "rarely",
+      "always",
+      "usually",
+      "often"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adverbs of Frequency",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/sometimes.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "sometimes",
+     "tr": "bazen",
+     "options": [
       "sometimes",
-      "often",
-      "rarely"
+      "rarely",
+      "always",
+      "never"
      ]
     }
    ]
@@ -3713,28 +3741,25 @@
       "emoji": "🔽"
      },
      {
-      "en": "leg",
-      "tr": "bacak",
-      "img": "p01-17.png",
-      "emoji": "🦵"
+      "en": "belt",
+      "tr": "kemer",
+      "img": "p02-22.png",
+      "emoji": "🎗️"
      },
      {
-      "en": "wool",
-      "tr": "yün",
-      "img": "https://static.arasaac.org/pictograms/2948/2948_500.png",
-      "emoji": "🐑",
+      "en": "dirty",
+      "tr": "kirli",
+      "img": "https://static.arasaac.org/pictograms/4750/4750_500.png",
+      "emoji": "🪣",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "wool"
+      "imageConcept": "dirty"
      },
      {
-      "en": "often",
-      "tr": "sık sık",
-      "img": "/app/img/concepts/often.svg",
-      "emoji": "⭐",
-      "imageFit": "contain",
-      "imageSource": "ENG HUB",
-      "imageConcept": "often"
+      "en": "go jogging",
+      "tr": "koşuya gitmek",
+      "img": "p04-13.png",
+      "emoji": "🏃"
      }
     ]
    }
@@ -3759,14 +3784,11 @@
       "audio": "/app/audio/words/headscarf.wav"
      },
      {
-      "en": "clean",
-      "tr": "temiz",
-      "img": "https://static.arasaac.org/pictograms/3351/3351_500.png",
-      "emoji": "🧼",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "clean",
-      "audio": "/app/audio/words/clean.wav"
+      "en": "necklace",
+      "tr": "kolye",
+      "img": "p03-08.png",
+      "emoji": "📿",
+      "audio": "/app/audio/words/necklace.wav"
      },
      {
       "en": "fair",
@@ -3798,16 +3820,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "You don't wear glasses, do you?",
-      "tr": "Sen gözlük takmazsın, değil mi?"
+      "answer": "He watches TV at night.",
+      "tr": "O geceleri televizyon izler."
      },
      {
-      "answer": "I don't go to school on Sundays.",
-      "tr": "Ben Pazar günleri okula gitmem."
+      "answer": "at 8 o'clock, at the weekend, at noon, at night",
+      "tr": "saat sekizde, hafta sonu, öğlen, gece"
      },
      {
-      "answer": "I buy trendy clothes.",
-      "tr": "Modaya uygun kıyafetler satın alırım."
+      "answer": "I go to school on weekdays.",
+      "tr": "Ben hafta içi okula giderim."
      }
     ]
    }
@@ -3819,9 +3841,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I am short and slim.",
+    "clue": "I have got straight hair.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Ben kısa ve zayıfım."
+    "tr": "Ben düz saçlara sahibim."
    },
    "part": [
     4,
@@ -3850,9 +3872,9 @@
    "task": {
     "kind": "flash",
     "q": "Act out a clothes-shopping conversation. Try something on and describe how it looks.",
-    "clue": "I own silver earrings.",
+    "clue": "I try on a jacket before I buy it.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Gümüş küpelere sahibim."
+    "tr": "Bir ceketi almadan önce denerim."
    },
    "part": [
     6,
@@ -3866,9 +3888,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "on Sunday, on Friday, on weekdays",
+    "clue": "at 8 o'clock, at the weekend, at noon, at night",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Pazar, Cuma, hafta içi"
+    "tr": "saat sekizde, hafta sonu, öğlen, gece"
    },
    "part": [
     7,
@@ -3882,9 +3904,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "He watches TV at night.",
+    "clue": "-ss, -sh, -ch, -x, -o ile bitenler -es alır:  go → goes, watch → watches",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "O geceleri televizyon izler."
+    "tr": "2. kural"
    },
    "part": [
     8,
@@ -3898,9 +3920,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "You don't wear ordinary clothes.",
+    "clue": "She doesn't draw pictures.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Sen sıradan kıyafetler giymezsin."
+    "tr": "O resim çizmez."
    },
    "part": [
     9,

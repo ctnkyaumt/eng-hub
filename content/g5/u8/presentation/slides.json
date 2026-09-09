@@ -448,7 +448,11 @@
     {
      "en": "view",
      "tr": "manzara",
-     "emoji": "🖼️"
+     "emoji": "🖼️",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Zagedan_Lakes%2C_Mountain_cirque%2C_Caucasus_Mountains.jpg/960px-Zagedan_Lakes%2C_Mountain_cirque%2C_Caucasus_Mountains.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "view"
     },
     {
      "en": "tourism",
@@ -556,13 +560,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/10186/10186_500.png",
+     "img": "https://static.arasaac.org/pictograms/5464/5464_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "journey",
-     "tr": "yolculuk",
+     "answer": "season",
+     "tr": "mevsim",
      "options": [
-      "journey",
+      "season",
       "spring holiday",
       "half-term holiday",
       "climate"
@@ -578,13 +582,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/8230/8230_500.png",
+     "img": "https://static.arasaac.org/pictograms/10186/10186_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "temperature",
-     "tr": "sıcaklık",
+     "answer": "journey",
+     "tr": "yolculuk",
      "options": [
-      "temperature",
+      "journey",
       "tour",
       "spring holiday",
       "view"
@@ -872,7 +876,11 @@
     {
      "en": "stay",
      "tr": "kalmak",
-     "emoji": "🏨"
+     "emoji": "🏨",
+     "img": "/app/img/concepts/stay.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "stay"
     },
     {
      "en": "enjoy",
@@ -915,7 +923,11 @@
     {
      "en": "join",
      "tr": "katılmak",
-     "emoji": "🙋"
+     "emoji": "🙋",
+     "img": "/app/img/concepts/join.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "join"
     },
     {
      "en": "take photos",
@@ -1063,14 +1075,14 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/2474/2474_500.png",
+     "img": "https://static.arasaac.org/pictograms/11706/11706_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "see",
-     "tr": "görmek",
+     "answer": "plan",
+     "tr": "planlamak",
      "options": [
-      "see",
       "plan",
+      "see",
       "pack",
       "recommend"
      ]
@@ -1128,16 +1140,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/28341/28341_500.png",
+     "img": "https://static.arasaac.org/pictograms/36922/36922_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "take photos",
-     "tr": "fotoğraf çekmek",
+     "answer": "explore",
+     "tr": "keşfetmek",
      "options": [
-      "take photos",
       "explore",
+      "visit",
       "go",
-      "visit"
+      "invite"
      ]
     }
    ]
@@ -1150,13 +1162,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/6548/6548_500.png",
+     "img": "https://static.arasaac.org/pictograms/4772/4772_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "rise",
-     "tr": "yükselmek",
+     "answer": "visit",
+     "tr": "ziyaret etmek",
      "options": [
-      "rise",
+      "visit",
       "join",
       "travel",
       "enjoy"
@@ -1470,15 +1482,20 @@
       "en": "They *are going to* stay at a hotel.",
       "tr": "Onlar bir otelde kalacaklar.",
       "trEm": [
-       "kalacaklar"
+       "kalacaklar."
       ],
-      "emoji": "🏨"
+      "img": "/app/img/concepts/stay.svg",
+      "emoji": "🏨",
+      "imageFit": "contain",
+      "imageSource": "ENG HUB",
+      "imageConcept": "stay"
      },
      {
       "en": "We *are going to* travel by train next month.",
       "tr": "Gelecek ay trenle seyahat edeceğiz.",
       "trEm": [
-       "Gelecek ay trenle seyahat edeceğiz."
+       "Gelecek",
+       "edeceğiz."
       ],
       "img": "https://static.arasaac.org/pictograms/4671/4671_500.png",
       "imageFit": "contain",
@@ -1526,9 +1543,13 @@
      "en": "They *are going to* stay at a hotel.",
      "tr": "Onlar bir otelde kalacaklar.",
      "trEm": [
-      "kalacaklar"
+      "kalacaklar."
      ],
-     "emoji": "🏨"
+     "img": "/app/img/concepts/stay.svg",
+     "emoji": "🏨",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "stay"
     }
    ],
    "paced": true,
@@ -1550,7 +1571,8 @@
      "en": "We *are going to* travel by train next month.",
      "tr": "Gelecek ay trenle seyahat edeceğiz.",
      "trEm": [
-      "Gelecek ay trenle seyahat edeceğiz."
+      "Gelecek",
+      "edeceğiz."
      ],
      "img": "https://static.arasaac.org/pictograms/4671/4671_500.png",
      "imageFit": "contain",
@@ -1696,7 +1718,7 @@
         "tr": "O yarın dağa tırmanacak mı? — Hayır.",
         "img": "p01-02.png",
         "trEm": [
-         "O yarın dağa tırmanacak mı? — Hayır."
+         "tırmanacak mı"
         ]
        }
       ]
@@ -1797,7 +1819,7 @@
      "tr": "O yarın dağa tırmanacak mı? — Hayır.",
      "img": "p01-02.png",
      "trEm": [
-      "O yarın dağa tırmanacak mı? — Hayır."
+      "tırmanacak mı"
      ],
      "focus": "QUESTION ❓"
     }
@@ -1919,10 +1941,13 @@
       "emoji": "🌉"
      },
      {
-      "en": "destination",
-      "tr": "gidilecek yer",
-      "img": "/app/img/words/destination.jpg",
-      "emoji": "📍"
+      "en": "tourism",
+      "tr": "turizm",
+      "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
+      "emoji": "🧳",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "tourism"
      },
      {
       "en": "jolly",
@@ -1956,14 +1981,11 @@
       "audio": "/app/audio/words/rock.wav"
      },
      {
-      "en": "tour",
-      "tr": "tur",
-      "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
-      "emoji": "🚌",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "tour",
-      "audio": "/app/audio/words/tour.wav"
+      "en": "ride a bike",
+      "tr": "bisiklete binmek",
+      "img": "p02-11.png",
+      "emoji": "🚲",
+      "audio": "/app/audio/words/ride-a-bike.wav"
      },
      {
       "en": "amazing",
@@ -1998,16 +2020,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
+      "answer": "He is going to go sightseeing next week.",
+      "tr": "O gelecek hafta geziye gidecek."
+     },
+     {
+      "answer": "She isn't going to take photos.",
+      "tr": "O fotoğraf çekmeyecek."
+     },
+     {
       "answer": "We are going to travel by train next month.",
       "tr": "Gelecek ay trenle seyahat edeceğiz."
-     },
-     {
-      "answer": "You aren't going to invite your friends.",
-      "tr": "Sen arkadaşlarını davet etmeyeceksin."
-     },
-     {
-      "answer": "I am going to visit a museum tomorrow.",
-      "tr": "Yarın bir müzeyi ziyaret edeceğim."
      }
     ]
    }
@@ -2035,9 +2057,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "Are you going to swim in the sea? — Yes, I am.",
+    "clue": "I am not going to ride a camel.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Denizde yüzecek misin? — Evet."
+    "tr": "Deveye binmeyeceğim."
    },
    "part": [
     5,

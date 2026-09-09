@@ -57,7 +57,11 @@
     {
      "en": "borrow",
      "tr": "ödünç almak",
-     "emoji": "🤲"
+     "emoji": "🤲",
+     "img": "/app/img/concepts/borrow.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "borrow"
     }
    ],
    "part": [
@@ -73,7 +77,11 @@
     {
      "en": "lend",
      "tr": "ödünç vermek",
-     "emoji": "🎁"
+     "emoji": "🎁",
+     "img": "/app/img/concepts/lend.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "lend"
     },
     {
      "en": "bring",
@@ -227,16 +235,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/8109/8109_500.png",
+     "img": "https://static.arasaac.org/pictograms/2806/2806_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "hold on",
-     "tr": "beklemek",
+     "answer": "leave",
+     "tr": "ayrılmak",
      "options": [
-      "hold on",
-      "lend",
-      "follow",
-      "hang"
+      "leave",
+      "borrow",
+      "hang",
+      "lend"
      ]
     }
    ]
@@ -249,8 +257,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "beklemek",
-     "answer": "hold on"
+     "clue": "başlamak",
+     "answer": "start"
     }
    ]
   },
@@ -262,16 +270,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/7280/7280_500.png",
+     "img": "https://static.arasaac.org/pictograms/8109/8109_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "bring",
-     "tr": "getirmek",
+     "answer": "hold on",
+     "tr": "beklemek",
      "options": [
-      "bring",
-      "borrow",
-      "start",
-      "hang"
+      "hold on",
+      "follow",
+      "hang",
+      "borrow"
      ]
     }
    ]
@@ -284,16 +292,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/2806/2806_500.png",
+     "img": "https://static.arasaac.org/pictograms/14008/14008_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "leave",
-     "tr": "ayrılmak",
+     "answer": "warn",
+     "tr": "uyarmak",
      "options": [
-      "leave",
-      "hang",
+      "warn",
       "start",
-      "talk / speak"
+      "follow",
+      "hang"
      ]
     }
    ]
@@ -310,7 +318,7 @@
      "en": "*Raise* your hand before you speak.",
      "tr": "Konuşmadan önce elini kaldır.",
      "trEm": [
-      "Konuşmadan önce elini kaldır."
+      "kaldır"
      ],
      "emoji": "✋"
     }
@@ -428,7 +436,7 @@
       "en": "*Raise* your hand before you speak.",
       "tr": "Konuşmadan önce elini kaldır.",
       "trEm": [
-       "Konuşmadan önce elini kaldır."
+       "kaldır"
       ],
       "emoji": "✋"
      }
@@ -849,8 +857,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "Yabancı Dil",
-     "answer": "Foreign Language"
+     "clue": "Müzik",
+     "answer": "Music"
     }
    ]
   },
@@ -864,20 +872,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "Social Studies",
+       "b": "Sosyal Bilgiler"
+      },
+      {
+       "a": "Art",
+       "b": "Görsel Sanatlar"
+      },
+      {
        "a": "Maths",
        "b": "Matematik"
       },
       {
-       "a": "Elective Lesson",
-       "b": "Seçmeli Ders"
-      },
-      {
-       "a": "Foreign Language",
-       "b": "Yabancı Dil"
-      },
-      {
-       "a": "Information Technology (IT)",
-       "b": "Bilişim Teknolojileri"
+       "a": "Drama",
+       "b": "Tiyatro"
       }
      ]
     }
@@ -891,15 +899,37 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p05-10.png",
+     "img": "p05-12.png",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "Drama",
-     "tr": "Tiyatro",
+     "answer": "Elective Lesson",
+     "tr": "Seçmeli Ders",
      "options": [
+      "Elective Lesson",
       "Drama",
-      "Art",
+      "Maths",
+      "Social Studies"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · School Subjects",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p05-04.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "Foreign Language",
+     "tr": "Yabancı Dil",
+     "options": [
       "Foreign Language",
+      "Music",
+      "Turkish",
       "Maths"
      ]
     }
@@ -923,28 +953,6 @@
       "Information Technology (IT)",
       "Religion and Morals",
       "Drama"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · School Subjects",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "p05-03.png",
-     "imageFit": "contain",
-     "imageSource": "",
-     "answer": "Social Studies",
-     "tr": "Sosyal Bilgiler",
-     "options": [
-      "Social Studies",
-      "Religion and Morals",
-      "Turkish",
-      "Maths"
      ]
     }
    ]
@@ -1551,26 +1559,26 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"notebook\" means \"akıllı tahta\".",
+     "statement": "\"smart board\" means \"silgi\".",
      "answer": false,
-     "explain": "notebook = defter"
+     "explain": "smart board = akıllı tahta"
     }
    ]
   },
   {
    "type": "exercise",
-   "title": "Activity Break · Which word means \"sıra\"?",
+   "title": "Activity Break · Which word means \"harita\"?",
    "titleTr": "Use what you just learned · Classroom Objects",
    "tasks": [
     {
      "kind": "choose",
-     "q": "Which word means \"sıra\"?",
-     "answer": "desk",
+     "q": "Which word means \"harita\"?",
+     "answer": "map",
      "options": [
-      "desk",
-      "pencil case",
-      "rubbish bin / trash can",
-      "bookshelf"
+      "map",
+      "coloured pencil",
+      "rubber / eraser",
+      "desk"
      ]
     }
    ]
@@ -1585,20 +1593,20 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "pencil",
-       "b": "kurşun kalem"
+       "a": "notebook",
+       "b": "defter"
       },
       {
-       "a": "school bag",
-       "b": "okul çantası"
+       "a": "bookshelf",
+       "b": "kitap rafı"
       },
       {
-       "a": "dictionary",
-       "b": "sözlük"
+       "a": "desk",
+       "b": "sıra"
       },
       {
-       "a": "notice board",
-       "b": "duyuru panosu"
+       "a": "material",
+       "b": "materyal"
       }
      ]
     }
@@ -1612,38 +1620,38 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-11.png",
+     "img": "https://static.arasaac.org/pictograms/36722/36722_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "board marker",
+     "tr": "tahta kalemi",
+     "options": [
+      "board marker",
+      "school bag",
+      "dictionary",
+      "notice board"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Classroom Objects",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-10.png",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "ruler",
-     "tr": "cetvel",
+     "answer": "material",
+     "tr": "materyal",
      "options": [
-      "ruler",
-      "pencil",
-      "table",
-      "crayon"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Classroom Objects",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/8349/8349_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "sheet",
-     "tr": "kağıt",
-     "options": [
+      "material",
+      "glue",
       "sheet",
-      "pencil",
-      "board marker",
-      "rubber / eraser"
+      "board marker"
      ]
     }
    ]
@@ -1656,15 +1664,15 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/9162/9162_500.png",
+     "img": "p02-01.png",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "smart board",
-     "tr": "akıllı tahta",
+     "imageSource": "",
+     "answer": "pencil",
+     "tr": "kurşun kalem",
      "options": [
-      "smart board",
-      "map",
-      "coloured pencil",
+      "pencil",
+      "pen",
+      "table",
       "rubber / eraser"
      ]
     }
@@ -1763,8 +1771,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "Cuma",
-     "answer": "Friday"
+     "clue": "Pazar",
+     "answer": "Sunday"
     }
    ]
   },
@@ -1778,43 +1786,21 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "Tuesday",
-       "b": "Salı"
-      },
-      {
        "a": "Wednesday",
        "b": "Çarşamba"
       },
       {
-       "a": "Saturday",
-       "b": "Cumartesi"
+       "a": "Friday",
+       "b": "Cuma"
       },
       {
-       "a": "Thursday",
-       "b": "Perşembe"
+       "a": "Tuesday",
+       "b": "Salı"
+      },
+      {
+       "a": "Saturday",
+       "b": "Cumartesi"
       }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Days of the Week",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "/app/img/concepts/thursday.svg",
-     "imageFit": "contain",
-     "imageSource": "ENG HUB",
-     "answer": "Thursday",
-     "tr": "Perşembe",
-     "options": [
-      "Thursday",
-      "Saturday",
-      "Sunday",
-      "Wednesday"
      ]
     }
    ]
@@ -1834,9 +1820,9 @@
      "tr": "Çarşamba",
      "options": [
       "Wednesday",
+      "Friday",
       "Thursday",
-      "Monday",
-      "Friday"
+      "Sunday"
      ]
     }
    ]
@@ -1856,9 +1842,31 @@
      "tr": "Pazar",
      "options": [
       "Sunday",
-      "Wednesday",
       "Friday",
-      "Tuesday"
+      "Saturday",
+      "Wednesday"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Days of the Week",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/concepts/thursday.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "answer": "Thursday",
+     "tr": "Perşembe",
+     "options": [
+      "Thursday",
+      "Wednesday",
+      "Monday",
+      "Friday"
      ]
     }
    ]
@@ -2026,9 +2034,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"one\" means \"2\".",
+     "statement": "\"ten\" means \"8\".",
      "answer": false,
-     "explain": "one = 1"
+     "explain": "ten = 10"
     }
    ]
   },
@@ -2042,20 +2050,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "four",
+       "b": "4"
+      },
+      {
        "a": "sixteen",
        "b": "16"
       },
       {
+       "a": "nineteen",
+       "b": "19"
+      },
+      {
        "a": "seven",
        "b": "7"
-      },
-      {
-       "a": "eighteen",
-       "b": "18"
-      },
-      {
-       "a": "ten",
-       "b": "10"
       }
      ]
     }
@@ -2069,8 +2077,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "8",
-     "answer": "eight"
+     "clue": "18",
+     "answer": "eighteen"
     }
    ]
   },
@@ -2177,6 +2185,10 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "seventy",
+       "b": "70"
+      },
+      {
        "a": "fifty",
        "b": "50"
       },
@@ -2187,10 +2199,6 @@
       {
        "a": "sixty",
        "b": "60"
-      },
-      {
-       "a": "eighty",
-       "b": "80"
       }
      ]
     }
@@ -2204,8 +2212,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "90",
-     "answer": "ninety"
+     "clue": "60",
+     "answer": "sixty"
     }
    ]
   },
@@ -2217,9 +2225,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"sixty\" means \"60\".",
+     "statement": "\"ninety\" means \"90\".",
      "answer": true,
-     "explain": "sixty = 60"
+     "explain": "ninety = 90"
     }
    ]
   },
@@ -3097,31 +3105,37 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "map",
-      "tr": "harita",
-      "img": "p02-15.png",
-      "emoji": "🗺️"
+      "en": "school bag",
+      "tr": "okul çantası",
+      "img": "p02-13.png",
+      "emoji": "🎒"
      },
      {
-      "en": "warn",
-      "tr": "uyarmak",
-      "img": "https://static.arasaac.org/pictograms/14008/14008_500.png",
-      "emoji": "⚠️",
+      "en": "shout",
+      "tr": "bağırmak",
+      "img": "https://static.arasaac.org/pictograms/4686/4686_500.png",
+      "emoji": "📢",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "warn"
+      "imageConcept": "shout"
      },
      {
-      "en": "Science",
-      "tr": "Fen Bilimleri",
-      "img": "p05-02.png",
-      "emoji": "🔬"
+      "en": "hold on",
+      "tr": "beklemek",
+      "img": "https://static.arasaac.org/pictograms/8109/8109_500.png",
+      "emoji": "⏳",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "wait"
      },
      {
-      "en": "glue",
-      "tr": "yapıştırıcı",
-      "img": "p02-12.png",
-      "emoji": "🧴"
+      "en": "scissors",
+      "tr": "makas",
+      "img": "https://static.arasaac.org/pictograms/2591/2591_500.png",
+      "emoji": "✂️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "scissors"
      }
     ]
    }
@@ -3139,35 +3153,35 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "Turkish",
-      "tr": "Türkçe",
-      "img": "p05-05.png",
-      "emoji": "📖",
-      "audio": "/app/audio/words/turkish.wav"
+      "en": "Social Studies",
+      "tr": "Sosyal Bilgiler",
+      "img": "p05-03.png",
+      "emoji": "🌍",
+      "audio": "/app/audio/words/social-studies.wav"
      },
      {
-      "en": "Religion and Morals",
-      "tr": "Din Kültürü ve Ahlak Bilgisi",
-      "img": "p05-08.png",
-      "emoji": "🕌",
-      "audio": "/app/audio/words/religion-and-morals.wav"
+      "en": "Art",
+      "tr": "Görsel Sanatlar",
+      "img": "p05-06.png",
+      "emoji": "🎨",
+      "audio": "/app/audio/words/art.wav"
      },
      {
-      "en": "Wednesday",
-      "tr": "Çarşamba",
-      "img": "/app/img/concepts/wednesday.svg",
-      "emoji": "3️⃣",
+      "en": "Monday",
+      "tr": "Pazartesi",
+      "img": "/app/img/concepts/monday.svg",
+      "emoji": "1️⃣",
       "imageFit": "contain",
       "imageSource": "ENG HUB",
-      "imageConcept": "wednesday",
-      "audio": "/app/audio/words/wednesday.wav"
+      "imageConcept": "monday",
+      "audio": "/app/audio/words/monday.wav"
      },
      {
-      "en": "book",
-      "tr": "kitap",
-      "img": "p02-08.png",
-      "emoji": "📖",
-      "audio": "/app/audio/words/book.wav"
+      "en": "sharpener",
+      "tr": "kalemtıraş",
+      "img": "p02-06.png",
+      "emoji": "🔺",
+      "audio": "/app/audio/words/sharpener.wav"
      }
     ]
    }
@@ -3185,16 +3199,16 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "Raise your hand before you speak.",
-      "tr": "Konuşmadan önce elini kaldır."
+      "answer": "Don't shout at your friends.",
+      "tr": "Arkadaşlarına bağırma."
      },
      {
-      "answer": "There are fifteen students in the classroom.",
-      "tr": "Sınıfta on beş öğrenci var."
+      "answer": "Don't run in the classroom.",
+      "tr": "Sınıfta koşma."
      },
      {
-      "answer": "A: What time is it?  B: It is 8:15 a.m.",
-      "tr": "Sabah 8:15"
+      "answer": "Follow the classroom rules.",
+      "tr": "Sınıf kurallarına uy."
      }
     ]
    }
@@ -3206,9 +3220,9 @@
    "task": {
     "kind": "flash",
     "q": "You are the teacher. Give three classroom instructions; your partner acts them out.",
-    "clue": "Don't shout at your friends.",
+    "clue": "Don't run in the classroom.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Arkadaşlarına bağırma."
+    "tr": "Sınıfta koşma."
    },
    "part": [
     4,
@@ -3269,9 +3283,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "A: What time is it?  B: It is 8:15 a.m.",
+    "clue": "The first class starts at 9:00 a.m.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Sabah 8:15"
+    "tr": "İlk ders sabah 9'da başlar."
    },
    "part": [
     8,
@@ -3285,9 +3299,9 @@
    "task": {
     "kind": "flash",
     "q": "Describe a room without naming it. Your partner draws or guesses the room.",
-    "clue": "There are fifteen students in the classroom.",
+    "clue": "There isn't a Science class at ten o'clock.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Sınıfta on beş öğrenci var."
+    "tr": "Saat onda bir Fen Bilimleri dersi yok."
    },
    "part": [
     9,

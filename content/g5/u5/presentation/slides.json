@@ -369,7 +369,11 @@
     {
      "en": "experience",
      "tr": "deneyimlemek",
-     "emoji": "🗺️"
+     "emoji": "🗺️",
+     "img": "/app/img/concepts/experience.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "experience"
     },
     {
      "en": "attend",
@@ -493,13 +497,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/28341/28341_500.png",
+     "img": "https://static.arasaac.org/pictograms/9002/9002_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "take a photo",
-     "tr": "fotoğraf çekmek",
+     "answer": "take a tour",
+     "tr": "tur atmak",
      "options": [
-      "take a photo",
+      "take a tour",
       "hire / rent",
       "joke",
       "attend"
@@ -537,16 +541,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/5517/5517_500.png",
+     "img": "https://static.arasaac.org/pictograms/6592/6592_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "cycle",
-     "tr": "bisiklete binmek",
+     "answer": "fish",
+     "tr": "balık tutmak",
      "options": [
-      "cycle",
+      "fish",
       "jump",
       "take a tour",
-      "fish"
+      "cycle"
      ]
     }
    ]
@@ -574,7 +578,11 @@
     {
      "en": "modern",
      "tr": "modern",
-     "emoji": "🏙️"
+     "emoji": "🏙️",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Modern_architecture_of_university_buildings_at_the_campus_Roeterseiland%3B_free_photo_Amsterdam%2C_Fons_Heijnsbroek_10-2021.jpg/960px-Modern_architecture_of_university_buildings_at_the_campus_Roeterseiland%3B_free_photo_Amsterdam%2C_Fons_Heijnsbroek_10-2021.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "modern"
     },
     {
      "en": "famous",
@@ -608,7 +616,11 @@
     {
      "en": "traditional",
      "tr": "geleneksel",
-     "emoji": "🎎"
+     "emoji": "🎎",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Turkish_Folklors%E2%80%93IMG_6294_03.jpg/960px-Turkish_Folklors%E2%80%93IMG_6294_03.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "traditional"
     },
     {
      "en": "peaceful",
@@ -669,7 +681,11 @@
     {
      "en": "social",
      "tr": "sosyal",
-     "emoji": "🗣️"
+     "emoji": "🗣️",
+     "img": "/app/img/concepts/social.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "social"
     }
    ],
    "part": [
@@ -896,8 +912,8 @@
     {
      "kind": "flash",
      "q": "Guess the English word",
-     "clue": "rahat",
-     "answer": "comfortable"
+     "clue": "çelik",
+     "answer": "steel"
     }
    ]
   },
@@ -938,16 +954,38 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "/app/img/vocab/physical-small.svg",
+     "img": "https://static.arasaac.org/pictograms/10288/10288_500.png",
      "imageFit": "contain",
-     "imageSource": "",
-     "answer": "small",
-     "tr": "küçük",
+     "imageSource": "ARASAAC",
+     "answer": "plastic",
+     "tr": "plastik",
      "options": [
-      "small",
+      "plastic",
+      "cold",
+      "bottom",
+      "small"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Adjectives",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "https://static.arasaac.org/pictograms/2300/2300_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "answer": "hot",
+     "tr": "sıcak",
+     "options": [
+      "hot",
+      "brand-new",
       "comfortable",
-      "metal",
-      "modern"
+      "metal"
      ]
     }
    ]
@@ -960,38 +998,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/6143/6143_500.png",
+     "img": "https://static.arasaac.org/pictograms/4652/4652_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "wooden",
-     "tr": "ahşap",
+     "answer": "cold",
+     "tr": "soğuk",
      "options": [
-      "wooden",
+      "cold",
+      "modern",
       "bright",
-      "metal",
-      "big"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Adjectives",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/27025/27025_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "heavy",
-     "tr": "ağır",
-     "options": [
-      "heavy",
-      "handmade",
-      "famous",
-      "local"
+      "wooden"
      ]
     }
    ]
@@ -1188,16 +1204,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/5921/5921_500.png",
+     "img": "p02-06.png",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "bathroom",
-     "tr": "banyo",
+     "imageSource": "",
+     "answer": "garden",
+     "tr": "bahçe",
      "options": [
+      "garden",
+      "ground",
       "bathroom",
-      "kitchen",
-      "dining room",
-      "toilet"
+      "dining room"
      ]
     }
    ]
@@ -1210,9 +1226,9 @@
     {
      "kind": "truefalse",
      "q": "True or false?",
-     "statement": "\"roof\" means \"mutfak\".",
+     "statement": "\"stairs\" means \"teras\".",
      "answer": false,
-     "explain": "roof = çatı"
+     "explain": "stairs = merdiven"
     }
    ]
   },
@@ -1226,20 +1242,20 @@
      "q": "Match the words",
      "pairs": [
       {
+       "a": "ground",
+       "b": "zemin"
+      },
+      {
+       "a": "dining room",
+       "b": "yemek odası"
+      },
+      {
+       "a": "sitting / living room",
+       "b": "oturma odası"
+      },
+      {
        "a": "bedroom",
        "b": "yatak odası"
-      },
-      {
-       "a": "garden",
-       "b": "bahçe"
-      },
-      {
-       "a": "roof",
-       "b": "çatı"
-      },
-      {
-       "a": "floor",
-       "b": "kat / zemin"
       }
      ]
     }
@@ -1253,16 +1269,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-04.png",
+     "img": "p02-12.png",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "dining room",
-     "tr": "yemek odası",
+     "answer": "roof",
+     "tr": "çatı",
      "options": [
-      "dining room",
-      "floor",
-      "stairs",
-      "corridor / hallway"
+      "roof",
+      "ground",
+      "kitchen",
+      "dining room"
      ]
     }
    ]
@@ -1275,16 +1291,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "p02-11.png",
+     "img": "p02-15.png",
      "imageFit": "contain",
      "imageSource": "",
-     "answer": "ground",
-     "tr": "zemin",
+     "answer": "wall",
+     "tr": "duvar",
      "options": [
-      "ground",
-      "lift / elevator",
-      "terrace",
-      "balcony"
+      "wall",
+      "bathroom",
+      "corridor / hallway",
+      "roof"
      ]
     }
    ]
@@ -1516,22 +1532,57 @@
      "q": "Match the words",
      "pairs": [
       {
-       "a": "armchair",
-       "b": "koltuk"
+       "a": "sofa",
+       "b": "kanepe"
       },
       {
-       "a": "dishwasher",
-       "b": "bulaşık makinesi"
+       "a": "fridge",
+       "b": "buzdolabı"
       },
       {
-       "a": "oven",
-       "b": "fırın"
+       "a": "shelf",
+       "b": "raf"
       },
       {
-       "a": "knife",
-       "b": "bıçak"
+       "a": "table",
+       "b": "masa"
       }
      ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "p02-19.png",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "armchair",
+     "tr": "koltuk",
+     "options": [
+      "armchair",
+      "spoon",
+      "fridge",
+      "fork"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Guess the English word",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Guess the English word",
+     "clue": "mutfak dolabı",
+     "answer": "cupboard"
     }
    ]
   },
@@ -1550,66 +1601,31 @@
      "tr": "bulaşık makinesi",
      "options": [
       "dishwasher",
-      "shelf",
-      "wardrobe",
-      "lamp"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Guess the English word",
-   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
-   "tasks": [
-    {
-     "kind": "flash",
-     "q": "Guess the English word",
-     "clue": "küvet",
-     "answer": "bath"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/2532/2532_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "plate",
-     "tr": "tabak",
-     "options": [
-      "plate",
-      "bath",
-      "lamp",
-      "cupboard"
-     ]
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Activity Break · Which word matches the picture?",
-   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
-   "tasks": [
-    {
-     "kind": "picture",
-     "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/23753/23753_500.png",
-     "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "cupboard",
-     "tr": "mutfak dolabı",
-     "options": [
       "cupboard",
-      "bookcase",
-      "fridge",
-      "armchair"
+      "shelf",
+      "wardrobe"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Activity Break · Which word matches the picture?",
+   "titleTr": "Use what you just learned · Furniture & Kitchen Utensils",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "img": "/app/img/words/oven.jpg",
+     "imageFit": "contain",
+     "imageSource": "",
+     "answer": "oven",
+     "tr": "fırın",
+     "options": [
+      "oven",
+      "rubbish bin",
+      "bath",
+      "lamp"
      ]
     }
    ]
@@ -2330,7 +2346,7 @@
       "en": "He *plays* football on Saturdays.",
       "tr": "Cumartesi günleri futbol oynar.",
       "trEm": [
-       "Cumartesi günleri futbol oynar."
+       "oynar"
       ],
       "emoji": "🔁"
      }
@@ -2487,7 +2503,7 @@
      "en": "He *plays* football on Saturdays.",
      "tr": "Cumartesi günleri futbol oynar.",
      "trEm": [
-      "Cumartesi günleri futbol oynar."
+      "oynar"
      ],
      "emoji": "🔁"
     }
@@ -3041,37 +3057,34 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "eco-friendly",
-      "tr": "çevre dostu",
-      "img": "https://static.arasaac.org/pictograms/27210/27210_500.png",
-      "emoji": "♻️",
+      "en": "fork",
+      "tr": "çatal",
+      "img": "https://static.arasaac.org/pictograms/2588/2588_500.png",
+      "emoji": "🍴",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "recycle"
+      "imageConcept": "fork"
      },
      {
-      "en": "bath",
-      "tr": "küvet",
-      "img": "https://static.arasaac.org/pictograms/2272/2272_500.png",
-      "emoji": "🛁",
+      "en": "bed",
+      "tr": "yatak",
+      "img": "p02-22.png",
+      "emoji": "🛏️"
+     },
+     {
+      "en": "ground",
+      "tr": "zemin",
+      "img": "p02-11.png",
+      "emoji": "🟫"
+     },
+     {
+      "en": "knife",
+      "tr": "bıçak",
+      "img": "https://static.arasaac.org/pictograms/3237/3237_500.png",
+      "emoji": "🔪",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "bath"
-     },
-     {
-      "en": "wall",
-      "tr": "duvar",
-      "img": "p02-15.png",
-      "emoji": "🧱"
-     },
-     {
-      "en": "fridge",
-      "tr": "buzdolabı",
-      "img": "https://static.arasaac.org/pictograms/3272/3272_500.png",
-      "emoji": "🧊",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "fridge"
+      "imageConcept": "knife"
      }
     ]
    }
@@ -3089,34 +3102,31 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "rubbish bin",
-      "tr": "çöp kutusu",
-      "img": "https://static.arasaac.org/pictograms/2724/2724_500.png",
-      "emoji": "🗑️",
+      "en": "bath",
+      "tr": "küvet",
+      "img": "https://static.arasaac.org/pictograms/2272/2272_500.png",
+      "emoji": "🛁",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "rubbish bin",
-      "audio": "/app/audio/words/rubbish-bin.wav"
+      "imageConcept": "bath",
+      "audio": "/app/audio/words/bath.wav"
      },
      {
-      "en": "glass",
-      "tr": "cam",
-      "img": "https://static.arasaac.org/pictograms/9140/9140_500.png",
-      "emoji": "🥛",
+      "en": "handmade",
+      "tr": "el yapımı",
+      "img": "https://static.arasaac.org/pictograms/22769/22769_500.png",
+      "emoji": "🤲",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "glass",
-      "audio": "/app/audio/words/glass.wav"
+      "imageConcept": "traditional craftwork",
+      "audio": "/app/audio/words/handmade.wav"
      },
      {
-      "en": "garage",
-      "tr": "garaj",
-      "img": "https://static.arasaac.org/pictograms/6003/6003_500.png",
-      "emoji": "🚗",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "garage",
-      "audio": "/app/audio/words/garage.wav"
+      "en": "kitchen",
+      "tr": "mutfak",
+      "img": "p02-05.png",
+      "emoji": "🍳",
+      "audio": "/app/audio/words/kitchen.wav"
      },
      {
       "en": "forest",
@@ -3145,12 +3155,12 @@
       "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir."
      },
      {
-      "answer": "Does Mert go to the gym? — No, he doesn't.",
-      "tr": "Mert spor salonuna gider mi? — Hayır."
+      "answer": "Do you like street fairs? — Yes, I do.",
+      "tr": "Sokak panayırlarını sever misin? — Evet."
      },
      {
-      "answer": "He fishes in the lake.",
-      "tr": "O gölde balık tutar."
+      "answer": "The sofa is more comfortable than the armchair.",
+      "tr": "Kanepe, koltuktan daha rahat."
      }
     ]
    }
@@ -3162,9 +3172,9 @@
    "task": {
     "kind": "flash",
     "q": "Describe a room without naming it. Your partner draws or guesses the room.",
-    "clue": "There aren't two beds in the bedroom.",
+    "clue": "There isn't a terrace in our house.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Yatak odasında iki yatak yok."
+    "tr": "Evimizde bir teras yok."
    },
    "part": [
     4,
@@ -3178,9 +3188,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "This is Ece's bicycle.",
+    "clue": "This is Damla's bookcase.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Bu Ece'nin bisikleti."
+    "tr": "Bu Damla'nın kitaplığı."
    },
    "part": [
     5,
@@ -3209,9 +3219,9 @@
    "task": {
     "kind": "flash",
     "q": "Read the model. Change one detail. Your partner makes a new sentence.",
-    "clue": "I go to the playground every day.",
+    "clue": "He fishes in the lake.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Her gün oyun alanına giderim."
+    "tr": "O gölde balık tutar."
    },
    "part": [
     7,
@@ -3225,9 +3235,9 @@
    "task": {
     "kind": "flash",
     "q": "Choose two things from this unit. Make two comparisons; your partner checks them.",
-    "clue": "City life is better than town life.",
+    "clue": "An elephant is bigger than a lion.",
     "answer": "Check: keep the same grammar pattern and use words from this unit.",
-    "tr": "Şehir yaşamı, kasaba yaşamından daha iyidir."
+    "tr": "Bir fil bir aslandan daha büyüktür."
    },
    "part": [
     8,

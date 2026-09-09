@@ -436,7 +436,11 @@
     {
      "en": "wildfire",
      "tr": "orman yangını",
-     "emoji": "🔥"
+     "emoji": "🔥",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Lick_Fire_on_the_Umatilla_National_Forest_burning_at_night.jpg/960px-Lick_Fire_on_the_Umatilla_National_Forest_burning_at_night.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "wildfire"
     },
     {
      "en": "lightning",
@@ -470,7 +474,11 @@
     {
      "en": "damage",
      "tr": "hasar",
-     "emoji": "🏚️"
+     "emoji": "🏚️",
+     "img": "/app/img/concepts/damage.svg",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "damage"
     },
     {
      "en": "rescue team",
@@ -484,7 +492,11 @@
     {
      "en": "emergency",
      "tr": "acil durum",
-     "emoji": "🚨"
+     "emoji": "🚨",
+     "img": "https://static.arasaac.org/pictograms/37501/37501_500.png",
+     "imageSource": "ARASAAC",
+     "imageFit": "contain",
+     "imageConcept": "emergency"
     }
    ],
    "part": [
@@ -527,7 +539,11 @@
     {
      "en": "debris",
      "tr": "enkaz",
-     "emoji": "🧱"
+     "emoji": "🧱",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Workers_dig_through_rubble_in_downtown_Managua%2C_Nicaragua_after_earthquake.jpg/960px-Workers_dig_through_rubble_in_downtown_Managua%2C_Nicaragua_after_earthquake.jpg",
+     "imageSource": "Wikimedia Commons",
+     "imageFit": "contain",
+     "imageConcept": "debris"
     }
    ],
    "part": [
@@ -585,16 +601,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+     "img": "https://static.arasaac.org/pictograms/9046/9046_500.png",
      "imageFit": "contain",
      "imageSource": "ARASAAC",
-     "answer": "warning",
-     "tr": "uyarı",
+     "answer": "rescue team",
+     "tr": "kurtarma ekibi",
      "options": [
-      "warning",
-      "emergency",
+      "rescue team",
+      "shelter",
       "wildfire",
-      "shelter"
+      "warning"
      ]
     }
    ]
@@ -607,16 +623,16 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/2819/2819_500.png",
+     "img": "/app/img/concepts/damage.svg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "lightning",
-     "tr": "şimşek",
+     "imageSource": "ENG HUB",
+     "answer": "damage",
+     "tr": "hasar",
      "options": [
-      "lightning",
+      "damage",
       "rescue team",
       "eruption",
-      "thunder"
+      "lightning"
      ]
     }
    ]
@@ -629,13 +645,13 @@
     {
      "kind": "picture",
      "q": "Which word matches the picture?",
-     "img": "https://static.arasaac.org/pictograms/26834/26834_500.png",
+     "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Lick_Fire_on_the_Umatilla_National_Forest_burning_at_night.jpg/960px-Lick_Fire_on_the_Umatilla_National_Forest_burning_at_night.jpg",
      "imageFit": "contain",
-     "imageSource": "ARASAAC",
-     "answer": "eruption",
-     "tr": "patlama",
+     "imageSource": "Wikimedia Commons",
+     "answer": "wildfire",
+     "tr": "orman yangını",
      "options": [
-      "eruption",
+      "wildfire",
       "rescue team",
       "emergency",
       "aftershock"
@@ -747,7 +763,7 @@
      "en": "There *will* be a storm tomorrow.",
      "tr": "Yarın fırtına olacak.",
      "trEm": [
-      "olacak"
+      "olacak."
      ],
      "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
      "imageFit": "contain",
@@ -778,7 +794,7 @@
       "en": "There *will* be a storm tomorrow.",
       "tr": "Yarın fırtına olacak.",
       "trEm": [
-       "olacak"
+       "olacak."
       ],
       "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
       "imageFit": "contain",
@@ -814,7 +830,7 @@
       "en": "The storm *may* reach our town tonight.",
       "tr": "Fırtına bu gece kasabamıza ulaşabilir.",
       "trEm": [
-       "Fırtına bu gece kasabamıza ulaşabilir."
+       "ulaşabilir"
       ],
       "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
       "imageFit": "contain",
@@ -908,7 +924,7 @@
      "en": "The storm *may* reach our town tonight.",
      "tr": "Fırtına bu gece kasabamıza ulaşabilir.",
      "trEm": [
-      "Fırtına bu gece kasabamıza ulaşabilir."
+      "ulaşabilir"
      ],
      "img": "https://static.arasaac.org/pictograms/2814/2814_500.png",
      "imageFit": "contain",
@@ -1021,7 +1037,7 @@
       "img": "/app/img/words/earthquake.jpg",
       "trEm": [
        "olursa",
-       "dışarı çıkacağız"
+       "çıkacağız."
       ]
      },
      {
@@ -1046,7 +1062,8 @@
       "en": "*If* it rains, we *will* stay indoors.",
       "tr": "Yağmur yağarsa içeride kalacağız.",
       "trEm": [
-       "Yağmur yağarsa içeride kalacağız."
+       "yağarsa",
+       "kalacağız."
       ],
       "emoji": "🔀"
      }
@@ -1067,7 +1084,7 @@
      "img": "/app/img/words/earthquake.jpg",
      "trEm": [
       "olursa",
-      "dışarı çıkacağız"
+      "çıkacağız."
      ]
     }
    ],
@@ -1115,7 +1132,8 @@
      "en": "*If* it rains, we *will* stay indoors.",
      "tr": "Yağmur yağarsa içeride kalacağız.",
      "trEm": [
-      "Yağmur yağarsa içeride kalacağız."
+      "yağarsa",
+      "kalacağız."
      ],
      "emoji": "🔀"
     }
@@ -1210,6 +1228,10 @@
      "trEm": [
       "bulundurmalısın."
      ],
+     "img": "https://static.arasaac.org/pictograms/37501/37501_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "emergency",
      "emoji": "🚨"
     }
    ],
@@ -1231,6 +1253,10 @@
       "trEm": [
        "bulundurmalısın."
       ],
+      "img": "https://static.arasaac.org/pictograms/37501/37501_500.png",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "emergency",
       "emoji": "🚨"
      },
      {
@@ -1431,10 +1457,31 @@
     "q": "Drag each picture to its word.",
     "items": [
      {
-      "en": "hurricane",
-      "tr": "kasırga",
-      "img": "/app/img/words/hurricane.jpg",
-      "emoji": "🌀"
+      "en": "wildfire",
+      "tr": "orman yangını",
+      "img": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Lick_Fire_on_the_Umatilla_National_Forest_burning_at_night.jpg/960px-Lick_Fire_on_the_Umatilla_National_Forest_burning_at_night.jpg",
+      "emoji": "🔥",
+      "imageFit": "contain",
+      "imageSource": "Wikimedia Commons",
+      "imageConcept": "wildfire"
+     },
+     {
+      "en": "first aid",
+      "tr": "ilk yardım",
+      "img": "https://static.arasaac.org/pictograms/5930/5930_500.png",
+      "emoji": "🩹",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "medicine cabinet"
+     },
+     {
+      "en": "rescue team",
+      "tr": "kurtarma ekibi",
+      "img": "https://static.arasaac.org/pictograms/9046/9046_500.png",
+      "emoji": "🚑",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "rescue"
      },
      {
       "en": "lightning",
@@ -1444,21 +1491,6 @@
       "imageFit": "contain",
       "imageSource": "ARASAAC",
       "imageConcept": "lightning"
-     },
-     {
-      "en": "landslide",
-      "tr": "heyelan",
-      "img": "/app/img/words/landslide.jpg",
-      "emoji": "⛰️"
-     },
-     {
-      "en": "warning",
-      "tr": "uyarı",
-      "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
-      "emoji": "⚠️",
-      "imageFit": "contain",
-      "imageSource": "ARASAAC",
-      "imageConcept": "warning"
      }
     ]
    }
@@ -1476,21 +1508,14 @@
     "q": "Listen, then choose the picture.",
     "items": [
      {
-      "en": "flood",
-      "tr": "sel",
-      "img": "/app/img/words/flood.jpg",
-      "emoji": "🌊",
-      "audio": "/app/audio/words/flood.wav"
-     },
-     {
-      "en": "melt",
-      "tr": "erimek",
-      "img": "https://static.arasaac.org/pictograms/7011/7011_500.png",
-      "emoji": "💧",
+      "en": "warning",
+      "tr": "uyarı",
+      "img": "https://static.arasaac.org/pictograms/25315/25315_500.png",
+      "emoji": "⚠️",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "melt",
-      "audio": "/app/audio/words/melt.wav"
+      "imageConcept": "warning",
+      "audio": "/app/audio/words/warning.wav"
      },
      {
       "en": "tsunami",
@@ -1500,14 +1525,24 @@
       "audio": "/app/audio/words/tsunami.wav"
      },
      {
-      "en": "first aid",
-      "tr": "ilk yardım",
-      "img": "https://static.arasaac.org/pictograms/5930/5930_500.png",
-      "emoji": "🩹",
+      "en": "aftershock",
+      "tr": "artçı sarsıntı",
+      "img": "https://static.arasaac.org/pictograms/4755/4755_500.png",
+      "emoji": "📳",
       "imageFit": "contain",
       "imageSource": "ARASAAC",
-      "imageConcept": "medicine cabinet",
-      "audio": "/app/audio/words/first-aid.wav"
+      "imageConcept": "earthquake",
+      "audio": "/app/audio/words/aftershock.wav"
+     },
+     {
+      "en": "thunder",
+      "tr": "gök gürültüsü",
+      "img": "https://static.arasaac.org/pictograms/3225/3225_500.png",
+      "emoji": "🌩️",
+      "imageFit": "contain",
+      "imageSource": "ARASAAC",
+      "imageConcept": "thunder",
+      "audio": "/app/audio/words/thunder.wav"
      }
     ]
    }
@@ -1525,8 +1560,8 @@
     "q": "Drag the words into the correct order.",
     "sentences": [
      {
-      "answer": "If it rains, we will stay indoors.",
-      "tr": "Yağmur yağarsa içeride kalacağız."
+      "answer": "You should keep an emergency bag ready.",
+      "tr": "Hazır bir afet çantası bulundurmalısın."
      },
      {
       "answer": "The storm may reach our town tonight.",
