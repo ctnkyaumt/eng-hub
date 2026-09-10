@@ -1,81 +1,89 @@
 {
  "items": [
   {
-   "title": "ELTARENA WORDWARS - ANSWER BUZZER( Recep Gökhan BARGAN )",
-   "by": "RGB",
-   "link": "https://rgbenglish.github.io/buzzerbutton/",
-   "slug": "buzzerbutton",
-   "kind": "game",
-   "path": "buzzerbutton/index.html",
-   "files": 1
-  },
-  {
-   "title": "8-1 FRIENDSHIP WORDWARS - BİL ve FETHET OYUNU ( Recep Gökhan BARGAN )",
-   "by": "RGB",
-   "link": "https://rgbenglish.github.io/8-1FriendshipWordWars/",
-   "slug": "8-1friendshipwordwars",
-   "kind": "game",
-   "path": "8-1friendshipwordwars/index.html",
-   "files": 1
-  },
-  {
-   "title": "8th Graders Unıt 1 Friendship - ELTARENA DUEL MODE ( Recep Gökhan BARGAN )",
-   "by": "RGB",
-   "link": "https://rgbenglish.github.io/8th1FriendshipDuelMode/",
-   "slug": "8th1friendshipduelmode",
-   "kind": "game",
-   "path": "8th1friendshipduelmode/index.html",
-   "files": 1
-  },
-  {
-   "title": "8-1 FRIENDSHIP - ELTARENA CUP TOURNAMENT ( Recep Gökhan BARGAN )",
-   "by": "RGB",
-   "link": "https://rgbenglish.github.io/8-1ELTARENACUP/",
-   "slug": "8-1eltarenacup",
-   "kind": "game",
-   "path": "8-1eltarenacup/index.html",
-   "files": 1
-  },
-  {
-   "title": "8-1 FRIENDSHIP 3te3 OYUN ( Recep Gökhan BARGAN )",
-   "by": "RGB",
-   "link": "https://rgbenglish.github.io/8-1FRIENDSHIP3te3/",
-   "slug": "8-1friendship3te3",
-   "kind": "game",
-   "path": "8-1friendship3te3/index.html",
-   "files": 1
-  },
-  {
    "title": "Word Challenge v2.0 (Canbay & Canbay)",
+   "desc": "Word Challenge v2.0: \nBu oyunda seçeceğiniz ünitelerden sorular karşınıza çıkar. Her soru için 45 saniye süreniz var. Her doğru cevap 10 puan kazandırır. Öğrenci yanlış cevap verirse oyun biter. Üç tane joker hakkı vardır. Oyun 2 aşamalıdır. 1. aşamayı geçmek için ilk 10 soru yapılmalıdır. Öğrenci isterse takma ad girebilir. Puan tablosu her oturum sonunda \"En yüksek puan alan 3 kişi\" olarak gösterilir.",
    "by": "Sistem",
    "link": "https://canbay.netlify.app/wordchallenge/",
+   "type": "game",
    "slug": "wordchallenge",
    "kind": "game",
-   "path": "wordchallenge/index.html",
-   "files": 7
+   "files": 7,
+   "path": "wordchallenge/index.html"
   },
   {
    "title": "MemoryGame v1.4 (Gönül & İlyas Canbay)",
+   "desc": "Hafıza Kartları Oyunu: \nÖğrenciler bu oyun sayesinde 1. Ünitede geçen İngilizce kelimeler ile Türkçe karşılıklarını eşleştirebilirler. Oyuna başlamadan önce tercihe bağlı olarak bir oyuncu adı girilebilir. En hızlı tamamlayan öğrencilerin isimleri ve süreleri, kullanılan akıllı tahtadaki tarayıcıda ilk 3 puan tablosunda görüntülenir.",
    "by": "Sistem",
    "link": "https://canbay.netlify.app/games/memory/unit1",
+   "type": "game",
    "slug": "unit1",
    "kind": "game"
   },
   {
    "title": "FlashWords 1.1 (Canbay & Canbay)",
+   "desc": "Bir veya birden fazla ünite seçebilirsiniz. Seçeceğiniz ünitelerden 10 kelime sorulacak. Her bir soru için 10 saniye süreniz var. Her bir soru 10 puan.",
    "by": "Sistem",
    "link": "https://canbay.netlify.app/games/flashwords/",
+   "type": "game",
    "slug": "flashwords",
    "kind": "game",
-   "path": "flashwords/index.html",
-   "files": 26
+   "path": "flashwords/index.html"
   },
   {
-   "title": "8. Sınıf 1. Ünite Testler Akıllı Tahta Sunumları (Gönül & İlyas Canbay)",
-   "by": "Sistem",
-   "link": "https://canbay.netlify.app/sunu/unit1/",
-   "slug": "unit1",
-   "kind": "presentation"
+   "title": "ELTARENA WORDWARS - ANSWER BUZZER( Recep Gökhan BARGAN )",
+   "desc": "Kelime tekrar çalışmalarında 2 kişilik oyunlarda buton kırılmalarına son vermek adına online butonlar sizler için sitemizde.",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/buzzerbutton/",
+   "type": "worksheet",
+   "slug": "buzzerbutton",
+   "kind": "game",
+   "files": 1,
+   "path": "buzzerbutton/index.html"
+  },
+  {
+   "title": "8-1 FRIENDSHIP WORDWARS - BİL ve FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "4 TAKIMLI/KİŞİLİK BİL ve FETHET OYUNU Tüm Önemli Kelimelerle...\n\nEğlence sizinle olsun.",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-1FriendshipWordWars/",
+   "type": "worksheet",
+   "slug": "8-1friendshipwordwars",
+   "kind": "game",
+   "files": 1,
+   "path": "8-1friendshipwordwars/index.html"
+  },
+  {
+   "title": "8th Graders Unıt 1 Friendship - ELTARENA DUEL MODE ( Recep Gökhan BARGAN )",
+   "desc": "2 kişilik Düello şeklinde farklı kelimelerle oynanan düello oyunu. \nKaybeden öğrenci yerine oturur. \n2 Kişiye de farklı kelimeler ekranda açılır. \nCevaplandıktan sonra NEXT ROUND butonu aktif olur. \nİyi Eğlenceler.",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8th1FriendshipDuelMode/",
+   "type": "worksheet",
+   "slug": "8th1friendshipduelmode",
+   "kind": "game",
+   "files": 1,
+   "path": "8th1friendshipduelmode/index.html"
+  },
+  {
+   "title": "8-1 FRIENDSHIP - ELTARENA CUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "Sınıfınızda eğer hızlıca 1vs1 şeklinde turnuva usulü bir yarışma yapmak istiyorsanız aradığınız turnuva burada...\n\n35 kişilik sınıflara kadar kullanılabilir.\n\nÖncelikle sınıf listenize göre ekrana çıkan numaralardan olmayanları siliyorsunuz ve turnuva listesi oluştura tıklayarak oyunu başlatıyorsunuz... \n\nDevamı zaten zamanla rahatlıkla öğrenebileceğiniz bir formatta. :) \n\nİyi oyunlar...",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-1ELTARENACUP/",
+   "type": "worksheet",
+   "slug": "8-1eltarenacup",
+   "kind": "game",
+   "files": 1,
+   "path": "8-1eltarenacup/index.html"
+  },
+  {
+   "title": "8-1 FRIENDSHIP 3te3 OYUN ( Recep Gökhan BARGAN )",
+   "desc": "Oyun hakkında kısaca bilgi vereyim. Baştan Başla butonuna tıklayarak oyunu hazır hale getiriyoruz. Rastgele Oyuncu Seç Butonuna Tıklayarak Sınıf Listesine Göre Öğrenci Listesindeki Sıraya Göre Öğrenci Seçimi Yapmış Oluyoruz. Oyuna gelen öğrenci soruları cevaplamaya başlar ve 3te3 yaptığında yandaki marketten JOKERLER elde eder. Bu şekilde 10/10 yapmaya ve ŞAMPİYONLAR listesine ismini yazdırmaya çalışır. Yanlış cevap veren öğrenci elenir.",
+   "by": "RGB",
+   "link": "https://rgbenglish.github.io/8-1FRIENDSHIP3te3/",
+   "type": "worksheet",
+   "slug": "8-1friendship3te3",
+   "kind": "game",
+   "files": 1,
+   "path": "8-1friendship3te3/index.html"
   }
  ]
 }

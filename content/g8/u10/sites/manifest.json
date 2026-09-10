@@ -2,21 +2,25 @@
  "items": [
   {
    "title": "ELTARENACUP LGS REVISION TOURNAMENT 1-9 ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/ELTARENACUPLGSTOTALNEW/",
+   "type": "worksheet",
    "slug": "eltarenacuplgstotalnew",
    "kind": "game",
-   "path": "eltarenacuplgstotalnew/index.html",
-   "files": 1
+   "files": 1,
+   "path": "eltarenacuplgstotalnew/index.html"
   },
   {
    "title": "LGSRALLİ OYUN ( Recep Gökhan BARGAN )",
+   "desc": "Eski tetris oyunlarından araba yarışının kelime oyunu versiyonu sizlerle... \n\nİyi oyunlar...",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/LGSRALLI/",
+   "type": "worksheet",
    "slug": "lgsralli",
    "kind": "game",
-   "path": "lgsralli/index.html",
-   "files": 1
+   "files": 1,
+   "path": "lgsralli/index.html"
   }
  ]
 }

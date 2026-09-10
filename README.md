@@ -1,10 +1,10 @@
 # ENG HUB
 
-Taşınabilir İngilizce ders yardımcısı. USB'ye kopyala, tak, çalıştır — **kurulum yok, internet yok.**
+Taşınabilir İngilizce ders yardımcısı. USB'ye kopyala, tak, çalıştır — **kurulum yok.** Sunumlar ve oyunlar çevrimdışı; çalışma kâğıtları ve kitap sunumları internet ister.
 Windows ve Pardus/Linux üzerinde aynı şekilde çalışır.
 
 ```
-ANA MENÜ → 5 / 6 / 7 / 8. Sınıf → Ünite 1…10 → SUNUM · OYUNLAR · ÇALIŞMA KÂĞITLARI · KİTAP SUNUMLARI
+ANA MENÜ → 5 / 6 / 7 / 8. Sınıf → Ünite 1…8 (5/6. sınıf) · 1…10 (7/8. sınıf) → SUNUM · OYUNLAR · ÇALIŞMA KÂĞITLARI · KİTAP SUNUMLARI
 ```
 
 ## Çalıştırma
@@ -25,8 +25,8 @@ hazır gelir). Hiçbiri yoksa açılış ekranı kurulumu adım adım anlatır.
 | Bölüm | İçerik |
 | --- | --- |
 | **Sunum** | **5. sınıf** 1–8. tema (303 slayt) ve **8. sınıf** 1–10. ünite (227 slayt) için animasyonlu ders sunumu — sesli 1115 büyük görsel kelime kartı, doğru akrep/yelkovanlı saat örnekleri, İngilizce–Türkçe eşlenmiş vurgular, 168 kısa etkinlik molası ve ünite başına 3 büyük final görevi (54 sayfa: resim sürükleme, çevrimdışı ses ve cümle kurma). 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
-| **Oyunlar** | 6 çevrimdışı oyun modu: Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca kaynaktaki 66 statik etkinliğin çevrimdışı kopyası. |
-| **Çalışma Kâğıtları** | 124 dosya USB'de hazır. Tıklayınca bilgisayarın kendi PDF programında açılır. |
+| **Oyunlar** | 7 çevrimdışı oyun modu: Sharpshooter, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca kaynaktaki 66 statik etkinliğin çevrimdışı kopyası. |
+| **Çalışma Kâğıtları** | Tüm belgeler kaynak bağlantısından açılır — **internet gerekli**. Disk alanı için yerel çalışma kâğıdı dosyası tutulmaz. |
 | **Kitap Sunumları** | Kaynaktaki ders/çalışma kitabı sunumlarının listesi. Bunlar yüzlerce parçadan oluşan slayt oynatıcıları olduğu için USB'ye kopyalanmıyor; **bağlantı olarak** açılır (internet gerekir). |
 
 İnternet isteyen etkinlikler (Wordwall, Vocablitz, Baamboozle vb.) ayrı bir listede "İnternet gerekli"
@@ -147,16 +147,18 @@ tools/                                içerik üretme betikleri
 python tools/refresh.py
 ```
 
-Katalog → PDF sayfaları → oyun soruları → çalışma kâğıtları sırasıyla güncellenir ve sonunda
-`verify_content.py` her şeyin yerinde olduğunu kontrol eder. Statik etkinlik kopyalarını da
-yenilemek için `--full` ekleyin. Tek tek çalıştırmak isterseniz:
+Katalog, oyun soruları, çalışma kâğıdı bağlantıları, ek belge bağlantıları ve statik oyun kopyaları
+kaynaktan yeniden alınır. Sunum slaytları yeniden üretilmez; yerel derleme yapılmaz.
+Bağlantılar kontrol edilir; sonuçlar `app/data/source-audit.json` dosyasına tarihli yazılır.
+Erişilemeyen kaynaklarda çalışan yerel dosya korunur. `--full` eski komutlarla uyum için kabul edilir.
+Sonunda `verify_content.py` dosyaları kontrol eder. Tek tek çalıştırmak isterseniz:
 
 | Betik | İşi |
 | --- | --- |
 | `tools/fetch_catalog.py` | menüyü ve sayıları günceller |
 | `tools/pdf_to_pages.py` | `res/` içindeki PDF'leri sayfa görsellerine çevirir |
 | `tools/fetch_games.py` | ünite soru havuzlarını indirir |
-| `tools/fetch_worksheets.py` | çalışma kâğıtlarını indirir |
+| `tools/fetch_worksheets.py` | çalışma kâğıtlarını çevrimiçi bağlantı olarak günceller; yerel kopyaları kaldırır |
 | `tools/mirror_sites.py` | statik etkinliklerin çevrimdışı kopyasını alır (`--presentations` ile kitap sunumları da, çok yavaş) |
 | `tools/crop_vocab.py` | tema föyündeki resimleri tek tek kesip çıkarır (`--sheet` ile kontrol görseli) |
 | `tools/link_images.py` | kesilen resimleri kelime kartlarına bağlar (eşleme tablosu dosyanın içinde) |
@@ -206,16 +208,30 @@ paketi hazırlar, paketlenmiş sunucuyu ayağa kaldırıp çalıştığını do�
 
 ## Depo hakkında
 
-Depoda **her şey** var: program, sunumlar, indirilen çalışma kâğıtları, oyun soru havuzları,
+Depoda **her şey** var: program, sunumlar, çalışma kâğıdı bağlantıları, oyun soru havuzları,
 kopyalanan etkinlikler ve resimler. MEB kitapları ile eltarena'da paylaşılan çalışmalar zaten
 herkese açık; bu proje onları tek yerde, internetsiz kullanılabilir hâlde topluyor ve her dosyanın
 yanında hazırlayanın adı duruyor.
 
-GitHub 100 MB üstü dosya kabul etmediği için yalnızca iki ders kitabı PDF'i ve bir büyük çalışma
-kâğıdı depoda değil — onlar Releases sayfasında. İçeriği kaynaktan yeniden üretmek için:
+GitHub 100 MB üstü dosya kabul etmediği için yalnızca iki ders kitabı PDF'i depoda değil — onlar Releases sayfasında. İçeriği kaynaktan yeniden üretmek için:
 
 ```bash
 python tools/refresh.py
 ```
 
-`memories/` klasöründe projenin nasıl kurulduğuna dair notlar var.
+Proje notları ortak `C:\Users\user\Desktop\code\0.MEMORIES\eng-hub.md` dosyasında tutulur.
+
+### Sharpshooter
+
+36 tema/ünitenin Oyunlar menüsünde çevrimdışı çalışır. Anlamı oku, hareket eden
+baloncuktaki doğru kelimeyi fare, dokunma veya 1–4 tuşlarıyla vur. Atışın değdiği ilk
+baloncuk parçacıklarla patlar; yanlış cevap iki puan ve bir can kaybettirir.
+Beş can, beş dakika, en fazla 15 soru; duraklatma ve yeniden başlatma var.
+Veri eksik temalar için özgün başlangıç kelimeleri paketlenmiştir.
+6. sınıf 2026–2027 Maarif modelinin sekiz temasını kullanır; eski on ünite
+materyalleri yeni temaların menülerinde gösterilmez.
+Oyun, [Cram Sharpshooter](https://www.cram.com/flashcards/7-sinif-1-unite-ozel-yayin-13019462/games/sharpshooter)
+eşleştirme fikrinden esinlenen özgün bir yerel uygulamadır; Cram kodu veya görselleri kopyalanmamıştır.
+
+Çalışma kâğıtları hiçbir bakım komutuyla indirilmez. Kaynak URL ve hazırlayan bilgisi
+manifestte saklanır; belgenin güncel sürümü tıklanınca kaynak siteden açılır.

@@ -2,30 +2,25 @@
  "items": [
   {
    "title": "8-6 Adventures - BİL ve FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "Bil ve Fethet Tarzında 4'lü gruplar için veya 4 oyuncuyla oynanabilen kelime oyunu.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-6AdventuresBilveFethet/",
+   "type": "worksheet",
    "slug": "8-6adventuresbilvefethet",
    "kind": "game",
-   "path": "8-6adventuresbilvefethet/index.html",
-   "files": 1
+   "files": 1,
+   "path": "8-6adventuresbilvefethet/index.html"
   },
   {
    "title": "8-6 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-6ELTARENACUP-TOURNAMENT/",
+   "type": "worksheet",
    "slug": "8-6eltarenacup-tournament",
    "kind": "game",
-   "path": "8-6eltarenacup-tournament/index.html",
-   "files": 1
-  },
-  {
-   "title": "6. Ünite Testler Akıllı Tahta Sunumu (Canbay)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/sunu/unit6/",
-   "slug": "unit6",
-   "kind": "presentation",
-   "path": "unit6/index.html",
-   "files": 80
+   "files": 1,
+   "path": "8-6eltarenacup-tournament/index.html"
   }
  ]
 }

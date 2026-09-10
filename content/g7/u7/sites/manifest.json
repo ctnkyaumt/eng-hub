@@ -2,12 +2,14 @@
  "items": [
   {
    "title": "7-7 DREAMS BİL VE FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "7. Sınıf 7. Ünite DREAM için hazırladığımız BİL ve FETHET tarzında oyunumuz 4 ayrı grupla ya da 4 oyuncu ile oynanabilen kelime oyunudur. \nİyi oyunlar.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/7-7dreamsbilvefethet/",
+   "type": "worksheet",
    "slug": "7-7dreamsbilvefethet",
    "kind": "game",
-   "path": "7-7dreamsbilvefethet/index.html",
-   "files": 1
+   "files": 1,
+   "path": "7-7dreamsbilvefethet/index.html"
   }
  ]
 }

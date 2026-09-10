@@ -1,0 +1,50 @@
+{
+ "note": "Original starter pairs for themes without a source game bank. Grade 6 theme alignment: https://tymm.meb.gov.tr/ogretim-programlari/ingilizce-dersi-temel-egitim/7",
+ "units": {
+  "g6/u1": [
+   {"en":"permission","tr":"izin"},{"en":"leader","tr":"lider"},{"en":"helpful","tr":"yardımsever"},{"en":"ceremony","tr":"tören"},
+   {"en":"celebrate","tr":"kutlamak"},{"en":"flag","tr":"bayrak"},{"en":"follow","tr":"takip etmek"},{"en":"support","tr":"desteklemek"},
+   {"en":"instruction","tr":"yönerge"},{"en":"successful","tr":"başarılı"},{"en":"volunteer","tr":"gönüllü olmak"},{"en":"regularly","tr":"düzenli olarak"}
+  ],
+  "g6/u2": [
+   {"en":"classmate","tr":"sınıf arkadaşı"},{"en":"homework","tr":"ev ödevi"},{"en":"dictionary","tr":"sözlük"},{"en":"notebook","tr":"defter"},
+   {"en":"learn","tr":"öğrenmek"},{"en":"question","tr":"soru"},{"en":"answer","tr":"cevap"},{"en":"listen","tr":"dinlemek"},
+   {"en":"read","tr":"okumak"},{"en":"write","tr":"yazmak"},{"en":"discuss","tr":"tartışmak"},{"en":"explain","tr":"açıklamak"}
+  ],
+  "g6/u3": [
+   {"en":"healthy","tr":"sağlıklı"},{"en":"exercise","tr":"egzersiz"},{"en":"habit","tr":"alışkanlık"},{"en":"breakfast","tr":"kahvaltı"},
+   {"en":"wake up","tr":"uyanmak"},{"en":"get dressed","tr":"giyinmek"},{"en":"brush teeth","tr":"diş fırçalamak"},{"en":"sleep","tr":"uyumak"},
+   {"en":"tired","tr":"yorgun"},{"en":"hungry","tr":"aç"},{"en":"thirsty","tr":"susamış"},{"en":"happy","tr":"mutlu"}
+  ],
+  "g6/u4": [
+   {"en":"relative","tr":"akraba"},{"en":"cousin","tr":"kuzen"},{"en":"grandmother","tr":"büyükanne"},{"en":"grandfather","tr":"büyükbaba"},
+   {"en":"parents","tr":"anne ve baba"},{"en":"daughter","tr":"kız evlat"},{"en":"son","tr":"erkek evlat"},{"en":"together","tr":"birlikte"},
+   {"en":"cook","tr":"yemek pişirmek"},{"en":"clean","tr":"temizlemek"},{"en":"share","tr":"paylaşmak"},{"en":"visit","tr":"ziyaret etmek"}
+  ],
+  "g6/u5": [
+   {"en":"neighbourhood","tr":"mahalle"},{"en":"library","tr":"kütüphane"},{"en":"hospital","tr":"hastane"},{"en":"bakery","tr":"fırın"},
+   {"en":"street","tr":"sokak"},{"en":"bridge","tr":"köprü"},{"en":"traffic","tr":"trafik"},{"en":"crowded","tr":"kalabalık"},
+   {"en":"quiet","tr":"sessiz"},{"en":"turn left","tr":"sola dönmek"},{"en":"turn right","tr":"sağa dönmek"},{"en":"go straight","tr":"düz gitmek"}
+  ],
+  "g6/u6": [
+   {"en":"country","tr":"ülke"},{"en":"nationality","tr":"milliyet"},{"en":"language","tr":"dil"},{"en":"culture","tr":"kültür"},
+   {"en":"traditional","tr":"geleneksel"},{"en":"festival","tr":"festival"},{"en":"meal","tr":"öğün"},{"en":"delicious","tr":"lezzetli"},
+   {"en":"spicy","tr":"baharatlı"},{"en":"sweet","tr":"tatlı"},{"en":"rice","tr":"pirinç"},{"en":"soup","tr":"çorba"}
+  ],
+  "g6/u7": [
+   {"en":"forest","tr":"orman"},{"en":"river","tr":"nehir"},{"en":"mountain","tr":"dağ"},{"en":"pollution","tr":"kirlilik"},
+   {"en":"recycle","tr":"geri dönüştürmek"},{"en":"protect","tr":"korumak"},{"en":"environment","tr":"çevre"},{"en":"waste","tr":"atık"},
+   {"en":"save water","tr":"su tasarrufu yapmak"},{"en":"plant a tree","tr":"ağaç dikmek"},{"en":"climate","tr":"iklim"},{"en":"nature","tr":"doğa"}
+  ],
+  "g6/u8": [
+   {"en":"planet","tr":"gezegen"},{"en":"star","tr":"yıldız"},{"en":"space","tr":"uzay"},{"en":"astronaut","tr":"astronot"},
+   {"en":"rocket","tr":"roket"},{"en":"moon","tr":"ay"},{"en":"future","tr":"gelecek"},{"en":"robot","tr":"robot"},
+   {"en":"technology","tr":"teknoloji"},{"en":"discover","tr":"keşfetmek"},{"en":"travel","tr":"seyahat etmek"},{"en":"universe","tr":"evren"}
+  ],
+  "g7/u10": [
+   {"en":"planet","tr":"gezegen"},{"en":"solar system","tr":"güneş sistemi"},{"en":"orbit","tr":"yörünge"},{"en":"satellite","tr":"uydu"},
+   {"en":"gravity","tr":"yer çekimi"},{"en":"surface","tr":"yüzey"},{"en":"telescope","tr":"teleskop"},{"en":"spacecraft","tr":"uzay aracı"},
+   {"en":"explore","tr":"keşfetmek"},{"en":"distance","tr":"mesafe"},{"en":"Earth","tr":"Dünya"},{"en":"Sun","tr":"Güneş"}
+  ]
+ }
+}

@@ -2,64 +2,46 @@
  "items": [
   {
    "title": "8-8 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-8-ELTARENACUP-TOURNAMENT/",
+   "type": "worksheet",
    "slug": "8-8-eltarenacup-tournament",
    "kind": "game",
-   "path": "8-8-eltarenacup-tournament/index.html",
-   "files": 1
+   "files": 1,
+   "path": "8-8-eltarenacup-tournament/index.html"
   },
   {
    "title": "8-8 CHORES BİLveFETHET OYUN ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-8BILVEFETHET/",
+   "type": "worksheet",
    "slug": "8-8bilvefethet",
    "kind": "game",
-   "path": "8-8bilvefethet/index.html",
-   "files": 1
+   "files": 1,
+   "path": "8-8bilvefethet/index.html"
   },
   {
    "title": "8-8 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN ) GÜNCEL",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8.8ELTARENACUPNEW/",
-   "slug": "8.8eltarenacupnew",
+   "type": "worksheet",
+   "slug": "rgbenglish",
    "kind": "game",
-   "path": "8.8eltarenacupnew/index.html",
-   "files": 1
-  },
-  {
-   "title": "Canbay Word Clash Unit 8 (MEB + Bilim&Kültür)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/sunu/unit8/vocabulary/wordgame",
-   "slug": "wordgame",
-   "kind": "presentation",
-   "path": "wordgame/index.html",
-   "files": 73
-  },
-  {
-   "title": "[Sunum] 7 LGS practice tests in memory of İLBER ORTAYLI (Fatih SAYILAN)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/fatih/tests/",
-   "slug": "tests",
-   "kind": "presentation"
-  },
-  {
-   "title": "8. Ünite Testler Akıllı Tahta Sunumu (Canbay)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/sunu/unit8/",
-   "slug": "unit8",
-   "kind": "presentation",
-   "path": "unit8/index.html",
-   "files": 78
+   "files": 1,
+   "path": "rgbenglish/index.html"
   },
   {
    "title": "İnteraktif Revision Testler",
+   "desc": "Çeşitli ünitelerden karışık İnteraktif Revision Testler",
    "by": "icanbay",
    "link": "https://canbayelt.com/revision/",
+   "type": "quiz",
    "slug": "revision",
    "kind": "game",
-   "path": "revision/index.html",
-   "files": 17
+   "path": "revision/index.html"
   }
  ]
 }

@@ -2,46 +2,47 @@
  "items": [
   {
    "title": "5. Sınıf 3. Tema - WORDWARS BUTTON OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "5. Sınıf 3. Tema'da geçen kelimelerden oluşan 2 kişilik kelime oyunu.\nÖğretmen oyun ekranında bulunan \" NEXT \" butonuna basarak oyunu başlatacaktır. \nÖğrencilerden kim önce kendi butonuna basarsa o söz hakkına sahip olacaktır. \nAşağıda bulunan puan tablosundan da + ve - ikonlarıyla doğru sayılarını ekleyebilirsiniz.\nİyi eğlenceler.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/5-3PersonalLifeBUTTON/",
+   "type": "worksheet",
    "slug": "5-3personallifebutton",
    "kind": "game",
-   "path": "5-3personallifebutton/index.html",
-   "files": 1
+   "files": 1,
+   "path": "5-3personallifebutton/index.html"
   },
   {
    "title": "5-3 PERSONAL LIFE WORDWARS - BİL ve FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "5. Sınıf 3. TEMA hakkında Tüm Önemli Kelimelerle hazırlanmış 4 Kişilik veya 4 Takımlı Oyun Sizlerle...",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/5-3PersonalLifeBilveFethet/",
+   "type": "worksheet",
    "slug": "5-3personallifebilvefethet",
    "kind": "game",
-   "path": "5-3personallifebilvefethet/index.html",
-   "files": 1
+   "files": 1,
+   "path": "5-3personallifebilvefethet/index.html"
   },
   {
    "title": "5.3 PERSONAL LIFE - BOOM BOOM OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "Şahane Pazar tadında...\nBalon patlayana kadar kelime bilmeye devam et... \nBalonu patlayan oyunu kaybeder...",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/5-3PersonalLifeBOOMBOOM/",
+   "type": "worksheet",
    "slug": "5-3personallifeboomboom",
    "kind": "game",
-   "path": "5-3personallifeboomboom/index.html",
-   "files": 1
-  },
-  {
-   "title": "3. Tema Çalışma Kağıtları Akıllı Tahta Sunumu (Canbay)",
-   "by": "gcanbay",
-   "link": "https://canbay.netlify.app/year5/sunu/theme3/",
-   "slug": "theme3",
-   "kind": "presentation"
+   "files": 1,
+   "path": "5-3personallifeboomboom/index.html"
   },
   {
    "title": "5th Graders Theme 1 to 3 -> FIN4L FOUR GAME! ( Recep Gökhan BARGAN",
+   "desc": "4'lü kapışma modunda tekrar çalışması. \nOyunda her oyuncuya farklı kelimeler sorulur. \nKelimesini bilemeyen oyuncu elenir. \n5. tur sonunda oyunda kalan oyuncular için EXTRA ROUND ortaya çıkar ve tüm oyunculara aynı kelime sorulur. \nEXTRA ROUND'da ilk cevap veren oyuncu KAZANAN olur.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/5thGradersTheme1-3Revision-FIN4LFOUR/",
+   "type": "worksheet",
    "slug": "5thgraderstheme1-3revision-fin4lfour",
    "kind": "game",
-   "path": "5thgraderstheme1-3revision-fin4lfour/index.html",
-   "files": 1
+   "files": 1,
+   "path": "5thgraderstheme1-3revision-fin4lfour/index.html"
   }
  ]
 }

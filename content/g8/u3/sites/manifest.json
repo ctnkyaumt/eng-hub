@@ -1,38 +1,36 @@
 {
  "items": [
   {
+   "title": "Kitchen Clash Verbs (3 Teams)",
+   "desc": "3 oyunculu 3. Ünite Kelime Oyunu. Bu oyunda 3. ünitedeki yemek pişirme fiillerinden sorular karşınıza çıkar. Her doğru cevap, ilk doğru cevaba tıklayan oyuncuya puan kazandırır.",
+   "by": "Sistem",
+   "link": "https://canbay.netlify.app/games/wordg/kitchenclash/3teams/",
+   "type": "game",
+   "slug": "3teams",
+   "kind": "game",
+   "path": "3teams/index.html"
+  },
+  {
    "title": "8-3 In the Kitchen WORDWARS - BİL ve FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "4 Kişilik veya 4 Grupla oynayabileceğiniz Bil ve Fethet Oyunu sizlerle. \n3. Ünite Tüm Önemli Kelimelerle...",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-3IntheKitchenWordWars/",
+   "type": "worksheet",
    "slug": "8-3inthekitchenwordwars",
    "kind": "game",
-   "path": "8-3inthekitchenwordwars/index.html",
-   "files": 1
+   "files": 1,
+   "path": "8-3inthekitchenwordwars/index.html"
   },
   {
    "title": "8-3 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-3ELTARENACUPTOURNAMENT/",
+   "type": "worksheet",
    "slug": "8-3eltarenacuptournament",
    "kind": "game",
-   "path": "8-3eltarenacuptournament/index.html",
-   "files": 1
-  },
-  {
-   "title": "Kitchen Clash Verbs (3 Teams)",
-   "by": "Sistem",
-   "link": "https://canbay.netlify.app/games/wordg/kitchenclash/3teams/",
-   "slug": "3teams",
-   "kind": "game",
-   "path": "3teams/index.html",
-   "files": 23
-  },
-  {
-   "title": "3. Ünite Testler Akıllı Tahta Sunumları (Gönül & İlyas Canbay)",
-   "by": "Sistem",
-   "link": "https://canbay.netlify.app/sunu/unit3/",
-   "slug": "unit3",
-   "kind": "presentation"
+   "files": 1,
+   "path": "8-3eltarenacuptournament/index.html"
   }
  ]
 }

@@ -1,3 +1,4 @@
+@import url("./sharpshooter.css");
 /* ENG HUB - game engine styles --------------------------------------------- */
 
 .game-frame { display: flex; flex-direction: column; gap: 18px; min-height: 62vh; }
@@ -150,3 +151,4 @@
 /* picker ------------------------------------------------------------------- */
 .mode-card .emoji { font-size: 52px; }
 .mode-card small { display: block; margin-top: 10px; color: var(--ink-dim); font-size: 13px; }
+

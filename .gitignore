@@ -15,9 +15,14 @@ res/book.pdf
 res/book_8.pdf
 content/g5/u6/worksheets/01 5th Grade Theme 6 Worksheet Elif Nur.pdf
 
+# Worksheets are online-only; keep their attributed link manifests.
+content/**/worksheets/*
+!content/**/worksheets/manifest.json
+
 # 2) caches, logs, raw API dumps
 tools/cache/
 tools/logs/
+tools/*.log
 content/**/games/_raw.json
 
 # 3) backups and python leftovers

@@ -2,21 +2,25 @@
  "items": [
   {
    "title": "8. Sınıf Ünite 5 - BİL ve FETHET Oyunu ( Recep Gökhan BARGAN )",
+   "desc": "Bil ve Fethet tarzında 4'lü grup ya da oyuncuyla oynanan kelime oyunu.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/BilveFethet-8.5TheInternet/",
-   "slug": "bilvefethet-8.5theinternet",
+   "type": "worksheet",
+   "slug": "rgbenglish",
    "kind": "game",
-   "path": "bilvefethet-8.5theinternet/index.html",
-   "files": 1
+   "files": 1,
+   "path": "rgbenglish/index.html"
   },
   {
    "title": "8-5 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-5ELTARENACUP-TOURNAMENT/",
+   "type": "worksheet",
    "slug": "8-5eltarenacup-tournament",
    "kind": "game",
-   "path": "8-5eltarenacup-tournament/index.html",
-   "files": 1
+   "files": 1,
+   "path": "8-5eltarenacup-tournament/index.html"
   }
  ]
 }

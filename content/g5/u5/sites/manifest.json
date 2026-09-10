@@ -2,30 +2,25 @@
  "items": [
   {
    "title": "5. Sınıf Tema 5 -> Life in the Neighbourhood & City - BİL ve FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "4lü grup şeklinde ya da 4 oyuncuyla oynanabilen Bil ve Fethet tarzında KELİME OYUNU.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/5-5LIFEINTHENEIGHBOURHOOD-CITYBilveFethet/",
+   "type": "worksheet",
    "slug": "5-5lifeintheneighbourhood-citybilvefethet",
    "kind": "game",
-   "path": "5-5lifeintheneighbourhood-citybilvefethet/index.html",
-   "files": 1
+   "files": 1,
+   "path": "5-5lifeintheneighbourhood-citybilvefethet/index.html"
   },
   {
    "title": "5. Sınıf Tema 5 Life in the Neighbourhood & City -> ELTARENA CUP OYUN ( Recep Gökhan BARGAN )",
+   "desc": "35 kişilik sınıflara kadar kendinden kura usulü olan TURNUVA OYUNU. \nFİNAL'e ulaşan öğrenci ŞAMPİYON olur. \nHer turda rastgele öğrenci seçilir. Öğrenciler Sınıf listesine göre oyun başlamadan önce yoklama alınarak sınıf mevcuduna ve gelmeyen öğrencilere göre katılımcılar belirlenir ve kura kendiliğinden oluşur.\n\nHer turda 2 farklı skora ulaşan öğrenci rakibini eler. \nBir turda 2 den fazla soru bilemeyen 2 oyuncu aynı turda beraber elenirler. Beraberlik durumunda veya 2 farklı skor oluşmadığı durumda FİNAL TURU devreye girer ve her iki öğrenciye ait soru kutuları ortaya çıkar ilk soruyu doğru cevaplayan öğrenci üst tura çıkar. \n\nİyi eğlenceler.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/5-THEME5NEIGHBOURHOOD-ELTARENACUP/",
+   "type": "worksheet",
    "slug": "5-theme5neighbourhood-eltarenacup",
    "kind": "game",
-   "path": "5-theme5neighbourhood-eltarenacup/index.html",
-   "files": 1
-  },
-  {
-   "title": "CANBAY 5. TEMA WORKSHEET INTERAKTİF SUNU",
-   "by": "gcanbay",
-   "link": "https://canbay.netlify.app/year5/sunu/theme5/",
-   "slug": "theme5",
-   "kind": "presentation",
-   "path": "theme5/index.html",
-   "files": 11
+   "files": 1,
+   "path": "5-theme5neighbourhood-eltarenacup/index.html"
   }
  ]
 }

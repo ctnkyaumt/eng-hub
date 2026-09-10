@@ -1,48 +1,26 @@
 {
  "items": [
   {
-   "title": "7. Tema İnteraktif Worksheet, Kelime Testi, Oyun (Gönül & İlyas CANBAY)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/year5/sunu/theme7/",
-   "slug": "theme7",
-   "kind": "presentation",
-   "path": "theme7/index.html",
-   "files": 10
-  },
-  {
    "title": "5-7 LIFE IN NATURE 3te3 OYUN ( Recep Gökhan BARGAN )",
+   "desc": "Oyun hakkında kısaca bilgi vereyim. Baştan Başla butonuna tıklayarak oyunu hazır hale getiriyoruz. Rastgele Oyuncu Seç Butonuna Tıklayarak Sınıf Listesine Göre Öğrenci Listesindeki Sıraya Göre Öğrenci Seçimi Yapmış Oluyoruz. Oyuna gelen öğrenci soruları cevaplamaya başlar ve 3te3 yaptığında yandaki marketten JOKERLER elde eder. Bu şekilde 10/10 yapmaya ve ŞAMPİYONLAR listesine ismini yazdırmaya çalışır. Yanlış cevap veren öğrenci elenir.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/5-7LIFEINNATURE3TE3/",
+   "type": "worksheet",
    "slug": "5-7lifeinnature3te3",
    "kind": "game",
-   "path": "5-7lifeinnature3te3/index.html",
-   "files": 1
-  },
-  {
-   "title": "Guess the Animal Activity (ELO English & Canbay)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/year5/sunu/theme7/activity/",
-   "slug": "activity",
-   "kind": "presentation",
-   "path": "activity/index.html",
-   "files": 10
+   "files": 1,
+   "path": "5-7lifeinnature3te3/index.html"
   },
   {
    "title": "5-7 LIFE IN NATURE BİL ve FETHET OYUN ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/BilveFethet5-7/",
+   "type": "worksheet",
    "slug": "bilvefethet5-7",
    "kind": "game",
-   "path": "bilvefethet5-7/index.html",
-   "files": 1
-  },
-  {
-   "title": "7. Tema İnteraktif Worksheet, Kelime Testi, Oyun (Gönül & İlyas CANBAY)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/year5/sunu/theme7/",
-   "slug": "theme7",
-   "kind": "presentation",
-   "path": "theme7/index.html"
+   "files": 1,
+   "path": "bilvefethet5-7/index.html"
   }
  ]
 }

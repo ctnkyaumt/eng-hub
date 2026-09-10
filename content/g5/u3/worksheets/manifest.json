@@ -5,70 +5,63 @@
    "desc": "2025-2026 yeni müfredata göre hazırlanmış hikayedir. Hikaye sonunda okuduğunu anlamaya yönelik etkinlikler bulunmaktadır.",
    "by": "gcanbay",
    "link": "https://drive.google.com/file/d/1i1EiPPNUgB4swiZtBwHMdYIJtOAEk41p/view?usp=drivesdk",
-   "file": "01 Personal Life Story Gönül Canbay.pdf",
-   "size": 39740828
+   "type": "file"
   },
   {
    "title": "5th Grade Theme 3 (Elif Nur Özcan)",
    "desc": "Konu özetleri ve alıştırma",
    "by": "elifozcan",
    "link": "https://drive.google.com/file/d/1q-uJk_-gJVhrcuxWl-C1tqdNxdCpY4Zt/view?usp=drivesdk",
-   "file": "02 5th Grade Theme 3 Elif Nur Özcan.pdf",
-   "size": 25501972
+   "type": "worksheet"
   },
   {
    "title": "Theme 3 Personal Life - Vocabulary List (Selçuk ÇABRİ)",
    "desc": "Theme 3 Personal Life - Vocabulary List",
    "by": "selcukcabri",
-   "link": "/uploads/materials/1763842041067_5TH_GRADES_THEME_3_VOCABULARY_LIST_-_2025.pdf",
-   "file": "03 Theme 3 Personal Life - Vocabulary List Selçuk ÇABRİ.pdf",
-   "size": 412866
+   "link": "https://eltarena.com/uploads/materials/1763842041067_5TH_GRADES_THEME_3_VOCABULARY_LIST_-_2025.pdf",
+   "type": "worksheet"
   },
   {
    "title": "5.3 Personal Life - Clothes & Accessories Worksheet ( R. Gökhan BARGAN )",
    "desc": "Hızlı bir çalışma kağıdı ya da ödevlendirme için kullanmak isterseniz çalışma kağıdımız sizlerle.",
    "by": "RGB",
    "link": "https://drive.google.com/file/d/1IU4Gkt31sdPOsSRsYr0UFXnhrTG2SRgo/view?usp=drive_link",
-   "file": "04 5.3 Personal Life - Clothes Accessories Worksheet R. Gökhan BARGAN.pdf",
-   "size": 303447
+   "type": "worksheet"
   },
   {
    "title": "TEMA3",
    "desc": "TEMA3.pdf - Local Storage'a yüklendi",
    "by": "FdnYlmz",
-   "link": "/uploads/materials/1765139414074_TEMA3.pdf",
-   "file": "05 TEMA3.pdf",
-   "size": 242746
+   "link": "https://eltarena.com/uploads/materials/1765139414074_TEMA3.pdf",
+   "type": "file"
   },
   {
    "title": "5. Sınıf 3. Tema Worksheet (Gönül Canbay)",
    "desc": "Personal Life Worksheet",
    "by": "gcanbay",
    "link": "https://drive.google.com/file/d/1ifhxv-NfB-a0xyuKC0oAw-y1Et4Vji8l/view?usp=sharing",
-   "file": "07 5. Sınıf 3. Tema Worksheet Gönül Canbay.pdf",
-   "size": 4930464
+   "type": "worksheet"
   },
   {
    "title": "5.3 PERSONAL LIFE - FIND THE PERSON! ( Recep Gökhan BARGAN )",
    "desc": "2. Kağıtta bulunan bilgilere göre öğrencilerden bilgilerin önünde bulunan yapışkanlı kağıt görsellerini kesip kişilerin üzerinde bulunan dairelerin üzerine yapıştırmaları istenir.",
    "by": "RGB",
    "link": "https://drive.google.com/file/d/1l9VdTXNhzTiRgwO3KpcWLIG0UyJlpT4x/view?usp=drive_link",
-   "file": "08 5.3 PERSONAL LIFE - FIND THE PERSON Recep Gökhan BARGAN.pdf",
-   "size": 2755973
+   "type": "worksheet"
   },
   {
    "title": "3. Tema Çalışma Kağıtları Akıllı Tahta Sunumu (Canbay)",
    "desc": "Year 5 Theme 3 by Canbays (Worksheets & Test), [Fatih Sayılan'a teşekkür ederiz.]",
    "by": "gcanbay",
-   "link": "https://canbay.netlify.app/year5/sunu/theme3/"
+   "link": "https://canbay.netlify.app/year5/sunu/theme3/",
+   "type": "worksheet"
   },
   {
    "title": "5. Sınıf 3. Tema Worksheet2 (İlyas Canbay)",
    "desc": "3. Tema Worksheet 2",
    "by": "gcanbay",
    "link": "https://drive.google.com/file/d/1xsXG2fFk8-pwwH7u38cAuDSgfLv2w-c_/view?usp=drive_link",
-   "file": "12 5. Sınıf 3. Tema Worksheet2 İlyas Canbay.pdf",
-   "size": 771387
+   "type": "worksheet"
   }
  ]
 }

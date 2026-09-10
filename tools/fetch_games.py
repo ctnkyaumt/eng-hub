@@ -107,16 +107,13 @@ def grab_image(url, img_dir, seen):
 def build_unit(gid, uid, src, want_images, force):
     games = src.get("offlineGames") or []
     online = src.get("onlineGames") or []
-    if not games and not online:
-        return 0, 0
-
     base = os.path.join(CONTENT, gid, uid, "games")
     img_dir = os.path.join(base, "img")
     ensure(base)
 
     cache_path = os.path.join(base, "_raw.json")
     raw_cache = {}
-    if os.path.exists(cache_path) and not force:
+    if os.path.exists(cache_path):
         try:
             with open(cache_path, encoding="utf-8") as f:
                 raw_cache = json.load(f)
@@ -128,11 +125,13 @@ def build_unit(gid, uid, src, want_images, force):
     for it in games:
         code = it["code"]
         try:
-            data = raw_cache.get(code) or fetch_set(code)
+            data = fetch_set(code) if force else (raw_cache.get(code) or fetch_set(code))
             raw_cache[code] = data
         except Exception as exc:  # noqa: BLE001
             log("games.log", "HATA %s/%s %s -> %s" % (gid, uid, code, exc))
-            continue
+            data = raw_cache.get(code)
+            if not data:
+                continue
 
         questions = []
         for q in data.get("questions", []):

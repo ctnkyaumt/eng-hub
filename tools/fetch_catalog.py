@@ -84,11 +84,13 @@ def unit_state(gid, uid, src_ws, src_games):
             n_bank = 0
 
     man = os.path.join(base, "worksheets", "manifest.json")
-    n_ws = 0
+    n_ws = n_ws_links = 0
     if os.path.isfile(man):
         try:
             with open(man, encoding="utf-8") as f:
-                n_ws = len([i for i in json.load(f).get("items", []) if i.get("file")])
+                items = json.load(f).get("items", [])
+                n_ws = len([i for i in items if i.get("file")])
+                n_ws_links = len(items)
         except (OSError, ValueError):
             n_ws = 0
 
@@ -111,12 +113,13 @@ def unit_state(gid, uid, src_ws, src_games):
     return {
         "has": {
             "presentation": has_pres or n_site_pres > 0,
-            "games": n_bank > 0 or n_site_games > 0,
-            "worksheets": n_ws > 0,
+            "games": True,
+            "worksheets": n_ws_links > 0 or bool(src_ws),
         },
         "counts": {
             "games": n_bank,
             "worksheets": n_ws,
+            "worksheetLinks": n_ws_links - n_ws,
             "offlineSites": n_site_games + n_site_pres,
             "sourceWorksheets": len(src_ws),
             "sourceGames": len(src_games),
@@ -138,7 +141,7 @@ def main():
     for no in GRADES:
         gid = "g%d" % no
         grade = {"id": gid, "no": no, "title": "%d. Sınıf" % no, "units": []}
-        for un in range(1, UNITS_PER_GRADE + 1):
+        for un in range(1, (8 if no in (5, 6) else UNITS_PER_GRADE) + 1):
             uid = "u%d" % un
             theme = THEMES.get(no, {}).get(un, ("", "", "📘"))
             su = src.get(no, {}).get(un)
@@ -146,6 +149,7 @@ def main():
             state = unit_state(gid, uid, ws, off)
             grade["units"].append({
                 "id": uid, "no": un,
+                "label": "Tema" if no in (5, 6) else "Ünite",
                 "title": theme[0], "titleTr": theme[1], "emoji": theme[2],
                 "sourceUnitId": su.get("id") if su else None,
                 "onlineGames": len(onl),

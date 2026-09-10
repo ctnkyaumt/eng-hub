@@ -4,12 +4,14 @@ Run: python tools/import_worksheet_links.py [--grade 8] [--unit 1]
 Only fetch index pages. Documents remain attributed online links.
 """
 import argparse
+from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor
 import json
 from pathlib import Path
 import re
 import unicodedata
 from resource_kind import online_game
+from fetch_worksheets import online_item
 from urllib.parse import unquote, urljoin, urlparse
 
 import requests
@@ -56,7 +58,7 @@ def fetch_page(url):
         url = url.replace("calisma-kagidi-ve", "calisma-kagitlari-ve")
         response = requests.get(url, timeout=35)
     if response.status_code == 404:
-        return []
+        raise ValueError("Source index unavailable (404): " + url)
     response.raise_for_status()
     return extract_links(response.content, url)
 
@@ -84,6 +86,9 @@ def main():
             if args.unit and unit["no"] != args.unit:
                 continue
             key = grade["id"] + "/" + unit["id"]
+            if grade["no"] == 6:
+                # Old unit URLs describe the retired ten-unit curriculum.
+                continue
             if grade["no"] == 5:
                 # These pages are linked from the current theme hub.
                 for suffix in ("calisma-kagitlari-etkinlikler", "testleri"):
@@ -93,14 +98,20 @@ def main():
                 url = HOST + f'{grade["no"]}-sinif-ingilizce-{unit["no"]}-unite-{suffix}/'
                 jobs.append((key, url))
     imported = {}
+    refreshed = set()
+    audit = []
     with ThreadPoolExecutor(max_workers=4) as pool:
         futures = [(key, url, pool.submit(fetch_page, url)) for key, url in jobs]
         for key, url, future in futures:
             try:
                 items = future.result()
                 imported.setdefault(key, []).extend(items)
+                refreshed.add(url)
+                refreshed.update(item["source"] for item in items)
+                audit.append({"unit": key, "url": url, "status": "ok", "documents": len(items)})
                 print(key, len(items), url, flush=True)
             except Exception as exc:
+                audit.append({"unit": key, "url": url, "status": "unavailable", "error": str(exc)})
                 print("FAILED", url, str(exc), flush=True)
     removed = added = 0
     for grade in catalog["grades"]:
@@ -117,13 +128,14 @@ def main():
                     item.pop("size", None)
             games = [i for i in old if online_game(i)]
             removed += len(games)
-            manifest["items"] = [i for i in old if not online_game(i)]
+            manifest["items"] = [i for i in old if not online_game(i) and i.get("source") not in refreshed]
             known = {i.get("link") for i in manifest["items"]}
             for item in imported.get(key, []):
                 if item["link"] not in known:
                     manifest["items"].append(item)
                     known.add(item["link"])
                     added += 1
+            manifest["items"] = [online_item(i) for i in manifest["items"] if i.get("link")]
             save(path, manifest)
             bank_path = ROOT / "content" / key / "games/bank.json"
             bank = json.loads(bank_path.read_text(encoding="utf-8")) if bank_path.exists() else {"sets": [], "vocab": [], "online": []}
@@ -141,6 +153,8 @@ def main():
                 sources[key]["worksheets"] = [i for i in sources[key].get("worksheets", []) if not online_game(i)]
     save(catalog_path, catalog)
     save(source_path, sources)
+    save(ROOT / "app/data/worksheet-source-audit.json", {
+        "checkedAt": datetime.now(timezone.utc).isoformat(), "sources": audit})
     print(f"Added {added} document links; moved {removed} game entries out of worksheets.")
 
 

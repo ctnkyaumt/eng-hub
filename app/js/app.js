@@ -70,7 +70,7 @@ async function home() {
   const hero = el("div", { class: "hero" }, [
     el("span", { class: "kicker", text: "İngilizce Öğretmeni Yardımcısı" }),
     el("h1", { text: "ENG HUB" }),
-    el("p", { text: "Sunumlar · Oyunlar · Çalışma Kâğıtları — internet olmadan çalışır" }),
+    el("p", { text: "Sunumlar ve oyunlar çevrimdışı · Çalışma kâğıtları için internet gerekli" }),
   ]);
 
   const cards = cat.grades.map((g, i) => {
@@ -90,7 +90,7 @@ async function home() {
         el("h3", { text: g.title }),
         el("p", { text: GRADE_SUB[g.no] || "" }),
         el("div", { class: "badge-row" }, [
-          el("span", { class: "badge", text: `${g.units.length} ünite` }),
+          el("span", { class: "badge", text: `${g.units.length} ${g.no <= 6 ? "tema" : "ünite"}` }),
           el("span", { class: ready ? "badge on" : "badge off", text: `${ready} hazır` }),
         ]),
       ]
@@ -109,8 +109,8 @@ async function gradeScreen(gid) {
 
   const hero = el("div", { class: "hero" }, [
     el("span", { class: "kicker", text: g.title }),
-    el("h1", { text: "Üniteler" }),
-    el("p", { text: "Bir ünite seçin" }),
+    el("h1", { text: g.no <= 6 ? "Temalar" : "Üniteler" }),
+    el("p", { text: g.no <= 6 ? "Bir tema seçin" : "Bir ünite seçin" }),
   ]);
 
   const cards = g.units.map((u, i) => {
@@ -126,7 +126,7 @@ async function gradeScreen(gid) {
       [
         el("span", { class: "glow" }),
         el("span", { class: "emoji", text: u.emoji || "📗" }),
-        el("div", { class: "no", text: `ÜNİTE ${u.no}` }),
+        el("div", { class: "no", text: `${(u.label || "Ünite").toLocaleUpperCase("tr")} ${u.no}` }),
         el("h3", { text: u.title || "—" }),
         el("p", { text: u.titleTr || "" }),
         el("div", { class: "badge-row" }, [
@@ -147,12 +147,12 @@ async function unitScreen(gid, uid) {
   setCrumbs([
     { label: "Ana Menü", hash: "#/" },
     { label: grade.title, hash: `#/${gid}` },
-    { label: `Ünite ${unit.no}` },
+    { label: `${unit.label || "Ünite"} ${unit.no}` },
   ]);
 
   const hero = el("div", { class: "hero" }, [
-    el("span", { class: "kicker", text: `${grade.title} · Ünite ${unit.no}` }),
-    el("h1", { text: unit.title || `Ünite ${unit.no}` }),
+    el("span", { class: "kicker", text: `${grade.title} · ${unit.label || "Ünite"} ${unit.no}` }),
+    el("h1", { text: unit.title || `${unit.label || "Ünite"} ${unit.no}` }),
     el("p", { text: unit.titleTr || "" }),
   ]);
 
@@ -174,10 +174,10 @@ async function unitScreen(gid, uid) {
       mk("📽️", "SUNUM", "Ünite anlatımı, kelimeler ve gramer", `#/${gid}/${uid}/sunum`,
          unit.has.presentation, "Bu ünite için sunum eklenmedi."),
       mk("🎮", "OYUNLAR",
-         unit.counts.games ? `${unit.counts.games} soruluk oyun havuzu` : "Kaynaktan çevrimdışı etkinlikler",
+         unit.counts.games ? `${unit.counts.games} soruluk oyun havuzu` : "Sharpshooter ve ünite kelime oyunları",
          `#/${gid}/${uid}/oyunlar`,
          unit.has.games, "Bu ünite için oyun verisi yok."),
-      mk("📄", "ÇALIŞMA KÂĞITLARI", `${unit.counts.worksheets || 0} dosya`, `#/${gid}/${uid}/calisma`,
+      mk("📄", "ÇALIŞMA KÂĞITLARI", `${unit.counts.worksheetLinks || 0} bağlantı · İnternet gerekli`, `#/${gid}/${uid}/calisma`,
          unit.has.worksheets, "Bu ünite için çalışma kâğıdı yok."),
       mk("📚", "KİTAP SUNUMLARI", `${unit.books || 0} kaynak sunumu`, `#/${gid}/${uid}/kitap`,
          (unit.books || 0) > 0, "Bu ünite için kitap sunumu yok."),

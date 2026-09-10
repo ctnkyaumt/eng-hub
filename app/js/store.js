@@ -54,6 +54,11 @@ export function getBank(gid, uid) {
   return loadJSON(`${unitPath(gid, uid)}/games/bank.json`, { sets: [], vocab: [], online: [] });
 }
 
+export async function getStarterWords(gid, uid) {
+  const data = await loadJSON("/app/data/sharpshooter-words.json", { units: {} });
+  return data.units[`${gid}/${uid}`] || [];
+}
+
 export function getWorksheets(gid, uid) {
   return loadJSON(`${unitPath(gid, uid)}/worksheets/manifest.json`, { items: [] });
 }

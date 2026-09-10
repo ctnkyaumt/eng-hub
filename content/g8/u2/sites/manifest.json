@@ -2,28 +2,25 @@
  "items": [
   {
    "title": "8-2 TEEN LIFE / BİL ve FETHET Oyunu ( Recep Gökhan BARGAN )",
+   "desc": "Teen Life ünitesinde bulunan kelimelerden oluşturduğumuz BİL ve FETHET tarzında bir oyun. \n4 kişiyle ya da 4 grupla oynayabilirsiniz.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-2TeenLife-BilveFethet/",
+   "type": "worksheet",
    "slug": "8-2teenlife-bilvefethet",
    "kind": "game",
-   "path": "8-2teenlife-bilvefethet/index.html",
-   "files": 1
+   "files": 1,
+   "path": "8-2teenlife-bilvefethet/index.html"
   },
   {
    "title": "8-2 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-2ELTARENACUP/",
+   "type": "worksheet",
    "slug": "8-2eltarenacup",
    "kind": "game",
-   "path": "8-2eltarenacup/index.html",
-   "files": 1
-  },
-  {
-   "title": "2. Ünite Testler Akıllı Tahta Sunumları (Gönül & İlyas Canbay)",
-   "by": "Sistem",
-   "link": "https://canbay.netlify.app/sunu/unit2/",
-   "slug": "unit2",
-   "kind": "presentation"
+   "files": 1,
+   "path": "8-2eltarenacup/index.html"
   }
  ]
 }

@@ -39,16 +39,14 @@ THEMES = {
         8: ("Life in the Universe & Future", "Evren ve Gelecek", "🚀"),
     },
     6: {
-        1: ("Life", "Hayat", "🌅"),
-        2: ("Yummy Breakfast", "Nefis Kahvaltı", "🍳"),
-        3: ("Downtown", "Şehir Merkezi", "🏬"),
-        4: ("Weather and Emotions", "Hava ve Duygular", "🌤️"),
-        5: ("At the Fair", "Lunaparkta", "🎡"),
-        6: ("Occupations", "Meslekler", "👩‍⚕️"),
-        7: ("Holidays", "Tatiller", "🏖️"),
-        8: ("Bookworm", "Kitap Kurdu", "📚"),
-        9: ("Saving the Planet", "Gezegeni Korumak", "♻️"),
-        10: ("Democracy", "Demokrasi", "🗳️"),
+        1: ("School Life", "Okul Hayatı", "🏫"),
+        2: ("Classroom Life", "Sınıf Hayatı", "✏️"),
+        3: ("Personal Life", "Kişisel Hayat", "🙋"),
+        4: ("Family Life", "Aile Hayatı", "👨‍👩‍👧"),
+        5: ("Life in the Neighbourhood & City", "Mahalle ve Şehir Hayatı", "🏙️"),
+        6: ("Life in the World & Culture", "Dünya ve Kültür Hayatı", "🌍"),
+        7: ("Life in Nature & Global Problems", "Doğada Hayat ve Küresel Sorunlar", "🌳"),
+        8: ("Life in the Universe & Future", "Evren ve Gelecekte Hayat", "🚀"),
     },
     7: {
         1: ("Appearance and Personality", "Görünüş ve Kişilik", "🧑‍🎤"),
@@ -114,6 +112,8 @@ def load_grades(refresh=False):
         with open(path, encoding="utf-8") as f:
             return json.load(f)
     data = get_json(API + "/api/grades")
+    if not isinstance(data, list) or any(not source_units(data).get(g) for g in GRADES):
+        raise ValueError("Incomplete source catalog; keeping the previous snapshot")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False)
     return data
@@ -131,7 +131,7 @@ def source_units(grades_json):
             continue
         units = {}
         for u in g.get("units", []):
-            um = re.match(r"^(\d+)\.\s*ÜNİTE$", u.get("title", "").strip())
+            um = re.match(r"^(\d+)\.\s*(?:ÜNİTE|TEMA)$", u.get("title", "").strip())
             if um:
                 units[int(um.group(1))] = u
         out[no] = units

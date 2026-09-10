@@ -2,10 +2,13 @@
  "items": [
   {
    "title": "5-1 SCHOOL LIFE - BİL VE FETHET OYUN ( Recep Gökhan BARGAN )",
+   "desc": "Bil ve Fethet tarzında 1. Tema kelimeleriyle oynayabileceğimiz 4 kişilik veya 4 gruplu oyun.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/5-1schoollife-bilvefethet/",
+   "type": "worksheet",
    "slug": "5-1schoollife-bilvefethet",
    "kind": "game",
+   "files": 1,
    "path": "5-1schoollife-bilvefethet/index.html"
   }
  ]

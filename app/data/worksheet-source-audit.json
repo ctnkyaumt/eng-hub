@@ -1,0 +1,341 @@
+{
+ "checkedAt": "2026-09-10T15:35:29.266562+00:00",
+ "sources": [
+  {
+   "unit": "g5/u1",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-1-unite-calisma-kagitlari-etkinlikler/",
+   "status": "ok",
+   "documents": 3
+  },
+  {
+   "unit": "g5/u1",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-1-unite-testleri/",
+   "status": "ok",
+   "documents": 3
+  },
+  {
+   "unit": "g5/u2",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-2-unite-calisma-kagitlari-etkinlikler/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-2-unite-calisma-kagitlari-etkinlikler/"
+  },
+  {
+   "unit": "g5/u2",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-2-unite-testleri/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-2-unite-testleri/"
+  },
+  {
+   "unit": "g5/u3",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-3-unite-calisma-kagitlari-etkinlikler/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-3-unite-calisma-kagitlari-etkinlikler/"
+  },
+  {
+   "unit": "g5/u3",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-3-unite-testleri/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-3-unite-testleri/"
+  },
+  {
+   "unit": "g5/u4",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-4-unite-calisma-kagitlari-etkinlikler/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-4-unite-calisma-kagitlari-etkinlikler/"
+  },
+  {
+   "unit": "g5/u4",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-4-unite-testleri/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-4-unite-testleri/"
+  },
+  {
+   "unit": "g5/u5",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-5-unite-calisma-kagitlari-etkinlikler/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-5-unite-calisma-kagitlari-etkinlikler/"
+  },
+  {
+   "unit": "g5/u5",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-5-unite-testleri/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-5-unite-testleri/"
+  },
+  {
+   "unit": "g5/u6",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-6-unite-calisma-kagitlari-etkinlikler/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-6-unite-calisma-kagitlari-etkinlikler/"
+  },
+  {
+   "unit": "g5/u6",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-6-unite-testleri/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-6-unite-testleri/"
+  },
+  {
+   "unit": "g5/u7",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-7-unite-calisma-kagitlari-etkinlikler/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-7-unite-calisma-kagitlari-etkinlikler/"
+  },
+  {
+   "unit": "g5/u7",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-7-unite-testleri/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-7-unite-testleri/"
+  },
+  {
+   "unit": "g5/u8",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-8-unite-calisma-kagitlari-etkinlikler/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-8-unite-calisma-kagitlari-etkinlikler/"
+  },
+  {
+   "unit": "g5/u8",
+   "url": "https://www.ingilizceciyiz.com/5-sinif-ingilizce-8-unite-testleri/",
+   "status": "unavailable",
+   "error": "Source index unavailable (404): https://www.ingilizceciyiz.com/5-sinif-ingilizce-8-unite-testleri/"
+  },
+  {
+   "unit": "g7/u1",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-1-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 9
+  },
+  {
+   "unit": "g7/u1",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-1-unite-test/",
+   "status": "ok",
+   "documents": 13
+  },
+  {
+   "unit": "g7/u2",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-2-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g7/u2",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-2-unite-test/",
+   "status": "ok",
+   "documents": 11
+  },
+  {
+   "unit": "g7/u3",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-3-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 10
+  },
+  {
+   "unit": "g7/u3",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-3-unite-test/",
+   "status": "ok",
+   "documents": 12
+  },
+  {
+   "unit": "g7/u4",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-4-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 11
+  },
+  {
+   "unit": "g7/u4",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-4-unite-test/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g7/u5",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-5-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g7/u5",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-5-unite-test/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g7/u6",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-6-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g7/u6",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-6-unite-test/",
+   "status": "ok",
+   "documents": 11
+  },
+  {
+   "unit": "g7/u7",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-7-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 3
+  },
+  {
+   "unit": "g7/u7",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-7-unite-test/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g7/u8",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-8-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g7/u8",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-8-unite-test/",
+   "status": "ok",
+   "documents": 3
+  },
+  {
+   "unit": "g7/u9",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-9-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 3
+  },
+  {
+   "unit": "g7/u9",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-9-unite-test/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g7/u10",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-10-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 1
+  },
+  {
+   "unit": "g7/u10",
+   "url": "https://www.ingilizceciyiz.com/7-sinif-ingilizce-10-unite-test/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g8/u1",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-1-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 8
+  },
+  {
+   "unit": "g8/u1",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-1-unite-test/",
+   "status": "ok",
+   "documents": 12
+  },
+  {
+   "unit": "g8/u2",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-2-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 6
+  },
+  {
+   "unit": "g8/u2",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-2-unite-test/",
+   "status": "ok",
+   "documents": 14
+  },
+  {
+   "unit": "g8/u3",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-3-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 11
+  },
+  {
+   "unit": "g8/u3",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-3-unite-test/",
+   "status": "ok",
+   "documents": 13
+  },
+  {
+   "unit": "g8/u4",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-4-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 10
+  },
+  {
+   "unit": "g8/u4",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-4-unite-test/",
+   "status": "ok",
+   "documents": 10
+  },
+  {
+   "unit": "g8/u5",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-5-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 4
+  },
+  {
+   "unit": "g8/u5",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-5-unite-test/",
+   "status": "ok",
+   "documents": 13
+  },
+  {
+   "unit": "g8/u6",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-6-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g8/u6",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-6-unite-test/",
+   "status": "ok",
+   "documents": 9
+  },
+  {
+   "unit": "g8/u7",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-7-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 5
+  },
+  {
+   "unit": "g8/u7",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-7-unite-test/",
+   "status": "ok",
+   "documents": 10
+  },
+  {
+   "unit": "g8/u8",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-8-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 8
+  },
+  {
+   "unit": "g8/u8",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-8-unite-test/",
+   "status": "ok",
+   "documents": 7
+  },
+  {
+   "unit": "g8/u9",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-9-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 6
+  },
+  {
+   "unit": "g8/u9",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-9-unite-test/",
+   "status": "ok",
+   "documents": 4
+  },
+  {
+   "unit": "g8/u10",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-10-unite-calisma-kagidi-ve-etkinlikler/",
+   "status": "ok",
+   "documents": 2
+  },
+  {
+   "unit": "g8/u10",
+   "url": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-10-unite-test/",
+   "status": "ok",
+   "documents": 5
+  }
+ ]
+}

@@ -2,39 +2,25 @@
  "items": [
   {
    "title": "8.7 TOURISM - BİL VE FETHET OYUNU ( Recep Gökhan BARGAN )",
+   "desc": "4'lü grup şeklinde veya 4 oyuncu ile oynanabilen kelime oyunu. \nHer renk bitişiğindeki kareleri ele geçirmeye çalışır. \nBitişiğinde rakip oyuncunun karesi varsa eğer sırası gelen oyuncu kelimeyi doğru bilirse rakip oyuncunun karesini ele geçirir eğer bilemezse kendi karelerinden birini kaybeder.\nKutuya tıkladığınızda aynı kelime gelirse eğer kutuya tekrar tıklayarak sorulan kelimeyi değiştirebilirsiniz.",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-7TOURISMB-LVEFETHET/",
+   "type": "worksheet",
    "slug": "8-7tourismb-lvefethet",
    "kind": "game",
-   "path": "8-7tourismb-lvefethet/index.html",
-   "files": 1
+   "files": 1,
+   "path": "8-7tourismb-lvefethet/index.html"
   },
   {
    "title": "8-7 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-7-ELTARENACUP-TOURNAMENT/",
+   "type": "worksheet",
    "slug": "8-7-eltarenacup-tournament",
    "kind": "game",
-   "path": "8-7-eltarenacup-tournament/index.html",
-   "files": 1
-  },
-  {
-   "title": "Canbay Word Clash Game - Unit 7 (MEB + Bilim&Kültür)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/sunu/unit7/vocabulary/wordgame",
-   "slug": "wordgame",
-   "kind": "presentation",
-   "path": "wordgame/index.html",
-   "files": 73
-  },
-  {
-   "title": "7. Ünite Testler Akıllı Tahta Sunumu (CANBAY)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/sunu/unit7/",
-   "slug": "unit7",
-   "kind": "presentation",
-   "path": "unit7/index.html",
-   "files": 47
+   "files": 1,
+   "path": "8-7-eltarenacup-tournament/index.html"
   }
  ]
 }

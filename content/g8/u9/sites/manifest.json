@@ -2,53 +2,45 @@
  "items": [
   {
    "title": "8-9 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/8-9-ELTARENACUP-TOURNAMENT/",
+   "type": "worksheet",
    "slug": "8-9-eltarenacup-tournament",
    "kind": "game",
-   "path": "8-9-eltarenacup-tournament/index.html",
-   "files": 1
+   "files": 1,
+   "path": "8-9-eltarenacup-tournament/index.html"
   },
   {
    "title": "LGS 1-9 ELTARENACUP TOURNAMENT ( Recep Gökhan BARGAN )",
+   "desc": "",
    "by": "RGB",
    "link": "https://rgbenglish.github.io/LGSELTARENACUP1-9/",
+   "type": "worksheet",
    "slug": "lgseltarenacup1-9",
    "kind": "game",
-   "path": "lgseltarenacup1-9/index.html",
-   "files": 1
-  },
-  {
-   "title": "9. Ünite Kelime Anlam Testi Sunumu (CANBAY)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/sunu/unit9/word1",
-   "slug": "word1",
-   "kind": "presentation"
+   "files": 1,
+   "path": "lgseltarenacup1-9/index.html"
   },
   {
    "title": "Kelime Anlam Testleri (Tüm Üniteler)",
+   "desc": "Tüm üniteleri kapsayacak kelime anlam testleri içeren bir çalışmadır. Eksik üniteler tamamlanmaktadır.",
    "by": "icanbay",
    "link": "https://canbayelt.com/vocabulary/8/",
+   "type": "quiz",
    "slug": "8",
    "kind": "game",
-   "path": "8/index.html",
-   "files": 19
+   "path": "8/index.html"
   },
   {
    "title": "Fatih Sayılan LGS Çalışmaları",
+   "desc": "Fatih Sayılan tarafından hazırlanmış LGS çalışmalarını  PDF olarak indirebilirsiniz.",
    "by": "icanbay",
    "link": "https://canbayelt.com/fatih/",
+   "type": "quiz",
    "slug": "fatih",
    "kind": "game",
-   "path": "fatih/index.html",
-   "files": 30
-  },
-  {
-   "title": "9. Ünite Kazanım Testi Sunumu (Gönül & İlyas CANBAY)",
-   "by": "icanbay",
-   "link": "https://canbayelt.com/sunu/unit9/test1",
-   "slug": "test1",
-   "kind": "presentation"
+   "path": "fatih/index.html"
   }
  ]
 }

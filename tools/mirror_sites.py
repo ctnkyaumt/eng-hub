@@ -79,6 +79,7 @@ class Mirror:
         self.dest = dest
         self.seen = set()
         self.count = 0
+        self.failures = []
 
     def local_of(self, abs_url):
         """Path inside dest for an absolute same-origin URL, or None if outside."""
@@ -137,6 +138,7 @@ class Mirror:
         try:
             raw, resp = http_get(url, timeout=45, retries=retries, binary=True)
         except Exception as exc:  # noqa: BLE001
+            self.failures.append(url)
             log("mirror.log", "  eksik %s (%s)" % (url, exc))
             return
 

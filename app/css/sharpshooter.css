@@ -1,0 +1,31 @@
+.shooter-help{color:var(--ink-dim);text-align:center;margin:0 0 12px}
+.shooter-controls{display:flex;align-items:center;justify-content:center;gap:24px;font-size:20px;font-weight:700}
+.shooter-prompt{text-align:center;min-height:72px;display:flex;align-items:center;justify-content:center;gap:16px}
+.shooter-prompt h2{font-size:clamp(21px,3vw,34px);margin:12px 0}
+.shooter-prompt img{height:70px;max-width:120px;object-fit:contain}
+.shooter-field{position:relative;isolation:isolate;overflow:hidden;height:clamp(340px,52vh,560px);min-width:0;border:1px solid #425677;border-radius:24px;cursor:crosshair;touch-action:manipulation;background:radial-gradient(ellipse at 50% 100%,#19435d,#101d34 60%,#0b1221)}
+.shooter-field:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(#97c5ff33 1px,transparent 1px);background-size:28px 28px}
+.shooter-bubble{position:absolute;transform:translate(-50%,-50%);width:clamp(106px,17vw,164px);aspect-ratio:1;border:2px solid #88d7ff;border-radius:50%;background:radial-gradient(circle at 30% 25%,#78bede70,#266786a0 50%,#123e66df);box-shadow:inset 0 0 24px #9adfff35,0 0 22px #31bfff24;color:white;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:15px;font-size:clamp(14px,1.6vw,21px);font-weight:700;line-height:1.2;overflow-wrap:anywhere;cursor:crosshair;transition:opacity .15s;z-index:2}
+.shooter-bubble small{font-size:11px;opacity:.6;margin-bottom:4px}
+.shooter-bubble img{width:50%;max-height:45%;object-fit:contain;background:white;border-radius:8px}
+.shooter-bubble:focus-visible{outline:4px solid #ffe78d;outline-offset:5px}
+.shooter-bubble.popped{animation:shooter-pop .28s ease-out forwards;pointer-events:none}
+@keyframes shooter-pop{30%{transform:translate(-50%,-50%) scale(1.18);filter:brightness(2)}100%{transform:translate(-50%,-50%) scale(1.4);opacity:0;visibility:hidden}}
+.shooter-cannon{position:absolute;left:50%;top:88%;width:18px;height:45px;background:linear-gradient(90deg,#80bac9,#e1fff5,#80bac9);border-radius:8px 8px 3px 3px;transform-origin:50% 75%;box-shadow:0 0 24px #73ffe980;pointer-events:none}
+.shooter-beam{position:absolute;width:10px;height:10px;border-radius:50%;background:#f0fff9;box-shadow:0 0 15px 5px #7fffd4;transform:translate(-50%,-50%);opacity:0;pointer-events:none;z-index:3}
+.shooter-particle{position:absolute;left:0;top:0;width:7px;height:7px;border-radius:50%;pointer-events:none;z-index:4}
+.shooter-status{text-align:center;min-height:32px;padding:10px;font-weight:700}
+.shooter-field.paused:after{content:"Duraklatıldı";position:absolute;inset:0;background:#081323e8;display:grid;place-items:center;color:white;font-size:32px;z-index:5}
+#shooter-words{display:block;width:min(500px,100%);margin:20px auto;padding:16px;border-radius:12px;font:inherit;color:var(--ink);background:var(--panel,#172039);border:1px solid #526682}
+@media(prefers-reduced-motion:reduce){.shooter-bubble.popped{animation:none;opacity:0;visibility:hidden}.shooter-particle{display:none}}
+.game-frame.shooter-frame{gap:8px;min-height:0}
+.shooter-frame .hero{display:none}
+#screen:has(.shooter-frame){padding-top:14px;padding-bottom:20px}
+.shooter-frame .shooter-help{font-size:14px;margin:0}
+.shooter-frame .shooter-controls .btn{padding:8px 16px}
+.shooter-frame .shooter-prompt h2{margin:6px 0}
+.shooter-frame .hud{padding:8px 12px}
+.shooter-frame .stage{padding:12px;gap:6px;justify-content:flex-start}
+.shooter-frame .shooter-field{height:clamp(340px,48vh,510px);flex-shrink:0}
+.shooter-frame .shooter-bubble{width:clamp(100px,16vw,136px)}
+.shooter-frame .shooter-prompt{min-height:56px}

@@ -12,7 +12,7 @@ export async function bookList(gid, uid, screen) {
   setCrumbs([
     { label: "Ana Menü", hash: "#/" },
     { label: grade.title, hash: `#/${gid}` },
-    { label: `Ünite ${unit.no}`, hash: `#/${gid}/${uid}` },
+    { label: `${unit.label || "Ünite"} ${unit.no}`, hash: `#/${gid}/${uid}` },
     { label: "Kitap Sunumları" },
   ]);
 
@@ -28,7 +28,7 @@ export async function bookList(gid, uid, screen) {
 
   const parts = [
     el("div", { class: "hero" }, [
-      el("span", { class: "kicker", text: `${grade.title} · Ünite ${unit.no} · ${unit.title}` }),
+      el("span", { class: "kicker", text: `${grade.title} · ${unit.label || "Ünite"} ${unit.no} · ${unit.title}` }),
       el("h1", { text: "Kitap Sunumları" }),
       el("p", { text: "Ders kitabı ve çalışma kitabı sunumları — kaynak sitede açılır (internet gerekir)." }),
     ]),
