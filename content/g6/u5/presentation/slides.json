@@ -4,9 +4,10 @@
  "emoji": "🏙️",
  "authored": true,
  "curriculum": "meb-english-6-2026",
+ "visualStyle": "illustrated",
  "accent": [
-  "#0d9488",
-  "#2563eb"
+  "#2dd4bf",
+  "#38bdf8"
  ],
  "source": {
   "studentBook": {
@@ -29,493 +30,224 @@
  "slides": [
   {
    "type": "title",
-   "kicker": "THEME 5",
    "title": "Life in the Neighbourhood & City",
    "titleTr": "Mahalle ve Şehir Hayatı",
    "emoji": "🏙️"
   },
   {
-   "type": "scene",
-   "title": "Our lesson",
-   "emoji": "🏙️",
-   "bubbles": [
-    {
-     "text": "Describe a past festival and travel around a city."
-    },
-    {
-     "text": "Use was/were, reasons, prepositions and activity preferences."
-    }
-   ]
-  },
-  {
    "type": "vocab",
    "title": "Festivals and events",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "festival",
      "tr": "festival",
      "img": "/content/g5/u5/presentation/img/p01-17.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "festival"
     },
     {
      "en": "audience",
      "tr": "seyirci",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/24783.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/24783",
+     "imageFit": "contain",
+     "imageConcept": "audience"
     },
     {
      "en": "musician",
      "tr": "müzisyen",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/2890.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2890",
+     "imageFit": "contain",
+     "imageConcept": "musician"
     },
     {
      "en": "wedding",
      "tr": "düğün",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/8256.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8256",
+     "imageFit": "contain",
+     "imageConcept": "wedding"
     }
-   ]
+   ],
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "festival",
-       "b": "festival"
-      },
-      {
-       "a": "audience",
-       "b": "seyirci"
-      },
-      {
-       "a": "musician",
-       "b": "müzisyen"
-      },
-      {
-       "a": "wedding",
-       "b": "düğün"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "festival",
+     "options": [
+      "festival",
+      "audience",
+      "musician",
+      "wedding"
+     ],
+     "tr": "festival",
+     "img": "/content/g5/u5/presentation/img/p01-17.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "festival"
     }
-   ]
+   ],
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
    "title": "Festivals and events",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "perform",
      "tr": "sahne almak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/35709.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/35709",
+     "imageFit": "contain",
+     "imageCue": "Act or play for an audience",
+     "pictureQuiz": false,
+     "imageConcept": "act"
     },
     {
      "en": "organise",
      "tr": "düzenlemek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/35653.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/35653",
+     "imageFit": "contain",
+     "imageConcept": "organise"
     },
     {
      "en": "raise money",
      "tr": "para toplamak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/30480.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/30480",
+     "imageFit": "contain",
+     "imageCue": "Collect donations",
+     "pictureQuiz": false,
+     "imageConcept": "donate"
     },
     {
      "en": "local",
      "tr": "yerel",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/35181.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/35181",
+     "imageFit": "contain",
+     "imageCue": "In your neighbourhood",
+     "pictureQuiz": false,
+     "imageConcept": "near"
     }
-   ]
+   ],
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "perform",
-       "b": "sahne almak"
-      },
-      {
-       "a": "organise",
-       "b": "düzenlemek"
-      },
-      {
-       "a": "raise money",
-       "b": "para toplamak"
-      },
-      {
-       "a": "local",
-       "b": "yerel"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "organise",
+     "options": [
+      "perform",
+      "organise",
+      "raise money",
+      "local"
+     ],
+     "tr": "düzenlemek",
+     "img": "/content/g6/shared/img/35653.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/35653",
+     "imageFit": "contain",
+     "imageConcept": "organise"
     }
-   ]
+   ],
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
-   "type": "vocab",
-   "title": "Around the event",
-   "items": [
-    {
-     "en": "crowded",
-     "tr": "kalabalık",
-     "img": "/content/g6/shared/img/38445.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/38445",
-     "imageFit": "contain"
-    },
-    {
-     "en": "pleased",
-     "tr": "memnun",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "tired",
-     "tr": "yorgun",
-     "img": "/content/g6/shared/img/2314.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2314",
-     "imageFit": "contain"
-    },
-    {
-     "en": "jazz",
-     "tr": "caz",
-     "img": "/app/img/concepts/types-of-music.svg",
-     "imageConcept": "music genres",
-     "imageSource": "ENG HUB"
-    }
-   ]
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "festival",
+      "tr": "festival",
+      "img": "/content/g5/u5/presentation/img/p01-17.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "festival",
+      "audio": "/app/audio/words/festival.wav"
+     },
+     {
+      "en": "audience",
+      "tr": "seyirci",
+      "img": "/content/g6/shared/img/24783.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/24783",
+      "imageFit": "contain",
+      "imageConcept": "audience",
+      "audio": "/app/audio/words/audience.wav"
+     },
+     {
+      "en": "musician",
+      "tr": "müzisyen",
+      "img": "/content/g6/shared/img/2890.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2890",
+      "imageFit": "contain",
+      "imageConcept": "musician",
+      "audio": "/app/audio/words/musician.wav"
+     },
+     {
+      "en": "wedding",
+      "tr": "düğün",
+      "img": "/content/g6/shared/img/8256.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8256",
+      "imageFit": "contain",
+      "imageConcept": "wedding",
+      "audio": "/app/audio/words/wedding.wav"
+     }
+    ]
+   },
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "True or false?",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "crowded",
-       "b": "kalabalık"
-      },
-      {
-       "a": "pleased",
-       "b": "memnun"
-      },
-      {
-       "a": "tired",
-       "b": "yorgun"
-      },
-      {
-       "a": "jazz",
-       "b": "caz"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "wedding means \"sahne almak\".",
+     "answer": false,
+     "explain": "wedding means \"düğün\"."
     }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Around the event",
-   "items": [
-    {
-     "en": "pop",
-     "tr": "pop müzik",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "rock",
-     "tr": "rock müzik",
-     "img": "/app/img/concepts/types-of-music.svg",
-     "imageConcept": "music genres",
-     "imageSource": "ENG HUB"
-    },
-    {
-     "en": "rap",
-     "tr": "rap müzik",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "creative",
-     "tr": "yaratıcı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "pop",
-       "b": "pop müzik"
-      },
-      {
-       "a": "rock",
-       "b": "rock müzik"
-      },
-      {
-       "a": "rap",
-       "b": "rap müzik"
-      },
-      {
-       "a": "creative",
-       "b": "yaratıcı"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Transport",
-   "items": [
-    {
-     "en": "tram",
-     "tr": "tramvay",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "underground",
-     "tr": "metro",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "van",
-     "tr": "kamyonet",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "lorry",
-     "tr": "kamyon",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "tram",
-       "b": "tramvay"
-      },
-      {
-       "a": "underground",
-       "b": "metro"
-      },
-      {
-       "a": "van",
-       "b": "kamyonet"
-      },
-      {
-       "a": "lorry",
-       "b": "kamyon"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Transport",
-   "items": [
-    {
-     "en": "motorcycle",
-     "tr": "motosiklet",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "ship",
-     "tr": "gemi",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "vehicle",
-     "tr": "araç",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "public transport",
-     "tr": "toplu taşıma",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "motorcycle",
-       "b": "motosiklet"
-      },
-      {
-       "a": "ship",
-       "b": "gemi"
-      },
-      {
-       "a": "vehicle",
-       "b": "araç"
-      },
-      {
-       "a": "public transport",
-       "b": "toplu taşıma"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Finding the way",
-   "items": [
-    {
-     "en": "sign",
-     "tr": "tabela",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "direction",
-     "tr": "yön",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "overpass",
-     "tr": "üst geçit",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "underpass",
-     "tr": "alt geçit",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "sign",
-       "b": "tabela"
-      },
-      {
-       "a": "direction",
-       "b": "yön"
-      },
-      {
-       "a": "overpass",
-       "b": "üst geçit"
-      },
-      {
-       "a": "underpass",
-       "b": "alt geçit"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Finding the way",
-   "items": [
-    {
-     "en": "parking",
-     "tr": "park yeri",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "railway line",
-     "tr": "demiryolu hattı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "on foot",
-     "tr": "yürüyerek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "by car",
-     "tr": "arabayla",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "parking",
-       "b": "park yeri"
-      },
-      {
-       "a": "railway line",
-       "b": "demiryolu hattı"
-      },
-      {
-       "a": "on foot",
-       "b": "yürüyerek"
-      },
-      {
-       "a": "by car",
-       "b": "arabayla"
-      }
-     ]
-    }
-   ]
+   ],
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -529,9 +261,14 @@
      "trEm": [
       "tı"
      ],
-     "textOnly": true
+     "img": "/content/g5/u5/presentation/img/p01-17.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "festival"
     }
-   ]
+   ],
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -545,9 +282,36 @@
      "trEm": [
       "değildi"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/2890.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2890",
+     "imageFit": "contain",
+     "imageConcept": "musician"
     }
-   ]
+   ],
+   "topic": "Festivals and events",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The audience ___ very pleased last night.",
+     "answer": "was",
+     "options": [
+      "was",
+      "were",
+      "is",
+      "are"
+     ]
+    }
+   ],
+   "grammarId": "was-were",
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -561,35 +325,25 @@
      "trEm": [
       "mıydın"
      ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The audience ___ very pleased last night.",
-     "answer": "was",
-     "options": [
-      "was",
-      "were",
-      "is",
-      "are"
-     ]
+     "img": "/content/g6/shared/img/35709.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/35709",
+     "imageFit": "contain",
+     "imageCue": "Act or play for an audience",
+     "imageConcept": "act"
     }
    ],
-   "grammarId": "was-were"
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "The trams ___ crowded yesterday.",
+     "text": "The trams ___ crowded yesterday.",
      "answer": "weren't",
      "options": [
       "weren't",
@@ -599,15 +353,18 @@
      ]
     }
    ],
-   "grammarId": "was-were"
+   "grammarId": "was-were",
+   "topic": "Festivals and events",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ the musicians on the stage at eight yesterday?",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ the musicians on the stage at eight yesterday?",
      "answer": "Were",
      "options": [
       "Were",
@@ -617,7 +374,255 @@
      ]
     }
    ],
-   "grammarId": "was-were"
+   "grammarId": "was-were",
+   "topic": "Festivals and events",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "was-were",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "The local festival was busy yesterday.",
+      "tr": "Yerel festival dün kalabalıktı."
+     }
+    ]
+   },
+   "topic": "Festivals and events",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Yesterday at the festival",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "You went to an event yesterday. Tell your partner where it was and how it was.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Festivals and events",
+   "topicIndex": 1
+  },
+  {
+   "type": "vocab",
+   "title": "Around the event",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "crowded",
+     "tr": "kalabalık",
+     "img": "/content/g6/shared/img/38445.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/38445",
+     "imageFit": "contain",
+     "imageConcept": "crowded"
+    },
+    {
+     "en": "pleased",
+     "tr": "memnun",
+     "img": "/content/g6/shared/img/39091.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/39091",
+     "imageFit": "contain",
+     "imageConcept": "pleased"
+    },
+    {
+     "en": "tired",
+     "tr": "yorgun",
+     "img": "/content/g6/shared/img/2314.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2314",
+     "imageFit": "contain",
+     "imageConcept": "tired"
+    },
+    {
+     "en": "jazz",
+     "tr": "caz",
+     "img": "/app/img/concepts/types-of-music.svg",
+     "imageConcept": "saxophone",
+     "imageSource": "ENG HUB",
+     "imageCue": "Saxophones and improvisation",
+     "pictureQuiz": false
+    }
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "crowded",
+     "options": [
+      "crowded",
+      "pleased",
+      "tired",
+      "jazz"
+     ],
+     "tr": "kalabalık",
+     "img": "/content/g6/shared/img/38445.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/38445",
+     "imageFit": "contain",
+     "imageConcept": "crowded"
+    }
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Around the event",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "pop",
+     "tr": "pop müzik",
+     "img": "/content/g6/shared/img/4585.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/4585",
+     "imageFit": "contain",
+     "imageCue": "Popular songs",
+     "pictureQuiz": false,
+     "imageConcept": "singer"
+    },
+    {
+     "en": "rock",
+     "tr": "rock müzik",
+     "img": "/app/img/concepts/types-of-music.svg",
+     "imageConcept": "electric guitar",
+     "imageSource": "ENG HUB",
+     "imageCue": "Electric guitars and drums",
+     "pictureQuiz": false
+    },
+    {
+     "en": "rap",
+     "tr": "rap müzik",
+     "img": "/content/g6/shared/img/2912.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2912",
+     "imageFit": "contain",
+     "imageCue": "Rhythm and spoken words",
+     "pictureQuiz": false,
+     "imageConcept": "microphone"
+    },
+    {
+     "en": "creative",
+     "tr": "yaratıcı",
+     "img": "/content/g6/shared/img/11690.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11690",
+     "imageFit": "contain",
+     "imageConcept": "creativity"
+    }
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "creative",
+     "options": [
+      "pop",
+      "rock",
+      "rap",
+      "creative"
+     ],
+     "tr": "yaratıcı",
+     "img": "/content/g6/shared/img/11690.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11690",
+     "imageFit": "contain",
+     "imageConcept": "creativity"
+    }
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "crowded",
+      "tr": "kalabalık",
+      "img": "/content/g6/shared/img/38445.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/38445",
+      "imageFit": "contain",
+      "imageConcept": "crowded",
+      "audio": "/app/audio/words/crowded.wav"
+     },
+     {
+      "en": "pleased",
+      "tr": "memnun",
+      "img": "/content/g6/shared/img/39091.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/39091",
+      "imageFit": "contain",
+      "imageConcept": "pleased",
+      "audio": "/app/audio/words/pleased.wav"
+     },
+     {
+      "en": "tired",
+      "tr": "yorgun",
+      "img": "/content/g6/shared/img/2314.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2314",
+      "imageFit": "contain",
+      "imageConcept": "tired",
+      "audio": "/app/audio/words/tired.wav"
+     },
+     {
+      "en": "creative",
+      "tr": "yaratıcı",
+      "img": "/content/g6/shared/img/11690.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/11690",
+      "imageFit": "contain",
+      "imageConcept": "creativity",
+      "audio": "/app/audio/words/creative.wav"
+     }
+    ]
+   },
+   "topic": "Around the event",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "jazz means \"pop müzik\".",
+     "answer": false,
+     "explain": "jazz means \"caz\"."
+    }
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -631,9 +636,16 @@
      "trEm": [
       "değil mi"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/35181.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/35181",
+     "imageFit": "contain",
+     "imageCue": "In your neighbourhood",
+     "imageConcept": "near"
     }
-   ]
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -647,17 +659,24 @@
      "trEm": [
       "değil mi"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/6012.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6012",
+     "imageFit": "contain",
+     "imageConcept": "timetable"
     }
-   ]
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The musicians were ready, ___?",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The musicians were ready, ___?",
      "answer": "weren't they",
      "options": [
       "weren't they",
@@ -667,15 +686,18 @@
      ]
     }
    ],
-   "grammarId": "past-be-tags"
+   "grammarId": "past-be-tags",
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "The van wasn't outside, ___?",
+     "text": "The van wasn't outside, ___?",
      "answer": "was it",
      "options": [
       "was it",
@@ -685,7 +707,25 @@
      ]
     }
    ],
-   "grammarId": "past-be-tags"
+   "grammarId": "past-be-tags",
+   "topic": "Around the event",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "past-be-tags",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "The concert was local, wasn't it?",
+      "tr": "Konser yereldi, değil mi?"
+     }
+    ]
+   },
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -699,9 +739,15 @@
      "trEm": [
       "neden"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/38445.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/38445",
+     "imageFit": "contain",
+     "imageConcept": "crowded"
     }
-   ]
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -715,17 +761,24 @@
      "trEm": [
       "Çünkü"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/2890.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2890",
+     "imageFit": "contain",
+     "imageConcept": "musician"
     }
-   ]
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ was the art event? Last Saturday.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ was the art event? Last Saturday.",
      "answer": "When",
      "options": [
       "When",
@@ -735,15 +788,18 @@
      ]
     }
    ],
-   "grammarId": "why-when"
+   "grammarId": "why-when",
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "Why were you tired? ___ the walk was long.",
+     "text": "Why were you tired? ___ the walk was long.",
      "answer": "Because",
      "options": [
       "Because",
@@ -753,288 +809,43 @@
      ]
     }
    ],
-   "grammarId": "why-when"
+   "grammarId": "why-when",
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
-   "type": "grammar",
-   "title": "Activities and plans",
-   "rule": "Enjoy + fiil-ing; want/plan + to + yalın fiil. Like + -ing, etkinlik beğenisini anlatmanın bir yoludur.",
-   "grammarId": "gerunds-infinitives",
-   "examples": [
-    {
-     "en": "I enjoy *listening* to jazz.",
-     "tr": "Caz dinlemekten keyif alırım.",
-     "trEm": [
-      "dinlemekten"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Activities and plans",
-   "rule": "Enjoy + fiil-ing; want/plan + to + yalın fiil. Like + -ing, etkinlik beğenisini anlatmanın bir yoludur.",
-   "grammarId": "gerunds-infinitives",
-   "examples": [
-    {
-     "en": "We plan *to visit* the art festival.",
-     "tr": "Sanat festivalini ziyaret etmeyi planlıyoruz.",
-     "trEm": [
-      "ziyaret etmeyi"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "why-when",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Why was the square crowded?",
+      "tr": "Meydan neden kalabalıktı?"
+     }
+    ]
+   },
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Interview a visitor",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The audience enjoys ___ the dancers.",
-     "answer": "watching",
-     "options": [
-      "watching",
-      "to watching",
-      "watch",
-      "to watch"
-     ]
+     "kind": "flash",
+     "q": "Ask why an event was crowded. Confirm one detail with a question tag.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "gerunds-infinitives"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "They want ___ a local concert.",
-     "answer": "to organise",
-     "options": [
-      "to organise",
-      "organising",
-      "organise",
-      "to organising"
-     ]
-    }
-   ],
-   "grammarId": "gerunds-infinitives"
-  },
-  {
-   "type": "grammar",
-   "title": "Places and movement",
-   "rule": "Konum: in front of, behind, under, beside/next to, between, among, near. Hareket: across (karşıya), through (içinden), into (içine), out of (dışına), onto (üstüne).",
-   "grammarId": "place-movement",
-   "examples": [
-    {
-     "en": "The tram stop is *between* the park and the hall.",
-     "tr": "Tramvay durağı park ile salonun arasında.",
-     "trEm": [
-      "arasında"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Places and movement",
-   "rule": "Konum: in front of, behind, under, beside/next to, between, among, near. Hareket: across (karşıya), through (içinden), into (içine), out of (dışına), onto (üstüne).",
-   "grammarId": "place-movement",
-   "examples": [
-    {
-     "en": "Walk *through* the underpass.",
-     "tr": "Alt geçidin içinden yürüyün.",
-     "trEm": [
-      "içinden"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The sign is ___ the two doors.",
-     "answer": "between",
-     "options": [
-      "between",
-      "among",
-      "onto",
-      "through"
-     ]
-    }
-   ],
-   "grammarId": "place-movement"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The tram goes ___ a tunnel.",
-     "answer": "through",
-     "options": [
-      "through",
-      "onto",
-      "among",
-      "between"
-     ]
-    }
-   ],
-   "grammarId": "place-movement"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The musician steps ___ the stage.",
-     "answer": "onto",
-     "options": [
-      "onto",
-      "among",
-      "between",
-      "behind"
-     ]
-    }
-   ],
-   "grammarId": "place-movement"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The visitors walk ___ the hall into the garden.",
-     "answer": "out of",
-     "options": [
-      "out of",
-      "between",
-      "among",
-      "under"
-     ]
-    }
-   ],
-   "grammarId": "place-movement"
-  },
-  {
-   "type": "grammar",
-   "title": "Time and transport",
-   "rule": "At + saat; on + gün/tarih; in + ay/yıl; for + süre. Ulaşım: by car/bus/tram, fakat on foot.",
-   "grammarId": "time-transport",
-   "examples": [
-    {
-     "en": "The show starts *on* Sunday *at* six.",
-     "tr": "Gösteri pazar günü saat altıda başlıyor.",
-     "trEm": [
-      "pazar günü",
-      "saat altıda"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Time and transport",
-   "rule": "At + saat; on + gün/tarih; in + ay/yıl; for + süre. Ulaşım: by car/bus/tram, fakat on foot.",
-   "grammarId": "time-transport",
-   "examples": [
-    {
-     "en": "We go there *on foot*.",
-     "tr": "Oraya yürüyerek gideriz.",
-     "trEm": [
-      "yürüyerek"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The art festival is ___ May.",
-     "answer": "in",
-     "options": [
-      "in",
-      "at",
-      "on",
-      "by"
-     ]
-    }
-   ],
-   "grammarId": "time-transport"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The show was ___ Friday.",
-     "answer": "on",
-     "options": [
-      "on",
-      "at",
-      "in",
-      "by"
-     ]
-    }
-   ],
-   "grammarId": "time-transport"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "We travel to the event ___ tram.",
-     "answer": "by",
-     "options": [
-      "by",
-      "on",
-      "at",
-      "in"
-     ]
-    }
-   ],
-   "grammarId": "time-transport"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The visitors were at the festival ___ two hours.",
-     "answer": "for",
-     "options": [
-      "for",
-      "on",
-      "at",
-      "by"
-     ]
-    }
-   ],
-   "grammarId": "time-transport"
+   "topic": "Around the event",
+   "topicIndex": 2
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -1050,11 +861,486 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Around the event",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Transport",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "tram",
+     "tr": "tramvay",
+     "img": "/content/g6/shared/img/2602.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2602",
+     "imageFit": "contain",
+     "imageConcept": "tram"
+    },
+    {
+     "en": "underground",
+     "tr": "metro",
+     "img": "/content/g6/shared/img/2472.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2472",
+     "imageFit": "contain",
+     "imageConcept": "subway"
+    },
+    {
+     "en": "van",
+     "tr": "kamyonet",
+     "img": "/content/g6/shared/img/3275.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3275",
+     "imageFit": "contain",
+     "imageConcept": "van"
+    },
+    {
+     "en": "lorry",
+     "tr": "kamyon",
+     "img": "/content/g6/shared/img/2306.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2306",
+     "imageFit": "contain",
+     "imageConcept": "lorry"
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "tram",
+     "options": [
+      "tram",
+      "underground",
+      "van",
+      "lorry"
+     ],
+     "tr": "tramvay",
+     "img": "/content/g6/shared/img/2602.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2602",
+     "imageFit": "contain",
+     "imageConcept": "tram"
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Transport",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "motorcycle",
+     "tr": "motosiklet",
+     "img": "/content/g6/shared/img/2480.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2480",
+     "imageFit": "contain",
+     "imageConcept": "motorcycle"
+    },
+    {
+     "en": "ship",
+     "tr": "gemi",
+     "img": "/content/g6/shared/img/21421.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/21421",
+     "imageFit": "contain",
+     "imageConcept": "ship"
+    },
+    {
+     "en": "vehicle",
+     "tr": "araç",
+     "img": "/content/g6/shared/img/34461.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/34461",
+     "imageFit": "contain",
+     "imageConcept": "vehicle"
+    },
+    {
+     "en": "public transport",
+     "tr": "toplu taşıma",
+     "img": "/content/g6/shared/img/10351.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10351",
+     "imageFit": "contain",
+     "imageCue": "Travel together",
+     "pictureQuiz": false,
+     "imageConcept": "means of transport"
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "motorcycle",
+     "options": [
+      "motorcycle",
+      "ship",
+      "vehicle",
+      "public transport"
+     ],
+     "tr": "motosiklet",
+     "img": "/content/g6/shared/img/2480.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2480",
+     "imageFit": "contain",
+     "imageConcept": "motorcycle"
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "tram",
+      "tr": "tramvay",
+      "img": "/content/g6/shared/img/2602.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2602",
+      "imageFit": "contain",
+      "imageConcept": "tram",
+      "audio": "/app/audio/words/tram.wav"
+     },
+     {
+      "en": "underground",
+      "tr": "metro",
+      "img": "/content/g6/shared/img/2472.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2472",
+      "imageFit": "contain",
+      "imageConcept": "subway",
+      "audio": "/app/audio/words/underground.wav"
+     },
+     {
+      "en": "van",
+      "tr": "kamyonet",
+      "img": "/content/g6/shared/img/3275.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/3275",
+      "imageFit": "contain",
+      "imageConcept": "van",
+      "audio": "/app/audio/words/van.wav"
+     },
+     {
+      "en": "lorry",
+      "tr": "kamyon",
+      "img": "/content/g6/shared/img/2306.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2306",
+      "imageFit": "contain",
+      "imageConcept": "lorry",
+      "audio": "/app/audio/words/lorry.wav"
+     }
+    ]
+   },
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "lorry means \"motosiklet\".",
+     "answer": false,
+     "explain": "lorry means \"kamyon\"."
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Activities and plans",
+   "rule": "Enjoy + fiil-ing; want/plan + to + yalın fiil. Like + -ing, etkinlik beğenisini anlatmanın bir yoludur.",
+   "grammarId": "gerunds-infinitives",
+   "examples": [
+    {
+     "en": "I enjoy *listening* to jazz.",
+     "tr": "Caz dinlemekten keyif alırım.",
+     "trEm": [
+      "dinlemekten"
+     ],
+     "img": "/app/img/concepts/types-of-music.svg",
+     "imageConcept": "saxophone",
+     "imageSource": "ENG HUB",
+     "imageCue": "Saxophones and improvisation"
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Activities and plans",
+   "rule": "Enjoy + fiil-ing; want/plan + to + yalın fiil. Like + -ing, etkinlik beğenisini anlatmanın bir yoludur.",
+   "grammarId": "gerunds-infinitives",
+   "examples": [
+    {
+     "en": "We plan *to visit* the art festival.",
+     "tr": "Sanat festivalini ziyaret etmeyi planlıyoruz.",
+     "trEm": [
+      "ziyaret etmeyi"
+     ],
+     "img": "/content/g5/u5/presentation/img/p01-17.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "festival"
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The audience enjoys ___ the dancers.",
+     "answer": "watching",
+     "options": [
+      "watching",
+      "to watching",
+      "watch",
+      "to watch"
+     ]
+    }
+   ],
+   "grammarId": "gerunds-infinitives",
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "They want ___ a local concert.",
+     "text": "They want ___ a local concert.",
+     "answer": "to organise",
+     "options": [
+      "to organise",
+      "organising",
+      "organise",
+      "to organising"
+     ]
+    }
+   ],
+   "grammarId": "gerunds-infinitives",
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "gerunds-infinitives",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "I enjoy listening to jazz.",
+      "tr": "Caz dinlemekten keyif alırım."
+     }
+    ]
+   },
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Time and transport",
+   "rule": "At + saat; on + gün/tarih; in + ay/yıl; for + süre. Ulaşım: by car/bus/tram, fakat on foot.",
+   "grammarId": "time-transport",
+   "examples": [
+    {
+     "en": "The show starts *on* Sunday *at* six.",
+     "tr": "Gösteri pazar günü saat altıda başlıyor.",
+     "trEm": [
+      "pazar günü",
+      "saat altıda"
+     ],
+     "img": "/content/g6/shared/img/6012.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6012",
+     "imageFit": "contain",
+     "imageConcept": "timetable"
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Time and transport",
+   "rule": "At + saat; on + gün/tarih; in + ay/yıl; for + süre. Ulaşım: by car/bus/tram, fakat on foot.",
+   "grammarId": "time-transport",
+   "examples": [
+    {
+     "en": "We go there *on foot*.",
+     "tr": "Oraya yürüyerek gideriz.",
+     "trEm": [
+      "yürüyerek"
+     ],
+     "img": "/content/g6/shared/img/3251.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3251",
+     "imageFit": "contain",
+     "imageConcept": "walk"
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The art festival is ___ May.",
+     "answer": "in",
+     "options": [
+      "in",
+      "at",
+      "on",
+      "by"
+     ]
+    }
+   ],
+   "grammarId": "time-transport",
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The show was ___ Friday.",
+     "text": "The show was ___ Friday.",
+     "answer": "on",
+     "options": [
+      "on",
+      "at",
+      "in",
+      "by"
+     ]
+    }
+   ],
+   "grammarId": "time-transport",
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "We travel to the event ___ tram.",
+     "answer": "by",
+     "options": [
+      "by",
+      "on",
+      "at",
+      "in"
+     ]
+    }
+   ],
+   "grammarId": "time-transport",
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The visitors were at the festival ___ two hours.",
+     "text": "The visitors were at the festival ___ two hours.",
+     "answer": "for",
+     "options": [
+      "for",
+      "on",
+      "at",
+      "by"
+     ]
+    }
+   ],
+   "grammarId": "time-transport",
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "time-transport",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "The show starts on Sunday at six.",
+      "tr": "Gösteri pazar günü saat altıda başlıyor."
+     }
+    ]
+   },
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Getting to the show",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Choose transport and a meeting time. Tell your partner what you plan to do there.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -1070,12 +1356,394 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Transport",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Finding the way",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "sign",
+     "tr": "tabela",
+     "img": "/content/g6/shared/img/35505.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/35505",
+     "imageFit": "contain",
+     "imageConcept": "sign"
+    },
+    {
+     "en": "direction",
+     "tr": "yön",
+     "img": "/content/g6/shared/img/7078.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7078",
+     "imageFit": "contain",
+     "imageConcept": "direction"
+    },
+    {
+     "en": "overpass",
+     "tr": "üst geçit",
+     "img": "/content/g6/shared/img/37257.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37257",
+     "imageFit": "contain",
+     "imageCue": "Cross above the road",
+     "pictureQuiz": false,
+     "imageConcept": "footbridge"
+    },
+    {
+     "en": "underpass",
+     "tr": "alt geçit",
+     "img": "/content/g6/shared/img/8972.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8972",
+     "imageFit": "contain",
+     "imageCue": "Go below the road",
+     "pictureQuiz": false,
+     "imageConcept": "tunnel"
+    }
+   ],
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "sign",
+     "options": [
+      "sign",
+      "direction",
+      "overpass",
+      "underpass"
+     ],
+     "tr": "tabela",
+     "img": "/content/g6/shared/img/35505.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/35505",
+     "imageFit": "contain",
+     "imageConcept": "sign"
+    }
+   ],
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "vocab",
+   "title": "Finding the way",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "parking",
+     "tr": "park yeri",
+     "img": "/content/g6/shared/img/6283.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6283",
+     "imageFit": "contain",
+     "imageConcept": "parking"
+    },
+    {
+     "en": "railway line",
+     "tr": "demiryolu hattı",
+     "img": "/content/g6/shared/img/7299.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7299",
+     "imageFit": "contain",
+     "imageConcept": "railway"
+    },
+    {
+     "en": "on foot",
+     "tr": "yürüyerek",
+     "img": "/content/g6/shared/img/3251.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3251",
+     "imageFit": "contain",
+     "imageConcept": "walk"
+    },
+    {
+     "en": "by car",
+     "tr": "arabayla",
+     "img": "/content/g6/shared/img/2339.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2339",
+     "imageFit": "contain",
+     "imageCue": "Travel in a car",
+     "pictureQuiz": false,
+     "imageConcept": "car"
+    }
+   ],
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "parking",
+     "options": [
+      "parking",
+      "railway line",
+      "on foot",
+      "by car"
+     ],
+     "tr": "park yeri",
+     "img": "/content/g6/shared/img/6283.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6283",
+     "imageFit": "contain",
+     "imageConcept": "parking"
+    }
+   ],
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "sign",
+      "tr": "tabela",
+      "img": "/content/g6/shared/img/35505.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/35505",
+      "imageFit": "contain",
+      "imageConcept": "sign",
+      "audio": "/app/audio/words/sign.wav"
+     },
+     {
+      "en": "direction",
+      "tr": "yön",
+      "img": "/content/g6/shared/img/7078.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/7078",
+      "imageFit": "contain",
+      "imageConcept": "direction",
+      "audio": "/app/audio/words/direction.wav"
+     },
+     {
+      "en": "parking",
+      "tr": "park yeri",
+      "img": "/content/g6/shared/img/6283.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/6283",
+      "imageFit": "contain",
+      "imageConcept": "parking",
+      "audio": "/app/audio/words/parking.wav"
+     },
+     {
+      "en": "railway line",
+      "tr": "demiryolu hattı",
+      "img": "/content/g6/shared/img/7299.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/7299",
+      "imageFit": "contain",
+      "imageConcept": "railway",
+      "audio": "/app/audio/words/railway-line.wav"
+     }
+    ]
+   },
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "underpass means \"park yeri\".",
+     "answer": false,
+     "explain": "underpass means \"alt geçit\"."
+    }
+   ],
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Places and movement",
+   "rule": "Konum: in front of, behind, under, beside/next to, between, among, near. Hareket: across (karşıya), through (içinden), into (içine), out of (dışına), onto (üstüne).",
+   "grammarId": "place-movement",
+   "examples": [
+    {
+     "en": "The tram stop is *between* the park and the hall.",
+     "tr": "Tramvay durağı park ile salonun arasında.",
+     "trEm": [
+      "arasında"
+     ],
+     "img": "/content/g6/shared/img/2602.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2602",
+     "imageFit": "contain",
+     "imageConcept": "tram"
+    }
+   ],
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Places and movement",
+   "rule": "Konum: in front of, behind, under, beside/next to, between, among, near. Hareket: across (karşıya), through (içinden), into (içine), out of (dışına), onto (üstüne).",
+   "grammarId": "place-movement",
+   "examples": [
+    {
+     "en": "Walk *through* the underpass.",
+     "tr": "Alt geçidin içinden yürüyün.",
+     "trEm": [
+      "içinden"
+     ],
+     "img": "/content/g6/shared/img/8972.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8972",
+     "imageFit": "contain",
+     "imageCue": "Go below the road",
+     "imageConcept": "tunnel"
+    }
+   ],
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The sign is ___ the two doors.",
+     "answer": "between",
+     "options": [
+      "between",
+      "among",
+      "onto",
+      "through"
+     ]
+    }
+   ],
+   "grammarId": "place-movement",
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The tram goes ___ a tunnel.",
+     "text": "The tram goes ___ a tunnel.",
+     "answer": "through",
+     "options": [
+      "through",
+      "onto",
+      "among",
+      "between"
+     ]
+    }
+   ],
+   "grammarId": "place-movement",
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The musician steps ___ the stage.",
+     "answer": "onto",
+     "options": [
+      "onto",
+      "among",
+      "between",
+      "behind"
+     ]
+    }
+   ],
+   "grammarId": "place-movement",
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The visitors walk ___ the hall into the garden.",
+     "text": "The visitors walk ___ the hall into the garden.",
+     "answer": "out of",
+     "options": [
+      "out of",
+      "between",
+      "among",
+      "under"
+     ]
+    }
+   ],
+   "grammarId": "place-movement",
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "place-movement",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "The tram stop is between the park and the hall.",
+      "tr": "Tramvay durağı park ile salonun arasında."
+     }
+    ]
+   },
+   "topic": "Finding the way",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Give directions",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Place a hall, a tram stop and a park on paper. Give your partner directions between them.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Finding the way",
+   "topicIndex": 4
   },
   {
    "type": "scene",
    "title": "A festival diary",
-   "emoji": "📖",
+   "img": "/content/g5/u5/presentation/img/p01-17.png",
+   "imageFit": "contain",
+   "imageSource": "Existing ENG HUB teaching image",
+   "imageConcept": "festival",
    "bubbles": [
     {
      "text": "Yesterday was the local art festival. The square was crowded, but the library garden was quiet. Our favourite musicians were on the small stage at four. There was a sign between the two entrances. It showed the way to the tram stop."
@@ -1085,7 +1753,10 @@
   {
    "type": "scene",
    "title": "A festival diary",
-   "emoji": "📖",
+   "img": "/content/g5/u5/presentation/img/p01-17.png",
+   "imageFit": "contain",
+   "imageSource": "Existing ENG HUB teaching image",
+   "imageConcept": "festival",
    "bubbles": [
     {
      "text": "We enjoy travelling by tram because the roads near the square are busy. My little brother likes walking through the underpass. At the end of the afternoon, we were tired but pleased. We plan to visit the music event next month."
@@ -1094,7 +1765,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1105,7 +1776,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1116,7 +1787,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1127,7 +1798,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1137,136 +1808,57 @@
    ]
   },
   {
-   "type": "mission",
-   "title": "Picture match",
-   "task": {
-    "kind": "dragmatch",
-    "items": [
-     {
-      "en": "festival",
-      "tr": "festival",
-      "img": "/content/g5/u5/presentation/img/p01-17.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/festival.wav"
-     },
-     {
-      "en": "crowded",
-      "tr": "kalabalık",
-      "img": "/content/g6/shared/img/38445.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/38445",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/crowded.wav"
-     },
-     {
-      "en": "tired",
-      "tr": "yorgun",
-      "img": "/content/g6/shared/img/2314.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/2314",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/tired.wav"
-     },
-     {
-      "en": "jazz",
-      "tr": "caz",
-      "img": "/app/img/concepts/types-of-music.svg",
-      "imageConcept": "music genres",
-      "imageSource": "ENG HUB",
-      "audio": "/app/audio/words/jazz.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "The square was quiet.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Listen and find",
-   "task": {
-    "kind": "listenpicture",
-    "items": [
-     {
-      "en": "festival",
-      "tr": "festival",
-      "img": "/content/g5/u5/presentation/img/p01-17.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/festival.wav"
-     },
-     {
-      "en": "crowded",
-      "tr": "kalabalık",
-      "img": "/content/g6/shared/img/38445.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/38445",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/crowded.wav"
-     },
-     {
-      "en": "tired",
-      "tr": "yorgun",
-      "img": "/content/g6/shared/img/2314.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/2314",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/tired.wav"
-     },
-     {
-      "en": "jazz",
-      "tr": "caz",
-      "img": "/app/img/concepts/types-of-music.svg",
-      "imageConcept": "music genres",
-      "imageSource": "ENG HUB",
-      "audio": "/app/audio/words/jazz.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "The sign showed the way to the tram stop.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Sentence workshop",
-   "task": {
-    "kind": "dragorder",
-    "sentences": [
-     {
-      "answer": "The local festival was busy yesterday.",
-      "tr": "Yerel festival dün kalabalıktı."
-     },
-     {
-      "answer": "The musicians weren't tired.",
-      "tr": "Müzisyenler yorgun değildi."
-     },
-     {
-      "answer": "Because there was a concert.",
-      "tr": "Çünkü konser vardı."
-     },
-     {
-      "answer": "I enjoy listening to jazz.",
-      "tr": "Caz dinlemekten keyif alırım."
-     },
-     {
-      "answer": "We plan to visit the art festival.",
-      "tr": "Sanat festivalini ziyaret etmeyi planlıyoruz."
-     },
-     {
-      "answer": "The tram stop is between the park and the hall.",
-      "tr": "Tramvay durağı park ile salonun arasında."
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "They plan to visit another event.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Your turn to speak",
-   "task": {
-    "kind": "flash",
-    "q": "Describe an imaginary festival yesterday. Ask why and when, check one detail with a past question tag, then explain how to reach the event.",
-    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
-   }
+   "type": "exercise",
+   "title": "One-minute exit ticket",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say two new words and make one sentence about today’s theme.",
+     "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
+    }
+   ]
   },
   {
    "type": "end",
-   "title": "Ready for more practice",
+   "title": "Well done!",
    "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
-   "emoji": "🎯"
+   "emoji": "🏙️"
   }
  ]
 }

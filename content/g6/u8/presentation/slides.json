@@ -4,9 +4,10 @@
  "emoji": "🚀",
  "authored": true,
  "curriculum": "meb-english-6-2026",
+ "visualStyle": "illustrated",
  "accent": [
-  "#0d9488",
-  "#2563eb"
+  "#a78bfa",
+  "#60a5fa"
  ],
  "source": {
   "studentBook": {
@@ -29,497 +30,221 @@
  "slides": [
   {
    "type": "title",
-   "kicker": "THEME 8",
    "title": "Life in the Universe & Future",
    "titleTr": "Evren ve Gelecekte Hayat",
    "emoji": "🚀"
   },
   {
-   "type": "scene",
-   "title": "Our lesson",
-   "emoji": "🚀",
-   "bubbles": [
-    {
-     "text": "Talk about planets, extreme weather and life in the future."
-    },
-    {
-     "text": "Distinguish plans, evidence and predictions."
-    }
-   ]
-  },
-  {
    "type": "vocab",
    "title": "The solar system",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "Mercury",
      "tr": "Merkür",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/10297.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10297",
+     "imageFit": "contain",
+     "imageConcept": "mercury"
     },
     {
      "en": "Venus",
      "tr": "Venüs",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/10303.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10303",
+     "imageFit": "contain",
+     "imageConcept": "venus"
     },
     {
      "en": "Earth",
      "tr": "Dünya",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/30014.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/30014",
+     "imageFit": "contain",
+     "imageConcept": "earth"
     },
     {
      "en": "Mars",
      "tr": "Mars",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/10296.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10296",
+     "imageFit": "contain",
+     "imageConcept": "mars"
     }
-   ]
+   ],
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "Mercury",
-       "b": "Merkür"
-      },
-      {
-       "a": "Venus",
-       "b": "Venüs"
-      },
-      {
-       "a": "Earth",
-       "b": "Dünya"
-      },
-      {
-       "a": "Mars",
-       "b": "Mars"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "Mercury",
+     "options": [
+      "Mercury",
+      "Venus",
+      "Earth",
+      "Mars"
+     ],
+     "tr": "Merkür",
+     "img": "/content/g6/shared/img/10297.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10297",
+     "imageFit": "contain",
+     "imageConcept": "mercury"
     }
-   ]
+   ],
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
    "title": "The solar system",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "Jupiter",
      "tr": "Jüpiter",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/10293.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10293",
+     "imageFit": "contain",
+     "imageConcept": "jupiter"
     },
     {
      "en": "Saturn",
      "tr": "Satürn",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/10300.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10300",
+     "imageFit": "contain",
+     "imageConcept": "saturn"
     },
     {
      "en": "Uranus",
      "tr": "Uranüs",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/10302.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10302",
+     "imageFit": "contain",
+     "imageConcept": "uranus"
     },
     {
      "en": "Neptune",
      "tr": "Neptün",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/10298.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10298",
+     "imageFit": "contain",
+     "imageConcept": "neptune"
     }
-   ]
+   ],
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "Jupiter",
-       "b": "Jüpiter"
-      },
-      {
-       "a": "Saturn",
-       "b": "Satürn"
-      },
-      {
-       "a": "Uranus",
-       "b": "Uranüs"
-      },
-      {
-       "a": "Neptune",
-       "b": "Neptün"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "Jupiter",
+     "options": [
+      "Jupiter",
+      "Saturn",
+      "Uranus",
+      "Neptune"
+     ],
+     "tr": "Jüpiter",
+     "img": "/content/g6/shared/img/10293.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10293",
+     "imageFit": "contain",
+     "imageConcept": "jupiter"
     }
-   ]
+   ],
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
-   "type": "vocab",
-   "title": "Space words",
-   "items": [
-    {
-     "en": "Sun",
-     "tr": "Güneş",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "Moon",
-     "tr": "Ay",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "orbit",
-     "tr": "yörünge",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "atmosphere",
-     "tr": "atmosfer",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "Mercury",
+      "tr": "Merkür",
+      "img": "/content/g6/shared/img/10297.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/10297",
+      "imageFit": "contain",
+      "imageConcept": "mercury",
+      "audio": "/app/audio/words/mercury.wav"
+     },
+     {
+      "en": "Venus",
+      "tr": "Venüs",
+      "img": "/content/g6/shared/img/10303.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/10303",
+      "imageFit": "contain",
+      "imageConcept": "venus",
+      "audio": "/app/audio/words/venus.wav"
+     },
+     {
+      "en": "Earth",
+      "tr": "Dünya",
+      "img": "/content/g6/shared/img/30014.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/30014",
+      "imageFit": "contain",
+      "imageConcept": "earth",
+      "audio": "/app/audio/words/earth.wav"
+     },
+     {
+      "en": "Mars",
+      "tr": "Mars",
+      "img": "/content/g6/shared/img/10296.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/10296",
+      "imageFit": "contain",
+      "imageConcept": "mars",
+      "audio": "/app/audio/words/mars.wav"
+     }
+    ]
+   },
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "True or false?",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "Sun",
-       "b": "Güneş"
-      },
-      {
-       "a": "Moon",
-       "b": "Ay"
-      },
-      {
-       "a": "orbit",
-       "b": "yörünge"
-      },
-      {
-       "a": "atmosphere",
-       "b": "atmosfer"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "Mars means \"Jüpiter\".",
+     "answer": false,
+     "explain": "Mars means \"Mars\"."
     }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Space words",
-   "items": [
-    {
-     "en": "distance",
-     "tr": "mesafe",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "bright",
-     "tr": "parlak",
-     "img": "/content/g6/shared/img/8619.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/8619",
-     "imageFit": "contain"
-    },
-    {
-     "en": "visible",
-     "tr": "görünür",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "alive",
-     "tr": "canlı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "distance",
-       "b": "mesafe"
-      },
-      {
-       "a": "bright",
-       "b": "parlak"
-      },
-      {
-       "a": "visible",
-       "b": "görünür"
-      },
-      {
-       "a": "alive",
-       "b": "canlı"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Extreme weather",
-   "items": [
-    {
-     "en": "storm",
-     "tr": "fırtına",
-     "img": "/content/g6/shared/img/2814.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2814",
-     "imageFit": "contain"
-    },
-    {
-     "en": "thunder",
-     "tr": "gök gürültüsü",
-     "img": "/content/g6/shared/img/3225.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/3225",
-     "imageFit": "contain"
-    },
-    {
-     "en": "lightning",
-     "tr": "şimşek",
-     "img": "/content/g6/shared/img/2819.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2819",
-     "imageFit": "contain"
-    },
-    {
-     "en": "flood",
-     "tr": "sel",
-     "img": "/app/img/words/flood.jpg",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "storm",
-       "b": "fırtına"
-      },
-      {
-       "a": "thunder",
-       "b": "gök gürültüsü"
-      },
-      {
-       "a": "lightning",
-       "b": "şimşek"
-      },
-      {
-       "a": "flood",
-       "b": "sel"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Extreme weather",
-   "items": [
-    {
-     "en": "drought",
-     "tr": "kuraklık",
-     "img": "/app/img/words/drought.jpg",
-     "imageFit": "contain"
-    },
-    {
-     "en": "tornado",
-     "tr": "hortum",
-     "img": "/app/img/words/tornado.jpg",
-     "imageFit": "contain"
-    },
-    {
-     "en": "blizzard",
-     "tr": "tipi",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "hurricane",
-     "tr": "kasırga",
-     "img": "/app/img/words/hurricane.jpg",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "drought",
-       "b": "kuraklık"
-      },
-      {
-       "a": "tornado",
-       "b": "hortum"
-      },
-      {
-       "a": "blizzard",
-       "b": "tipi"
-      },
-      {
-       "a": "hurricane",
-       "b": "kasırga"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Future life",
-   "items": [
-    {
-     "en": "technology",
-     "tr": "teknoloji",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "invent",
-     "tr": "icat etmek",
-     "img": "/content/g6/shared/img/6019.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/6019",
-     "imageFit": "contain"
-    },
-    {
-     "en": "predict",
-     "tr": "tahmin etmek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "expert",
-     "tr": "uzman",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "technology",
-       "b": "teknoloji"
-      },
-      {
-       "a": "invent",
-       "b": "icat etmek"
-      },
-      {
-       "a": "predict",
-       "b": "tahmin etmek"
-      },
-      {
-       "a": "expert",
-       "b": "uzman"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Future life",
-   "items": [
-    {
-     "en": "evidence",
-     "tr": "kanıt",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "intention",
-     "tr": "niyet",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "population",
-     "tr": "nüfus",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "source",
-     "tr": "kaynak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "evidence",
-       "b": "kanıt"
-      },
-      {
-       "a": "intention",
-       "b": "niyet"
-      },
-      {
-       "a": "population",
-       "b": "nüfus"
-      },
-      {
-       "a": "source",
-       "b": "kaynak"
-      }
-     ]
-    }
-   ]
+   ],
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -533,9 +258,16 @@
      "trEm": [
       "yapacağız"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/37979.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37979",
+     "imageFit": "contain",
+     "imageCue": "A path around a planet or star",
+     "imageConcept": "solar system"
     }
-   ]
+   ],
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -549,17 +281,24 @@
      "trEm": [
       "kullanmayacak"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/10288.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/10288",
+     "imageFit": "contain",
+     "imageConcept": "plastic"
     }
-   ]
+   ],
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Our plan is ready. We ___ Mars tomorrow.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Our plan is ready. We ___ Mars tomorrow.",
      "answer": "are going to study",
      "options": [
       "are going to study",
@@ -569,15 +308,18 @@
      ]
     }
    ],
-   "grammarId": "going-to-plans"
+   "grammarId": "going-to-plans",
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "Ada has decided to draw Saturn. She ___ it tonight.",
+     "text": "Ada has decided to draw Saturn. She ___ it tonight.",
      "answer": "is going to draw",
      "options": [
       "is going to draw",
@@ -587,75 +329,259 @@
      ]
     }
    ],
-   "grammarId": "going-to-plans"
+   "grammarId": "going-to-plans",
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
-   "type": "grammar",
-   "title": "Evidence now",
-   "rule": "Şu anda görülen kanıta dayanarak beklenen olay için be going to kullanılır. Kanıtı cümlede belirt.",
-   "grammarId": "going-to-evidence",
-   "examples": [
-    {
-     "en": "Look at the dark sky. It *is going to rain*.",
-     "tr": "Karanlık gökyüzüne bak. Yağmur yağacak.",
-     "trEm": [
-      "Yağmur yağacak"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Evidence now",
-   "rule": "Şu anda görülen kanıta dayanarak beklenen olay için be going to kullanılır. Kanıtı cümlede belirt.",
-   "grammarId": "going-to-evidence",
-   "examples": [
-    {
-     "en": "That model is falling. It *is going to break*.",
-     "tr": "O model düşüyor. Kırılacak.",
-     "trEm": [
-      "Kırılacak"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "going-to-plans",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We are going to make a planet model.",
+      "tr": "Bir gezegen modeli yapacağız."
+     }
+    ]
+   },
+   "topic": "The solar system",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Build a planet model",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Look! The cup is falling. It ___.",
-     "answer": "is going to break",
-     "options": [
-      "is going to break",
-      "are going to break",
-      "is going break",
-      "going to break"
-     ]
+     "kind": "flash",
+     "q": "Choose a planet. Explain what you are going to use and how you are going to make it.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "going-to-evidence"
+   "topic": "The solar system",
+   "topicIndex": 1
+  },
+  {
+   "type": "vocab",
+   "title": "Space words",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "Sun",
+     "tr": "Güneş",
+     "img": "/content/g6/shared/img/2798.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2798",
+     "imageFit": "contain",
+     "imageConcept": "sun"
+    },
+    {
+     "en": "Moon",
+     "tr": "Ay",
+     "img": "/content/g6/shared/img/2933.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2933",
+     "imageFit": "contain",
+     "imageConcept": "moon"
+    },
+    {
+     "en": "orbit",
+     "tr": "yörünge",
+     "img": "/content/g6/shared/img/37979.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37979",
+     "imageFit": "contain",
+     "imageCue": "A path around a planet or star",
+     "pictureQuiz": false,
+     "imageConcept": "solar system"
+    },
+    {
+     "en": "atmosphere",
+     "tr": "atmosfer",
+     "img": "/content/g6/shared/img/10289.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10289",
+     "imageFit": "contain",
+     "imageConcept": "atmosphere"
+    }
+   ],
+   "topic": "Space words",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The clouds are very dark. A storm ___.",
-     "answer": "is going to start",
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "Sun",
      "options": [
-      "is going to start",
-      "are going to start",
-      "is going start",
-      "going start"
-     ]
+      "Sun",
+      "Moon",
+      "orbit",
+      "atmosphere"
+     ],
+     "tr": "Güneş",
+     "img": "/content/g6/shared/img/2798.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2798",
+     "imageFit": "contain",
+     "imageConcept": "sun"
     }
    ],
-   "grammarId": "going-to-evidence"
+   "topic": "Space words",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Space words",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "distance",
+     "tr": "mesafe",
+     "img": "/content/g6/shared/img/8154.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8154",
+     "imageFit": "contain",
+     "imageCue": "How far apart?",
+     "pictureQuiz": false,
+     "imageConcept": "distance"
+    },
+    {
+     "en": "bright",
+     "tr": "parlak",
+     "img": "/content/g6/shared/img/8619.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/8619",
+     "imageFit": "contain",
+     "imageCue": "Giving a lot of light",
+     "pictureQuiz": false,
+     "imageConcept": "brightness"
+    },
+    {
+     "en": "visible",
+     "tr": "görünür",
+     "img": "/content/g6/shared/img/2474.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2474",
+     "imageFit": "contain",
+     "imageCue": "You can see it",
+     "pictureQuiz": false,
+     "imageConcept": "see"
+    },
+    {
+     "en": "alive",
+     "tr": "canlı",
+     "img": "/content/g6/shared/img/11397.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11397",
+     "imageFit": "contain",
+     "imageConcept": "alive"
+    }
+   ],
+   "topic": "Space words",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "alive",
+     "options": [
+      "distance",
+      "bright",
+      "visible",
+      "alive"
+     ],
+     "tr": "canlı",
+     "img": "/content/g6/shared/img/11397.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11397",
+     "imageFit": "contain",
+     "imageConcept": "alive"
+    }
+   ],
+   "topic": "Space words",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "Sun",
+      "tr": "Güneş",
+      "img": "/content/g6/shared/img/2798.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2798",
+      "imageFit": "contain",
+      "imageConcept": "sun",
+      "audio": "/app/audio/words/sun.wav"
+     },
+     {
+      "en": "Moon",
+      "tr": "Ay",
+      "img": "/content/g6/shared/img/2933.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2933",
+      "imageFit": "contain",
+      "imageConcept": "moon",
+      "audio": "/app/audio/words/moon.wav"
+     },
+     {
+      "en": "atmosphere",
+      "tr": "atmosfer",
+      "img": "/content/g6/shared/img/10289.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/10289",
+      "imageFit": "contain",
+      "imageConcept": "atmosphere",
+      "audio": "/app/audio/words/atmosphere.wav"
+     },
+     {
+      "en": "alive",
+      "tr": "canlı",
+      "img": "/content/g6/shared/img/11397.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/11397",
+      "imageFit": "contain",
+      "imageConcept": "alive",
+      "audio": "/app/audio/words/alive.wav"
+     }
+    ]
+   },
+   "topic": "Space words",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "atmosphere means \"mesafe\".",
+     "answer": false,
+     "explain": "atmosphere means \"atmosfer\"."
+    }
+   ],
+   "topic": "Space words",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -669,9 +595,16 @@
      "trEm": [
       "tasarrufu yapacak"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/8027.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8027",
+     "imageFit": "contain",
+     "imageCue": "Use less energy or water",
+     "imageConcept": "save"
     }
-   ]
+   ],
+   "topic": "Space words",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -685,17 +618,23 @@
      "trEm": [
       "kurumaz"
      ],
-     "textOnly": true
+     "img": "/app/img/words/drought.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "drought"
     }
-   ]
+   ],
+   "topic": "Space words",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "I think people ___ new kinds of vehicles.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "I think people ___ new kinds of vehicles.",
      "answer": "will invent",
      "options": [
       "will invent",
@@ -705,15 +644,18 @@
      ]
     }
    ],
-   "grammarId": "will-predictions"
+   "grammarId": "will-predictions",
+   "topic": "Space words",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "I hope tomorrow ___ stormy.",
+     "text": "I hope tomorrow ___ stormy.",
      "answer": "won't be",
      "options": [
       "won't be",
@@ -723,199 +665,43 @@
      ]
     }
    ],
-   "grammarId": "will-predictions"
+   "grammarId": "will-predictions",
+   "topic": "Space words",
+   "topicIndex": 2
   },
   {
-   "type": "grammar",
-   "title": "Asking about the future",
-   "rule": "Will + özne + yalın fiil? / Am-Is-Are + özne + going to + yalın fiil? Yardımcı fiile uygun kısa cevap kullan.",
-   "grammarId": "future-questions",
-   "examples": [
-    {
-     "en": "*Will* the weather *change* tomorrow?",
-     "tr": "Yarın hava değişecek mi?",
-     "trEm": [
-      "değişecek mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Asking about the future",
-   "rule": "Will + özne + yalın fiil? / Am-Is-Are + özne + going to + yalın fiil? Yardımcı fiile uygun kısa cevap kullan.",
-   "grammarId": "future-questions",
-   "examples": [
-    {
-     "en": "*Are* you *going to visit* the planetarium?",
-     "tr": "Planetaryumu ziyaret edecek misin?",
-     "trEm": [
-      "ziyaret edecek misin"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "will-predictions",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "I think future homes will save more energy.",
+      "tr": "Bence gelecekteki evler daha çok enerji tasarrufu yapacak."
+     }
+    ]
+   },
+   "topic": "Space words",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Life in the future",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ they going to present their model on Friday?",
-     "answer": "Are",
-     "options": [
-      "Are",
-      "Will",
-      "Do",
-      "Does"
-     ]
+     "kind": "flash",
+     "q": "Make two predictions about homes or energy. Your partner says whether they agree.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "future-questions"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Will the new technology help? Yes, it ___.",
-     "answer": "will",
-     "options": [
-      "will",
-      "is",
-      "does",
-      "did"
-     ]
-    }
-   ],
-   "grammarId": "future-questions"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Is Maya going to join us? No, she ___.",
-     "answer": "isn't",
-     "options": [
-      "isn't",
-      "won't",
-      "doesn't",
-      "aren't"
-     ]
-    }
-   ],
-   "grammarId": "future-questions"
-  },
-  {
-   "type": "grammar",
-   "title": "Checking a future idea",
-   "rule": "Will cümlesi + won't; won't cümlesi + will. Be going to yapısında ek soru am/is/are ile kurulur.",
-   "grammarId": "future-tags",
-   "examples": [
-    {
-     "en": "Your model will be ready, *won't it*?",
-     "tr": "Modelin hazır olacak, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Checking a future idea",
-   "rule": "Will cümlesi + won't; won't cümlesi + will. Be going to yapısında ek soru am/is/are ile kurulur.",
-   "grammarId": "future-tags",
-   "examples": [
-    {
-     "en": "They are going to help, *aren't they*?",
-     "tr": "Yardım edecekler, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Checking a future idea",
-   "rule": "Will cümlesi + won't; won't cümlesi + will. Be going to yapısında ek soru am/is/are ile kurulur.",
-   "grammarId": "future-tags",
-   "examples": [
-    {
-     "en": "She isn't going to travel, *is she*?",
-     "tr": "Seyahat etmeyecek, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The experts won't arrive late, ___?",
-     "answer": "will they",
-     "options": [
-      "will they",
-      "won't they",
-      "are they",
-      "do they"
-     ]
-    }
-   ],
-   "grammarId": "future-tags"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Lina is going to draw Earth, ___?",
-     "answer": "isn't she",
-     "options": [
-      "isn't she",
-      "won't she",
-      "doesn't she",
-      "is she"
-     ]
-    }
-   ],
-   "grammarId": "future-tags"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "We will save energy, ___?",
-     "answer": "won't we",
-     "options": [
-      "won't we",
-      "don't we",
-      "aren't we",
-      "will we"
-     ]
-    }
-   ],
-   "grammarId": "future-tags"
+   "topic": "Space words",
+   "topicIndex": 2
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -931,11 +717,337 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Space words",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Extreme weather",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "storm",
+     "tr": "fırtına",
+     "img": "/content/g6/shared/img/2814.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2814",
+     "imageFit": "contain",
+     "imageConcept": "storm"
+    },
+    {
+     "en": "thunder",
+     "tr": "gök gürültüsü",
+     "img": "/content/g6/shared/img/3225.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/3225",
+     "imageFit": "contain",
+     "imageConcept": "thunder"
+    },
+    {
+     "en": "lightning",
+     "tr": "şimşek",
+     "img": "/content/g6/shared/img/2819.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2819",
+     "imageFit": "contain",
+     "imageConcept": "lightning"
+    },
+    {
+     "en": "flood",
+     "tr": "sel",
+     "img": "/app/img/words/flood.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "flood"
+    }
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "storm",
+     "options": [
+      "storm",
+      "thunder",
+      "lightning",
+      "flood"
+     ],
+     "tr": "fırtına",
+     "img": "/content/g6/shared/img/2814.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2814",
+     "imageFit": "contain",
+     "imageConcept": "storm"
+    }
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Extreme weather",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "drought",
+     "tr": "kuraklık",
+     "img": "/app/img/words/drought.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "drought"
+    },
+    {
+     "en": "tornado",
+     "tr": "hortum",
+     "img": "/app/img/words/tornado.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "tornado"
+    },
+    {
+     "en": "blizzard",
+     "tr": "tipi",
+     "img": "/content/g6/shared/img/3135.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3135",
+     "imageFit": "contain",
+     "imageCue": "Heavy snow and strong wind",
+     "pictureQuiz": false,
+     "imageConcept": "snowfall"
+    },
+    {
+     "en": "hurricane",
+     "tr": "kasırga",
+     "img": "/app/img/words/hurricane.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "hurricane"
+    }
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "drought",
+     "options": [
+      "drought",
+      "tornado",
+      "blizzard",
+      "hurricane"
+     ],
+     "tr": "kuraklık",
+     "img": "/app/img/words/drought.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "drought"
+    }
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "storm",
+      "tr": "fırtına",
+      "img": "/content/g6/shared/img/2814.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2814",
+      "imageFit": "contain",
+      "imageConcept": "storm",
+      "audio": "/app/audio/words/storm.wav"
+     },
+     {
+      "en": "thunder",
+      "tr": "gök gürültüsü",
+      "img": "/content/g6/shared/img/3225.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/3225",
+      "imageFit": "contain",
+      "imageConcept": "thunder",
+      "audio": "/app/audio/words/thunder.wav"
+     },
+     {
+      "en": "lightning",
+      "tr": "şimşek",
+      "img": "/content/g6/shared/img/2819.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2819",
+      "imageFit": "contain",
+      "imageConcept": "lightning",
+      "audio": "/app/audio/words/lightning.wav"
+     },
+     {
+      "en": "flood",
+      "tr": "sel",
+      "img": "/app/img/words/flood.jpg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "flood",
+      "audio": "/app/audio/words/flood.wav"
+     }
+    ]
+   },
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "flood means \"kuraklık\".",
+     "answer": false,
+     "explain": "flood means \"sel\"."
+    }
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Evidence now",
+   "rule": "Şu anda görülen kanıta dayanarak beklenen olay için be going to kullanılır. Kanıtı cümlede belirt.",
+   "grammarId": "going-to-evidence",
+   "examples": [
+    {
+     "en": "Look at the dark sky. It *is going to rain*.",
+     "tr": "Karanlık gökyüzüne bak. Yağmur yağacak.",
+     "trEm": [
+      "Yağmur yağacak"
+     ],
+     "img": "/content/g6/shared/img/2814.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2814",
+     "imageFit": "contain",
+     "imageConcept": "storm"
+    }
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Evidence now",
+   "rule": "Şu anda görülen kanıta dayanarak beklenen olay için be going to kullanılır. Kanıtı cümlede belirt.",
+   "grammarId": "going-to-evidence",
+   "examples": [
+    {
+     "en": "That model is falling. It *is going to break*.",
+     "tr": "O model düşüyor. Kırılacak.",
+     "trEm": [
+      "Kırılacak"
+     ],
+     "img": "/content/g6/shared/img/6019.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/6019",
+     "imageFit": "contain",
+     "imageConcept": "invent"
+    }
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Look! The cup is falling. It ___.",
+     "answer": "is going to break",
+     "options": [
+      "is going to break",
+      "are going to break",
+      "is going break",
+      "going to break"
+     ]
+    }
+   ],
+   "grammarId": "going-to-evidence",
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The clouds are very dark. A storm ___.",
+     "text": "The clouds are very dark. A storm ___.",
+     "answer": "is going to start",
+     "options": [
+      "is going to start",
+      "are going to start",
+      "is going start",
+      "going start"
+     ]
+    }
+   ],
+   "grammarId": "going-to-evidence",
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "going-to-evidence",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Look at the dark sky. It is going to rain.",
+      "tr": "Karanlık gökyüzüne bak. Yağmur yağacak."
+     }
+    ]
+   },
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Look at the evidence",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Imagine dark clouds or a model near a table edge. Say what is going to happen and why.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -951,12 +1063,502 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Extreme weather",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Future life",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "technology",
+     "tr": "teknoloji",
+     "img": "/content/g6/shared/img/11459.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11459",
+     "imageFit": "contain",
+     "imageConcept": "technology"
+    },
+    {
+     "en": "invent",
+     "tr": "icat etmek",
+     "img": "/content/g6/shared/img/6019.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/6019",
+     "imageFit": "contain",
+     "imageConcept": "invent"
+    },
+    {
+     "en": "predict",
+     "tr": "tahmin etmek",
+     "img": "/content/g6/shared/img/24721.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/24721",
+     "imageFit": "contain",
+     "imageCue": "Say what may happen",
+     "pictureQuiz": false,
+     "imageConcept": "predict"
+    },
+    {
+     "en": "expert",
+     "tr": "uzman",
+     "img": "/content/g6/shared/img/11217.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11217",
+     "imageFit": "contain",
+     "imageCue": "Knows a subject very well",
+     "pictureQuiz": false,
+     "imageConcept": "specialist"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "technology",
+     "options": [
+      "technology",
+      "invent",
+      "predict",
+      "expert"
+     ],
+     "tr": "teknoloji",
+     "img": "/content/g6/shared/img/11459.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11459",
+     "imageFit": "contain",
+     "imageConcept": "technology"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "vocab",
+   "title": "Future life",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "evidence",
+     "tr": "kanıt",
+     "img": "/content/g6/shared/img/9927.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/9927",
+     "imageFit": "contain",
+     "imageCue": "Clues that support an idea",
+     "pictureQuiz": false,
+     "imageConcept": "magnifying glass"
+    },
+    {
+     "en": "intention",
+     "tr": "niyet",
+     "img": "/content/g6/shared/img/11706.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11706",
+     "imageFit": "contain",
+     "imageCue": "Something you plan to do",
+     "pictureQuiz": false,
+     "imageConcept": "plan"
+    },
+    {
+     "en": "population",
+     "tr": "nüfus",
+     "img": "/content/g6/shared/img/7116.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7116",
+     "imageFit": "contain",
+     "imageCue": "People living in a place",
+     "pictureQuiz": false,
+     "imageConcept": "people"
+    },
+    {
+     "en": "source",
+     "tr": "kaynak",
+     "img": "/content/g6/shared/img/2450.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2450",
+     "imageFit": "contain",
+     "imageCue": "Where information comes from",
+     "pictureQuiz": false,
+     "imageConcept": "origin"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Say it in English",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say the English word before you reveal it.",
+     "clue": "kanıt",
+     "answer": "evidence",
+     "img": "/content/g6/shared/img/9927.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/9927",
+     "imageFit": "contain",
+     "imageCue": "Clues that support an idea",
+     "imageConcept": "magnifying glass"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Word partners",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match each word with its meaning.",
+     "pairs": [
+      {
+       "a": "predict",
+       "b": "tahmin etmek"
+      },
+      {
+       "a": "expert",
+       "b": "uzman"
+      },
+      {
+       "a": "evidence",
+       "b": "kanıt"
+      },
+      {
+       "a": "intention",
+       "b": "niyet"
+      }
+     ]
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "expert means \"kanıt\".",
+     "answer": false,
+     "explain": "expert means \"uzman\"."
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Asking about the future",
+   "rule": "Will + özne + yalın fiil? / Am-Is-Are + özne + going to + yalın fiil? Yardımcı fiile uygun kısa cevap kullan.",
+   "grammarId": "future-questions",
+   "examples": [
+    {
+     "en": "*Will* the weather *change* tomorrow?",
+     "tr": "Yarın hava değişecek mi?",
+     "trEm": [
+      "değişecek mi"
+     ],
+     "img": "/content/g6/shared/img/24721.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/24721",
+     "imageFit": "contain",
+     "imageCue": "Say what may happen",
+     "imageConcept": "predict"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Asking about the future",
+   "rule": "Will + özne + yalın fiil? / Am-Is-Are + özne + going to + yalın fiil? Yardımcı fiile uygun kısa cevap kullan.",
+   "grammarId": "future-questions",
+   "examples": [
+    {
+     "en": "*Are* you *going to visit* the planetarium?",
+     "tr": "Planetaryumu ziyaret edecek misin?",
+     "trEm": [
+      "ziyaret edecek misin"
+     ],
+     "img": "/content/g6/shared/img/37979.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37979",
+     "imageFit": "contain",
+     "imageCue": "A path around a planet or star",
+     "imageConcept": "solar system"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ they going to present their model on Friday?",
+     "answer": "Are",
+     "options": [
+      "Are",
+      "Will",
+      "Do",
+      "Does"
+     ]
+    }
+   ],
+   "grammarId": "future-questions",
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Will the new technology help? Yes, it ___.",
+     "text": "Will the new technology help? Yes, it ___.",
+     "answer": "will",
+     "options": [
+      "will",
+      "is",
+      "does",
+      "did"
+     ]
+    }
+   ],
+   "grammarId": "future-questions",
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Is Maya going to join us? No, she ___.",
+     "answer": "isn't",
+     "options": [
+      "isn't",
+      "won't",
+      "doesn't",
+      "aren't"
+     ]
+    }
+   ],
+   "grammarId": "future-questions",
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "future-questions",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Will the weather change tomorrow?",
+      "tr": "Yarın hava değişecek mi?"
+     }
+    ]
+   },
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a future idea",
+   "rule": "Will cümlesi + won't; won't cümlesi + will. Be going to yapısında ek soru am/is/are ile kurulur.",
+   "grammarId": "future-tags",
+   "examples": [
+    {
+     "en": "Your model will be ready, *won't it*?",
+     "tr": "Modelin hazır olacak, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/37979.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37979",
+     "imageFit": "contain",
+     "imageCue": "A path around a planet or star",
+     "imageConcept": "solar system"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a future idea",
+   "rule": "Will cümlesi + won't; won't cümlesi + will. Be going to yapısında ek soru am/is/are ile kurulur.",
+   "grammarId": "future-tags",
+   "examples": [
+    {
+     "en": "They are going to help, *aren't they*?",
+     "tr": "Yardım edecekler, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/4570.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/4570",
+     "imageFit": "contain",
+     "imageConcept": "help"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The experts won't arrive late, ___?",
+     "answer": "will they",
+     "options": [
+      "will they",
+      "won't they",
+      "are they",
+      "do they"
+     ]
+    }
+   ],
+   "grammarId": "future-tags",
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a future idea",
+   "rule": "Will cümlesi + won't; won't cümlesi + will. Be going to yapısında ek soru am/is/are ile kurulur.",
+   "grammarId": "future-tags",
+   "examples": [
+    {
+     "en": "She isn't going to travel, *is she*?",
+     "tr": "Seyahat etmeyecek, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/21421.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/21421",
+     "imageFit": "contain",
+     "imageConcept": "ship"
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Lina is going to draw Earth, ___?",
+     "text": "Lina is going to draw Earth, ___?",
+     "answer": "isn't she",
+     "options": [
+      "isn't she",
+      "won't she",
+      "doesn't she",
+      "is she"
+     ]
+    }
+   ],
+   "grammarId": "future-tags",
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "We will save energy, ___?",
+     "answer": "won't we",
+     "options": [
+      "won't we",
+      "don't we",
+      "aren't we",
+      "will we"
+     ]
+    }
+   ],
+   "grammarId": "future-tags",
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "future-tags",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Your model will be ready, won't it?",
+      "tr": "Modelin hazır olacak, değil mi?"
+     }
+    ]
+   },
+   "topic": "Future life",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Our future fair",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Agree on a project. Ask about plans, make a prediction and check one detail with a question tag.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Future life",
+   "topicIndex": 4
   },
   {
    "type": "scene",
    "title": "The future classroom",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/37979.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/37979",
+   "imageFit": "contain",
+   "imageCue": "A path around a planet or star",
+   "imageConcept": "solar system",
    "bubbles": [
     {
      "text": "Our science club is going to hold a future fair next month. Noor is going to make a model of the solar system. Leo is going to collect pictures of extreme weather. His display will include floods, droughts and blizzards."
@@ -966,7 +1568,12 @@
   {
    "type": "scene",
    "title": "The future classroom",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/37979.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/37979",
+   "imageFit": "contain",
+   "imageCue": "A path around a planet or star",
+   "imageConcept": "solar system",
    "bubbles": [
     {
      "text": "Maya wants to invent a classroom lamp that uses less energy. She thinks new technology will help schools in the future. These are ideas and predictions, not facts about the future. The group has a clear plan: they are going to use old boxes for every model."
@@ -975,7 +1582,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -986,7 +1593,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -997,7 +1604,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1008,7 +1615,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1018,142 +1625,57 @@
    ]
   },
   {
-   "type": "mission",
-   "title": "Picture match",
-   "task": {
-    "kind": "dragmatch",
-    "items": [
-     {
-      "en": "bright",
-      "tr": "parlak",
-      "img": "/content/g6/shared/img/8619.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/8619",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/bright.wav"
-     },
-     {
-      "en": "storm",
-      "tr": "fırtına",
-      "img": "/content/g6/shared/img/2814.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/2814",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/storm.wav"
-     },
-     {
-      "en": "thunder",
-      "tr": "gök gürültüsü",
-      "img": "/content/g6/shared/img/3225.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/3225",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/thunder.wav"
-     },
-     {
-      "en": "lightning",
-      "tr": "şimşek",
-      "img": "/content/g6/shared/img/2819.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/2819",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/lightning.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Leo is collecting extreme weather pictures.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Listen and find",
-   "task": {
-    "kind": "listenpicture",
-    "items": [
-     {
-      "en": "bright",
-      "tr": "parlak",
-      "img": "/content/g6/shared/img/8619.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/8619",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/bright.wav"
-     },
-     {
-      "en": "storm",
-      "tr": "fırtına",
-      "img": "/content/g6/shared/img/2814.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/2814",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/storm.wav"
-     },
-     {
-      "en": "thunder",
-      "tr": "gök gürültüsü",
-      "img": "/content/g6/shared/img/3225.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/3225",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/thunder.wav"
-     },
-     {
-      "en": "lightning",
-      "tr": "şimşek",
-      "img": "/content/g6/shared/img/2819.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/2819",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/lightning.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Maya's prediction is a certain fact.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Sentence workshop",
-   "task": {
-    "kind": "dragorder",
-    "sentences": [
-     {
-      "answer": "We are going to make a planet model.",
-      "tr": "Bir gezegen modeli yapacağız."
-     },
-     {
-      "answer": "Lina isn't going to use plastic for it.",
-      "tr": "Lina bunun için plastik kullanmayacak."
-     },
-     {
-      "answer": "Look at the dark sky. It is going to rain.",
-      "tr": "Karanlık gökyüzüne bak. Yağmur yağacak."
-     },
-     {
-      "answer": "That model is falling. It is going to break.",
-      "tr": "O model düşüyor. Kırılacak."
-     },
-     {
-      "answer": "I think future homes will save more energy.",
-      "tr": "Bence gelecekteki evler daha çok enerji tasarrufu yapacak."
-     },
-     {
-      "answer": "I hope the river won't dry up.",
-      "tr": "Umarım nehir kurumaz."
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "They plan to buy new plastic boxes.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Your turn to speak",
-   "task": {
-    "kind": "flash",
-    "q": "Plan a future fair with a partner. Say what you are going to make. Add two predictions beginning I think or I hope. Check one plan and one prediction with question tags.",
-    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
-   }
+   "type": "exercise",
+   "title": "One-minute exit ticket",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say two new words and make one sentence about today’s theme.",
+     "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
+    }
+   ]
   },
   {
    "type": "end",
-   "title": "Ready for more practice",
+   "title": "Well done!",
    "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
-   "emoji": "🎯"
+   "emoji": "🚀"
   }
  ]
 }

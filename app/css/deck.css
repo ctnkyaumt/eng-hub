@@ -88,6 +88,7 @@
 .vcard .pic {
   width: 100%; height: 100%; object-fit: contain; display: block;
 }
+.vcard .image-cue { margin-top: 8px; color: #cbd5e1; font-size: 16px; line-height: 1.25; }
 .vcard .ic {
   font-size: 68px; line-height: 1; display: block;
   filter: drop-shadow(0 2px 1px rgba(7,17,31,.28));

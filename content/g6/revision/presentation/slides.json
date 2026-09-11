@@ -4,9 +4,10 @@
  "emoji": "🔄",
  "authored": true,
  "curriculum": "meb-english-6-2026",
+ "visualStyle": "illustrated",
  "accent": [
-  "#0d9488",
-  "#2563eb"
+  "#38bdf8",
+  "#6366f1"
  ],
  "source": {
   "studentBook": {
@@ -23,495 +24,218 @@
  "slides": [
   {
    "type": "title",
-   "kicker": "REVISION 1 & 2",
    "title": "Revision",
    "titleTr": "Genel Tekrar",
    "emoji": "🔄"
   },
   {
-   "type": "scene",
-   "title": "Our lesson",
-   "emoji": "🔄",
-   "bubbles": [
-    {
-     "text": "Review school, personal and family life."
-    },
-    {
-     "text": "Review the city, food, animals and holiday plans."
-    }
-   ]
-  },
-  {
    "type": "vocab",
-   "title": "Revision 1: school",
+   "title": "school",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "library",
      "tr": "kütüphane",
-     "img": "/content/g5/u1/presentation/img/p01-12.png",
-     "imageFit": "contain"
+     "img": "/content/g6/shared/img/3065.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3065",
+     "imageFit": "contain",
+     "imageConcept": "library"
     },
     {
      "en": "laboratory",
      "tr": "laboratuvar",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/8150.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8150",
+     "imageFit": "contain",
+     "imageConcept": "laboratory"
     },
     {
      "en": "canteen",
      "tr": "kantin",
-     "img": "/content/g5/u1/presentation/img/p01-11.png",
-     "imageFit": "contain"
+     "img": "/content/g6/shared/img/9824.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/9824",
+     "imageFit": "contain",
+     "imageConcept": "canteen"
     },
     {
      "en": "playground",
      "tr": "oyun alanı",
      "img": "/content/g5/u5/presentation/img/p01-12.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "playground"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "library",
-       "b": "kütüphane"
-      },
-      {
-       "a": "laboratory",
-       "b": "laboratuvar"
-      },
-      {
-       "a": "canteen",
-       "b": "kantin"
-      },
-      {
-       "a": "playground",
-       "b": "oyun alanı"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "library",
+     "options": [
+      "library",
+      "laboratory",
+      "canteen",
+      "playground"
+     ],
+     "tr": "kütüphane",
+     "img": "/content/g6/shared/img/3065.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3065",
+     "imageFit": "contain",
+     "imageConcept": "library"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
-   "title": "Revision 1: school",
+   "title": "school",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "science",
      "tr": "fen bilimleri",
      "img": "/content/g5/u2/presentation/img/p05-02.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "science"
     },
     {
      "en": "music",
      "tr": "müzik",
      "img": "/content/g5/u2/presentation/img/p05-07.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "music"
     },
     {
      "en": "timetable",
      "tr": "ders programı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/6012.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6012",
+     "imageFit": "contain",
+     "imageConcept": "timetable"
     },
     {
      "en": "club",
      "tr": "kulüp",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/29919.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/29919",
+     "imageFit": "contain",
+     "imageCue": "People with a shared interest",
+     "pictureQuiz": false,
+     "imageConcept": "club"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "science",
-       "b": "fen bilimleri"
-      },
-      {
-       "a": "music",
-       "b": "müzik"
-      },
-      {
-       "a": "timetable",
-       "b": "ders programı"
-      },
-      {
-       "a": "club",
-       "b": "kulüp"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "science",
+     "options": [
+      "science",
+      "music",
+      "timetable",
+      "club"
+     ],
+     "tr": "fen bilimleri",
+     "img": "/content/g5/u2/presentation/img/p05-02.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "science"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
-   "type": "vocab",
-   "title": "Revision 1: personal and family life",
-   "items": [
-    {
-     "en": "cousin",
-     "tr": "kuzen",
-     "img": "/content/g5/u4/presentation/img/p01-09.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "grandparents",
-     "tr": "büyükanne ve büyükbaba",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "curly hair",
-     "tr": "kıvırcık saç",
-     "img": "/app/img/vocab/physical-curly.svg",
-     "imageFit": "contain"
-    },
-    {
-     "en": "straight hair",
-     "tr": "düz saç",
-     "img": "/app/img/vocab/physical-straight.svg",
-     "imageFit": "contain"
-    }
-   ]
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "library",
+      "tr": "kütüphane",
+      "img": "/content/g6/shared/img/3065.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/3065",
+      "imageFit": "contain",
+      "imageConcept": "library",
+      "audio": "/app/audio/words/library.wav"
+     },
+     {
+      "en": "laboratory",
+      "tr": "laboratuvar",
+      "img": "/content/g6/shared/img/8150.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8150",
+      "imageFit": "contain",
+      "imageConcept": "laboratory",
+      "audio": "/app/audio/words/laboratory.wav"
+     },
+     {
+      "en": "canteen",
+      "tr": "kantin",
+      "img": "/content/g6/shared/img/9824.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/9824",
+      "imageFit": "contain",
+      "imageConcept": "canteen",
+      "audio": "/app/audio/words/canteen.wav"
+     },
+     {
+      "en": "playground",
+      "tr": "oyun alanı",
+      "img": "/content/g5/u5/presentation/img/p01-12.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "playground",
+      "audio": "/app/audio/words/playground.wav"
+     }
+    ]
+   },
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "True or false?",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "cousin",
-       "b": "kuzen"
-      },
-      {
-       "a": "grandparents",
-       "b": "büyükanne ve büyükbaba"
-      },
-      {
-       "a": "curly hair",
-       "b": "kıvırcık saç"
-      },
-      {
-       "a": "straight hair",
-       "b": "düz saç"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "playground means \"fen bilimleri\".",
+     "answer": false,
+     "explain": "playground means \"oyun alanı\"."
     }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Revision 1: personal and family life",
-   "items": [
-    {
-     "en": "jeans",
-     "tr": "kot pantolon",
-     "img": "/content/g5/u3/presentation/img/p02-02.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "raincoat",
-     "tr": "yağmurluk",
-     "img": "/content/g5/u3/presentation/img/p02-04.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "get dressed",
-     "tr": "giyinmek",
-     "img": "/content/g5/u4/presentation/img/p01-19.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "have breakfast",
-     "tr": "kahvaltı yapmak",
-     "img": "/content/g5/u4/presentation/img/p01-22.png",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "jeans",
-       "b": "kot pantolon"
-      },
-      {
-       "a": "raincoat",
-       "b": "yağmurluk"
-      },
-      {
-       "a": "get dressed",
-       "b": "giyinmek"
-      },
-      {
-       "a": "have breakfast",
-       "b": "kahvaltı yapmak"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Revision 2: places and food",
-   "items": [
-    {
-     "en": "park",
-     "tr": "park",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "museum",
-     "tr": "müze",
-     "img": "/content/g5/u5/presentation/img/p01-11.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "restaurant",
-     "tr": "restoran",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "tiny house",
-     "tr": "minik ev",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "park",
-       "b": "park"
-      },
-      {
-       "a": "museum",
-       "b": "müze"
-      },
-      {
-       "a": "restaurant",
-       "b": "restoran"
-      },
-      {
-       "a": "tiny house",
-       "b": "minik ev"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Revision 2: places and food",
-   "items": [
-    {
-     "en": "soup",
-     "tr": "çorba",
-     "img": "/content/g6/shared/img/2573.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2573",
-     "imageFit": "contain"
-    },
-    {
-     "en": "salad",
-     "tr": "salata",
-     "img": "/content/g6/shared/img/2377.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2377",
-     "imageFit": "contain"
-    },
-    {
-     "en": "a slice of cake",
-     "tr": "bir dilim kek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "a bottle of water",
-     "tr": "bir şişe su",
-     "img": "/content/g5/u6/presentation/img/p02-21.png",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "soup",
-       "b": "çorba"
-      },
-      {
-       "a": "salad",
-       "b": "salata"
-      },
-      {
-       "a": "a slice of cake",
-       "b": "bir dilim kek"
-      },
-      {
-       "a": "a bottle of water",
-       "b": "bir şişe su"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Revision 2: nature and holidays",
-   "items": [
-    {
-     "en": "forest",
-     "tr": "orman",
-     "img": "/content/g5/u5/presentation/img/p01-07.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "desert",
-     "tr": "çöl",
-     "img": "/content/g5/u8/presentation/img/p01-05.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "ocean",
-     "tr": "okyanus",
-     "img": "/content/g5/u7/presentation/img/p02-17.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "island",
-     "tr": "ada",
-     "img": "/content/g5/u8/presentation/img/p01-16.png",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "forest",
-       "b": "orman"
-      },
-      {
-       "a": "desert",
-       "b": "çöl"
-      },
-      {
-       "a": "ocean",
-       "b": "okyanus"
-      },
-      {
-       "a": "island",
-       "b": "ada"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Revision 2: nature and holidays",
-   "items": [
-    {
-     "en": "elephant",
-     "tr": "fil",
-     "img": "/content/g6/shared/img/2372.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2372",
-     "imageFit": "contain"
-    },
-    {
-     "en": "parrot",
-     "tr": "papağan",
-     "img": "/content/g6/shared/img/2934.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2934",
-     "imageFit": "contain"
-    },
-    {
-     "en": "camping",
-     "tr": "kamp yapma",
-     "img": "/content/g5/u4/presentation/img/p02-21.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "swimming",
-     "tr": "yüzme",
-     "img": "/content/g5/u4/presentation/img/p02-28.png",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "elephant",
-       "b": "fil"
-      },
-      {
-       "a": "parrot",
-       "b": "papağan"
-      },
-      {
-       "a": "camping",
-       "b": "kamp yapma"
-      },
-      {
-       "a": "swimming",
-       "b": "yüzme"
-      }
-     ]
-    }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -525,9 +249,14 @@
      "trEm": [
       "var"
      ],
-     "textOnly": true
+     "img": "/content/g5/u2/presentation/img/p05-02.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "science"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -541,17 +270,24 @@
      "trEm": [
       "dinlemeliyiz"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/8150.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8150",
+     "imageFit": "contain",
+     "imageConcept": "laboratory"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "There is ___ art room upstairs.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "There is ___ art room upstairs.",
      "answer": "an",
      "options": [
       "an",
@@ -561,15 +297,18 @@
      ]
     }
    ],
-   "grammarId": "r1-school-language"
+   "grammarId": "r1-school-language",
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "___ two clubs after school.",
+     "text": "___ two clubs after school.",
      "answer": "There are",
      "options": [
       "There are",
@@ -579,15 +318,18 @@
      ]
     }
    ],
-   "grammarId": "r1-school-language"
+   "grammarId": "r1-school-language",
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ the door, please.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ the door, please.",
      "answer": "Close",
      "options": [
       "Close",
@@ -597,15 +339,18 @@
      ]
     }
    ],
-   "grammarId": "r1-school-language"
+   "grammarId": "r1-school-language",
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "You ___ follow the laboratory rules.",
+     "text": "You ___ follow the laboratory rules.",
      "answer": "must",
      "options": [
       "must",
@@ -615,7 +360,25 @@
      ]
     }
    ],
-   "grammarId": "r1-school-language"
+   "grammarId": "r1-school-language",
+   "topic": "school",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r1-school-language",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "There is a science club in our school.",
+      "tr": "Okulumuzda fen kulübü var."
+     }
+    ]
+   },
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -629,9 +392,15 @@
      "trEm": [
       "bizim"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/5913.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/5913",
+     "imageFit": "contain",
+     "imageConcept": "classroom"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -645,17 +414,24 @@
      "trEm": [
       "bizi"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/27821.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/27821",
+     "imageFit": "contain",
+     "imageConcept": "guide"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "These are my cousins. ___ live nearby.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "These are my cousins. ___ live nearby.",
      "answer": "They",
      "options": [
       "They",
@@ -665,15 +441,18 @@
      ]
     }
    ],
-   "grammarId": "r1-pronouns"
+   "grammarId": "r1-pronouns",
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "We need a guide. Can you help ___?",
+     "text": "We need a guide. Can you help ___?",
      "answer": "us",
      "options": [
       "us",
@@ -683,15 +462,18 @@
      ]
     }
    ],
-   "grammarId": "r1-pronouns"
+   "grammarId": "r1-pronouns",
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Ben has a blue bag. This is ___ bag.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Ben has a blue bag. This is ___ bag.",
      "answer": "his",
      "options": [
       "his",
@@ -701,7 +483,25 @@
      ]
     }
    ],
-   "grammarId": "r1-pronouns"
+   "grammarId": "r1-pronouns",
+   "topic": "school",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r1-pronouns",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "This is our classroom.",
+      "tr": "Bu bizim sınıfımız."
+     }
+    ]
+   },
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -715,9 +515,14 @@
      "trEm": [
       "giyinir"
      ],
-     "textOnly": true
+     "img": "/content/g5/u4/presentation/img/p01-19.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "get dressed"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -731,17 +536,24 @@
      "trEm": [
       "saat kaçta"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/6012.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6012",
+     "imageFit": "contain",
+     "imageConcept": "timetable"
     }
-   ]
+   ],
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "My cousin ___ breakfast at eight every day.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "My cousin ___ breakfast at eight every day.",
      "answer": "has",
      "options": [
       "has",
@@ -751,15 +563,18 @@
      ]
     }
    ],
-   "grammarId": "r1-time-routines"
+   "grammarId": "r1-time-routines",
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "08:30 is ___.",
+     "text": "08:30 is ___.",
      "answer": "half past eight",
      "options": [
       "half past eight",
@@ -769,15 +584,18 @@
      ]
     }
    ],
-   "grammarId": "r1-time-routines"
+   "grammarId": "r1-time-routines",
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ do you swim? Every Saturday.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ do you swim? Every Saturday.",
      "answer": "How often",
      "options": [
       "How often",
@@ -787,15 +605,18 @@
      ]
     }
    ],
-   "grammarId": "r1-time-routines"
+   "grammarId": "r1-time-routines",
+   "topic": "school",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "Ben doesn't ___ to school.",
+     "text": "Ben doesn't ___ to school.",
      "answer": "walk",
      "options": [
       "walk",
@@ -805,7 +626,239 @@
      ]
     }
    ],
-   "grammarId": "r1-time-routines"
+   "grammarId": "r1-time-routines",
+   "topic": "school",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r1-time-routines",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Maya gets dressed at seven.",
+      "tr": "Maya saat yedide giyinir."
+     }
+    ]
+   },
+   "topic": "school",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Show a visitor around",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Name two school places. Say what you can do there.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "school",
+   "topicIndex": 1
+  },
+  {
+   "type": "vocab",
+   "title": "personal and family life",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "cousin",
+     "tr": "kuzen",
+     "img": "/content/g5/u4/presentation/img/p01-09.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "cousin"
+    },
+    {
+     "en": "grandparents",
+     "tr": "büyükanne ve büyükbaba",
+     "img": "/content/g6/shared/img/6876.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6876",
+     "imageFit": "contain",
+     "imageConcept": "grandparents"
+    },
+    {
+     "en": "curly hair",
+     "tr": "kıvırcık saç",
+     "img": "/app/img/vocab/physical-curly.svg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "curly hair"
+    },
+    {
+     "en": "straight hair",
+     "tr": "düz saç",
+     "img": "/app/img/vocab/physical-straight.svg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "straight-haired"
+    }
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "cousin",
+     "options": [
+      "cousin",
+      "grandparents",
+      "curly hair",
+      "straight hair"
+     ],
+     "tr": "kuzen",
+     "img": "/content/g5/u4/presentation/img/p01-09.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "cousin"
+    }
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "personal and family life",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "jeans",
+     "tr": "kot pantolon",
+     "img": "/content/g5/u3/presentation/img/p02-02.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "jeans"
+    },
+    {
+     "en": "raincoat",
+     "tr": "yağmurluk",
+     "img": "/content/g5/u3/presentation/img/p02-04.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "raincoat"
+    },
+    {
+     "en": "get dressed",
+     "tr": "giyinmek",
+     "img": "/content/g5/u4/presentation/img/p01-19.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "get dressed"
+    },
+    {
+     "en": "have breakfast",
+     "tr": "kahvaltı yapmak",
+     "img": "/content/g5/u4/presentation/img/p01-22.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "breakfast"
+    }
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "jeans",
+     "options": [
+      "jeans",
+      "raincoat",
+      "get dressed",
+      "have breakfast"
+     ],
+     "tr": "kot pantolon",
+     "img": "/content/g5/u3/presentation/img/p02-02.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "jeans"
+    }
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "cousin",
+      "tr": "kuzen",
+      "img": "/content/g5/u4/presentation/img/p01-09.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "cousin",
+      "audio": "/app/audio/words/cousin.wav"
+     },
+     {
+      "en": "grandparents",
+      "tr": "büyükanne ve büyükbaba",
+      "img": "/content/g6/shared/img/6876.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/6876",
+      "imageFit": "contain",
+      "imageConcept": "grandparents",
+      "audio": "/app/audio/words/grandparents.wav"
+     },
+     {
+      "en": "curly hair",
+      "tr": "kıvırcık saç",
+      "img": "/app/img/vocab/physical-curly.svg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "curly hair",
+      "audio": "/app/audio/words/curly-hair.wav"
+     },
+     {
+      "en": "straight hair",
+      "tr": "düz saç",
+      "img": "/app/img/vocab/physical-straight.svg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "straight-haired",
+      "audio": "/app/audio/words/straight-hair.wav"
+     }
+    ]
+   },
+   "topic": "personal and family life",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "straight hair means \"kot pantolon\".",
+     "answer": false,
+     "explain": "straight hair means \"düz saç\"."
+    }
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -819,9 +872,16 @@
      "trEm": [
       "okurum"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/7141.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7141",
+     "imageFit": "contain",
+     "imageCue": "Read without speaking",
+     "imageConcept": "read"
     }
-   ]
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -835,17 +895,24 @@
      "trEm": [
       "okuyorum"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/3065.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3065",
+     "imageFit": "contain",
+     "imageConcept": "library"
     }
-   ]
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Look! The club members ___.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Look! The club members ___.",
      "answer": "are singing",
      "options": [
       "are singing",
@@ -855,15 +922,18 @@
      ]
     }
    ],
-   "grammarId": "r1-now-tags"
+   "grammarId": "r1-now-tags",
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "Ada studies every day, ___?",
+     "text": "Ada studies every day, ___?",
      "answer": "doesn't she",
      "options": [
       "doesn't she",
@@ -873,15 +943,18 @@
      ]
     }
    ],
-   "grammarId": "r1-now-tags"
+   "grammarId": "r1-now-tags",
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "They are swimming, ___?",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "They are swimming, ___?",
      "answer": "aren't they",
      "options": [
       "aren't they",
@@ -891,15 +964,18 @@
      ]
     }
    ],
-   "grammarId": "r1-now-tags"
+   "grammarId": "r1-now-tags",
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "Choose the correct order: ___",
+     "text": "Choose the correct order: ___",
      "answer": "We often visit our cousins.",
      "options": [
       "We often visit our cousins.",
@@ -909,7 +985,25 @@
      ]
     }
    ],
-   "grammarId": "r1-now-tags"
+   "grammarId": "r1-now-tags",
+   "topic": "personal and family life",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r1-now-tags",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "I usually read at home.",
+      "tr": "Genellikle evde okurum."
+     }
+    ]
+   },
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -923,9 +1017,14 @@
      "trEm": [
       "çalmaktan"
      ],
-     "textOnly": true
+     "img": "/content/g5/u2/presentation/img/p05-07.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "music"
     }
-   ]
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -939,17 +1038,23 @@
      "trEm": [
       "tercih ederim"
      ],
-     "textOnly": true
+     "img": "/content/g5/u4/presentation/img/p02-28.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "swimming"
     }
-   ]
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Lina enjoys ___ stories.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Lina enjoys ___ stories.",
      "answer": "reading",
      "options": [
       "reading",
@@ -959,15 +1064,18 @@
      ]
     }
    ],
-   "grammarId": "r1-preferences"
+   "grammarId": "r1-preferences",
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "I prefer camping ___ staying in a hotel.",
+     "text": "I prefer camping ___ staying in a hotel.",
      "answer": "to",
      "options": [
       "to",
@@ -977,7 +1085,25 @@
      ]
     }
    ],
-   "grammarId": "r1-preferences"
+   "grammarId": "r1-preferences",
+   "topic": "personal and family life",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r1-preferences",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "I enjoy playing the guitar.",
+      "tr": "Gitar çalmaktan keyif alırım."
+     }
+    ]
+   },
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -991,9 +1117,16 @@
      "trEm": [
       "var"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/2317.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2317",
+     "imageFit": "contain",
+     "imageCue": "A very small home",
+     "imageConcept": "house"
     }
-   ]
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -1007,17 +1140,23 @@
      "trEm": [
       "yanında"
      ],
-     "textOnly": true
+     "img": "/content/g5/u4/presentation/img/p02-21.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "camp"
     }
-   ]
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The house ___ a small kitchen.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The house ___ a small kitchen.",
      "answer": "has got",
      "options": [
       "has got",
@@ -1027,15 +1166,18 @@
      ]
     }
    ],
-   "grammarId": "r2-possession"
+   "grammarId": "r2-possession",
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "The bag is ___ the table, on the floor below it.",
+     "text": "The bag is ___ the table, on the floor below it.",
      "answer": "under",
      "options": [
       "under",
@@ -1045,337 +1187,43 @@
      ]
     }
    ],
-   "grammarId": "r2-possession"
+   "grammarId": "r2-possession",
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
-   "type": "grammar",
-   "title": "Revision 2: food and quantity",
-   "rule": "Sayılabilen çoğullar: how many; sayılamayanlar: how much. Some olumlu cümlede ve kibar istekte; any çoğunlukla olumsuz/soru cümlesinde. A bowl/slice/bottle of miktar belirtir.",
-   "grammarId": "r2-quantity-ordering",
-   "examples": [
-    {
-     "en": "*How much* water have we got?",
-     "tr": "Ne kadar suyumuz var?",
-     "trEm": [
-      "Ne kadar"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Revision 2: food and quantity",
-   "rule": "Sayılabilen çoğullar: how many; sayılamayanlar: how much. Some olumlu cümlede ve kibar istekte; any çoğunlukla olumsuz/soru cümlesinde. A bowl/slice/bottle of miktar belirtir.",
-   "grammarId": "r2-quantity-ordering",
-   "examples": [
-    {
-     "en": "Can I have *a bowl of* soup, please?",
-     "tr": "Lütfen bir kâse çorba alabilir miyim?",
-     "trEm": [
-      "bir kâse"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r2-possession",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "The tiny house has got two windows.",
+      "tr": "Minik evin iki penceresi var."
+     }
+    ]
+   },
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Meet a new friend",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ apples have we got?",
-     "answer": "How many",
-     "options": [
-      "How many",
-      "How much",
-      "Whose",
-      "What time"
-     ]
+     "kind": "flash",
+     "q": "Describe a family member. Ask your partner about a favourite activity.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "r2-quantity-ordering"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "___ soup would you like?",
-     "answer": "How much",
-     "options": [
-      "How much",
-      "How many",
-      "Which many",
-      "How often"
-     ]
-    }
-   ],
-   "grammarId": "r2-quantity-ordering"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "There isn't ___ milk in the bottle.",
-     "answer": "any",
-     "options": [
-      "any",
-      "many",
-      "a",
-      "an"
-     ]
-    }
-   ],
-   "grammarId": "r2-quantity-ordering"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Can I have a ___ of cake, please?",
-     "answer": "slice",
-     "options": [
-      "slice",
-      "bottle",
-      "bowlfuls",
-      "glass"
-     ]
-    }
-   ],
-   "grammarId": "r2-quantity-ordering"
-  },
-  {
-   "type": "grammar",
-   "title": "Revision 2: comparing animals",
-   "rule": "İki varlık: -er/more ... than. Bir grup içinde: the -est/the most. Karşılaştırmayı verilen bilgiye göre yap.",
-   "grammarId": "r2-comparisons",
-   "examples": [
-    {
-     "en": "In this picture, the elephant is *bigger than* the deer.",
-     "tr": "Bu resimde fil geyikten daha büyük.",
-     "trEm": [
-      "daha büyük"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Revision 2: comparing animals",
-   "rule": "İki varlık: -er/more ... than. Bir grup içinde: the -est/the most. Karşılaştırmayı verilen bilgiye göre yap.",
-   "grammarId": "r2-comparisons",
-   "examples": [
-    {
-     "en": "This is *the smallest* bird in our picture.",
-     "tr": "Bu, resmimizdeki en küçük kuş.",
-     "trEm": [
-      "en küçük"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "This tree is ___ than that tree.",
-     "answer": "taller",
-     "options": [
-      "taller",
-      "tallest",
-      "tall",
-      "more tall"
-     ]
-    }
-   ],
-   "grammarId": "r2-comparisons"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Of these three birds, this is ___.",
-     "answer": "the most colourful",
-     "options": [
-      "the most colourful",
-      "more colourful",
-      "colourfuller",
-      "colourfulest"
-     ]
-    }
-   ],
-   "grammarId": "r2-comparisons"
-  },
-  {
-   "type": "grammar",
-   "title": "Revision 2: ability and permission",
-   "rule": "Can + yalın fiil yetenek anlatır. Can I ...? izin ister. Kısa cevap: Yes, you can / No, you can't.",
-   "grammarId": "r2-can-permission",
-   "examples": [
-    {
-     "en": "This bird *can fly*.",
-     "tr": "Bu kuş uçabilir.",
-     "trEm": [
-      "uçabilir"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Revision 2: ability and permission",
-   "rule": "Can + yalın fiil yetenek anlatır. Can I ...? izin ister. Kısa cevap: Yes, you can / No, you can't.",
-   "grammarId": "r2-can-permission",
-   "examples": [
-    {
-     "en": "*Can I* open the window?",
-     "tr": "Pencereyi açabilir miyim?",
-     "trEm": [
-      "açabilir miyim"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "A parrot can ___.",
-     "answer": "fly",
-     "options": [
-      "fly",
-      "flies",
-      "flying",
-      "flew"
-     ]
-    }
-   ],
-   "grammarId": "r2-can-permission"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Can I sit here? Yes, you ___.",
-     "answer": "can",
-     "options": [
-      "can",
-      "do",
-      "are",
-      "have"
-     ]
-    }
-   ],
-   "grammarId": "r2-can-permission"
-  },
-  {
-   "type": "grammar",
-   "title": "Revision 2: holiday plans",
-   "rule": "Plan: am/is/are going to + yalın fiil. Have/has to + yalın fiil zorunluluk bildirir. Where ile yer sorulur.",
-   "grammarId": "r2-holidays-obligations",
-   "examples": [
-    {
-     "en": "We *are going to camp* by the lake.",
-     "tr": "Gölün yanında kamp yapacağız.",
-     "trEm": [
-      "kamp yapacağız"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Revision 2: holiday plans",
-   "rule": "Plan: am/is/are going to + yalın fiil. Have/has to + yalın fiil zorunluluk bildirir. Where ile yer sorulur.",
-   "grammarId": "r2-holidays-obligations",
-   "examples": [
-    {
-     "en": "Everyone *has to bring* a water bottle.",
-     "tr": "Herkes su şişesi getirmek zorunda.",
-     "trEm": [
-      "getirmek zorunda"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Our plan is ready. We ___ an island.",
-     "answer": "are going to visit",
-     "options": [
-      "are going to visit",
-      "is going to visit",
-      "going visit",
-      "are going visit"
-     ]
-    }
-   ],
-   "grammarId": "r2-holidays-obligations"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "___ are you going to stay? In a tiny house.",
-     "answer": "Where",
-     "options": [
-      "Where",
-      "When",
-      "Who",
-      "How many"
-     ]
-    }
-   ],
-   "grammarId": "r2-holidays-obligations"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Every visitor ___ follow the park rules.",
-     "answer": "has to",
-     "options": [
-      "has to",
-      "have to",
-      "must to",
-      "has"
-     ]
-    }
-   ],
-   "grammarId": "r2-holidays-obligations"
+   "topic": "personal and family life",
+   "topicIndex": 2
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -1391,11 +1239,485 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "personal and family life",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "places and food",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "park",
+     "tr": "park",
+     "img": "/content/g6/shared/img/2434.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2434",
+     "imageFit": "contain",
+     "imageConcept": "park"
+    },
+    {
+     "en": "museum",
+     "tr": "müze",
+     "img": "/content/g5/u5/presentation/img/p01-11.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "museum"
+    },
+    {
+     "en": "restaurant",
+     "tr": "restoran",
+     "img": "/content/g6/shared/img/10283.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10283",
+     "imageFit": "contain",
+     "imageConcept": "restaurant"
+    },
+    {
+     "en": "tiny house",
+     "tr": "minik ev",
+     "img": "/content/g6/shared/img/2317.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2317",
+     "imageFit": "contain",
+     "imageCue": "A very small home",
+     "pictureQuiz": false,
+     "imageConcept": "house"
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "park",
+     "options": [
+      "park",
+      "museum",
+      "restaurant",
+      "tiny house"
+     ],
+     "tr": "park",
+     "img": "/content/g6/shared/img/2434.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2434",
+     "imageFit": "contain",
+     "imageConcept": "park"
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "places and food",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "soup",
+     "tr": "çorba",
+     "img": "/content/g6/shared/img/2573.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2573",
+     "imageFit": "contain",
+     "imageConcept": "soup"
+    },
+    {
+     "en": "salad",
+     "tr": "salata",
+     "img": "/content/g6/shared/img/2377.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2377",
+     "imageFit": "contain",
+     "imageConcept": "salad"
+    },
+    {
+     "en": "a slice of cake",
+     "tr": "bir dilim kek",
+     "img": "/content/g6/shared/img/2502.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2502",
+     "imageFit": "contain",
+     "imageConcept": "cake"
+    },
+    {
+     "en": "a bottle of water",
+     "tr": "bir şişe su",
+     "img": "/content/g6/shared/img/38604.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/38604",
+     "imageFit": "contain",
+     "imageConcept": "water bottle"
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "soup",
+     "options": [
+      "soup",
+      "salad",
+      "a slice of cake",
+      "a bottle of water"
+     ],
+     "tr": "çorba",
+     "img": "/content/g6/shared/img/2573.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2573",
+     "imageFit": "contain",
+     "imageConcept": "soup"
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "park",
+      "tr": "park",
+      "img": "/content/g6/shared/img/2434.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2434",
+      "imageFit": "contain",
+      "imageConcept": "park",
+      "audio": "/app/audio/words/park.wav"
+     },
+     {
+      "en": "museum",
+      "tr": "müze",
+      "img": "/content/g5/u5/presentation/img/p01-11.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "museum",
+      "audio": "/app/audio/words/museum.wav"
+     },
+     {
+      "en": "restaurant",
+      "tr": "restoran",
+      "img": "/content/g6/shared/img/10283.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/10283",
+      "imageFit": "contain",
+      "imageConcept": "restaurant",
+      "audio": "/app/audio/words/restaurant.wav"
+     },
+     {
+      "en": "soup",
+      "tr": "çorba",
+      "img": "/content/g6/shared/img/2573.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2573",
+      "imageFit": "contain",
+      "imageConcept": "soup",
+      "audio": "/app/audio/words/soup.wav"
+     }
+    ]
+   },
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "tiny house means \"çorba\".",
+     "answer": false,
+     "explain": "tiny house means \"minik ev\"."
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Revision 2: food and quantity",
+   "rule": "Sayılabilen çoğullar: how many; sayılamayanlar: how much. Some olumlu cümlede ve kibar istekte; any çoğunlukla olumsuz/soru cümlesinde. A bowl/slice/bottle of miktar belirtir.",
+   "grammarId": "r2-quantity-ordering",
+   "examples": [
+    {
+     "en": "*How much* water have we got?",
+     "tr": "Ne kadar suyumuz var?",
+     "trEm": [
+      "Ne kadar"
+     ],
+     "img": "/content/g6/shared/img/38604.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/38604",
+     "imageFit": "contain",
+     "imageConcept": "water bottle"
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Revision 2: food and quantity",
+   "rule": "Sayılabilen çoğullar: how many; sayılamayanlar: how much. Some olumlu cümlede ve kibar istekte; any çoğunlukla olumsuz/soru cümlesinde. A bowl/slice/bottle of miktar belirtir.",
+   "grammarId": "r2-quantity-ordering",
+   "examples": [
+    {
+     "en": "Can I have *a bowl of* soup, please?",
+     "tr": "Lütfen bir kâse çorba alabilir miyim?",
+     "trEm": [
+      "bir kâse"
+     ],
+     "img": "/content/g6/shared/img/2573.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2573",
+     "imageFit": "contain",
+     "imageConcept": "soup"
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ apples have we got?",
+     "answer": "How many",
+     "options": [
+      "How many",
+      "How much",
+      "Whose",
+      "What time"
+     ]
+    }
+   ],
+   "grammarId": "r2-quantity-ordering",
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ soup would you like?",
+     "text": "___ soup would you like?",
+     "answer": "How much",
+     "options": [
+      "How much",
+      "How many",
+      "Which many",
+      "How often"
+     ]
+    }
+   ],
+   "grammarId": "r2-quantity-ordering",
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "There isn't ___ milk in the bottle.",
+     "answer": "any",
+     "options": [
+      "any",
+      "many",
+      "a",
+      "an"
+     ]
+    }
+   ],
+   "grammarId": "r2-quantity-ordering",
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Can I have a ___ of cake, please?",
+     "text": "Can I have a ___ of cake, please?",
+     "answer": "slice",
+     "options": [
+      "slice",
+      "bottle",
+      "bowlfuls",
+      "glass"
+     ]
+    }
+   ],
+   "grammarId": "r2-quantity-ordering",
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r2-quantity-ordering",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "How much water have we got?",
+      "tr": "Ne kadar suyumuz var?"
+     }
+    ]
+   },
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Revision 2: comparing animals",
+   "rule": "İki varlık: -er/more ... than. Bir grup içinde: the -est/the most. Karşılaştırmayı verilen bilgiye göre yap.",
+   "grammarId": "r2-comparisons",
+   "examples": [
+    {
+     "en": "In this picture, the elephant is *bigger than* the deer.",
+     "tr": "Bu resimde fil geyikten daha büyük.",
+     "trEm": [
+      "daha büyük"
+     ],
+     "img": "/content/g6/shared/img/2372.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2372",
+     "imageFit": "contain",
+     "imageConcept": "elephant"
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Revision 2: comparing animals",
+   "rule": "İki varlık: -er/more ... than. Bir grup içinde: the -est/the most. Karşılaştırmayı verilen bilgiye göre yap.",
+   "grammarId": "r2-comparisons",
+   "examples": [
+    {
+     "en": "This is *the smallest* bird in our picture.",
+     "tr": "Bu, resmimizdeki en küçük kuş.",
+     "trEm": [
+      "en küçük"
+     ],
+     "img": "/content/g6/shared/img/2934.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2934",
+     "imageFit": "contain",
+     "imageConcept": "parrot"
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "This tree is ___ than that tree.",
+     "answer": "taller",
+     "options": [
+      "taller",
+      "tallest",
+      "tall",
+      "more tall"
+     ]
+    }
+   ],
+   "grammarId": "r2-comparisons",
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Of these three birds, this is ___.",
+     "text": "Of these three birds, this is ___.",
+     "answer": "the most colourful",
+     "options": [
+      "the most colourful",
+      "more colourful",
+      "colourfuller",
+      "colourfulest"
+     ]
+    }
+   ],
+   "grammarId": "r2-comparisons",
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r2-comparisons",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "In this picture, the elephant is bigger than the deer.",
+      "tr": "Bu resimde fil geyikten daha büyük."
+     }
+    ]
+   },
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "At a small cafe",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Order a drink and a dish. Your partner is the waiter. Swap roles.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -1411,12 +1733,458 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "places and food",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "nature and holidays",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "forest",
+     "tr": "orman",
+     "img": "/content/g5/u5/presentation/img/p01-07.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "forest"
+    },
+    {
+     "en": "desert",
+     "tr": "çöl",
+     "img": "/content/g5/u8/presentation/img/p01-05.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "desert"
+    },
+    {
+     "en": "ocean",
+     "tr": "okyanus",
+     "img": "/content/g5/u7/presentation/img/p02-17.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "ocean"
+    },
+    {
+     "en": "island",
+     "tr": "ada",
+     "img": "/content/g5/u8/presentation/img/p01-16.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "island"
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "forest",
+     "options": [
+      "forest",
+      "desert",
+      "ocean",
+      "island"
+     ],
+     "tr": "orman",
+     "img": "/content/g5/u5/presentation/img/p01-07.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "forest"
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "vocab",
+   "title": "nature and holidays",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "elephant",
+     "tr": "fil",
+     "img": "/content/g6/shared/img/2372.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2372",
+     "imageFit": "contain",
+     "imageConcept": "elephant"
+    },
+    {
+     "en": "parrot",
+     "tr": "papağan",
+     "img": "/content/g6/shared/img/2934.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2934",
+     "imageFit": "contain",
+     "imageConcept": "parrot"
+    },
+    {
+     "en": "camping",
+     "tr": "kamp yapma",
+     "img": "/content/g5/u4/presentation/img/p02-21.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "tent"
+    },
+    {
+     "en": "swimming",
+     "tr": "yüzme",
+     "img": "/content/g5/u4/presentation/img/p02-28.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "swimming"
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "elephant",
+     "options": [
+      "elephant",
+      "parrot",
+      "camping",
+      "swimming"
+     ],
+     "tr": "fil",
+     "img": "/content/g6/shared/img/2372.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2372",
+     "imageFit": "contain",
+     "imageConcept": "elephant"
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "forest",
+      "tr": "orman",
+      "img": "/content/g5/u5/presentation/img/p01-07.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "forest",
+      "audio": "/app/audio/words/forest.wav"
+     },
+     {
+      "en": "desert",
+      "tr": "çöl",
+      "img": "/content/g5/u8/presentation/img/p01-05.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "desert",
+      "audio": "/app/audio/words/desert.wav"
+     },
+     {
+      "en": "ocean",
+      "tr": "okyanus",
+      "img": "/content/g5/u7/presentation/img/p02-17.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "ocean",
+      "audio": "/app/audio/words/ocean.wav"
+     },
+     {
+      "en": "island",
+      "tr": "ada",
+      "img": "/content/g5/u8/presentation/img/p01-16.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "island",
+      "audio": "/app/audio/words/island.wav"
+     }
+    ]
+   },
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "island means \"fil\".",
+     "answer": false,
+     "explain": "island means \"ada\"."
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Revision 2: ability and permission",
+   "rule": "Can + yalın fiil yetenek anlatır. Can I ...? izin ister. Kısa cevap: Yes, you can / No, you can't.",
+   "grammarId": "r2-can-permission",
+   "examples": [
+    {
+     "en": "This bird *can fly*.",
+     "tr": "Bu kuş uçabilir.",
+     "trEm": [
+      "uçabilir"
+     ],
+     "img": "/content/g6/shared/img/2934.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2934",
+     "imageFit": "contain",
+     "imageConcept": "parrot"
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Revision 2: ability and permission",
+   "rule": "Can + yalın fiil yetenek anlatır. Can I ...? izin ister. Kısa cevap: Yes, you can / No, you can't.",
+   "grammarId": "r2-can-permission",
+   "examples": [
+    {
+     "en": "*Can I* open the window?",
+     "tr": "Pencereyi açabilir miyim?",
+     "trEm": [
+      "açabilir miyim"
+     ],
+     "img": "/content/g6/shared/img/37334.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37334",
+     "imageFit": "contain",
+     "imageConcept": "entrance"
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "A parrot can ___.",
+     "answer": "fly",
+     "options": [
+      "fly",
+      "flies",
+      "flying",
+      "flew"
+     ]
+    }
+   ],
+   "grammarId": "r2-can-permission",
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Can I sit here? Yes, you ___.",
+     "text": "Can I sit here? Yes, you ___.",
+     "answer": "can",
+     "options": [
+      "can",
+      "do",
+      "are",
+      "have"
+     ]
+    }
+   ],
+   "grammarId": "r2-can-permission",
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r2-can-permission",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "This bird can fly.",
+      "tr": "Bu kuş uçabilir."
+     }
+    ]
+   },
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Revision 2: holiday plans",
+   "rule": "Plan: am/is/are going to + yalın fiil. Have/has to + yalın fiil zorunluluk bildirir. Where ile yer sorulur.",
+   "grammarId": "r2-holidays-obligations",
+   "examples": [
+    {
+     "en": "We *are going to camp* by the lake.",
+     "tr": "Gölün yanında kamp yapacağız.",
+     "trEm": [
+      "kamp yapacağız"
+     ],
+     "img": "/content/g5/u4/presentation/img/p02-21.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "camp"
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Revision 2: holiday plans",
+   "rule": "Plan: am/is/are going to + yalın fiil. Have/has to + yalın fiil zorunluluk bildirir. Where ile yer sorulur.",
+   "grammarId": "r2-holidays-obligations",
+   "examples": [
+    {
+     "en": "Everyone *has to bring* a water bottle.",
+     "tr": "Herkes su şişesi getirmek zorunda.",
+     "trEm": [
+      "getirmek zorunda"
+     ],
+     "img": "/content/g6/shared/img/38604.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/38604",
+     "imageFit": "contain",
+     "imageConcept": "water bottle"
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Our plan is ready. We ___ an island.",
+     "answer": "are going to visit",
+     "options": [
+      "are going to visit",
+      "is going to visit",
+      "going visit",
+      "are going visit"
+     ]
+    }
+   ],
+   "grammarId": "r2-holidays-obligations",
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ are you going to stay? In a tiny house.",
+     "text": "___ are you going to stay? In a tiny house.",
+     "answer": "Where",
+     "options": [
+      "Where",
+      "When",
+      "Who",
+      "How many"
+     ]
+    }
+   ],
+   "grammarId": "r2-holidays-obligations",
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Every visitor ___ follow the park rules.",
+     "answer": "has to",
+     "options": [
+      "has to",
+      "have to",
+      "must to",
+      "has"
+     ]
+    }
+   ],
+   "grammarId": "r2-holidays-obligations",
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "r2-holidays-obligations",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We are going to camp by the lake.",
+      "tr": "Gölün yanında kamp yapacağız."
+     }
+    ]
+   },
+   "topic": "nature and holidays",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Plan a class outing",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Choose a place and two activities. Say what everyone must bring.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "nature and holidays",
+   "topicIndex": 4
   },
   {
    "type": "scene",
    "title": "Our weekend club plan",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/2317.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/2317",
+   "imageFit": "contain",
+   "imageCue": "A very small home",
+   "imageConcept": "house",
    "bubbles": [
     {
      "text": "Our school nature club meets every Friday. We usually read about animals in the library, but today we are planning a weekend trip. My cousin Maya is checking a map. We are going to stay in a tiny house near a forest. It has got a kitchen and two bedrooms."
@@ -1426,7 +2194,12 @@
   {
    "type": "scene",
    "title": "Our weekend club plan",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/2317.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/2317",
+   "imageFit": "contain",
+   "imageCue": "A very small home",
+   "imageConcept": "house",
    "bubbles": [
     {
      "text": "There is a small restaurant next to it. We can walk by the lake and watch birds. Everyone has to bring a raincoat. I am packing a bottle of water and some sandwiches. We are excited, aren't we?"
@@ -1435,7 +2208,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1446,7 +2219,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1457,7 +2230,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1468,7 +2241,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1478,126 +2251,57 @@
    ]
   },
   {
-   "type": "mission",
-   "title": "Picture match",
-   "task": {
-    "kind": "dragmatch",
-    "items": [
-     {
-      "en": "library",
-      "tr": "kütüphane",
-      "img": "/content/g5/u1/presentation/img/p01-12.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/library.wav"
-     },
-     {
-      "en": "canteen",
-      "tr": "kantin",
-      "img": "/content/g5/u1/presentation/img/p01-11.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/canteen.wav"
-     },
-     {
-      "en": "playground",
-      "tr": "oyun alanı",
-      "img": "/content/g5/u5/presentation/img/p01-12.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/playground.wav"
-     },
-     {
-      "en": "science",
-      "tr": "fen bilimleri",
-      "img": "/content/g5/u2/presentation/img/p05-02.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/science.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "They usually read about animals in the library.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Listen and find",
-   "task": {
-    "kind": "listenpicture",
-    "items": [
-     {
-      "en": "library",
-      "tr": "kütüphane",
-      "img": "/content/g5/u1/presentation/img/p01-12.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/library.wav"
-     },
-     {
-      "en": "canteen",
-      "tr": "kantin",
-      "img": "/content/g5/u1/presentation/img/p01-11.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/canteen.wav"
-     },
-     {
-      "en": "playground",
-      "tr": "oyun alanı",
-      "img": "/content/g5/u5/presentation/img/p01-12.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/playground.wav"
-     },
-     {
-      "en": "science",
-      "tr": "fen bilimleri",
-      "img": "/content/g5/u2/presentation/img/p05-02.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/science.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "The tiny house has three bedrooms.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Sentence workshop",
-   "task": {
-    "kind": "dragorder",
-    "sentences": [
-     {
-      "answer": "There is a science club in our school.",
-      "tr": "Okulumuzda fen kulübü var."
-     },
-     {
-      "answer": "We must listen in the laboratory.",
-      "tr": "Laboratuvarda dinlemeliyiz."
-     },
-     {
-      "answer": "This is our classroom.",
-      "tr": "Bu bizim sınıfımız."
-     },
-     {
-      "answer": "The guide knows us.",
-      "tr": "Rehber bizi tanıyor."
-     },
-     {
-      "answer": "Maya gets dressed at seven.",
-      "tr": "Maya saat yedide giyinir."
-     },
-     {
-      "answer": "I usually read at home.",
-      "tr": "Genellikle evde okurum."
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "A restaurant is next to the house.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Your turn to speak",
-   "task": {
-    "kind": "flash",
-    "q": "Partner A asks about school routines, time and family. Partner B asks about a holiday plan, food quantities and an activity you can do. Swap roles.",
-    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
-   }
+   "type": "exercise",
+   "title": "One-minute exit ticket",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say two new words and make one sentence about today’s theme.",
+     "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
+    }
+   ]
   },
   {
    "type": "end",
-   "title": "Ready for more practice",
+   "title": "Well done!",
    "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
-   "emoji": "🎯"
+   "emoji": "🔄"
   }
  ]
 }

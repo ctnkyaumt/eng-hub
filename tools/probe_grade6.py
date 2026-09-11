@@ -54,7 +54,8 @@ def run(books=None):
             if slide["type"] == "vocab":
                 assert 1 <= len(slide["items"]) <= 4
                 for item in slide["items"]:
-                    assert item.get("img") or item.get("num") or (item.get("textOnly") and item.get("imageNote"))
+                    assert item.get("img") or item.get("num"), (unit['id'], item['en'])
+                    assert not item.get("textOnly")
                     if item.get("img"):
                         assert item["img"].startswith("/") and (ROOT / item["img"].lstrip("/")).is_file()
                     slug = re.sub("[^a-z0-9]+", "-", item["en"].lower()).strip("-")
@@ -62,6 +63,9 @@ def run(books=None):
             elif slide["type"] == "grammar":
                 assert len(slide["examples"]) == 1
                 ex = slide["examples"][0]
+                assert ex.get('img') or ex.get('num') or ex.get('time'), (unit['id'], ex['en'])
+                if ex.get('img'):
+                    assert (ROOT / ex['img'].lstrip('/')).is_file()
                 assert ex["trEm"] and all(mark in ex["tr"] for mark in ex["trEm"])
                 authored_text.append(ex["en"].replace("*", ""))
             elif slide["type"] == "exercise":
@@ -71,7 +75,18 @@ def run(books=None):
                     assert all(set(p) == {"a", "b"} and p["a"] and p["b"] for p in task["pairs"])
             elif slide["type"] == "mission" and slide["task"]["kind"] in ("dragmatch", "listenpicture"):
                 choices = slide["task"]["items"]
-                assert len(choices) == len({w["img"] for w in choices}) == 4
+                assert len(choices) == len({w.get('img') or w.get('num') for w in choices}) == 4
+        # Every topic has teaching and active practice before the next topic.
+        for topic in range(1, 5):
+            segment = [s for s in deck['slides'] if s.get('topicIndex') == topic]
+            assert sum(s['type'] == 'vocab' for s in segment) == 2
+            kinds = {t['kind'] for s in segment for t in s.get('tasks', [])}
+            kinds.update(s['task']['kind'] for s in segment if 'task' in s)
+            assert len(kinds) >= 3 and 'flash' in kinds, (unit['id'], topic, kinds)
+        run_length = 0
+        for slide in deck['slides']:
+            run_length = run_length + 1 if slide['type'] == 'grammar' else 0
+            assert run_length <= 3, (unit['id'], 'Long grammar run')
         for i, (_, answer) in enumerate(unit["truth"], 1):
             if not answer:
                 assert CORRECTIONS[unit["id"]][i]

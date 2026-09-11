@@ -4,9 +4,10 @@
  "emoji": "🌳",
  "authored": true,
  "curriculum": "meb-english-6-2026",
+ "visualStyle": "illustrated",
  "accent": [
-  "#0d9488",
-  "#2563eb"
+  "#4ade80",
+  "#2dd4bf"
  ],
  "source": {
   "studentBook": {
@@ -29,27 +30,17 @@
  "slides": [
   {
    "type": "title",
-   "kicker": "THEME 7",
    "title": "Life in Nature & Global Problems",
    "titleTr": "Doğada Hayat ve Küresel Sorunlar",
    "emoji": "🌳"
   },
   {
-   "type": "scene",
-   "title": "Our lesson",
-   "emoji": "🌳",
-   "bubbles": [
-    {
-     "text": "Describe a past outdoor adventure."
-    },
-    {
-     "text": "Explain obligations and suggest actions to protect nature."
-    }
-   ]
-  },
-  {
    "type": "vocab",
    "title": "Outdoor activities",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "hiking",
@@ -57,467 +48,197 @@
      "img": "/content/g6/shared/img/4670.png",
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/4670",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageConcept": "hike"
     },
     {
      "en": "climbing",
      "tr": "tırmanış",
      "img": "/content/g5/u8/presentation/img/p02-01.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "climbing"
     },
     {
      "en": "sailing",
      "tr": "yelken sporu",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/7170.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7170",
+     "imageFit": "contain",
+     "imageConcept": "sail"
     },
     {
      "en": "rafting",
      "tr": "rafting",
      "img": "/app/img/words/rafting.jpg",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "raft"
     }
-   ]
+   ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "hiking",
-       "b": "doğa yürüyüşü"
-      },
-      {
-       "a": "climbing",
-       "b": "tırmanış"
-      },
-      {
-       "a": "sailing",
-       "b": "yelken sporu"
-      },
-      {
-       "a": "rafting",
-       "b": "rafting"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "hiking",
+     "options": [
+      "hiking",
+      "climbing",
+      "sailing",
+      "rafting"
+     ],
+     "tr": "doğa yürüyüşü",
+     "img": "/content/g6/shared/img/4670.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/4670",
+     "imageFit": "contain",
+     "imageConcept": "hike"
     }
-   ]
+   ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
    "title": "Outdoor activities",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "snowboarding",
      "tr": "snowboard sporu",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/29810.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/29810",
+     "imageFit": "contain",
+     "imageConcept": "snowboarding"
     },
     {
      "en": "camp",
      "tr": "kamp yapmak",
      "img": "/content/g5/u4/presentation/img/p02-21.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "camp"
     },
     {
      "en": "cycle",
      "tr": "bisiklete binmek",
      "img": "/content/g5/u4/presentation/img/p02-11.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "cycle"
     },
     {
      "en": "fish",
      "tr": "balık tutmak",
-     "img": "/content/g5/u8/presentation/img/p02-04.png",
-     "imageFit": "contain"
+     "img": "/content/g6/shared/img/6592.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6592",
+     "imageFit": "contain",
+     "imageConcept": "fish"
     }
-   ]
+   ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "snowboarding",
-       "b": "snowboard sporu"
-      },
-      {
-       "a": "camp",
-       "b": "kamp yapmak"
-      },
-      {
-       "a": "cycle",
-       "b": "bisiklete binmek"
-      },
-      {
-       "a": "fish",
-       "b": "balık tutmak"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "snowboarding",
+     "options": [
+      "snowboarding",
+      "camp",
+      "cycle",
+      "fish"
+     ],
+     "tr": "snowboard sporu",
+     "img": "/content/g6/shared/img/29810.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/29810",
+     "imageFit": "contain",
+     "imageConcept": "snowboarding"
     }
-   ]
+   ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
-   "type": "vocab",
-   "title": "An outdoor adventure",
-   "items": [
-    {
-     "en": "adventure",
-     "tr": "macera",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "ride",
-     "tr": "binmek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "run",
-     "tr": "koşmak",
-     "img": "/content/g6/shared/img/2719.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2719",
-     "imageFit": "contain"
-    },
-    {
-     "en": "ski",
-     "tr": "kayak yapmak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "hiking",
+      "tr": "doğa yürüyüşü",
+      "img": "/content/g6/shared/img/4670.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/4670",
+      "imageFit": "contain",
+      "imageConcept": "hike",
+      "audio": "/app/audio/words/hiking.wav"
+     },
+     {
+      "en": "climbing",
+      "tr": "tırmanış",
+      "img": "/content/g5/u8/presentation/img/p02-01.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "climbing",
+      "audio": "/app/audio/words/climbing.wav"
+     },
+     {
+      "en": "sailing",
+      "tr": "yelken sporu",
+      "img": "/content/g6/shared/img/7170.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/7170",
+      "imageFit": "contain",
+      "imageConcept": "sail",
+      "audio": "/app/audio/words/sailing.wav"
+     },
+     {
+      "en": "rafting",
+      "tr": "rafting",
+      "img": "/app/img/words/rafting.jpg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "raft",
+      "audio": "/app/audio/words/rafting.wav"
+     }
+    ]
+   },
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "True or false?",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "adventure",
-       "b": "macera"
-      },
-      {
-       "a": "ride",
-       "b": "binmek"
-      },
-      {
-       "a": "run",
-       "b": "koşmak"
-      },
-      {
-       "a": "ski",
-       "b": "kayak yapmak"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "rafting means \"snowboard sporu\".",
+     "answer": false,
+     "explain": "rafting means \"rafting\"."
     }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "An outdoor adventure",
-   "items": [
-    {
-     "en": "pick",
-     "tr": "toplamak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "plant",
-     "tr": "dikmek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "danger",
-     "tr": "tehlike",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "responsibility",
-     "tr": "sorumluluk",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "pick",
-       "b": "toplamak"
-      },
-      {
-       "a": "plant",
-       "b": "dikmek"
-      },
-      {
-       "a": "danger",
-       "b": "tehlike"
-      },
-      {
-       "a": "responsibility",
-       "b": "sorumluluk"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Problems",
-   "items": [
-    {
-     "en": "pollution",
-     "tr": "kirlilik",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "rubbish",
-     "tr": "çöp",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "plastic",
-     "tr": "plastik",
-     "img": "/content/g6/shared/img/10288.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/10288",
-     "imageFit": "contain"
-    },
-    {
-     "en": "smoke",
-     "tr": "duman",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "pollution",
-       "b": "kirlilik"
-      },
-      {
-       "a": "rubbish",
-       "b": "çöp"
-      },
-      {
-       "a": "plastic",
-       "b": "plastik"
-      },
-      {
-       "a": "smoke",
-       "b": "duman"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Problems",
-   "items": [
-    {
-     "en": "energy",
-     "tr": "enerji",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "heat",
-     "tr": "ısı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "destroy",
-     "tr": "yok etmek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "increase",
-     "tr": "artırmak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "energy",
-       "b": "enerji"
-      },
-      {
-       "a": "heat",
-       "b": "ısı"
-      },
-      {
-       "a": "destroy",
-       "b": "yok etmek"
-      },
-      {
-       "a": "increase",
-       "b": "artırmak"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Solutions",
-   "items": [
-    {
-     "en": "protect",
-     "tr": "korumak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "prevent",
-     "tr": "önlemek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "reduce",
-     "tr": "azaltmak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "recycle",
-     "tr": "geri dönüştürmek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "protect",
-       "b": "korumak"
-      },
-      {
-       "a": "prevent",
-       "b": "önlemek"
-      },
-      {
-       "a": "reduce",
-       "b": "azaltmak"
-      },
-      {
-       "a": "recycle",
-       "b": "geri dönüştürmek"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Solutions",
-   "items": [
-    {
-     "en": "reusable",
-     "tr": "yeniden kullanılabilir",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "replace",
-     "tr": "yerine koymak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "remove",
-     "tr": "kaldırmak",
-     "img": "/content/g6/shared/img/11751.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/11751",
-     "imageFit": "contain"
-    },
-    {
-     "en": "save",
-     "tr": "tasarruf etmek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "reusable",
-       "b": "yeniden kullanılabilir"
-      },
-      {
-       "a": "replace",
-       "b": "yerine koymak"
-      },
-      {
-       "a": "remove",
-       "b": "kaldırmak"
-      },
-      {
-       "a": "save",
-       "b": "tasarruf etmek"
-      }
-     ]
-    }
-   ]
+   ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -531,9 +252,15 @@
      "trEm": [
       "gittik"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/4670.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/4670",
+     "imageFit": "contain",
+     "imageConcept": "hike"
     }
-   ]
+   ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -547,17 +274,24 @@
      "trEm": [
       "gördü"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/8499.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8499",
+     "imageFit": "contain",
+     "imageConcept": "rubbish"
     }
-   ]
+   ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Yesterday, the group ___ reusable bottles.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Yesterday, the group ___ reusable bottles.",
      "answer": "took",
      "options": [
       "took",
@@ -567,15 +301,18 @@
      ]
     }
    ],
-   "grammarId": "past-irregular"
+   "grammarId": "past-irregular",
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "Leo ___ his bike to the camp last week.",
+     "text": "Leo ___ his bike to the camp last week.",
      "answer": "rode",
      "options": [
       "rode",
@@ -585,15 +322,18 @@
      ]
     }
    ],
-   "grammarId": "past-irregular"
+   "grammarId": "past-irregular",
+   "topic": "Outdoor activities",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "After the hike, we ___ water.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "After the hike, we ___ water.",
      "answer": "drank",
      "options": [
       "drank",
@@ -603,7 +343,251 @@
      ]
     }
    ],
-   "grammarId": "past-irregular"
+   "grammarId": "past-irregular",
+   "topic": "Outdoor activities",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "past-irregular",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We went hiking on Sunday.",
+      "tr": "Pazar günü doğa yürüyüşüne gittik."
+     }
+    ]
+   },
+   "topic": "Outdoor activities",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Our outdoor day",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Describe three things you did outdoors last weekend. Use went, saw or found.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1
+  },
+  {
+   "type": "vocab",
+   "title": "An outdoor adventure",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "adventure",
+     "tr": "macera",
+     "img": "/content/g6/shared/img/21401.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/21401",
+     "imageFit": "contain",
+     "imageConcept": "adventure"
+    },
+    {
+     "en": "ride",
+     "tr": "binmek",
+     "img": "/content/g6/shared/img/6643.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6643",
+     "imageFit": "contain",
+     "imageConcept": "horseman"
+    },
+    {
+     "en": "run",
+     "tr": "koşmak",
+     "img": "/content/g6/shared/img/2719.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2719",
+     "imageFit": "contain",
+     "imageConcept": "run"
+    },
+    {
+     "en": "ski",
+     "tr": "kayak yapmak",
+     "img": "/content/g6/shared/img/16701.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/16701",
+     "imageFit": "contain",
+     "imageConcept": "ski"
+    }
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "adventure",
+     "options": [
+      "adventure",
+      "ride",
+      "run",
+      "ski"
+     ],
+     "tr": "macera",
+     "img": "/content/g6/shared/img/21401.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/21401",
+     "imageFit": "contain",
+     "imageConcept": "adventure"
+    }
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "An outdoor adventure",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "pick",
+     "tr": "toplamak",
+     "img": "/content/g6/shared/img/7227.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7227",
+     "imageFit": "contain",
+     "imageConcept": "pick up"
+    },
+    {
+     "en": "plant",
+     "tr": "dikmek",
+     "img": "/content/g6/shared/img/2828.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2828",
+     "imageFit": "contain",
+     "imageConcept": "plant"
+    },
+    {
+     "en": "danger",
+     "tr": "tehlike",
+     "img": "/content/g6/shared/img/25315.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/25315",
+     "imageFit": "contain",
+     "imageConcept": "danger"
+    },
+    {
+     "en": "responsibility",
+     "tr": "sorumluluk",
+     "img": "/content/g6/shared/img/37234.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37234",
+     "imageFit": "contain",
+     "imageConcept": "responsibility"
+    }
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "pick",
+     "options": [
+      "pick",
+      "plant",
+      "danger",
+      "responsibility"
+     ],
+     "tr": "toplamak",
+     "img": "/content/g6/shared/img/7227.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7227",
+     "imageFit": "contain",
+     "imageConcept": "pick up"
+    }
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "adventure",
+      "tr": "macera",
+      "img": "/content/g6/shared/img/21401.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/21401",
+      "imageFit": "contain",
+      "imageConcept": "adventure",
+      "audio": "/app/audio/words/adventure.wav"
+     },
+     {
+      "en": "ride",
+      "tr": "binmek",
+      "img": "/content/g6/shared/img/6643.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/6643",
+      "imageFit": "contain",
+      "imageConcept": "horseman",
+      "audio": "/app/audio/words/ride.wav"
+     },
+     {
+      "en": "run",
+      "tr": "koşmak",
+      "img": "/content/g6/shared/img/2719.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2719",
+      "imageFit": "contain",
+      "imageConcept": "run",
+      "audio": "/app/audio/words/run.wav"
+     },
+     {
+      "en": "ski",
+      "tr": "kayak yapmak",
+      "img": "/content/g6/shared/img/16701.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/16701",
+      "imageFit": "contain",
+      "imageConcept": "ski",
+      "audio": "/app/audio/words/ski.wav"
+     }
+    ]
+   },
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "ski means \"toplamak\".",
+     "answer": false,
+     "explain": "ski means \"kayak yapmak\"."
+    }
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -617,9 +601,15 @@
      "trEm": [
       "gördün mü"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/6529.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6529",
+     "imageFit": "contain",
+     "imageConcept": "smoke"
     }
-   ]
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -633,17 +623,24 @@
      "trEm": [
       "bırakmadık"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/8499.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8499",
+     "imageFit": "contain",
+     "imageConcept": "rubbish"
     }
-   ]
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Did the campers ___ any plastic bottles?",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Did the campers ___ any plastic bottles?",
      "answer": "find",
      "options": [
       "find",
@@ -653,15 +650,18 @@
      ]
     }
    ],
-   "grammarId": "irregular-past-questions"
+   "grammarId": "irregular-past-questions",
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "We didn't ___ in the river.",
+     "text": "We didn't ___ in the river.",
      "answer": "swim",
      "options": [
       "swim",
@@ -671,7 +671,25 @@
      ]
     }
    ],
-   "grammarId": "irregular-past-questions"
+   "grammarId": "irregular-past-questions",
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "irregular-past-questions",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Did you see any smoke?",
+      "tr": "Hiç duman gördün mü?"
+     }
+    ]
+   },
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -685,9 +703,15 @@
      "trEm": [
       "değil mi"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/4670.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/4670",
+     "imageFit": "contain",
+     "imageConcept": "hike"
     }
-   ]
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -701,17 +725,25 @@
      "trEm": [
       "değil mi"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/4610.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/4610",
+     "imageFit": "contain",
+     "imageCue": "Food from a place",
+     "imageConcept": "food"
     }
-   ]
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Your friends went sailing, ___?",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Your friends went sailing, ___?",
      "answer": "didn't they",
      "options": [
       "didn't they",
@@ -721,15 +753,18 @@
      ]
     }
    ],
-   "grammarId": "irregular-past-tags"
+   "grammarId": "irregular-past-tags",
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "The guide didn't see smoke, ___?",
+     "text": "The guide didn't see smoke, ___?",
      "answer": "did she",
      "options": [
       "did she",
@@ -739,165 +774,43 @@
      ]
     }
    ],
-   "grammarId": "irregular-past-tags"
+   "grammarId": "irregular-past-tags",
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
-   "type": "grammar",
-   "title": "Obligation and prohibition",
-   "rule": "Must + yalın fiil zorunluluk; mustn't + yalın fiil yasak bildirir. Must üçüncü tekilde değişmez.",
-   "grammarId": "must-mustnt",
-   "examples": [
-    {
-     "en": "We *must protect* this habitat.",
-     "tr": "Bu yaşam alanını korumalıyız.",
-     "trEm": [
-      "korumalıyız"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Obligation and prohibition",
-   "rule": "Must + yalın fiil zorunluluk; mustn't + yalın fiil yasak bildirir. Must üçüncü tekilde değişmez.",
-   "grammarId": "must-mustnt",
-   "examples": [
-    {
-     "en": "Visitors *mustn't leave* rubbish here.",
-     "tr": "Ziyaretçiler buraya çöp bırakmamalı.",
-     "trEm": [
-      "bırakmamalı"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "irregular-past-tags",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Maya found the path, didn't she?",
+      "tr": "Maya patikayı buldu, değil mi?"
+     }
+    ]
+   },
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Interview an explorer",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "It is forbidden to enter this area. We ___ enter.",
-     "answer": "mustn't",
-     "options": [
-      "mustn't",
-      "must",
-      "have to",
-      "has to"
-     ]
+     "kind": "flash",
+     "q": "Ask where your partner went and what they saw. Check one answer with a question tag.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "must-mustnt"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Everyone ___ the marked path; it is a camp rule.",
-     "answer": "must use",
-     "options": [
-      "must use",
-      "must uses",
-      "must to use",
-      "must using"
-     ]
-    }
-   ],
-   "grammarId": "must-mustnt"
-  },
-  {
-   "type": "grammar",
-   "title": "Rules and necessity",
-   "rule": "I/you/we/they have to; he/she/it has to + yalın fiil. Don't/doesn't have to: zorunlu değil. Mustn't: yasak. Bunlar farklı anlamlardır.",
-   "grammarId": "have-to",
-   "examples": [
-    {
-     "en": "Every camper *has to carry* a water bottle.",
-     "tr": "Her kampçının su şişesi taşıması gerekir.",
-     "trEm": [
-      "taşıması gerekir"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Rules and necessity",
-   "rule": "I/you/we/they have to; he/she/it has to + yalın fiil. Don't/doesn't have to: zorunlu değil. Mustn't: yasak. Bunlar farklı anlamlardır.",
-   "grammarId": "have-to",
-   "examples": [
-    {
-     "en": "We *don't have to buy* new bags; we can reuse these.",
-     "tr": "Yeni çanta almak zorunda değiliz; bunları tekrar kullanabiliriz.",
-     "trEm": [
-      "almak zorunda değiliz"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The rule says each group ___ sort its rubbish.",
-     "answer": "has to",
-     "options": [
-      "has to",
-      "have to",
-      "has",
-      "must to"
-     ]
-    }
-   ],
-   "grammarId": "have-to"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The activity is optional. You ___ join.",
-     "answer": "don't have to",
-     "options": [
-      "don't have to",
-      "mustn't",
-      "have to",
-      "must"
-     ]
-    }
-   ],
-   "grammarId": "have-to"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "___ each visitor have to bring a bottle?",
-     "answer": "Does",
-     "options": [
-      "Does",
-      "Do",
-      "Is",
-      "Has"
-     ]
-    }
-   ],
-   "grammarId": "have-to"
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -913,11 +826,343 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Problems",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "pollution",
+     "tr": "kirlilik",
+     "img": "/content/g6/shared/img/7066.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7066",
+     "imageFit": "contain",
+     "imageConcept": "pollution"
+    },
+    {
+     "en": "rubbish",
+     "tr": "çöp",
+     "img": "/content/g6/shared/img/8499.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8499",
+     "imageFit": "contain",
+     "imageConcept": "rubbish"
+    },
+    {
+     "en": "plastic",
+     "tr": "plastik",
+     "img": "/content/g6/shared/img/10288.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/10288",
+     "imageFit": "contain",
+     "imageConcept": "plastic"
+    },
+    {
+     "en": "smoke",
+     "tr": "duman",
+     "img": "/content/g6/shared/img/6529.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6529",
+     "imageFit": "contain",
+     "imageConcept": "smoke"
+    }
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "pollution",
+     "options": [
+      "pollution",
+      "rubbish",
+      "plastic",
+      "smoke"
+     ],
+     "tr": "kirlilik",
+     "img": "/content/g6/shared/img/7066.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7066",
+     "imageFit": "contain",
+     "imageConcept": "pollution"
+    }
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Problems",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "energy",
+     "tr": "enerji",
+     "img": "/content/g6/shared/img/26059.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/26059",
+     "imageFit": "contain",
+     "imageConcept": "energy"
+    },
+    {
+     "en": "heat",
+     "tr": "ısı",
+     "img": "/content/g6/shared/img/2300.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2300",
+     "imageFit": "contain",
+     "imageConcept": "hot"
+    },
+    {
+     "en": "destroy",
+     "tr": "yok etmek",
+     "img": "/content/g6/shared/img/25056.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/25056",
+     "imageFit": "contain",
+     "imageConcept": "destroy"
+    },
+    {
+     "en": "increase",
+     "tr": "artırmak",
+     "img": "/content/g6/shared/img/19572.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/19572",
+     "imageFit": "contain",
+     "imageCue": "Go up: more and more",
+     "pictureQuiz": false,
+     "imageConcept": "increase"
+    }
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "energy",
+     "options": [
+      "energy",
+      "heat",
+      "destroy",
+      "increase"
+     ],
+     "tr": "enerji",
+     "img": "/content/g6/shared/img/26059.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/26059",
+     "imageFit": "contain",
+     "imageConcept": "energy"
+    }
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "pollution",
+      "tr": "kirlilik",
+      "img": "/content/g6/shared/img/7066.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/7066",
+      "imageFit": "contain",
+      "imageConcept": "pollution",
+      "audio": "/app/audio/words/pollution.wav"
+     },
+     {
+      "en": "rubbish",
+      "tr": "çöp",
+      "img": "/content/g6/shared/img/8499.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8499",
+      "imageFit": "contain",
+      "imageConcept": "rubbish",
+      "audio": "/app/audio/words/rubbish.wav"
+     },
+     {
+      "en": "plastic",
+      "tr": "plastik",
+      "img": "/content/g6/shared/img/10288.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/10288",
+      "imageFit": "contain",
+      "imageConcept": "plastic",
+      "audio": "/app/audio/words/plastic.wav"
+     },
+     {
+      "en": "smoke",
+      "tr": "duman",
+      "img": "/content/g6/shared/img/6529.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/6529",
+      "imageFit": "contain",
+      "imageConcept": "smoke",
+      "audio": "/app/audio/words/smoke.wav"
+     }
+    ]
+   },
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "smoke means \"enerji\".",
+     "answer": false,
+     "explain": "smoke means \"duman\"."
+    }
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Obligation and prohibition",
+   "rule": "Must + yalın fiil zorunluluk; mustn't + yalın fiil yasak bildirir. Must üçüncü tekilde değişmez.",
+   "grammarId": "must-mustnt",
+   "examples": [
+    {
+     "en": "We *must protect* this habitat.",
+     "tr": "Bu yaşam alanını korumalıyız.",
+     "trEm": [
+      "korumalıyız"
+     ],
+     "img": "/content/g6/shared/img/6192.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6192",
+     "imageFit": "contain",
+     "imageConcept": "protect"
+    }
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Obligation and prohibition",
+   "rule": "Must + yalın fiil zorunluluk; mustn't + yalın fiil yasak bildirir. Must üçüncü tekilde değişmez.",
+   "grammarId": "must-mustnt",
+   "examples": [
+    {
+     "en": "Visitors *mustn't leave* rubbish here.",
+     "tr": "Ziyaretçiler buraya çöp bırakmamalı.",
+     "trEm": [
+      "bırakmamalı"
+     ],
+     "img": "/content/g6/shared/img/8499.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8499",
+     "imageFit": "contain",
+     "imageConcept": "rubbish"
+    }
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "It is forbidden to enter this area. We ___ enter.",
+     "answer": "mustn't",
+     "options": [
+      "mustn't",
+      "must",
+      "have to",
+      "has to"
+     ]
+    }
+   ],
+   "grammarId": "must-mustnt",
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Everyone ___ the marked path; it is a camp rule.",
+     "text": "Everyone ___ the marked path; it is a camp rule.",
+     "answer": "must use",
+     "options": [
+      "must use",
+      "must uses",
+      "must to use",
+      "must using"
+     ]
+    }
+   ],
+   "grammarId": "must-mustnt",
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "must-mustnt",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We must protect this habitat.",
+      "tr": "Bu yaşam alanını korumalıyız."
+     }
+    ]
+   },
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Protect this place",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Choose a river or forest. Make two must rules and two mustn’t rules for visitors.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -933,12 +1178,357 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Problems",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Solutions",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "protect",
+     "tr": "korumak",
+     "img": "/content/g6/shared/img/6192.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6192",
+     "imageFit": "contain",
+     "imageConcept": "protect"
+    },
+    {
+     "en": "prevent",
+     "tr": "önlemek",
+     "img": "/content/g6/shared/img/3311.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3311",
+     "imageFit": "contain",
+     "imageCue": "Stop a problem before it happens",
+     "pictureQuiz": false,
+     "imageConcept": "avoid"
+    },
+    {
+     "en": "reduce",
+     "tr": "azaltmak",
+     "img": "/content/g6/shared/img/5512.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/5512",
+     "imageFit": "contain",
+     "imageCue": "Use less",
+     "pictureQuiz": false,
+     "imageConcept": "reduce"
+    },
+    {
+     "en": "recycle",
+     "tr": "geri dönüştürmek",
+     "img": "/content/g6/shared/img/27210.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/27210",
+     "imageFit": "contain",
+     "imageConcept": "recycle"
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "protect",
+     "options": [
+      "protect",
+      "prevent",
+      "reduce",
+      "recycle"
+     ],
+     "tr": "korumak",
+     "img": "/content/g6/shared/img/6192.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6192",
+     "imageFit": "contain",
+     "imageConcept": "protect"
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "vocab",
+   "title": "Solutions",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "reusable",
+     "tr": "yeniden kullanılabilir",
+     "img": "/content/g6/shared/img/36441.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/36441",
+     "imageFit": "contain",
+     "imageCue": "Use it again",
+     "pictureQuiz": false,
+     "imageConcept": "reuse"
+    },
+    {
+     "en": "replace",
+     "tr": "yerine koymak",
+     "img": "/content/g6/shared/img/8053.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8053",
+     "imageFit": "contain",
+     "imageCue": "Put something new in its place",
+     "pictureQuiz": false,
+     "imageConcept": "change"
+    },
+    {
+     "en": "remove",
+     "tr": "kaldırmak",
+     "img": "/content/g6/shared/img/11751.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/11751",
+     "imageFit": "contain",
+     "imageConcept": "remove"
+    },
+    {
+     "en": "save",
+     "tr": "tasarruf etmek",
+     "img": "/content/g6/shared/img/8027.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8027",
+     "imageFit": "contain",
+     "imageCue": "Use less energy or water",
+     "pictureQuiz": false,
+     "imageConcept": "save"
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "remove",
+     "options": [
+      "reusable",
+      "replace",
+      "remove",
+      "save"
+     ],
+     "tr": "kaldırmak",
+     "img": "/content/g6/shared/img/11751.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/11751",
+     "imageFit": "contain",
+     "imageConcept": "remove"
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Word partners",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match each word with its meaning.",
+     "pairs": [
+      {
+       "a": "reduce",
+       "b": "azaltmak"
+      },
+      {
+       "a": "recycle",
+       "b": "geri dönüştürmek"
+      },
+      {
+       "a": "reusable",
+       "b": "yeniden kullanılabilir"
+      },
+      {
+       "a": "replace",
+       "b": "yerine koymak"
+      }
+     ]
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "recycle means \"yeniden kullanılabilir\".",
+     "answer": false,
+     "explain": "recycle means \"geri dönüştürmek\"."
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Rules and necessity",
+   "rule": "I/you/we/they have to; he/she/it has to + yalın fiil. Don't/doesn't have to: zorunlu değil. Mustn't: yasak. Bunlar farklı anlamlardır.",
+   "grammarId": "have-to",
+   "examples": [
+    {
+     "en": "Every camper *has to carry* a water bottle.",
+     "tr": "Her kampçının su şişesi taşıması gerekir.",
+     "trEm": [
+      "taşıması gerekir"
+     ],
+     "img": "/content/g6/shared/img/38604.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/38604",
+     "imageFit": "contain",
+     "imageConcept": "water bottle"
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Rules and necessity",
+   "rule": "I/you/we/they have to; he/she/it has to + yalın fiil. Don't/doesn't have to: zorunlu değil. Mustn't: yasak. Bunlar farklı anlamlardır.",
+   "grammarId": "have-to",
+   "examples": [
+    {
+     "en": "We *don't have to buy* new bags; we can reuse these.",
+     "tr": "Yeni çanta almak zorunda değiliz; bunları tekrar kullanabiliriz.",
+     "trEm": [
+      "almak zorunda değiliz"
+     ],
+     "img": "/content/g6/shared/img/36441.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/36441",
+     "imageFit": "contain",
+     "imageCue": "Use it again",
+     "imageConcept": "reuse"
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The rule says each group ___ sort its rubbish.",
+     "answer": "has to",
+     "options": [
+      "has to",
+      "have to",
+      "has",
+      "must to"
+     ]
+    }
+   ],
+   "grammarId": "have-to",
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The activity is optional. You ___ join.",
+     "text": "The activity is optional. You ___ join.",
+     "answer": "don't have to",
+     "options": [
+      "don't have to",
+      "mustn't",
+      "have to",
+      "must"
+     ]
+    }
+   ],
+   "grammarId": "have-to",
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ each visitor have to bring a bottle?",
+     "answer": "Does",
+     "options": [
+      "Does",
+      "Do",
+      "Is",
+      "Has"
+     ]
+    }
+   ],
+   "grammarId": "have-to",
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "have-to",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Every camper has to carry a water bottle.",
+      "tr": "Her kampçının su şişesi taşıması gerekir."
+     }
+    ]
+   },
+   "topic": "Solutions",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "A greener class",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Agree on one change to save resources. Explain what you have to do and what you don’t have to buy.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Solutions",
+   "topicIndex": 4
   },
   {
    "type": "scene",
    "title": "The river team",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/4670.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+   "imageCredit": "https://arasaac.org/pictograms/en/4670",
+   "imageFit": "contain",
+   "imageConcept": "hike",
    "bubbles": [
     {
      "text": "Last weekend, six friends went hiking with their teacher. They took water in reusable bottles and ate lunch near a river. After lunch, Noor found plastic bags under a tree. The group did not touch any sharp objects."
@@ -948,7 +1538,11 @@
   {
    "type": "scene",
    "title": "The river team",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/4670.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+   "imageCredit": "https://arasaac.org/pictograms/en/4670",
+   "imageFit": "contain",
+   "imageConcept": "hike",
    "bubbles": [
     {
      "text": "They told their teacher and picked up safe litter with gloves. The teacher explained the camp rules: everyone has to use the marked path, and visitors must not leave rubbish. The friends came home with an idea. They want to replace single-use bags with reusable ones at school."
@@ -957,7 +1551,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -968,7 +1562,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -979,7 +1573,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -990,7 +1584,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1000,130 +1594,57 @@
    ]
   },
   {
-   "type": "mission",
-   "title": "Picture match",
-   "task": {
-    "kind": "dragmatch",
-    "items": [
-     {
-      "en": "hiking",
-      "tr": "doğa yürüyüşü",
-      "img": "/content/g6/shared/img/4670.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/4670",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/hiking.wav"
-     },
-     {
-      "en": "climbing",
-      "tr": "tırmanış",
-      "img": "/content/g5/u8/presentation/img/p02-01.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/climbing.wav"
-     },
-     {
-      "en": "rafting",
-      "tr": "rafting",
-      "img": "/app/img/words/rafting.jpg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/rafting.wav"
-     },
-     {
-      "en": "camp",
-      "tr": "kamp yapmak",
-      "img": "/content/g5/u4/presentation/img/p02-21.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/camp.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "They took reusable bottles.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Listen and find",
-   "task": {
-    "kind": "listenpicture",
-    "items": [
-     {
-      "en": "hiking",
-      "tr": "doğa yürüyüşü",
-      "img": "/content/g6/shared/img/4670.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/4670",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/hiking.wav"
-     },
-     {
-      "en": "climbing",
-      "tr": "tırmanış",
-      "img": "/content/g5/u8/presentation/img/p02-01.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/climbing.wav"
-     },
-     {
-      "en": "rafting",
-      "tr": "rafting",
-      "img": "/app/img/words/rafting.jpg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/rafting.wav"
-     },
-     {
-      "en": "camp",
-      "tr": "kamp yapmak",
-      "img": "/content/g5/u4/presentation/img/p02-21.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/camp.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "They touched sharp objects.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Sentence workshop",
-   "task": {
-    "kind": "dragorder",
-    "sentences": [
-     {
-      "answer": "We went hiking on Sunday.",
-      "tr": "Pazar günü doğa yürüyüşüne gittik."
-     },
-     {
-      "answer": "Lina saw rubbish near the river.",
-      "tr": "Lina nehrin yanında çöp gördü."
-     },
-     {
-      "answer": "We didn't leave our rubbish there.",
-      "tr": "Çöpümüzü orada bırakmadık."
-     },
-     {
-      "answer": "We must protect this habitat.",
-      "tr": "Bu yaşam alanını korumalıyız."
-     },
-     {
-      "answer": "Visitors mustn't leave rubbish here.",
-      "tr": "Ziyaretçiler buraya çöp bırakmamalı."
-     },
-     {
-      "answer": "Every camper has to carry a water bottle.",
-      "tr": "Her kampçının su şişesi taşıması gerekir."
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Visitors can leave rubbish at the camp.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Your turn to speak",
-   "task": {
-    "kind": "flash",
-    "q": "Describe an imaginary trip using went, saw and took. Partner B checks a detail with a question tag. Agree on two rules and one optional activity.",
-    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
-   }
+   "type": "exercise",
+   "title": "One-minute exit ticket",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say two new words and make one sentence about today’s theme.",
+     "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
+    }
+   ]
   },
   {
    "type": "end",
-   "title": "Ready for more practice",
+   "title": "Well done!",
    "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
-   "emoji": "🎯"
+   "emoji": "🌳"
   }
  ]
 }

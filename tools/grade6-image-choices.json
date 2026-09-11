@@ -1,0 +1,2036 @@
+{
+ "library": {
+  "img": "/content/g6/shared/img/3065.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3065",
+  "imageFit": "contain",
+  "imageConcept": "library"
+ },
+ "laboratory": {
+  "img": "/content/g6/shared/img/8150.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8150",
+  "imageFit": "contain",
+  "imageConcept": "laboratory"
+ },
+ "canteen": {
+  "img": "/content/g6/shared/img/9824.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/9824",
+  "imageFit": "contain",
+  "imageConcept": "canteen"
+ },
+ "playground": {
+  "img": "/content/g5/u5/presentation/img/p01-12.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "playground"
+ },
+ "science": {
+  "img": "/content/g5/u2/presentation/img/p05-02.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "science"
+ },
+ "music": {
+  "img": "/content/g5/u2/presentation/img/p05-07.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "music"
+ },
+ "timetable": {
+  "img": "/content/g6/shared/img/6012.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6012",
+  "imageFit": "contain",
+  "imageConcept": "timetable"
+ },
+ "club": {
+  "img": "/content/g6/shared/img/29919.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/29919",
+  "imageFit": "contain",
+  "imageCue": "People with a shared interest",
+  "pictureQuiz": false,
+  "imageConcept": "club"
+ },
+ "cousin": {
+  "img": "/content/g5/u4/presentation/img/p01-09.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "cousin"
+ },
+ "grandparents": {
+  "img": "/content/g6/shared/img/6876.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6876",
+  "imageFit": "contain",
+  "imageConcept": "grandparents"
+ },
+ "curly hair": {
+  "img": "/app/img/vocab/physical-curly.svg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "curly hair"
+ },
+ "straight hair": {
+  "img": "/app/img/vocab/physical-straight.svg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "straight-haired"
+ },
+ "jeans": {
+  "img": "/content/g5/u3/presentation/img/p02-02.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "jeans"
+ },
+ "raincoat": {
+  "img": "/content/g5/u3/presentation/img/p02-04.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "raincoat"
+ },
+ "get dressed": {
+  "img": "/content/g5/u4/presentation/img/p01-19.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "get dressed"
+ },
+ "have breakfast": {
+  "img": "/content/g5/u4/presentation/img/p01-22.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "breakfast"
+ },
+ "park": {
+  "img": "/content/g6/shared/img/2434.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2434",
+  "imageFit": "contain",
+  "imageConcept": "park"
+ },
+ "museum": {
+  "img": "/content/g5/u5/presentation/img/p01-11.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "museum"
+ },
+ "restaurant": {
+  "img": "/content/g6/shared/img/10283.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10283",
+  "imageFit": "contain",
+  "imageConcept": "restaurant"
+ },
+ "tiny house": {
+  "img": "/content/g6/shared/img/2317.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2317",
+  "imageFit": "contain",
+  "imageCue": "A very small home",
+  "pictureQuiz": false,
+  "imageConcept": "house"
+ },
+ "soup": {
+  "img": "/content/g6/shared/img/2573.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2573",
+  "imageFit": "contain",
+  "imageConcept": "soup"
+ },
+ "salad": {
+  "img": "/content/g6/shared/img/2377.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2377",
+  "imageFit": "contain",
+  "imageConcept": "salad"
+ },
+ "a slice of cake": {
+  "img": "/content/g6/shared/img/2502.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2502",
+  "imageFit": "contain",
+  "imageConcept": "cake"
+ },
+ "a bottle of water": {
+  "img": "/content/g6/shared/img/38604.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/38604",
+  "imageFit": "contain",
+  "imageConcept": "water bottle"
+ },
+ "forest": {
+  "img": "/content/g5/u5/presentation/img/p01-07.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "forest"
+ },
+ "desert": {
+  "img": "/content/g5/u8/presentation/img/p01-05.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "desert"
+ },
+ "ocean": {
+  "img": "/content/g5/u7/presentation/img/p02-17.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "ocean"
+ },
+ "island": {
+  "img": "/content/g5/u8/presentation/img/p01-16.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "island"
+ },
+ "elephant": {
+  "img": "/content/g6/shared/img/2372.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2372",
+  "imageFit": "contain",
+  "imageConcept": "elephant"
+ },
+ "parrot": {
+  "img": "/content/g6/shared/img/2934.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2934",
+  "imageFit": "contain",
+  "imageConcept": "parrot"
+ },
+ "camping": {
+  "img": "/content/g5/u4/presentation/img/p02-21.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "tent"
+ },
+ "swimming": {
+  "img": "/content/g5/u4/presentation/img/p02-28.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "swimming"
+ },
+ "leader": {
+  "img": "/content/g6/shared/img/38642.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/38642",
+  "imageFit": "contain",
+  "imageConcept": "leader"
+ },
+ "listener": {
+  "img": "/content/g6/shared/img/2381.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2381",
+  "imageFit": "contain",
+  "imageConcept": "listen"
+ },
+ "permission": {
+  "img": "/content/g6/shared/img/27865.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/27865",
+  "imageFit": "contain",
+  "imageConcept": "permission"
+ },
+ "instruction": {
+  "img": "/content/g6/shared/img/34755.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/34755",
+  "imageFit": "contain",
+  "imageConcept": "instructions"
+ },
+ "guide": {
+  "img": "/content/g6/shared/img/27821.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/27821",
+  "imageFit": "contain",
+  "imageConcept": "guide"
+ },
+ "helpful": {
+  "img": "/content/g6/shared/img/4570.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/4570",
+  "imageFit": "contain",
+  "imageConcept": "help"
+ },
+ "support": {
+  "img": "/content/g6/shared/img/12252.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/12252",
+  "imageFit": "contain",
+  "imageConcept": "support"
+ },
+ "volunteer": {
+  "img": "/content/g6/shared/img/25534.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/25534",
+  "imageFit": "contain",
+  "imageConcept": "volunteer"
+ },
+ "greet": {
+  "img": "/content/g6/shared/img/6610.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6610",
+  "imageFit": "contain",
+  "imageConcept": "greet"
+ },
+ "follow": {
+  "img": "/content/g6/shared/img/7037.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/7037",
+  "imageFit": "contain",
+  "imageConcept": "follow"
+ },
+ "enter": {
+  "img": "/content/g6/shared/img/2742.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2742",
+  "imageFit": "contain",
+  "imageConcept": "enter"
+ },
+ "pack": {
+  "img": "/content/g6/shared/img/38584.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/38584",
+  "imageFit": "contain",
+  "imageCue": "Put your things in a bag",
+  "pictureQuiz": false,
+  "imageConcept": "pack"
+ },
+ "term": {
+  "img": "/content/g6/shared/img/3071.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3071",
+  "imageFit": "contain",
+  "imageCue": "One part of the school year",
+  "pictureQuiz": false,
+  "imageConcept": "calendar"
+ },
+ "regularly": {
+  "imageFit": "contain",
+  "imageSource": "ENG HUB",
+  "imageConcept": "calendar",
+  "img": "/app/img/concepts/usually.svg",
+  "imageCue": "Again and again",
+  "pictureQuiz": false
+ },
+ "carefully": {
+  "img": "/content/g6/shared/img/25618.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/25618",
+  "imageFit": "contain",
+  "imageCue": "Take care as you work",
+  "pictureQuiz": false,
+  "imageConcept": "be careful"
+ },
+ "willingly": {
+  "img": "/content/g6/shared/img/37784.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/37784",
+  "imageFit": "contain",
+  "imageCue": "Happy to help",
+  "pictureQuiz": false,
+  "imageConcept": "willingness"
+ },
+ "ceremony": {
+  "img": "/content/g6/shared/img/38346.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/38346",
+  "imageFit": "contain",
+  "imageCue": "A formal school event",
+  "pictureQuiz": false,
+  "imageConcept": "ceremony"
+ },
+ "celebration": {
+  "img": "/content/g6/shared/img/6969.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6969",
+  "imageFit": "contain",
+  "imageConcept": "celebration"
+ },
+ "parade": {
+  "img": "/content/g6/shared/img/26708.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/26708",
+  "imageFit": "contain",
+  "imageConcept": "parade"
+ },
+ "flag": {
+  "img": "/app/img/flags/tr.svg",
+  "imageConcept": "flag",
+  "imageSource": "Existing ENG HUB flag"
+ },
+ "national anthem": {
+  "img": "/content/g6/shared/img/2315.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2315",
+  "imageFit": "contain",
+  "imageCue": "Stand and sing for your country",
+  "pictureQuiz": false,
+  "imageConcept": "sing"
+ },
+ "speech": {
+  "img": "/content/g6/shared/img/27465.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/27465",
+  "imageFit": "contain",
+  "imageConcept": "speech"
+ },
+ "festival": {
+  "img": "/content/g5/u5/presentation/img/p01-17.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "festival"
+ },
+ "celebrate": {
+  "img": "/content/g6/shared/img/6969.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6969",
+  "imageFit": "contain",
+  "imageConcept": "celebrate"
+ },
+ "successful": {
+  "img": "/content/g6/shared/img/11599.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11599",
+  "imageFit": "contain",
+  "imageCue": "A good result",
+  "pictureQuiz": false,
+  "imageConcept": "success"
+ },
+ "keen": {
+  "img": "/content/g6/shared/img/39090.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/39090",
+  "imageFit": "contain",
+  "imageCue": "Ready to join in",
+  "pictureQuiz": false,
+  "imageConcept": "excited"
+ },
+ "try": {
+  "img": "/content/g6/shared/img/6190.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6190",
+  "imageFit": "contain",
+  "imageCue": "Make an effort",
+  "pictureQuiz": false,
+  "imageConcept": "try"
+ },
+ "pass": {
+  "img": "/content/g6/shared/img/21379.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/21379",
+  "imageFit": "contain",
+  "imageConcept": "pass"
+ },
+ "fail": {
+  "img": "/content/g6/shared/img/22115.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/22115",
+  "imageFit": "contain",
+  "imageConcept": "fail"
+ },
+ "cheerfully": {
+  "img": "/content/g6/shared/img/3245.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3245",
+  "imageFit": "contain",
+  "imageConcept": "happy"
+ },
+ "before": {
+  "img": "/content/g6/shared/img/13028.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/13028",
+  "imageFit": "contain",
+  "imageConcept": "before"
+ },
+ "later": {
+  "img": "/content/g6/shared/img/13080.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/13080",
+  "imageFit": "contain",
+  "imageConcept": "later"
+ },
+ "habit": {
+  "imageSource": "ENG HUB",
+  "imageFit": "contain",
+  "imageConcept": "routine",
+  "img": "/app/img/concepts/habit.svg"
+ },
+ "diary": {
+  "img": "/content/g6/shared/img/5898.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/5898",
+  "imageFit": "contain",
+  "imageConcept": "diary"
+ },
+ "research": {
+  "img": "/content/g6/shared/img/32138.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/32138",
+  "imageFit": "contain",
+  "imageConcept": "research"
+ },
+ "method": {
+  "img": "/content/g6/shared/img/11706.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11706",
+  "imageFit": "contain",
+  "imageCue": "Steps for doing something",
+  "pictureQuiz": false,
+  "imageConcept": "method"
+ },
+ "review": {
+  "img": "/content/g6/shared/img/19553.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/19553",
+  "imageFit": "contain",
+  "imageConcept": "review"
+ },
+ "revise": {
+  "img": "/content/g6/shared/img/6998.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6998",
+  "imageFit": "contain",
+  "imageConcept": "revise"
+ },
+ "practise": {
+  "img": "/content/g6/shared/img/2387.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2387",
+  "imageFit": "contain",
+  "imageCue": "Do it again to improve",
+  "pictureQuiz": false,
+  "imageConcept": "study"
+ },
+ "remember": {
+  "img": "/content/g6/shared/img/37369.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/37369",
+  "imageFit": "contain",
+  "imageCue": "Bring it back to mind",
+  "pictureQuiz": false,
+  "imageConcept": "remember"
+ },
+ "peer": {
+  "img": "/content/g6/shared/img/39421.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/39421",
+  "imageFit": "contain",
+  "imageConcept": "classmate"
+ },
+ "pair": {
+  "img": "/content/g6/shared/img/15361.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/15361",
+  "imageFit": "contain",
+  "imageCue": "Work with one partner",
+  "pictureQuiz": false,
+  "imageConcept": "pair"
+ },
+ "group": {
+  "img": "/content/g6/shared/img/7116.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7116",
+  "imageFit": "contain",
+  "imageConcept": "group"
+ },
+ "task": {
+  "img": "/content/g6/shared/img/11263.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11263",
+  "imageFit": "contain",
+  "imageConcept": "task"
+ },
+ "share": {
+  "img": "/content/g6/shared/img/15361.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/15361",
+  "imageFit": "contain",
+  "imageConcept": "share"
+ },
+ "repeat": {
+  "img": "/content/g6/shared/img/28659.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/28659",
+  "imageFit": "contain",
+  "imageCue": "Listen, then say it again",
+  "pictureQuiz": false,
+  "imageConcept": "repeat"
+ },
+ "read aloud": {
+  "img": "/content/g6/shared/img/39687.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/39687",
+  "imageFit": "contain",
+  "imageConcept": "read aloud"
+ },
+ "read silently": {
+  "img": "/content/g6/shared/img/7141.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7141",
+  "imageFit": "contain",
+  "imageCue": "Read without speaking",
+  "pictureQuiz": false,
+  "imageConcept": "read"
+ },
+ "brush": {
+  "img": "/content/g5/u4/presentation/img/p01-14.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "brush"
+ },
+ "rest": {
+  "img": "/content/g5/u4/presentation/img/p02-05.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "rest"
+ },
+ "focus": {
+  "img": "/content/g6/shared/img/25355.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/25355",
+  "imageFit": "contain",
+  "imageConcept": "pay attention"
+ },
+ "mark": {
+  "img": "/content/g6/shared/img/6219.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6219",
+  "imageFit": "contain",
+  "imageConcept": "mark"
+ },
+ "effective": {
+  "img": "/content/g6/shared/img/11599.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11599",
+  "imageFit": "contain",
+  "imageCue": "It works well",
+  "pictureQuiz": false,
+  "imageConcept": "success"
+ },
+ "creative": {
+  "img": "/content/g6/shared/img/11690.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11690",
+  "imageFit": "contain",
+  "imageConcept": "creativity"
+ },
+ "in turns": {
+  "img": "/content/g6/shared/img/7158.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7158",
+  "imageFit": "contain",
+  "imageCue": "First me, then you",
+  "pictureQuiz": false,
+  "imageConcept": "my turn"
+ },
+ "together": {
+  "img": "/content/g6/shared/img/25792.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/25792",
+  "imageFit": "contain",
+  "imageCue": "With other people",
+  "pictureQuiz": false,
+  "imageConcept": "together"
+ },
+ "back": {
+  "img": "/content/g5/u3/presentation/img/p01-15.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "back"
+ },
+ "leg": {
+  "img": "/content/g5/u3/presentation/img/p01-17.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "leg"
+ },
+ "knee": {
+  "img": "/content/g5/u3/presentation/img/p01-18.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "knee"
+ },
+ "ankle": {
+  "img": "/content/g6/shared/img/3405.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3405",
+  "imageFit": "contain",
+  "imageConcept": "ankle"
+ },
+ "heart": {
+  "img": "/content/g6/shared/img/2715.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2715",
+  "imageFit": "contain",
+  "imageConcept": "heart"
+ },
+ "stomach": {
+  "img": "/content/g6/shared/img/2786.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2786",
+  "imageFit": "contain",
+  "imageConcept": "stomach"
+ },
+ "skin": {
+  "img": "/content/g6/shared/img/2840.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2840",
+  "imageFit": "contain",
+  "imageConcept": "skin"
+ },
+ "physical": {
+  "img": "/content/g6/shared/img/2728.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2728",
+  "imageFit": "contain",
+  "imageCue": "About the body",
+  "pictureQuiz": false,
+  "imageConcept": "body"
+ },
+ "trainers": {
+  "img": "/content/g6/shared/img/2621.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2621",
+  "imageFit": "contain",
+  "imageConcept": "trainers"
+ },
+ "swimsuit": {
+  "img": "/content/g6/shared/img/2270.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2270",
+  "imageFit": "contain",
+  "imageConcept": "swimsuit"
+ },
+ "tights": {
+  "img": "/content/g6/shared/img/2466.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2466",
+  "imageFit": "contain",
+  "imageConcept": "tights"
+ },
+ "pocket": {
+  "img": "/content/g6/shared/img/6937.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6937",
+  "imageFit": "contain",
+  "imageConcept": "pocket"
+ },
+ "necklace": {
+  "img": "/content/g5/u3/presentation/img/p03-08.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "necklace"
+ },
+ "bracelet": {
+  "img": "/content/g6/shared/img/2537.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2537",
+  "imageFit": "contain",
+  "imageConcept": "bracelet"
+ },
+ "wallet": {
+  "img": "/content/g6/shared/img/2689.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2689",
+  "imageFit": "contain",
+  "imageConcept": "wallet"
+ },
+ "jewellery": {
+  "img": "/content/g6/shared/img/29088.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/29088",
+  "imageFit": "contain",
+  "imageConcept": "jewelry"
+ },
+ "patient": {
+  "img": "/content/g6/shared/img/36563.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/36563",
+  "imageFit": "contain",
+  "imageConcept": "patience"
+ },
+ "polite": {
+  "img": "/content/g6/shared/img/8194.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8194",
+  "imageFit": "contain",
+  "imageCue": "Please. Thank you.",
+  "pictureQuiz": false,
+  "imageConcept": "please"
+ },
+ "caring": {
+  "img": "/content/g6/shared/img/12252.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/12252",
+  "imageFit": "contain",
+  "imageCue": "Care about other people",
+  "pictureQuiz": false,
+  "imageConcept": "care"
+ },
+ "clever": {
+  "img": "/content/g6/shared/img/37711.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/37711",
+  "imageFit": "contain",
+  "imageCue": "Find a solution",
+  "pictureQuiz": false,
+  "imageConcept": "solve"
+ },
+ "organised": {
+  "img": "/content/g6/shared/img/4707.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/4707",
+  "imageFit": "contain",
+  "imageConcept": "organised"
+ },
+ "independent": {
+  "img": "/content/g6/shared/img/11472.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11472",
+  "imageFit": "contain",
+  "imageConcept": "independent"
+ },
+ "focused": {
+  "img": "/content/g6/shared/img/25355.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/25355",
+  "imageFit": "contain",
+  "imageConcept": "pay attention"
+ },
+ "social": {
+  "imageSource": "ENG HUB",
+  "imageFit": "contain",
+  "imageConcept": "sociable",
+  "img": "/app/img/concepts/social.svg"
+ },
+ "tidy": {
+  "img": "/content/g6/shared/img/8680.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8680",
+  "imageFit": "contain",
+  "imageConcept": "tidy up"
+ },
+ "serious": {
+  "img": "/content/g6/shared/img/8690.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/8690",
+  "imageFit": "contain",
+  "imageConcept": "serious"
+ },
+ "rude": {
+  "img": "/content/g6/shared/img/26611.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/26611",
+  "imageFit": "contain",
+  "imageConcept": "insult"
+ },
+ "lazy": {
+  "img": "/content/g6/shared/img/8245.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8245",
+  "imageFit": "contain",
+  "imageConcept": "lazy"
+ },
+ "weak": {
+  "img": "/content/g6/shared/img/4620.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/4620",
+  "imageFit": "contain",
+  "imageConcept": "weak"
+ },
+ "lovely": {
+  "img": "/content/g6/shared/img/4660.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/4660",
+  "imageFit": "contain",
+  "imageConcept": "beautiful"
+ },
+ "brilliant": {
+  "img": "/content/g6/shared/img/2285.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2285",
+  "imageFit": "contain",
+  "imageCue": "A very good idea",
+  "pictureQuiz": false,
+  "imageConcept": "brilliant"
+ },
+ "look": {
+  "img": "/content/g6/shared/img/2474.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2474",
+  "imageFit": "contain",
+  "imageConcept": "look"
+ },
+ "author": {
+  "img": "/content/g6/shared/img/8565.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8565",
+  "imageFit": "contain",
+  "imageConcept": "author"
+ },
+ "dentist": {
+  "img": "/content/g6/shared/img/2733.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2733",
+  "imageFit": "contain",
+  "imageConcept": "dentist"
+ },
+ "engineer": {
+  "img": "/content/g6/shared/img/2968.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2968",
+  "imageFit": "contain",
+  "imageConcept": "engineer"
+ },
+ "reporter": {
+  "img": "/content/g6/shared/img/8664.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8664",
+  "imageFit": "contain",
+  "imageConcept": "journalist"
+ },
+ "cook": {
+  "img": "/content/g6/shared/img/6985.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6985",
+  "imageFit": "contain",
+  "imageConcept": "cook"
+ },
+ "pilot": {
+  "img": "/content/g6/shared/img/3370.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3370",
+  "imageFit": "contain",
+  "imageConcept": "pilot"
+ },
+ "lawyer": {
+  "img": "/content/g6/shared/img/2636.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2636",
+  "imageFit": "contain",
+  "imageConcept": "lawyer"
+ },
+ "designer": {
+  "img": "/content/g6/shared/img/37088.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/37088",
+  "imageFit": "contain",
+  "imageConcept": "designer"
+ },
+ "manager": {
+  "img": "/content/g6/shared/img/16041.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/16041",
+  "imageFit": "contain",
+  "imageConcept": "manager"
+ },
+ "assistant": {
+  "img": "/content/g6/shared/img/4742.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/4742",
+  "imageFit": "contain",
+  "imageCue": "Helps someone at work",
+  "pictureQuiz": false,
+  "imageConcept": "assistant"
+ },
+ "professor": {
+  "img": "/content/g6/shared/img/2457.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2457",
+  "imageFit": "contain",
+  "imageConcept": "professor"
+ },
+ "officer": {
+  "img": "/content/g6/shared/img/2824.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2824",
+  "imageFit": "contain",
+  "imageConcept": "police officer"
+ },
+ "company": {
+  "img": "/content/g6/shared/img/36089.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/36089",
+  "imageFit": "contain",
+  "imageCue": "A business",
+  "pictureQuiz": false,
+  "imageConcept": "company"
+ },
+ "factory": {
+  "img": "/content/g6/shared/img/8581.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/8581",
+  "imageFit": "contain",
+  "imageConcept": "factory"
+ },
+ "employee": {
+  "img": "/content/g6/shared/img/7795.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7795",
+  "imageFit": "contain",
+  "imageCue": "Works for an employer",
+  "pictureQuiz": false,
+  "imageConcept": "worker"
+ },
+ "employer": {
+  "img": "/content/g6/shared/img/22755.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/22755",
+  "imageFit": "contain",
+  "imageCue": "Gives people a job",
+  "pictureQuiz": false,
+  "imageConcept": "director"
+ },
+ "apartment": {
+  "img": "/content/g5/u5/presentation/img/p02-01.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "apartment"
+ },
+ "address": {
+  "img": "/content/g6/shared/img/30231.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/30231",
+  "imageFit": "contain",
+  "imageConcept": "address"
+ },
+ "entrance": {
+  "img": "/content/g6/shared/img/37334.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/37334",
+  "imageFit": "contain",
+  "imageConcept": "entrance"
+ },
+ "roof": {
+  "img": "/content/g5/u5/presentation/img/p02-12.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "roof"
+ },
+ "upstairs": {
+  "img": "/content/g6/shared/img/2795.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2795",
+  "imageFit": "contain",
+  "imageConcept": "go upstairs"
+ },
+ "downstairs": {
+  "img": "/content/g6/shared/img/2654.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2654",
+  "imageFit": "contain",
+  "imageConcept": "go down the stairs"
+ },
+ "floor": {
+  "img": "/content/g6/shared/img/11343.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11343",
+  "imageFit": "contain",
+  "imageConcept": "floor"
+ },
+ "key": {
+  "img": "/content/g6/shared/img/8153.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8153",
+  "imageFit": "contain",
+  "imageConcept": "key"
+ },
+ "bookshelf": {
+  "img": "/content/g5/u2/presentation/img/p02-19.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "bookshelf"
+ },
+ "drawer": {
+  "img": "/content/g6/shared/img/6070.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6070",
+  "imageFit": "contain",
+  "imageConcept": "drawer"
+ },
+ "curtain": {
+  "img": "/content/g6/shared/img/8344.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8344",
+  "imageFit": "contain",
+  "imageConcept": "curtain"
+ },
+ "carpet": {
+  "img": "/content/g6/shared/img/2249.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2249",
+  "imageFit": "contain",
+  "imageConcept": "carpet"
+ },
+ "blanket": {
+  "img": "/content/g6/shared/img/2459.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2459",
+  "imageFit": "contain",
+  "imageConcept": "blanket"
+ },
+ "pillow": {
+  "img": "/content/g6/shared/img/2250.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2250",
+  "imageFit": "contain",
+  "imageConcept": "pillow"
+ },
+ "refrigerator": {
+  "img": "/content/g6/shared/img/3272.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3272",
+  "imageFit": "contain",
+  "imageConcept": "refrigerator"
+ },
+ "sink": {
+  "img": "/content/g6/shared/img/2399.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2399",
+  "imageFit": "contain",
+  "imageConcept": "sink"
+ },
+ "audience": {
+  "img": "/content/g6/shared/img/24783.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/24783",
+  "imageFit": "contain",
+  "imageConcept": "audience"
+ },
+ "musician": {
+  "img": "/content/g6/shared/img/2890.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2890",
+  "imageFit": "contain",
+  "imageConcept": "musician"
+ },
+ "wedding": {
+  "img": "/content/g6/shared/img/8256.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8256",
+  "imageFit": "contain",
+  "imageConcept": "wedding"
+ },
+ "perform": {
+  "img": "/content/g6/shared/img/35709.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/35709",
+  "imageFit": "contain",
+  "imageCue": "Act or play for an audience",
+  "pictureQuiz": false,
+  "imageConcept": "act"
+ },
+ "organise": {
+  "img": "/content/g6/shared/img/35653.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/35653",
+  "imageFit": "contain",
+  "imageConcept": "organise"
+ },
+ "raise money": {
+  "img": "/content/g6/shared/img/30480.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/30480",
+  "imageFit": "contain",
+  "imageCue": "Collect donations",
+  "pictureQuiz": false,
+  "imageConcept": "donate"
+ },
+ "local": {
+  "img": "/content/g6/shared/img/35181.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/35181",
+  "imageFit": "contain",
+  "imageCue": "In your neighbourhood",
+  "pictureQuiz": false,
+  "imageConcept": "near"
+ },
+ "crowded": {
+  "img": "/content/g6/shared/img/38445.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/38445",
+  "imageFit": "contain",
+  "imageConcept": "crowded"
+ },
+ "pleased": {
+  "img": "/content/g6/shared/img/39091.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/39091",
+  "imageFit": "contain",
+  "imageConcept": "pleased"
+ },
+ "tired": {
+  "img": "/content/g6/shared/img/2314.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2314",
+  "imageFit": "contain",
+  "imageConcept": "tired"
+ },
+ "jazz": {
+  "img": "/app/img/concepts/types-of-music.svg",
+  "imageConcept": "saxophone",
+  "imageSource": "ENG HUB",
+  "imageCue": "Saxophones and improvisation",
+  "pictureQuiz": false
+ },
+ "pop": {
+  "img": "/content/g6/shared/img/4585.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/4585",
+  "imageFit": "contain",
+  "imageCue": "Popular songs",
+  "pictureQuiz": false,
+  "imageConcept": "singer"
+ },
+ "rock": {
+  "img": "/app/img/concepts/types-of-music.svg",
+  "imageConcept": "electric guitar",
+  "imageSource": "ENG HUB",
+  "imageCue": "Electric guitars and drums",
+  "pictureQuiz": false
+ },
+ "rap": {
+  "img": "/content/g6/shared/img/2912.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2912",
+  "imageFit": "contain",
+  "imageCue": "Rhythm and spoken words",
+  "pictureQuiz": false,
+  "imageConcept": "microphone"
+ },
+ "tram": {
+  "img": "/content/g6/shared/img/2602.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2602",
+  "imageFit": "contain",
+  "imageConcept": "tram"
+ },
+ "underground": {
+  "img": "/content/g6/shared/img/2472.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2472",
+  "imageFit": "contain",
+  "imageConcept": "subway"
+ },
+ "van": {
+  "img": "/content/g6/shared/img/3275.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3275",
+  "imageFit": "contain",
+  "imageConcept": "van"
+ },
+ "lorry": {
+  "img": "/content/g6/shared/img/2306.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2306",
+  "imageFit": "contain",
+  "imageConcept": "lorry"
+ },
+ "motorcycle": {
+  "img": "/content/g6/shared/img/2480.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2480",
+  "imageFit": "contain",
+  "imageConcept": "motorcycle"
+ },
+ "ship": {
+  "img": "/content/g6/shared/img/21421.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/21421",
+  "imageFit": "contain",
+  "imageConcept": "ship"
+ },
+ "vehicle": {
+  "img": "/content/g6/shared/img/34461.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/34461",
+  "imageFit": "contain",
+  "imageConcept": "vehicle"
+ },
+ "public transport": {
+  "img": "/content/g6/shared/img/10351.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10351",
+  "imageFit": "contain",
+  "imageCue": "Travel together",
+  "pictureQuiz": false,
+  "imageConcept": "means of transport"
+ },
+ "sign": {
+  "img": "/content/g6/shared/img/35505.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/35505",
+  "imageFit": "contain",
+  "imageConcept": "sign"
+ },
+ "direction": {
+  "img": "/content/g6/shared/img/7078.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7078",
+  "imageFit": "contain",
+  "imageConcept": "direction"
+ },
+ "overpass": {
+  "img": "/content/g6/shared/img/37257.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/37257",
+  "imageFit": "contain",
+  "imageCue": "Cross above the road",
+  "pictureQuiz": false,
+  "imageConcept": "footbridge"
+ },
+ "underpass": {
+  "img": "/content/g6/shared/img/8972.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8972",
+  "imageFit": "contain",
+  "imageCue": "Go below the road",
+  "pictureQuiz": false,
+  "imageConcept": "tunnel"
+ },
+ "parking": {
+  "img": "/content/g6/shared/img/6283.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6283",
+  "imageFit": "contain",
+  "imageConcept": "parking"
+ },
+ "railway line": {
+  "img": "/content/g6/shared/img/7299.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7299",
+  "imageFit": "contain",
+  "imageConcept": "railway"
+ },
+ "on foot": {
+  "img": "/content/g6/shared/img/3251.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3251",
+  "imageFit": "contain",
+  "imageConcept": "walk"
+ },
+ "by car": {
+  "img": "/content/g6/shared/img/2339.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2339",
+  "imageFit": "contain",
+  "imageCue": "Travel in a car",
+  "pictureQuiz": false,
+  "imageConcept": "car"
+ },
+ "france": {
+  "img": "/app/img/flags/fr.svg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "france"
+ },
+ "germany": {
+  "img": "/app/img/flags/de.svg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "germany"
+ },
+ "italy": {
+  "img": "/app/img/flags/it.svg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "italy"
+ },
+ "spain": {
+  "img": "/app/img/flags/es.svg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "spain"
+ },
+ "denmark": {
+  "img": "/content/g6/shared/img/21799.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/21799",
+  "imageFit": "contain",
+  "imageConcept": "denmark"
+ },
+ "sweden": {
+  "img": "/content/g6/shared/img/10253.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10253",
+  "imageFit": "contain",
+  "imageConcept": "sweden"
+ },
+ "poland": {
+  "img": "/content/g6/shared/img/22051.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/22051",
+  "imageFit": "contain",
+  "imageConcept": "poland"
+ },
+ "the netherlands": {
+  "img": "/content/g6/shared/img/19547.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/19547",
+  "imageFit": "contain",
+  "imageConcept": "the netherlands"
+ },
+ "french": {
+  "img": "/content/g6/shared/img/8121.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8121",
+  "imageFit": "contain",
+  "imageConcept": "france"
+ },
+ "german": {
+  "img": "/content/g6/shared/img/8011.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8011",
+  "imageFit": "contain",
+  "imageConcept": "germany"
+ },
+ "italian": {
+  "img": "/content/g6/shared/img/8143.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8143",
+  "imageFit": "contain",
+  "imageConcept": "italy"
+ },
+ "spanish": {
+  "img": "/content/g6/shared/img/8108.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8108",
+  "imageFit": "contain",
+  "imageConcept": "spain"
+ },
+ "danish": {
+  "img": "/content/g6/shared/img/21799.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/21799",
+  "imageFit": "contain",
+  "imageConcept": "denmark"
+ },
+ "swedish": {
+  "img": "/content/g6/shared/img/10253.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10253",
+  "imageFit": "contain",
+  "imageConcept": "sweden"
+ },
+ "polish": {
+  "img": "/content/g6/shared/img/22051.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/22051",
+  "imageFit": "contain",
+  "imageConcept": "poland"
+ },
+ "dutch": {
+  "img": "/content/g6/shared/img/19547.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/19547",
+  "imageFit": "contain",
+  "imageConcept": "the netherlands"
+ },
+ "cuisine": {
+  "img": "/content/g6/shared/img/4610.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/4610",
+  "imageFit": "contain",
+  "imageCue": "Food from a place",
+  "pictureQuiz": false,
+  "imageConcept": "food"
+ },
+ "ingredient": {
+  "img": "/content/g6/shared/img/24119.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/24119",
+  "imageFit": "contain",
+  "imageCue": "Things used in a recipe",
+  "pictureQuiz": false,
+  "imageConcept": "ingredients"
+ },
+ "appetiser": {
+  "img": "/content/g6/shared/img/24854.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/24854",
+  "imageFit": "contain",
+  "imageConcept": "appetiser"
+ },
+ "main course": {
+  "img": "/content/g6/shared/img/7240.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7240",
+  "imageFit": "contain",
+  "imageConcept": "main course"
+ },
+ "dessert": {
+  "img": "/app/img/words/dessert.jpg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "dessert"
+ },
+ "dumpling": {
+  "img": "/content/g6/shared/img/39641.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/39641",
+  "imageFit": "contain",
+  "imageConcept": "ravioli"
+ },
+ "food stall": {
+  "img": "/content/g6/shared/img/38302.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/38302",
+  "imageFit": "contain",
+  "imageCue": "Buy food at an event",
+  "pictureQuiz": false,
+  "imageConcept": "stalls"
+ },
+ "heritage": {
+  "img": "/content/g6/shared/img/36297.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/36297",
+  "imageFit": "contain",
+  "imageConcept": "monument"
+ },
+ "crispy": {
+  "img": "/content/g6/shared/img/2505.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2505",
+  "imageFit": "contain",
+  "imageCue": "Thin and crisp",
+  "pictureQuiz": false,
+  "imageConcept": "crisps"
+ },
+ "crunchy": {
+  "img": "/content/g6/shared/img/2787.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2787",
+  "imageFit": "contain",
+  "imageCue": "Makes a crunch",
+  "pictureQuiz": false,
+  "imageConcept": "toast"
+ },
+ "sour": {
+  "img": "/content/g6/shared/img/3022.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/3022",
+  "imageFit": "contain",
+  "imageConcept": "sour taste"
+ },
+ "spicy": {
+  "img": "/content/g6/shared/img/4719.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/4719",
+  "imageFit": "contain",
+  "imageConcept": "spicy"
+ },
+ "bitter": {
+  "img": "/content/g6/shared/img/30928.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/30928",
+  "imageFit": "contain",
+  "imageConcept": "bitter"
+ },
+ "homemade": {
+  "img": "/content/g6/shared/img/2342.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2342",
+  "imageFit": "contain",
+  "imageConcept": "cook"
+ },
+ "tradition": {
+  "img": "/content/g6/shared/img/11693.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11693",
+  "imageFit": "contain",
+  "imageCue": "Passed on through generations",
+  "pictureQuiz": false,
+  "imageConcept": "culture"
+ },
+ "capital": {
+  "img": "/content/g6/shared/img/2704.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2704",
+  "imageFit": "contain",
+  "imageCue": "Paris is the capital of France",
+  "pictureQuiz": false,
+  "imageConcept": "capital"
+ },
+ "hiking": {
+  "img": "/content/g6/shared/img/4670.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/4670",
+  "imageFit": "contain",
+  "imageConcept": "hike"
+ },
+ "climbing": {
+  "img": "/content/g5/u8/presentation/img/p02-01.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "climbing"
+ },
+ "sailing": {
+  "img": "/content/g6/shared/img/7170.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7170",
+  "imageFit": "contain",
+  "imageConcept": "sail"
+ },
+ "rafting": {
+  "img": "/app/img/words/rafting.jpg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "raft"
+ },
+ "snowboarding": {
+  "img": "/content/g6/shared/img/29810.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/29810",
+  "imageFit": "contain",
+  "imageConcept": "snowboarding"
+ },
+ "camp": {
+  "img": "/content/g5/u4/presentation/img/p02-21.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "camp"
+ },
+ "cycle": {
+  "img": "/content/g5/u4/presentation/img/p02-11.png",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "cycle"
+ },
+ "fish": {
+  "img": "/content/g6/shared/img/6592.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6592",
+  "imageFit": "contain",
+  "imageConcept": "fish"
+ },
+ "adventure": {
+  "img": "/content/g6/shared/img/21401.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/21401",
+  "imageFit": "contain",
+  "imageConcept": "adventure"
+ },
+ "ride": {
+  "img": "/content/g6/shared/img/6643.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6643",
+  "imageFit": "contain",
+  "imageConcept": "horseman"
+ },
+ "run": {
+  "img": "/content/g6/shared/img/2719.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2719",
+  "imageFit": "contain",
+  "imageConcept": "run"
+ },
+ "ski": {
+  "img": "/content/g6/shared/img/16701.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/16701",
+  "imageFit": "contain",
+  "imageConcept": "ski"
+ },
+ "pick": {
+  "img": "/content/g6/shared/img/7227.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7227",
+  "imageFit": "contain",
+  "imageConcept": "pick up"
+ },
+ "plant": {
+  "img": "/content/g6/shared/img/2828.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2828",
+  "imageFit": "contain",
+  "imageConcept": "plant"
+ },
+ "danger": {
+  "img": "/content/g6/shared/img/25315.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/25315",
+  "imageFit": "contain",
+  "imageConcept": "danger"
+ },
+ "responsibility": {
+  "img": "/content/g6/shared/img/37234.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/37234",
+  "imageFit": "contain",
+  "imageConcept": "responsibility"
+ },
+ "pollution": {
+  "img": "/content/g6/shared/img/7066.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7066",
+  "imageFit": "contain",
+  "imageConcept": "pollution"
+ },
+ "rubbish": {
+  "img": "/content/g6/shared/img/8499.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8499",
+  "imageFit": "contain",
+  "imageConcept": "rubbish"
+ },
+ "plastic": {
+  "img": "/content/g6/shared/img/10288.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/10288",
+  "imageFit": "contain",
+  "imageConcept": "plastic"
+ },
+ "smoke": {
+  "img": "/content/g6/shared/img/6529.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6529",
+  "imageFit": "contain",
+  "imageConcept": "smoke"
+ },
+ "energy": {
+  "img": "/content/g6/shared/img/26059.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/26059",
+  "imageFit": "contain",
+  "imageConcept": "energy"
+ },
+ "heat": {
+  "img": "/content/g6/shared/img/2300.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2300",
+  "imageFit": "contain",
+  "imageConcept": "hot"
+ },
+ "destroy": {
+  "img": "/content/g6/shared/img/25056.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/25056",
+  "imageFit": "contain",
+  "imageConcept": "destroy"
+ },
+ "increase": {
+  "img": "/content/g6/shared/img/19572.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/19572",
+  "imageFit": "contain",
+  "imageCue": "Go up: more and more",
+  "pictureQuiz": false,
+  "imageConcept": "increase"
+ },
+ "protect": {
+  "img": "/content/g6/shared/img/6192.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/6192",
+  "imageFit": "contain",
+  "imageConcept": "protect"
+ },
+ "prevent": {
+  "img": "/content/g6/shared/img/3311.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3311",
+  "imageFit": "contain",
+  "imageCue": "Stop a problem before it happens",
+  "pictureQuiz": false,
+  "imageConcept": "avoid"
+ },
+ "reduce": {
+  "img": "/content/g6/shared/img/5512.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/5512",
+  "imageFit": "contain",
+  "imageCue": "Use less",
+  "pictureQuiz": false,
+  "imageConcept": "reduce"
+ },
+ "recycle": {
+  "img": "/content/g6/shared/img/27210.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/27210",
+  "imageFit": "contain",
+  "imageConcept": "recycle"
+ },
+ "reusable": {
+  "img": "/content/g6/shared/img/36441.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/36441",
+  "imageFit": "contain",
+  "imageCue": "Use it again",
+  "pictureQuiz": false,
+  "imageConcept": "reuse"
+ },
+ "replace": {
+  "img": "/content/g6/shared/img/8053.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8053",
+  "imageFit": "contain",
+  "imageCue": "Put something new in its place",
+  "pictureQuiz": false,
+  "imageConcept": "change"
+ },
+ "remove": {
+  "img": "/content/g6/shared/img/11751.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/11751",
+  "imageFit": "contain",
+  "imageConcept": "remove"
+ },
+ "save": {
+  "img": "/content/g6/shared/img/8027.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8027",
+  "imageFit": "contain",
+  "imageCue": "Use less energy or water",
+  "pictureQuiz": false,
+  "imageConcept": "save"
+ },
+ "mercury": {
+  "img": "/content/g6/shared/img/10297.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10297",
+  "imageFit": "contain",
+  "imageConcept": "mercury"
+ },
+ "venus": {
+  "img": "/content/g6/shared/img/10303.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10303",
+  "imageFit": "contain",
+  "imageConcept": "venus"
+ },
+ "earth": {
+  "img": "/content/g6/shared/img/30014.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/30014",
+  "imageFit": "contain",
+  "imageConcept": "earth"
+ },
+ "mars": {
+  "img": "/content/g6/shared/img/10296.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10296",
+  "imageFit": "contain",
+  "imageConcept": "mars"
+ },
+ "jupiter": {
+  "img": "/content/g6/shared/img/10293.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10293",
+  "imageFit": "contain",
+  "imageConcept": "jupiter"
+ },
+ "saturn": {
+  "img": "/content/g6/shared/img/10300.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10300",
+  "imageFit": "contain",
+  "imageConcept": "saturn"
+ },
+ "uranus": {
+  "img": "/content/g6/shared/img/10302.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10302",
+  "imageFit": "contain",
+  "imageConcept": "uranus"
+ },
+ "neptune": {
+  "img": "/content/g6/shared/img/10298.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10298",
+  "imageFit": "contain",
+  "imageConcept": "neptune"
+ },
+ "sun": {
+  "img": "/content/g6/shared/img/2798.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2798",
+  "imageFit": "contain",
+  "imageConcept": "sun"
+ },
+ "moon": {
+  "img": "/content/g6/shared/img/2933.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2933",
+  "imageFit": "contain",
+  "imageConcept": "moon"
+ },
+ "orbit": {
+  "img": "/content/g6/shared/img/37979.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/37979",
+  "imageFit": "contain",
+  "imageCue": "A path around a planet or star",
+  "pictureQuiz": false,
+  "imageConcept": "solar system"
+ },
+ "atmosphere": {
+  "img": "/content/g6/shared/img/10289.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/10289",
+  "imageFit": "contain",
+  "imageConcept": "atmosphere"
+ },
+ "distance": {
+  "img": "/content/g6/shared/img/8154.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/8154",
+  "imageFit": "contain",
+  "imageCue": "How far apart?",
+  "pictureQuiz": false,
+  "imageConcept": "distance"
+ },
+ "bright": {
+  "img": "/content/g6/shared/img/8619.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/8619",
+  "imageFit": "contain",
+  "imageCue": "Giving a lot of light",
+  "pictureQuiz": false,
+  "imageConcept": "brightness"
+ },
+ "visible": {
+  "img": "/content/g6/shared/img/2474.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2474",
+  "imageFit": "contain",
+  "imageCue": "You can see it",
+  "pictureQuiz": false,
+  "imageConcept": "see"
+ },
+ "alive": {
+  "img": "/content/g6/shared/img/11397.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11397",
+  "imageFit": "contain",
+  "imageConcept": "alive"
+ },
+ "storm": {
+  "img": "/content/g6/shared/img/2814.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2814",
+  "imageFit": "contain",
+  "imageConcept": "storm"
+ },
+ "thunder": {
+  "img": "/content/g6/shared/img/3225.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/3225",
+  "imageFit": "contain",
+  "imageConcept": "thunder"
+ },
+ "lightning": {
+  "img": "/content/g6/shared/img/2819.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/2819",
+  "imageFit": "contain",
+  "imageConcept": "lightning"
+ },
+ "flood": {
+  "img": "/app/img/words/flood.jpg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "flood"
+ },
+ "drought": {
+  "img": "/app/img/words/drought.jpg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "drought"
+ },
+ "tornado": {
+  "img": "/app/img/words/tornado.jpg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "tornado"
+ },
+ "blizzard": {
+  "img": "/content/g6/shared/img/3135.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/3135",
+  "imageFit": "contain",
+  "imageCue": "Heavy snow and strong wind",
+  "pictureQuiz": false,
+  "imageConcept": "snowfall"
+ },
+ "hurricane": {
+  "img": "/app/img/words/hurricane.jpg",
+  "imageFit": "contain",
+  "imageSource": "Existing ENG HUB teaching image",
+  "imageConcept": "hurricane"
+ },
+ "technology": {
+  "img": "/content/g6/shared/img/11459.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11459",
+  "imageFit": "contain",
+  "imageConcept": "technology"
+ },
+ "invent": {
+  "img": "/content/g6/shared/img/6019.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+  "imageCredit": "https://arasaac.org/pictograms/en/6019",
+  "imageFit": "contain",
+  "imageConcept": "invent"
+ },
+ "predict": {
+  "img": "/content/g6/shared/img/24721.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/24721",
+  "imageFit": "contain",
+  "imageCue": "Say what may happen",
+  "pictureQuiz": false,
+  "imageConcept": "predict"
+ },
+ "expert": {
+  "img": "/content/g6/shared/img/11217.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11217",
+  "imageFit": "contain",
+  "imageCue": "Knows a subject very well",
+  "pictureQuiz": false,
+  "imageConcept": "specialist"
+ },
+ "evidence": {
+  "img": "/content/g6/shared/img/9927.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/9927",
+  "imageFit": "contain",
+  "imageCue": "Clues that support an idea",
+  "pictureQuiz": false,
+  "imageConcept": "magnifying glass"
+ },
+ "intention": {
+  "img": "/content/g6/shared/img/11706.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/11706",
+  "imageFit": "contain",
+  "imageCue": "Something you plan to do",
+  "pictureQuiz": false,
+  "imageConcept": "plan"
+ },
+ "population": {
+  "img": "/content/g6/shared/img/7116.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/7116",
+  "imageFit": "contain",
+  "imageCue": "People living in a place",
+  "pictureQuiz": false,
+  "imageConcept": "people"
+ },
+ "source": {
+  "img": "/content/g6/shared/img/2450.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/2450",
+  "imageFit": "contain",
+  "imageCue": "Where information comes from",
+  "pictureQuiz": false,
+  "imageConcept": "origin"
+ },
+ "classroom": {
+  "img": "/content/g6/shared/img/5913.png",
+  "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+  "imageCredit": "https://arasaac.org/pictograms/en/5913",
+  "imageFit": "contain",
+  "imageConcept": "classroom"
+ }
+}

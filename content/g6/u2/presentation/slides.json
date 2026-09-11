@@ -4,9 +4,10 @@
  "emoji": "✏️",
  "authored": true,
  "curriculum": "meb-english-6-2026",
+ "visualStyle": "illustrated",
  "accent": [
-  "#0d9488",
-  "#2563eb"
+  "#a78bfa",
+  "#38bdf8"
  ],
  "source": {
   "studentBook": {
@@ -29,205 +30,569 @@
  "slides": [
   {
    "type": "title",
-   "kicker": "THEME 2",
    "title": "Classroom Life",
    "titleTr": "Sınıf Hayatı",
    "emoji": "✏️"
   },
   {
-   "type": "scene",
-   "title": "Our lesson",
-   "emoji": "✏️",
-   "bubbles": [
-    {
-     "text": "Compare routines with actions happening now."
-    },
-    {
-     "text": "Check information with question tags and use numbers."
-    }
-   ]
-  },
-  {
    "type": "vocab",
    "title": "Study habits",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "habit",
      "tr": "alışkanlık",
      "imageSource": "ENG HUB",
      "imageFit": "contain",
-     "imageConcept": "habit",
+     "imageConcept": "routine",
      "img": "/app/img/concepts/habit.svg"
     },
     {
      "en": "diary",
      "tr": "günlük",
-     "img": "/content/g6/shared/img/2380.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2380",
-     "imageFit": "contain"
+     "img": "/content/g6/shared/img/5898.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/5898",
+     "imageFit": "contain",
+     "imageConcept": "diary"
     },
     {
      "en": "research",
      "tr": "araştırma",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/32138.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/32138",
+     "imageFit": "contain",
+     "imageConcept": "research"
     },
     {
      "en": "method",
      "tr": "yöntem",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/11706.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11706",
+     "imageFit": "contain",
+     "imageCue": "Steps for doing something",
+     "pictureQuiz": false,
+     "imageConcept": "method"
     }
-   ]
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "habit",
-       "b": "alışkanlık"
-      },
-      {
-       "a": "diary",
-       "b": "günlük"
-      },
-      {
-       "a": "research",
-       "b": "araştırma"
-      },
-      {
-       "a": "method",
-       "b": "yöntem"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "habit",
+     "options": [
+      "habit",
+      "diary",
+      "research",
+      "method"
+     ],
+     "tr": "alışkanlık",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "routine",
+     "img": "/app/img/concepts/habit.svg"
     }
-   ]
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
    "title": "Study habits",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "review",
      "tr": "gözden geçirmek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/19553.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/19553",
+     "imageFit": "contain",
+     "imageConcept": "review"
     },
     {
      "en": "revise",
      "tr": "tekrar etmek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/6998.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6998",
+     "imageFit": "contain",
+     "imageConcept": "revise"
     },
     {
      "en": "practise",
      "tr": "pratik yapmak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/2387.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2387",
+     "imageFit": "contain",
+     "imageCue": "Do it again to improve",
+     "pictureQuiz": false,
+     "imageConcept": "study"
     },
     {
      "en": "remember",
      "tr": "hatırlamak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/37369.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37369",
+     "imageFit": "contain",
+     "imageCue": "Bring it back to mind",
+     "pictureQuiz": false,
+     "imageConcept": "remember"
     }
-   ]
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "review",
-       "b": "gözden geçirmek"
-      },
-      {
-       "a": "revise",
-       "b": "tekrar etmek"
-      },
-      {
-       "a": "practise",
-       "b": "pratik yapmak"
-      },
-      {
-       "a": "remember",
-       "b": "hatırlamak"
-      }
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "review",
+     "options": [
+      "review",
+      "revise",
+      "practise",
+      "remember"
+     ],
+     "tr": "gözden geçirmek",
+     "img": "/content/g6/shared/img/19553.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/19553",
+     "imageFit": "contain",
+     "imageConcept": "review"
+    }
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "habit",
+      "tr": "alışkanlık",
+      "imageSource": "ENG HUB",
+      "imageFit": "contain",
+      "imageConcept": "routine",
+      "img": "/app/img/concepts/habit.svg",
+      "audio": "/app/audio/words/habit.wav"
+     },
+     {
+      "en": "diary",
+      "tr": "günlük",
+      "img": "/content/g6/shared/img/5898.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/5898",
+      "imageFit": "contain",
+      "imageConcept": "diary",
+      "audio": "/app/audio/words/diary.wav"
+     },
+     {
+      "en": "research",
+      "tr": "araştırma",
+      "img": "/content/g6/shared/img/32138.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/32138",
+      "imageFit": "contain",
+      "imageConcept": "research",
+      "audio": "/app/audio/words/research.wav"
+     },
+     {
+      "en": "review",
+      "tr": "gözden geçirmek",
+      "img": "/content/g6/shared/img/19553.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/19553",
+      "imageFit": "contain",
+      "imageConcept": "review",
+      "audio": "/app/audio/words/review.wav"
+     }
+    ]
+   },
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "method means \"gözden geçirmek\".",
+     "answer": false,
+     "explain": "method means \"yöntem\"."
+    }
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "grammar",
+   "title": "Right now",
+   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
+   "grammarId": "present-progressive",
+   "examples": [
+    {
+     "en": "Our group *is researching* a new topic now.",
+     "tr": "Grubumuz şimdi yeni bir konu araştırıyor.",
+     "trEm": [
+      "araştırıyor"
+     ],
+     "img": "/content/g6/shared/img/32138.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/32138",
+     "imageFit": "contain",
+     "imageConcept": "research"
+    }
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "grammar",
+   "title": "Right now",
+   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
+   "grammarId": "present-progressive",
+   "examples": [
+    {
+     "en": "*Are* you *reading* silently?",
+     "tr": "Sessizce okuyor musun?",
+     "trEm": [
+      "okuyor musun"
+     ],
+     "img": "/content/g6/shared/img/7141.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7141",
+     "imageFit": "contain",
+     "imageCue": "Read without speaking",
+     "imageConcept": "read"
+    }
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Listen! Two peers ___ aloud.",
+     "answer": "are reading",
+     "options": [
+      "are reading",
+      "reads",
+      "is reading",
+      "readed"
      ]
     }
-   ]
+   ],
+   "grammarId": "present-progressive",
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "grammar",
+   "title": "Right now",
+   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
+   "grammarId": "present-progressive",
+   "examples": [
+    {
+     "en": "I *am not resting* at the moment.",
+     "tr": "Şu anda dinlenmiyorum.",
+     "trEm": [
+      "dinlenmiyorum"
+     ],
+     "img": "/content/g5/u4/presentation/img/p02-05.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "rest"
+    }
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The class ___ now; it is working.",
+     "text": "The class ___ now; it is working.",
+     "answer": "isn't resting",
+     "options": [
+      "isn't resting",
+      "aren't resting",
+      "doesn't resting",
+      "not rest"
+     ]
+    }
+   ],
+   "grammarId": "present-progressive",
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ your partner marking the answers now?",
+     "answer": "Is",
+     "options": [
+      "Is",
+      "Does",
+      "Do",
+      "Are"
+     ]
+    }
+   ],
+   "grammarId": "present-progressive",
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "present-progressive",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Our group is researching a new topic now.",
+      "tr": "Grubumuz şimdi yeni bir konu araştırıyor."
+     }
+    ]
+   },
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "grammar",
+   "title": "Usually and today",
+   "rule": "Every day/usually: geniş zaman. Now/at the moment: şimdiki zaman. Zaman ifadesi anlamı gösterir.",
+   "grammarId": "now-vs-routine",
+   "examples": [
+    {
+     "en": "I usually *work* in pairs.",
+     "tr": "Genellikle ikili çalışırım.",
+     "trEm": [
+      "çalışırım"
+     ],
+     "img": "/content/g6/shared/img/15361.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/15361",
+     "imageFit": "contain",
+     "imageCue": "Work with one partner",
+     "imageConcept": "pair"
+    }
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "grammar",
+   "title": "Usually and today",
+   "rule": "Every day/usually: geniş zaman. Now/at the moment: şimdiki zaman. Zaman ifadesi anlamı gösterir.",
+   "grammarId": "now-vs-routine",
+   "examples": [
+    {
+     "en": "Today I *am working* on my own.",
+     "tr": "Bugün tek başıma çalışıyorum.",
+     "trEm": [
+      "çalışıyorum"
+     ],
+     "img": "/content/g6/shared/img/11472.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11472",
+     "imageFit": "contain",
+     "imageConcept": "independent"
+    }
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Every evening, Arda ___ his diary.",
+     "answer": "reviews",
+     "options": [
+      "reviews",
+      "is reviewing",
+      "review",
+      "are reviewing"
+     ]
+    }
+   ],
+   "grammarId": "now-vs-routine",
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Right now, Arda ___ his diary with a peer.",
+     "text": "Right now, Arda ___ his diary with a peer.",
+     "answer": "is sharing",
+     "options": [
+      "is sharing",
+      "shares",
+      "share",
+      "are sharing"
+     ]
+    }
+   ],
+   "grammarId": "now-vs-routine",
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "now-vs-routine",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "I usually work in pairs.",
+      "tr": "Genellikle ikili çalışırım."
+     }
+    ]
+   },
+   "topic": "Study habits",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Habits or now?",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say what you usually do after school. Then describe what you are doing now.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Study habits",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
    "title": "Learning together",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "peer",
      "tr": "akran",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/39421.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/39421",
+     "imageFit": "contain",
+     "imageConcept": "classmate"
     },
     {
      "en": "pair",
      "tr": "ikili",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/15361.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/15361",
+     "imageFit": "contain",
+     "imageCue": "Work with one partner",
+     "pictureQuiz": false,
+     "imageConcept": "pair"
     },
     {
      "en": "group",
      "tr": "grup",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/7116.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7116",
+     "imageFit": "contain",
+     "imageConcept": "group"
     },
     {
      "en": "task",
      "tr": "görev",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/11263.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11263",
+     "imageFit": "contain",
+     "imageConcept": "task"
     }
-   ]
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "peer",
-       "b": "akran"
-      },
-      {
-       "a": "pair",
-       "b": "ikili"
-      },
-      {
-       "a": "group",
-       "b": "grup"
-      },
-      {
-       "a": "task",
-       "b": "görev"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "peer",
+     "options": [
+      "peer",
+      "pair",
+      "group",
+      "task"
+     ],
+     "tr": "akran",
+     "img": "/content/g6/shared/img/39421.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/39421",
+     "imageFit": "contain",
+     "imageConcept": "classmate"
     }
-   ]
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
   },
   {
    "type": "vocab",
    "title": "Learning together",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "share",
@@ -235,175 +600,835 @@
      "img": "/content/g6/shared/img/15361.png",
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/15361",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageConcept": "share"
     },
     {
      "en": "repeat",
      "tr": "tekrarlamak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/28659.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/28659",
+     "imageFit": "contain",
+     "imageCue": "Listen, then say it again",
+     "pictureQuiz": false,
+     "imageConcept": "repeat"
     },
     {
      "en": "read aloud",
      "tr": "sesli okumak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/39687.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/39687",
+     "imageFit": "contain",
+     "imageConcept": "read aloud"
     },
     {
      "en": "read silently",
      "tr": "sessiz okumak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/7141.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7141",
+     "imageFit": "contain",
+     "imageCue": "Read without speaking",
+     "pictureQuiz": false,
+     "imageConcept": "read"
     }
-   ]
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "share",
+     "options": [
+      "share",
+      "repeat",
+      "read aloud",
+      "read silently"
+     ],
+     "tr": "paylaşmak",
+     "img": "/content/g6/shared/img/15361.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/15361",
+     "imageFit": "contain",
+     "imageConcept": "share"
+    }
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "peer",
+      "tr": "akran",
+      "img": "/content/g6/shared/img/39421.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/39421",
+      "imageFit": "contain",
+      "imageConcept": "classmate",
+      "audio": "/app/audio/words/peer.wav"
+     },
+     {
+      "en": "group",
+      "tr": "grup",
+      "img": "/content/g6/shared/img/7116.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/7116",
+      "imageFit": "contain",
+      "imageConcept": "group",
+      "audio": "/app/audio/words/group.wav"
+     },
+     {
+      "en": "task",
+      "tr": "görev",
+      "img": "/content/g6/shared/img/11263.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/11263",
+      "imageFit": "contain",
+      "imageConcept": "task",
+      "audio": "/app/audio/words/task.wav"
+     },
+     {
+      "en": "share",
+      "tr": "paylaşmak",
+      "img": "/content/g6/shared/img/15361.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/15361",
+      "imageFit": "contain",
+      "imageConcept": "share",
+      "audio": "/app/audio/words/share.wav"
+     }
+    ]
+   },
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "task means \"paylaşmak\".",
+     "answer": false,
+     "explain": "task means \"görev\"."
+    }
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a routine",
+   "rule": "Olumlu geniş zaman cümlesi + don't/doesn't; olumsuz cümle + do/does. Sonda uygun özne zamiri kullanılır.",
+   "grammarId": "question-tags-present",
+   "examples": [
+    {
+     "en": "You revise every day, *don't you*?",
+     "tr": "Her gün tekrar yapıyorsun, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/6998.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6998",
+     "imageFit": "contain",
+     "imageConcept": "revise"
+    }
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a routine",
+   "rule": "Olumlu geniş zaman cümlesi + don't/doesn't; olumsuz cümle + do/does. Sonda uygun özne zamiri kullanılır.",
+   "grammarId": "question-tags-present",
+   "examples": [
+    {
+     "en": "Lina doesn't read aloud, *does she*?",
+     "tr": "Lina sesli okumuyor, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/39687.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/39687",
+     "imageFit": "contain",
+     "imageConcept": "read aloud"
+    }
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Eren usually works in a group, ___?",
+     "answer": "doesn't he",
+     "options": [
+      "doesn't he",
+      "don't he",
+      "isn't he",
+      "does he"
+     ]
+    }
+   ],
+   "grammarId": "question-tags-present",
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The peers don't rest here, ___?",
+     "text": "The peers don't rest here, ___?",
+     "answer": "do they",
+     "options": [
+      "do they",
+      "don't they",
+      "are they",
+      "does they"
+     ]
+    }
+   ],
+   "grammarId": "question-tags-present",
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "question-tags-present",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "You revise every day, don't you?",
+      "tr": "Her gün tekrar yapıyorsun, değil mi?"
+     }
+    ]
+   },
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "grammar",
+   "title": "Checking an action now",
+   "rule": "Şimdiki zamanda ek soru am/is/are ile kurulur. Olumlu cümleye olumsuz, olumsuz cümleye olumlu ek soru gelir.",
+   "grammarId": "question-tags-progressive",
+   "examples": [
+    {
+     "en": "They are sharing ideas, *aren't they*?",
+     "tr": "Fikirlerini paylaşıyorlar, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/15361.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/15361",
+     "imageFit": "contain",
+     "imageConcept": "share"
+    }
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "grammar",
+   "title": "Checking an action now",
+   "rule": "Şimdiki zamanda ek soru am/is/are ile kurulur. Olumlu cümleye olumsuz, olumsuz cümleye olumlu ek soru gelir.",
+   "grammarId": "question-tags-progressive",
+   "examples": [
+    {
+     "en": "Ada isn't writing now, *is she*?",
+     "tr": "Ada şimdi yazmıyor, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/5898.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/5898",
+     "imageFit": "contain",
+     "imageConcept": "diary"
+    }
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The teacher is marking a page, ___?",
+     "answer": "isn't she",
+     "options": [
+      "isn't she",
+      "doesn't she",
+      "is she",
+      "aren't she"
+     ]
+    }
+   ],
+   "grammarId": "question-tags-progressive",
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "We aren't reading aloud, ___?",
+     "text": "We aren't reading aloud, ___?",
+     "answer": "are we",
+     "options": [
+      "are we",
+      "do we",
+      "aren't we",
+      "is we"
+     ]
+    }
+   ],
+   "grammarId": "question-tags-progressive",
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "question-tags-progressive",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "They are sharing ideas, aren't they?",
+      "tr": "Fikirlerini paylaşıyorlar, değil mi?"
+     }
+    ]
+   },
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Check with a partner",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Make two statements about your class. Add question tags and wait for replies.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
+  },
+  {
+   "type": "dialogue",
+   "title": "Try the conversation",
+   "dialogues": [
+    {
+     "lines": [
       {
-       "a": "share",
-       "b": "paylaşmak"
+       "who": "Ada",
+       "text": "You usually read silently, don't you?",
+       "tr": "Genellikle sessiz okursun, değil mi?"
       },
       {
-       "a": "repeat",
-       "b": "tekrarlamak"
-      },
-      {
-       "a": "read aloud",
-       "b": "sesli okumak"
-      },
-      {
-       "a": "read silently",
-       "b": "sessiz okumak"
+       "who": "Eren",
+       "text": "Yes, but today I am reading to my group.",
+       "tr": "Evet, ama bugün grubuma okuyorum."
       }
      ]
     }
-   ]
+   ],
+   "topic": "Learning together",
+   "topicIndex": 2
   },
   {
    "type": "vocab",
    "title": "A useful routine",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "brush",
      "tr": "fırçalamak",
      "img": "/content/g5/u4/presentation/img/p01-14.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "brush"
     },
     {
      "en": "rest",
      "tr": "dinlenmek",
      "img": "/content/g5/u4/presentation/img/p02-05.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "rest"
     },
     {
      "en": "focus",
      "tr": "odaklanmak",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/25355.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/25355",
+     "imageFit": "contain",
+     "imageConcept": "pay attention"
     },
     {
      "en": "mark",
      "tr": "işaretlemek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/6219.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6219",
+     "imageFit": "contain",
+     "imageConcept": "mark"
     }
-   ]
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "brush",
-       "b": "fırçalamak"
-      },
-      {
-       "a": "rest",
-       "b": "dinlenmek"
-      },
-      {
-       "a": "focus",
-       "b": "odaklanmak"
-      },
-      {
-       "a": "mark",
-       "b": "işaretlemek"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "brush",
+     "options": [
+      "brush",
+      "rest",
+      "focus",
+      "mark"
+     ],
+     "tr": "fırçalamak",
+     "img": "/content/g5/u4/presentation/img/p01-14.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "brush"
     }
-   ]
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
   },
   {
    "type": "vocab",
    "title": "A useful routine",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "effective",
      "tr": "etkili",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/11599.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11599",
+     "imageFit": "contain",
+     "imageCue": "It works well",
+     "pictureQuiz": false,
+     "imageConcept": "success"
     },
     {
      "en": "creative",
      "tr": "yaratıcı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/11690.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11690",
+     "imageFit": "contain",
+     "imageConcept": "creativity"
     },
     {
      "en": "in turns",
      "tr": "sırayla",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/7158.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7158",
+     "imageFit": "contain",
+     "imageCue": "First me, then you",
+     "pictureQuiz": false,
+     "imageConcept": "my turn"
     },
     {
      "en": "together",
      "tr": "birlikte",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/25792.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/25792",
+     "imageFit": "contain",
+     "imageCue": "With other people",
+     "pictureQuiz": false,
+     "imageConcept": "together"
     }
-   ]
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "creative",
+     "options": [
+      "effective",
+      "creative",
+      "in turns",
+      "together"
+     ],
+     "tr": "yaratıcı",
+     "img": "/content/g6/shared/img/11690.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11690",
+     "imageFit": "contain",
+     "imageConcept": "creativity"
+    }
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "brush",
+      "tr": "fırçalamak",
+      "img": "/content/g5/u4/presentation/img/p01-14.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "brush",
+      "audio": "/app/audio/words/brush.wav"
+     },
+     {
+      "en": "rest",
+      "tr": "dinlenmek",
+      "img": "/content/g5/u4/presentation/img/p02-05.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "rest",
+      "audio": "/app/audio/words/rest.wav"
+     },
+     {
+      "en": "focus",
+      "tr": "odaklanmak",
+      "img": "/content/g6/shared/img/25355.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/25355",
+      "imageFit": "contain",
+      "imageConcept": "pay attention",
+      "audio": "/app/audio/words/focus.wav"
+     },
+     {
+      "en": "mark",
+      "tr": "işaretlemek",
+      "img": "/content/g6/shared/img/6219.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/6219",
+      "imageFit": "contain",
+      "imageConcept": "mark",
+      "audio": "/app/audio/words/mark.wav"
+     }
+    ]
+   },
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "mark means \"etkili\".",
+     "answer": false,
+     "explain": "mark means \"işaretlemek\"."
+    }
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Whose study things?",
+   "rule": "My, your, his, her, its, our, their bir isimden önce gelir ve sahipliği gösterir.",
+   "grammarId": "possessives",
+   "examples": [
+    {
+     "en": "We are checking *our* answers.",
+     "tr": "Kendi cevaplarımızı kontrol ediyoruz.",
+     "trEm": [
+      "Kendi"
+     ],
+     "img": "/content/g6/shared/img/19553.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/19553",
+     "imageFit": "contain",
+     "imageConcept": "review"
+    }
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Whose study things?",
+   "rule": "My, your, his, her, its, our, their bir isimden önce gelir ve sahipliği gösterir.",
+   "grammarId": "possessives",
+   "examples": [
+    {
+     "en": "Lina is reading *her* diary.",
+     "tr": "Lina kendi günlüğünü okuyor.",
+     "trEm": [
+      "kendi"
+     ],
+     "img": "/content/g6/shared/img/5898.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/5898",
+     "imageFit": "contain",
+     "imageConcept": "diary"
+    }
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The boys are sharing ___ research.",
+     "answer": "their",
+     "options": [
+      "their",
+      "they",
+      "them",
+      "his"
+     ]
+    }
+   ],
+   "grammarId": "possessives",
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "I write new words in ___ diary.",
+     "text": "I write new words in ___ diary.",
+     "answer": "my",
+     "options": [
+      "my",
+      "me",
+      "I",
+      "he"
+     ]
+    }
+   ],
+   "grammarId": "possessives",
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "possessives",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We are checking our answers.",
+      "tr": "Kendi cevaplarımızı kontrol ediyoruz."
+     }
+    ]
+   },
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Frequency and word order",
+   "rule": "How often? sorusunu every day, twice a week gibi ifadelerle cevapla. Often fiilden önce; carefully çoğunlukla nesneden sonra gelir.",
+   "grammarId": "how-often-adverbs",
+   "examples": [
+    {
+     "en": "*How often* do you revise vocabulary?",
+     "tr": "Kelimeleri ne sıklıkla tekrar edersin?",
+     "trEm": [
+      "ne sıklıkla"
+     ],
+     "img": "/content/g6/shared/img/6998.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6998",
+     "imageFit": "contain",
+     "imageConcept": "revise"
+    }
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Frequency and word order",
+   "rule": "How often? sorusunu every day, twice a week gibi ifadelerle cevapla. Often fiilden önce; carefully çoğunlukla nesneden sonra gelir.",
+   "grammarId": "how-often-adverbs",
+   "examples": [
+    {
+     "en": "I read the instructions *carefully*.",
+     "tr": "Yönergeleri dikkatlice okurum.",
+     "trEm": [
+      "dikkatlice"
+     ],
+     "img": "/content/g6/shared/img/34755.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/34755",
+     "imageFit": "contain",
+     "imageConcept": "instructions"
+    }
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ do you review? Twice a week.",
+     "answer": "How often",
+     "options": [
+      "How often",
+      "What",
+      "Whose",
+      "How many"
+     ]
+    }
+   ],
+   "grammarId": "how-often-adverbs",
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Choose the correct order: ___",
+     "text": "Choose the correct order: ___",
+     "answer": "She reads the task carefully.",
+     "options": [
+      "She reads the task carefully.",
+      "She carefully the task reads.",
+      "She the reads task carefully.",
+      "She reads carefully the task."
+     ]
+    }
+   ],
+   "grammarId": "how-often-adverbs",
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "how-often-adverbs",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "How often do you revise vocabulary?",
+      "tr": "Kelimeleri ne sıklıkla tekrar edersin?"
+     }
+    ]
+   },
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Share a study tip",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Ask how often your partner revises. Share one useful habit and explain how you do it.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
+  },
+  {
+   "type": "dialogue",
+   "title": "Try the conversation",
+   "dialogues": [
+    {
+     "lines": [
       {
-       "a": "effective",
-       "b": "etkili"
+       "who": "Ada",
+       "text": "How often do you revise these words?",
+       "tr": "Bu kelimeleri ne sıklıkla tekrar ediyorsun?"
       },
       {
-       "a": "creative",
-       "b": "yaratıcı"
-      },
-      {
-       "a": "in turns",
-       "b": "sırayla"
-      },
-      {
-       "a": "together",
-       "b": "birlikte"
+       "who": "Eren",
+       "text": "Three times a week. This method helps me.",
+       "tr": "Haftada üç kez. Bu yöntem bana yardımcı oluyor."
       }
      ]
     }
-   ]
+   ],
+   "topic": "A useful routine",
+   "topicIndex": 3
   },
   {
    "type": "vocab",
    "title": "Numbers and order",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "one hundred",
@@ -425,39 +1450,31 @@
      "tr": "beş yüz",
      "num": "500"
     }
-   ]
+   ],
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Say it in English",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "one hundred",
-       "b": "yüz"
-      },
-      {
-       "a": "one hundred and fifty",
-       "b": "yüz elli"
-      },
-      {
-       "a": "two hundred",
-       "b": "iki yüz"
-      },
-      {
-       "a": "five hundred",
-       "b": "beş yüz"
-      }
-     ]
+     "kind": "flash",
+     "q": "Say the English word before you reveal it.",
+     "clue": "yüz",
+     "answer": "one hundred"
     }
-   ]
+   ],
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "vocab",
    "title": "Numbers and order",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "first",
@@ -479,477 +1496,73 @@
      "tr": "ellinci",
      "num": "50th"
     }
-   ]
+   ],
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Say it in English",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "first",
-       "b": "birinci"
-      },
-      {
-       "a": "twelfth",
-       "b": "on ikinci"
-      },
-      {
-       "a": "twenty-third",
-       "b": "yirmi üçüncü"
-      },
-      {
-       "a": "fiftieth",
-       "b": "ellinci"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Right now",
-   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
-   "grammarId": "present-progressive",
-   "examples": [
-    {
-     "en": "Our group *is researching* a new topic now.",
-     "tr": "Grubumuz şimdi yeni bir konu araştırıyor.",
-     "trEm": [
-      "araştırıyor"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Right now",
-   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
-   "grammarId": "present-progressive",
-   "examples": [
-    {
-     "en": "*Are* you *reading* silently?",
-     "tr": "Sessizce okuyor musun?",
-     "trEm": [
-      "okuyor musun"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Right now",
-   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
-   "grammarId": "present-progressive",
-   "examples": [
-    {
-     "en": "I *am not resting* at the moment.",
-     "tr": "Şu anda dinlenmiyorum.",
-     "trEm": [
-      "dinlenmiyorum"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Listen! Two peers ___ aloud.",
-     "answer": "are reading",
-     "options": [
-      "are reading",
-      "reads",
-      "is reading",
-      "readed"
-     ]
+     "kind": "flash",
+     "q": "Say the English word before you reveal it.",
+     "clue": "birinci",
+     "answer": "first"
     }
    ],
-   "grammarId": "present-progressive"
+   "topic": "Numbers and order",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "one hundred",
+      "tr": "yüz",
+      "num": "100",
+      "audio": "/app/audio/words/one-hundred.wav"
+     },
+     {
+      "en": "one hundred and fifty",
+      "tr": "yüz elli",
+      "num": "150",
+      "audio": "/app/audio/words/one-hundred-and-fifty.wav"
+     },
+     {
+      "en": "two hundred",
+      "tr": "iki yüz",
+      "num": "200",
+      "audio": "/app/audio/words/two-hundred.wav"
+     },
+     {
+      "en": "five hundred",
+      "tr": "beş yüz",
+      "num": "500",
+      "audio": "/app/audio/words/five-hundred.wav"
+     }
+    ]
+   },
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "True or false?",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The class ___ now; it is working.",
-     "answer": "isn't resting",
-     "options": [
-      "isn't resting",
-      "aren't resting",
-      "doesn't resting",
-      "not rest"
-     ]
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "five hundred means \"birinci\".",
+     "answer": false,
+     "explain": "five hundred means \"beş yüz\"."
     }
    ],
-   "grammarId": "present-progressive"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "___ your partner marking the answers now?",
-     "answer": "Is",
-     "options": [
-      "Is",
-      "Does",
-      "Do",
-      "Are"
-     ]
-    }
-   ],
-   "grammarId": "present-progressive"
-  },
-  {
-   "type": "grammar",
-   "title": "Usually and today",
-   "rule": "Every day/usually: geniş zaman. Now/at the moment: şimdiki zaman. Zaman ifadesi anlamı gösterir.",
-   "grammarId": "now-vs-routine",
-   "examples": [
-    {
-     "en": "I usually *work* in pairs.",
-     "tr": "Genellikle ikili çalışırım.",
-     "trEm": [
-      "çalışırım"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Usually and today",
-   "rule": "Every day/usually: geniş zaman. Now/at the moment: şimdiki zaman. Zaman ifadesi anlamı gösterir.",
-   "grammarId": "now-vs-routine",
-   "examples": [
-    {
-     "en": "Today I *am working* on my own.",
-     "tr": "Bugün tek başıma çalışıyorum.",
-     "trEm": [
-      "çalışıyorum"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Every evening, Arda ___ his diary.",
-     "answer": "reviews",
-     "options": [
-      "reviews",
-      "is reviewing",
-      "review",
-      "are reviewing"
-     ]
-    }
-   ],
-   "grammarId": "now-vs-routine"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Right now, Arda ___ his diary with a peer.",
-     "answer": "is sharing",
-     "options": [
-      "is sharing",
-      "shares",
-      "share",
-      "are sharing"
-     ]
-    }
-   ],
-   "grammarId": "now-vs-routine"
-  },
-  {
-   "type": "grammar",
-   "title": "Checking a routine",
-   "rule": "Olumlu geniş zaman cümlesi + don't/doesn't; olumsuz cümle + do/does. Sonda uygun özne zamiri kullanılır.",
-   "grammarId": "question-tags-present",
-   "examples": [
-    {
-     "en": "You revise every day, *don't you*?",
-     "tr": "Her gün tekrar yapıyorsun, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Checking a routine",
-   "rule": "Olumlu geniş zaman cümlesi + don't/doesn't; olumsuz cümle + do/does. Sonda uygun özne zamiri kullanılır.",
-   "grammarId": "question-tags-present",
-   "examples": [
-    {
-     "en": "Lina doesn't read aloud, *does she*?",
-     "tr": "Lina sesli okumuyor, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Eren usually works in a group, ___?",
-     "answer": "doesn't he",
-     "options": [
-      "doesn't he",
-      "don't he",
-      "isn't he",
-      "does he"
-     ]
-    }
-   ],
-   "grammarId": "question-tags-present"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The peers don't rest here, ___?",
-     "answer": "do they",
-     "options": [
-      "do they",
-      "don't they",
-      "are they",
-      "does they"
-     ]
-    }
-   ],
-   "grammarId": "question-tags-present"
-  },
-  {
-   "type": "grammar",
-   "title": "Checking an action now",
-   "rule": "Şimdiki zamanda ek soru am/is/are ile kurulur. Olumlu cümleye olumsuz, olumsuz cümleye olumlu ek soru gelir.",
-   "grammarId": "question-tags-progressive",
-   "examples": [
-    {
-     "en": "They are sharing ideas, *aren't they*?",
-     "tr": "Fikirlerini paylaşıyorlar, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Checking an action now",
-   "rule": "Şimdiki zamanda ek soru am/is/are ile kurulur. Olumlu cümleye olumsuz, olumsuz cümleye olumlu ek soru gelir.",
-   "grammarId": "question-tags-progressive",
-   "examples": [
-    {
-     "en": "Ada isn't writing now, *is she*?",
-     "tr": "Ada şimdi yazmıyor, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The teacher is marking a page, ___?",
-     "answer": "isn't she",
-     "options": [
-      "isn't she",
-      "doesn't she",
-      "is she",
-      "aren't she"
-     ]
-    }
-   ],
-   "grammarId": "question-tags-progressive"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "We aren't reading aloud, ___?",
-     "answer": "are we",
-     "options": [
-      "are we",
-      "do we",
-      "aren't we",
-      "is we"
-     ]
-    }
-   ],
-   "grammarId": "question-tags-progressive"
-  },
-  {
-   "type": "grammar",
-   "title": "Whose study things?",
-   "rule": "My, your, his, her, its, our, their bir isimden önce gelir ve sahipliği gösterir.",
-   "grammarId": "possessives",
-   "examples": [
-    {
-     "en": "We are checking *our* answers.",
-     "tr": "Kendi cevaplarımızı kontrol ediyoruz.",
-     "trEm": [
-      "Kendi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Whose study things?",
-   "rule": "My, your, his, her, its, our, their bir isimden önce gelir ve sahipliği gösterir.",
-   "grammarId": "possessives",
-   "examples": [
-    {
-     "en": "Lina is reading *her* diary.",
-     "tr": "Lina kendi günlüğünü okuyor.",
-     "trEm": [
-      "kendi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The boys are sharing ___ research.",
-     "answer": "their",
-     "options": [
-      "their",
-      "they",
-      "them",
-      "his"
-     ]
-    }
-   ],
-   "grammarId": "possessives"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "I write new words in ___ diary.",
-     "answer": "my",
-     "options": [
-      "my",
-      "me",
-      "I",
-      "he"
-     ]
-    }
-   ],
-   "grammarId": "possessives"
-  },
-  {
-   "type": "grammar",
-   "title": "Frequency and word order",
-   "rule": "How often? sorusunu every day, twice a week gibi ifadelerle cevapla. Often fiilden önce; carefully çoğunlukla nesneden sonra gelir.",
-   "grammarId": "how-often-adverbs",
-   "examples": [
-    {
-     "en": "*How often* do you revise vocabulary?",
-     "tr": "Kelimeleri ne sıklıkla tekrar edersin?",
-     "trEm": [
-      "ne sıklıkla"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Frequency and word order",
-   "rule": "How often? sorusunu every day, twice a week gibi ifadelerle cevapla. Often fiilden önce; carefully çoğunlukla nesneden sonra gelir.",
-   "grammarId": "how-often-adverbs",
-   "examples": [
-    {
-     "en": "I read the instructions *carefully*.",
-     "tr": "Yönergeleri dikkatlice okurum.",
-     "trEm": [
-      "dikkatlice"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "___ do you review? Twice a week.",
-     "answer": "How often",
-     "options": [
-      "How often",
-      "What",
-      "Whose",
-      "How many"
-     ]
-    }
-   ],
-   "grammarId": "how-often-adverbs"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Choose the correct order: ___",
-     "answer": "She reads the task carefully.",
-     "options": [
-      "She reads the task carefully.",
-      "She carefully the task reads.",
-      "She the reads task carefully.",
-      "She reads carefully the task."
-     ]
-    }
-   ],
-   "grammarId": "how-often-adverbs"
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "grammar",
@@ -963,9 +1576,11 @@
      "trEm": [
       "Üç yüz"
      ],
-     "textOnly": true
+     "num": "300"
     }
-   ]
+   ],
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "grammar",
@@ -979,17 +1594,20 @@
      "trEm": [
       "otuz ikinci"
      ],
-     "textOnly": true
+     "num": "32nd"
     }
-   ]
+   ],
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "250 = ___",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "250 = ___",
      "answer": "two hundred and fifty",
      "options": [
       "two hundred and fifty",
@@ -999,15 +1617,18 @@
      ]
     }
    ],
-   "grammarId": "cardinal-ordinal"
+   "grammarId": "cardinal-ordinal",
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "40th = ___",
+     "text": "40th = ___",
      "answer": "fortieth",
      "options": [
       "fortieth",
@@ -1017,15 +1638,18 @@
      ]
     }
    ],
-   "grammarId": "cardinal-ordinal"
+   "grammarId": "cardinal-ordinal",
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "21st = ___",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "21st = ___",
      "answer": "twenty-first",
      "options": [
       "twenty-first",
@@ -1035,15 +1659,18 @@
      ]
     }
    ],
-   "grammarId": "cardinal-ordinal"
+   "grammarId": "cardinal-ordinal",
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "500 = ___",
+     "text": "500 = ___",
      "answer": "five hundred",
      "options": [
       "five hundred",
@@ -1053,52 +1680,48 @@
      ]
     }
    ],
-   "grammarId": "cardinal-ordinal"
+   "grammarId": "cardinal-ordinal",
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
-   "type": "dialogue",
-   "title": "A conversation",
-   "dialogues": [
-    {
-     "lines": [
-      {
-       "who": "Ada",
-       "text": "You usually read silently, don't you?",
-       "tr": "Genellikle sessiz okursun, değil mi?"
-      },
-      {
-       "who": "Eren",
-       "text": "Yes, but today I am reading to my group.",
-       "tr": "Evet, ama bugün grubuma okuyorum."
-      }
-     ]
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "cardinal-ordinal",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "There are three hundred cards.",
+      "tr": "Üç yüz kart var."
+     }
+    ]
+   },
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
-   "type": "dialogue",
-   "title": "A conversation",
-   "dialogues": [
+   "type": "exercise",
+   "title": "Design a quiz",
+   "tasks": [
     {
-     "lines": [
-      {
-       "who": "Ada",
-       "text": "How often do you revise these words?",
-       "tr": "Bu kelimeleri ne sıklıkla tekrar ediyorsun?"
-      },
-      {
-       "who": "Eren",
-       "text": "Three times a week. This method helps me.",
-       "tr": "Haftada üç kez. Bu yöntem bana yardımcı oluyor."
-      }
-     ]
+     "kind": "flash",
+     "q": "Choose a number from 100 to 500 and an ordinal from 1st to 50th. Your partner writes them.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
-   ]
+   ],
+   "topic": "Numbers and order",
+   "topicIndex": 4
   },
   {
    "type": "scene",
    "title": "A different study afternoon",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/7116.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/7116",
+   "imageFit": "contain",
+   "imageConcept": "group",
    "bubbles": [
     {
      "text": "Eren usually studies with one peer after school. They review words and read silently. On Wednesdays, Eren writes in his learning diary. Today his routine is different. He is working with three classmates on a research task. Ada is reading aloud."
@@ -1108,7 +1731,11 @@
   {
    "type": "scene",
    "title": "A different study afternoon",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/7116.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/7116",
+   "imageFit": "contain",
+   "imageConcept": "group",
    "bubbles": [
     {
      "text": "Tom is marking important words. Eren is checking their answers. They have two hundred cards, but they are only using the first fifty today. They take turns and share ideas. Their teacher visits the group twice a week."
@@ -1117,7 +1744,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1128,7 +1755,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1139,7 +1766,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1150,7 +1777,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1160,138 +1787,57 @@
    ]
   },
   {
-   "type": "mission",
-   "title": "Picture match",
-   "task": {
-    "kind": "dragmatch",
-    "items": [
-     {
-      "en": "habit",
-      "tr": "alışkanlık",
-      "imageSource": "ENG HUB",
-      "imageFit": "contain",
-      "imageConcept": "habit",
-      "img": "/app/img/concepts/habit.svg",
-      "audio": "/app/audio/words/habit.wav"
-     },
-     {
-      "en": "diary",
-      "tr": "günlük",
-      "img": "/content/g6/shared/img/2380.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/2380",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/diary.wav"
-     },
-     {
-      "en": "share",
-      "tr": "paylaşmak",
-      "img": "/content/g6/shared/img/15361.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/15361",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/share.wav"
-     },
-     {
-      "en": "brush",
-      "tr": "fırçalamak",
-      "img": "/content/g5/u4/presentation/img/p01-14.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/brush.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Eren writes in his diary on Wednesdays.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Listen and find",
-   "task": {
-    "kind": "listenpicture",
-    "items": [
-     {
-      "en": "habit",
-      "tr": "alışkanlık",
-      "imageSource": "ENG HUB",
-      "imageFit": "contain",
-      "imageConcept": "habit",
-      "img": "/app/img/concepts/habit.svg",
-      "audio": "/app/audio/words/habit.wav"
-     },
-     {
-      "en": "diary",
-      "tr": "günlük",
-      "img": "/content/g6/shared/img/2380.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/2380",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/diary.wav"
-     },
-     {
-      "en": "share",
-      "tr": "paylaşmak",
-      "img": "/content/g6/shared/img/15361.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/15361",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/share.wav"
-     },
-     {
-      "en": "brush",
-      "tr": "fırçalamak",
-      "img": "/content/g5/u4/presentation/img/p01-14.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/brush.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Tom is reading aloud today.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Sentence workshop",
-   "task": {
-    "kind": "dragorder",
-    "sentences": [
-     {
-      "answer": "Our group is researching a new topic now.",
-      "tr": "Grubumuz şimdi yeni bir konu araştırıyor."
-     },
-     {
-      "answer": "I am not resting at the moment.",
-      "tr": "Şu anda dinlenmiyorum."
-     },
-     {
-      "answer": "I usually work in pairs.",
-      "tr": "Genellikle ikili çalışırım."
-     },
-     {
-      "answer": "Today I am working on my own.",
-      "tr": "Bugün tek başıma çalışıyorum."
-     },
-     {
-      "answer": "We are checking our answers.",
-      "tr": "Kendi cevaplarımızı kontrol ediyoruz."
-     },
-     {
-      "answer": "Lina is reading her diary.",
-      "tr": "Lina kendi günlüğünü okuyor."
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "The group is using all 200 cards.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Your turn to speak",
-   "task": {
-    "kind": "flash",
-    "q": "Partner A describes two study routines. Partner B checks them with question tags. Then describe two actions happening in your classroom now.",
-    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
-   }
+   "type": "exercise",
+   "title": "One-minute exit ticket",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say two new words and make one sentence about today’s theme.",
+     "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
+    }
+   ]
   },
   {
    "type": "end",
-   "title": "Ready for more practice",
+   "title": "Well done!",
    "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
-   "emoji": "🎯"
+   "emoji": "✏️"
   }
  ]
 }

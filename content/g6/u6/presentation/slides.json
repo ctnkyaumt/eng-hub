@@ -4,9 +4,10 @@
  "emoji": "🌍",
  "authored": true,
  "curriculum": "meb-english-6-2026",
+ "visualStyle": "illustrated",
  "accent": [
-  "#0d9488",
-  "#2563eb"
+  "#fb923c",
+  "#f472b6"
  ],
  "source": {
   "studentBook": {
@@ -29,495 +30,212 @@
  "slides": [
   {
    "type": "title",
-   "kicker": "THEME 6",
    "title": "Life in the World & Culture",
    "titleTr": "Dünya ve Kültür Hayatı",
    "emoji": "🌍"
   },
   {
-   "type": "scene",
-   "title": "Our lesson",
-   "emoji": "🌍",
-   "bubbles": [
-    {
-     "text": "Talk about countries, languages and food experiences."
-    },
-    {
-     "text": "Describe completed events using regular past verbs."
-    }
-   ]
-  },
-  {
    "type": "vocab",
    "title": "Countries",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "France",
      "tr": "Fransa",
      "img": "/app/img/flags/fr.svg",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "france"
     },
     {
      "en": "Germany",
      "tr": "Almanya",
      "img": "/app/img/flags/de.svg",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "germany"
     },
     {
      "en": "Italy",
      "tr": "İtalya",
      "img": "/app/img/flags/it.svg",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "italy"
     },
     {
      "en": "Spain",
      "tr": "İspanya",
      "img": "/app/img/flags/es.svg",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "spain"
     }
-   ]
+   ],
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "France",
-       "b": "Fransa"
-      },
-      {
-       "a": "Germany",
-       "b": "Almanya"
-      },
-      {
-       "a": "Italy",
-       "b": "İtalya"
-      },
-      {
-       "a": "Spain",
-       "b": "İspanya"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "France",
+     "options": [
+      "France",
+      "Germany",
+      "Italy",
+      "Spain"
+     ],
+     "tr": "Fransa",
+     "img": "/app/img/flags/fr.svg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "france"
     }
-   ]
+   ],
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
    "title": "Countries",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "Denmark",
      "tr": "Danimarka",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/21799.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/21799",
+     "imageFit": "contain",
+     "imageConcept": "denmark"
     },
     {
      "en": "Sweden",
      "tr": "İsveç",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/10253.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10253",
+     "imageFit": "contain",
+     "imageConcept": "sweden"
     },
     {
      "en": "Poland",
      "tr": "Polonya",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/22051.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/22051",
+     "imageFit": "contain",
+     "imageConcept": "poland"
     },
     {
      "en": "the Netherlands",
      "tr": "Hollanda",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/19547.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/19547",
+     "imageFit": "contain",
+     "imageConcept": "the netherlands"
     }
-   ]
+   ],
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "Denmark",
-       "b": "Danimarka"
-      },
-      {
-       "a": "Sweden",
-       "b": "İsveç"
-      },
-      {
-       "a": "Poland",
-       "b": "Polonya"
-      },
-      {
-       "a": "the Netherlands",
-       "b": "Hollanda"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "Denmark",
+     "options": [
+      "Denmark",
+      "Sweden",
+      "Poland",
+      "the Netherlands"
+     ],
+     "tr": "Danimarka",
+     "img": "/content/g6/shared/img/21799.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/21799",
+     "imageFit": "contain",
+     "imageConcept": "denmark"
     }
-   ]
+   ],
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
-   "type": "vocab",
-   "title": "Nationalities and languages",
-   "items": [
-    {
-     "en": "French",
-     "tr": "Fransız; Fransızca",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "German",
-     "tr": "Alman; Almanca",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "Italian",
-     "tr": "İtalyan; İtalyanca",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "Spanish",
-     "tr": "İspanyol; İspanyolca",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "France",
+      "tr": "Fransa",
+      "img": "/app/img/flags/fr.svg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "france",
+      "audio": "/app/audio/words/france.wav"
+     },
+     {
+      "en": "Germany",
+      "tr": "Almanya",
+      "img": "/app/img/flags/de.svg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "germany",
+      "audio": "/app/audio/words/germany.wav"
+     },
+     {
+      "en": "Italy",
+      "tr": "İtalya",
+      "img": "/app/img/flags/it.svg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "italy",
+      "audio": "/app/audio/words/italy.wav"
+     },
+     {
+      "en": "Spain",
+      "tr": "İspanya",
+      "img": "/app/img/flags/es.svg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "spain",
+      "audio": "/app/audio/words/spain.wav"
+     }
+    ]
+   },
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "True or false?",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "French",
-       "b": "Fransız; Fransızca"
-      },
-      {
-       "a": "German",
-       "b": "Alman; Almanca"
-      },
-      {
-       "a": "Italian",
-       "b": "İtalyan; İtalyanca"
-      },
-      {
-       "a": "Spanish",
-       "b": "İspanyol; İspanyolca"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "Spain means \"Danimarka\".",
+     "answer": false,
+     "explain": "Spain means \"İspanya\"."
     }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Nationalities and languages",
-   "items": [
-    {
-     "en": "Danish",
-     "tr": "Danimarkalı; Danca",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "Swedish",
-     "tr": "İsveçli; İsveççe",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "Polish",
-     "tr": "Polonyalı; Lehçe",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "Dutch",
-     "tr": "Hollandalı; Hollandaca",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "Danish",
-       "b": "Danimarkalı; Danca"
-      },
-      {
-       "a": "Swedish",
-       "b": "İsveçli; İsveççe"
-      },
-      {
-       "a": "Polish",
-       "b": "Polonyalı; Lehçe"
-      },
-      {
-       "a": "Dutch",
-       "b": "Hollandalı; Hollandaca"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Food and culture",
-   "items": [
-    {
-     "en": "cuisine",
-     "tr": "mutfak kültürü",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "ingredient",
-     "tr": "malzeme",
-     "img": "/app/img/words/ingredient.jpg",
-     "imageFit": "contain"
-    },
-    {
-     "en": "appetiser",
-     "tr": "iştah açıcı başlangıç yemeği",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "main course",
-     "tr": "ana yemek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "cuisine",
-       "b": "mutfak kültürü"
-      },
-      {
-       "a": "ingredient",
-       "b": "malzeme"
-      },
-      {
-       "a": "appetiser",
-       "b": "iştah açıcı başlangıç yemeği"
-      },
-      {
-       "a": "main course",
-       "b": "ana yemek"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Food and culture",
-   "items": [
-    {
-     "en": "dessert",
-     "tr": "tatlı",
-     "img": "/app/img/words/dessert.jpg",
-     "imageFit": "contain"
-    },
-    {
-     "en": "dumpling",
-     "tr": "içi doldurulmuş hamur yemeği",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "food stall",
-     "tr": "yiyecek standı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "heritage",
-     "tr": "kültürel miras",
-     "img": "/content/g6/shared/img/36297.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/36297",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "dessert",
-       "b": "tatlı"
-      },
-      {
-       "a": "dumpling",
-       "b": "içi doldurulmuş hamur yemeği"
-      },
-      {
-       "a": "food stall",
-       "b": "yiyecek standı"
-      },
-      {
-       "a": "heritage",
-       "b": "kültürel miras"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Flavours and experiences",
-   "items": [
-    {
-     "en": "crispy",
-     "tr": "çıtır",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "crunchy",
-     "tr": "kıtır",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "sour",
-     "tr": "ekşi",
-     "img": "/content/g6/shared/img/3022.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/3022",
-     "imageFit": "contain"
-    },
-    {
-     "en": "spicy",
-     "tr": "baharatlı",
-     "img": "/content/g6/shared/img/4719.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/4719",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "crispy",
-       "b": "çıtır"
-      },
-      {
-       "a": "crunchy",
-       "b": "kıtır"
-      },
-      {
-       "a": "sour",
-       "b": "ekşi"
-      },
-      {
-       "a": "spicy",
-       "b": "baharatlı"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Flavours and experiences",
-   "items": [
-    {
-     "en": "bitter",
-     "tr": "acı (tat)",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "homemade",
-     "tr": "ev yapımı",
-     "img": "/content/g6/shared/img/2342.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/2342",
-     "imageFit": "contain"
-    },
-    {
-     "en": "tradition",
-     "tr": "gelenek",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "capital",
-     "tr": "başkent",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "bitter",
-       "b": "acı (tat)"
-      },
-      {
-       "a": "homemade",
-       "b": "ev yapımı"
-      },
-      {
-       "a": "tradition",
-       "b": "gelenek"
-      },
-      {
-       "a": "capital",
-       "b": "başkent"
-      }
-     ]
-    }
-   ]
+   ],
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -531,9 +249,16 @@
      "trEm": [
       "ziyaret ettik"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/38302.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/38302",
+     "imageFit": "contain",
+     "imageCue": "Buy food at an event",
+     "imageConcept": "stalls"
     }
-   ]
+   ],
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -547,17 +272,23 @@
      "trEm": [
       "denedi"
      ],
-     "textOnly": true
+     "img": "/app/img/words/dessert.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "dessert"
     }
-   ]
+   ],
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Last night, the chef ___ a new dish.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Last night, the chef ___ a new dish.",
      "answer": "prepared",
      "options": [
       "prepared",
@@ -567,15 +298,18 @@
      ]
     }
    ],
-   "grammarId": "past-regular"
+   "grammarId": "past-regular",
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "They ___ the recipe yesterday.",
+     "text": "They ___ the recipe yesterday.",
      "answer": "studied",
      "options": [
       "studied",
@@ -585,15 +319,18 @@
      ]
     }
    ],
-   "grammarId": "past-regular"
+   "grammarId": "past-regular",
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Our group ___ at a food stall last Saturday.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Our group ___ at a food stall last Saturday.",
      "answer": "stopped",
      "options": [
       "stopped",
@@ -603,75 +340,251 @@
      ]
     }
    ],
-   "grammarId": "past-regular"
+   "grammarId": "past-regular",
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
-   "type": "grammar",
-   "title": "What didn't happen?",
-   "rule": "Geçmişte olumsuz: didn't + yalın fiil. Fiile ayrıca -ed eklenmez.",
-   "grammarId": "past-negative",
-   "examples": [
-    {
-     "en": "I *didn't taste* the spicy soup.",
-     "tr": "Baharatlı çorbayı tatmadım.",
-     "trEm": [
-      "tatmadım"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "What didn't happen?",
-   "rule": "Geçmişte olumsuz: didn't + yalın fiil. Fiile ayrıca -ed eklenmez.",
-   "grammarId": "past-negative",
-   "examples": [
-    {
-     "en": "The visitors *didn't stay* for dinner.",
-     "tr": "Ziyaretçiler akşam yemeğine kalmadı.",
-     "trEm": [
-      "kalmadı"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "past-regular",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We visited a food market last Sunday.",
+      "tr": "Geçen pazar bir yiyecek pazarını ziyaret ettik."
+     }
+    ]
+   },
+   "topic": "Countries",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "A travel diary",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "We didn't ___ the pop-up market yesterday.",
-     "answer": "visit",
-     "options": [
-      "visit",
-      "visited",
-      "visiting",
-      "visits"
-     ]
+     "kind": "flash",
+     "q": "Choose a country. Describe two things you visited or tried there last summer.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "past-negative"
+   "topic": "Countries",
+   "topicIndex": 1
+  },
+  {
+   "type": "vocab",
+   "title": "Nationalities and languages",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "French",
+     "tr": "Fransız; Fransızca",
+     "img": "/content/g6/shared/img/8121.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8121",
+     "imageFit": "contain",
+     "imageConcept": "france"
+    },
+    {
+     "en": "German",
+     "tr": "Alman; Almanca",
+     "img": "/content/g6/shared/img/8011.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8011",
+     "imageFit": "contain",
+     "imageConcept": "germany"
+    },
+    {
+     "en": "Italian",
+     "tr": "İtalyan; İtalyanca",
+     "img": "/content/g6/shared/img/8143.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8143",
+     "imageFit": "contain",
+     "imageConcept": "italy"
+    },
+    {
+     "en": "Spanish",
+     "tr": "İspanyol; İspanyolca",
+     "img": "/content/g6/shared/img/8108.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8108",
+     "imageFit": "contain",
+     "imageConcept": "spain"
+    }
+   ],
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The chef ___ the dessert; it was served cold.",
-     "answer": "didn't heat",
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "French",
      "options": [
-      "didn't heat",
-      "didn't heated",
-      "doesn't heated",
-      "not heated"
-     ]
+      "French",
+      "German",
+      "Italian",
+      "Spanish"
+     ],
+     "tr": "Fransız; Fransızca",
+     "img": "/content/g6/shared/img/8121.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8121",
+     "imageFit": "contain",
+     "imageConcept": "france"
     }
    ],
-   "grammarId": "past-negative"
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Nationalities and languages",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "Danish",
+     "tr": "Danimarkalı; Danca",
+     "img": "/content/g6/shared/img/21799.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/21799",
+     "imageFit": "contain",
+     "imageConcept": "denmark"
+    },
+    {
+     "en": "Swedish",
+     "tr": "İsveçli; İsveççe",
+     "img": "/content/g6/shared/img/10253.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10253",
+     "imageFit": "contain",
+     "imageConcept": "sweden"
+    },
+    {
+     "en": "Polish",
+     "tr": "Polonyalı; Lehçe",
+     "img": "/content/g6/shared/img/22051.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/22051",
+     "imageFit": "contain",
+     "imageConcept": "poland"
+    },
+    {
+     "en": "Dutch",
+     "tr": "Hollandalı; Hollandaca",
+     "img": "/content/g6/shared/img/19547.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/19547",
+     "imageFit": "contain",
+     "imageConcept": "the netherlands"
+    }
+   ],
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "Danish",
+     "options": [
+      "Danish",
+      "Swedish",
+      "Polish",
+      "Dutch"
+     ],
+     "tr": "Danimarkalı; Danca",
+     "img": "/content/g6/shared/img/21799.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/21799",
+     "imageFit": "contain",
+     "imageConcept": "denmark"
+    }
+   ],
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "French",
+      "tr": "Fransız; Fransızca",
+      "img": "/content/g6/shared/img/8121.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8121",
+      "imageFit": "contain",
+      "imageConcept": "france",
+      "audio": "/app/audio/words/french.wav"
+     },
+     {
+      "en": "German",
+      "tr": "Alman; Almanca",
+      "img": "/content/g6/shared/img/8011.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8011",
+      "imageFit": "contain",
+      "imageConcept": "germany",
+      "audio": "/app/audio/words/german.wav"
+     },
+     {
+      "en": "Italian",
+      "tr": "İtalyan; İtalyanca",
+      "img": "/content/g6/shared/img/8143.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8143",
+      "imageFit": "contain",
+      "imageConcept": "italy",
+      "audio": "/app/audio/words/italian.wav"
+     },
+     {
+      "en": "Spanish",
+      "tr": "İspanyol; İspanyolca",
+      "img": "/content/g6/shared/img/8108.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8108",
+      "imageFit": "contain",
+      "imageConcept": "spain",
+      "audio": "/app/audio/words/spanish.wav"
+     }
+    ]
+   },
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "Spanish means \"Danimarkalı; Danca\".",
+     "answer": false,
+     "explain": "Spanish means \"İspanyol; İspanyolca\"."
+    }
+   ],
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -685,9 +598,16 @@
      "trEm": [
       "keyif aldın mı"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/38302.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/38302",
+     "imageFit": "contain",
+     "imageCue": "Buy food at an event",
+     "imageConcept": "stalls"
     }
-   ]
+   ],
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -701,17 +621,23 @@
      "trEm": [
       "kaldılar"
      ],
-     "textOnly": true
+     "img": "/content/g5/u5/presentation/img/p02-01.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "apartment"
     }
-   ]
+   ],
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Did Noor ___ the Italian dish?",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Did Noor ___ the Italian dish?",
      "answer": "try",
      "options": [
       "try",
@@ -721,15 +647,18 @@
      ]
     }
    ],
-   "grammarId": "past-questions"
+   "grammarId": "past-questions",
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "Did the visitors like the appetiser? Yes, they ___.",
+     "text": "Did the visitors like the appetiser? Yes, they ___.",
      "answer": "did",
      "options": [
       "did",
@@ -739,15 +668,18 @@
      ]
     }
    ],
-   "grammarId": "past-questions"
+   "grammarId": "past-questions",
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Where ___ you travel last summer?",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Where ___ you travel last summer?",
      "answer": "did",
      "options": [
       "did",
@@ -757,79 +689,43 @@
      ]
     }
    ],
-   "grammarId": "past-questions"
+   "grammarId": "past-questions",
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
-   "type": "grammar",
-   "title": "Checking a past experience",
-   "rule": "Olumlu geçmiş fiil cümlesi + didn't + zamir; didn't ile olumsuz cümle + did + zamir.",
-   "grammarId": "regular-past-tags",
-   "examples": [
-    {
-     "en": "You enjoyed the main course, *didn't you*?",
-     "tr": "Ana yemeği beğendin, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Checking a past experience",
-   "rule": "Olumlu geçmiş fiil cümlesi + didn't + zamir; didn't ile olumsuz cümle + did + zamir.",
-   "grammarId": "regular-past-tags",
-   "examples": [
-    {
-     "en": "Lina didn't order soup, *did she*?",
-     "tr": "Lina çorba sipariş etmedi, değil mi?",
-     "trEm": [
-      "değil mi"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "past-questions",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Did you enjoy the food event?",
+      "tr": "Yemek etkinliğinden keyif aldın mı?"
+     }
+    ]
+   },
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Find out about a trip",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The chef heated the bread, ___?",
-     "answer": "didn't he",
-     "options": [
-      "didn't he",
-      "wasn't he",
-      "doesn't he",
-      "did he"
-     ]
+     "kind": "flash",
+     "q": "Ask three past questions about a partner’s imaginary trip. Listen and report one answer.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "regular-past-tags"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "They didn't visit Poland, ___?",
-     "answer": "did they",
-     "options": [
-      "did they",
-      "didn't they",
-      "were they",
-      "do they"
-     ]
-    }
-   ],
-   "grammarId": "regular-past-tags"
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -845,11 +741,344 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Nationalities and languages",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Food and culture",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "cuisine",
+     "tr": "mutfak kültürü",
+     "img": "/content/g6/shared/img/4610.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/4610",
+     "imageFit": "contain",
+     "imageCue": "Food from a place",
+     "pictureQuiz": false,
+     "imageConcept": "food"
+    },
+    {
+     "en": "ingredient",
+     "tr": "malzeme",
+     "img": "/content/g6/shared/img/24119.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/24119",
+     "imageFit": "contain",
+     "imageCue": "Things used in a recipe",
+     "pictureQuiz": false,
+     "imageConcept": "ingredients"
+    },
+    {
+     "en": "appetiser",
+     "tr": "iştah açıcı başlangıç yemeği",
+     "img": "/content/g6/shared/img/24854.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/24854",
+     "imageFit": "contain",
+     "imageConcept": "appetiser"
+    },
+    {
+     "en": "main course",
+     "tr": "ana yemek",
+     "img": "/content/g6/shared/img/7240.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7240",
+     "imageFit": "contain",
+     "imageConcept": "main course"
+    }
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "appetiser",
+     "options": [
+      "cuisine",
+      "ingredient",
+      "appetiser",
+      "main course"
+     ],
+     "tr": "iştah açıcı başlangıç yemeği",
+     "img": "/content/g6/shared/img/24854.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/24854",
+     "imageFit": "contain",
+     "imageConcept": "appetiser"
+    }
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Food and culture",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "dessert",
+     "tr": "tatlı",
+     "img": "/app/img/words/dessert.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "dessert"
+    },
+    {
+     "en": "dumpling",
+     "tr": "içi doldurulmuş hamur yemeği",
+     "img": "/content/g6/shared/img/39641.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/39641",
+     "imageFit": "contain",
+     "imageConcept": "ravioli"
+    },
+    {
+     "en": "food stall",
+     "tr": "yiyecek standı",
+     "img": "/content/g6/shared/img/38302.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/38302",
+     "imageFit": "contain",
+     "imageCue": "Buy food at an event",
+     "pictureQuiz": false,
+     "imageConcept": "stalls"
+    },
+    {
+     "en": "heritage",
+     "tr": "kültürel miras",
+     "img": "/content/g6/shared/img/36297.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/36297",
+     "imageFit": "contain",
+     "imageConcept": "monument"
+    }
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "dessert",
+     "options": [
+      "dessert",
+      "dumpling",
+      "food stall",
+      "heritage"
+     ],
+     "tr": "tatlı",
+     "img": "/app/img/words/dessert.jpg",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "dessert"
+    }
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "appetiser",
+      "tr": "iştah açıcı başlangıç yemeği",
+      "img": "/content/g6/shared/img/24854.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/24854",
+      "imageFit": "contain",
+      "imageConcept": "appetiser",
+      "audio": "/app/audio/words/appetiser.wav"
+     },
+     {
+      "en": "main course",
+      "tr": "ana yemek",
+      "img": "/content/g6/shared/img/7240.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/7240",
+      "imageFit": "contain",
+      "imageConcept": "main course",
+      "audio": "/app/audio/words/main-course.wav"
+     },
+     {
+      "en": "dessert",
+      "tr": "tatlı",
+      "img": "/app/img/words/dessert.jpg",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "dessert",
+      "audio": "/app/audio/words/dessert.wav"
+     },
+     {
+      "en": "dumpling",
+      "tr": "içi doldurulmuş hamur yemeği",
+      "img": "/content/g6/shared/img/39641.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/39641",
+      "imageFit": "contain",
+      "imageConcept": "ravioli",
+      "audio": "/app/audio/words/dumpling.wav"
+     }
+    ]
+   },
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "main course means \"tatlı\".",
+     "answer": false,
+     "explain": "main course means \"ana yemek\"."
+    }
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "What didn't happen?",
+   "rule": "Geçmişte olumsuz: didn't + yalın fiil. Fiile ayrıca -ed eklenmez.",
+   "grammarId": "past-negative",
+   "examples": [
+    {
+     "en": "I *didn't taste* the spicy soup.",
+     "tr": "Baharatlı çorbayı tatmadım.",
+     "trEm": [
+      "tatmadım"
+     ],
+     "img": "/content/g6/shared/img/2573.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2573",
+     "imageFit": "contain",
+     "imageConcept": "soup"
+    }
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "What didn't happen?",
+   "rule": "Geçmişte olumsuz: didn't + yalın fiil. Fiile ayrıca -ed eklenmez.",
+   "grammarId": "past-negative",
+   "examples": [
+    {
+     "en": "The visitors *didn't stay* for dinner.",
+     "tr": "Ziyaretçiler akşam yemeğine kalmadı.",
+     "trEm": [
+      "kalmadı"
+     ],
+     "img": "/content/g6/shared/img/10283.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/10283",
+     "imageFit": "contain",
+     "imageConcept": "restaurant"
+    }
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "We didn't ___ the pop-up market yesterday.",
+     "answer": "visit",
+     "options": [
+      "visit",
+      "visited",
+      "visiting",
+      "visits"
+     ]
+    }
+   ],
+   "grammarId": "past-negative",
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The chef ___ the dessert; it was served cold.",
+     "text": "The chef ___ the dessert; it was served cold.",
+     "answer": "didn't heat",
+     "options": [
+      "didn't heat",
+      "didn't heated",
+      "doesn't heated",
+      "not heated"
+     ]
+    }
+   ],
+   "grammarId": "past-negative",
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "past-negative",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "I didn't taste the spicy soup.",
+      "tr": "Baharatlı çorbayı tatmadım."
+     }
+    ]
+   },
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "At a food fair",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Describe one dish you tried and one you did not try. Explain your choice.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -865,12 +1094,355 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Food and culture",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Flavours and experiences",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "crispy",
+     "tr": "çıtır",
+     "img": "/content/g6/shared/img/2505.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2505",
+     "imageFit": "contain",
+     "imageCue": "Thin and crisp",
+     "pictureQuiz": false,
+     "imageConcept": "crisps"
+    },
+    {
+     "en": "crunchy",
+     "tr": "kıtır",
+     "img": "/content/g6/shared/img/2787.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2787",
+     "imageFit": "contain",
+     "imageCue": "Makes a crunch",
+     "pictureQuiz": false,
+     "imageConcept": "toast"
+    },
+    {
+     "en": "sour",
+     "tr": "ekşi",
+     "img": "/content/g6/shared/img/3022.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/3022",
+     "imageFit": "contain",
+     "imageConcept": "sour taste"
+    },
+    {
+     "en": "spicy",
+     "tr": "baharatlı",
+     "img": "/content/g6/shared/img/4719.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/4719",
+     "imageFit": "contain",
+     "imageConcept": "spicy"
+    }
+   ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "sour",
+     "options": [
+      "crispy",
+      "crunchy",
+      "sour",
+      "spicy"
+     ],
+     "tr": "ekşi",
+     "img": "/content/g6/shared/img/3022.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/3022",
+     "imageFit": "contain",
+     "imageConcept": "sour taste"
+    }
+   ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "vocab",
+   "title": "Flavours and experiences",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "bitter",
+     "tr": "acı (tat)",
+     "img": "/content/g6/shared/img/30928.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/30928",
+     "imageFit": "contain",
+     "imageConcept": "bitter"
+    },
+    {
+     "en": "homemade",
+     "tr": "ev yapımı",
+     "img": "/content/g6/shared/img/2342.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2342",
+     "imageFit": "contain",
+     "imageConcept": "cook"
+    },
+    {
+     "en": "tradition",
+     "tr": "gelenek",
+     "img": "/content/g6/shared/img/11693.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11693",
+     "imageFit": "contain",
+     "imageCue": "Passed on through generations",
+     "pictureQuiz": false,
+     "imageConcept": "culture"
+    },
+    {
+     "en": "capital",
+     "tr": "başkent",
+     "img": "/content/g6/shared/img/2704.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2704",
+     "imageFit": "contain",
+     "imageCue": "Paris is the capital of France",
+     "pictureQuiz": false,
+     "imageConcept": "capital"
+    }
+   ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "bitter",
+     "options": [
+      "bitter",
+      "homemade",
+      "tradition",
+      "capital"
+     ],
+     "tr": "acı (tat)",
+     "img": "/content/g6/shared/img/30928.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/30928",
+     "imageFit": "contain",
+     "imageConcept": "bitter"
+    }
+   ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "sour",
+      "tr": "ekşi",
+      "img": "/content/g6/shared/img/3022.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/3022",
+      "imageFit": "contain",
+      "imageConcept": "sour taste",
+      "audio": "/app/audio/words/sour.wav"
+     },
+     {
+      "en": "spicy",
+      "tr": "baharatlı",
+      "img": "/content/g6/shared/img/4719.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/4719",
+      "imageFit": "contain",
+      "imageConcept": "spicy",
+      "audio": "/app/audio/words/spicy.wav"
+     },
+     {
+      "en": "bitter",
+      "tr": "acı (tat)",
+      "img": "/content/g6/shared/img/30928.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/30928",
+      "imageFit": "contain",
+      "imageConcept": "bitter",
+      "audio": "/app/audio/words/bitter.wav"
+     },
+     {
+      "en": "homemade",
+      "tr": "ev yapımı",
+      "img": "/content/g6/shared/img/2342.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2342",
+      "imageFit": "contain",
+      "imageConcept": "cook",
+      "audio": "/app/audio/words/homemade.wav"
+     }
+    ]
+   },
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "spicy means \"acı (tat)\".",
+     "answer": false,
+     "explain": "spicy means \"baharatlı\"."
+    }
+   ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a past experience",
+   "rule": "Olumlu geçmiş fiil cümlesi + didn't + zamir; didn't ile olumsuz cümle + did + zamir.",
+   "grammarId": "regular-past-tags",
+   "examples": [
+    {
+     "en": "You enjoyed the main course, *didn't you*?",
+     "tr": "Ana yemeği beğendin, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/7240.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7240",
+     "imageFit": "contain",
+     "imageConcept": "main course"
+    }
+   ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a past experience",
+   "rule": "Olumlu geçmiş fiil cümlesi + didn't + zamir; didn't ile olumsuz cümle + did + zamir.",
+   "grammarId": "regular-past-tags",
+   "examples": [
+    {
+     "en": "Lina didn't order soup, *did she*?",
+     "tr": "Lina çorba sipariş etmedi, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "img": "/content/g6/shared/img/2573.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2573",
+     "imageFit": "contain",
+     "imageConcept": "soup"
+    }
+   ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The chef heated the bread, ___?",
+     "answer": "didn't he",
+     "options": [
+      "didn't he",
+      "wasn't he",
+      "doesn't he",
+      "did he"
+     ]
+    }
+   ],
+   "grammarId": "regular-past-tags",
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "They didn't visit Poland, ___?",
+     "text": "They didn't visit Poland, ___?",
+     "answer": "did they",
+     "options": [
+      "did they",
+      "didn't they",
+      "were they",
+      "do they"
+     ]
+    }
+   ],
+   "grammarId": "regular-past-tags",
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "regular-past-tags",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "You enjoyed the main course, didn't you?",
+      "tr": "Ana yemeği beğendin, değil mi?"
+     }
+    ]
+   },
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Tell your partner about a meal. Your partner checks two details with question tags.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4
   },
   {
    "type": "scene",
    "title": "Our classroom culture market",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/38302.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/38302",
+   "imageFit": "contain",
+   "imageCue": "Buy food at an event",
+   "imageConcept": "stalls",
    "bubbles": [
     {
      "text": "Last Thursday, our class organised a culture market. Each group prepared a food poster and introduced a country. Leo's group presented Italy. Noor's group described Sweden. They used English for their presentations and practised a few Swedish words too."
@@ -880,7 +1452,12 @@
   {
    "type": "scene",
    "title": "Our classroom culture market",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/38302.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/38302",
+   "imageFit": "contain",
+   "imageCue": "Buy food at an event",
+   "imageConcept": "stalls",
    "bubbles": [
     {
      "text": "Maya prepared a poster about ingredients in a homemade dessert. Visitors listened to the groups and asked questions. I tried a crispy appetiser, but I didn't taste the spicy dish. At the end, we thanked the visitors and cleaned the room together."
@@ -889,7 +1466,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -900,7 +1477,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -911,7 +1488,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -922,7 +1499,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -932,118 +1509,57 @@
    ]
   },
   {
-   "type": "mission",
-   "title": "Picture match",
-   "task": {
-    "kind": "dragmatch",
-    "items": [
-     {
-      "en": "France",
-      "tr": "Fransa",
-      "img": "/app/img/flags/fr.svg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/france.wav"
-     },
-     {
-      "en": "Germany",
-      "tr": "Almanya",
-      "img": "/app/img/flags/de.svg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/germany.wav"
-     },
-     {
-      "en": "Italy",
-      "tr": "İtalya",
-      "img": "/app/img/flags/it.svg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/italy.wav"
-     },
-     {
-      "en": "Spain",
-      "tr": "İspanya",
-      "img": "/app/img/flags/es.svg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/spain.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Noor's group described Sweden.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Listen and find",
-   "task": {
-    "kind": "listenpicture",
-    "items": [
-     {
-      "en": "France",
-      "tr": "Fransa",
-      "img": "/app/img/flags/fr.svg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/france.wav"
-     },
-     {
-      "en": "Germany",
-      "tr": "Almanya",
-      "img": "/app/img/flags/de.svg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/germany.wav"
-     },
-     {
-      "en": "Italy",
-      "tr": "İtalya",
-      "img": "/app/img/flags/it.svg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/italy.wav"
-     },
-     {
-      "en": "Spain",
-      "tr": "İspanya",
-      "img": "/app/img/flags/es.svg",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/spain.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "The groups only spoke Swedish.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Sentence workshop",
-   "task": {
-    "kind": "dragorder",
-    "sentences": [
-     {
-      "answer": "We visited a food market last Sunday.",
-      "tr": "Geçen pazar bir yiyecek pazarını ziyaret ettik."
-     },
-     {
-      "answer": "Maya tried a homemade dessert.",
-      "tr": "Maya ev yapımı bir tatlı denedi."
-     },
-     {
-      "answer": "I didn't taste the spicy soup.",
-      "tr": "Baharatlı çorbayı tatmadım."
-     },
-     {
-      "answer": "The visitors didn't stay for dinner.",
-      "tr": "Ziyaretçiler akşam yemeğine kalmadı."
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "They cleaned the room afterwards.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Your turn to speak",
-   "task": {
-    "kind": "flash",
-    "q": "Interview a partner about an imaginary culture market. Ask three Did questions and one Where or When question. Check a detail with a past question tag.",
-    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
-   }
+   "type": "exercise",
+   "title": "One-minute exit ticket",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say two new words and make one sentence about today’s theme.",
+     "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
+    }
+   ]
   },
   {
    "type": "end",
-   "title": "Ready for more practice",
+   "title": "Well done!",
    "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
-   "emoji": "🎯"
+   "emoji": "🌍"
   }
  ]
 }

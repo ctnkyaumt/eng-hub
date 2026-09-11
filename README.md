@@ -113,12 +113,14 @@ powershell -ExecutionPolicy Bypass -File tools/build_mission_audio.ps1
 
 ## 6. sınıf: 2026 MEB kitaplarına göre özgün materyaller
 
-Revizyon 1-2 ve sekiz tema için dokuz ders sunumu (529 slayt), 288 kelime kaydı ve
+Revizyon 1-2 ve sekiz tema için dokuz ders sunumu (681 slayt), 288 kelime kaydı ve
 714 özgün oyun sorusu vardır. Yedi oyun modu da her bölümde kullanılabilir. Sunumlar
 küçük kelime grupları, Türkçe açıklamalı dil yapıları, özgün diyaloglar ve okumalar,
 etkileşimli alıştırmalar, resim eşleştirme, dinleme ve cümle kurma görevleri içerir.
-Doğrulanmış yerel görseli olmayan kelimeler büyük metin kartı olarak gösterilir.
-Kelime telaffuzları çevrimdışıdır.
+280 kelime kartının tamamında görsel, sekiz sayı kartında büyük rakamlar bulunur.
+Her konu içinde resim soruları, dinleme/eşleştirme, kısa dil bilgisi örnekleri,
+cümle kurma ve eşli konuşma dönüşümlü ilerler. Dil bilgisi örnekleri de görseldir.
+Kelime görselleri ve telaffuzları çevrimdışıdır. Soyut anlamlara kısa bağlam ipuçları eklenir.
 
 Her bölümde iki özgün çalışma kâğıdı ve ayrı öğretmen anahtarı bulunur. Anahtarda
 cevaplar, yanlış ifadelerin düzeltmeleri, öğretmenin okuyacağı dinleme metni,
@@ -131,6 +133,11 @@ kopyalanmaz. Tema-sayfa eşleştirmesi ve kaynak dosya doğrulamaları
 üretici `tools/create_grade6.py` içindedir. Üretim için ReportLab ve pypdf gerekir;
 `G6_FONT_DIR` Arial yazı tiplerinin klasörünü değiştirebilir. Yalnızca 6. sınıf
 içeriği ve katalogdaki 6. sınıf kayıtları güncellenir. Uygulama derlenmez.
+
+Yalnızca dersleri yenilemek için `python tools/create_grade6.py --slides-only` kullanılır;
+çalışma kâğıtları ve oyun havuzları korunur. Konu sırası `tools/grade6_pacing.py`,
+incelenmiş görsel seçimleri ve atıflar `tools/grade6-image-choices.json` içindedir.
+Eksik seçili görselleri `python tools/prepare_grade6_visuals.py` indirir.
 
 Bakım komutları özgün 6. sınıf oyun havuzlarını ve PDF'lerini korur. Dış kaynaktan
 indirilen eski çalışma kâğıtları yine yerelde tutulmaz. Lite pakette çalışma kâğıtları

@@ -240,7 +240,8 @@ def main():
 
         missions = [slide for slide in slides if slide.get("type") == "mission"]
         kinds = [(slide.get("task") or {}).get("kind") for slide in missions]
-        if kinds[:3] != MISSION_KINDS or len(kinds) < 4:
+        interleaved = unit.startswith('g6/') and data.get('visualStyle') == 'illustrated'
+        if (not set(MISSION_KINDS).issubset(kinds) if interleaved else kinds[:3] != MISSION_KINDS) or len(kinds) < 4:
             problems.append("%s: missions are %r, expected %r" % (unit, kinds, MISSION_KINDS))
         stats["missions"] += len(missions)
         for slide in slides:
@@ -249,7 +250,7 @@ def main():
             if slide.get("type") == "grammar":
                 if len(slide.get("chips", [])) > 1 or len(slide.get("examples", [])) > 1:
                     problems.append("%s: grammar page mixes patterns/examples" % unit)
-        for slide in missions[:2]:
+        for slide in (s for s in missions if s.get('task', {}).get('kind') in ('dragmatch', 'listenpicture')):
             task = slide.get("task") or {}
             items = task.get("items") or []
             if len(items) != 4 or any(not has_visual(item) for item in items):
@@ -263,13 +264,13 @@ def main():
                         problems.append("%s: missing offline audio %s" % (unit, audio))
                     else:
                         stats["mission_audio"] += 1
-        if len(missions) >= 3:
-            sentences = (missions[2].get("task") or {}).get("sentences") or []
+        for slide in (s for s in missions if s.get('task', {}).get('kind') == 'dragorder'):
+            sentences = (slide.get("task") or {}).get("sentences") or []
             if not sentences:
                 problems.append("%s: sentence mission is empty" % unit)
             for item in sentences:
                 count = len((item.get("answer") or "").split())
-                if not 4 <= count <= 11:
+                if not 4 <= count <= (14 if interleaved else 11):
                     problems.append("%s: sentence mission has %d words: %r" %
                                     (unit, count, item.get("answer")))
 

@@ -4,9 +4,10 @@
  "emoji": "🙋",
  "authored": true,
  "curriculum": "meb-english-6-2026",
+ "visualStyle": "illustrated",
  "accent": [
-  "#0d9488",
-  "#2563eb"
+  "#f472b6",
+  "#a78bfa"
  ],
  "source": {
   "studentBook": {
@@ -29,493 +30,216 @@
  "slides": [
   {
    "type": "title",
-   "kicker": "THEME 3",
    "title": "Personal Life",
    "titleTr": "Kişisel Hayat",
    "emoji": "🙋"
   },
   {
-   "type": "scene",
-   "title": "Our lesson",
-   "emoji": "🙋",
-   "bubbles": [
-    {
-     "text": "Describe appearance, clothes and character respectfully."
-    },
-    {
-     "text": "Ask about possessions and make comparisons."
-    }
-   ]
-  },
-  {
    "type": "vocab",
    "title": "Body parts",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "back",
      "tr": "sırt",
      "img": "/content/g5/u3/presentation/img/p01-15.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "back"
     },
     {
      "en": "leg",
      "tr": "bacak",
      "img": "/content/g5/u3/presentation/img/p01-17.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "leg"
     },
     {
      "en": "knee",
      "tr": "diz",
      "img": "/content/g5/u3/presentation/img/p01-18.png",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "knee"
     },
     {
      "en": "ankle",
      "tr": "ayak bileği",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/3405.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3405",
+     "imageFit": "contain",
+     "imageConcept": "ankle"
     }
-   ]
+   ],
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "back",
-       "b": "sırt"
-      },
-      {
-       "a": "leg",
-       "b": "bacak"
-      },
-      {
-       "a": "knee",
-       "b": "diz"
-      },
-      {
-       "a": "ankle",
-       "b": "ayak bileği"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "back",
+     "options": [
+      "back",
+      "leg",
+      "knee",
+      "ankle"
+     ],
+     "tr": "sırt",
+     "img": "/content/g5/u3/presentation/img/p01-15.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "back"
     }
-   ]
+   ],
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
    "title": "Body parts",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "heart",
      "tr": "kalp",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/2715.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2715",
+     "imageFit": "contain",
+     "imageConcept": "heart"
     },
     {
      "en": "stomach",
      "tr": "mide",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/2786.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2786",
+     "imageFit": "contain",
+     "imageConcept": "stomach"
     },
     {
      "en": "skin",
      "tr": "cilt",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/2840.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2840",
+     "imageFit": "contain",
+     "imageConcept": "skin"
     },
     {
      "en": "physical",
      "tr": "fiziksel",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "heart",
-       "b": "kalp"
-      },
-      {
-       "a": "stomach",
-       "b": "mide"
-      },
-      {
-       "a": "skin",
-       "b": "cilt"
-      },
-      {
-       "a": "physical",
-       "b": "fiziksel"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Clothes and belongings",
-   "items": [
-    {
-     "en": "trainers",
-     "tr": "spor ayakkabısı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "swimsuit",
-     "tr": "mayo",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "tights",
-     "tr": "külotlu çorap",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "pocket",
-     "tr": "cep",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "trainers",
-       "b": "spor ayakkabısı"
-      },
-      {
-       "a": "swimsuit",
-       "b": "mayo"
-      },
-      {
-       "a": "tights",
-       "b": "külotlu çorap"
-      },
-      {
-       "a": "pocket",
-       "b": "cep"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Clothes and belongings",
-   "items": [
-    {
-     "en": "necklace",
-     "tr": "kolye",
-     "img": "/content/g5/u3/presentation/img/p03-08.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "bracelet",
-     "tr": "bileklik",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "wallet",
-     "tr": "cüzdan",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "jewellery",
-     "tr": "takı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "necklace",
-       "b": "kolye"
-      },
-      {
-       "a": "bracelet",
-       "b": "bileklik"
-      },
-      {
-       "a": "wallet",
-       "b": "cüzdan"
-      },
-      {
-       "a": "jewellery",
-       "b": "takı"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Character",
-   "items": [
-    {
-     "en": "patient",
-     "tr": "sabırlı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "polite",
-     "tr": "kibar",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "caring",
-     "tr": "şefkatli",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "clever",
-     "tr": "zeki",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "patient",
-       "b": "sabırlı"
-      },
-      {
-       "a": "polite",
-       "b": "kibar"
-      },
-      {
-       "a": "caring",
-       "b": "şefkatli"
-      },
-      {
-       "a": "clever",
-       "b": "zeki"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Character",
-   "items": [
-    {
-     "en": "organised",
-     "tr": "düzenli",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "independent",
-     "tr": "bağımsız",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "focused",
-     "tr": "odaklanmış",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "social",
-     "tr": "sosyal",
-     "imageSource": "ENG HUB",
+     "img": "/content/g6/shared/img/2728.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2728",
      "imageFit": "contain",
-     "imageConcept": "social",
-     "img": "/app/img/concepts/social.svg"
+     "imageCue": "About the body",
+     "pictureQuiz": false,
+     "imageConcept": "body"
     }
-   ]
+   ],
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "organised",
-       "b": "düzenli"
-      },
-      {
-       "a": "independent",
-       "b": "bağımsız"
-      },
-      {
-       "a": "focused",
-       "b": "odaklanmış"
-      },
-      {
-       "a": "social",
-       "b": "sosyal"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "heart",
+     "options": [
+      "heart",
+      "stomach",
+      "skin",
+      "physical"
+     ],
+     "tr": "kalp",
+     "img": "/content/g6/shared/img/2715.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2715",
+     "imageFit": "contain",
+     "imageConcept": "heart"
     }
-   ]
+   ],
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
-   "type": "vocab",
-   "title": "Describing a person",
-   "items": [
-    {
-     "en": "tidy",
-     "tr": "tertipli",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "serious",
-     "tr": "ciddi",
-     "img": "/content/g6/shared/img/8690.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/8690",
-     "imageFit": "contain"
-    },
-    {
-     "en": "rude",
-     "tr": "kaba",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "lazy",
-     "tr": "tembel",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "back",
+      "tr": "sırt",
+      "img": "/content/g5/u3/presentation/img/p01-15.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "back",
+      "audio": "/app/audio/words/back.wav"
+     },
+     {
+      "en": "leg",
+      "tr": "bacak",
+      "img": "/content/g5/u3/presentation/img/p01-17.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "leg",
+      "audio": "/app/audio/words/leg.wav"
+     },
+     {
+      "en": "knee",
+      "tr": "diz",
+      "img": "/content/g5/u3/presentation/img/p01-18.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "knee",
+      "audio": "/app/audio/words/knee.wav"
+     },
+     {
+      "en": "ankle",
+      "tr": "ayak bileği",
+      "img": "/content/g6/shared/img/3405.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/3405",
+      "imageFit": "contain",
+      "imageConcept": "ankle",
+      "audio": "/app/audio/words/ankle.wav"
+     }
+    ]
+   },
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "True or false?",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "tidy",
-       "b": "tertipli"
-      },
-      {
-       "a": "serious",
-       "b": "ciddi"
-      },
-      {
-       "a": "rude",
-       "b": "kaba"
-      },
-      {
-       "a": "lazy",
-       "b": "tembel"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "ankle means \"kalp\".",
+     "answer": false,
+     "explain": "ankle means \"ayak bileği\"."
     }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Describing a person",
-   "items": [
-    {
-     "en": "weak",
-     "tr": "güçsüz",
-     "img": "/content/g6/shared/img/4620.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/4620",
-     "imageFit": "contain"
-    },
-    {
-     "en": "lovely",
-     "tr": "hoş",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "brilliant",
-     "tr": "harika",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "look",
-     "tr": "görünüş",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "weak",
-       "b": "güçsüz"
-      },
-      {
-       "a": "lovely",
-       "b": "hoş"
-      },
-      {
-       "a": "brilliant",
-       "b": "harika"
-      },
-      {
-       "a": "look",
-       "b": "görünüş"
-      }
-     ]
-    }
-   ]
+   ],
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -529,9 +253,15 @@
      "trEm": [
       "var"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/2537.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2537",
+     "imageFit": "contain",
+     "imageConcept": "bracelet"
     }
-   ]
+   ],
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -545,9 +275,36 @@
      "trEm": [
       "var mı"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/2621.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2621",
+     "imageFit": "contain",
+     "imageConcept": "trainers"
     }
-   ]
+   ],
+   "topic": "Body parts",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "My cousin ___ curly hair.",
+     "answer": "has got",
+     "options": [
+      "has got",
+      "have got",
+      "is got",
+      "are got"
+     ]
+    }
+   ],
+   "grammarId": "have-got",
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -561,35 +318,23 @@
      "trEm": [
       "yok"
      ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "My cousin ___ curly hair.",
-     "answer": "has got",
-     "options": [
-      "has got",
-      "have got",
-      "is got",
-      "are got"
-     ]
+     "img": "/content/g5/u3/presentation/img/p03-08.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "necklace"
     }
    ],
-   "grammarId": "have-got"
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "___ your brother got a wallet?",
+     "text": "___ your brother got a wallet?",
      "answer": "Has",
      "options": [
       "Has",
@@ -599,15 +344,18 @@
      ]
     }
    ],
-   "grammarId": "have-got"
+   "grammarId": "have-got",
+   "topic": "Body parts",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "We ___ blue trainers.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "We ___ blue trainers.",
      "answer": "haven't got",
      "options": [
       "haven't got",
@@ -617,7 +365,249 @@
      ]
     }
    ],
-   "grammarId": "have-got"
+   "grammarId": "have-got",
+   "topic": "Body parts",
+   "topicIndex": 1
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "have-got",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Lina has got a silver bracelet.",
+      "tr": "Lina'nın gümüş bir bilekliği var."
+     }
+    ]
+   },
+   "topic": "Body parts",
+   "topicIndex": 1
+  },
+  {
+   "type": "exercise",
+   "title": "Describe a sports kit",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say what you have got for swimming or running. Ask about your partner’s kit.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Body parts",
+   "topicIndex": 1
+  },
+  {
+   "type": "vocab",
+   "title": "Clothes and belongings",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "trainers",
+     "tr": "spor ayakkabısı",
+     "img": "/content/g6/shared/img/2621.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2621",
+     "imageFit": "contain",
+     "imageConcept": "trainers"
+    },
+    {
+     "en": "swimsuit",
+     "tr": "mayo",
+     "img": "/content/g6/shared/img/2270.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2270",
+     "imageFit": "contain",
+     "imageConcept": "swimsuit"
+    },
+    {
+     "en": "tights",
+     "tr": "külotlu çorap",
+     "img": "/content/g6/shared/img/2466.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2466",
+     "imageFit": "contain",
+     "imageConcept": "tights"
+    },
+    {
+     "en": "pocket",
+     "tr": "cep",
+     "img": "/content/g6/shared/img/6937.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6937",
+     "imageFit": "contain",
+     "imageConcept": "pocket"
+    }
+   ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "trainers",
+     "options": [
+      "trainers",
+      "swimsuit",
+      "tights",
+      "pocket"
+     ],
+     "tr": "spor ayakkabısı",
+     "img": "/content/g6/shared/img/2621.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2621",
+     "imageFit": "contain",
+     "imageConcept": "trainers"
+    }
+   ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Clothes and belongings",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "necklace",
+     "tr": "kolye",
+     "img": "/content/g5/u3/presentation/img/p03-08.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "necklace"
+    },
+    {
+     "en": "bracelet",
+     "tr": "bileklik",
+     "img": "/content/g6/shared/img/2537.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2537",
+     "imageFit": "contain",
+     "imageConcept": "bracelet"
+    },
+    {
+     "en": "wallet",
+     "tr": "cüzdan",
+     "img": "/content/g6/shared/img/2689.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2689",
+     "imageFit": "contain",
+     "imageConcept": "wallet"
+    },
+    {
+     "en": "jewellery",
+     "tr": "takı",
+     "img": "/content/g6/shared/img/29088.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/29088",
+     "imageFit": "contain",
+     "imageConcept": "jewelry"
+    }
+   ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "necklace",
+     "options": [
+      "necklace",
+      "bracelet",
+      "wallet",
+      "jewellery"
+     ],
+     "tr": "kolye",
+     "img": "/content/g5/u3/presentation/img/p03-08.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "necklace"
+    }
+   ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "trainers",
+      "tr": "spor ayakkabısı",
+      "img": "/content/g6/shared/img/2621.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2621",
+      "imageFit": "contain",
+      "imageConcept": "trainers",
+      "audio": "/app/audio/words/trainers.wav"
+     },
+     {
+      "en": "swimsuit",
+      "tr": "mayo",
+      "img": "/content/g6/shared/img/2270.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2270",
+      "imageFit": "contain",
+      "imageConcept": "swimsuit",
+      "audio": "/app/audio/words/swimsuit.wav"
+     },
+     {
+      "en": "tights",
+      "tr": "külotlu çorap",
+      "img": "/content/g6/shared/img/2466.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2466",
+      "imageFit": "contain",
+      "imageConcept": "tights",
+      "audio": "/app/audio/words/tights.wav"
+     },
+     {
+      "en": "pocket",
+      "tr": "cep",
+      "img": "/content/g6/shared/img/6937.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/6937",
+      "imageFit": "contain",
+      "imageConcept": "pocket",
+      "audio": "/app/audio/words/pocket.wav"
+     }
+    ]
+   },
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "pocket means \"kolye\".",
+     "answer": false,
+     "explain": "pocket means \"cep\"."
+    }
+   ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -631,9 +621,15 @@
      "trEm": [
       "kimin"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/2537.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2537",
+     "imageFit": "contain",
+     "imageConcept": "bracelet"
     }
-   ]
+   ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -647,17 +643,24 @@
      "trEm": [
       "Maya'nın"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/2537.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2537",
+     "imageFit": "contain",
+     "imageConcept": "bracelet"
     }
-   ]
+   ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ wallet is this? It belongs to Ben.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ wallet is this? It belongs to Ben.",
      "answer": "Whose",
      "options": [
       "Whose",
@@ -667,15 +670,18 @@
      ]
     }
    ],
-   "grammarId": "whose"
+   "grammarId": "whose",
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "These are ___ trainers. They belong to Ada.",
+     "text": "These are ___ trainers. They belong to Ada.",
      "answer": "Ada's",
      "options": [
       "Ada's",
@@ -685,233 +691,43 @@
      ]
     }
    ],
-   "grammarId": "whose"
+   "grammarId": "whose",
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
   },
   {
-   "type": "grammar",
-   "title": "Comparing two",
-   "rule": "Kısa sıfat + -er + than; uzun sıfatlarda more + sıfat + than. big/bigger, tidy/tidier.",
-   "grammarId": "comparatives",
-   "examples": [
-    {
-     "en": "This pocket is *bigger than* that pocket.",
-     "tr": "Bu cep, o cepten daha büyük.",
-     "trEm": [
-      "daha büyük"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Comparing two",
-   "rule": "Kısa sıfat + -er + than; uzun sıfatlarda more + sıfat + than. big/bigger, tidy/tidier.",
-   "grammarId": "comparatives",
-   "examples": [
-    {
-     "en": "Lina is *more patient than* her cousin.",
-     "tr": "Lina kuzeninden daha sabırlı.",
-     "trEm": [
-      "daha sabırlı"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "whose",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Whose bracelet is this?",
+      "tr": "Bu kimin bilekliği?"
+     }
+    ]
+   },
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Lost property desk",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The red bracelet is ___ than the blue one.",
-     "answer": "longer",
-     "options": [
-      "longer",
-      "long",
-      "longest",
-      "more long"
-     ]
+     "kind": "flash",
+     "q": "Choose two classroom objects. Ask whose they are and return them to their owners.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "comparatives"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "This wallet is ___ than that one.",
-     "answer": "more colourful",
-     "options": [
-      "more colourful",
-      "colourfuller",
-      "most colourful",
-      "colourfulest"
-     ]
-    }
-   ],
-   "grammarId": "comparatives"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "My desk is ___ than it was before.",
-     "answer": "tidier",
-     "options": [
-      "tidier",
-      "tidyer",
-      "tidiest",
-      "more tidyest"
-     ]
-    }
-   ],
-   "grammarId": "comparatives"
-  },
-  {
-   "type": "grammar",
-   "title": "Comparing a group",
-   "rule": "Üç veya daha fazlası arasında: the + sıfat-est / the most + uzun sıfat. Karşılaştırılan grubu belirt.",
-   "grammarId": "superlatives",
-   "examples": [
-    {
-     "en": "This is *the smallest* pocket on the jacket.",
-     "tr": "Bu, ceketin en küçük cebi.",
-     "trEm": [
-      "en küçük"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Comparing a group",
-   "rule": "Üç veya daha fazlası arasında: the + sıfat-est / the most + uzun sıfat. Karşılaştırılan grubu belirt.",
-   "grammarId": "superlatives",
-   "examples": [
-    {
-     "en": "That is *the most colourful* bracelet in the box.",
-     "tr": "O, kutudaki en renkli bileklik.",
-     "trEm": [
-      "en renkli"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Of these three bags, the green one is ___.",
-     "answer": "the biggest",
-     "options": [
-      "the biggest",
-      "bigger",
-      "big",
-      "more big"
-     ]
-    }
-   ],
-   "grammarId": "superlatives"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "This is ___ swimsuit in the shop.",
-     "answer": "the most comfortable",
-     "options": [
-      "the most comfortable",
-      "more comfortable",
-      "comfortabler",
-      "comfortable"
-     ]
-    }
-   ],
-   "grammarId": "superlatives"
-  },
-  {
-   "type": "grammar",
-   "title": "Good, better, best",
-   "rule": "good/better/the best; bad/worse/the worst. Bunlara ayrıca more veya -er eklenmez.",
-   "grammarId": "irregular-comparison",
-   "examples": [
-    {
-     "en": "This kit is *better* for swimming.",
-     "tr": "Bu takım yüzmek için daha iyi.",
-     "trEm": [
-      "daha iyi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Good, better, best",
-   "rule": "good/better/the best; bad/worse/the worst. Bunlara ayrıca more veya -er eklenmez.",
-   "grammarId": "irregular-comparison",
-   "examples": [
-    {
-     "en": "This is *the worst* pocket for a phone.",
-     "tr": "Bu, telefon için en kötü cep.",
-     "trEm": [
-      "en kötü"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Of the three kits, this is ___.",
-     "answer": "the best",
-     "options": [
-      "the best",
-      "better",
-      "gooder",
-      "good"
-     ]
-    }
-   ],
-   "grammarId": "irregular-comparison"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "My old trainers are ___ than my new ones.",
-     "answer": "worse",
-     "options": [
-      "worse",
-      "badder",
-      "worst",
-      "the bad"
-     ]
-    }
-   ],
-   "grammarId": "irregular-comparison"
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -927,11 +743,367 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Character",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "patient",
+     "tr": "sabırlı",
+     "img": "/content/g6/shared/img/36563.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/36563",
+     "imageFit": "contain",
+     "imageConcept": "patience"
+    },
+    {
+     "en": "polite",
+     "tr": "kibar",
+     "img": "/content/g6/shared/img/8194.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8194",
+     "imageFit": "contain",
+     "imageCue": "Please. Thank you.",
+     "pictureQuiz": false,
+     "imageConcept": "please"
+    },
+    {
+     "en": "caring",
+     "tr": "şefkatli",
+     "img": "/content/g6/shared/img/12252.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/12252",
+     "imageFit": "contain",
+     "imageCue": "Care about other people",
+     "pictureQuiz": false,
+     "imageConcept": "care"
+    },
+    {
+     "en": "clever",
+     "tr": "zeki",
+     "img": "/content/g6/shared/img/37711.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37711",
+     "imageFit": "contain",
+     "imageCue": "Find a solution",
+     "pictureQuiz": false,
+     "imageConcept": "solve"
+    }
+   ],
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "patient",
+     "options": [
+      "patient",
+      "polite",
+      "caring",
+      "clever"
+     ],
+     "tr": "sabırlı",
+     "img": "/content/g6/shared/img/36563.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/36563",
+     "imageFit": "contain",
+     "imageConcept": "patience"
+    }
+   ],
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Character",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "organised",
+     "tr": "düzenli",
+     "img": "/content/g6/shared/img/4707.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/4707",
+     "imageFit": "contain",
+     "imageConcept": "organised"
+    },
+    {
+     "en": "independent",
+     "tr": "bağımsız",
+     "img": "/content/g6/shared/img/11472.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11472",
+     "imageFit": "contain",
+     "imageConcept": "independent"
+    },
+    {
+     "en": "focused",
+     "tr": "odaklanmış",
+     "img": "/content/g6/shared/img/25355.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/25355",
+     "imageFit": "contain",
+     "imageConcept": "pay attention"
+    },
+    {
+     "en": "social",
+     "tr": "sosyal",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "sociable",
+     "img": "/app/img/concepts/social.svg"
+    }
+   ],
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "organised",
+     "options": [
+      "organised",
+      "independent",
+      "focused",
+      "social"
+     ],
+     "tr": "düzenli",
+     "img": "/content/g6/shared/img/4707.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/4707",
+     "imageFit": "contain",
+     "imageConcept": "organised"
+    }
+   ],
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "patient",
+      "tr": "sabırlı",
+      "img": "/content/g6/shared/img/36563.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/36563",
+      "imageFit": "contain",
+      "imageConcept": "patience",
+      "audio": "/app/audio/words/patient.wav"
+     },
+     {
+      "en": "organised",
+      "tr": "düzenli",
+      "img": "/content/g6/shared/img/4707.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/4707",
+      "imageFit": "contain",
+      "imageConcept": "organised",
+      "audio": "/app/audio/words/organised.wav"
+     },
+     {
+      "en": "independent",
+      "tr": "bağımsız",
+      "img": "/content/g6/shared/img/11472.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/11472",
+      "imageFit": "contain",
+      "imageConcept": "independent",
+      "audio": "/app/audio/words/independent.wav"
+     },
+     {
+      "en": "focused",
+      "tr": "odaklanmış",
+      "img": "/content/g6/shared/img/25355.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/25355",
+      "imageFit": "contain",
+      "imageConcept": "pay attention",
+      "audio": "/app/audio/words/focused.wav"
+     }
+    ]
+   },
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "clever means \"düzenli\".",
+     "answer": false,
+     "explain": "clever means \"zeki\"."
+    }
+   ],
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing two",
+   "rule": "Kısa sıfat + -er + than; uzun sıfatlarda more + sıfat + than. big/bigger, tidy/tidier.",
+   "grammarId": "comparatives",
+   "examples": [
+    {
+     "en": "This pocket is *bigger than* that pocket.",
+     "tr": "Bu cep, o cepten daha büyük.",
+     "trEm": [
+      "daha büyük"
+     ],
+     "img": "/content/g6/shared/img/6937.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6937",
+     "imageFit": "contain",
+     "imageConcept": "pocket"
+    }
+   ],
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing two",
+   "rule": "Kısa sıfat + -er + than; uzun sıfatlarda more + sıfat + than. big/bigger, tidy/tidier.",
+   "grammarId": "comparatives",
+   "examples": [
+    {
+     "en": "Lina is *more patient than* her cousin.",
+     "tr": "Lina kuzeninden daha sabırlı.",
+     "trEm": [
+      "daha sabırlı"
+     ],
+     "img": "/content/g6/shared/img/36563.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/36563",
+     "imageFit": "contain",
+     "imageConcept": "patience"
+    }
+   ],
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The red bracelet is ___ than the blue one.",
+     "answer": "longer",
+     "options": [
+      "longer",
+      "long",
+      "longest",
+      "more long"
+     ]
+    }
+   ],
+   "grammarId": "comparatives",
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "This wallet is ___ than that one.",
+     "text": "This wallet is ___ than that one.",
+     "answer": "more colourful",
+     "options": [
+      "more colourful",
+      "colourfuller",
+      "most colourful",
+      "colourfulest"
+     ]
+    }
+   ],
+   "grammarId": "comparatives",
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "My desk is ___ than it was before.",
+     "answer": "tidier",
+     "options": [
+      "tidier",
+      "tidyer",
+      "tidiest",
+      "more tidyest"
+     ]
+    }
+   ],
+   "grammarId": "comparatives",
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "comparatives",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "This pocket is bigger than that pocket.",
+      "tr": "Bu cep, o cepten daha büyük."
+     }
+    ]
+   },
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Choose a team leader",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Compare two imaginary students using patient, organised and helpful.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Character",
+   "topicIndex": 3
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -947,12 +1119,450 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Character",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Describing a person",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "tidy",
+     "tr": "tertipli",
+     "img": "/content/g6/shared/img/8680.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8680",
+     "imageFit": "contain",
+     "imageConcept": "tidy up"
+    },
+    {
+     "en": "serious",
+     "tr": "ciddi",
+     "img": "/content/g6/shared/img/8690.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/8690",
+     "imageFit": "contain",
+     "imageConcept": "serious"
+    },
+    {
+     "en": "rude",
+     "tr": "kaba",
+     "img": "/content/g6/shared/img/26611.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/26611",
+     "imageFit": "contain",
+     "imageConcept": "insult"
+    },
+    {
+     "en": "lazy",
+     "tr": "tembel",
+     "img": "/content/g6/shared/img/8245.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8245",
+     "imageFit": "contain",
+     "imageConcept": "lazy"
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "tidy",
+     "options": [
+      "tidy",
+      "serious",
+      "rude",
+      "lazy"
+     ],
+     "tr": "tertipli",
+     "img": "/content/g6/shared/img/8680.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8680",
+     "imageFit": "contain",
+     "imageConcept": "tidy up"
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "vocab",
+   "title": "Describing a person",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "weak",
+     "tr": "güçsüz",
+     "img": "/content/g6/shared/img/4620.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/4620",
+     "imageFit": "contain",
+     "imageConcept": "weak"
+    },
+    {
+     "en": "lovely",
+     "tr": "hoş",
+     "img": "/content/g6/shared/img/4660.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/4660",
+     "imageFit": "contain",
+     "imageConcept": "beautiful"
+    },
+    {
+     "en": "brilliant",
+     "tr": "harika",
+     "img": "/content/g6/shared/img/2285.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2285",
+     "imageFit": "contain",
+     "imageCue": "A very good idea",
+     "pictureQuiz": false,
+     "imageConcept": "brilliant"
+    },
+    {
+     "en": "look",
+     "tr": "görünüş",
+     "img": "/content/g6/shared/img/2474.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2474",
+     "imageFit": "contain",
+     "imageConcept": "look"
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "weak",
+     "options": [
+      "weak",
+      "lovely",
+      "brilliant",
+      "look"
+     ],
+     "tr": "güçsüz",
+     "img": "/content/g6/shared/img/4620.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/4620",
+     "imageFit": "contain",
+     "imageConcept": "weak"
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "tidy",
+      "tr": "tertipli",
+      "img": "/content/g6/shared/img/8680.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8680",
+      "imageFit": "contain",
+      "imageConcept": "tidy up",
+      "audio": "/app/audio/words/tidy.wav"
+     },
+     {
+      "en": "serious",
+      "tr": "ciddi",
+      "img": "/content/g6/shared/img/8690.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/8690",
+      "imageFit": "contain",
+      "imageConcept": "serious",
+      "audio": "/app/audio/words/serious.wav"
+     },
+     {
+      "en": "rude",
+      "tr": "kaba",
+      "img": "/content/g6/shared/img/26611.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/26611",
+      "imageFit": "contain",
+      "imageConcept": "insult",
+      "audio": "/app/audio/words/rude.wav"
+     },
+     {
+      "en": "lazy",
+      "tr": "tembel",
+      "img": "/content/g6/shared/img/8245.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8245",
+      "imageFit": "contain",
+      "imageConcept": "lazy",
+      "audio": "/app/audio/words/lazy.wav"
+     }
+    ]
+   },
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "lazy means \"güçsüz\".",
+     "answer": false,
+     "explain": "lazy means \"tembel\"."
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing a group",
+   "rule": "Üç veya daha fazlası arasında: the + sıfat-est / the most + uzun sıfat. Karşılaştırılan grubu belirt.",
+   "grammarId": "superlatives",
+   "examples": [
+    {
+     "en": "This is *the smallest* pocket on the jacket.",
+     "tr": "Bu, ceketin en küçük cebi.",
+     "trEm": [
+      "en küçük"
+     ],
+     "img": "/content/g6/shared/img/6937.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6937",
+     "imageFit": "contain",
+     "imageConcept": "pocket"
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing a group",
+   "rule": "Üç veya daha fazlası arasında: the + sıfat-est / the most + uzun sıfat. Karşılaştırılan grubu belirt.",
+   "grammarId": "superlatives",
+   "examples": [
+    {
+     "en": "That is *the most colourful* bracelet in the box.",
+     "tr": "O, kutudaki en renkli bileklik.",
+     "trEm": [
+      "en renkli"
+     ],
+     "img": "/content/g6/shared/img/2537.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2537",
+     "imageFit": "contain",
+     "imageConcept": "bracelet"
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Of these three bags, the green one is ___.",
+     "answer": "the biggest",
+     "options": [
+      "the biggest",
+      "bigger",
+      "big",
+      "more big"
+     ]
+    }
+   ],
+   "grammarId": "superlatives",
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "This is ___ swimsuit in the shop.",
+     "text": "This is ___ swimsuit in the shop.",
+     "answer": "the most comfortable",
+     "options": [
+      "the most comfortable",
+      "more comfortable",
+      "comfortabler",
+      "comfortable"
+     ]
+    }
+   ],
+   "grammarId": "superlatives",
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "superlatives",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "This is the smallest pocket on the jacket.",
+      "tr": "Bu, ceketin en küçük cebi."
+     }
+    ]
+   },
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Good, better, best",
+   "rule": "good/better/the best; bad/worse/the worst. Bunlara ayrıca more veya -er eklenmez.",
+   "grammarId": "irregular-comparison",
+   "examples": [
+    {
+     "en": "This kit is *better* for swimming.",
+     "tr": "Bu takım yüzmek için daha iyi.",
+     "trEm": [
+      "daha iyi"
+     ],
+     "img": "/content/g6/shared/img/2270.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2270",
+     "imageFit": "contain",
+     "imageConcept": "swimsuit"
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Good, better, best",
+   "rule": "good/better/the best; bad/worse/the worst. Bunlara ayrıca more veya -er eklenmez.",
+   "grammarId": "irregular-comparison",
+   "examples": [
+    {
+     "en": "This is *the worst* pocket for a phone.",
+     "tr": "Bu, telefon için en kötü cep.",
+     "trEm": [
+      "en kötü"
+     ],
+     "img": "/content/g6/shared/img/6937.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6937",
+     "imageFit": "contain",
+     "imageConcept": "pocket"
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Of the three kits, this is ___.",
+     "answer": "the best",
+     "options": [
+      "the best",
+      "better",
+      "gooder",
+      "good"
+     ]
+    }
+   ],
+   "grammarId": "irregular-comparison",
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "My old trainers are ___ than my new ones.",
+     "text": "My old trainers are ___ than my new ones.",
+     "answer": "worse",
+     "options": [
+      "worse",
+      "badder",
+      "worst",
+      "the bad"
+     ]
+    }
+   ],
+   "grammarId": "irregular-comparison",
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "irregular-comparison",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "This kit is better for swimming.",
+      "tr": "Bu takım yüzmek için daha iyi."
+     }
+    ]
+   },
+   "topic": "Describing a person",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Describe and guess",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Describe an imaginary person. Include one comparative and one superlative.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Describing a person",
+   "topicIndex": 4
   },
   {
    "type": "scene",
    "title": "The missing bracelet",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/2621.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/2621",
+   "imageFit": "contain",
+   "imageConcept": "trainers",
    "bubbles": [
     {
      "text": "Three friends are preparing a clothes display. Maya has got a green swimsuit and white trainers. Her cousin Leo has got blue trainers. Leo's trainers are bigger than Maya's. Noor has got a small wallet with two pockets. It is the smallest wallet on the table."
@@ -962,7 +1572,11 @@
   {
    "type": "scene",
    "title": "The missing bracelet",
-   "emoji": "📖",
+   "img": "/content/g6/shared/img/2621.png",
+   "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+   "imageCredit": "https://arasaac.org/pictograms/en/2621",
+   "imageFit": "contain",
+   "imageConcept": "trainers",
    "bubbles": [
     {
      "text": "The friends find a purple bracelet under a chair. Whose bracelet is it? Noor asks everyone politely. It belongs to Maya. Noor is patient and organised: she makes a list of all the clothes before they start the display."
@@ -971,7 +1585,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -982,7 +1596,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -993,7 +1607,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1004,7 +1618,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -1014,126 +1628,57 @@
    ]
   },
   {
-   "type": "mission",
-   "title": "Picture match",
-   "task": {
-    "kind": "dragmatch",
-    "items": [
-     {
-      "en": "back",
-      "tr": "sırt",
-      "img": "/content/g5/u3/presentation/img/p01-15.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/back.wav"
-     },
-     {
-      "en": "leg",
-      "tr": "bacak",
-      "img": "/content/g5/u3/presentation/img/p01-17.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/leg.wav"
-     },
-     {
-      "en": "knee",
-      "tr": "diz",
-      "img": "/content/g5/u3/presentation/img/p01-18.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/knee.wav"
-     },
-     {
-      "en": "necklace",
-      "tr": "kolye",
-      "img": "/content/g5/u3/presentation/img/p03-08.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/necklace.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Maya's trainers are bigger than Leo's.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Listen and find",
-   "task": {
-    "kind": "listenpicture",
-    "items": [
-     {
-      "en": "back",
-      "tr": "sırt",
-      "img": "/content/g5/u3/presentation/img/p01-15.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/back.wav"
-     },
-     {
-      "en": "leg",
-      "tr": "bacak",
-      "img": "/content/g5/u3/presentation/img/p01-17.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/leg.wav"
-     },
-     {
-      "en": "knee",
-      "tr": "diz",
-      "img": "/content/g5/u3/presentation/img/p01-18.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/knee.wav"
-     },
-     {
-      "en": "necklace",
-      "tr": "kolye",
-      "img": "/content/g5/u3/presentation/img/p03-08.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/necklace.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Noor asks politely.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Sentence workshop",
-   "task": {
-    "kind": "dragorder",
-    "sentences": [
-     {
-      "answer": "Lina has got a silver bracelet.",
-      "tr": "Lina'nın gümüş bir bilekliği var."
-     },
-     {
-      "answer": "I haven't got a necklace.",
-      "tr": "Kolyem yok."
-     },
-     {
-      "answer": "It is Maya's bracelet.",
-      "tr": "Bu, Maya'nın bilekliği."
-     },
-     {
-      "answer": "This pocket is bigger than that pocket.",
-      "tr": "Bu cep, o cepten daha büyük."
-     },
-     {
-      "answer": "Lina is more patient than her cousin.",
-      "tr": "Lina kuzeninden daha sabırlı."
-     },
-     {
-      "answer": "This is the smallest pocket on the jacket.",
-      "tr": "Bu, ceketin en küçük cebi."
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Noor makes a list after the display.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Your turn to speak",
-   "task": {
-    "kind": "flash",
-    "q": "Choose three classroom objects. Ask whose they are. Compare two objects, then say which is the biggest or most colourful of the three.",
-    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
-   }
+   "type": "exercise",
+   "title": "One-minute exit ticket",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say two new words and make one sentence about today’s theme.",
+     "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
+    }
+   ]
   },
   {
    "type": "end",
-   "title": "Ready for more practice",
+   "title": "Well done!",
    "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
-   "emoji": "🎯"
+   "emoji": "🙋"
   }
  ]
 }

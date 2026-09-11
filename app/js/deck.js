@@ -122,7 +122,7 @@ export async function startDeck(gid, uid, screen) {
     const node = render(slides[i], ctx);
     wrap.replaceChildren(node);
     ctx.slideNode = node;
-    if (node.querySelector('img[src^="https://static.arasaac.org/"]')) {
+    if (node.querySelector('img[src^="https://static.arasaac.org/"], img[src^="/content/g6/shared/img/"]')) {
       node.append(el("a", { class: "image-credit", href: "https://arasaac.org/terms-of-use", target: "_blank", rel: "noopener", text: "Illustrations: Sergio Palao · ARASAAC / Gobierno de Aragón · CC BY-NC-SA" }));
     }
     if (node.querySelector('img[src*=".wikimedia.org/"]')) {
@@ -466,6 +466,7 @@ function render(s, ctx) {
             }),
             el("div", { class: "en", text: v.en }),
             el("div", { class: "tr", text: v.tr }),
+            v.imageCue ? el("div", { class: "image-cue", text: v.imageCue }) : null,
           ])
         )),
       ]);

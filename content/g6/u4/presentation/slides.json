@@ -4,9 +4,10 @@
  "emoji": "👨‍👩‍👧",
  "authored": true,
  "curriculum": "meb-english-6-2026",
+ "visualStyle": "illustrated",
  "accent": [
-  "#0d9488",
-  "#2563eb"
+  "#fbbf24",
+  "#fb923c"
  ],
  "source": {
   "studentBook": {
@@ -29,489 +30,221 @@
  "slides": [
   {
    "type": "title",
-   "kicker": "THEME 4",
    "title": "Family Life",
    "titleTr": "Aile Hayatı",
    "emoji": "👨‍👩‍👧"
   },
   {
-   "type": "scene",
-   "title": "Our lesson",
-   "emoji": "👨‍👩‍👧",
-   "bubbles": [
-    {
-     "text": "Talk about jobs, homes and family plans."
-    },
-    {
-     "text": "Distinguish arrangements from timetables."
-    }
-   ]
-  },
-  {
    "type": "vocab",
    "title": "Jobs",
+   "part": [
+    1,
+    2
+   ],
    "items": [
     {
      "en": "author",
      "tr": "yazar",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/8565.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8565",
+     "imageFit": "contain",
+     "imageConcept": "author"
     },
     {
      "en": "dentist",
      "tr": "diş hekimi",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/2733.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2733",
+     "imageFit": "contain",
+     "imageConcept": "dentist"
     },
     {
      "en": "engineer",
      "tr": "mühendis",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/2968.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2968",
+     "imageFit": "contain",
+     "imageConcept": "engineer"
     },
     {
      "en": "reporter",
      "tr": "muhabir",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/8664.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8664",
+     "imageFit": "contain",
+     "imageConcept": "journalist"
     }
-   ]
+   ],
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "author",
-       "b": "yazar"
-      },
-      {
-       "a": "dentist",
-       "b": "diş hekimi"
-      },
-      {
-       "a": "engineer",
-       "b": "mühendis"
-      },
-      {
-       "a": "reporter",
-       "b": "muhabir"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "author",
+     "options": [
+      "author",
+      "dentist",
+      "engineer",
+      "reporter"
+     ],
+     "tr": "yazar",
+     "img": "/content/g6/shared/img/8565.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8565",
+     "imageFit": "contain",
+     "imageConcept": "author"
     }
-   ]
+   ],
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "vocab",
    "title": "Jobs",
+   "part": [
+    2,
+    2
+   ],
    "items": [
     {
      "en": "cook",
      "tr": "aşçı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/6985.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6985",
+     "imageFit": "contain",
+     "imageConcept": "cook"
     },
     {
      "en": "pilot",
      "tr": "pilot",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/3370.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3370",
+     "imageFit": "contain",
+     "imageConcept": "pilot"
     },
     {
      "en": "lawyer",
      "tr": "avukat",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/2636.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2636",
+     "imageFit": "contain",
+     "imageConcept": "lawyer"
     },
     {
      "en": "designer",
      "tr": "tasarımcı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
+     "img": "/content/g6/shared/img/37088.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37088",
+     "imageFit": "contain",
+     "imageConcept": "designer"
     }
-   ]
+   ],
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "cook",
-       "b": "aşçı"
-      },
-      {
-       "a": "pilot",
-       "b": "pilot"
-      },
-      {
-       "a": "lawyer",
-       "b": "avukat"
-      },
-      {
-       "a": "designer",
-       "b": "tasarımcı"
-      }
-     ]
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "cook",
+     "options": [
+      "cook",
+      "pilot",
+      "lawyer",
+      "designer"
+     ],
+     "tr": "aşçı",
+     "img": "/content/g6/shared/img/6985.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6985",
+     "imageFit": "contain",
+     "imageConcept": "cook"
     }
-   ]
+   ],
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
-   "type": "vocab",
-   "title": "At work",
-   "items": [
-    {
-     "en": "manager",
-     "tr": "yönetici",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "assistant",
-     "tr": "asistan",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "professor",
-     "tr": "profesör",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "officer",
-     "tr": "memur",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "author",
+      "tr": "yazar",
+      "img": "/content/g6/shared/img/8565.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8565",
+      "imageFit": "contain",
+      "imageConcept": "author",
+      "audio": "/app/audio/words/author.wav"
+     },
+     {
+      "en": "dentist",
+      "tr": "diş hekimi",
+      "img": "/content/g6/shared/img/2733.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2733",
+      "imageFit": "contain",
+      "imageConcept": "dentist",
+      "audio": "/app/audio/words/dentist.wav"
+     },
+     {
+      "en": "engineer",
+      "tr": "mühendis",
+      "img": "/content/g6/shared/img/2968.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2968",
+      "imageFit": "contain",
+      "imageConcept": "engineer",
+      "audio": "/app/audio/words/engineer.wav"
+     },
+     {
+      "en": "reporter",
+      "tr": "muhabir",
+      "img": "/content/g6/shared/img/8664.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8664",
+      "imageFit": "contain",
+      "imageConcept": "journalist",
+      "audio": "/app/audio/words/reporter.wav"
+     }
+    ]
+   },
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Word check",
+   "title": "True or false?",
    "tasks": [
     {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "manager",
-       "b": "yönetici"
-      },
-      {
-       "a": "assistant",
-       "b": "asistan"
-      },
-      {
-       "a": "professor",
-       "b": "profesör"
-      },
-      {
-       "a": "officer",
-       "b": "memur"
-      }
-     ]
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "reporter means \"aşçı\".",
+     "answer": false,
+     "explain": "reporter means \"muhabir\"."
     }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "At work",
-   "items": [
-    {
-     "en": "company",
-     "tr": "şirket",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "factory",
-     "tr": "fabrika",
-     "img": "/content/g6/shared/img/8581.png",
-     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-     "imageCredit": "https://arasaac.org/pictograms/en/8581",
-     "imageFit": "contain"
-    },
-    {
-     "en": "employee",
-     "tr": "çalışan",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "employer",
-     "tr": "işveren",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "company",
-       "b": "şirket"
-      },
-      {
-       "a": "factory",
-       "b": "fabrika"
-      },
-      {
-       "a": "employee",
-       "b": "çalışan"
-      },
-      {
-       "a": "employer",
-       "b": "işveren"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Homes",
-   "items": [
-    {
-     "en": "apartment",
-     "tr": "apartman dairesi",
-     "img": "/content/g5/u5/presentation/img/p02-01.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "address",
-     "tr": "adres",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "entrance",
-     "tr": "giriş",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "roof",
-     "tr": "çatı",
-     "img": "/content/g5/u5/presentation/img/p02-12.png",
-     "imageFit": "contain"
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "apartment",
-       "b": "apartman dairesi"
-      },
-      {
-       "a": "address",
-       "b": "adres"
-      },
-      {
-       "a": "entrance",
-       "b": "giriş"
-      },
-      {
-       "a": "roof",
-       "b": "çatı"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Homes",
-   "items": [
-    {
-     "en": "upstairs",
-     "tr": "üst katta",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "downstairs",
-     "tr": "alt katta",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "floor",
-     "tr": "kat",
-     "img": "/content/g5/u5/presentation/img/p02-10.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "key",
-     "tr": "anahtar",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "upstairs",
-       "b": "üst katta"
-      },
-      {
-       "a": "downstairs",
-       "b": "alt katta"
-      },
-      {
-       "a": "floor",
-       "b": "kat"
-      },
-      {
-       "a": "key",
-       "b": "anahtar"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Inside a home",
-   "items": [
-    {
-     "en": "bookshelf",
-     "tr": "kitaplık",
-     "img": "/content/g5/u2/presentation/img/p02-19.png",
-     "imageFit": "contain"
-    },
-    {
-     "en": "drawer",
-     "tr": "çekmece",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "curtain",
-     "tr": "perde",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "carpet",
-     "tr": "halı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "bookshelf",
-       "b": "kitaplık"
-      },
-      {
-       "a": "drawer",
-       "b": "çekmece"
-      },
-      {
-       "a": "curtain",
-       "b": "perde"
-      },
-      {
-       "a": "carpet",
-       "b": "halı"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "type": "vocab",
-   "title": "Inside a home",
-   "items": [
-    {
-     "en": "blanket",
-     "tr": "battaniye",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "pillow",
-     "tr": "yastık",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "refrigerator",
-     "tr": "buzdolabı",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    },
-    {
-     "en": "sink",
-     "tr": "lavabo",
-     "textOnly": true,
-     "imageNote": "Text card: no verified local picture for this meaning."
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Word check",
-   "tasks": [
-    {
-     "kind": "match",
-     "q": "Match the words and meanings.",
-     "pairs": [
-      {
-       "a": "blanket",
-       "b": "battaniye"
-      },
-      {
-       "a": "pillow",
-       "b": "yastık"
-      },
-      {
-       "a": "refrigerator",
-       "b": "buzdolabı"
-      },
-      {
-       "a": "sink",
-       "b": "lavabo"
-      }
-     ]
-    }
-   ]
+   ],
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -525,9 +258,15 @@
      "trEm": [
       "ziyaret ediyoruz"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/37088.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37088",
+     "imageFit": "contain",
+     "imageConcept": "designer"
     }
-   ]
+   ],
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "grammar",
@@ -541,17 +280,23 @@
      "trEm": [
       "taşınıyor"
      ],
-     "textOnly": true
+     "img": "/content/g5/u5/presentation/img/p02-01.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "apartment"
     }
-   ]
+   ],
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "Our visit is arranged. We ___ the author tomorrow.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Our visit is arranged. We ___ the author tomorrow.",
      "answer": "are meeting",
      "options": [
       "are meeting",
@@ -561,15 +306,18 @@
      ]
     }
    ],
-   "grammarId": "arrangements"
+   "grammarId": "arrangements",
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "Mum's appointment is booked. She ___ the dentist on Friday.",
+     "text": "Mum's appointment is booked. She ___ the dentist on Friday.",
      "answer": "is seeing",
      "options": [
       "is seeing",
@@ -579,76 +327,259 @@
      ]
     }
    ],
-   "grammarId": "arrangements"
+   "grammarId": "arrangements",
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
-   "type": "grammar",
-   "title": "Timetables",
-   "rule": "Resmî program veya tarifede gelecek olaylar için geniş zaman kullanılır: The train leaves at ...",
-   "grammarId": "future-timetables",
-   "examples": [
-    {
-     "en": "The workshop *starts* at eleven tomorrow.",
-     "tr": "Atölye yarın saat on birde başlıyor.",
-     "trEm": [
-      "başlıyor"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Timetables",
-   "rule": "Resmî program veya tarifede gelecek olaylar için geniş zaman kullanılır: The train leaves at ...",
-   "grammarId": "future-timetables",
-   "examples": [
-    {
-     "en": "The next train *leaves* at 08:20.",
-     "tr": "Sonraki tren 08.20'de kalkıyor.",
-     "trEm": [
-      "kalkıyor"
-     ],
-     "textOnly": true,
-     "time": "08:20"
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "arrangements",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We are visiting a designer tomorrow.",
+      "tr": "Yarın bir tasarımcıyı ziyaret ediyoruz."
+     }
+    ]
+   },
+   "topic": "Jobs",
+   "topicIndex": 1
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "A family visit",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "According to the timetable, the flight ___ at 7 tomorrow.",
-     "answer": "leaves",
-     "options": [
-      "leaves",
-      "leave",
-      "leaving",
-      "left"
-     ]
+     "kind": "flash",
+     "q": "Choose a job. Tell your partner who you are visiting and when the visit is arranged.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "future-timetables"
+   "topic": "Jobs",
+   "topicIndex": 1
+  },
+  {
+   "type": "vocab",
+   "title": "At work",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "manager",
+     "tr": "yönetici",
+     "img": "/content/g6/shared/img/16041.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/16041",
+     "imageFit": "contain",
+     "imageConcept": "manager"
+    },
+    {
+     "en": "assistant",
+     "tr": "asistan",
+     "img": "/content/g6/shared/img/4742.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/4742",
+     "imageFit": "contain",
+     "imageCue": "Helps someone at work",
+     "pictureQuiz": false,
+     "imageConcept": "assistant"
+    },
+    {
+     "en": "professor",
+     "tr": "profesör",
+     "img": "/content/g6/shared/img/2457.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2457",
+     "imageFit": "contain",
+     "imageConcept": "professor"
+    },
+    {
+     "en": "officer",
+     "tr": "memur",
+     "img": "/content/g6/shared/img/2824.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2824",
+     "imageFit": "contain",
+     "imageConcept": "police officer"
+    }
+   ],
+   "topic": "At work",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Picture challenge",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "The office tour ___ at noon next Monday, according to the programme.",
-     "answer": "begins",
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "manager",
      "options": [
-      "begins",
-      "begin",
-      "beginning",
-      "began"
-     ]
+      "manager",
+      "assistant",
+      "professor",
+      "officer"
+     ],
+     "tr": "yönetici",
+     "img": "/content/g6/shared/img/16041.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/16041",
+     "imageFit": "contain",
+     "imageConcept": "manager"
     }
    ],
-   "grammarId": "future-timetables"
+   "topic": "At work",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "At work",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "company",
+     "tr": "şirket",
+     "img": "/content/g6/shared/img/36089.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/36089",
+     "imageFit": "contain",
+     "imageCue": "A business",
+     "pictureQuiz": false,
+     "imageConcept": "company"
+    },
+    {
+     "en": "factory",
+     "tr": "fabrika",
+     "img": "/content/g6/shared/img/8581.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/8581",
+     "imageFit": "contain",
+     "imageConcept": "factory"
+    },
+    {
+     "en": "employee",
+     "tr": "çalışan",
+     "img": "/content/g6/shared/img/7795.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7795",
+     "imageFit": "contain",
+     "imageCue": "Works for an employer",
+     "pictureQuiz": false,
+     "imageConcept": "worker"
+    },
+    {
+     "en": "employer",
+     "tr": "işveren",
+     "img": "/content/g6/shared/img/22755.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/22755",
+     "imageFit": "contain",
+     "imageCue": "Gives people a job",
+     "pictureQuiz": false,
+     "imageConcept": "director"
+    }
+   ],
+   "topic": "At work",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "factory",
+     "options": [
+      "company",
+      "factory",
+      "employee",
+      "employer"
+     ],
+     "tr": "fabrika",
+     "img": "/content/g6/shared/img/8581.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/8581",
+     "imageFit": "contain",
+     "imageConcept": "factory"
+    }
+   ],
+   "topic": "At work",
+   "topicIndex": 2
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "manager",
+      "tr": "yönetici",
+      "img": "/content/g6/shared/img/16041.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/16041",
+      "imageFit": "contain",
+      "imageConcept": "manager",
+      "audio": "/app/audio/words/manager.wav"
+     },
+     {
+      "en": "professor",
+      "tr": "profesör",
+      "img": "/content/g6/shared/img/2457.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2457",
+      "imageFit": "contain",
+      "imageConcept": "professor",
+      "audio": "/app/audio/words/professor.wav"
+     },
+     {
+      "en": "officer",
+      "tr": "memur",
+      "img": "/content/g6/shared/img/2824.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2824",
+      "imageFit": "contain",
+      "imageConcept": "police officer",
+      "audio": "/app/audio/words/officer.wav"
+     },
+     {
+      "en": "factory",
+      "tr": "fabrika",
+      "img": "/content/g6/shared/img/8581.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/8581",
+      "imageFit": "contain",
+      "imageConcept": "factory",
+      "audio": "/app/audio/words/factory.wav"
+     }
+    ]
+   },
+   "topic": "At work",
+   "topicIndex": 2
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "officer means \"şirket\".",
+     "answer": false,
+     "explain": "officer means \"memur\"."
+    }
+   ],
+   "topic": "At work",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -662,9 +593,15 @@
      "trEm": [
       "When"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/30231.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/30231",
+     "imageFit": "contain",
+     "imageConcept": "address"
     }
-   ]
+   ],
+   "topic": "At work",
+   "topicIndex": 2
   },
   {
    "type": "grammar",
@@ -678,17 +615,25 @@
      "trEm": [
       "While"
      ],
-     "textOnly": true
+     "img": "/content/g6/shared/img/7141.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/7141",
+     "imageFit": "contain",
+     "imageCue": "Read without speaking",
+     "imageConcept": "read"
     }
-   ]
+   ],
+   "topic": "At work",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ the cook is preparing lunch, the reporter is writing.",
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ the cook is preparing lunch, the reporter is writing.",
      "answer": "While",
      "options": [
       "While",
@@ -698,15 +643,18 @@
      ]
     }
    ],
-   "grammarId": "when-while"
+   "grammarId": "when-while",
+   "topic": "At work",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Language practice",
    "tasks": [
     {
      "kind": "choose",
      "q": "I will call you when I ___ at the apartment.",
+     "text": "I will call you when I ___ at the apartment.",
      "answer": "arrive",
      "options": [
       "arrive",
@@ -716,165 +664,43 @@
      ]
     }
    ],
-   "grammarId": "when-while"
+   "grammarId": "when-while",
+   "topic": "At work",
+   "topicIndex": 2
   },
   {
-   "type": "grammar",
-   "title": "Choosing between things",
-   "rule": "Which sınırlı seçenekler arasından hangisini sorduğumuzu gösterir. Which + isim + soru yapısı.",
-   "grammarId": "which",
-   "examples": [
-    {
-     "en": "*Which* apartment is your uncle's, the first or the second?",
-     "tr": "Birinci mi ikinci mi, hangi daire amcanın?",
-     "trEm": [
-      "hangi"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Choosing between things",
-   "rule": "Which sınırlı seçenekler arasından hangisini sorduğumuzu gösterir. Which + isim + soru yapısı.",
-   "grammarId": "which",
-   "examples": [
-    {
-     "en": "*Which* job do you like, reporter or designer?",
-     "tr": "Muhabirlik mi tasarımcılık mı, hangi işi seviyorsun?",
-     "trEm": [
-      "hangi"
-     ],
-     "textOnly": true
-    }
-   ]
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "when-while",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "I check the address when I leave home.",
+      "tr": "Evden çıktığımda adresi kontrol ederim. (When: -dığında)"
+     }
+    ]
+   },
+   "topic": "At work",
+   "topicIndex": 2
   },
   {
    "type": "exercise",
-   "title": "Language check",
+   "title": "Two things at once",
    "tasks": [
     {
-     "kind": "choose",
-     "q": "___ floor is your home on, the first or the second?",
-     "answer": "Which",
-     "options": [
-      "Which",
-      "Whose",
-      "Who",
-      "How often"
-     ]
+     "kind": "flash",
+     "q": "Describe two family members at home. Join their actions with while.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
     }
    ],
-   "grammarId": "which"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "___ key opens this door, the small one or the large one?",
-     "answer": "Which",
-     "options": [
-      "Which",
-      "Who",
-      "When",
-      "How much"
-     ]
-    }
-   ],
-   "grammarId": "which"
-  },
-  {
-   "type": "grammar",
-   "title": "Doing something yourself",
-   "rule": "Özne ve nesne aynı kişiyse: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. By myself: tek başıma.",
-   "grammarId": "reflexive-pronouns",
-   "examples": [
-    {
-     "en": "The author introduces *herself*.",
-     "tr": "Yazar kendini tanıtıyor.",
-     "trEm": [
-      "kendini"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "grammar",
-   "title": "Doing something yourself",
-   "rule": "Özne ve nesne aynı kişiyse: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. By myself: tek başıma.",
-   "grammarId": "reflexive-pronouns",
-   "examples": [
-    {
-     "en": "We make the model house *ourselves*.",
-     "tr": "Maket evi kendimiz yapıyoruz.",
-     "trEm": [
-      "kendimiz"
-     ],
-     "textOnly": true
-    }
-   ]
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "The children draw their dream home ___.",
-     "answer": "themselves",
-     "options": [
-      "themselves",
-      "himself",
-      "ourselves",
-      "herself"
-     ]
-    }
-   ],
-   "grammarId": "reflexive-pronouns"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "I carry my own bag ___.",
-     "answer": "myself",
-     "options": [
-      "myself",
-      "yourself",
-      "himself",
-      "themselves"
-     ]
-    }
-   ],
-   "grammarId": "reflexive-pronouns"
-  },
-  {
-   "type": "exercise",
-   "title": "Language check",
-   "tasks": [
-    {
-     "kind": "choose",
-     "q": "Leo introduces ___ to the designer.",
-     "answer": "himself",
-     "options": [
-      "himself",
-      "herself",
-      "itself",
-      "yourself"
-     ]
-    }
-   ],
-   "grammarId": "reflexive-pronouns"
+   "topic": "At work",
+   "topicIndex": 2
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -890,11 +716,433 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "At work",
+   "topicIndex": 2
+  },
+  {
+   "type": "vocab",
+   "title": "Homes",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "apartment",
+     "tr": "apartman dairesi",
+     "img": "/content/g5/u5/presentation/img/p02-01.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "apartment"
+    },
+    {
+     "en": "address",
+     "tr": "adres",
+     "img": "/content/g6/shared/img/30231.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/30231",
+     "imageFit": "contain",
+     "imageConcept": "address"
+    },
+    {
+     "en": "entrance",
+     "tr": "giriş",
+     "img": "/content/g6/shared/img/37334.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/37334",
+     "imageFit": "contain",
+     "imageConcept": "entrance"
+    },
+    {
+     "en": "roof",
+     "tr": "çatı",
+     "img": "/content/g5/u5/presentation/img/p02-12.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "roof"
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "apartment",
+     "options": [
+      "apartment",
+      "address",
+      "entrance",
+      "roof"
+     ],
+     "tr": "apartman dairesi",
+     "img": "/content/g5/u5/presentation/img/p02-01.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "apartment"
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Homes",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "upstairs",
+     "tr": "üst katta",
+     "img": "/content/g6/shared/img/2795.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2795",
+     "imageFit": "contain",
+     "imageConcept": "go upstairs"
+    },
+    {
+     "en": "downstairs",
+     "tr": "alt katta",
+     "img": "/content/g6/shared/img/2654.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2654",
+     "imageFit": "contain",
+     "imageConcept": "go down the stairs"
+    },
+    {
+     "en": "floor",
+     "tr": "kat",
+     "img": "/content/g6/shared/img/11343.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/11343",
+     "imageFit": "contain",
+     "imageConcept": "floor"
+    },
+    {
+     "en": "key",
+     "tr": "anahtar",
+     "img": "/content/g6/shared/img/8153.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8153",
+     "imageFit": "contain",
+     "imageConcept": "key"
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "upstairs",
+     "options": [
+      "upstairs",
+      "downstairs",
+      "floor",
+      "key"
+     ],
+     "tr": "üst katta",
+     "img": "/content/g6/shared/img/2795.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2795",
+     "imageFit": "contain",
+     "imageConcept": "go upstairs"
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "apartment",
+      "tr": "apartman dairesi",
+      "img": "/content/g5/u5/presentation/img/p02-01.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "apartment",
+      "audio": "/app/audio/words/apartment.wav"
+     },
+     {
+      "en": "address",
+      "tr": "adres",
+      "img": "/content/g6/shared/img/30231.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/30231",
+      "imageFit": "contain",
+      "imageConcept": "address",
+      "audio": "/app/audio/words/address.wav"
+     },
+     {
+      "en": "entrance",
+      "tr": "giriş",
+      "img": "/content/g6/shared/img/37334.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/37334",
+      "imageFit": "contain",
+      "imageConcept": "entrance",
+      "audio": "/app/audio/words/entrance.wav"
+     },
+     {
+      "en": "roof",
+      "tr": "çatı",
+      "img": "/content/g5/u5/presentation/img/p02-12.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "roof",
+      "audio": "/app/audio/words/roof.wav"
+     }
+    ]
+   },
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "roof means \"üst katta\".",
+     "answer": false,
+     "explain": "roof means \"çatı\"."
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Timetables",
+   "rule": "Resmî program veya tarifede gelecek olaylar için geniş zaman kullanılır: The train leaves at ...",
+   "grammarId": "future-timetables",
+   "examples": [
+    {
+     "en": "The workshop *starts* at eleven tomorrow.",
+     "tr": "Atölye yarın saat on birde başlıyor.",
+     "trEm": [
+      "başlıyor"
+     ],
+     "img": "/content/g6/shared/img/6012.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6012",
+     "imageFit": "contain",
+     "imageConcept": "timetable"
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Timetables",
+   "rule": "Resmî program veya tarifede gelecek olaylar için geniş zaman kullanılır: The train leaves at ...",
+   "grammarId": "future-timetables",
+   "examples": [
+    {
+     "en": "The next train *leaves* at 08:20.",
+     "tr": "Sonraki tren 08.20'de kalkıyor.",
+     "trEm": [
+      "kalkıyor"
+     ],
+     "time": "08:20"
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "According to the timetable, the flight ___ at 7 tomorrow.",
+     "answer": "leaves",
+     "options": [
+      "leaves",
+      "leave",
+      "leaving",
+      "left"
+     ]
+    }
+   ],
+   "grammarId": "future-timetables",
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The office tour ___ at noon next Monday, according to the programme.",
+     "text": "The office tour ___ at noon next Monday, according to the programme.",
+     "answer": "begins",
+     "options": [
+      "begins",
+      "begin",
+      "beginning",
+      "began"
+     ]
+    }
+   ],
+   "grammarId": "future-timetables",
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "future-timetables",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "The workshop starts at eleven tomorrow.",
+      "tr": "Atölye yarın saat on birde başlıyor."
+     }
+    ]
+   },
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Choosing between things",
+   "rule": "Which sınırlı seçenekler arasından hangisini sorduğumuzu gösterir. Which + isim + soru yapısı.",
+   "grammarId": "which",
+   "examples": [
+    {
+     "en": "*Which* apartment is your uncle's, the first or the second?",
+     "tr": "Birinci mi ikinci mi, hangi daire amcanın?",
+     "trEm": [
+      "hangi"
+     ],
+     "img": "/content/g5/u5/presentation/img/p02-01.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "apartment"
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "grammar",
+   "title": "Choosing between things",
+   "rule": "Which sınırlı seçenekler arasından hangisini sorduğumuzu gösterir. Which + isim + soru yapısı.",
+   "grammarId": "which",
+   "examples": [
+    {
+     "en": "*Which* job do you like, reporter or designer?",
+     "tr": "Muhabirlik mi tasarımcılık mı, hangi işi seviyorsun?",
+     "trEm": [
+      "hangi"
+     ],
+     "img": "/content/g6/shared/img/8664.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8664",
+     "imageFit": "contain",
+     "imageConcept": "journalist"
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "___ floor is your home on, the first or the second?",
+     "answer": "Which",
+     "options": [
+      "Which",
+      "Whose",
+      "Who",
+      "How often"
+     ]
+    }
+   ],
+   "grammarId": "which",
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ key opens this door, the small one or the large one?",
+     "text": "___ key opens this door, the small one or the large one?",
+     "answer": "Which",
+     "options": [
+      "Which",
+      "Who",
+      "When",
+      "How much"
+     ]
+    }
+   ],
+   "grammarId": "which",
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "which",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Which apartment is your uncle's, the first or the second?",
+      "tr": "Birinci mi ikinci mi, hangi daire amcanın?"
+     }
+    ]
+   },
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "exercise",
+   "title": "Find the right home",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Ask which apartment your partner means. Agree on a time to visit it.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
   },
   {
    "type": "dialogue",
-   "title": "A conversation",
+   "title": "Try the conversation",
    "dialogues": [
     {
      "lines": [
@@ -910,12 +1158,364 @@
       }
      ]
     }
-   ]
+   ],
+   "topic": "Homes",
+   "topicIndex": 3
+  },
+  {
+   "type": "vocab",
+   "title": "Inside a home",
+   "part": [
+    1,
+    2
+   ],
+   "items": [
+    {
+     "en": "bookshelf",
+     "tr": "kitaplık",
+     "img": "/content/g5/u2/presentation/img/p02-19.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "bookshelf"
+    },
+    {
+     "en": "drawer",
+     "tr": "çekmece",
+     "img": "/content/g6/shared/img/6070.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/6070",
+     "imageFit": "contain",
+     "imageConcept": "drawer"
+    },
+    {
+     "en": "curtain",
+     "tr": "perde",
+     "img": "/content/g6/shared/img/8344.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8344",
+     "imageFit": "contain",
+     "imageConcept": "curtain"
+    },
+    {
+     "en": "carpet",
+     "tr": "halı",
+     "img": "/content/g6/shared/img/2249.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2249",
+     "imageFit": "contain",
+     "imageConcept": "carpet"
+    }
+   ],
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "bookshelf",
+     "options": [
+      "bookshelf",
+      "drawer",
+      "curtain",
+      "carpet"
+     ],
+     "tr": "kitaplık",
+     "img": "/content/g5/u2/presentation/img/p02-19.png",
+     "imageFit": "contain",
+     "imageSource": "Existing ENG HUB teaching image",
+     "imageConcept": "bookshelf"
+    }
+   ],
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "vocab",
+   "title": "Inside a home",
+   "part": [
+    2,
+    2
+   ],
+   "items": [
+    {
+     "en": "blanket",
+     "tr": "battaniye",
+     "img": "/content/g6/shared/img/2459.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2459",
+     "imageFit": "contain",
+     "imageConcept": "blanket"
+    },
+    {
+     "en": "pillow",
+     "tr": "yastık",
+     "img": "/content/g6/shared/img/2250.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2250",
+     "imageFit": "contain",
+     "imageConcept": "pillow"
+    },
+    {
+     "en": "refrigerator",
+     "tr": "buzdolabı",
+     "img": "/content/g6/shared/img/3272.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/3272",
+     "imageFit": "contain",
+     "imageConcept": "refrigerator"
+    },
+    {
+     "en": "sink",
+     "tr": "lavabo",
+     "img": "/content/g6/shared/img/2399.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2399",
+     "imageFit": "contain",
+     "imageConcept": "sink"
+    }
+   ],
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Picture challenge",
+   "tasks": [
+    {
+     "kind": "picture",
+     "q": "Which word matches the picture?",
+     "answer": "blanket",
+     "options": [
+      "blanket",
+      "pillow",
+      "refrigerator",
+      "sink"
+     ],
+     "tr": "battaniye",
+     "img": "/content/g6/shared/img/2459.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2459",
+     "imageFit": "contain",
+     "imageConcept": "blanket"
+    }
+   ],
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "bookshelf",
+      "tr": "kitaplık",
+      "img": "/content/g5/u2/presentation/img/p02-19.png",
+      "imageFit": "contain",
+      "imageSource": "Existing ENG HUB teaching image",
+      "imageConcept": "bookshelf",
+      "audio": "/app/audio/words/bookshelf.wav"
+     },
+     {
+      "en": "drawer",
+      "tr": "çekmece",
+      "img": "/content/g6/shared/img/6070.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/6070",
+      "imageFit": "contain",
+      "imageConcept": "drawer",
+      "audio": "/app/audio/words/drawer.wav"
+     },
+     {
+      "en": "curtain",
+      "tr": "perde",
+      "img": "/content/g6/shared/img/8344.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/8344",
+      "imageFit": "contain",
+      "imageConcept": "curtain",
+      "audio": "/app/audio/words/curtain.wav"
+     },
+     {
+      "en": "carpet",
+      "tr": "halı",
+      "img": "/content/g6/shared/img/2249.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+      "imageCredit": "https://arasaac.org/pictograms/en/2249",
+      "imageFit": "contain",
+      "imageConcept": "carpet",
+      "audio": "/app/audio/words/carpet.wav"
+     }
+    ]
+   },
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "True or false?",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Discuss, then choose.",
+     "statement": "carpet means \"battaniye\".",
+     "answer": false,
+     "explain": "carpet means \"halı\"."
+    }
+   ],
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Doing something yourself",
+   "rule": "Özne ve nesne aynı kişiyse: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. By myself: tek başıma.",
+   "grammarId": "reflexive-pronouns",
+   "examples": [
+    {
+     "en": "The author introduces *herself*.",
+     "tr": "Yazar kendini tanıtıyor.",
+     "trEm": [
+      "kendini"
+     ],
+     "img": "/content/g6/shared/img/8565.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/8565",
+     "imageFit": "contain",
+     "imageConcept": "author"
+    }
+   ],
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "grammar",
+   "title": "Doing something yourself",
+   "rule": "Özne ve nesne aynı kişiyse: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. By myself: tek başıma.",
+   "grammarId": "reflexive-pronouns",
+   "examples": [
+    {
+     "en": "We make the model house *ourselves*.",
+     "tr": "Maket evi kendimiz yapıyoruz.",
+     "trEm": [
+      "kendimiz"
+     ],
+     "img": "/content/g6/shared/img/2317.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
+     "imageCredit": "https://arasaac.org/pictograms/en/2317",
+     "imageFit": "contain",
+     "imageCue": "A very small home",
+     "imageConcept": "house"
+    }
+   ],
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "The children draw their dream home ___.",
+     "answer": "themselves",
+     "options": [
+      "themselves",
+      "himself",
+      "ourselves",
+      "herself"
+     ]
+    }
+   ],
+   "grammarId": "reflexive-pronouns",
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "I carry my own bag ___.",
+     "text": "I carry my own bag ___.",
+     "answer": "myself",
+     "options": [
+      "myself",
+      "yourself",
+      "himself",
+      "themselves"
+     ]
+    }
+   ],
+   "grammarId": "reflexive-pronouns",
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "Language practice",
+   "tasks": [
+    {
+     "kind": "fill",
+     "q": "Complete the sentence.",
+     "text": "Leo introduces ___ to the designer.",
+     "answer": "himself",
+     "options": [
+      "himself",
+      "herself",
+      "itself",
+      "yourself"
+     ]
+    }
+   ],
+   "grammarId": "reflexive-pronouns",
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "grammarId": "reflexive-pronouns",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "The author introduces herself.",
+      "tr": "Yazar kendini tanıtıyor."
+     }
+    ]
+   },
+   "topic": "Inside a home",
+   "topicIndex": 4
+  },
+  {
+   "type": "exercise",
+   "title": "We did it ourselves",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Plan a model room. Say what each person makes without help.",
+     "clue": "Work with a partner. Take turns.",
+     "answer": "Answers vary. Use the language in this section, listen to your partner, then swap roles."
+    }
+   ],
+   "topic": "Inside a home",
+   "topicIndex": 4
   },
   {
    "type": "scene",
    "title": "A visit and a new home",
-   "emoji": "📖",
+   "img": "/content/g5/u5/presentation/img/p02-01.png",
+   "imageFit": "contain",
+   "imageSource": "Existing ENG HUB teaching image",
+   "imageConcept": "apartment",
    "bubbles": [
     {
      "text": "Lina's aunt is a designer. She works for a small company near the station. On Saturday, Lina and her father are visiting her office. Their train leaves at 09:40, and the office tour starts at eleven. After the tour, they are helping Lina's uncle at his new apartment."
@@ -925,7 +1525,10 @@
   {
    "type": "scene",
    "title": "A visit and a new home",
-   "emoji": "📖",
+   "img": "/content/g5/u5/presentation/img/p02-01.png",
+   "imageFit": "contain",
+   "imageSource": "Existing ENG HUB teaching image",
+   "imageConcept": "apartment",
    "bubbles": [
     {
      "text": "It is on the second floor. The entrance is next to a bakery. Lina is making a label for his key herself. While her father carries a bookshelf, her uncle checks the address on a box."
@@ -934,7 +1537,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -945,7 +1548,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -956,7 +1559,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -967,7 +1570,7 @@
   },
   {
    "type": "exercise",
-   "title": "Reading check",
+   "title": "Read and remember",
    "tasks": [
     {
      "kind": "flash",
@@ -977,130 +1580,57 @@
    ]
   },
   {
-   "type": "mission",
-   "title": "Picture match",
-   "task": {
-    "kind": "dragmatch",
-    "items": [
-     {
-      "en": "factory",
-      "tr": "fabrika",
-      "img": "/content/g6/shared/img/8581.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/8581",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/factory.wav"
-     },
-     {
-      "en": "apartment",
-      "tr": "apartman dairesi",
-      "img": "/content/g5/u5/presentation/img/p02-01.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/apartment.wav"
-     },
-     {
-      "en": "roof",
-      "tr": "çatı",
-      "img": "/content/g5/u5/presentation/img/p02-12.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/roof.wav"
-     },
-     {
-      "en": "floor",
-      "tr": "kat",
-      "img": "/content/g5/u5/presentation/img/p02-10.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/floor.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "The office tour starts at eleven.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Listen and find",
-   "task": {
-    "kind": "listenpicture",
-    "items": [
-     {
-      "en": "factory",
-      "tr": "fabrika",
-      "img": "/content/g6/shared/img/8581.png",
-      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
-      "imageCredit": "https://arasaac.org/pictograms/en/8581",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/factory.wav"
-     },
-     {
-      "en": "apartment",
-      "tr": "apartman dairesi",
-      "img": "/content/g5/u5/presentation/img/p02-01.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/apartment.wav"
-     },
-     {
-      "en": "roof",
-      "tr": "çatı",
-      "img": "/content/g5/u5/presentation/img/p02-12.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/roof.wav"
-     },
-     {
-      "en": "floor",
-      "tr": "kat",
-      "img": "/content/g5/u5/presentation/img/p02-10.png",
-      "imageFit": "contain",
-      "audio": "/app/audio/words/floor.wav"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "The apartment is next to a hospital.",
+     "answer": false
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Sentence workshop",
-   "task": {
-    "kind": "dragorder",
-    "sentences": [
-     {
-      "answer": "We are visiting a designer tomorrow.",
-      "tr": "Yarın bir tasarımcıyı ziyaret ediyoruz."
-     },
-     {
-      "answer": "My aunt is moving next Saturday.",
-      "tr": "Teyzem gelecek cumartesi taşınıyor."
-     },
-     {
-      "answer": "The workshop starts at eleven tomorrow.",
-      "tr": "Atölye yarın saat on birde başlıyor."
-     },
-     {
-      "answer": "The next train leaves at 08:20.",
-      "tr": "Sonraki tren 08.20'de kalkıyor."
-     },
-     {
-      "answer": "I check the address when I leave home.",
-      "tr": "Evden çıktığımda adresi kontrol ederim. (When: -dığında)"
-     },
-     {
-      "answer": "Dad reads while Mum draws.",
-      "tr": "Annem çizim yaparken babam okur. (While: -ken)"
-     }
-    ]
-   }
+   "type": "exercise",
+   "title": "Check the story",
+   "tasks": [
+    {
+     "kind": "truefalse",
+     "q": "Does this match the story?",
+     "statement": "Lina's father carries a bookshelf.",
+     "answer": true
+    }
+   ]
   },
   {
-   "type": "mission",
-   "title": "Your turn to speak",
-   "task": {
-    "kind": "flash",
-    "q": "Plan a family visit to a workplace. Agree on an appointment and use a timetable. Ask which place to visit. Explain what each person can do themselves.",
-    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
-   }
+   "type": "exercise",
+   "title": "One-minute exit ticket",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Say two new words and make one sentence about today’s theme.",
+     "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
+    }
+   ]
   },
   {
    "type": "end",
-   "title": "Ready for more practice",
+   "title": "Well done!",
    "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
-   "emoji": "🎯"
+   "emoji": "👨‍👩‍👧"
   }
  ]
 }

@@ -92,6 +92,9 @@ def existing_pictures():
     for key, value in aliases.items():
         if value in pictures and key not in pictures:
             pictures[key] = pictures[value]
+    reviewed = ROOT / "tools/grade6-image-choices.json"
+    if reviewed.exists():
+        pictures.update(json.loads(reviewed.read_text(encoding="utf-8")))
     return pictures
 
 
@@ -109,7 +112,7 @@ def vocab(unit, pictures):
             elif word["en"].lower() in pictures:
                 word.update(pictures[word["en"].lower()])
             else:
-                word.update(textOnly=True, imageNote="Text card: no verified local picture for this meaning.")
+                raise ValueError("Missing reviewed illustration: " + word["en"])
             result.append(word)
     return result
 
@@ -159,65 +162,10 @@ def exercise(title, task, **extra):
 
 
 def make_deck(unit, items):
-    n = unit["id"].removeprefix("u")
-    slides = [dict(type="title", kicker="REVISION 1 & 2" if n == "revision" else "THEME " + n,
-                   title=unit["title"], titleTr=unit["titleTr"], emoji=unit["emoji"]),
-              dict(type="scene", title="Our lesson", emoji=unit["emoji"],
-                   bubbles=[{"text": goal} for goal in unit["goals"]])]
-    offset = 0
-    for group in unit["groups"]:
-        for start in range(0, len(group["items"]), 4):
-            block = items[offset + start:offset + start + 4]
-            slides.append(dict(type="vocab", title=group["title"], items=block))
-            slides.append(exercise("Word check", dict(kind="match", q="Match the words and meanings.",
-                                   pairs=[{"a": w["en"], "b": w["tr"]} for w in block])))
-        offset += len(group["items"])
-    for g in unit["grammar"]:
-        for en, tr in g["examples"]:
-            example = dict(en=en, tr=plain(tr), trEm=STAR.findall(tr), textOnly=True)
-            clock = re.search(r"\b([0-2]\d:[0-5]\d)\b", en)
-            if clock:
-                example["time"] = clock[1]
-            slides.append(dict(type="grammar", title=g["title"], rule=g["rule"], grammarId=g["id"], examples=[example]))
-        for row in g["checks"]:
-            q = check_question(row, g["id"])
-            slides.append(exercise("Language check", dict(kind="choose", q=q["q"],
-                                   answer=q["answer"], options=q["options"]), grammarId=g["id"]))
-    for start in (0, 2):
-        slides.append(dict(type="dialogue", title="A conversation", dialogues=[dict(lines=[
-            dict(who=who, text=text, tr=tr) for who, text, tr in unit["dialogue"][start:start + 2]])]))
-    sentences = re.split(r"(?<=[.!?])\s+", unit["story"])
-    half = (len(sentences) + 1) // 2
-    for start in (0, half):
-        slides.append(dict(type="scene", title=unit["storyTitle"], emoji="📖",
-                           bubbles=[dict(text=" ".join(sentences[start:start + half]))]))
-    for q, answer in unit["reading"]:
-        slides.append(exercise("Reading check", dict(kind="flash", q=q, answer=answer)))
-    # The established lesson format uses four large unit missions.
-    # Text and identical visual choices are excluded from picture questions.
-    selected, seen = [], set()
-    for word in items:
-        if not word.get("img") or word["img"] in seen:
-            continue
-        seen.add(word["img"])
-        selected.append({**word, "audio": "/app/audio/words/" + slug(word["en"]) + ".wav"})
-        if len(selected) == 4:
-            break
-    assert len(selected) == 4, f"Four verified local pictures required: {unit['id']}"
-    for kind, title in (("dragmatch", "Picture match"), ("listenpicture", "Listen and find")):
-        slides.append(dict(type="mission", title=title, task=dict(kind=kind, items=selected)))
-    order = []
-    for g in unit["grammar"]:
-        for en, tr in g["examples"]:
-            en, tr = plain(en), plain(tr)
-            if 4 <= len(en.split()) <= 11 and not en.endswith("?"):
-                order.append(dict(answer=en, tr=tr))
-    slides.append(dict(type="mission", title="Sentence workshop", task=dict(kind="dragorder", sentences=order[:6])))
-    slides.append(dict(type="mission", title="Your turn to speak", task=dict(kind="flash", q=unit["speaking"],
-                       answer="Use the lesson examples to help. Check the target structures, then swap roles.")))
-    slides.append(dict(type="end", title="Ready for more practice", titleTr="Oyunlar ve özgün çalışma kâğıtları", emoji="🎯"))
+    from grade6_pacing import illustrated_slides, ACCENTS
     return dict(title=unit["title"], titleTr=unit["titleTr"], emoji=unit["emoji"], authored=True,
-                curriculum=EDITION, accent=["#0d9488", "#2563eb"], source=source_ref(unit), pages=[], slides=slides)
+                curriculum=EDITION, visualStyle="illustrated", accent=ACCENTS[unit["id"]],
+                source=source_ref(unit), pages=[], slides=illustrated_slides(unit, items))
 
 
 def source_ref(unit):
@@ -360,6 +308,7 @@ def make_pdfs(unit, folder):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--books", type=Path)
+    ap.add_argument("--slides-only", action="store_true", help="Preserve worksheets, banks and catalog; update lessons and alignment only.")
     args = ap.parse_args()
     pictures = existing_pictures()
     sources = []
@@ -381,13 +330,14 @@ def main():
         bank = make_bank(unit, items)
         deck = make_deck(unit, items)
         save(base / "presentation/slides.json", deck)
-        save(base / "games/bank.json", bank)
-        ws = base / "worksheets"
-        ws.mkdir(parents=True, exist_ok=True)
-        manifests = make_pdfs(unit, ws)
-        save(ws / "manifest.json", {"items": manifests})
-        # Retired old-curriculum site copies are not current-theme games.
-        save(base / "sites/manifest.json", {"items": [], "curriculum": EDITION})
+        if not args.slides_only:
+            save(base / "games/bank.json", bank)
+            ws = base / "worksheets"
+            ws.mkdir(parents=True, exist_ok=True)
+            manifests = make_pdfs(unit, ws)
+            save(ws / "manifest.json", {"items": manifests})
+            # Retired old-curriculum site copies are not current-theme games.
+            save(base / "sites/manifest.json", {"items": [], "curriculum": EDITION})
         qcount = sum(len(s["questions"]) for s in bank["sets"])
         entry = next(u for u in grade["units"] if u["id"] == unit["id"])
         entry["has"].update(presentation=True, games=True, worksheets=True)
@@ -399,7 +349,8 @@ def main():
             questions=qcount, worksheets=2, answerKeys=1,
             textCards=[w["en"] for w in items if w.get("textOnly")]))
         print(f"{unit['id']}: {len(deck['slides'])} slides, {len(items)} words, {qcount} questions; 2 worksheets + key")
-    save(catalog_path, catalog)
+    if not args.slides_only:
+        save(catalog_path, catalog)
     save(OUT / "curriculum.json", alignment)
 
 
