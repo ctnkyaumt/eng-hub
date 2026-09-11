@@ -24,12 +24,12 @@ const GRADE_SUB = {
 const routes = [
   [/^\/?$/, home],
   [/^\/(g\d)$/, gradeScreen],
-  [/^\/(g\d)\/(u\d+)$/, unitScreen],
-  [/^\/(g\d)\/(u\d+)\/sunum$/, presentationScreen],
-  [/^\/(g\d)\/(u\d+)\/oyunlar$/, gamesScreen],
-  [/^\/(g\d)\/(u\d+)\/oyunlar\/([a-z-]+)$/, playScreen],
-  [/^\/(g\d)\/(u\d+)\/calisma$/, worksheetsScreen],
-  [/^\/(g\d)\/(u\d+)\/kitap$/, booksScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)$/, unitScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/sunum$/, presentationScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/oyunlar$/, gamesScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/oyunlar\/([a-z0-9_-]+)$/, playScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/calisma$/, worksheetsScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/kitap$/, booksScreen],
 ];
 
 async function render() {

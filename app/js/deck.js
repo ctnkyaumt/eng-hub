@@ -21,7 +21,7 @@ export async function startDeck(gid, uid, screen) {
   setCrumbs([
     { label: "Ana Menü", hash: "#/" },
     { label: grade.title, hash: `#/${gid}` },
-    { label: `Ünite ${unit.no}`, hash: `#/${gid}/${uid}` },
+    { label: unit.no ? `Ünite ${unit.no}` : (unit.label || "Revizyon"), hash: `#/${gid}/${uid}` },
     { label: "Sunum" },
   ]);
 
@@ -82,7 +82,7 @@ export async function startDeck(gid, uid, screen) {
       el("span", { style: "font-size:20px", text: data.emoji || unit.emoji || "📘" }),
       el("div", {}, [
         el("div", { class: "title", text: data.title || unit.title }),
-        el("div", { class: "sub", text: `${grade.title} · Ünite ${unit.no}` }),
+        el("div", { class: "sub", text: `${grade.title} · ${unit.no ? "Ünite " + unit.no : (unit.label || "Revizyon")}` }),
       ]),
       el("span", { class: "grow" }),
       count,
@@ -436,7 +436,7 @@ function render(s, ctx) {
         el("div", { class: "title-layout" }, [
           titleVisual(s, ctx),
           el("div", { class: "title-copy" }, [
-            el("div", { class: "theme-no", text: s.kicker || `THEME ${ctx.unit.no}` }),
+            el("div", { class: "theme-no", text: s.kicker || (ctx.unit.no ? `THEME ${ctx.unit.no}` : (ctx.unit.label || "REVISION").toLocaleUpperCase("tr")) }),
             el("h1", { text: s.title }),
             el("p", { class: "sub-tr", style: "font-size:clamp(16px,2.4vw,24px)", text: s.titleTr || "" }),
           ]),
