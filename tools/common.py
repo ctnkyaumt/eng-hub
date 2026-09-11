@@ -131,9 +131,12 @@ def source_units(grades_json):
             continue
         units = {}
         for u in g.get("units", []):
-            um = re.match(r"^(\d+)\.\s*(?:ÜNİTE|TEMA)$", u.get("title", "").strip())
+            title = u.get("title", "").strip()
+            um = re.match(r"^(\d+)\.\s*(?:ÜNİTE|TEMA)$", title)
             if um:
                 units[int(um.group(1))] = u
+            elif title.lower() == "revision":
+                units["revision"] = u
         out[no] = units
     return out
 

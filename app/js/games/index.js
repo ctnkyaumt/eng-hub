@@ -83,10 +83,11 @@ async function buildBank(gid, uid) {
 }
 
 function crumbs(grade, unit, gid, uid, last) {
+  const unitLabel = unit.no ? `${unit.label || "Ünite"} ${unit.no}` : (unit.label || "Revizyon");
   setCrumbs([
     { label: "Ana Menü", hash: "#/" },
     { label: grade.title, hash: `#/${gid}` },
-    { label: `${unit.label || "Ünite"} ${unit.no}`, hash: `#/${gid}/${uid}` },
+    { label: unitLabel, hash: `#/${gid}/${uid}` },
     last ? { label: "Oyunlar", hash: `#/${gid}/${uid}/oyunlar` } : { label: "Oyunlar" },
     last ? { label: last } : null,
   ].filter(Boolean));
@@ -94,11 +95,12 @@ function crumbs(grade, unit, gid, uid, last) {
 
 export async function gamePicker(gid, uid, screen) {
   const { grade, unit } = await getUnit(gid, uid);
+  const unitLabel = unit.no ? `${unit.label || "Ünite"} ${unit.no}` : (unit.label || "Revizyon");
   const bank = await buildBank(gid, uid);
   crumbs(grade, unit, gid, uid);
 
   const hero = el("div", { class: "hero" }, [
-    el("span", { class: "kicker", text: `${grade.title} · ${unit.label || "Ünite"} ${unit.no} · ${unit.title}` }),
+    el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · ${unit.title}` }),
     el("h1", { text: "Oyunlar" }),
     el("p", { text: `${bank.questions.length} soru · ${bank.words.length} kelime — hepsi çevrimdışı` }),
   ]);
@@ -166,7 +168,7 @@ export async function playGame(gid, uid, mode, screen) {
   const mod = await m.load();
   const ctx = {
     screen, gid, uid, grade, unit, bank,
-    title: `${m.emoji} ${m.name} · ${unit.title || "Ünite " + unit.no}`,
+    title: `${m.emoji} ${m.name} · ${unit.title || (unit.no ? "Ünite " + unit.no : (unit.label || "Revizyon"))}`,
     backHash: `#/${gid}/${uid}/oyunlar`,
     restart: () => mod.start(ctx),
   };

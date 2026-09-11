@@ -90,7 +90,7 @@ async function home() {
         el("h3", { text: g.title }),
         el("p", { text: GRADE_SUB[g.no] || "" }),
         el("div", { class: "badge-row" }, [
-          el("span", { class: "badge", text: `${g.units.length} ${g.no <= 6 ? "tema" : "ünite"}` }),
+          el("span", { class: "badge", text: g.units.some(u => u.id === "revision") ? `${g.units.filter(u => u.id !== "revision").length} tema + revizyon` : `${g.units.length} ${g.no <= 6 ? "tema" : "ünite"}` }),
           el("span", { class: ready ? "badge on" : "badge off", text: `${ready} hazır` }),
         ]),
       ]
@@ -107,14 +107,15 @@ async function gradeScreen(gid) {
   if (!g) return go("#/");
   setCrumbs([{ label: "Ana Menü", hash: "#/" }, { label: g.title }]);
 
+  const hasRev = g.units.some((u) => u.id === "revision");
   const hero = el("div", { class: "hero" }, [
     el("span", { class: "kicker", text: g.title }),
-    el("h1", { text: g.no <= 6 ? "Temalar" : "Üniteler" }),
-    el("p", { text: g.no <= 6 ? "Bir tema seçin" : "Bir ünite seçin" }),
+    el("h1", { text: hasRev ? "Revizyon ve Temalar" : g.no <= 6 ? "Temalar" : "Üniteler" }),
+    el("p", { text: hasRev ? "Bir revizyon veya tema seçin" : g.no <= 6 ? "Bir tema seçin" : "Bir ünite seçin" }),
   ]);
 
   const cards = g.units.map((u, i) => {
-    const any = u.has.presentation || u.has.games || u.has.worksheets;
+    const any = u.has.presentation || u.has.games || u.has.worksheets || (u.books || 0) > 0;
     return el(
       "button",
       {
@@ -126,13 +127,14 @@ async function gradeScreen(gid) {
       [
         el("span", { class: "glow" }),
         el("span", { class: "emoji", text: u.emoji || "📗" }),
-        el("div", { class: "no", text: `${(u.label || "Ünite").toLocaleUpperCase("tr")} ${u.no}` }),
+        el("div", { class: "no", text: u.no ? `${(u.label || "Ünite").toLocaleUpperCase("tr")} ${u.no}` : (u.label || "Revizyon").toLocaleUpperCase("tr") }),
         el("h3", { text: u.title || "—" }),
         el("p", { text: u.titleTr || "" }),
         el("div", { class: "badge-row" }, [
           el("span", { class: "badge " + (u.has.presentation ? "on" : "off"), text: "Sunum" }),
           el("span", { class: "badge " + (u.has.games ? "on" : "off"), text: "Oyun" }),
           el("span", { class: "badge " + (u.has.worksheets ? "on" : "off"), text: "Kâğıt" }),
+          ...(u.books ? [el("span", { class: "badge on", text: "Kitap" })] : []),
         ]),
       ]
     );
@@ -144,15 +146,16 @@ async function gradeScreen(gid) {
 /* ------------------------------------------------------------- screen: unit */
 async function unitScreen(gid, uid) {
   const { grade, unit } = await getUnit(gid, uid);
+  const unitLabel = unit.no ? `${unit.label || "Ünite"} ${unit.no}` : (unit.label || "Revizyon");
   setCrumbs([
     { label: "Ana Menü", hash: "#/" },
     { label: grade.title, hash: `#/${gid}` },
-    { label: `${unit.label || "Ünite"} ${unit.no}` },
+    { label: unitLabel },
   ]);
 
   const hero = el("div", { class: "hero" }, [
-    el("span", { class: "kicker", text: `${grade.title} · ${unit.label || "Ünite"} ${unit.no}` }),
-    el("h1", { text: unit.title || `${unit.label || "Ünite"} ${unit.no}` }),
+    el("span", { class: "kicker", text: `${grade.title} · ${unitLabel}` }),
+    el("h1", { text: unit.title || unitLabel }),
     el("p", { text: unit.titleTr || "" }),
   ]);
 

@@ -225,7 +225,7 @@ def main():
     with open(os.path.join(DATA, "source-index.json"), encoding="utf-8") as f:
         src = json.load(f)
 
-    keys = sorted(src, key=lambda k: (int(k[1]), int(k.split("/")[1][1:])))
+    keys = sorted(src, key=lambda k: (int(k[1]), 0 if k.endswith("/revision") else int(k.split("/")[1][1:])))
     if args.grade:
         keys = [k for k in keys if k.startswith("g%d/" % args.grade)]
     if args.unit:

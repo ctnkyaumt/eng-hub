@@ -4,7 +4,7 @@ Taşınabilir İngilizce ders yardımcısı. USB'ye kopyala, tak, çalıştır �
 Windows ve Pardus/Linux üzerinde aynı şekilde çalışır.
 
 ```
-ANA MENÜ → 5 / 6 / 7 / 8. Sınıf → Ünite 1…8 (5/6. sınıf) · 1…10 (7/8. sınıf) → SUNUM · OYUNLAR · ÇALIŞMA KÂĞITLARI · KİTAP SUNUMLARI
+ANA MENÜ → 5 / 6. Sınıf (Revizyon + 1…8. Tema) · 7 / 8. Sınıf (1…10. Ünite) → SUNUM · OYUNLAR · ÇALIŞMA KÂĞITLARI · KİTAP SUNUMLARI
 ```
 
 ## Çalıştırma
@@ -221,14 +221,20 @@ python tools/refresh.py
 
 Proje notları ortak `C:\Users\user\Desktop\code\0.MEMORIES\eng-hub.md` dosyasında tutulur.
 
+### Revizyon (5. ve 6. Sınıf)
+
+5. ve 6. sınıfta Maarif Modeli müfredatında yer alan Revizyon bölümü eklenmiştir:
+- **5. Sınıf Revizyon:** 20 etkinlik soru havuzu (Jeopardy, Kule, Bilgi Çarkı), 56 çevrimiçi oyun bağlantısı, 10 çalışma kâğıdı bağlantısı ve 11 kitap/çalışma sunumu bağlantısı içerir.
+- **6. Sınıf Revizyon:** Kaynaktaki 5 adet Maarif revizyon ders, test ve video kitabı sunumunu doğrudan açar; Sharpshooter oyun modu çevrimdışı kelime desteğiyle hazırdır.
+
 ### Sharpshooter
 
-36 tema/ünitenin Oyunlar menüsünde çevrimdışı çalışır. Anlamı oku, hareket eden
+38 tema/ünite ve revizyon bölümünün Oyunlar menüsünde çevrimdışı çalışır. Anlamı oku, hareket eden
 baloncuktaki doğru kelimeyi fare, dokunma veya 1–4 tuşlarıyla vur. Atışın değdiği ilk
 baloncuk parçacıklarla patlar; yanlış cevap iki puan ve bir can kaybettirir.
 Beş can, beş dakika, en fazla 15 soru; duraklatma ve yeniden başlatma var.
 Veri eksik temalar için özgün başlangıç kelimeleri paketlenmiştir.
-6. sınıf 2026–2027 Maarif modelinin sekiz temasını kullanır; eski on ünite
+6. sınıf 2026–2027 Maarif modelinin sekiz temasını ve revizyon bölümünü kullanır; eski on ünite
 materyalleri yeni temaların menülerinde gösterilmez.
 Oyun, [Cram Sharpshooter](https://www.cram.com/flashcards/7-sinif-1-unite-ozel-yayin-13019462/games/sharpshooter)
 eşleştirme fikrinden esinlenen özgün bir yerel uygulamadır; Cram kodu veya görselleri kopyalanmamıştır.

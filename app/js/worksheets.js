@@ -4,18 +4,19 @@ import { el, setCrumbs } from "./ui.js";
 
 export async function worksheetList(gid, uid, screen) {
   const { grade, unit } = await getUnit(gid, uid);
+  const unitLabel = unit.no ? `${unit.label || "Ünite"} ${unit.no}` : (unit.label || "Revizyon");
   const man = await getWorksheets(gid, uid);
   setCrumbs([
     { label: "Ana Menü", hash: "#/" },
     { label: grade.title, hash: `#/${gid}` },
-    { label: `${unit.label || "Ünite"} ${unit.no}`, hash: `#/${gid}/${uid}` },
+    { label: unitLabel, hash: `#/${gid}/${uid}` },
     { label: "Çalışma Kâğıtları" },
   ]);
 
   const remote = (man.items || []).filter((i) => i.link);
 
   const hero = el("div", { class: "hero" }, [
-    el("span", { class: "kicker", text: `${grade.title} · ${unit.label || "Ünite"} ${unit.no} · ${unit.title}` }),
+    el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · ${unit.title}` }),
     el("h1", { text: "Çalışma Kâğıtları" }),
     el("p", { text: "Tüm çalışma kâğıtları kaynak sitede açılır — internet bağlantısı gerekir." }),
   ]);

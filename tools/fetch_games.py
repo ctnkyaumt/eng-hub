@@ -190,11 +190,11 @@ def main():
     with open(os.path.join(DATA, "source-index.json"), encoding="utf-8") as f:
         src = json.load(f)
 
-    keys = sorted(src, key=lambda k: (int(k[1]), int(k.split("/")[1][1:])))
+    keys = sorted(src, key=lambda k: (int(k[1]), 0 if k.endswith("/revision") else int(k.split("/")[1][1:])))
     if args.grade:
         keys = [k for k in keys if k.startswith("g%d/" % args.grade)]
-    if args.unit:
-        keys = [k for k in keys if k.endswith("/u%d" % args.unit)]
+    if args.unit is not None:
+        keys = [k for k in keys if k.endswith("/u%d" % args.unit) or (args.unit == 0 and k.endswith("/revision"))]
 
     tq = tw = 0
     for i, key in enumerate(keys, 1):

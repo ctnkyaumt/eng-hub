@@ -45,6 +45,16 @@
    {"en":"planet","tr":"gezegen"},{"en":"solar system","tr":"güneş sistemi"},{"en":"orbit","tr":"yörünge"},{"en":"satellite","tr":"uydu"},
    {"en":"gravity","tr":"yer çekimi"},{"en":"surface","tr":"yüzey"},{"en":"telescope","tr":"teleskop"},{"en":"spacecraft","tr":"uzay aracı"},
    {"en":"explore","tr":"keşfetmek"},{"en":"distance","tr":"mesafe"},{"en":"Earth","tr":"Dünya"},{"en":"Sun","tr":"Güneş"}
+  ],
+  "g5/revision": [
+   {"en":"classroom rules","tr":"sınıf kuralları"},{"en":"listen","tr":"dinlemek"},{"en":"raise your hand","tr":"elini kaldırmak"},{"en":"quiet","tr":"sessiz"},
+   {"en":"country","tr":"ülke"},{"en":"nationality","tr":"milliyet"},{"en":"cartoon","tr":"çizgi film"},{"en":"character","tr":"karakter"},
+   {"en":"free time","tr":"boş zaman"},{"en":"daily routine","tr":"günlük rutin"},{"en":"family","tr":"aile"},{"en":"clothes","tr":"kıyafetler"}
+  ],
+  "g6/revision": [
+   {"en":"daily life","tr":"günlük yaşam"},{"en":"wake up","tr":"uyanmak"},{"en":"breakfast","tr":"kahvaltı"},{"en":"afternoon","tr":"öğleden sonra"},
+   {"en":"healthy food","tr":"sağlıklı yiyecek"},{"en":"hobby","tr":"hobi"},{"en":"games","tr":"oyunlar"},{"en":"cinema","tr":"sinema"},
+   {"en":"party","tr":"parti"},{"en":"health","tr":"sağlık"},{"en":"animal","tr":"hayvan"},{"en":"weather","tr":"hava"}
   ]
  }
 }

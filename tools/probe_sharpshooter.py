@@ -14,8 +14,12 @@ seed = json.loads(seed_path.read_text(encoding="utf-8")).get("units", {})
 
 grades = catalog.get("grades", [])
 assert len(grades) == 4, f"Expected 4 grades, got {len(grades)}"
+g5 = next(g for g in grades if g["id"] == "g5")
+assert len([u for u in g5["units"] if u["id"] != "revision"]) == 8, f"Grade 5 must have 8 themes"
+assert any(u["id"] == "revision" for u in g5["units"]), "Grade 5 must have revision unit"
 g6 = next(g for g in grades if g["id"] == "g6")
-assert len(g6["units"]) == 8, f"Grade 6 must have 8 themes, got {len(g6['units'])}"
+assert len([u for u in g6["units"] if u["id"] != "revision"]) == 8, f"Grade 6 must have 8 themes"
+assert any(u["id"] == "revision" for u in g6["units"]), "Grade 6 must have revision unit"
 
 total_units = 0
 for g in grades:
@@ -67,5 +71,5 @@ for g in grades:
 
         total_units += 1
 
-assert total_units == 36, f"Expected 36 units, got {total_units}"
+assert total_units == 38, f"Expected 38 units, got {total_units}"
 print(f"PASS: {total_units} units verified. Sharpshooter coverage complete, all worksheets online-only.")

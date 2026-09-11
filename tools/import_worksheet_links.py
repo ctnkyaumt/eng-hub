@@ -86,6 +86,8 @@ def main():
             if args.unit and unit["no"] != args.unit:
                 continue
             key = grade["id"] + "/" + unit["id"]
+            if unit["id"] == "revision" or unit.get("no", 0) == 0:
+                continue
             if grade["no"] == 6:
                 # Old unit URLs describe the retired ten-unit curriculum.
                 continue
@@ -117,6 +119,8 @@ def main():
     for grade in catalog["grades"]:
         for unit in grade["units"]:
             key = grade["id"] + "/" + unit["id"]
+            if unit["id"] == "revision" or unit.get("no", 0) == 0:
+                continue
             path = ROOT / "content" / key / "worksheets/manifest.json"
             if not path.exists():
                 continue

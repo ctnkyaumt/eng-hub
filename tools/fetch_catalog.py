@@ -141,6 +141,24 @@ def main():
     for no in GRADES:
         gid = "g%d" % no
         grade = {"id": gid, "no": no, "title": "%d. Sınıf" % no, "units": []}
+        if no in (5, 6) and "revision" in src.get(no, {}):
+            su = src[no]["revision"]
+            uid = "revision"
+            ws, off, onl, extras, books = classify(su.get("resources") if su else [])
+            state = unit_state(gid, uid, ws, off)
+            grade["units"].append({
+                "id": uid, "no": 0,
+                "label": "Revizyon",
+                "title": "Revision", "titleTr": "Genel Tekrar", "emoji": "🔄",
+                "sourceUnitId": su.get("id") if su else None,
+                "onlineGames": len(onl),
+                "books": len(books),
+                **state,
+            })
+            per_unit_source[(gid, uid)] = {
+                "worksheets": ws, "offlineGames": off,
+                "onlineGames": onl, "extras": extras, "books": books,
+            }
         for un in range(1, (8 if no in (5, 6) else UNITS_PER_GRADE) + 1):
             uid = "u%d" % un
             theme = THEMES.get(no, {}).get(un, ("", "", "📘"))

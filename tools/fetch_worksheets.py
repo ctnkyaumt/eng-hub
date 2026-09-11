@@ -31,7 +31,7 @@ def purge_local_worksheets():
     """Keep only manifests, including in retired units; validate every target."""
     content = (ROOT / "content").resolve()
     files = size = 0
-    for folder in content.glob("g*/u*/worksheets"):
+    for folder in content.glob("g*/*/worksheets"):
         if not folder.resolve().is_relative_to(content):
             raise ValueError("Worksheet folder outside content root")
         manifest = folder / "manifest.json"
