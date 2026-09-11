@@ -11,7 +11,7 @@ from pathlib import Path
 import re
 import unicodedata
 from resource_kind import online_game
-from fetch_worksheets import online_item
+from fetch_worksheets import online_item, authored_item
 from urllib.parse import unquote, urljoin, urlparse
 
 import requests
@@ -139,7 +139,8 @@ def main():
                     manifest["items"].append(item)
                     known.add(item["link"])
                     added += 1
-            manifest["items"] = [online_item(i) for i in manifest["items"] if i.get("link")]
+            local = [i for i in manifest["items"] if key.startswith("g6/") and authored_item(i)]
+            manifest["items"] = local + [online_item(i) for i in manifest["items"] if i.get("link") and i not in local]
             save(path, manifest)
             bank_path = ROOT / "content" / key / "games/bank.json"
             bank = json.loads(bank_path.read_text(encoding="utf-8")) if bank_path.exists() else {"sets": [], "vocab": [], "online": []}

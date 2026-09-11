@@ -1,1 +1,1782 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-u3-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "back - choose the meaning.",
+     "a": [
+      {
+       "t": "ayak bileği",
+       "c": false
+      },
+      {
+       "t": "düzenli",
+       "c": false
+      },
+      {
+       "t": "takı",
+       "c": false
+      },
+      {
+       "t": "sırt",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "leg - choose the meaning.",
+     "a": [
+      {
+       "t": "düzenli",
+       "c": false
+      },
+      {
+       "t": "güçsüz",
+       "c": false
+      },
+      {
+       "t": "sabırlı",
+       "c": false
+      },
+      {
+       "t": "bacak",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "knee - choose the meaning.",
+     "a": [
+      {
+       "t": "odaklanmış",
+       "c": false
+      },
+      {
+       "t": "diz",
+       "c": true
+      },
+      {
+       "t": "külotlu çorap",
+       "c": false
+      },
+      {
+       "t": "sosyal",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ankle - choose the meaning.",
+     "a": [
+      {
+       "t": "diz",
+       "c": false
+      },
+      {
+       "t": "güçsüz",
+       "c": false
+      },
+      {
+       "t": "hoş",
+       "c": false
+      },
+      {
+       "t": "ayak bileği",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "heart - choose the meaning.",
+     "a": [
+      {
+       "t": "kalp",
+       "c": true
+      },
+      {
+       "t": "hoş",
+       "c": false
+      },
+      {
+       "t": "bağımsız",
+       "c": false
+      },
+      {
+       "t": "fiziksel",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "stomach - choose the meaning.",
+     "a": [
+      {
+       "t": "hoş",
+       "c": false
+      },
+      {
+       "t": "ayak bileği",
+       "c": false
+      },
+      {
+       "t": "spor ayakkabısı",
+       "c": false
+      },
+      {
+       "t": "mide",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "skin - choose the meaning.",
+     "a": [
+      {
+       "t": "spor ayakkabısı",
+       "c": false
+      },
+      {
+       "t": "fiziksel",
+       "c": false
+      },
+      {
+       "t": "tertipli",
+       "c": false
+      },
+      {
+       "t": "cilt",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "physical - choose the meaning.",
+     "a": [
+      {
+       "t": "zeki",
+       "c": false
+      },
+      {
+       "t": "cep",
+       "c": false
+      },
+      {
+       "t": "mayo",
+       "c": false
+      },
+      {
+       "t": "fiziksel",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "trainers - choose the meaning.",
+     "a": [
+      {
+       "t": "görünüş",
+       "c": false
+      },
+      {
+       "t": "ciddi",
+       "c": false
+      },
+      {
+       "t": "bacak",
+       "c": false
+      },
+      {
+       "t": "spor ayakkabısı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "swimsuit - choose the meaning.",
+     "a": [
+      {
+       "t": "cilt",
+       "c": false
+      },
+      {
+       "t": "kaba",
+       "c": false
+      },
+      {
+       "t": "cep",
+       "c": false
+      },
+      {
+       "t": "mayo",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "tights - choose the meaning.",
+     "a": [
+      {
+       "t": "kaba",
+       "c": false
+      },
+      {
+       "t": "külotlu çorap",
+       "c": true
+      },
+      {
+       "t": "spor ayakkabısı",
+       "c": false
+      },
+      {
+       "t": "şefkatli",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pocket - choose the meaning.",
+     "a": [
+      {
+       "t": "kibar",
+       "c": false
+      },
+      {
+       "t": "cep",
+       "c": true
+      },
+      {
+       "t": "ayak bileği",
+       "c": false
+      },
+      {
+       "t": "mide",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "necklace - choose the meaning.",
+     "a": [
+      {
+       "t": "bileklik",
+       "c": false
+      },
+      {
+       "t": "cep",
+       "c": false
+      },
+      {
+       "t": "kolye",
+       "c": true
+      },
+      {
+       "t": "tembel",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "bracelet - choose the meaning.",
+     "a": [
+      {
+       "t": "spor ayakkabısı",
+       "c": false
+      },
+      {
+       "t": "fiziksel",
+       "c": false
+      },
+      {
+       "t": "bileklik",
+       "c": true
+      },
+      {
+       "t": "kibar",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "wallet - choose the meaning.",
+     "a": [
+      {
+       "t": "cilt",
+       "c": false
+      },
+      {
+       "t": "cüzdan",
+       "c": true
+      },
+      {
+       "t": "spor ayakkabısı",
+       "c": false
+      },
+      {
+       "t": "görünüş",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "jewellery - choose the meaning.",
+     "a": [
+      {
+       "t": "tertipli",
+       "c": false
+      },
+      {
+       "t": "diz",
+       "c": false
+      },
+      {
+       "t": "takı",
+       "c": true
+      },
+      {
+       "t": "fiziksel",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "patient - choose the meaning.",
+     "a": [
+      {
+       "t": "sabırlı",
+       "c": true
+      },
+      {
+       "t": "diz",
+       "c": false
+      },
+      {
+       "t": "kalp",
+       "c": false
+      },
+      {
+       "t": "cüzdan",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "polite - choose the meaning.",
+     "a": [
+      {
+       "t": "bağımsız",
+       "c": false
+      },
+      {
+       "t": "cilt",
+       "c": false
+      },
+      {
+       "t": "zeki",
+       "c": false
+      },
+      {
+       "t": "kibar",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "caring - choose the meaning.",
+     "a": [
+      {
+       "t": "diz",
+       "c": false
+      },
+      {
+       "t": "sabırlı",
+       "c": false
+      },
+      {
+       "t": "şefkatli",
+       "c": true
+      },
+      {
+       "t": "odaklanmış",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "clever - choose the meaning.",
+     "a": [
+      {
+       "t": "fiziksel",
+       "c": false
+      },
+      {
+       "t": "sabırlı",
+       "c": false
+      },
+      {
+       "t": "zeki",
+       "c": true
+      },
+      {
+       "t": "bağımsız",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "organised - choose the meaning.",
+     "a": [
+      {
+       "t": "düzenli",
+       "c": true
+      },
+      {
+       "t": "fiziksel",
+       "c": false
+      },
+      {
+       "t": "zeki",
+       "c": false
+      },
+      {
+       "t": "bileklik",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "independent - choose the meaning.",
+     "a": [
+      {
+       "t": "diz",
+       "c": false
+      },
+      {
+       "t": "zeki",
+       "c": false
+      },
+      {
+       "t": "güçsüz",
+       "c": false
+      },
+      {
+       "t": "bağımsız",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "focused - choose the meaning.",
+     "a": [
+      {
+       "t": "mayo",
+       "c": false
+      },
+      {
+       "t": "odaklanmış",
+       "c": true
+      },
+      {
+       "t": "bileklik",
+       "c": false
+      },
+      {
+       "t": "görünüş",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "social - choose the meaning.",
+     "a": [
+      {
+       "t": "sabırlı",
+       "c": false
+      },
+      {
+       "t": "sosyal",
+       "c": true
+      },
+      {
+       "t": "harika",
+       "c": false
+      },
+      {
+       "t": "sırt",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tidy - choose the meaning.",
+     "a": [
+      {
+       "t": "spor ayakkabısı",
+       "c": false
+      },
+      {
+       "t": "kaba",
+       "c": false
+      },
+      {
+       "t": "tertipli",
+       "c": true
+      },
+      {
+       "t": "düzenli",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "serious - choose the meaning.",
+     "a": [
+      {
+       "t": "ciddi",
+       "c": true
+      },
+      {
+       "t": "hoş",
+       "c": false
+      },
+      {
+       "t": "düzenli",
+       "c": false
+      },
+      {
+       "t": "tertipli",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "rude - choose the meaning.",
+     "a": [
+      {
+       "t": "odaklanmış",
+       "c": false
+      },
+      {
+       "t": "zeki",
+       "c": false
+      },
+      {
+       "t": "kaba",
+       "c": true
+      },
+      {
+       "t": "sosyal",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "lazy - choose the meaning.",
+     "a": [
+      {
+       "t": "harika",
+       "c": false
+      },
+      {
+       "t": "sırt",
+       "c": false
+      },
+      {
+       "t": "tembel",
+       "c": true
+      },
+      {
+       "t": "bileklik",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "weak - choose the meaning.",
+     "a": [
+      {
+       "t": "kaba",
+       "c": false
+      },
+      {
+       "t": "külotlu çorap",
+       "c": false
+      },
+      {
+       "t": "güçsüz",
+       "c": true
+      },
+      {
+       "t": "mide",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "lovely - choose the meaning.",
+     "a": [
+      {
+       "t": "hoş",
+       "c": true
+      },
+      {
+       "t": "bileklik",
+       "c": false
+      },
+      {
+       "t": "mide",
+       "c": false
+      },
+      {
+       "t": "kalp",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "brilliant - choose the meaning.",
+     "a": [
+      {
+       "t": "kibar",
+       "c": false
+      },
+      {
+       "t": "bileklik",
+       "c": false
+      },
+      {
+       "t": "külotlu çorap",
+       "c": false
+      },
+      {
+       "t": "harika",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "look - choose the meaning.",
+     "a": [
+      {
+       "t": "görünüş",
+       "c": true
+      },
+      {
+       "t": "ciddi",
+       "c": false
+      },
+      {
+       "t": "bileklik",
+       "c": false
+      },
+      {
+       "t": "mide",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u3-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "sırt - choose the English word.",
+     "a": [
+      {
+       "t": "caring",
+       "c": false
+      },
+      {
+       "t": "back",
+       "c": true
+      },
+      {
+       "t": "lazy",
+       "c": false
+      },
+      {
+       "t": "weak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "bacak - choose the English word.",
+     "a": [
+      {
+       "t": "social",
+       "c": false
+      },
+      {
+       "t": "physical",
+       "c": false
+      },
+      {
+       "t": "leg",
+       "c": true
+      },
+      {
+       "t": "stomach",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "diz - choose the English word.",
+     "a": [
+      {
+       "t": "independent",
+       "c": false
+      },
+      {
+       "t": "wallet",
+       "c": false
+      },
+      {
+       "t": "necklace",
+       "c": false
+      },
+      {
+       "t": "knee",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "ayak bileği - choose the English word.",
+     "a": [
+      {
+       "t": "ankle",
+       "c": true
+      },
+      {
+       "t": "patient",
+       "c": false
+      },
+      {
+       "t": "stomach",
+       "c": false
+      },
+      {
+       "t": "back",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kalp - choose the English word.",
+     "a": [
+      {
+       "t": "heart",
+       "c": true
+      },
+      {
+       "t": "skin",
+       "c": false
+      },
+      {
+       "t": "clever",
+       "c": false
+      },
+      {
+       "t": "knee",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "mide - choose the English word.",
+     "a": [
+      {
+       "t": "stomach",
+       "c": true
+      },
+      {
+       "t": "lovely",
+       "c": false
+      },
+      {
+       "t": "lazy",
+       "c": false
+      },
+      {
+       "t": "serious",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "cilt - choose the English word.",
+     "a": [
+      {
+       "t": "skin",
+       "c": true
+      },
+      {
+       "t": "jewellery",
+       "c": false
+      },
+      {
+       "t": "pocket",
+       "c": false
+      },
+      {
+       "t": "caring",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fiziksel - choose the English word.",
+     "a": [
+      {
+       "t": "jewellery",
+       "c": false
+      },
+      {
+       "t": "focused",
+       "c": false
+      },
+      {
+       "t": "physical",
+       "c": true
+      },
+      {
+       "t": "look",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "spor ayakkabısı - choose the English word.",
+     "a": [
+      {
+       "t": "look",
+       "c": false
+      },
+      {
+       "t": "trainers",
+       "c": true
+      },
+      {
+       "t": "brilliant",
+       "c": false
+      },
+      {
+       "t": "lazy",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "mayo - choose the English word.",
+     "a": [
+      {
+       "t": "skin",
+       "c": false
+      },
+      {
+       "t": "swimsuit",
+       "c": true
+      },
+      {
+       "t": "independent",
+       "c": false
+      },
+      {
+       "t": "weak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "külotlu çorap - choose the English word.",
+     "a": [
+      {
+       "t": "organised",
+       "c": false
+      },
+      {
+       "t": "skin",
+       "c": false
+      },
+      {
+       "t": "tights",
+       "c": true
+      },
+      {
+       "t": "focused",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "cep - choose the English word.",
+     "a": [
+      {
+       "t": "rude",
+       "c": false
+      },
+      {
+       "t": "trainers",
+       "c": false
+      },
+      {
+       "t": "clever",
+       "c": false
+      },
+      {
+       "t": "pocket",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "kolye - choose the English word.",
+     "a": [
+      {
+       "t": "knee",
+       "c": false
+      },
+      {
+       "t": "bracelet",
+       "c": false
+      },
+      {
+       "t": "rude",
+       "c": false
+      },
+      {
+       "t": "necklace",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "bileklik - choose the English word.",
+     "a": [
+      {
+       "t": "wallet",
+       "c": false
+      },
+      {
+       "t": "lovely",
+       "c": false
+      },
+      {
+       "t": "tights",
+       "c": false
+      },
+      {
+       "t": "bracelet",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "cüzdan - choose the English word.",
+     "a": [
+      {
+       "t": "lazy",
+       "c": false
+      },
+      {
+       "t": "weak",
+       "c": false
+      },
+      {
+       "t": "look",
+       "c": false
+      },
+      {
+       "t": "wallet",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "takı - choose the English word.",
+     "a": [
+      {
+       "t": "polite",
+       "c": false
+      },
+      {
+       "t": "jewellery",
+       "c": true
+      },
+      {
+       "t": "stomach",
+       "c": false
+      },
+      {
+       "t": "physical",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sabırlı - choose the English word.",
+     "a": [
+      {
+       "t": "physical",
+       "c": false
+      },
+      {
+       "t": "organised",
+       "c": false
+      },
+      {
+       "t": "necklace",
+       "c": false
+      },
+      {
+       "t": "patient",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "kibar - choose the English word.",
+     "a": [
+      {
+       "t": "polite",
+       "c": true
+      },
+      {
+       "t": "clever",
+       "c": false
+      },
+      {
+       "t": "heart",
+       "c": false
+      },
+      {
+       "t": "trainers",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "şefkatli - choose the English word.",
+     "a": [
+      {
+       "t": "caring",
+       "c": true
+      },
+      {
+       "t": "swimsuit",
+       "c": false
+      },
+      {
+       "t": "polite",
+       "c": false
+      },
+      {
+       "t": "weak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "zeki - choose the English word.",
+     "a": [
+      {
+       "t": "weak",
+       "c": false
+      },
+      {
+       "t": "patient",
+       "c": false
+      },
+      {
+       "t": "clever",
+       "c": true
+      },
+      {
+       "t": "necklace",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "düzenli - choose the English word.",
+     "a": [
+      {
+       "t": "bracelet",
+       "c": false
+      },
+      {
+       "t": "lazy",
+       "c": false
+      },
+      {
+       "t": "independent",
+       "c": false
+      },
+      {
+       "t": "organised",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "bağımsız - choose the English word.",
+     "a": [
+      {
+       "t": "wallet",
+       "c": false
+      },
+      {
+       "t": "trainers",
+       "c": false
+      },
+      {
+       "t": "independent",
+       "c": true
+      },
+      {
+       "t": "weak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "odaklanmış - choose the English word.",
+     "a": [
+      {
+       "t": "focused",
+       "c": true
+      },
+      {
+       "t": "physical",
+       "c": false
+      },
+      {
+       "t": "clever",
+       "c": false
+      },
+      {
+       "t": "trainers",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sosyal - choose the English word.",
+     "a": [
+      {
+       "t": "wallet",
+       "c": false
+      },
+      {
+       "t": "patient",
+       "c": false
+      },
+      {
+       "t": "social",
+       "c": true
+      },
+      {
+       "t": "lazy",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tertipli - choose the English word.",
+     "a": [
+      {
+       "t": "independent",
+       "c": false
+      },
+      {
+       "t": "tidy",
+       "c": true
+      },
+      {
+       "t": "leg",
+       "c": false
+      },
+      {
+       "t": "lazy",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ciddi - choose the English word.",
+     "a": [
+      {
+       "t": "back",
+       "c": false
+      },
+      {
+       "t": "necklace",
+       "c": false
+      },
+      {
+       "t": "bracelet",
+       "c": false
+      },
+      {
+       "t": "serious",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "kaba - choose the English word.",
+     "a": [
+      {
+       "t": "stomach",
+       "c": false
+      },
+      {
+       "t": "swimsuit",
+       "c": false
+      },
+      {
+       "t": "rude",
+       "c": true
+      },
+      {
+       "t": "look",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tembel - choose the English word.",
+     "a": [
+      {
+       "t": "leg",
+       "c": false
+      },
+      {
+       "t": "pocket",
+       "c": false
+      },
+      {
+       "t": "physical",
+       "c": false
+      },
+      {
+       "t": "lazy",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "güçsüz - choose the English word.",
+     "a": [
+      {
+       "t": "lovely",
+       "c": false
+      },
+      {
+       "t": "polite",
+       "c": false
+      },
+      {
+       "t": "trainers",
+       "c": false
+      },
+      {
+       "t": "weak",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "hoş - choose the English word.",
+     "a": [
+      {
+       "t": "tights",
+       "c": false
+      },
+      {
+       "t": "look",
+       "c": false
+      },
+      {
+       "t": "lovely",
+       "c": true
+      },
+      {
+       "t": "back",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "harika - choose the English word.",
+     "a": [
+      {
+       "t": "brilliant",
+       "c": true
+      },
+      {
+       "t": "heart",
+       "c": false
+      },
+      {
+       "t": "back",
+       "c": false
+      },
+      {
+       "t": "bracelet",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "görünüş - choose the English word.",
+     "a": [
+      {
+       "t": "pocket",
+       "c": false
+      },
+      {
+       "t": "heart",
+       "c": false
+      },
+      {
+       "t": "look",
+       "c": true
+      },
+      {
+       "t": "wallet",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u3-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "My cousin ___ curly hair.",
+     "grammarId": "have-got",
+     "explanation": "My cousin has got curly hair.",
+     "a": [
+      {
+       "t": "have got",
+       "c": false
+      },
+      {
+       "t": "has got",
+       "c": true
+      },
+      {
+       "t": "is got",
+       "c": false
+      },
+      {
+       "t": "are got",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ your brother got a wallet?",
+     "grammarId": "have-got",
+     "explanation": "Has your brother got a wallet?",
+     "a": [
+      {
+       "t": "Have",
+       "c": false
+      },
+      {
+       "t": "Is",
+       "c": false
+      },
+      {
+       "t": "Has",
+       "c": true
+      },
+      {
+       "t": "Does",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "We ___ blue trainers.",
+     "grammarId": "have-got",
+     "explanation": "We haven't got blue trainers.",
+     "a": [
+      {
+       "t": "hasn't got",
+       "c": false
+      },
+      {
+       "t": "isn't got",
+       "c": false
+      },
+      {
+       "t": "haven't got",
+       "c": true
+      },
+      {
+       "t": "don't got",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ wallet is this? It belongs to Ben.",
+     "grammarId": "whose",
+     "explanation": "Whose wallet is this? It belongs to Ben.",
+     "a": [
+      {
+       "t": "Who",
+       "c": false
+      },
+      {
+       "t": "Whose",
+       "c": true
+      },
+      {
+       "t": "Where",
+       "c": false
+      },
+      {
+       "t": "Who's",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "These are ___ trainers. They belong to Ada.",
+     "grammarId": "whose",
+     "explanation": "These are Ada's trainers. They belong to Ada.",
+     "a": [
+      {
+       "t": "Ada",
+       "c": false
+      },
+      {
+       "t": "Ada's",
+       "c": true
+      },
+      {
+       "t": "Adas's",
+       "c": false
+      },
+      {
+       "t": "Adas",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The red bracelet is ___ than the blue one.",
+     "grammarId": "comparatives",
+     "explanation": "The red bracelet is longer than the blue one.",
+     "a": [
+      {
+       "t": "longer",
+       "c": true
+      },
+      {
+       "t": "longest",
+       "c": false
+      },
+      {
+       "t": "more long",
+       "c": false
+      },
+      {
+       "t": "long",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "This wallet is ___ than that one.",
+     "grammarId": "comparatives",
+     "explanation": "This wallet is more colourful than that one.",
+     "a": [
+      {
+       "t": "more colourful",
+       "c": true
+      },
+      {
+       "t": "colourfuller",
+       "c": false
+      },
+      {
+       "t": "colourfulest",
+       "c": false
+      },
+      {
+       "t": "most colourful",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "My desk is ___ than it was before.",
+     "grammarId": "comparatives",
+     "explanation": "My desk is tidier than it was before.",
+     "a": [
+      {
+       "t": "tidiest",
+       "c": false
+      },
+      {
+       "t": "tidyer",
+       "c": false
+      },
+      {
+       "t": "tidier",
+       "c": true
+      },
+      {
+       "t": "more tidyest",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Of these three bags, the green one is ___.",
+     "grammarId": "superlatives",
+     "explanation": "Of these three bags, the green one is the biggest.",
+     "a": [
+      {
+       "t": "more big",
+       "c": false
+      },
+      {
+       "t": "bigger",
+       "c": false
+      },
+      {
+       "t": "the biggest",
+       "c": true
+      },
+      {
+       "t": "big",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "This is ___ swimsuit in the shop.",
+     "grammarId": "superlatives",
+     "explanation": "This is the most comfortable swimsuit in the shop.",
+     "a": [
+      {
+       "t": "more comfortable",
+       "c": false
+      },
+      {
+       "t": "the most comfortable",
+       "c": true
+      },
+      {
+       "t": "comfortabler",
+       "c": false
+      },
+      {
+       "t": "comfortable",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Of the three kits, this is ___.",
+     "grammarId": "irregular-comparison",
+     "explanation": "Of the three kits, this is the best.",
+     "a": [
+      {
+       "t": "the best",
+       "c": true
+      },
+      {
+       "t": "good",
+       "c": false
+      },
+      {
+       "t": "better",
+       "c": false
+      },
+      {
+       "t": "gooder",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "My old trainers are ___ than my new ones.",
+     "grammarId": "irregular-comparison",
+     "explanation": "My old trainers are worse than my new ones.",
+     "a": [
+      {
+       "t": "badder",
+       "c": false
+      },
+      {
+       "t": "worse",
+       "c": true
+      },
+      {
+       "t": "worst",
+       "c": false
+      },
+      {
+       "t": "the bad",
+       "c": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "back",
+   "tr": "sırt"
+  },
+  {
+   "en": "leg",
+   "tr": "bacak"
+  },
+  {
+   "en": "knee",
+   "tr": "diz"
+  },
+  {
+   "en": "ankle",
+   "tr": "ayak bileği"
+  },
+  {
+   "en": "heart",
+   "tr": "kalp"
+  },
+  {
+   "en": "stomach",
+   "tr": "mide"
+  },
+  {
+   "en": "skin",
+   "tr": "cilt"
+  },
+  {
+   "en": "physical",
+   "tr": "fiziksel"
+  },
+  {
+   "en": "trainers",
+   "tr": "spor ayakkabısı"
+  },
+  {
+   "en": "swimsuit",
+   "tr": "mayo"
+  },
+  {
+   "en": "tights",
+   "tr": "külotlu çorap"
+  },
+  {
+   "en": "pocket",
+   "tr": "cep"
+  },
+  {
+   "en": "necklace",
+   "tr": "kolye"
+  },
+  {
+   "en": "bracelet",
+   "tr": "bileklik"
+  },
+  {
+   "en": "wallet",
+   "tr": "cüzdan"
+  },
+  {
+   "en": "jewellery",
+   "tr": "takı"
+  },
+  {
+   "en": "patient",
+   "tr": "sabırlı"
+  },
+  {
+   "en": "polite",
+   "tr": "kibar"
+  },
+  {
+   "en": "caring",
+   "tr": "şefkatli"
+  },
+  {
+   "en": "clever",
+   "tr": "zeki"
+  },
+  {
+   "en": "organised",
+   "tr": "düzenli"
+  },
+  {
+   "en": "independent",
+   "tr": "bağımsız"
+  },
+  {
+   "en": "focused",
+   "tr": "odaklanmış"
+  },
+  {
+   "en": "social",
+   "tr": "sosyal"
+  },
+  {
+   "en": "tidy",
+   "tr": "tertipli"
+  },
+  {
+   "en": "serious",
+   "tr": "ciddi"
+  },
+  {
+   "en": "rude",
+   "tr": "kaba"
+  },
+  {
+   "en": "lazy",
+   "tr": "tembel"
+  },
+  {
+   "en": "weak",
+   "tr": "güçsüz"
+  },
+  {
+   "en": "lovely",
+   "tr": "hoş"
+  },
+  {
+   "en": "brilliant",
+   "tr": "harika"
+  },
+  {
+   "en": "look",
+   "tr": "görünüş"
+  }
+ ],
+ "online": []
+}

@@ -54,11 +54,17 @@ for g in grades:
                 assert len(options) >= 2, f"{key}: too few options"
                 assert len(set(options)) == len(options), f"{key}: duplicate choices"
 
-        # Check worksheets are online-only (no local file attributes)
+        # Imported worksheets stay online; authored Grade 6 PDFs are retained.
+        from fetch_worksheets import authored_item
+        expected_local = set()
         ws_path = ROOT / "content" / key / "worksheets/manifest.json"
         if ws_path.exists():
             ws_man = json.loads(ws_path.read_text(encoding="utf-8"))
             for it in ws_man.get("items", []):
+                if key.startswith("g6/") and authored_item(it):
+                    expected_local.add(it["file"])
+                    assert (ws_path.parent / it["file"]).is_file()
+                    continue
                 assert "file" not in it, f"{key}: worksheet item has local 'file' attribute: {it}"
                 assert "size" not in it, f"{key}: worksheet item has 'size' attribute: {it}"
                 assert it.get("link"), f"{key}: worksheet item missing online link"
@@ -67,9 +73,9 @@ for g in grades:
         ws_dir = ROOT / "content" / key / "worksheets"
         if ws_dir.exists():
             local_files = [p for p in ws_dir.glob("*") if p.is_file() and p.name != "manifest.json"]
-            assert len(local_files) == 0, f"{key}: unexpected local worksheet files: {local_files}"
+            assert {p.name for p in local_files} == expected_local, f"{key}: unexpected local worksheet files: {local_files}"
 
         total_units += 1
 
 assert total_units == 38, f"Expected 38 units, got {total_units}"
-print(f"PASS: {total_units} units verified. Sharpshooter coverage complete, all worksheets online-only.")
+print(f"PASS: {total_units} units verified. Sharpshooter coverage, online imports and authored local worksheets.")

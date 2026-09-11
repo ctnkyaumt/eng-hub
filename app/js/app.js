@@ -70,7 +70,7 @@ async function home() {
   const hero = el("div", { class: "hero" }, [
     el("span", { class: "kicker", text: "İngilizce Öğretmeni Yardımcısı" }),
     el("h1", { text: "ENG HUB" }),
-    el("p", { text: "Sunumlar ve oyunlar çevrimdışı · Çalışma kâğıtları için internet gerekli" }),
+    el("p", { text: "Sunumlar, oyunlar ve özgün 6. sınıf çalışma kâğıtları çevrimdışı · Dış kaynaklar için internet gerekli" }),
   ]);
 
   const cards = cat.grades.map((g, i) => {

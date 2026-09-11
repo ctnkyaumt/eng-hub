@@ -1,0 +1,1049 @@
+{
+ "title": "Life in the World & Culture",
+ "titleTr": "Dünya ve Kültür Hayatı",
+ "emoji": "🌍",
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "accent": [
+  "#0d9488",
+  "#2563eb"
+ ],
+ "source": {
+  "studentBook": {
+   "file": "ingilizce6_ders_kitabi.pdf",
+   "pages": [
+    97,
+    110
+   ]
+  },
+  "workbook": {
+   "file": "ingilizce6_calisma_kitabi.pdf",
+   "pages": [
+    49,
+    56
+   ]
+  },
+  "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+ },
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 6",
+   "title": "Life in the World & Culture",
+   "titleTr": "Dünya ve Kültür Hayatı",
+   "emoji": "🌍"
+  },
+  {
+   "type": "scene",
+   "title": "Our lesson",
+   "emoji": "🌍",
+   "bubbles": [
+    {
+     "text": "Talk about countries, languages and food experiences."
+    },
+    {
+     "text": "Describe completed events using regular past verbs."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "items": [
+    {
+     "en": "France",
+     "tr": "Fransa",
+     "img": "/app/img/flags/fr.svg",
+     "imageFit": "contain"
+    },
+    {
+     "en": "Germany",
+     "tr": "Almanya",
+     "img": "/app/img/flags/de.svg",
+     "imageFit": "contain"
+    },
+    {
+     "en": "Italy",
+     "tr": "İtalya",
+     "img": "/app/img/flags/it.svg",
+     "imageFit": "contain"
+    },
+    {
+     "en": "Spain",
+     "tr": "İspanya",
+     "img": "/app/img/flags/es.svg",
+     "imageFit": "contain"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "France",
+       "b": "Fransa"
+      },
+      {
+       "a": "Germany",
+       "b": "Almanya"
+      },
+      {
+       "a": "Italy",
+       "b": "İtalya"
+      },
+      {
+       "a": "Spain",
+       "b": "İspanya"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Countries",
+   "items": [
+    {
+     "en": "Denmark",
+     "tr": "Danimarka",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "Sweden",
+     "tr": "İsveç",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "Poland",
+     "tr": "Polonya",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "the Netherlands",
+     "tr": "Hollanda",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "Denmark",
+       "b": "Danimarka"
+      },
+      {
+       "a": "Sweden",
+       "b": "İsveç"
+      },
+      {
+       "a": "Poland",
+       "b": "Polonya"
+      },
+      {
+       "a": "the Netherlands",
+       "b": "Hollanda"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Nationalities and languages",
+   "items": [
+    {
+     "en": "French",
+     "tr": "Fransız; Fransızca",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "German",
+     "tr": "Alman; Almanca",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "Italian",
+     "tr": "İtalyan; İtalyanca",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "Spanish",
+     "tr": "İspanyol; İspanyolca",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "French",
+       "b": "Fransız; Fransızca"
+      },
+      {
+       "a": "German",
+       "b": "Alman; Almanca"
+      },
+      {
+       "a": "Italian",
+       "b": "İtalyan; İtalyanca"
+      },
+      {
+       "a": "Spanish",
+       "b": "İspanyol; İspanyolca"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Nationalities and languages",
+   "items": [
+    {
+     "en": "Danish",
+     "tr": "Danimarkalı; Danca",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "Swedish",
+     "tr": "İsveçli; İsveççe",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "Polish",
+     "tr": "Polonyalı; Lehçe",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "Dutch",
+     "tr": "Hollandalı; Hollandaca",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "Danish",
+       "b": "Danimarkalı; Danca"
+      },
+      {
+       "a": "Swedish",
+       "b": "İsveçli; İsveççe"
+      },
+      {
+       "a": "Polish",
+       "b": "Polonyalı; Lehçe"
+      },
+      {
+       "a": "Dutch",
+       "b": "Hollandalı; Hollandaca"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Food and culture",
+   "items": [
+    {
+     "en": "cuisine",
+     "tr": "mutfak kültürü",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "ingredient",
+     "tr": "malzeme",
+     "img": "/app/img/words/ingredient.jpg",
+     "imageFit": "contain"
+    },
+    {
+     "en": "appetiser",
+     "tr": "iştah açıcı başlangıç yemeği",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "main course",
+     "tr": "ana yemek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "cuisine",
+       "b": "mutfak kültürü"
+      },
+      {
+       "a": "ingredient",
+       "b": "malzeme"
+      },
+      {
+       "a": "appetiser",
+       "b": "iştah açıcı başlangıç yemeği"
+      },
+      {
+       "a": "main course",
+       "b": "ana yemek"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Food and culture",
+   "items": [
+    {
+     "en": "dessert",
+     "tr": "tatlı",
+     "img": "/app/img/words/dessert.jpg",
+     "imageFit": "contain"
+    },
+    {
+     "en": "dumpling",
+     "tr": "içi doldurulmuş hamur yemeği",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "food stall",
+     "tr": "yiyecek standı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "heritage",
+     "tr": "kültürel miras",
+     "img": "/content/g6/shared/img/36297.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/36297",
+     "imageFit": "contain"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "dessert",
+       "b": "tatlı"
+      },
+      {
+       "a": "dumpling",
+       "b": "içi doldurulmuş hamur yemeği"
+      },
+      {
+       "a": "food stall",
+       "b": "yiyecek standı"
+      },
+      {
+       "a": "heritage",
+       "b": "kültürel miras"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Flavours and experiences",
+   "items": [
+    {
+     "en": "crispy",
+     "tr": "çıtır",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "crunchy",
+     "tr": "kıtır",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "sour",
+     "tr": "ekşi",
+     "img": "/content/g6/shared/img/3022.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/3022",
+     "imageFit": "contain"
+    },
+    {
+     "en": "spicy",
+     "tr": "baharatlı",
+     "img": "/content/g6/shared/img/4719.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/4719",
+     "imageFit": "contain"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "crispy",
+       "b": "çıtır"
+      },
+      {
+       "a": "crunchy",
+       "b": "kıtır"
+      },
+      {
+       "a": "sour",
+       "b": "ekşi"
+      },
+      {
+       "a": "spicy",
+       "b": "baharatlı"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Flavours and experiences",
+   "items": [
+    {
+     "en": "bitter",
+     "tr": "acı (tat)",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "homemade",
+     "tr": "ev yapımı",
+     "img": "/content/g6/shared/img/2342.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2342",
+     "imageFit": "contain"
+    },
+    {
+     "en": "tradition",
+     "tr": "gelenek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "capital",
+     "tr": "başkent",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "bitter",
+       "b": "acı (tat)"
+      },
+      {
+       "a": "homemade",
+       "b": "ev yapımı"
+      },
+      {
+       "a": "tradition",
+       "b": "gelenek"
+      },
+      {
+       "a": "capital",
+       "b": "başkent"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A completed experience",
+   "rule": "Geçmişte biten eylem: fiil + -ed. live/lived, try/tried, stop/stopped. Yesterday, last week gibi zaman ifadeleri kullanılır.",
+   "grammarId": "past-regular",
+   "examples": [
+    {
+     "en": "We *visited* a food market last Sunday.",
+     "tr": "Geçen pazar bir yiyecek pazarını ziyaret ettik.",
+     "trEm": [
+      "ziyaret ettik"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A completed experience",
+   "rule": "Geçmişte biten eylem: fiil + -ed. live/lived, try/tried, stop/stopped. Yesterday, last week gibi zaman ifadeleri kullanılır.",
+   "grammarId": "past-regular",
+   "examples": [
+    {
+     "en": "Maya *tried* a homemade dessert.",
+     "tr": "Maya ev yapımı bir tatlı denedi.",
+     "trEm": [
+      "denedi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Last night, the chef ___ a new dish.",
+     "answer": "prepared",
+     "options": [
+      "prepared",
+      "prepare",
+      "prepares",
+      "preparing"
+     ]
+    }
+   ],
+   "grammarId": "past-regular"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "They ___ the recipe yesterday.",
+     "answer": "studied",
+     "options": [
+      "studied",
+      "studyed",
+      "study",
+      "studying"
+     ]
+    }
+   ],
+   "grammarId": "past-regular"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Our group ___ at a food stall last Saturday.",
+     "answer": "stopped",
+     "options": [
+      "stopped",
+      "stoped",
+      "stop",
+      "stopping"
+     ]
+    }
+   ],
+   "grammarId": "past-regular"
+  },
+  {
+   "type": "grammar",
+   "title": "What didn't happen?",
+   "rule": "Geçmişte olumsuz: didn't + yalın fiil. Fiile ayrıca -ed eklenmez.",
+   "grammarId": "past-negative",
+   "examples": [
+    {
+     "en": "I *didn't taste* the spicy soup.",
+     "tr": "Baharatlı çorbayı tatmadım.",
+     "trEm": [
+      "tatmadım"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "What didn't happen?",
+   "rule": "Geçmişte olumsuz: didn't + yalın fiil. Fiile ayrıca -ed eklenmez.",
+   "grammarId": "past-negative",
+   "examples": [
+    {
+     "en": "The visitors *didn't stay* for dinner.",
+     "tr": "Ziyaretçiler akşam yemeğine kalmadı.",
+     "trEm": [
+      "kalmadı"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "We didn't ___ the pop-up market yesterday.",
+     "answer": "visit",
+     "options": [
+      "visit",
+      "visited",
+      "visiting",
+      "visits"
+     ]
+    }
+   ],
+   "grammarId": "past-negative"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The chef ___ the dessert; it was served cold.",
+     "answer": "didn't heat",
+     "options": [
+      "didn't heat",
+      "didn't heated",
+      "doesn't heated",
+      "not heated"
+     ]
+    }
+   ],
+   "grammarId": "past-negative"
+  },
+  {
+   "type": "grammar",
+   "title": "Questions about a visit",
+   "rule": "Did + özne + yalın fiil? Kısa cevap: Yes, ... did / No, ... didn't. Where/When/What/Why sorunun başına gelebilir.",
+   "grammarId": "past-questions",
+   "examples": [
+    {
+     "en": "*Did* you *enjoy* the food event?",
+     "tr": "Yemek etkinliğinden keyif aldın mı?",
+     "trEm": [
+      "keyif aldın mı"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Questions about a visit",
+   "rule": "Did + özne + yalın fiil? Kısa cevap: Yes, ... did / No, ... didn't. Where/When/What/Why sorunun başına gelebilir.",
+   "grammarId": "past-questions",
+   "examples": [
+    {
+     "en": "Where *did* they *stay*?",
+     "tr": "Nerede kaldılar?",
+     "trEm": [
+      "kaldılar"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Did Noor ___ the Italian dish?",
+     "answer": "try",
+     "options": [
+      "try",
+      "tried",
+      "tries",
+      "trying"
+     ]
+    }
+   ],
+   "grammarId": "past-questions"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Did the visitors like the appetiser? Yes, they ___.",
+     "answer": "did",
+     "options": [
+      "did",
+      "do",
+      "were",
+      "are"
+     ]
+    }
+   ],
+   "grammarId": "past-questions"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Where ___ you travel last summer?",
+     "answer": "did",
+     "options": [
+      "did",
+      "do",
+      "does",
+      "are"
+     ]
+    }
+   ],
+   "grammarId": "past-questions"
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a past experience",
+   "rule": "Olumlu geçmiş fiil cümlesi + didn't + zamir; didn't ile olumsuz cümle + did + zamir.",
+   "grammarId": "regular-past-tags",
+   "examples": [
+    {
+     "en": "You enjoyed the main course, *didn't you*?",
+     "tr": "Ana yemeği beğendin, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a past experience",
+   "rule": "Olumlu geçmiş fiil cümlesi + didn't + zamir; didn't ile olumsuz cümle + did + zamir.",
+   "grammarId": "regular-past-tags",
+   "examples": [
+    {
+     "en": "Lina didn't order soup, *did she*?",
+     "tr": "Lina çorba sipariş etmedi, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The chef heated the bread, ___?",
+     "answer": "didn't he",
+     "options": [
+      "didn't he",
+      "wasn't he",
+      "doesn't he",
+      "did he"
+     ]
+    }
+   ],
+   "grammarId": "regular-past-tags"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "They didn't visit Poland, ___?",
+     "answer": "did they",
+     "options": [
+      "did they",
+      "didn't they",
+      "were they",
+      "do they"
+     ]
+    }
+   ],
+   "grammarId": "regular-past-tags"
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Maya",
+       "text": "Did you visit the culture market?",
+       "tr": "Kültür pazarını ziyaret ettin mi?"
+      },
+      {
+       "who": "Leo",
+       "text": "Yes. I enjoyed the homemade dishes.",
+       "tr": "Evet. Ev yapımı yemekleri beğendim."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Maya",
+       "text": "You tried the crispy appetiser, didn't you?",
+       "tr": "Çıtır başlangıç yemeğini denedin, değil mi?"
+      },
+      {
+       "who": "Leo",
+       "text": "Yes, I did. But I didn't order a dessert.",
+       "tr": "Evet. Ama tatlı sipariş etmedim."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "Our classroom culture market",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "Last Thursday, our class organised a culture market. Each group prepared a food poster and introduced a country. Leo's group presented Italy. Noor's group described Sweden. They used English for their presentations and practised a few Swedish words too."
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "Our classroom culture market",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "Maya prepared a poster about ingredients in a homemade dessert. Visitors listened to the groups and asked questions. I tried a crispy appetiser, but I didn't taste the spicy dish. At the end, we thanked the visitors and cleaned the room together."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "When was the culture market?",
+     "answer": "Last Thursday."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Which country did Leo's group present?",
+     "answer": "Italy."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "What was Maya's poster about?",
+     "answer": "Ingredients in a homemade dessert."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "What didn't the writer taste?",
+     "answer": "The spicy dish."
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "France",
+      "tr": "Fransa",
+      "img": "/app/img/flags/fr.svg",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/france.wav"
+     },
+     {
+      "en": "Germany",
+      "tr": "Almanya",
+      "img": "/app/img/flags/de.svg",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/germany.wav"
+     },
+     {
+      "en": "Italy",
+      "tr": "İtalya",
+      "img": "/app/img/flags/it.svg",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/italy.wav"
+     },
+     {
+      "en": "Spain",
+      "tr": "İspanya",
+      "img": "/app/img/flags/es.svg",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/spain.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "France",
+      "tr": "Fransa",
+      "img": "/app/img/flags/fr.svg",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/france.wav"
+     },
+     {
+      "en": "Germany",
+      "tr": "Almanya",
+      "img": "/app/img/flags/de.svg",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/germany.wav"
+     },
+     {
+      "en": "Italy",
+      "tr": "İtalya",
+      "img": "/app/img/flags/it.svg",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/italy.wav"
+     },
+     {
+      "en": "Spain",
+      "tr": "İspanya",
+      "img": "/app/img/flags/es.svg",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/spain.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We visited a food market last Sunday.",
+      "tr": "Geçen pazar bir yiyecek pazarını ziyaret ettik."
+     },
+     {
+      "answer": "Maya tried a homemade dessert.",
+      "tr": "Maya ev yapımı bir tatlı denedi."
+     },
+     {
+      "answer": "I didn't taste the spicy soup.",
+      "tr": "Baharatlı çorbayı tatmadım."
+     },
+     {
+      "answer": "The visitors didn't stay for dinner.",
+      "tr": "Ziyaretçiler akşam yemeğine kalmadı."
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Your turn to speak",
+   "task": {
+    "kind": "flash",
+    "q": "Interview a partner about an imaginary culture market. Ask three Did questions and one Where or When question. Check a detail with a past question tag.",
+    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
+   }
+  },
+  {
+   "type": "end",
+   "title": "Ready for more practice",
+   "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
+   "emoji": "🎯"
+  }
+ ]
+}

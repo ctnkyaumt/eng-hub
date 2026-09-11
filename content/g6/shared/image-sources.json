@@ -1,0 +1,186 @@
+{
+ "credit": "Pictograms: Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA. Original files, no changes.",
+ "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+ "images": {
+  "run": {
+   "url": "https://static.arasaac.org/pictograms/2719/2719_500.png",
+   "file": "2719.png",
+   "source": "https://arasaac.org/pictograms/en/2719"
+  },
+  "follow": {
+   "url": "https://static.arasaac.org/pictograms/7037/7037_500.png",
+   "file": "7037.png",
+   "source": "https://arasaac.org/pictograms/en/7037"
+  },
+  "bright": {
+   "url": "https://static.arasaac.org/pictograms/8619/8619_500.png",
+   "file": "8619.png",
+   "source": "https://arasaac.org/pictograms/en/8619"
+  },
+  "cycle": {
+   "url": "https://static.arasaac.org/pictograms/5517/5517_500.png",
+   "file": "5517.png",
+   "source": "https://arasaac.org/pictograms/en/5517"
+  },
+  "fish": {
+   "url": "https://static.arasaac.org/pictograms/2520/2520_500.png",
+   "file": "2520.png",
+   "source": "https://arasaac.org/pictograms/en/2520"
+  },
+  "guide": {
+   "url": "https://static.arasaac.org/pictograms/8993/8993_500.png",
+   "file": "8993.png",
+   "source": "https://arasaac.org/pictograms/en/8993"
+  },
+  "crowded": {
+   "url": "https://static.arasaac.org/pictograms/38445/38445_500.png",
+   "file": "38445.png",
+   "source": "https://arasaac.org/pictograms/en/38445"
+  },
+  "local": {
+   "url": "https://static.arasaac.org/pictograms/5367/5367_500.png",
+   "file": "5367.png",
+   "source": "https://arasaac.org/pictograms/en/5367"
+  },
+  "plastic": {
+   "url": "https://static.arasaac.org/pictograms/10288/10288_500.png",
+   "file": "10288.png",
+   "source": "https://arasaac.org/pictograms/en/10288"
+  },
+  "salad": {
+   "url": "https://static.arasaac.org/pictograms/2377/2377_500.png",
+   "file": "2377.png",
+   "source": "https://arasaac.org/pictograms/en/2377"
+  },
+  "soup": {
+   "url": "https://static.arasaac.org/pictograms/2573/2573_500.png",
+   "file": "2573.png",
+   "source": "https://arasaac.org/pictograms/en/2573"
+  },
+  "homemade": {
+   "url": "https://static.arasaac.org/pictograms/2342/2342_500.png",
+   "file": "2342.png",
+   "source": "https://arasaac.org/pictograms/en/2342"
+  },
+  "heat": {
+   "url": "https://static.arasaac.org/pictograms/8520/8520_500.png",
+   "file": "8520.png",
+   "source": "https://arasaac.org/pictograms/en/8520"
+  },
+  "cook": {
+   "url": "https://static.arasaac.org/pictograms/2342/2342_500.png",
+   "file": "2342.png",
+   "source": "https://arasaac.org/pictograms/en/2342"
+  },
+  "elephant": {
+   "url": "https://static.arasaac.org/pictograms/2372/2372_500.png",
+   "file": "2372.png",
+   "source": "https://arasaac.org/pictograms/en/2372"
+  },
+  "parrot": {
+   "url": "https://static.arasaac.org/pictograms/2934/2934_500.png",
+   "file": "2934.png",
+   "source": "https://arasaac.org/pictograms/en/2934"
+  },
+  "weak": {
+   "url": "https://static.arasaac.org/pictograms/4620/4620_500.png",
+   "file": "4620.png",
+   "source": "https://arasaac.org/pictograms/en/4620"
+  },
+  "rest / relax": {
+   "url": "https://static.arasaac.org/pictograms/3299/3299_500.png",
+   "file": "3299.png",
+   "source": "https://arasaac.org/pictograms/en/3299"
+  },
+  "pack": {
+   "url": "https://static.arasaac.org/pictograms/2931/2931_500.png",
+   "file": "2931.png",
+   "source": "https://arasaac.org/pictograms/en/2931"
+  },
+  "share": {
+   "url": "https://static.arasaac.org/pictograms/15361/15361_500.png",
+   "file": "15361.png",
+   "source": "https://arasaac.org/pictograms/en/15361"
+  },
+  "support": {
+   "url": "https://static.arasaac.org/pictograms/30008/30008_500.png",
+   "file": "30008.png",
+   "source": "https://arasaac.org/pictograms/en/30008"
+  },
+  "serious": {
+   "url": "https://static.arasaac.org/pictograms/8690/8690_500.png",
+   "file": "8690.png",
+   "source": "https://arasaac.org/pictograms/en/8690"
+  },
+  "write a diary": {
+   "url": "https://static.arasaac.org/pictograms/2380/2380_500.png",
+   "file": "2380.png",
+   "source": "https://arasaac.org/pictograms/en/2380"
+  },
+  "have breakfast": {
+   "url": "https://static.arasaac.org/pictograms/4625/4625_500.png",
+   "file": "4625.png",
+   "source": "https://arasaac.org/pictograms/en/4625"
+  },
+  "storm": {
+   "url": "https://static.arasaac.org/pictograms/2814/2814_500.png",
+   "file": "2814.png",
+   "source": "https://arasaac.org/pictograms/en/2814"
+  },
+  "lightning": {
+   "url": "https://static.arasaac.org/pictograms/2819/2819_500.png",
+   "file": "2819.png",
+   "source": "https://arasaac.org/pictograms/en/2819"
+  },
+  "thunder": {
+   "url": "https://static.arasaac.org/pictograms/3225/3225_500.png",
+   "file": "3225.png",
+   "source": "https://arasaac.org/pictograms/en/3225"
+  },
+  "hiking": {
+   "url": "https://static.arasaac.org/pictograms/4670/4670_500.png",
+   "file": "4670.png",
+   "source": "https://arasaac.org/pictograms/en/4670"
+  },
+  "sour": {
+   "url": "https://static.arasaac.org/pictograms/3022/3022_500.png",
+   "file": "3022.png",
+   "source": "https://arasaac.org/pictograms/en/3022"
+  },
+  "spicy": {
+   "url": "https://static.arasaac.org/pictograms/4719/4719_500.png",
+   "file": "4719.png",
+   "source": "https://arasaac.org/pictograms/en/4719"
+  },
+  "remove": {
+   "url": "https://static.arasaac.org/pictograms/11751/11751_500.png",
+   "file": "11751.png",
+   "source": "https://arasaac.org/pictograms/en/11751"
+  },
+  "polite": {
+   "url": "https://static.arasaac.org/pictograms/11621/11621_500.png",
+   "file": "11621.png",
+   "source": "https://arasaac.org/pictograms/en/11621"
+  },
+  "company": {
+   "url": "https://static.arasaac.org/pictograms/8581/8581_500.png",
+   "file": "8581.png",
+   "source": "https://arasaac.org/pictograms/en/8581"
+  },
+  "heritage": {
+   "url": "https://static.arasaac.org/pictograms/36297/36297_500.png",
+   "file": "36297.png",
+   "source": "https://arasaac.org/pictograms/en/36297"
+  },
+  "feel exhausted": {
+   "url": "https://static.arasaac.org/pictograms/2314/2314_500.png",
+   "file": "2314.png",
+   "source": "https://arasaac.org/pictograms/en/2314"
+  },
+  "invent": {
+   "url": "https://static.arasaac.org/pictograms/6019/6019_500.png",
+   "file": "6019.png",
+   "source": "https://arasaac.org/pictograms/en/6019"
+  }
+ }
+}

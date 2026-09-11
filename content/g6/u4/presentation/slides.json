@@ -1,0 +1,1106 @@
+{
+ "title": "Family Life",
+ "titleTr": "Aile Hayatı",
+ "emoji": "👨‍👩‍👧",
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "accent": [
+  "#0d9488",
+  "#2563eb"
+ ],
+ "source": {
+  "studentBook": {
+   "file": "ingilizce6_ders_kitabi.pdf",
+   "pages": [
+    69,
+    82
+   ]
+  },
+  "workbook": {
+   "file": "ingilizce6_calisma_kitabi.pdf",
+   "pages": [
+    33,
+    40
+   ]
+  },
+  "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+ },
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 4",
+   "title": "Family Life",
+   "titleTr": "Aile Hayatı",
+   "emoji": "👨‍👩‍👧"
+  },
+  {
+   "type": "scene",
+   "title": "Our lesson",
+   "emoji": "👨‍👩‍👧",
+   "bubbles": [
+    {
+     "text": "Talk about jobs, homes and family plans."
+    },
+    {
+     "text": "Distinguish arrangements from timetables."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Jobs",
+   "items": [
+    {
+     "en": "author",
+     "tr": "yazar",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "dentist",
+     "tr": "diş hekimi",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "engineer",
+     "tr": "mühendis",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "reporter",
+     "tr": "muhabir",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "author",
+       "b": "yazar"
+      },
+      {
+       "a": "dentist",
+       "b": "diş hekimi"
+      },
+      {
+       "a": "engineer",
+       "b": "mühendis"
+      },
+      {
+       "a": "reporter",
+       "b": "muhabir"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Jobs",
+   "items": [
+    {
+     "en": "cook",
+     "tr": "aşçı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "pilot",
+     "tr": "pilot",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "lawyer",
+     "tr": "avukat",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "designer",
+     "tr": "tasarımcı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "cook",
+       "b": "aşçı"
+      },
+      {
+       "a": "pilot",
+       "b": "pilot"
+      },
+      {
+       "a": "lawyer",
+       "b": "avukat"
+      },
+      {
+       "a": "designer",
+       "b": "tasarımcı"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "At work",
+   "items": [
+    {
+     "en": "manager",
+     "tr": "yönetici",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "assistant",
+     "tr": "asistan",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "professor",
+     "tr": "profesör",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "officer",
+     "tr": "memur",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "manager",
+       "b": "yönetici"
+      },
+      {
+       "a": "assistant",
+       "b": "asistan"
+      },
+      {
+       "a": "professor",
+       "b": "profesör"
+      },
+      {
+       "a": "officer",
+       "b": "memur"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "At work",
+   "items": [
+    {
+     "en": "company",
+     "tr": "şirket",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "factory",
+     "tr": "fabrika",
+     "img": "/content/g6/shared/img/8581.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/8581",
+     "imageFit": "contain"
+    },
+    {
+     "en": "employee",
+     "tr": "çalışan",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "employer",
+     "tr": "işveren",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "company",
+       "b": "şirket"
+      },
+      {
+       "a": "factory",
+       "b": "fabrika"
+      },
+      {
+       "a": "employee",
+       "b": "çalışan"
+      },
+      {
+       "a": "employer",
+       "b": "işveren"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Homes",
+   "items": [
+    {
+     "en": "apartment",
+     "tr": "apartman dairesi",
+     "img": "/content/g5/u5/presentation/img/p02-01.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "address",
+     "tr": "adres",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "entrance",
+     "tr": "giriş",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "roof",
+     "tr": "çatı",
+     "img": "/content/g5/u5/presentation/img/p02-12.png",
+     "imageFit": "contain"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "apartment",
+       "b": "apartman dairesi"
+      },
+      {
+       "a": "address",
+       "b": "adres"
+      },
+      {
+       "a": "entrance",
+       "b": "giriş"
+      },
+      {
+       "a": "roof",
+       "b": "çatı"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Homes",
+   "items": [
+    {
+     "en": "upstairs",
+     "tr": "üst katta",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "downstairs",
+     "tr": "alt katta",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "floor",
+     "tr": "kat",
+     "img": "/content/g5/u5/presentation/img/p02-10.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "key",
+     "tr": "anahtar",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "upstairs",
+       "b": "üst katta"
+      },
+      {
+       "a": "downstairs",
+       "b": "alt katta"
+      },
+      {
+       "a": "floor",
+       "b": "kat"
+      },
+      {
+       "a": "key",
+       "b": "anahtar"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Inside a home",
+   "items": [
+    {
+     "en": "bookshelf",
+     "tr": "kitaplık",
+     "img": "/content/g5/u2/presentation/img/p02-19.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "drawer",
+     "tr": "çekmece",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "curtain",
+     "tr": "perde",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "carpet",
+     "tr": "halı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "bookshelf",
+       "b": "kitaplık"
+      },
+      {
+       "a": "drawer",
+       "b": "çekmece"
+      },
+      {
+       "a": "curtain",
+       "b": "perde"
+      },
+      {
+       "a": "carpet",
+       "b": "halı"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Inside a home",
+   "items": [
+    {
+     "en": "blanket",
+     "tr": "battaniye",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "pillow",
+     "tr": "yastık",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "refrigerator",
+     "tr": "buzdolabı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "sink",
+     "tr": "lavabo",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "blanket",
+       "b": "battaniye"
+      },
+      {
+       "a": "pillow",
+       "b": "yastık"
+      },
+      {
+       "a": "refrigerator",
+       "b": "buzdolabı"
+      },
+      {
+       "a": "sink",
+       "b": "lavabo"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Family arrangements",
+   "rule": "Kesinleşmiş gelecek düzenlemesi: am/is/are + fiil-ing + gelecek zaman ifadesi (tomorrow, next Saturday).",
+   "grammarId": "arrangements",
+   "examples": [
+    {
+     "en": "We *are visiting* a designer tomorrow.",
+     "tr": "Yarın bir tasarımcıyı ziyaret ediyoruz.",
+     "trEm": [
+      "ziyaret ediyoruz"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Family arrangements",
+   "rule": "Kesinleşmiş gelecek düzenlemesi: am/is/are + fiil-ing + gelecek zaman ifadesi (tomorrow, next Saturday).",
+   "grammarId": "arrangements",
+   "examples": [
+    {
+     "en": "My aunt *is moving* next Saturday.",
+     "tr": "Teyzem gelecek cumartesi taşınıyor.",
+     "trEm": [
+      "taşınıyor"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Our visit is arranged. We ___ the author tomorrow.",
+     "answer": "are meeting",
+     "options": [
+      "are meeting",
+      "met",
+      "meeting",
+      "is meeting"
+     ]
+    }
+   ],
+   "grammarId": "arrangements"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Mum's appointment is booked. She ___ the dentist on Friday.",
+     "answer": "is seeing",
+     "options": [
+      "is seeing",
+      "seeing",
+      "are seeing",
+      "saw"
+     ]
+    }
+   ],
+   "grammarId": "arrangements"
+  },
+  {
+   "type": "grammar",
+   "title": "Timetables",
+   "rule": "Resmî program veya tarifede gelecek olaylar için geniş zaman kullanılır: The train leaves at ...",
+   "grammarId": "future-timetables",
+   "examples": [
+    {
+     "en": "The workshop *starts* at eleven tomorrow.",
+     "tr": "Atölye yarın saat on birde başlıyor.",
+     "trEm": [
+      "başlıyor"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Timetables",
+   "rule": "Resmî program veya tarifede gelecek olaylar için geniş zaman kullanılır: The train leaves at ...",
+   "grammarId": "future-timetables",
+   "examples": [
+    {
+     "en": "The next train *leaves* at 08:20.",
+     "tr": "Sonraki tren 08.20'de kalkıyor.",
+     "trEm": [
+      "kalkıyor"
+     ],
+     "textOnly": true,
+     "time": "08:20"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "According to the timetable, the flight ___ at 7 tomorrow.",
+     "answer": "leaves",
+     "options": [
+      "leaves",
+      "leave",
+      "leaving",
+      "left"
+     ]
+    }
+   ],
+   "grammarId": "future-timetables"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The office tour ___ at noon next Monday, according to the programme.",
+     "answer": "begins",
+     "options": [
+      "begins",
+      "begin",
+      "beginning",
+      "began"
+     ]
+    }
+   ],
+   "grammarId": "future-timetables"
+  },
+  {
+   "type": "grammar",
+   "title": "When and while",
+   "rule": "When bir olayın zamanını belirtir. While aynı anda süren iki eylemi bağlar. Gelecek anlamlı zaman yan cümlesinde genellikle geniş zaman kullanılır.",
+   "grammarId": "when-while",
+   "examples": [
+    {
+     "en": "I check the address *when* I leave home.",
+     "tr": "Evden çıktığımda adresi kontrol ederim. (When: -dığında)",
+     "trEm": [
+      "When"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "When and while",
+   "rule": "When bir olayın zamanını belirtir. While aynı anda süren iki eylemi bağlar. Gelecek anlamlı zaman yan cümlesinde genellikle geniş zaman kullanılır.",
+   "grammarId": "when-while",
+   "examples": [
+    {
+     "en": "Dad reads *while* Mum draws.",
+     "tr": "Annem çizim yaparken babam okur. (While: -ken)",
+     "trEm": [
+      "While"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ the cook is preparing lunch, the reporter is writing.",
+     "answer": "While",
+     "options": [
+      "While",
+      "Whose",
+      "Which",
+      "Where"
+     ]
+    }
+   ],
+   "grammarId": "when-while"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "I will call you when I ___ at the apartment.",
+     "answer": "arrive",
+     "options": [
+      "arrive",
+      "will arrive",
+      "arriving",
+      "arrives"
+     ]
+    }
+   ],
+   "grammarId": "when-while"
+  },
+  {
+   "type": "grammar",
+   "title": "Choosing between things",
+   "rule": "Which sınırlı seçenekler arasından hangisini sorduğumuzu gösterir. Which + isim + soru yapısı.",
+   "grammarId": "which",
+   "examples": [
+    {
+     "en": "*Which* apartment is your uncle's, the first or the second?",
+     "tr": "Birinci mi ikinci mi, hangi daire amcanın?",
+     "trEm": [
+      "hangi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Choosing between things",
+   "rule": "Which sınırlı seçenekler arasından hangisini sorduğumuzu gösterir. Which + isim + soru yapısı.",
+   "grammarId": "which",
+   "examples": [
+    {
+     "en": "*Which* job do you like, reporter or designer?",
+     "tr": "Muhabirlik mi tasarımcılık mı, hangi işi seviyorsun?",
+     "trEm": [
+      "hangi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ floor is your home on, the first or the second?",
+     "answer": "Which",
+     "options": [
+      "Which",
+      "Whose",
+      "Who",
+      "How often"
+     ]
+    }
+   ],
+   "grammarId": "which"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ key opens this door, the small one or the large one?",
+     "answer": "Which",
+     "options": [
+      "Which",
+      "Who",
+      "When",
+      "How much"
+     ]
+    }
+   ],
+   "grammarId": "which"
+  },
+  {
+   "type": "grammar",
+   "title": "Doing something yourself",
+   "rule": "Özne ve nesne aynı kişiyse: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. By myself: tek başıma.",
+   "grammarId": "reflexive-pronouns",
+   "examples": [
+    {
+     "en": "The author introduces *herself*.",
+     "tr": "Yazar kendini tanıtıyor.",
+     "trEm": [
+      "kendini"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Doing something yourself",
+   "rule": "Özne ve nesne aynı kişiyse: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves. By myself: tek başıma.",
+   "grammarId": "reflexive-pronouns",
+   "examples": [
+    {
+     "en": "We make the model house *ourselves*.",
+     "tr": "Maket evi kendimiz yapıyoruz.",
+     "trEm": [
+      "kendimiz"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The children draw their dream home ___.",
+     "answer": "themselves",
+     "options": [
+      "themselves",
+      "himself",
+      "ourselves",
+      "herself"
+     ]
+    }
+   ],
+   "grammarId": "reflexive-pronouns"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "I carry my own bag ___.",
+     "answer": "myself",
+     "options": [
+      "myself",
+      "yourself",
+      "himself",
+      "themselves"
+     ]
+    }
+   ],
+   "grammarId": "reflexive-pronouns"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Leo introduces ___ to the designer.",
+     "answer": "himself",
+     "options": [
+      "himself",
+      "herself",
+      "itself",
+      "yourself"
+     ]
+    }
+   ],
+   "grammarId": "reflexive-pronouns"
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Lina",
+       "text": "Which office are we visiting tomorrow?",
+       "tr": "Yarın hangi ofisi ziyaret ediyoruz?"
+      },
+      {
+       "who": "Dad",
+       "text": "Your aunt's. The tour starts at eleven.",
+       "tr": "Teyzeninkini. Tur saat on birde başlıyor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Lina",
+       "text": "Are we helping Uncle Sam afterwards?",
+       "tr": "Sonra Sam amcaya yardım ediyor muyuz?"
+      },
+      {
+       "who": "Dad",
+       "text": "Yes. He is moving, and we are carrying the boxes ourselves.",
+       "tr": "Evet. Taşınıyor ve kutuları kendimiz taşıyoruz."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "A visit and a new home",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "Lina's aunt is a designer. She works for a small company near the station. On Saturday, Lina and her father are visiting her office. Their train leaves at 09:40, and the office tour starts at eleven. After the tour, they are helping Lina's uncle at his new apartment."
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "A visit and a new home",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "It is on the second floor. The entrance is next to a bakery. Lina is making a label for his key herself. While her father carries a bookshelf, her uncle checks the address on a box."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "What is Lina's aunt's job?",
+     "answer": "She is a designer."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "When does the train leave?",
+     "answer": "At 09:40."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Which floor is the new apartment on?",
+     "answer": "The second floor."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Who makes the key label?",
+     "answer": "Lina makes it herself."
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "factory",
+      "tr": "fabrika",
+      "img": "/content/g6/shared/img/8581.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/8581",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/factory.wav"
+     },
+     {
+      "en": "apartment",
+      "tr": "apartman dairesi",
+      "img": "/content/g5/u5/presentation/img/p02-01.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/apartment.wav"
+     },
+     {
+      "en": "roof",
+      "tr": "çatı",
+      "img": "/content/g5/u5/presentation/img/p02-12.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/roof.wav"
+     },
+     {
+      "en": "floor",
+      "tr": "kat",
+      "img": "/content/g5/u5/presentation/img/p02-10.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/floor.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "factory",
+      "tr": "fabrika",
+      "img": "/content/g6/shared/img/8581.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/8581",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/factory.wav"
+     },
+     {
+      "en": "apartment",
+      "tr": "apartman dairesi",
+      "img": "/content/g5/u5/presentation/img/p02-01.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/apartment.wav"
+     },
+     {
+      "en": "roof",
+      "tr": "çatı",
+      "img": "/content/g5/u5/presentation/img/p02-12.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/roof.wav"
+     },
+     {
+      "en": "floor",
+      "tr": "kat",
+      "img": "/content/g5/u5/presentation/img/p02-10.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/floor.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "We are visiting a designer tomorrow.",
+      "tr": "Yarın bir tasarımcıyı ziyaret ediyoruz."
+     },
+     {
+      "answer": "My aunt is moving next Saturday.",
+      "tr": "Teyzem gelecek cumartesi taşınıyor."
+     },
+     {
+      "answer": "The workshop starts at eleven tomorrow.",
+      "tr": "Atölye yarın saat on birde başlıyor."
+     },
+     {
+      "answer": "The next train leaves at 08:20.",
+      "tr": "Sonraki tren 08.20'de kalkıyor."
+     },
+     {
+      "answer": "I check the address when I leave home.",
+      "tr": "Evden çıktığımda adresi kontrol ederim. (When: -dığında)"
+     },
+     {
+      "answer": "Dad reads while Mum draws.",
+      "tr": "Annem çizim yaparken babam okur. (While: -ken)"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Your turn to speak",
+   "task": {
+    "kind": "flash",
+    "q": "Plan a family visit to a workplace. Agree on an appointment and use a timetable. Ask which place to visit. Explain what each person can do themselves.",
+    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
+   }
+  },
+  {
+   "type": "end",
+   "title": "Ready for more practice",
+   "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
+   "emoji": "🎯"
+  }
+ ]
+}

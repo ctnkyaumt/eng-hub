@@ -105,6 +105,12 @@ def grab_image(url, img_dir, seen):
 
 
 def build_unit(gid, uid, src, want_images, force):
+    authored_path = os.path.join(CONTENT, gid, uid, "games", "bank.json")
+    if gid == "g6" and os.path.isfile(authored_path):
+        with open(authored_path, encoding="utf-8") as f:
+            authored = json.load(f)
+        if authored.get("authored") and authored.get("curriculum") == "meb-english-6-2026":
+            return sum(len(s["questions"]) for s in authored["sets"]), len(authored["words"])
     games = src.get("offlineGames") or []
     online = src.get("onlineGames") or []
     base = os.path.join(CONTENT, gid, uid, "games")

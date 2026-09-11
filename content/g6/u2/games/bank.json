@@ -1,1 +1,1897 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-u2-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "habit - choose the meaning.",
+     "a": [
+      {
+       "t": "alışkanlık",
+       "c": true
+      },
+      {
+       "t": "yüz",
+       "c": false
+      },
+      {
+       "t": "günlük",
+       "c": false
+      },
+      {
+       "t": "paylaşmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "diary - choose the meaning.",
+     "a": [
+      {
+       "t": "araştırma",
+       "c": false
+      },
+      {
+       "t": "görev",
+       "c": false
+      },
+      {
+       "t": "yöntem",
+       "c": false
+      },
+      {
+       "t": "günlük",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "research - choose the meaning.",
+     "a": [
+      {
+       "t": "yüz",
+       "c": false
+      },
+      {
+       "t": "ellinci",
+       "c": false
+      },
+      {
+       "t": "ikili",
+       "c": false
+      },
+      {
+       "t": "araştırma",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "method - choose the meaning.",
+     "a": [
+      {
+       "t": "yöntem",
+       "c": true
+      },
+      {
+       "t": "alışkanlık",
+       "c": false
+      },
+      {
+       "t": "tekrar etmek",
+       "c": false
+      },
+      {
+       "t": "günlük",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "review - choose the meaning.",
+     "a": [
+      {
+       "t": "günlük",
+       "c": false
+      },
+      {
+       "t": "gözden geçirmek",
+       "c": true
+      },
+      {
+       "t": "tekrarlamak",
+       "c": false
+      },
+      {
+       "t": "beş yüz",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "revise - choose the meaning.",
+     "a": [
+      {
+       "t": "sesli okumak",
+       "c": false
+      },
+      {
+       "t": "iki yüz",
+       "c": false
+      },
+      {
+       "t": "sırayla",
+       "c": false
+      },
+      {
+       "t": "tekrar etmek",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "practise - choose the meaning.",
+     "a": [
+      {
+       "t": "ellinci",
+       "c": false
+      },
+      {
+       "t": "iki yüz",
+       "c": false
+      },
+      {
+       "t": "pratik yapmak",
+       "c": true
+      },
+      {
+       "t": "sesli okumak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "remember - choose the meaning.",
+     "a": [
+      {
+       "t": "sessiz okumak",
+       "c": false
+      },
+      {
+       "t": "hatırlamak",
+       "c": true
+      },
+      {
+       "t": "yüz elli",
+       "c": false
+      },
+      {
+       "t": "araştırma",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "peer - choose the meaning.",
+     "a": [
+      {
+       "t": "odaklanmak",
+       "c": false
+      },
+      {
+       "t": "akran",
+       "c": true
+      },
+      {
+       "t": "yirmi üçüncü",
+       "c": false
+      },
+      {
+       "t": "paylaşmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pair - choose the meaning.",
+     "a": [
+      {
+       "t": "odaklanmak",
+       "c": false
+      },
+      {
+       "t": "işaretlemek",
+       "c": false
+      },
+      {
+       "t": "iki yüz",
+       "c": false
+      },
+      {
+       "t": "ikili",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "group - choose the meaning.",
+     "a": [
+      {
+       "t": "on ikinci",
+       "c": false
+      },
+      {
+       "t": "grup",
+       "c": true
+      },
+      {
+       "t": "tekrarlamak",
+       "c": false
+      },
+      {
+       "t": "gözden geçirmek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "task - choose the meaning.",
+     "a": [
+      {
+       "t": "grup",
+       "c": false
+      },
+      {
+       "t": "ikili",
+       "c": false
+      },
+      {
+       "t": "görev",
+       "c": true
+      },
+      {
+       "t": "pratik yapmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "share - choose the meaning.",
+     "a": [
+      {
+       "t": "birlikte",
+       "c": false
+      },
+      {
+       "t": "yüz elli",
+       "c": false
+      },
+      {
+       "t": "paylaşmak",
+       "c": true
+      },
+      {
+       "t": "etkili",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "repeat - choose the meaning.",
+     "a": [
+      {
+       "t": "sesli okumak",
+       "c": false
+      },
+      {
+       "t": "sessiz okumak",
+       "c": false
+      },
+      {
+       "t": "birlikte",
+       "c": false
+      },
+      {
+       "t": "tekrarlamak",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "read aloud - choose the meaning.",
+     "a": [
+      {
+       "t": "sesli okumak",
+       "c": true
+      },
+      {
+       "t": "grup",
+       "c": false
+      },
+      {
+       "t": "fırçalamak",
+       "c": false
+      },
+      {
+       "t": "yirmi üçüncü",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "read silently - choose the meaning.",
+     "a": [
+      {
+       "t": "on ikinci",
+       "c": false
+      },
+      {
+       "t": "etkili",
+       "c": false
+      },
+      {
+       "t": "sessiz okumak",
+       "c": true
+      },
+      {
+       "t": "yöntem",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "brush - choose the meaning.",
+     "a": [
+      {
+       "t": "gözden geçirmek",
+       "c": false
+      },
+      {
+       "t": "yöntem",
+       "c": false
+      },
+      {
+       "t": "birlikte",
+       "c": false
+      },
+      {
+       "t": "fırçalamak",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "rest - choose the meaning.",
+     "a": [
+      {
+       "t": "paylaşmak",
+       "c": false
+      },
+      {
+       "t": "fırçalamak",
+       "c": false
+      },
+      {
+       "t": "dinlenmek",
+       "c": true
+      },
+      {
+       "t": "araştırma",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "focus - choose the meaning.",
+     "a": [
+      {
+       "t": "etkili",
+       "c": false
+      },
+      {
+       "t": "odaklanmak",
+       "c": true
+      },
+      {
+       "t": "yüz elli",
+       "c": false
+      },
+      {
+       "t": "beş yüz",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "mark - choose the meaning.",
+     "a": [
+      {
+       "t": "günlük",
+       "c": false
+      },
+      {
+       "t": "yüz",
+       "c": false
+      },
+      {
+       "t": "işaretlemek",
+       "c": true
+      },
+      {
+       "t": "birlikte",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "effective - choose the meaning.",
+     "a": [
+      {
+       "t": "hatırlamak",
+       "c": false
+      },
+      {
+       "t": "ikili",
+       "c": false
+      },
+      {
+       "t": "grup",
+       "c": false
+      },
+      {
+       "t": "etkili",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "creative - choose the meaning.",
+     "a": [
+      {
+       "t": "araştırma",
+       "c": false
+      },
+      {
+       "t": "görev",
+       "c": false
+      },
+      {
+       "t": "birlikte",
+       "c": false
+      },
+      {
+       "t": "yaratıcı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "in turns - choose the meaning.",
+     "a": [
+      {
+       "t": "sırayla",
+       "c": true
+      },
+      {
+       "t": "araştırma",
+       "c": false
+      },
+      {
+       "t": "odaklanmak",
+       "c": false
+      },
+      {
+       "t": "pratik yapmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "together - choose the meaning.",
+     "a": [
+      {
+       "t": "fırçalamak",
+       "c": false
+      },
+      {
+       "t": "on ikinci",
+       "c": false
+      },
+      {
+       "t": "sessiz okumak",
+       "c": false
+      },
+      {
+       "t": "birlikte",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "one hundred - choose the meaning.",
+     "a": [
+      {
+       "t": "yüz",
+       "c": true
+      },
+      {
+       "t": "dinlenmek",
+       "c": false
+      },
+      {
+       "t": "tekrar etmek",
+       "c": false
+      },
+      {
+       "t": "alışkanlık",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "one hundred and fifty - choose the meaning.",
+     "a": [
+      {
+       "t": "pratik yapmak",
+       "c": false
+      },
+      {
+       "t": "yüz elli",
+       "c": true
+      },
+      {
+       "t": "araştırma",
+       "c": false
+      },
+      {
+       "t": "yirmi üçüncü",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "two hundred - choose the meaning.",
+     "a": [
+      {
+       "t": "iki yüz",
+       "c": true
+      },
+      {
+       "t": "yaratıcı",
+       "c": false
+      },
+      {
+       "t": "yüz",
+       "c": false
+      },
+      {
+       "t": "grup",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "five hundred - choose the meaning.",
+     "a": [
+      {
+       "t": "beş yüz",
+       "c": true
+      },
+      {
+       "t": "günlük",
+       "c": false
+      },
+      {
+       "t": "sessiz okumak",
+       "c": false
+      },
+      {
+       "t": "araştırma",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "first - choose the meaning.",
+     "a": [
+      {
+       "t": "birinci",
+       "c": true
+      },
+      {
+       "t": "sesli okumak",
+       "c": false
+      },
+      {
+       "t": "yüz elli",
+       "c": false
+      },
+      {
+       "t": "yaratıcı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "twelfth - choose the meaning.",
+     "a": [
+      {
+       "t": "işaretlemek",
+       "c": false
+      },
+      {
+       "t": "on ikinci",
+       "c": true
+      },
+      {
+       "t": "araştırma",
+       "c": false
+      },
+      {
+       "t": "fırçalamak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "twenty-third - choose the meaning.",
+     "a": [
+      {
+       "t": "dinlenmek",
+       "c": false
+      },
+      {
+       "t": "yirmi üçüncü",
+       "c": true
+      },
+      {
+       "t": "sessiz okumak",
+       "c": false
+      },
+      {
+       "t": "tekrar etmek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fiftieth - choose the meaning.",
+     "a": [
+      {
+       "t": "paylaşmak",
+       "c": false
+      },
+      {
+       "t": "ellinci",
+       "c": true
+      },
+      {
+       "t": "etkili",
+       "c": false
+      },
+      {
+       "t": "beş yüz",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u2-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "alışkanlık - choose the English word.",
+     "a": [
+      {
+       "t": "diary",
+       "c": false
+      },
+      {
+       "t": "focus",
+       "c": false
+      },
+      {
+       "t": "habit",
+       "c": true
+      },
+      {
+       "t": "one hundred",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "günlük - choose the English word.",
+     "a": [
+      {
+       "t": "twenty-third",
+       "c": false
+      },
+      {
+       "t": "diary",
+       "c": true
+      },
+      {
+       "t": "twelfth",
+       "c": false
+      },
+      {
+       "t": "remember",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "araştırma - choose the English word.",
+     "a": [
+      {
+       "t": "habit",
+       "c": false
+      },
+      {
+       "t": "read aloud",
+       "c": false
+      },
+      {
+       "t": "research",
+       "c": true
+      },
+      {
+       "t": "method",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yöntem - choose the English word.",
+     "a": [
+      {
+       "t": "group",
+       "c": false
+      },
+      {
+       "t": "rest",
+       "c": false
+      },
+      {
+       "t": "method",
+       "c": true
+      },
+      {
+       "t": "one hundred and fifty",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "gözden geçirmek - choose the English word.",
+     "a": [
+      {
+       "t": "revise",
+       "c": false
+      },
+      {
+       "t": "task",
+       "c": false
+      },
+      {
+       "t": "review",
+       "c": true
+      },
+      {
+       "t": "fiftieth",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tekrar etmek - choose the English word.",
+     "a": [
+      {
+       "t": "twelfth",
+       "c": false
+      },
+      {
+       "t": "revise",
+       "c": true
+      },
+      {
+       "t": "practise",
+       "c": false
+      },
+      {
+       "t": "repeat",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pratik yapmak - choose the English word.",
+     "a": [
+      {
+       "t": "first",
+       "c": false
+      },
+      {
+       "t": "diary",
+       "c": false
+      },
+      {
+       "t": "read aloud",
+       "c": false
+      },
+      {
+       "t": "practise",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "hatırlamak - choose the English word.",
+     "a": [
+      {
+       "t": "revise",
+       "c": false
+      },
+      {
+       "t": "practise",
+       "c": false
+      },
+      {
+       "t": "read aloud",
+       "c": false
+      },
+      {
+       "t": "remember",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "akran - choose the English word.",
+     "a": [
+      {
+       "t": "peer",
+       "c": true
+      },
+      {
+       "t": "one hundred and fifty",
+       "c": false
+      },
+      {
+       "t": "five hundred",
+       "c": false
+      },
+      {
+       "t": "read silently",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ikili - choose the English word.",
+     "a": [
+      {
+       "t": "in turns",
+       "c": false
+      },
+      {
+       "t": "remember",
+       "c": false
+      },
+      {
+       "t": "pair",
+       "c": true
+      },
+      {
+       "t": "share",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "grup - choose the English word.",
+     "a": [
+      {
+       "t": "group",
+       "c": true
+      },
+      {
+       "t": "read silently",
+       "c": false
+      },
+      {
+       "t": "creative",
+       "c": false
+      },
+      {
+       "t": "repeat",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "görev - choose the English word.",
+     "a": [
+      {
+       "t": "task",
+       "c": true
+      },
+      {
+       "t": "group",
+       "c": false
+      },
+      {
+       "t": "peer",
+       "c": false
+      },
+      {
+       "t": "revise",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "paylaşmak - choose the English word.",
+     "a": [
+      {
+       "t": "focus",
+       "c": false
+      },
+      {
+       "t": "twenty-third",
+       "c": false
+      },
+      {
+       "t": "read aloud",
+       "c": false
+      },
+      {
+       "t": "share",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "tekrarlamak - choose the English word.",
+     "a": [
+      {
+       "t": "repeat",
+       "c": true
+      },
+      {
+       "t": "one hundred",
+       "c": false
+      },
+      {
+       "t": "brush",
+       "c": false
+      },
+      {
+       "t": "read silently",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sesli okumak - choose the English word.",
+     "a": [
+      {
+       "t": "together",
+       "c": false
+      },
+      {
+       "t": "read aloud",
+       "c": true
+      },
+      {
+       "t": "revise",
+       "c": false
+      },
+      {
+       "t": "peer",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sessiz okumak - choose the English word.",
+     "a": [
+      {
+       "t": "repeat",
+       "c": false
+      },
+      {
+       "t": "read silently",
+       "c": true
+      },
+      {
+       "t": "together",
+       "c": false
+      },
+      {
+       "t": "task",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fırçalamak - choose the English word.",
+     "a": [
+      {
+       "t": "twelfth",
+       "c": false
+      },
+      {
+       "t": "brush",
+       "c": true
+      },
+      {
+       "t": "task",
+       "c": false
+      },
+      {
+       "t": "fiftieth",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "dinlenmek - choose the English word.",
+     "a": [
+      {
+       "t": "rest",
+       "c": true
+      },
+      {
+       "t": "peer",
+       "c": false
+      },
+      {
+       "t": "first",
+       "c": false
+      },
+      {
+       "t": "together",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "odaklanmak - choose the English word.",
+     "a": [
+      {
+       "t": "share",
+       "c": false
+      },
+      {
+       "t": "focus",
+       "c": true
+      },
+      {
+       "t": "review",
+       "c": false
+      },
+      {
+       "t": "effective",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "işaretlemek - choose the English word.",
+     "a": [
+      {
+       "t": "one hundred",
+       "c": false
+      },
+      {
+       "t": "effective",
+       "c": false
+      },
+      {
+       "t": "mark",
+       "c": true
+      },
+      {
+       "t": "twelfth",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "etkili - choose the English word.",
+     "a": [
+      {
+       "t": "creative",
+       "c": false
+      },
+      {
+       "t": "effective",
+       "c": true
+      },
+      {
+       "t": "review",
+       "c": false
+      },
+      {
+       "t": "task",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yaratıcı - choose the English word.",
+     "a": [
+      {
+       "t": "two hundred",
+       "c": false
+      },
+      {
+       "t": "research",
+       "c": false
+      },
+      {
+       "t": "diary",
+       "c": false
+      },
+      {
+       "t": "creative",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "sırayla - choose the English word.",
+     "a": [
+      {
+       "t": "in turns",
+       "c": true
+      },
+      {
+       "t": "practise",
+       "c": false
+      },
+      {
+       "t": "twenty-third",
+       "c": false
+      },
+      {
+       "t": "one hundred",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "birlikte - choose the English word.",
+     "a": [
+      {
+       "t": "habit",
+       "c": false
+      },
+      {
+       "t": "together",
+       "c": true
+      },
+      {
+       "t": "twenty-third",
+       "c": false
+      },
+      {
+       "t": "focus",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yüz - choose the English word.",
+     "a": [
+      {
+       "t": "revise",
+       "c": false
+      },
+      {
+       "t": "repeat",
+       "c": false
+      },
+      {
+       "t": "one hundred",
+       "c": true
+      },
+      {
+       "t": "pair",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yüz elli - choose the English word.",
+     "a": [
+      {
+       "t": "fiftieth",
+       "c": false
+      },
+      {
+       "t": "one hundred and fifty",
+       "c": true
+      },
+      {
+       "t": "twenty-third",
+       "c": false
+      },
+      {
+       "t": "research",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "iki yüz - choose the English word.",
+     "a": [
+      {
+       "t": "practise",
+       "c": false
+      },
+      {
+       "t": "two hundred",
+       "c": true
+      },
+      {
+       "t": "habit",
+       "c": false
+      },
+      {
+       "t": "together",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "beş yüz - choose the English word.",
+     "a": [
+      {
+       "t": "focus",
+       "c": false
+      },
+      {
+       "t": "review",
+       "c": false
+      },
+      {
+       "t": "diary",
+       "c": false
+      },
+      {
+       "t": "five hundred",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "birinci - choose the English word.",
+     "a": [
+      {
+       "t": "practise",
+       "c": false
+      },
+      {
+       "t": "research",
+       "c": false
+      },
+      {
+       "t": "first",
+       "c": true
+      },
+      {
+       "t": "twenty-third",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "on ikinci - choose the English word.",
+     "a": [
+      {
+       "t": "one hundred",
+       "c": false
+      },
+      {
+       "t": "practise",
+       "c": false
+      },
+      {
+       "t": "first",
+       "c": false
+      },
+      {
+       "t": "twelfth",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "yirmi üçüncü - choose the English word.",
+     "a": [
+      {
+       "t": "first",
+       "c": false
+      },
+      {
+       "t": "brush",
+       "c": false
+      },
+      {
+       "t": "twenty-third",
+       "c": true
+      },
+      {
+       "t": "repeat",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ellinci - choose the English word.",
+     "a": [
+      {
+       "t": "fiftieth",
+       "c": true
+      },
+      {
+       "t": "remember",
+       "c": false
+      },
+      {
+       "t": "brush",
+       "c": false
+      },
+      {
+       "t": "research",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u2-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Listen! Two peers ___ aloud.",
+     "grammarId": "present-progressive",
+     "explanation": "Listen! Two peers are reading aloud.",
+     "a": [
+      {
+       "t": "readed",
+       "c": false
+      },
+      {
+       "t": "is reading",
+       "c": false
+      },
+      {
+       "t": "reads",
+       "c": false
+      },
+      {
+       "t": "are reading",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "The class ___ now; it is working.",
+     "grammarId": "present-progressive",
+     "explanation": "The class isn't resting now; it is working.",
+     "a": [
+      {
+       "t": "doesn't resting",
+       "c": false
+      },
+      {
+       "t": "not rest",
+       "c": false
+      },
+      {
+       "t": "isn't resting",
+       "c": true
+      },
+      {
+       "t": "aren't resting",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ your partner marking the answers now?",
+     "grammarId": "present-progressive",
+     "explanation": "Is your partner marking the answers now?",
+     "a": [
+      {
+       "t": "Are",
+       "c": false
+      },
+      {
+       "t": "Is",
+       "c": true
+      },
+      {
+       "t": "Do",
+       "c": false
+      },
+      {
+       "t": "Does",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Every evening, Arda ___ his diary.",
+     "grammarId": "now-vs-routine",
+     "explanation": "Every evening, Arda reviews his diary.",
+     "a": [
+      {
+       "t": "review",
+       "c": false
+      },
+      {
+       "t": "are reviewing",
+       "c": false
+      },
+      {
+       "t": "is reviewing",
+       "c": false
+      },
+      {
+       "t": "reviews",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Right now, Arda ___ his diary with a peer.",
+     "grammarId": "now-vs-routine",
+     "explanation": "Right now, Arda is sharing his diary with a peer.",
+     "a": [
+      {
+       "t": "shares",
+       "c": false
+      },
+      {
+       "t": "are sharing",
+       "c": false
+      },
+      {
+       "t": "is sharing",
+       "c": true
+      },
+      {
+       "t": "share",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Eren usually works in a group, ___?",
+     "grammarId": "question-tags-present",
+     "explanation": "Eren usually works in a group, doesn't he?",
+     "a": [
+      {
+       "t": "don't he",
+       "c": false
+      },
+      {
+       "t": "doesn't he",
+       "c": true
+      },
+      {
+       "t": "does he",
+       "c": false
+      },
+      {
+       "t": "isn't he",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The peers don't rest here, ___?",
+     "grammarId": "question-tags-present",
+     "explanation": "The peers don't rest here, do they?",
+     "a": [
+      {
+       "t": "do they",
+       "c": true
+      },
+      {
+       "t": "does they",
+       "c": false
+      },
+      {
+       "t": "are they",
+       "c": false
+      },
+      {
+       "t": "don't they",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The teacher is marking a page, ___?",
+     "grammarId": "question-tags-progressive",
+     "explanation": "The teacher is marking a page, isn't she?",
+     "a": [
+      {
+       "t": "aren't she",
+       "c": false
+      },
+      {
+       "t": "is she",
+       "c": false
+      },
+      {
+       "t": "doesn't she",
+       "c": false
+      },
+      {
+       "t": "isn't she",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "We aren't reading aloud, ___?",
+     "grammarId": "question-tags-progressive",
+     "explanation": "We aren't reading aloud, are we?",
+     "a": [
+      {
+       "t": "aren't we",
+       "c": false
+      },
+      {
+       "t": "do we",
+       "c": false
+      },
+      {
+       "t": "are we",
+       "c": true
+      },
+      {
+       "t": "is we",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The boys are sharing ___ research.",
+     "grammarId": "possessives",
+     "explanation": "The boys are sharing their research.",
+     "a": [
+      {
+       "t": "them",
+       "c": false
+      },
+      {
+       "t": "they",
+       "c": false
+      },
+      {
+       "t": "his",
+       "c": false
+      },
+      {
+       "t": "their",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "I write new words in ___ diary.",
+     "grammarId": "possessives",
+     "explanation": "I write new words in my diary.",
+     "a": [
+      {
+       "t": "I",
+       "c": false
+      },
+      {
+       "t": "my",
+       "c": true
+      },
+      {
+       "t": "me",
+       "c": false
+      },
+      {
+       "t": "he",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ do you review? Twice a week.",
+     "grammarId": "how-often-adverbs",
+     "explanation": "How often do you review? Twice a week.",
+     "a": [
+      {
+       "t": "How often",
+       "c": true
+      },
+      {
+       "t": "What",
+       "c": false
+      },
+      {
+       "t": "Whose",
+       "c": false
+      },
+      {
+       "t": "How many",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Choose the correct order: ___",
+     "grammarId": "how-often-adverbs",
+     "explanation": "Choose the correct order: She reads the task carefully.",
+     "a": [
+      {
+       "t": "She reads carefully the task.",
+       "c": false
+      },
+      {
+       "t": "She the reads task carefully.",
+       "c": false
+      },
+      {
+       "t": "She carefully the task reads.",
+       "c": false
+      },
+      {
+       "t": "She reads the task carefully.",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "250 = ___",
+     "grammarId": "cardinal-ordinal",
+     "explanation": "250 = two hundred and fifty",
+     "a": [
+      {
+       "t": "twenty-five",
+       "c": false
+      },
+      {
+       "t": "two hundred and fifty",
+       "c": true
+      },
+      {
+       "t": "two hundred and fifteen",
+       "c": false
+      },
+      {
+       "t": "five hundred and twenty",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "40th = ___",
+     "grammarId": "cardinal-ordinal",
+     "explanation": "40th = fortieth",
+     "a": [
+      {
+       "t": "fourteenth",
+       "c": false
+      },
+      {
+       "t": "forty",
+       "c": false
+      },
+      {
+       "t": "fourth",
+       "c": false
+      },
+      {
+       "t": "fortieth",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "21st = ___",
+     "grammarId": "cardinal-ordinal",
+     "explanation": "21st = twenty-first",
+     "a": [
+      {
+       "t": "twenty-third",
+       "c": false
+      },
+      {
+       "t": "twelfth",
+       "c": false
+      },
+      {
+       "t": "twenty-first",
+       "c": true
+      },
+      {
+       "t": "twenty-one",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "500 = ___",
+     "grammarId": "cardinal-ordinal",
+     "explanation": "500 = five hundred",
+     "a": [
+      {
+       "t": "fifteenth",
+       "c": false
+      },
+      {
+       "t": "five hundred",
+       "c": true
+      },
+      {
+       "t": "five thousand",
+       "c": false
+      },
+      {
+       "t": "fifty",
+       "c": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "habit",
+   "tr": "alışkanlık"
+  },
+  {
+   "en": "diary",
+   "tr": "günlük"
+  },
+  {
+   "en": "research",
+   "tr": "araştırma"
+  },
+  {
+   "en": "method",
+   "tr": "yöntem"
+  },
+  {
+   "en": "review",
+   "tr": "gözden geçirmek"
+  },
+  {
+   "en": "revise",
+   "tr": "tekrar etmek"
+  },
+  {
+   "en": "practise",
+   "tr": "pratik yapmak"
+  },
+  {
+   "en": "remember",
+   "tr": "hatırlamak"
+  },
+  {
+   "en": "peer",
+   "tr": "akran"
+  },
+  {
+   "en": "pair",
+   "tr": "ikili"
+  },
+  {
+   "en": "group",
+   "tr": "grup"
+  },
+  {
+   "en": "task",
+   "tr": "görev"
+  },
+  {
+   "en": "share",
+   "tr": "paylaşmak"
+  },
+  {
+   "en": "repeat",
+   "tr": "tekrarlamak"
+  },
+  {
+   "en": "read aloud",
+   "tr": "sesli okumak"
+  },
+  {
+   "en": "read silently",
+   "tr": "sessiz okumak"
+  },
+  {
+   "en": "brush",
+   "tr": "fırçalamak"
+  },
+  {
+   "en": "rest",
+   "tr": "dinlenmek"
+  },
+  {
+   "en": "focus",
+   "tr": "odaklanmak"
+  },
+  {
+   "en": "mark",
+   "tr": "işaretlemek"
+  },
+  {
+   "en": "effective",
+   "tr": "etkili"
+  },
+  {
+   "en": "creative",
+   "tr": "yaratıcı"
+  },
+  {
+   "en": "in turns",
+   "tr": "sırayla"
+  },
+  {
+   "en": "together",
+   "tr": "birlikte"
+  },
+  {
+   "en": "one hundred",
+   "tr": "yüz"
+  },
+  {
+   "en": "one hundred and fifty",
+   "tr": "yüz elli"
+  },
+  {
+   "en": "two hundred",
+   "tr": "iki yüz"
+  },
+  {
+   "en": "five hundred",
+   "tr": "beş yüz"
+  },
+  {
+   "en": "first",
+   "tr": "birinci"
+  },
+  {
+   "en": "twelfth",
+   "tr": "on ikinci"
+  },
+  {
+   "en": "twenty-third",
+   "tr": "yirmi üçüncü"
+  },
+  {
+   "en": "fiftieth",
+   "tr": "ellinci"
+  }
+ ],
+ "online": []
+}

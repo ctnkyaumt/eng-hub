@@ -66,7 +66,7 @@ def has_visual(item):
 
 
 def image_path(deck_path, name):
-    if name.startswith("/app/"):
+    if name.startswith(("/app/", "/content/")):
         return os.path.join(ROOT, name.lstrip("/").replace("/", os.sep))
     return os.path.join(os.path.dirname(deck_path), "img", name)
 
@@ -154,6 +154,7 @@ def main():
             data = json.load(handle)
         slides = data.get("slides") or []
         unit = where(path)
+        authored_g6 = unit.startswith("g6/") and data.get("authored") and data.get("curriculum") == "meb-english-6-2026"
         stats["decks"] += 1
         stats["slides"] += len(slides)
 
@@ -167,12 +168,13 @@ def main():
             same_visual = {}
             for item in items:
                 stats["words"] += 1
-                if not item.get('img') and item.get('num') is None:
+                text_card = authored_g6 and item.get("textOnly") and item.get("imageNote")
+                if not item.get('img') and item.get('num') is None and not text_card:
                     problems.append("%s: missing vocabulary picture for %r" % (unit, item.get('en')))
                 signature = visual_signature(item)
                 if signature:
                     same_visual.setdefault(signature, []).append(item.get("en"))
-                if not has_visual(item):
+                if not has_visual(item) and not text_card:
                     problems.append("%s: no visual for %r" % (unit, item.get("en")))
                 elif item.get("emoji") == "🧩":
                     problems.append("%s: generic visual for %r" % (unit, item.get("en")))
@@ -209,7 +211,7 @@ def main():
             for column in slide.get("columns") or []:
                 pools += column.get("examples") or []
             for example in pools:
-                if not has_visual(example):
+                if not has_visual(example) and not (authored_g6 and example.get("textOnly")):
                     problems.append("%s: no visual for example %r" %
                                     (unit, example.get("en")))
                     continue

@@ -14,11 +14,13 @@ assert turkish_highlights('Replies', '*Of course.*', 'Elbette.') == ['Elbette.']
 
 words = pictures = 0
 for path in (ROOT / 'content').glob('g*/u*/presentation/slides.json'):
-    for slide in json.loads(path.read_text('utf-8'))['slides']:
+    deck = json.loads(path.read_text('utf-8'))
+    authored_g6 = path.parts[-4] == 'g6' and deck.get('authored') and deck.get('curriculum') == 'meb-english-6-2026'
+    for slide in deck['slides']:
         if slide['type'] == 'vocab':
             for item in slide['items']:
                 words += 1
-                if item.get('num') is None:
+                if item.get('num') is None and not (authored_g6 and item.get('textOnly') and item.get('imageNote')):
                     assert item.get('img'), (path, item['en'])
                     pictures += 1
                 if item['en'].lower() == 'types of music':
@@ -28,4 +30,4 @@ for path in (ROOT / 'content').glob('g*/u*/presentation/slides.json'):
                 assert example['trEm'] == ['genellikle'], example
             if '*Would you like to*' in example.get('en', ''):
                 assert example['trEm'] == ['ister misin'], example
-print(f'PASS: precise Turkish highlights and {pictures} picture cards; {words-pictures} number cards.')
+print(f'PASS: precise Turkish highlights and {pictures} picture cards; {words-pictures} number/text cards.')

@@ -1,0 +1,1292 @@
+{
+ "title": "School Life",
+ "titleTr": "Okul Hayatı",
+ "emoji": "🏫",
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "accent": [
+  "#0d9488",
+  "#2563eb"
+ ],
+ "source": {
+  "studentBook": {
+   "file": "ingilizce6_ders_kitabi.pdf",
+   "pages": [
+    27,
+    40
+   ]
+  },
+  "workbook": {
+   "file": "ingilizce6_calisma_kitabi.pdf",
+   "pages": [
+    9,
+    16
+   ]
+  },
+  "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+ },
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 1",
+   "title": "School Life",
+   "titleTr": "Okul Hayatı",
+   "emoji": "🏫"
+  },
+  {
+   "type": "scene",
+   "title": "Our lesson",
+   "emoji": "🏫",
+   "bubbles": [
+    {
+     "text": "Describe school roles and routines."
+    },
+    {
+     "text": "Ask about a celebration and give instructions."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "People and responsibilities",
+   "items": [
+    {
+     "en": "leader",
+     "tr": "lider",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "listener",
+     "tr": "dinleyici",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "permission",
+     "tr": "izin",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "instruction",
+     "tr": "yönerge",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "leader",
+       "b": "lider"
+      },
+      {
+       "a": "listener",
+       "b": "dinleyici"
+      },
+      {
+       "a": "permission",
+       "b": "izin"
+      },
+      {
+       "a": "instruction",
+       "b": "yönerge"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "People and responsibilities",
+   "items": [
+    {
+     "en": "guide",
+     "tr": "rehber",
+     "img": "/content/g6/shared/img/8993.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/8993",
+     "imageFit": "contain"
+    },
+    {
+     "en": "helpful",
+     "tr": "yardımsever",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "support",
+     "tr": "desteklemek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "volunteer",
+     "tr": "gönüllü olmak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "guide",
+       "b": "rehber"
+      },
+      {
+       "a": "helpful",
+       "b": "yardımsever"
+      },
+      {
+       "a": "support",
+       "b": "desteklemek"
+      },
+      {
+       "a": "volunteer",
+       "b": "gönüllü olmak"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School routines",
+   "items": [
+    {
+     "en": "greet",
+     "tr": "selamlamak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "follow",
+     "tr": "takip etmek",
+     "img": "/content/g6/shared/img/7037.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/7037",
+     "imageFit": "contain"
+    },
+    {
+     "en": "enter",
+     "tr": "girmek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "pack",
+     "tr": "hazırlayıp çantaya koymak",
+     "img": "/content/g6/shared/img/2931.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2931",
+     "imageFit": "contain"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "greet",
+       "b": "selamlamak"
+      },
+      {
+       "a": "follow",
+       "b": "takip etmek"
+      },
+      {
+       "a": "enter",
+       "b": "girmek"
+      },
+      {
+       "a": "pack",
+       "b": "hazırlayıp çantaya koymak"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "School routines",
+   "items": [
+    {
+     "en": "term",
+     "tr": "dönem",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "regularly",
+     "tr": "düzenli olarak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "carefully",
+     "tr": "dikkatlice",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "willingly",
+     "tr": "isteyerek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "term",
+       "b": "dönem"
+      },
+      {
+       "a": "regularly",
+       "b": "düzenli olarak"
+      },
+      {
+       "a": "carefully",
+       "b": "dikkatlice"
+      },
+      {
+       "a": "willingly",
+       "b": "isteyerek"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Days to celebrate",
+   "items": [
+    {
+     "en": "ceremony",
+     "tr": "tören",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "celebration",
+     "tr": "kutlama",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "parade",
+     "tr": "geçit töreni",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "flag",
+     "tr": "bayrak",
+     "img": "/app/img/flags/tr.svg",
+     "imageConcept": "Turkish flag",
+     "imageSource": "Existing ENG HUB flag"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "ceremony",
+       "b": "tören"
+      },
+      {
+       "a": "celebration",
+       "b": "kutlama"
+      },
+      {
+       "a": "parade",
+       "b": "geçit töreni"
+      },
+      {
+       "a": "flag",
+       "b": "bayrak"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Days to celebrate",
+   "items": [
+    {
+     "en": "national anthem",
+     "tr": "ulusal marş",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "speech",
+     "tr": "konuşma",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "festival",
+     "tr": "festival",
+     "img": "/content/g5/u5/presentation/img/p01-17.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "celebrate",
+     "tr": "kutlamak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "national anthem",
+       "b": "ulusal marş"
+      },
+      {
+       "a": "speech",
+       "b": "konuşma"
+      },
+      {
+       "a": "festival",
+       "b": "festival"
+      },
+      {
+       "a": "celebrate",
+       "b": "kutlamak"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Working together",
+   "items": [
+    {
+     "en": "successful",
+     "tr": "başarılı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "keen",
+     "tr": "hevesli",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "try",
+     "tr": "denemek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "pass",
+     "tr": "sınavı geçmek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "successful",
+       "b": "başarılı"
+      },
+      {
+       "a": "keen",
+       "b": "hevesli"
+      },
+      {
+       "a": "try",
+       "b": "denemek"
+      },
+      {
+       "a": "pass",
+       "b": "sınavı geçmek"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Working together",
+   "items": [
+    {
+     "en": "fail",
+     "tr": "başarısız olmak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "cheerfully",
+     "tr": "neşeyle",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "before",
+     "tr": "önce",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "later",
+     "tr": "daha sonra",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "fail",
+       "b": "başarısız olmak"
+      },
+      {
+       "a": "cheerfully",
+       "b": "neşeyle"
+      },
+      {
+       "a": "before",
+       "b": "önce"
+      },
+      {
+       "a": "later",
+       "b": "daha sonra"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A, an and the",
+   "rule": "İlk kez söylenen tekil isim: a/an. Sesli sesle başlayan kelime: an. Bilinen, belirli isim: the.",
+   "grammarId": "articles",
+   "examples": [
+    {
+     "en": "Mina is *a* group leader.",
+     "tr": "Mina bir grup lideri.",
+     "trEm": [
+      "bir"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A, an and the",
+   "rule": "İlk kez söylenen tekil isim: a/an. Sesli sesle başlayan kelime: an. Bilinen, belirli isim: the.",
+   "grammarId": "articles",
+   "examples": [
+    {
+     "en": "There is *an* invitation on the desk.",
+     "tr": "Sıranın üzerinde bir davetiye var.",
+     "trEm": [
+      "bir"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "A, an and the",
+   "rule": "İlk kez söylenen tekil isim: a/an. Sesli sesle başlayan kelime: an. Bilinen, belirli isim: the.",
+   "grammarId": "articles",
+   "examples": [
+    {
+     "en": "The invitation is for *the* school ceremony.",
+     "tr": "Davetiye okul töreni için.",
+     "trEm": [
+      "okul töreni"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Arda carries ___ flag.",
+     "answer": "a",
+     "options": [
+      "a",
+      "an",
+      "are",
+      "am"
+     ]
+    }
+   ],
+   "grammarId": "articles"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "There is ___ empty chair near the stage.",
+     "answer": "an",
+     "options": [
+      "an",
+      "a",
+      "are",
+      "am"
+     ]
+    }
+   ],
+   "grammarId": "articles"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "I can see a flag. ___ flag is red.",
+     "answer": "The",
+     "options": [
+      "The",
+      "A",
+      "An",
+      "Are"
+     ]
+    }
+   ],
+   "grammarId": "articles"
+  },
+  {
+   "type": "grammar",
+   "title": "Classroom instructions",
+   "rule": "Yönerge için fiilin yalın hâli kullanılır. Olumsuz yönerge: Don't + fiil.",
+   "grammarId": "imperatives",
+   "examples": [
+    {
+     "en": "*Listen* to the group leader.",
+     "tr": "Grup liderini dinleyin.",
+     "trEm": [
+      "dinleyin"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Classroom instructions",
+   "rule": "Yönerge için fiilin yalın hâli kullanılır. Olumsuz yönerge: Don't + fiil.",
+   "grammarId": "imperatives",
+   "examples": [
+    {
+     "en": "*Don't push* in the corridor.",
+     "tr": "Koridorda itmeyin.",
+     "trEm": [
+      "itmeyin"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ the instructions, please.",
+     "answer": "Follow",
+     "options": [
+      "Follow",
+      "Follows",
+      "Following",
+      "To follows"
+     ]
+    }
+   ],
+   "grammarId": "imperatives"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ near the stage, please.",
+     "answer": "Don't run",
+     "options": [
+      "Don't run",
+      "Doesn't run",
+      "Not running",
+      "Don't runs"
+     ]
+    }
+   ],
+   "grammarId": "imperatives"
+  },
+  {
+   "type": "grammar",
+   "title": "School routines",
+   "rule": "I/you/we/they + fiil; he/she/it + fiil-s. Olumsuz: don't/doesn't + yalın fiil. Soru: Do/Does + özne + yalın fiil?",
+   "grammarId": "present-simple",
+   "examples": [
+    {
+     "en": "Our leader *checks* the list every morning.",
+     "tr": "Liderimiz her sabah listeyi kontrol eder.",
+     "trEm": [
+      "kontrol eder"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "School routines",
+   "rule": "I/you/we/they + fiil; he/she/it + fiil-s. Olumsuz: don't/doesn't + yalın fiil. Soru: Do/Does + özne + yalın fiil?",
+   "grammarId": "present-simple",
+   "examples": [
+    {
+     "en": "*Does* Ada *carry* the flag on Mondays?",
+     "tr": "Ada pazartesileri bayrağı taşır mı?",
+     "trEm": [
+      "taşır mı"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "School routines",
+   "rule": "I/you/we/they + fiil; he/she/it + fiil-s. Olumsuz: don't/doesn't + yalın fiil. Soru: Do/Does + özne + yalın fiil?",
+   "grammarId": "present-simple",
+   "examples": [
+    {
+     "en": "She *doesn't carry* it on Fridays.",
+     "tr": "Cuma günleri onu taşımaz.",
+     "trEm": [
+      "taşımaz"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The guide ___ visitors every day.",
+     "answer": "greets",
+     "options": [
+      "greets",
+      "greet",
+      "greeting",
+      "are greet"
+     ]
+    }
+   ],
+   "grammarId": "present-simple"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Our leaders ___ the hall untidy.",
+     "answer": "don't leave",
+     "options": [
+      "don't leave",
+      "doesn't leave",
+      "not leave",
+      "don't leaves"
+     ]
+    }
+   ],
+   "grammarId": "present-simple"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ your friend help at ceremonies?",
+     "answer": "Does",
+     "options": [
+      "Does",
+      "Do",
+      "Is",
+      "Are"
+     ]
+    }
+   ],
+   "grammarId": "present-simple"
+  },
+  {
+   "type": "grammar",
+   "title": "How regularly?",
+   "rule": "Always, usually, often, sometimes, never: ana fiilden önce; am/is/are'dan sonra gelir.",
+   "grammarId": "frequency",
+   "examples": [
+    {
+     "en": "We *usually* pack our bags at night.",
+     "tr": "Çantalarımızı genellikle akşam hazırlarız.",
+     "trEm": [
+      "genellikle"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "How regularly?",
+   "rule": "Always, usually, often, sometimes, never: ana fiilden önce; am/is/are'dan sonra gelir.",
+   "grammarId": "frequency",
+   "examples": [
+    {
+     "en": "Our teacher is *always* helpful.",
+     "tr": "Öğretmenimiz her zaman yardımseverdir.",
+     "trEm": [
+      "her zaman"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Choose the correct order: ___",
+     "answer": "We often greet visitors.",
+     "options": [
+      "We often greet visitors.",
+      "We greet often visitors.",
+      "We greets often visitors.",
+      "We often greeting visitors."
+     ]
+    }
+   ],
+   "grammarId": "frequency"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Choose the correct order: ___",
+     "answer": "Lina is never late.",
+     "options": [
+      "Lina is never late.",
+      "Lina never is late.",
+      "Lina is late never.",
+      "Lina never late is."
+     ]
+    }
+   ],
+   "grammarId": "frequency"
+  },
+  {
+   "type": "grammar",
+   "title": "People and object pronouns",
+   "rule": "Özne: I, you, he, she, it, we, they. Fiilden sonra nesne: me, you, him, her, it, us, them.",
+   "grammarId": "pronouns",
+   "examples": [
+    {
+     "en": "The new students are here. I can help *them*.",
+     "tr": "Yeni öğrenciler burada. Onlara yardım edebilirim.",
+     "trEm": [
+      "Onlara"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "People and object pronouns",
+   "rule": "Özne: I, you, he, she, it, we, they. Fiilden sonra nesne: me, you, him, her, it, us, them.",
+   "grammarId": "pronouns",
+   "examples": [
+    {
+     "en": "This is our guide. *She* knows the school.",
+     "tr": "Bu bizim rehberimiz. O okulu tanıyor.",
+     "trEm": [
+      "O"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "We need some help. Please support ___.",
+     "answer": "us",
+     "options": [
+      "us",
+      "we",
+      "our",
+      "ours"
+     ]
+    }
+   ],
+   "grammarId": "pronouns"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Eren is the leader. Ask ___ about the parade.",
+     "answer": "him",
+     "options": [
+      "him",
+      "he",
+      "his",
+      "they"
+     ]
+    }
+   ],
+   "grammarId": "pronouns"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Mina and Ada are listeners. ___ listen carefully.",
+     "answer": "They",
+     "options": [
+      "They",
+      "Them",
+      "Her",
+      "Us"
+     ]
+    }
+   ],
+   "grammarId": "pronouns"
+  },
+  {
+   "type": "grammar",
+   "title": "People, places and times",
+   "rule": "There is + tekil; there are + çoğul. Who: kim, when: ne zaman, what: ne, where: nerede.",
+   "grammarId": "existence-questions",
+   "examples": [
+    {
+     "en": "*There are* two flags in the hall.",
+     "tr": "Salonda iki bayrak var.",
+     "trEm": [
+      "var"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "People, places and times",
+   "rule": "There is + tekil; there are + çoğul. Who: kim, when: ne zaman, what: ne, where: nerede.",
+   "grammarId": "existence-questions",
+   "examples": [
+    {
+     "en": "*When* is the school ceremony?",
+     "tr": "Okul töreni ne zaman?",
+     "trEm": [
+      "ne zaman"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ a speech after the parade.",
+     "answer": "There is",
+     "options": [
+      "There is",
+      "There are",
+      "Are there",
+      "There be"
+     ]
+    }
+   ],
+   "grammarId": "existence-questions"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ leads the group? Our English teacher.",
+     "answer": "Who",
+     "options": [
+      "Who",
+      "Where",
+      "When",
+      "What time"
+     ]
+    }
+   ],
+   "grammarId": "existence-questions"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ is the ceremony? In the hall.",
+     "answer": "Where",
+     "options": [
+      "Where",
+      "Who",
+      "When",
+      "How often"
+     ]
+    }
+   ],
+   "grammarId": "existence-questions"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ do you carry? A flag.",
+     "answer": "What",
+     "options": [
+      "What",
+      "Who",
+      "When",
+      "Where"
+     ]
+    }
+   ],
+   "grammarId": "existence-questions"
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Visitor",
+       "text": "Where is the ceremony?",
+       "tr": "Tören nerede?"
+      },
+      {
+       "who": "Guide",
+       "text": "It is in the garden. Follow me, please.",
+       "tr": "Bahçede. Lütfen beni takip edin."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Visitor",
+       "text": "When does it start?",
+       "tr": "Ne zaman başlıyor?"
+      },
+      {
+       "who": "Guide",
+       "text": "At ten. There are seats for you near the stage.",
+       "tr": "Saat onda. Sahnenin yanında sizin için koltuklar var."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "The welcome team",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "Mina is a volunteer in the school welcome team. Every Monday, she greets new students at the gate. Eren is the group leader. He usually checks the names, and Mina shows the students their classrooms. Today is 23 April. There is a celebration in the garden."
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "The welcome team",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "Two students carry flags. The headteacher gives a short speech before the music starts. Mina's job is to help the visitors. She listens carefully and answers their questions. The team never leaves rubbish in the garden."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "When does Mina usually greet new students?",
+     "answer": "Every Monday."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Who checks the names?",
+     "answer": "Eren, the group leader."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Where is the celebration?",
+     "answer": "In the garden."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "What happens before the music?",
+     "answer": "The headteacher gives a short speech."
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "guide",
+      "tr": "rehber",
+      "img": "/content/g6/shared/img/8993.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/8993",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/guide.wav"
+     },
+     {
+      "en": "follow",
+      "tr": "takip etmek",
+      "img": "/content/g6/shared/img/7037.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/7037",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/follow.wav"
+     },
+     {
+      "en": "pack",
+      "tr": "hazırlayıp çantaya koymak",
+      "img": "/content/g6/shared/img/2931.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2931",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/pack.wav"
+     },
+     {
+      "en": "flag",
+      "tr": "bayrak",
+      "img": "/app/img/flags/tr.svg",
+      "imageConcept": "Turkish flag",
+      "imageSource": "Existing ENG HUB flag",
+      "audio": "/app/audio/words/flag.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "guide",
+      "tr": "rehber",
+      "img": "/content/g6/shared/img/8993.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/8993",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/guide.wav"
+     },
+     {
+      "en": "follow",
+      "tr": "takip etmek",
+      "img": "/content/g6/shared/img/7037.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/7037",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/follow.wav"
+     },
+     {
+      "en": "pack",
+      "tr": "hazırlayıp çantaya koymak",
+      "img": "/content/g6/shared/img/2931.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2931",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/pack.wav"
+     },
+     {
+      "en": "flag",
+      "tr": "bayrak",
+      "img": "/app/img/flags/tr.svg",
+      "imageConcept": "Turkish flag",
+      "imageSource": "Existing ENG HUB flag",
+      "audio": "/app/audio/words/flag.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Mina is a group leader.",
+      "tr": "Mina bir grup lideri."
+     },
+     {
+      "answer": "There is an invitation on the desk.",
+      "tr": "Sıranın üzerinde bir davetiye var."
+     },
+     {
+      "answer": "The invitation is for the school ceremony.",
+      "tr": "Davetiye okul töreni için."
+     },
+     {
+      "answer": "Listen to the group leader.",
+      "tr": "Grup liderini dinleyin."
+     },
+     {
+      "answer": "Don't push in the corridor.",
+      "tr": "Koridorda itmeyin."
+     },
+     {
+      "answer": "Our leader checks the list every morning.",
+      "tr": "Liderimiz her sabah listeyi kontrol eder."
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Your turn to speak",
+   "task": {
+    "kind": "flash",
+    "q": "You are a guide and a visitor at a school event. Ask about the place, time and leader. Give two polite instructions. Swap roles.",
+    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
+   }
+  },
+  {
+   "type": "end",
+   "title": "Ready for more practice",
+   "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
+   "emoji": "🎯"
+  }
+ ]
+}

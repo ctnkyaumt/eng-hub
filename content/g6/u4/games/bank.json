@@ -1,1 +1,1759 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-u4-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "author - choose the meaning.",
+     "a": [
+      {
+       "t": "yastık",
+       "c": false
+      },
+      {
+       "t": "yazar",
+       "c": true
+      },
+      {
+       "t": "aşçı",
+       "c": false
+      },
+      {
+       "t": "kat",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "dentist - choose the meaning.",
+     "a": [
+      {
+       "t": "aşçı",
+       "c": false
+      },
+      {
+       "t": "avukat",
+       "c": false
+      },
+      {
+       "t": "kitaplık",
+       "c": false
+      },
+      {
+       "t": "diş hekimi",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "engineer - choose the meaning.",
+     "a": [
+      {
+       "t": "şirket",
+       "c": false
+      },
+      {
+       "t": "pilot",
+       "c": false
+      },
+      {
+       "t": "çatı",
+       "c": false
+      },
+      {
+       "t": "mühendis",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "reporter - choose the meaning.",
+     "a": [
+      {
+       "t": "kitaplık",
+       "c": false
+      },
+      {
+       "t": "yönetici",
+       "c": false
+      },
+      {
+       "t": "muhabir",
+       "c": true
+      },
+      {
+       "t": "aşçı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "cook - choose the meaning.",
+     "a": [
+      {
+       "t": "işveren",
+       "c": false
+      },
+      {
+       "t": "aşçı",
+       "c": true
+      },
+      {
+       "t": "halı",
+       "c": false
+      },
+      {
+       "t": "alt katta",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pilot - choose the meaning.",
+     "a": [
+      {
+       "t": "yönetici",
+       "c": false
+      },
+      {
+       "t": "pilot",
+       "c": true
+      },
+      {
+       "t": "mühendis",
+       "c": false
+      },
+      {
+       "t": "buzdolabı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "lawyer - choose the meaning.",
+     "a": [
+      {
+       "t": "perde",
+       "c": false
+      },
+      {
+       "t": "aşçı",
+       "c": false
+      },
+      {
+       "t": "üst katta",
+       "c": false
+      },
+      {
+       "t": "avukat",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "designer - choose the meaning.",
+     "a": [
+      {
+       "t": "üst katta",
+       "c": false
+      },
+      {
+       "t": "mühendis",
+       "c": false
+      },
+      {
+       "t": "aşçı",
+       "c": false
+      },
+      {
+       "t": "tasarımcı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "manager - choose the meaning.",
+     "a": [
+      {
+       "t": "üst katta",
+       "c": false
+      },
+      {
+       "t": "çatı",
+       "c": false
+      },
+      {
+       "t": "yönetici",
+       "c": true
+      },
+      {
+       "t": "kat",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "assistant - choose the meaning.",
+     "a": [
+      {
+       "t": "çatı",
+       "c": false
+      },
+      {
+       "t": "memur",
+       "c": false
+      },
+      {
+       "t": "apartman dairesi",
+       "c": false
+      },
+      {
+       "t": "asistan",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "professor - choose the meaning.",
+     "a": [
+      {
+       "t": "profesör",
+       "c": true
+      },
+      {
+       "t": "aşçı",
+       "c": false
+      },
+      {
+       "t": "tasarımcı",
+       "c": false
+      },
+      {
+       "t": "memur",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "officer - choose the meaning.",
+     "a": [
+      {
+       "t": "çekmece",
+       "c": false
+      },
+      {
+       "t": "muhabir",
+       "c": false
+      },
+      {
+       "t": "işveren",
+       "c": false
+      },
+      {
+       "t": "memur",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "company - choose the meaning.",
+     "a": [
+      {
+       "t": "mühendis",
+       "c": false
+      },
+      {
+       "t": "avukat",
+       "c": false
+      },
+      {
+       "t": "şirket",
+       "c": true
+      },
+      {
+       "t": "halı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "factory - choose the meaning.",
+     "a": [
+      {
+       "t": "yönetici",
+       "c": false
+      },
+      {
+       "t": "aşçı",
+       "c": false
+      },
+      {
+       "t": "fabrika",
+       "c": true
+      },
+      {
+       "t": "memur",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "employee - choose the meaning.",
+     "a": [
+      {
+       "t": "çekmece",
+       "c": false
+      },
+      {
+       "t": "buzdolabı",
+       "c": false
+      },
+      {
+       "t": "çalışan",
+       "c": true
+      },
+      {
+       "t": "alt katta",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "employer - choose the meaning.",
+     "a": [
+      {
+       "t": "battaniye",
+       "c": false
+      },
+      {
+       "t": "giriş",
+       "c": false
+      },
+      {
+       "t": "yazar",
+       "c": false
+      },
+      {
+       "t": "işveren",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "apartment - choose the meaning.",
+     "a": [
+      {
+       "t": "tasarımcı",
+       "c": false
+      },
+      {
+       "t": "memur",
+       "c": false
+      },
+      {
+       "t": "apartman dairesi",
+       "c": true
+      },
+      {
+       "t": "muhabir",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "address - choose the meaning.",
+     "a": [
+      {
+       "t": "fabrika",
+       "c": false
+      },
+      {
+       "t": "avukat",
+       "c": false
+      },
+      {
+       "t": "üst katta",
+       "c": false
+      },
+      {
+       "t": "adres",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "entrance - choose the meaning.",
+     "a": [
+      {
+       "t": "battaniye",
+       "c": false
+      },
+      {
+       "t": "anahtar",
+       "c": false
+      },
+      {
+       "t": "giriş",
+       "c": true
+      },
+      {
+       "t": "fabrika",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "roof - choose the meaning.",
+     "a": [
+      {
+       "t": "pilot",
+       "c": false
+      },
+      {
+       "t": "şirket",
+       "c": false
+      },
+      {
+       "t": "yazar",
+       "c": false
+      },
+      {
+       "t": "çatı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "upstairs - choose the meaning.",
+     "a": [
+      {
+       "t": "memur",
+       "c": false
+      },
+      {
+       "t": "pilot",
+       "c": false
+      },
+      {
+       "t": "lavabo",
+       "c": false
+      },
+      {
+       "t": "üst katta",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "downstairs - choose the meaning.",
+     "a": [
+      {
+       "t": "üst katta",
+       "c": false
+      },
+      {
+       "t": "aşçı",
+       "c": false
+      },
+      {
+       "t": "alt katta",
+       "c": true
+      },
+      {
+       "t": "muhabir",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "floor - choose the meaning.",
+     "a": [
+      {
+       "t": "kat",
+       "c": true
+      },
+      {
+       "t": "battaniye",
+       "c": false
+      },
+      {
+       "t": "alt katta",
+       "c": false
+      },
+      {
+       "t": "giriş",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "key - choose the meaning.",
+     "a": [
+      {
+       "t": "anahtar",
+       "c": true
+      },
+      {
+       "t": "işveren",
+       "c": false
+      },
+      {
+       "t": "kat",
+       "c": false
+      },
+      {
+       "t": "giriş",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "bookshelf - choose the meaning.",
+     "a": [
+      {
+       "t": "kitaplık",
+       "c": true
+      },
+      {
+       "t": "çekmece",
+       "c": false
+      },
+      {
+       "t": "şirket",
+       "c": false
+      },
+      {
+       "t": "giriş",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "drawer - choose the meaning.",
+     "a": [
+      {
+       "t": "giriş",
+       "c": false
+      },
+      {
+       "t": "çekmece",
+       "c": true
+      },
+      {
+       "t": "tasarımcı",
+       "c": false
+      },
+      {
+       "t": "perde",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "curtain - choose the meaning.",
+     "a": [
+      {
+       "t": "üst katta",
+       "c": false
+      },
+      {
+       "t": "tasarımcı",
+       "c": false
+      },
+      {
+       "t": "buzdolabı",
+       "c": false
+      },
+      {
+       "t": "perde",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "carpet - choose the meaning.",
+     "a": [
+      {
+       "t": "halı",
+       "c": true
+      },
+      {
+       "t": "çekmece",
+       "c": false
+      },
+      {
+       "t": "tasarımcı",
+       "c": false
+      },
+      {
+       "t": "işveren",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "blanket - choose the meaning.",
+     "a": [
+      {
+       "t": "giriş",
+       "c": false
+      },
+      {
+       "t": "alt katta",
+       "c": false
+      },
+      {
+       "t": "battaniye",
+       "c": true
+      },
+      {
+       "t": "memur",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pillow - choose the meaning.",
+     "a": [
+      {
+       "t": "yastık",
+       "c": true
+      },
+      {
+       "t": "tasarımcı",
+       "c": false
+      },
+      {
+       "t": "fabrika",
+       "c": false
+      },
+      {
+       "t": "üst katta",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "refrigerator - choose the meaning.",
+     "a": [
+      {
+       "t": "buzdolabı",
+       "c": true
+      },
+      {
+       "t": "asistan",
+       "c": false
+      },
+      {
+       "t": "yönetici",
+       "c": false
+      },
+      {
+       "t": "tasarımcı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sink - choose the meaning.",
+     "a": [
+      {
+       "t": "halı",
+       "c": false
+      },
+      {
+       "t": "çatı",
+       "c": false
+      },
+      {
+       "t": "yazar",
+       "c": false
+      },
+      {
+       "t": "lavabo",
+       "c": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u4-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "yazar - choose the English word.",
+     "a": [
+      {
+       "t": "employee",
+       "c": false
+      },
+      {
+       "t": "apartment",
+       "c": false
+      },
+      {
+       "t": "author",
+       "c": true
+      },
+      {
+       "t": "drawer",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "diş hekimi - choose the English word.",
+     "a": [
+      {
+       "t": "dentist",
+       "c": true
+      },
+      {
+       "t": "bookshelf",
+       "c": false
+      },
+      {
+       "t": "engineer",
+       "c": false
+      },
+      {
+       "t": "company",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "mühendis - choose the English word.",
+     "a": [
+      {
+       "t": "engineer",
+       "c": true
+      },
+      {
+       "t": "officer",
+       "c": false
+      },
+      {
+       "t": "reporter",
+       "c": false
+      },
+      {
+       "t": "bookshelf",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "muhabir - choose the English word.",
+     "a": [
+      {
+       "t": "blanket",
+       "c": false
+      },
+      {
+       "t": "sink",
+       "c": false
+      },
+      {
+       "t": "reporter",
+       "c": true
+      },
+      {
+       "t": "downstairs",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "aşçı - choose the English word.",
+     "a": [
+      {
+       "t": "cook",
+       "c": true
+      },
+      {
+       "t": "roof",
+       "c": false
+      },
+      {
+       "t": "entrance",
+       "c": false
+      },
+      {
+       "t": "author",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pilot - choose the English word.",
+     "a": [
+      {
+       "t": "blanket",
+       "c": false
+      },
+      {
+       "t": "pilot",
+       "c": true
+      },
+      {
+       "t": "sink",
+       "c": false
+      },
+      {
+       "t": "downstairs",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "avukat - choose the English word.",
+     "a": [
+      {
+       "t": "officer",
+       "c": false
+      },
+      {
+       "t": "pillow",
+       "c": false
+      },
+      {
+       "t": "lawyer",
+       "c": true
+      },
+      {
+       "t": "author",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tasarımcı - choose the English word.",
+     "a": [
+      {
+       "t": "designer",
+       "c": true
+      },
+      {
+       "t": "dentist",
+       "c": false
+      },
+      {
+       "t": "factory",
+       "c": false
+      },
+      {
+       "t": "reporter",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yönetici - choose the English word.",
+     "a": [
+      {
+       "t": "blanket",
+       "c": false
+      },
+      {
+       "t": "engineer",
+       "c": false
+      },
+      {
+       "t": "manager",
+       "c": true
+      },
+      {
+       "t": "entrance",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "asistan - choose the English word.",
+     "a": [
+      {
+       "t": "dentist",
+       "c": false
+      },
+      {
+       "t": "employee",
+       "c": false
+      },
+      {
+       "t": "curtain",
+       "c": false
+      },
+      {
+       "t": "assistant",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "profesör - choose the English word.",
+     "a": [
+      {
+       "t": "reporter",
+       "c": false
+      },
+      {
+       "t": "professor",
+       "c": true
+      },
+      {
+       "t": "assistant",
+       "c": false
+      },
+      {
+       "t": "pilot",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "memur - choose the English word.",
+     "a": [
+      {
+       "t": "officer",
+       "c": true
+      },
+      {
+       "t": "address",
+       "c": false
+      },
+      {
+       "t": "refrigerator",
+       "c": false
+      },
+      {
+       "t": "apartment",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "şirket - choose the English word.",
+     "a": [
+      {
+       "t": "engineer",
+       "c": false
+      },
+      {
+       "t": "company",
+       "c": true
+      },
+      {
+       "t": "roof",
+       "c": false
+      },
+      {
+       "t": "pilot",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fabrika - choose the English word.",
+     "a": [
+      {
+       "t": "factory",
+       "c": true
+      },
+      {
+       "t": "reporter",
+       "c": false
+      },
+      {
+       "t": "cook",
+       "c": false
+      },
+      {
+       "t": "designer",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "çalışan - choose the English word.",
+     "a": [
+      {
+       "t": "sink",
+       "c": false
+      },
+      {
+       "t": "lawyer",
+       "c": false
+      },
+      {
+       "t": "employee",
+       "c": true
+      },
+      {
+       "t": "reporter",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "işveren - choose the English word.",
+     "a": [
+      {
+       "t": "address",
+       "c": false
+      },
+      {
+       "t": "reporter",
+       "c": false
+      },
+      {
+       "t": "employer",
+       "c": true
+      },
+      {
+       "t": "professor",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "apartman dairesi - choose the English word.",
+     "a": [
+      {
+       "t": "designer",
+       "c": false
+      },
+      {
+       "t": "apartment",
+       "c": true
+      },
+      {
+       "t": "blanket",
+       "c": false
+      },
+      {
+       "t": "factory",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "adres - choose the English word.",
+     "a": [
+      {
+       "t": "floor",
+       "c": false
+      },
+      {
+       "t": "address",
+       "c": true
+      },
+      {
+       "t": "carpet",
+       "c": false
+      },
+      {
+       "t": "engineer",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "giriş - choose the English word.",
+     "a": [
+      {
+       "t": "entrance",
+       "c": true
+      },
+      {
+       "t": "carpet",
+       "c": false
+      },
+      {
+       "t": "key",
+       "c": false
+      },
+      {
+       "t": "pillow",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "çatı - choose the English word.",
+     "a": [
+      {
+       "t": "designer",
+       "c": false
+      },
+      {
+       "t": "floor",
+       "c": false
+      },
+      {
+       "t": "roof",
+       "c": true
+      },
+      {
+       "t": "manager",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "üst katta - choose the English word.",
+     "a": [
+      {
+       "t": "cook",
+       "c": false
+      },
+      {
+       "t": "upstairs",
+       "c": true
+      },
+      {
+       "t": "entrance",
+       "c": false
+      },
+      {
+       "t": "assistant",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "alt katta - choose the English word.",
+     "a": [
+      {
+       "t": "manager",
+       "c": false
+      },
+      {
+       "t": "downstairs",
+       "c": true
+      },
+      {
+       "t": "key",
+       "c": false
+      },
+      {
+       "t": "pillow",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kat - choose the English word.",
+     "a": [
+      {
+       "t": "cook",
+       "c": false
+      },
+      {
+       "t": "floor",
+       "c": true
+      },
+      {
+       "t": "designer",
+       "c": false
+      },
+      {
+       "t": "sink",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "anahtar - choose the English word.",
+     "a": [
+      {
+       "t": "bookshelf",
+       "c": false
+      },
+      {
+       "t": "professor",
+       "c": false
+      },
+      {
+       "t": "key",
+       "c": true
+      },
+      {
+       "t": "downstairs",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kitaplık - choose the English word.",
+     "a": [
+      {
+       "t": "floor",
+       "c": false
+      },
+      {
+       "t": "pillow",
+       "c": false
+      },
+      {
+       "t": "apartment",
+       "c": false
+      },
+      {
+       "t": "bookshelf",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "çekmece - choose the English word.",
+     "a": [
+      {
+       "t": "pillow",
+       "c": false
+      },
+      {
+       "t": "downstairs",
+       "c": false
+      },
+      {
+       "t": "address",
+       "c": false
+      },
+      {
+       "t": "drawer",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "perde - choose the English word.",
+     "a": [
+      {
+       "t": "curtain",
+       "c": true
+      },
+      {
+       "t": "engineer",
+       "c": false
+      },
+      {
+       "t": "refrigerator",
+       "c": false
+      },
+      {
+       "t": "professor",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "halı - choose the English word.",
+     "a": [
+      {
+       "t": "carpet",
+       "c": true
+      },
+      {
+       "t": "bookshelf",
+       "c": false
+      },
+      {
+       "t": "cook",
+       "c": false
+      },
+      {
+       "t": "employee",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "battaniye - choose the English word.",
+     "a": [
+      {
+       "t": "carpet",
+       "c": false
+      },
+      {
+       "t": "dentist",
+       "c": false
+      },
+      {
+       "t": "lawyer",
+       "c": false
+      },
+      {
+       "t": "blanket",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "yastık - choose the English word.",
+     "a": [
+      {
+       "t": "cook",
+       "c": false
+      },
+      {
+       "t": "lawyer",
+       "c": false
+      },
+      {
+       "t": "refrigerator",
+       "c": false
+      },
+      {
+       "t": "pillow",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "buzdolabı - choose the English word.",
+     "a": [
+      {
+       "t": "refrigerator",
+       "c": true
+      },
+      {
+       "t": "lawyer",
+       "c": false
+      },
+      {
+       "t": "pillow",
+       "c": false
+      },
+      {
+       "t": "curtain",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "lavabo - choose the English word.",
+     "a": [
+      {
+       "t": "key",
+       "c": false
+      },
+      {
+       "t": "engineer",
+       "c": false
+      },
+      {
+       "t": "upstairs",
+       "c": false
+      },
+      {
+       "t": "sink",
+       "c": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u4-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Our visit is arranged. We ___ the author tomorrow.",
+     "grammarId": "arrangements",
+     "explanation": "Our visit is arranged. We are meeting the author tomorrow.",
+     "a": [
+      {
+       "t": "is meeting",
+       "c": false
+      },
+      {
+       "t": "are meeting",
+       "c": true
+      },
+      {
+       "t": "meeting",
+       "c": false
+      },
+      {
+       "t": "met",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Mum's appointment is booked. She ___ the dentist on Friday.",
+     "grammarId": "arrangements",
+     "explanation": "Mum's appointment is booked. She is seeing the dentist on Friday.",
+     "a": [
+      {
+       "t": "saw",
+       "c": false
+      },
+      {
+       "t": "is seeing",
+       "c": true
+      },
+      {
+       "t": "are seeing",
+       "c": false
+      },
+      {
+       "t": "seeing",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "According to the timetable, the flight ___ at 7 tomorrow.",
+     "grammarId": "future-timetables",
+     "explanation": "According to the timetable, the flight leaves at 7 tomorrow.",
+     "a": [
+      {
+       "t": "leave",
+       "c": false
+      },
+      {
+       "t": "left",
+       "c": false
+      },
+      {
+       "t": "leaves",
+       "c": true
+      },
+      {
+       "t": "leaving",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The office tour ___ at noon next Monday, according to the programme.",
+     "grammarId": "future-timetables",
+     "explanation": "The office tour begins at noon next Monday, according to the programme.",
+     "a": [
+      {
+       "t": "begins",
+       "c": true
+      },
+      {
+       "t": "began",
+       "c": false
+      },
+      {
+       "t": "beginning",
+       "c": false
+      },
+      {
+       "t": "begin",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ the cook is preparing lunch, the reporter is writing.",
+     "grammarId": "when-while",
+     "explanation": "While the cook is preparing lunch, the reporter is writing.",
+     "a": [
+      {
+       "t": "Whose",
+       "c": false
+      },
+      {
+       "t": "Where",
+       "c": false
+      },
+      {
+       "t": "While",
+       "c": true
+      },
+      {
+       "t": "Which",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "I will call you when I ___ at the apartment.",
+     "grammarId": "when-while",
+     "explanation": "I will call you when I arrive at the apartment.",
+     "a": [
+      {
+       "t": "arrive",
+       "c": true
+      },
+      {
+       "t": "arrives",
+       "c": false
+      },
+      {
+       "t": "arriving",
+       "c": false
+      },
+      {
+       "t": "will arrive",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ floor is your home on, the first or the second?",
+     "grammarId": "which",
+     "explanation": "Which floor is your home on, the first or the second?",
+     "a": [
+      {
+       "t": "Whose",
+       "c": false
+      },
+      {
+       "t": "How often",
+       "c": false
+      },
+      {
+       "t": "Which",
+       "c": true
+      },
+      {
+       "t": "Who",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ key opens this door, the small one or the large one?",
+     "grammarId": "which",
+     "explanation": "Which key opens this door, the small one or the large one?",
+     "a": [
+      {
+       "t": "When",
+       "c": false
+      },
+      {
+       "t": "How much",
+       "c": false
+      },
+      {
+       "t": "Who",
+       "c": false
+      },
+      {
+       "t": "Which",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "The children draw their dream home ___.",
+     "grammarId": "reflexive-pronouns",
+     "explanation": "The children draw their dream home themselves.",
+     "a": [
+      {
+       "t": "herself",
+       "c": false
+      },
+      {
+       "t": "himself",
+       "c": false
+      },
+      {
+       "t": "ourselves",
+       "c": false
+      },
+      {
+       "t": "themselves",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "I carry my own bag ___.",
+     "grammarId": "reflexive-pronouns",
+     "explanation": "I carry my own bag myself.",
+     "a": [
+      {
+       "t": "themselves",
+       "c": false
+      },
+      {
+       "t": "myself",
+       "c": true
+      },
+      {
+       "t": "himself",
+       "c": false
+      },
+      {
+       "t": "yourself",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Leo introduces ___ to the designer.",
+     "grammarId": "reflexive-pronouns",
+     "explanation": "Leo introduces himself to the designer.",
+     "a": [
+      {
+       "t": "himself",
+       "c": true
+      },
+      {
+       "t": "itself",
+       "c": false
+      },
+      {
+       "t": "herself",
+       "c": false
+      },
+      {
+       "t": "yourself",
+       "c": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "author",
+   "tr": "yazar"
+  },
+  {
+   "en": "dentist",
+   "tr": "diş hekimi"
+  },
+  {
+   "en": "engineer",
+   "tr": "mühendis"
+  },
+  {
+   "en": "reporter",
+   "tr": "muhabir"
+  },
+  {
+   "en": "cook",
+   "tr": "aşçı"
+  },
+  {
+   "en": "pilot",
+   "tr": "pilot"
+  },
+  {
+   "en": "lawyer",
+   "tr": "avukat"
+  },
+  {
+   "en": "designer",
+   "tr": "tasarımcı"
+  },
+  {
+   "en": "manager",
+   "tr": "yönetici"
+  },
+  {
+   "en": "assistant",
+   "tr": "asistan"
+  },
+  {
+   "en": "professor",
+   "tr": "profesör"
+  },
+  {
+   "en": "officer",
+   "tr": "memur"
+  },
+  {
+   "en": "company",
+   "tr": "şirket"
+  },
+  {
+   "en": "factory",
+   "tr": "fabrika"
+  },
+  {
+   "en": "employee",
+   "tr": "çalışan"
+  },
+  {
+   "en": "employer",
+   "tr": "işveren"
+  },
+  {
+   "en": "apartment",
+   "tr": "apartman dairesi"
+  },
+  {
+   "en": "address",
+   "tr": "adres"
+  },
+  {
+   "en": "entrance",
+   "tr": "giriş"
+  },
+  {
+   "en": "roof",
+   "tr": "çatı"
+  },
+  {
+   "en": "upstairs",
+   "tr": "üst katta"
+  },
+  {
+   "en": "downstairs",
+   "tr": "alt katta"
+  },
+  {
+   "en": "floor",
+   "tr": "kat"
+  },
+  {
+   "en": "key",
+   "tr": "anahtar"
+  },
+  {
+   "en": "bookshelf",
+   "tr": "kitaplık"
+  },
+  {
+   "en": "drawer",
+   "tr": "çekmece"
+  },
+  {
+   "en": "curtain",
+   "tr": "perde"
+  },
+  {
+   "en": "carpet",
+   "tr": "halı"
+  },
+  {
+   "en": "blanket",
+   "tr": "battaniye"
+  },
+  {
+   "en": "pillow",
+   "tr": "yastık"
+  },
+  {
+   "en": "refrigerator",
+   "tr": "buzdolabı"
+  },
+  {
+   "en": "sink",
+   "tr": "lavabo"
+  }
+ ],
+ "online": []
+}

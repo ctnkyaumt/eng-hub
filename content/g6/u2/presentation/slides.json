@@ -1,0 +1,1297 @@
+{
+ "title": "Classroom Life",
+ "titleTr": "Sınıf Hayatı",
+ "emoji": "✏️",
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "accent": [
+  "#0d9488",
+  "#2563eb"
+ ],
+ "source": {
+  "studentBook": {
+   "file": "ingilizce6_ders_kitabi.pdf",
+   "pages": [
+    41,
+    54
+   ]
+  },
+  "workbook": {
+   "file": "ingilizce6_calisma_kitabi.pdf",
+   "pages": [
+    17,
+    24
+   ]
+  },
+  "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+ },
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 2",
+   "title": "Classroom Life",
+   "titleTr": "Sınıf Hayatı",
+   "emoji": "✏️"
+  },
+  {
+   "type": "scene",
+   "title": "Our lesson",
+   "emoji": "✏️",
+   "bubbles": [
+    {
+     "text": "Compare routines with actions happening now."
+    },
+    {
+     "text": "Check information with question tags and use numbers."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Study habits",
+   "items": [
+    {
+     "en": "habit",
+     "tr": "alışkanlık",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "habit",
+     "img": "/app/img/concepts/habit.svg"
+    },
+    {
+     "en": "diary",
+     "tr": "günlük",
+     "img": "/content/g6/shared/img/2380.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/2380",
+     "imageFit": "contain"
+    },
+    {
+     "en": "research",
+     "tr": "araştırma",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "method",
+     "tr": "yöntem",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "habit",
+       "b": "alışkanlık"
+      },
+      {
+       "a": "diary",
+       "b": "günlük"
+      },
+      {
+       "a": "research",
+       "b": "araştırma"
+      },
+      {
+       "a": "method",
+       "b": "yöntem"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Study habits",
+   "items": [
+    {
+     "en": "review",
+     "tr": "gözden geçirmek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "revise",
+     "tr": "tekrar etmek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "practise",
+     "tr": "pratik yapmak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "remember",
+     "tr": "hatırlamak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "review",
+       "b": "gözden geçirmek"
+      },
+      {
+       "a": "revise",
+       "b": "tekrar etmek"
+      },
+      {
+       "a": "practise",
+       "b": "pratik yapmak"
+      },
+      {
+       "a": "remember",
+       "b": "hatırlamak"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Learning together",
+   "items": [
+    {
+     "en": "peer",
+     "tr": "akran",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "pair",
+     "tr": "ikili",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "group",
+     "tr": "grup",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "task",
+     "tr": "görev",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "peer",
+       "b": "akran"
+      },
+      {
+       "a": "pair",
+       "b": "ikili"
+      },
+      {
+       "a": "group",
+       "b": "grup"
+      },
+      {
+       "a": "task",
+       "b": "görev"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Learning together",
+   "items": [
+    {
+     "en": "share",
+     "tr": "paylaşmak",
+     "img": "/content/g6/shared/img/15361.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/15361",
+     "imageFit": "contain"
+    },
+    {
+     "en": "repeat",
+     "tr": "tekrarlamak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "read aloud",
+     "tr": "sesli okumak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "read silently",
+     "tr": "sessiz okumak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "share",
+       "b": "paylaşmak"
+      },
+      {
+       "a": "repeat",
+       "b": "tekrarlamak"
+      },
+      {
+       "a": "read aloud",
+       "b": "sesli okumak"
+      },
+      {
+       "a": "read silently",
+       "b": "sessiz okumak"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "A useful routine",
+   "items": [
+    {
+     "en": "brush",
+     "tr": "fırçalamak",
+     "img": "/content/g5/u4/presentation/img/p01-14.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "rest",
+     "tr": "dinlenmek",
+     "img": "/content/g5/u4/presentation/img/p02-05.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "focus",
+     "tr": "odaklanmak",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "mark",
+     "tr": "işaretlemek",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "brush",
+       "b": "fırçalamak"
+      },
+      {
+       "a": "rest",
+       "b": "dinlenmek"
+      },
+      {
+       "a": "focus",
+       "b": "odaklanmak"
+      },
+      {
+       "a": "mark",
+       "b": "işaretlemek"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "A useful routine",
+   "items": [
+    {
+     "en": "effective",
+     "tr": "etkili",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "creative",
+     "tr": "yaratıcı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "in turns",
+     "tr": "sırayla",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "together",
+     "tr": "birlikte",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "effective",
+       "b": "etkili"
+      },
+      {
+       "a": "creative",
+       "b": "yaratıcı"
+      },
+      {
+       "a": "in turns",
+       "b": "sırayla"
+      },
+      {
+       "a": "together",
+       "b": "birlikte"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Numbers and order",
+   "items": [
+    {
+     "en": "one hundred",
+     "tr": "yüz",
+     "num": "100"
+    },
+    {
+     "en": "one hundred and fifty",
+     "tr": "yüz elli",
+     "num": "150"
+    },
+    {
+     "en": "two hundred",
+     "tr": "iki yüz",
+     "num": "200"
+    },
+    {
+     "en": "five hundred",
+     "tr": "beş yüz",
+     "num": "500"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "one hundred",
+       "b": "yüz"
+      },
+      {
+       "a": "one hundred and fifty",
+       "b": "yüz elli"
+      },
+      {
+       "a": "two hundred",
+       "b": "iki yüz"
+      },
+      {
+       "a": "five hundred",
+       "b": "beş yüz"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Numbers and order",
+   "items": [
+    {
+     "en": "first",
+     "tr": "birinci",
+     "num": "1st"
+    },
+    {
+     "en": "twelfth",
+     "tr": "on ikinci",
+     "num": "12th"
+    },
+    {
+     "en": "twenty-third",
+     "tr": "yirmi üçüncü",
+     "num": "23rd"
+    },
+    {
+     "en": "fiftieth",
+     "tr": "ellinci",
+     "num": "50th"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "first",
+       "b": "birinci"
+      },
+      {
+       "a": "twelfth",
+       "b": "on ikinci"
+      },
+      {
+       "a": "twenty-third",
+       "b": "yirmi üçüncü"
+      },
+      {
+       "a": "fiftieth",
+       "b": "ellinci"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Right now",
+   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
+   "grammarId": "present-progressive",
+   "examples": [
+    {
+     "en": "Our group *is researching* a new topic now.",
+     "tr": "Grubumuz şimdi yeni bir konu araştırıyor.",
+     "trEm": [
+      "araştırıyor"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Right now",
+   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
+   "grammarId": "present-progressive",
+   "examples": [
+    {
+     "en": "*Are* you *reading* silently?",
+     "tr": "Sessizce okuyor musun?",
+     "trEm": [
+      "okuyor musun"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Right now",
+   "rule": "Şimdi devam eden eylem: am/is/are + fiil-ing. Olumsuzda not eklenir; soruda am/is/are başa gelir.",
+   "grammarId": "present-progressive",
+   "examples": [
+    {
+     "en": "I *am not resting* at the moment.",
+     "tr": "Şu anda dinlenmiyorum.",
+     "trEm": [
+      "dinlenmiyorum"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Listen! Two peers ___ aloud.",
+     "answer": "are reading",
+     "options": [
+      "are reading",
+      "reads",
+      "is reading",
+      "readed"
+     ]
+    }
+   ],
+   "grammarId": "present-progressive"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The class ___ now; it is working.",
+     "answer": "isn't resting",
+     "options": [
+      "isn't resting",
+      "aren't resting",
+      "doesn't resting",
+      "not rest"
+     ]
+    }
+   ],
+   "grammarId": "present-progressive"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ your partner marking the answers now?",
+     "answer": "Is",
+     "options": [
+      "Is",
+      "Does",
+      "Do",
+      "Are"
+     ]
+    }
+   ],
+   "grammarId": "present-progressive"
+  },
+  {
+   "type": "grammar",
+   "title": "Usually and today",
+   "rule": "Every day/usually: geniş zaman. Now/at the moment: şimdiki zaman. Zaman ifadesi anlamı gösterir.",
+   "grammarId": "now-vs-routine",
+   "examples": [
+    {
+     "en": "I usually *work* in pairs.",
+     "tr": "Genellikle ikili çalışırım.",
+     "trEm": [
+      "çalışırım"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Usually and today",
+   "rule": "Every day/usually: geniş zaman. Now/at the moment: şimdiki zaman. Zaman ifadesi anlamı gösterir.",
+   "grammarId": "now-vs-routine",
+   "examples": [
+    {
+     "en": "Today I *am working* on my own.",
+     "tr": "Bugün tek başıma çalışıyorum.",
+     "trEm": [
+      "çalışıyorum"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Every evening, Arda ___ his diary.",
+     "answer": "reviews",
+     "options": [
+      "reviews",
+      "is reviewing",
+      "review",
+      "are reviewing"
+     ]
+    }
+   ],
+   "grammarId": "now-vs-routine"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Right now, Arda ___ his diary with a peer.",
+     "answer": "is sharing",
+     "options": [
+      "is sharing",
+      "shares",
+      "share",
+      "are sharing"
+     ]
+    }
+   ],
+   "grammarId": "now-vs-routine"
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a routine",
+   "rule": "Olumlu geniş zaman cümlesi + don't/doesn't; olumsuz cümle + do/does. Sonda uygun özne zamiri kullanılır.",
+   "grammarId": "question-tags-present",
+   "examples": [
+    {
+     "en": "You revise every day, *don't you*?",
+     "tr": "Her gün tekrar yapıyorsun, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Checking a routine",
+   "rule": "Olumlu geniş zaman cümlesi + don't/doesn't; olumsuz cümle + do/does. Sonda uygun özne zamiri kullanılır.",
+   "grammarId": "question-tags-present",
+   "examples": [
+    {
+     "en": "Lina doesn't read aloud, *does she*?",
+     "tr": "Lina sesli okumuyor, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Eren usually works in a group, ___?",
+     "answer": "doesn't he",
+     "options": [
+      "doesn't he",
+      "don't he",
+      "isn't he",
+      "does he"
+     ]
+    }
+   ],
+   "grammarId": "question-tags-present"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The peers don't rest here, ___?",
+     "answer": "do they",
+     "options": [
+      "do they",
+      "don't they",
+      "are they",
+      "does they"
+     ]
+    }
+   ],
+   "grammarId": "question-tags-present"
+  },
+  {
+   "type": "grammar",
+   "title": "Checking an action now",
+   "rule": "Şimdiki zamanda ek soru am/is/are ile kurulur. Olumlu cümleye olumsuz, olumsuz cümleye olumlu ek soru gelir.",
+   "grammarId": "question-tags-progressive",
+   "examples": [
+    {
+     "en": "They are sharing ideas, *aren't they*?",
+     "tr": "Fikirlerini paylaşıyorlar, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Checking an action now",
+   "rule": "Şimdiki zamanda ek soru am/is/are ile kurulur. Olumlu cümleye olumsuz, olumsuz cümleye olumlu ek soru gelir.",
+   "grammarId": "question-tags-progressive",
+   "examples": [
+    {
+     "en": "Ada isn't writing now, *is she*?",
+     "tr": "Ada şimdi yazmıyor, değil mi?",
+     "trEm": [
+      "değil mi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The teacher is marking a page, ___?",
+     "answer": "isn't she",
+     "options": [
+      "isn't she",
+      "doesn't she",
+      "is she",
+      "aren't she"
+     ]
+    }
+   ],
+   "grammarId": "question-tags-progressive"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "We aren't reading aloud, ___?",
+     "answer": "are we",
+     "options": [
+      "are we",
+      "do we",
+      "aren't we",
+      "is we"
+     ]
+    }
+   ],
+   "grammarId": "question-tags-progressive"
+  },
+  {
+   "type": "grammar",
+   "title": "Whose study things?",
+   "rule": "My, your, his, her, its, our, their bir isimden önce gelir ve sahipliği gösterir.",
+   "grammarId": "possessives",
+   "examples": [
+    {
+     "en": "We are checking *our* answers.",
+     "tr": "Kendi cevaplarımızı kontrol ediyoruz.",
+     "trEm": [
+      "Kendi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Whose study things?",
+   "rule": "My, your, his, her, its, our, their bir isimden önce gelir ve sahipliği gösterir.",
+   "grammarId": "possessives",
+   "examples": [
+    {
+     "en": "Lina is reading *her* diary.",
+     "tr": "Lina kendi günlüğünü okuyor.",
+     "trEm": [
+      "kendi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The boys are sharing ___ research.",
+     "answer": "their",
+     "options": [
+      "their",
+      "they",
+      "them",
+      "his"
+     ]
+    }
+   ],
+   "grammarId": "possessives"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "I write new words in ___ diary.",
+     "answer": "my",
+     "options": [
+      "my",
+      "me",
+      "I",
+      "he"
+     ]
+    }
+   ],
+   "grammarId": "possessives"
+  },
+  {
+   "type": "grammar",
+   "title": "Frequency and word order",
+   "rule": "How often? sorusunu every day, twice a week gibi ifadelerle cevapla. Often fiilden önce; carefully çoğunlukla nesneden sonra gelir.",
+   "grammarId": "how-often-adverbs",
+   "examples": [
+    {
+     "en": "*How often* do you revise vocabulary?",
+     "tr": "Kelimeleri ne sıklıkla tekrar edersin?",
+     "trEm": [
+      "ne sıklıkla"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Frequency and word order",
+   "rule": "How often? sorusunu every day, twice a week gibi ifadelerle cevapla. Often fiilden önce; carefully çoğunlukla nesneden sonra gelir.",
+   "grammarId": "how-often-adverbs",
+   "examples": [
+    {
+     "en": "I read the instructions *carefully*.",
+     "tr": "Yönergeleri dikkatlice okurum.",
+     "trEm": [
+      "dikkatlice"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ do you review? Twice a week.",
+     "answer": "How often",
+     "options": [
+      "How often",
+      "What",
+      "Whose",
+      "How many"
+     ]
+    }
+   ],
+   "grammarId": "how-often-adverbs"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Choose the correct order: ___",
+     "answer": "She reads the task carefully.",
+     "options": [
+      "She reads the task carefully.",
+      "She carefully the task reads.",
+      "She the reads task carefully.",
+      "She reads carefully the task."
+     ]
+    }
+   ],
+   "grammarId": "how-often-adverbs"
+  },
+  {
+   "type": "grammar",
+   "title": "100 to 500; 1st to 50th",
+   "rule": "Cardinal sayı miktarı, ordinal sayı sırayı gösterir. 100: one hundred. 21st: twenty-first. 40th: fortieth; 50th: fiftieth.",
+   "grammarId": "cardinal-ordinal",
+   "examples": [
+    {
+     "en": "There are *three hundred* cards.",
+     "tr": "Üç yüz kart var.",
+     "trEm": [
+      "Üç yüz"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "100 to 500; 1st to 50th",
+   "rule": "Cardinal sayı miktarı, ordinal sayı sırayı gösterir. 100: one hundred. 21st: twenty-first. 40th: fortieth; 50th: fiftieth.",
+   "grammarId": "cardinal-ordinal",
+   "examples": [
+    {
+     "en": "This is the *thirty-second* task.",
+     "tr": "Bu, otuz ikinci görev.",
+     "trEm": [
+      "otuz ikinci"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "250 = ___",
+     "answer": "two hundred and fifty",
+     "options": [
+      "two hundred and fifty",
+      "two hundred and fifteen",
+      "five hundred and twenty",
+      "twenty-five"
+     ]
+    }
+   ],
+   "grammarId": "cardinal-ordinal"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "40th = ___",
+     "answer": "fortieth",
+     "options": [
+      "fortieth",
+      "fourteenth",
+      "fourth",
+      "forty"
+     ]
+    }
+   ],
+   "grammarId": "cardinal-ordinal"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "21st = ___",
+     "answer": "twenty-first",
+     "options": [
+      "twenty-first",
+      "twenty-one",
+      "twelfth",
+      "twenty-third"
+     ]
+    }
+   ],
+   "grammarId": "cardinal-ordinal"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "500 = ___",
+     "answer": "five hundred",
+     "options": [
+      "five hundred",
+      "fifty",
+      "fifteenth",
+      "five thousand"
+     ]
+    }
+   ],
+   "grammarId": "cardinal-ordinal"
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Ada",
+       "text": "You usually read silently, don't you?",
+       "tr": "Genellikle sessiz okursun, değil mi?"
+      },
+      {
+       "who": "Eren",
+       "text": "Yes, but today I am reading to my group.",
+       "tr": "Evet, ama bugün grubuma okuyorum."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Ada",
+       "text": "How often do you revise these words?",
+       "tr": "Bu kelimeleri ne sıklıkla tekrar ediyorsun?"
+      },
+      {
+       "who": "Eren",
+       "text": "Three times a week. This method helps me.",
+       "tr": "Haftada üç kez. Bu yöntem bana yardımcı oluyor."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "A different study afternoon",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "Eren usually studies with one peer after school. They review words and read silently. On Wednesdays, Eren writes in his learning diary. Today his routine is different. He is working with three classmates on a research task. Ada is reading aloud."
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "A different study afternoon",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "Tom is marking important words. Eren is checking their answers. They have two hundred cards, but they are only using the first fifty today. They take turns and share ideas. Their teacher visits the group twice a week."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Who does Eren usually study with?",
+     "answer": "One peer."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "What is Ada doing today?",
+     "answer": "She is reading aloud."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "How many cards have they got?",
+     "answer": "Two hundred / 200."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "How often does the teacher visit?",
+     "answer": "Twice a week."
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "habit",
+      "tr": "alışkanlık",
+      "imageSource": "ENG HUB",
+      "imageFit": "contain",
+      "imageConcept": "habit",
+      "img": "/app/img/concepts/habit.svg",
+      "audio": "/app/audio/words/habit.wav"
+     },
+     {
+      "en": "diary",
+      "tr": "günlük",
+      "img": "/content/g6/shared/img/2380.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2380",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/diary.wav"
+     },
+     {
+      "en": "share",
+      "tr": "paylaşmak",
+      "img": "/content/g6/shared/img/15361.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/15361",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/share.wav"
+     },
+     {
+      "en": "brush",
+      "tr": "fırçalamak",
+      "img": "/content/g5/u4/presentation/img/p01-14.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/brush.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "habit",
+      "tr": "alışkanlık",
+      "imageSource": "ENG HUB",
+      "imageFit": "contain",
+      "imageConcept": "habit",
+      "img": "/app/img/concepts/habit.svg",
+      "audio": "/app/audio/words/habit.wav"
+     },
+     {
+      "en": "diary",
+      "tr": "günlük",
+      "img": "/content/g6/shared/img/2380.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/2380",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/diary.wav"
+     },
+     {
+      "en": "share",
+      "tr": "paylaşmak",
+      "img": "/content/g6/shared/img/15361.png",
+      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+      "imageCredit": "https://arasaac.org/pictograms/en/15361",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/share.wav"
+     },
+     {
+      "en": "brush",
+      "tr": "fırçalamak",
+      "img": "/content/g5/u4/presentation/img/p01-14.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/brush.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Our group is researching a new topic now.",
+      "tr": "Grubumuz şimdi yeni bir konu araştırıyor."
+     },
+     {
+      "answer": "I am not resting at the moment.",
+      "tr": "Şu anda dinlenmiyorum."
+     },
+     {
+      "answer": "I usually work in pairs.",
+      "tr": "Genellikle ikili çalışırım."
+     },
+     {
+      "answer": "Today I am working on my own.",
+      "tr": "Bugün tek başıma çalışıyorum."
+     },
+     {
+      "answer": "We are checking our answers.",
+      "tr": "Kendi cevaplarımızı kontrol ediyoruz."
+     },
+     {
+      "answer": "Lina is reading her diary.",
+      "tr": "Lina kendi günlüğünü okuyor."
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Your turn to speak",
+   "task": {
+    "kind": "flash",
+    "q": "Partner A describes two study routines. Partner B checks them with question tags. Then describe two actions happening in your classroom now.",
+    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
+   }
+  },
+  {
+   "type": "end",
+   "title": "Ready for more practice",
+   "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
+   "emoji": "🎯"
+  }
+ ]
+}

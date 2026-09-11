@@ -1,1 +1,1782 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-u8-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Mercury - choose the meaning.",
+     "a": [
+      {
+       "t": "gök gürültüsü",
+       "c": false
+      },
+      {
+       "t": "Merkür",
+       "c": true
+      },
+      {
+       "t": "yörünge",
+       "c": false
+      },
+      {
+       "t": "Mars",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Venus - choose the meaning.",
+     "a": [
+      {
+       "t": "nüfus",
+       "c": false
+      },
+      {
+       "t": "yörünge",
+       "c": false
+      },
+      {
+       "t": "icat etmek",
+       "c": false
+      },
+      {
+       "t": "Venüs",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Earth - choose the meaning.",
+     "a": [
+      {
+       "t": "Jüpiter",
+       "c": false
+      },
+      {
+       "t": "Dünya",
+       "c": true
+      },
+      {
+       "t": "kuraklık",
+       "c": false
+      },
+      {
+       "t": "fırtına",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Mars - choose the meaning.",
+     "a": [
+      {
+       "t": "yörünge",
+       "c": false
+      },
+      {
+       "t": "Mars",
+       "c": true
+      },
+      {
+       "t": "teknoloji",
+       "c": false
+      },
+      {
+       "t": "kasırga",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Jupiter - choose the meaning.",
+     "a": [
+      {
+       "t": "kuraklık",
+       "c": false
+      },
+      {
+       "t": "Jüpiter",
+       "c": true
+      },
+      {
+       "t": "görünür",
+       "c": false
+      },
+      {
+       "t": "uzman",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Saturn - choose the meaning.",
+     "a": [
+      {
+       "t": "Satürn",
+       "c": true
+      },
+      {
+       "t": "kanıt",
+       "c": false
+      },
+      {
+       "t": "atmosfer",
+       "c": false
+      },
+      {
+       "t": "kaynak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Uranus - choose the meaning.",
+     "a": [
+      {
+       "t": "kuraklık",
+       "c": false
+      },
+      {
+       "t": "görünür",
+       "c": false
+      },
+      {
+       "t": "kasırga",
+       "c": false
+      },
+      {
+       "t": "Uranüs",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Neptune - choose the meaning.",
+     "a": [
+      {
+       "t": "Neptün",
+       "c": true
+      },
+      {
+       "t": "sel",
+       "c": false
+      },
+      {
+       "t": "mesafe",
+       "c": false
+      },
+      {
+       "t": "canlı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Sun - choose the meaning.",
+     "a": [
+      {
+       "t": "Güneş",
+       "c": true
+      },
+      {
+       "t": "niyet",
+       "c": false
+      },
+      {
+       "t": "Dünya",
+       "c": false
+      },
+      {
+       "t": "fırtına",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Moon - choose the meaning.",
+     "a": [
+      {
+       "t": "icat etmek",
+       "c": false
+      },
+      {
+       "t": "Ay",
+       "c": true
+      },
+      {
+       "t": "teknoloji",
+       "c": false
+      },
+      {
+       "t": "gök gürültüsü",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "orbit - choose the meaning.",
+     "a": [
+      {
+       "t": "yörünge",
+       "c": true
+      },
+      {
+       "t": "şimşek",
+       "c": false
+      },
+      {
+       "t": "kanıt",
+       "c": false
+      },
+      {
+       "t": "parlak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "atmosphere - choose the meaning.",
+     "a": [
+      {
+       "t": "kuraklık",
+       "c": false
+      },
+      {
+       "t": "Dünya",
+       "c": false
+      },
+      {
+       "t": "fırtına",
+       "c": false
+      },
+      {
+       "t": "atmosfer",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "distance - choose the meaning.",
+     "a": [
+      {
+       "t": "mesafe",
+       "c": true
+      },
+      {
+       "t": "Venüs",
+       "c": false
+      },
+      {
+       "t": "Merkür",
+       "c": false
+      },
+      {
+       "t": "hortum",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "bright - choose the meaning.",
+     "a": [
+      {
+       "t": "teknoloji",
+       "c": false
+      },
+      {
+       "t": "parlak",
+       "c": true
+      },
+      {
+       "t": "Ay",
+       "c": false
+      },
+      {
+       "t": "uzman",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "visible - choose the meaning.",
+     "a": [
+      {
+       "t": "Jüpiter",
+       "c": false
+      },
+      {
+       "t": "görünür",
+       "c": true
+      },
+      {
+       "t": "Merkür",
+       "c": false
+      },
+      {
+       "t": "sel",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "alive - choose the meaning.",
+     "a": [
+      {
+       "t": "Dünya",
+       "c": false
+      },
+      {
+       "t": "tipi",
+       "c": false
+      },
+      {
+       "t": "teknoloji",
+       "c": false
+      },
+      {
+       "t": "canlı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "storm - choose the meaning.",
+     "a": [
+      {
+       "t": "Uranüs",
+       "c": false
+      },
+      {
+       "t": "gök gürültüsü",
+       "c": false
+      },
+      {
+       "t": "niyet",
+       "c": false
+      },
+      {
+       "t": "fırtına",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "thunder - choose the meaning.",
+     "a": [
+      {
+       "t": "Güneş",
+       "c": false
+      },
+      {
+       "t": "Ay",
+       "c": false
+      },
+      {
+       "t": "kaynak",
+       "c": false
+      },
+      {
+       "t": "gök gürültüsü",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "lightning - choose the meaning.",
+     "a": [
+      {
+       "t": "Merkür",
+       "c": false
+      },
+      {
+       "t": "Mars",
+       "c": false
+      },
+      {
+       "t": "tipi",
+       "c": false
+      },
+      {
+       "t": "şimşek",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "flood - choose the meaning.",
+     "a": [
+      {
+       "t": "Mars",
+       "c": false
+      },
+      {
+       "t": "icat etmek",
+       "c": false
+      },
+      {
+       "t": "sel",
+       "c": true
+      },
+      {
+       "t": "kuraklık",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "drought - choose the meaning.",
+     "a": [
+      {
+       "t": "yörünge",
+       "c": false
+      },
+      {
+       "t": "Jüpiter",
+       "c": false
+      },
+      {
+       "t": "kuraklık",
+       "c": true
+      },
+      {
+       "t": "mesafe",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tornado - choose the meaning.",
+     "a": [
+      {
+       "t": "hortum",
+       "c": true
+      },
+      {
+       "t": "fırtına",
+       "c": false
+      },
+      {
+       "t": "Mars",
+       "c": false
+      },
+      {
+       "t": "yörünge",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "blizzard - choose the meaning.",
+     "a": [
+      {
+       "t": "kuraklık",
+       "c": false
+      },
+      {
+       "t": "tahmin etmek",
+       "c": false
+      },
+      {
+       "t": "tipi",
+       "c": true
+      },
+      {
+       "t": "hortum",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "hurricane - choose the meaning.",
+     "a": [
+      {
+       "t": "nüfus",
+       "c": false
+      },
+      {
+       "t": "şimşek",
+       "c": false
+      },
+      {
+       "t": "kasırga",
+       "c": true
+      },
+      {
+       "t": "hortum",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "technology - choose the meaning.",
+     "a": [
+      {
+       "t": "Satürn",
+       "c": false
+      },
+      {
+       "t": "icat etmek",
+       "c": false
+      },
+      {
+       "t": "teknoloji",
+       "c": true
+      },
+      {
+       "t": "kuraklık",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "invent - choose the meaning.",
+     "a": [
+      {
+       "t": "kanıt",
+       "c": false
+      },
+      {
+       "t": "icat etmek",
+       "c": true
+      },
+      {
+       "t": "Ay",
+       "c": false
+      },
+      {
+       "t": "parlak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "predict - choose the meaning.",
+     "a": [
+      {
+       "t": "gök gürültüsü",
+       "c": false
+      },
+      {
+       "t": "görünür",
+       "c": false
+      },
+      {
+       "t": "tahmin etmek",
+       "c": true
+      },
+      {
+       "t": "Venüs",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "expert - choose the meaning.",
+     "a": [
+      {
+       "t": "Dünya",
+       "c": false
+      },
+      {
+       "t": "uzman",
+       "c": true
+      },
+      {
+       "t": "Mars",
+       "c": false
+      },
+      {
+       "t": "fırtına",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "evidence - choose the meaning.",
+     "a": [
+      {
+       "t": "kanıt",
+       "c": true
+      },
+      {
+       "t": "gök gürültüsü",
+       "c": false
+      },
+      {
+       "t": "tahmin etmek",
+       "c": false
+      },
+      {
+       "t": "uzman",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "intention - choose the meaning.",
+     "a": [
+      {
+       "t": "niyet",
+       "c": true
+      },
+      {
+       "t": "kaynak",
+       "c": false
+      },
+      {
+       "t": "fırtına",
+       "c": false
+      },
+      {
+       "t": "Mars",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "population - choose the meaning.",
+     "a": [
+      {
+       "t": "Merkür",
+       "c": false
+      },
+      {
+       "t": "tahmin etmek",
+       "c": false
+      },
+      {
+       "t": "nüfus",
+       "c": true
+      },
+      {
+       "t": "uzman",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "source - choose the meaning.",
+     "a": [
+      {
+       "t": "Ay",
+       "c": false
+      },
+      {
+       "t": "kaynak",
+       "c": true
+      },
+      {
+       "t": "parlak",
+       "c": false
+      },
+      {
+       "t": "tahmin etmek",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u8-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Merkür - choose the English word.",
+     "a": [
+      {
+       "t": "Venus",
+       "c": false
+      },
+      {
+       "t": "expert",
+       "c": false
+      },
+      {
+       "t": "flood",
+       "c": false
+      },
+      {
+       "t": "Mercury",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Venüs - choose the English word.",
+     "a": [
+      {
+       "t": "invent",
+       "c": false
+      },
+      {
+       "t": "tornado",
+       "c": false
+      },
+      {
+       "t": "storm",
+       "c": false
+      },
+      {
+       "t": "Venus",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Dünya - choose the English word.",
+     "a": [
+      {
+       "t": "Earth",
+       "c": true
+      },
+      {
+       "t": "Moon",
+       "c": false
+      },
+      {
+       "t": "visible",
+       "c": false
+      },
+      {
+       "t": "invent",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Mars - choose the English word.",
+     "a": [
+      {
+       "t": "Mars",
+       "c": true
+      },
+      {
+       "t": "Earth",
+       "c": false
+      },
+      {
+       "t": "invent",
+       "c": false
+      },
+      {
+       "t": "Neptune",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Jüpiter - choose the English word.",
+     "a": [
+      {
+       "t": "technology",
+       "c": false
+      },
+      {
+       "t": "predict",
+       "c": false
+      },
+      {
+       "t": "Jupiter",
+       "c": true
+      },
+      {
+       "t": "Venus",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Satürn - choose the English word.",
+     "a": [
+      {
+       "t": "technology",
+       "c": false
+      },
+      {
+       "t": "hurricane",
+       "c": false
+      },
+      {
+       "t": "Moon",
+       "c": false
+      },
+      {
+       "t": "Saturn",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Uranüs - choose the English word.",
+     "a": [
+      {
+       "t": "Jupiter",
+       "c": false
+      },
+      {
+       "t": "Earth",
+       "c": false
+      },
+      {
+       "t": "Neptune",
+       "c": false
+      },
+      {
+       "t": "Uranus",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Neptün - choose the English word.",
+     "a": [
+      {
+       "t": "Neptune",
+       "c": true
+      },
+      {
+       "t": "visible",
+       "c": false
+      },
+      {
+       "t": "Venus",
+       "c": false
+      },
+      {
+       "t": "intention",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Güneş - choose the English word.",
+     "a": [
+      {
+       "t": "Sun",
+       "c": true
+      },
+      {
+       "t": "hurricane",
+       "c": false
+      },
+      {
+       "t": "Venus",
+       "c": false
+      },
+      {
+       "t": "technology",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Ay - choose the English word.",
+     "a": [
+      {
+       "t": "Moon",
+       "c": true
+      },
+      {
+       "t": "Mars",
+       "c": false
+      },
+      {
+       "t": "storm",
+       "c": false
+      },
+      {
+       "t": "technology",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yörünge - choose the English word.",
+     "a": [
+      {
+       "t": "orbit",
+       "c": true
+      },
+      {
+       "t": "distance",
+       "c": false
+      },
+      {
+       "t": "Neptune",
+       "c": false
+      },
+      {
+       "t": "bright",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "atmosfer - choose the English word.",
+     "a": [
+      {
+       "t": "Mars",
+       "c": false
+      },
+      {
+       "t": "distance",
+       "c": false
+      },
+      {
+       "t": "atmosphere",
+       "c": true
+      },
+      {
+       "t": "technology",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "mesafe - choose the English word.",
+     "a": [
+      {
+       "t": "predict",
+       "c": false
+      },
+      {
+       "t": "hurricane",
+       "c": false
+      },
+      {
+       "t": "Sun",
+       "c": false
+      },
+      {
+       "t": "distance",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "parlak - choose the English word.",
+     "a": [
+      {
+       "t": "bright",
+       "c": true
+      },
+      {
+       "t": "thunder",
+       "c": false
+      },
+      {
+       "t": "orbit",
+       "c": false
+      },
+      {
+       "t": "Moon",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "görünür - choose the English word.",
+     "a": [
+      {
+       "t": "Sun",
+       "c": false
+      },
+      {
+       "t": "orbit",
+       "c": false
+      },
+      {
+       "t": "source",
+       "c": false
+      },
+      {
+       "t": "visible",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "canlı - choose the English word.",
+     "a": [
+      {
+       "t": "alive",
+       "c": true
+      },
+      {
+       "t": "Earth",
+       "c": false
+      },
+      {
+       "t": "visible",
+       "c": false
+      },
+      {
+       "t": "Sun",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fırtına - choose the English word.",
+     "a": [
+      {
+       "t": "Earth",
+       "c": false
+      },
+      {
+       "t": "Venus",
+       "c": false
+      },
+      {
+       "t": "alive",
+       "c": false
+      },
+      {
+       "t": "storm",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "gök gürültüsü - choose the English word.",
+     "a": [
+      {
+       "t": "storm",
+       "c": false
+      },
+      {
+       "t": "orbit",
+       "c": false
+      },
+      {
+       "t": "source",
+       "c": false
+      },
+      {
+       "t": "thunder",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "şimşek - choose the English word.",
+     "a": [
+      {
+       "t": "visible",
+       "c": false
+      },
+      {
+       "t": "storm",
+       "c": false
+      },
+      {
+       "t": "Mars",
+       "c": false
+      },
+      {
+       "t": "lightning",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "sel - choose the English word.",
+     "a": [
+      {
+       "t": "distance",
+       "c": false
+      },
+      {
+       "t": "flood",
+       "c": true
+      },
+      {
+       "t": "atmosphere",
+       "c": false
+      },
+      {
+       "t": "Earth",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kuraklık - choose the English word.",
+     "a": [
+      {
+       "t": "drought",
+       "c": true
+      },
+      {
+       "t": "lightning",
+       "c": false
+      },
+      {
+       "t": "Uranus",
+       "c": false
+      },
+      {
+       "t": "Sun",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "hortum - choose the English word.",
+     "a": [
+      {
+       "t": "Mercury",
+       "c": false
+      },
+      {
+       "t": "alive",
+       "c": false
+      },
+      {
+       "t": "flood",
+       "c": false
+      },
+      {
+       "t": "tornado",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "tipi - choose the English word.",
+     "a": [
+      {
+       "t": "thunder",
+       "c": false
+      },
+      {
+       "t": "blizzard",
+       "c": true
+      },
+      {
+       "t": "expert",
+       "c": false
+      },
+      {
+       "t": "Mercury",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kasırga - choose the English word.",
+     "a": [
+      {
+       "t": "hurricane",
+       "c": true
+      },
+      {
+       "t": "Neptune",
+       "c": false
+      },
+      {
+       "t": "evidence",
+       "c": false
+      },
+      {
+       "t": "Mercury",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "teknoloji - choose the English word.",
+     "a": [
+      {
+       "t": "technology",
+       "c": true
+      },
+      {
+       "t": "Sun",
+       "c": false
+      },
+      {
+       "t": "distance",
+       "c": false
+      },
+      {
+       "t": "lightning",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "icat etmek - choose the English word.",
+     "a": [
+      {
+       "t": "hurricane",
+       "c": false
+      },
+      {
+       "t": "Uranus",
+       "c": false
+      },
+      {
+       "t": "atmosphere",
+       "c": false
+      },
+      {
+       "t": "invent",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "tahmin etmek - choose the English word.",
+     "a": [
+      {
+       "t": "blizzard",
+       "c": false
+      },
+      {
+       "t": "predict",
+       "c": true
+      },
+      {
+       "t": "Uranus",
+       "c": false
+      },
+      {
+       "t": "invent",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "uzman - choose the English word.",
+     "a": [
+      {
+       "t": "Uranus",
+       "c": false
+      },
+      {
+       "t": "evidence",
+       "c": false
+      },
+      {
+       "t": "expert",
+       "c": true
+      },
+      {
+       "t": "alive",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kanıt - choose the English word.",
+     "a": [
+      {
+       "t": "Mars",
+       "c": false
+      },
+      {
+       "t": "evidence",
+       "c": true
+      },
+      {
+       "t": "blizzard",
+       "c": false
+      },
+      {
+       "t": "orbit",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "niyet - choose the English word.",
+     "a": [
+      {
+       "t": "blizzard",
+       "c": false
+      },
+      {
+       "t": "atmosphere",
+       "c": false
+      },
+      {
+       "t": "source",
+       "c": false
+      },
+      {
+       "t": "intention",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "nüfus - choose the English word.",
+     "a": [
+      {
+       "t": "lightning",
+       "c": false
+      },
+      {
+       "t": "atmosphere",
+       "c": false
+      },
+      {
+       "t": "population",
+       "c": true
+      },
+      {
+       "t": "expert",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kaynak - choose the English word.",
+     "a": [
+      {
+       "t": "drought",
+       "c": false
+      },
+      {
+       "t": "flood",
+       "c": false
+      },
+      {
+       "t": "blizzard",
+       "c": false
+      },
+      {
+       "t": "source",
+       "c": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u8-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Our plan is ready. We ___ Mars tomorrow.",
+     "grammarId": "going-to-plans",
+     "explanation": "Our plan is ready. We are going to study Mars tomorrow.",
+     "a": [
+      {
+       "t": "is going to study",
+       "c": false
+      },
+      {
+       "t": "are going study",
+       "c": false
+      },
+      {
+       "t": "going study",
+       "c": false
+      },
+      {
+       "t": "are going to study",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Ada has decided to draw Saturn. She ___ it tonight.",
+     "grammarId": "going-to-plans",
+     "explanation": "Ada has decided to draw Saturn. She is going to draw it tonight.",
+     "a": [
+      {
+       "t": "going to draw",
+       "c": false
+      },
+      {
+       "t": "is going draw",
+       "c": false
+      },
+      {
+       "t": "is going to draw",
+       "c": true
+      },
+      {
+       "t": "are going to draw",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Look! The cup is falling. It ___.",
+     "grammarId": "going-to-evidence",
+     "explanation": "Look! The cup is falling. It is going to break.",
+     "a": [
+      {
+       "t": "is going to break",
+       "c": true
+      },
+      {
+       "t": "are going to break",
+       "c": false
+      },
+      {
+       "t": "is going break",
+       "c": false
+      },
+      {
+       "t": "going to break",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The clouds are very dark. A storm ___.",
+     "grammarId": "going-to-evidence",
+     "explanation": "The clouds are very dark. A storm is going to start.",
+     "a": [
+      {
+       "t": "is going to start",
+       "c": true
+      },
+      {
+       "t": "going start",
+       "c": false
+      },
+      {
+       "t": "is going start",
+       "c": false
+      },
+      {
+       "t": "are going to start",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "I think people ___ new kinds of vehicles.",
+     "grammarId": "will-predictions",
+     "explanation": "I think people will invent new kinds of vehicles.",
+     "a": [
+      {
+       "t": "will invented",
+       "c": false
+      },
+      {
+       "t": "will invents",
+       "c": false
+      },
+      {
+       "t": "will invent",
+       "c": true
+      },
+      {
+       "t": "will inventing",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "I hope tomorrow ___ stormy.",
+     "grammarId": "will-predictions",
+     "explanation": "I hope tomorrow won't be stormy.",
+     "a": [
+      {
+       "t": "won't be",
+       "c": true
+      },
+      {
+       "t": "won't was",
+       "c": false
+      },
+      {
+       "t": "won't is",
+       "c": false
+      },
+      {
+       "t": "won't being",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ they going to present their model on Friday?",
+     "grammarId": "future-questions",
+     "explanation": "Are they going to present their model on Friday?",
+     "a": [
+      {
+       "t": "Are",
+       "c": true
+      },
+      {
+       "t": "Does",
+       "c": false
+      },
+      {
+       "t": "Will",
+       "c": false
+      },
+      {
+       "t": "Do",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Will the new technology help? Yes, it ___.",
+     "grammarId": "future-questions",
+     "explanation": "Will the new technology help? Yes, it will.",
+     "a": [
+      {
+       "t": "did",
+       "c": false
+      },
+      {
+       "t": "will",
+       "c": true
+      },
+      {
+       "t": "does",
+       "c": false
+      },
+      {
+       "t": "is",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Is Maya going to join us? No, she ___.",
+     "grammarId": "future-questions",
+     "explanation": "Is Maya going to join us? No, she isn't.",
+     "a": [
+      {
+       "t": "doesn't",
+       "c": false
+      },
+      {
+       "t": "isn't",
+       "c": true
+      },
+      {
+       "t": "won't",
+       "c": false
+      },
+      {
+       "t": "aren't",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The experts won't arrive late, ___?",
+     "grammarId": "future-tags",
+     "explanation": "The experts won't arrive late, will they?",
+     "a": [
+      {
+       "t": "are they",
+       "c": false
+      },
+      {
+       "t": "won't they",
+       "c": false
+      },
+      {
+       "t": "will they",
+       "c": true
+      },
+      {
+       "t": "do they",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Lina is going to draw Earth, ___?",
+     "grammarId": "future-tags",
+     "explanation": "Lina is going to draw Earth, isn't she?",
+     "a": [
+      {
+       "t": "doesn't she",
+       "c": false
+      },
+      {
+       "t": "isn't she",
+       "c": true
+      },
+      {
+       "t": "is she",
+       "c": false
+      },
+      {
+       "t": "won't she",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "We will save energy, ___?",
+     "grammarId": "future-tags",
+     "explanation": "We will save energy, won't we?",
+     "a": [
+      {
+       "t": "will we",
+       "c": false
+      },
+      {
+       "t": "don't we",
+       "c": false
+      },
+      {
+       "t": "aren't we",
+       "c": false
+      },
+      {
+       "t": "won't we",
+       "c": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "Mercury",
+   "tr": "Merkür"
+  },
+  {
+   "en": "Venus",
+   "tr": "Venüs"
+  },
+  {
+   "en": "Earth",
+   "tr": "Dünya"
+  },
+  {
+   "en": "Mars",
+   "tr": "Mars"
+  },
+  {
+   "en": "Jupiter",
+   "tr": "Jüpiter"
+  },
+  {
+   "en": "Saturn",
+   "tr": "Satürn"
+  },
+  {
+   "en": "Uranus",
+   "tr": "Uranüs"
+  },
+  {
+   "en": "Neptune",
+   "tr": "Neptün"
+  },
+  {
+   "en": "Sun",
+   "tr": "Güneş"
+  },
+  {
+   "en": "Moon",
+   "tr": "Ay"
+  },
+  {
+   "en": "orbit",
+   "tr": "yörünge"
+  },
+  {
+   "en": "atmosphere",
+   "tr": "atmosfer"
+  },
+  {
+   "en": "distance",
+   "tr": "mesafe"
+  },
+  {
+   "en": "bright",
+   "tr": "parlak"
+  },
+  {
+   "en": "visible",
+   "tr": "görünür"
+  },
+  {
+   "en": "alive",
+   "tr": "canlı"
+  },
+  {
+   "en": "storm",
+   "tr": "fırtına"
+  },
+  {
+   "en": "thunder",
+   "tr": "gök gürültüsü"
+  },
+  {
+   "en": "lightning",
+   "tr": "şimşek"
+  },
+  {
+   "en": "flood",
+   "tr": "sel"
+  },
+  {
+   "en": "drought",
+   "tr": "kuraklık"
+  },
+  {
+   "en": "tornado",
+   "tr": "hortum"
+  },
+  {
+   "en": "blizzard",
+   "tr": "tipi"
+  },
+  {
+   "en": "hurricane",
+   "tr": "kasırga"
+  },
+  {
+   "en": "technology",
+   "tr": "teknoloji"
+  },
+  {
+   "en": "invent",
+   "tr": "icat etmek"
+  },
+  {
+   "en": "predict",
+   "tr": "tahmin etmek"
+  },
+  {
+   "en": "expert",
+   "tr": "uzman"
+  },
+  {
+   "en": "evidence",
+   "tr": "kanıt"
+  },
+  {
+   "en": "intention",
+   "tr": "niyet"
+  },
+  {
+   "en": "population",
+   "tr": "nüfus"
+  },
+  {
+   "en": "source",
+   "tr": "kaynak"
+  }
+ ],
+ "online": []
+}

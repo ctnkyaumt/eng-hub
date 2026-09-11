@@ -1,0 +1,749 @@
+{
+ "curriculum": "meb-english-6-2026",
+ "author": "ENG HUB - özgün içerik",
+ "books": [
+  {
+   "file": "ingilizce6_ders_kitabi.pdf",
+   "sha256": "3d869af966de9e5e2a4ce86f2e5b618e69879c738c1c0bb4f5134f750a6c4d23",
+   "pages": 167
+  },
+  {
+   "file": "ingilizce6_calisma_kitabi.pdf",
+   "sha256": "6ff4fa8f987c830044c483d4ec9a5f2cbfe6ab5d6ee5afdeac19023ab51d6275",
+   "pages": 75
+  }
+ ],
+ "units": [
+  {
+   "id": "revision",
+   "title": "Revision",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      15,
+      26
+     ]
+    },
+    "workbook": null,
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "r1-school-language",
+     "title": "Revision 1: school language"
+    },
+    {
+     "id": "r1-pronouns",
+     "title": "Revision 1: people and belongings"
+    },
+    {
+     "id": "r1-time-routines",
+     "title": "Revision 1: time and habits"
+    },
+    {
+     "id": "r1-now-tags",
+     "title": "Revision 1: now and usually"
+    },
+    {
+     "id": "r1-preferences",
+     "title": "Revision 1: preferences"
+    },
+    {
+     "id": "r2-possession",
+     "title": "Revision 2: homes and possession"
+    },
+    {
+     "id": "r2-quantity-ordering",
+     "title": "Revision 2: food and quantity"
+    },
+    {
+     "id": "r2-comparisons",
+     "title": "Revision 2: comparing animals"
+    },
+    {
+     "id": "r2-can-permission",
+     "title": "Revision 2: ability and permission"
+    },
+    {
+     "id": "r2-holidays-obligations",
+     "title": "Revision 2: holiday plans"
+    }
+   ],
+   "vocabulary": [
+    "Revision 1: school",
+    "Revision 1: personal and family life",
+    "Revision 2: places and food",
+    "Revision 2: nature and holidays"
+   ],
+   "slides": 81,
+   "words": 32,
+   "questions": 94,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "laboratory",
+    "timetable",
+    "club",
+    "grandparents",
+    "park",
+    "restaurant",
+    "tiny house",
+    "a slice of cake"
+   ]
+  },
+  {
+   "id": "u1",
+   "title": "School Life",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      27,
+      40
+     ]
+    },
+    "workbook": {
+     "file": "ingilizce6_calisma_kitabi.pdf",
+     "pages": [
+      9,
+      16
+     ]
+    },
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "articles",
+     "title": "A, an and the"
+    },
+    {
+     "id": "imperatives",
+     "title": "Classroom instructions"
+    },
+    {
+     "id": "present-simple",
+     "title": "School routines"
+    },
+    {
+     "id": "frequency",
+     "title": "How regularly?"
+    },
+    {
+     "id": "pronouns",
+     "title": "People and object pronouns"
+    },
+    {
+     "id": "existence-questions",
+     "title": "People, places and times"
+    }
+   ],
+   "vocabulary": [
+    "People and responsibilities",
+    "School routines",
+    "Days to celebrate",
+    "Working together"
+   ],
+   "slides": 62,
+   "words": 32,
+   "questions": 81,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "leader",
+    "listener",
+    "permission",
+    "instruction",
+    "helpful",
+    "support",
+    "volunteer",
+    "greet",
+    "enter",
+    "term",
+    "regularly",
+    "carefully",
+    "willingly",
+    "ceremony",
+    "celebration",
+    "parade",
+    "national anthem",
+    "speech",
+    "celebrate",
+    "successful",
+    "keen",
+    "try",
+    "pass",
+    "fail",
+    "cheerfully",
+    "before",
+    "later"
+   ]
+  },
+  {
+   "id": "u2",
+   "title": "Classroom Life",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      41,
+      54
+     ]
+    },
+    "workbook": {
+     "file": "ingilizce6_calisma_kitabi.pdf",
+     "pages": [
+      17,
+      24
+     ]
+    },
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "present-progressive",
+     "title": "Right now"
+    },
+    {
+     "id": "now-vs-routine",
+     "title": "Usually and today"
+    },
+    {
+     "id": "question-tags-present",
+     "title": "Checking a routine"
+    },
+    {
+     "id": "question-tags-progressive",
+     "title": "Checking an action now"
+    },
+    {
+     "id": "possessives",
+     "title": "Whose study things?"
+    },
+    {
+     "id": "how-often-adverbs",
+     "title": "Frequency and word order"
+    },
+    {
+     "id": "cardinal-ordinal",
+     "title": "100 to 500; 1st to 50th"
+    }
+   ],
+   "vocabulary": [
+    "Study habits",
+    "Learning together",
+    "A useful routine",
+    "Numbers and order"
+   ],
+   "slides": 63,
+   "words": 32,
+   "questions": 81,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "research",
+    "method",
+    "review",
+    "revise",
+    "practise",
+    "remember",
+    "peer",
+    "pair",
+    "group",
+    "task",
+    "repeat",
+    "read aloud",
+    "read silently",
+    "focus",
+    "mark",
+    "effective",
+    "creative",
+    "in turns",
+    "together"
+   ]
+  },
+  {
+   "id": "u3",
+   "title": "Personal Life",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      55,
+      68
+     ]
+    },
+    "workbook": {
+     "file": "ingilizce6_calisma_kitabi.pdf",
+     "pages": [
+      25,
+      32
+     ]
+    },
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "have-got",
+     "title": "Possessions and appearance"
+    },
+    {
+     "id": "whose",
+     "title": "Whose belongings?"
+    },
+    {
+     "id": "comparatives",
+     "title": "Comparing two"
+    },
+    {
+     "id": "superlatives",
+     "title": "Comparing a group"
+    },
+    {
+     "id": "irregular-comparison",
+     "title": "Good, better, best"
+    }
+   ],
+   "vocabulary": [
+    "Body parts",
+    "Clothes and belongings",
+    "Character",
+    "Describing a person"
+   ],
+   "slides": 54,
+   "words": 32,
+   "questions": 76,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "ankle",
+    "heart",
+    "stomach",
+    "skin",
+    "physical",
+    "trainers",
+    "swimsuit",
+    "tights",
+    "pocket",
+    "bracelet",
+    "wallet",
+    "jewellery",
+    "patient",
+    "polite",
+    "caring",
+    "clever",
+    "organised",
+    "independent",
+    "focused",
+    "tidy",
+    "rude",
+    "lazy",
+    "lovely",
+    "brilliant",
+    "look"
+   ]
+  },
+  {
+   "id": "u4",
+   "title": "Family Life",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      69,
+      82
+     ]
+    },
+    "workbook": {
+     "file": "ingilizce6_calisma_kitabi.pdf",
+     "pages": [
+      33,
+      40
+     ]
+    },
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "arrangements",
+     "title": "Family arrangements"
+    },
+    {
+     "id": "future-timetables",
+     "title": "Timetables"
+    },
+    {
+     "id": "when-while",
+     "title": "When and while"
+    },
+    {
+     "id": "which",
+     "title": "Choosing between things"
+    },
+    {
+     "id": "reflexive-pronouns",
+     "title": "Doing something yourself"
+    }
+   ],
+   "vocabulary": [
+    "Jobs",
+    "At work",
+    "Homes",
+    "Inside a home"
+   ],
+   "slides": 52,
+   "words": 32,
+   "questions": 75,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "author",
+    "dentist",
+    "engineer",
+    "reporter",
+    "cook",
+    "pilot",
+    "lawyer",
+    "designer",
+    "manager",
+    "assistant",
+    "professor",
+    "officer",
+    "company",
+    "employee",
+    "employer",
+    "address",
+    "entrance",
+    "upstairs",
+    "downstairs",
+    "key",
+    "drawer",
+    "curtain",
+    "carpet",
+    "blanket",
+    "pillow",
+    "refrigerator",
+    "sink"
+   ]
+  },
+  {
+   "id": "u5",
+   "title": "Life in the Neighbourhood & City",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      83,
+      96
+     ]
+    },
+    "workbook": {
+     "file": "ingilizce6_calisma_kitabi.pdf",
+     "pages": [
+      41,
+      48
+     ]
+    },
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "was-were",
+     "title": "At yesterday's event"
+    },
+    {
+     "id": "past-be-tags",
+     "title": "Checking past information"
+    },
+    {
+     "id": "why-when",
+     "title": "Reasons and time"
+    },
+    {
+     "id": "gerunds-infinitives",
+     "title": "Activities and plans"
+    },
+    {
+     "id": "place-movement",
+     "title": "Places and movement"
+    },
+    {
+     "id": "time-transport",
+     "title": "Time and transport"
+    }
+   ],
+   "vocabulary": [
+    "Festivals and events",
+    "Around the event",
+    "Transport",
+    "Finding the way"
+   ],
+   "slides": 61,
+   "words": 32,
+   "questions": 81,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "audience",
+    "musician",
+    "wedding",
+    "perform",
+    "organise",
+    "raise money",
+    "local",
+    "pleased",
+    "pop",
+    "rap",
+    "creative",
+    "tram",
+    "underground",
+    "van",
+    "lorry",
+    "motorcycle",
+    "ship",
+    "vehicle",
+    "public transport",
+    "sign",
+    "direction",
+    "overpass",
+    "underpass",
+    "parking",
+    "railway line",
+    "on foot",
+    "by car"
+   ]
+  },
+  {
+   "id": "u6",
+   "title": "Life in the World & Culture",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      97,
+      110
+     ]
+    },
+    "workbook": {
+     "file": "ingilizce6_calisma_kitabi.pdf",
+     "pages": [
+      49,
+      56
+     ]
+    },
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "past-regular",
+     "title": "A completed experience"
+    },
+    {
+     "id": "past-negative",
+     "title": "What didn't happen?"
+    },
+    {
+     "id": "past-questions",
+     "title": "Questions about a visit"
+    },
+    {
+     "id": "regular-past-tags",
+     "title": "Checking a past experience"
+    }
+   ],
+   "vocabulary": [
+    "Countries",
+    "Nationalities and languages",
+    "Food and culture",
+    "Flavours and experiences"
+   ],
+   "slides": 49,
+   "words": 32,
+   "questions": 74,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "Denmark",
+    "Sweden",
+    "Poland",
+    "the Netherlands",
+    "French",
+    "German",
+    "Italian",
+    "Spanish",
+    "Danish",
+    "Swedish",
+    "Polish",
+    "Dutch",
+    "cuisine",
+    "appetiser",
+    "main course",
+    "dumpling",
+    "food stall",
+    "crispy",
+    "crunchy",
+    "bitter",
+    "tradition",
+    "capital"
+   ]
+  },
+  {
+   "id": "u7",
+   "title": "Life in Nature & Global Problems",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      111,
+      124
+     ]
+    },
+    "workbook": {
+     "file": "ingilizce6_calisma_kitabi.pdf",
+     "pages": [
+      57,
+      64
+     ]
+    },
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "past-irregular",
+     "title": "Past adventures"
+    },
+    {
+     "id": "irregular-past-questions",
+     "title": "Questions and negatives"
+    },
+    {
+     "id": "irregular-past-tags",
+     "title": "Checking an adventure"
+    },
+    {
+     "id": "must-mustnt",
+     "title": "Obligation and prohibition"
+    },
+    {
+     "id": "have-to",
+     "title": "Rules and necessity"
+    }
+   ],
+   "vocabulary": [
+    "Outdoor activities",
+    "An outdoor adventure",
+    "Problems",
+    "Solutions"
+   ],
+   "slides": 53,
+   "words": 32,
+   "questions": 76,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "sailing",
+    "snowboarding",
+    "adventure",
+    "ride",
+    "ski",
+    "pick",
+    "plant",
+    "danger",
+    "responsibility",
+    "pollution",
+    "rubbish",
+    "smoke",
+    "energy",
+    "heat",
+    "destroy",
+    "increase",
+    "protect",
+    "prevent",
+    "reduce",
+    "recycle",
+    "reusable",
+    "replace",
+    "save"
+   ]
+  },
+  {
+   "id": "u8",
+   "title": "Life in the Universe & Future",
+   "source": {
+    "studentBook": {
+     "file": "ingilizce6_ders_kitabi.pdf",
+     "pages": [
+      125,
+      138
+     ]
+    },
+    "workbook": {
+     "file": "ingilizce6_calisma_kitabi.pdf",
+     "pages": [
+      65,
+      72
+     ]
+    },
+    "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+   },
+   "grammar": [
+    {
+     "id": "going-to-plans",
+     "title": "Plans and intentions"
+    },
+    {
+     "id": "going-to-evidence",
+     "title": "Evidence now"
+    },
+    {
+     "id": "will-predictions",
+     "title": "Predictions and hopes"
+    },
+    {
+     "id": "future-questions",
+     "title": "Asking about the future"
+    },
+    {
+     "id": "future-tags",
+     "title": "Checking a future idea"
+    }
+   ],
+   "vocabulary": [
+    "The solar system",
+    "Space words",
+    "Extreme weather",
+    "Future life"
+   ],
+   "slides": 54,
+   "words": 32,
+   "questions": 76,
+   "worksheets": 2,
+   "answerKeys": 1,
+   "textCards": [
+    "Mercury",
+    "Venus",
+    "Earth",
+    "Mars",
+    "Jupiter",
+    "Saturn",
+    "Uranus",
+    "Neptune",
+    "Sun",
+    "Moon",
+    "orbit",
+    "atmosphere",
+    "distance",
+    "visible",
+    "alive",
+    "blizzard",
+    "technology",
+    "predict",
+    "expert",
+    "evidence",
+    "intention",
+    "population",
+    "source"
+   ]
+  }
+ ]
+}

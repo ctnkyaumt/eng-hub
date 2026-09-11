@@ -1,1 +1,1782 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-u7-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "hiking - choose the meaning.",
+     "a": [
+      {
+       "t": "doğa yürüyüşü",
+       "c": true
+      },
+      {
+       "t": "bisiklete binmek",
+       "c": false
+      },
+      {
+       "t": "ısı",
+       "c": false
+      },
+      {
+       "t": "yelken sporu",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "climbing - choose the meaning.",
+     "a": [
+      {
+       "t": "macera",
+       "c": false
+      },
+      {
+       "t": "binmek",
+       "c": false
+      },
+      {
+       "t": "azaltmak",
+       "c": false
+      },
+      {
+       "t": "tırmanış",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "sailing - choose the meaning.",
+     "a": [
+      {
+       "t": "azaltmak",
+       "c": false
+      },
+      {
+       "t": "yelken sporu",
+       "c": true
+      },
+      {
+       "t": "dikmek",
+       "c": false
+      },
+      {
+       "t": "ısı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "rafting - choose the meaning.",
+     "a": [
+      {
+       "t": "plastik",
+       "c": false
+      },
+      {
+       "t": "bisiklete binmek",
+       "c": false
+      },
+      {
+       "t": "rafting",
+       "c": true
+      },
+      {
+       "t": "önlemek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "snowboarding - choose the meaning.",
+     "a": [
+      {
+       "t": "azaltmak",
+       "c": false
+      },
+      {
+       "t": "sorumluluk",
+       "c": false
+      },
+      {
+       "t": "snowboard sporu",
+       "c": true
+      },
+      {
+       "t": "yerine koymak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "camp - choose the meaning.",
+     "a": [
+      {
+       "t": "kayak yapmak",
+       "c": false
+      },
+      {
+       "t": "kirlilik",
+       "c": false
+      },
+      {
+       "t": "kamp yapmak",
+       "c": true
+      },
+      {
+       "t": "çöp",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "cycle - choose the meaning.",
+     "a": [
+      {
+       "t": "bisiklete binmek",
+       "c": true
+      },
+      {
+       "t": "yeniden kullanılabilir",
+       "c": false
+      },
+      {
+       "t": "artırmak",
+       "c": false
+      },
+      {
+       "t": "enerji",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fish - choose the meaning.",
+     "a": [
+      {
+       "t": "ısı",
+       "c": false
+      },
+      {
+       "t": "balık tutmak",
+       "c": true
+      },
+      {
+       "t": "geri dönüştürmek",
+       "c": false
+      },
+      {
+       "t": "plastik",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "adventure - choose the meaning.",
+     "a": [
+      {
+       "t": "önlemek",
+       "c": false
+      },
+      {
+       "t": "yok etmek",
+       "c": false
+      },
+      {
+       "t": "kamp yapmak",
+       "c": false
+      },
+      {
+       "t": "macera",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "ride - choose the meaning.",
+     "a": [
+      {
+       "t": "snowboard sporu",
+       "c": false
+      },
+      {
+       "t": "binmek",
+       "c": true
+      },
+      {
+       "t": "rafting",
+       "c": false
+      },
+      {
+       "t": "enerji",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "run - choose the meaning.",
+     "a": [
+      {
+       "t": "dikmek",
+       "c": false
+      },
+      {
+       "t": "koşmak",
+       "c": true
+      },
+      {
+       "t": "doğa yürüyüşü",
+       "c": false
+      },
+      {
+       "t": "duman",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ski - choose the meaning.",
+     "a": [
+      {
+       "t": "plastik",
+       "c": false
+      },
+      {
+       "t": "kayak yapmak",
+       "c": true
+      },
+      {
+       "t": "binmek",
+       "c": false
+      },
+      {
+       "t": "yok etmek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pick - choose the meaning.",
+     "a": [
+      {
+       "t": "önlemek",
+       "c": false
+      },
+      {
+       "t": "toplamak",
+       "c": true
+      },
+      {
+       "t": "duman",
+       "c": false
+      },
+      {
+       "t": "balık tutmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "plant - choose the meaning.",
+     "a": [
+      {
+       "t": "dikmek",
+       "c": true
+      },
+      {
+       "t": "rafting",
+       "c": false
+      },
+      {
+       "t": "balık tutmak",
+       "c": false
+      },
+      {
+       "t": "kaldırmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "danger - choose the meaning.",
+     "a": [
+      {
+       "t": "enerji",
+       "c": false
+      },
+      {
+       "t": "tehlike",
+       "c": true
+      },
+      {
+       "t": "geri dönüştürmek",
+       "c": false
+      },
+      {
+       "t": "balık tutmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "responsibility - choose the meaning.",
+     "a": [
+      {
+       "t": "önlemek",
+       "c": false
+      },
+      {
+       "t": "sorumluluk",
+       "c": true
+      },
+      {
+       "t": "kirlilik",
+       "c": false
+      },
+      {
+       "t": "enerji",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pollution - choose the meaning.",
+     "a": [
+      {
+       "t": "koşmak",
+       "c": false
+      },
+      {
+       "t": "duman",
+       "c": false
+      },
+      {
+       "t": "kirlilik",
+       "c": true
+      },
+      {
+       "t": "azaltmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "rubbish - choose the meaning.",
+     "a": [
+      {
+       "t": "çöp",
+       "c": true
+      },
+      {
+       "t": "kaldırmak",
+       "c": false
+      },
+      {
+       "t": "kayak yapmak",
+       "c": false
+      },
+      {
+       "t": "rafting",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "plastic - choose the meaning.",
+     "a": [
+      {
+       "t": "plastik",
+       "c": true
+      },
+      {
+       "t": "doğa yürüyüşü",
+       "c": false
+      },
+      {
+       "t": "geri dönüştürmek",
+       "c": false
+      },
+      {
+       "t": "önlemek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "smoke - choose the meaning.",
+     "a": [
+      {
+       "t": "geri dönüştürmek",
+       "c": false
+      },
+      {
+       "t": "artırmak",
+       "c": false
+      },
+      {
+       "t": "korumak",
+       "c": false
+      },
+      {
+       "t": "duman",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "energy - choose the meaning.",
+     "a": [
+      {
+       "t": "kamp yapmak",
+       "c": false
+      },
+      {
+       "t": "çöp",
+       "c": false
+      },
+      {
+       "t": "korumak",
+       "c": false
+      },
+      {
+       "t": "enerji",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "heat - choose the meaning.",
+     "a": [
+      {
+       "t": "balık tutmak",
+       "c": false
+      },
+      {
+       "t": "çöp",
+       "c": false
+      },
+      {
+       "t": "kaldırmak",
+       "c": false
+      },
+      {
+       "t": "ısı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "destroy - choose the meaning.",
+     "a": [
+      {
+       "t": "kamp yapmak",
+       "c": false
+      },
+      {
+       "t": "koşmak",
+       "c": false
+      },
+      {
+       "t": "artırmak",
+       "c": false
+      },
+      {
+       "t": "yok etmek",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "increase - choose the meaning.",
+     "a": [
+      {
+       "t": "tehlike",
+       "c": false
+      },
+      {
+       "t": "yeniden kullanılabilir",
+       "c": false
+      },
+      {
+       "t": "artırmak",
+       "c": true
+      },
+      {
+       "t": "enerji",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "protect - choose the meaning.",
+     "a": [
+      {
+       "t": "tehlike",
+       "c": false
+      },
+      {
+       "t": "tasarruf etmek",
+       "c": false
+      },
+      {
+       "t": "korumak",
+       "c": true
+      },
+      {
+       "t": "rafting",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "prevent - choose the meaning.",
+     "a": [
+      {
+       "t": "önlemek",
+       "c": true
+      },
+      {
+       "t": "kayak yapmak",
+       "c": false
+      },
+      {
+       "t": "yeniden kullanılabilir",
+       "c": false
+      },
+      {
+       "t": "tırmanış",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "reduce - choose the meaning.",
+     "a": [
+      {
+       "t": "yok etmek",
+       "c": false
+      },
+      {
+       "t": "azaltmak",
+       "c": true
+      },
+      {
+       "t": "koşmak",
+       "c": false
+      },
+      {
+       "t": "bisiklete binmek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "recycle - choose the meaning.",
+     "a": [
+      {
+       "t": "toplamak",
+       "c": false
+      },
+      {
+       "t": "artırmak",
+       "c": false
+      },
+      {
+       "t": "geri dönüştürmek",
+       "c": true
+      },
+      {
+       "t": "ısı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "reusable - choose the meaning.",
+     "a": [
+      {
+       "t": "duman",
+       "c": false
+      },
+      {
+       "t": "yeniden kullanılabilir",
+       "c": true
+      },
+      {
+       "t": "dikmek",
+       "c": false
+      },
+      {
+       "t": "kaldırmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "replace - choose the meaning.",
+     "a": [
+      {
+       "t": "snowboard sporu",
+       "c": false
+      },
+      {
+       "t": "yerine koymak",
+       "c": true
+      },
+      {
+       "t": "balık tutmak",
+       "c": false
+      },
+      {
+       "t": "yeniden kullanılabilir",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "remove - choose the meaning.",
+     "a": [
+      {
+       "t": "balık tutmak",
+       "c": false
+      },
+      {
+       "t": "korumak",
+       "c": false
+      },
+      {
+       "t": "kaldırmak",
+       "c": true
+      },
+      {
+       "t": "macera",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "save - choose the meaning.",
+     "a": [
+      {
+       "t": "tasarruf etmek",
+       "c": true
+      },
+      {
+       "t": "plastik",
+       "c": false
+      },
+      {
+       "t": "snowboard sporu",
+       "c": false
+      },
+      {
+       "t": "macera",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u7-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "doğa yürüyüşü - choose the English word.",
+     "a": [
+      {
+       "t": "hiking",
+       "c": true
+      },
+      {
+       "t": "run",
+       "c": false
+      },
+      {
+       "t": "snowboarding",
+       "c": false
+      },
+      {
+       "t": "heat",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tırmanış - choose the English word.",
+     "a": [
+      {
+       "t": "destroy",
+       "c": false
+      },
+      {
+       "t": "climbing",
+       "c": true
+      },
+      {
+       "t": "run",
+       "c": false
+      },
+      {
+       "t": "sailing",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yelken sporu - choose the English word.",
+     "a": [
+      {
+       "t": "destroy",
+       "c": false
+      },
+      {
+       "t": "sailing",
+       "c": true
+      },
+      {
+       "t": "prevent",
+       "c": false
+      },
+      {
+       "t": "smoke",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "rafting - choose the English word.",
+     "a": [
+      {
+       "t": "prevent",
+       "c": false
+      },
+      {
+       "t": "rafting",
+       "c": true
+      },
+      {
+       "t": "sailing",
+       "c": false
+      },
+      {
+       "t": "rubbish",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "snowboard sporu - choose the English word.",
+     "a": [
+      {
+       "t": "reduce",
+       "c": false
+      },
+      {
+       "t": "pick",
+       "c": false
+      },
+      {
+       "t": "ride",
+       "c": false
+      },
+      {
+       "t": "snowboarding",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "kamp yapmak - choose the English word.",
+     "a": [
+      {
+       "t": "replace",
+       "c": false
+      },
+      {
+       "t": "rubbish",
+       "c": false
+      },
+      {
+       "t": "snowboarding",
+       "c": false
+      },
+      {
+       "t": "camp",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "bisiklete binmek - choose the English word.",
+     "a": [
+      {
+       "t": "pick",
+       "c": false
+      },
+      {
+       "t": "sailing",
+       "c": false
+      },
+      {
+       "t": "cycle",
+       "c": true
+      },
+      {
+       "t": "plant",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "balık tutmak - choose the English word.",
+     "a": [
+      {
+       "t": "heat",
+       "c": false
+      },
+      {
+       "t": "replace",
+       "c": false
+      },
+      {
+       "t": "reusable",
+       "c": false
+      },
+      {
+       "t": "fish",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "macera - choose the English word.",
+     "a": [
+      {
+       "t": "heat",
+       "c": false
+      },
+      {
+       "t": "responsibility",
+       "c": false
+      },
+      {
+       "t": "recycle",
+       "c": false
+      },
+      {
+       "t": "adventure",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "binmek - choose the English word.",
+     "a": [
+      {
+       "t": "ride",
+       "c": true
+      },
+      {
+       "t": "hiking",
+       "c": false
+      },
+      {
+       "t": "energy",
+       "c": false
+      },
+      {
+       "t": "protect",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "koşmak - choose the English word.",
+     "a": [
+      {
+       "t": "energy",
+       "c": false
+      },
+      {
+       "t": "responsibility",
+       "c": false
+      },
+      {
+       "t": "increase",
+       "c": false
+      },
+      {
+       "t": "run",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "kayak yapmak - choose the English word.",
+     "a": [
+      {
+       "t": "rubbish",
+       "c": false
+      },
+      {
+       "t": "run",
+       "c": false
+      },
+      {
+       "t": "ski",
+       "c": true
+      },
+      {
+       "t": "plant",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "toplamak - choose the English word.",
+     "a": [
+      {
+       "t": "destroy",
+       "c": false
+      },
+      {
+       "t": "pick",
+       "c": true
+      },
+      {
+       "t": "plant",
+       "c": false
+      },
+      {
+       "t": "ride",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "dikmek - choose the English word.",
+     "a": [
+      {
+       "t": "protect",
+       "c": false
+      },
+      {
+       "t": "save",
+       "c": false
+      },
+      {
+       "t": "snowboarding",
+       "c": false
+      },
+      {
+       "t": "plant",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "tehlike - choose the English word.",
+     "a": [
+      {
+       "t": "pick",
+       "c": false
+      },
+      {
+       "t": "climbing",
+       "c": false
+      },
+      {
+       "t": "danger",
+       "c": true
+      },
+      {
+       "t": "responsibility",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sorumluluk - choose the English word.",
+     "a": [
+      {
+       "t": "rubbish",
+       "c": false
+      },
+      {
+       "t": "responsibility",
+       "c": true
+      },
+      {
+       "t": "danger",
+       "c": false
+      },
+      {
+       "t": "plastic",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kirlilik - choose the English word.",
+     "a": [
+      {
+       "t": "fish",
+       "c": false
+      },
+      {
+       "t": "replace",
+       "c": false
+      },
+      {
+       "t": "pollution",
+       "c": true
+      },
+      {
+       "t": "prevent",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "çöp - choose the English word.",
+     "a": [
+      {
+       "t": "rafting",
+       "c": false
+      },
+      {
+       "t": "sailing",
+       "c": false
+      },
+      {
+       "t": "rubbish",
+       "c": true
+      },
+      {
+       "t": "save",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "plastik - choose the English word.",
+     "a": [
+      {
+       "t": "snowboarding",
+       "c": false
+      },
+      {
+       "t": "prevent",
+       "c": false
+      },
+      {
+       "t": "rubbish",
+       "c": false
+      },
+      {
+       "t": "plastic",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "duman - choose the English word.",
+     "a": [
+      {
+       "t": "smoke",
+       "c": true
+      },
+      {
+       "t": "fish",
+       "c": false
+      },
+      {
+       "t": "adventure",
+       "c": false
+      },
+      {
+       "t": "climbing",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "enerji - choose the English word.",
+     "a": [
+      {
+       "t": "protect",
+       "c": false
+      },
+      {
+       "t": "camp",
+       "c": false
+      },
+      {
+       "t": "energy",
+       "c": true
+      },
+      {
+       "t": "run",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ısı - choose the English word.",
+     "a": [
+      {
+       "t": "heat",
+       "c": true
+      },
+      {
+       "t": "increase",
+       "c": false
+      },
+      {
+       "t": "camp",
+       "c": false
+      },
+      {
+       "t": "sailing",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yok etmek - choose the English word.",
+     "a": [
+      {
+       "t": "recycle",
+       "c": false
+      },
+      {
+       "t": "pick",
+       "c": false
+      },
+      {
+       "t": "save",
+       "c": false
+      },
+      {
+       "t": "destroy",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "artırmak - choose the English word.",
+     "a": [
+      {
+       "t": "increase",
+       "c": true
+      },
+      {
+       "t": "snowboarding",
+       "c": false
+      },
+      {
+       "t": "ride",
+       "c": false
+      },
+      {
+       "t": "pick",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "korumak - choose the English word.",
+     "a": [
+      {
+       "t": "snowboarding",
+       "c": false
+      },
+      {
+       "t": "replace",
+       "c": false
+      },
+      {
+       "t": "prevent",
+       "c": false
+      },
+      {
+       "t": "protect",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "önlemek - choose the English word.",
+     "a": [
+      {
+       "t": "fish",
+       "c": false
+      },
+      {
+       "t": "climbing",
+       "c": false
+      },
+      {
+       "t": "rubbish",
+       "c": false
+      },
+      {
+       "t": "prevent",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "azaltmak - choose the English word.",
+     "a": [
+      {
+       "t": "reduce",
+       "c": true
+      },
+      {
+       "t": "responsibility",
+       "c": false
+      },
+      {
+       "t": "ride",
+       "c": false
+      },
+      {
+       "t": "recycle",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "geri dönüştürmek - choose the English word.",
+     "a": [
+      {
+       "t": "reusable",
+       "c": false
+      },
+      {
+       "t": "recycle",
+       "c": true
+      },
+      {
+       "t": "cycle",
+       "c": false
+      },
+      {
+       "t": "replace",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yeniden kullanılabilir - choose the English word.",
+     "a": [
+      {
+       "t": "remove",
+       "c": false
+      },
+      {
+       "t": "energy",
+       "c": false
+      },
+      {
+       "t": "reusable",
+       "c": true
+      },
+      {
+       "t": "destroy",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yerine koymak - choose the English word.",
+     "a": [
+      {
+       "t": "climbing",
+       "c": false
+      },
+      {
+       "t": "destroy",
+       "c": false
+      },
+      {
+       "t": "replace",
+       "c": true
+      },
+      {
+       "t": "plant",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kaldırmak - choose the English word.",
+     "a": [
+      {
+       "t": "sailing",
+       "c": false
+      },
+      {
+       "t": "remove",
+       "c": true
+      },
+      {
+       "t": "pick",
+       "c": false
+      },
+      {
+       "t": "ski",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tasarruf etmek - choose the English word.",
+     "a": [
+      {
+       "t": "reusable",
+       "c": false
+      },
+      {
+       "t": "remove",
+       "c": false
+      },
+      {
+       "t": "pick",
+       "c": false
+      },
+      {
+       "t": "save",
+       "c": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u7-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Yesterday, the group ___ reusable bottles.",
+     "grammarId": "past-irregular",
+     "explanation": "Yesterday, the group took reusable bottles.",
+     "a": [
+      {
+       "t": "takes",
+       "c": false
+      },
+      {
+       "t": "taked",
+       "c": false
+      },
+      {
+       "t": "take",
+       "c": false
+      },
+      {
+       "t": "took",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Leo ___ his bike to the camp last week.",
+     "grammarId": "past-irregular",
+     "explanation": "Leo rode his bike to the camp last week.",
+     "a": [
+      {
+       "t": "rides",
+       "c": false
+      },
+      {
+       "t": "rode",
+       "c": true
+      },
+      {
+       "t": "ride",
+       "c": false
+      },
+      {
+       "t": "rided",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "After the hike, we ___ water.",
+     "grammarId": "past-irregular",
+     "explanation": "After the hike, we drank water.",
+     "a": [
+      {
+       "t": "drink",
+       "c": false
+      },
+      {
+       "t": "drank",
+       "c": true
+      },
+      {
+       "t": "drinked",
+       "c": false
+      },
+      {
+       "t": "drunk",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Did the campers ___ any plastic bottles?",
+     "grammarId": "irregular-past-questions",
+     "explanation": "Did the campers find any plastic bottles?",
+     "a": [
+      {
+       "t": "found",
+       "c": false
+      },
+      {
+       "t": "finds",
+       "c": false
+      },
+      {
+       "t": "finded",
+       "c": false
+      },
+      {
+       "t": "find",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "We didn't ___ in the river.",
+     "grammarId": "irregular-past-questions",
+     "explanation": "We didn't swim in the river.",
+     "a": [
+      {
+       "t": "swam",
+       "c": false
+      },
+      {
+       "t": "swum",
+       "c": false
+      },
+      {
+       "t": "swim",
+       "c": true
+      },
+      {
+       "t": "swimming",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Your friends went sailing, ___?",
+     "grammarId": "irregular-past-tags",
+     "explanation": "Your friends went sailing, didn't they?",
+     "a": [
+      {
+       "t": "did they",
+       "c": false
+      },
+      {
+       "t": "weren't they",
+       "c": false
+      },
+      {
+       "t": "don't they",
+       "c": false
+      },
+      {
+       "t": "didn't they",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "The guide didn't see smoke, ___?",
+     "grammarId": "irregular-past-tags",
+     "explanation": "The guide didn't see smoke, did she?",
+     "a": [
+      {
+       "t": "was she",
+       "c": false
+      },
+      {
+       "t": "did she",
+       "c": true
+      },
+      {
+       "t": "didn't she",
+       "c": false
+      },
+      {
+       "t": "does she",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "It is forbidden to enter this area. We ___ enter.",
+     "grammarId": "must-mustnt",
+     "explanation": "It is forbidden to enter this area. We mustn't enter.",
+     "a": [
+      {
+       "t": "has to",
+       "c": false
+      },
+      {
+       "t": "must",
+       "c": false
+      },
+      {
+       "t": "have to",
+       "c": false
+      },
+      {
+       "t": "mustn't",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Everyone ___ the marked path; it is a camp rule.",
+     "grammarId": "must-mustnt",
+     "explanation": "Everyone must use the marked path; it is a camp rule.",
+     "a": [
+      {
+       "t": "must using",
+       "c": false
+      },
+      {
+       "t": "must use",
+       "c": true
+      },
+      {
+       "t": "must to use",
+       "c": false
+      },
+      {
+       "t": "must uses",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The rule says each group ___ sort its rubbish.",
+     "grammarId": "have-to",
+     "explanation": "The rule says each group has to sort its rubbish.",
+     "a": [
+      {
+       "t": "has",
+       "c": false
+      },
+      {
+       "t": "has to",
+       "c": true
+      },
+      {
+       "t": "must to",
+       "c": false
+      },
+      {
+       "t": "have to",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The activity is optional. You ___ join.",
+     "grammarId": "have-to",
+     "explanation": "The activity is optional. You don't have to join.",
+     "a": [
+      {
+       "t": "have to",
+       "c": false
+      },
+      {
+       "t": "mustn't",
+       "c": false
+      },
+      {
+       "t": "don't have to",
+       "c": true
+      },
+      {
+       "t": "must",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ each visitor have to bring a bottle?",
+     "grammarId": "have-to",
+     "explanation": "Does each visitor have to bring a bottle?",
+     "a": [
+      {
+       "t": "Do",
+       "c": false
+      },
+      {
+       "t": "Does",
+       "c": true
+      },
+      {
+       "t": "Has",
+       "c": false
+      },
+      {
+       "t": "Is",
+       "c": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "hiking",
+   "tr": "doğa yürüyüşü"
+  },
+  {
+   "en": "climbing",
+   "tr": "tırmanış"
+  },
+  {
+   "en": "sailing",
+   "tr": "yelken sporu"
+  },
+  {
+   "en": "rafting",
+   "tr": "rafting"
+  },
+  {
+   "en": "snowboarding",
+   "tr": "snowboard sporu"
+  },
+  {
+   "en": "camp",
+   "tr": "kamp yapmak"
+  },
+  {
+   "en": "cycle",
+   "tr": "bisiklete binmek"
+  },
+  {
+   "en": "fish",
+   "tr": "balık tutmak"
+  },
+  {
+   "en": "adventure",
+   "tr": "macera"
+  },
+  {
+   "en": "ride",
+   "tr": "binmek"
+  },
+  {
+   "en": "run",
+   "tr": "koşmak"
+  },
+  {
+   "en": "ski",
+   "tr": "kayak yapmak"
+  },
+  {
+   "en": "pick",
+   "tr": "toplamak"
+  },
+  {
+   "en": "plant",
+   "tr": "dikmek"
+  },
+  {
+   "en": "danger",
+   "tr": "tehlike"
+  },
+  {
+   "en": "responsibility",
+   "tr": "sorumluluk"
+  },
+  {
+   "en": "pollution",
+   "tr": "kirlilik"
+  },
+  {
+   "en": "rubbish",
+   "tr": "çöp"
+  },
+  {
+   "en": "plastic",
+   "tr": "plastik"
+  },
+  {
+   "en": "smoke",
+   "tr": "duman"
+  },
+  {
+   "en": "energy",
+   "tr": "enerji"
+  },
+  {
+   "en": "heat",
+   "tr": "ısı"
+  },
+  {
+   "en": "destroy",
+   "tr": "yok etmek"
+  },
+  {
+   "en": "increase",
+   "tr": "artırmak"
+  },
+  {
+   "en": "protect",
+   "tr": "korumak"
+  },
+  {
+   "en": "prevent",
+   "tr": "önlemek"
+  },
+  {
+   "en": "reduce",
+   "tr": "azaltmak"
+  },
+  {
+   "en": "recycle",
+   "tr": "geri dönüştürmek"
+  },
+  {
+   "en": "reusable",
+   "tr": "yeniden kullanılabilir"
+  },
+  {
+   "en": "replace",
+   "tr": "yerine koymak"
+  },
+  {
+   "en": "remove",
+   "tr": "kaldırmak"
+  },
+  {
+   "en": "save",
+   "tr": "tasarruf etmek"
+  }
+ ],
+ "online": []
+}

@@ -1,1 +1,1736 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-u6-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "France - choose the meaning.",
+     "a": [
+      {
+       "t": "Hollandalı; Hollandaca",
+       "c": false
+      },
+      {
+       "t": "tatlı",
+       "c": false
+      },
+      {
+       "t": "Fransa",
+       "c": true
+      },
+      {
+       "t": "kültürel miras",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Germany - choose the meaning.",
+     "a": [
+      {
+       "t": "Hollandalı; Hollandaca",
+       "c": false
+      },
+      {
+       "t": "Almanya",
+       "c": true
+      },
+      {
+       "t": "yiyecek standı",
+       "c": false
+      },
+      {
+       "t": "Alman; Almanca",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Italy - choose the meaning.",
+     "a": [
+      {
+       "t": "İtalya",
+       "c": true
+      },
+      {
+       "t": "İspanyol; İspanyolca",
+       "c": false
+      },
+      {
+       "t": "Danimarka",
+       "c": false
+      },
+      {
+       "t": "Polonyalı; Lehçe",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Spain - choose the meaning.",
+     "a": [
+      {
+       "t": "iştah açıcı başlangıç yemeği",
+       "c": false
+      },
+      {
+       "t": "İsveç",
+       "c": false
+      },
+      {
+       "t": "Fransız; Fransızca",
+       "c": false
+      },
+      {
+       "t": "İspanya",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Denmark - choose the meaning.",
+     "a": [
+      {
+       "t": "Polonyalı; Lehçe",
+       "c": false
+      },
+      {
+       "t": "kıtır",
+       "c": false
+      },
+      {
+       "t": "Danimarka",
+       "c": true
+      },
+      {
+       "t": "yiyecek standı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Sweden - choose the meaning.",
+     "a": [
+      {
+       "t": "Almanya",
+       "c": false
+      },
+      {
+       "t": "İsveç",
+       "c": true
+      },
+      {
+       "t": "yiyecek standı",
+       "c": false
+      },
+      {
+       "t": "İsveçli; İsveççe",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Poland - choose the meaning.",
+     "a": [
+      {
+       "t": "Hollanda",
+       "c": false
+      },
+      {
+       "t": "iştah açıcı başlangıç yemeği",
+       "c": false
+      },
+      {
+       "t": "Polonya",
+       "c": true
+      },
+      {
+       "t": "İspanya",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "the Netherlands - choose the meaning.",
+     "a": [
+      {
+       "t": "Hollanda",
+       "c": true
+      },
+      {
+       "t": "Danimarkalı; Danca",
+       "c": false
+      },
+      {
+       "t": "İtalya",
+       "c": false
+      },
+      {
+       "t": "gelenek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "French - choose the meaning.",
+     "a": [
+      {
+       "t": "İtalya",
+       "c": false
+      },
+      {
+       "t": "iştah açıcı başlangıç yemeği",
+       "c": false
+      },
+      {
+       "t": "Fransız; Fransızca",
+       "c": true
+      },
+      {
+       "t": "İsveçli; İsveççe",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "German - choose the meaning.",
+     "a": [
+      {
+       "t": "kültürel miras",
+       "c": false
+      },
+      {
+       "t": "Alman; Almanca",
+       "c": true
+      },
+      {
+       "t": "Fransız; Fransızca",
+       "c": false
+      },
+      {
+       "t": "Danimarkalı; Danca",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Italian - choose the meaning.",
+     "a": [
+      {
+       "t": "Hollandalı; Hollandaca",
+       "c": false
+      },
+      {
+       "t": "İtalyan; İtalyanca",
+       "c": true
+      },
+      {
+       "t": "Polonya",
+       "c": false
+      },
+      {
+       "t": "iştah açıcı başlangıç yemeği",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Spanish - choose the meaning.",
+     "a": [
+      {
+       "t": "kıtır",
+       "c": false
+      },
+      {
+       "t": "İspanyol; İspanyolca",
+       "c": true
+      },
+      {
+       "t": "İtalyan; İtalyanca",
+       "c": false
+      },
+      {
+       "t": "Fransa",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Danish - choose the meaning.",
+     "a": [
+      {
+       "t": "Danimarkalı; Danca",
+       "c": true
+      },
+      {
+       "t": "Polonyalı; Lehçe",
+       "c": false
+      },
+      {
+       "t": "Danimarka",
+       "c": false
+      },
+      {
+       "t": "mutfak kültürü",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Swedish - choose the meaning.",
+     "a": [
+      {
+       "t": "İtalya",
+       "c": false
+      },
+      {
+       "t": "Almanya",
+       "c": false
+      },
+      {
+       "t": "Alman; Almanca",
+       "c": false
+      },
+      {
+       "t": "İsveçli; İsveççe",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Polish - choose the meaning.",
+     "a": [
+      {
+       "t": "Polonyalı; Lehçe",
+       "c": true
+      },
+      {
+       "t": "Almanya",
+       "c": false
+      },
+      {
+       "t": "Hollandalı; Hollandaca",
+       "c": false
+      },
+      {
+       "t": "kültürel miras",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Dutch - choose the meaning.",
+     "a": [
+      {
+       "t": "Hollandalı; Hollandaca",
+       "c": true
+      },
+      {
+       "t": "Hollanda",
+       "c": false
+      },
+      {
+       "t": "Danimarkalı; Danca",
+       "c": false
+      },
+      {
+       "t": "İspanyol; İspanyolca",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "cuisine - choose the meaning.",
+     "a": [
+      {
+       "t": "kültürel miras",
+       "c": false
+      },
+      {
+       "t": "iştah açıcı başlangıç yemeği",
+       "c": false
+      },
+      {
+       "t": "mutfak kültürü",
+       "c": true
+      },
+      {
+       "t": "İtalyan; İtalyanca",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ingredient - choose the meaning.",
+     "a": [
+      {
+       "t": "malzeme",
+       "c": true
+      },
+      {
+       "t": "İsveç",
+       "c": false
+      },
+      {
+       "t": "Almanya",
+       "c": false
+      },
+      {
+       "t": "İtalya",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "appetiser - choose the meaning.",
+     "a": [
+      {
+       "t": "tatlı",
+       "c": false
+      },
+      {
+       "t": "Danimarkalı; Danca",
+       "c": false
+      },
+      {
+       "t": "iştah açıcı başlangıç yemeği",
+       "c": true
+      },
+      {
+       "t": "İsveçli; İsveççe",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "main course - choose the meaning.",
+     "a": [
+      {
+       "t": "ev yapımı",
+       "c": false
+      },
+      {
+       "t": "baharatlı",
+       "c": false
+      },
+      {
+       "t": "malzeme",
+       "c": false
+      },
+      {
+       "t": "ana yemek",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "dessert - choose the meaning.",
+     "a": [
+      {
+       "t": "Danimarka",
+       "c": false
+      },
+      {
+       "t": "İsveç",
+       "c": false
+      },
+      {
+       "t": "baharatlı",
+       "c": false
+      },
+      {
+       "t": "tatlı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "dumpling - choose the meaning.",
+     "a": [
+      {
+       "t": "içi doldurulmuş hamur yemeği",
+       "c": true
+      },
+      {
+       "t": "İtalya",
+       "c": false
+      },
+      {
+       "t": "tatlı",
+       "c": false
+      },
+      {
+       "t": "ekşi",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "food stall - choose the meaning.",
+     "a": [
+      {
+       "t": "ana yemek",
+       "c": false
+      },
+      {
+       "t": "İspanyol; İspanyolca",
+       "c": false
+      },
+      {
+       "t": "Danimarkalı; Danca",
+       "c": false
+      },
+      {
+       "t": "yiyecek standı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "heritage - choose the meaning.",
+     "a": [
+      {
+       "t": "malzeme",
+       "c": false
+      },
+      {
+       "t": "acı (tat)",
+       "c": false
+      },
+      {
+       "t": "İspanya",
+       "c": false
+      },
+      {
+       "t": "kültürel miras",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "crispy - choose the meaning.",
+     "a": [
+      {
+       "t": "çıtır",
+       "c": true
+      },
+      {
+       "t": "Danimarkalı; Danca",
+       "c": false
+      },
+      {
+       "t": "Hollandalı; Hollandaca",
+       "c": false
+      },
+      {
+       "t": "Danimarka",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "crunchy - choose the meaning.",
+     "a": [
+      {
+       "t": "malzeme",
+       "c": false
+      },
+      {
+       "t": "kültürel miras",
+       "c": false
+      },
+      {
+       "t": "kıtır",
+       "c": true
+      },
+      {
+       "t": "ana yemek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sour - choose the meaning.",
+     "a": [
+      {
+       "t": "ekşi",
+       "c": true
+      },
+      {
+       "t": "yiyecek standı",
+       "c": false
+      },
+      {
+       "t": "malzeme",
+       "c": false
+      },
+      {
+       "t": "Fransız; Fransızca",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "spicy - choose the meaning.",
+     "a": [
+      {
+       "t": "içi doldurulmuş hamur yemeği",
+       "c": false
+      },
+      {
+       "t": "Fransız; Fransızca",
+       "c": false
+      },
+      {
+       "t": "baharatlı",
+       "c": true
+      },
+      {
+       "t": "mutfak kültürü",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "bitter - choose the meaning.",
+     "a": [
+      {
+       "t": "içi doldurulmuş hamur yemeği",
+       "c": false
+      },
+      {
+       "t": "İsveç",
+       "c": false
+      },
+      {
+       "t": "Hollandalı; Hollandaca",
+       "c": false
+      },
+      {
+       "t": "acı (tat)",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "homemade - choose the meaning.",
+     "a": [
+      {
+       "t": "ev yapımı",
+       "c": true
+      },
+      {
+       "t": "mutfak kültürü",
+       "c": false
+      },
+      {
+       "t": "acı (tat)",
+       "c": false
+      },
+      {
+       "t": "Almanya",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tradition - choose the meaning.",
+     "a": [
+      {
+       "t": "gelenek",
+       "c": true
+      },
+      {
+       "t": "kıtır",
+       "c": false
+      },
+      {
+       "t": "ekşi",
+       "c": false
+      },
+      {
+       "t": "İtalyan; İtalyanca",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "capital - choose the meaning.",
+     "a": [
+      {
+       "t": "mutfak kültürü",
+       "c": false
+      },
+      {
+       "t": "başkent",
+       "c": true
+      },
+      {
+       "t": "Almanya",
+       "c": false
+      },
+      {
+       "t": "iştah açıcı başlangıç yemeği",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u6-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Fransa - choose the English word.",
+     "a": [
+      {
+       "t": "homemade",
+       "c": false
+      },
+      {
+       "t": "Italy",
+       "c": false
+      },
+      {
+       "t": "France",
+       "c": true
+      },
+      {
+       "t": "Poland",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Almanya - choose the English word.",
+     "a": [
+      {
+       "t": "French",
+       "c": false
+      },
+      {
+       "t": "Germany",
+       "c": true
+      },
+      {
+       "t": "German",
+       "c": false
+      },
+      {
+       "t": "Sweden",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "İtalya - choose the English word.",
+     "a": [
+      {
+       "t": "crispy",
+       "c": false
+      },
+      {
+       "t": "main course",
+       "c": false
+      },
+      {
+       "t": "Italy",
+       "c": true
+      },
+      {
+       "t": "Polish",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "İspanya - choose the English word.",
+     "a": [
+      {
+       "t": "Sweden",
+       "c": false
+      },
+      {
+       "t": "Swedish",
+       "c": false
+      },
+      {
+       "t": "Spain",
+       "c": true
+      },
+      {
+       "t": "German",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Danimarka - choose the English word.",
+     "a": [
+      {
+       "t": "Poland",
+       "c": false
+      },
+      {
+       "t": "Spanish",
+       "c": false
+      },
+      {
+       "t": "Denmark",
+       "c": true
+      },
+      {
+       "t": "homemade",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "İsveç - choose the English word.",
+     "a": [
+      {
+       "t": "crunchy",
+       "c": false
+      },
+      {
+       "t": "Sweden",
+       "c": true
+      },
+      {
+       "t": "France",
+       "c": false
+      },
+      {
+       "t": "Polish",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Polonya - choose the English word.",
+     "a": [
+      {
+       "t": "Poland",
+       "c": true
+      },
+      {
+       "t": "Spanish",
+       "c": false
+      },
+      {
+       "t": "appetiser",
+       "c": false
+      },
+      {
+       "t": "homemade",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Hollanda - choose the English word.",
+     "a": [
+      {
+       "t": "France",
+       "c": false
+      },
+      {
+       "t": "the Netherlands",
+       "c": true
+      },
+      {
+       "t": "dessert",
+       "c": false
+      },
+      {
+       "t": "main course",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Fransız; Fransızca - choose the English word.",
+     "a": [
+      {
+       "t": "French",
+       "c": true
+      },
+      {
+       "t": "dessert",
+       "c": false
+      },
+      {
+       "t": "Spain",
+       "c": false
+      },
+      {
+       "t": "Poland",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Alman; Almanca - choose the English word.",
+     "a": [
+      {
+       "t": "German",
+       "c": true
+      },
+      {
+       "t": "Spain",
+       "c": false
+      },
+      {
+       "t": "Danish",
+       "c": false
+      },
+      {
+       "t": "France",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "İtalyan; İtalyanca - choose the English word.",
+     "a": [
+      {
+       "t": "crunchy",
+       "c": false
+      },
+      {
+       "t": "Dutch",
+       "c": false
+      },
+      {
+       "t": "heritage",
+       "c": false
+      },
+      {
+       "t": "Italian",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "İspanyol; İspanyolca - choose the English word.",
+     "a": [
+      {
+       "t": "Germany",
+       "c": false
+      },
+      {
+       "t": "Danish",
+       "c": false
+      },
+      {
+       "t": "Spanish",
+       "c": true
+      },
+      {
+       "t": "appetiser",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Danimarkalı; Danca - choose the English word.",
+     "a": [
+      {
+       "t": "capital",
+       "c": false
+      },
+      {
+       "t": "dessert",
+       "c": false
+      },
+      {
+       "t": "Danish",
+       "c": true
+      },
+      {
+       "t": "Denmark",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "İsveçli; İsveççe - choose the English word.",
+     "a": [
+      {
+       "t": "Italy",
+       "c": false
+      },
+      {
+       "t": "crunchy",
+       "c": false
+      },
+      {
+       "t": "food stall",
+       "c": false
+      },
+      {
+       "t": "Swedish",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Polonyalı; Lehçe - choose the English word.",
+     "a": [
+      {
+       "t": "Polish",
+       "c": true
+      },
+      {
+       "t": "homemade",
+       "c": false
+      },
+      {
+       "t": "appetiser",
+       "c": false
+      },
+      {
+       "t": "sour",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Hollandalı; Hollandaca - choose the English word.",
+     "a": [
+      {
+       "t": "Dutch",
+       "c": true
+      },
+      {
+       "t": "appetiser",
+       "c": false
+      },
+      {
+       "t": "crispy",
+       "c": false
+      },
+      {
+       "t": "dumpling",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "mutfak kültürü - choose the English word.",
+     "a": [
+      {
+       "t": "food stall",
+       "c": false
+      },
+      {
+       "t": "cuisine",
+       "c": true
+      },
+      {
+       "t": "dumpling",
+       "c": false
+      },
+      {
+       "t": "Sweden",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "malzeme - choose the English word.",
+     "a": [
+      {
+       "t": "Denmark",
+       "c": false
+      },
+      {
+       "t": "ingredient",
+       "c": true
+      },
+      {
+       "t": "Polish",
+       "c": false
+      },
+      {
+       "t": "heritage",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "iştah açıcı başlangıç yemeği - choose the English word.",
+     "a": [
+      {
+       "t": "France",
+       "c": false
+      },
+      {
+       "t": "dessert",
+       "c": false
+      },
+      {
+       "t": "appetiser",
+       "c": true
+      },
+      {
+       "t": "Spanish",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ana yemek - choose the English word.",
+     "a": [
+      {
+       "t": "spicy",
+       "c": false
+      },
+      {
+       "t": "cuisine",
+       "c": false
+      },
+      {
+       "t": "capital",
+       "c": false
+      },
+      {
+       "t": "main course",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "tatlı - choose the English word.",
+     "a": [
+      {
+       "t": "dessert",
+       "c": true
+      },
+      {
+       "t": "Dutch",
+       "c": false
+      },
+      {
+       "t": "crunchy",
+       "c": false
+      },
+      {
+       "t": "Polish",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "içi doldurulmuş hamur yemeği - choose the English word.",
+     "a": [
+      {
+       "t": "dessert",
+       "c": false
+      },
+      {
+       "t": "dumpling",
+       "c": true
+      },
+      {
+       "t": "crunchy",
+       "c": false
+      },
+      {
+       "t": "ingredient",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yiyecek standı - choose the English word.",
+     "a": [
+      {
+       "t": "German",
+       "c": false
+      },
+      {
+       "t": "food stall",
+       "c": true
+      },
+      {
+       "t": "Swedish",
+       "c": false
+      },
+      {
+       "t": "Poland",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kültürel miras - choose the English word.",
+     "a": [
+      {
+       "t": "Italy",
+       "c": false
+      },
+      {
+       "t": "spicy",
+       "c": false
+      },
+      {
+       "t": "heritage",
+       "c": true
+      },
+      {
+       "t": "Polish",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "çıtır - choose the English word.",
+     "a": [
+      {
+       "t": "bitter",
+       "c": false
+      },
+      {
+       "t": "crispy",
+       "c": true
+      },
+      {
+       "t": "sour",
+       "c": false
+      },
+      {
+       "t": "Spain",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kıtır - choose the English word.",
+     "a": [
+      {
+       "t": "Spain",
+       "c": false
+      },
+      {
+       "t": "heritage",
+       "c": false
+      },
+      {
+       "t": "Germany",
+       "c": false
+      },
+      {
+       "t": "crunchy",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "ekşi - choose the English word.",
+     "a": [
+      {
+       "t": "Italian",
+       "c": false
+      },
+      {
+       "t": "main course",
+       "c": false
+      },
+      {
+       "t": "appetiser",
+       "c": false
+      },
+      {
+       "t": "sour",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "baharatlı - choose the English word.",
+     "a": [
+      {
+       "t": "Polish",
+       "c": false
+      },
+      {
+       "t": "Italian",
+       "c": false
+      },
+      {
+       "t": "homemade",
+       "c": false
+      },
+      {
+       "t": "spicy",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "acı (tat) - choose the English word.",
+     "a": [
+      {
+       "t": "Polish",
+       "c": false
+      },
+      {
+       "t": "Poland",
+       "c": false
+      },
+      {
+       "t": "heritage",
+       "c": false
+      },
+      {
+       "t": "bitter",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "ev yapımı - choose the English word.",
+     "a": [
+      {
+       "t": "German",
+       "c": false
+      },
+      {
+       "t": "bitter",
+       "c": false
+      },
+      {
+       "t": "homemade",
+       "c": true
+      },
+      {
+       "t": "France",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "gelenek - choose the English word.",
+     "a": [
+      {
+       "t": "Swedish",
+       "c": false
+      },
+      {
+       "t": "tradition",
+       "c": true
+      },
+      {
+       "t": "crunchy",
+       "c": false
+      },
+      {
+       "t": "Poland",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "başkent - choose the English word.",
+     "a": [
+      {
+       "t": "sour",
+       "c": false
+      },
+      {
+       "t": "Denmark",
+       "c": false
+      },
+      {
+       "t": "homemade",
+       "c": false
+      },
+      {
+       "t": "capital",
+       "c": true
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u6-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Last night, the chef ___ a new dish.",
+     "grammarId": "past-regular",
+     "explanation": "Last night, the chef prepared a new dish.",
+     "a": [
+      {
+       "t": "prepare",
+       "c": false
+      },
+      {
+       "t": "preparing",
+       "c": false
+      },
+      {
+       "t": "prepared",
+       "c": true
+      },
+      {
+       "t": "prepares",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "They ___ the recipe yesterday.",
+     "grammarId": "past-regular",
+     "explanation": "They studied the recipe yesterday.",
+     "a": [
+      {
+       "t": "studyed",
+       "c": false
+      },
+      {
+       "t": "studied",
+       "c": true
+      },
+      {
+       "t": "study",
+       "c": false
+      },
+      {
+       "t": "studying",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Our group ___ at a food stall last Saturday.",
+     "grammarId": "past-regular",
+     "explanation": "Our group stopped at a food stall last Saturday.",
+     "a": [
+      {
+       "t": "stopping",
+       "c": false
+      },
+      {
+       "t": "stopped",
+       "c": true
+      },
+      {
+       "t": "stoped",
+       "c": false
+      },
+      {
+       "t": "stop",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "We didn't ___ the pop-up market yesterday.",
+     "grammarId": "past-negative",
+     "explanation": "We didn't visit the pop-up market yesterday.",
+     "a": [
+      {
+       "t": "visiting",
+       "c": false
+      },
+      {
+       "t": "visits",
+       "c": false
+      },
+      {
+       "t": "visited",
+       "c": false
+      },
+      {
+       "t": "visit",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "The chef ___ the dessert; it was served cold.",
+     "grammarId": "past-negative",
+     "explanation": "The chef didn't heat the dessert; it was served cold.",
+     "a": [
+      {
+       "t": "doesn't heated",
+       "c": false
+      },
+      {
+       "t": "didn't heated",
+       "c": false
+      },
+      {
+       "t": "didn't heat",
+       "c": true
+      },
+      {
+       "t": "not heated",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Did Noor ___ the Italian dish?",
+     "grammarId": "past-questions",
+     "explanation": "Did Noor try the Italian dish?",
+     "a": [
+      {
+       "t": "trying",
+       "c": false
+      },
+      {
+       "t": "tried",
+       "c": false
+      },
+      {
+       "t": "try",
+       "c": true
+      },
+      {
+       "t": "tries",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Did the visitors like the appetiser? Yes, they ___.",
+     "grammarId": "past-questions",
+     "explanation": "Did the visitors like the appetiser? Yes, they did.",
+     "a": [
+      {
+       "t": "were",
+       "c": false
+      },
+      {
+       "t": "are",
+       "c": false
+      },
+      {
+       "t": "do",
+       "c": false
+      },
+      {
+       "t": "did",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Where ___ you travel last summer?",
+     "grammarId": "past-questions",
+     "explanation": "Where did you travel last summer?",
+     "a": [
+      {
+       "t": "are",
+       "c": false
+      },
+      {
+       "t": "did",
+       "c": true
+      },
+      {
+       "t": "do",
+       "c": false
+      },
+      {
+       "t": "does",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The chef heated the bread, ___?",
+     "grammarId": "regular-past-tags",
+     "explanation": "The chef heated the bread, didn't he?",
+     "a": [
+      {
+       "t": "doesn't he",
+       "c": false
+      },
+      {
+       "t": "didn't he",
+       "c": true
+      },
+      {
+       "t": "did he",
+       "c": false
+      },
+      {
+       "t": "wasn't he",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "They didn't visit Poland, ___?",
+     "grammarId": "regular-past-tags",
+     "explanation": "They didn't visit Poland, did they?",
+     "a": [
+      {
+       "t": "didn't they",
+       "c": false
+      },
+      {
+       "t": "were they",
+       "c": false
+      },
+      {
+       "t": "do they",
+       "c": false
+      },
+      {
+       "t": "did they",
+       "c": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "France",
+   "tr": "Fransa"
+  },
+  {
+   "en": "Germany",
+   "tr": "Almanya"
+  },
+  {
+   "en": "Italy",
+   "tr": "İtalya"
+  },
+  {
+   "en": "Spain",
+   "tr": "İspanya"
+  },
+  {
+   "en": "Denmark",
+   "tr": "Danimarka"
+  },
+  {
+   "en": "Sweden",
+   "tr": "İsveç"
+  },
+  {
+   "en": "Poland",
+   "tr": "Polonya"
+  },
+  {
+   "en": "the Netherlands",
+   "tr": "Hollanda"
+  },
+  {
+   "en": "French",
+   "tr": "Fransız; Fransızca"
+  },
+  {
+   "en": "German",
+   "tr": "Alman; Almanca"
+  },
+  {
+   "en": "Italian",
+   "tr": "İtalyan; İtalyanca"
+  },
+  {
+   "en": "Spanish",
+   "tr": "İspanyol; İspanyolca"
+  },
+  {
+   "en": "Danish",
+   "tr": "Danimarkalı; Danca"
+  },
+  {
+   "en": "Swedish",
+   "tr": "İsveçli; İsveççe"
+  },
+  {
+   "en": "Polish",
+   "tr": "Polonyalı; Lehçe"
+  },
+  {
+   "en": "Dutch",
+   "tr": "Hollandalı; Hollandaca"
+  },
+  {
+   "en": "cuisine",
+   "tr": "mutfak kültürü"
+  },
+  {
+   "en": "ingredient",
+   "tr": "malzeme"
+  },
+  {
+   "en": "appetiser",
+   "tr": "iştah açıcı başlangıç yemeği"
+  },
+  {
+   "en": "main course",
+   "tr": "ana yemek"
+  },
+  {
+   "en": "dessert",
+   "tr": "tatlı"
+  },
+  {
+   "en": "dumpling",
+   "tr": "içi doldurulmuş hamur yemeği"
+  },
+  {
+   "en": "food stall",
+   "tr": "yiyecek standı"
+  },
+  {
+   "en": "heritage",
+   "tr": "kültürel miras"
+  },
+  {
+   "en": "crispy",
+   "tr": "çıtır"
+  },
+  {
+   "en": "crunchy",
+   "tr": "kıtır"
+  },
+  {
+   "en": "sour",
+   "tr": "ekşi"
+  },
+  {
+   "en": "spicy",
+   "tr": "baharatlı"
+  },
+  {
+   "en": "bitter",
+   "tr": "acı (tat)"
+  },
+  {
+   "en": "homemade",
+   "tr": "ev yapımı"
+  },
+  {
+   "en": "tradition",
+   "tr": "gelenek"
+  },
+  {
+   "en": "capital",
+   "tr": "başkent"
+  }
+ ],
+ "online": []
+}

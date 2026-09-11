@@ -18,6 +18,7 @@ content/g5/u6/worksheets/01 5th Grade Theme 6 Worksheet Elif Nur.pdf
 # Worksheets are online-only; keep their attributed link manifests.
 content/**/worksheets/*
 !content/**/worksheets/manifest.json
+!content/g6/*/worksheets/original-*.pdf
 
 # 2) caches, logs, raw API dumps
 tools/cache/

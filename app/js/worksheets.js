@@ -1,5 +1,5 @@
-/* Worksheets are always opened at their online source. */
-import { getUnit, getWorksheets } from "./store.js";
+/* Original worksheets are local; imported resources open at their source. */
+import { getUnit, getWorksheets, unitPath } from "./store.js";
 import { el, setCrumbs } from "./ui.js";
 
 export async function worksheetList(gid, uid, screen) {
@@ -13,21 +13,39 @@ export async function worksheetList(gid, uid, screen) {
     { label: "Çalışma Kâğıtları" },
   ]);
 
-  const remote = (man.items || []).filter((i) => i.link);
+  const local = (man.items || []).filter((i) => i.authored && i.file);
+  const remote = (man.items || []).filter((i) => i.link && !local.includes(i));
 
   const hero = el("div", { class: "hero" }, [
     el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · ${unit.title}` }),
     el("h1", { text: "Çalışma Kâğıtları" }),
-    el("p", { text: "Tüm çalışma kâğıtları kaynak sitede açılır — internet bağlantısı gerekir." }),
+    el("p", { text: local.length
+      ? "Özgün çalışma kâğıtlarını açıp yazdırabilirsiniz. Öğretmen anahtarları ayrı dosyadadır; internet gerekmez."
+      : "Tüm çalışma kâğıtları kaynak sitede açılır — internet bağlantısı gerekir." }),
   ]);
 
   const parts = [hero];
 
-  if (!remote.length) {
+  if (!remote.length && !local.length) {
     parts.push(el("div", { class: "empty" }, [
       el("span", { class: "emoji", text: "📭" }),
       el("p", { text: "Bu ünite için çalışma kâğıdı bulunamadı." }),
     ]));
+  }
+
+  if (local.length) {
+    parts.push(el("h2", { class: "section-title", text: `Özgün materyaller · Çevrimdışı (${local.length})` }));
+    parts.push(el("div", { class: "list" }, local.map((it) =>
+      el("button", { class: "row", onclick: () => window.open(
+        `${unitPath(gid, uid)}/worksheets/${encodeURIComponent(it.file)}`, "_blank", "noopener") }, [
+        el("span", { class: "ic", text: "📄" }),
+        el("div", { class: "txt" }, [
+          el("b", { text: it.title }),
+          el("small", { text: [it.desc, it.by].filter(Boolean).join(" · ") }),
+        ]),
+        el("span", { class: "go", text: "↗" }),
+      ])
+    )));
   }
 
   if (remote.length) {

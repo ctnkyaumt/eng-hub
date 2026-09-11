@@ -1,5 +1,6 @@
 param(
-    [switch]$Force
+    [switch]$Force,
+    [ValidateRange(0, 8)][int]$Grade = 0
 )
 
 # Generate portable WAV clips for every vocabulary card and Listen & Find item
@@ -11,7 +12,8 @@ $audioRoot = Join-Path $projectRoot "app\audio\words"
 New-Item -ItemType Directory -Force -Path $audioRoot | Out-Null
 
 $clips = @{}
-Get-ChildItem (Join-Path $projectRoot "content") -Recurse -Filter slides.json | ForEach-Object {
+$contentRoot = if ($Grade) { Join-Path $projectRoot "content\g$Grade" } else { Join-Path $projectRoot "content" }
+Get-ChildItem $contentRoot -Recurse -Filter slides.json | ForEach-Object {
     $deck = Get-Content -Raw -LiteralPath $_.FullName | ConvertFrom-Json
     $deck.slides |
         Where-Object { $_.type -eq "vocab" } |

@@ -1,4 +1,4 @@
-"""Maintain online-only worksheet manifests. Never download worksheet files."""
+"""Keep imported worksheets online; preserve explicitly authored Grade 6 PDFs."""
 import json
 from pathlib import Path
 import shutil
@@ -7,6 +7,11 @@ from common import ROOT, API
 from resource_kind import online_game
 
 ROOT = Path(ROOT)
+
+
+def authored_item(item):
+    return (item.get("authored") is True and item.get("curriculum") == "meb-english-6-2026"
+            and item.get("file") in ("original-a.pdf", "original-b.pdf", "original-key.pdf"))
 
 
 def online_item(item):
@@ -24,23 +29,27 @@ def sync_worksheets(sources):
             items.extend(i for i in previous if i.get("source"))
         unique = {i["link"]: online_item(i) for i in items if i.get("link") and not online_game(i)}
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_text(json.dumps({"items": list(unique.values())}, ensure_ascii=False, indent=1), encoding="utf-8")
+        local = [i for i in previous if key.startswith("g6/") and authored_item(i)]
+        path.write_text(json.dumps({"items": local + list(unique.values())}, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def purge_local_worksheets():
-    """Keep only manifests, including in retired units; validate every target."""
+    """Keep manifests and authored Grade 6 PDFs; validate every removal target."""
     content = (ROOT / "content").resolve()
     files = size = 0
     for folder in content.glob("g*/*/worksheets"):
         if not folder.resolve().is_relative_to(content):
             raise ValueError("Worksheet folder outside content root")
         manifest = folder / "manifest.json"
+        protected = set()
         if manifest.exists():
             data = json.loads(manifest.read_text(encoding="utf-8"))
-            data["items"] = [online_item(i) for i in data["items"] if i.get("link")]
+            local = [i for i in data["items"] if folder.parent.parent.name == "g6" and authored_item(i)]
+            protected = {i["file"] for i in local}
+            data["items"] = local + [online_item(i) for i in data["items"] if i.get("link") and i not in local]
             manifest.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
         for target in folder.iterdir():
-            if target.name == "manifest.json":
+            if target.name == "manifest.json" or target.name in protected:
                 continue
             if not target.resolve().is_relative_to(content):
                 raise ValueError("Refusing to remove a path outside content")

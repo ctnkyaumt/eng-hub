@@ -1,6 +1,6 @@
 # ENG HUB
 
-Taşınabilir İngilizce ders yardımcısı. USB'ye kopyala, tak, çalıştır — **kurulum yok.** Sunumlar ve oyunlar çevrimdışı; çalışma kâğıtları ve kitap sunumları internet ister.
+Taşınabilir İngilizce ders yardımcısı. USB'ye kopyala, tak, çalıştır — **kurulum yok.** Sunumlar, oyunlar ve özgün 6. sınıf çalışma kâğıtları çevrimdışı; dış kaynak belge bağlantıları ve kitap sunumları internet ister.
 Windows ve Pardus/Linux üzerinde aynı şekilde çalışır.
 
 ```
@@ -26,7 +26,7 @@ hazır gelir). Hiçbiri yoksa açılış ekranı kurulumu adım adım anlatır.
 | --- | --- |
 | **Sunum** | **5. sınıf** 1–8. tema (303 slayt) ve **8. sınıf** 1–10. ünite (227 slayt) için animasyonlu ders sunumu — sesli 1115 büyük görsel kelime kartı, doğru akrep/yelkovanlı saat örnekleri, İngilizce–Türkçe eşlenmiş vurgular, 168 kısa etkinlik molası ve ünite başına 3 büyük final görevi (54 sayfa: resim sürükleme, çevrimdışı ses ve cümle kurma). 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
 | **Oyunlar** | 7 çevrimdışı oyun modu: Sharpshooter, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca kaynaktaki 66 statik etkinliğin çevrimdışı kopyası. |
-| **Çalışma Kâğıtları** | Tüm belgeler kaynak bağlantısından açılır — **internet gerekli**. Disk alanı için yerel çalışma kâğıdı dosyası tutulmaz. |
+| **Çalışma Kâğıtları** | 6. sınıfta **18 özgün çalışma kâğıdı + 9 ayrı öğretmen anahtarı**, toplam 54 PDF sayfası çevrimdışı açılır ve yazdırılır. Dışarıdan derlenen belgeler kaynak bağlantısından açılır; onlar için internet gerekir. |
 | **Kitap Sunumları** | Kaynaktaki ders/çalışma kitabı sunumlarının listesi. Bunlar yüzlerce parçadan oluşan slayt oynatıcıları olduğu için USB'ye kopyalanmıyor; **bağlantı olarak** açılır (internet gerekir). |
 
 İnternet isteyen etkinlikler (Wordwall, Vocablitz, Baamboozle vb.) ayrı bir listede "İnternet gerekli"
@@ -111,9 +111,34 @@ python tools/build_g8.py && python tools/link_word_images.py && python tools/pol
 powershell -ExecutionPolicy Bypass -File tools/build_mission_audio.ps1
 ```
 
-## 6 ve 7. sınıfa sunum eklemek
+## 6. sınıf: 2026 MEB kitaplarına göre özgün materyaller
 
-Bu sınıflarda oyunlar, çalışma kâğıtları ve çevrimdışı kopyalar var; **sunum yok**. Eklemek için:
+Revizyon 1-2 ve sekiz tema için dokuz ders sunumu (529 slayt), 288 kelime kaydı ve
+714 özgün oyun sorusu vardır. Yedi oyun modu da her bölümde kullanılabilir. Sunumlar
+küçük kelime grupları, Türkçe açıklamalı dil yapıları, özgün diyaloglar ve okumalar,
+etkileşimli alıştırmalar, resim eşleştirme, dinleme ve cümle kurma görevleri içerir.
+Doğrulanmış yerel görseli olmayan kelimeler büyük metin kartı olarak gösterilir.
+Kelime telaffuzları çevrimdışıdır.
+
+Her bölümde iki özgün çalışma kâğıdı ve ayrı öğretmen anahtarı bulunur. Anahtarda
+cevaplar, yanlış ifadelerin düzeltmeleri, öğretmenin okuyacağı dinleme metni,
+örnek yazma cevabı ve kısa değerlendirme ölçütleri vardır.
+
+Kaynaklar: MEB English 6 Student's Book ve Workbook (2026). Kitaplar yalnızca
+müfredat kapsamı için okunur; kitap alıştırmaları veya sayfaları bu materyallere
+kopyalanmaz. Tema-sayfa eşleştirmesi ve kaynak dosya doğrulamaları
+`content/g6/curriculum.json` içindedir. Özgün metinler `tools/grade6_content.py`,
+üretici `tools/create_grade6.py` içindedir. Üretim için ReportLab ve pypdf gerekir;
+`G6_FONT_DIR` Arial yazı tiplerinin klasörünü değiştirebilir. Yalnızca 6. sınıf
+içeriği ve katalogdaki 6. sınıf kayıtları güncellenir. Uygulama derlenmez.
+
+Bakım komutları özgün 6. sınıf oyun havuzlarını ve PDF'lerini korur. Dış kaynaktan
+indirilen eski çalışma kâğıtları yine yerelde tutulmaz. Lite pakette çalışma kâğıtları
+ve oyunlar bulunmadığından bu içerik için tam paket veya depo kullanılır.
+
+## 7. sınıfa sunum eklemek
+
+Bu sınıfta oyunlar, çalışma kâğıtları ve çevrimdışı kopyalar var; **sunum yok**. Eklemek için:
 
 1. PDF'i `res/<N>th grade/unit <M>/` klasörüne koyun (örn. `res/6th grade/unit 3/`).
 2. `python tools/pdf_to_pages.py` — sayfaları görsele çevirir.
@@ -225,7 +250,7 @@ Proje notları ortak `C:\Users\user\Desktop\code\0.MEMORIES\eng-hub.md` dosyası
 
 5. ve 6. sınıfta Maarif Modeli müfredatında yer alan Revizyon bölümü eklenmiştir:
 - **5. Sınıf Revizyon:** 20 etkinlik soru havuzu (Jeopardy, Kule, Bilgi Çarkı), 56 çevrimiçi oyun bağlantısı, 10 çalışma kâğıdı bağlantısı ve 11 kitap/çalışma sunumu bağlantısı içerir.
-- **6. Sınıf Revizyon:** Kaynaktaki 5 adet Maarif revizyon ders, test ve video kitabı sunumunu doğrudan açar; Sharpshooter oyun modu çevrimdışı kelime desteğiyle hazırdır.
+- **6. Sınıf Revizyon:** Kitabın iki revizyon bölümüne uygun özgün çevrimdışı sunum, iki çalışma kâğıdı, öğretmen anahtarı ve yenilenmiş kelime/dil bilgisi oyun havuzu içerir. Mevcut kitap sunumu bağlantıları da açılabilir.
 
 ### Sharpshooter
 
@@ -239,5 +264,6 @@ materyalleri yeni temaların menülerinde gösterilmez.
 Oyun, [Cram Sharpshooter](https://www.cram.com/flashcards/7-sinif-1-unite-ozel-yayin-13019462/games/sharpshooter)
 eşleştirme fikrinden esinlenen özgün bir yerel uygulamadır; Cram kodu veya görselleri kopyalanmamıştır.
 
-Çalışma kâğıtları hiçbir bakım komutuyla indirilmez. Kaynak URL ve hazırlayan bilgisi
-manifestte saklanır; belgenin güncel sürümü tıklanınca kaynak siteden açılır.
+Dış kaynak çalışma kâğıtları bakım komutlarıyla indirilmez. Kaynak URL ve hazırlayan
+bilgisi manifestte saklanır; belgenin güncel sürümü tıklanınca kaynak siteden açılır.
+Özgün 6. sınıf PDF'leri bu kuralın dışındadır ve bakım sırasında korunur.

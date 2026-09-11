@@ -1,0 +1,1139 @@
+{
+ "title": "Personal Life",
+ "titleTr": "Kişisel Hayat",
+ "emoji": "🙋",
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "accent": [
+  "#0d9488",
+  "#2563eb"
+ ],
+ "source": {
+  "studentBook": {
+   "file": "ingilizce6_ders_kitabi.pdf",
+   "pages": [
+    55,
+    68
+   ]
+  },
+  "workbook": {
+   "file": "ingilizce6_calisma_kitabi.pdf",
+   "pages": [
+    25,
+    32
+   ]
+  },
+  "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
+ },
+ "pages": [],
+ "slides": [
+  {
+   "type": "title",
+   "kicker": "THEME 3",
+   "title": "Personal Life",
+   "titleTr": "Kişisel Hayat",
+   "emoji": "🙋"
+  },
+  {
+   "type": "scene",
+   "title": "Our lesson",
+   "emoji": "🙋",
+   "bubbles": [
+    {
+     "text": "Describe appearance, clothes and character respectfully."
+    },
+    {
+     "text": "Ask about possessions and make comparisons."
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Body parts",
+   "items": [
+    {
+     "en": "back",
+     "tr": "sırt",
+     "img": "/content/g5/u3/presentation/img/p01-15.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "leg",
+     "tr": "bacak",
+     "img": "/content/g5/u3/presentation/img/p01-17.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "knee",
+     "tr": "diz",
+     "img": "/content/g5/u3/presentation/img/p01-18.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "ankle",
+     "tr": "ayak bileği",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "back",
+       "b": "sırt"
+      },
+      {
+       "a": "leg",
+       "b": "bacak"
+      },
+      {
+       "a": "knee",
+       "b": "diz"
+      },
+      {
+       "a": "ankle",
+       "b": "ayak bileği"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Body parts",
+   "items": [
+    {
+     "en": "heart",
+     "tr": "kalp",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "stomach",
+     "tr": "mide",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "skin",
+     "tr": "cilt",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "physical",
+     "tr": "fiziksel",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "heart",
+       "b": "kalp"
+      },
+      {
+       "a": "stomach",
+       "b": "mide"
+      },
+      {
+       "a": "skin",
+       "b": "cilt"
+      },
+      {
+       "a": "physical",
+       "b": "fiziksel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Clothes and belongings",
+   "items": [
+    {
+     "en": "trainers",
+     "tr": "spor ayakkabısı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "swimsuit",
+     "tr": "mayo",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "tights",
+     "tr": "külotlu çorap",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "pocket",
+     "tr": "cep",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "trainers",
+       "b": "spor ayakkabısı"
+      },
+      {
+       "a": "swimsuit",
+       "b": "mayo"
+      },
+      {
+       "a": "tights",
+       "b": "külotlu çorap"
+      },
+      {
+       "a": "pocket",
+       "b": "cep"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Clothes and belongings",
+   "items": [
+    {
+     "en": "necklace",
+     "tr": "kolye",
+     "img": "/content/g5/u3/presentation/img/p03-08.png",
+     "imageFit": "contain"
+    },
+    {
+     "en": "bracelet",
+     "tr": "bileklik",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "wallet",
+     "tr": "cüzdan",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "jewellery",
+     "tr": "takı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "necklace",
+       "b": "kolye"
+      },
+      {
+       "a": "bracelet",
+       "b": "bileklik"
+      },
+      {
+       "a": "wallet",
+       "b": "cüzdan"
+      },
+      {
+       "a": "jewellery",
+       "b": "takı"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Character",
+   "items": [
+    {
+     "en": "patient",
+     "tr": "sabırlı",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "polite",
+     "tr": "kibar",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "caring",
+     "tr": "şefkatli",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "clever",
+     "tr": "zeki",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "patient",
+       "b": "sabırlı"
+      },
+      {
+       "a": "polite",
+       "b": "kibar"
+      },
+      {
+       "a": "caring",
+       "b": "şefkatli"
+      },
+      {
+       "a": "clever",
+       "b": "zeki"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Character",
+   "items": [
+    {
+     "en": "organised",
+     "tr": "düzenli",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "independent",
+     "tr": "bağımsız",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "focused",
+     "tr": "odaklanmış",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "social",
+     "tr": "sosyal",
+     "imageSource": "ENG HUB",
+     "imageFit": "contain",
+     "imageConcept": "social",
+     "img": "/app/img/concepts/social.svg"
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "organised",
+       "b": "düzenli"
+      },
+      {
+       "a": "independent",
+       "b": "bağımsız"
+      },
+      {
+       "a": "focused",
+       "b": "odaklanmış"
+      },
+      {
+       "a": "social",
+       "b": "sosyal"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Describing a person",
+   "items": [
+    {
+     "en": "tidy",
+     "tr": "tertipli",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "serious",
+     "tr": "ciddi",
+     "img": "/content/g6/shared/img/8690.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/8690",
+     "imageFit": "contain"
+    },
+    {
+     "en": "rude",
+     "tr": "kaba",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "lazy",
+     "tr": "tembel",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "tidy",
+       "b": "tertipli"
+      },
+      {
+       "a": "serious",
+       "b": "ciddi"
+      },
+      {
+       "a": "rude",
+       "b": "kaba"
+      },
+      {
+       "a": "lazy",
+       "b": "tembel"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "vocab",
+   "title": "Describing a person",
+   "items": [
+    {
+     "en": "weak",
+     "tr": "güçsüz",
+     "img": "/content/g6/shared/img/4620.png",
+     "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
+     "imageCredit": "https://arasaac.org/pictograms/en/4620",
+     "imageFit": "contain"
+    },
+    {
+     "en": "lovely",
+     "tr": "hoş",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "brilliant",
+     "tr": "harika",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    },
+    {
+     "en": "look",
+     "tr": "görünüş",
+     "textOnly": true,
+     "imageNote": "Text card: no verified local picture for this meaning."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Word check",
+   "tasks": [
+    {
+     "kind": "match",
+     "q": "Match the words and meanings.",
+     "pairs": [
+      {
+       "a": "weak",
+       "b": "güçsüz"
+      },
+      {
+       "a": "lovely",
+       "b": "hoş"
+      },
+      {
+       "a": "brilliant",
+       "b": "harika"
+      },
+      {
+       "a": "look",
+       "b": "görünüş"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Possessions and appearance",
+   "rule": "I/you/we/they have got; he/she/it has got. Olumsuz: haven't/hasn't got. Soru: Have/Has + özne + got?",
+   "grammarId": "have-got",
+   "examples": [
+    {
+     "en": "Lina *has got* a silver bracelet.",
+     "tr": "Lina'nın gümüş bir bilekliği var.",
+     "trEm": [
+      "var"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Possessions and appearance",
+   "rule": "I/you/we/they have got; he/she/it has got. Olumsuz: haven't/hasn't got. Soru: Have/Has + özne + got?",
+   "grammarId": "have-got",
+   "examples": [
+    {
+     "en": "*Have* you *got* your trainers?",
+     "tr": "Spor ayakkabıların var mı?",
+     "trEm": [
+      "var mı"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Possessions and appearance",
+   "rule": "I/you/we/they have got; he/she/it has got. Olumsuz: haven't/hasn't got. Soru: Have/Has + özne + got?",
+   "grammarId": "have-got",
+   "examples": [
+    {
+     "en": "I *haven't got* a necklace.",
+     "tr": "Kolyem yok.",
+     "trEm": [
+      "yok"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "My cousin ___ curly hair.",
+     "answer": "has got",
+     "options": [
+      "has got",
+      "have got",
+      "is got",
+      "are got"
+     ]
+    }
+   ],
+   "grammarId": "have-got"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ your brother got a wallet?",
+     "answer": "Has",
+     "options": [
+      "Has",
+      "Have",
+      "Does",
+      "Is"
+     ]
+    }
+   ],
+   "grammarId": "have-got"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "We ___ blue trainers.",
+     "answer": "haven't got",
+     "options": [
+      "haven't got",
+      "hasn't got",
+      "don't got",
+      "isn't got"
+     ]
+    }
+   ],
+   "grammarId": "have-got"
+  },
+  {
+   "type": "grammar",
+   "title": "Whose belongings?",
+   "rule": "Whose sahipliği sorar. İsim + 's ile cevap verilebilir. Whose is this? / Whose trainers are these?",
+   "grammarId": "whose",
+   "examples": [
+    {
+     "en": "*Whose* bracelet is this?",
+     "tr": "Bu kimin bilekliği?",
+     "trEm": [
+      "kimin"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Whose belongings?",
+   "rule": "Whose sahipliği sorar. İsim + 's ile cevap verilebilir. Whose is this? / Whose trainers are these?",
+   "grammarId": "whose",
+   "examples": [
+    {
+     "en": "It is *Maya's* bracelet.",
+     "tr": "Bu, Maya'nın bilekliği.",
+     "trEm": [
+      "Maya'nın"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "___ wallet is this? It belongs to Ben.",
+     "answer": "Whose",
+     "options": [
+      "Whose",
+      "Who's",
+      "Where",
+      "Who"
+     ]
+    }
+   ],
+   "grammarId": "whose"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "These are ___ trainers. They belong to Ada.",
+     "answer": "Ada's",
+     "options": [
+      "Ada's",
+      "Ada",
+      "Adas",
+      "Adas's"
+     ]
+    }
+   ],
+   "grammarId": "whose"
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing two",
+   "rule": "Kısa sıfat + -er + than; uzun sıfatlarda more + sıfat + than. big/bigger, tidy/tidier.",
+   "grammarId": "comparatives",
+   "examples": [
+    {
+     "en": "This pocket is *bigger than* that pocket.",
+     "tr": "Bu cep, o cepten daha büyük.",
+     "trEm": [
+      "daha büyük"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing two",
+   "rule": "Kısa sıfat + -er + than; uzun sıfatlarda more + sıfat + than. big/bigger, tidy/tidier.",
+   "grammarId": "comparatives",
+   "examples": [
+    {
+     "en": "Lina is *more patient than* her cousin.",
+     "tr": "Lina kuzeninden daha sabırlı.",
+     "trEm": [
+      "daha sabırlı"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "The red bracelet is ___ than the blue one.",
+     "answer": "longer",
+     "options": [
+      "longer",
+      "long",
+      "longest",
+      "more long"
+     ]
+    }
+   ],
+   "grammarId": "comparatives"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "This wallet is ___ than that one.",
+     "answer": "more colourful",
+     "options": [
+      "more colourful",
+      "colourfuller",
+      "most colourful",
+      "colourfulest"
+     ]
+    }
+   ],
+   "grammarId": "comparatives"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "My desk is ___ than it was before.",
+     "answer": "tidier",
+     "options": [
+      "tidier",
+      "tidyer",
+      "tidiest",
+      "more tidyest"
+     ]
+    }
+   ],
+   "grammarId": "comparatives"
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing a group",
+   "rule": "Üç veya daha fazlası arasında: the + sıfat-est / the most + uzun sıfat. Karşılaştırılan grubu belirt.",
+   "grammarId": "superlatives",
+   "examples": [
+    {
+     "en": "This is *the smallest* pocket on the jacket.",
+     "tr": "Bu, ceketin en küçük cebi.",
+     "trEm": [
+      "en küçük"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Comparing a group",
+   "rule": "Üç veya daha fazlası arasında: the + sıfat-est / the most + uzun sıfat. Karşılaştırılan grubu belirt.",
+   "grammarId": "superlatives",
+   "examples": [
+    {
+     "en": "That is *the most colourful* bracelet in the box.",
+     "tr": "O, kutudaki en renkli bileklik.",
+     "trEm": [
+      "en renkli"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Of these three bags, the green one is ___.",
+     "answer": "the biggest",
+     "options": [
+      "the biggest",
+      "bigger",
+      "big",
+      "more big"
+     ]
+    }
+   ],
+   "grammarId": "superlatives"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "This is ___ swimsuit in the shop.",
+     "answer": "the most comfortable",
+     "options": [
+      "the most comfortable",
+      "more comfortable",
+      "comfortabler",
+      "comfortable"
+     ]
+    }
+   ],
+   "grammarId": "superlatives"
+  },
+  {
+   "type": "grammar",
+   "title": "Good, better, best",
+   "rule": "good/better/the best; bad/worse/the worst. Bunlara ayrıca more veya -er eklenmez.",
+   "grammarId": "irregular-comparison",
+   "examples": [
+    {
+     "en": "This kit is *better* for swimming.",
+     "tr": "Bu takım yüzmek için daha iyi.",
+     "trEm": [
+      "daha iyi"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Good, better, best",
+   "rule": "good/better/the best; bad/worse/the worst. Bunlara ayrıca more veya -er eklenmez.",
+   "grammarId": "irregular-comparison",
+   "examples": [
+    {
+     "en": "This is *the worst* pocket for a phone.",
+     "tr": "Bu, telefon için en kötü cep.",
+     "trEm": [
+      "en kötü"
+     ],
+     "textOnly": true
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "Of the three kits, this is ___.",
+     "answer": "the best",
+     "options": [
+      "the best",
+      "better",
+      "gooder",
+      "good"
+     ]
+    }
+   ],
+   "grammarId": "irregular-comparison"
+  },
+  {
+   "type": "exercise",
+   "title": "Language check",
+   "tasks": [
+    {
+     "kind": "choose",
+     "q": "My old trainers are ___ than my new ones.",
+     "answer": "worse",
+     "options": [
+      "worse",
+      "badder",
+      "worst",
+      "the bad"
+     ]
+    }
+   ],
+   "grammarId": "irregular-comparison"
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Noor",
+       "text": "Whose wallet is this?",
+       "tr": "Bu kimin cüzdanı?"
+      },
+      {
+       "who": "Leo",
+       "text": "It is mine. Have you got one too?",
+       "tr": "Benim. Senin de var mı?"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "dialogue",
+   "title": "A conversation",
+   "dialogues": [
+    {
+     "lines": [
+      {
+       "who": "Noor",
+       "text": "Yes. My wallet is smaller than yours.",
+       "tr": "Evet. Benim cüzdanım seninkinden daha küçük."
+      },
+      {
+       "who": "Leo",
+       "text": "This one has got the biggest pocket of the three.",
+       "tr": "Üçünün arasında en büyük cep bunda."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "The missing bracelet",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "Three friends are preparing a clothes display. Maya has got a green swimsuit and white trainers. Her cousin Leo has got blue trainers. Leo's trainers are bigger than Maya's. Noor has got a small wallet with two pockets. It is the smallest wallet on the table."
+    }
+   ]
+  },
+  {
+   "type": "scene",
+   "title": "The missing bracelet",
+   "emoji": "📖",
+   "bubbles": [
+    {
+     "text": "The friends find a purple bracelet under a chair. Whose bracelet is it? Noor asks everyone politely. It belongs to Maya. Noor is patient and organised: she makes a list of all the clothes before they start the display."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "What colour are Leo's trainers?",
+     "answer": "Blue."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "How many pockets has Noor's wallet got?",
+     "answer": "Two."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Where is the bracelet?",
+     "answer": "Under a chair."
+    }
+   ]
+  },
+  {
+   "type": "exercise",
+   "title": "Reading check",
+   "tasks": [
+    {
+     "kind": "flash",
+     "q": "Whose bracelet is it?",
+     "answer": "Maya's."
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Picture match",
+   "task": {
+    "kind": "dragmatch",
+    "items": [
+     {
+      "en": "back",
+      "tr": "sırt",
+      "img": "/content/g5/u3/presentation/img/p01-15.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/back.wav"
+     },
+     {
+      "en": "leg",
+      "tr": "bacak",
+      "img": "/content/g5/u3/presentation/img/p01-17.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/leg.wav"
+     },
+     {
+      "en": "knee",
+      "tr": "diz",
+      "img": "/content/g5/u3/presentation/img/p01-18.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/knee.wav"
+     },
+     {
+      "en": "necklace",
+      "tr": "kolye",
+      "img": "/content/g5/u3/presentation/img/p03-08.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/necklace.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Listen and find",
+   "task": {
+    "kind": "listenpicture",
+    "items": [
+     {
+      "en": "back",
+      "tr": "sırt",
+      "img": "/content/g5/u3/presentation/img/p01-15.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/back.wav"
+     },
+     {
+      "en": "leg",
+      "tr": "bacak",
+      "img": "/content/g5/u3/presentation/img/p01-17.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/leg.wav"
+     },
+     {
+      "en": "knee",
+      "tr": "diz",
+      "img": "/content/g5/u3/presentation/img/p01-18.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/knee.wav"
+     },
+     {
+      "en": "necklace",
+      "tr": "kolye",
+      "img": "/content/g5/u3/presentation/img/p03-08.png",
+      "imageFit": "contain",
+      "audio": "/app/audio/words/necklace.wav"
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Sentence workshop",
+   "task": {
+    "kind": "dragorder",
+    "sentences": [
+     {
+      "answer": "Lina has got a silver bracelet.",
+      "tr": "Lina'nın gümüş bir bilekliği var."
+     },
+     {
+      "answer": "I haven't got a necklace.",
+      "tr": "Kolyem yok."
+     },
+     {
+      "answer": "It is Maya's bracelet.",
+      "tr": "Bu, Maya'nın bilekliği."
+     },
+     {
+      "answer": "This pocket is bigger than that pocket.",
+      "tr": "Bu cep, o cepten daha büyük."
+     },
+     {
+      "answer": "Lina is more patient than her cousin.",
+      "tr": "Lina kuzeninden daha sabırlı."
+     },
+     {
+      "answer": "This is the smallest pocket on the jacket.",
+      "tr": "Bu, ceketin en küçük cebi."
+     }
+    ]
+   }
+  },
+  {
+   "type": "mission",
+   "title": "Your turn to speak",
+   "task": {
+    "kind": "flash",
+    "q": "Choose three classroom objects. Ask whose they are. Compare two objects, then say which is the biggest or most colourful of the three.",
+    "answer": "Use the lesson examples to help. Check the target structures, then swap roles."
+   }
+  },
+  {
+   "type": "end",
+   "title": "Ready for more practice",
+   "titleTr": "Oyunlar ve özgün çalışma kâğıtları",
+   "emoji": "🎯"
+  }
+ ]
+}

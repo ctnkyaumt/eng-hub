@@ -54,6 +54,9 @@ def refresh_bank(job):
     path = ROOT / "content" / key / "games/_raw.json"
     raw = read(path, {})
     old = read(path.parent / "bank.json", {"sets": []})
+    if key.startswith("g6/") and old.get("authored") and old.get("curriculum") == "meb-english-6-2026":
+        report["games"].append({"unit": key, "status": "authored-preserved"})
+        return
     failed = set()
     for item in src["offlineGames"]:
         code = item["code"]
@@ -174,6 +177,9 @@ def main():
         source["mirrorJobs"] = items
     def mirrors_for_unit(job):
         key, source = job
+        bank = read(ROOT / "content" / key / "games/bank.json", {})
+        if key.startswith("g6/") and bank.get("authored"):
+            return
         items = [refresh_mirror((key, item)) for item in source["mirrorJobs"]]
         save(ROOT / "content" / key / "sites/manifest.json", {"items": items})
     parallel(list(src.items()), mirrors_for_unit, "Static activities", 4)

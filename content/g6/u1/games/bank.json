@@ -1,1 +1,1897 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-u1-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "leader - choose the meaning.",
+     "a": [
+      {
+       "t": "hazırlayıp çantaya koymak",
+       "c": false
+      },
+      {
+       "t": "lider",
+       "c": true
+      },
+      {
+       "t": "hevesli",
+       "c": false
+      },
+      {
+       "t": "denemek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "listener - choose the meaning.",
+     "a": [
+      {
+       "t": "daha sonra",
+       "c": false
+      },
+      {
+       "t": "izin",
+       "c": false
+      },
+      {
+       "t": "konuşma",
+       "c": false
+      },
+      {
+       "t": "dinleyici",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "permission - choose the meaning.",
+     "a": [
+      {
+       "t": "rehber",
+       "c": false
+      },
+      {
+       "t": "izin",
+       "c": true
+      },
+      {
+       "t": "takip etmek",
+       "c": false
+      },
+      {
+       "t": "düzenli olarak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "instruction - choose the meaning.",
+     "a": [
+      {
+       "t": "yönerge",
+       "c": true
+      },
+      {
+       "t": "dikkatlice",
+       "c": false
+      },
+      {
+       "t": "başarısız olmak",
+       "c": false
+      },
+      {
+       "t": "selamlamak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "guide - choose the meaning.",
+     "a": [
+      {
+       "t": "başarılı",
+       "c": false
+      },
+      {
+       "t": "rehber",
+       "c": true
+      },
+      {
+       "t": "takip etmek",
+       "c": false
+      },
+      {
+       "t": "izin",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "helpful - choose the meaning.",
+     "a": [
+      {
+       "t": "sınavı geçmek",
+       "c": false
+      },
+      {
+       "t": "kutlama",
+       "c": false
+      },
+      {
+       "t": "desteklemek",
+       "c": false
+      },
+      {
+       "t": "yardımsever",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "support - choose the meaning.",
+     "a": [
+      {
+       "t": "dikkatlice",
+       "c": false
+      },
+      {
+       "t": "daha sonra",
+       "c": false
+      },
+      {
+       "t": "desteklemek",
+       "c": true
+      },
+      {
+       "t": "takip etmek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "volunteer - choose the meaning.",
+     "a": [
+      {
+       "t": "konuşma",
+       "c": false
+      },
+      {
+       "t": "gönüllü olmak",
+       "c": true
+      },
+      {
+       "t": "girmek",
+       "c": false
+      },
+      {
+       "t": "daha sonra",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "greet - choose the meaning.",
+     "a": [
+      {
+       "t": "hevesli",
+       "c": false
+      },
+      {
+       "t": "hazırlayıp çantaya koymak",
+       "c": false
+      },
+      {
+       "t": "izin",
+       "c": false
+      },
+      {
+       "t": "selamlamak",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "follow - choose the meaning.",
+     "a": [
+      {
+       "t": "lider",
+       "c": false
+      },
+      {
+       "t": "dönem",
+       "c": false
+      },
+      {
+       "t": "rehber",
+       "c": false
+      },
+      {
+       "t": "takip etmek",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "enter - choose the meaning.",
+     "a": [
+      {
+       "t": "girmek",
+       "c": true
+      },
+      {
+       "t": "sınavı geçmek",
+       "c": false
+      },
+      {
+       "t": "takip etmek",
+       "c": false
+      },
+      {
+       "t": "önce",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pack - choose the meaning.",
+     "a": [
+      {
+       "t": "bayrak",
+       "c": false
+      },
+      {
+       "t": "hazırlayıp çantaya koymak",
+       "c": true
+      },
+      {
+       "t": "selamlamak",
+       "c": false
+      },
+      {
+       "t": "desteklemek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "term - choose the meaning.",
+     "a": [
+      {
+       "t": "sınavı geçmek",
+       "c": false
+      },
+      {
+       "t": "selamlamak",
+       "c": false
+      },
+      {
+       "t": "lider",
+       "c": false
+      },
+      {
+       "t": "dönem",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "regularly - choose the meaning.",
+     "a": [
+      {
+       "t": "başarılı",
+       "c": false
+      },
+      {
+       "t": "dinleyici",
+       "c": false
+      },
+      {
+       "t": "lider",
+       "c": false
+      },
+      {
+       "t": "düzenli olarak",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "carefully - choose the meaning.",
+     "a": [
+      {
+       "t": "yönerge",
+       "c": false
+      },
+      {
+       "t": "dönem",
+       "c": false
+      },
+      {
+       "t": "selamlamak",
+       "c": false
+      },
+      {
+       "t": "dikkatlice",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "willingly - choose the meaning.",
+     "a": [
+      {
+       "t": "hazırlayıp çantaya koymak",
+       "c": false
+      },
+      {
+       "t": "yönerge",
+       "c": false
+      },
+      {
+       "t": "önce",
+       "c": false
+      },
+      {
+       "t": "isteyerek",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "ceremony - choose the meaning.",
+     "a": [
+      {
+       "t": "bayrak",
+       "c": false
+      },
+      {
+       "t": "kutlamak",
+       "c": false
+      },
+      {
+       "t": "tören",
+       "c": true
+      },
+      {
+       "t": "konuşma",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "celebration - choose the meaning.",
+     "a": [
+      {
+       "t": "kutlama",
+       "c": true
+      },
+      {
+       "t": "sınavı geçmek",
+       "c": false
+      },
+      {
+       "t": "rehber",
+       "c": false
+      },
+      {
+       "t": "yardımsever",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "parade - choose the meaning.",
+     "a": [
+      {
+       "t": "lider",
+       "c": false
+      },
+      {
+       "t": "geçit töreni",
+       "c": true
+      },
+      {
+       "t": "gönüllü olmak",
+       "c": false
+      },
+      {
+       "t": "takip etmek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "flag - choose the meaning.",
+     "a": [
+      {
+       "t": "rehber",
+       "c": false
+      },
+      {
+       "t": "isteyerek",
+       "c": false
+      },
+      {
+       "t": "daha sonra",
+       "c": false
+      },
+      {
+       "t": "bayrak",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "national anthem - choose the meaning.",
+     "a": [
+      {
+       "t": "önce",
+       "c": false
+      },
+      {
+       "t": "başarısız olmak",
+       "c": false
+      },
+      {
+       "t": "tören",
+       "c": false
+      },
+      {
+       "t": "ulusal marş",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "speech - choose the meaning.",
+     "a": [
+      {
+       "t": "başarılı",
+       "c": false
+      },
+      {
+       "t": "isteyerek",
+       "c": false
+      },
+      {
+       "t": "konuşma",
+       "c": true
+      },
+      {
+       "t": "sınavı geçmek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "festival - choose the meaning.",
+     "a": [
+      {
+       "t": "dikkatlice",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": true
+      },
+      {
+       "t": "düzenli olarak",
+       "c": false
+      },
+      {
+       "t": "selamlamak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "celebrate - choose the meaning.",
+     "a": [
+      {
+       "t": "kutlamak",
+       "c": true
+      },
+      {
+       "t": "başarılı",
+       "c": false
+      },
+      {
+       "t": "desteklemek",
+       "c": false
+      },
+      {
+       "t": "lider",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "successful - choose the meaning.",
+     "a": [
+      {
+       "t": "selamlamak",
+       "c": false
+      },
+      {
+       "t": "lider",
+       "c": false
+      },
+      {
+       "t": "başarılı",
+       "c": true
+      },
+      {
+       "t": "sınavı geçmek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "keen - choose the meaning.",
+     "a": [
+      {
+       "t": "tören",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "hevesli",
+       "c": true
+      },
+      {
+       "t": "neşeyle",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "try - choose the meaning.",
+     "a": [
+      {
+       "t": "denemek",
+       "c": true
+      },
+      {
+       "t": "girmek",
+       "c": false
+      },
+      {
+       "t": "daha sonra",
+       "c": false
+      },
+      {
+       "t": "dikkatlice",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pass - choose the meaning.",
+     "a": [
+      {
+       "t": "sınavı geçmek",
+       "c": true
+      },
+      {
+       "t": "ulusal marş",
+       "c": false
+      },
+      {
+       "t": "dikkatlice",
+       "c": false
+      },
+      {
+       "t": "geçit töreni",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fail - choose the meaning.",
+     "a": [
+      {
+       "t": "hevesli",
+       "c": false
+      },
+      {
+       "t": "yardımsever",
+       "c": false
+      },
+      {
+       "t": "başarısız olmak",
+       "c": true
+      },
+      {
+       "t": "selamlamak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "cheerfully - choose the meaning.",
+     "a": [
+      {
+       "t": "kutlamak",
+       "c": false
+      },
+      {
+       "t": "dönem",
+       "c": false
+      },
+      {
+       "t": "kutlama",
+       "c": false
+      },
+      {
+       "t": "neşeyle",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "before - choose the meaning.",
+     "a": [
+      {
+       "t": "önce",
+       "c": true
+      },
+      {
+       "t": "dikkatlice",
+       "c": false
+      },
+      {
+       "t": "kutlamak",
+       "c": false
+      },
+      {
+       "t": "yönerge",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "later - choose the meaning.",
+     "a": [
+      {
+       "t": "girmek",
+       "c": false
+      },
+      {
+       "t": "isteyerek",
+       "c": false
+      },
+      {
+       "t": "daha sonra",
+       "c": true
+      },
+      {
+       "t": "dönem",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u1-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "lider - choose the English word.",
+     "a": [
+      {
+       "t": "leader",
+       "c": true
+      },
+      {
+       "t": "celebrate",
+       "c": false
+      },
+      {
+       "t": "listener",
+       "c": false
+      },
+      {
+       "t": "cheerfully",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "dinleyici - choose the English word.",
+     "a": [
+      {
+       "t": "carefully",
+       "c": false
+      },
+      {
+       "t": "instruction",
+       "c": false
+      },
+      {
+       "t": "listener",
+       "c": true
+      },
+      {
+       "t": "follow",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "izin - choose the English word.",
+     "a": [
+      {
+       "t": "speech",
+       "c": false
+      },
+      {
+       "t": "permission",
+       "c": true
+      },
+      {
+       "t": "pass",
+       "c": false
+      },
+      {
+       "t": "try",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yönerge - choose the English word.",
+     "a": [
+      {
+       "t": "instruction",
+       "c": true
+      },
+      {
+       "t": "permission",
+       "c": false
+      },
+      {
+       "t": "pass",
+       "c": false
+      },
+      {
+       "t": "follow",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "rehber - choose the English word.",
+     "a": [
+      {
+       "t": "pass",
+       "c": false
+      },
+      {
+       "t": "carefully",
+       "c": false
+      },
+      {
+       "t": "guide",
+       "c": true
+      },
+      {
+       "t": "volunteer",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yardımsever - choose the English word.",
+     "a": [
+      {
+       "t": "parade",
+       "c": false
+      },
+      {
+       "t": "helpful",
+       "c": true
+      },
+      {
+       "t": "follow",
+       "c": false
+      },
+      {
+       "t": "carefully",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "desteklemek - choose the English word.",
+     "a": [
+      {
+       "t": "support",
+       "c": true
+      },
+      {
+       "t": "enter",
+       "c": false
+      },
+      {
+       "t": "volunteer",
+       "c": false
+      },
+      {
+       "t": "listener",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "gönüllü olmak - choose the English word.",
+     "a": [
+      {
+       "t": "regularly",
+       "c": false
+      },
+      {
+       "t": "ceremony",
+       "c": false
+      },
+      {
+       "t": "leader",
+       "c": false
+      },
+      {
+       "t": "volunteer",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "selamlamak - choose the English word.",
+     "a": [
+      {
+       "t": "try",
+       "c": false
+      },
+      {
+       "t": "support",
+       "c": false
+      },
+      {
+       "t": "leader",
+       "c": false
+      },
+      {
+       "t": "greet",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "takip etmek - choose the English word.",
+     "a": [
+      {
+       "t": "follow",
+       "c": true
+      },
+      {
+       "t": "speech",
+       "c": false
+      },
+      {
+       "t": "greet",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "girmek - choose the English word.",
+     "a": [
+      {
+       "t": "enter",
+       "c": true
+      },
+      {
+       "t": "listener",
+       "c": false
+      },
+      {
+       "t": "permission",
+       "c": false
+      },
+      {
+       "t": "greet",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "hazırlayıp çantaya koymak - choose the English word.",
+     "a": [
+      {
+       "t": "keen",
+       "c": false
+      },
+      {
+       "t": "follow",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "pack",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "dönem - choose the English word.",
+     "a": [
+      {
+       "t": "regularly",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "national anthem",
+       "c": false
+      },
+      {
+       "t": "term",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "düzenli olarak - choose the English word.",
+     "a": [
+      {
+       "t": "greet",
+       "c": false
+      },
+      {
+       "t": "instruction",
+       "c": false
+      },
+      {
+       "t": "pack",
+       "c": false
+      },
+      {
+       "t": "regularly",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "dikkatlice - choose the English word.",
+     "a": [
+      {
+       "t": "helpful",
+       "c": false
+      },
+      {
+       "t": "term",
+       "c": false
+      },
+      {
+       "t": "leader",
+       "c": false
+      },
+      {
+       "t": "carefully",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "isteyerek - choose the English word.",
+     "a": [
+      {
+       "t": "try",
+       "c": false
+      },
+      {
+       "t": "follow",
+       "c": false
+      },
+      {
+       "t": "leader",
+       "c": false
+      },
+      {
+       "t": "willingly",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "tören - choose the English word.",
+     "a": [
+      {
+       "t": "ceremony",
+       "c": true
+      },
+      {
+       "t": "later",
+       "c": false
+      },
+      {
+       "t": "term",
+       "c": false
+      },
+      {
+       "t": "pack",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kutlama - choose the English word.",
+     "a": [
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "fail",
+       "c": false
+      },
+      {
+       "t": "carefully",
+       "c": false
+      },
+      {
+       "t": "celebration",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "geçit töreni - choose the English word.",
+     "a": [
+      {
+       "t": "listener",
+       "c": false
+      },
+      {
+       "t": "flag",
+       "c": false
+      },
+      {
+       "t": "helpful",
+       "c": false
+      },
+      {
+       "t": "parade",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "bayrak - choose the English word.",
+     "a": [
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "helpful",
+       "c": false
+      },
+      {
+       "t": "speech",
+       "c": false
+      },
+      {
+       "t": "flag",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "ulusal marş - choose the English word.",
+     "a": [
+      {
+       "t": "successful",
+       "c": false
+      },
+      {
+       "t": "national anthem",
+       "c": true
+      },
+      {
+       "t": "celebrate",
+       "c": false
+      },
+      {
+       "t": "speech",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "konuşma - choose the English word.",
+     "a": [
+      {
+       "t": "parade",
+       "c": false
+      },
+      {
+       "t": "speech",
+       "c": true
+      },
+      {
+       "t": "carefully",
+       "c": false
+      },
+      {
+       "t": "permission",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "festival - choose the English word.",
+     "a": [
+      {
+       "t": "keen",
+       "c": false
+      },
+      {
+       "t": "guide",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": true
+      },
+      {
+       "t": "leader",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kutlamak - choose the English word.",
+     "a": [
+      {
+       "t": "celebrate",
+       "c": true
+      },
+      {
+       "t": "fail",
+       "c": false
+      },
+      {
+       "t": "helpful",
+       "c": false
+      },
+      {
+       "t": "cheerfully",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "başarılı - choose the English word.",
+     "a": [
+      {
+       "t": "enter",
+       "c": false
+      },
+      {
+       "t": "support",
+       "c": false
+      },
+      {
+       "t": "successful",
+       "c": true
+      },
+      {
+       "t": "parade",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "hevesli - choose the English word.",
+     "a": [
+      {
+       "t": "pack",
+       "c": false
+      },
+      {
+       "t": "keen",
+       "c": true
+      },
+      {
+       "t": "carefully",
+       "c": false
+      },
+      {
+       "t": "speech",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "denemek - choose the English word.",
+     "a": [
+      {
+       "t": "support",
+       "c": false
+      },
+      {
+       "t": "try",
+       "c": true
+      },
+      {
+       "t": "pass",
+       "c": false
+      },
+      {
+       "t": "carefully",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sınavı geçmek - choose the English word.",
+     "a": [
+      {
+       "t": "pass",
+       "c": true
+      },
+      {
+       "t": "celebrate",
+       "c": false
+      },
+      {
+       "t": "instruction",
+       "c": false
+      },
+      {
+       "t": "pack",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "başarısız olmak - choose the English word.",
+     "a": [
+      {
+       "t": "keen",
+       "c": false
+      },
+      {
+       "t": "ceremony",
+       "c": false
+      },
+      {
+       "t": "fail",
+       "c": true
+      },
+      {
+       "t": "national anthem",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "neşeyle - choose the English word.",
+     "a": [
+      {
+       "t": "parade",
+       "c": false
+      },
+      {
+       "t": "cheerfully",
+       "c": true
+      },
+      {
+       "t": "listener",
+       "c": false
+      },
+      {
+       "t": "celebration",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "önce - choose the English word.",
+     "a": [
+      {
+       "t": "follow",
+       "c": false
+      },
+      {
+       "t": "before",
+       "c": true
+      },
+      {
+       "t": "guide",
+       "c": false
+      },
+      {
+       "t": "try",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "daha sonra - choose the English word.",
+     "a": [
+      {
+       "t": "follow",
+       "c": false
+      },
+      {
+       "t": "carefully",
+       "c": false
+      },
+      {
+       "t": "later",
+       "c": true
+      },
+      {
+       "t": "fail",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u1-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "Arda carries ___ flag.",
+     "grammarId": "articles",
+     "explanation": "Arda carries a flag.",
+     "a": [
+      {
+       "t": "are",
+       "c": false
+      },
+      {
+       "t": "am",
+       "c": false
+      },
+      {
+       "t": "a",
+       "c": true
+      },
+      {
+       "t": "an",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "There is ___ empty chair near the stage.",
+     "grammarId": "articles",
+     "explanation": "There is an empty chair near the stage.",
+     "a": [
+      {
+       "t": "an",
+       "c": true
+      },
+      {
+       "t": "am",
+       "c": false
+      },
+      {
+       "t": "a",
+       "c": false
+      },
+      {
+       "t": "are",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "I can see a flag. ___ flag is red.",
+     "grammarId": "articles",
+     "explanation": "I can see a flag. The flag is red.",
+     "a": [
+      {
+       "t": "The",
+       "c": true
+      },
+      {
+       "t": "Are",
+       "c": false
+      },
+      {
+       "t": "An",
+       "c": false
+      },
+      {
+       "t": "A",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ the instructions, please.",
+     "grammarId": "imperatives",
+     "explanation": "Follow the instructions, please.",
+     "a": [
+      {
+       "t": "Follow",
+       "c": true
+      },
+      {
+       "t": "Follows",
+       "c": false
+      },
+      {
+       "t": "To follows",
+       "c": false
+      },
+      {
+       "t": "Following",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ near the stage, please.",
+     "grammarId": "imperatives",
+     "explanation": "Don't run near the stage, please.",
+     "a": [
+      {
+       "t": "Don't runs",
+       "c": false
+      },
+      {
+       "t": "Doesn't run",
+       "c": false
+      },
+      {
+       "t": "Don't run",
+       "c": true
+      },
+      {
+       "t": "Not running",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The guide ___ visitors every day.",
+     "grammarId": "present-simple",
+     "explanation": "The guide greets visitors every day.",
+     "a": [
+      {
+       "t": "are greet",
+       "c": false
+      },
+      {
+       "t": "greets",
+       "c": true
+      },
+      {
+       "t": "greet",
+       "c": false
+      },
+      {
+       "t": "greeting",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Our leaders ___ the hall untidy.",
+     "grammarId": "present-simple",
+     "explanation": "Our leaders don't leave the hall untidy.",
+     "a": [
+      {
+       "t": "don't leaves",
+       "c": false
+      },
+      {
+       "t": "doesn't leave",
+       "c": false
+      },
+      {
+       "t": "not leave",
+       "c": false
+      },
+      {
+       "t": "don't leave",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "___ your friend help at ceremonies?",
+     "grammarId": "present-simple",
+     "explanation": "Does your friend help at ceremonies?",
+     "a": [
+      {
+       "t": "Are",
+       "c": false
+      },
+      {
+       "t": "Does",
+       "c": true
+      },
+      {
+       "t": "Is",
+       "c": false
+      },
+      {
+       "t": "Do",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Choose the correct order: ___",
+     "grammarId": "frequency",
+     "explanation": "Choose the correct order: We often greet visitors.",
+     "a": [
+      {
+       "t": "We greets often visitors.",
+       "c": false
+      },
+      {
+       "t": "We often greet visitors.",
+       "c": true
+      },
+      {
+       "t": "We often greeting visitors.",
+       "c": false
+      },
+      {
+       "t": "We greet often visitors.",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Choose the correct order: ___",
+     "grammarId": "frequency",
+     "explanation": "Choose the correct order: Lina is never late.",
+     "a": [
+      {
+       "t": "Lina is late never.",
+       "c": false
+      },
+      {
+       "t": "Lina never is late.",
+       "c": false
+      },
+      {
+       "t": "Lina is never late.",
+       "c": true
+      },
+      {
+       "t": "Lina never late is.",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "We need some help. Please support ___.",
+     "grammarId": "pronouns",
+     "explanation": "We need some help. Please support us.",
+     "a": [
+      {
+       "t": "our",
+       "c": false
+      },
+      {
+       "t": "ours",
+       "c": false
+      },
+      {
+       "t": "us",
+       "c": true
+      },
+      {
+       "t": "we",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Eren is the leader. Ask ___ about the parade.",
+     "grammarId": "pronouns",
+     "explanation": "Eren is the leader. Ask him about the parade.",
+     "a": [
+      {
+       "t": "he",
+       "c": false
+      },
+      {
+       "t": "his",
+       "c": false
+      },
+      {
+       "t": "him",
+       "c": true
+      },
+      {
+       "t": "they",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Mina and Ada are listeners. ___ listen carefully.",
+     "grammarId": "pronouns",
+     "explanation": "Mina and Ada are listeners. They listen carefully.",
+     "a": [
+      {
+       "t": "Her",
+       "c": false
+      },
+      {
+       "t": "Us",
+       "c": false
+      },
+      {
+       "t": "They",
+       "c": true
+      },
+      {
+       "t": "Them",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ a speech after the parade.",
+     "grammarId": "existence-questions",
+     "explanation": "There is a speech after the parade.",
+     "a": [
+      {
+       "t": "There are",
+       "c": false
+      },
+      {
+       "t": "There is",
+       "c": true
+      },
+      {
+       "t": "Are there",
+       "c": false
+      },
+      {
+       "t": "There be",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ leads the group? Our English teacher.",
+     "grammarId": "existence-questions",
+     "explanation": "Who leads the group? Our English teacher.",
+     "a": [
+      {
+       "t": "Where",
+       "c": false
+      },
+      {
+       "t": "What time",
+       "c": false
+      },
+      {
+       "t": "Who",
+       "c": true
+      },
+      {
+       "t": "When",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ is the ceremony? In the hall.",
+     "grammarId": "existence-questions",
+     "explanation": "Where is the ceremony? In the hall.",
+     "a": [
+      {
+       "t": "Who",
+       "c": false
+      },
+      {
+       "t": "Where",
+       "c": true
+      },
+      {
+       "t": "When",
+       "c": false
+      },
+      {
+       "t": "How often",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ do you carry? A flag.",
+     "grammarId": "existence-questions",
+     "explanation": "What do you carry? A flag.",
+     "a": [
+      {
+       "t": "Who",
+       "c": false
+      },
+      {
+       "t": "When",
+       "c": false
+      },
+      {
+       "t": "Where",
+       "c": false
+      },
+      {
+       "t": "What",
+       "c": true
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "leader",
+   "tr": "lider"
+  },
+  {
+   "en": "listener",
+   "tr": "dinleyici"
+  },
+  {
+   "en": "permission",
+   "tr": "izin"
+  },
+  {
+   "en": "instruction",
+   "tr": "yönerge"
+  },
+  {
+   "en": "guide",
+   "tr": "rehber"
+  },
+  {
+   "en": "helpful",
+   "tr": "yardımsever"
+  },
+  {
+   "en": "support",
+   "tr": "desteklemek"
+  },
+  {
+   "en": "volunteer",
+   "tr": "gönüllü olmak"
+  },
+  {
+   "en": "greet",
+   "tr": "selamlamak"
+  },
+  {
+   "en": "follow",
+   "tr": "takip etmek"
+  },
+  {
+   "en": "enter",
+   "tr": "girmek"
+  },
+  {
+   "en": "pack",
+   "tr": "hazırlayıp çantaya koymak"
+  },
+  {
+   "en": "term",
+   "tr": "dönem"
+  },
+  {
+   "en": "regularly",
+   "tr": "düzenli olarak"
+  },
+  {
+   "en": "carefully",
+   "tr": "dikkatlice"
+  },
+  {
+   "en": "willingly",
+   "tr": "isteyerek"
+  },
+  {
+   "en": "ceremony",
+   "tr": "tören"
+  },
+  {
+   "en": "celebration",
+   "tr": "kutlama"
+  },
+  {
+   "en": "parade",
+   "tr": "geçit töreni"
+  },
+  {
+   "en": "flag",
+   "tr": "bayrak"
+  },
+  {
+   "en": "national anthem",
+   "tr": "ulusal marş"
+  },
+  {
+   "en": "speech",
+   "tr": "konuşma"
+  },
+  {
+   "en": "festival",
+   "tr": "festival"
+  },
+  {
+   "en": "celebrate",
+   "tr": "kutlamak"
+  },
+  {
+   "en": "successful",
+   "tr": "başarılı"
+  },
+  {
+   "en": "keen",
+   "tr": "hevesli"
+  },
+  {
+   "en": "try",
+   "tr": "denemek"
+  },
+  {
+   "en": "pass",
+   "tr": "sınavı geçmek"
+  },
+  {
+   "en": "fail",
+   "tr": "başarısız olmak"
+  },
+  {
+   "en": "cheerfully",
+   "tr": "neşeyle"
+  },
+  {
+   "en": "before",
+   "tr": "önce"
+  },
+  {
+   "en": "later",
+   "tr": "daha sonra"
+  }
+ ],
+ "online": []
+}

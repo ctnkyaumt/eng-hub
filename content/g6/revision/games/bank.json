@@ -1,1 +1,2196 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-revision-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "library - choose the meaning.",
+     "a": [
+      {
+       "t": "kütüphane",
+       "c": true
+      },
+      {
+       "t": "ders programı",
+       "c": false
+      },
+      {
+       "t": "fen bilimleri",
+       "c": false
+      },
+      {
+       "t": "salata",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "laboratory - choose the meaning.",
+     "a": [
+      {
+       "t": "yüzme",
+       "c": false
+      },
+      {
+       "t": "restoran",
+       "c": false
+      },
+      {
+       "t": "laboratuvar",
+       "c": true
+      },
+      {
+       "t": "ders programı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "canteen - choose the meaning.",
+     "a": [
+      {
+       "t": "kantin",
+       "c": true
+      },
+      {
+       "t": "bir şişe su",
+       "c": false
+      },
+      {
+       "t": "kütüphane",
+       "c": false
+      },
+      {
+       "t": "müze",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "playground - choose the meaning.",
+     "a": [
+      {
+       "t": "restoran",
+       "c": false
+      },
+      {
+       "t": "oyun alanı",
+       "c": true
+      },
+      {
+       "t": "kot pantolon",
+       "c": false
+      },
+      {
+       "t": "ada",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "science - choose the meaning.",
+     "a": [
+      {
+       "t": "kütüphane",
+       "c": false
+      },
+      {
+       "t": "restoran",
+       "c": false
+      },
+      {
+       "t": "salata",
+       "c": false
+      },
+      {
+       "t": "fen bilimleri",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "music - choose the meaning.",
+     "a": [
+      {
+       "t": "papağan",
+       "c": false
+      },
+      {
+       "t": "müzik",
+       "c": true
+      },
+      {
+       "t": "yağmurluk",
+       "c": false
+      },
+      {
+       "t": "ada",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "timetable - choose the meaning.",
+     "a": [
+      {
+       "t": "kulüp",
+       "c": false
+      },
+      {
+       "t": "minik ev",
+       "c": false
+      },
+      {
+       "t": "bir dilim kek",
+       "c": false
+      },
+      {
+       "t": "ders programı",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "club - choose the meaning.",
+     "a": [
+      {
+       "t": "papağan",
+       "c": false
+      },
+      {
+       "t": "kantin",
+       "c": false
+      },
+      {
+       "t": "kuzen",
+       "c": false
+      },
+      {
+       "t": "kulüp",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "cousin - choose the meaning.",
+     "a": [
+      {
+       "t": "kuzen",
+       "c": true
+      },
+      {
+       "t": "yüzme",
+       "c": false
+      },
+      {
+       "t": "müzik",
+       "c": false
+      },
+      {
+       "t": "orman",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "grandparents - choose the meaning.",
+     "a": [
+      {
+       "t": "bir şişe su",
+       "c": false
+      },
+      {
+       "t": "büyükanne ve büyükbaba",
+       "c": true
+      },
+      {
+       "t": "restoran",
+       "c": false
+      },
+      {
+       "t": "kamp yapma",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "curly hair - choose the meaning.",
+     "a": [
+      {
+       "t": "restoran",
+       "c": false
+      },
+      {
+       "t": "büyükanne ve büyükbaba",
+       "c": false
+      },
+      {
+       "t": "kamp yapma",
+       "c": false
+      },
+      {
+       "t": "kıvırcık saç",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "straight hair - choose the meaning.",
+     "a": [
+      {
+       "t": "giyinmek",
+       "c": false
+      },
+      {
+       "t": "bir dilim kek",
+       "c": false
+      },
+      {
+       "t": "müzik",
+       "c": false
+      },
+      {
+       "t": "düz saç",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "jeans - choose the meaning.",
+     "a": [
+      {
+       "t": "kot pantolon",
+       "c": true
+      },
+      {
+       "t": "kuzen",
+       "c": false
+      },
+      {
+       "t": "oyun alanı",
+       "c": false
+      },
+      {
+       "t": "bir dilim kek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "raincoat - choose the meaning.",
+     "a": [
+      {
+       "t": "kamp yapma",
+       "c": false
+      },
+      {
+       "t": "yağmurluk",
+       "c": true
+      },
+      {
+       "t": "fil",
+       "c": false
+      },
+      {
+       "t": "orman",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "get dressed - choose the meaning.",
+     "a": [
+      {
+       "t": "ders programı",
+       "c": false
+      },
+      {
+       "t": "düz saç",
+       "c": false
+      },
+      {
+       "t": "giyinmek",
+       "c": true
+      },
+      {
+       "t": "okyanus",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "have breakfast - choose the meaning.",
+     "a": [
+      {
+       "t": "giyinmek",
+       "c": false
+      },
+      {
+       "t": "müzik",
+       "c": false
+      },
+      {
+       "t": "kahvaltı yapmak",
+       "c": true
+      },
+      {
+       "t": "müze",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "park - choose the meaning.",
+     "a": [
+      {
+       "t": "park",
+       "c": true
+      },
+      {
+       "t": "fen bilimleri",
+       "c": false
+      },
+      {
+       "t": "kıvırcık saç",
+       "c": false
+      },
+      {
+       "t": "minik ev",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "museum - choose the meaning.",
+     "a": [
+      {
+       "t": "giyinmek",
+       "c": false
+      },
+      {
+       "t": "müze",
+       "c": true
+      },
+      {
+       "t": "düz saç",
+       "c": false
+      },
+      {
+       "t": "salata",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "restaurant - choose the meaning.",
+     "a": [
+      {
+       "t": "kantin",
+       "c": false
+      },
+      {
+       "t": "restoran",
+       "c": true
+      },
+      {
+       "t": "oyun alanı",
+       "c": false
+      },
+      {
+       "t": "kulüp",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tiny house - choose the meaning.",
+     "a": [
+      {
+       "t": "salata",
+       "c": false
+      },
+      {
+       "t": "ada",
+       "c": false
+      },
+      {
+       "t": "kıvırcık saç",
+       "c": false
+      },
+      {
+       "t": "minik ev",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "soup - choose the meaning.",
+     "a": [
+      {
+       "t": "papağan",
+       "c": false
+      },
+      {
+       "t": "çorba",
+       "c": true
+      },
+      {
+       "t": "okyanus",
+       "c": false
+      },
+      {
+       "t": "kütüphane",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "salad - choose the meaning.",
+     "a": [
+      {
+       "t": "bir şişe su",
+       "c": false
+      },
+      {
+       "t": "kütüphane",
+       "c": false
+      },
+      {
+       "t": "salata",
+       "c": true
+      },
+      {
+       "t": "ada",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "a slice of cake - choose the meaning.",
+     "a": [
+      {
+       "t": "orman",
+       "c": false
+      },
+      {
+       "t": "müze",
+       "c": false
+      },
+      {
+       "t": "bir dilim kek",
+       "c": true
+      },
+      {
+       "t": "kamp yapma",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "a bottle of water - choose the meaning.",
+     "a": [
+      {
+       "t": "laboratuvar",
+       "c": false
+      },
+      {
+       "t": "fil",
+       "c": false
+      },
+      {
+       "t": "bir şişe su",
+       "c": true
+      },
+      {
+       "t": "park",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "forest - choose the meaning.",
+     "a": [
+      {
+       "t": "kıvırcık saç",
+       "c": false
+      },
+      {
+       "t": "düz saç",
+       "c": false
+      },
+      {
+       "t": "laboratuvar",
+       "c": false
+      },
+      {
+       "t": "orman",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "desert - choose the meaning.",
+     "a": [
+      {
+       "t": "çöl",
+       "c": true
+      },
+      {
+       "t": "minik ev",
+       "c": false
+      },
+      {
+       "t": "bir dilim kek",
+       "c": false
+      },
+      {
+       "t": "ada",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ocean - choose the meaning.",
+     "a": [
+      {
+       "t": "çöl",
+       "c": false
+      },
+      {
+       "t": "giyinmek",
+       "c": false
+      },
+      {
+       "t": "yüzme",
+       "c": false
+      },
+      {
+       "t": "okyanus",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "island - choose the meaning.",
+     "a": [
+      {
+       "t": "kuzen",
+       "c": false
+      },
+      {
+       "t": "ada",
+       "c": true
+      },
+      {
+       "t": "fen bilimleri",
+       "c": false
+      },
+      {
+       "t": "çöl",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "elephant - choose the meaning.",
+     "a": [
+      {
+       "t": "kütüphane",
+       "c": false
+      },
+      {
+       "t": "fil",
+       "c": true
+      },
+      {
+       "t": "kulüp",
+       "c": false
+      },
+      {
+       "t": "düz saç",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "parrot - choose the meaning.",
+     "a": [
+      {
+       "t": "büyükanne ve büyükbaba",
+       "c": false
+      },
+      {
+       "t": "ders programı",
+       "c": false
+      },
+      {
+       "t": "papağan",
+       "c": true
+      },
+      {
+       "t": "kahvaltı yapmak",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "camping - choose the meaning.",
+     "a": [
+      {
+       "t": "oyun alanı",
+       "c": false
+      },
+      {
+       "t": "kamp yapma",
+       "c": true
+      },
+      {
+       "t": "ders programı",
+       "c": false
+      },
+      {
+       "t": "park",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "swimming - choose the meaning.",
+     "a": [
+      {
+       "t": "çorba",
+       "c": false
+      },
+      {
+       "t": "kıvırcık saç",
+       "c": false
+      },
+      {
+       "t": "yüzme",
+       "c": true
+      },
+      {
+       "t": "kahvaltı yapmak",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-revision-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "kütüphane - choose the English word.",
+     "a": [
+      {
+       "t": "elephant",
+       "c": false
+      },
+      {
+       "t": "swimming",
+       "c": false
+      },
+      {
+       "t": "museum",
+       "c": false
+      },
+      {
+       "t": "library",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "laboratuvar - choose the English word.",
+     "a": [
+      {
+       "t": "laboratory",
+       "c": true
+      },
+      {
+       "t": "park",
+       "c": false
+      },
+      {
+       "t": "a bottle of water",
+       "c": false
+      },
+      {
+       "t": "club",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kantin - choose the English word.",
+     "a": [
+      {
+       "t": "canteen",
+       "c": true
+      },
+      {
+       "t": "laboratory",
+       "c": false
+      },
+      {
+       "t": "soup",
+       "c": false
+      },
+      {
+       "t": "a slice of cake",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "oyun alanı - choose the English word.",
+     "a": [
+      {
+       "t": "canteen",
+       "c": false
+      },
+      {
+       "t": "playground",
+       "c": true
+      },
+      {
+       "t": "have breakfast",
+       "c": false
+      },
+      {
+       "t": "island",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fen bilimleri - choose the English word.",
+     "a": [
+      {
+       "t": "salad",
+       "c": false
+      },
+      {
+       "t": "science",
+       "c": true
+      },
+      {
+       "t": "forest",
+       "c": false
+      },
+      {
+       "t": "cousin",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "müzik - choose the English word.",
+     "a": [
+      {
+       "t": "playground",
+       "c": false
+      },
+      {
+       "t": "museum",
+       "c": false
+      },
+      {
+       "t": "music",
+       "c": true
+      },
+      {
+       "t": "canteen",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ders programı - choose the English word.",
+     "a": [
+      {
+       "t": "timetable",
+       "c": true
+      },
+      {
+       "t": "get dressed",
+       "c": false
+      },
+      {
+       "t": "a bottle of water",
+       "c": false
+      },
+      {
+       "t": "canteen",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kulüp - choose the English word.",
+     "a": [
+      {
+       "t": "ocean",
+       "c": false
+      },
+      {
+       "t": "get dressed",
+       "c": false
+      },
+      {
+       "t": "club",
+       "c": true
+      },
+      {
+       "t": "soup",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kuzen - choose the English word.",
+     "a": [
+      {
+       "t": "desert",
+       "c": false
+      },
+      {
+       "t": "straight hair",
+       "c": false
+      },
+      {
+       "t": "cousin",
+       "c": true
+      },
+      {
+       "t": "grandparents",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "büyükanne ve büyükbaba - choose the English word.",
+     "a": [
+      {
+       "t": "get dressed",
+       "c": false
+      },
+      {
+       "t": "park",
+       "c": false
+      },
+      {
+       "t": "have breakfast",
+       "c": false
+      },
+      {
+       "t": "grandparents",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "kıvırcık saç - choose the English word.",
+     "a": [
+      {
+       "t": "jeans",
+       "c": false
+      },
+      {
+       "t": "a bottle of water",
+       "c": false
+      },
+      {
+       "t": "curly hair",
+       "c": true
+      },
+      {
+       "t": "club",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "düz saç - choose the English word.",
+     "a": [
+      {
+       "t": "park",
+       "c": false
+      },
+      {
+       "t": "camping",
+       "c": false
+      },
+      {
+       "t": "ocean",
+       "c": false
+      },
+      {
+       "t": "straight hair",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "kot pantolon - choose the English word.",
+     "a": [
+      {
+       "t": "tiny house",
+       "c": false
+      },
+      {
+       "t": "canteen",
+       "c": false
+      },
+      {
+       "t": "desert",
+       "c": false
+      },
+      {
+       "t": "jeans",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "yağmurluk - choose the English word.",
+     "a": [
+      {
+       "t": "a bottle of water",
+       "c": false
+      },
+      {
+       "t": "raincoat",
+       "c": true
+      },
+      {
+       "t": "museum",
+       "c": false
+      },
+      {
+       "t": "soup",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "giyinmek - choose the English word.",
+     "a": [
+      {
+       "t": "jeans",
+       "c": false
+      },
+      {
+       "t": "get dressed",
+       "c": true
+      },
+      {
+       "t": "island",
+       "c": false
+      },
+      {
+       "t": "raincoat",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kahvaltı yapmak - choose the English word.",
+     "a": [
+      {
+       "t": "have breakfast",
+       "c": true
+      },
+      {
+       "t": "swimming",
+       "c": false
+      },
+      {
+       "t": "jeans",
+       "c": false
+      },
+      {
+       "t": "science",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "park - choose the English word.",
+     "a": [
+      {
+       "t": "desert",
+       "c": false
+      },
+      {
+       "t": "club",
+       "c": false
+      },
+      {
+       "t": "a slice of cake",
+       "c": false
+      },
+      {
+       "t": "park",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "müze - choose the English word.",
+     "a": [
+      {
+       "t": "museum",
+       "c": true
+      },
+      {
+       "t": "straight hair",
+       "c": false
+      },
+      {
+       "t": "forest",
+       "c": false
+      },
+      {
+       "t": "swimming",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "restoran - choose the English word.",
+     "a": [
+      {
+       "t": "elephant",
+       "c": false
+      },
+      {
+       "t": "get dressed",
+       "c": false
+      },
+      {
+       "t": "museum",
+       "c": false
+      },
+      {
+       "t": "restaurant",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "minik ev - choose the English word.",
+     "a": [
+      {
+       "t": "parrot",
+       "c": false
+      },
+      {
+       "t": "tiny house",
+       "c": true
+      },
+      {
+       "t": "cousin",
+       "c": false
+      },
+      {
+       "t": "club",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "çorba - choose the English word.",
+     "a": [
+      {
+       "t": "soup",
+       "c": true
+      },
+      {
+       "t": "laboratory",
+       "c": false
+      },
+      {
+       "t": "curly hair",
+       "c": false
+      },
+      {
+       "t": "parrot",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "salata - choose the English word.",
+     "a": [
+      {
+       "t": "salad",
+       "c": true
+      },
+      {
+       "t": "soup",
+       "c": false
+      },
+      {
+       "t": "library",
+       "c": false
+      },
+      {
+       "t": "curly hair",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "bir dilim kek - choose the English word.",
+     "a": [
+      {
+       "t": "a slice of cake",
+       "c": true
+      },
+      {
+       "t": "restaurant",
+       "c": false
+      },
+      {
+       "t": "raincoat",
+       "c": false
+      },
+      {
+       "t": "get dressed",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "bir şişe su - choose the English word.",
+     "a": [
+      {
+       "t": "a bottle of water",
+       "c": true
+      },
+      {
+       "t": "canteen",
+       "c": false
+      },
+      {
+       "t": "get dressed",
+       "c": false
+      },
+      {
+       "t": "island",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "orman - choose the English word.",
+     "a": [
+      {
+       "t": "forest",
+       "c": true
+      },
+      {
+       "t": "soup",
+       "c": false
+      },
+      {
+       "t": "a slice of cake",
+       "c": false
+      },
+      {
+       "t": "library",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "çöl - choose the English word.",
+     "a": [
+      {
+       "t": "grandparents",
+       "c": false
+      },
+      {
+       "t": "club",
+       "c": false
+      },
+      {
+       "t": "desert",
+       "c": true
+      },
+      {
+       "t": "museum",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "okyanus - choose the English word.",
+     "a": [
+      {
+       "t": "a bottle of water",
+       "c": false
+      },
+      {
+       "t": "restaurant",
+       "c": false
+      },
+      {
+       "t": "ocean",
+       "c": true
+      },
+      {
+       "t": "salad",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ada - choose the English word.",
+     "a": [
+      {
+       "t": "swimming",
+       "c": false
+      },
+      {
+       "t": "club",
+       "c": false
+      },
+      {
+       "t": "island",
+       "c": true
+      },
+      {
+       "t": "museum",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "fil - choose the English word.",
+     "a": [
+      {
+       "t": "a slice of cake",
+       "c": false
+      },
+      {
+       "t": "camping",
+       "c": false
+      },
+      {
+       "t": "elephant",
+       "c": true
+      },
+      {
+       "t": "forest",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "papağan - choose the English word.",
+     "a": [
+      {
+       "t": "jeans",
+       "c": false
+      },
+      {
+       "t": "camping",
+       "c": false
+      },
+      {
+       "t": "parrot",
+       "c": true
+      },
+      {
+       "t": "soup",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kamp yapma - choose the English word.",
+     "a": [
+      {
+       "t": "desert",
+       "c": false
+      },
+      {
+       "t": "curly hair",
+       "c": false
+      },
+      {
+       "t": "playground",
+       "c": false
+      },
+      {
+       "t": "camping",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "yüzme - choose the English word.",
+     "a": [
+      {
+       "t": "restaurant",
+       "c": false
+      },
+      {
+       "t": "swimming",
+       "c": true
+      },
+      {
+       "t": "cousin",
+       "c": false
+      },
+      {
+       "t": "curly hair",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-revision-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "There is ___ art room upstairs.",
+     "grammarId": "r1-school-language",
+     "explanation": "There is an art room upstairs.",
+     "a": [
+      {
+       "t": "am",
+       "c": false
+      },
+      {
+       "t": "an",
+       "c": true
+      },
+      {
+       "t": "a",
+       "c": false
+      },
+      {
+       "t": "are",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ two clubs after school.",
+     "grammarId": "r1-school-language",
+     "explanation": "There are two clubs after school.",
+     "a": [
+      {
+       "t": "There be",
+       "c": false
+      },
+      {
+       "t": "Is there",
+       "c": false
+      },
+      {
+       "t": "There are",
+       "c": true
+      },
+      {
+       "t": "There is",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ the door, please.",
+     "grammarId": "r1-school-language",
+     "explanation": "Close the door, please.",
+     "a": [
+      {
+       "t": "Closing",
+       "c": false
+      },
+      {
+       "t": "Close",
+       "c": true
+      },
+      {
+       "t": "Closes",
+       "c": false
+      },
+      {
+       "t": "To closes",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "You ___ follow the laboratory rules.",
+     "grammarId": "r1-school-language",
+     "explanation": "You must follow the laboratory rules.",
+     "a": [
+      {
+       "t": "is",
+       "c": false
+      },
+      {
+       "t": "mustn't",
+       "c": false
+      },
+      {
+       "t": "doesn't",
+       "c": false
+      },
+      {
+       "t": "must",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "These are my cousins. ___ live nearby.",
+     "grammarId": "r1-pronouns",
+     "explanation": "These are my cousins. They live nearby.",
+     "a": [
+      {
+       "t": "Their",
+       "c": false
+      },
+      {
+       "t": "Us",
+       "c": false
+      },
+      {
+       "t": "Them",
+       "c": false
+      },
+      {
+       "t": "They",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "We need a guide. Can you help ___?",
+     "grammarId": "r1-pronouns",
+     "explanation": "We need a guide. Can you help us?",
+     "a": [
+      {
+       "t": "ours",
+       "c": false
+      },
+      {
+       "t": "our",
+       "c": false
+      },
+      {
+       "t": "we",
+       "c": false
+      },
+      {
+       "t": "us",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Ben has a blue bag. This is ___ bag.",
+     "grammarId": "r1-pronouns",
+     "explanation": "Ben has a blue bag. This is his bag.",
+     "a": [
+      {
+       "t": "he",
+       "c": false
+      },
+      {
+       "t": "they",
+       "c": false
+      },
+      {
+       "t": "him",
+       "c": false
+      },
+      {
+       "t": "his",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "My cousin ___ breakfast at eight every day.",
+     "grammarId": "r1-time-routines",
+     "explanation": "My cousin has breakfast at eight every day.",
+     "a": [
+      {
+       "t": "have",
+       "c": false
+      },
+      {
+       "t": "is have",
+       "c": false
+      },
+      {
+       "t": "having",
+       "c": false
+      },
+      {
+       "t": "has",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "08:30 is ___.",
+     "grammarId": "r1-time-routines",
+     "explanation": "08:30 is half past eight.",
+     "a": [
+      {
+       "t": "quarter past eight",
+       "c": false
+      },
+      {
+       "t": "quarter to eight",
+       "c": false
+      },
+      {
+       "t": "half past nine",
+       "c": false
+      },
+      {
+       "t": "half past eight",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "___ do you swim? Every Saturday.",
+     "grammarId": "r1-time-routines",
+     "explanation": "How often do you swim? Every Saturday.",
+     "a": [
+      {
+       "t": "How often",
+       "c": true
+      },
+      {
+       "t": "How many",
+       "c": false
+      },
+      {
+       "t": "What time",
+       "c": false
+      },
+      {
+       "t": "Whose",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Ben doesn't ___ to school.",
+     "grammarId": "r1-time-routines",
+     "explanation": "Ben doesn't walk to school.",
+     "a": [
+      {
+       "t": "walk",
+       "c": true
+      },
+      {
+       "t": "walking",
+       "c": false
+      },
+      {
+       "t": "walks",
+       "c": false
+      },
+      {
+       "t": "walked",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Look! The club members ___.",
+     "grammarId": "r1-now-tags",
+     "explanation": "Look! The club members are singing.",
+     "a": [
+      {
+       "t": "are singing",
+       "c": true
+      },
+      {
+       "t": "sings",
+       "c": false
+      },
+      {
+       "t": "is singing",
+       "c": false
+      },
+      {
+       "t": "singed",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Ada studies every day, ___?",
+     "grammarId": "r1-now-tags",
+     "explanation": "Ada studies every day, doesn't she?",
+     "a": [
+      {
+       "t": "isn't she",
+       "c": false
+      },
+      {
+       "t": "does she",
+       "c": false
+      },
+      {
+       "t": "don't she",
+       "c": false
+      },
+      {
+       "t": "doesn't she",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "They are swimming, ___?",
+     "grammarId": "r1-now-tags",
+     "explanation": "They are swimming, aren't they?",
+     "a": [
+      {
+       "t": "aren't they",
+       "c": true
+      },
+      {
+       "t": "don't they",
+       "c": false
+      },
+      {
+       "t": "are they",
+       "c": false
+      },
+      {
+       "t": "isn't they",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Choose the correct order: ___",
+     "grammarId": "r1-now-tags",
+     "explanation": "Choose the correct order: We often visit our cousins.",
+     "a": [
+      {
+       "t": "We visits often our cousins.",
+       "c": false
+      },
+      {
+       "t": "We often visit our cousins.",
+       "c": true
+      },
+      {
+       "t": "We often visiting our cousins.",
+       "c": false
+      },
+      {
+       "t": "We visit often our cousins.",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Lina enjoys ___ stories.",
+     "grammarId": "r1-preferences",
+     "explanation": "Lina enjoys reading stories.",
+     "a": [
+      {
+       "t": "to reading",
+       "c": false
+      },
+      {
+       "t": "reading",
+       "c": true
+      },
+      {
+       "t": "reads",
+       "c": false
+      },
+      {
+       "t": "read",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "I prefer camping ___ staying in a hotel.",
+     "grammarId": "r1-preferences",
+     "explanation": "I prefer camping to staying in a hotel.",
+     "a": [
+      {
+       "t": "from",
+       "c": false
+      },
+      {
+       "t": "than",
+       "c": false
+      },
+      {
+       "t": "to",
+       "c": true
+      },
+      {
+       "t": "at",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The house ___ a small kitchen.",
+     "grammarId": "r2-possession",
+     "explanation": "The house has got a small kitchen.",
+     "a": [
+      {
+       "t": "are got",
+       "c": false
+      },
+      {
+       "t": "is got",
+       "c": false
+      },
+      {
+       "t": "have got",
+       "c": false
+      },
+      {
+       "t": "has got",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "The bag is ___ the table, on the floor below it.",
+     "grammarId": "r2-possession",
+     "explanation": "The bag is under the table, on the floor below it.",
+     "a": [
+      {
+       "t": "over",
+       "c": false
+      },
+      {
+       "t": "into",
+       "c": false
+      },
+      {
+       "t": "under",
+       "c": true
+      },
+      {
+       "t": "on",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ apples have we got?",
+     "grammarId": "r2-quantity-ordering",
+     "explanation": "How many apples have we got?",
+     "a": [
+      {
+       "t": "Whose",
+       "c": false
+      },
+      {
+       "t": "What time",
+       "c": false
+      },
+      {
+       "t": "How much",
+       "c": false
+      },
+      {
+       "t": "How many",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "___ soup would you like?",
+     "grammarId": "r2-quantity-ordering",
+     "explanation": "How much soup would you like?",
+     "a": [
+      {
+       "t": "How many",
+       "c": false
+      },
+      {
+       "t": "How much",
+       "c": true
+      },
+      {
+       "t": "How often",
+       "c": false
+      },
+      {
+       "t": "Which many",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "There isn't ___ milk in the bottle.",
+     "grammarId": "r2-quantity-ordering",
+     "explanation": "There isn't any milk in the bottle.",
+     "a": [
+      {
+       "t": "any",
+       "c": true
+      },
+      {
+       "t": "many",
+       "c": false
+      },
+      {
+       "t": "an",
+       "c": false
+      },
+      {
+       "t": "a",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Can I have a ___ of cake, please?",
+     "grammarId": "r2-quantity-ordering",
+     "explanation": "Can I have a slice of cake, please?",
+     "a": [
+      {
+       "t": "glass",
+       "c": false
+      },
+      {
+       "t": "bowlfuls",
+       "c": false
+      },
+      {
+       "t": "bottle",
+       "c": false
+      },
+      {
+       "t": "slice",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "This tree is ___ than that tree.",
+     "grammarId": "r2-comparisons",
+     "explanation": "This tree is taller than that tree.",
+     "a": [
+      {
+       "t": "tall",
+       "c": false
+      },
+      {
+       "t": "more tall",
+       "c": false
+      },
+      {
+       "t": "taller",
+       "c": true
+      },
+      {
+       "t": "tallest",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Of these three birds, this is ___.",
+     "grammarId": "r2-comparisons",
+     "explanation": "Of these three birds, this is the most colourful.",
+     "a": [
+      {
+       "t": "colourfulest",
+       "c": false
+      },
+      {
+       "t": "more colourful",
+       "c": false
+      },
+      {
+       "t": "the most colourful",
+       "c": true
+      },
+      {
+       "t": "colourfuller",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "A parrot can ___.",
+     "grammarId": "r2-can-permission",
+     "explanation": "A parrot can fly.",
+     "a": [
+      {
+       "t": "flies",
+       "c": false
+      },
+      {
+       "t": "flying",
+       "c": false
+      },
+      {
+       "t": "flew",
+       "c": false
+      },
+      {
+       "t": "fly",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Can I sit here? Yes, you ___.",
+     "grammarId": "r2-can-permission",
+     "explanation": "Can I sit here? Yes, you can.",
+     "a": [
+      {
+       "t": "do",
+       "c": false
+      },
+      {
+       "t": "have",
+       "c": false
+      },
+      {
+       "t": "are",
+       "c": false
+      },
+      {
+       "t": "can",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "Our plan is ready. We ___ an island.",
+     "grammarId": "r2-holidays-obligations",
+     "explanation": "Our plan is ready. We are going to visit an island.",
+     "a": [
+      {
+       "t": "are going visit",
+       "c": false
+      },
+      {
+       "t": "going visit",
+       "c": false
+      },
+      {
+       "t": "is going to visit",
+       "c": false
+      },
+      {
+       "t": "are going to visit",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "___ are you going to stay? In a tiny house.",
+     "grammarId": "r2-holidays-obligations",
+     "explanation": "Where are you going to stay? In a tiny house.",
+     "a": [
+      {
+       "t": "Where",
+       "c": true
+      },
+      {
+       "t": "When",
+       "c": false
+      },
+      {
+       "t": "How many",
+       "c": false
+      },
+      {
+       "t": "Who",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Every visitor ___ follow the park rules.",
+     "grammarId": "r2-holidays-obligations",
+     "explanation": "Every visitor has to follow the park rules.",
+     "a": [
+      {
+       "t": "has to",
+       "c": true
+      },
+      {
+       "t": "has",
+       "c": false
+      },
+      {
+       "t": "have to",
+       "c": false
+      },
+      {
+       "t": "must to",
+       "c": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "library",
+   "tr": "kütüphane"
+  },
+  {
+   "en": "laboratory",
+   "tr": "laboratuvar"
+  },
+  {
+   "en": "canteen",
+   "tr": "kantin"
+  },
+  {
+   "en": "playground",
+   "tr": "oyun alanı"
+  },
+  {
+   "en": "science",
+   "tr": "fen bilimleri"
+  },
+  {
+   "en": "music",
+   "tr": "müzik"
+  },
+  {
+   "en": "timetable",
+   "tr": "ders programı"
+  },
+  {
+   "en": "club",
+   "tr": "kulüp"
+  },
+  {
+   "en": "cousin",
+   "tr": "kuzen"
+  },
+  {
+   "en": "grandparents",
+   "tr": "büyükanne ve büyükbaba"
+  },
+  {
+   "en": "curly hair",
+   "tr": "kıvırcık saç"
+  },
+  {
+   "en": "straight hair",
+   "tr": "düz saç"
+  },
+  {
+   "en": "jeans",
+   "tr": "kot pantolon"
+  },
+  {
+   "en": "raincoat",
+   "tr": "yağmurluk"
+  },
+  {
+   "en": "get dressed",
+   "tr": "giyinmek"
+  },
+  {
+   "en": "have breakfast",
+   "tr": "kahvaltı yapmak"
+  },
+  {
+   "en": "park",
+   "tr": "park"
+  },
+  {
+   "en": "museum",
+   "tr": "müze"
+  },
+  {
+   "en": "restaurant",
+   "tr": "restoran"
+  },
+  {
+   "en": "tiny house",
+   "tr": "minik ev"
+  },
+  {
+   "en": "soup",
+   "tr": "çorba"
+  },
+  {
+   "en": "salad",
+   "tr": "salata"
+  },
+  {
+   "en": "a slice of cake",
+   "tr": "bir dilim kek"
+  },
+  {
+   "en": "a bottle of water",
+   "tr": "bir şişe su"
+  },
+  {
+   "en": "forest",
+   "tr": "orman"
+  },
+  {
+   "en": "desert",
+   "tr": "çöl"
+  },
+  {
+   "en": "ocean",
+   "tr": "okyanus"
+  },
+  {
+   "en": "island",
+   "tr": "ada"
+  },
+  {
+   "en": "elephant",
+   "tr": "fil"
+  },
+  {
+   "en": "parrot",
+   "tr": "papağan"
+  },
+  {
+   "en": "camping",
+   "tr": "kamp yapma"
+  },
+  {
+   "en": "swimming",
+   "tr": "yüzme"
+  }
+ ],
+ "online": []
+}

@@ -233,6 +233,12 @@ def main():
 
     jobs = []
     for key in keys:
+        authored_path = os.path.join(CONTENT, key, "games", "bank.json")
+        if key.startswith("g6/") and os.path.isfile(authored_path):
+            with open(authored_path, encoding="utf-8") as f:
+                bank = json.load(f)
+            if bank.get("authored") and bank.get("curriculum") == "meb-english-6-2026":
+                continue
         pool = (src[key]["worksheets"] + src[key]["onlineGames"]
                 + src[key]["extras"] + src[key].get("books", []))
         seen_links = set()

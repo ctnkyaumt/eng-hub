@@ -1,1 +1,1897 @@
-{"sets": [], "words": [], "online": []}
+{
+ "authored": true,
+ "curriculum": "meb-english-6-2026",
+ "by": "ENG HUB - özgün içerik",
+ "sets": [
+  {
+   "code": "g6-u5-en",
+   "name": "Vocabulary: English to Turkish",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "festival - choose the meaning.",
+     "a": [
+      {
+       "t": "yerel",
+       "c": false
+      },
+      {
+       "t": "toplu taşıma",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": true
+      },
+      {
+       "t": "gemi",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "audience - choose the meaning.",
+     "a": [
+      {
+       "t": "caz",
+       "c": false
+      },
+      {
+       "t": "seyirci",
+       "c": true
+      },
+      {
+       "t": "arabayla",
+       "c": false
+      },
+      {
+       "t": "rock müzik",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "musician - choose the meaning.",
+     "a": [
+      {
+       "t": "müzisyen",
+       "c": true
+      },
+      {
+       "t": "kalabalık",
+       "c": false
+      },
+      {
+       "t": "memnun",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "wedding - choose the meaning.",
+     "a": [
+      {
+       "t": "memnun",
+       "c": false
+      },
+      {
+       "t": "rock müzik",
+       "c": false
+      },
+      {
+       "t": "düğün",
+       "c": true
+      },
+      {
+       "t": "rap müzik",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "perform - choose the meaning.",
+     "a": [
+      {
+       "t": "metro",
+       "c": false
+      },
+      {
+       "t": "yürüyerek",
+       "c": false
+      },
+      {
+       "t": "sahne almak",
+       "c": true
+      },
+      {
+       "t": "düzenlemek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "organise - choose the meaning.",
+     "a": [
+      {
+       "t": "rock müzik",
+       "c": false
+      },
+      {
+       "t": "metro",
+       "c": false
+      },
+      {
+       "t": "düzenlemek",
+       "c": true
+      },
+      {
+       "t": "park yeri",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "raise money - choose the meaning.",
+     "a": [
+      {
+       "t": "toplu taşıma",
+       "c": false
+      },
+      {
+       "t": "düğün",
+       "c": false
+      },
+      {
+       "t": "yerel",
+       "c": false
+      },
+      {
+       "t": "para toplamak",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "local - choose the meaning.",
+     "a": [
+      {
+       "t": "alt geçit",
+       "c": false
+      },
+      {
+       "t": "kamyon",
+       "c": false
+      },
+      {
+       "t": "yerel",
+       "c": true
+      },
+      {
+       "t": "yürüyerek",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "crowded - choose the meaning.",
+     "a": [
+      {
+       "t": "tabela",
+       "c": false
+      },
+      {
+       "t": "kalabalık",
+       "c": true
+      },
+      {
+       "t": "yön",
+       "c": false
+      },
+      {
+       "t": "yorgun",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pleased - choose the meaning.",
+     "a": [
+      {
+       "t": "yerel",
+       "c": false
+      },
+      {
+       "t": "memnun",
+       "c": true
+      },
+      {
+       "t": "seyirci",
+       "c": false
+      },
+      {
+       "t": "demiryolu hattı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tired - choose the meaning.",
+     "a": [
+      {
+       "t": "memnun",
+       "c": false
+      },
+      {
+       "t": "müzisyen",
+       "c": false
+      },
+      {
+       "t": "yürüyerek",
+       "c": false
+      },
+      {
+       "t": "yorgun",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "jazz - choose the meaning.",
+     "a": [
+      {
+       "t": "yürüyerek",
+       "c": false
+      },
+      {
+       "t": "arabayla",
+       "c": false
+      },
+      {
+       "t": "caz",
+       "c": true
+      },
+      {
+       "t": "memnun",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pop - choose the meaning.",
+     "a": [
+      {
+       "t": "rock müzik",
+       "c": false
+      },
+      {
+       "t": "müzisyen",
+       "c": false
+      },
+      {
+       "t": "pop müzik",
+       "c": true
+      },
+      {
+       "t": "toplu taşıma",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "rock - choose the meaning.",
+     "a": [
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "yaratıcı",
+       "c": false
+      },
+      {
+       "t": "toplu taşıma",
+       "c": false
+      },
+      {
+       "t": "rock müzik",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "rap - choose the meaning.",
+     "a": [
+      {
+       "t": "tabela",
+       "c": false
+      },
+      {
+       "t": "motosiklet",
+       "c": false
+      },
+      {
+       "t": "para toplamak",
+       "c": false
+      },
+      {
+       "t": "rap müzik",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "creative - choose the meaning.",
+     "a": [
+      {
+       "t": "tabela",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "yaratıcı",
+       "c": true
+      },
+      {
+       "t": "demiryolu hattı",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tram - choose the meaning.",
+     "a": [
+      {
+       "t": "tramvay",
+       "c": true
+      },
+      {
+       "t": "yerel",
+       "c": false
+      },
+      {
+       "t": "memnun",
+       "c": false
+      },
+      {
+       "t": "rock müzik",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "underground - choose the meaning.",
+     "a": [
+      {
+       "t": "metro",
+       "c": true
+      },
+      {
+       "t": "tabela",
+       "c": false
+      },
+      {
+       "t": "araç",
+       "c": false
+      },
+      {
+       "t": "yorgun",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "van - choose the meaning.",
+     "a": [
+      {
+       "t": "üst geçit",
+       "c": false
+      },
+      {
+       "t": "kamyonet",
+       "c": true
+      },
+      {
+       "t": "seyirci",
+       "c": false
+      },
+      {
+       "t": "düğün",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "lorry - choose the meaning.",
+     "a": [
+      {
+       "t": "alt geçit",
+       "c": false
+      },
+      {
+       "t": "para toplamak",
+       "c": false
+      },
+      {
+       "t": "kamyon",
+       "c": true
+      },
+      {
+       "t": "araç",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "motorcycle - choose the meaning.",
+     "a": [
+      {
+       "t": "motosiklet",
+       "c": true
+      },
+      {
+       "t": "kalabalık",
+       "c": false
+      },
+      {
+       "t": "müzisyen",
+       "c": false
+      },
+      {
+       "t": "gemi",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "ship - choose the meaning.",
+     "a": [
+      {
+       "t": "caz",
+       "c": false
+      },
+      {
+       "t": "toplu taşıma",
+       "c": false
+      },
+      {
+       "t": "memnun",
+       "c": false
+      },
+      {
+       "t": "gemi",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "vehicle - choose the meaning.",
+     "a": [
+      {
+       "t": "yön",
+       "c": false
+      },
+      {
+       "t": "park yeri",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "araç",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "public transport - choose the meaning.",
+     "a": [
+      {
+       "t": "yürüyerek",
+       "c": false
+      },
+      {
+       "t": "toplu taşıma",
+       "c": true
+      },
+      {
+       "t": "rap müzik",
+       "c": false
+      },
+      {
+       "t": "kamyon",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sign - choose the meaning.",
+     "a": [
+      {
+       "t": "kamyonet",
+       "c": false
+      },
+      {
+       "t": "tabela",
+       "c": true
+      },
+      {
+       "t": "yerel",
+       "c": false
+      },
+      {
+       "t": "tramvay",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "direction - choose the meaning.",
+     "a": [
+      {
+       "t": "caz",
+       "c": false
+      },
+      {
+       "t": "müzisyen",
+       "c": false
+      },
+      {
+       "t": "yön",
+       "c": true
+      },
+      {
+       "t": "üst geçit",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "overpass - choose the meaning.",
+     "a": [
+      {
+       "t": "yerel",
+       "c": false
+      },
+      {
+       "t": "toplu taşıma",
+       "c": false
+      },
+      {
+       "t": "tabela",
+       "c": false
+      },
+      {
+       "t": "üst geçit",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "underpass - choose the meaning.",
+     "a": [
+      {
+       "t": "düğün",
+       "c": false
+      },
+      {
+       "t": "alt geçit",
+       "c": true
+      },
+      {
+       "t": "gemi",
+       "c": false
+      },
+      {
+       "t": "üst geçit",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "parking - choose the meaning.",
+     "a": [
+      {
+       "t": "park yeri",
+       "c": true
+      },
+      {
+       "t": "gemi",
+       "c": false
+      },
+      {
+       "t": "toplu taşıma",
+       "c": false
+      },
+      {
+       "t": "arabayla",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "railway line - choose the meaning.",
+     "a": [
+      {
+       "t": "demiryolu hattı",
+       "c": true
+      },
+      {
+       "t": "müzisyen",
+       "c": false
+      },
+      {
+       "t": "seyirci",
+       "c": false
+      },
+      {
+       "t": "caz",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "on foot - choose the meaning.",
+     "a": [
+      {
+       "t": "yürüyerek",
+       "c": true
+      },
+      {
+       "t": "araç",
+       "c": false
+      },
+      {
+       "t": "demiryolu hattı",
+       "c": false
+      },
+      {
+       "t": "seyirci",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "by car - choose the meaning.",
+     "a": [
+      {
+       "t": "arabayla",
+       "c": true
+      },
+      {
+       "t": "pop müzik",
+       "c": false
+      },
+      {
+       "t": "yaratıcı",
+       "c": false
+      },
+      {
+       "t": "sahne almak",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u5-tr",
+   "name": "Vocabulary: Turkish to English",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "festival - choose the English word.",
+     "a": [
+      {
+       "t": "underground",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": true
+      },
+      {
+       "t": "pleased",
+       "c": false
+      },
+      {
+       "t": "motorcycle",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "seyirci - choose the English word.",
+     "a": [
+      {
+       "t": "tram",
+       "c": false
+      },
+      {
+       "t": "audience",
+       "c": true
+      },
+      {
+       "t": "perform",
+       "c": false
+      },
+      {
+       "t": "musician",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "müzisyen - choose the English word.",
+     "a": [
+      {
+       "t": "motorcycle",
+       "c": false
+      },
+      {
+       "t": "audience",
+       "c": false
+      },
+      {
+       "t": "rock",
+       "c": false
+      },
+      {
+       "t": "musician",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "düğün - choose the English word.",
+     "a": [
+      {
+       "t": "on foot",
+       "c": false
+      },
+      {
+       "t": "wedding",
+       "c": true
+      },
+      {
+       "t": "tram",
+       "c": false
+      },
+      {
+       "t": "tired",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "sahne almak - choose the English word.",
+     "a": [
+      {
+       "t": "audience",
+       "c": false
+      },
+      {
+       "t": "pleased",
+       "c": false
+      },
+      {
+       "t": "perform",
+       "c": true
+      },
+      {
+       "t": "tram",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "düzenlemek - choose the English word.",
+     "a": [
+      {
+       "t": "overpass",
+       "c": false
+      },
+      {
+       "t": "musician",
+       "c": false
+      },
+      {
+       "t": "by car",
+       "c": false
+      },
+      {
+       "t": "organise",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "para toplamak - choose the English word.",
+     "a": [
+      {
+       "t": "lorry",
+       "c": false
+      },
+      {
+       "t": "wedding",
+       "c": false
+      },
+      {
+       "t": "public transport",
+       "c": false
+      },
+      {
+       "t": "raise money",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "yerel - choose the English word.",
+     "a": [
+      {
+       "t": "local",
+       "c": true
+      },
+      {
+       "t": "rap",
+       "c": false
+      },
+      {
+       "t": "tram",
+       "c": false
+      },
+      {
+       "t": "wedding",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kalabalık - choose the English word.",
+     "a": [
+      {
+       "t": "crowded",
+       "c": true
+      },
+      {
+       "t": "tram",
+       "c": false
+      },
+      {
+       "t": "parking",
+       "c": false
+      },
+      {
+       "t": "ship",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "memnun - choose the English word.",
+     "a": [
+      {
+       "t": "sign",
+       "c": false
+      },
+      {
+       "t": "pleased",
+       "c": true
+      },
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "local",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yorgun - choose the English word.",
+     "a": [
+      {
+       "t": "motorcycle",
+       "c": false
+      },
+      {
+       "t": "pop",
+       "c": false
+      },
+      {
+       "t": "raise money",
+       "c": false
+      },
+      {
+       "t": "tired",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "caz - choose the English word.",
+     "a": [
+      {
+       "t": "pop",
+       "c": false
+      },
+      {
+       "t": "local",
+       "c": false
+      },
+      {
+       "t": "jazz",
+       "c": true
+      },
+      {
+       "t": "tram",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "pop müzik - choose the English word.",
+     "a": [
+      {
+       "t": "sign",
+       "c": false
+      },
+      {
+       "t": "pop",
+       "c": true
+      },
+      {
+       "t": "rock",
+       "c": false
+      },
+      {
+       "t": "organise",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "rock müzik - choose the English word.",
+     "a": [
+      {
+       "t": "direction",
+       "c": false
+      },
+      {
+       "t": "railway line",
+       "c": false
+      },
+      {
+       "t": "rock",
+       "c": true
+      },
+      {
+       "t": "crowded",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "rap müzik - choose the English word.",
+     "a": [
+      {
+       "t": "vehicle",
+       "c": false
+      },
+      {
+       "t": "rap",
+       "c": true
+      },
+      {
+       "t": "organise",
+       "c": false
+      },
+      {
+       "t": "underpass",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yaratıcı - choose the English word.",
+     "a": [
+      {
+       "t": "creative",
+       "c": true
+      },
+      {
+       "t": "pleased",
+       "c": false
+      },
+      {
+       "t": "motorcycle",
+       "c": false
+      },
+      {
+       "t": "public transport",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tramvay - choose the English word.",
+     "a": [
+      {
+       "t": "underpass",
+       "c": false
+      },
+      {
+       "t": "local",
+       "c": false
+      },
+      {
+       "t": "wedding",
+       "c": false
+      },
+      {
+       "t": "tram",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "metro - choose the English word.",
+     "a": [
+      {
+       "t": "musician",
+       "c": false
+      },
+      {
+       "t": "raise money",
+       "c": false
+      },
+      {
+       "t": "overpass",
+       "c": false
+      },
+      {
+       "t": "underground",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "kamyonet - choose the English word.",
+     "a": [
+      {
+       "t": "parking",
+       "c": false
+      },
+      {
+       "t": "van",
+       "c": true
+      },
+      {
+       "t": "lorry",
+       "c": false
+      },
+      {
+       "t": "pleased",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "kamyon - choose the English word.",
+     "a": [
+      {
+       "t": "musician",
+       "c": false
+      },
+      {
+       "t": "on foot",
+       "c": false
+      },
+      {
+       "t": "lorry",
+       "c": true
+      },
+      {
+       "t": "rap",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "motosiklet - choose the English word.",
+     "a": [
+      {
+       "t": "organise",
+       "c": false
+      },
+      {
+       "t": "underground",
+       "c": false
+      },
+      {
+       "t": "tired",
+       "c": false
+      },
+      {
+       "t": "motorcycle",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "gemi - choose the English word.",
+     "a": [
+      {
+       "t": "organise",
+       "c": false
+      },
+      {
+       "t": "wedding",
+       "c": false
+      },
+      {
+       "t": "festival",
+       "c": false
+      },
+      {
+       "t": "ship",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "araç - choose the English word.",
+     "a": [
+      {
+       "t": "vehicle",
+       "c": true
+      },
+      {
+       "t": "pleased",
+       "c": false
+      },
+      {
+       "t": "raise money",
+       "c": false
+      },
+      {
+       "t": "motorcycle",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "toplu taşıma - choose the English word.",
+     "a": [
+      {
+       "t": "public transport",
+       "c": true
+      },
+      {
+       "t": "vehicle",
+       "c": false
+      },
+      {
+       "t": "creative",
+       "c": false
+      },
+      {
+       "t": "local",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "tabela - choose the English word.",
+     "a": [
+      {
+       "t": "rock",
+       "c": false
+      },
+      {
+       "t": "tram",
+       "c": false
+      },
+      {
+       "t": "overpass",
+       "c": false
+      },
+      {
+       "t": "sign",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "yön - choose the English word.",
+     "a": [
+      {
+       "t": "direction",
+       "c": true
+      },
+      {
+       "t": "underground",
+       "c": false
+      },
+      {
+       "t": "overpass",
+       "c": false
+      },
+      {
+       "t": "on foot",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "üst geçit - choose the English word.",
+     "a": [
+      {
+       "t": "underground",
+       "c": false
+      },
+      {
+       "t": "lorry",
+       "c": false
+      },
+      {
+       "t": "public transport",
+       "c": false
+      },
+      {
+       "t": "overpass",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "alt geçit - choose the English word.",
+     "a": [
+      {
+       "t": "underpass",
+       "c": true
+      },
+      {
+       "t": "tired",
+       "c": false
+      },
+      {
+       "t": "public transport",
+       "c": false
+      },
+      {
+       "t": "pleased",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "park yeri - choose the English word.",
+     "a": [
+      {
+       "t": "audience",
+       "c": false
+      },
+      {
+       "t": "motorcycle",
+       "c": false
+      },
+      {
+       "t": "local",
+       "c": false
+      },
+      {
+       "t": "parking",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "demiryolu hattı - choose the English word.",
+     "a": [
+      {
+       "t": "railway line",
+       "c": true
+      },
+      {
+       "t": "audience",
+       "c": false
+      },
+      {
+       "t": "pop",
+       "c": false
+      },
+      {
+       "t": "public transport",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "yürüyerek - choose the English word.",
+     "a": [
+      {
+       "t": "pop",
+       "c": false
+      },
+      {
+       "t": "on foot",
+       "c": true
+      },
+      {
+       "t": "overpass",
+       "c": false
+      },
+      {
+       "t": "organise",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "arabayla - choose the English word.",
+     "a": [
+      {
+       "t": "parking",
+       "c": false
+      },
+      {
+       "t": "by car",
+       "c": true
+      },
+      {
+       "t": "sign",
+       "c": false
+      },
+      {
+       "t": "pop",
+       "c": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "code": "g6-u5-grammar",
+   "name": "Grammar in context",
+   "by": "ENG HUB - özgün içerik",
+   "type": "multiple_choice",
+   "questions": [
+    {
+     "q": "The audience ___ very pleased last night.",
+     "grammarId": "was-were",
+     "explanation": "The audience was very pleased last night.",
+     "a": [
+      {
+       "t": "was",
+       "c": true
+      },
+      {
+       "t": "is",
+       "c": false
+      },
+      {
+       "t": "are",
+       "c": false
+      },
+      {
+       "t": "were",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The trams ___ crowded yesterday.",
+     "grammarId": "was-were",
+     "explanation": "The trams weren't crowded yesterday.",
+     "a": [
+      {
+       "t": "weren't",
+       "c": true
+      },
+      {
+       "t": "was",
+       "c": false
+      },
+      {
+       "t": "isn't",
+       "c": false
+      },
+      {
+       "t": "wasn't",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ the musicians on the stage at eight yesterday?",
+     "grammarId": "was-were",
+     "explanation": "Were the musicians on the stage at eight yesterday?",
+     "a": [
+      {
+       "t": "Are",
+       "c": false
+      },
+      {
+       "t": "Was",
+       "c": false
+      },
+      {
+       "t": "Were",
+       "c": true
+      },
+      {
+       "t": "Is",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The musicians were ready, ___?",
+     "grammarId": "past-be-tags",
+     "explanation": "The musicians were ready, weren't they?",
+     "a": [
+      {
+       "t": "weren't they",
+       "c": true
+      },
+      {
+       "t": "wasn't they",
+       "c": false
+      },
+      {
+       "t": "didn't they",
+       "c": false
+      },
+      {
+       "t": "were they",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The van wasn't outside, ___?",
+     "grammarId": "past-be-tags",
+     "explanation": "The van wasn't outside, was it?",
+     "a": [
+      {
+       "t": "was it",
+       "c": true
+      },
+      {
+       "t": "wasn't it",
+       "c": false
+      },
+      {
+       "t": "did it",
+       "c": false
+      },
+      {
+       "t": "were it",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "___ was the art event? Last Saturday.",
+     "grammarId": "why-when",
+     "explanation": "When was the art event? Last Saturday.",
+     "a": [
+      {
+       "t": "Whose",
+       "c": false
+      },
+      {
+       "t": "Who",
+       "c": false
+      },
+      {
+       "t": "When",
+       "c": true
+      },
+      {
+       "t": "Why",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "Why were you tired? ___ the walk was long.",
+     "grammarId": "why-when",
+     "explanation": "Why were you tired? Because the walk was long.",
+     "a": [
+      {
+       "t": "Because",
+       "c": true
+      },
+      {
+       "t": "When",
+       "c": false
+      },
+      {
+       "t": "Which",
+       "c": false
+      },
+      {
+       "t": "Whose",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The audience enjoys ___ the dancers.",
+     "grammarId": "gerunds-infinitives",
+     "explanation": "The audience enjoys watching the dancers.",
+     "a": [
+      {
+       "t": "to watch",
+       "c": false
+      },
+      {
+       "t": "watch",
+       "c": false
+      },
+      {
+       "t": "to watching",
+       "c": false
+      },
+      {
+       "t": "watching",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "They want ___ a local concert.",
+     "grammarId": "gerunds-infinitives",
+     "explanation": "They want to organise a local concert.",
+     "a": [
+      {
+       "t": "to organising",
+       "c": false
+      },
+      {
+       "t": "to organise",
+       "c": true
+      },
+      {
+       "t": "organise",
+       "c": false
+      },
+      {
+       "t": "organising",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The sign is ___ the two doors.",
+     "grammarId": "place-movement",
+     "explanation": "The sign is between the two doors.",
+     "a": [
+      {
+       "t": "between",
+       "c": true
+      },
+      {
+       "t": "onto",
+       "c": false
+      },
+      {
+       "t": "among",
+       "c": false
+      },
+      {
+       "t": "through",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The tram goes ___ a tunnel.",
+     "grammarId": "place-movement",
+     "explanation": "The tram goes through a tunnel.",
+     "a": [
+      {
+       "t": "among",
+       "c": false
+      },
+      {
+       "t": "between",
+       "c": false
+      },
+      {
+       "t": "through",
+       "c": true
+      },
+      {
+       "t": "onto",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The musician steps ___ the stage.",
+     "grammarId": "place-movement",
+     "explanation": "The musician steps onto the stage.",
+     "a": [
+      {
+       "t": "between",
+       "c": false
+      },
+      {
+       "t": "among",
+       "c": false
+      },
+      {
+       "t": "behind",
+       "c": false
+      },
+      {
+       "t": "onto",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "The visitors walk ___ the hall into the garden.",
+     "grammarId": "place-movement",
+     "explanation": "The visitors walk out of the hall into the garden.",
+     "a": [
+      {
+       "t": "out of",
+       "c": true
+      },
+      {
+       "t": "among",
+       "c": false
+      },
+      {
+       "t": "between",
+       "c": false
+      },
+      {
+       "t": "under",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The art festival is ___ May.",
+     "grammarId": "time-transport",
+     "explanation": "The art festival is in May.",
+     "a": [
+      {
+       "t": "in",
+       "c": true
+      },
+      {
+       "t": "by",
+       "c": false
+      },
+      {
+       "t": "on",
+       "c": false
+      },
+      {
+       "t": "at",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "The show was ___ Friday.",
+     "grammarId": "time-transport",
+     "explanation": "The show was on Friday.",
+     "a": [
+      {
+       "t": "by",
+       "c": false
+      },
+      {
+       "t": "on",
+       "c": true
+      },
+      {
+       "t": "in",
+       "c": false
+      },
+      {
+       "t": "at",
+       "c": false
+      }
+     ]
+    },
+    {
+     "q": "We travel to the event ___ tram.",
+     "grammarId": "time-transport",
+     "explanation": "We travel to the event by tram.",
+     "a": [
+      {
+       "t": "in",
+       "c": false
+      },
+      {
+       "t": "on",
+       "c": false
+      },
+      {
+       "t": "at",
+       "c": false
+      },
+      {
+       "t": "by",
+       "c": true
+      }
+     ]
+    },
+    {
+     "q": "The visitors were at the festival ___ two hours.",
+     "grammarId": "time-transport",
+     "explanation": "The visitors were at the festival for two hours.",
+     "a": [
+      {
+       "t": "for",
+       "c": true
+      },
+      {
+       "t": "at",
+       "c": false
+      },
+      {
+       "t": "by",
+       "c": false
+      },
+      {
+       "t": "on",
+       "c": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "words": [
+  {
+   "en": "festival",
+   "tr": "festival"
+  },
+  {
+   "en": "audience",
+   "tr": "seyirci"
+  },
+  {
+   "en": "musician",
+   "tr": "müzisyen"
+  },
+  {
+   "en": "wedding",
+   "tr": "düğün"
+  },
+  {
+   "en": "perform",
+   "tr": "sahne almak"
+  },
+  {
+   "en": "organise",
+   "tr": "düzenlemek"
+  },
+  {
+   "en": "raise money",
+   "tr": "para toplamak"
+  },
+  {
+   "en": "local",
+   "tr": "yerel"
+  },
+  {
+   "en": "crowded",
+   "tr": "kalabalık"
+  },
+  {
+   "en": "pleased",
+   "tr": "memnun"
+  },
+  {
+   "en": "tired",
+   "tr": "yorgun"
+  },
+  {
+   "en": "jazz",
+   "tr": "caz"
+  },
+  {
+   "en": "pop",
+   "tr": "pop müzik"
+  },
+  {
+   "en": "rock",
+   "tr": "rock müzik"
+  },
+  {
+   "en": "rap",
+   "tr": "rap müzik"
+  },
+  {
+   "en": "creative",
+   "tr": "yaratıcı"
+  },
+  {
+   "en": "tram",
+   "tr": "tramvay"
+  },
+  {
+   "en": "underground",
+   "tr": "metro"
+  },
+  {
+   "en": "van",
+   "tr": "kamyonet"
+  },
+  {
+   "en": "lorry",
+   "tr": "kamyon"
+  },
+  {
+   "en": "motorcycle",
+   "tr": "motosiklet"
+  },
+  {
+   "en": "ship",
+   "tr": "gemi"
+  },
+  {
+   "en": "vehicle",
+   "tr": "araç"
+  },
+  {
+   "en": "public transport",
+   "tr": "toplu taşıma"
+  },
+  {
+   "en": "sign",
+   "tr": "tabela"
+  },
+  {
+   "en": "direction",
+   "tr": "yön"
+  },
+  {
+   "en": "overpass",
+   "tr": "üst geçit"
+  },
+  {
+   "en": "underpass",
+   "tr": "alt geçit"
+  },
+  {
+   "en": "parking",
+   "tr": "park yeri"
+  },
+  {
+   "en": "railway line",
+   "tr": "demiryolu hattı"
+  },
+  {
+   "en": "on foot",
+   "tr": "yürüyerek"
+  },
+  {
+   "en": "by car",
+   "tr": "arabayla"
+  }
+ ],
+ "online": []
+}
