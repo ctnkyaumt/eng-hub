@@ -20,6 +20,28 @@ from common import (  # noqa: E402
     ensure, load_grades, source_units,
 )
 
+# Verified publisher links outside the eltarena catalog. Keep them on refresh.
+# Checked 2026-09-12: Buddy 6 theme 1 works; themes 2-8 return HTTP 404.
+SUPPLEMENTAL_BOOKS = {
+    "g6/u1": [{
+        "title": "Buddy 6 - Tema 1: School Life",
+        "desc": "36 sayfalık çevrimiçi kitap sunumu.",
+        "by": "forenelt.idea-host.com",
+        "link": "https://forenelt.idea-host.com/buddy6/theme1/",
+        "type": "book-presentation",
+    }],
+}
+
+
+def merge_books(gid, uid, books):
+    merged = list(books)
+    links = {item.get("link", "").rstrip("/") for item in merged}
+    for item in SUPPLEMENTAL_BOOKS.get(f"{gid}/{uid}", []):
+        if item["link"].rstrip("/") not in links:
+            merged.append(dict(item))
+            links.add(item["link"].rstrip("/"))
+    return merged
+
 
 def host_of(link):
     try:
@@ -145,6 +167,7 @@ def main():
             su = src[no]["revision"]
             uid = "revision"
             ws, off, onl, extras, books = classify(su.get("resources") if su else [])
+            books = merge_books(gid, uid, books)
             state = unit_state(gid, uid, ws, off)
             grade["units"].append({
                 "id": uid, "no": 0,
@@ -164,6 +187,7 @@ def main():
             theme = THEMES.get(no, {}).get(un, ("", "", "📘"))
             su = src.get(no, {}).get(un)
             ws, off, onl, extras, books = classify(su.get("resources") if su else [])
+            books = merge_books(gid, uid, books)
             state = unit_state(gid, uid, ws, off)
             grade["units"].append({
                 "id": uid, "no": un,
