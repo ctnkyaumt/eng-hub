@@ -42,9 +42,9 @@ ANA MENÜ → Sınıf (5, 6, 7, 8) → Ünite → SUNUM · OYUNLAR · ÇALIŞMA 
 
 | Bölüm | Ne var |
 | --- | --- |
-| **Sunum** | 5. sınıf 8 tema + 8. sınıf 10 ünite — 600'den fazla slayt. İçerik tek tek açılır, her konudan sonra alıştırma sayfası gelir. |
-| **Oyunlar** | 6 çevrimdışı oyun: Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. |
-| **Çalışma Kâğıtları** | 124 dosya. Tıklayınca bilgisayarın kendi PDF programında açılır. |
+| **Sunum** | 5, 6 ve 8. sınıflar için tam ünite sunumları, resimli kelime kartları, çift dilli gramer kuralları ve alıştırmalar. |
+| **Oyunlar** | 10 çevrimdışı oyun modu: Sharpshooter, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları, Balon Patlat, Köstebek Avı, Uzay Koşusu. |
+| **Çalışma Kâğıtları ve Testler** | 600'den fazla çalışma kâğıdı, ünite testi ve deneme bağlantısı (çevrimiçi açılır; internet gerekir). |
 | **Kitap Sunumları** | Kaynak sitedeki ders/çalışma kitabı sunumlarının listesi (internet ister). |
 
 ## 4. Ders sırasında işinize yarayacak tuşlar
