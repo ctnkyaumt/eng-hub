@@ -16,7 +16,7 @@ import urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import (  # noqa: E402
-    CONTENT, DATA, GRADES, OFFLINE_GAME_HOST, THEMES, UNITS_PER_GRADE,
+    API, CONTENT, DATA, GRADES, OFFLINE_GAME_HOST, THEMES, UNITS_PER_GRADE,
     ensure, load_grades, source_units,
 )
 
@@ -56,6 +56,8 @@ def classify(resources):
     for r in resources or []:
         # book presentations are opened through their "Önizle" viewer
         link = r.get("fileUrl") or r.get("link") or r.get("previewLink") or ""
+        if link.startswith("/"):
+            link = urllib.parse.urljoin(API, link)
         rtype = r.get("type")
         item = {
             "title": (r.get("title") or "").strip(),
@@ -65,9 +67,9 @@ def classify(resources):
             "type": rtype,
         }
         from resource_kind import online_game
-        if rtype in ("worksheet", "file") and online_game(item):
+        if rtype in ("worksheet", "file", "quiz") and online_game(item):
             online_games.append(item)
-        elif rtype in ("worksheet", "file"):
+        elif rtype in ("worksheet", "file", "quiz"):
             worksheets.append(item)
         elif rtype == "game":
             if host_of(link) == OFFLINE_GAME_HOST:
@@ -82,7 +84,7 @@ def classify(resources):
             books.append(item)
             if link.startswith("http"):
                 extras.append(item)
-        elif rtype in ("quiz", "summary", "flashcards", "video"):
+        elif rtype in ("summary", "flashcards", "video"):
             if link.startswith("http"):
                 extras.append(item)
     return worksheets, offline_games, online_games, extras, books

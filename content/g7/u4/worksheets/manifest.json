@@ -1,6 +1,13 @@
 {
  "items": [
   {
+   "title": "Wild Animals Quiz (Elif Nur Özcan)",
+   "desc": "Wild animals quiz",
+   "by": "elifozcan",
+   "link": "https://drive.google.com/file/d/1d3Qmc3xL37zfJiH-zYYPB1Q2hcMgvW2h/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
    "title": "Wild animals worksheet (Feyza HEDİYE KARATAY)",
    "desc": "Wild animals worksheet",
    "by": "admin",
@@ -13,6 +20,20 @@
    "by": "selcukcabri",
    "link": "https://drive.google.com/file/d/15CyD1hkMtXdWJc7wyz4-t_wXH6Pf9P9Z/view?usp=sharing",
    "type": "worksheet"
+  },
+  {
+   "title": "7.4 WordTest (Fatih EREL)",
+   "desc": "7.sınıf 4.ünite (Wild Animals) kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1RqGVO-I1t5BBchiwvqZnjh3YK5Qex5g1/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "7.4 WordMatching (Fatih EREL)",
+   "desc": "7.sınıf 4.ünite (Wild Animals) kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/106fjsl9NvamGS7S3HjDvXnT9OOe65cP1/view?usp=drive_link",
+   "type": "quiz"
   },
   {
    "title": "Wild Animals (Elif Nur Özcan)",

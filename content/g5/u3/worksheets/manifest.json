@@ -15,11 +15,39 @@
    "type": "worksheet"
   },
   {
+   "title": "5.3 WordTest (Fatih EREL)",
+   "desc": "5.sınıf 3.tema kelimeleriyle hazırlanmış 30 soruluk bir kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1FDToTqQTBQxN-cwBoA-xAQ4dcejM1xUZ/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "5.3 WordMatching (Fatih EREL)",
+   "desc": "5.sınıf 3.tema kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1reVFgxHKO_SdStsPcZ8DKxeAZsoGeZem/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
    "title": "Theme 3 Personal Life - Vocabulary List (Selçuk ÇABRİ)",
    "desc": "Theme 3 Personal Life - Vocabulary List",
    "by": "selcukcabri",
    "link": "https://eltarena.com/uploads/materials/1763842041067_5TH_GRADES_THEME_3_VOCABULARY_LIST_-_2025.pdf",
    "type": "worksheet"
+  },
+  {
+   "title": "Theme 3 Personal Life - Kelime Testi (İbrahim COŞKUN)",
+   "desc": "",
+   "by": "elt.ibrahimcoskun",
+   "link": "https://drive.google.com/file/d/18vu-T0Hdli9nyYap6PBBksKu10Djfdqj/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "Theme 3 Personal Life - Resim Testi (İbrahim COŞKUN)",
+   "desc": "",
+   "by": "elt.ibrahimcoskun",
+   "link": "https://drive.google.com/file/d/1VXPZMQS7psu792YLGs8qQyDqXcr6kJmB/view?usp=sharing",
+   "type": "quiz"
   },
   {
    "title": "5.3 Personal Life - Clothes & Accessories Worksheet ( R. Gökhan BARGAN )",
@@ -34,6 +62,13 @@
    "by": "FdnYlmz",
    "link": "https://eltarena.com/uploads/materials/1765139414074_TEMA3.pdf",
    "type": "file"
+  },
+  {
+   "title": "5th Grade Quiz theme 3 (Elif Nur Özcan)",
+   "desc": "5th Grade Quiz theme 3",
+   "by": "elifozcan",
+   "link": "https://drive.google.com/file/d/1qo0rnniQiXsHCSoI3_fsHMe9qkQp6msn/view?usp=drivesdk",
+   "type": "quiz"
   },
   {
    "title": "5. Sınıf 3. Tema Worksheet (Gönül Canbay)",
@@ -62,6 +97,13 @@
    "by": "gcanbay",
    "link": "https://drive.google.com/file/d/1xsXG2fFk8-pwwH7u38cAuDSgfLv2w-c_/view?usp=drive_link",
    "type": "worksheet"
+  },
+  {
+   "title": "5. Sınıf 3. Tema Test (Canbay)",
+   "desc": "3. tema ünite testi",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1UbooI-5xwBegT7JVrP-ceqNza8HtPj81/view?usp=drivesdk",
+   "type": "quiz"
   }
  ]
 }

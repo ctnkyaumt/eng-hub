@@ -1,6 +1,20 @@
 {
  "items": [
   {
+   "title": "5.7 WordMatching (Fatih EREL)",
+   "desc": "5.sınıf 7.tema Life In Nature kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1d2YinQaqGUKuva1PT48e03Q0_A7R66Ah/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "5.7 WordTest (Fatih EREL)",
+   "desc": "5.sınıf 7.tema Life In Nature kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1OQeCIxo1jsW0GzU1qkVVzFRRXlNRHqS1/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
    "title": "5.7 Worksheets (Mine SEZGİN)",
    "desc": "",
    "by": "minesezgin",
@@ -27,6 +41,13 @@
    "by": "gcanbay",
    "link": "https://drive.google.com/file/d/1vY9RpUpmLYN8lWIJi-jIuD0crOoy8JaP/view?usp=drivesdk",
    "type": "worksheet"
+  },
+  {
+   "title": "5.7 Life in Nature Test (Gönül Canbay)",
+   "desc": "",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/16_fqBaAvpoXHngF4a2WQmimYCOasJkXK/view?usp=drivesdk",
+   "type": "quiz"
   }
  ]
 }

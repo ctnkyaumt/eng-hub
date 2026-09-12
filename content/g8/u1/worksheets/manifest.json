@@ -1,6 +1,69 @@
 {
  "items": [
   {
+   "title": "1. Ünite 1. Kelime Testi (Canbay&Canbay)",
+   "desc": "8. Sınıf 1. Ünite Kelimeleri anlamlarının bağlam içinde bulunmasına yönelik çoktan seçmeli test çalışmasıdır.",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1YlKmes0lNoylLaZ7NAF_kkxp5uyfCbfK/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 2. Kelime Testi (Canbay&Canbay)",
+   "desc": "8. Sınıf 1. Ünite bağlama dayalı çoktan seçmeli kelime testidir",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/14KoKtVRFpcf_AO-c2zTUH_B6ddIq3gG-/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 1. Deneme (Canbay&Canbay)",
+   "desc": "8. Sınıf 1. Ünite deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1tF560odto1QZflVdS6-YCigM8zDT3pn4/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 2. Deneme (Canbay&Canbay)",
+   "desc": "8. Sınıf 1. Ünite 2. Deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/16kjM5djUIQr5zoiW3D6UnNuF53D843TJ/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 3. Deneme (Canbay&Canbay)",
+   "desc": "8. Sınıf 1. Ünite 3. Deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1blz-_3w5ub51ff-XADNkOQT6giu5yqOs/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. ÜNİTE 100 SORULUK KELİME  TESTİ - KELİME QUIZİ (İNGİLİZCE - TÜRKÇE)",
+   "desc": "Bu etkinlik öğrencilerimizin kelime edinimini desteklemek, kelime farkındalığını artırmak ve okuduğunu anlama becerilerini geliştirmek için hazırlanmıştır.  Ünite başı veya sonunda Quiz ya da ev ödevi olarak kullanılabilir.",
+   "by": "Gürdal",
+   "link": "https://eltarena.com/uploads/materials/1756317696798_WORD_WORM-1_.pdf",
+   "type": "quiz"
+  },
+  {
+   "title": "1. ÜNİTE 100 SORULUK KELİME TESTİ - KELİME QUİZİ (TÜRKÇE - İNGİLİZCE)",
+   "desc": "Bu etkinlik öğrencilerimizin kelime edinimini desteklemek, kelime farkındalığını artırmak ve okuduğunu anlama becerilerini geliştirmek için hazırlanmıştır.  Ünite başı veya sonunda Quiz ya da ev ödevi olarak kullanılabilir.",
+   "by": "Gürdal",
+   "link": "https://eltarena.com/uploads/materials/1756317865926_WORD_WORM_2_.pdf",
+   "type": "quiz"
+  },
+  {
+   "title": "8. SINIF 1. ÜNİTE FARKLI OLANI SEÇ",
+   "desc": "Bu etkinlik öğrencilerimizin kelime edinimini desteklemek, kelime farkındalığını artırmak ve okuduğunu anlama becerilerini geliştirmek için hazırlanmıştır.  Ünite sonunda Quiz ya da ev ödevi olarak kullanılabilir.",
+   "by": "Gürdal",
+   "link": "https://eltarena.com/uploads/materials/1756492990209_8._SINIF_1.__N_TE_FRIENDSHIP_FARKLI_OLANI_SE__By_GK.pdf",
+   "type": "quiz"
+  },
+  {
+   "title": "1.ÜNİTE : VOC-TEST by Ercan HAMARAT",
+   "desc": "Ercan HAMAARAT tarafından hazırlanan 1.Ünite Kelime Testi",
+   "by": "admin",
+   "link": "https://eltarena.com/uploads/materials/1756507602856_VOC_TEST_1_by_Ercan_HAMARAT.pdf",
+   "type": "quiz"
+  },
+  {
    "title": "FRIENDSHIP ÜNİTESİ - KELİME LİSTESİ - KELİME ÖDEVİ",
    "desc": "Bu kelime etkinliği, 8. Sınıf İngilizce LGS hazırlık kitabı olan Time To Go PRO’nun 1. Ünite giriş etkinliğidir.\n\nBu etkinlik öğrencilerimizin kelime edinimini desteklemek, kelime farkındalığını artırmak ve okuduğunu anlama becerilerine katkı sunmak için hazırlanmıştır. Ünite başında ev ödevi olarak kullanılabilir.",
    "by": "Gürdal",
@@ -8,11 +71,151 @@
    "type": "worksheet"
   },
   {
+   "title": "8. Sınıf 1. Ünite Testler Akıllı Tahta Sunumları (Gönül & İlyas Canbay)",
+   "desc": "Gönül Canbay ve İlyas Canbay tarafından yazılan 1. Ünite testlerinin (toplam 8 adet test) yer aldığı akıllı tahta sunumudur. Akıllı tahta sunumu Fatih Sayılan tarafından hazırlanmıştır.",
+   "by": "Sistem",
+   "link": "https://canbay.netlify.app/sunu/unit1/",
+   "type": "quiz"
+  },
+  {
+   "title": "8.1 MEB WordMatching (Fatih EREL)",
+   "desc": "8.sınıf MEB kitabı kelimelerinden oluşturulmuş bir kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1watFPkLnRDgcCNcl-vSrwnA5Jtr764JR/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.1 WordMatching (Fatih EREL)",
+   "desc": "8.sınıf Özel Yayın kitabı kelimelerinden oluşturulmuş bir kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1TTLCfDVmI8mTm2Q3N62jk1dcj4ECf_7j/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.1 WordTest (Fatih EREL)",
+   "desc": "8.sınıf Özel Yayın kitabı kelimelerinden oluşturulmuş 40 soruluk bir kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1_cdQUVFwmEnXgZsTJxO7ajkfA-bkYJXo/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.1 MEB WordTest (Fatih EREL)",
+   "desc": "8.sınıf MEB kitabı kelimelerinden oluşturulmuş 40 soruluk bir kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1eIm16um-bo3JH4EVEL6BqCxutA_Uswqc/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
    "title": "8TH GRADES UNIT 1 VOCABULARY LIST (Bilim ve Kültür Y.) (Sekçuk ÇABRİ)",
    "desc": "8TH GRADES UNIT 1 VOCABULARY LIST (Bilim ve Kültür Y.) (Sekçuk ÇABRİ)",
    "by": "selcukcabri",
    "link": "https://eltarena.com/uploads/materials/1757423810031_8TH_GRADES_UNIT_1_VOCABULARY_LIST.pdf",
    "type": "worksheet"
+  },
+  {
+   "title": "Unit 1 Friendship - Kelime Testi (İbrahim COŞKUN)",
+   "desc": "",
+   "by": "elt.ibrahimcoskun",
+   "link": "https://drive.google.com/file/d/17eAbFL3B35_d2nDkQWstF9GsiDQ5L0Qq/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Unite Mash-up (Gönül & İlyas Canbay)",
+   "desc": "10 Soruluk Test + Kelime Çalışması.\nMash-Up adını verdiğimiz bu çalışma hem kelime worksheet hem de yeni nesil sorulara giriş testi içermektedir.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1VQCbmI_wwLxjeiPMMo4LPfIDmuHhhLOS/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 1. Kelime Anlam Testi (Canbay & Canbay)",
+   "desc": "İngilizce kelimenin Türkçe anlamını soran çoktan seçmeli 25 soruluk quiz",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1VbGsgNR_2c5Asxpr6VT3TwE093hySvQP/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 2. Kelime Anlam Testi (Canbay & Canbay)",
+   "desc": "1. Ünite kelimelerinin İngilizcesini verip Türkçe anlamını soran test",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1YogKkRb2-PDub-9yIJih6l6xj6V1AOPl/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 3. Kelime Anlam Testi (Canbay & Canbay)",
+   "desc": "Cümle içerisinde altı çizili İngilizce kelimenin anlamını soran çoktan seçmeli 25 soruluk quiz",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1-99UXcmzROlpuOFKbu0wZ2NeqW_Z57JX/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 4. Kelime Anlam Testi-MEB Kitabı (Canbay & Canbay)",
+   "desc": "8. sınıf MEB ders kitabında geçen kelimelerden 50 tanesini sorduğumuz İngilizce-Türkçe kelime anlam testi...",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1932_5jmKmCpXcHR3rUKE2IcPWrPnRbpL/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "1. Ünite 3. Kelime Testi 40 SORU (Canbay & Canbay)",
+   "desc": "MEB ders kitabı ve özel kitap dahil önemli kelimeleri sorduğumuz bağlama dayalı 40 soruluk pekiştirme testi.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1RL4sva2KkIaRkC_u-h13yJgSGMSw7qw8/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "2018 LGS - İngilizce Soruları",
+   "desc": "2018 LGS - İngilizce Soruları",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/1ddhhAIjJKSmvbMl348SGXALfY7lPTEsf/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "2019 LGS İngilizce Soruları",
+   "desc": "2019 LGS İngilizce Soruları",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/1fX3CfevIdzs8clqIJbHI9dKKZ3nzOAyj/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "2020 LGS İngilizce Soruları",
+   "desc": "2020 LGS İngilizce Soruları",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/1hdutinjf_zY2OkLjJT0FQJLiYyinpmvj/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "2021 LGS İngilizce Soruları",
+   "desc": "2021 LGS İngilizce Soruları",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/1CSqokyvphaYjbFXYHn7PlZoSDXTOGil4/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "2022 LGS – İngilizce Soruları",
+   "desc": "2022 LGS – İngilizce Soruları",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/1W8zY0aZ1Y0a2teedLMu-rJ3qDD3Kg2UB/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "2023 LGS – İngilizce Soruları",
+   "desc": "2023 LGS – İngilizce Soruları",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/1oogrCc3ZgggHIwVUu_9RmfJoHt51sEks/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "2024 LGS – İngilizce Soruları",
+   "desc": "2024 LGS – İngilizce Soruları",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/19AN-xUyZme8lbP9JW7x9kVusJR8Osbct/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "2025 LGS – İngilizce Soruları",
+   "desc": "2025 LGS – İngilizce Soruları",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/1bbxw7EwSaCXbMsAF52VUOBtOY24TGi8V/view?usp=drive_link",
+   "type": "quiz"
   },
   {
    "title": "8. SINIF İNGİLİZCE 1. ÜNİTE KELİMELERİ ÇALIŞMA KAĞIDI ETKİNLİK TEST (by Okan GÜLTEKİN)",

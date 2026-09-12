@@ -1,11 +1,53 @@
 {
  "items": [
   {
+   "title": "8. Sınıf 3. Ünite 1. Kelime Testi (Canbay&Canbay)",
+   "desc": "Bağlama dayalı çoktan seçmeli kelime testi",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1ku3Yb8ShCM1OMEU4Ku5XR2-qC1n_K3Pm/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "8. Sınıf 3. Ünite 2. Kelime Testi (Canbay&Canbay)",
+   "desc": "Bağlama dayalı çoktan seçmeli kelime testi",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1DIaZ8ip1GVxbKO86ZAgVEZchxr8pCtlS/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "8. Sınıf 3. Ünite 1. Deneme (Canbay&Canbay)",
+   "desc": "8. Sınıf 3. Ünite 10 soruluk deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1XUwJLcq4cXS6QIA9zcK6egO69CraV_WP/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "8. Sınıf 3. Ünite 2. Deneme (Canbay&Canbay)",
+   "desc": "8. Sınıf 3. Ünite 10 soruluk deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1UuM-U8I5cecX0yNNSbIsK_V7ZI9lif-7/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "8. Sınıf 3. Ünite 3. Deneme (Canbay& Canbay)",
+   "desc": "8. Sınıf 3. Ünite 10 soruluk deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/153KkgV1qn7XPulGZ34P4PM21DRgDaJn6/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
    "title": "Unit 3 In The Kitchen - Vocabulary List  (Selçuk ÇABRİ)",
    "desc": "Unit 3 In The Kitchen - Vocabulary List",
    "by": "selcukcabri",
    "link": "https://eltarena.com/uploads/materials/1760978115696_8TH_GRADES_UNIT_3_IN_THE_KITCHEN_VOCABULARY_LIST__1_.pdf",
    "type": "worksheet"
+  },
+  {
+   "title": "3. Ünite Testler Akıllı Tahta Sunumları (Gönül & İlyas Canbay)",
+   "desc": "Gönül Canbay ve İlyas Canbay tarafından yazılan 3. Ünite (In the Kitchen) testlerinin yer aldığı akıllı tahta sunumudur. Yeni testler hazırladıkça güncellenecektir. Akıllı tahta sunumu Fatih Sayılan tarafından hazırlanmıştır.",
+   "by": "Sistem",
+   "link": "https://canbay.netlify.app/sunu/unit3/",
+   "type": "quiz"
   },
   {
    "title": "8th Grade Unit 3 (Elif Nur Özcan)",
@@ -15,11 +57,67 @@
    "type": "worksheet"
   },
   {
+   "title": "8.3 WordMatching (Fatih EREL)",
+   "desc": "Özel yayın 3.ünite kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/14UjqRSiK8caxs3gXStpmBWnjpR59Q6WX/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.3 WordTest (Fatih EREL)",
+   "desc": "Özel yayın 3.ünite kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1hJQ-g96_tK8v0wFQJ_eYNaYywwLYN4G6/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.3 MEB WordMatching (Fatih EREL)",
+   "desc": "MEB yayını 3.ünite kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/18hlJ9xlSxeY9ba2PzFLfN9LOeBdHI8fj/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.3 MEB WordTest (Fatih EREL)",
+   "desc": "MEB yayını 3.ünite kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/17u0luu41iGst4Eut2MHqZWxvVtwdyRsu/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "UNIT 3 MASH-UP 3 (CANBAY)",
+   "desc": "Test & worksheet",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1D4ZquPkPsFynz15Ce1uvTpmiusdhj4pV/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "Grade 8 In the Kitchen multiple choice by İpek SINANMIŞ",
+   "desc": "8. sınıf unit  In the Kitchen multiple choice test",
+   "by": "Feyzateacher35",
+   "link": "https://drive.google.com/file/d/1WWSoaIbRDlgQyUysDrgloN8FNELNDPJR/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
    "title": "In The Kitchen",
    "desc": "8th Grade Unit 3",
    "by": "elifozcan",
    "link": "https://drive.google.com/file/d/1on58Ov_cvK6hsI_JmyJvvFxEnkiRGht8/view?usp=drivesdk",
    "type": "worksheet"
+  },
+  {
+   "title": "100 SORULUK KELİME ANLAM TESTİ-UNIT 3 (CANBAY & CANBAY)",
+   "desc": "3. ünite kelimelerini içeren kelime anlam testi. Hazırlayanlar: İlyas Canbay ve Gönül Canbay.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1PeRSFZwK18dxtEqeprNn0buJfcNSiBwm/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "8.3 In the Kitchen (Ipek Sinanmis)",
+   "desc": "",
+   "by": "ipeksinanmis",
+   "link": "https://drive.google.com/file/d/1WWSoaIbRDlgQyUysDrgloN8FNELNDPJR/view?usp=drivesdk",
+   "type": "quiz"
   },
   {
    "title": "8. SINIF İNGİLİZCE 3. ÜNİTE KOLAY KELİME EZBERLEME ETKİNLİĞİ / KELİME KARTLARI İNDİR",

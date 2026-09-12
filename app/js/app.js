@@ -180,7 +180,7 @@ async function unitScreen(gid, uid) {
          unit.counts.games ? `${unit.counts.games} soruluk oyun havuzu` : "Sharpshooter ve ünite kelime oyunları",
          `#/${gid}/${uid}/oyunlar`,
          unit.has.games, "Bu ünite için oyun verisi yok."),
-      mk("📄", "ÇALIŞMA KÂĞITLARI", `${unit.counts.worksheetLinks || 0} bağlantı · İnternet gerekli`, `#/${gid}/${uid}/calisma`,
+      mk("📄", "ÇALIŞMA KÂĞITLARI", `${(unit.counts.worksheetLinks || 0) + (unit.counts.worksheets || 0)} bağlantı · İnternet gerekli`, `#/${gid}/${uid}/calisma`,
          unit.has.worksheets, "Bu ünite için çalışma kâğıdı yok."),
       mk("📚", "KİTAP SUNUMLARI", `${unit.books || 0} kaynak sunumu`, `#/${gid}/${uid}/kitap`,
          (unit.books || 0) > 0, "Bu ünite için kitap sunumu yok."),

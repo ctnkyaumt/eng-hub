@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11 12:55",
+ "generated": "2026-09-12 13:09",
  "grades": [
   {
    "id": "g5",
@@ -48,9 +48,9 @@
      "counts": {
       "games": 158,
       "worksheets": 0,
-      "worksheetLinks": 13,
+      "worksheetLinks": 18,
       "offlineSites": 1,
-      "sourceWorksheets": 8,
+      "sourceWorksheets": 13,
       "sourceGames": 4
      }
     },
@@ -72,9 +72,9 @@
      "counts": {
       "games": 428,
       "worksheets": 0,
-      "worksheetLinks": 10,
+      "worksheetLinks": 18,
       "offlineSites": 1,
-      "sourceWorksheets": 10,
+      "sourceWorksheets": 18,
       "sourceGames": 20
      }
     },
@@ -96,9 +96,9 @@
      "counts": {
       "games": 0,
       "worksheets": 0,
-      "worksheetLinks": 9,
+      "worksheetLinks": 15,
       "offlineSites": 4,
-      "sourceWorksheets": 9,
+      "sourceWorksheets": 15,
       "sourceGames": 0
      }
     },
@@ -120,9 +120,9 @@
      "counts": {
       "games": 128,
       "worksheets": 0,
-      "worksheetLinks": 6,
+      "worksheetLinks": 11,
       "offlineSites": 3,
-      "sourceWorksheets": 6,
+      "sourceWorksheets": 11,
       "sourceGames": 8
      }
     },
@@ -144,9 +144,9 @@
      "counts": {
       "games": 176,
       "worksheets": 0,
-      "worksheetLinks": 5,
+      "worksheetLinks": 10,
       "offlineSites": 2,
-      "sourceWorksheets": 5,
+      "sourceWorksheets": 10,
       "sourceGames": 8
      }
     },
@@ -168,9 +168,9 @@
      "counts": {
       "games": 540,
       "worksheets": 0,
-      "worksheetLinks": 4,
+      "worksheetLinks": 11,
       "offlineSites": 2,
-      "sourceWorksheets": 4,
+      "sourceWorksheets": 11,
       "sourceGames": 16
      }
     },
@@ -182,7 +182,7 @@
      "titleTr": "Doğada Hayat",
      "emoji": "🌳",
      "sourceUnitId": 325,
-     "onlineGames": 38,
+     "onlineGames": 39,
      "books": 4,
      "has": {
       "presentation": true,
@@ -192,9 +192,9 @@
      "counts": {
       "games": 304,
       "worksheets": 0,
-      "worksheetLinks": 4,
+      "worksheetLinks": 7,
       "offlineSites": 2,
-      "sourceWorksheets": 4,
+      "sourceWorksheets": 7,
       "sourceGames": 8
      }
     },
@@ -216,9 +216,9 @@
      "counts": {
       "games": 0,
       "worksheets": 0,
-      "worksheetLinks": 3,
+      "worksheetLinks": 6,
       "offlineSites": 0,
-      "sourceWorksheets": 3,
+      "sourceWorksheets": 6,
       "sourceGames": 0
      }
     }
@@ -461,7 +461,7 @@
      "emoji": "🧑‍🎤",
      "sourceUnitId": 357,
      "onlineGames": 37,
-     "books": 6,
+     "books": 5,
      "has": {
       "presentation": false,
       "games": true,
@@ -470,9 +470,9 @@
      "counts": {
       "games": 384,
       "worksheets": 0,
-      "worksheetLinks": 28,
+      "worksheetLinks": 33,
       "offlineSites": 0,
-      "sourceWorksheets": 6,
+      "sourceWorksheets": 11,
       "sourceGames": 8
      }
     },
@@ -494,9 +494,9 @@
      "counts": {
       "games": 1018,
       "worksheets": 0,
-      "worksheetLinks": 17,
+      "worksheetLinks": 19,
       "offlineSites": 0,
-      "sourceWorksheets": 4,
+      "sourceWorksheets": 6,
       "sourceGames": 30
      }
     },
@@ -518,9 +518,9 @@
      "counts": {
       "games": 432,
       "worksheets": 0,
-      "worksheetLinks": 26,
+      "worksheetLinks": 28,
       "offlineSites": 0,
-      "sourceWorksheets": 4,
+      "sourceWorksheets": 6,
       "sourceGames": 12
      }
     },
@@ -542,9 +542,9 @@
      "counts": {
       "games": 510,
       "worksheets": 0,
-      "worksheetLinks": 20,
+      "worksheetLinks": 23,
       "offlineSites": 0,
-      "sourceWorksheets": 7,
+      "sourceWorksheets": 10,
       "sourceGames": 24
      }
     },
@@ -566,9 +566,9 @@
      "counts": {
       "games": 168,
       "worksheets": 0,
-      "worksheetLinks": 6,
+      "worksheetLinks": 9,
       "offlineSites": 0,
-      "sourceWorksheets": 2,
+      "sourceWorksheets": 5,
       "sourceGames": 8
      }
     },
@@ -590,9 +590,9 @@
      "counts": {
       "games": 200,
       "worksheets": 0,
-      "worksheetLinks": 21,
+      "worksheetLinks": 23,
       "offlineSites": 0,
-      "sourceWorksheets": 8,
+      "sourceWorksheets": 10,
       "sourceGames": 8
      }
     },
@@ -614,9 +614,9 @@
      "counts": {
       "games": 212,
       "worksheets": 0,
-      "worksheetLinks": 9,
+      "worksheetLinks": 11,
       "offlineSites": 1,
-      "sourceWorksheets": 4,
+      "sourceWorksheets": 6,
       "sourceGames": 8
      }
     },
@@ -638,9 +638,9 @@
      "counts": {
       "games": 384,
       "worksheets": 0,
-      "worksheetLinks": 6,
+      "worksheetLinks": 9,
       "offlineSites": 0,
-      "sourceWorksheets": 2,
+      "sourceWorksheets": 5,
       "sourceGames": 8
      }
     },
@@ -662,9 +662,9 @@
      "counts": {
       "games": 376,
       "worksheets": 0,
-      "worksheetLinks": 9,
+      "worksheetLinks": 13,
       "offlineSites": 0,
-      "sourceWorksheets": 4,
+      "sourceWorksheets": 8,
       "sourceGames": 8
      }
     },
@@ -686,9 +686,9 @@
      "counts": {
       "games": 0,
       "worksheets": 0,
-      "worksheetLinks": 5,
+      "worksheetLinks": 7,
       "offlineSites": 0,
-      "sourceWorksheets": 2,
+      "sourceWorksheets": 4,
       "sourceGames": 0
      }
     }
@@ -717,9 +717,9 @@
      "counts": {
       "games": 660,
       "worksheets": 0,
-      "worksheetLinks": 22,
+      "worksheetLinks": 51,
       "offlineSites": 7,
-      "sourceWorksheets": 2,
+      "sourceWorksheets": 31,
       "sourceGames": 14
      }
     },
@@ -741,9 +741,9 @@
      "counts": {
       "games": 384,
       "worksheets": 0,
-      "worksheetLinks": 22,
+      "worksheetLinks": 42,
       "offlineSites": 2,
-      "sourceWorksheets": 2,
+      "sourceWorksheets": 22,
       "sourceGames": 8
      }
     },
@@ -765,9 +765,9 @@
      "counts": {
       "games": 930,
       "worksheets": 0,
-      "worksheetLinks": 27,
+      "worksheetLinks": 41,
       "offlineSites": 3,
-      "sourceWorksheets": 3,
+      "sourceWorksheets": 17,
       "sourceGames": 24
      }
     },
@@ -789,9 +789,9 @@
      "counts": {
       "games": 1070,
       "worksheets": 0,
-      "worksheetLinks": 21,
+      "worksheetLinks": 35,
       "offlineSites": 2,
-      "sourceWorksheets": 1,
+      "sourceWorksheets": 15,
       "sourceGames": 29
      }
     },
@@ -813,9 +813,9 @@
      "counts": {
       "games": 954,
       "worksheets": 0,
-      "worksheetLinks": 19,
+      "worksheetLinks": 27,
       "offlineSites": 2,
-      "sourceWorksheets": 2,
+      "sourceWorksheets": 10,
       "sourceGames": 24
      }
     },
@@ -837,9 +837,9 @@
      "counts": {
       "games": 776,
       "worksheets": 0,
-      "worksheetLinks": 13,
+      "worksheetLinks": 21,
       "offlineSites": 2,
-      "sourceWorksheets": 2,
+      "sourceWorksheets": 10,
       "sourceGames": 20
      }
     },
@@ -861,9 +861,9 @@
      "counts": {
       "games": 752,
       "worksheets": 0,
-      "worksheetLinks": 16,
+      "worksheetLinks": 25,
       "offlineSites": 2,
-      "sourceWorksheets": 1,
+      "sourceWorksheets": 10,
       "sourceGames": 16
      }
     },
@@ -885,9 +885,9 @@
      "counts": {
       "games": 624,
       "worksheets": 0,
-      "worksheetLinks": 16,
+      "worksheetLinks": 29,
       "offlineSites": 4,
-      "sourceWorksheets": 1,
+      "sourceWorksheets": 14,
       "sourceGames": 16
      }
     },
@@ -909,9 +909,9 @@
      "counts": {
       "games": 764,
       "worksheets": 0,
-      "worksheetLinks": 12,
+      "worksheetLinks": 22,
       "offlineSites": 4,
-      "sourceWorksheets": 2,
+      "sourceWorksheets": 12,
       "sourceGames": 16
      }
     },
@@ -933,9 +933,9 @@
      "counts": {
       "games": 0,
       "worksheets": 0,
-      "worksheetLinks": 7,
+      "worksheetLinks": 15,
       "offlineSites": 2,
-      "sourceWorksheets": 0,
+      "sourceWorksheets": 8,
       "sourceGames": 0
      }
     }

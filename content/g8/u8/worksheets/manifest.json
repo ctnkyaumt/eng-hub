@@ -1,6 +1,97 @@
 {
  "items": [
   {
+   "title": "8.8 WordMatching (Fatih EREL)",
+   "desc": "8.sınıf 8.ünite CHORES özel yayın kitabı kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1AeMS1TXZWslRdNLAu9YuFSCRZfGZna2O/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.8 MEB WordMatching (Fatih EREL)",
+   "desc": "8.sınıf 8.ünite CHORES MEB kitabı kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1TvnkjPw0Vs3mIuZm7J1AEDqKC_KTBxQR/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.8 WordTest (Fatih EREL)",
+   "desc": "8.sınıf 8.ünite CHORES özel yayın kitabı kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1JFA1VckwBdHl4EQvvVdOGOumKtm9vVn3/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.8 MEB WordTest (Fatih EREL)",
+   "desc": "8.sınıf 8.ünite CHORES MEB kitabı kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/17-JnCogYydRfOAwUc9uMA4dGdjoLtQJW/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "7 LGS practice tests in memory of İLBER ORTAYLI (Fatih SAYILAN)",
+   "desc": "İngilizce Öğretmeni Fatih SAYILAN tarafından hazırlanan 7 LGS deneme. 10 üniteyi kapsar.",
+   "by": "icanbay",
+   "link": "https://drive.google.com/file/d/1FT_6-VmLDilWq1AzCoBNjsaVAZX1Jfwz/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "[Sunum] 7 LGS practice tests in memory of İLBER ORTAYLI (Fatih SAYILAN)",
+   "desc": "Fatih Sayılan'ın İlber Ortaylı anısına hazırladığı LGS hazırlık testlerinin akıllı tahta sunumudur. 10 üniteyi kapsar.",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/fatih/tests/",
+   "type": "quiz"
+  },
+  {
+   "title": "Grades 8 Unit 7&8 WordTest 100 Questions (Fatih EREL)",
+   "desc": "Tourism ve Chores ünitesine ait toplam 100 kelimeden oluşan kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1GSNNXP-wGVRK7SvqpXm6dMmhk9Vwv8Lk/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "LGS ÇIKMIŞ SORULAR (7&8.Ünite) (Fatih EREL)",
+   "desc": "2018-2025 arası LGS'de sorulan Tourism ve Chores üniteleri ile ilgili tüm sorular kağıt ve toner dostu şekilde karşınızda.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1zbPjkdZP0mYtGnpxaX3xVmU_zFj25EyF/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8. Ünite Testler Akıllı Tahta Sunumu (Canbay)",
+   "desc": "8. Ünite Testler Akıllı Tahta",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/sunu/unit8/",
+   "type": "quiz"
+  },
+  {
+   "title": "8. Ünite 1. Test PDF (CANBAY)",
+   "desc": "Gönül ve İlyas CANBAY tarafından hazırlanan 8. ünite test-1.",
+   "by": "icanbay",
+   "link": "https://drive.google.com/file/d/1HB4RB_4FPzghyVB-pcXBGqjk5ByhSPEs/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "Unit 8 Word Meaning Test (İlyas CANBAY)",
+   "desc": "8. ünite 50 soruluk kelime anlam testi (CANBAY)",
+   "by": "icanbay",
+   "link": "https://drive.google.com/file/d/13HcJblMU-KsteeTJ_LlhLQ1bU7-UDH7G/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "Context-Based Vocabulary Test PDF - (İlyas CANBAY)",
+   "desc": "8. ünite bağlama dayalı kelime testi. (CANBAY)",
+   "by": "icanbay",
+   "link": "https://drive.google.com/file/d/1nQvwlV2HbrXPLSBqC9AKv_GLyu9-OTDf/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "İnteraktif Revision Testler",
+   "desc": "Çeşitli ünitelerden karışık İnteraktif Revision Testler",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/revision/",
+   "type": "quiz"
+  },
+  {
    "title": "8th grade Chores",
    "desc": "Chores worksheet",
    "by": "elifozcan",

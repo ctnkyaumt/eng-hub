@@ -12,8 +12,10 @@ parsed = source_units([{"title": "6. Sınıf", "units": [{"title": "1. TEMA", "i
 assert parsed[6][1]["id"] == 337 and parsed[7][10]["id"] == 10
 ws, off, online, extras, books = classify([
     {"type": "book-presentation", "previewLink": "https://example.com/current-book", "title": "Book"},
-    {"type": "worksheet", "link": "https://wordwall.net/resource/123", "title": "Game"}])
-assert not ws and len(online) == 1 and books[0]["link"].endswith("current-book")
+    {"type": "worksheet", "link": "https://wordwall.net/resource/123", "title": "Game"},
+    {"type": "quiz", "link": "/uploads/test.pdf", "title": "Unit Test"}])
+assert len(ws) == 1 and ws[0]["type"] == "quiz" and ws[0]["link"].startswith("https://eltarena.com")
+assert len(online) == 1 and books[0]["link"].endswith("current-book")
 
 with tempfile.TemporaryDirectory(dir=Path(__file__).resolve().parents[1]) as tmp:
     root = Path(tmp)

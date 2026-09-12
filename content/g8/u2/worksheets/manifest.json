@@ -1,6 +1,48 @@
 {
  "items": [
   {
+   "title": "2. Ünite 1. Kelime Testi (Canbay&Canbay)",
+   "desc": "Bağlama dayalı çoktan seçmeli kelime testi",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1J1KqN6zOiPAxZCmEU-D0iBi47b9tGZnv/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "2. Ünite 2. Kelime Testi (Canbay&Canbay)",
+   "desc": "Bağlama dayalı çoktan seçmeli kelime testi",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1XulNXVDWOeYrUGF7Sp4v_t2UL6LGGLRe/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "2. Ünite 1. Deneme (Canbay&Canbay)",
+   "desc": "8. Sınıf 2. Ünite 10 soruluk deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1M6sGUp-9IBYKlyTQ_jkcOrdMYgqvAuAS/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "2. Ünite 2. Deneme (Canbay&Canbay)",
+   "desc": "8. Sınıf 2. Ünite 10 soruluk deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1Dz7wbfgwAahFCs4vvaOp6UOZ2ETKOp65/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "2. Ünite 3. Deneme ( Canbay&Canbay)",
+   "desc": "8. Sınıf 2. Ünite 10 soruluk deneme",
+   "by": "gcanbay",
+   "link": "https://drive.google.com/file/d/1-1N2ojOMm5PPTl8mY6bKCLyVOtKn6D9g/view?usp=drivesdk",
+   "type": "quiz"
+  },
+  {
+   "title": "2.ÜNİTE : VOC-TEST by Ercan HAMARAT",
+   "desc": "Ercan HAMARAT tarafından hazırlanan 2.Ünite Kelime Testi",
+   "by": "Teacher07",
+   "link": "https://eltarena.com/uploads/materials/1756509156699_VOC_TEST_2_by_Ercan_HAMARAT.pdf",
+   "type": "quiz"
+  },
+  {
    "title": "8th Grade Teen Life Lgs Tipe Elif Nur",
    "desc": "Lgs Smart Notes",
    "by": "elifozcan",
@@ -8,11 +50,109 @@
    "type": "worksheet"
   },
   {
+   "title": "2. Ünite Testler Akıllı Tahta Sunumları (Gönül & İlyas Canbay)",
+   "desc": "Gönül Canbay ve İlyas Canbay tarafından yazılan 2. Ünite testlerinin yer aldığı akıllı tahta sunumudur. Yeni testler hazırladıkça güncellenecektir. Akıllı tahta sunumu Fatih Sayılan tarafından hazırlanmıştır.",
+   "by": "Sistem",
+   "link": "https://canbay.netlify.app/sunu/unit2/",
+   "type": "quiz"
+  },
+  {
+   "title": "2. Ünite Mash-Up (İlyas Canbay)",
+   "desc": "2. Üniteye özel Yeni Nesil LGS soruları ve kelime alıştırmaları içerir.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1ofaa3hroaegok3hhBoKLdSsXeOmqXar9/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "40 SORULUK 2. Ünite 3. Kelime Testi (İlyas Canbay & Gönül Canbay)",
+   "desc": "8. sınıf ders kitaplarında geçen önemli kelimeleri bağlama dayalı olarak sorduğumuz 40 soru pdf formatında ve akıllı tahta sunumu mevcut.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1rTXZ84LANGKvOPIFeJe_-7zpoNXPVMbi/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "WORD MEANING TEST - 1 [50 QUESTIONS] (CANBAY & CANBAY)",
+   "desc": "2. Ünite 50 soruluk kelime anlam testi...",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1xtdXE5qwWELYYad2gWd8H0AMiYEuhniO/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "8.2 WordMatching (Fatih EREL)",
+   "desc": "8.sınıf özel yayın kitabı 2.ünitesine ait kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1Vbs2AOkqtJzL2EMH1alKrK-MoxZlv2a9/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.2 MebWordMatching (Fatih EREL)",
+   "desc": "8.sınıf MEB kitabı 2.ünitesine ait kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1zGrCNO22dzaVqHASzDpcjP1ZyBTPngsc/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.2 WordTest (Fatih EREL)",
+   "desc": "8.sınıf özel yayın kitabı 2.ünitesine ait kelimelerle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/10sOA8JBDo4c6peSOAtQsaWzHGXd2Oa__/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.2 MebWordTest (Fatih EREL)",
+   "desc": "8.sınıf MEB kitabı 2.ünitesine ait kelimelerle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1NDhroJ8f9QDgXwWO-lPlVoZnVrwluqIv/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.2 Teen Life - Reading Charts, Graphs and Diagrams (Fatih EREL)",
+   "desc": "Tablo, grafik ve şema okuma üzerine hazırlanmış kapsamlı bir çalışma. Mutlaka inceleyiniz.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1QvW-c-ZzgynaHzaUCyEUxyBLQmocxhAK/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "WORD MEANING TEST - 2 [50 QUESTIONS] (CANBAY & CANBAY)",
+   "desc": "2. Ünite 50 soruluk İngilizce-Türkçe kelime anlam testi.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1p04M5B4DrwwEjta3bQIKNbrHb2BNDpV8/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "LGS İngilizce 1. ve 2.ünite çıkmış sorular (Fatih EREL)",
+   "desc": "2018-2025 yılları arasında LGS İngilizcede sorulan 1. ve 2.ünite ile ilgili tüm soruları kağıt dostu şekilde bulabileceğiniz bir içerik.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1AuUDuh177gbaelYW863u6Zdg_Vwdk40e/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8. 1&2 WordTest 100 Questions (Fatih EREL)",
+   "desc": "8.sınıf 1. ve 2.ünite kelimeleri ile hazırlanmış 100 sorudan oluşan kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1AOLB_OumPQVTKbgcig1EI_0XARE5OPiP/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
    "title": "Unit 2 Teen Life Vocabulary List (Selçuk ÇABRİ)",
    "desc": "Unit 2 Teen Life Vocabulary List",
    "by": "selcukcabri",
    "link": "https://eltarena.com/uploads/materials/1760978076211_UNIT_2_TEEN_LIFE_VOCABULARY_LIST__1_.pdf",
    "type": "worksheet"
+  },
+  {
+   "title": "REVISION TEST 1 (İLYAS CANBAY & GÖNÜL CANBAY)",
+   "desc": "1. ve 2. ünite karışık revision test.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1pbMntQUBMSlxarveOrze3Q5-9JU5ZYR6/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "REVISION TEST 2 (İLYAS CANBAY & GÖNÜL CANBAY)",
+   "desc": "1. ve 2. ünite karışık revision test.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1HUtAiEVkHeMs6SEv8hssizBwykeUY5Wp/view?usp=sharing",
+   "type": "quiz"
   },
   {
    "title": "8. SINIF İNGİLİZCE 2. ÜNİTE KELİMELERİ ÇALIŞMA KAĞIDI ETKİNLİK TEST (by Okan GULTEKIN)",

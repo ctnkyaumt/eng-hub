@@ -1,6 +1,20 @@
 {
  "items": [
   {
+   "title": "5.6 WordMatching (Fatih EREL)",
+   "desc": "5.sınıf 6.tema kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1hpUxYNt_Htny5zLRYa9YCOMKHTj1ckUr/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "5.6 WordTest (Fatih EREL)",
+   "desc": "5.sınıf 6.tema kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1uXXAuSZxl11QYLGBB4DpRHEo-2_YYzri/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
    "title": "5th Grade Theme 6 Worksheet (Elif Nur)",
    "desc": "5th Grade Theme 6 Worsheet",
    "by": "elifozcan",
@@ -22,11 +36,46 @@
    "type": "worksheet"
   },
   {
+   "title": "Interactive Vocabulary Quiz (Canbay)",
+   "desc": "Kelime testi.",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/year5/sunu/theme6/vocab1",
+   "type": "quiz"
+  },
+  {
+   "title": "Interactive Practice Test (CANBAY)",
+   "desc": "Theme 6 Practice Test",
+   "by": "icanbay",
+   "link": "https://canbayelt.com/year5/sunu/theme6/test1",
+   "type": "quiz"
+  },
+  {
    "title": "Theme 6 Worksheet PDF (Gönül CANBAY)",
    "desc": "6. Tema Çalışma Kağıdı (CANBAY)",
    "by": "icanbay",
    "link": "https://drive.google.com/file/d/1Q0_2JGxwAUpjdtkEzd8OLR6gViYLa-mT/view",
    "type": "worksheet"
+  },
+  {
+   "title": "Theme 6 Test PDF - (Gönül CANBAY)",
+   "desc": "6. Tema Test (CANBAY)",
+   "by": "icanbay",
+   "link": "https://drive.google.com/file/d/1Pv6Taf0WNGIJJM_R-aiCl5MjooihYlIL/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "Theme 6 Life In The World - Kelime Testi (İbrahim COŞKUN)",
+   "desc": "",
+   "by": "elt.ibrahimcoskun",
+   "link": "https://drive.google.com/file/d/1jp10-GOLoSbJPvWJRTrICId5S8NmBePZ/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "Theme 6 Life In The World - Resim Testi (İbrahim COŞKUN)",
+   "desc": "",
+   "by": "elt.ibrahimcoskun",
+   "link": "https://drive.google.com/file/d/1Hr_uclR7Mkm5TNgpcED7hqAvm9iNpnJT/view?usp=sharing",
+   "type": "quiz"
   }
  ]
 }

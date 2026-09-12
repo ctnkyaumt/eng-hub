@@ -1,4 +1,4 @@
-/* Original worksheets are local; imported resources open at their source. */
+/* All worksheets and tests open online or require internet. */
 import { getUnit, getWorksheets, unitPath } from "./store.js";
 import { el, setCrumbs } from "./ui.js";
 
@@ -10,56 +10,54 @@ export async function worksheetList(gid, uid, screen) {
     { label: "Ana Menü", hash: "#/" },
     { label: grade.title, hash: `#/${gid}` },
     { label: unitLabel, hash: `#/${gid}/${uid}` },
-    { label: "Çalışma Kâğıtları" },
+    { label: "Çalışma Kâğıtları ve Testler" },
   ]);
 
-  const local = (man.items || []).filter((i) => i.authored && i.file);
-  const remote = (man.items || []).filter((i) => i.link && !local.includes(i));
+  const items = man.items || [];
 
   const hero = el("div", { class: "hero" }, [
     el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · ${unit.title}` }),
-    el("h1", { text: "Çalışma Kâğıtları" }),
-    el("p", { text: local.length
-      ? "Özgün çalışma kâğıtlarını açıp yazdırabilirsiniz. Öğretmen anahtarları ayrı dosyadadır; internet gerekmez."
-      : "Tüm çalışma kâğıtları kaynak sitede açılır — internet bağlantısı gerekir." }),
+    el("h1", { text: "Çalışma Kâğıtları ve Testler" }),
+    el("p", { text: "Tüm çalışma kâğıtları ve testler için internet bağlantısı gerekir." }),
   ]);
 
   const parts = [hero];
 
-  if (!remote.length && !local.length) {
+  if (!items.length) {
     parts.push(el("div", { class: "empty" }, [
       el("span", { class: "emoji", text: "📭" }),
-      el("p", { text: "Bu ünite için çalışma kâğıdı bulunamadı." }),
+      el("p", { text: "Bu ünite için çalışma kâğıdı veya test bulunamadı." }),
     ]));
-  }
+  } else {
+    const isQuiz = (it) => it.type === "quiz" || (!it.type && /\b(test|quiz|deneme)\b/i.test(it.title || ""));
+    const quizzes = items.filter(isQuiz);
+    const worksheets = items.filter((it) => !isQuiz(it));
 
-  if (local.length) {
-    parts.push(el("h2", { class: "section-title", text: `Özgün materyaller · Çevrimdışı (${local.length})` }));
-    parts.push(el("div", { class: "list" }, local.map((it) =>
-      el("button", { class: "row", onclick: () => window.open(
-        `${unitPath(gid, uid)}/worksheets/${encodeURIComponent(it.file)}`, "_blank", "noopener") }, [
-        el("span", { class: "ic", text: "📄" }),
-        el("div", { class: "txt" }, [
-          el("b", { text: it.title }),
-          el("small", { text: [it.desc, it.by].filter(Boolean).join(" · ") }),
-        ]),
-        el("span", { class: "go", text: "↗" }),
-      ])
-    )));
-  }
+    const openResource = (it) => {
+      if (it.link) {
+        window.open(it.link, "_blank", "noopener");
+      } else if (it.file) {
+        window.open(`${unitPath(gid, uid)}/worksheets/${encodeURIComponent(it.file)}`, "_blank", "noopener");
+      }
+    };
 
-  if (remote.length) {
-    parts.push(el("h2", { class: "section-title", text: `İnternet gerekli (${remote.length})` }));
-    parts.push(el("div", { class: "list" }, remote.map((it) =>
-      el("button", { class: "row", onclick: () => window.open(it.link, "_blank", "noopener") }, [
-        el("span", { class: "ic", text: "🌐" }),
-        el("div", { class: "txt" }, [
-          el("b", { text: it.title }),
-          el("small", { text: it.by ? "Hazırlayan: " + it.by : "" }),
-        ]),
-        el("span", { class: "go", text: "↗" }),
-      ])
-    )));
+    const renderList = (title, list, icon) => {
+      if (!list.length) return;
+      parts.push(el("h2", { class: "section-title", text: `${title} · İnternet gerekli (${list.length})` }));
+      parts.push(el("div", { class: "list" }, list.map((it) =>
+        el("button", { class: "row", onclick: () => openResource(it) }, [
+          el("span", { class: "ic", text: icon }),
+          el("div", { class: "txt" }, [
+            el("b", { text: it.title }),
+            el("small", { text: [it.desc, it.by ? (it.by.startsWith("Hazırlayan:") ? it.by : "Hazırlayan: " + it.by) : null].filter(Boolean).join(" · ") }),
+          ]),
+          el("span", { class: "go", text: "↗" }),
+        ])
+      )));
+    };
+
+    renderList("Çalışma Kâğıtları", worksheets, "📄");
+    renderList("Testler ve Quizler", quizzes, "📝");
   }
 
   screen.replaceChildren(...parts);

@@ -1,6 +1,20 @@
 {
  "items": [
   {
+   "title": "5. Ünite 1. Deneme (Canbay & Canbay)",
+   "desc": "8. Sınıf 5. Ünite 1. Deneme \n10 soruluk ücretsiz ünite denemesidir.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1PtJixJYFSbiApnXgod4nli8eesYNg7xl/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
+   "title": "5. Ünite 2. Deneme (Canbay & Canbay)",
+   "desc": "8. sınıf 5. ünite 2. deneme sınavı \n10 soruluk yeni nesil sorulardan oluşan ünite denemesidir.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1SpW3-nbsttDTOAsUJWYKxplBlwxVPc82/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
    "title": "8th Grade The Internet (Elif Nur Özcan)",
    "desc": "The Internet Worksheet",
    "by": "elifozcan",
@@ -8,11 +22,53 @@
    "type": "worksheet"
   },
   {
+   "title": "8.5 WordTest (Fatih EREL)",
+   "desc": "8.sınıf 5.ünite (The Internet) özel yayın kitabı kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1KfndtR4dXSMN1B7jW2GJC1DcBZGIgED_/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.5 MEB WordTest (Fatih EREL)",
+   "desc": "8.sınıf 5.ünite (The Internet) MEB kitabı kelimeleriyle hazırlanmış kelime testi.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1zjCzhEXjb8aB6KgTMV4iv1ofkKY1MaSt/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.5 WordMatching (Fatih EREL)",
+   "desc": "8.sınıf 5.ünite (The Internet) özel yayın kitabı kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1x1nCUTyLpkp_Q8cThSydGKyaYTFV13Mq/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "8.5 MEB WordMatching (Fatih EREL)",
+   "desc": "8.sınıf 5.ünite (The Internet) MEB kitabı kelimeleriyle hazırlanmış kelime eşleştirme çalışması.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1xFOGnlQzoVAtvfnXCuZS5MwHzRN5Y0GZ/view?usp=drive_link",
+   "type": "quiz"
+  },
+  {
+   "title": "5. Ünite 3. Deneme (Canbay & Canbay)",
+   "desc": "Canbaylar tarafından hazırlanan 5. ünite 3. denemedir.",
+   "by": "Sistem",
+   "link": "https://drive.google.com/file/d/1ylt8lNJRbYr16sXv9Muoxt-Z1B_2p8By/view?usp=sharing",
+   "type": "quiz"
+  },
+  {
    "title": "8TH GRADES UNIT 5 THE INTERNET - ÖNEMLİ KELİMELER (Selçuk ÇABRİ)",
    "desc": "8TH GRADES UNIT 5 THE INTERNET - ÖNEMLİ KELİMELER (Selçuk ÇABRİ)",
    "by": "selcukcabri",
    "link": "https://eltarena.com/uploads/materials/1766407660157_8TH_GRADES_UNIT_5_VOCABULARY_LIST__2025-2026__.pdf",
    "type": "worksheet"
+  },
+  {
+   "title": "8.Sınıf İlk 5 Ünite Kelime Testi 100 Soru (Fatih EREL)",
+   "desc": "Her 20 kelimede bir ünite değişir. İlk 5 ünite kelimelerini tekrar etmek için kullanılabilir. 2025-2026 müfredatı ile uyumludur.",
+   "by": "eltfatihhoca",
+   "link": "https://drive.google.com/file/d/1cGHeJEBQYq9PSDBFEVuZqoyw2FlHaDKD/view?usp=drive_link",
+   "type": "quiz"
   },
   {
    "title": "8. SINIF İNGİLİZCE 5. ÜNİTE ÇALIŞMA KAĞIDI ETKİNLİK İNDİR by RAMAZAN CEYLAN",
