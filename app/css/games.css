@@ -1,4 +1,6 @@
 @import url("./sharpshooter.css");
+@import url("./arcade.css");
+@import url("./tower.css");
 /* ENG HUB - game engine styles --------------------------------------------- */
 
 .game-frame { display: flex; flex-direction: column; gap: 18px; min-height: 62vh; }
@@ -93,24 +95,6 @@
 .tile.slot { border-style: dashed; background: rgba(255,255,255,.04); }
 .tile.ok { background: rgba(74,222,128,.25); border-color: var(--good); }
 .tile.no { background: rgba(251,113,133,.25); border-color: var(--bad); animation: shake .3s; }
-
-/* tower -------------------------------------------------------------------- */
-.tower-wrap { display: flex; gap: 24px; align-items: stretch; flex-wrap: wrap; }
-.tower {
-  width: 140px; flex: 0 0 auto; display: flex; flex-direction: column-reverse; gap: 5px;
-  padding: 12px; border-radius: 18px; background: rgba(255,255,255,.05); border: 1px solid var(--stroke);
-  max-height: 56vh; overflow: hidden; position: relative;
-}
-.tower .floor {
-  height: 26px; border-radius: 8px; flex: 0 0 auto;
-  background: #4f7cff;
-  display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700;
-  animation: rise .35s ease both;
-}
-.tower .climber { font-size: 26px; text-align: center; animation: hop .5s ease; }
-@keyframes rise { from { opacity: 0; transform: translateY(20px) scaleY(.4); } }
-@keyframes hop { 50% { transform: translateY(-14px); } }
-.tower-body { flex: 1 1 340px; display: flex; flex-direction: column; gap: 18px; justify-content: center; }
 
 /* flashcards --------------------------------------------------------------- */
 .fc-stage { display: flex; flex-direction: column; align-items: center; gap: 24px; }

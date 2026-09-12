@@ -1,0 +1,74 @@
+.game-frame.tower-frame { gap: 12px; }
+.tower-frame .hero .kicker { margin-bottom: 0; }
+.tower-frame .stage { padding: 18px; }
+#screen:has(.tower-frame), #screen:has(.arcade-frame) { padding-top: 14px; padding-bottom: 20px; }
+.tower-frame .hud, .arcade-frame .hud { padding: 9px 14px; }
+.tower-wrap { display: grid; grid-template-columns: minmax(260px, .8fr) minmax(0, 1.2fr); gap: 24px; align-items: stretch; }
+.tower-scene { --built: 0; position: relative; height: clamp(400px, calc(100vh - 235px), 560px); overflow: hidden; isolation: isolate; border: 1px solid #395984; border-radius: 22px; background: radial-gradient(ellipse at 50% 65%, #385b89, #172e55 65%, #0c1c38); }
+.tower-scene::before { content: ""; position: absolute; inset: 0; background-image: radial-gradient(#d6ecffb0 1px, transparent 1.5px); background-size: 43px 57px; opacity: .4; }
+.tower-moon { position: absolute; width: 46px; height: 46px; right: 30px; top: 120px; border-radius: 50%; background: #fff2c8; box-shadow: 0 0 45px #fff2c84a; }
+.tower-height { position: absolute; top: 22px; left: 20px; right: 20px; display: flex; flex-direction: column; align-items: flex-start; gap: 4px; z-index: 3; }
+.tower-height b { font-size: 34px; letter-spacing: -1px; }
+.tower-height span { color: #c6d9f1; font-size: 14px; }
+.tower-cloud { position: absolute; height: 19px; width: 85px; border-radius: 50px; background: #b5d4fc1c; }
+.tower-cloud::before { content: ""; position: absolute; bottom: 0; left: 20px; width: 37px; height: 32px; background: inherit; border-radius: 50%; }
+.cloud-one { top: 38%; left: 14px; } .cloud-two { top: 52%; right: -15px; transform: scale(1.3); }
+.tower-skyline { position: absolute; bottom: 35px; left: -10px; right: -10px; height: 130px; display: flex; align-items: flex-end; gap: 9px; opacity: .7; }
+.tower-skyline i { display: block; flex: 1; height: 60%; background: repeating-linear-gradient(0deg, transparent 0 12px, #0e213b 12px 19px), repeating-linear-gradient(90deg, #152b48 0 9px, #5a719455 9px 14px); border-top: 5px solid #183253; }
+.tower-skyline i:nth-child(3n) { height: 100%; } .tower-skyline i:nth-child(2n) { height: 40%; }
+.tower-ground { position: absolute; bottom: 0; left: 0; right: 0; height: 38px; background: linear-gradient(#779b9f 0 3px, #233d4b 3px 10px, #142933 10px); z-index: 3; }
+.tower-building { position: absolute; bottom: 38px; left: 50%; width: 148px; transform: translateX(-50%); z-index: 2; filter: drop-shadow(9px 7px 0 #0c1a3835); }
+.tower-base { height: 38px; display: flex; gap: 18px; align-items: center; justify-content: center; background: linear-gradient(90deg, #6388b3 0 84%, #355681 84%); border: 2px solid #9ac1e0; border-bottom: 0; }
+.tower-base b { display: block; width: 25px; height: 30px; align-self: flex-end; background: linear-gradient(90deg, #172b42 45%, #698daa 46% 53%, #172b42 54%); border: 2px solid #bbd9eb; border-bottom: 0; border-radius: 12px 12px 0 0; }
+.tower-base i { width: 13px; height: 17px; background: #ffda8d; border: 2px solid #486888; }
+.tower-stack { display: flex; flex-direction: column; }
+.tower-floor { height: 22px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; gap: 13px; position: relative; border: 1px solid hsl(var(--floor-hue) 48% 72%); border-bottom: 2px solid hsl(var(--floor-hue) 36% 35%); background: linear-gradient(90deg, hsl(var(--floor-hue) 49% 50%) 0 84%, hsl(var(--floor-hue) 40% 32%) 84%); animation: tower-place .65s cubic-bezier(.25, .8, .35, 1) both; }
+.tower-floor small { position: absolute; left: 4px; font-size: 12px; color: #e1eeff; }
+.tower-floor i { display: block; width: 13px; height: 13px; border: 2px solid #32456888; background: #ffe6a5; box-shadow: 0 0 7px #ffdf9745; }
+.tower-floor:nth-child(3n) i:nth-last-child(2) { background: #456583; box-shadow: none; }
+.tower-roof { position: relative; height: 23px; background: linear-gradient(90deg, #dae7ee 0 84%, #8ca4c3 84%); border: 2px solid #eef7ff; display: flex; justify-content: space-between; align-items: flex-start; padding: 0 8px; }
+.tower-roof i { width: 22px; height: 13px; background: #d1e3f0; border: 2px solid #edf6ff; transform: translateY(-10px); }
+.tower-flag { position: absolute; height: 44px; width: 3px; background: #e6f2ff; bottom: 100%; left: 50%; }
+.tower-flag::before { content: ""; position: absolute; left: 3px; top: 0; width: 34px; height: 20px; background: #ffb953; clip-path: polygon(0 0, 100% 14%, 80% 52%, 100% 95%, 0 85%); }
+.tower-high .tower-flag::before { background: #67edc2; }
+.tower-summit .tower-flag::before { background: #fff1a6; filter: drop-shadow(0 0 5px #ffe98b); }
+.tower-crane { position: absolute; bottom: 38px; right: 9%; width: 12px; height: calc(155px + var(--built) * 22px); max-height: 450px; background: repeating-linear-gradient(45deg, #ad8544 0 4px, transparent 4px 13px); border: 3px solid #d3a051; transition: height .55s ease; opacity: .65; z-index: 1; }
+.tower-crane i { position: absolute; width: 140px; height: 9px; right: -25px; top: -9px; background: repeating-linear-gradient(90deg, #e6b25d 0 3px, #7f633e 3px 12px); border: 2px solid #dfb36f; }
+.tower-crane b { position: absolute; width: 22px; height: 16px; top: 1px; right: 0; border: 3px solid #e5b461; background: #1f3c53; }
+.tower-crane em { position: absolute; top: 0; right: 80px; width: 2px; height: 56px; background: #bfcfe0; }
+.tower-body { min-width: 0; display: flex; flex-direction: column; gap: 16px; justify-content: center; }
+.tower-help { margin: 0; color: var(--ink-dim); font-size: 14px; line-height: 1.6; text-align: center; }
+.tower-question { display: flex; flex-direction: column; gap: 20px; }
+.tower-body .answers { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.tower-body .ans { font-size: 18px; padding: 16px 10px; min-width: 0; overflow-wrap: anywhere; flex-wrap: wrap; }
+.tower-body .ans img { max-width: 100%; object-fit: contain; }
+.tower-body .q-img { max-width: 100%; max-height: 170px; object-fit: contain; }
+.tower-body .q-text { font-size: clamp(22px, 2.7vw, 32px); overflow-wrap: anywhere; }
+.tower-feedback { min-height: 48px; padding: 12px; border-radius: 12px; background: #203044; color: #d4e5f8; font-size: 16px; text-align: center; }
+.tower-added .tower-roof { animation: tower-roof-hop .6s ease; }
+.tower-damage .tower-building { animation: tower-shake .5s ease; }
+.tower-rubble { position: absolute; left: calc(50% - 74px); width: 148px; z-index: 4; pointer-events: none; animation: tower-drop .8s ease-in forwards; }
+.tower-finished .result { align-self: center; padding: 20px 0; }
+@keyframes tower-place { from { transform: translateY(-45px); opacity: 0; } 65% { transform: translateY(3px); opacity: 1; } to { transform: none; } }
+@keyframes tower-roof-hop { 40% { transform: translateY(-14px); } }
+@keyframes tower-shake { 20%, 60% { transform: translateX(calc(-50% - 5px)) rotate(-1deg); } 40%, 80% { transform: translateX(calc(-50% + 5px)) rotate(1deg); } }
+@keyframes tower-drop { to { transform: translate(80px, 130px) rotate(25deg); opacity: 0; } }
+@media (min-width: 761px) and (max-height: 800px) {
+  .tower-building { transform: translateX(-50%) scale(.8); transform-origin: bottom; }
+  .tower-crane { transform: scale(.8); transform-origin: bottom; }
+  .tower-damage .tower-building { animation: none; }
+  .tower-rubble { display: none; }
+}
+@media (max-width: 760px) {
+  .tower-wrap { grid-template-columns: minmax(0, 1fr); gap: 18px; }
+  .tower-scene { height: 370px; }
+  .tower-building { transform: translateX(-50%) scale(.64); transform-origin: bottom; }
+  .tower-crane { transform: scale(.64); transform-origin: bottom; right: 20%; }
+  .tower-moon { top: 90px; }
+  .tower-rubble { display: none; }
+  .tower-damage .tower-building { animation: none; }
+  .tower-frame .stage { padding: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tower-scene * { animation: none !important; transition: none !important; }
+}

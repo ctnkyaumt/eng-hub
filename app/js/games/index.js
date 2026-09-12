@@ -14,6 +14,24 @@ export const MODES = [
     load: () => import("./sharpshooter.js"),
   },
   {
+    id: "balon-patlat", emoji: "🎈", name: "Balon Patlat",
+    desc: "Balonlar kaçmadan doğru kelimeyi patlat. Beş can, bol seri!",
+    needs: (b) => b.words.length >= 4 || b.questions.length >= 4,
+    load: () => import("./arcade.js"),
+  },
+  {
+    id: "kostebek-avi", emoji: "🐹", name: "Köstebek Avı",
+    desc: "Saklanan köstebekleri izle, doğru kelime çıkınca yakala!",
+    needs: (b) => b.words.length >= 4 || b.questions.length >= 4,
+    load: () => import("./arcade.js"),
+  },
+  {
+    id: "uzay-kosusu", emoji: "🚀", name: "Uzay Koşusu",
+    desc: "Gemini yönlendir, doğru kelimenin şeridine geç. Uzaya açıl!",
+    needs: (b) => b.words.length >= 4 || b.questions.length >= 4,
+    load: () => import("./arcade.js"),
+  },
+  {
     id: "hizli-test", emoji: "⚡", name: "Hızlı Test",
     desc: "Süreye karşı çoktan seçmeli. Doğru cevap süre kazandırır.",
     needs: (b) => b.questions.length >= 4,
@@ -39,7 +57,7 @@ export const MODES = [
   },
   {
     id: "kule", emoji: "🏗️", name: "Kule",
-    desc: "Her doğru cevap bir kat. Üç can, ne kadar yükseğe?",
+    desc: "Işıklı kuleni kat kat inşa et, bayrağını göğe taşı. Üç can!",
     needs: (b) => b.questions.length >= 6,
     load: () => import("./tower.js"),
   },
@@ -167,7 +185,7 @@ export async function playGame(gid, uid, mode, screen) {
 
   const mod = await m.load();
   const ctx = {
-    screen, gid, uid, grade, unit, bank,
+    screen, gid, uid, grade, unit, bank, mode,
     title: `${m.emoji} ${m.name} · ${unit.title || (unit.no ? "Ünite " + unit.no : (unit.label || "Revizyon"))}`,
     backHash: `#/${gid}/${uid}/oyunlar`,
     restart: () => mod.start(ctx),
