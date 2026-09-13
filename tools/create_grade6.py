@@ -7,11 +7,9 @@ import argparse
 import copy
 import hashlib
 import json
-import os
 from pathlib import Path
 import random
 import re
-from xml.sax.saxutils import escape
 
 from grade6_content import UNITS
 
@@ -185,131 +183,24 @@ def selected_checks(unit):
 
 
 def make_pdfs(unit, folder):
-    from reportlab.lib import colors
-    from reportlab.lib.enums import TA_LEFT
-    from reportlab.lib.pagesizes import A4
-    from reportlab.lib.styles import ParagraphStyle
-    from reportlab.pdfbase import pdfmetrics
-    from reportlab.pdfbase.ttfonts import TTFont
-    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
-
-    font_dir = Path(os.environ.get("G6_FONT_DIR", "C:/Windows/Fonts"))
-    for name, file in (("G6", "arial.ttf"), ("G6-Bold", "arialbd.ttf")):
-        if name not in pdfmetrics.getRegisteredFontNames():
-            pdfmetrics.registerFont(TTFont(name, str(font_dir / file)))
-    normal = ParagraphStyle("body", fontName="G6", fontSize=10.5, leading=15, spaceAfter=6)
-    small = ParagraphStyle("small", parent=normal, fontSize=9, leading=12)
-    heading = ParagraphStyle("section", fontName="G6-Bold", fontSize=13, leading=17, spaceBefore=12, spaceAfter=8)
-    navy = colors.HexColor("#15344c")
-    width, height = A4
-    def p(text, style=normal):
-        return Paragraph(escape(text).replace("\n", "<br/>"), style)
-    def h(text):
-        return p(text, heading)
-    def lines(count=2):
-        return [p("________________________________________________________________________", small), Spacer(1, 5)] * count
-    def footer(canvas, doc):
-        canvas.saveState()
-        canvas.setFillColor(navy)
-        canvas.setFont("G6-Bold", 10)
-        label = "REVISION 1 & 2" if unit["id"] == "revision" else "THEME " + unit["id"][1:]
-        canvas.drawString(42, height - 34, f"ENG HUB     GRADE 6     {label}")
-        canvas.setFont("G6", 9)
-        canvas.drawString(42, height - 49, unit["title"])
-        canvas.setStrokeColor(navy)
-        canvas.line(42, height - 57, width - 42, height - 57)
-        canvas.setFont("G6", 8)
-        canvas.drawString(42, 28, "Original ENG HUB activities - curriculum aligned; no textbook exercises reproduced.")
-        canvas.drawRightString(width - 42, 28, str(doc.page))
-        canvas.restoreState()
-    def write(name, pages):
-        flow = []
-        for i, page in enumerate(pages):
-            if i:
-                flow.append(PageBreak())
-            flow.extend(page)
-        SimpleDocTemplate(str(folder / name), pagesize=A4, leftMargin=42, rightMargin=42,
-                          topMargin=72, bottomMargin=46, title=unit["title"] + " - " + name,
-                          author=AUTHOR, pageCompression=1, invariant=1).build(flow, onFirstPage=footer, onLaterPages=footer)
-    def student(title):
-        return [h(title), p("Name: ________________________   Class: ______   Date: ______________", small)]
-    checks = selected_checks(unit)
-    half = (len(checks) + 1) // 2
-    def quiz(qs, first=1):
-        result = []
-        for i, q in enumerate(qs, first):
-            options = q["options"][:]
-            random.Random(unit["id"] + str(i)).shuffle(options)
-            result += [p(f"{i}. {q['q']}"), p("    ".join(f"{chr(65+j)}) {o}" for j, o in enumerate(options)), small)]
-        return result
-    all_words = [w for group in unit["groups"] for w in group["items"]]
-    match_words = [group["items"][i] for group in unit["groups"] for i in (0, 1)]
-    right = [w["tr"] for w in match_words]
-    random.Random(unit["id"]).shuffle(right)
-    table = Table([[p(f"{i+1}. {w['en']}  ____"), p(f"{chr(65+i)}. {right[i]}")]
-                   for i, w in enumerate(match_words)], colWidths=[260, width - 344])
-    table.setStyle(TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"),
-                               ("BOTTOMPADDING", (0, 0), (-1, -1), 3)]))
-    a1 = student("Worksheet A - Words and language") + [h("A1. Match the words and meanings."), table,
-          h("A2. Choose the correct answer.")] + quiz(checks[:half])
-    a2 = student("Worksheet A - Reading and writing") + [h("A3. " + unit["storyTitle"]), p(unit["story"])]
-    for i, (q, _) in enumerate(unit["reading"], 1):
-        a2 += [p(f"{i}. {q}")] + lines(1)
-    a2 += [h("A4. True or false? Correct the false statements.")]
-    for statement, _ in unit["truth"]:
-        a2 += [p("T / F    " + statement)]
-    a2 += lines(2) + [h("A5. Your own message"), p(unit["writing"])] + lines(6)
-    b1 = student("Worksheet B - Language workshop") + [h("B1. Choose the correct answer.")] + quiz(checks[half:], half + 1)
-    order = []
-    for g in unit["grammar"]:
-        for en, _ in g["examples"]:
-            en = plain(en)
-            if 4 <= len(en.split()) <= 9 and not en.endswith("?"):
-                order.append(en)
-    order = order[:3]
-    b1 += [h("B2. Put the words in order. Keep the punctuation.")]
-    for sentence in order:
-        tokens = sentence.split()
-        random.Random(sentence).shuffle(tokens)
-        b1 += [p(" / ".join(tokens))] + lines(1)
-    b2 = student("Worksheet B - Listening and speaking") + [h("B3. Listen twice. Complete the notes."),
-          p("Your teacher will read a short message. Write a word, phrase or number.")]
-    for q, _ in unit["listenQs"]:
-        b2 += [p(q + ": _____________________________________________________"), Spacer(1, 10)]
-    b2 += [h("B4. Pair task"), p(unit["speaking"]),
-           p("First make notes. Speak without reading a full script. Then swap roles.")] + lines(5)
-    b2 += [h("B5. Exit ticket"), p("Write two new words in sentences. Then write one question using today's grammar.")] + lines(5)
-    b2 += [p("Self-check: [ ] I used the target language.  [ ] I listened and replied.  [ ] I checked my work.", small)]
-    key1 = [h("Teacher key - Worksheet A"), p("Allow equivalent correct answers. These tasks are original; page references below identify curriculum scope.", small),
-            h("A1. Vocabulary"), p("; ".join(f"{i+1}-{chr(65+right.index(w['tr']))}" for i, w in enumerate(match_words))),
-            h("A2. Language"), p("\n".join(f"{i}. {q['answer']}" for i, q in enumerate(checks[:half], 1))),
-            h("A3. Reading"), p("\n".join(f"{i}. {a}" for i, (_, a) in enumerate(unit["reading"], 1))),
-            h("A4. True or false"), p("\n".join(f"{i}. " + ("True." if a else "False. " + CORRECTIONS[unit["id"]][i]) for i, (s, a) in enumerate(unit["truth"], 1))),
-            h("A5. Sample writing"), p(unit["model"]),
-            p("Writing / 8: task completed 0-2; target grammar 0-2; appropriate vocabulary 0-2; clarity and punctuation 0-2.", small)]
-    key2 = [h("Teacher key - Worksheet B"), h("B1. Language"),
-            p("\n".join(f"{i}. {q['answer']}" for i, q in enumerate(checks[half:], half + 1))),
-            h("B2. Sentence order"), p("\n".join(f"{i}. {s}" for i, s in enumerate(order, 1))),
-            h("B3. Teacher read-aloud script"), p("Read naturally twice. Pause between sentences. Students do not need a recording.", small),
-            p(unit["listening"]), p("\n".join(f"{q}: {a}" for q, a in unit["listenQs"])),
-            h("B4-B5. Speaking and exit ticket"), p("Answers vary. Award 0-2 each for target grammar, relevant vocabulary, responding to a partner and understandable delivery. Accept any correct exit questions and sentences."),
-            h("Curriculum reference"), p(f"MEB English 6 Student's Book (2026), pp. {unit['sb'][0]}-{unit['sb'][1]}. " +
-                (f"Workbook, pp. {unit['wb'][0]}-{unit['wb'][1]}." if unit["wb"] else "Revision 1 and Revision 2; the workbook starts at Theme 1."), small)]
-    write("original-a.pdf", [a1, a2])
-    write("original-b.pdf", [b1, b2])
-    write("original-key.pdf", [key1, key2])
-    return [dict(title=title, file=name, authored=True, curriculum=EDITION, by=AUTHOR, type="worksheet",
-                 desc=desc, size=(folder / name).stat().st_size)
-            for title, name, desc in (("Çalışma Kâğıdı A - Kelime, Dil ve Okuma", "original-a.pdf", "2 sayfa · özgün alıştırmalar"),
-                                      ("Çalışma Kâğıdı B - Dil, Dinleme ve Konuşma", "original-b.pdf", "2 sayfa · özgün alıştırmalar"),
-                                      ("Öğretmen Anahtarı - A ve B", "original-key.pdf", "2 sayfa · cevaplar, dinleme metni ve örnek yazma"))]
+    from grade6_worksheets import make_pdfs as render_pdfs
+    return render_pdfs(unit, folder, selected_checks(unit), CORRECTIONS[unit["id"]], AUTHOR, EDITION)
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--books", type=Path)
-    ap.add_argument("--slides-only", action="store_true", help="Preserve worksheets, banks and catalog; update lessons and alignment only.")
+    modes = ap.add_mutually_exclusive_group()
+    modes.add_argument("--slides-only", action="store_true", help="Preserve worksheets, banks and catalog; update lessons and alignment only.")
+    modes.add_argument("--worksheets-only", action="store_true", help="Update only the three local worksheet PDFs and manifest per Grade 6 theme.")
     args = ap.parse_args()
+    if args.worksheets_only:
+        for unit in UNITS:
+            folder = OUT / unit["id"] / "worksheets"
+            folder.mkdir(parents=True, exist_ok=True)
+            save(folder / "manifest.json", {"items": make_pdfs(unit, folder)})
+            print(f"{unit['id']}: 2 worksheets + teacher key, 6 A4 pages")
+        return
     pictures = existing_pictures()
     sources = []
     if args.books:

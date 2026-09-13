@@ -1,4 +1,4 @@
-/* All worksheets and tests open online or require internet. */
+/* Authored worksheets open locally; linked resources require internet. */
 import { getUnit, getWorksheets, unitPath } from "./store.js";
 import { el, setCrumbs } from "./ui.js";
 
@@ -14,11 +14,16 @@ export async function worksheetList(gid, uid, screen) {
   ]);
 
   const items = man.items || [];
+  const isLocal = (it) => Boolean(it.file && !it.link);
+  const hasLocal = items.some(isLocal);
+  const hasOnline = items.some((it) => !isLocal(it));
 
   const hero = el("div", { class: "hero" }, [
     el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · ${unit.title}` }),
     el("h1", { text: "Çalışma Kâğıtları ve Testler" }),
-    el("p", { text: "Tüm çalışma kâğıtları ve testler için internet bağlantısı gerekir." }),
+    el("p", { text: hasLocal
+      ? (hasOnline ? "Yerel PDF'ler çevrimdışı açılır ve yazdırılır. Kaynak bağlantıları için internet gerekir." : "Bu PDF'ler çevrimdışı açılır ve yazdırılır.")
+      : "Çalışma kâğıdı ve test bağlantıları için internet gerekir." }),
   ]);
 
   const parts = [hero];
@@ -41,9 +46,9 @@ export async function worksheetList(gid, uid, screen) {
       }
     };
 
-    const renderList = (title, list, icon) => {
+    const renderList = (title, list, icon, local) => {
       if (!list.length) return;
-      parts.push(el("h2", { class: "section-title", text: `${title} · İnternet gerekli (${list.length})` }));
+      parts.push(el("h2", { class: "section-title", text: `${title} · ${local ? "Çevrimdışı" : "İnternet gerekli"} (${list.length})` }));
       parts.push(el("div", { class: "list" }, list.map((it) =>
         el("button", { class: "row", onclick: () => openResource(it) }, [
           el("span", { class: "ic", text: icon }),
@@ -56,8 +61,10 @@ export async function worksheetList(gid, uid, screen) {
       )));
     };
 
-    renderList("Çalışma Kâğıtları", worksheets, "📄");
-    renderList("Testler ve Quizler", quizzes, "📝");
+    renderList("Çalışma Kâğıtları", worksheets.filter(isLocal), "📄", true);
+    renderList("Testler ve Quizler", quizzes.filter(isLocal), "📝", true);
+    renderList("Çalışma Kâğıtları", worksheets.filter((it) => !isLocal(it)), "📄", false);
+    renderList("Testler ve Quizler", quizzes.filter((it) => !isLocal(it)), "📝", false);
   }
 
   screen.replaceChildren(...parts);

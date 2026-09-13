@@ -1,24 +1,24 @@
 {
  "items": [
   {
-   "title": "Çalışma Kâğıdı A - Kelime, Dil ve Okuma",
+   "title": "Çalışma Kâğıdı A - Tema Görevi, Dil ve Okuma",
    "file": "original-a.pdf",
    "authored": true,
    "curriculum": "meb-english-6-2026",
    "by": "ENG HUB - özgün içerik",
    "type": "worksheet",
-   "desc": "2 sayfa · özgün alıştırmalar",
-   "size": 76753
+   "desc": "2 sayfa · görsel bulmaca, okuma ve yaratıcı yazma",
+   "size": 78895
   },
   {
-   "title": "Çalışma Kâğıdı B - Dil, Dinleme ve Konuşma",
+   "title": "Çalışma Kâğıdı B - Dinle, Konuş ve Tasarla",
    "file": "original-b.pdf",
    "authored": true,
    "curriculum": "meb-english-6-2026",
    "by": "ENG HUB - özgün içerik",
    "type": "worksheet",
-   "desc": "2 sayfa · özgün alıştırmalar",
-   "size": 75826
+   "desc": "2 sayfa · dinleme, bilgi boşluğu ve eşli tasarım",
+   "size": 78896
   },
   {
    "title": "Öğretmen Anahtarı - A ve B",
@@ -27,8 +27,8 @@
    "curriculum": "meb-english-6-2026",
    "by": "ENG HUB - özgün içerik",
    "type": "worksheet",
-   "desc": "2 sayfa · cevaplar, dinleme metni ve örnek yazma",
-   "size": 75851
+   "desc": "2 sayfa · cevaplar, dinleme metni ve değerlendirme",
+   "size": 78501
   }
  ]
 }

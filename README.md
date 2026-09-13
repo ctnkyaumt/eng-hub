@@ -126,6 +126,12 @@ Her bölümde iki özgün çalışma kâğıdı ve ayrı öğretmen anahtarı bu
 cevaplar, yanlış ifadelerin düzeltmeleri, öğretmenin okuyacağı dinleme metni,
 örnek yazma cevabı ve kısa değerlendirme ölçütleri vardır.
 
+Çalışma kâğıtları A4 için hizalı etkinlik kutuları, çizgili cevap alanları ve özgün
+vektör çizimleri kullanır. Tema görevleri arasında kayıp eşya dedektifliği, festival
+haritası, aile ziyaret planı, kültür pazarı, kamp kuralları ve gelecek fuarı vardır.
+Her bölümde katlanabilir A/B bilgi boşluğu kartları ve eşli tasarım görevi bulunur.
+Renkli veya siyah-beyaz yazdırılabilir; her PDF iki sayfadır.
+
 Kaynaklar: MEB English 6 Student's Book ve Workbook (2026). Kitaplar yalnızca
 müfredat kapsamı için okunur; kitap alıştırmaları veya sayfaları bu materyallere
 kopyalanmaz. Tema-sayfa eşleştirmesi ve kaynak dosya doğrulamaları
@@ -138,6 +144,10 @@ Yalnızca dersleri yenilemek için `python tools/create_grade6.py --slides-only`
 çalışma kâğıtları ve oyun havuzları korunur. Konu sırası `tools/grade6_pacing.py`,
 incelenmiş görsel seçimleri ve atıflar `tools/grade6-image-choices.json` içindedir.
 Eksik seçili görselleri `python tools/prepare_grade6_visuals.py` indirir.
+
+Yalnızca çalışma kâğıtlarını yenilemek için `python tools/create_grade6.py --worksheets-only`
+kullanılır. Düzen `tools/grade6_worksheets.py`, özgün görevler ve etkinlik biçimi
+kaynakları `tools/grade6_worksheet_tasks.py` içindedir. Sunumlar, oyunlar ve katalog korunur.
 
 Bakım komutları özgün 6. sınıf oyun havuzlarını ve PDF'lerini korur. Dış kaynaktan
 indirilen eski çalışma kâğıtları yine yerelde tutulmaz. Lite pakette çalışma kâğıtları
