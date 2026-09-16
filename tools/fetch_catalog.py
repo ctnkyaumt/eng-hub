@@ -29,6 +29,7 @@ SUPPLEMENTAL_BOOKS = {
         "by": "forenelt.idea-host.com",
         "link": "https://forenelt.idea-host.com/buddy6/theme1/",
         "type": "book-presentation",
+        "coverImage": "https://forenelt.idea-host.com/buddy6/theme1/files/thumb/1.jpg",
     }],
 }
 
@@ -58,6 +59,9 @@ def classify(resources):
         link = r.get("fileUrl") or r.get("link") or r.get("previewLink") or ""
         if link.startswith("/"):
             link = urllib.parse.urljoin(API, link)
+        cover = (r.get("coverImage") or "").strip()
+        if cover and cover.startswith("/"):
+            cover = urllib.parse.urljoin(API, cover)
         rtype = r.get("type")
         item = {
             "title": (r.get("title") or "").strip(),
@@ -66,6 +70,8 @@ def classify(resources):
             "link": link,
             "type": rtype,
         }
+        if cover:
+            item["coverImage"] = cover
         from resource_kind import online_game
         if rtype in ("worksheet", "file", "quiz") and online_game(item):
             online_games.append(item)
