@@ -43,7 +43,7 @@ ANA MENÜ → Sınıf (5, 6, 7, 8) → Ünite → SUNUM · OYUNLAR · ÇALIŞMA 
 | Bölüm | Ne var |
 | --- | --- |
 | **Sunum** | 5, 6 ve 8. sınıflar için tam ünite sunumları, resimli kelime kartları, çift dilli gramer kuralları ve alıştırmalar. |
-| **Oyunlar** | 10 çevrimdışı oyun modu: Sharpshooter, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları, Balon Patlat, Köstebek Avı, Uzay Koşusu. |
+| **Oyunlar** | 10 çevrimdışı oyun modu: Sharpshooter, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları, Balon Patlat, Köstebek Avı, Uzay Koşusu. Ayrıca her ünitede **sumeyyeogultekin** alt klasörü (443 çevrimiçi oyun ve kapak önizlemeleri) ile Wordwall oyunları kapak görselleriyle. |
 | **Çalışma Kâğıtları ve Testler** | 600'den fazla çalışma kâğıdı, ünite testi ve deneme bağlantısı (çevrimiçi açılır; internet gerekir). |
 | **Kitap Sunumları** | Kaynak sitedeki ders/çalışma kitabı sunumlarının listesi (internet ister). |
 
