@@ -78,10 +78,11 @@ export async function getWorksheets(gid, uid) {
     loadJSON(`${unitPath(gid, uid)}/worksheets/manifest.json`, { items: [] }),
     loadJSON("/app/data/worksheet-sources.json", { units: {} }),
   ]);
-  const ingilizcecin = (sources.units[`${gid}/${uid}`] || []).filter(
-    (item) => item.source === "ingilizcecin" || !item.source
-  );
-  return { ...man, ingilizcecin };
+  const all = sources.units[`${gid}/${uid}`] || [];
+  const ingilizcecin = all.filter((item) => item.source === "ingilizcecin");
+  const dersingilizce = all.filter((item) => item.source === "dersingilizce");
+  const mebOdsgm = all.filter((item) => item.source === "meb-odsgm");
+  return { ...man, ingilizcecin, dersingilizce, mebOdsgm };
 }
 
 /** Offline copies of the source's static activities (games + slide sites). */

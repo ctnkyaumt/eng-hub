@@ -17,9 +17,19 @@ export async function worksheetList(gid, uid, screen) {
   const items = man.items || [];
   const ingilizcecinItems = man.ingilizcecin || [];
   const ingilizcecinCount = ingilizcecinItems.length;
+  const dersingilizceItems = man.dersingilizce || [];
+  const dersingilizceCount = dersingilizceItems.length;
+  const mebOdsgmItems = man.mebOdsgm || [];
+  const mebOdsgmCount = mebOdsgmItems.length;
+  const isMebGrade = gid === "g7" || gid === "g8";
+
   const isLocal = (it) => Boolean(it.file && !it.link);
   const hasLocal = items.some(isLocal);
-  const hasOnline = items.some((it) => !isLocal(it)) || ingilizcecinCount > 0;
+  const hasOnline =
+    items.some((it) => !isLocal(it)) ||
+    ingilizcecinCount > 0 ||
+    dersingilizceCount > 0 ||
+    (isMebGrade && mebOdsgmCount > 0);
 
   const hero = el("div", { class: "hero" }, [
     el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · ${unit.title}` }),
@@ -62,30 +72,66 @@ export async function worksheetList(gid, uid, screen) {
   renderList("Çalışma Kâğıtları", worksheets.filter(isLocal), "📄", true);
   renderList("Testler ve Quizler", quizzes.filter(isLocal), "📝", true);
 
-  // Online worksheet folder for ingilizcecin (matches sumeyyeogultekin in games)
+  // Online worksheet folders
   parts.push(el("h2", { class: "section-title", text: "Çevrimiçi Çalışma Kâğıdı Klasörleri" }));
-  const folderCard = el("button", {
-    class: "card folder-card",
-    style: "animation-delay: 90ms",
-    onclick: () => {
-      location.hash = `#/${gid}/${uid}/calisma/ingilizcecin`;
-    },
-  }, [
-    el("span", { class: "glow" }),
-    el("span", { class: "emoji", text: "📁" }),
-    el("h3", { text: "ingilizcecin" }),
-    el("p", { text: ingilizcecinCount ? "ingilizcecin.com çalışma kâğıtları ve testleri · İnternet gerekli" : "Bu ünite için henüz kaynak eklenmedi" }),
-    el("div", { class: "badge-row" }, [
-      el("span", { class: "badge " + (ingilizcecinCount ? "on" : "off"), text: `${ingilizcecinCount} kaynak` }),
+  const folderCards = [
+    el("button", {
+      class: "card folder-card",
+      style: "animation-delay: 90ms",
+      onclick: () => {
+        location.hash = `#/${gid}/${uid}/calisma/ingilizcecin`;
+      },
+    }, [
+      el("span", { class: "glow" }),
+      el("span", { class: "emoji", text: "📁" }),
+      el("h3", { text: "ingilizcecin" }),
+      el("p", { text: ingilizcecinCount ? "ingilizcecin.com çalışma kâğıtları ve testleri · İnternet gerekli" : "Bu ünite için henüz kaynak eklenmedi" }),
+      el("div", { class: "badge-row" }, [
+        el("span", { class: "badge " + (ingilizcecinCount ? "on" : "off"), text: `${ingilizcecinCount} kaynak` }),
+      ]),
     ]),
-  ]);
-  parts.push(el("div", { class: "grid g-3" }, [folderCard]));
+    el("button", {
+      class: "card folder-card",
+      style: "animation-delay: 140ms",
+      onclick: () => {
+        location.hash = `#/${gid}/${uid}/calisma/dersingilizce`;
+      },
+    }, [
+      el("span", { class: "glow" }),
+      el("span", { class: "emoji", text: "📁" }),
+      el("h3", { text: "dersingilizce" }),
+      el("p", { text: dersingilizceCount ? "dersingilizce.org PDF çalışma kâğıtları · İnternet gerekli" : "Bu ünite için henüz kaynak eklenmedi" }),
+      el("div", { class: "badge-row" }, [
+        el("span", { class: "badge " + (dersingilizceCount ? "on" : "off"), text: `${dersingilizceCount} kaynak` }),
+      ]),
+    ]),
+  ];
+
+  if (isMebGrade) {
+    folderCards.push(el("button", {
+      class: "card folder-card",
+      style: "animation-delay: 190ms",
+      onclick: () => {
+        location.hash = `#/${gid}/${uid}/calisma/meb-odsgm`;
+      },
+    }, [
+      el("span", { class: "glow" }),
+      el("span", { class: "emoji", text: "📁" }),
+      el("h3", { text: "MEB ÖDSGM" }),
+      el("p", { text: mebOdsgmCount ? "MEB ÖDSGM Beceri Temelli ve Kazanım Testleri · İnternet gerekli" : "Bu ünite için henüz kaynak eklenmedi" }),
+      el("div", { class: "badge-row" }, [
+        el("span", { class: "badge " + (mebOdsgmCount ? "on" : "off"), text: `${mebOdsgmCount} kaynak` }),
+      ]),
+    ]));
+  }
+
+  parts.push(el("div", { class: "grid g-3" }, folderCards));
 
   // Other online worksheets / tests
   renderList("Çalışma Kâğıtları", worksheets.filter((it) => !isLocal(it)), "📄", false);
   renderList("Testler ve Quizler", quizzes.filter((it) => !isLocal(it)), "📝", false);
 
-  if (!items.length && !ingilizcecinCount) {
+  if (!items.length && !ingilizcecinCount && !dersingilizceCount && (!isMebGrade || !mebOdsgmCount)) {
     parts.push(el("div", { class: "empty" }, [
       el("span", { class: "emoji", text: "📭" }),
       el("p", { text: "Bu ünite için çalışma kâğıdı veya test bulunamadı." }),
@@ -95,11 +141,17 @@ export async function worksheetList(gid, uid, screen) {
   screen.replaceChildren(...parts);
 }
 
-export async function ingilizcecinWorksheetPicker(gid, uid, screen) {
+async function renderWorksheetFolderPicker(gid, uid, screen, {
+  folderName,
+  sourceKey,
+  kickerType,
+  badgeSubtitle,
+  emptyMessage,
+}) {
   const { grade, unit } = await getUnit(gid, uid);
   const unitLabel = unit.no ? `${unit.label || "Ünite"} ${unit.no}` : (unit.label || "Revizyon");
   const man = await getWorksheets(gid, uid);
-  const items = man.ingilizcecin || [];
+  const items = man[sourceKey] || [];
   const count = items.length;
 
   setCrumbs([
@@ -107,15 +159,15 @@ export async function ingilizcecinWorksheetPicker(gid, uid, screen) {
     { label: grade.title, hash: `#/${gid}` },
     { label: unitLabel, hash: `#/${gid}/${uid}` },
     { label: "Çalışma Kâğıtları", hash: `#/${gid}/${uid}/calisma` },
-    { label: "ingilizcecin" },
+    { label: folderName },
   ]);
 
   const hero = el("div", { class: "hero" }, [
-    el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · Çalışma Kâğıtları` }),
-    el("h1", { text: "📁 ingilizcecin" }),
+    el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · ${kickerType}` }),
+    el("h1", { text: `📁 ${folderName}` }),
     el("p", { text: count
-      ? `${count} çalışma kâğıdı ve test · ingilizcecin.com (2020+) · İnternet gerekli`
-      : "Bu ünite için ingilizcecin kaynağı bulunamadı." }),
+      ? `${count} ${badgeSubtitle}`
+      : emptyMessage }),
   ]);
 
   const parts = [hero];
@@ -166,7 +218,7 @@ export async function ingilizcecinWorksheetPicker(gid, uid, screen) {
     parts.push(
       el("div", { class: "empty" }, [
         el("span", { class: "emoji", text: "📁" }),
-        el("p", { text: "Bu ünitede ingilizcecin kaynağı henüz bulunmuyor." }),
+        el("p", { text: emptyMessage }),
         el("button", {
           class: "btn",
           style: "margin-top: 14px",
@@ -178,5 +230,39 @@ export async function ingilizcecinWorksheetPicker(gid, uid, screen) {
   }
 
   screen.replaceChildren(...parts);
+}
+
+export async function ingilizcecinWorksheetPicker(gid, uid, screen) {
+  return renderWorksheetFolderPicker(gid, uid, screen, {
+    folderName: "ingilizcecin",
+    sourceKey: "ingilizcecin",
+    kickerType: "Çalışma Kâğıtları",
+    badgeSubtitle: "çalışma kâğıdı ve test · ingilizcecin.com (2020+) · İnternet gerekli",
+    emptyMessage: "Bu ünite için ingilizcecin kaynağı bulunamadı.",
+  });
+}
+
+export async function dersingilizceWorksheetPicker(gid, uid, screen) {
+  return renderWorksheetFolderPicker(gid, uid, screen, {
+    folderName: "dersingilizce",
+    sourceKey: "dersingilizce",
+    kickerType: "Çalışma Kâğıtları",
+    badgeSubtitle: "PDF çalışma kâğıdı · dersingilizce.org · İnternet gerekli",
+    emptyMessage: "Bu ünite için dersingilizce çalışma kâğıdı bulunamadı.",
+  });
+}
+
+export async function mebOdsgmWorksheetPicker(gid, uid, screen) {
+  if (gid !== "g7" && gid !== "g8") {
+    location.hash = `#/${gid}/${uid}/calisma`;
+    return;
+  }
+  return renderWorksheetFolderPicker(gid, uid, screen, {
+    folderName: "MEB ÖDSGM",
+    sourceKey: "mebOdsgm",
+    kickerType: "MEB Testleri",
+    badgeSubtitle: "resmi MEB ÖDSGM testi ve soru fasikülü · İnternet gerekli",
+    emptyMessage: "Bu ünite için MEB ÖDSGM kaynağı bulunamadı.",
+  });
 }
 

@@ -31,6 +31,8 @@ const routes = [
   [/^\/(g\d)\/([a-z0-9_-]+)\/oyunlar\/([a-z0-9_-]+)$/, playScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/calisma$/, worksheetsScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/calisma\/ingilizcecin$/, ingilizcecinWorksheetsScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/calisma\/dersingilizce$/, dersingilizceWorksheetsScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/calisma\/meb-odsgm$/, mebOdsgmWorksheetsScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/kitap$/, booksScreen],
 ];
 
@@ -219,6 +221,16 @@ async function worksheetsScreen(gid, uid) {
 async function ingilizcecinWorksheetsScreen(gid, uid) {
   const { ingilizcecinWorksheetPicker } = await import("./worksheets.js");
   await ingilizcecinWorksheetPicker(gid, uid, screen);
+}
+
+async function dersingilizceWorksheetsScreen(gid, uid) {
+  const { dersingilizceWorksheetPicker } = await import("./worksheets.js");
+  await dersingilizceWorksheetPicker(gid, uid, screen);
+}
+
+async function mebOdsgmWorksheetsScreen(gid, uid) {
+  const { mebOdsgmWorksheetPicker } = await import("./worksheets.js");
+  await mebOdsgmWorksheetPicker(gid, uid, screen);
 }
 
 async function booksScreen(gid, uid) {
