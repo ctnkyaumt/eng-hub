@@ -140,6 +140,16 @@ body {
 .section-card .emoji { font-size: 62px; }
 .section-card h3 { font-size: 26px; }
 
+/* folder cards ------------------------------------------------------------ */
+.folder-card { text-align: left; border-left: 4px solid var(--accent); }
+.folder-card .emoji { font-size: 38px; margin-bottom: 8px; }
+.folder-card h3 { font-size: 20px; margin: 0 0 4px; }
+
+/* resource search --------------------------------------------------------- */
+.resource-search { width: min(520px, 100%); padding: 13px 16px; border: 1px solid #415774; border-radius: 12px; color: var(--ink); background: #111c2d; font: inherit; }
+.resource-search:focus { outline: 2px solid #7dd3fc; outline-offset: 2px; }
+.resource-search-result { min-height: 20px; color: var(--ink-dim); font-size: 13px; margin: 8px 0 12px; }
+
 /* lists ------------------------------------------------------------------- */
 .list { display: flex; flex-direction: column; gap: 12px; }
 .row {

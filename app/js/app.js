@@ -30,6 +30,7 @@ const routes = [
   [/^\/(g\d)\/([a-z0-9_-]+)\/oyunlar\/sumeyyeogultekin$/, sumeyyeGamesScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/oyunlar\/([a-z0-9_-]+)$/, playScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/calisma$/, worksheetsScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/calisma\/ingilizcecin$/, ingilizcecinWorksheetsScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/kitap$/, booksScreen],
 ];
 
@@ -213,6 +214,11 @@ async function playScreen(gid, uid, mode) {
 async function worksheetsScreen(gid, uid) {
   const { worksheetList } = await import("./worksheets.js");
   await worksheetList(gid, uid, screen);
+}
+
+async function ingilizcecinWorksheetsScreen(gid, uid) {
+  const { ingilizcecinWorksheetPicker } = await import("./worksheets.js");
+  await ingilizcecinWorksheetPicker(gid, uid, screen);
 }
 
 async function booksScreen(gid, uid) {
