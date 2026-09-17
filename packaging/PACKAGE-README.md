@@ -1,6 +1,6 @@
 # ENG HUB — İlk kullanım
 
-Taşınabilir İngilizce ders yardımcısı. **Kurulum yok, internet yok.**
+Taşınabilir İngilizce ders yardımcısı. **Kurulum gerektirmez, USB'den tak-çalıştır.**
 Windows ve Pardus/Linux'ta aynı şekilde çalışır.
 
 ## 1. Kur (2 dakika)
@@ -42,10 +42,10 @@ ANA MENÜ → Sınıf (5, 6, 7, 8) → Ünite → SUNUM · OYUNLAR · ÇALIŞMA 
 
 | Bölüm | Ne var |
 | --- | --- |
-| **Sunum** | 5, 6 ve 8. sınıflar için tam ünite sunumları, resimli kelime kartları, çift dilli gramer kuralları ve alıştırmalar. |
-| **Oyunlar** | 10 çevrimdışı oyun modu: Sharpshooter, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları, Balon Patlat, Köstebek Avı, Uzay Koşusu. Ayrıca her ünitede **sumeyyeogultekin** alt klasörü (443 çevrimiçi oyun ve kapak önizlemeleri) ile Wordwall oyunları kapak görselleriyle. |
-| **Çalışma Kâğıtları ve Testler** | 600'den fazla çalışma kâğıdı, ünite testi ve deneme bağlantısı (çevrimiçi açılır; internet gerekir). |
-| **Kitap Sunumları** | Kaynak sitedeki ders/çalışma kitabı sunumlarının listesi (internet ister). |
+| **Sunum** | 5, 6 ve 8. sınıflar için 27 tam ünite dersi: görsel kelime kartları, çift dilli dil bilgisi vurguları ve 330 interaktif yerel alıştırma. |
+| **Oyunlar** | 10 yerel oyun modu: Sharpshooter, Balon Patlat, Köstebek Avı, Uzay Koşusu, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. Ayrıca her ünitede **sumeyyeogultekin** klasörü (443 çevrimiçi oyun ve kapak önizlemeleri) ile zengin Wordwall oyunları. |
+| **Çalışma Kâğıtları ve Testler** | 6. sınıfta 18 özgün çalışma kâğıdı + 9 öğretmen anahtarı (yerel PDF). Ayrıca **ingilizcecin** (469 güncel belge), **dersingilizce** (154 PDF kâğıdı) ve **MEB ÖDSGM** (7-8. sınıf resmi testleri) klasörleri. Dış kaynak bağlantıları için internet gerekir. |
+| **Kitap Sunumları** | Kaynak sitedeki ders ve çalışma kitabı sunumlarının listesi (internet gerekir). |
 
 ## 4. Ders sırasında işinize yarayacak tuşlar
 
@@ -72,9 +72,8 @@ ANA MENÜ → Sınıf (5, 6, 7, 8) → Ünite → SUNUM · OYUNLAR · ÇALIŞMA 
 
 ## Kaynak ve emek
 
-Ders materyalleri MEB ders kitaplarından ve [eltarena.com](https://eltarena.com)
-üzerinde paylaşan öğretmenlerin çalışmalarından derlenmiştir; hazırlayanların adları
-her dosyanın yanında korunur. Bu paket onları tek yerde, internetsiz kullanılabilir
-hâlde toplar.
+Ders materyalleri MEB ders kitaplarından, [eltarena.com](https://eltarena.com), ingilizcecin.com,
+dersingilizce.org ve MEB ÖDSGM üzerinde paylaşılan çalışmalardan derlenmiştir; hazırlayanların adları
+her dosyanın yanında korunur. Bu paket tüm bu zengin kaynakları tek bir düzenli merkezde toplar.
 
 Kaynak kodu ve geliştirme notları: <https://github.com/ctnkyaumt/eng-hub>
