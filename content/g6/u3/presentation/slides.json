@@ -27,6 +27,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -77,7 +78,8 @@
     }
    ],
    "topic": "Body parts",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -150,6 +152,46 @@
      "imageConcept": "body"
     }
    ],
+   "topic": "Body parts",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "back",
+      "b": "sırt"
+     },
+     {
+      "a": "leg",
+      "b": "bacak"
+     },
+     {
+      "a": "knee",
+      "b": "diz"
+     },
+     {
+      "a": "ankle",
+      "b": "ayak bileği"
+     },
+     {
+      "a": "heart",
+      "b": "kalp"
+     },
+     {
+      "a": "stomach",
+      "b": "mide"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Body parts",
    "topic": "Body parts",
    "topicIndex": 1
   },
@@ -257,11 +299,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2537",
      "imageFit": "contain",
-     "imageConcept": "bracelet"
+     "imageConcept": "bracelet",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 12,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 29,
+       "end": 32,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Body parts",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -279,11 +336,31 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2621",
      "imageFit": "contain",
-     "imageConcept": "trainers"
+     "imageConcept": "trainers",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "question"
+      },
+      {
+       "start": 9,
+       "end": 12,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 25,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Body parts",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "exercise",
@@ -321,11 +398,57 @@
      "img": "/content/g5/u3/presentation/img/p03-08.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "necklace"
+     "imageConcept": "necklace",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 13,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 10,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Body parts",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Lina ___ a silver bracelet.",
+      "answer": "has got",
+      "tr": "Lina'nın gümüş bir bilekliği var."
+     },
+     {
+      "text": "___ you got your trainers?",
+      "answer": "Have",
+      "tr": "Spor ayakkabıların var mı?"
+     },
+     {
+      "text": "I ___ a necklace.",
+      "answer": "haven't got",
+      "tr": "Kolyem yok."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Possessions and appearance",
+   "topic": "Body parts",
+   "topicIndex": 1,
+   "grammarId": "have-got"
   },
   {
    "type": "exercise",
@@ -445,7 +568,8 @@
     }
    ],
    "topic": "Clothes and belongings",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -516,6 +640,46 @@
      "imageConcept": "jewelry"
     }
    ],
+   "topic": "Clothes and belongings",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "trainers",
+      "b": "spor ayakkabısı"
+     },
+     {
+      "a": "swimsuit",
+      "b": "mayo"
+     },
+     {
+      "a": "tights",
+      "b": "külotlu çorap"
+     },
+     {
+      "a": "pocket",
+      "b": "cep"
+     },
+     {
+      "a": "necklace",
+      "b": "kolye"
+     },
+     {
+      "a": "bracelet",
+      "b": "bileklik"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Clothes and belongings",
    "topic": "Clothes and belongings",
    "topicIndex": 2
   },
@@ -625,11 +789,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2537",
      "imageFit": "contain",
-     "imageConcept": "bracelet"
+     "imageConcept": "bracelet",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 3,
+       "end": 8,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Clothes and belongings",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -647,11 +826,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2537",
      "imageFit": "contain",
-     "imageConcept": "bracelet"
+     "imageConcept": "bracelet",
+     "enHighlights": [
+      {
+       "start": 6,
+       "end": 12,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 12,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Clothes and belongings",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ bracelet is this?",
+      "answer": "Whose",
+      "tr": "Bu kimin bilekliği?"
+     },
+     {
+      "text": "It is ___ bracelet.",
+      "answer": "Maya's",
+      "tr": "Bu, Maya'nın bilekliği."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Whose belongings?",
+   "topic": "Clothes and belongings",
+   "topicIndex": 2,
+   "grammarId": "whose"
   },
   {
    "type": "exercise",
@@ -799,7 +1019,8 @@
     }
    ],
    "topic": "Character",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -870,6 +1091,46 @@
      "img": "/app/img/concepts/social.svg"
     }
    ],
+   "topic": "Character",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "patient",
+      "b": "sabırlı"
+     },
+     {
+      "a": "polite",
+      "b": "kibar"
+     },
+     {
+      "a": "caring",
+      "b": "şefkatli"
+     },
+     {
+      "a": "clever",
+      "b": "zeki"
+     },
+     {
+      "a": "organised",
+      "b": "düzenli"
+     },
+     {
+      "a": "independent",
+      "b": "bağımsız"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Character",
    "topic": "Character",
    "topicIndex": 3
   },
@@ -980,11 +1241,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6937",
      "imageFit": "contain",
-     "imageConcept": "pocket"
+     "imageConcept": "pocket",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 27,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Character",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1002,11 +1278,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/36563",
      "imageFit": "contain",
-     "imageConcept": "patience"
+     "imageConcept": "patience",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 25,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Character",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "This pocket is ___ that pocket.",
+      "answer": "bigger than",
+      "tr": "Bu cep, o cepten daha büyük."
+     },
+     {
+      "text": "Lina is ___ her cousin.",
+      "answer": "more patient than",
+      "tr": "Lina kuzeninden daha sabırlı."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Comparing two",
+   "topic": "Character",
+   "topicIndex": 3,
+   "grammarId": "comparatives"
   },
   {
    "type": "exercise",
@@ -1169,7 +1486,8 @@
     }
    ],
    "topic": "Describing a person",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1243,6 +1561,46 @@
      "imageConcept": "look"
     }
    ],
+   "topic": "Describing a person",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "tidy",
+      "b": "tertipli"
+     },
+     {
+      "a": "serious",
+      "b": "ciddi"
+     },
+     {
+      "a": "rude",
+      "b": "kaba"
+     },
+     {
+      "a": "lazy",
+      "b": "tembel"
+     },
+     {
+      "a": "weak",
+      "b": "güçsüz"
+     },
+     {
+      "a": "lovely",
+      "b": "hoş"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Describing a person",
    "topic": "Describing a person",
    "topicIndex": 4
   },
@@ -1353,11 +1711,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6937",
      "imageFit": "contain",
-     "imageConcept": "pocket"
+     "imageConcept": "pocket",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 12,
+       "end": 20,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Describing a person",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1375,11 +1748,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2537",
      "imageFit": "contain",
-     "imageConcept": "bracelet"
+     "imageConcept": "bracelet",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 12,
+       "end": 21,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Describing a person",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "This is ___ pocket on the jacket.",
+      "answer": "the smallest",
+      "tr": "Bu, ceketin en küçük cebi."
+     },
+     {
+      "text": "That is ___ bracelet in the box.",
+      "answer": "the most colourful",
+      "tr": "O, kutudaki en renkli bileklik."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Comparing a group",
+   "topic": "Describing a person",
+   "topicIndex": 4,
+   "grammarId": "superlatives"
   },
   {
    "type": "exercise",
@@ -1455,11 +1869,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2270",
      "imageFit": "contain",
-     "imageConcept": "swimsuit"
+     "imageConcept": "swimsuit",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 18,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 29,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Describing a person",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1477,11 +1906,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6937",
      "imageFit": "contain",
-     "imageConcept": "pocket"
+     "imageConcept": "pocket",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 24,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Describing a person",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "This kit is ___ for swimming.",
+      "answer": "better",
+      "tr": "Bu takım yüzmek için daha iyi."
+     },
+     {
+      "text": "This is ___ pocket for a phone.",
+      "answer": "the worst",
+      "tr": "Bu, telefon için en kötü cep."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Good, better, best",
+   "topic": "Describing a person",
+   "topicIndex": 4,
+   "grammarId": "irregular-comparison"
   },
   {
    "type": "exercise",
@@ -1673,6 +2143,128 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Body parts",
+      "items": [
+       "back",
+       "leg",
+       "knee"
+      ]
+     },
+     {
+      "label": "Clothes and belongings",
+      "items": [
+       "trainers",
+       "swimsuit",
+       "tights"
+      ]
+     },
+     {
+      "label": "Character",
+      "items": [
+       "patient",
+       "polite",
+       "caring"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "Lina ___ a silver bracelet.",
+      "answer": "has got",
+      "tr": "Lina'nın gümüş bir bilekliği var."
+     },
+     {
+      "text": "___ bracelet is this?",
+      "answer": "Whose",
+      "tr": "Bu kimin bilekliği?"
+     },
+     {
+      "text": "This pocket is ___ that pocket.",
+      "answer": "bigger than",
+      "tr": "Bu cep, o cepten daha büyük."
+     },
+     {
+      "text": "This is ___ pocket on the jacket.",
+      "answer": "the smallest",
+      "tr": "Bu, ceketin en küçük cebi."
+     },
+     {
+      "text": "This kit is ___ for swimming.",
+      "answer": "better",
+      "tr": "Bu takım yüzmek için daha iyi."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: Lina ___ a silver bracelet.",
+      "answer": "Lina has got a silver bracelet.",
+      "tr": "Lina'nın gümüş bir bilekliği var."
+     },
+     {
+      "q": "Complete: ___ bracelet is this?",
+      "answer": "Whose bracelet is this?",
+      "tr": "Bu kimin bilekliği?"
+     },
+     {
+      "q": "Complete: This pocket is ___ that pocket.",
+      "answer": "This pocket is bigger than that pocket.",
+      "tr": "Bu cep, o cepten daha büyük."
+     },
+     {
+      "q": "Complete: This is ___ pocket on the jacket.",
+      "answer": "This is the smallest pocket on the jacket.",
+      "tr": "Bu, ceketin en küçük cebi."
+     },
+     {
+      "q": "Complete: This kit is ___ for swimming.",
+      "answer": "This kit is better for swimming.",
+      "tr": "Bu takım yüzmek için daha iyi."
+     },
+     {
+      "q": "How do you say “fiziksel” in English?",
+      "answer": "physical"
+     },
+     {
+      "q": "How do you say “takı” in English?",
+      "answer": "jewellery"
+     },
+     {
+      "q": "How do you say “sosyal” in English?",
+      "answer": "social"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

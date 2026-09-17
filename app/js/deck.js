@@ -10,6 +10,7 @@ import { el, mount, setCrumbs, beep, toast } from "./ui.js";
 import { playEnglish, stopEnglish, taskNode, wordAudioPath } from "./exercises.js";
 import { earlierSetup, setupKey } from "./deck-steps.js";
 import { lessonImage, mediaUrl } from "./lesson-media.js";
+import { richNodes } from "./lesson-emphasis.js";
 
 if (!document.querySelector('link[href="/app/css/deck.css"]')) {
   document.head.append(el("link", { rel: "stylesheet", href: "/app/css/deck.css" }));
@@ -130,7 +131,8 @@ export async function startDeck(gid, uid, screen) {
     }
     node.querySelectorAll("img").forEach((img) => img.addEventListener("load", fit, { once: true }));
     const repeated = earlierSetup(slides, i);
-    steps = [...node.querySelectorAll(".step")].filter((item) => {
+    steps = [...node.querySelectorAll(".step")].sort((a, b) =>
+      Number(a.dataset.revealOrder || 0) - Number(b.dataset.revealOrder || 0)).filter((item) => {
       if (!repeated.has(item.dataset.setup)) return true;
       item.classList.add("on");
       return false;
@@ -151,7 +153,22 @@ export async function startDeck(gid, uid, screen) {
   }
 
   function applySteps() {
-    steps.forEach((s, k) => s.classList.toggle("on", k < step));
+    steps.forEach((s, k) => {
+      s.classList.toggle("on", k < step);
+      s.inert = k >= step;
+      s.setAttribute("aria-hidden", String(k >= step));
+    });
+    // Picture swaps share one stable position. Going backwards restores the old image.
+    ctx.slideNode.querySelectorAll(".visual-stack").forEach(stack => {
+      const images = [...stack.querySelectorAll(".step")];
+      const current = images.filter(image => image.classList.contains("on")).at(-1);
+      images.forEach(image => {
+        const exited = image.classList.contains("on") && image !== current;
+        image.classList.toggle("exited", exited);
+        image.inert = image !== current;
+        image.setAttribute("aria-hidden", String(image !== current));
+      });
+    });
     drawStepbar();
     fit();
     setTimeout(fit, 60); // again once images/fonts settle
@@ -233,6 +250,8 @@ export async function startDeck(gid, uid, screen) {
 
   function onKey(e) {
     if (e.target instanceof Element && e.target.matches("input, textarea, [contenteditable=true]")) return;
+    // Space activates the focused task/control; it must not also advance the lesson.
+    if (e.key === " " && e.target instanceof Element && e.target.closest("button, a, [role=button]")) return;
     if (e.key === "ArrowRight" || e.key === "PageDown" || e.key === " ") { e.preventDefault(); next(); }
     else if (e.key === "ArrowLeft" || e.key === "PageUp") { e.preventDefault(); prev(); }
     else if (e.key === "ArrowDown") { e.preventDefault(); revealAll(); }
@@ -320,11 +339,11 @@ function exNode(e, ctx) {
     : e.num !== undefined
       ? el("span", { class: "ex-pic ex-keycaps" }, [keycaps(e.num)])
       : null;
-  return el("div", { class: "ex step" + (media ? " with-pic" : "") }, [
-    media,
+  return el("div", { class: "ex" + (media ? " with-pic" : "") }, [
+    media ? el("div", { class: "example-visual step" }, [media]) : null,
     el("div", {}, [
-      el("div", { class: "en", html: (e.en || "").replace(/\*(.+?)\*/g, "<em>$1</em>") }),
-      e.tr ? el("div", { class: "tr step" }, emphasizedNodes(e.tr, e.trEm || [])) : null,
+      el("div", { class: "en step" }, richNodes(e.en, e.enHighlights)),
+      e.tr ? el("div", { class: "tr step" }, e.trHighlights ? richNodes(e.tr, e.trHighlights) : emphasizedNodes(e.tr, e.trEm || [])) : null,
     ]),
   ]);
 }
@@ -427,6 +446,27 @@ function titleVisual(s, ctx) {
   return el("div", { class: "big-emoji", text: s.emoji || ctx.data.emoji || "📘" });
 }
 
+function vocabularySequence(s, ctx) {
+  const visuals = el("div", { class: "visual-stack" });
+  const labels = el("div", { class: "vocabulary-labels" });
+  (s.items || []).forEach((word, index) => {
+    visuals.append(el("div", { class: "vocabulary-picture step", "data-reveal-order": index * 2 + 1 }, [
+      vcardMedia(word, ctx),
+      word.imageCue ? el("p", { class: "image-cue", text: word.imageCue }) : null,
+    ]));
+    labels.append(el("div", { class: "vocabulary-label step", "data-reveal-order": index * 2 + 2 }, [
+      el("span", { class: "vocabulary-number", text: index + 1 }),
+      el("div", {}, [el("div", { class: "en", text: word.en }), el("div", { class: "tr", text: word.tr })]),
+      el("button", { class: "vocabulary-speak", type: "button", text: "🔊", "aria-label": `Listen to ${word.en}`,
+        onclick: async e => {
+          e.stopPropagation();
+          if (!await playEnglish({ en: word.en, audio: wordAudioPath(word.en) })) toast("Bu kelime için çevrimdışı ses bulunamadı.", true);
+        } }),
+    ]));
+  });
+  return el("div", { class: "slide vocabulary-slide" }, [...head(s), el("div", { class: "vocabulary-stage" }, [visuals, labels])]);
+}
+
 function render(s, ctx) {
   const box = (cls, kids) => el("div", { class: "slide " + (cls || "") }, kids);
 
@@ -444,6 +484,7 @@ function render(s, ctx) {
       ]);
 
     case "vocab":
+      if (s.visualSequence === "picture-label-swap") return vocabularySequence(s, ctx);
       return box("", [
         ...head(s),
         el("div", {
@@ -474,7 +515,7 @@ function render(s, ctx) {
     case "grammar":
       return box("", [
         ...head(s),
-        s.rule ? el("div", { class: "rule-box step", "data-setup": setupKey("rule", s.rule), html: s.rule.replace(/\*(.+?)\*/g, "<b>$1</b>") }) : null,
+        s.rule ? el("div", { class: "rule-box step", "data-setup": setupKey("rule", s.rule) }, richNodes(s.rule, s.ruleHighlights)) : null,
         s.chips ? el("div", { class: "chips" }, s.chips.map((c) => el("div", { class: "chip-word step", "data-setup": setupKey("chip", c), text: c }))) : null,
         s.examples ? el("div", { class: "ex-list" }, s.examples.map((e) => exNode(e, ctx))) : null,
       ]);
@@ -482,7 +523,7 @@ function render(s, ctx) {
     case "compare":
       return box("", [
         ...head(s),
-        s.rule ? el("div", { class: "rule-box step", "data-setup": setupKey("rule", s.rule), html: s.rule.replace(/\*(.+?)\*/g, "<b>$1</b>") }) : null,
+        s.rule ? el("div", { class: "rule-box step", "data-setup": setupKey("rule", s.rule) }, richNodes(s.rule, s.ruleHighlights)) : null,
         el("div", { class: "compare" }, (s.columns || []).map((c) =>
           el("div", { class: "col " + (c.tone || "") }, [
             el("h3", { class: "step", text: c.title }),

@@ -52,6 +52,7 @@
      "img": "p01-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -87,6 +88,7 @@
      "img": "p01-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -122,6 +124,7 @@
      "img": "p01-12.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -157,6 +160,7 @@
      "img": "p01-16.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -192,10 +196,48 @@
      "img": "p01-20.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "body",
+      "b": "vücut"
+     },
+     {
+      "a": "head",
+      "b": "kafa"
+     },
+     {
+      "a": "face",
+      "b": "yüz"
+     },
+     {
+      "a": "hair",
+      "b": "saç"
+     },
+     {
+      "a": "eye",
+      "b": "göz"
+     },
+     {
+      "a": "ear",
+      "b": "kulak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Body Parts"
   },
   {
    "type": "exercise",
@@ -335,6 +377,7 @@
      "img": "/app/img/vocab/physical-dark.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -370,6 +413,7 @@
      "img": "/app/img/vocab/physical-medium-weight.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -405,6 +449,7 @@
      "img": "/app/img/vocab/physical-tall.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -440,6 +485,7 @@
      "img": "/app/img/vocab/physical-round.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -463,10 +509,48 @@
      "img": "/app/img/vocab/physical-square.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "straight",
+      "b": "düz"
+     },
+     {
+      "a": "wavy",
+      "b": "dalgalı"
+     },
+     {
+      "a": "curly",
+      "b": "kıvırcık"
+     },
+     {
+      "a": "dark",
+      "b": "koyu renk"
+     },
+     {
+      "a": "fair",
+      "b": "açık renk"
+     },
+     {
+      "a": "blonde",
+      "b": "sarışın"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Physical Features"
   },
   {
    "type": "exercise",
@@ -610,6 +694,20 @@
      "emoji": "🔽",
      "trEm": [
       "kısa ve zayıfım"
+     ],
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 19,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -669,7 +767,14 @@
       "emoji": "➰"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 32,
+     "end": 45,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -686,6 +791,20 @@
      "emoji": "📐",
      "trEm": [
       "orta boylu"
+     ],
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 6,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 12,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -694,6 +813,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 32,
+     "end": 45,
+     "role": "form"
+    }
    ]
   },
   {
@@ -710,6 +836,20 @@
      "img": "p01-04.png",
      "trEm": [
       "sahibim."
+     ],
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 24,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -718,6 +858,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 34,
+     "end": 42,
+     "role": "form"
+    }
    ]
   },
   {
@@ -734,6 +881,20 @@
      "img": "p01-03.png",
      "trEm": [
       "sahip."
+     ],
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 29,
+       "end": 35,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -742,6 +903,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 35,
+     "role": "form"
+    }
    ]
   },
   {
@@ -759,7 +927,21 @@
       "var"
      ],
      "img": "/app/img/vocab/physical-curly.svg",
-     "emoji": "➰"
+     "emoji": "➰",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 25,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -767,7 +949,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 35,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ short and slim.",
+      "answer": "am",
+      "tr": "Ben kısa ve zayıfım."
+     },
+     {
+      "text": "She ___ of medium height.",
+      "answer": "is",
+      "tr": "O orta boylu."
+     },
+     {
+      "text": "I ___ straight hair.",
+      "answer": "have got",
+      "tr": "Ben düz saçlara sahibim."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "What do/does ... look like?"
   },
   {
    "type": "exercise",
@@ -889,6 +1106,7 @@
      "img": "p02-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     4
@@ -924,6 +1142,7 @@
      "img": "p02-07.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     4
@@ -962,6 +1181,7 @@
      "img": "p02-10.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     4
@@ -991,10 +1211,48 @@
      "img": "p02-12.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "trousers / pants",
+      "b": "pantolon"
+     },
+     {
+      "a": "jeans",
+      "b": "kot pantolon"
+     },
+     {
+      "a": "coat",
+      "b": "mont"
+     },
+     {
+      "a": "raincoat",
+      "b": "yağmurluk"
+     },
+     {
+      "a": "jacket",
+      "b": "ceket"
+     },
+     {
+      "a": "jumper / sweater",
+      "b": "kazak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Clothes"
   },
   {
    "type": "exercise",
@@ -1134,6 +1392,7 @@
      "img": "p02-16.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -1169,6 +1428,7 @@
      "img": "p02-20.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -1204,6 +1464,7 @@
      "img": "p03-02.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -1245,6 +1506,7 @@
      "img": "p03-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -1280,10 +1542,48 @@
      "img": "p03-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "gloves",
+      "b": "eldiven"
+     },
+     {
+      "a": "scarf",
+      "b": "atkı"
+     },
+     {
+      "a": "headscarf",
+      "b": "başörtüsü"
+     },
+     {
+      "a": "socks",
+      "b": "çorap"
+     },
+     {
+      "a": "bow",
+      "b": "papyon"
+     },
+     {
+      "a": "hat",
+      "b": "şapka"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Accessories"
   },
   {
    "type": "exercise",
@@ -1448,6 +1748,7 @@
      "img": "/app/img/vocab/adjective-short.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     8
@@ -1492,6 +1793,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     8
@@ -1539,6 +1841,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     8
@@ -1586,6 +1889,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     8
@@ -1633,6 +1937,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     8
@@ -1680,6 +1985,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     6,
     8
@@ -1727,6 +2033,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     7,
     8
@@ -1756,10 +2063,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     8,
     8
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "thick",
+      "b": "kalın"
+     },
+     {
+      "a": "thin",
+      "b": "ince"
+     },
+     {
+      "a": "long",
+      "b": "uzun"
+     },
+     {
+      "a": "short",
+      "b": "kısa"
+     },
+     {
+      "a": "trendy",
+      "b": "modaya uygun"
+     },
+     {
+      "a": "old-fashioned",
+      "b": "eski moda"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Adjectives"
   },
   {
    "type": "exercise",
@@ -1887,7 +2232,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "thick",
-     "emoji": "🧱"
+     "emoji": "🧱",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 6,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1981,7 +2340,14 @@
       "emoji": "🆕"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 4,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -2001,7 +2367,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "fashion",
-     "emoji": "✨"
+     "emoji": "✨",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 36,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2009,6 +2389,13 @@
    "part": [
     2,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 3,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2026,6 +2413,20 @@
      "emoji": "👟",
      "trEm": [
       "ihtiyacım var"
+     ],
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 6,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 31,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2034,6 +2435,13 @@
    "part": [
     3,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 4,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2051,6 +2459,20 @@
      "emoji": "💎",
      "trEm": [
       "sahibim"
+     ],
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 15,
+       "end": 22,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2059,6 +2481,13 @@
    "part": [
     4,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 3,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2076,7 +2505,21 @@
       "denerim"
      ],
      "img": "p02-05.png",
-     "emoji": "🧥"
+     "emoji": "🧥",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 31,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2084,6 +2527,13 @@
    "part": [
     5,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 6,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2101,7 +2551,21 @@
       "görünüyorsun"
      ],
      "img": "p02-08.png",
-     "emoji": "👔"
+     "emoji": "👔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2109,6 +2573,13 @@
    "part": [
     6,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 4,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2126,7 +2597,21 @@
       "tasarlar"
      ],
      "img": "/app/img/vocab/adjective-new.svg",
-     "emoji": "🆕"
+     "emoji": "🆕",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 16,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 29,
+       "end": 37,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2134,7 +2619,42 @@
    "part": [
     7,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 6,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ a thick coat in winter.",
+      "answer": "wear",
+      "tr": "Kışın kalın bir mont giyerim."
+     },
+     {
+      "text": "I ___ trendy clothes.",
+      "answer": "buy",
+      "tr": "Modaya uygun kıyafetler satın alırım."
+     },
+     {
+      "text": "I ___ new shoes.",
+      "answer": "need",
+      "tr": "Yeni ayakkabılara ihtiyacım var."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Clothes Verbs"
   },
   {
    "type": "exercise",
@@ -2218,6 +2738,7 @@
      "img": "p04-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     4
@@ -2253,6 +2774,7 @@
      "img": "p04-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     4
@@ -2288,6 +2810,7 @@
      "img": "p04-12.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     4
@@ -2323,10 +2846,48 @@
      "img": "p04-16.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "read a book",
+      "b": "kitap okumak"
+     },
+     {
+      "a": "read a magazine",
+      "b": "dergi okumak"
+     },
+     {
+      "a": "watch TV",
+      "b": "televizyon izlemek"
+     },
+     {
+      "a": "watch videos",
+      "b": "video izlemek"
+     },
+     {
+      "a": "watch fashion shows",
+      "b": "defile izlemek"
+     },
+     {
+      "a": "play computer games",
+      "b": "bilgisayar oyunu oynamak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Daily Routines"
   },
   {
    "type": "exercise",
@@ -2450,7 +3011,21 @@
      "trEm": [
       "her"
      ],
-     "emoji": "📅"
+     "emoji": "📅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2524,7 +3099,41 @@
       "kışın",
       "sabah"
      ],
-     "emoji": "📅"
+     "emoji": "📅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      },
+      {
+       "start": 12,
+       "end": 14,
+       "role": "form"
+      },
+      {
+       "start": 23,
+       "end": 25,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      },
+      {
+       "start": 10,
+       "end": 15,
+       "role": "form"
+      },
+      {
+       "start": 17,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2548,7 +3157,36 @@
       "Pazar",
       "Cuma"
      ],
-     "emoji": "📅"
+     "emoji": "📅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      },
+      {
+       "start": 11,
+       "end": 13,
+       "role": "form"
+      },
+      {
+       "start": 22,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      },
+      {
+       "start": 7,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2571,7 +3209,36 @@
      "trEm": [
       "saat sekizde"
      ],
-     "emoji": "🕒"
+     "emoji": "🕒",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      },
+      {
+       "start": 14,
+       "end": 16,
+       "role": "form"
+      },
+      {
+       "start": 30,
+       "end": 32,
+       "role": "form"
+      },
+      {
+       "start": 39,
+       "end": 41,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 12,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2579,6 +3246,34 @@
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ day / week / month / year",
+      "answer": "every",
+      "tr": "her gün / hafta / ay / yıl"
+     },
+     {
+      "text": "___ January, in winter, in the morning",
+      "answer": "in",
+      "tr": "Ocak ayı, kışın, sabah"
+     },
+     {
+      "text": "___ Sunday, on Friday, on weekdays",
+      "answer": "on",
+      "tr": "Pazar, Cuma, hafta içi"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Time Expressions"
   },
   {
    "type": "exercise",
@@ -2633,6 +3328,230 @@
   },
   {
    "type": "grammar",
+   "title": "Adverbs of Frequency",
+   "titleTr": "Ne sıklıkla?",
+   "grammarId": "book-g5-u3-1",
+   "rule": "*always / usually / often / sometimes / never* çoğunlukla ana fiilden önce, am / is / are sonrasında gelir.",
+   "examples": [
+    {
+     "en": "I *always* wear my uniform at school.",
+     "tr": "Okulda her zaman üniformamı giyerim.",
+     "trEm": [
+      "her zaman"
+     ],
+     "img": "p02-12.png",
+     "emoji": "🎽",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "always"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 16,
+       "role": "always"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     55,
+     68
+    ],
+    "workbookPages": [
+     21,
+     26
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 44,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Adverbs of Frequency",
+   "titleTr": "Ne sıklıkla?",
+   "grammarId": "book-g5-u3-1",
+   "rule": "*always / usually / often / sometimes / never* çoğunlukla ana fiilden önce, am / is / are sonrasında gelir.",
+   "examples": [
+    {
+     "en": "She *sometimes* wears a hat.",
+     "tr": "O bazen şapka takar.",
+     "trEm": [
+      "bazen"
+     ],
+     "img": "p02-18.png",
+     "emoji": "🎩",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 13,
+       "role": "sometimes"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 7,
+       "role": "sometimes"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     55,
+     68
+    ],
+    "workbookPages": [
+     21,
+     26
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 44,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Adverbs of Frequency",
+   "titleTr": "Ne sıklıkla?",
+   "grammarId": "book-g5-u3-1",
+   "rule": "*always / usually / often / sometimes / never* çoğunlukla ana fiilden önce, am / is / are sonrasında gelir.",
+   "examples": [
+    {
+     "en": "My shoes are *usually* clean.",
+     "tr": "Ayakkabılarım genellikle temizdir.",
+     "trEm": [
+      "genellikle"
+     ],
+     "img": "p02-20.png",
+     "emoji": "👟",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 20,
+       "role": "usually"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 24,
+       "role": "usually"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     55,
+     68
+    ],
+    "workbookPages": [
+     21,
+     26
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 44,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ wear my uniform at school.",
+      "answer": "always",
+      "tr": "Okulda her zaman üniformamı giyerim."
+     },
+     {
+      "text": "She ___ wears a hat.",
+      "answer": "sometimes",
+      "tr": "O bazen şapka takar."
+     },
+     {
+      "text": "My shoes are ___ clean.",
+      "answer": "usually",
+      "tr": "Ayakkabılarım genellikle temizdir."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Adverbs of Frequency",
+   "grammarId": "book-g5-u3-1"
+  },
+  {
+   "type": "grammar",
    "title": "Simple Present — Positive",
    "titleTr": "Geniş zaman olumlu cümleler",
    "chips": [
@@ -2645,7 +3564,31 @@
      "trEm": [
       "1. kural"
      ],
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 12,
+       "role": "form"
+      },
+      {
+       "start": 31,
+       "end": 32,
+       "role": "form"
+      },
+      {
+       "start": 45,
+       "end": 46,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2726,7 +3669,8 @@
       "emoji": "🏫"
      }
     ]
-   }
+   },
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -2743,6 +3687,30 @@
      "emoji": "⌚",
      "trEm": [
       "2. kural"
+     ],
+     "enHighlights": [
+      {
+       "start": 35,
+       "end": 38,
+       "role": "form"
+      },
+      {
+       "start": 53,
+       "end": 55,
+       "role": "form"
+      },
+      {
+       "start": 70,
+       "end": 72,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2751,7 +3719,8 @@
    "part": [
     2,
     8
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -2767,7 +3736,31 @@
      "trEm": [
       "3. kural"
      ],
-     "emoji": "📚"
+     "emoji": "📚",
+     "enHighlights": [
+      {
+       "start": 40,
+       "end": 44,
+       "role": "form"
+      },
+      {
+       "start": 67,
+       "end": 68,
+       "role": "ending"
+      },
+      {
+       "start": 80,
+       "end": 81,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2775,7 +3768,8 @@
    "part": [
     3,
     8
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -2791,7 +3785,21 @@
      "trEm": [
       "4. kural"
      ],
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2799,7 +3807,8 @@
    "part": [
     4,
     8
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -2815,7 +3824,21 @@
      "trEm": [
       "giderim"
      ],
-     "emoji": "🏫"
+     "emoji": "🏫",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 27,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2823,7 +3846,8 @@
    "part": [
     5,
     8
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -2839,7 +3863,21 @@
      "trEm": [
       "izler"
      ],
-     "emoji": "📺"
+     "emoji": "📺",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 10,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 27,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2847,7 +3885,8 @@
    "part": [
     6,
     8
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -2863,7 +3902,21 @@
      "trEm": [
       "gider"
      ],
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "enHighlights": [
+      {
+       "start": 6,
+       "end": 8,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 21,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2871,7 +3924,8 @@
    "part": [
     7,
     8
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -2887,7 +3941,21 @@
      "trEm": [
       "yürüyerek gider"
      ],
-     "emoji": "🏫"
+     "emoji": "🏫",
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 15,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 34,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2895,7 +3963,36 @@
    "part": [
     8,
     8
-   ]
+   ],
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ to school on weekdays.",
+      "answer": "go",
+      "tr": "Ben hafta içi okula giderim."
+     },
+     {
+      "text": "He ___ TV at night.",
+      "answer": "watches",
+      "tr": "O geceleri televizyon izler."
+     },
+     {
+      "text": "She ___ to Izmir in summer.",
+      "answer": "goes",
+      "tr": "O yazın İzmir'e gider."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Simple Present — Positive"
   },
   {
    "type": "exercise",
@@ -2964,7 +4061,21 @@
       "gitmem"
      ],
      "emoji": "🏫",
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 7,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 30,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -3048,7 +4159,14 @@
       ]
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 40,
+     "end": 48,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -3069,7 +4187,21 @@
      "imageFit": "contain",
      "imageSource": "ENG HUB",
      "imageConcept": "ordinary",
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 9,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 32,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -3077,6 +4209,13 @@
    "part": [
     2,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 40,
+     "end": 48,
+     "role": "form"
+    }
    ]
   },
   {
@@ -3094,7 +4233,21 @@
      "trEm": [
       "oynamaz"
      ],
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 17,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -3102,6 +4255,13 @@
    "part": [
     3,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 40,
+     "end": 48,
+     "role": "form"
+    }
    ]
   },
   {
@@ -3119,7 +4279,21 @@
      "trEm": [
       "çizmez"
      ],
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 14,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -3127,6 +4301,13 @@
    "part": [
     4,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 40,
+     "end": 48,
+     "role": "form"
+    }
    ]
   },
   {
@@ -3148,7 +4329,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "glasses",
      "emoji": "👓",
-     "focus": "QUESTION ❓"
+     "focus": "QUESTION ❓",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -3156,6 +4351,13 @@
    "part": [
     5,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 40,
+     "end": 48,
+     "role": "form"
+    }
    ]
   },
   {
@@ -3173,7 +4375,21 @@
       "mi"
      ],
      "emoji": "❓",
-     "focus": "QUESTION ❓"
+     "focus": "QUESTION ❓",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -3181,7 +4397,42 @@
    "part": [
     6,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 40,
+     "end": 48,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ go to school on Sundays.",
+      "answer": "don't",
+      "tr": "Ben Pazar günleri okula gitmem."
+     },
+     {
+      "text": "You ___ wear ordinary clothes.",
+      "answer": "don't",
+      "tr": "Sen sıradan kıyafetler giymezsin."
+     },
+     {
+      "text": "He ___ play chess.",
+      "answer": "doesn't",
+      "tr": "O satranç oynamaz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Negative & Question"
   },
   {
    "type": "exercise",
@@ -3244,6 +4495,20 @@
      "emoji": "👖",
      "trEm": [
       "değil mi"
+     ],
+     "enHighlights": [
+      {
+       "start": 16,
+       "end": 25,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 35,
+       "role": "negative"
+      }
      ]
     }
    ],
@@ -3312,7 +4577,21 @@
      "trEm": [
       "değil mi"
      ],
-     "emoji": "🎸"
+     "emoji": "🎸",
+     "enHighlights": [
+      {
+       "start": 22,
+       "end": 33,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 15,
+       "end": 23,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -3339,7 +4618,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "glasses",
-     "emoji": "👓"
+     "emoji": "👓",
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 30,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 30,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -3362,6 +4655,20 @@
      "img": "p04-03.png",
      "trEm": [
       "değil mi"
+     ],
+     "enHighlights": [
+      {
+       "start": 22,
+       "end": 30,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 30,
+       "role": "question"
+      }
      ]
     }
    ],
@@ -3370,6 +4677,34 @@
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "You wear jeans, ___?",
+      "answer": "don't you",
+      "tr": "Sen kot pantolon giyersin, değil mi?"
+     },
+     {
+      "text": "She plays the guitar, ___?",
+      "answer": "doesn't she",
+      "tr": "O gitar çalar, değil mi?"
+     },
+     {
+      "text": "You don't wear glasses, ___?",
+      "answer": "do you",
+      "tr": "Sen gözlük takmazsın, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Question Tags"
   },
   {
    "type": "exercise",
@@ -3455,6 +4790,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -3493,10 +4829,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "always",
+      "b": "her zaman"
+     },
+     {
+      "a": "usually",
+      "b": "genellikle"
+     },
+     {
+      "a": "often",
+      "b": "sık sık"
+     },
+     {
+      "a": "sometimes",
+      "b": "bazen"
+     },
+     {
+      "a": "rarely",
+      "b": "nadiren"
+     },
+     {
+      "a": "never",
+      "b": "hiçbir zaman"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Adverbs of Frequency"
   },
   {
    "type": "exercise",
@@ -3966,10 +5340,155 @@
    "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Body Parts",
+      "items": [
+       "body",
+       "head",
+       "face"
+      ]
+     },
+     {
+      "label": "Physical Features",
+      "items": [
+       "straight",
+       "wavy",
+       "curly"
+      ]
+     },
+     {
+      "label": "Clothes",
+      "items": [
+       "trousers / pants",
+       "jeans",
+       "coat"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "I ___ short and slim.",
+      "answer": "am",
+      "tr": "Ben kısa ve zayıfım."
+     },
+     {
+      "text": "I ___ a thick coat in winter.",
+      "answer": "wear",
+      "tr": "Kışın kalın bir mont giyerim."
+     },
+     {
+      "text": "___ day / week / month / year",
+      "answer": "every",
+      "tr": "her gün / hafta / ay / yıl"
+     },
+     {
+      "text": "I ___ wear my uniform at school.",
+      "answer": "always",
+      "tr": "Okulda her zaman üniformamı giyerim."
+     },
+     {
+      "text": "I ___ go to school on Sundays.",
+      "answer": "don't",
+      "tr": "Ben Pazar günleri okula gitmem."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: I ___ short and slim.",
+      "answer": "I am short and slim.",
+      "tr": "Ben kısa ve zayıfım."
+     },
+     {
+      "q": "Complete: I ___ a thick coat in winter.",
+      "answer": "I wear a thick coat in winter.",
+      "tr": "Kışın kalın bir mont giyerim."
+     },
+     {
+      "q": "Complete: ___ day / week / month / year",
+      "answer": "every day / week / month / year",
+      "tr": "her gün / hafta / ay / yıl"
+     },
+     {
+      "q": "Complete: I ___ wear my uniform at school.",
+      "answer": "I always wear my uniform at school.",
+      "tr": "Okulda her zaman üniformamı giyerim."
+     },
+     {
+      "q": "Complete: I ___ to school on weekdays.",
+      "answer": "I go to school on weekdays.",
+      "tr": "Ben hafta içi okula giderim."
+     },
+     {
+      "q": "Complete: I ___ go to school on Sundays.",
+      "answer": "I don't go to school on Sundays.",
+      "tr": "Ben Pazar günleri okula gitmem."
+     },
+     {
+      "q": "Complete: You wear jeans, ___?",
+      "answer": "You wear jeans, don't you?",
+      "tr": "Sen kot pantolon giyersin, değil mi?"
+     },
+     {
+      "q": "How do you say “ayak parmağı” in English?",
+      "answer": "toe"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "😎",
    "title": "Nice work!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
- ]
+ ],
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ingilizce5_ders_kitabi.pdf",
+    "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+   },
+   {
+    "file": "ingilizce5_calisma_kitabi.pdf",
+    "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+   }
+  ],
+  "studentPages": [
+   55,
+   68
+  ],
+  "workbookPages": [
+   21,
+   26
+  ]
+ }
 }

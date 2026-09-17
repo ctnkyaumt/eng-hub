@@ -45,6 +45,7 @@
      "img": "/app/img/words/test-tube.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -77,6 +78,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -112,10 +114,48 @@
      "img": "/app/img/words/explode.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "lab",
+      "b": "laboratuvar"
+     },
+     {
+      "a": "do an experiment",
+      "b": "deney yapmak"
+     },
+     {
+      "a": "test tube",
+      "b": "deney tüpü"
+     },
+     {
+      "a": "cell",
+      "b": "hücre"
+     },
+     {
+      "a": "safety",
+      "b": "güvenlik"
+     },
+     {
+      "a": "scientific",
+      "b": "bilimsel"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "In the Lab"
   },
   {
    "type": "exercise",
@@ -255,6 +295,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -290,6 +331,7 @@
      "img": "/app/img/words/genius.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -319,10 +361,48 @@
      "img": "/app/img/words/vaccination.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "discover",
+      "b": "keşfetmek"
+     },
+     {
+      "a": "invent",
+      "b": "icat etmek"
+     },
+     {
+      "a": "explore",
+      "b": "araştırmak"
+     },
+     {
+      "a": "succeed",
+      "b": "başarmak"
+     },
+     {
+      "a": "genius",
+      "b": "dâhi"
+     },
+     {
+      "a": "high-tech",
+      "b": "ileri teknoloji"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Science & Discovery"
   },
   {
    "type": "exercise",
@@ -493,6 +573,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -540,6 +621,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -587,10 +669,48 @@
      "imageConcept": "goldsmith"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "healthcare",
+      "b": "sağlık hizmeti"
+     },
+     {
+      "a": "horizon",
+      "b": "ufuk, görüş, anlayış"
+     },
+     {
+      "a": "improve",
+      "b": "geliştirmek"
+     },
+     {
+      "a": "improvement",
+      "b": "gelişim, iyileşme"
+     },
+     {
+      "a": "infection",
+      "b": "bulaşma, enfeksiyon"
+     },
+     {
+      "a": "ink",
+      "b": "mürekkep"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -742,6 +862,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -780,10 +901,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "gravity of the matter",
+      "b": "maddenin yer çekimi"
+     },
+     {
+      "a": "deserve",
+      "b": "hak etmek"
+     },
+     {
+      "a": "develop",
+      "b": "geliştirmek"
+     },
+     {
+      "a": "diagnose",
+      "b": "teşhis etmek"
+     },
+     {
+      "a": "die",
+      "b": "ölmek"
+     },
+     {
+      "a": "discoverer",
+      "b": "kaşif"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -896,6 +1055,582 @@
   },
   {
    "type": "grammar",
+   "title": "Science now — Present Continuous",
+   "titleTr": "Şu anda yapılan bilimsel çalışmalar",
+   "grammarId": "book-g8-u9-1",
+   "rule": "Şu anda: *am / is / are + fiil-ing*. Olumsuzda *not* eklenir; soruda am / is / are başa gelir.",
+   "examples": [
+    {
+     "en": "The students *are doing* an experiment now.",
+     "tr": "Öğrenciler şimdi bir deney yapıyor.",
+     "trEm": [
+      "ıyor"
+     ],
+     "img": "https://static.arasaac.org/pictograms/8119/8119_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "experiment",
+     "emoji": "⚗️",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 19,
+       "role": "form"
+      },
+      {
+       "start": 19,
+       "end": 22,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 34,
+       "role": "ending"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    4
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     137,
+     152
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 9,
+     "end": 33,
+     "role": "form"
+    },
+    {
+     "start": 45,
+     "end": 48,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Science now — Present Continuous",
+   "titleTr": "Şu anda yapılan bilimsel çalışmalar",
+   "grammarId": "book-g8-u9-1",
+   "rule": "Şu anda: *am / is / are + fiil-ing*. Olumsuzda *not* eklenir; soruda am / is / are başa gelir.",
+   "examples": [
+    {
+     "en": "Ece *is examining* a cell at the moment.",
+     "tr": "Ece şu anda bir hücreyi inceliyor.",
+     "trEm": [
+      "iyor"
+     ],
+     "img": "/app/img/words/cell.jpg",
+     "emoji": "🔬",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 13,
+       "role": "form"
+      },
+      {
+       "start": 13,
+       "end": 16,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 29,
+       "end": 33,
+       "role": "ending"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    4
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     137,
+     152
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 9,
+     "end": 33,
+     "role": "form"
+    },
+    {
+     "start": 45,
+     "end": 48,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Science now — Present Continuous",
+   "titleTr": "Şu anda yapılan bilimsel çalışmalar",
+   "grammarId": "book-g8-u9-1",
+   "rule": "Şu anda: *am / is / are + fiil-ing*. Olumsuzda *not* eklenir; soruda am / is / are başa gelir.",
+   "examples": [
+    {
+     "en": "*Are* they testing the new machine?",
+     "tr": "Yeni makineyi test ediyorlar mı?",
+     "trEm": [
+      "mı"
+     ],
+     "img": "/app/img/words/high-tech.jpg",
+     "emoji": "🤖",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 29,
+       "end": 31,
+       "role": "question"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    4
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     137,
+     152
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 9,
+     "end": 33,
+     "role": "form"
+    },
+    {
+     "start": 45,
+     "end": 48,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Science now — Present Continuous",
+   "titleTr": "Şu anda yapılan bilimsel çalışmalar",
+   "grammarId": "book-g8-u9-1",
+   "rule": "Şu anda: *am / is / are + fiil-ing*. Olumsuzda *not* eklenir; soruda am / is / are başa gelir.",
+   "examples": [
+    {
+     "en": "They *are not using* the test tubes now.",
+     "tr": "Şimdi deney tüplerini kullanmıyorlar.",
+     "trEm": [
+      "mıyorlar"
+     ],
+     "img": "/app/img/words/test-tube.jpg",
+     "emoji": "🧫",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 18,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 28,
+       "end": 36,
+       "role": "negative"
+      }
+     ]
+    }
+   ],
+   "part": [
+    4,
+    4
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     137,
+     152
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 9,
+     "end": 33,
+     "role": "form"
+    },
+    {
+     "start": 45,
+     "end": 48,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The students ___ an experiment now.",
+      "answer": "are doing",
+      "tr": "Öğrenciler şimdi bir deney yapıyor."
+     },
+     {
+      "text": "Ece ___ a cell at the moment.",
+      "answer": "is examining",
+      "tr": "Ece şu anda bir hücreyi inceliyor."
+     },
+     {
+      "text": "___ they testing the new machine?",
+      "answer": "Are",
+      "tr": "Yeni makineyi test ediyorlar mı?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Science now — Present Continuous",
+   "grammarId": "book-g8-u9-1"
+  },
+  {
+   "type": "grammar",
+   "title": "Science then — Simple Past",
+   "titleTr": "Geçmişte yapılan çalışmalar",
+   "grammarId": "book-g8-u9-2",
+   "rule": "Geçmişte biten olay: düzenli fiil + *-ed* veya düzensiz fiilin ikinci hâli. *didn’t / Did* sonrasında yalın fiil.",
+   "examples": [
+    {
+     "en": "Our class *tested* the robot yesterday.",
+     "tr": "Sınıfımız dün robotu test etti.",
+     "trEm": [
+      "etti"
+     ],
+     "img": "/app/img/words/high-tech.jpg",
+     "emoji": "🤖",
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 16,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 26,
+       "end": 30,
+       "role": "ending"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    4
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     137,
+     152
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 36,
+     "end": 39,
+     "role": "form"
+    },
+    {
+     "start": 74,
+     "end": 86,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Science then — Simple Past",
+   "titleTr": "Geçmişte yapılan çalışmalar",
+   "grammarId": "book-g8-u9-2",
+   "rule": "Geçmişte biten olay: düzenli fiil + *-ed* veya düzensiz fiilin ikinci hâli. *didn’t / Did* sonrasında yalın fiil.",
+   "examples": [
+    {
+     "en": "Ece *found* a mistake in her results.",
+     "tr": "Ece sonuçlarında bir hata buldu.",
+     "trEm": [
+      "buldu"
+     ],
+     "img": "https://static.arasaac.org/pictograms/32802/32802_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "result",
+     "emoji": "📊",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 26,
+       "end": 31,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    4
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     137,
+     152
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 36,
+     "end": 39,
+     "role": "form"
+    },
+    {
+     "start": 74,
+     "end": 86,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Science then — Simple Past",
+   "titleTr": "Geçmişte yapılan çalışmalar",
+   "grammarId": "book-g8-u9-2",
+   "rule": "Geçmişte biten olay: düzenli fiil + *-ed* veya düzensiz fiilin ikinci hâli. *didn’t / Did* sonrasında yalın fiil.",
+   "examples": [
+    {
+     "en": "We *didn't* finish the experiment yesterday.",
+     "tr": "Dün deneyi bitirmedik.",
+     "trEm": [
+      "medik"
+     ],
+     "img": "https://static.arasaac.org/pictograms/8119/8119_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "experiment",
+     "emoji": "⚗️",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 9,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 21,
+       "role": "negative"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    4
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     137,
+     152
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 36,
+     "end": 39,
+     "role": "form"
+    },
+    {
+     "start": 74,
+     "end": 86,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Science then — Simple Past",
+   "titleTr": "Geçmişte yapılan çalışmalar",
+   "grammarId": "book-g8-u9-2",
+   "rule": "Geçmişte biten olay: düzenli fiil + *-ed* veya düzensiz fiilin ikinci hâli. *didn’t / Did* sonrasında yalın fiil.",
+   "examples": [
+    {
+     "en": "*Did* they record the results?",
+     "tr": "Sonuçları kaydettiler mi?",
+     "trEm": [
+      "mi"
+     ],
+     "img": "https://static.arasaac.org/pictograms/32802/32802_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "result",
+     "emoji": "📊",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 24,
+       "role": "question"
+      }
+     ]
+    }
+   ],
+   "part": [
+    4,
+    4
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     137,
+     152
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 36,
+     "end": 39,
+     "role": "form"
+    },
+    {
+     "start": 74,
+     "end": 86,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Our class ___ the robot yesterday.",
+      "answer": "tested",
+      "tr": "Sınıfımız dün robotu test etti."
+     },
+     {
+      "text": "Ece ___ a mistake in her results.",
+      "answer": "found",
+      "tr": "Ece sonuçlarında bir hata buldu."
+     },
+     {
+      "text": "We ___ finish the experiment yesterday.",
+      "answer": "didn't",
+      "tr": "Dün deneyi bitirmedik."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Science then — Simple Past",
+   "grammarId": "book-g8-u9-2"
+  },
+  {
+   "type": "grammar",
    "title": "Passive Voice — Present",
    "titleTr": "Edilgen çatı: geniş zaman",
    "chips": [
@@ -908,7 +1643,21 @@
      "trEm": [
       "yapılır"
      ],
-     "emoji": "🧪"
+     "emoji": "🧪",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -964,7 +1713,14 @@
       "emoji": "⚙️"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 71,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -980,7 +1736,21 @@
      "trEm": [
       "kullanılır"
      ],
-     "emoji": "🔬"
+     "emoji": "🔬",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 37,
+       "end": 47,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -988,6 +1758,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 71,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1004,7 +1781,21 @@
      "trEm": [
       "geliştirilir"
      ],
-     "emoji": "📅"
+     "emoji": "📅",
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 27,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 33,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1012,6 +1803,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 71,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1028,7 +1826,21 @@
      "trEm": [
       "yazılır"
      ],
-     "emoji": "📄"
+     "emoji": "📄",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 23,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 27,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1036,6 +1848,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 71,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1052,7 +1871,21 @@
      "trEm": [
       "geri dönüştürülür"
      ],
-     "emoji": "⚙️"
+     "emoji": "⚙️",
+     "enHighlights": [
+      {
+       "start": 6,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 34,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1060,7 +1893,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 71,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Experiments ___ in the laboratory.",
+      "answer": "are done",
+      "tr": "Deneyler laboratuvarda yapılır."
+     },
+     {
+      "text": "This machine ___ by scientists.",
+      "answer": "is used",
+      "tr": "Bu makine bilim insanları tarafından kullanılır."
+     },
+     {
+      "text": "New medicines ___ every year.",
+      "answer": "are developed",
+      "tr": "Her yıl yeni ilaçlar geliştirilir."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Passive Voice — Present"
   },
   {
    "type": "exercise",
@@ -1128,7 +1996,21 @@
      "trEm": [
       "icat edildi"
      ],
-     "emoji": "☎️"
+     "emoji": "☎️",
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 42,
+       "end": 53,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1205,7 +2087,21 @@
      "trEm": [
       "keşfedildi"
      ],
-     "emoji": "💊"
+     "emoji": "💊",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 25,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1228,7 +2124,21 @@
      "trEm": [
       "inşa edildi"
      ],
-     "emoji": "🔺"
+     "emoji": "🔺",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 23,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 29,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1251,7 +2161,21 @@
      "trEm": [
       "yazıldı"
      ],
-     "emoji": "🔬"
+     "emoji": "🔬",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 21,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 42,
+       "end": 49,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1274,7 +2198,21 @@
      "trEm": [
       "inşa edildi"
      ],
-     "emoji": "🏛️"
+     "emoji": "🏛️",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1282,6 +2220,34 @@
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The telephone ___ by Alexander Graham Bell.",
+      "answer": "was invented",
+      "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
+     },
+     {
+      "text": "Penicillin ___ in 1928.",
+      "answer": "was discovered",
+      "tr": "Penisilin 1928'de keşfedildi."
+     },
+     {
+      "text": "The pyramids ___ thousands of years ago.",
+      "answer": "were built",
+      "tr": "Piramitler binlerce yıl önce inşa edildi."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Passive Voice — Past"
   },
   {
    "type": "exercise",
@@ -1598,11 +2564,137 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Lab nouns",
+      "items": [
+       "lab",
+       "test tube",
+       "cell"
+      ]
+     },
+     {
+      "label": "Scientific actions",
+      "items": [
+       "discover",
+       "invent",
+       "explore"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "The students ___ an experiment now.",
+      "answer": "are doing",
+      "tr": "Öğrenciler şimdi bir deney yapıyor."
+     },
+     {
+      "text": "Our class ___ the robot yesterday.",
+      "answer": "tested",
+      "tr": "Sınıfımız dün robotu test etti."
+     },
+     {
+      "text": "Experiments ___ in the laboratory.",
+      "answer": "are done",
+      "tr": "Deneyler laboratuvarda yapılır."
+     },
+     {
+      "text": "The telephone ___ by Alexander Graham Bell.",
+      "answer": "was invented",
+      "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
+     },
+     {
+      "text": "Ece ___ a cell at the moment.",
+      "answer": "is examining",
+      "tr": "Ece şu anda bir hücreyi inceliyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: The students ___ an experiment now.",
+      "answer": "The students are doing an experiment now.",
+      "tr": "Öğrenciler şimdi bir deney yapıyor."
+     },
+     {
+      "q": "Complete: Our class ___ the robot yesterday.",
+      "answer": "Our class tested the robot yesterday.",
+      "tr": "Sınıfımız dün robotu test etti."
+     },
+     {
+      "q": "Complete: Experiments ___ in the laboratory.",
+      "answer": "Experiments are done in the laboratory.",
+      "tr": "Deneyler laboratuvarda yapılır."
+     },
+     {
+      "q": "Complete: The telephone ___ by Alexander Graham Bell.",
+      "answer": "The telephone was invented by Alexander Graham Bell.",
+      "tr": "Telefon, Alexander Graham Bell tarafından icat edildi."
+     },
+     {
+      "q": "How do you say “patlamak” in English?",
+      "answer": "explode"
+     },
+     {
+      "q": "How do you say “aşılama” in English?",
+      "answer": "vaccination"
+     },
+     {
+      "q": "How do you say “kuyumcu” in English?",
+      "answer": "goldsmith"
+     },
+     {
+      "q": "How do you say “keşif” in English?",
+      "answer": "discovery"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   137,
+   152
+  ]
+ }
 }

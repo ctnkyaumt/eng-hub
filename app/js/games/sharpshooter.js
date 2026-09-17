@@ -56,6 +56,8 @@ export function start(ctx) {
   const field = el("div", { class: "shooter-field", "aria-label": "Atış alanı" });
   const cannon = el("div", { class: "shooter-cannon", "aria-hidden": "true" });
   const beam = el("div", { class: "shooter-beam", "aria-hidden": "true" });
+  const reticle = el("div", { class: "shooter-reticle", "aria-hidden": "true" });
+  const base = el("div", { class: "shooter-base", "aria-hidden": "true" });
   const clock = el("span");
   const hearts = el("span");
   const pause = el("button", { class: "btn", text: "Duraklat", onclick: () => {
@@ -66,7 +68,7 @@ export function start(ctx) {
   mount(game.stage, el("p", { class: "shooter-help", text:
     "Anlamı oku, eşleşen baloncuğa nişan al ve tıkla / dokun. 1–4 tuşlarıyla da ateş edebilirsin. Beş can, beş dakika." }),
     el("div", { class: "shooter-controls" }, [hearts, clock, pause]), prompt, field, status);
-  field.append(beam, cannon);
+  field.append(base, beam, cannon, reticle);
 
   function stop() {
     active = false; cancelAnimationFrame(frame); pending = null;
@@ -83,6 +85,7 @@ export function start(ctx) {
     if (!active || !game.frame.isConnected) return;
     if (index >= pool.length || lives <= 0) return finish(lives <= 0 ? "Canlar bitti. Tekrar dene!" : "Hedefler tamamlandı!");
     locked = false; shot = null; particles.forEach(p => p.el.remove()); particles = [];
+    field.classList.remove("hit", "miss");
     nodes.forEach(n => n.button.remove());
     const q = pool[index];
     mount(prompt, q.img ? el("img", { src: ctx.bank.imgBase + q.img, alt: "Soru görseli" }) : null,
@@ -90,7 +93,7 @@ export function start(ctx) {
     status.textContent = "Doğru eşleşmeyi vur.";
     hearts.textContent = `♥ ${lives} / 5`;
     nodes = q.a.map((a, i) => {
-      const button = el("button", { class: "shooter-bubble", "aria-label": `${i + 1}: ${a.t || "Görsel"}`,
+      const button = el("button", { class: "shooter-bubble", style: `--target-hue:${[190, 272, 38, 160][i]}`, "aria-label": `${i + 1}: ${a.t || "Görsel"}`,
         onclick: e => { e.stopPropagation(); fire(n.x, n.y); } }, [
         el("small", { text: String(i + 1) }),
         a.img ? el("img", { src: ctx.bank.imgBase + a.img, alt: a.t || `Seçenek ${i + 1}` }) : null,
@@ -118,6 +121,7 @@ export function start(ctx) {
   });
   function key(e) {
     if (e.target.matches("input, textarea") || e.ctrlKey || e.altKey || e.metaKey || e.repeat) return;
+    if (e.key.toLowerCase() === "p") { e.preventDefault(); pause.click(); return; }
     const n = nodes[Number(e.key)-1];
     if (n && !n.popped) { e.preventDefault(); fire(n.x, n.y); }
   }
@@ -127,6 +131,8 @@ export function start(ctx) {
   function hit(n) {
     n.popped = true; n.button.disabled = true;
     n.button.classList.add("popped");
+    field.classList.remove("hit", "miss");
+    field.classList.add(n.a.c ? "hit" : "miss");
     for (let j = 0; j < 14; j++) {
       const p = el("i", { class: "shooter-particle", style: `background:${n.a.c ? "#74ffd2" : "#ff8caa"}` });
       field.append(p); const a = j * Math.PI * 2 / 14;
@@ -164,6 +170,8 @@ export function start(ctx) {
         n.button.style.left = `${n.x*100}%`; n.button.style.top = `${n.y*100}%`;
       });
       cannon.style.transform = `translateX(-50%) rotate(${Math.atan2((aim.x-.5)*w, (.94-aim.y)*h)}rad)`;
+      reticle.style.left = `${Math.max(2, Math.min(98, aim.x * 100))}%`;
+      reticle.style.top = `${Math.max(2, Math.min(98, aim.y * 100))}%`;
       if (shot) {
         // Short physics steps prevent a fast projectile skipping a circle.
         const steps = Math.max(1, Math.ceil(dt*850/6));

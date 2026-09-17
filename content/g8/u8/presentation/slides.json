@@ -48,6 +48,7 @@
      "img": "/app/img/words/wash-the-dishes.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     4
@@ -83,6 +84,7 @@
      "img": "/app/img/words/do-the-laundry.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     4
@@ -118,6 +120,7 @@
      "img": "/app/img/words/tidy-up.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     4
@@ -138,10 +141,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "doing chores",
+      "b": "ev işi yapmak"
+     },
+     {
+      "a": "make the bed",
+      "b": "yatağı toplamak"
+     },
+     {
+      "a": "set the table",
+      "b": "sofrayı kurmak"
+     },
+     {
+      "a": "wash the dishes",
+      "b": "bulaşık yıkamak"
+     },
+     {
+      "a": "dry the dishes",
+      "b": "bulaşık kurulamak"
+     },
+     {
+      "a": "load the dishwasher",
+      "b": "bulaşık makinesini doldurmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Chores at Home"
   },
   {
    "type": "exercise",
@@ -293,6 +334,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -328,10 +370,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "obey the rules",
+      "b": "kurallara uymak"
+     },
+     {
+      "a": "arrive on time",
+      "b": "zamanında gelmek"
+     },
+     {
+      "a": "keep quiet",
+      "b": "sessiz olmak"
+     },
+     {
+      "a": "keep a promise",
+      "b": "sözünü tutmak"
+     },
+     {
+      "a": "break a promise",
+      "b": "sözünü bozmak"
+     },
+     {
+      "a": "return books",
+      "b": "kitapları iade etmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Rules & Responsibilities"
   },
   {
    "type": "exercise",
@@ -502,6 +582,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -549,6 +630,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -596,10 +678,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "be good at",
+      "b": "bir şeyde iyi olmak"
+     },
+     {
+      "a": "be responsible for",
+      "b": "-den/-dan sorumlu olmak"
+     },
+     {
+      "a": "kitchen chores",
+      "b": "mutfak işleri"
+     },
+     {
+      "a": "ignore responsibilities",
+      "b": "sorumlulukları ihmal etmek"
+     },
+     {
+      "a": "share the chores",
+      "b": "ev işlerini paylaşmak"
+     },
+     {
+      "a": "admire",
+      "b": "hayran olmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -751,6 +871,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -798,6 +919,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -845,10 +967,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "feel bored",
+      "b": "içi sıkılmak"
+     },
+     {
+      "a": "In fact,",
+      "b": "Aslında"
+     },
+     {
+      "a": "For example,",
+      "b": "Örneğin"
+     },
+     {
+      "a": "some chores",
+      "b": "bazı ev işleri"
+     },
+     {
+      "a": "be happy",
+      "b": "mutlu olmak"
+     },
+     {
+      "a": "How often",
+      "b": "Ne kadar sıklıkla"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -961,6 +1121,206 @@
   },
   {
    "type": "grammar",
+   "title": "Sharing responsibilities",
+   "titleTr": "Sorumlulukları paylaşma",
+   "grammarId": "book-g8-u8-1",
+   "rule": "*be responsible for / be in charge of + isim veya fiil-ing* sorumlu olduğumuz işi anlatır.",
+   "examples": [
+    {
+     "en": "I am *responsible for* setting the table.",
+     "tr": "Sofrayı kurmaktan sorumluyum.",
+     "trEm": [
+      "sorumluyum"
+     ],
+     "img": "/app/img/words/set-the-table.jpg",
+     "emoji": "🍴",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 28,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     121,
+     136
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 57,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Sharing responsibilities",
+   "titleTr": "Sorumlulukları paylaşma",
+   "grammarId": "book-g8-u8-1",
+   "rule": "*be responsible for / be in charge of + isim veya fiil-ing* sorumlu olduğumuz işi anlatır.",
+   "examples": [
+    {
+     "en": "My brother is *in charge of* doing the laundry.",
+     "tr": "Erkek kardeşim çamaşır yıkamaktan sorumlu.",
+     "trEm": [
+      "sorumlu"
+     ],
+     "img": "/app/img/words/do-the-laundry.jpg",
+     "emoji": "🧺",
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 34,
+       "end": 41,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     121,
+     136
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 57,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Sharing responsibilities",
+   "titleTr": "Sorumlulukları paylaşma",
+   "grammarId": "book-g8-u8-1",
+   "rule": "*be responsible for / be in charge of + isim veya fiil-ing* sorumlu olduğumuz işi anlatır.",
+   "examples": [
+    {
+     "en": "Who is *responsible for* washing the dishes?",
+     "tr": "Bulaşıkları yıkamaktan kim sorumlu?",
+     "trEm": [
+      "sorumlu"
+     ],
+     "img": "/app/img/words/wash-the-dishes.jpg",
+     "emoji": "🧼",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 22,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 34,
+       "role": "question"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     121,
+     136
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 57,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I am ___ setting the table.",
+      "answer": "responsible for",
+      "tr": "Sofrayı kurmaktan sorumluyum."
+     },
+     {
+      "text": "My brother is ___ doing the laundry.",
+      "answer": "in charge of",
+      "tr": "Erkek kardeşim çamaşır yıkamaktan sorumlu."
+     },
+     {
+      "text": "Who is ___ washing the dishes?",
+      "answer": "responsible for",
+      "tr": "Bulaşıkları yıkamaktan kim sorumlu?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Sharing responsibilities",
+   "grammarId": "book-g8-u8-1"
+  },
+  {
+   "type": "grammar",
    "title": "have to / has to",
    "titleTr": "Sorumluluklar",
    "chips": [
@@ -973,7 +1333,21 @@
      "trEm": [
       "zorundayım."
      ],
-     "emoji": "📋"
+     "emoji": "📋",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 41,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1030,7 +1404,14 @@
       "emoji": "📋"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 20,
+     "end": 33,
+     "role": "negative"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1046,7 +1427,21 @@
      "trEm": [
       "zorunda."
      ],
-     "emoji": "🏫"
+     "emoji": "🏫",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 31,
+       "end": 39,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1054,6 +1449,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 20,
+     "end": 33,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -1070,7 +1472,21 @@
      "trEm": [
       "zorunda."
      ],
-     "emoji": "📋"
+     "emoji": "📋",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 32,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1078,6 +1494,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 20,
+     "end": 33,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -1094,7 +1517,21 @@
      "trEm": [
       "zorunda değiliz"
      ],
-     "emoji": "📋"
+     "emoji": "📋",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 16,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 37,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1102,6 +1539,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 20,
+     "end": 33,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -1119,7 +1563,31 @@
       "mısın",
       "zorunda"
      ],
-     "emoji": "📋"
+     "emoji": "📋",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "question"
+      },
+      {
+       "start": 7,
+       "end": 14,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 27,
+       "role": "question"
+      },
+      {
+       "start": 28,
+       "end": 33,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1127,7 +1595,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 20,
+     "end": 33,
+     "role": "negative"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ tidy my room every weekend.",
+      "answer": "have to",
+      "tr": "Her hafta sonu odamı toplamak zorundayım."
+     },
+     {
+      "text": "He ___ walk the dog after school.",
+      "answer": "has to",
+      "tr": "Okuldan sonra köpeği gezdirmek zorunda."
+     },
+     {
+      "text": "My brother ___ tidy his room.",
+      "answer": "has to",
+      "tr": "Erkek kardeşim odasını toplamak zorunda."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "have to / has to"
   },
   {
    "type": "exercise",
@@ -1183,6 +1686,206 @@
   },
   {
    "type": "grammar",
+   "title": "Likes and dislikes about chores",
+   "titleTr": "Ev işleriyle ilgili beğeniler",
+   "grammarId": "book-g8-u8-2",
+   "rule": "*like / enjoy / dislike / hate / can’t stand + fiil-ing* ev işleri hakkındaki duygularımızı anlatır.",
+   "examples": [
+    {
+     "en": "I *enjoy* setting the table.",
+     "tr": "Sofrayı kurmaktan keyif alırım.",
+     "trEm": [
+      "keyif alırım"
+     ],
+     "img": "/app/img/words/set-the-table.jpg",
+     "emoji": "🍴",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 30,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     121,
+     136
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 54,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Likes and dislikes about chores",
+   "titleTr": "Ev işleriyle ilgili beğeniler",
+   "grammarId": "book-g8-u8-2",
+   "rule": "*like / enjoy / dislike / hate / can’t stand + fiil-ing* ev işleri hakkındaki duygularımızı anlatır.",
+   "examples": [
+    {
+     "en": "I *dislike* ironing.",
+     "tr": "Ütü yapmaktan hoşlanmam.",
+     "trEm": [
+      "hoşlanmam"
+     ],
+     "img": "/app/img/words/iron.jpg",
+     "emoji": "👔",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 23,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     121,
+     136
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 54,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Likes and dislikes about chores",
+   "titleTr": "Ev işleriyle ilgili beğeniler",
+   "grammarId": "book-g8-u8-2",
+   "rule": "*like / enjoy / dislike / hate / can’t stand + fiil-ing* ev işleri hakkındaki duygularımızı anlatır.",
+   "examples": [
+    {
+     "en": "I *can't stand* washing the dishes.",
+     "tr": "Bulaşık yıkamaya katlanamam.",
+     "trEm": [
+      "katlanamam"
+     ],
+     "img": "/app/img/words/wash-the-dishes.jpg",
+     "emoji": "🧼",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 13,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 27,
+       "role": "negative"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     121,
+     136
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 54,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ setting the table.",
+      "answer": "enjoy",
+      "tr": "Sofrayı kurmaktan keyif alırım."
+     },
+     {
+      "text": "I ___ ironing.",
+      "answer": "dislike",
+      "tr": "Ütü yapmaktan hoşlanmam."
+     },
+     {
+      "text": "I ___ washing the dishes.",
+      "answer": "can't stand",
+      "tr": "Bulaşık yıkamaya katlanamam."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Likes and dislikes about chores",
+   "grammarId": "book-g8-u8-2"
+  },
+  {
+   "type": "grammar",
    "title": "Asking for Help",
    "titleTr": "Yardım isteme ve teklif etme",
    "chips": [
@@ -1195,6 +1898,20 @@
      "img": "/app/img/words/laundry.jpg",
      "trEm": [
       "yardım eder misin"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 35,
+       "role": "question"
+      }
      ]
     }
    ],
@@ -1249,7 +1966,14 @@
       "emoji": "🙋"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 12,
+     "end": 35,
+     "role": "question"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1265,7 +1989,21 @@
      "trEm": [
       "çıkarır mısın"
      ],
-     "emoji": "🗑️"
+     "emoji": "🗑️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 14,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 5,
+       "end": 18,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1273,6 +2011,13 @@
    "part": [
     2,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 12,
+     "end": 38,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1289,6 +2034,20 @@
      "img": "/app/img/words/set-the-table.jpg",
      "trEm": [
       "ben mi kurayım"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 21,
+       "role": "question"
+      }
      ]
     }
    ],
@@ -1297,6 +2056,13 @@
    "part": [
     3,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 47,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1313,7 +2079,21 @@
      "trEm": [
       "el atar mısın"
      ],
-     "emoji": "🙋"
+     "emoji": "🙋",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 22,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 27,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1321,6 +2101,34 @@
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ help me with the laundry?",
+      "answer": "Could you",
+      "tr": "Çamaşırlarda bana yardım eder misin?"
+     },
+     {
+      "text": "___ taking out the rubbish?",
+      "answer": "Would you mind",
+      "tr": "Çöpü çıkarır mısın?"
+     },
+     {
+      "text": "___ set the table?",
+      "answer": "Shall I",
+      "tr": "Masayı ben mi kurayım?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Asking for Help"
   },
   {
    "type": "exercise",
@@ -1382,7 +2190,21 @@
      "trEm": [
       "Elbette"
      ],
-     "emoji": "💬"
+     "emoji": "💬",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1483,7 +2305,21 @@
       "Tabii"
      ],
      "emoji": "💬",
-     "focus": "ACCEPT ✅"
+     "focus": "ACCEPT ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1507,7 +2343,21 @@
       "Elbette"
      ],
      "emoji": "💬",
-     "focus": "ACCEPT ✅"
+     "focus": "ACCEPT ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1531,7 +2381,21 @@
       "Peki"
      ],
      "emoji": "💬",
-     "focus": "ACCEPT ✅"
+     "focus": "ACCEPT ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1555,7 +2419,21 @@
       "Üzgünüm"
      ],
      "emoji": "💬",
-     "focus": "REFUSE ⛔"
+     "focus": "REFUSE ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1579,7 +2457,21 @@
       "Korkarım"
      ],
      "emoji": "💬",
-     "focus": "REFUSE ⛔"
+     "focus": "REFUSE ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1603,7 +2495,21 @@
       "Şimdi olmaz"
      ],
      "emoji": "📚",
-     "focus": "REFUSE ⛔"
+     "focus": "REFUSE ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1611,6 +2517,34 @@
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ I can help you.",
+      "answer": "Of course.",
+      "tr": "Elbette. Sana yardım edebilirim."
+     },
+     {
+      "text": "___, no problem.",
+      "answer": "Sure",
+      "tr": "Tabii, sorun değil."
+     },
+     {
+      "text": "___, I'll do it now.",
+      "answer": "Of course",
+      "tr": "Elbette, şimdi yaparım."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Accepting & Refusing Requests"
   },
   {
    "type": "exercise",
@@ -1874,11 +2808,138 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Household chores",
+      "items": [
+       "make the bed",
+       "set the table",
+       "wash the dishes"
+      ]
+     },
+     {
+      "label": "Behaviour rules",
+      "items": [
+       "obey the rules",
+       "arrive on time",
+       "keep quiet"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "I am ___ setting the table.",
+      "answer": "responsible for",
+      "tr": "Sofrayı kurmaktan sorumluyum."
+     },
+     {
+      "text": "I ___ tidy my room every weekend.",
+      "answer": "have to",
+      "tr": "Her hafta sonu odamı toplamak zorundayım."
+     },
+     {
+      "text": "I ___ setting the table.",
+      "answer": "enjoy",
+      "tr": "Sofrayı kurmaktan keyif alırım."
+     },
+     {
+      "text": "___ help me with the laundry?",
+      "answer": "Could you",
+      "tr": "Çamaşırlarda bana yardım eder misin?"
+     },
+     {
+      "text": "___ I can help you.",
+      "answer": "Of course.",
+      "tr": "Elbette. Sana yardım edebilirim."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: I am ___ setting the table.",
+      "answer": "I am responsible for setting the table.",
+      "tr": "Sofrayı kurmaktan sorumluyum."
+     },
+     {
+      "q": "Complete: I ___ tidy my room every weekend.",
+      "answer": "I have to tidy my room every weekend.",
+      "tr": "Her hafta sonu odamı toplamak zorundayım."
+     },
+     {
+      "q": "Complete: I ___ setting the table.",
+      "answer": "I enjoy setting the table.",
+      "tr": "Sofrayı kurmaktan keyif alırım."
+     },
+     {
+      "q": "Complete: ___ help me with the laundry?",
+      "answer": "Could you help me with the laundry?",
+      "tr": "Çamaşırlarda bana yardım eder misin?"
+     },
+     {
+      "q": "Complete: ___ I can help you.",
+      "answer": "Of course. I can help you.",
+      "tr": "Elbette. Sana yardım edebilirim."
+     },
+     {
+      "q": "How do you say “çöpü çıkarmak” in English?",
+      "answer": "take out the garbage"
+     },
+     {
+      "q": "How do you say “yapılacaklar listesi” in English?",
+      "answer": "to-do list"
+     },
+     {
+      "q": "How do you say “yorgun” in English?",
+      "answer": "feel exhausted"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   121,
+   136
+  ]
+ }
 }

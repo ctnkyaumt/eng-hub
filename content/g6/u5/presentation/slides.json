@@ -27,6 +27,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -79,7 +80,8 @@
     }
    ],
    "topic": "Festivals and events",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -156,6 +158,46 @@
      "imageConcept": "near"
     }
    ],
+   "topic": "Festivals and events",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "festival",
+      "b": "festival"
+     },
+     {
+      "a": "audience",
+      "b": "seyirci"
+     },
+     {
+      "a": "musician",
+      "b": "müzisyen"
+     },
+     {
+      "a": "wedding",
+      "b": "düğün"
+     },
+     {
+      "a": "perform",
+      "b": "sahne almak"
+     },
+     {
+      "a": "organise",
+      "b": "düzenlemek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Festivals and events",
    "topic": "Festivals and events",
    "topicIndex": 1
   },
@@ -264,11 +306,26 @@
      "img": "/content/g5/u5/presentation/img/p01-17.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "festival"
+     "imageConcept": "festival",
+     "enHighlights": [
+      {
+       "start": 19,
+       "end": 22,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 28,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Festivals and events",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -286,11 +343,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2890",
      "imageFit": "contain",
-     "imageConcept": "musician"
+     "imageConcept": "musician",
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 21,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Festivals and events",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "exercise",
@@ -330,11 +402,57 @@
      "imageCredit": "https://arasaac.org/pictograms/en/35709",
      "imageFit": "contain",
      "imageCue": "Act or play for an audience",
-     "imageConcept": "act"
+     "imageConcept": "act",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 23,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Festivals and events",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The local festival ___ busy yesterday.",
+      "answer": "was",
+      "tr": "Yerel festival dün kalabalıktı."
+     },
+     {
+      "text": "The musicians ___ tired.",
+      "answer": "weren't",
+      "tr": "Müzisyenler yorgun değildi."
+     },
+     {
+      "text": "___ you near the stage?",
+      "answer": "Were",
+      "tr": "Sahnenin yanında mıydın?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "At yesterday's event",
+   "topic": "Festivals and events",
+   "topicIndex": 1,
+   "grammarId": "was-were"
   },
   {
    "type": "exercise",
@@ -454,7 +572,8 @@
     }
    ],
    "topic": "Around the event",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -530,6 +649,46 @@
      "imageConcept": "creativity"
     }
    ],
+   "topic": "Around the event",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "crowded",
+      "b": "kalabalık"
+     },
+     {
+      "a": "pleased",
+      "b": "memnun"
+     },
+     {
+      "a": "tired",
+      "b": "yorgun"
+     },
+     {
+      "a": "jazz",
+      "b": "caz"
+     },
+     {
+      "a": "pop",
+      "b": "pop müzik"
+     },
+     {
+      "a": "rock",
+      "b": "rock müzik"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Around the event",
    "topic": "Around the event",
    "topicIndex": 2
   },
@@ -641,11 +800,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/35181",
      "imageFit": "contain",
      "imageCue": "In your neighbourhood",
-     "imageConcept": "near"
+     "imageConcept": "near",
+     "enHighlights": [
+      {
+       "start": 23,
+       "end": 32,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 24,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Around the event",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -663,11 +837,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6012",
      "imageFit": "contain",
-     "imageConcept": "timetable"
+     "imageConcept": "timetable",
+     "enHighlights": [
+      {
+       "start": 18,
+       "end": 26,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 22,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Around the event",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The concert was local, ___?",
+      "answer": "wasn't it",
+      "tr": "Konser yereldi, değil mi?"
+     },
+     {
+      "text": "You weren't late, ___?",
+      "answer": "were you",
+      "tr": "Geç kalmadın, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Checking past information",
+   "topic": "Around the event",
+   "topicIndex": 2,
+   "grammarId": "past-be-tags"
   },
   {
    "type": "exercise",
@@ -743,11 +958,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/38445",
      "imageFit": "contain",
-     "imageConcept": "crowded"
+     "imageConcept": "crowded",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 12,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Around the event",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -765,11 +995,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2890",
      "imageFit": "contain",
-     "imageConcept": "musician"
+     "imageConcept": "musician",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Around the event",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ was the square crowded?",
+      "answer": "Why",
+      "tr": "Meydan neden kalabalıktı?"
+     },
+     {
+      "text": "___ there was a concert.",
+      "answer": "Because",
+      "tr": "Çünkü konser vardı."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Reasons and time",
+   "topic": "Around the event",
+   "topicIndex": 2,
+   "grammarId": "why-when"
   },
   {
    "type": "exercise",
@@ -911,7 +1182,8 @@
     }
    ],
    "topic": "Transport",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -985,6 +1257,46 @@
      "imageConcept": "means of transport"
     }
    ],
+   "topic": "Transport",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "tram",
+      "b": "tramvay"
+     },
+     {
+      "a": "underground",
+      "b": "metro"
+     },
+     {
+      "a": "van",
+      "b": "kamyonet"
+     },
+     {
+      "a": "lorry",
+      "b": "kamyon"
+     },
+     {
+      "a": "motorcycle",
+      "b": "motosiklet"
+     },
+     {
+      "a": "ship",
+      "b": "gemi"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Transport",
    "topic": "Transport",
    "topicIndex": 3
   },
@@ -1094,11 +1406,26 @@
      "img": "/app/img/concepts/types-of-music.svg",
      "imageConcept": "saxophone",
      "imageSource": "ENG HUB",
-     "imageCue": "Saxophones and improvisation"
+     "imageCue": "Saxophones and improvisation",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 15,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Transport",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1115,11 +1442,52 @@
      "img": "/content/g5/u5/presentation/img/p01-17.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "festival"
+     "imageConcept": "festival",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 16,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 32,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Transport",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I enjoy ___ to jazz.",
+      "answer": "listening",
+      "tr": "Caz dinlemekten keyif alırım."
+     },
+     {
+      "text": "We plan ___ the art festival.",
+      "answer": "to visit",
+      "tr": "Sanat festivalini ziyaret etmeyi planlıyoruz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Activities and plans",
+   "topic": "Transport",
+   "topicIndex": 3,
+   "grammarId": "gerunds-infinitives"
   },
   {
    "type": "exercise",
@@ -1196,11 +1564,36 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6012",
      "imageFit": "contain",
-     "imageConcept": "timetable"
+     "imageConcept": "timetable",
+     "enHighlights": [
+      {
+       "start": 16,
+       "end": 18,
+       "role": "form"
+      },
+      {
+       "start": 26,
+       "end": 28,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 18,
+       "role": "form"
+      },
+      {
+       "start": 19,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Transport",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1218,11 +1611,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/3251",
      "imageFit": "contain",
-     "imageConcept": "walk"
+     "imageConcept": "walk",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 19,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 6,
+       "end": 15,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Transport",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The show starts ___ Sunday at six.",
+      "answer": "on",
+      "tr": "Gösteri pazar günü saat altıda başlıyor."
+     },
+     {
+      "text": "We go there ___.",
+      "answer": "on foot",
+      "tr": "Oraya yürüyerek gideriz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Time and transport",
+   "topic": "Transport",
+   "topicIndex": 3,
+   "grammarId": "time-transport"
   },
   {
    "type": "exercise",
@@ -1410,7 +1844,8 @@
     }
    ],
    "topic": "Finding the way",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1484,6 +1919,46 @@
      "imageConcept": "car"
     }
    ],
+   "topic": "Finding the way",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "sign",
+      "b": "tabela"
+     },
+     {
+      "a": "direction",
+      "b": "yön"
+     },
+     {
+      "a": "overpass",
+      "b": "üst geçit"
+     },
+     {
+      "a": "underpass",
+      "b": "alt geçit"
+     },
+     {
+      "a": "parking",
+      "b": "park yeri"
+     },
+     {
+      "a": "railway line",
+      "b": "demiryolu hattı"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Finding the way",
    "topic": "Finding the way",
    "topicIndex": 4
   },
@@ -1594,11 +2069,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2602",
      "imageFit": "contain",
-     "imageConcept": "tram"
+     "imageConcept": "tram",
+     "enHighlights": [
+      {
+       "start": 17,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 32,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Finding the way",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1617,11 +2107,52 @@
      "imageCredit": "https://arasaac.org/pictograms/en/8972",
      "imageFit": "contain",
      "imageCue": "Go below the road",
-     "imageConcept": "tunnel"
+     "imageConcept": "tunnel",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 12,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 12,
+       "end": 19,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Finding the way",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The tram stop is ___ the park and the hall.",
+      "answer": "between",
+      "tr": "Tramvay durağı park ile salonun arasında."
+     },
+     {
+      "text": "Walk ___ the underpass.",
+      "answer": "through",
+      "tr": "Alt geçidin içinden yürüyün."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Places and movement",
+   "topic": "Finding the way",
+   "topicIndex": 4,
+   "grammarId": "place-movement"
   },
   {
    "type": "exercise",
@@ -1853,6 +2384,129 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Festivals and events",
+      "items": [
+       "festival",
+       "audience",
+       "musician"
+      ]
+     },
+     {
+      "label": "Around the event",
+      "items": [
+       "crowded",
+       "pleased",
+       "tired"
+      ]
+     },
+     {
+      "label": "Transport",
+      "items": [
+       "tram",
+       "underground",
+       "van"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "The local festival ___ busy yesterday.",
+      "answer": "was",
+      "tr": "Yerel festival dün kalabalıktı."
+     },
+     {
+      "text": "The concert was local, ___?",
+      "answer": "wasn't it",
+      "tr": "Konser yereldi, değil mi?"
+     },
+     {
+      "text": "___ was the square crowded?",
+      "answer": "Why",
+      "tr": "Meydan neden kalabalıktı?"
+     },
+     {
+      "text": "I enjoy ___ to jazz.",
+      "answer": "listening",
+      "tr": "Caz dinlemekten keyif alırım."
+     },
+     {
+      "text": "The show starts ___ Sunday at six.",
+      "answer": "on",
+      "tr": "Gösteri pazar günü saat altıda başlıyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: The local festival ___ busy yesterday.",
+      "answer": "The local festival was busy yesterday.",
+      "tr": "Yerel festival dün kalabalıktı."
+     },
+     {
+      "q": "Complete: The concert was local, ___?",
+      "answer": "The concert was local, wasn't it?",
+      "tr": "Konser yereldi, değil mi?"
+     },
+     {
+      "q": "Complete: ___ was the square crowded?",
+      "answer": "Why was the square crowded?",
+      "tr": "Meydan neden kalabalıktı?"
+     },
+     {
+      "q": "Complete: I enjoy ___ to jazz.",
+      "answer": "I enjoy listening to jazz.",
+      "tr": "Caz dinlemekten keyif alırım."
+     },
+     {
+      "q": "Complete: The show starts ___ Sunday at six.",
+      "answer": "The show starts on Sunday at six.",
+      "tr": "Gösteri pazar günü saat altıda başlıyor."
+     },
+     {
+      "q": "Complete: The tram stop is ___ the park and the hall.",
+      "answer": "The tram stop is between the park and the hall.",
+      "tr": "Tramvay durağı park ile salonun arasında."
+     },
+     {
+      "q": "How do you say “yerel” in English?",
+      "answer": "local"
+     },
+     {
+      "q": "How do you say “yaratıcı” in English?",
+      "answer": "creative"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

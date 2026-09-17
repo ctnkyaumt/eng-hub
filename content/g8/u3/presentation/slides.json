@@ -48,6 +48,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -83,6 +84,7 @@
      "img": "/app/img/words/mix.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -121,10 +123,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "bake",
+      "b": "fırında pişirmek"
+     },
+     {
+      "a": "boil",
+      "b": "haşlamak"
+     },
+     {
+      "a": "chop",
+      "b": "doğramak"
+     },
+     {
+      "a": "cut",
+      "b": "kesmek"
+     },
+     {
+      "a": "dice",
+      "b": "küp küp doğramak"
+     },
+     {
+      "a": "fry",
+      "b": "kızartmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Cooking Verbs"
   },
   {
    "type": "exercise",
@@ -267,6 +307,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -305,10 +346,48 @@
      "img": "/app/img/words/ingredient.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "bowl",
+      "b": "kase"
+     },
+     {
+      "a": "grater",
+      "b": "rende"
+     },
+     {
+      "a": "oven",
+      "b": "fırın"
+     },
+     {
+      "a": "pan",
+      "b": "tava"
+     },
+     {
+      "a": "saucepan",
+      "b": "tencere"
+     },
+     {
+      "a": "spoon",
+      "b": "kaşık"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Kitchen Tools"
   },
   {
    "type": "exercise",
@@ -470,6 +549,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -517,10 +597,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "recipe",
+      "b": "tarif"
+     },
+     {
+      "a": "meal",
+      "b": "öğün"
+     },
+     {
+      "a": "dessert",
+      "b": "tatlı"
+     },
+     {
+      "a": "delicious",
+      "b": "nefis"
+     },
+     {
+      "a": "tasty",
+      "b": "lezzetli"
+     },
+     {
+      "a": "salty",
+      "b": "tuzlu"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Taste & Food"
   },
   {
    "type": "exercise",
@@ -672,6 +790,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -719,6 +838,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -766,10 +886,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "stir",
+      "b": "karıştırmak, çırpmak"
+     },
+     {
+      "a": "strain",
+      "b": "süzmek"
+     },
+     {
+      "a": "wrap",
+      "b": "sarmak, paketlemek"
+     },
+     {
+      "a": "scoop",
+      "b": "kepçe ile almak, kepçe"
+     },
+     {
+      "a": "roll",
+      "b": "yuvarlamak"
+     },
+     {
+      "a": "season",
+      "b": "baharat katmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -922,6 +1080,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -960,10 +1119,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "remove",
+      "b": "çıkarmak"
+     },
+     {
+      "a": "rinse",
+      "b": "durulamak"
+     },
+     {
+      "a": "roast",
+      "b": "fırında kızartmak"
+     },
+     {
+      "a": "knead",
+      "b": "yoğurmak"
+     },
+     {
+      "a": "make it rest",
+      "b": "dinlendirmek"
+     },
+     {
+      "a": "make the dough",
+      "b": "hamur yapmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -1075,6 +1272,221 @@
   },
   {
    "type": "grammar",
+   "title": "Food preferences and inquiries",
+   "titleTr": "Yemek tercihleri ve sorular",
+   "grammarId": "book-g8-u3-1",
+   "rule": "*prefer A to B* tercih belirtir. *What / How + should + özne + fiil?* ile hazırlama sürecini sorarız.",
+   "examples": [
+    {
+     "en": "I *prefer* soup to salad.",
+     "tr": "Çorbayı salataya tercih ederim.",
+     "trEm": [
+      "tercih ederim"
+     ],
+     "img": "/app/img/words/bowl.jpg",
+     "emoji": "🥣",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 30,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     41,
+     56
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 13,
+     "role": "form"
+    },
+    {
+     "start": 31,
+     "end": 65,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Food preferences and inquiries",
+   "titleTr": "Yemek tercihleri ve sorular",
+   "grammarId": "book-g8-u3-1",
+   "rule": "*prefer A to B* tercih belirtir. *What / How + should + özne + fiil?* ile hazırlama sürecini sorarız.",
+   "examples": [
+    {
+     "en": "What *should* we add next?",
+     "tr": "Sırada ne eklemeliyiz?",
+     "trEm": [
+      "meliyiz"
+     ],
+     "img": "/app/img/words/ingredient.jpg",
+     "emoji": "🧂",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 11,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 21,
+       "role": "question"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     41,
+     56
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 13,
+     "role": "form"
+    },
+    {
+     "start": 31,
+     "end": 65,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Food preferences and inquiries",
+   "titleTr": "Yemek tercihleri ve sorular",
+   "grammarId": "book-g8-u3-1",
+   "rule": "*prefer A to B* tercih belirtir. *What / How + should + özne + fiil?* ile hazırlama sürecini sorarız.",
+   "examples": [
+    {
+     "en": "How *should* I slice the bread?",
+     "tr": "Ekmeği nasıl dilimlemeliyim?",
+     "trEm": [
+      "meliyim"
+     ],
+     "img": "/app/img/words/slice.jpg",
+     "emoji": "🍞",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 10,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 27,
+       "role": "question"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     41,
+     56
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 13,
+     "role": "form"
+    },
+    {
+     "start": 31,
+     "end": 65,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ soup to salad.",
+      "answer": "prefer",
+      "tr": "Çorbayı salataya tercih ederim."
+     },
+     {
+      "text": "What ___ we add next?",
+      "answer": "should",
+      "tr": "Sırada ne eklemeliyiz?"
+     },
+     {
+      "text": "How ___ I slice the bread?",
+      "answer": "should",
+      "tr": "Ekmeği nasıl dilimlemeliyim?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Food preferences and inquiries",
+   "grammarId": "book-g8-u3-1"
+  },
+  {
+   "type": "grammar",
    "title": "Imperatives in Recipes",
    "titleTr": "Tariflerde emir cümleleri",
    "chips": [
@@ -1087,6 +1499,20 @@
      "img": "/app/img/words/chop.jpg",
      "trEm": [
       "doğra"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 33,
+       "end": 38,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1176,7 +1602,8 @@
       "emoji": "👩‍🍳"
      }
     ]
-   }
+   },
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1192,7 +1619,21 @@
      "trEm": [
       "ekle"
      ],
-     "emoji": "👩‍🍳"
+     "emoji": "👩‍🍳",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 23,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1200,7 +1641,8 @@
    "part": [
     2,
     7
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1216,6 +1658,20 @@
      "img": "/app/img/words/boil.jpg",
      "trEm": [
       "kaynat"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 22,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1224,7 +1680,8 @@
    "part": [
     3,
     7
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1244,7 +1701,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "stir",
-     "emoji": "🥄"
+     "emoji": "🥄",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 27,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1252,7 +1723,8 @@
    "part": [
     4,
     7
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1272,7 +1744,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "stir",
-     "emoji": "🥄"
+     "emoji": "🥄",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 13,
+       "end": 21,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1280,7 +1766,8 @@
    "part": [
     5,
     7
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1297,7 +1784,21 @@
       "dök"
      ],
      "img": "/app/img/words/pour.jpg",
-     "emoji": "🚰"
+     "emoji": "🚰",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 19,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1305,7 +1806,8 @@
    "part": [
     6,
     7
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1321,7 +1823,21 @@
      "trEm": [
       "servis et"
      ],
-     "emoji": "👩‍🍳"
+     "emoji": "👩‍🍳",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 23,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1329,7 +1845,36 @@
    "part": [
     7,
     7
-   ]
+   ],
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ the onions into small pieces.",
+      "answer": "Chop",
+      "tr": "Soğanları küçük parçalar hâlinde doğra."
+     },
+     {
+      "text": "___ a teaspoon of salt.",
+      "answer": "Add",
+      "tr": "Bir çay kaşığı tuz ekle."
+     },
+     {
+      "text": "___ the water for five minutes.",
+      "answer": "Boil",
+      "tr": "Suyu beş dakika kaynat."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Imperatives in Recipes"
   },
   {
    "type": "exercise",
@@ -1391,7 +1936,21 @@
      "trEm": [
       "Önce"
      ],
-     "emoji": "1️⃣"
+     "emoji": "1️⃣",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1454,7 +2013,14 @@
       "emoji": "1️⃣"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 57,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1470,6 +2036,20 @@
      "img": "/app/img/words/slice.jpg",
      "trEm": [
       "Sonra"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1478,6 +2058,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 57,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1494,6 +2081,20 @@
      "img": "/app/img/words/bowl.jpg",
      "trEm": [
       "Ondan sonra"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1502,6 +2103,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 57,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1518,7 +2126,21 @@
      "trEm": [
       "Son olarak"
      ],
-     "emoji": "1️⃣"
+     "emoji": "1️⃣",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1526,6 +2148,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 57,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1542,7 +2171,21 @@
      "trEm": [
       "Sonra"
      ],
-     "emoji": "1️⃣"
+     "emoji": "1️⃣",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1550,7 +2193,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 57,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___, wash the vegetables.",
+      "answer": "First",
+      "tr": "Önce sebzeleri yıka."
+     },
+     {
+      "text": "___, slice the tomatoes.",
+      "answer": "Then",
+      "tr": "Sonra domatesleri dilimle."
+     },
+     {
+      "text": "___, mix everything in a bowl.",
+      "answer": "After that",
+      "tr": "Ondan sonra her şeyi bir kasede karıştır."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Sequencing Words"
   },
   {
    "type": "exercise",
@@ -1617,7 +2295,21 @@
      "trEm": [
       "Kaç"
      ],
-     "emoji": "🔢"
+     "emoji": "🔢",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1719,7 +2411,21 @@
       "Kaç"
      ],
      "emoji": "🔢",
-     "focus": "HOW MANY 🔢"
+     "focus": "HOW MANY 🔢",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1743,7 +2449,21 @@
       "Kaç"
      ],
      "emoji": "🔢",
-     "focus": "HOW MANY 🔢"
+     "focus": "HOW MANY 🔢",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1767,7 +2487,21 @@
       "Üç"
      ],
      "emoji": "🍅",
-     "focus": "HOW MANY 🔢"
+     "focus": "HOW MANY 🔢",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 13,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1791,7 +2525,21 @@
       "Ne kadar"
      ],
      "emoji": "🔢",
-     "focus": "HOW MUCH ⚖️"
+     "focus": "HOW MUCH ⚖️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1815,7 +2563,21 @@
       "Ne kadar"
      ],
      "emoji": "🔢",
-     "focus": "HOW MUCH ⚖️"
+     "focus": "HOW MUCH ⚖️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1839,7 +2601,21 @@
       "Bir fincan"
      ],
      "emoji": "🔢",
-     "focus": "HOW MUCH ⚖️"
+     "focus": "HOW MUCH ⚖️",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 12,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1847,6 +2623,34 @@
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ eggs do we need?",
+      "answer": "How many",
+      "tr": "Kaç yumurtaya ihtiyacımız var?"
+     },
+     {
+      "text": "___ potatoes are there?",
+      "answer": "How many",
+      "tr": "Kaç patates var?"
+     },
+     {
+      "text": "We need ___ tomatoes.",
+      "answer": "three",
+      "tr": "Üç domatese ihtiyacımız var."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "How much / How many"
   },
   {
    "type": "exercise",
@@ -2105,11 +2909,145 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Cooking Verbs",
+      "items": [
+       "bake",
+       "boil",
+       "chop"
+      ]
+     },
+     {
+      "label": "Kitchen Tools",
+      "items": [
+       "bowl",
+       "grater",
+       "oven"
+      ]
+     },
+     {
+      "label": "Taste & Food",
+      "items": [
+       "recipe",
+       "meal",
+       "dessert"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "I ___ soup to salad.",
+      "answer": "prefer",
+      "tr": "Çorbayı salataya tercih ederim."
+     },
+     {
+      "text": "___ the onions into small pieces.",
+      "answer": "Chop",
+      "tr": "Soğanları küçük parçalar hâlinde doğra."
+     },
+     {
+      "text": "___, wash the vegetables.",
+      "answer": "First",
+      "tr": "Önce sebzeleri yıka."
+     },
+     {
+      "text": "___ eggs do we need?",
+      "answer": "How many",
+      "tr": "Kaç yumurtaya ihtiyacımız var?"
+     },
+     {
+      "text": "What ___ we add next?",
+      "answer": "should",
+      "tr": "Sırada ne eklemeliyiz?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: I ___ soup to salad.",
+      "answer": "I prefer soup to salad.",
+      "tr": "Çorbayı salataya tercih ederim."
+     },
+     {
+      "q": "Complete: ___ the onions into small pieces.",
+      "answer": "Chop the onions into small pieces.",
+      "tr": "Soğanları küçük parçalar hâlinde doğra."
+     },
+     {
+      "q": "Complete: ___, wash the vegetables.",
+      "answer": "First, wash the vegetables.",
+      "tr": "Önce sebzeleri yıka."
+     },
+     {
+      "q": "Complete: ___ eggs do we need?",
+      "answer": "How many eggs do we need?",
+      "tr": "Kaç yumurtaya ihtiyacımız var?"
+     },
+     {
+      "q": "How do you say “sürmek” in English?",
+      "answer": "spread"
+     },
+     {
+      "q": "How do you say “malzeme” in English?",
+      "answer": "ingredient"
+     },
+     {
+      "q": "How do you say “baharatlı” in English?",
+      "answer": "spicy"
+     },
+     {
+      "q": "How do you say “koymak” in English?",
+      "answer": "put"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   41,
+   56
+  ]
+ }
 }

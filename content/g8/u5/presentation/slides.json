@@ -51,6 +51,7 @@
      "img": "/app/img/words/connection.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -92,10 +93,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "account",
+      "b": "hesap"
+     },
+     {
+      "a": "browser",
+      "b": "tarayıcı"
+     },
+     {
+      "a": "browse",
+      "b": "gezinmek"
+     },
+     {
+      "a": "connection",
+      "b": "bağlantı"
+     },
+     {
+      "a": "screen",
+      "b": "ekran"
+     },
+     {
+      "a": "search engine",
+      "b": "arama motoru"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Internet Basics"
   },
   {
    "type": "exercise",
@@ -244,6 +283,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -291,6 +331,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -329,10 +370,48 @@
      "imageConcept": "log off"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "download",
+      "b": "indirmek"
+     },
+     {
+      "a": "upload",
+      "b": "yüklemek"
+     },
+     {
+      "a": "delete",
+      "b": "silmek"
+     },
+     {
+      "a": "reply",
+      "b": "yanıtlamak"
+     },
+     {
+      "a": "comment",
+      "b": "yorum yapmak"
+     },
+     {
+      "a": "confirm",
+      "b": "onaylamak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Online Actions"
   },
   {
    "type": "exercise",
@@ -503,6 +582,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -550,6 +630,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -597,10 +678,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "friend request",
+      "b": "arkadaşlık isteği"
+     },
+     {
+      "a": "habit",
+      "b": "alışkanlık"
+     },
+     {
+      "a": "ignore",
+      "b": "reddetmek"
+     },
+     {
+      "a": "important",
+      "b": "önemli"
+     },
+     {
+      "a": "improve",
+      "b": "geliştirmek"
+     },
+     {
+      "a": "information",
+      "b": "bilgi"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -752,6 +871,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -799,10 +919,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "file",
+      "b": "dosya"
+     },
+     {
+      "a": "find",
+      "b": "bulmak"
+     },
+     {
+      "a": "follow",
+      "b": "takip etmek"
+     },
+     {
+      "a": "free time",
+      "b": "boş zaman"
+     },
+     {
+      "a": "blog",
+      "b": "internet günlüğü"
+     },
+     {
+      "a": "break",
+      "b": "bozmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -915,6 +1073,224 @@
   },
   {
    "type": "grammar",
+   "title": "Accepting, refusing and explaining",
+   "titleTr": "Kabul etme, reddetme ve açıklama",
+   "grammarId": "book-g8-u5-1",
+   "rule": "Bir isteğe *Sure / Of course* ile cevap verebiliriz. Reddederken *Sorry, ... because ...* ile neden açıklarız.",
+   "examples": [
+    {
+     "en": "*Sure*, I can help you upload the photo.",
+     "tr": "Tabii, fotoğrafı yüklemene yardım edebilirim.",
+     "trEm": [
+      "Tabii"
+     ],
+     "img": "/app/img/words/upload.jpg",
+     "emoji": "⬆️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     73,
+     88
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 11,
+     "end": 27,
+     "role": "form"
+    },
+    {
+     "start": 63,
+     "end": 85,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Accepting, refusing and explaining",
+   "titleTr": "Kabul etme, reddetme ve açıklama",
+   "grammarId": "book-g8-u5-1",
+   "rule": "Bir isteğe *Sure / Of course* ile cevap verebiliriz. Reddederken *Sorry, ... because ...* ile neden açıklarız.",
+   "examples": [
+    {
+     "en": "Sorry, I *can't* reply now because I am doing homework.",
+     "tr": "Üzgünüm, ödev yaptığım için şimdi cevap veremem.",
+     "trEm": [
+      "emem"
+     ],
+     "img": "https://static.arasaac.org/pictograms/9030/9030_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "reply",
+     "emoji": "↩️",
+     "enHighlights": [
+      {
+       "start": 9,
+       "end": 14,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 43,
+       "end": 47,
+       "role": "negative"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     73,
+     88
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 11,
+     "end": 27,
+     "role": "form"
+    },
+    {
+     "start": 63,
+     "end": 85,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Accepting, refusing and explaining",
+   "titleTr": "Kabul etme, reddetme ve açıklama",
+   "grammarId": "book-g8-u5-1",
+   "rule": "Bir isteğe *Sure / Of course* ile cevap verebiliriz. Reddederken *Sorry, ... because ...* ile neden açıklarız.",
+   "examples": [
+    {
+     "en": "I cannot join the video call *because* my connection is slow.",
+     "tr": "Bağlantım yavaş olduğu için görüntülü aramaya katılamıyorum.",
+     "trEm": [
+      "olduğu için"
+     ],
+     "img": "/app/img/words/connection.jpg",
+     "emoji": "📶",
+     "enHighlights": [
+      {
+       "start": 29,
+       "end": 36,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 27,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     73,
+     88
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 11,
+     "end": 27,
+     "role": "form"
+    },
+    {
+     "start": 63,
+     "end": 85,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___, I can help you upload the photo.",
+      "answer": "Sure",
+      "tr": "Tabii, fotoğrafı yüklemene yardım edebilirim."
+     },
+     {
+      "text": "Sorry, I ___ reply now because I am doing homework.",
+      "answer": "can't",
+      "tr": "Üzgünüm, ödev yaptığım için şimdi cevap veremem."
+     },
+     {
+      "text": "I cannot join the video call ___ my connection is slow.",
+      "answer": "because",
+      "tr": "Bağlantım yavaş olduğu için görüntülü aramaya katılamıyorum."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Accepting, refusing and explaining",
+   "grammarId": "book-g8-u5-1"
+  },
+  {
+   "type": "grammar",
    "title": "Asking for Help",
    "titleTr": "Yardım isteme",
    "chips": [
@@ -931,7 +1307,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "download",
-     "emoji": "⬇️"
+     "emoji": "⬇️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 38,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1004,7 +1394,21 @@
      "trEm": [
       "gösterir misin"
      ],
-     "emoji": "🔐"
+     "emoji": "🔐",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 37,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1012,6 +1416,13 @@
    "part": [
     2,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 12,
+     "end": 35,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1028,7 +1439,21 @@
      "trEm": [
       "göndereyim mi"
      ],
-     "emoji": "🔗"
+     "emoji": "🔗",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 29,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1036,6 +1461,13 @@
    "part": [
     3,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 47,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1052,7 +1484,21 @@
      "trEm": [
       "bakar mısın"
      ],
-     "emoji": "🔗"
+     "emoji": "🔗",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 14,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 21,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1060,7 +1506,42 @@
    "part": [
     4,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 12,
+     "end": 38,
+     "role": "question"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ help me download this file?",
+      "answer": "Can you",
+      "tr": "Bu dosyayı indirmeme yardım eder misin?"
+     },
+     {
+      "text": "___ show me how to log in?",
+      "answer": "Could you",
+      "tr": "Nasıl giriş yapacağımı gösterir misin?"
+     },
+     {
+      "text": "___ send you the link?",
+      "answer": "Shall I",
+      "tr": "Sana bağlantıyı göndereyim mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Asking for Help"
   },
   {
    "type": "exercise",
@@ -1132,7 +1613,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "download",
-     "emoji": "⬇️"
+     "emoji": "⬇️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 21,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1244,7 +1739,21 @@
      "trEm": [
       "yaz"
      ],
-     "emoji": "🔐"
+     "emoji": "🔐",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1252,6 +1761,13 @@
    "part": [
     2,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 86,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1272,7 +1788,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "file",
-     "emoji": "📄"
+     "emoji": "📄",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 25,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1280,6 +1810,13 @@
    "part": [
     3,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 86,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1296,7 +1833,21 @@
      "trEm": [
       "paylaşma"
      ],
-     "emoji": "🔐"
+     "emoji": "🔐",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 25,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1320,7 +1871,21 @@
       "aç"
      ],
      "img": "/app/img/words/browser.jpg",
-     "emoji": "🌐"
+     "emoji": "🌐",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 13,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1328,6 +1893,13 @@
    "part": [
     5,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 86,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1348,7 +1920,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "download",
-     "emoji": "⬇️"
+     "emoji": "⬇️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1356,6 +1942,13 @@
    "part": [
     6,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 53,
+     "end": 86,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1376,7 +1969,21 @@
      "emoji": "👤",
      "imageFit": "contain",
      "imageSource": "ENG HUB",
-     "imageConcept": "account"
+     "imageConcept": "account",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 6,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 18,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1384,6 +1991,34 @@
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ the download button.",
+      "answer": "Click on",
+      "tr": "İndir düğmesine tıkla."
+     },
+     {
+      "text": "___ your username and password.",
+      "answer": "Type",
+      "tr": "Kullanıcı adını ve şifreni yaz."
+     },
+     {
+      "text": "___ the file to your desktop.",
+      "answer": "Save",
+      "tr": "Dosyayı masaüstüne kaydet."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Giving Instructions"
   },
   {
    "type": "exercise",
@@ -1445,7 +2080,21 @@
      "trEm": [
       "açma"
      ],
-     "emoji": "👥"
+     "emoji": "👥",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 34,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1550,7 +2199,21 @@
       "kullanmalısın."
      ],
      "emoji": "🔐",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1574,7 +2237,21 @@
       "yapmalısın."
      ],
      "emoji": "🛡️",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 28,
+       "end": 39,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1598,7 +2275,21 @@
       "söylemelisin."
      ],
      "emoji": "🛡️",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 43,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1622,7 +2313,21 @@
       "etmemelisin."
      ],
      "emoji": "👥",
-     "focus": "DON'T ⛔"
+     "focus": "DON'T ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 13,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 38,
+       "end": 50,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1650,7 +2355,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "information",
      "emoji": "ℹ️",
-     "focus": "DON'T ⛔"
+     "focus": "DON'T ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 13,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 36,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1674,7 +2393,21 @@
       "tıklamamalısın."
      ],
      "emoji": "🛡️",
-     "focus": "DON'T ⛔"
+     "focus": "DON'T ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 36,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1682,6 +2415,34 @@
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ open messages from strangers.",
+      "answer": "Don't",
+      "tr": "Yabancılardan gelen mesajları açma."
+     },
+     {
+      "text": "You ___ use a strong password.",
+      "answer": "should",
+      "tr": "Güçlü bir şifre kullanmalısın."
+     },
+     {
+      "text": "You ___ log out on public computers.",
+      "answer": "should",
+      "tr": "Ortak bilgisayarlarda çıkış yapmalısın."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Internet Safety"
   },
   {
    "type": "exercise",
@@ -1948,11 +2709,137 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Internet nouns",
+      "items": [
+       "account",
+       "browser",
+       "search engine"
+      ]
+     },
+     {
+      "label": "Online actions",
+      "items": [
+       "download",
+       "upload",
+       "delete"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "___, I can help you upload the photo.",
+      "answer": "Sure",
+      "tr": "Tabii, fotoğrafı yüklemene yardım edebilirim."
+     },
+     {
+      "text": "___ help me download this file?",
+      "answer": "Can you",
+      "tr": "Bu dosyayı indirmeme yardım eder misin?"
+     },
+     {
+      "text": "___ the download button.",
+      "answer": "Click on",
+      "tr": "İndir düğmesine tıkla."
+     },
+     {
+      "text": "___ open messages from strangers.",
+      "answer": "Don't",
+      "tr": "Yabancılardan gelen mesajları açma."
+     },
+     {
+      "text": "Sorry, I ___ reply now because I am doing homework.",
+      "answer": "can't",
+      "tr": "Üzgünüm, ödev yaptığım için şimdi cevap veremem."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: ___, I can help you upload the photo.",
+      "answer": "Sure, I can help you upload the photo.",
+      "tr": "Tabii, fotoğrafı yüklemene yardım edebilirim."
+     },
+     {
+      "q": "Complete: ___ help me download this file?",
+      "answer": "Can you help me download this file?",
+      "tr": "Bu dosyayı indirmeme yardım eder misin?"
+     },
+     {
+      "q": "Complete: ___ the download button.",
+      "answer": "Click on the download button.",
+      "tr": "İndir düğmesine tıkla."
+     },
+     {
+      "q": "Complete: ___ open messages from strangers.",
+      "answer": "Don't open messages from strangers.",
+      "tr": "Yabancılardan gelen mesajları açma."
+     },
+     {
+      "q": "How do you say “ek dosya” in English?",
+      "answer": "attachment"
+     },
+     {
+      "q": "How do you say “oturumu kapatmak” in English?",
+      "answer": "log off"
+     },
+     {
+      "q": "How do you say “alet, cihaz” in English?",
+      "answer": "device"
+     },
+     {
+      "q": "How do you say “kontrol etmek” in English?",
+      "answer": "check"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   73,
+   88
+  ]
+ }
 }

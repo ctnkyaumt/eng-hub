@@ -27,6 +27,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -76,7 +77,8 @@
     }
    ],
    "topic": "Countries",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -147,6 +149,46 @@
      "imageConcept": "the netherlands"
     }
    ],
+   "topic": "Countries",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "France",
+      "b": "Fransa"
+     },
+     {
+      "a": "Germany",
+      "b": "Almanya"
+     },
+     {
+      "a": "Italy",
+      "b": "İtalya"
+     },
+     {
+      "a": "Spain",
+      "b": "İspanya"
+     },
+     {
+      "a": "Denmark",
+      "b": "Danimarka"
+     },
+     {
+      "a": "Sweden",
+      "b": "İsveç"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Countries",
    "topic": "Countries",
    "topicIndex": 1
   },
@@ -254,11 +296,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/38302",
      "imageFit": "contain",
      "imageCue": "Buy food at an event",
-     "imageConcept": "stalls"
+     "imageConcept": "stalls",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 10,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 33,
+       "end": 46,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "topic": "Countries",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -275,11 +332,52 @@
      "img": "/app/img/words/dessert.jpg",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "dessert"
+     "imageConcept": "dessert",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 10,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 31,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "topic": "Countries",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ a food market last Sunday.",
+      "answer": "visited",
+      "tr": "Geçen pazar bir yiyecek pazarını ziyaret ettik."
+     },
+     {
+      "text": "Maya ___ a homemade dessert.",
+      "answer": "tried",
+      "tr": "Maya ev yapımı bir tatlı denedi."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "A completed experience",
+   "topic": "Countries",
+   "topicIndex": 1,
+   "grammarId": "past-regular"
   },
   {
    "type": "exercise",
@@ -420,7 +518,8 @@
     }
    ],
    "topic": "Nationalities and languages",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -492,6 +591,46 @@
      "imageConcept": "the netherlands"
     }
    ],
+   "topic": "Nationalities and languages",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "French",
+      "b": "Fransız; Fransızca"
+     },
+     {
+      "a": "German",
+      "b": "Alman; Almanca"
+     },
+     {
+      "a": "Italian",
+      "b": "İtalyan; İtalyanca"
+     },
+     {
+      "a": "Spanish",
+      "b": "İspanyol; İspanyolca"
+     },
+     {
+      "a": "Danish",
+      "b": "Danimarkalı; Danca"
+     },
+     {
+      "a": "Swedish",
+      "b": "İsveçli; İsveççe"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Nationalities and languages",
    "topic": "Nationalities and languages",
    "topicIndex": 2
   },
@@ -603,11 +742,31 @@
      "imageCredit": "https://arasaac.org/pictograms/en/38302",
      "imageFit": "contain",
      "imageCue": "Buy food at an event",
-     "imageConcept": "stalls"
+     "imageConcept": "stalls",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      },
+      {
+       "start": 8,
+       "end": 13,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 34,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Nationalities and languages",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -624,11 +783,57 @@
      "img": "/content/g5/u5/presentation/img/p02-01.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "apartment"
+     "imageConcept": "apartment",
+     "enHighlights": [
+      {
+       "start": 6,
+       "end": 9,
+       "role": "question"
+      },
+      {
+       "start": 15,
+       "end": 19,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 15,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Nationalities and languages",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ you enjoy the food event?",
+      "answer": "Did",
+      "tr": "Yemek etkinliğinden keyif aldın mı?"
+     },
+     {
+      "text": "Where ___ they stay?",
+      "answer": "did",
+      "tr": "Nerede kaldılar?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Questions about a visit",
+   "topic": "Nationalities and languages",
+   "topicIndex": 2,
+   "grammarId": "past-questions"
   },
   {
    "type": "exercise",
@@ -795,7 +1000,8 @@
     }
    ],
    "topic": "Food and culture",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -868,6 +1074,46 @@
      "imageConcept": "monument"
     }
    ],
+   "topic": "Food and culture",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "cuisine",
+      "b": "mutfak kültürü"
+     },
+     {
+      "a": "ingredient",
+      "b": "malzeme"
+     },
+     {
+      "a": "appetiser",
+      "b": "iştah açıcı başlangıç yemeği"
+     },
+     {
+      "a": "main course",
+      "b": "ana yemek"
+     },
+     {
+      "a": "dessert",
+      "b": "tatlı"
+     },
+     {
+      "a": "dumpling",
+      "b": "içi doldurulmuş hamur yemeği"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Food and culture",
    "topic": "Food and culture",
    "topicIndex": 3
   },
@@ -976,11 +1222,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/2573",
      "imageFit": "contain",
-     "imageConcept": "soup"
+     "imageConcept": "soup",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 14,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Food and culture",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -998,11 +1259,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/10283",
      "imageFit": "contain",
-     "imageConcept": "restaurant"
+     "imageConcept": "restaurant",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 24,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 28,
+       "end": 35,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Food and culture",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ the spicy soup.",
+      "answer": "didn't taste",
+      "tr": "Baharatlı çorbayı tatmadım."
+     },
+     {
+      "text": "The visitors ___ for dinner.",
+      "answer": "didn't stay",
+      "tr": "Ziyaretçiler akşam yemeğine kalmadı."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "What didn't happen?",
+   "topic": "Food and culture",
+   "topicIndex": 3,
+   "grammarId": "past-negative"
   },
   {
    "type": "exercise",
@@ -1148,7 +1450,8 @@
     }
    ],
    "topic": "Flavours and experiences",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1224,6 +1527,46 @@
      "imageConcept": "capital"
     }
    ],
+   "topic": "Flavours and experiences",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "crispy",
+      "b": "çıtır"
+     },
+     {
+      "a": "crunchy",
+      "b": "kıtır"
+     },
+     {
+      "a": "sour",
+      "b": "ekşi"
+     },
+     {
+      "a": "spicy",
+      "b": "baharatlı"
+     },
+     {
+      "a": "bitter",
+      "b": "acı (tat)"
+     },
+     {
+      "a": "homemade",
+      "b": "ev yapımı"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Flavours and experiences",
    "topic": "Flavours and experiences",
    "topicIndex": 4
   },
@@ -1334,11 +1677,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/7240",
      "imageFit": "contain",
-     "imageConcept": "main course"
+     "imageConcept": "main course",
+     "enHighlights": [
+      {
+       "start": 29,
+       "end": 39,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 29,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Flavours and experiences",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1356,11 +1714,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/2573",
      "imageFit": "contain",
-     "imageConcept": "soup"
+     "imageConcept": "soup",
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 31,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 35,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Flavours and experiences",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "You enjoyed the main course, ___?",
+      "answer": "didn't you",
+      "tr": "Ana yemeği beğendin, değil mi?"
+     },
+     {
+      "text": "Lina didn't order soup, ___?",
+      "answer": "did she",
+      "tr": "Lina çorba sipariş etmedi, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Checking a past experience",
+   "topic": "Flavours and experiences",
+   "topicIndex": 4,
+   "grammarId": "regular-past-tags"
   },
   {
    "type": "exercise",
@@ -1554,6 +1953,127 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Countries",
+      "items": [
+       "France",
+       "Germany",
+       "Italy"
+      ]
+     },
+     {
+      "label": "Nationalities and languages",
+      "items": [
+       "French",
+       "German",
+       "Italian"
+      ]
+     },
+     {
+      "label": "Food and culture",
+      "items": [
+       "cuisine",
+       "ingredient",
+       "appetiser"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "We ___ a food market last Sunday.",
+      "answer": "visited",
+      "tr": "Geçen pazar bir yiyecek pazarını ziyaret ettik."
+     },
+     {
+      "text": "___ you enjoy the food event?",
+      "answer": "Did",
+      "tr": "Yemek etkinliğinden keyif aldın mı?"
+     },
+     {
+      "text": "I ___ the spicy soup.",
+      "answer": "didn't taste",
+      "tr": "Baharatlı çorbayı tatmadım."
+     },
+     {
+      "text": "You enjoyed the main course, ___?",
+      "answer": "didn't you",
+      "tr": "Ana yemeği beğendin, değil mi?"
+     },
+     {
+      "text": "Maya ___ a homemade dessert.",
+      "answer": "tried",
+      "tr": "Maya ev yapımı bir tatlı denedi."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: We ___ a food market last Sunday.",
+      "answer": "We visited a food market last Sunday.",
+      "tr": "Geçen pazar bir yiyecek pazarını ziyaret ettik."
+     },
+     {
+      "q": "Complete: ___ you enjoy the food event?",
+      "answer": "Did you enjoy the food event?",
+      "tr": "Yemek etkinliğinden keyif aldın mı?"
+     },
+     {
+      "q": "Complete: I ___ the spicy soup.",
+      "answer": "I didn't taste the spicy soup.",
+      "tr": "Baharatlı çorbayı tatmadım."
+     },
+     {
+      "q": "Complete: You enjoyed the main course, ___?",
+      "answer": "You enjoyed the main course, didn't you?",
+      "tr": "Ana yemeği beğendin, değil mi?"
+     },
+     {
+      "q": "How do you say “Hollanda” in English?",
+      "answer": "the Netherlands"
+     },
+     {
+      "q": "How do you say “Hollandalı; Hollandaca” in English?",
+      "answer": "Dutch"
+     },
+     {
+      "q": "How do you say “kültürel miras” in English?",
+      "answer": "heritage"
+     },
+     {
+      "q": "How do you say “başkent” in English?",
+      "answer": "capital"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

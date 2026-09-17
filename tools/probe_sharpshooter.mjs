@@ -27,8 +27,8 @@ for (const g of catalog.grades) for (const u of g.units) {
   }
   units++;
 }
-assert.equal(units,36);
-assert.equal(catalog.grades.find(g=>g.id==="g6").units.length,8);
+assert.equal(units,38);
+assert.equal(catalog.grades.find(g=>g.id==="g6").units.length,9);
 
 class Element {
   constructor(tag){this.tagName=tag;this.children=[];this.style={};this.attrs={};this.handlers={};this.nodeType=1;this.textContent="";this.className="";this.clientWidth=1000;this.clientHeight=400;this.offsetWidth=136;

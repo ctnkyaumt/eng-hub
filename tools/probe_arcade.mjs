@@ -102,6 +102,18 @@ for (const mode of ["balon-patlat", "kostebek-avi", "uzay-kosusu"]) {
     reduced = motion;
     const ctx = startGame(mode);
     assert.equal(findAll("arcade-target").length, 4);
+    if (mode === "kostebek-avi") {
+      const holes = findAll("mole-hole");
+      assert.equal(holes.length, 4);
+      assert(findAll("arcade-target").every(b => holes.includes(b.parentElement)));
+      if (!motion) {
+        advance(2400);
+        const hidden = findAll("arcade-target").filter(b => b.attrs["aria-hidden"] === "true");
+        assert(hidden.length > 0 && hidden.every(b => b.disabled));
+        assert(holes.every(h => !h.className.includes("mole-down") && !h.style.transform));
+        ctx.restart();
+      }
+    }
     key(String(choice() + 1));
     if (mode === "uzay-kosusu") { assert.equal(score(), 0); advance(14020); }
     assert.equal(score(), 14, `${mode} correct score`);

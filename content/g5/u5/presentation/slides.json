@@ -52,6 +52,7 @@
      "img": "p01-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -87,6 +88,7 @@
      "img": "p01-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -122,6 +124,7 @@
      "img": "p01-12.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -157,6 +160,7 @@
      "img": "p01-16.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -192,10 +196,48 @@
      "img": "p01-20.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "ancient site",
+      "b": "antik alan"
+     },
+     {
+      "a": "art gallery",
+      "b": "sanat galerisi"
+     },
+     {
+      "a": "castle",
+      "b": "kale"
+     },
+     {
+      "a": "cinema",
+      "b": "sinema"
+     },
+     {
+      "a": "coast",
+      "b": "sahil"
+     },
+     {
+      "a": "corner",
+      "b": "köşe"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Places for Recreation & Attractions"
   },
   {
    "type": "exercise",
@@ -347,6 +389,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -394,6 +437,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -423,10 +467,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "cycle",
+      "b": "bisiklete binmek"
+     },
+     {
+      "a": "fish",
+      "b": "balık tutmak"
+     },
+     {
+      "a": "jump",
+      "b": "zıplamak"
+     },
+     {
+      "a": "guide",
+      "b": "rehberlik etmek"
+     },
+     {
+      "a": "joke",
+      "b": "şaka yapmak"
+     },
+     {
+      "a": "experience",
+      "b": "deneyimlemek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Verbs"
   },
   {
    "type": "exercise",
@@ -594,6 +676,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     8
@@ -641,6 +724,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     8
@@ -688,6 +772,7 @@
      "imageConcept": "social"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     8
@@ -735,6 +820,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     8
@@ -782,6 +868,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     8
@@ -829,6 +916,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     6,
     8
@@ -870,6 +958,7 @@
      "img": "/app/img/vocab/physical-small.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     7,
     8
@@ -899,10 +988,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     8,
     8
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "ancient",
+      "b": "antik, çok eski"
+     },
+     {
+      "a": "historical",
+      "b": "tarihi"
+     },
+     {
+      "a": "modern",
+      "b": "modern"
+     },
+     {
+      "a": "famous",
+      "b": "ünlü"
+     },
+     {
+      "a": "crowded",
+      "b": "kalabalık"
+     },
+     {
+      "a": "traditional",
+      "b": "geleneksel"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Adjectives"
   },
   {
    "type": "exercise",
@@ -1042,6 +1169,7 @@
      "img": "p02-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -1083,6 +1211,7 @@
      "img": "p02-06.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -1121,6 +1250,7 @@
      "img": "p02-09.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -1156,6 +1286,7 @@
      "img": "p02-13.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -1191,10 +1322,48 @@
      "img": "p02-17.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "flat / apartment",
+      "b": "daire"
+     },
+     {
+      "a": "sitting / living room",
+      "b": "oturma odası"
+     },
+     {
+      "a": "bedroom",
+      "b": "yatak odası"
+     },
+     {
+      "a": "dining room",
+      "b": "yemek odası"
+     },
+     {
+      "a": "kitchen",
+      "b": "mutfak"
+     },
+     {
+      "a": "bathroom",
+      "b": "banyo"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Parts of a House"
   },
   {
    "type": "exercise",
@@ -1335,6 +1504,7 @@
      "img": "p02-21.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -1379,6 +1549,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -1426,6 +1597,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -1470,6 +1642,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -1517,10 +1690,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "sofa",
+      "b": "kanepe"
+     },
+     {
+      "a": "armchair",
+      "b": "koltuk"
+     },
+     {
+      "a": "chair",
+      "b": "sandalye"
+     },
+     {
+      "a": "table",
+      "b": "masa"
+     },
+     {
+      "a": "bed",
+      "b": "yatak"
+     },
+     {
+      "a": "bookcase",
+      "b": "kitaplık"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Furniture & Kitchen Utensils"
   },
   {
    "type": "exercise",
@@ -1644,7 +1855,21 @@
      "trEm": [
       "var"
      ],
-     "emoji": "🏠"
+     "emoji": "🏠",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1737,7 +1962,14 @@
       "emoji": "🏠"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 50,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1758,7 +1990,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "wide",
      "emoji": "↔️",
-     "focus": "OLUMLU ✅"
+     "focus": "OLUMLU ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 33,
+       "end": 36,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1783,7 +2029,21 @@
      "trEm": [
       "var"
      ],
-     "focus": "OLUMLU ✅"
+     "focus": "OLUMLU ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1807,7 +2067,21 @@
       "var mı"
      ],
      "emoji": "🛗",
-     "focus": "OLUMLU ✅"
+     "focus": "OLUMLU ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 33,
+       "end": 39,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1832,7 +2106,21 @@
      "trEm": [
       "yok"
      ],
-     "focus": "OLUMSUZ ⛔"
+     "focus": "OLUMSUZ ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 22,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1857,7 +2145,21 @@
      "trEm": [
       "yok"
      ],
-     "focus": "OLUMSUZ ⛔"
+     "focus": "OLUMSUZ ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 12,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 28,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1882,7 +2184,21 @@
      "trEm": [
       "var mı"
      ],
-     "focus": "OLUMSUZ ⛔"
+     "focus": "OLUMSUZ ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 29,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1890,6 +2206,34 @@
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ two chairs in the room.",
+      "answer": "There are",
+      "tr": "Odada iki sandalye var."
+     },
+     {
+      "text": "___ a wide sofa in the living room.",
+      "answer": "There is",
+      "tr": "Oturma odasında geniş bir kanepe var."
+     },
+     {
+      "text": "___ two fridges in the kitchen.",
+      "answer": "There are",
+      "tr": "Mutfakta iki buzdolabı var."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "There is / There are"
   },
   {
    "type": "exercise",
@@ -1952,6 +2296,20 @@
      "emoji": "🪑",
      "trEm": [
       "Emre'nin"
+     ],
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 3,
+       "end": 11,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2015,7 +2373,14 @@
       "emoji": "📝"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 24,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -2035,7 +2400,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "bookshelf",
-     "emoji": "📚"
+     "emoji": "📚",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 3,
+       "end": 12,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2043,6 +2422,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 24,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2059,7 +2445,21 @@
      "trEm": [
       "Ece'nin"
      ],
-     "emoji": "📝"
+     "emoji": "📝",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 13,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2067,6 +2467,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 24,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2084,6 +2491,20 @@
      "emoji": "🌷",
      "trEm": [
       "Öğretmenlerin"
+     ],
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 13,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 13,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2092,6 +2513,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 24,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2109,6 +2537,20 @@
      "emoji": "🛏️",
      "trEm": [
       "anne-babamın"
+     ],
+     "enHighlights": [
+      {
+       "start": 18,
+       "end": 19,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 3,
+       "end": 15,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2117,7 +2559,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 24,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "This is Emre___ armchair.",
+      "answer": "'s",
+      "tr": "Bu Emre'nin koltuğu."
+     },
+     {
+      "text": "This is Damla___ bookcase.",
+      "answer": "'s",
+      "tr": "Bu Damla'nın kitaplığı."
+     },
+     {
+      "text": "This is Ece___ bicycle.",
+      "answer": "'s",
+      "tr": "Bu Ece'nin bisikleti."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Possessive 's"
   },
   {
    "type": "exercise",
@@ -2272,6 +2749,20 @@
      "img": "p01-12.png",
      "trEm": [
       "giderim"
+     ],
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 28,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2367,7 +2858,21 @@
      "trEm": [
       "balık tutar"
      ],
-     "emoji": "🎣"
+     "emoji": "🎣",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 9,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 19,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2390,7 +2895,21 @@
      "trEm": [
       "gider"
      ],
-     "emoji": "🗼"
+     "emoji": "🗼",
+     "enHighlights": [
+      {
+       "start": 6,
+       "end": 8,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 21,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2413,7 +2932,21 @@
      "trEm": [
       "yapmazsın"
      ],
-     "emoji": "😂"
+     "emoji": "😂",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 9,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 18,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2436,6 +2969,20 @@
      "img": "p01-04.png",
      "trEm": [
       "gitmez"
+     ],
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 17,
+       "role": "negative"
+      }
      ]
     }
    ],
@@ -2459,7 +3006,21 @@
      "trEm": [
       "misin"
      ],
-     "emoji": "🎪"
+     "emoji": "🎪",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 26,
+       "end": 31,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2482,6 +3043,20 @@
      "img": "p01-08.png",
      "trEm": [
       "mi"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 27,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2505,7 +3080,21 @@
      "trEm": [
       "oynar"
      ],
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 8,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 30,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2513,6 +3102,34 @@
     8,
     8
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ to the playground every day.",
+      "answer": "go",
+      "tr": "Her gün oyun alanına giderim."
+     },
+     {
+      "text": "He ___ in the lake.",
+      "answer": "fishes",
+      "tr": "O gölde balık tutar."
+     },
+     {
+      "text": "She ___ to Paris in summer.",
+      "answer": "goes",
+      "tr": "O yazın Paris'e gider."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Simple Present"
   },
   {
    "type": "exercise",
@@ -2575,7 +3192,21 @@
       "tek heceli"
      ],
      "img": "/app/img/vocab/physical-small.svg",
-     "emoji": "🐜"
+     "emoji": "🐜",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2698,7 +3329,14 @@
       "emoji": "🦁"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -2718,7 +3356,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "wide",
-     "emoji": "↔️"
+     "emoji": "↔️",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 12,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2726,6 +3378,13 @@
    "part": [
     2,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2743,7 +3402,21 @@
       "sessiz-sesli-sessiz"
      ],
      "img": "/app/img/vocab/physical-big.svg",
-     "emoji": "🐘"
+     "emoji": "🐘",
+     "enHighlights": [
+      {
+       "start": 9,
+       "end": 12,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 19,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2751,6 +3424,13 @@
    "part": [
     3,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2771,7 +3451,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "heavy",
-     "emoji": "🏋️"
+     "emoji": "🏋️",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2779,6 +3473,13 @@
    "part": [
     4,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2799,7 +3500,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "crowded",
-     "emoji": "👥"
+     "emoji": "👥",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2807,6 +3522,13 @@
    "part": [
     5,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2823,7 +3545,41 @@
      "trEm": [
       "düzensiz sıfatlar"
      ],
-     "emoji": "⚖️"
+     "emoji": "⚖️",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 13,
+       "role": "ending"
+      },
+      {
+       "start": 24,
+       "end": 29,
+       "role": "form"
+      },
+      {
+       "start": 46,
+       "end": 50,
+       "role": "form"
+      },
+      {
+       "start": 64,
+       "end": 68,
+       "role": "form"
+      },
+      {
+       "start": 84,
+       "end": 86,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 17,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2831,6 +3587,13 @@
    "part": [
     6,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2851,7 +3614,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "comfortable",
-     "emoji": "😌"
+     "emoji": "😌",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 33,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2859,6 +3636,13 @@
    "part": [
     7,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2875,7 +3659,21 @@
      "trEm": [
       "daha yakın"
      ],
-     "emoji": "⚖️"
+     "emoji": "⚖️",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 22,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2883,6 +3681,13 @@
    "part": [
     8,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2900,6 +3705,20 @@
      "emoji": "🪴",
      "trEm": [
       "daha büyük"
+     ],
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 27,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2908,6 +3727,13 @@
    "part": [
     9,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2924,7 +3750,21 @@
      "trEm": [
       "daha büyük"
      ],
-     "emoji": "🦁"
+     "emoji": "🦁",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 31,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2932,6 +3772,13 @@
    "part": [
     10,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2948,6 +3795,20 @@
      "img": "p01-19.png",
      "trEm": [
       "daha iyidir"
+     ],
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 32,
+       "end": 43,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2956,7 +3817,42 @@
    "part": [
     11,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 19,
+     "end": 22,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The sofa is ___ the armchair.",
+      "answer": "more comfortable than",
+      "tr": "Kanepe, koltuktan daha rahat."
+     },
+     {
+      "text": "My flat is ___ your flat.",
+      "answer": "closer than",
+      "tr": "Benim dairem, senin dairenden daha yakın."
+     },
+     {
+      "text": "The terrace is ___ the balcony.",
+      "answer": "bigger than",
+      "tr": "Teras, balkondan daha büyük."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Comparative Adjectives"
   },
   {
    "type": "exercise",
@@ -3250,10 +4146,152 @@
    "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Places for Recreation & Attractions",
+      "items": [
+       "ancient site",
+       "art gallery",
+       "castle"
+      ]
+     },
+     {
+      "label": "Verbs",
+      "items": [
+       "cycle",
+       "fish",
+       "jump"
+      ]
+     },
+     {
+      "label": "Adjectives",
+      "items": [
+       "ancient",
+       "historical",
+       "modern"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "___ two chairs in the room.",
+      "answer": "There are",
+      "tr": "Odada iki sandalye var."
+     },
+     {
+      "text": "This is Emre___ armchair.",
+      "answer": "'s",
+      "tr": "Bu Emre'nin koltuğu."
+     },
+     {
+      "text": "I ___ to the playground every day.",
+      "answer": "go",
+      "tr": "Her gün oyun alanına giderim."
+     },
+     {
+      "text": "___ a wide sofa in the living room.",
+      "answer": "There is",
+      "tr": "Oturma odasında geniş bir kanepe var."
+     },
+     {
+      "text": "___ two fridges in the kitchen.",
+      "answer": "There are",
+      "tr": "Mutfakta iki buzdolabı var."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: ___ two chairs in the room.",
+      "answer": "There are two chairs in the room.",
+      "tr": "Odada iki sandalye var."
+     },
+     {
+      "q": "Complete: This is Emre___ armchair.",
+      "answer": "This is Emre's armchair.",
+      "tr": "Bu Emre'nin koltuğu."
+     },
+     {
+      "q": "Complete: I ___ to the playground every day.",
+      "answer": "I go to the playground every day.",
+      "tr": "Her gün oyun alanına giderim."
+     },
+     {
+      "q": "Complete: The sofa is ___ the armchair.",
+      "answer": "The sofa is more comfortable than the armchair.",
+      "tr": "Kanepe, koltuktan daha rahat."
+     },
+     {
+      "q": "How do you say “hayvanat bahçesi” in English?",
+      "answer": "zoo"
+     },
+     {
+      "q": "How do you say “kiralamak” in English?",
+      "answer": "hire / rent"
+     },
+     {
+      "q": "How do you say “soğuk” in English?",
+      "answer": "cold"
+     },
+     {
+      "q": "How do you say “kapı” in English?",
+      "answer": "door"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🌆",
    "title": "Excellent!",
    "titleTr": "Şehir kelimelerini oyunlarla pekiştirelim."
   }
- ]
+ ],
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ingilizce5_ders_kitabi.pdf",
+    "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+   },
+   {
+    "file": "ingilizce5_calisma_kitabi.pdf",
+    "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+   }
+  ],
+  "studentPages": [
+   83,
+   96
+  ],
+  "workbookPages": [
+   33,
+   38
+  ]
+ }
 }

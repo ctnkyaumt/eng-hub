@@ -9,6 +9,227 @@
  "pages": [],
  "slides": [
   {
+   "type": "grammar",
+   "title": "Decisions now — will",
+   "titleTr": "Konuşurken verilen kararlar",
+   "grammarId": "book-g8-u4-1",
+   "rule": "O anda verilen karar veya yardım teklifi: *will + yalın fiil*. *I will → I’ll*.",
+   "examples": [
+    {
+     "en": "The phone is ringing. I *will* answer it.",
+     "tr": "Telefon çalıyor. Ben açacağım.",
+     "trEm": [
+      "acağım"
+     ],
+     "img": "https://static.arasaac.org/pictograms/36306/36306_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "pick up",
+     "emoji": "📞",
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 28,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 29,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     57,
+     72
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 42,
+     "end": 59,
+     "role": "form"
+    },
+    {
+     "start": 61,
+     "end": 74,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Decisions now — will",
+   "titleTr": "Konuşurken verilen kararlar",
+   "grammarId": "book-g8-u4-1",
+   "rule": "O anda verilen karar veya yardım teklifi: *will + yalın fiil*. *I will → I’ll*.",
+   "examples": [
+    {
+     "en": "She is busy. I *will* call back later.",
+     "tr": "O meşgul. Sonra tekrar arayacağım.",
+     "trEm": [
+      "acağım"
+     ],
+     "img": "https://static.arasaac.org/pictograms/29714/29714_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "get back",
+     "emoji": "↩️",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 19,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 33,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     57,
+     72
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 42,
+     "end": 59,
+     "role": "form"
+    },
+    {
+     "start": 61,
+     "end": 74,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Decisions now — will",
+   "titleTr": "Konuşurken verilen kararlar",
+   "grammarId": "book-g8-u4-1",
+   "rule": "O anda verilen karar veya yardım teklifi: *will + yalın fiil*. *I will → I’ll*.",
+   "examples": [
+    {
+     "en": "You need a pen? I*'ll* get one for you.",
+     "tr": "Kaleme mi ihtiyacın var? Sana bir tane getireceğim.",
+     "trEm": [
+      "eceğim"
+     ],
+     "img": "/app/img/words/memo.jpg",
+     "emoji": "📝",
+     "enHighlights": [
+      {
+       "start": 17,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 44,
+       "end": 50,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     57,
+     72
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 42,
+     "end": 59,
+     "role": "form"
+    },
+    {
+     "start": 61,
+     "end": 74,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The phone is ringing. I ___ answer it.",
+      "answer": "will",
+      "tr": "Telefon çalıyor. Ben açacağım."
+     },
+     {
+      "text": "She is busy. I ___ call back later.",
+      "answer": "will",
+      "tr": "O meşgul. Sonra tekrar arayacağım."
+     },
+     {
+      "text": "You need a pen? I___ get one for you.",
+      "answer": "'ll",
+      "tr": "Kaleme mi ihtiyacın var? Sana bir tane getireceğim."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Decisions now — will",
+   "grammarId": "book-g8-u4-1"
+  },
+  {
    "type": "title",
    "kicker": "UNIT 4",
    "title": "On the Phone",
@@ -57,6 +278,7 @@
      "imageConcept": "hang up"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -101,10 +323,48 @@
      "imageConcept": "extension"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "dial",
+      "b": "numara çevirmek"
+     },
+     {
+      "a": "pick up",
+      "b": "telefonu açmak"
+     },
+     {
+      "a": "hang on",
+      "b": "hatta beklemek"
+     },
+     {
+      "a": "hang up",
+      "b": "telefonu kapatmak"
+     },
+     {
+      "a": "hold",
+      "b": "beklemek"
+     },
+     {
+      "a": "line",
+      "b": "hat"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "On the Phone"
   },
   {
    "type": "exercise",
@@ -247,6 +507,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -285,6 +546,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -320,10 +582,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "available",
+      "b": "müsait"
+     },
+     {
+      "a": "connect",
+      "b": "bağlamak"
+     },
+     {
+      "a": "contact",
+      "b": "iletişim kurmak"
+     },
+     {
+      "a": "get in touch",
+      "b": "iletişime geçmek"
+     },
+     {
+      "a": "keep in touch",
+      "b": "iletişimde kalmak"
+     },
+     {
+      "a": "get back",
+      "b": "geri dönmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Keeping in Touch"
   },
   {
    "type": "exercise",
@@ -494,6 +794,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -541,6 +842,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -588,10 +890,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "conversation",
+      "b": "görüşme"
+     },
+     {
+      "a": "customer service",
+      "b": "müşteri hizmetleri"
+     },
+     {
+      "a": "delivery",
+      "b": "gönderi"
+     },
+     {
+      "a": "device",
+      "b": "alet, aygıt, cihaz"
+     },
+     {
+      "a": "discovery",
+      "b": "keşif"
+     },
+     {
+      "a": "disturb",
+      "b": "rahatsız etmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -743,6 +1083,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -781,10 +1122,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "company",
+      "b": "şirket"
+     },
+     {
+      "a": "confirm",
+      "b": "doğrulamak, onaylamak"
+     },
+     {
+      "a": "bad line",
+      "b": "kötü hat"
+     },
+     {
+      "a": "book",
+      "b": "rezervasyon yapmak"
+     },
+     {
+      "a": "busy",
+      "b": "meşgul"
+     },
+     {
+      "a": "call",
+      "b": "telefon ile aramak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -909,7 +1288,21 @@
      "trEm": [
       "görüşebilir miyim"
      ],
-     "emoji": "☎️"
+     "emoji": "☎️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 16,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 15,
+       "end": 32,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -998,7 +1391,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "hold",
-     "emoji": "🤙"
+     "emoji": "🤙",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 15,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1021,7 +1428,21 @@
      "trEm": [
       "Mesajınızı alabilir miyim?"
      ],
-     "emoji": "☎️"
+     "emoji": "☎️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 20,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 26,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1048,7 +1469,21 @@
      "emoji": "✅",
      "imageFit": "contain",
      "imageSource": "ENG HUB",
-     "imageConcept": "available"
+     "imageConcept": "available",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 26,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 29,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1071,7 +1506,21 @@
      "trEm": [
       "konuşuyorum"
      ],
-     "emoji": "☎️"
+     "emoji": "☎️",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 20,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1079,6 +1528,34 @@
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___, please. I'll put you through.",
+      "answer": "Hold on",
+      "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+     },
+     {
+      "text": "___?",
+      "answer": "Can I take a message",
+      "tr": "Mesajınızı alabilir miyim?"
+     },
+     {
+      "text": "Sorry, she ___ right now.",
+      "answer": "isn't available",
+      "tr": "Üzgünüm, şu anda müsait değil."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "On the Phone"
   },
   {
    "type": "exercise",
@@ -1150,7 +1627,26 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "delivery",
-     "emoji": "📦"
+     "emoji": "📦",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 9,
+       "role": "form"
+      },
+      {
+       "start": 9,
+       "end": 12,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 25,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1210,7 +1706,14 @@
       "emoji": "☎️"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 31,
+     "end": 52,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1226,7 +1729,26 @@
      "trEm": [
       "konuşuyor"
      ],
-     "emoji": "☎️"
+     "emoji": "☎️",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "form"
+      },
+      {
+       "start": 11,
+       "end": 14,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 27,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1234,6 +1756,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 31,
+     "end": 52,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1250,7 +1779,26 @@
      "trEm": [
       "konuşuyor"
      ],
-     "emoji": "☎️"
+     "emoji": "☎️",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 18,
+       "role": "form"
+      },
+      {
+       "start": 18,
+       "end": 21,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 34,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1258,6 +1806,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 31,
+     "end": 52,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1274,7 +1829,21 @@
      "trEm": [
       "cevap vermiyorlar"
      ],
-     "emoji": "☎️"
+     "emoji": "☎️",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 21,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1282,6 +1851,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 31,
+     "end": 52,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1298,7 +1874,26 @@
      "trEm": [
       "dinliyor musun"
      ],
-     "emoji": "🎬"
+     "emoji": "🎬",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      },
+      {
+       "start": 14,
+       "end": 17,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 5,
+       "end": 19,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1306,7 +1901,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 31,
+     "end": 52,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ about the delivery.",
+      "answer": "am calling",
+      "tr": "Gönderi hakkında arıyorum."
+     },
+     {
+      "text": "She ___ on the phone now.",
+      "answer": "is talking",
+      "tr": "O şimdi telefonda konuşuyor."
+     },
+     {
+      "text": "My brother ___ on the phone.",
+      "answer": "is talking",
+      "tr": "Erkek kardeşim telefonda konuşuyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Present Continuous"
   },
   {
    "type": "exercise",
@@ -1626,11 +2256,132 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Phone actions",
+      "items": [
+       "dial",
+       "pick up",
+       "hang up"
+      ]
+     },
+     {
+      "label": "Phone nouns",
+      "items": [
+       "line",
+       "extension",
+       "memo"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "The phone is ringing. I ___ answer it.",
+      "answer": "will",
+      "tr": "Telefon çalıyor. Ben açacağım."
+     },
+     {
+      "text": "I ___ about the delivery.",
+      "answer": "am calling",
+      "tr": "Gönderi hakkında arıyorum."
+     },
+     {
+      "text": "She is busy. I ___ call back later.",
+      "answer": "will",
+      "tr": "O meşgul. Sonra tekrar arayacağım."
+     },
+     {
+      "text": "You need a pen? I___ get one for you.",
+      "answer": "'ll",
+      "tr": "Kaleme mi ihtiyacın var? Sana bir tane getireceğim."
+     },
+     {
+      "text": "___, please. I'll put you through.",
+      "answer": "Hold on",
+      "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: The phone is ringing. I ___ answer it.",
+      "answer": "The phone is ringing. I will answer it.",
+      "tr": "Telefon çalıyor. Ben açacağım."
+     },
+     {
+      "q": "Complete: ___, please. I'll put you through.",
+      "answer": "Hold on, please. I'll put you through.",
+      "tr": "Lütfen bekleyin. Sizi bağlıyorum."
+     },
+     {
+      "q": "Complete: I ___ about the delivery.",
+      "answer": "I am calling about the delivery.",
+      "tr": "Gönderi hakkında arıyorum."
+     },
+     {
+      "q": "How do you say “dahili numara” in English?",
+      "answer": "extension"
+     },
+     {
+      "q": "How do you say “kibar” in English?",
+      "answer": "polite"
+     },
+     {
+      "q": "How do you say “iletişim kurmak” in English?",
+      "answer": "communicate"
+     },
+     {
+      "q": "How do you say “geri aramak” in English?",
+      "answer": "call back"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   57,
+   72
+  ]
+ }
 }

@@ -24,8 +24,8 @@ hazır gelir). Hiçbiri yoksa açılış ekranı kurulumu adım adım anlatır.
 
 | Bölüm | İçerik |
 | --- | --- |
-| **Sunum** | **5. sınıf** 1–8. tema (303 slayt) ve **8. sınıf** 1–10. ünite (227 slayt) için animasyonlu ders sunumu — sesli 1115 büyük görsel kelime kartı, doğru akrep/yelkovanlı saat örnekleri, İngilizce–Türkçe eşlenmiş vurgular, 168 kısa etkinlik molası ve ünite başına 3 büyük final görevi (54 sayfa: resim sürükleme, çevrimdışı ses ve cümle kurma). 5. sınıf sunumlarının sonunda orijinal MEB tema föyünün sayfaları da var. |
-| **Oyunlar** | 10 çevrimdışı oyun modu: Sharpshooter, Balon Patlat, Köstebek Avı, Uzay Koşusu, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca kaynaktaki 66 statik etkinliğin çevrimdışı kopyası. |
+| **Sunum** | **27 mevcut ders:** 5. sınıfta 8 tema, 6. sınıfta revizyon + 8 tema, 8. sınıfta 10 ünite. Büyük resimler sırayla girer ve çıkar; İngilizce–Türkçe sözcükler ve ekler renklerle vurgulanır. Mevcut alıştırmalara ek 330 yerel etkinlik: hafıza, gruplama, eksik kelimeler ve soru kutuları. Kitapların dil hedefleri esas alınır. Hazır dersi olmayan temalara sunum eklenmez. |
+| **Oyunlar** | 10 çevrimdışı oyun modu: Sharpshooter, Balon Patlat, Köstebek Avı, Uzay Koşusu, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. 15.000+ soru ve 3.000+ kelime çifti, ünite ünite ayrılmış. Ayrıca her ünitede **sumeyyeogultekin** alt klasörü (443 çevrimiçi oyun ve kapak önizlemeleri) ile Wordwall/Vocablitz oyunları kapak görselleriyle yer alır. |
 | **Çalışma Kâğıtları** | 6. sınıfta **18 özgün çalışma kâğıdı + 9 ayrı öğretmen anahtarı**, toplam 54 PDF sayfası çevrimdışı açılır ve yazdırılır. Dışarıdan derlenen belgeler kaynak bağlantısından açılır; onlar için internet gerekir. |
 | **Kitap Sunumları** | Kaynaktaki ders/çalışma kitabı sunumlarının listesi. Bunlar yüzlerce parçadan oluşan slayt oynatıcıları olduğu için USB'ye kopyalanmıyor; **bağlantı olarak** açılır (internet gerekir). |
 

@@ -750,7 +750,7 @@ def polish(path, dry):
     tail = [s for s in slides if s["type"] in ("pages", "end")]
     body = [s for s in slides if s["type"] not in ("title", "pages", "end")]
 
-    body = [s for s in body if s["type"] not in ("exercise", "mission")]  # regenerate them
+    body = [s for s in body if s["type"] not in ("exercise", "mission") and not s.get("bookAlignment")]  # regenerate them
     from lesson_pacing import restore_teaching, pace_teaching, extra_missions
     body = restore_teaching(body)
     order = ORDER_BY_GRADE.get(grade, {}).get(unit)
@@ -828,7 +828,11 @@ def polish(path, dry):
     for page in out:
         for example in page.get("examples", []):
             example["trEm"] = turkish_highlights(page.get("title"), example.get("en"), example.get("tr"))
-    data["slides"] = head + out + tail
+    from lesson_refresh import enhance_slides
+    from book_alignment import align_slides, source_ref
+    data["slides"] = enhance_slides(align_slides(head + out + tail, grade + "/" + unit), grade + "/" + unit)
+    data["bookAlignment"] = source_ref(grade + "/" + unit)
+    data["lessonStyle"] = "reference-reveals-v1"
     if not dry:
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)

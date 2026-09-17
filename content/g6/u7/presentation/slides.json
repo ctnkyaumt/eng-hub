@@ -27,6 +27,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -78,7 +79,8 @@
     }
    ],
    "topic": "Outdoor activities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -148,6 +150,46 @@
      "imageConcept": "fish"
     }
    ],
+   "topic": "Outdoor activities",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "hiking",
+      "b": "doğa yürüyüşü"
+     },
+     {
+      "a": "climbing",
+      "b": "tırmanış"
+     },
+     {
+      "a": "sailing",
+      "b": "yelken sporu"
+     },
+     {
+      "a": "rafting",
+      "b": "rafting"
+     },
+     {
+      "a": "snowboarding",
+      "b": "snowboard sporu"
+     },
+     {
+      "a": "camp",
+      "b": "kamp yapmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Outdoor activities",
    "topic": "Outdoor activities",
    "topicIndex": 1
   },
@@ -256,11 +298,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/4670",
      "imageFit": "contain",
-     "imageConcept": "hike"
+     "imageConcept": "hike",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 33,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Outdoor activities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -278,11 +335,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/8499",
      "imageFit": "contain",
-     "imageConcept": "rubbish"
+     "imageConcept": "rubbish",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 29,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Outdoor activities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ hiking on Sunday.",
+      "answer": "went",
+      "tr": "Pazar günü doğa yürüyüşüne gittik."
+     },
+     {
+      "text": "Lina ___ rubbish near the river.",
+      "answer": "saw",
+      "tr": "Lina nehrin yanında çöp gördü."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Past adventures",
+   "topic": "Outdoor activities",
+   "topicIndex": 1,
+   "grammarId": "past-irregular"
   },
   {
    "type": "exercise",
@@ -423,7 +521,8 @@
     }
    ],
    "topic": "An outdoor adventure",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -495,6 +594,46 @@
      "imageConcept": "responsibility"
     }
    ],
+   "topic": "An outdoor adventure",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "adventure",
+      "b": "macera"
+     },
+     {
+      "a": "ride",
+      "b": "binmek"
+     },
+     {
+      "a": "run",
+      "b": "koşmak"
+     },
+     {
+      "a": "ski",
+      "b": "kayak yapmak"
+     },
+     {
+      "a": "pick",
+      "b": "toplamak"
+     },
+     {
+      "a": "plant",
+      "b": "dikmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "An outdoor adventure",
    "topic": "An outdoor adventure",
    "topicIndex": 2
   },
@@ -605,11 +744,31 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6529",
      "imageFit": "contain",
-     "imageConcept": "smoke"
+     "imageConcept": "smoke",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      },
+      {
+       "start": 8,
+       "end": 11,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 19,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "An outdoor adventure",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -627,11 +786,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/8499",
      "imageFit": "contain",
-     "imageConcept": "rubbish"
+     "imageConcept": "rubbish",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 15,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 15,
+       "end": 25,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "An outdoor adventure",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ you see any smoke?",
+      "answer": "Did",
+      "tr": "Hiç duman gördün mü?"
+     },
+     {
+      "text": "We ___ our rubbish there.",
+      "answer": "didn't leave",
+      "tr": "Çöpümüzü orada bırakmadık."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Questions and negatives",
+   "topic": "An outdoor adventure",
+   "topicIndex": 2,
+   "grammarId": "irregular-past-questions"
   },
   {
    "type": "exercise",
@@ -707,11 +907,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/4670",
      "imageFit": "contain",
-     "imageConcept": "hike"
+     "imageConcept": "hike",
+     "enHighlights": [
+      {
+       "start": 21,
+       "end": 31,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 29,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "An outdoor adventure",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -730,11 +945,52 @@
      "imageCredit": "https://arasaac.org/pictograms/en/4610",
      "imageFit": "contain",
      "imageCue": "Food from a place",
-     "imageConcept": "food"
+     "imageConcept": "food",
+     "enHighlights": [
+      {
+       "start": 22,
+       "end": 30,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 32,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "An outdoor adventure",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Maya found the path, ___?",
+      "answer": "didn't she",
+      "tr": "Maya patikayı buldu, değil mi?"
+     },
+     {
+      "text": "They didn't eat here, ___?",
+      "answer": "did they",
+      "tr": "Burada yemek yemediler, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Checking an adventure",
+   "topic": "An outdoor adventure",
+   "topicIndex": 2,
+   "grammarId": "irregular-past-tags"
   },
   {
    "type": "exercise",
@@ -876,7 +1132,8 @@
     }
    ],
    "topic": "Problems",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -950,6 +1207,46 @@
      "imageConcept": "increase"
     }
    ],
+   "topic": "Problems",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "pollution",
+      "b": "kirlilik"
+     },
+     {
+      "a": "rubbish",
+      "b": "çöp"
+     },
+     {
+      "a": "plastic",
+      "b": "plastik"
+     },
+     {
+      "a": "smoke",
+      "b": "duman"
+     },
+     {
+      "a": "energy",
+      "b": "enerji"
+     },
+     {
+      "a": "heat",
+      "b": "ısı"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Problems",
    "topic": "Problems",
    "topicIndex": 3
   },
@@ -1060,11 +1357,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6192",
      "imageFit": "contain",
-     "imageConcept": "protect"
+     "imageConcept": "protect",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Problems",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1082,11 +1394,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/8499",
      "imageFit": "contain",
-     "imageConcept": "rubbish"
+     "imageConcept": "rubbish",
+     "enHighlights": [
+      {
+       "start": 9,
+       "end": 22,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 35,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Problems",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ this habitat.",
+      "answer": "must protect",
+      "tr": "Bu yaşam alanını korumalıyız."
+     },
+     {
+      "text": "Visitors ___ rubbish here.",
+      "answer": "mustn't leave",
+      "tr": "Ziyaretçiler buraya çöp bırakmamalı."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Obligation and prohibition",
+   "topic": "Problems",
+   "topicIndex": 3,
+   "grammarId": "must-mustnt"
   },
   {
    "type": "exercise",
@@ -1232,7 +1585,8 @@
     }
    ],
    "topic": "Solutions",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1310,6 +1664,46 @@
      "imageConcept": "save"
     }
    ],
+   "topic": "Solutions",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "protect",
+      "b": "korumak"
+     },
+     {
+      "a": "prevent",
+      "b": "önlemek"
+     },
+     {
+      "a": "reduce",
+      "b": "azaltmak"
+     },
+     {
+      "a": "recycle",
+      "b": "geri dönüştürmek"
+     },
+     {
+      "a": "reusable",
+      "b": "yeniden kullanılabilir"
+     },
+     {
+      "a": "replace",
+      "b": "yerine koymak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Solutions",
    "topic": "Solutions",
    "topicIndex": 4
   },
@@ -1399,11 +1793,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/38604",
      "imageFit": "contain",
-     "imageConcept": "water bottle"
+     "imageConcept": "water bottle",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 25,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Solutions",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1422,11 +1831,52 @@
      "imageCredit": "https://arasaac.org/pictograms/en/36441",
      "imageFit": "contain",
      "imageCue": "Use it again",
-     "imageConcept": "reuse"
+     "imageConcept": "reuse",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 20,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 32,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Solutions",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Every camper ___ a water bottle.",
+      "answer": "has to carry",
+      "tr": "Her kampçının su şişesi taşıması gerekir."
+     },
+     {
+      "text": "We ___ new bags; we can reuse these.",
+      "answer": "don't have to buy",
+      "tr": "Yeni çanta almak zorunda değiliz; bunları tekrar kullanabiliriz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Rules and necessity",
+   "topic": "Solutions",
+   "topicIndex": 4,
+   "grammarId": "have-to"
   },
   {
    "type": "exercise",
@@ -1639,6 +2089,120 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Outdoor activities",
+      "items": [
+       "hiking",
+       "climbing",
+       "sailing"
+      ]
+     },
+     {
+      "label": "Environmental problems",
+      "items": [
+       "pollution",
+       "rubbish",
+       "plastic"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "We ___ hiking on Sunday.",
+      "answer": "went",
+      "tr": "Pazar günü doğa yürüyüşüne gittik."
+     },
+     {
+      "text": "___ you see any smoke?",
+      "answer": "Did",
+      "tr": "Hiç duman gördün mü?"
+     },
+     {
+      "text": "Maya found the path, ___?",
+      "answer": "didn't she",
+      "tr": "Maya patikayı buldu, değil mi?"
+     },
+     {
+      "text": "We ___ this habitat.",
+      "answer": "must protect",
+      "tr": "Bu yaşam alanını korumalıyız."
+     },
+     {
+      "text": "Every camper ___ a water bottle.",
+      "answer": "has to carry",
+      "tr": "Her kampçının su şişesi taşıması gerekir."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: We ___ hiking on Sunday.",
+      "answer": "We went hiking on Sunday.",
+      "tr": "Pazar günü doğa yürüyüşüne gittik."
+     },
+     {
+      "q": "Complete: ___ you see any smoke?",
+      "answer": "Did you see any smoke?",
+      "tr": "Hiç duman gördün mü?"
+     },
+     {
+      "q": "Complete: Maya found the path, ___?",
+      "answer": "Maya found the path, didn't she?",
+      "tr": "Maya patikayı buldu, değil mi?"
+     },
+     {
+      "q": "Complete: We ___ this habitat.",
+      "answer": "We must protect this habitat.",
+      "tr": "Bu yaşam alanını korumalıyız."
+     },
+     {
+      "q": "Complete: Every camper ___ a water bottle.",
+      "answer": "Every camper has to carry a water bottle.",
+      "tr": "Her kampçının su şişesi taşıması gerekir."
+     },
+     {
+      "q": "How do you say “balık tutmak” in English?",
+      "answer": "fish"
+     },
+     {
+      "q": "How do you say “sorumluluk” in English?",
+      "answer": "responsibility"
+     },
+     {
+      "q": "How do you say “artırmak” in English?",
+      "answer": "increase"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

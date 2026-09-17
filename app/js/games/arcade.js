@@ -30,11 +30,15 @@ export function start(ctx) {
   const status = el("div", { class: "arcade-status", role: "status", "aria-live": "polite" });
   const field = el("div", { class: `arcade-field ${config.theme}`, "aria-label": config.action });
   const ship = el("div", { class: "arcade-ship", "aria-hidden": "true" }, [el("i"), el("b"), el("em")]);
+  const scenery = el("div", { class: "arcade-scenery", "aria-hidden": "true" },
+    Array.from({ length: config.theme === "space" ? 18 : 5 }, (_, n) => el("i", { style: `--n:${n}` })));
+  const effects = el("div", { class: "arcade-effects", "aria-hidden": "true" });
   const progress = el("i");
   const runway = el("div", { class: "arcade-time", "aria-hidden": "true" }, [progress]);
   mount(game.stage,
     el("p", { class: "arcade-help", text: `${config.help} Beş can. P: duraklat.` }),
     el("div", { class: "arcade-controls" }, [hearts, timer, pause]), prompt, runway, field, status);
+  field.append(scenery, effects);
   if (config.theme === "space") field.append(ship);
   const session = createSession(game, {
     tick, key: keyboard,
@@ -54,7 +58,8 @@ export function start(ctx) {
   function next() {
     if (index >= pool.length || lives <= 0) return finish();
     elapsed = 0; locked = false; lane = -1;
-    targets.forEach(t => t.button.remove());
+    targets.forEach(t => t.hole ? t.hole.remove() : t.button.remove());
+    effects.replaceChildren();
     field.classList.remove("answer-hit", "answer-miss");
     const q = pool[index];
     mount(prompt, q.img ? el("img", { src: ctx.bank.imgBase + q.img, alt: "Soru görseli" }) : null,
@@ -71,8 +76,10 @@ export function start(ctx) {
         el("span", { class: "arcade-label", text: a.t || "" }),
       ]);
       if (config.theme === "space") button.setAttribute("aria-pressed", "false");
-      field.append(button);
-      return { a, button, up: true };
+      // The burrow stays put. Only its clipped occupant moves below the ground.
+      const hole = config.theme === "moles" ? el("div", { class: "mole-hole" }, [button]) : null;
+      field.append(hole || button);
+      return { a, button, hole, up: true };
     });
     updatePositions();
     syncButtons();
@@ -96,10 +103,19 @@ export function start(ctx) {
     const right = targets.find(t => t.a.c);
     targets.forEach((t, j) => {
       t.button.classList.remove("mole-down");
+      t.button.setAttribute("aria-hidden", "false");
       t.button.classList.toggle("right", !!t.a.c);
       t.button.classList.toggle("wrong", j === n && !correct);
     });
     field.classList.add(correct ? "answer-hit" : "answer-miss");
+    if (n >= 0 && !reduced) {
+      const x = config.theme === "space" ? (n + .5) / targets.length * 100 : n % 2 ? 75 : 25;
+      const y = config.theme === "space" ? 72 : n < 2 ? 30 : 77;
+      effects.style.left = `${x}%`; effects.style.top = `${y}%`;
+      effects.replaceChildren(...Array.from({ length: 12 }, (_, j) => el("i", {
+        class: "arcade-spark", style: `--dx:${Math.cos(j * Math.PI / 6) * 95}px;--dy:${Math.sin(j * Math.PI / 6) * 85}px;--spin:${j * 75}deg;background:${correct ? ["#fef08a", "#6ee7b7", "#bae6fd"][j % 3] : "#fda4af"}`,
+      })));
+    }
     if (correct) game.hit(12);
     else { lives--; game.miss(); }
     hearts.textContent = `♥ ${lives} / 5`;
@@ -127,16 +143,18 @@ export function start(ctx) {
     field.classList.toggle("hurry", p > .75);
     targets.forEach((t, n) => {
       if (config.theme === "balloons") {
-        t.button.style.left = `${n % 2 ? 75 : 25}%`;
+        t.button.style.left = `${(n % 2 ? 75 : 25) + (reduced ? 0 : Math.sin(elapsed * .85 + n * 1.7) * 2.3)}%`;
         t.button.style.top = `${(n < 2 ? 32 : 78) - (reduced ? 0 : p * 10)}%`;
       } else if (config.theme === "moles") {
         // All targets surface every 3 seconds; each stays readable for >2 seconds.
         t.up = reduced || elapsed < 2 || (elapsed + n * .45) % 3 < 2.25;
         t.button.classList.toggle("mole-down", !t.up);
+        t.button.setAttribute("aria-hidden", String(!t.up));
       } else {
         t.button.style.top = `${reduced ? 35 : 20 + p * 51}%`;
       }
     });
+    if (config.theme === "space") field.style.setProperty("--travel", `${reduced ? 0 : elapsed * 45}px`);
     if (config.theme === "space" && lane < 0) {
       ship.style.left = "50%";
       ship.classList.remove("steered");

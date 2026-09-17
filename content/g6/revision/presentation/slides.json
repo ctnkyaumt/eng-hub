@@ -21,6 +21,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -73,7 +74,8 @@
     }
    ],
    "topic": "school",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -145,6 +147,46 @@
      "imageConcept": "club"
     }
    ],
+   "topic": "school",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "library",
+      "b": "kütüphane"
+     },
+     {
+      "a": "laboratory",
+      "b": "laboratuvar"
+     },
+     {
+      "a": "canteen",
+      "b": "kantin"
+     },
+     {
+      "a": "playground",
+      "b": "oyun alanı"
+     },
+     {
+      "a": "science",
+      "b": "fen bilimleri"
+     },
+     {
+      "a": "music",
+      "b": "müzik"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "school",
    "topic": "school",
    "topicIndex": 1
   },
@@ -252,11 +294,26 @@
      "img": "/content/g5/u2/presentation/img/p05-02.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "science"
+     "imageConcept": "science",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 25,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "school",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -274,11 +331,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/8150",
      "imageFit": "contain",
-     "imageConcept": "laboratory"
+     "imageConcept": "laboratory",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "school",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ a science club in our school.",
+      "answer": "There is",
+      "tr": "Okulumuzda fen kulübü var."
+     },
+     {
+      "text": "We ___ in the laboratory.",
+      "answer": "must listen",
+      "tr": "Laboratuvarda dinlemeliyiz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 1: school language",
+   "topic": "school",
+   "topicIndex": 1,
+   "grammarId": "r1-school-language"
   },
   {
    "type": "exercise",
@@ -396,11 +494,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/9814",
      "imageFit": "contain",
-     "imageConcept": "classroom"
+     "imageConcept": "classroom",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 11,
+       "role": "pronoun"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 3,
+       "end": 8,
+       "role": "pronoun"
+      }
+     ]
     }
    ],
    "topic": "school",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -418,11 +531,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/27821",
      "imageFit": "contain",
-     "imageConcept": "guide"
+     "imageConcept": "guide",
+     "enHighlights": [
+      {
+       "start": 16,
+       "end": 18,
+       "role": "pronoun"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 11,
+       "role": "pronoun"
+      }
+     ]
     }
    ],
    "topic": "school",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "This is ___ classroom.",
+      "answer": "our",
+      "tr": "Bu bizim sınıfımız."
+     },
+     {
+      "text": "The guide knows ___.",
+      "answer": "us",
+      "tr": "Rehber bizi tanıyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 1: people and belongings",
+   "topic": "school",
+   "topicIndex": 1,
+   "grammarId": "r1-pronouns"
   },
   {
    "type": "exercise",
@@ -518,11 +672,26 @@
      "img": "/content/g5/u4/presentation/img/p01-19.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "get dressed"
+     "imageConcept": "get dressed",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 24,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "school",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -540,11 +709,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6012",
      "imageFit": "contain",
-     "imageConcept": "timetable"
+     "imageConcept": "timetable",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 6,
+       "end": 16,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "school",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Maya ___ at seven.",
+      "answer": "gets dressed",
+      "tr": "Maya saat yedide giyinir."
+     },
+     {
+      "text": "___ does the club start?",
+      "answer": "What time",
+      "tr": "Kulüp saat kaçta başlıyor?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 1: time and habits",
+   "topic": "school",
+   "topicIndex": 1,
+   "grammarId": "r1-time-routines"
   },
   {
    "type": "exercise",
@@ -703,7 +913,8 @@
     }
    ],
    "topic": "personal and family life",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -770,6 +981,46 @@
      "imageConcept": "breakfast"
     }
    ],
+   "topic": "personal and family life",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "cousin",
+      "b": "kuzen"
+     },
+     {
+      "a": "grandparents",
+      "b": "büyükanne ve büyükbaba"
+     },
+     {
+      "a": "curly hair",
+      "b": "kıvırcık saç"
+     },
+     {
+      "a": "straight hair",
+      "b": "düz saç"
+     },
+     {
+      "a": "jeans",
+      "b": "kot pantolon"
+     },
+     {
+      "a": "raincoat",
+      "b": "yağmurluk"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "personal and family life",
    "topic": "personal and family life",
    "topicIndex": 2
   },
@@ -877,11 +1128,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/7141",
      "imageFit": "contain",
      "imageCue": "Read without speaking",
-     "imageConcept": "read"
+     "imageConcept": "read",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "personal and family life",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -899,11 +1165,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/3065",
      "imageFit": "contain",
-     "imageConcept": "library"
+     "imageConcept": "library",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 18,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "personal and family life",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I usually ___ at home.",
+      "answer": "read",
+      "tr": "Genellikle evde okurum."
+     },
+     {
+      "text": "Today I ___ in the library.",
+      "answer": "am reading",
+      "tr": "Bugün kütüphanede okuyorum."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 1: now and usually",
+   "topic": "personal and family life",
+   "topicIndex": 2,
+   "grammarId": "r1-now-tags"
   },
   {
    "type": "exercise",
@@ -1020,11 +1327,26 @@
      "img": "/content/g5/u2/presentation/img/p05-07.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "music"
+     "imageConcept": "music",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 6,
+       "end": 15,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "personal and family life",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1041,11 +1363,52 @@
      "img": "/content/g5/u4/presentation/img/p02-28.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "swimming"
+     "imageConcept": "swimming",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 29,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "personal and family life",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I enjoy ___ the guitar.",
+      "answer": "playing",
+      "tr": "Gitar çalmaktan keyif alırım."
+     },
+     {
+      "text": "I ___ running.",
+      "answer": "prefer swimming to",
+      "tr": "Yüzmeyi koşmaya tercih ederim."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 1: preferences",
+   "topic": "personal and family life",
+   "topicIndex": 2,
+   "grammarId": "r1-preferences"
   },
   {
    "type": "exercise",
@@ -1122,11 +1485,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/2317",
      "imageFit": "contain",
      "imageCue": "A very small home",
-     "imageConcept": "house"
+     "imageConcept": "house",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 22,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "personal and family life",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1143,11 +1521,52 @@
      "img": "/content/g5/u4/presentation/img/p02-21.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "camp"
+     "imageConcept": "camp",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 19,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "personal and family life",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The tiny house ___ two windows.",
+      "answer": "has got",
+      "tr": "Minik evin iki penceresi var."
+     },
+     {
+      "text": "Our tent is ___ a tree.",
+      "answer": "next to",
+      "tr": "Çadırımız bir ağacın yanında."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 2: homes and possession",
+   "topic": "personal and family life",
+   "topicIndex": 2,
+   "grammarId": "r2-possession"
   },
   {
    "type": "exercise",
@@ -1290,7 +1709,8 @@
     }
    ],
    "topic": "places and food",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1362,6 +1782,46 @@
      "imageConcept": "water bottle"
     }
    ],
+   "topic": "places and food",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "park",
+      "b": "park"
+     },
+     {
+      "a": "museum",
+      "b": "müze"
+     },
+     {
+      "a": "restaurant",
+      "b": "restoran"
+     },
+     {
+      "a": "tiny house",
+      "b": "minik ev"
+     },
+     {
+      "a": "soup",
+      "b": "çorba"
+     },
+     {
+      "a": "salad",
+      "b": "salata"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "places and food",
    "topic": "places and food",
    "topicIndex": 3
   },
@@ -1471,11 +1931,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/38604",
      "imageFit": "contain",
-     "imageConcept": "water bottle"
+     "imageConcept": "water bottle",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "places and food",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1493,11 +1968,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/2573",
      "imageFit": "contain",
-     "imageConcept": "soup"
+     "imageConcept": "soup",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 20,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 15,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "places and food",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ water have we got?",
+      "answer": "How much",
+      "tr": "Ne kadar suyumuz var?"
+     },
+     {
+      "text": "Can I have ___ soup, please?",
+      "answer": "a bowl of",
+      "tr": "Lütfen bir kâse çorba alabilir miyim?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 2: food and quantity",
+   "topic": "places and food",
+   "topicIndex": 3,
+   "grammarId": "r2-quantity-ordering"
   },
   {
    "type": "exercise",
@@ -1615,11 +2131,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/2372",
      "imageFit": "contain",
-     "imageConcept": "elephant"
+     "imageConcept": "elephant",
+     "enHighlights": [
+      {
+       "start": 33,
+       "end": 44,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 34,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "places and food",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1637,11 +2168,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/2934",
      "imageFit": "contain",
-     "imageConcept": "parrot"
+     "imageConcept": "parrot",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 25,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "places and food",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "In this picture, the elephant is ___ the deer.",
+      "answer": "bigger than",
+      "tr": "Bu resimde fil geyikten daha büyük."
+     },
+     {
+      "text": "This is ___ bird in our picture.",
+      "answer": "the smallest",
+      "tr": "Bu, resmimizdeki en küçük kuş."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 2: comparing animals",
+   "topic": "places and food",
+   "topicIndex": 3,
+   "grammarId": "r2-comparisons"
   },
   {
    "type": "exercise",
@@ -1779,7 +2351,8 @@
     }
    ],
    "topic": "nature and holidays",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1848,6 +2421,46 @@
      "imageConcept": "swimming"
     }
    ],
+   "topic": "nature and holidays",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "forest",
+      "b": "orman"
+     },
+     {
+      "a": "desert",
+      "b": "çöl"
+     },
+     {
+      "a": "ocean",
+      "b": "okyanus"
+     },
+     {
+      "a": "island",
+      "b": "ada"
+     },
+     {
+      "a": "elephant",
+      "b": "fil"
+     },
+     {
+      "a": "parrot",
+      "b": "papağan"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "nature and holidays",
    "topic": "nature and holidays",
    "topicIndex": 4
   },
@@ -1954,11 +2567,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/2934",
      "imageFit": "contain",
-     "imageConcept": "parrot"
+     "imageConcept": "parrot",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 15,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "nature and holidays",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1976,11 +2604,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/37334",
      "imageFit": "contain",
-     "imageConcept": "entrance"
+     "imageConcept": "entrance",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 24,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "nature and holidays",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "This bird ___.",
+      "answer": "can fly",
+      "tr": "Bu kuş uçabilir."
+     },
+     {
+      "text": "___ open the window?",
+      "answer": "Can I",
+      "tr": "Pencereyi açabilir miyim?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 2: ability and permission",
+   "topic": "nature and holidays",
+   "topicIndex": 4,
+   "grammarId": "r2-can-permission"
   },
   {
    "type": "exercise",
@@ -2055,11 +2724,26 @@
      "img": "/content/g5/u4/presentation/img/p02-21.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "camp"
+     "imageConcept": "camp",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "nature and holidays",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -2077,11 +2761,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/38604",
      "imageFit": "contain",
-     "imageConcept": "water bottle"
+     "imageConcept": "water bottle",
+     "enHighlights": [
+      {
+       "start": 9,
+       "end": 21,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 33,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "nature and holidays",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ by the lake.",
+      "answer": "are going to camp",
+      "tr": "Gölün yanında kamp yapacağız."
+     },
+     {
+      "text": "Everyone ___ a water bottle.",
+      "answer": "has to bring",
+      "tr": "Herkes su şişesi getirmek zorunda."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Revision 2: holiday plans",
+   "topic": "nature and holidays",
+   "topicIndex": 4,
+   "grammarId": "r2-holidays-obligations"
   },
   {
    "type": "exercise",
@@ -2296,6 +3021,131 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "school",
+      "items": [
+       "library",
+       "laboratory",
+       "canteen"
+      ]
+     },
+     {
+      "label": "personal and family life",
+      "items": [
+       "cousin",
+       "grandparents",
+       "curly hair"
+      ]
+     },
+     {
+      "label": "places and food",
+      "items": [
+       "park",
+       "museum",
+       "restaurant"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "___ a science club in our school.",
+      "answer": "There is",
+      "tr": "Okulumuzda fen kulübü var."
+     },
+     {
+      "text": "This is ___ classroom.",
+      "answer": "our",
+      "tr": "Bu bizim sınıfımız."
+     },
+     {
+      "text": "Maya ___ at seven.",
+      "answer": "gets dressed",
+      "tr": "Maya saat yedide giyinir."
+     },
+     {
+      "text": "I usually ___ at home.",
+      "answer": "read",
+      "tr": "Genellikle evde okurum."
+     },
+     {
+      "text": "I enjoy ___ the guitar.",
+      "answer": "playing",
+      "tr": "Gitar çalmaktan keyif alırım."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: ___ a science club in our school.",
+      "answer": "There is a science club in our school.",
+      "tr": "Okulumuzda fen kulübü var."
+     },
+     {
+      "q": "Complete: This is ___ classroom.",
+      "answer": "This is our classroom.",
+      "tr": "Bu bizim sınıfımız."
+     },
+     {
+      "q": "Complete: Maya ___ at seven.",
+      "answer": "Maya gets dressed at seven.",
+      "tr": "Maya saat yedide giyinir."
+     },
+     {
+      "q": "Complete: I usually ___ at home.",
+      "answer": "I usually read at home.",
+      "tr": "Genellikle evde okurum."
+     },
+     {
+      "q": "Complete: I enjoy ___ the guitar.",
+      "answer": "I enjoy playing the guitar.",
+      "tr": "Gitar çalmaktan keyif alırım."
+     },
+     {
+      "q": "Complete: The tiny house ___ two windows.",
+      "answer": "The tiny house has got two windows.",
+      "tr": "Minik evin iki penceresi var."
+     },
+     {
+      "q": "Complete: ___ water have we got?",
+      "answer": "How much water have we got?",
+      "tr": "Ne kadar suyumuz var?"
+     },
+     {
+      "q": "Complete: In this picture, the elephant is ___ the deer.",
+      "answer": "In this picture, the elephant is bigger than the deer.",
+      "tr": "Bu resimde fil geyikten daha büyük."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

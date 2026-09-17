@@ -54,6 +54,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -95,10 +96,48 @@
      "img": "/app/img/words/go-for-a-walk.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "friendship",
+      "b": "arkadaşlık"
+     },
+     {
+      "a": "best friend",
+      "b": "en iyi arkadaş"
+     },
+     {
+      "a": "buddy",
+      "b": "dost"
+     },
+     {
+      "a": "mate",
+      "b": "arkadaş"
+     },
+     {
+      "a": "advice",
+      "b": "tavsiye"
+     },
+     {
+      "a": "concert",
+      "b": "konser"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Friends"
   },
   {
    "type": "exercise",
@@ -250,6 +289,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     4
@@ -294,6 +334,7 @@
      "img": "/app/img/words/secret.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     4
@@ -341,6 +382,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     4
@@ -379,10 +421,48 @@
      "imageConcept": "survive"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "loyalty",
+      "b": "sadakat"
+     },
+     {
+      "a": "trust",
+      "b": "güven"
+     },
+     {
+      "a": "patience",
+      "b": "sabır"
+     },
+     {
+      "a": "mutual",
+      "b": "karşılıklı"
+     },
+     {
+      "a": "unconditional",
+      "b": "koşulsuz"
+     },
+     {
+      "a": "priceless",
+      "b": "paha biçilmez"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Qualities of Friendship"
   },
   {
    "type": "exercise",
@@ -553,6 +633,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -600,10 +681,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "awesome",
+      "b": "harika"
+     },
+     {
+      "a": "cool",
+      "b": "havalı"
+     },
+     {
+      "a": "laid-back",
+      "b": "rahat, sakin"
+     },
+     {
+      "a": "thrilling",
+      "b": "heyecan verici"
+     },
+     {
+      "a": "serious",
+      "b": "ciddi"
+     },
+     {
+      "a": "busy",
+      "b": "meşgul"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Describing People"
   },
   {
    "type": "exercise",
@@ -755,6 +874,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -802,6 +922,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -849,10 +970,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "weekdays",
+      "b": "hafta içi"
+     },
+     {
+      "a": "weekend",
+      "b": "hafta sonu"
+     },
+     {
+      "a": "write a diary",
+      "b": "günlük yazmak"
+     },
+     {
+      "a": "visit relatives",
+      "b": "akrabaları ziyaret etmek"
+     },
+     {
+      "a": "wake up",
+      "b": "uyanmak"
+     },
+     {
+      "a": "walk the dog",
+      "b": "köpeği gezdirmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -1005,6 +1164,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -1052,6 +1212,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -1099,10 +1260,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "take a course",
+      "b": "kurs almak"
+     },
+     {
+      "a": "take a nap",
+      "b": "şekerleme yapmak"
+     },
+     {
+      "a": "take care of a pet",
+      "b": "evcil hayvan ile ilgilenmek"
+     },
+     {
+      "a": "life",
+      "b": "yaşam, hayat"
+     },
+     {
+      "a": "listen to music",
+      "b": "müzik dinlemek"
+     },
+     {
+      "a": "meet friends",
+      "b": "arkadaşlarla buluşmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -1226,7 +1425,21 @@
      "trEm": [
       "ister misin"
      ],
-     "emoji": "🎉"
+     "emoji": "🎉",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 17,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 26,
+       "end": 37,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1285,7 +1498,14 @@
       "emoji": "🏀"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 17,
+     "end": 48,
+     "role": "question"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1305,7 +1525,21 @@
      "focus": "Would you like to",
      "img": "https://static.arasaac.org/pictograms/10236/10236_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 17,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 32,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1313,6 +1547,13 @@
    "part": [
     2,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 17,
+     "end": 48,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1333,7 +1574,21 @@
      "focus": "Would you like to",
      "img": "https://static.arasaac.org/pictograms/3054/3054_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 17,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 41,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1341,6 +1596,13 @@
    "part": [
     3,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 17,
+     "end": 48,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1360,7 +1622,21 @@
      "emoji": "🎬",
      "img": "https://static.arasaac.org/pictograms/4602/4602_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 26,
+       "end": 35,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1368,6 +1644,13 @@
    "part": [
     4,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 24,
+     "end": 45,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1385,7 +1668,21 @@
      "trEm": [
       "ne dersin"
      ],
-     "focus": "How about"
+     "focus": "How about",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 28,
+       "end": 37,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1393,6 +1690,13 @@
    "part": [
     5,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 24,
+     "end": 45,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1413,7 +1717,21 @@
      "focus": "How about",
      "img": "https://static.arasaac.org/pictograms/3132/3132_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 39,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1421,6 +1739,13 @@
    "part": [
     6,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 24,
+     "end": 45,
+     "role": "question"
+    }
    ]
   },
   {
@@ -1441,7 +1766,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "study",
-     "emoji": "📚"
+     "emoji": "📚",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1449,6 +1788,13 @@
    "part": [
     7,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 47,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1466,7 +1812,21 @@
      "trEm": [
       "Hadi"
      ],
-     "focus": "Let's"
+     "focus": "Let's",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1474,6 +1834,13 @@
    "part": [
     8,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 47,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1491,7 +1858,21 @@
      "trEm": [
       "Hadi"
      ],
-     "focus": "Let's"
+     "focus": "Let's",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1499,6 +1880,13 @@
    "part": [
     9,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 47,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1519,7 +1907,26 @@
      "emoji": "🏀",
      "img": "https://static.arasaac.org/pictograms/4918/4918_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 12,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 19,
+       "role": "negative"
+      },
+      {
+       "start": 34,
+       "end": 41,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1527,6 +1934,13 @@
    "part": [
     10,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 54,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -1548,7 +1962,26 @@
      "focus": "Why don't we",
      "img": "https://static.arasaac.org/pictograms/3065/3065_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 12,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      },
+      {
+       "start": 23,
+       "end": 30,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1556,6 +1989,13 @@
    "part": [
     11,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 54,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -1577,7 +2017,26 @@
      "focus": "Why don't we",
      "img": "https://static.arasaac.org/pictograms/39421/39421_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 12,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      },
+      {
+       "start": 36,
+       "end": 43,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1585,7 +2044,42 @@
    "part": [
     12,
     12
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 54,
+     "role": "negative"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ come to my birthday party?",
+      "answer": "Would you like to",
+      "tr": "Doğum günü partime gelmek ister misin?"
+     },
+     {
+      "text": "___ join our picnic?",
+      "answer": "Would you like to",
+      "tr": "Pikniğimize katılmak ister misin?"
+     },
+     {
+      "text": "___ play chess after school?",
+      "answer": "Would you like to",
+      "tr": "Okuldan sonra satranç oynamak ister misin?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Making Invitations"
   },
   {
    "type": "exercise",
@@ -1651,7 +2145,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "study",
-     "emoji": "📚"
+     "emoji": "📚",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1749,7 +2257,14 @@
       "emoji": "📚"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 41,
+     "end": 55,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1766,7 +2281,21 @@
       "Çok isterim"
      ],
      "emoji": "💬",
-     "focus": "ACCEPT ✅"
+     "focus": "ACCEPT ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1774,6 +2303,13 @@
    "part": [
     2,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 41,
+     "end": 55,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1791,7 +2327,21 @@
       "Tabii"
      ],
      "emoji": "💬",
-     "focus": "ACCEPT ✅"
+     "focus": "ACCEPT ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1799,6 +2349,13 @@
    "part": [
     3,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 41,
+     "end": 55,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1816,7 +2373,21 @@
       "Elbette"
      ],
      "emoji": "💬",
-     "focus": "ACCEPT ✅"
+     "focus": "ACCEPT ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1824,6 +2395,13 @@
    "part": [
     4,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 41,
+     "end": 55,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1845,7 +2423,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "study",
      "emoji": "📚",
-     "focus": "REFUSE ⛔"
+     "focus": "REFUSE ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1853,6 +2445,13 @@
    "part": [
     5,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 41,
+     "end": 55,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1874,7 +2473,21 @@
      "imageFit": "contain",
      "imageSource": "ENG HUB",
      "imageConcept": "busy",
-     "focus": "REFUSE ⛔"
+     "focus": "REFUSE ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 16,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 16,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1882,6 +2495,13 @@
    "part": [
     6,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 41,
+     "end": 55,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1899,7 +2519,21 @@
       "Belki başka zaman"
      ],
      "emoji": "🕒",
-     "focus": "REFUSE ⛔"
+     "focus": "REFUSE ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 17,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1907,7 +2541,42 @@
    "part": [
     7,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 41,
+     "end": 55,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___, but I have to study.",
+      "answer": "I'd love to",
+      "tr": "Çok isterim ama ders çalışmak zorundayım."
+     },
+     {
+      "text": "___, thanks!",
+      "answer": "I'd love to",
+      "tr": "Çok isterim, teşekkürler!"
+     },
+     {
+      "text": "___, that sounds great.",
+      "answer": "Sure",
+      "tr": "Tabii, kulağa harika geliyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Accepting & Refusing"
   },
   {
    "type": "exercise",
@@ -2232,11 +2901,139 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Friends",
+      "items": [
+       "friendship",
+       "best friend",
+       "buddy"
+      ]
+     },
+     {
+      "label": "Qualities of Friendship",
+      "items": [
+       "loyalty",
+       "trust",
+       "patience"
+      ]
+     },
+     {
+      "label": "Describing People",
+      "items": [
+       "awesome",
+       "cool",
+       "laid-back"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "___ come to my birthday party?",
+      "answer": "Would you like to",
+      "tr": "Doğum günü partime gelmek ister misin?"
+     },
+     {
+      "text": "___, but I have to study.",
+      "answer": "I'd love to",
+      "tr": "Çok isterim ama ders çalışmak zorundayım."
+     },
+     {
+      "text": "___ join our picnic?",
+      "answer": "Would you like to",
+      "tr": "Pikniğimize katılmak ister misin?"
+     },
+     {
+      "text": "___ play chess after school?",
+      "answer": "Would you like to",
+      "tr": "Okuldan sonra satranç oynamak ister misin?"
+     },
+     {
+      "text": "___ going to the cinema tonight?",
+      "answer": "How about",
+      "tr": "Bu akşam sinemaya gitmeye ne dersin?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: ___ come to my birthday party?",
+      "answer": "Would you like to come to my birthday party?",
+      "tr": "Doğum günü partime gelmek ister misin?"
+     },
+     {
+      "q": "Complete: ___, but I have to study.",
+      "answer": "I'd love to, but I have to study.",
+      "tr": "Çok isterim ama ders çalışmak zorundayım."
+     },
+     {
+      "q": "How do you say “yürüyüşe çıkmak” in English?",
+      "answer": "go for a walk"
+     },
+     {
+      "q": "How do you say “hayatta kalmak” in English?",
+      "answer": "survive"
+     },
+     {
+      "q": "How do you say “çok tok” in English?",
+      "answer": "stuffed"
+     },
+     {
+      "q": "How do you say “ders çalışmak” in English?",
+      "answer": "study"
+     },
+     {
+      "q": "How do you say “öğle yemeği yemek” in English?",
+      "answer": "have lunch"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   9,
+   24
+  ]
+ }
 }

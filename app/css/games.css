@@ -1,6 +1,31 @@
 @import url("./sharpshooter.css");
 @import url("./arcade.css");
 @import url("./tower.css");
+
+/* Public game library: source thumbnails, readable titles and a local search. */
+.source-game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 20px; }
+.source-game-card { display: flex; flex-direction: column; min-width: 0; color: var(--ink); text-decoration: none; border: 1px solid var(--stroke); border-radius: 18px; overflow: hidden; background: var(--card); transition: transform .16s, border-color .16s; }
+.source-game-card:hover { transform: translateY(-4px); border-color: #67d7f4; }
+.source-game-card:focus-visible { outline: 3px solid #ffe394; outline-offset: 4px; }
+.source-game-card[hidden] { display: none; }
+.game-preview { position: relative; aspect-ratio: 16 / 10; display: grid; place-items: center; overflow: hidden; background: radial-gradient(ellipse at top left, #30556c, #14243a 75%); }
+.game-preview img { position: absolute; width: 100%; height: 100%; object-fit: contain; background: #142033; }
+.game-preview-fallback { font-size: 52px; opacity: .7; }
+.game-preview.has-image .game-preview-fallback { visibility: hidden; }
+.game-resource-badge { position: absolute; right: 10px; bottom: 10px; padding: 5px 9px; border: 1px solid #ffffff30; border-radius: 7px; background: #091322e8; color: #d9f5ff; font-size: 11px; font-weight: 700; }
+.game-resource-copy { padding: 17px; display: flex; flex: 1; flex-direction: column; gap: 10px; }
+.game-resource-copy h3 { margin: 0; font-size: 17px; line-height: 1.4; overflow-wrap: anywhere; }
+.game-resource-copy p { margin: 0; color: var(--ink-dim); font-size: 13px; overflow-wrap: anywhere; }
+.game-resource-open { color: #8bdff6; font-size: 13px; font-weight: 600; margin-top: auto; padding-top: 8px; }
+.game-search { width: min(520px, 100%); padding: 13px 16px; border: 1px solid #415774; border-radius: 12px; color: var(--ink); background: #111c2d; font: inherit; }
+.game-search:focus { outline: 2px solid #7dd3fc; outline-offset: 2px; }
+.game-search-result { min-height: 20px; color: var(--ink-dim); font-size: 13px; margin: 8px 0 12px; }
+@media (max-width: 540px) { .source-game-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; } .game-resource-copy { padding: 12px; } .game-resource-copy h3 { font-size: 14px; } }
+@media (max-width: 360px) { .source-game-grid { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .source-game-card { transition: none; } }
+.folder-card { text-align: left; border-left: 4px solid var(--accent); }
+.folder-card .emoji { font-size: 38px; margin-bottom: 8px; }
+.folder-card h3 { font-size: 20px; margin: 0 0 4px; }
 /* ENG HUB - game engine styles --------------------------------------------- */
 
 .game-frame { display: flex; flex-direction: column; gap: 18px; min-height: 62vh; }

@@ -27,6 +27,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -80,7 +81,8 @@
     }
    ],
    "topic": "The solar system",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -152,6 +154,46 @@
      "imageConcept": "neptune"
     }
    ],
+   "topic": "The solar system",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "Mercury",
+      "b": "Merkür"
+     },
+     {
+      "a": "Venus",
+      "b": "Venüs"
+     },
+     {
+      "a": "Earth",
+      "b": "Dünya"
+     },
+     {
+      "a": "Mars",
+      "b": "Mars"
+     },
+     {
+      "a": "Jupiter",
+      "b": "Jüpiter"
+     },
+     {
+      "a": "Saturn",
+      "b": "Satürn"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "The solar system",
    "topic": "The solar system",
    "topicIndex": 1
   },
@@ -263,11 +305,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/37979",
      "imageFit": "contain",
      "imageCue": "A path around a planet or star",
-     "imageConcept": "solar system"
+     "imageConcept": "solar system",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 20,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "The solar system",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -285,11 +342,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/10288",
      "imageFit": "contain",
-     "imageConcept": "plastic"
+     "imageConcept": "plastic",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 23,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 37,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "The solar system",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ a planet model.",
+      "answer": "are going to make",
+      "tr": "Bir gezegen modeli yapacağız."
+     },
+     {
+      "text": "Lina ___ plastic for it.",
+      "answer": "isn't going to use",
+      "tr": "Lina bunun için plastik kullanmayacak."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Plans and intentions",
+   "topic": "The solar system",
+   "topicIndex": 1,
+   "grammarId": "going-to-plans"
   },
   {
    "type": "exercise",
@@ -411,7 +509,8 @@
     }
    ],
    "topic": "Space words",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -489,6 +588,46 @@
      "imageConcept": "alive"
     }
    ],
+   "topic": "Space words",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "Sun",
+      "b": "Güneş"
+     },
+     {
+      "a": "Moon",
+      "b": "Ay"
+     },
+     {
+      "a": "orbit",
+      "b": "yörünge"
+     },
+     {
+      "a": "atmosphere",
+      "b": "atmosfer"
+     },
+     {
+      "a": "distance",
+      "b": "mesafe"
+     },
+     {
+      "a": "bright",
+      "b": "parlak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Space words",
    "topic": "Space words",
    "topicIndex": 2
   },
@@ -600,11 +739,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/8027",
      "imageFit": "contain",
      "imageCue": "Use less energy or water",
-     "imageConcept": "save"
+     "imageConcept": "save",
+     "enHighlights": [
+      {
+       "start": 21,
+       "end": 30,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 40,
+       "end": 57,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Space words",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -621,11 +775,52 @@
      "img": "/app/img/words/drought.jpg",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "drought"
+     "imageConcept": "drought",
+     "enHighlights": [
+      {
+       "start": 17,
+       "end": 26,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 13,
+       "end": 20,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Space words",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I think future homes ___ more energy.",
+      "answer": "will save",
+      "tr": "Bence gelecekteki evler daha çok enerji tasarrufu yapacak."
+     },
+     {
+      "text": "I hope the river ___ up.",
+      "answer": "won't dry",
+      "tr": "Umarım nehir kurumaz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Predictions and hopes",
+   "topic": "Space words",
+   "topicIndex": 2,
+   "grammarId": "will-predictions"
   },
   {
    "type": "exercise",
@@ -766,7 +961,8 @@
     }
    ],
    "topic": "Extreme weather",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -837,6 +1033,46 @@
      "imageConcept": "hurricane"
     }
    ],
+   "topic": "Extreme weather",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "storm",
+      "b": "fırtına"
+     },
+     {
+      "a": "thunder",
+      "b": "gök gürültüsü"
+     },
+     {
+      "a": "lightning",
+      "b": "şimşek"
+     },
+     {
+      "a": "flood",
+      "b": "sel"
+     },
+     {
+      "a": "drought",
+      "b": "kuraklık"
+     },
+     {
+      "a": "tornado",
+      "b": "hortum"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Extreme weather",
    "topic": "Extreme weather",
    "topicIndex": 3
   },
@@ -945,11 +1181,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/2814",
      "imageFit": "contain",
-     "imageConcept": "storm"
+     "imageConcept": "storm",
+     "enHighlights": [
+      {
+       "start": 25,
+       "end": 41,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 38,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Extreme weather",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -967,11 +1218,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/6019",
      "imageFit": "contain",
-     "imageConcept": "invent"
+     "imageConcept": "invent",
+     "enHighlights": [
+      {
+       "start": 26,
+       "end": 43,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Extreme weather",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Look at the dark sky. It ___.",
+      "answer": "is going to rain",
+      "tr": "Karanlık gökyüzüne bak. Yağmur yağacak."
+     },
+     {
+      "text": "That model is falling. It ___.",
+      "answer": "is going to break",
+      "tr": "O model düşüyor. Kırılacak."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Evidence now",
+   "topic": "Extreme weather",
+   "topicIndex": 3,
+   "grammarId": "going-to-evidence"
   },
   {
    "type": "exercise",
@@ -1117,7 +1409,8 @@
     }
    ],
    "topic": "Future life",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1197,6 +1490,46 @@
      "imageConcept": "origin"
     }
    ],
+   "topic": "Future life",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "technology",
+      "b": "teknoloji"
+     },
+     {
+      "a": "invent",
+      "b": "icat etmek"
+     },
+     {
+      "a": "predict",
+      "b": "tahmin etmek"
+     },
+     {
+      "a": "expert",
+      "b": "uzman"
+     },
+     {
+      "a": "evidence",
+      "b": "kanıt"
+     },
+     {
+      "a": "intention",
+      "b": "niyet"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Future life",
    "topic": "Future life",
    "topicIndex": 4
   },
@@ -1282,11 +1615,31 @@
      "imageCredit": "https://arasaac.org/pictograms/en/24721",
      "imageFit": "contain",
      "imageCue": "Say what may happen",
-     "imageConcept": "predict"
+     "imageConcept": "predict",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "question"
+      },
+      {
+       "start": 17,
+       "end": 23,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 23,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Future life",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1305,11 +1658,57 @@
      "imageCredit": "https://arasaac.org/pictograms/en/37979",
      "imageFit": "contain",
      "imageCue": "A path around a planet or star",
-     "imageConcept": "solar system"
+     "imageConcept": "solar system",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      },
+      {
+       "start": 8,
+       "end": 22,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 13,
+       "end": 33,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Future life",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ the weather change tomorrow?",
+      "answer": "Will",
+      "tr": "Yarın hava değişecek mi?"
+     },
+     {
+      "text": "___ you going to visit the planetarium?",
+      "answer": "Are",
+      "tr": "Planetaryumu ziyaret edecek misin?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Asking about the future",
+   "topic": "Future life",
+   "topicIndex": 4,
+   "grammarId": "future-questions"
   },
   {
    "type": "exercise",
@@ -1407,11 +1806,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/37979",
      "imageFit": "contain",
      "imageCue": "A path around a planet or star",
-     "imageConcept": "solar system"
+     "imageConcept": "solar system",
+     "enHighlights": [
+      {
+       "start": 26,
+       "end": 34,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 30,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Future life",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1429,11 +1843,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/4570",
      "imageFit": "contain",
-     "imageConcept": "help"
+     "imageConcept": "help",
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 35,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Future life",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "exercise",
@@ -1472,11 +1901,57 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/21421",
      "imageFit": "contain",
-     "imageConcept": "ship"
+     "imageConcept": "ship",
+     "enHighlights": [
+      {
+       "start": 27,
+       "end": 33,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 27,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Future life",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Your model will be ready, ___?",
+      "answer": "won't it",
+      "tr": "Modelin hazır olacak, değil mi?"
+     },
+     {
+      "text": "They are going to help, ___?",
+      "answer": "aren't they",
+      "tr": "Yardım edecekler, değil mi?"
+     },
+     {
+      "text": "She isn't going to travel, ___?",
+      "answer": "is she",
+      "tr": "Seyahat etmeyecek, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Checking a future idea",
+   "topic": "Future life",
+   "topicIndex": 4,
+   "grammarId": "future-tags"
   },
   {
    "type": "exercise",
@@ -1670,6 +2145,120 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Planets",
+      "items": [
+       "Mercury",
+       "Venus",
+       "Earth"
+      ]
+     },
+     {
+      "label": "Extreme weather",
+      "items": [
+       "storm",
+       "thunder",
+       "lightning"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "We ___ a planet model.",
+      "answer": "are going to make",
+      "tr": "Bir gezegen modeli yapacağız."
+     },
+     {
+      "text": "I think future homes ___ more energy.",
+      "answer": "will save",
+      "tr": "Bence gelecekteki evler daha çok enerji tasarrufu yapacak."
+     },
+     {
+      "text": "Look at the dark sky. It ___.",
+      "answer": "is going to rain",
+      "tr": "Karanlık gökyüzüne bak. Yağmur yağacak."
+     },
+     {
+      "text": "___ the weather change tomorrow?",
+      "answer": "Will",
+      "tr": "Yarın hava değişecek mi?"
+     },
+     {
+      "text": "Your model will be ready, ___?",
+      "answer": "won't it",
+      "tr": "Modelin hazır olacak, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: We ___ a planet model.",
+      "answer": "We are going to make a planet model.",
+      "tr": "Bir gezegen modeli yapacağız."
+     },
+     {
+      "q": "Complete: I think future homes ___ more energy.",
+      "answer": "I think future homes will save more energy.",
+      "tr": "Bence gelecekteki evler daha çok enerji tasarrufu yapacak."
+     },
+     {
+      "q": "Complete: Look at the dark sky. It ___.",
+      "answer": "Look at the dark sky. It is going to rain.",
+      "tr": "Karanlık gökyüzüne bak. Yağmur yağacak."
+     },
+     {
+      "q": "Complete: ___ the weather change tomorrow?",
+      "answer": "Will the weather change tomorrow?",
+      "tr": "Yarın hava değişecek mi?"
+     },
+     {
+      "q": "Complete: Your model will be ready, ___?",
+      "answer": "Your model will be ready, won't it?",
+      "tr": "Modelin hazır olacak, değil mi?"
+     },
+     {
+      "q": "How do you say “Neptün” in English?",
+      "answer": "Neptune"
+     },
+     {
+      "q": "How do you say “canlı” in English?",
+      "answer": "alive"
+     },
+     {
+      "q": "How do you say “kasırga” in English?",
+      "answer": "hurricane"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

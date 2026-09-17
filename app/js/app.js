@@ -27,6 +27,7 @@ const routes = [
   [/^\/(g\d)\/([a-z0-9_-]+)$/, unitScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/sunum$/, presentationScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/oyunlar$/, gamesScreen],
+  [/^\/(g\d)\/([a-z0-9_-]+)\/oyunlar\/sumeyyeogultekin$/, sumeyyeGamesScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/oyunlar\/([a-z0-9_-]+)$/, playScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/calisma$/, worksheetsScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/kitap$/, booksScreen],
@@ -197,6 +198,11 @@ async function presentationScreen(gid, uid) {
 async function gamesScreen(gid, uid) {
   const { gamePicker } = await import("./games/index.js");
   await gamePicker(gid, uid, screen);
+}
+
+async function sumeyyeGamesScreen(gid, uid) {
+  const { sumeyyeGamePicker } = await import("./games/index.js");
+  await sumeyyeGamePicker(gid, uid, screen);
 }
 
 async function playScreen(gid, uid, mode) {

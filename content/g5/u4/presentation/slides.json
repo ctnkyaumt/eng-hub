@@ -50,6 +50,7 @@
      "img": "p01-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -85,6 +86,7 @@
      "img": "p01-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -114,10 +116,48 @@
      "img": "p01-11.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "grandfather",
+      "b": "büyükbaba"
+     },
+     {
+      "a": "grandmother",
+      "b": "büyükanne"
+     },
+     {
+      "a": "father / dad",
+      "b": "baba"
+     },
+     {
+      "a": "mother / mum",
+      "b": "anne"
+     },
+     {
+      "a": "uncle",
+      "b": "amca / dayı"
+     },
+     {
+      "a": "aunt",
+      "b": "hala / teyze"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Family Members"
   },
   {
    "type": "exercise",
@@ -257,6 +297,7 @@
      "img": "p01-15.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -292,6 +333,7 @@
      "img": "p01-19.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -327,10 +369,48 @@
      "img": "p01-23.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "wake up",
+      "b": "uyanmak"
+     },
+     {
+      "a": "get up",
+      "b": "kalkmak"
+     },
+     {
+      "a": "brush teeth",
+      "b": "dişleri fırçalamak"
+     },
+     {
+      "a": "wash hands",
+      "b": "elleri yıkamak"
+     },
+     {
+      "a": "wash face",
+      "b": "yüzü yıkamak"
+     },
+     {
+      "a": "comb hair",
+      "b": "saçları taramak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Daily Routines (1)"
   },
   {
    "type": "exercise",
@@ -489,6 +569,7 @@
      "img": "p02-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -524,10 +605,48 @@
      "img": "p02-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "have dinner",
+      "b": "akşam yemeği yemek"
+     },
+     {
+      "a": "do homework",
+      "b": "ödev yapmak"
+     },
+     {
+      "a": "watch TV",
+      "b": "televizyon izlemek"
+     },
+     {
+      "a": "take care of the pet",
+      "b": "evcil hayvanla ilgilenmek"
+     },
+     {
+      "a": "rest / relax",
+      "b": "dinlenmek"
+     },
+     {
+      "a": "tidy up the house",
+      "b": "evi toparlamak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Daily Routines (2)"
   },
   {
    "type": "exercise",
@@ -667,6 +786,7 @@
      "img": "p02-12.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -702,6 +822,7 @@
      "img": "p02-16.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -737,6 +858,7 @@
      "img": "p02-20.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -772,6 +894,7 @@
      "img": "p02-24.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -807,10 +930,48 @@
      "img": "p02-28.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "have a picnic",
+      "b": "piknik yapmak"
+     },
+     {
+      "a": "have a barbecue",
+      "b": "mangal yapmak"
+     },
+     {
+      "a": "ride a bicycle / cycle",
+      "b": "bisiklete binmek"
+     },
+     {
+      "a": "ride a scooter",
+      "b": "skutere binmek"
+     },
+     {
+      "a": "play a board game",
+      "b": "kutu oyunu oynamak"
+     },
+     {
+      "a": "play computer games",
+      "b": "bilgisayar oyunu oynamak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Hobbies and Activities"
   },
   {
    "type": "exercise",
@@ -935,7 +1096,21 @@
      "trEm": [
       "1. kural"
      ],
-     "emoji": "🎬"
+     "emoji": "🎬",
+     "enHighlights": [
+      {
+       "start": 44,
+       "end": 47,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1003,7 +1178,8 @@
       "emoji": "🎬"
      }
     ]
-   }
+   },
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1019,6 +1195,20 @@
      "img": "p01-10.png",
      "trEm": [
       "2. kural"
+     ],
+     "enHighlights": [
+      {
+       "start": 66,
+       "end": 69,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "ending"
+      }
      ]
     }
    ],
@@ -1027,7 +1217,8 @@
    "part": [
     2,
     6
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1043,7 +1234,26 @@
      "trEm": [
       "televizyon izliyorum"
      ],
-     "emoji": "📺"
+     "emoji": "📺",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 10,
+       "role": "form"
+      },
+      {
+       "start": 10,
+       "end": 13,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1051,7 +1261,8 @@
    "part": [
     3,
     6
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1067,7 +1278,26 @@
      "trEm": [
       "uyuyor"
      ],
-     "emoji": "🛏️"
+     "emoji": "🛏️",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 11,
+       "role": "form"
+      },
+      {
+       "start": 11,
+       "end": 14,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 16,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1075,7 +1305,8 @@
    "part": [
     4,
     6
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1091,7 +1322,26 @@
      "trEm": [
       "yüzüyorlar"
      ],
-     "emoji": "🏊"
+     "emoji": "🏊",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 14,
+       "role": "form"
+      },
+      {
+       "start": 14,
+       "end": 17,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 6,
+       "end": 16,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1099,7 +1349,8 @@
    "part": [
     5,
     6
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1115,7 +1366,26 @@
      "trEm": [
       "okuyoruz"
      ],
-     "emoji": "🎬"
+     "emoji": "🎬",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 11,
+       "role": "form"
+      },
+      {
+       "start": 11,
+       "end": 14,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 25,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1123,7 +1393,36 @@
    "part": [
     6,
     6
-   ]
+   ],
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ TV now.",
+      "answer": "am watching",
+      "tr": "Ben şimdi televizyon izliyorum."
+     },
+     {
+      "text": "He ___ at the moment.",
+      "answer": "is sleeping",
+      "tr": "O şu anda uyuyor."
+     },
+     {
+      "text": "They ___.",
+      "answer": "are swimming",
+      "tr": "Onlar yüzüyorlar."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Present Continuous — -ing"
   },
   {
    "type": "exercise",
@@ -1192,7 +1491,21 @@
       "yapmıyorum"
      ],
      "emoji": "📚",
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 5,
+       "end": 15,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1276,7 +1589,21 @@
       "pişirmiyor"
      ],
      "emoji": "🍳",
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 9,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 24,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1300,7 +1627,21 @@
       "çalmıyorsun"
      ],
      "emoji": "🎸",
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 10,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 6,
+       "end": 17,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1324,7 +1665,21 @@
       "çalışıyor musun"
      ],
      "emoji": "📚",
-     "focus": "QUESTION ❓"
+     "focus": "QUESTION ❓",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 5,
+       "end": 20,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1348,7 +1703,21 @@
       "uyuyor mu"
      ],
      "emoji": "🛏️",
-     "focus": "QUESTION ❓"
+     "focus": "QUESTION ❓",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1356,6 +1725,34 @@
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ doing my homework.",
+      "answer": "am not",
+      "tr": "Ödev yapmıyorum."
+     },
+     {
+      "text": "She ___ cooking now.",
+      "answer": "isn't",
+      "tr": "O şimdi yemek pişirmiyor."
+     },
+     {
+      "text": "You ___ playing the guitar.",
+      "answer": "aren't",
+      "tr": "Gitar çalmıyorsun."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Negative & Question"
   },
   {
    "type": "exercise",
@@ -1420,7 +1817,21 @@
      "emoji": "🧺",
      "img": "https://static.arasaac.org/pictograms/10236/10236_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 25,
+       "end": 35,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 31,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1484,7 +1895,21 @@
      "trEm": [
       "değil mi"
      ],
-     "emoji": "🏫"
+     "emoji": "🏫",
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 33,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 25,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1507,7 +1932,21 @@
      "trEm": [
       "değil mi"
      ],
-     "emoji": "💬"
+     "emoji": "💬",
+     "enHighlights": [
+      {
+       "start": 25,
+       "end": 32,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 31,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1531,7 +1970,26 @@
       "değil mi",
       "mu"
      ],
-     "emoji": "🎣"
+     "emoji": "🎣",
+     "enHighlights": [
+      {
+       "start": 19,
+       "end": 25,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 13,
+       "role": "question"
+      },
+      {
+       "start": 18,
+       "end": 26,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1539,6 +1997,34 @@
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "You are having a picnic, ___?",
+      "answer": "aren't you",
+      "tr": "Sen piknik yapıyorsun, değil mi?"
+     },
+     {
+      "text": "She is going to school, ___?",
+      "answer": "isn't she",
+      "tr": "O okula gidiyor, değil mi?"
+     },
+     {
+      "text": "You aren't playing golf, ___?",
+      "answer": "are you",
+      "tr": "Sen golf oynamıyorsun, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Question Tags"
   },
   {
    "type": "exercise",
@@ -1606,7 +2092,21 @@
      "trEm": [
       "her gün"
      ],
-     "focus": "Simple Present ⏳"
+     "focus": "Simple Present ⏳",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1697,7 +2197,26 @@
       "sabahları"
      ],
      "emoji": "🪥",
-     "focus": "Simple Present ⏳"
+     "focus": "Simple Present ⏳",
+     "enHighlights": [
+      {
+       "start": 22,
+       "end": 33,
+       "role": "form"
+      },
+      {
+       "start": 33,
+       "end": 36,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1721,7 +2240,21 @@
      "trEm": [
       "akşamları"
      ],
-     "focus": "Simple Present ⏳"
+     "focus": "Simple Present ⏳",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 27,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 13,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1745,7 +2278,21 @@
       "şimdi"
      ],
      "emoji": "🏫",
-     "focus": "Present Continuous ⚡"
+     "focus": "Present Continuous ⚡",
+     "enHighlights": [
+      {
+       "start": 21,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 9,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1769,7 +2316,21 @@
       "şimdi"
      ],
      "emoji": "🪥",
-     "focus": "Present Continuous ⚡"
+     "focus": "Present Continuous ⚡",
+     "enHighlights": [
+      {
+       "start": 26,
+       "end": 29,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 7,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1793,7 +2354,21 @@
       "şu anda"
      ],
      "emoji": "📺",
-     "focus": "Present Continuous ⚡"
+     "focus": "Present Continuous ⚡",
+     "enHighlights": [
+      {
+       "start": 19,
+       "end": 32,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1801,6 +2376,34 @@
     6,
     6
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I go to school ___.",
+      "answer": "every day",
+      "tr": "Ben her gün okula giderim."
+     },
+     {
+      "text": "She brushes her teeth ___.",
+      "answer": "in the morning",
+      "tr": "O sabahları dişlerini fırçalar."
+     },
+     {
+      "text": "We watch TV ___.",
+      "answer": "in the evenings",
+      "tr": "Biz akşamları televizyon izleriz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Simple Present vs Present Continuous"
   },
   {
    "type": "exercise",
@@ -2068,10 +2671,144 @@
    "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Family members",
+      "items": [
+       "grandfather",
+       "grandmother",
+       "cousin"
+      ]
+     },
+     {
+      "label": "Daily routines",
+      "items": [
+       "wake up",
+       "brush teeth",
+       "have breakfast"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "I ___ doing my homework.",
+      "answer": "am not",
+      "tr": "Ödev yapmıyorum."
+     },
+     {
+      "text": "You are having a picnic, ___?",
+      "answer": "aren't you",
+      "tr": "Sen piknik yapıyorsun, değil mi?"
+     },
+     {
+      "text": "I go to school ___.",
+      "answer": "every day",
+      "tr": "Ben her gün okula giderim."
+     },
+     {
+      "text": "I ___ TV now.",
+      "answer": "am watching",
+      "tr": "Ben şimdi televizyon izliyorum."
+     },
+     {
+      "text": "He ___ at the moment.",
+      "answer": "is sleeping",
+      "tr": "O şu anda uyuyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: I ___ TV now.",
+      "answer": "I am watching TV now.",
+      "tr": "Ben şimdi televizyon izliyorum."
+     },
+     {
+      "q": "Complete: I ___ doing my homework.",
+      "answer": "I am not doing my homework.",
+      "tr": "Ödev yapmıyorum."
+     },
+     {
+      "q": "Complete: You are having a picnic, ___?",
+      "answer": "You are having a picnic, aren't you?",
+      "tr": "Sen piknik yapıyorsun, değil mi?"
+     },
+     {
+      "q": "Complete: I go to school ___.",
+      "answer": "I go to school every day.",
+      "tr": "Ben her gün okula giderim."
+     },
+     {
+      "q": "How do you say “kız evlat” in English?",
+      "answer": "daughter"
+     },
+     {
+      "q": "How do you say “öğle yemeği yemek” in English?",
+      "answer": "have lunch"
+     },
+     {
+      "q": "How do you say “uyumak” in English?",
+      "answer": "sleep"
+     },
+     {
+      "q": "How do you say “yüzmek” in English?",
+      "answer": "swim"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🏡",
    "title": "Well done!",
    "titleTr": "Aile kelimelerini oyunlarla pekiştirelim."
   }
- ]
+ ],
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ingilizce5_ders_kitabi.pdf",
+    "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+   },
+   {
+    "file": "ingilizce5_calisma_kitabi.pdf",
+    "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+   }
+  ],
+  "studentPages": [
+   69,
+   82
+  ],
+  "workbookPages": [
+   27,
+   32
+  ]
+ }
 }

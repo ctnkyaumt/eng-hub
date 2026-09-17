@@ -12,9 +12,14 @@
 --------------------------------------------------------------------------- */
 import { el, shuffle, beep } from "./ui.js";
 import { lessonImage, mediaUrl } from "./lesson-media.js";
+import { wordPairsTask, groupSortTask, clozeTask, quizBoxTask } from "./lesson-activities.js";
 
 export function taskNode(t, ctx) {
   switch (t.kind) {
+    case "wordpairs": return wordPairsTask(t);
+    case "groupsort": return groupSortTask(t);
+    case "cloze": return clozeTask(t);
+    case "quizbox": return quizBoxTask(t);
     case "order": return orderTask(t);
     case "choose": return chooseTask(t);
     case "match": return matchTask(t);

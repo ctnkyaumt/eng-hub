@@ -1,6 +1,9 @@
 /* Shared arcade controls; each field has its own world and interaction. */
 .game-frame.arcade-frame { gap: 10px; min-height: 0; }
 .arcade-frame .stage { padding: 14px; gap: 10px; }
+#screen:has(.arcade-frame) { padding-top: 14px; padding-bottom: 14px; }
+.arcade-frame .hud { padding: 8px 12px; }
+.arcade-controls .btn { padding: 8px 16px; }
 .arcade-frame .hero .kicker { margin-bottom: 0; }
 .arcade-frame .hero { display: none; }
 .arcade-help { text-align: center; color: var(--ink-dim); font-size: 14px; margin: 0; }
@@ -39,7 +42,7 @@
 .mole-head i::before, .mole-head i::after { content: ""; position: absolute; top: 15px; width: 7px; height: 9px; background: #251e27; border-radius: 50%; }
 .mole-head i::before { left: 16px; } .mole-head i::after { right: 16px; }
 .mole-head b { position: absolute; top: 28px; left: 25px; width: 17px; height: 11px; border-radius: 50%; background: #f7b0a3; }
-.moles .arcade-target.mole-down { transform: translateY(20px); opacity: .35; }
+.moles .arcade-target.mole-down { transform: translateY(calc(100% + 90px)); visibility: hidden; pointer-events: none; }
 .moles.answer-hit .arcade-target.right .mole-head { background: #ecbe69; }
 .space { background: radial-gradient(ellipse at 50% 100%, #213c70, #0b1531 60%, #070b1f); }
 .space::before { background-image: radial-gradient(#cbe0ff88 1px, transparent 1.6px), linear-gradient(90deg, transparent calc(100% - 1px), #92b6ff30 0); background-size: 49px 63px, calc(100% / var(--lanes)) 100%; }
@@ -67,4 +70,63 @@
 }
 @media (prefers-reduced-motion: reduce) {
   .arcade-target, .arcade-ship { animation: none !important; transition: none !important; }
+}
+
+/* Handcrafted arcade worlds. All scenery and feedback ship with the app. */
+.arcade-scenery { position: absolute; inset: 0; overflow: hidden; z-index: -1; pointer-events: none; }
+.arcade-effects { position: absolute; width: 1px; height: 1px; pointer-events: none; z-index: 6; }
+.arcade-spark { position: absolute; width: 10px; height: 6px; border-radius: 2px; animation: arcade-burst .8s ease-out forwards; }
+@keyframes arcade-burst { from { transform: translate(0, 0) rotate(0); opacity: 1; } to { transform: translate(var(--dx), var(--dy)) rotate(var(--spin)); opacity: 0; } }
+.balloons { background: radial-gradient(ellipse at 75% 0, #66aac0, #366e93 48%, #183d68); }
+.balloons .arcade-scenery i { position: absolute; width: 190px; height: 53px; left: calc(var(--n) * 28% - 25%); top: calc(8% + var(--n) * 19%); border-radius: 50%; background: #edf9ff17; box-shadow: 40px -15px 0 12px #edf9ff0c, -25px -10px 0 5px #edf9ff0c; }
+.balloons .arcade-target { min-height: 142px; max-height: 168px; width: clamp(140px, 18vw, 190px); border-width: 1px; border-color: hsl(var(--hue) 95% 84%); background: radial-gradient(ellipse at 32% 20%, #ffffffa8 0, #ffffff2b 12%, transparent 35%), radial-gradient(ellipse at 40% 25%, hsl(var(--hue) 65% 62%), hsl(var(--hue) 70% 33%) 70%); box-shadow: inset -9px -14px 22px #0004, inset 3px 4px 10px #fff3, 0 16px 25px #0a274740; padding: 20px; text-shadow: 0 1px 4px #000a; }
+.balloons .arcade-target::before { height: 42px; width: 12px; background: linear-gradient(90deg, transparent 44%, #eef5ffbb 45% 54%, transparent 55%); clip-path: polygon(50% 0, 100% 12%, 56% 18%, 56% 100%, 44% 100%, 44% 18%, 0 12%); }
+.balloons .arcade-target small { position: absolute; left: 16%; top: 9%; border: 0; font-weight: 800; color: #fffd; }
+.balloons .arcade-label { position: relative; }
+.balloons.answer-hit .arcade-target.right { animation: balloon-celebrate .45s ease-out both; }
+.moles { min-height: 350px; padding: 6px max(14px, 7%) 10px; gap: 5px 30px; background: radial-gradient(ellipse at 40% 0, #759351, #486c40 48%, #254c35); }
+.moles .arcade-scenery i { position: absolute; left: calc(var(--n) * 24%); bottom: calc(8% + var(--n) * 15%); width: 9px; height: 25px; border-radius: 100% 0; transform: rotate(-25deg); background: #a5bb7159; box-shadow: 12px 8px #accb6450, 17px -90px #adc88b45; }
+.mole-hole { align-self: stretch; position: relative; min-width: 0; overflow: hidden; isolation: isolate; }
+.mole-hole::before { content: ''; position: absolute; z-index: -1; bottom: 6px; left: 3%; width: 94%; height: 43px; border-radius: 50%; background: radial-gradient(ellipse, #182018 25%, #2b291c 65%, #81653d 68%, #a98c52 75%, #4c683c 78%); box-shadow: 0 5px 3px #13291840; }
+.mole-hole::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 22px; border-radius: 0 0 50% 50%; background: linear-gradient(#96784a, #54753f 62%); z-index: 4; pointer-events: none; box-shadow: 0 -4px 0 -1px #b1915f; }
+.moles .arcade-target { position: absolute; left: 9%; bottom: 24px; width: 82%; min-height: 78px; max-height: 125px; border: 2px solid #d2a772; border-radius: 14px 14px 9px 9px; background: linear-gradient(110deg, #755039, #976844 48%, #745139); box-shadow: inset 0 3px #ffe3b125, 0 5px 10px #1a261d50; transform: translateY(0); transition: transform .26s cubic-bezier(.22,.75,.2,1), visibility .26s; z-index: 2; color: #fff9e9; }
+.moles .arcade-target small { position: absolute; left: 7px; top: 6px; border: 0; font-size: 12px; color: #ffe6c5; }
+.moles .arcade-label { padding: 0 6px; }
+.mole-head { width: 92px; height: 63px; left: calc(50% - 46px); border-radius: 48px 48px 13px 13px; background: radial-gradient(ellipse at 48% 25%, #c69876, #9c7054 60%, #694a38); border-color: #79523d; box-shadow: inset 3px 2px 5px #fce1bd25; }
+.mole-head::before, .mole-head::after { top: 6px; width: 23px; height: 24px; background: #d1a087; border-color: #90654d; }
+.mole-head i::before, .mole-head i::after { top: 22px; width: 9px; height: 11px; background: radial-gradient(circle at 35% 30%, #fff 0 15%, #251e27 22%); }
+.mole-head i::before { left: 21px; } .mole-head i::after { right: 21px; }
+.mole-head b { top: 36px; left: 29px; width: 29px; height: 18px; background: #e5afa0; box-shadow: 0 4px 0 -2px #593b30; }
+.mole-head b::after { content: ''; position: absolute; width: 11px; height: 7px; left: 9px; bottom: -7px; border-radius: 0 0 4px 4px; background: linear-gradient(90deg, #fff6df 45%, #bfa991 48% 52%, #fff6df 55%); }
+.moles .arcade-target.right { border-color: #a7f3d0; background: #315f3d; }
+.moles .arcade-target.wrong { background: #86413a; }
+.space { background: radial-gradient(ellipse at 90% 4%, #6b43895c, transparent 42%), radial-gradient(ellipse at 50% 110%, #215474, #101a36 50%, #070c1f); }
+.space::before { background-image: radial-gradient(#cbe0ffaa 1px, transparent 1.7px), linear-gradient(90deg, transparent calc(100% - 1px), #78bfff26 0); background-size: 73px 103px, calc(100% / var(--lanes)) 100%; background-position: 0 var(--travel, 0px), 0 0; }
+.space .arcade-scenery::before { content: ''; position: absolute; right: -30px; top: -50px; width: 180px; height: 180px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, #b2a6d87d, #605f9360 40%, #24304a99 70%); box-shadow: -10px 9px 35px #ac8aef15; }
+.space .arcade-scenery i { position: absolute; left: calc(var(--n) * 5.8%); top: calc(var(--n) * 13% - 100%); width: 2px; height: calc(4px + var(--n) * 1px); background: linear-gradient(transparent, #9ce1ff80); transform: translateY(var(--travel, 0px)); }
+.space .arcade-target { border: 1px solid #79dfff; border-radius: 8px; background: linear-gradient(135deg, #1b416cdd, #14243df2); box-shadow: inset 0 3px #91deff30, 0 0 18px #38bdf811; }
+.space .arcade-target::before { content: ''; position: absolute; inset: -6px; border: 2px solid #8bdcff55; border-radius: 13px; clip-path: polygon(0 0, 25% 0, 25% 8%, 75% 8%, 75% 0, 100% 0, 100% 100%, 75% 100%, 75% 92%, 25% 92%, 25% 100%, 0 100%); pointer-events: none; }
+.space .arcade-target.selected { border-color: #ffe09a; background: linear-gradient(135deg, #605739, #25374a); box-shadow: 0 0 28px #ffdd7440; }
+.arcade-ship { width: 62px; height: 80px; bottom: 12px; opacity: .6; filter: drop-shadow(0 5px 12px #67deff66); }
+.arcade-ship::before, .arcade-ship::after { content: ''; position: absolute; bottom: 20px; width: 24px; height: 35px; background: linear-gradient(#d4ecff, #476b9b); }
+.arcade-ship::before { left: -3px; clip-path: polygon(100% 0, 100% 100%, 0 80%); }
+.arcade-ship::after { right: -3px; clip-path: polygon(0 0, 100% 80%, 0 100%); }
+.arcade-ship i { inset: 0 15px 15px; }
+.arcade-ship b { left: 24px; top: 29px; width: 14px; height: 19px; }
+.arcade-ship em { left: 22px; bottom: -8px; height: 33px; background: linear-gradient(#eefeff, #7dd3fc 35%, #a78bfa 70%, transparent); filter: drop-shadow(0 0 8px #38bdf8); animation: ship-thrust .16s infinite alternate; transform-origin: top; }
+@keyframes ship-thrust { to { transform: scaleY(.7); } }
+.game-paused .arcade-scenery { animation-play-state: paused; }
+@media (max-width: 600px) {
+  .balloons .arcade-target { width: 42%; min-height: 140px; padding: 18px 10px; }
+  .moles { padding: 8px 5px 15px; gap: 3px 8px; min-height: 435px; }
+  .moles .arcade-target { left: 7%; width: 86%; padding: 14px 5px 10px; }
+  .mole-head { width: 82px; left: calc(50% - 41px); }
+  .mole-head b { left: 24px; }
+  .arcade-ship { width: 54px; }
+  .arcade-ship b { left: 20px; }
+  .arcade-ship em { left: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .arcade-spark { display: none; }
+  .arcade-ship em { animation: none; }
 }

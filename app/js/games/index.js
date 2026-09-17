@@ -1,6 +1,7 @@
 /* Game picker + dispatcher -------------------------------------------------- */
 import { getBank, getUnit, getSites, getSlides, getStarterWords, unitPath } from "../store.js";
 import { el, setCrumbs, toast } from "../ui.js";
+import { sourceGameCard, onlineGameGallery } from "../game-resources.js";
 
 if (!document.querySelector('link[href="/app/css/games.css"]')) {
   document.head.append(el("link", { rel: "stylesheet", href: "/app/css/games.css" }));
@@ -96,6 +97,7 @@ async function buildBank(gid, uid) {
     questions,
     words: [...words.values()],
     online: bank.online || [],
+    sumeyye: bank.sumeyye || [],
     imgBase: `${unitPath(gid, uid)}/games/img/`,
   };
 }
@@ -146,37 +148,78 @@ export async function gamePicker(gid, uid, screen) {
     parts.push(el("h2", { class: "section-title", text: `Kaynaktan çevrimdışı kopyalar (${mirrored.length})` }));
     parts.push(el("p", { style: "color:var(--ink-dim);margin:-6px 0 12px",
                          text: "Orijinal etkinlikler USB'ye kopyalandı — internet gerekmez." }));
-    parts.push(el("div", { class: "list" }, mirrored.map((m) =>
-      el("button", { class: "row", onclick: () => window.open(m.url, "_blank", "noopener") }, [
-        el("span", { class: "ic", text: "🕹️" }),
-        el("div", { class: "txt" }, [
-          el("b", { text: m.title }),
-          el("small", { text: m.by ? "Hazırlayan: " + m.by : "" }),
-        ]),
-        el("span", { class: "go", text: "▶" }),
-      ])
-    )));
+    parts.push(el('div', { class: 'source-game-grid' }, mirrored.map(m => sourceGameCard(m, true))));
   }
+
+  const sumeyyeCount = (bank.sumeyye || []).length;
+  parts.push(el("h2", { class: "section-title", text: "Çevrimiçi Oyun Klasörleri" }));
+  const folderCard = el("button", {
+    class: "card folder-card",
+    style: "animation-delay: 90ms",
+    onclick: () => {
+      location.hash = `#/${gid}/${uid}/oyunlar/sumeyyeogultekin`;
+    },
+  }, [
+    el("span", { class: "glow" }),
+    el("span", { class: "emoji", text: "📁" }),
+    el("h3", { text: "sumeyyeogultekin" }),
+    el("p", { text: sumeyyeCount ? "Sümeyye Oğultekin çevrimiçi oyunları · İnternet gerekli" : "Bu ünite için henüz oyun eklenmedi" }),
+    el("div", { class: "badge-row" }, [
+      el("span", { class: "badge " + (sumeyyeCount ? "on" : "off"), text: `${sumeyyeCount} oyun` }),
+    ]),
+  ]);
+  parts.push(el("div", { class: "grid g-3" }, [folderCard]));
 
   if (bank.online.length) {
     parts.push(el("h2", { class: "section-title", text: `Kaynaktaki çevrimiçi oyunlar (${bank.online.length})` }));
     parts.push(el("p", { style: "color:var(--ink-dim);margin:-6px 0 12px", text: "Bunlar internet bağlantısı ister." }));
-    parts.push(el("div", { class: "list" }, bank.online.map((o) =>
-      el("button", { class: "row", onclick: () => window.open(o.link, "_blank", "noopener") }, [
-        el("span", { class: "ic", text: "🌐" }),
-        el("div", { class: "txt" }, [
-          el("b", { text: o.title }),
-          el("small", { text: o.by ? "Hazırlayan: " + o.by : new URL(o.link).hostname }),
-        ]),
-        el("span", { class: "go", text: "↗" }),
+    parts.push(onlineGameGallery(bank.online));
+  }
+
+  screen.replaceChildren(...parts);
+}
+
+export async function sumeyyeGamePicker(gid, uid, screen) {
+  const { grade, unit } = await getUnit(gid, uid);
+  const unitLabel = unit.no ? `${unit.label || "Ünite"} ${unit.no}` : (unit.label || "Revizyon");
+  const bank = await buildBank(gid, uid);
+  crumbs(grade, unit, gid, uid, "sumeyyeogultekin");
+
+  const count = (bank.sumeyye || []).length;
+  const hero = el("div", { class: "hero" }, [
+    el("span", { class: "kicker", text: `${grade.title} · ${unitLabel} · Oyunlar` }),
+    el("h1", { text: "📁 sumeyyeogultekin" }),
+    el("p", { text: count
+      ? `${count} çevrimiçi oyun · Sümeyye Oğultekin · İnternet gerekli`
+      : "Bu ünite için Sümeyye Oğultekin oyunu bulunamadı." }),
+  ]);
+
+  const parts = [hero];
+
+  if (count > 0) {
+    parts.push(onlineGameGallery(bank.sumeyye));
+  } else {
+    parts.push(
+      el("div", { class: "empty" }, [
+        el("span", { class: "emoji", text: "📁" }),
+        el("p", { text: "Bu ünitede Sümeyye Oğultekin oyunu henüz bulunmuyor." }),
+        el("button", {
+          class: "btn",
+          style: "margin-top: 14px",
+          onclick: () => { location.hash = `#/${gid}/${uid}/oyunlar`; },
+          text: "← Oyunlar'a Dön",
+        }),
       ])
-    )));
+    );
   }
 
   screen.replaceChildren(...parts);
 }
 
 export async function playGame(gid, uid, mode, screen) {
+  if (mode === "sumeyyeogultekin") {
+    return sumeyyeGamePicker(gid, uid, screen);
+  }
   const m = MODES.find((x) => x.id === mode);
   if (!m) return (location.hash = `#/${gid}/${uid}/oyunlar`);
   const { grade, unit } = await getUnit(gid, uid);

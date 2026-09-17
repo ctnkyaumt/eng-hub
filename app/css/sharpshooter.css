@@ -27,5 +27,26 @@
 .shooter-frame .hud{padding:8px 12px}
 .shooter-frame .stage{padding:12px;gap:6px;justify-content:flex-start}
 .shooter-frame .shooter-field{height:clamp(340px,48vh,510px);flex-shrink:0}
-.shooter-frame .shooter-bubble{width:clamp(100px,16vw,136px)}
+.shooter-frame .shooter-bubble{width:clamp(100px,16vw,136px);padding:10px;font-size:clamp(13px,1.4vw,18px)}
 .shooter-frame .shooter-prompt{min-height:56px}
+
+/* Glass targets, a training arena and a visible aiming reticle. */
+.shooter-field { border-color: #456c86; background: radial-gradient(ellipse at 50% 110%, #22757d55, transparent 60%), radial-gradient(ellipse at 0 0, #39367266, transparent 65%), #0a1529; box-shadow: inset 0 0 80px #020b1eaa; }
+.shooter-field::before { background-image: linear-gradient(#7ac8ed0a 1px, transparent 1px), linear-gradient(90deg, #7ac8ed0a 1px, transparent 1px); background-size: 48px 48px; mask-image: linear-gradient(transparent, black 50%); }
+.shooter-bubble { border: 2px solid hsl(var(--target-hue) 75% 77% / .8); background: radial-gradient(ellipse at 32% 17%, #ffffff73 0, #ffffff17 15%, transparent 38%), radial-gradient(ellipse at 45% 35%, hsl(var(--target-hue) 55% 38% / .9), hsl(var(--target-hue) 62% 19% / .95) 80%); box-shadow: inset 0 -8px 17px #0005, inset 2px 2px 3px #ffffff6b, 0 8px 20px #0005, 0 0 28px hsl(var(--target-hue) 80% 60% / .14); text-shadow: 0 1px 4px #0008; }
+.shooter-bubble::before { content: ''; position: absolute; inset: 6px; border-radius: 50%; border: 1px solid #ffffff1f; pointer-events: none; }
+.shooter-bubble small { color: #effaff; opacity: .8; border-bottom: 1px solid #ffffff40; padding: 0 7px 2px; }
+.shooter-base { position: absolute; left: 50%; bottom: -24px; width: 210px; height: 75px; transform: translateX(-50%); border-radius: 50%; border: 2px solid #85e4e8aa; background: radial-gradient(ellipse, #3c838e, #1b3f56 50%, #122c43 68%, #4c8d9a 70%, #122c43 74%); box-shadow: 0 0 0 14px #76d9e60a, 0 0 0 30px #76d9e605, 0 -10px 40px #85e4e819; pointer-events: none; }
+.shooter-cannon { width: 22px; border: 1px solid #95f4e9; background: linear-gradient(90deg, #365e74, #ddfff6 43%, #80d6d5 55%, #326073); z-index: 3; }
+.shooter-cannon::before { content: ''; position: absolute; top: -5px; left: -4px; right: -4px; height: 10px; border-radius: 5px; border: 2px solid #a9fff0; background: #193646; box-shadow: 0 0 12px #73ffe9aa; }
+.shooter-cannon::after { content: ''; position: absolute; bottom: -6px; left: -10px; width: 40px; height: 24px; border-radius: 50%; background: radial-gradient(ellipse, #b5f8e9, #31556a 60%); }
+.shooter-reticle { position: absolute; width: 32px; height: 32px; border: 1px solid #c6fff1b3; border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none; z-index: 4; box-shadow: 0 0 14px #a0ffe926; }
+.shooter-reticle::before, .shooter-reticle::after { content: ''; position: absolute; background: #c6fff1bb; }
+.shooter-reticle::before { height: 1px; left: -6px; right: -6px; top: 14px; }
+.shooter-reticle::after { width: 1px; top: -6px; bottom: -6px; left: 14px; }
+.shooter-beam { width: 8px; height: 17px; background: #fff6c6; box-shadow: 0 0 8px 3px #fff79b, 0 0 24px 8px #6ee7b777; }
+.shooter-field.hit { border-color: #6ee7b7; }
+.shooter-field.miss { border-color: #fb7185; }
+.shooter-field.paused * { animation-play-state: paused !important; }
+@media (pointer: coarse) { .shooter-reticle { display: none; } }
+@media (prefers-reduced-motion: reduce) { .shooter-reticle { display: none; } }

@@ -54,6 +54,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -83,10 +84,44 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "mammals",
+      "b": "memeliler"
+     },
+     {
+      "a": "birds",
+      "b": "kuşlar"
+     },
+     {
+      "a": "fish",
+      "b": "balıklar"
+     },
+     {
+      "a": "reptiles",
+      "b": "sürüngenler"
+     },
+     {
+      "a": "insects",
+      "b": "böcekler"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Types of Animals"
   },
   {
    "type": "exercise",
@@ -238,6 +273,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -285,6 +321,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -332,6 +369,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -379,6 +417,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -423,10 +462,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "bear",
+      "b": "ayı"
+     },
+     {
+      "a": "lion",
+      "b": "aslan"
+     },
+     {
+      "a": "tiger",
+      "b": "kaplan"
+     },
+     {
+      "a": "wolf",
+      "b": "kurt"
+     },
+     {
+      "a": "giraffe",
+      "b": "zürafa"
+     },
+     {
+      "a": "monkey",
+      "b": "maymun"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Animals"
   },
   {
    "type": "exercise",
@@ -585,6 +662,7 @@
      "img": "p02-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -620,6 +698,7 @@
      "img": "p02-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -643,10 +722,48 @@
      "img": "p02-10.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "tail",
+      "b": "kuyruk"
+     },
+     {
+      "a": "tusk",
+      "b": "fil dişi"
+     },
+     {
+      "a": "paw",
+      "b": "pati"
+     },
+     {
+      "a": "wing",
+      "b": "kanat"
+     },
+     {
+      "a": "flipper",
+      "b": "yüzgeç"
+     },
+     {
+      "a": "stripe",
+      "b": "çizgi"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Body Parts of Animals"
   },
   {
    "type": "exercise",
@@ -786,6 +903,7 @@
      "img": "p02-14.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -821,6 +939,7 @@
      "img": "p02-18.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -844,10 +963,48 @@
      "img": "p02-20.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "farm",
+      "b": "çiftlik"
+     },
+     {
+      "a": "field",
+      "b": "tarla"
+     },
+     {
+      "a": "forest / jungle",
+      "b": "orman"
+     },
+     {
+      "a": "river",
+      "b": "nehir"
+     },
+     {
+      "a": "coast",
+      "b": "sahil"
+     },
+     {
+      "a": "savanna",
+      "b": "otlak alan"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Habitats"
   },
   {
    "type": "exercise",
@@ -997,6 +1154,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -1044,6 +1202,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -1091,6 +1250,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -1132,6 +1292,7 @@
      "img": "/app/img/vocab/physical-short.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -1161,10 +1322,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "wild",
+      "b": "vahşi"
+     },
+     {
+      "a": "small",
+      "b": "küçük"
+     },
+     {
+      "a": "big / large",
+      "b": "büyük"
+     },
+     {
+      "a": "huge",
+      "b": "kocaman"
+     },
+     {
+      "a": "enormous",
+      "b": "devasa"
+     },
+     {
+      "a": "scary",
+      "b": "korkutucu"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Adjectives"
   },
   {
    "type": "exercise",
@@ -1316,6 +1515,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -1363,6 +1563,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -1410,10 +1611,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "attack",
+      "b": "saldırmak"
+     },
+     {
+      "a": "move",
+      "b": "hareket etmek"
+     },
+     {
+      "a": "hunt",
+      "b": "avlamak"
+     },
+     {
+      "a": "run",
+      "b": "koşmak"
+     },
+     {
+      "a": "survive",
+      "b": "hayatta kalmak"
+     },
+     {
+      "a": "talk",
+      "b": "konuşmak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Verbs"
   },
   {
    "type": "exercise",
@@ -1544,6 +1783,254 @@
   },
   {
    "type": "grammar",
+   "title": "Animal habitats",
+   "titleTr": "Hayvanlar nerede yaşar?",
+   "grammarId": "book-g5-u7-1",
+   "rule": "*Where do ... live?* yaşam alanını sorar. Cevap: *They live in ...*",
+   "examples": [
+    {
+     "en": "*Where* do lions live?",
+     "tr": "Aslanlar nerede yaşar?",
+     "trEm": [
+      "nerede"
+     ],
+     "img": "https://static.arasaac.org/pictograms/2449/2449_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "lion",
+     "emoji": "🦁",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 15,
+       "role": "question"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     111,
+     124
+    ],
+    "workbookPages": [
+     45,
+     50
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 18,
+     "role": "form"
+    },
+    {
+     "start": 47,
+     "end": 63,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Animal habitats",
+   "titleTr": "Hayvanlar nerede yaşar?",
+   "grammarId": "book-g5-u7-1",
+   "rule": "*Where do ... live?* yaşam alanını sorar. Cevap: *They live in ...*",
+   "examples": [
+    {
+     "en": "Sharks live *in the sea*.",
+     "tr": "Köpek balıkları denizde yaşar.",
+     "trEm": [
+      "denizde"
+     ],
+     "img": "https://static.arasaac.org/pictograms/2589/2589_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "shark",
+     "emoji": "🦈",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 22,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 23,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     111,
+     124
+    ],
+    "workbookPages": [
+     45,
+     50
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 18,
+     "role": "form"
+    },
+    {
+     "start": 47,
+     "end": 63,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Animal habitats",
+   "titleTr": "Hayvanlar nerede yaşar?",
+   "grammarId": "book-g5-u7-1",
+   "rule": "*Where do ... live?* yaşam alanını sorar. Cevap: *They live in ...*",
+   "examples": [
+    {
+     "en": "Monkeys live *in forests*.",
+     "tr": "Maymunlar ormanlarda yaşar.",
+     "trEm": [
+      "ormanlarda"
+     ],
+     "img": "https://static.arasaac.org/pictograms/2477/2477_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "monkey",
+     "emoji": "🐒",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 23,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 20,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     111,
+     124
+    ],
+    "workbookPages": [
+     45,
+     50
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 18,
+     "role": "form"
+    },
+    {
+     "start": 47,
+     "end": 63,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ do lions live?",
+      "answer": "Where",
+      "tr": "Aslanlar nerede yaşar?"
+     },
+     {
+      "text": "Sharks live ___.",
+      "answer": "in the sea",
+      "tr": "Köpek balıkları denizde yaşar."
+     },
+     {
+      "text": "Monkeys live ___.",
+      "answer": "in forests",
+      "tr": "Maymunlar ormanlarda yaşar."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Animal habitats",
+   "grammarId": "book-g5-u7-1"
+  },
+  {
+   "type": "grammar",
    "title": "Expressing Ability — can / can't",
    "titleTr": "Yetenekleri ifade etme",
    "chips": [
@@ -1560,7 +2047,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "fast",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 13,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 29,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1674,7 +2175,14 @@
       "emoji": "🏃"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 10,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1695,7 +2203,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "swim",
      "emoji": "🏊",
-     "focus": "can ✅"
+     "focus": "can ✅",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 25,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1703,6 +2225,13 @@
    "part": [
     2,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 10,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1724,7 +2253,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "fly",
      "emoji": "🕊️",
-     "focus": "can ✅"
+     "focus": "can ✅",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 18,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1732,6 +2275,13 @@
    "part": [
     3,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 10,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1753,7 +2303,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "cheetah",
      "emoji": "🐆",
-     "focus": "can ✅"
+     "focus": "can ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 15,
+       "end": 24,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1761,6 +2325,13 @@
    "part": [
     4,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 10,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1782,7 +2353,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "climb",
      "emoji": "🧗",
-     "focus": "can't ⛔"
+     "focus": "can't ⛔",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 15,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1790,6 +2375,13 @@
    "part": [
     5,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 10,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1811,7 +2403,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "talk",
      "emoji": "💬",
-     "focus": "can't ⛔"
+     "focus": "can't ⛔",
+     "enHighlights": [
+      {
+       "start": 6,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 18,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1819,6 +2425,13 @@
    "part": [
     6,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 10,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1840,7 +2453,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "penguin",
      "emoji": "🐧",
-     "focus": "can't ⛔"
+     "focus": "can't ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 12,
+       "end": 20,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1848,7 +2475,42 @@
    "part": [
     7,
     7
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 10,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "A dolphin ___ swim very fast.",
+      "answer": "can",
+      "tr": "Bir yunus çok hızlı yüzebilir."
+     },
+     {
+      "text": "Sharks ___ swim.",
+      "answer": "can",
+      "tr": "Köpek balıkları yüzebilir."
+     },
+     {
+      "text": "Eagles ___ fly.",
+      "answer": "can",
+      "tr": "Kartallar uçabilir."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Expressing Ability — can / can't"
   },
   {
    "type": "exercise",
@@ -1913,7 +2575,21 @@
      "trEm": [
       "bırakmamalısın."
      ],
-     "emoji": "🗑️"
+     "emoji": "🗑️",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1998,7 +2674,14 @@
       "emoji": "🗑️"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 27,
+     "role": "negative"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -2019,7 +2702,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "wild",
      "emoji": "🐅",
-     "focus": "must ✅"
+     "focus": "must ✅",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2047,7 +2744,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "birds",
      "emoji": "🦅",
-     "focus": "must ✅"
+     "focus": "must ✅",
+     "enHighlights": [
+      {
+       "start": 6,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 35,
+       "end": 46,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2075,7 +2786,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "wild",
      "emoji": "🐅",
-     "focus": "mustn't ⛔"
+     "focus": "mustn't ⛔",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 31,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2103,7 +2828,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "run",
      "emoji": "🏃",
-     "focus": "mustn't ⛔"
+     "focus": "mustn't ⛔",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 33,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2111,6 +2850,34 @@
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "You ___ leave rubbish here.",
+      "answer": "mustn't",
+      "tr": "Buraya çöp bırakmamalısın."
+     },
+     {
+      "text": "Wild animals ___ hunt to eat.",
+      "answer": "must",
+      "tr": "Vahşi hayvanlar yemek için avlanmalılar."
+     },
+     {
+      "text": "Birds ___ move to warmer habitats in winter.",
+      "answer": "must",
+      "tr": "Kuşlar kışın ılık yaşam alanlarına gitmeliler."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "must / mustn't"
   },
   {
    "type": "exercise",
@@ -2178,7 +2945,31 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "fast",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 13,
+       "role": "form"
+      },
+      {
+       "start": 31,
+       "end": 32,
+       "role": "form"
+      },
+      {
+       "start": 46,
+       "end": 49,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2282,7 +3073,14 @@
       "emoji": "🐘"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -2302,7 +3100,26 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "danger",
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 15,
+       "role": "form"
+      },
+      {
+       "start": 32,
+       "end": 36,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2310,6 +3127,13 @@
    "part": [
     2,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2326,7 +3150,41 @@
      "trEm": [
       "düzensiz"
      ],
-     "emoji": "⚖️"
+     "emoji": "⚖️",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 13,
+       "role": "ending"
+      },
+      {
+       "start": 22,
+       "end": 27,
+       "role": "form"
+      },
+      {
+       "start": 42,
+       "end": 46,
+       "role": "form"
+      },
+      {
+       "start": 58,
+       "end": 62,
+       "role": "form"
+      },
+      {
+       "start": 76,
+       "end": 78,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2334,6 +3192,13 @@
    "part": [
     3,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2350,7 +3215,21 @@
      "trEm": [
       "daha güçlüdür"
      ],
-     "emoji": "🦁"
+     "emoji": "🦁",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 23,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 36,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2358,6 +3237,13 @@
    "part": [
     4,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2374,7 +3260,21 @@
      "trEm": [
       "daha büyük"
      ],
-     "emoji": "🐻"
+     "emoji": "🐻",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 21,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 29,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2382,6 +3282,13 @@
    "part": [
     5,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2402,7 +3309,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "elephant",
-     "emoji": "🐘"
+     "emoji": "🐘",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 31,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2410,6 +3331,13 @@
    "part": [
     6,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2426,7 +3354,21 @@
      "trEm": [
       "daha ağırdır"
      ],
-     "emoji": "🐘"
+     "emoji": "🐘",
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 32,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2434,6 +3376,13 @@
    "part": [
     7,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2454,7 +3403,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "danger",
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 30,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2462,6 +3425,13 @@
    "part": [
     8,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2478,7 +3448,21 @@
      "trEm": [
       "daha korkutucudur"
      ],
-     "emoji": "🐊"
+     "emoji": "🐊",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 27,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2486,7 +3470,42 @@
    "part": [
     9,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 13,
+     "end": 16,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Lions are ___ leopards.",
+      "answer": "stronger than",
+      "tr": "Aslanlar, leoparlardan daha güçlüdür."
+     },
+     {
+      "text": "Bears are ___ wolves.",
+      "answer": "bigger than",
+      "tr": "Ayılar, kurtlardan daha büyüktür."
+     },
+     {
+      "text": "An elephant is ___ a lion.",
+      "answer": "bigger than",
+      "tr": "Bir fil bir aslandan daha büyüktür."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Comparative Adjectives"
   },
   {
    "type": "exercise",
@@ -2552,7 +3571,31 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "fast",
-     "emoji": "🏃"
+     "emoji": "🏃",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 18,
+       "role": "form"
+      },
+      {
+       "start": 40,
+       "end": 42,
+       "role": "form"
+      },
+      {
+       "start": 60,
+       "end": 64,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2660,7 +3703,14 @@
       "emoji": "🦒"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -2680,7 +3730,26 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "danger",
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "enHighlights": [
+      {
+       "start": 16,
+       "end": 20,
+       "role": "form"
+      },
+      {
+       "start": 41,
+       "end": 45,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2688,6 +3757,13 @@
    "part": [
     2,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2704,7 +3780,41 @@
      "trEm": [
       "düzensiz"
      ],
-     "emoji": "🏆"
+     "emoji": "🏆",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 11,
+       "role": "form"
+      },
+      {
+       "start": 20,
+       "end": 25,
+       "role": "form"
+      },
+      {
+       "start": 40,
+       "end": 44,
+       "role": "form"
+      },
+      {
+       "start": 56,
+       "end": 61,
+       "role": "form"
+      },
+      {
+       "start": 75,
+       "end": 78,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2712,6 +3822,13 @@
    "part": [
     3,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2728,7 +3845,21 @@
      "trEm": [
       "en güçlü"
      ],
-     "emoji": "🦁"
+     "emoji": "🦁",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 23,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2736,6 +3867,13 @@
    "part": [
     4,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2752,7 +3890,21 @@
      "trEm": [
       "en büyük"
      ],
-     "emoji": "🐋"
+     "emoji": "🐋",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 22,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 33,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2760,6 +3912,13 @@
    "part": [
     5,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2776,7 +3935,21 @@
      "trEm": [
       "en uzun"
      ],
-     "emoji": "🦒"
+     "emoji": "🦒",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 17,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2784,6 +3957,13 @@
    "part": [
     6,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2804,7 +3984,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "giraffe",
-     "emoji": "🦒"
+     "emoji": "🦒",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 23,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2812,6 +4006,13 @@
    "part": [
     7,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2832,7 +4033,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "wild",
-     "emoji": "🐅"
+     "emoji": "🐅",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 16,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2840,6 +4055,13 @@
    "part": [
     8,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2860,7 +4082,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "colours",
-     "emoji": "🌈"
+     "emoji": "🌈",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 30,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 20,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2868,7 +4104,42 @@
    "part": [
     9,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 26,
+     "end": 29,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Lions are ___ animals in the forests.",
+      "answer": "the strongest",
+      "tr": "Aslanlar ormanlardaki en güçlü hayvanlardır."
+     },
+     {
+      "text": "Whales are ___ animals in the oceans.",
+      "answer": "the largest",
+      "tr": "Balinalar okyanuslardaki en büyük hayvanlardır."
+     },
+     {
+      "text": "Giraffes are ___ animals.",
+      "answer": "the tallest",
+      "tr": "Zürafalar en uzun hayvanlardır."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Superlative Adjectives"
   },
   {
    "type": "exercise",
@@ -3147,10 +4418,153 @@
    "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Types of Animals",
+      "items": [
+       "mammals",
+       "birds",
+       "fish"
+      ]
+     },
+     {
+      "label": "Animals",
+      "items": [
+       "bear",
+       "lion",
+       "tiger"
+      ]
+     },
+     {
+      "label": "Body Parts of Animals",
+      "items": [
+       "tail",
+       "tusk",
+       "paw"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "___ do lions live?",
+      "answer": "Where",
+      "tr": "Aslanlar nerede yaşar?"
+     },
+     {
+      "text": "A dolphin ___ swim very fast.",
+      "answer": "can",
+      "tr": "Bir yunus çok hızlı yüzebilir."
+     },
+     {
+      "text": "You ___ leave rubbish here.",
+      "answer": "mustn't",
+      "tr": "Buraya çöp bırakmamalısın."
+     },
+     {
+      "text": "Sharks live ___.",
+      "answer": "in the sea",
+      "tr": "Köpek balıkları denizde yaşar."
+     },
+     {
+      "text": "Monkeys live ___.",
+      "answer": "in forests",
+      "tr": "Maymunlar ormanlarda yaşar."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: ___ do lions live?",
+      "answer": "Where do lions live?",
+      "tr": "Aslanlar nerede yaşar?"
+     },
+     {
+      "q": "Complete: A dolphin ___ swim very fast.",
+      "answer": "A dolphin can swim very fast.",
+      "tr": "Bir yunus çok hızlı yüzebilir."
+     },
+     {
+      "q": "Complete: You ___ leave rubbish here.",
+      "answer": "You mustn't leave rubbish here.",
+      "tr": "Buraya çöp bırakmamalısın."
+     },
+     {
+      "q": "Complete: Lions are ___ leopards.",
+      "answer": "Lions are stronger than leopards.",
+      "tr": "Aslanlar, leoparlardan daha güçlüdür."
+     },
+     {
+      "q": "Complete: Lions are ___ animals in the forests.",
+      "answer": "Lions are the strongest animals in the forests.",
+      "tr": "Aslanlar ormanlardaki en güçlü hayvanlardır."
+     },
+     {
+      "q": "How do you say “böcekler” in English?",
+      "answer": "insects"
+     },
+     {
+      "q": "How do you say “çita” in English?",
+      "answer": "cheetah"
+     },
+     {
+      "q": "How do you say “pençe” in English?",
+      "answer": "claw"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🦁",
    "title": "Amazing!",
    "titleTr": "Hayvan kelimelerini oyunlarla pekiştirelim."
   }
- ]
+ ],
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ingilizce5_ders_kitabi.pdf",
+    "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+   },
+   {
+    "file": "ingilizce5_calisma_kitabi.pdf",
+    "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+   }
+  ],
+  "studentPages": [
+   111,
+   124
+  ],
+  "workbookPages": [
+   45,
+   50
+  ]
+ }
 }

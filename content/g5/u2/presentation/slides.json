@@ -64,6 +64,7 @@
      "imageConcept": "borrow"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     4
@@ -108,6 +109,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     4
@@ -155,6 +157,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     4
@@ -193,10 +196,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "start",
+      "b": "başlamak"
+     },
+     {
+      "a": "finish",
+      "b": "bitmek"
+     },
+     {
+      "a": "talk / speak",
+      "b": "konuşmak"
+     },
+     {
+      "a": "borrow",
+      "b": "ödünç almak"
+     },
+     {
+      "a": "lend",
+      "b": "ödünç vermek"
+     },
+     {
+      "a": "bring",
+      "b": "getirmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Verbs"
   },
   {
    "type": "exercise",
@@ -308,6 +349,248 @@
   },
   {
    "type": "grammar",
+   "title": "School routines — Simple Present",
+   "titleTr": "Okul rutinleri ve sorumluluklar",
+   "grammarId": "book-g5-u2-1",
+   "rule": "I / you / we / they → yalın fiil; he / she / it → fiil + *-s*. *What time do ...?* saat sorar.",
+   "examples": [
+    {
+     "en": "We *tidy up* our desks after class.",
+     "tr": "Dersten sonra sıralarımızı toplarız.",
+     "trEm": [
+      "toplarız"
+     ],
+     "img": "/app/img/words/tidy-up.jpg",
+     "emoji": "🧹",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 35,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     41,
+     54
+    ],
+    "workbookPages": [
+     15,
+     20
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 57,
+     "end": 59,
+     "role": "form"
+    },
+    {
+     "start": 61,
+     "end": 78,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "School routines — Simple Present",
+   "titleTr": "Okul rutinleri ve sorumluluklar",
+   "grammarId": "book-g5-u2-1",
+   "rule": "I / you / we / they → yalın fiil; he / she / it → fiil + *-s*. *What time do ...?* saat sorar.",
+   "examples": [
+    {
+     "en": "The Maths lesson *starts* at nine.",
+     "tr": "Matematik dersi saat dokuzda başlar.",
+     "trEm": [
+      "ar."
+     ],
+     "img": "p05-01.png",
+     "emoji": "➗",
+     "enHighlights": [
+      {
+       "start": 22,
+       "end": 23,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 33,
+       "end": 36,
+       "role": "ending"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     41,
+     54
+    ],
+    "workbookPages": [
+     15,
+     20
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 57,
+     "end": 59,
+     "role": "form"
+    },
+    {
+     "start": 61,
+     "end": 78,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "School routines — Simple Present",
+   "titleTr": "Okul rutinleri ve sorumluluklar",
+   "grammarId": "book-g5-u2-1",
+   "rule": "I / you / we / they → yalın fiil; he / she / it → fiil + *-s*. *What time do ...?* saat sorar.",
+   "examples": [
+    {
+     "en": "*What time* do your lessons finish?",
+     "tr": "Derslerin saat kaçta biter?",
+     "trEm": [
+      "saat kaçta"
+     ],
+     "img": "https://static.arasaac.org/pictograms/5358/5358_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "finish",
+     "emoji": "🏁",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 20,
+       "role": "question"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     41,
+     54
+    ],
+    "workbookPages": [
+     15,
+     20
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 57,
+     "end": 59,
+     "role": "form"
+    },
+    {
+     "start": 61,
+     "end": 78,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ our desks after class.",
+      "answer": "tidy up",
+      "tr": "Dersten sonra sıralarımızı toplarız."
+     },
+     {
+      "text": "The Maths lesson ___ at nine.",
+      "answer": "starts",
+      "tr": "Matematik dersi saat dokuzda başlar."
+     },
+     {
+      "text": "___ do your lessons finish?",
+      "answer": "What time",
+      "tr": "Derslerin saat kaçta biter?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "School routines — Simple Present",
+   "grammarId": "book-g5-u2-1"
+  },
+  {
+   "type": "grammar",
    "title": "Classroom Rules",
    "titleTr": "Sınıf kuralları — emir cümleleri",
    "chips": [
@@ -320,7 +603,21 @@
      "trEm": [
       "kaldır"
      ],
-     "emoji": "✋"
+     "emoji": "✋",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -441,7 +738,14 @@
       "emoji": "✋"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -456,7 +760,9 @@
      "tr": "Öğretmenlerini dikkatlice dinle.",
      "trEm": [],
      "emoji": "👂",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -464,6 +770,13 @@
    "part": [
     2,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -483,7 +796,9 @@
      "imageSource": "ARASAAC",
      "imageConcept": "bring",
      "emoji": "📦",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -491,6 +806,13 @@
    "part": [
     3,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -506,7 +828,9 @@
      "tr": "Konuşmak için elini kaldır.",
      "trEm": [],
      "emoji": "✋",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -514,6 +838,13 @@
    "part": [
     4,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -533,7 +864,9 @@
      "imageSource": "ARASAAC",
      "imageConcept": "keep",
      "emoji": "🤝",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -541,6 +874,13 @@
    "part": [
     5,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -556,7 +896,9 @@
      "tr": "Sessizce konuş.",
      "trEm": [],
      "emoji": "🤫",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -564,6 +906,13 @@
    "part": [
     6,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -580,7 +929,9 @@
      "trEm": [],
      "img": "/app/img/words/tidy-up.jpg",
      "emoji": "🧹",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -588,6 +939,13 @@
    "part": [
     7,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -607,7 +965,9 @@
      "imageSource": "ARASAAC",
      "imageConcept": "follow",
      "emoji": "👣",
-     "focus": "DO ✅"
+     "focus": "DO ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -615,6 +975,13 @@
    "part": [
     8,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -632,7 +999,21 @@
       "atma"
      ],
      "emoji": "🗑️",
-     "focus": "DON'T ⛔"
+     "focus": "DON'T ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 13,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -640,6 +1021,13 @@
    "part": [
     9,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -657,7 +1045,21 @@
       "koşma"
      ],
      "emoji": "🏃",
-     "focus": "DON'T ⛔"
+     "focus": "DON'T ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 13,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -665,6 +1067,13 @@
    "part": [
     10,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -686,7 +1095,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "shout",
      "emoji": "📢",
-     "focus": "DON'T ⛔"
+     "focus": "DON'T ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 21,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -694,7 +1117,42 @@
    "part": [
     11,
     11
+   ],
+   "ruleHighlights": [
+    {
+     "start": 68,
+     "end": 73,
+     "role": "negative"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ your hand before you speak.",
+      "answer": "Raise",
+      "tr": "Konuşmadan önce elini kaldır."
+     },
+     {
+      "text": "___ throw rubbish on the ground.",
+      "answer": "Don't",
+      "tr": "Yere çöp atma."
+     },
+     {
+      "text": "___ run in the classroom.",
+      "answer": "Don't",
+      "tr": "Sınıfta koşma."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Classroom Rules"
   },
   {
    "type": "exercise",
@@ -774,6 +1232,7 @@
      "img": "p05-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -809,6 +1268,7 @@
      "img": "p05-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -844,10 +1304,48 @@
      "img": "p05-12.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "Maths",
+      "b": "Matematik"
+     },
+     {
+      "a": "Science",
+      "b": "Fen Bilimleri"
+     },
+     {
+      "a": "Social Studies",
+      "b": "Sosyal Bilgiler"
+     },
+     {
+      "a": "Foreign Language",
+      "b": "Yabancı Dil"
+     },
+     {
+      "a": "Turkish",
+      "b": "Türkçe"
+     },
+     {
+      "a": "Art",
+      "b": "Görsel Sanatlar"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "School Subjects"
   },
   {
    "type": "exercise",
@@ -973,6 +1471,40 @@
       "sahibim.",
       "saat dokuzda",
       "Pazartesi günü"
+     ],
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 10,
+       "role": "form"
+      },
+      {
+       "start": 27,
+       "end": 29,
+       "role": "form"
+      },
+      {
+       "start": 43,
+       "end": 45,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 18,
+       "role": "form"
+      },
+      {
+       "start": 19,
+       "end": 31,
+       "role": "form"
+      },
+      {
+       "start": 58,
+       "end": 66,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1045,7 +1577,14 @@
       "emoji": "📝"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 30,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1063,6 +1602,40 @@
       "sahipsin.",
       "saat ikide",
       "Çarşamba günü"
+     ],
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 12,
+       "role": "form"
+      },
+      {
+       "start": 30,
+       "end": 32,
+       "role": "form"
+      },
+      {
+       "start": 45,
+       "end": 47,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 17,
+       "role": "form"
+      },
+      {
+       "start": 18,
+       "end": 28,
+       "role": "form"
+      },
+      {
+       "start": 51,
+       "end": 60,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1071,6 +1644,13 @@
    "part": [
     2,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 30,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1089,6 +1669,40 @@
       "sahip.",
       "saat on buçukta",
       "Cuma günü"
+     ],
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "form"
+      },
+      {
+       "start": 32,
+       "end": 34,
+       "role": "form"
+      },
+      {
+       "start": 49,
+       "end": 51,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 11,
+       "role": "form"
+      },
+      {
+       "start": 12,
+       "end": 27,
+       "role": "form"
+      },
+      {
+       "start": 50,
+       "end": 56,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1097,6 +1711,13 @@
    "part": [
     3,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 30,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1114,6 +1735,30 @@
      "trEm": [
       "sahipler.",
       "Salı günü"
+     ],
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 13,
+       "role": "form"
+      },
+      {
+       "start": 28,
+       "end": 30,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 6,
+       "end": 15,
+       "role": "form"
+      },
+      {
+       "start": 34,
+       "end": 43,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1122,6 +1767,13 @@
    "part": [
     4,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 30,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1139,6 +1791,30 @@
      "trEm": [
       "sahip.",
       "saat on birde"
+     ],
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "form"
+      },
+      {
+       "start": 25,
+       "end": 27,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 15,
+       "role": "form"
+      },
+      {
+       "start": 42,
+       "end": 48,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1147,6 +1823,13 @@
    "part": [
     5,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 22,
+     "end": 30,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1163,7 +1846,21 @@
      "trEm": [
       "var"
      ],
-     "emoji": "📝"
+     "emoji": "📝",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1171,7 +1868,42 @@
    "part": [
     6,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 35,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ a Science class at nine o'clock on Monday.",
+      "answer": "have got",
+      "tr": "Ben Pazartesi günü saat dokuzda bir Fen Bilimleri dersine sahibim."
+     },
+     {
+      "text": "You ___ an English class at two o'clock on Wednesday.",
+      "answer": "have got",
+      "tr": "Sen Çarşamba günü saat ikide bir İngilizce dersine sahipsin."
+     },
+     {
+      "text": "He ___ double Maths classes at half past ten on Friday.",
+      "answer": "has got",
+      "tr": "O Cuma günü saat on buçukta iki Matematik dersine sahip."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "have got / has got"
   },
   {
    "type": "exercise",
@@ -1318,6 +2050,7 @@
      "img": "p02-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     7
@@ -1353,6 +2086,7 @@
      "img": "p02-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     7
@@ -1394,6 +2128,7 @@
      "img": "p02-10.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     7
@@ -1432,6 +2167,7 @@
      "img": "p02-13.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     7
@@ -1467,6 +2203,7 @@
      "img": "p02-17.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     7
@@ -1508,6 +2245,7 @@
      "img": "p02-19.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     6,
     7
@@ -1546,10 +2284,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "pencil",
+      "b": "kurşun kalem"
+     },
+     {
+      "a": "pen",
+      "b": "tükenmez kalem"
+     },
+     {
+      "a": "coloured pencil",
+      "b": "renkli kalem"
+     },
+     {
+      "a": "crayon",
+      "b": "pastel boya"
+     },
+     {
+      "a": "rubber / eraser",
+      "b": "silgi"
+     },
+     {
+      "a": "sharpener",
+      "b": "kalemtıraş"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Classroom Objects"
   },
   {
    "type": "exercise",
@@ -1720,6 +2496,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -1758,10 +2535,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "Monday",
+      "b": "Pazartesi"
+     },
+     {
+      "a": "Tuesday",
+      "b": "Salı"
+     },
+     {
+      "a": "Wednesday",
+      "b": "Çarşamba"
+     },
+     {
+      "a": "Thursday",
+      "b": "Perşembe"
+     },
+     {
+      "a": "Friday",
+      "b": "Cuma"
+     },
+     {
+      "a": "Saturday",
+      "b": "Cumartesi"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Days of the Week"
   },
   {
    "type": "exercise",
@@ -1897,6 +2712,7 @@
      "num": "4"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -1928,6 +2744,7 @@
      "num": "8"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -1959,6 +2776,7 @@
      "num": "12"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -1990,6 +2808,7 @@
      "num": "16"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -2021,10 +2840,48 @@
      "num": "20"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "one",
+      "b": "1"
+     },
+     {
+      "a": "two",
+      "b": "2"
+     },
+     {
+      "a": "three",
+      "b": "3"
+     },
+     {
+      "a": "four",
+      "b": "4"
+     },
+     {
+      "a": "five",
+      "b": "5"
+     },
+     {
+      "a": "six",
+      "b": "6"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Numbers 1–20"
   },
   {
    "type": "exercise",
@@ -2108,6 +2965,7 @@
      "num": "30"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -2139,6 +2997,7 @@
      "num": "60"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -2170,10 +3029,48 @@
      "num": "100"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "twenty-one",
+      "b": "21"
+     },
+     {
+      "a": "twenty-five",
+      "b": "25"
+     },
+     {
+      "a": "twenty-nine",
+      "b": "29"
+     },
+     {
+      "a": "thirty",
+      "b": "30"
+     },
+     {
+      "a": "thirty-three",
+      "b": "33"
+     },
+     {
+      "a": "forty",
+      "b": "40"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Numbers 21–100"
   },
   {
    "type": "exercise",
@@ -2245,6 +3142,20 @@
      "time": "08:00",
      "trEm": [
       "tam saatler"
+     ],
+     "enHighlights": [
+      {
+       "start": 20,
+       "end": 27,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 28,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2332,6 +3243,20 @@
      "time": "10:30",
      "trEm": [
       "Buçuk geçiyor"
+     ],
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 23,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 13,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2355,6 +3280,20 @@
      "time": "04:15",
      "trEm": [
       "Çeyrek geçiyor"
+     ],
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 14,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2378,6 +3317,20 @@
      "time": "01:45",
      "trEm": [
       "Çeyrek var"
+     ],
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2401,6 +3354,20 @@
      "time": "09:22",
      "trEm": [
       "geçiyor"
+     ],
+     "enHighlights": [
+      {
+       "start": 25,
+       "end": 29,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 31,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2424,6 +3391,20 @@
      "time": "08:33",
      "trEm": [
       "var"
+     ],
+     "enHighlights": [
+      {
+       "start": 27,
+       "end": 29,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 27,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2498,6 +3479,20 @@
      "time": "08:15",
      "trEm": [
       "Sabah"
+     ],
+     "enHighlights": [
+      {
+       "start": 35,
+       "end": 39,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2569,6 +3564,20 @@
      "time": "09:00",
      "trEm": [
       "sabah"
+     ],
+     "enHighlights": [
+      {
+       "start": 31,
+       "end": 35,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 14,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2592,6 +3601,20 @@
      "time": "08:15",
      "trEm": [
       "Akşam"
+     ],
+     "enHighlights": [
+      {
+       "start": 35,
+       "end": 39,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2615,6 +3638,20 @@
      "time": "03:15",
      "trEm": [
       "öğleden sonra"
+     ],
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 28,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 5,
+       "end": 18,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2638,6 +3675,20 @@
      "time": "10:00",
      "trEm": [
       "Gece"
+     ],
+     "enHighlights": [
+      {
+       "start": 21,
+       "end": 25,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -2646,6 +3697,34 @@
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "A: What time is it?  B: It is 8:15 ___",
+      "answer": "a.m.",
+      "tr": "Sabah 8:15"
+     },
+     {
+      "text": "The first class starts at 9:00 ___",
+      "answer": "a.m.",
+      "tr": "İlk ders sabah 9'da başlar."
+     },
+     {
+      "text": "School finishes at 3:15 ___",
+      "answer": "p.m.",
+      "tr": "Okul öğleden sonra 3:15'te biter."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "a.m. / p.m."
   },
   {
    "type": "exercise",
@@ -2709,7 +3788,21 @@
      "trEm": [
       "var"
      ],
-     "num": "2"
+     "num": "2",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2799,7 +3892,14 @@
       "num": "2"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 28,
+     "end": 50,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -2820,7 +3920,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "interactive white board",
      "emoji": "🖥️",
-     "focus": "OLUMLU ✅"
+     "focus": "OLUMLU ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2844,7 +3958,21 @@
       "var"
      ],
      "num": "15",
-     "focus": "OLUMLU ✅"
+     "focus": "OLUMLU ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2868,7 +3996,21 @@
      "trEm": [
       "var"
      ],
-     "focus": "OLUMLU ✅"
+     "focus": "OLUMLU ✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 31,
+       "end": 34,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2892,7 +4034,21 @@
       "yok"
      ],
      "emoji": "🏫",
-     "focus": "OLUMSUZ ⛔"
+     "focus": "OLUMSUZ ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 23,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2916,7 +4072,21 @@
       "yok"
      ],
      "num": "2",
-     "focus": "OLUMSUZ ⛔"
+     "focus": "OLUMSUZ ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 12,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2940,7 +4110,21 @@
      "trEm": [
       "yok"
      ],
-     "focus": "OLUMSUZ ⛔"
+     "focus": "OLUMSUZ ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 34,
+       "end": 37,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2948,6 +4132,34 @@
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ two chairs in the room.",
+      "answer": "There are",
+      "tr": "Odada iki sandalye var."
+     },
+     {
+      "text": "___ a smart board in the classroom.",
+      "answer": "There is",
+      "tr": "Sınıfta bir akıllı tahta var."
+     },
+     {
+      "text": "___ fifteen students in the classroom.",
+      "answer": "There are",
+      "tr": "Sınıfta on beş öğrenci var."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "There is / There are"
   },
   {
    "type": "exercise",
@@ -3329,10 +4541,153 @@
    "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Verbs",
+      "items": [
+       "start",
+       "finish",
+       "talk / speak"
+      ]
+     },
+     {
+      "label": "School Subjects",
+      "items": [
+       "Maths",
+       "Science",
+       "Social Studies"
+      ]
+     },
+     {
+      "label": "Classroom Objects",
+      "items": [
+       "pencil",
+       "pen",
+       "coloured pencil"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "We ___ our desks after class.",
+      "answer": "tidy up",
+      "tr": "Dersten sonra sıralarımızı toplarız."
+     },
+     {
+      "text": "___ your hand before you speak.",
+      "answer": "Raise",
+      "tr": "Konuşmadan önce elini kaldır."
+     },
+     {
+      "text": "I ___ a Science class at nine o'clock on Monday.",
+      "answer": "have got",
+      "tr": "Ben Pazartesi günü saat dokuzda bir Fen Bilimleri dersine sahibim."
+     },
+     {
+      "text": "A: What time is it?  B: It is 8:15 ___",
+      "answer": "a.m.",
+      "tr": "Sabah 8:15"
+     },
+     {
+      "text": "___ two chairs in the room.",
+      "answer": "There are",
+      "tr": "Odada iki sandalye var."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: We ___ our desks after class.",
+      "answer": "We tidy up our desks after class.",
+      "tr": "Dersten sonra sıralarımızı toplarız."
+     },
+     {
+      "q": "Complete: ___ your hand before you speak.",
+      "answer": "Raise your hand before you speak.",
+      "tr": "Konuşmadan önce elini kaldır."
+     },
+     {
+      "q": "Complete: I ___ a Science class at nine o'clock on Monday.",
+      "answer": "I have got a Science class at nine o'clock on Monday.",
+      "tr": "Ben Pazartesi günü saat dokuzda bir Fen Bilimleri dersine sahibim."
+     },
+     {
+      "q": "Complete: A: What time is it?  B: It is 8:15 ___",
+      "answer": "A: What time is it?  B: It is 8:15 a.m.",
+      "tr": "Sabah 8:15"
+     },
+     {
+      "q": "Complete: ___ two chairs in the room.",
+      "answer": "There are two chairs in the room.",
+      "tr": "Odada iki sandalye var."
+     },
+     {
+      "q": "How do you say “beklemek” in English?",
+      "answer": "hold on"
+     },
+     {
+      "q": "How do you say “Seçmeli Ders” in English?",
+      "answer": "Elective Lesson"
+     },
+     {
+      "q": "How do you say “çöp kutusu” in English?",
+      "answer": "rubbish bin / trash can"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Great job!",
    "titleTr": "Sıra oyunlarda — kelimeleri ve saatleri pekiştirelim."
   }
- ]
+ ],
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ingilizce5_ders_kitabi.pdf",
+    "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+   },
+   {
+    "file": "ingilizce5_calisma_kitabi.pdf",
+    "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+   }
+  ],
+  "studentPages": [
+   41,
+   54
+  ],
+  "workbookPages": [
+   15,
+   20
+  ]
+ }
 }

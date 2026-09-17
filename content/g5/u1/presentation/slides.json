@@ -46,6 +46,7 @@
      "img": "p01-03.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -75,10 +76,48 @@
      "img": "p01-06.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "headmaster",
+      "b": "okul müdürü"
+     },
+     {
+      "a": "assistant",
+      "b": "müdür yardımcısı"
+     },
+     {
+      "a": "teacher",
+      "b": "öğretmen"
+     },
+     {
+      "a": "student",
+      "b": "öğrenci"
+     },
+     {
+      "a": "secretary",
+      "b": "sekreter"
+     },
+     {
+      "a": "coach",
+      "b": "antrenör"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "People at School"
   },
   {
    "type": "exercise",
@@ -218,6 +257,7 @@
      "img": "p01-10.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -253,10 +293,48 @@
      "img": "p01-14.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "classroom",
+      "b": "sınıf"
+     },
+     {
+      "a": "science lab",
+      "b": "fen laboratuvarı"
+     },
+     {
+      "a": "sports field",
+      "b": "spor sahası"
+     },
+     {
+      "a": "conference hall",
+      "b": "konferans salonu"
+     },
+     {
+      "a": "canteen",
+      "b": "kantin"
+     },
+     {
+      "a": "library",
+      "b": "kütüphane"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Places at School"
   },
   {
    "type": "exercise",
@@ -387,6 +465,260 @@
   },
   {
    "type": "grammar",
+   "title": "People and places — am / is / are",
+   "titleTr": "İnsanlar ve yerler",
+   "grammarId": "book-g5-u1-1",
+   "rule": "I → *am*; he / she / it → *is*; you / we / they → *are*. Soru için bu sözcük başa gelir.",
+   "examples": [
+    {
+     "en": "I *am* a student.",
+     "tr": "Ben bir öğrenciyim.",
+     "trEm": [
+      "yim"
+     ],
+     "img": "p01-04.png",
+     "emoji": "🎒",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 15,
+       "end": 18,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     27,
+     40
+    ],
+    "workbookPages": [
+     9,
+     14
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 4,
+     "end": 6,
+     "role": "form"
+    },
+    {
+     "start": 24,
+     "end": 26,
+     "role": "form"
+    },
+    {
+     "start": 46,
+     "end": 49,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "People and places — am / is / are",
+   "titleTr": "İnsanlar ve yerler",
+   "grammarId": "book-g5-u1-1",
+   "rule": "I → *am*; he / she / it → *is*; you / we / they → *are*. Soru için bu sözcük başa gelir.",
+   "examples": [
+    {
+     "en": "Our teacher *is* in the library.",
+     "tr": "Öğretmenimiz kütüphanede.",
+     "trEm": [
+      "de."
+     ],
+     "img": "p01-12.png",
+     "emoji": "📚",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 25,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     27,
+     40
+    ],
+    "workbookPages": [
+     9,
+     14
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 4,
+     "end": 6,
+     "role": "form"
+    },
+    {
+     "start": 24,
+     "end": 26,
+     "role": "form"
+    },
+    {
+     "start": 46,
+     "end": 49,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "People and places — am / is / are",
+   "titleTr": "İnsanlar ve yerler",
+   "grammarId": "book-g5-u1-1",
+   "rule": "I → *am*; he / she / it → *is*; you / we / they → *are*. Soru için bu sözcük başa gelir.",
+   "examples": [
+    {
+     "en": "*Are* the students in the classroom?",
+     "tr": "Öğrenciler sınıfta mı?",
+     "trEm": [
+      "mı"
+     ],
+     "img": "p01-07.png",
+     "emoji": "🪑",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 21,
+       "role": "question"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ingilizce5_ders_kitabi.pdf",
+      "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+     },
+     {
+      "file": "ingilizce5_calisma_kitabi.pdf",
+      "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+     }
+    ],
+    "studentPages": [
+     27,
+     40
+    ],
+    "workbookPages": [
+     9,
+     14
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 4,
+     "end": 6,
+     "role": "form"
+    },
+    {
+     "start": 24,
+     "end": 26,
+     "role": "form"
+    },
+    {
+     "start": 46,
+     "end": 49,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ a student.",
+      "answer": "am",
+      "tr": "Ben bir öğrenciyim."
+     },
+     {
+      "text": "Our teacher ___ in the library.",
+      "answer": "is",
+      "tr": "Öğretmenimiz kütüphanede."
+     },
+     {
+      "text": "___ the students in the classroom?",
+      "answer": "Are",
+      "tr": "Öğrenciler sınıfta mı?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "People and places — am / is / are",
+   "grammarId": "book-g5-u1-1"
+  },
+  {
+   "type": "grammar",
    "title": "A / AN / THE",
    "titleTr": "Belirli ve belirsiz tanımlıklar",
    "chips": [
@@ -399,6 +731,20 @@
      "img": "p01-03.png",
      "trEm": [
       "sessiz harfle başlıyor → a"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 1,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 26,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -492,7 +838,14 @@
       "emoji": "🎬"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 58,
+     "end": 59,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -508,6 +861,20 @@
      "img": "p01-14.png",
      "trEm": [
       "sessiz harfle başlıyor → a"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 1,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 26,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -516,6 +883,13 @@
    "part": [
     2,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 58,
+     "end": 59,
+     "role": "form"
+    }
    ]
   },
   {
@@ -532,6 +906,20 @@
      "img": "p01-12.png",
      "trEm": [
       "sessiz harfle başlıyor → a"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 1,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 26,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -540,6 +928,13 @@
    "part": [
     3,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 58,
+     "end": 59,
+     "role": "form"
+    }
    ]
   },
   {
@@ -556,7 +951,21 @@
      "trEm": [
       "sesli harfle (a, e, i, o, u) başlıyor → an"
      ],
-     "emoji": "🍊"
+     "emoji": "🍊",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 42,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -564,6 +973,13 @@
    "part": [
     4,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 57,
+     "end": 59,
+     "role": "form"
+    }
    ]
   },
   {
@@ -580,7 +996,21 @@
      "trEm": [
       "sesli harfle başlıyor → an"
      ],
-     "emoji": "🍎"
+     "emoji": "🍎",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -588,6 +1018,13 @@
    "part": [
     5,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 57,
+     "end": 59,
+     "role": "form"
+    }
    ]
   },
   {
@@ -604,7 +1041,21 @@
      "trEm": [
       "sesli harfle başlıyor → an"
      ],
-     "emoji": "☂️"
+     "emoji": "☂️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -612,6 +1063,13 @@
    "part": [
     6,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 57,
+     "end": 59,
+     "role": "form"
+    }
    ]
   },
   {
@@ -628,6 +1086,20 @@
      "img": "p01-04.png",
      "trEm": [
       "belirli bir öğrenci"
+     ],
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 19,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -636,6 +1108,13 @@
    "part": [
     7,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 65,
+     "end": 68,
+     "role": "form"
+    }
    ]
   },
   {
@@ -652,7 +1131,21 @@
      "trEm": [
       "tek olan şey"
      ],
-     "emoji": "☀️"
+     "emoji": "☀️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 12,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -660,6 +1153,13 @@
    "part": [
     8,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 65,
+     "end": 68,
+     "role": "form"
+    }
    ]
   },
   {
@@ -679,7 +1179,21 @@
      "emoji": "🎬",
      "img": "https://static.arasaac.org/pictograms/4602/4602_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 20,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -687,7 +1201,42 @@
    "part": [
     9,
     9
+   ],
+   "ruleHighlights": [
+    {
+     "start": 65,
+     "end": 68,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ teacher",
+      "answer": "a",
+      "tr": "sessiz harfle başlıyor → a"
+     },
+     {
+      "text": "___ gate",
+      "answer": "a",
+      "tr": "sessiz harfle başlıyor → a"
+     },
+     {
+      "text": "___ library",
+      "answer": "a",
+      "tr": "sessiz harfle başlıyor → a"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "A / AN / THE"
   },
   {
    "type": "exercise",
@@ -781,6 +1330,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -828,6 +1378,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -875,10 +1426,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "Drama Club",
+      "b": "Tiyatro Kulübü"
+     },
+     {
+      "a": "Technology Club",
+      "b": "Teknoloji Kulübü"
+     },
+     {
+      "a": "Maths Club",
+      "b": "Matematik Kulübü"
+     },
+     {
+      "a": "Art Club",
+      "b": "Resim Kulübü"
+     },
+     {
+      "a": "Music Club",
+      "b": "Müzik Kulübü"
+     },
+     {
+      "a": "Environment Club",
+      "b": "Çevre Kulübü"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "School Clubs"
   },
   {
    "type": "exercise",
@@ -1031,6 +1620,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -1078,6 +1668,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -1125,10 +1716,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "act in plays",
+      "b": "tiyatro oyunu oynamak"
+     },
+     {
+      "a": "solve problems",
+      "b": "problem çözmek"
+     },
+     {
+      "a": "draw pictures",
+      "b": "resim çizmek"
+     },
+     {
+      "a": "play the guitar",
+      "b": "gitar çalmak"
+     },
+     {
+      "a": "sing songs",
+      "b": "şarkı söylemek"
+     },
+     {
+      "a": "dance",
+      "b": "dans etmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Expressing Likes"
   },
   {
    "type": "exercise",
@@ -1256,7 +1885,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "do",
-     "emoji": "✅"
+     "emoji": "✅",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 19,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 13,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1324,7 +1967,14 @@
       "emoji": "✅"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 29,
+     "end": 45,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1343,7 +1993,21 @@
      "emoji": "🏀",
      "img": "https://static.arasaac.org/pictograms/4918/4918_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 18,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1351,6 +2015,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 29,
+     "end": 45,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1371,7 +2042,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "do",
-     "emoji": "✅"
+     "emoji": "✅",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 19,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 13,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1379,6 +2064,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 29,
+     "end": 45,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1395,7 +2087,21 @@
      "trEm": [
       "Resim çizmeyi"
      ],
-     "emoji": "🎨"
+     "emoji": "🎨",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 13,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1403,6 +2109,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 29,
+     "end": 45,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1423,7 +2136,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "do",
-     "emoji": "✅"
+     "emoji": "✅",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 31,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1431,7 +2158,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 29,
+     "end": 45,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Do you like ___ the guitar?",
+      "answer": "playing",
+      "tr": "Gitar çalmayı sever misin?"
+     },
+     {
+      "text": "I like ___ basketball.",
+      "answer": "playing",
+      "tr": "Basketbol oynamayı severim."
+     },
+     {
+      "text": "Do you like ___ books?",
+      "answer": "reading",
+      "tr": "Kitap okumayı sever misin?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Do you like ...?"
   },
   {
    "type": "exercise",
@@ -1521,6 +2283,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -1568,6 +2331,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -1597,10 +2361,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "sit",
+      "b": "oturmak"
+     },
+     {
+      "a": "clean",
+      "b": "temizlemek"
+     },
+     {
+      "a": "do",
+      "b": "yapmak"
+     },
+     {
+      "a": "run",
+      "b": "koşmak"
+     },
+     {
+      "a": "listen",
+      "b": "dinlemek"
+     },
+     {
+      "a": "fight",
+      "b": "kavga etmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "School Rules — Verbs"
   },
   {
    "type": "exercise",
@@ -1724,7 +2526,21 @@
      "trEm": [
       "aç"
      ],
-     "emoji": "📝"
+     "emoji": "📝",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 18,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1794,7 +2610,8 @@
       "emoji": "📝"
      }
     ]
-   }
+   },
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1813,7 +2630,9 @@
      "imageSource": "ARASAAC",
      "imageConcept": "sit",
      "emoji": "🪑",
-     "focus": "POSITIVE ✅"
+     "focus": "POSITIVE ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -1821,7 +2640,8 @@
    "part": [
     2,
     5
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1836,7 +2656,9 @@
      "tr": "Öğretmeni dinle.",
      "img": "p01-03.png",
      "trEm": [],
-     "focus": "POSITIVE ✅"
+     "focus": "POSITIVE ✅",
+     "enHighlights": [],
+     "trHighlights": []
     }
    ],
    "paced": true,
@@ -1844,7 +2666,8 @@
    "part": [
     3,
     5
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1861,7 +2684,21 @@
      "trEm": [
       "koşma"
      ],
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 13,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1869,7 +2706,8 @@
    "part": [
     4,
     5
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1886,7 +2724,21 @@
      "trEm": [
       "bağırma"
      ],
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 12,
+       "end": 19,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1894,7 +2746,36 @@
    "part": [
     5,
     5
-   ]
+   ],
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ your book, please.",
+      "answer": "Open",
+      "tr": "Lütfen kitabını aç."
+     },
+     {
+      "text": "___ run in the classroom.",
+      "answer": "Don't",
+      "tr": "Sınıfta koşma."
+     },
+     {
+      "text": "___ shout in the library.",
+      "answer": "Don't",
+      "tr": "Kütüphanede bağırma."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Imperatives"
   },
   {
    "type": "exercise",
@@ -1959,7 +2840,21 @@
       "dinlemeliyiz."
      ],
      "img": "p01-03.png",
-     "emoji": "👨‍🏫"
+     "emoji": "👨‍🏫",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 27,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2046,7 +2941,14 @@
       "emoji": "👨‍🏫"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 12,
+     "end": 29,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -2067,7 +2969,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "get dressed",
      "emoji": "👕",
-     "focus": "must ✅"
+     "focus": "must ✅",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 29,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2075,6 +2991,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 4,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2096,7 +3019,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "do",
      "emoji": "✅",
-     "focus": "must ✅"
+     "focus": "must ✅",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 21,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2104,6 +3041,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 4,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2125,7 +3069,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "fight",
      "emoji": "🥊",
-     "focus": "mustn't ⛔"
+     "focus": "mustn't ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 33,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2133,6 +3091,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 4,
+     "role": "form"
+    }
    ]
   },
   {
@@ -2154,7 +3119,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "eat",
      "emoji": "🍽️",
-     "focus": "mustn't ⛔"
+     "focus": "mustn't ⛔",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 32,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -2162,7 +3141,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 4,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ listen to our teacher.",
+      "answer": "must",
+      "tr": "Öğretmenimizi dinlemeliyiz."
+     },
+     {
+      "text": "You ___ wear the school uniform.",
+      "answer": "must",
+      "tr": "Okul üniformasını giymelisin."
+     },
+     {
+      "text": "We ___ do our homework.",
+      "answer": "must",
+      "tr": "Ödevimizi yapmalıyız."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Obligations — must / mustn't"
   },
   {
    "type": "exercise",
@@ -2234,6 +3248,7 @@
      "img": "/app/img/flags/it.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     7
@@ -2265,6 +3280,7 @@
      "img": "/app/img/flags/gb.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     7
@@ -2296,6 +3312,7 @@
      "img": "/app/img/flags/gb-wls.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     7
@@ -2327,6 +3344,7 @@
      "img": "/app/img/flags/gr.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     7
@@ -2358,6 +3376,7 @@
      "img": "/app/img/flags/jp.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     7
@@ -2389,6 +3408,7 @@
      "img": "/app/img/flags/uz.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     6,
     7
@@ -2420,10 +3440,48 @@
      "img": "/app/img/flags/kktc.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "Türkiye",
+      "b": "Türkiye"
+     },
+     {
+      "a": "Germany",
+      "b": "Almanya"
+     },
+     {
+      "a": "France",
+      "b": "Fransa"
+     },
+     {
+      "a": "Italy",
+      "b": "İtalya"
+     },
+     {
+      "a": "Spain",
+      "b": "İspanya"
+     },
+     {
+      "a": "Russia",
+      "b": "Rusya"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Countries"
   },
   {
    "type": "exercise",
@@ -2677,6 +3735,7 @@
      "imageConcept": "23rd april — children's day"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -2715,10 +3774,48 @@
      "imageConcept": "30th august — victory day"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "Eid al-Fitr (Festival of Ramadan)",
+      "b": "Ramazan Bayramı"
+     },
+     {
+      "a": "Eid al-Adha (Festival of Sacrifice)",
+      "b": "Kurban Bayramı"
+     },
+     {
+      "a": "23rd April — Children's Day",
+      "b": "Çocuk Bayramı"
+     },
+     {
+      "a": "19th May — Youth and Sports Day",
+      "b": "Gençlik ve Spor Bayramı"
+     },
+     {
+      "a": "29th October — Republic Day",
+      "b": "Cumhuriyet Bayramı"
+     },
+     {
+      "a": "30th August — Victory Day",
+      "b": "Zafer Bayramı"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "National and Religious Days"
   },
   {
    "type": "exercise",
@@ -3063,10 +4160,153 @@
    "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "People at School",
+      "items": [
+       "headmaster",
+       "assistant",
+       "teacher"
+      ]
+     },
+     {
+      "label": "Places at School",
+      "items": [
+       "classroom",
+       "science lab",
+       "sports field"
+      ]
+     },
+     {
+      "label": "School Clubs",
+      "items": [
+       "Drama Club",
+       "Technology Club",
+       "Maths Club"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "I ___ a student.",
+      "answer": "am",
+      "tr": "Ben bir öğrenciyim."
+     },
+     {
+      "text": "___ teacher",
+      "answer": "a",
+      "tr": "sessiz harfle başlıyor → a"
+     },
+     {
+      "text": "Do you like ___ the guitar?",
+      "answer": "playing",
+      "tr": "Gitar çalmayı sever misin?"
+     },
+     {
+      "text": "___ your book, please.",
+      "answer": "Open",
+      "tr": "Lütfen kitabını aç."
+     },
+     {
+      "text": "We ___ listen to our teacher.",
+      "answer": "must",
+      "tr": "Öğretmenimizi dinlemeliyiz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: I ___ a student.",
+      "answer": "I am a student.",
+      "tr": "Ben bir öğrenciyim."
+     },
+     {
+      "q": "Complete: ___ teacher",
+      "answer": "a teacher",
+      "tr": "sessiz harfle başlıyor → a"
+     },
+     {
+      "q": "Complete: Do you like ___ the guitar?",
+      "answer": "Do you like playing the guitar?",
+      "tr": "Gitar çalmayı sever misin?"
+     },
+     {
+      "q": "Complete: ___ your book, please.",
+      "answer": "Open your book, please.",
+      "tr": "Lütfen kitabını aç."
+     },
+     {
+      "q": "Complete: We ___ listen to our teacher.",
+      "answer": "We must listen to our teacher.",
+      "tr": "Öğretmenimizi dinlemeliyiz."
+     },
+     {
+      "q": "How do you say “antrenör” in English?",
+      "answer": "coach"
+     },
+     {
+      "q": "How do you say “kapı” in English?",
+      "answer": "gate"
+     },
+     {
+      "q": "How do you say “Bale Kulübü” in English?",
+      "answer": "Ballet Club"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎉",
    "title": "Well done!",
    "titleTr": "Şimdi oyun zamanı — kelimeleri pekiştirelim."
   }
- ]
+ ],
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ingilizce5_ders_kitabi.pdf",
+    "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+   },
+   {
+    "file": "ingilizce5_calisma_kitabi.pdf",
+    "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+   }
+  ],
+  "studentPages": [
+   27,
+   40
+  ],
+  "workbookPages": [
+   9,
+   14
+  ]
+ }
 }

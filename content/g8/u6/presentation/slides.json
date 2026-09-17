@@ -45,6 +45,7 @@
      "img": "/app/img/words/caving.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -80,6 +81,7 @@
      "img": "/app/img/words/paragliding.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -121,10 +123,48 @@
      "imageConcept": "extreme"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "extreme sports",
+      "b": "ekstrem sporlar"
+     },
+     {
+      "a": "bungee-jumping",
+      "b": "bancî atlayışı"
+     },
+     {
+      "a": "canoeing",
+      "b": "kano sporu"
+     },
+     {
+      "a": "caving",
+      "b": "mağaracılık"
+     },
+     {
+      "a": "hang-gliding",
+      "b": "delta kanat"
+     },
+     {
+      "a": "kayaking",
+      "b": "kayak (kano)"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Extreme Sports"
   },
   {
    "type": "exercise",
@@ -267,6 +307,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -305,10 +346,48 @@
      "imageConcept": "disappointing"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "amusing",
+      "b": "eğlenceli"
+     },
+     {
+      "a": "challenging",
+      "b": "zorlayıcı"
+     },
+     {
+      "a": "entertaining",
+      "b": "eğlendirici"
+     },
+     {
+      "a": "exciting",
+      "b": "heyecan verici"
+     },
+     {
+      "a": "fascinating",
+      "b": "büyüleyici"
+     },
+     {
+      "a": "disappointing",
+      "b": "hayal kırıklığı yaratan"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Describing Activities"
   },
   {
    "type": "exercise",
@@ -479,6 +558,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -526,6 +606,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -573,10 +654,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "indoor",
+      "b": "kapalı mekan, iç mekan"
+     },
+     {
+      "a": "inexperienced",
+      "b": "deneyimsiz, tecrübesiz"
+     },
+     {
+      "a": "goggles",
+      "b": "koruyucu gözlük"
+     },
+     {
+      "a": "height",
+      "b": "yükseklik"
+     },
+     {
+      "a": "helmet",
+      "b": "kask"
+     },
+     {
+      "a": "hill",
+      "b": "tepe"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -728,6 +847,7 @@
      "imageConcept": "experienced"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -775,10 +895,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "diving suit",
+      "b": "dalış kıyafeti"
+     },
+     {
+      "a": "equipment",
+      "b": "araç gereç, ekipman"
+     },
+     {
+      "a": "experience",
+      "b": "deneyim, tecrübe"
+     },
+     {
+      "a": "experienced",
+      "b": "deneyimli, tecrübeli"
+     },
+     {
+      "a": "explore",
+      "b": "keşfetmek"
+     },
+     {
+      "a": "extreme sport",
+      "b": "tehlikeli ve heyecanlı spor"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -891,6 +1049,236 @@
   },
   {
    "type": "grammar",
+   "title": "Adventure preferences and reasons",
+   "titleTr": "Macera tercihleri ve nedenler",
+   "grammarId": "book-g8-u6-1",
+   "rule": "*prefer A to B*; *would rather + yalın fiil + than + yalın fiil*. *because* bir neden ekler.",
+   "examples": [
+    {
+     "en": "I *prefer* rafting to motor racing.",
+     "tr": "Raftingi motor yarışına tercih ederim.",
+     "trEm": [
+      "tercih ederim"
+     ],
+     "img": "/app/img/words/rafting.jpg",
+     "emoji": "🌊",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 37,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     89,
+     104
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 13,
+     "role": "form"
+    },
+    {
+     "start": 15,
+     "end": 60,
+     "role": "form"
+    },
+    {
+     "start": 62,
+     "end": 69,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Adventure preferences and reasons",
+   "titleTr": "Macera tercihleri ve nedenler",
+   "grammarId": "book-g8-u6-1",
+   "rule": "*prefer A to B*; *would rather + yalın fiil + than + yalın fiil*. *because* bir neden ekler.",
+   "examples": [
+    {
+     "en": "I *would rather* go kayaking than go caving.",
+     "tr": "Mağaracılık yapmaktansa kanoya binmeyi tercih ederim.",
+     "trEm": [
+      "tercih ederim"
+     ],
+     "img": "/app/img/words/kayaking.jpg",
+     "emoji": "🚣",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 39,
+       "end": 52,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     89,
+     104
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 13,
+     "role": "form"
+    },
+    {
+     "start": 15,
+     "end": 60,
+     "role": "form"
+    },
+    {
+     "start": 62,
+     "end": 69,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Adventure preferences and reasons",
+   "titleTr": "Macera tercihleri ve nedenler",
+   "grammarId": "book-g8-u6-1",
+   "rule": "*prefer A to B*; *would rather + yalın fiil + than + yalın fiil*. *because* bir neden ekler.",
+   "examples": [
+    {
+     "en": "I like paragliding *because* it is exciting.",
+     "tr": "Heyecan verici olduğu için yamaç paraşütünü severim.",
+     "trEm": [
+      "olduğu için"
+     ],
+     "img": "/app/img/words/paragliding.jpg",
+     "emoji": "🪂",
+     "enHighlights": [
+      {
+       "start": 19,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 15,
+       "end": 26,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     89,
+     104
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 13,
+     "role": "form"
+    },
+    {
+     "start": 15,
+     "end": 60,
+     "role": "form"
+    },
+    {
+     "start": 62,
+     "end": 69,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ rafting to motor racing.",
+      "answer": "prefer",
+      "tr": "Raftingi motor yarışına tercih ederim."
+     },
+     {
+      "text": "I ___ go kayaking than go caving.",
+      "answer": "would rather",
+      "tr": "Mağaracılık yapmaktansa kanoya binmeyi tercih ederim."
+     },
+     {
+      "text": "I like paragliding ___ it is exciting.",
+      "answer": "because",
+      "tr": "Heyecan verici olduğu için yamaç paraşütünü severim."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Adventure preferences and reasons",
+   "grammarId": "book-g8-u6-1"
+  },
+  {
+   "type": "grammar",
    "title": "should / shouldn't",
    "titleTr": "Tavsiye verme",
    "chips": [
@@ -907,7 +1295,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "helmet",
-     "emoji": "⛑️"
+     "emoji": "⛑️",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 35,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1005,7 +1407,14 @@
       "emoji": "⛑️"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 9,
+     "end": 28,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1026,7 +1435,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "helmet",
      "emoji": "⛑️",
-     "focus": "should ✅"
+     "focus": "should ✅",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 5,
+       "end": 16,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1050,7 +1473,21 @@
       "etmelisin."
      ],
      "emoji": "🌨️",
-     "focus": "should ✅"
+     "focus": "should ✅",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 37,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1074,7 +1511,21 @@
       "gitmeli."
      ],
      "emoji": "🧭",
-     "focus": "should ✅"
+     "focus": "should ✅",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 16,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 26,
+       "end": 34,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1098,7 +1549,21 @@
       "tırmanmamalısın."
      ],
      "emoji": "🧗",
-     "focus": "shouldn't ⛔"
+     "focus": "shouldn't ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 13,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 23,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1126,7 +1591,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "tools",
      "emoji": "🎒",
-     "focus": "shouldn't ⛔"
+     "focus": "shouldn't ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 13,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 25,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1150,7 +1629,21 @@
       "yüzmemelisin."
      ],
      "emoji": "🏊",
-     "focus": "shouldn't ⛔"
+     "focus": "shouldn't ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 13,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 31,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1158,6 +1651,34 @@
     7,
     7
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "You ___ wear a helmet when you cycle.",
+      "answer": "should",
+      "tr": "Bisiklete binerken kask takmalısın."
+     },
+     {
+      "text": "You ___ wear a helmet.",
+      "answer": "should",
+      "tr": "Kask takmalısın."
+     },
+     {
+      "text": "You ___ check the weather first.",
+      "answer": "should",
+      "tr": "Önce hava durumunu kontrol etmelisin."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "should / shouldn't"
   },
   {
    "type": "exercise",
@@ -1221,7 +1742,21 @@
      "trEm": [
       "uymalısın."
      ],
-     "emoji": "⚠️"
+     "emoji": "⚠️",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 31,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1277,7 +1812,14 @@
       "emoji": "🗑️"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 12,
+     "end": 29,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1293,7 +1835,21 @@
      "trEm": [
       "olmalı."
      ],
-     "emoji": "🤿"
+     "emoji": "🤿",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 11,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 27,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1301,6 +1857,13 @@
    "part": [
     2,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 12,
+     "end": 29,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1317,6 +1880,20 @@
      "img": "/app/img/words/rafting.jpg",
      "trEm": [
       "gitmemelisin."
+     ],
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 28,
+       "end": 41,
+       "role": "negative"
+      }
      ]
     }
    ],
@@ -1325,6 +1902,13 @@
    "part": [
     3,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 27,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -1341,7 +1925,21 @@
      "trEm": [
       "bırakmamalıyız."
      ],
-     "emoji": "🗑️"
+     "emoji": "🗑️",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1349,6 +1947,13 @@
    "part": [
     4,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 27,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -1365,7 +1970,21 @@
      "trEm": [
       "bırakmamalısın."
      ],
-     "emoji": "🗑️"
+     "emoji": "🗑️",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1373,7 +1992,42 @@
    "part": [
     5,
     5
+   ],
+   "ruleHighlights": [
+    {
+     "start": 7,
+     "end": 27,
+     "role": "negative"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "You ___ follow the safety rules.",
+      "answer": "must",
+      "tr": "Güvenlik kurallarına uymalısın."
+     },
+     {
+      "text": "Divers ___ have a licence.",
+      "answer": "must",
+      "tr": "Dalgıçların lisansı olmalı."
+     },
+     {
+      "text": "You ___ go rafting without a life jacket.",
+      "answer": "mustn't",
+      "tr": "Can yeleği olmadan raftinge gitmemelisin."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "must / mustn't"
   },
   {
    "type": "exercise",
@@ -1433,6 +2087,20 @@
      "img": "/app/img/words/rafting.jpg",
      "trEm": [
       "daha heyecan vericidir"
+     ],
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 29,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 49,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1481,7 +2149,8 @@
       "emoji": "🤿"
      }
     ]
-   }
+   },
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1497,6 +2166,20 @@
      "img": "/app/img/words/paragliding.jpg",
      "trEm": [
       "en heyecan verici"
+     ],
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 33,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 26,
+       "end": 43,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1505,7 +2188,8 @@
    "part": [
     2,
     4
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1521,7 +2205,21 @@
      "trEm": [
       "daha zordur"
      ],
-     "emoji": "🧗"
+     "emoji": "🧗",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 23,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 41,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1529,7 +2227,8 @@
    "part": [
     3,
     4
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1545,7 +2244,21 @@
      "trEm": [
       "en tehlikelisidir"
      ],
-     "emoji": "🤿"
+     "emoji": "🤿",
+     "enHighlights": [
+      {
+       "start": 16,
+       "end": 34,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 47,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1553,7 +2266,36 @@
    "part": [
     4,
     4
-   ]
+   ],
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Rafting is ___ hiking.",
+      "answer": "more exciting than",
+      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
+     },
+     {
+      "text": "Paragliding is ___ sport for me.",
+      "answer": "the most thrilling",
+      "tr": "Yamaç paraşütü benim için en heyecan verici spordur."
+     },
+     {
+      "text": "Climbing is ___ cycling.",
+      "answer": "harder than",
+      "tr": "Tırmanmak, bisiklet sürmekten daha zordur."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Comparing Adventures"
   },
   {
    "type": "exercise",
@@ -1823,11 +2565,137 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Extreme sports",
+      "items": [
+       "bungee-jumping",
+       "canoeing",
+       "rafting"
+      ]
+     },
+     {
+      "label": "Describing activities",
+      "items": [
+       "amusing",
+       "challenging",
+       "exciting"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "I ___ rafting to motor racing.",
+      "answer": "prefer",
+      "tr": "Raftingi motor yarışına tercih ederim."
+     },
+     {
+      "text": "You ___ wear a helmet when you cycle.",
+      "answer": "should",
+      "tr": "Bisiklete binerken kask takmalısın."
+     },
+     {
+      "text": "You ___ follow the safety rules.",
+      "answer": "must",
+      "tr": "Güvenlik kurallarına uymalısın."
+     },
+     {
+      "text": "Rafting is ___ hiking.",
+      "answer": "more exciting than",
+      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
+     },
+     {
+      "text": "I ___ go kayaking than go caving.",
+      "answer": "would rather",
+      "tr": "Mağaracılık yapmaktansa kanoya binmeyi tercih ederim."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: I ___ rafting to motor racing.",
+      "answer": "I prefer rafting to motor racing.",
+      "tr": "Raftingi motor yarışına tercih ederim."
+     },
+     {
+      "q": "Complete: You ___ wear a helmet when you cycle.",
+      "answer": "You should wear a helmet when you cycle.",
+      "tr": "Bisiklete binerken kask takmalısın."
+     },
+     {
+      "q": "Complete: You ___ follow the safety rules.",
+      "answer": "You must follow the safety rules.",
+      "tr": "Güvenlik kurallarına uymalısın."
+     },
+     {
+      "q": "Complete: Rafting is ___ hiking.",
+      "answer": "Rafting is more exciting than hiking.",
+      "tr": "Rafting, doğa yürüyüşünden daha heyecan vericidir."
+     },
+     {
+      "q": "How do you say “aşırı” in English?",
+      "answer": "extreme"
+     },
+     {
+      "q": "How do you say “hayal kırıklığı yaratan” in English?",
+      "answer": "disappointing"
+     },
+     {
+      "q": "How do you say “bireysel” in English?",
+      "answer": "individually"
+     },
+     {
+      "q": "How do you say “mücadele” in English?",
+      "answer": "fighting"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   89,
+   104
+  ]
+ }
 }

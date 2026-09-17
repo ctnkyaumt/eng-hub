@@ -45,6 +45,7 @@
      "img": "/app/img/vocab/physical-square.svg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -83,10 +84,48 @@
      "imageConcept": "all-inclusive"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "destination",
+      "b": "gidilecek yer"
+     },
+     {
+      "a": "attraction",
+      "b": "gezilecek yer"
+     },
+     {
+      "a": "historic site",
+      "b": "tarihi alan"
+     },
+     {
+      "a": "square",
+      "b": "meydan"
+     },
+     {
+      "a": "resort",
+      "b": "tatil köyü"
+     },
+     {
+      "a": "countryside",
+      "b": "kırsal kesim"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Places to Visit"
   },
   {
    "type": "exercise",
@@ -229,6 +268,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -270,10 +310,48 @@
      "img": "/app/img/words/urban.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "ancient",
+      "b": "antik"
+     },
+     {
+      "a": "architecture",
+      "b": "mimari"
+     },
+     {
+      "a": "culture",
+      "b": "kültür"
+     },
+     {
+      "a": "cultural",
+      "b": "kültürel"
+     },
+     {
+      "a": "fascinating",
+      "b": "büyüleyici"
+     },
+     {
+      "a": "incredible",
+      "b": "inanılmaz"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Describing Places"
   },
   {
    "type": "exercise",
@@ -444,6 +522,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -491,6 +570,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -538,10 +618,48 @@
      "imageConcept": "mysterious"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "taste",
+      "b": "tadına bakmak"
+     },
+     {
+      "a": "terrible / awful",
+      "b": "korkunç, berbat"
+     },
+     {
+      "a": "tradition",
+      "b": "gelenek"
+     },
+     {
+      "a": "truly",
+      "b": "gerçekten"
+     },
+     {
+      "a": "unbelievable / incredible",
+      "b": "inanılmaz"
+     },
+     {
+      "a": "visit",
+      "b": "ziyaret etmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -693,6 +811,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -740,10 +859,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "natural",
+      "b": "doğal"
+     },
+     {
+      "a": "palace",
+      "b": "saray"
+     },
+     {
+      "a": "peaceful",
+      "b": "huzurlu"
+     },
+     {
+      "a": "rainy",
+      "b": "yağmurlu"
+     },
+     {
+      "a": "relaxing",
+      "b": "rahatlatıcı"
+     },
+     {
+      "a": "heritage",
+      "b": "miras"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -856,6 +1013,472 @@
   },
   {
    "type": "grammar",
+   "title": "Describing and comparing places",
+   "titleTr": "Yerleri anlatma ve karşılaştırma",
+   "grammarId": "book-g8-u7-1",
+   "rule": "Bir yeri *is / has* ile anlatabiliriz. Karşılaştırma: kısa sıfat + *-er than* veya *more + sıfat + than*.",
+   "examples": [
+    {
+     "en": "This town *has* an ancient castle.",
+     "tr": "Bu kasabanın eski bir kalesi var.",
+     "trEm": [
+      "var"
+     ],
+     "img": "/app/img/words/ancient.jpg",
+     "emoji": "🏛️",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 13,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 29,
+       "end": 32,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     105,
+     120
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 9,
+     "end": 17,
+     "role": "form"
+    },
+    {
+     "start": 65,
+     "end": 73,
+     "role": "form"
+    },
+    {
+     "start": 79,
+     "end": 98,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Describing and comparing places",
+   "titleTr": "Yerleri anlatma ve karşılaştırma",
+   "grammarId": "book-g8-u7-1",
+   "rule": "Bir yeri *is / has* ile anlatabiliriz. Karşılaştırma: kısa sıfat + *-er than* veya *more + sıfat + than*.",
+   "examples": [
+    {
+     "en": "The countryside is *quieter* than the city.",
+     "tr": "Kırsal bölge şehirden daha sessiz.",
+     "trEm": [
+      "daha sessiz"
+     ],
+     "img": "/app/img/words/countryside.jpg",
+     "emoji": "🌄",
+     "enHighlights": [
+      {
+       "start": 19,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 33,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     105,
+     120
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 9,
+     "end": 17,
+     "role": "form"
+    },
+    {
+     "start": 65,
+     "end": 73,
+     "role": "form"
+    },
+    {
+     "start": 79,
+     "end": 98,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Describing and comparing places",
+   "titleTr": "Yerleri anlatma ve karşılaştırma",
+   "grammarId": "book-g8-u7-1",
+   "rule": "Bir yeri *is / has* ile anlatabiliriz. Karşılaştırma: kısa sıfat + *-er than* veya *more + sıfat + than*.",
+   "examples": [
+    {
+     "en": "This palace is *more fascinating than* the museum.",
+     "tr": "Bu saray müzeden daha büyüleyici.",
+     "trEm": [
+      "daha büyüleyici"
+     ],
+     "img": "https://static.arasaac.org/pictograms/17279/17279_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "palace",
+     "emoji": "🏰",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 36,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 32,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     105,
+     120
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 9,
+     "end": 17,
+     "role": "form"
+    },
+    {
+     "start": 65,
+     "end": 73,
+     "role": "form"
+    },
+    {
+     "start": 79,
+     "end": 98,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "This town ___ an ancient castle.",
+      "answer": "has",
+      "tr": "Bu kasabanın eski bir kalesi var."
+     },
+     {
+      "text": "The countryside is ___ than the city.",
+      "answer": "quieter",
+      "tr": "Kırsal bölge şehirden daha sessiz."
+     },
+     {
+      "text": "This palace is ___ the museum.",
+      "answer": "more fascinating than",
+      "tr": "Bu saray müzeden daha büyüleyici."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Describing and comparing places",
+   "grammarId": "book-g8-u7-1"
+  },
+  {
+   "type": "grammar",
+   "title": "Travel preferences and reasons",
+   "titleTr": "Tatil tercihleri ve nedenler",
+   "grammarId": "book-g8-u7-2",
+   "rule": "*would rather + yalın fiil* veya *prefer + isim / fiil-ing* tercihi anlatır. *because* nedeni açıklar.",
+   "examples": [
+    {
+     "en": "I *would rather* visit a historic site than stay at a resort.",
+     "tr": "Bir tatil köyünde kalmaktansa tarihî bir yeri gezmeyi tercih ederim.",
+     "trEm": [
+      "tercih ederim"
+     ],
+     "img": "/app/img/words/historic-site.jpg",
+     "emoji": "🏺",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 54,
+       "end": 67,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     105,
+     120
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 25,
+     "role": "form"
+    },
+    {
+     "start": 31,
+     "end": 55,
+     "role": "form"
+    },
+    {
+     "start": 73,
+     "end": 80,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Travel preferences and reasons",
+   "titleTr": "Tatil tercihleri ve nedenler",
+   "grammarId": "book-g8-u7-2",
+   "rule": "*would rather + yalın fiil* veya *prefer + isim / fiil-ing* tercihi anlatır. *because* nedeni açıklar.",
+   "examples": [
+    {
+     "en": "We *prefer* rural holidays to city breaks.",
+     "tr": "Kırsalda tatil yapmayı şehir tatillerine tercih ederiz.",
+     "trEm": [
+      "tercih ederiz"
+     ],
+     "img": "/app/img/words/rural.jpg",
+     "emoji": "🚜",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 41,
+       "end": 54,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     105,
+     120
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 25,
+     "role": "form"
+    },
+    {
+     "start": 31,
+     "end": 55,
+     "role": "form"
+    },
+    {
+     "start": 73,
+     "end": 80,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Travel preferences and reasons",
+   "titleTr": "Tatil tercihleri ve nedenler",
+   "grammarId": "book-g8-u7-2",
+   "rule": "*would rather + yalın fiil* veya *prefer + isim / fiil-ing* tercihi anlatır. *because* nedeni açıklar.",
+   "examples": [
+    {
+     "en": "I want to visit this town *because* it is peaceful.",
+     "tr": "Huzurlu olduğu için bu kasabayı ziyaret etmek istiyorum.",
+     "trEm": [
+      "olduğu için"
+     ],
+     "img": "https://static.arasaac.org/pictograms/8182/8182_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "peace",
+     "emoji": "🕊️",
+     "enHighlights": [
+      {
+       "start": 26,
+       "end": 33,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 19,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     105,
+     120
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 25,
+     "role": "form"
+    },
+    {
+     "start": 31,
+     "end": 55,
+     "role": "form"
+    },
+    {
+     "start": 73,
+     "end": 80,
+     "role": "form"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ visit a historic site than stay at a resort.",
+      "answer": "would rather",
+      "tr": "Bir tatil köyünde kalmaktansa tarihî bir yeri gezmeyi tercih ederim."
+     },
+     {
+      "text": "We ___ rural holidays to city breaks.",
+      "answer": "prefer",
+      "tr": "Kırsalda tatil yapmayı şehir tatillerine tercih ederiz."
+     },
+     {
+      "text": "I want to visit this town ___ it is peaceful.",
+      "answer": "because",
+      "tr": "Huzurlu olduğu için bu kasabayı ziyaret etmek istiyorum."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Travel preferences and reasons",
+   "grammarId": "book-g8-u7-2"
+  },
+  {
+   "type": "grammar",
    "title": "Simple Past — Regular",
    "titleTr": "Geçmiş zaman: düzenli fiiller",
    "chips": [
@@ -872,7 +1495,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "summer",
-     "emoji": "🌻"
+     "emoji": "🌻",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 10,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 36,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -966,7 +1603,21 @@
      "trEm": [
       "kaldılar"
      ],
-     "emoji": "🏨"
+     "emoji": "🏨",
+     "enHighlights": [
+      {
+       "start": 9,
+       "end": 11,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 25,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -989,7 +1640,21 @@
      "trEm": [
       "sevmedim"
      ],
-     "emoji": "⏮️"
+     "emoji": "⏮️",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 26,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -997,6 +1662,13 @@
    "part": [
     3,
     6
+   ],
+   "ruleHighlights": [
+    {
+     "start": 18,
+     "end": 30,
+     "role": "negative"
+    }
    ]
   },
   {
@@ -1014,7 +1686,26 @@
       "keyif aldın mı",
       "keyif aldın"
      ],
-     "emoji": "⏮️"
+     "emoji": "⏮️",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      },
+      {
+       "start": 8,
+       "end": 13,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 21,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1041,7 +1732,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "summer",
-     "emoji": "🌻"
+     "emoji": "🌻",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 12,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 30,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1064,7 +1769,21 @@
      "trEm": [
       "keyif aldım"
      ],
-     "emoji": "⏮️"
+     "emoji": "⏮️",
+     "enHighlights": [
+      {
+       "start": 7,
+       "end": 9,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 15,
+       "end": 26,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1072,6 +1791,34 @@
     6,
     6
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ Cappadocia last summer.",
+      "answer": "visited",
+      "tr": "Geçen yaz Kapadokya'yı ziyaret ettik."
+     },
+     {
+      "text": "They ___ at a lovely hotel.",
+      "answer": "stayed",
+      "tr": "Güzel bir otelde kaldılar."
+     },
+     {
+      "text": "I ___ like the food there.",
+      "answer": "didn't",
+      "tr": "Oradaki yemekleri sevmedim."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Simple Past — Regular"
   },
   {
    "type": "exercise",
@@ -1139,7 +1886,21 @@
      "trEm": [
       "gittik"
      ],
-     "emoji": "✈️"
+     "emoji": "✈️",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 24,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1217,6 +1978,20 @@
      "img": "/app/img/words/ancient.jpg",
      "trEm": [
       "gördüm"
+     ],
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 5,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 16,
+       "end": 22,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1240,7 +2015,21 @@
      "trEm": [
       "fotoğraf çekti"
      ],
-     "emoji": "📷"
+     "emoji": "📷",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 23,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1263,7 +2052,21 @@
      "trEm": [
       "yedik"
      ],
-     "emoji": "⏮️"
+     "emoji": "⏮️",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 6,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 23,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1286,7 +2089,21 @@
      "trEm": [
       "aldım"
      ],
-     "emoji": "⏮️"
+     "emoji": "⏮️",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 33,
+       "end": 38,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1294,6 +2111,34 @@
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ to Antalya by plane.",
+      "answer": "went",
+      "tr": "Antalya'ya uçakla gittik."
+     },
+     {
+      "text": "I ___ the ancient theatre.",
+      "answer": "saw",
+      "tr": "Antik tiyatroyu gördüm."
+     },
+     {
+      "text": "She ___ a lot of photographs.",
+      "answer": "took",
+      "tr": "Bir sürü fotoğraf çekti."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Simple Past — Irregular"
   },
   {
    "type": "exercise",
@@ -1601,11 +2446,137 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Places",
+      "items": [
+       "historic site",
+       "resort",
+       "countryside"
+      ]
+     },
+     {
+      "label": "Describing places",
+      "items": [
+       "ancient",
+       "rural",
+       "urban"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "This town ___ an ancient castle.",
+      "answer": "has",
+      "tr": "Bu kasabanın eski bir kalesi var."
+     },
+     {
+      "text": "I ___ visit a historic site than stay at a resort.",
+      "answer": "would rather",
+      "tr": "Bir tatil köyünde kalmaktansa tarihî bir yeri gezmeyi tercih ederim."
+     },
+     {
+      "text": "We ___ Cappadocia last summer.",
+      "answer": "visited",
+      "tr": "Geçen yaz Kapadokya'yı ziyaret ettik."
+     },
+     {
+      "text": "We ___ to Antalya by plane.",
+      "answer": "went",
+      "tr": "Antalya'ya uçakla gittik."
+     },
+     {
+      "text": "The countryside is ___ than the city.",
+      "answer": "quieter",
+      "tr": "Kırsal bölge şehirden daha sessiz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: This town ___ an ancient castle.",
+      "answer": "This town has an ancient castle.",
+      "tr": "Bu kasabanın eski bir kalesi var."
+     },
+     {
+      "q": "Complete: I ___ visit a historic site than stay at a resort.",
+      "answer": "I would rather visit a historic site than stay at a resort.",
+      "tr": "Bir tatil köyünde kalmaktansa tarihî bir yeri gezmeyi tercih ederim."
+     },
+     {
+      "q": "Complete: We ___ Cappadocia last summer.",
+      "answer": "We visited Cappadocia last summer.",
+      "tr": "Geçen yaz Kapadokya'yı ziyaret ettik."
+     },
+     {
+      "q": "Complete: We ___ to Antalya by plane.",
+      "answer": "We went to Antalya by plane.",
+      "tr": "Antalya'ya uçakla gittik."
+     },
+     {
+      "q": "How do you say “her şey dahil” in English?",
+      "answer": "all-inclusive"
+     },
+     {
+      "q": "How do you say “kentsel” in English?",
+      "answer": "urban"
+     },
+     {
+      "q": "How do you say “gizemli” in English?",
+      "answer": "mysterious"
+     },
+     {
+      "q": "How do you say “misafirperver” in English?",
+      "answer": "hospitable"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   105,
+   120
+  ]
+ }
 }

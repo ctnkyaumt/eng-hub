@@ -27,6 +27,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -81,7 +82,8 @@
     }
    ],
    "topic": "Study habits",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -156,6 +158,46 @@
      "imageConcept": "remember"
     }
    ],
+   "topic": "Study habits",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "habit",
+      "b": "alışkanlık"
+     },
+     {
+      "a": "diary",
+      "b": "günlük"
+     },
+     {
+      "a": "research",
+      "b": "araştırma"
+     },
+     {
+      "a": "method",
+      "b": "yöntem"
+     },
+     {
+      "a": "review",
+      "b": "gözden geçirmek"
+     },
+     {
+      "a": "revise",
+      "b": "tekrar etmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Study habits",
    "topic": "Study habits",
    "topicIndex": 1
   },
@@ -265,11 +307,31 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/32138",
      "imageFit": "contain",
-     "imageConcept": "research"
+     "imageConcept": "research",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 21,
+       "role": "form"
+      },
+      {
+       "start": 21,
+       "end": 24,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 29,
+       "end": 40,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Study habits",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -288,11 +350,31 @@
      "imageCredit": "https://arasaac.org/pictograms/en/7141",
      "imageFit": "contain",
      "imageCue": "Read without speaking",
-     "imageConcept": "read"
+     "imageConcept": "read",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "question"
+      },
+      {
+       "start": 12,
+       "end": 15,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 21,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Study habits",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "exercise",
@@ -330,11 +412,57 @@
      "img": "/content/g5/u4/presentation/img/p02-05.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "rest"
+     "imageConcept": "rest",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 16,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 21,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Study habits",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Our group ___ a new topic now.",
+      "answer": "is researching",
+      "tr": "Grubumuz şimdi yeni bir konu araştırıyor."
+     },
+     {
+      "text": "___ you reading silently?",
+      "answer": "Are",
+      "tr": "Sessizce okuyor musun?"
+     },
+     {
+      "text": "I ___ at the moment.",
+      "answer": "am not resting",
+      "tr": "Şu anda dinlenmiyorum."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Right now",
+   "topic": "Study habits",
+   "topicIndex": 1,
+   "grammarId": "present-progressive"
   },
   {
    "type": "exercise",
@@ -411,11 +539,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/15361",
      "imageFit": "contain",
      "imageCue": "Work with one partner",
-     "imageConcept": "pair"
+     "imageConcept": "pair",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Study habits",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -433,11 +576,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/11472",
      "imageFit": "contain",
-     "imageConcept": "independent"
+     "imageConcept": "independent",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 18,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Study habits",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I usually ___ in pairs.",
+      "answer": "work",
+      "tr": "Genellikle ikili çalışırım."
+     },
+     {
+      "text": "Today I ___ on my own.",
+      "answer": "am working",
+      "tr": "Bugün tek başıma çalışıyorum."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Usually and today",
+   "topic": "Study habits",
+   "topicIndex": 1,
+   "grammarId": "now-vs-routine"
   },
   {
    "type": "exercise",
@@ -559,7 +743,8 @@
     }
    ],
    "topic": "Learning together",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -635,6 +820,46 @@
      "imageConcept": "read"
     }
    ],
+   "topic": "Learning together",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "peer",
+      "b": "akran"
+     },
+     {
+      "a": "pair",
+      "b": "ikili"
+     },
+     {
+      "a": "group",
+      "b": "grup"
+     },
+     {
+      "a": "task",
+      "b": "görev"
+     },
+     {
+      "a": "share",
+      "b": "paylaşmak"
+     },
+     {
+      "a": "repeat",
+      "b": "tekrarlamak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Learning together",
    "topic": "Learning together",
    "topicIndex": 2
   },
@@ -745,11 +970,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6998",
      "imageFit": "contain",
-     "imageConcept": "revise"
+     "imageConcept": "revise",
+     "enHighlights": [
+      {
+       "start": 22,
+       "end": 31,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 35,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Learning together",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -767,11 +1007,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/39687",
      "imageFit": "contain",
-     "imageConcept": "read aloud"
+     "imageConcept": "read aloud",
+     "enHighlights": [
+      {
+       "start": 25,
+       "end": 33,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 29,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Learning together",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "You revise every day, ___?",
+      "answer": "don't you",
+      "tr": "Her gün tekrar yapıyorsun, değil mi?"
+     },
+     {
+      "text": "Lina doesn't read aloud, ___?",
+      "answer": "does she",
+      "tr": "Lina sesli okumuyor, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Checking a routine",
+   "topic": "Learning together",
+   "topicIndex": 2,
+   "grammarId": "question-tags-present"
   },
   {
    "type": "exercise",
@@ -847,11 +1128,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA",
      "imageCredit": "https://arasaac.org/pictograms/en/15361",
      "imageFit": "contain",
-     "imageConcept": "share"
+     "imageConcept": "share",
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 35,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 35,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "Learning together",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -869,11 +1165,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/5898",
      "imageFit": "contain",
-     "imageConcept": "diary"
+     "imageConcept": "diary",
+     "enHighlights": [
+      {
+       "start": 23,
+       "end": 29,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 20,
+       "end": 28,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Learning together",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "They are sharing ideas, ___?",
+      "answer": "aren't they",
+      "tr": "Fikirlerini paylaşıyorlar, değil mi?"
+     },
+     {
+      "text": "Ada isn't writing now, ___?",
+      "answer": "is she",
+      "tr": "Ada şimdi yazmıyor, değil mi?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Checking an action now",
+   "topic": "Learning together",
+   "topicIndex": 2,
+   "grammarId": "question-tags-progressive"
   },
   {
    "type": "exercise",
@@ -1013,7 +1350,8 @@
     }
    ],
    "topic": "A useful routine",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1090,6 +1428,46 @@
      "imageConcept": "together"
     }
    ],
+   "topic": "A useful routine",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "brush",
+      "b": "fırçalamak"
+     },
+     {
+      "a": "rest",
+      "b": "dinlenmek"
+     },
+     {
+      "a": "focus",
+      "b": "odaklanmak"
+     },
+     {
+      "a": "mark",
+      "b": "işaretlemek"
+     },
+     {
+      "a": "effective",
+      "b": "etkili"
+     },
+     {
+      "a": "creative",
+      "b": "yaratıcı"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "A useful routine",
    "topic": "A useful routine",
    "topicIndex": 3
   },
@@ -1198,11 +1576,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/19553",
      "imageFit": "contain",
-     "imageConcept": "review"
+     "imageConcept": "review",
+     "enHighlights": [
+      {
+       "start": 16,
+       "end": 19,
+       "role": "pronoun"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "pronoun"
+      }
+     ]
     }
    ],
    "topic": "A useful routine",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1220,11 +1613,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/5898",
      "imageFit": "contain",
-     "imageConcept": "diary"
+     "imageConcept": "diary",
+     "enHighlights": [
+      {
+       "start": 16,
+       "end": 19,
+       "role": "pronoun"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 5,
+       "end": 10,
+       "role": "pronoun"
+      }
+     ]
     }
    ],
    "topic": "A useful routine",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We are checking ___ answers.",
+      "answer": "our",
+      "tr": "Kendi cevaplarımızı kontrol ediyoruz."
+     },
+     {
+      "text": "Lina is reading ___ diary.",
+      "answer": "her",
+      "tr": "Lina kendi günlüğünü okuyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Whose study things?",
+   "topic": "A useful routine",
+   "topicIndex": 3,
+   "grammarId": "possessives"
   },
   {
    "type": "exercise",
@@ -1300,11 +1734,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6998",
      "imageFit": "contain",
-     "imageConcept": "revise"
+     "imageConcept": "revise",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 22,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "A useful routine",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1322,11 +1771,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/34755",
      "imageFit": "contain",
-     "imageConcept": "instructions"
+     "imageConcept": "instructions",
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 33,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 12,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "A useful routine",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ do you revise vocabulary?",
+      "answer": "How often",
+      "tr": "Kelimeleri ne sıklıkla tekrar edersin?"
+     },
+     {
+      "text": "I read the instructions ___.",
+      "answer": "carefully",
+      "tr": "Yönergeleri dikkatlice okurum."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Frequency and word order",
+   "topic": "A useful routine",
+   "topicIndex": 3,
+   "grammarId": "how-often-adverbs"
   },
   {
    "type": "exercise",
@@ -1452,7 +1942,8 @@
     }
    ],
    "topic": "Numbers and order",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1497,6 +1988,46 @@
      "num": "50th"
     }
    ],
+   "topic": "Numbers and order",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "one hundred",
+      "b": "yüz"
+     },
+     {
+      "a": "one hundred and fifty",
+      "b": "yüz elli"
+     },
+     {
+      "a": "two hundred",
+      "b": "iki yüz"
+     },
+     {
+      "a": "five hundred",
+      "b": "beş yüz"
+     },
+     {
+      "a": "first",
+      "b": "birinci"
+     },
+     {
+      "a": "twelfth",
+      "b": "on ikinci"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Numbers and order",
    "topic": "Numbers and order",
    "topicIndex": 4
   },
@@ -1576,11 +2107,26 @@
      "trEm": [
       "Üç yüz"
      ],
-     "num": "300"
+     "num": "300",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 23,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 6,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Numbers and order",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1594,11 +2140,52 @@
      "trEm": [
       "otuz ikinci"
      ],
-     "num": "32nd"
+     "num": "32nd",
+     "enHighlights": [
+      {
+       "start": 12,
+       "end": 25,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 4,
+       "end": 15,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Numbers and order",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "There are ___ cards.",
+      "answer": "three hundred",
+      "tr": "Üç yüz kart var."
+     },
+     {
+      "text": "This is the ___ task.",
+      "answer": "thirty-second",
+      "tr": "Bu, otuz ikinci görev."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "100 to 500; 1st to 50th",
+   "topic": "Numbers and order",
+   "topicIndex": 4,
+   "grammarId": "cardinal-ordinal"
   },
   {
    "type": "exercise",
@@ -1832,6 +2419,130 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Study actions",
+      "items": [
+       "review",
+       "revise",
+       "practise"
+      ]
+     },
+     {
+      "label": "Cardinal numbers",
+      "items": [
+       "one hundred",
+       "two hundred",
+       "five hundred"
+      ]
+     },
+     {
+      "label": "Ordinal numbers",
+      "items": [
+       "first",
+       "twelfth",
+       "fiftieth"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "Our group ___ a new topic now.",
+      "answer": "is researching",
+      "tr": "Grubumuz şimdi yeni bir konu araştırıyor."
+     },
+     {
+      "text": "I usually ___ in pairs.",
+      "answer": "work",
+      "tr": "Genellikle ikili çalışırım."
+     },
+     {
+      "text": "You revise every day, ___?",
+      "answer": "don't you",
+      "tr": "Her gün tekrar yapıyorsun, değil mi?"
+     },
+     {
+      "text": "They are sharing ideas, ___?",
+      "answer": "aren't they",
+      "tr": "Fikirlerini paylaşıyorlar, değil mi?"
+     },
+     {
+      "text": "We are checking ___ answers.",
+      "answer": "our",
+      "tr": "Kendi cevaplarımızı kontrol ediyoruz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: Our group ___ a new topic now.",
+      "answer": "Our group is researching a new topic now.",
+      "tr": "Grubumuz şimdi yeni bir konu araştırıyor."
+     },
+     {
+      "q": "Complete: I usually ___ in pairs.",
+      "answer": "I usually work in pairs.",
+      "tr": "Genellikle ikili çalışırım."
+     },
+     {
+      "q": "Complete: You revise every day, ___?",
+      "answer": "You revise every day, don't you?",
+      "tr": "Her gün tekrar yapıyorsun, değil mi?"
+     },
+     {
+      "q": "Complete: They are sharing ideas, ___?",
+      "answer": "They are sharing ideas, aren't they?",
+      "tr": "Fikirlerini paylaşıyorlar, değil mi?"
+     },
+     {
+      "q": "Complete: We are checking ___ answers.",
+      "answer": "We are checking our answers.",
+      "tr": "Kendi cevaplarımızı kontrol ediyoruz."
+     },
+     {
+      "q": "Complete: ___ do you revise vocabulary?",
+      "answer": "How often do you revise vocabulary?",
+      "tr": "Kelimeleri ne sıklıkla tekrar edersin?"
+     },
+     {
+      "q": "Complete: There are ___ cards.",
+      "answer": "There are three hundred cards.",
+      "tr": "Üç yüz kart var."
+     },
+     {
+      "q": "How do you say “hatırlamak” in English?",
+      "answer": "remember"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

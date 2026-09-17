@@ -239,7 +239,8 @@ def main():
                         stats["bilingual_highlights"] += 1
 
         missions = [slide for slide in slides if slide.get("type") == "mission"]
-        kinds = [(slide.get("task") or {}).get("kind") for slide in missions]
+        # Topic breaks may precede the original three final missions.
+        kinds = [(slide.get("task") or {}).get("kind") for slide in missions if not slide.get("lessonRefresh")]
         interleaved = unit.startswith('g6/') and data.get('visualStyle') == 'illustrated'
         if (not set(MISSION_KINDS).issubset(kinds) if interleaved else kinds[:3] != MISSION_KINDS) or len(kinds) < 4:
             problems.append("%s: missions are %r, expected %r" % (unit, kinds, MISSION_KINDS))

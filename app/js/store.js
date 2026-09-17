@@ -6,6 +6,8 @@
      content/<gid>/<uid>/worksheets/manifest.json
 --------------------------------------------------------------------------- */
 
+import { mergeGameLinks, gameLinkKey } from './game-resources.js';
+
 const cache = new Map();
 
 const REQUIRED = Symbol("required");
@@ -50,8 +52,20 @@ export function getSlides(gid, uid) {
   return loadJSON(`${unitPath(gid, uid)}/presentation/slides.json`, null);
 }
 
-export function getBank(gid, uid) {
-  return loadJSON(`${unitPath(gid, uid)}/games/bank.json`, { sets: [], vocab: [], online: [] });
+export async function getBank(gid, uid) {
+  const [bank, sources] = await Promise.all([
+    loadJSON(`${unitPath(gid, uid)}/games/bank.json`, { sets: [], words: [], online: [] }),
+    loadJSON('/app/data/game-sources.json', { units: {}, thumbnails: {} }),
+  ]);
+  const sumeyye = (sources.units[`${gid}/${uid}`] || []).map((item) => {
+    const key = gameLinkKey(item.link);
+    return {
+      ...item,
+      coverImage: item.coverImage || sources.thumbnails[key]?.coverImage,
+    };
+  });
+  const online = mergeGameLinks(bank.online || [], [], sources.thumbnails);
+  return { ...bank, online, sumeyye };
 }
 
 export async function getStarterWords(gid, uid) {
@@ -67,7 +81,9 @@ export function getWorksheets(gid, uid) {
 export async function getSites(gid, uid, kind) {
   const man = await loadJSON(`${unitPath(gid, uid)}/sites/manifest.json`, { items: [] });
   const items = (man.items || []).filter((i) => i.path && (!kind || i.kind === kind));
-  return items.map((i) => ({ ...i, url: `${unitPath(gid, uid)}/sites/${i.path}` }));
+  const sources = kind === 'game' ? await loadJSON('/app/data/game-sources.json', { thumbnails: {} }) : { thumbnails: {} };
+  return items.map((i) => ({ ...i, coverImage: i.coverImage || sources.thumbnails[gameLinkKey(i.link)]?.coverImage,
+    url: `${unitPath(gid, uid)}/sites/${i.path}` }));
 }
 
 /** Ask the local server to open a file with its associated desktop app. */

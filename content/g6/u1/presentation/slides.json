@@ -27,6 +27,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -80,7 +81,8 @@
     }
    ],
    "topic": "People and responsibilities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -152,6 +154,46 @@
      "imageConcept": "volunteer"
     }
    ],
+   "topic": "People and responsibilities",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "leader",
+      "b": "lider"
+     },
+     {
+      "a": "listener",
+      "b": "dinleyici"
+     },
+     {
+      "a": "permission",
+      "b": "izin"
+     },
+     {
+      "a": "instruction",
+      "b": "yönerge"
+     },
+     {
+      "a": "guide",
+      "b": "rehber"
+     },
+     {
+      "a": "helpful",
+      "b": "yardımsever"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "People and responsibilities",
    "topic": "People and responsibilities",
    "topicIndex": 1
   },
@@ -262,11 +304,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/38642",
      "imageFit": "contain",
-     "imageConcept": "leader"
+     "imageConcept": "leader",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 5,
+       "end": 8,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "People and responsibilities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -284,11 +341,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/34755",
      "imageFit": "contain",
-     "imageConcept": "instructions"
+     "imageConcept": "instructions",
+     "enHighlights": [
+      {
+       "start": 9,
+       "end": 11,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 20,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "People and responsibilities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "exercise",
@@ -328,11 +400,57 @@
      "imageCredit": "https://arasaac.org/pictograms/en/38346",
      "imageFit": "contain",
      "imageCue": "A formal school event",
-     "imageConcept": "ceremony"
+     "imageConcept": "ceremony",
+     "enHighlights": [
+      {
+       "start": 22,
+       "end": 25,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 9,
+       "end": 20,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "People and responsibilities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Mina is ___ group leader.",
+      "answer": "a",
+      "tr": "Mina bir grup lideri."
+     },
+     {
+      "text": "There is ___ invitation on the desk.",
+      "answer": "an",
+      "tr": "Sıranın üzerinde bir davetiye var."
+     },
+     {
+      "text": "The invitation is for ___ school ceremony.",
+      "answer": "the",
+      "tr": "Davetiye okul töreni için."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "A, an and the",
+   "topic": "People and responsibilities",
+   "topicIndex": 1,
+   "grammarId": "articles"
   },
   {
    "type": "exercise",
@@ -408,11 +526,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/4570",
      "imageFit": "contain",
-     "imageConcept": "help"
+     "imageConcept": "help",
+     "enHighlights": [
+      {
+       "start": 38,
+       "end": 42,
+       "role": "pronoun"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 30,
+       "role": "pronoun"
+      }
+     ]
     }
    ],
    "topic": "People and responsibilities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -430,11 +563,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/27821",
      "imageFit": "contain",
-     "imageConcept": "guide"
+     "imageConcept": "guide",
+     "enHighlights": [
+      {
+       "start": 19,
+       "end": 22,
+       "role": "pronoun"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 22,
+       "role": "pronoun"
+      }
+     ]
     }
    ],
    "topic": "People and responsibilities",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The new students are here. I can help ___.",
+      "answer": "them",
+      "tr": "Yeni öğrenciler burada. Onlara yardım edebilirim."
+     },
+     {
+      "text": "This is our guide. ___ knows the school.",
+      "answer": "She",
+      "tr": "Bu bizim rehberimiz. O okulu tanıyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "People and object pronouns",
+   "topic": "People and responsibilities",
+   "topicIndex": 1,
+   "grammarId": "pronouns"
   },
   {
    "type": "exercise",
@@ -577,7 +751,8 @@
     }
    ],
    "topic": "School routines",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -656,6 +831,46 @@
      "imageConcept": "willingness"
     }
    ],
+   "topic": "School routines",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "greet",
+      "b": "selamlamak"
+     },
+     {
+      "a": "follow",
+      "b": "takip etmek"
+     },
+     {
+      "a": "enter",
+      "b": "girmek"
+     },
+     {
+      "a": "pack",
+      "b": "hazırlayıp çantaya koymak"
+     },
+     {
+      "a": "term",
+      "b": "dönem"
+     },
+     {
+      "a": "regularly",
+      "b": "düzenli olarak"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "School routines",
    "topic": "School routines",
    "topicIndex": 2
   },
@@ -740,11 +955,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2381",
      "imageFit": "contain",
-     "imageConcept": "listen"
+     "imageConcept": "listen",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 6,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "School routines",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -762,11 +992,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/2742",
      "imageFit": "contain",
-     "imageConcept": "enter"
+     "imageConcept": "enter",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 10,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 17,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "School routines",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ to the group leader.",
+      "answer": "Listen",
+      "tr": "Grup liderini dinleyin."
+     },
+     {
+      "text": "___ in the corridor.",
+      "answer": "Don't push",
+      "tr": "Koridorda itmeyin."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Classroom instructions",
+   "topic": "School routines",
+   "topicIndex": 2,
+   "grammarId": "imperatives"
   },
   {
    "type": "exercise",
@@ -842,11 +1113,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/19553",
      "imageFit": "contain",
-     "imageConcept": "review"
+     "imageConcept": "review",
+     "enHighlights": [
+      {
+       "start": 16,
+       "end": 17,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 28,
+       "end": 40,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "topic": "School routines",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -862,11 +1148,31 @@
      ],
      "img": "/app/img/flags/tr.svg",
      "imageConcept": "flag",
-     "imageSource": "Existing ENG HUB flag"
+     "imageSource": "Existing ENG HUB flag",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "question"
+      },
+      {
+       "start": 9,
+       "end": 14,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 26,
+       "end": 34,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "School routines",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "exercise",
@@ -903,11 +1209,57 @@
      ],
      "img": "/app/img/flags/tr.svg",
      "imageConcept": "flag",
-     "imageSource": "Existing ENG HUB flag"
+     "imageSource": "Existing ENG HUB flag",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 17,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 24,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "topic": "School routines",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "Our leader ___ the list every morning.",
+      "answer": "checks",
+      "tr": "Liderimiz her sabah listeyi kontrol eder."
+     },
+     {
+      "text": "___ Ada carry the flag on Mondays?",
+      "answer": "Does",
+      "tr": "Ada pazartesileri bayrağı taşır mı?"
+     },
+     {
+      "text": "She ___ it on Fridays.",
+      "answer": "doesn't carry",
+      "tr": "Cuma günleri onu taşımaz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "School routines",
+   "topic": "School routines",
+   "topicIndex": 2,
+   "grammarId": "present-simple"
   },
   {
    "type": "exercise",
@@ -984,11 +1336,26 @@
      "imageCredit": "https://arasaac.org/pictograms/en/38584",
      "imageFit": "contain",
      "imageCue": "Put your things in a bag",
-     "imageConcept": "pack"
+     "imageConcept": "pack",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 10,
+       "role": "usually"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 24,
+       "role": "usually"
+      }
+     ]
     }
    ],
    "topic": "School routines",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1006,11 +1373,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/4570",
      "imageFit": "contain",
-     "imageConcept": "help"
+     "imageConcept": "help",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 21,
+       "role": "always"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 13,
+       "end": 22,
+       "role": "always"
+      }
+     ]
     }
    ],
    "topic": "School routines",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ pack our bags at night.",
+      "answer": "usually",
+      "tr": "Çantalarımızı genellikle akşam hazırlarız."
+     },
+     {
+      "text": "Our teacher is ___ helpful.",
+      "answer": "always",
+      "tr": "Öğretmenimiz her zaman yardımseverdir."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "How regularly?",
+   "topic": "School routines",
+   "topicIndex": 2,
+   "grammarId": "frequency"
   },
   {
    "type": "exercise",
@@ -1152,7 +1560,8 @@
     }
    ],
    "topic": "Days to celebrate",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1225,6 +1634,46 @@
      "imageConcept": "celebrate"
     }
    ],
+   "topic": "Days to celebrate",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "ceremony",
+      "b": "tören"
+     },
+     {
+      "a": "celebration",
+      "b": "kutlama"
+     },
+     {
+      "a": "parade",
+      "b": "geçit töreni"
+     },
+     {
+      "a": "flag",
+      "b": "bayrak"
+     },
+     {
+      "a": "national anthem",
+      "b": "ulusal marş"
+     },
+     {
+      "a": "speech",
+      "b": "konuşma"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Days to celebrate",
    "topic": "Days to celebrate",
    "topicIndex": 3
   },
@@ -1331,11 +1780,26 @@
      ],
      "img": "/app/img/flags/tr.svg",
      "imageConcept": "flag",
-     "imageSource": "Existing ENG HUB flag"
+     "imageSource": "Existing ENG HUB flag",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 22,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Days to celebrate",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1354,11 +1818,52 @@
      "imageCredit": "https://arasaac.org/pictograms/en/38346",
      "imageFit": "contain",
      "imageCue": "A formal school event",
-     "imageConcept": "ceremony"
+     "imageConcept": "ceremony",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 12,
+       "end": 20,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Days to celebrate",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ two flags in the hall.",
+      "answer": "There are",
+      "tr": "Salonda iki bayrak var."
+     },
+     {
+      "text": "___ is the school ceremony?",
+      "answer": "When",
+      "tr": "Okul töreni ne zaman?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "People, places and times",
+   "topic": "Days to celebrate",
+   "topicIndex": 3,
+   "grammarId": "existence-questions"
   },
   {
    "type": "exercise",
@@ -1548,7 +2053,8 @@
     }
    ],
    "topic": "Working together",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1620,6 +2126,46 @@
      "imageConcept": "later"
     }
    ],
+   "topic": "Working together",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "successful",
+      "b": "başarılı"
+     },
+     {
+      "a": "keen",
+      "b": "hevesli"
+     },
+     {
+      "a": "try",
+      "b": "denemek"
+     },
+     {
+      "a": "pass",
+      "b": "sınavı geçmek"
+     },
+     {
+      "a": "fail",
+      "b": "başarısız olmak"
+     },
+     {
+      "a": "cheerfully",
+      "b": "neşeyle"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Working together",
    "topic": "Working together",
    "topicIndex": 4
   },
@@ -1846,6 +2392,129 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "People",
+      "items": [
+       "leader",
+       "listener",
+       "guide"
+      ]
+     },
+     {
+      "label": "School actions",
+      "items": [
+       "greet",
+       "follow",
+       "enter"
+      ]
+     },
+     {
+      "label": "Celebrations",
+      "items": [
+       "ceremony",
+       "celebration",
+       "parade"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "Mina is ___ group leader.",
+      "answer": "a",
+      "tr": "Mina bir grup lideri."
+     },
+     {
+      "text": "The new students are here. I can help ___.",
+      "answer": "them",
+      "tr": "Yeni öğrenciler burada. Onlara yardım edebilirim."
+     },
+     {
+      "text": "___ to the group leader.",
+      "answer": "Listen",
+      "tr": "Grup liderini dinleyin."
+     },
+     {
+      "text": "Our leader ___ the list every morning.",
+      "answer": "checks",
+      "tr": "Liderimiz her sabah listeyi kontrol eder."
+     },
+     {
+      "text": "We ___ pack our bags at night.",
+      "answer": "usually",
+      "tr": "Çantalarımızı genellikle akşam hazırlarız."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: Mina is ___ group leader.",
+      "answer": "Mina is a group leader.",
+      "tr": "Mina bir grup lideri."
+     },
+     {
+      "q": "Complete: The new students are here. I can help ___.",
+      "answer": "The new students are here. I can help them.",
+      "tr": "Yeni öğrenciler burada. Onlara yardım edebilirim."
+     },
+     {
+      "q": "Complete: ___ to the group leader.",
+      "answer": "Listen to the group leader.",
+      "tr": "Grup liderini dinleyin."
+     },
+     {
+      "q": "Complete: Our leader ___ the list every morning.",
+      "answer": "Our leader checks the list every morning.",
+      "tr": "Liderimiz her sabah listeyi kontrol eder."
+     },
+     {
+      "q": "Complete: We ___ pack our bags at night.",
+      "answer": "We usually pack our bags at night.",
+      "tr": "Çantalarımızı genellikle akşam hazırlarız."
+     },
+     {
+      "q": "Complete: ___ two flags in the hall.",
+      "answer": "There are two flags in the hall.",
+      "tr": "Salonda iki bayrak var."
+     },
+     {
+      "q": "How do you say “gönüllü olmak” in English?",
+      "answer": "volunteer"
+     },
+     {
+      "q": "How do you say “isteyerek” in English?",
+      "answer": "willingly"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

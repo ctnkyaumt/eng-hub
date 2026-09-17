@@ -27,6 +27,7 @@
   "note": "Curriculum reference only. All passages and tasks are original ENG HUB work."
  },
  "pages": [],
+ "lessonStyle": "reference-reveals-v1",
  "slides": [
   {
    "type": "title",
@@ -80,7 +81,8 @@
     }
    ],
    "topic": "Jobs",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -152,6 +154,46 @@
      "imageConcept": "designer"
     }
    ],
+   "topic": "Jobs",
+   "topicIndex": 1,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "author",
+      "b": "yazar"
+     },
+     {
+      "a": "dentist",
+      "b": "diş hekimi"
+     },
+     {
+      "a": "engineer",
+      "b": "mühendis"
+     },
+     {
+      "a": "reporter",
+      "b": "muhabir"
+     },
+     {
+      "a": "cook",
+      "b": "aşçı"
+     },
+     {
+      "a": "pilot",
+      "b": "pilot"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Jobs",
    "topic": "Jobs",
    "topicIndex": 1
   },
@@ -262,11 +304,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/37088",
      "imageFit": "contain",
-     "imageConcept": "designer"
+     "imageConcept": "designer",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 38,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Jobs",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -283,11 +340,52 @@
      "img": "/content/g5/u5/presentation/img/p02-01.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "apartment"
+     "imageConcept": "apartment",
+     "enHighlights": [
+      {
+       "start": 8,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 34,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Jobs",
-   "topicIndex": 1
+   "topicIndex": 1,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "We ___ a designer tomorrow.",
+      "answer": "are visiting",
+      "tr": "Yarın bir tasarımcıyı ziyaret ediyoruz."
+     },
+     {
+      "text": "My aunt ___ next Saturday.",
+      "answer": "is moving",
+      "tr": "Teyzem gelecek cumartesi taşınıyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Family arrangements",
+   "topic": "Jobs",
+   "topicIndex": 1,
+   "grammarId": "arrangements"
   },
   {
    "type": "exercise",
@@ -409,7 +507,8 @@
     }
    ],
    "topic": "At work",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -487,6 +586,46 @@
      "imageConcept": "director"
     }
    ],
+   "topic": "At work",
+   "topicIndex": 2,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "manager",
+      "b": "yönetici"
+     },
+     {
+      "a": "assistant",
+      "b": "asistan"
+     },
+     {
+      "a": "professor",
+      "b": "profesör"
+     },
+     {
+      "a": "officer",
+      "b": "memur"
+     },
+     {
+      "a": "company",
+      "b": "şirket"
+     },
+     {
+      "a": "factory",
+      "b": "fabrika"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "At work",
    "topic": "At work",
    "topicIndex": 2
   },
@@ -597,11 +736,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/30231",
      "imageFit": "contain",
-     "imageConcept": "address"
+     "imageConcept": "address",
+     "enHighlights": [
+      {
+       "start": 20,
+       "end": 24,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 41,
+       "end": 45,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "At work",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -620,11 +774,52 @@
      "imageCredit": "https://arasaac.org/pictograms/en/7141",
      "imageFit": "contain",
      "imageCue": "Read without speaking",
-     "imageConcept": "read"
+     "imageConcept": "read",
+     "enHighlights": [
+      {
+       "start": 10,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 34,
+       "end": 39,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "At work",
-   "topicIndex": 2
+   "topicIndex": 2,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I check the address ___ I leave home.",
+      "answer": "when",
+      "tr": "Evden çıktığımda adresi kontrol ederim. (When: -dığında)"
+     },
+     {
+      "text": "Dad reads ___ Mum draws.",
+      "answer": "while",
+      "tr": "Annem çizim yaparken babam okur. (While: -ken)"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "When and while",
+   "topic": "At work",
+   "topicIndex": 2,
+   "grammarId": "when-while"
   },
   {
    "type": "exercise",
@@ -764,7 +959,8 @@
     }
    ],
    "topic": "Homes",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -835,6 +1031,46 @@
      "imageConcept": "key"
     }
    ],
+   "topic": "Homes",
+   "topicIndex": 3,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "apartment",
+      "b": "apartman dairesi"
+     },
+     {
+      "a": "address",
+      "b": "adres"
+     },
+     {
+      "a": "entrance",
+      "b": "giriş"
+     },
+     {
+      "a": "roof",
+      "b": "çatı"
+     },
+     {
+      "a": "upstairs",
+      "b": "üst katta"
+     },
+     {
+      "a": "downstairs",
+      "b": "alt katta"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Homes",
    "topic": "Homes",
    "topicIndex": 3
   },
@@ -943,11 +1179,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/6012",
      "imageFit": "contain",
-     "imageConcept": "timetable"
+     "imageConcept": "timetable",
+     "enHighlights": [
+      {
+       "start": 13,
+       "end": 19,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 27,
+       "end": 35,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Homes",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -961,11 +1212,52 @@
      "trEm": [
       "kalkıyor"
      ],
-     "time": "08:20"
+     "time": "08:20",
+     "enHighlights": [
+      {
+       "start": 15,
+       "end": 21,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Homes",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The workshop ___ at eleven tomorrow.",
+      "answer": "starts",
+      "tr": "Atölye yarın saat on birde başlıyor."
+     },
+     {
+      "text": "The next train ___ at 08:20.",
+      "answer": "leaves",
+      "tr": "Sonraki tren 08.20'de kalkıyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Timetables",
+   "topic": "Homes",
+   "topicIndex": 3,
+   "grammarId": "future-timetables"
   },
   {
    "type": "exercise",
@@ -1040,11 +1332,26 @@
      "img": "/content/g5/u5/presentation/img/p02-01.png",
      "imageFit": "contain",
      "imageSource": "Existing ENG HUB teaching image",
-     "imageConcept": "apartment"
+     "imageConcept": "apartment",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 22,
+       "end": 27,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Homes",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1062,11 +1369,52 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/8664",
      "imageFit": "contain",
-     "imageConcept": "journalist"
+     "imageConcept": "journalist",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 31,
+       "end": 36,
+       "role": "question"
+      }
+     ]
     }
    ],
    "topic": "Homes",
-   "topicIndex": 3
+   "topicIndex": 3,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ apartment is your uncle's, the first or the second?",
+      "answer": "Which",
+      "tr": "Birinci mi ikinci mi, hangi daire amcanın?"
+     },
+     {
+      "text": "___ job do you like, reporter or designer?",
+      "answer": "Which",
+      "tr": "Muhabirlik mi tasarımcılık mı, hangi işi seviyorsun?"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Choosing between things",
+   "topic": "Homes",
+   "topicIndex": 3,
+   "grammarId": "which"
   },
   {
    "type": "exercise",
@@ -1207,7 +1555,8 @@
     }
    ],
    "topic": "Inside a home",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
   },
   {
    "type": "exercise",
@@ -1278,6 +1627,46 @@
      "imageConcept": "sink"
     }
    ],
+   "topic": "Inside a home",
+   "topicIndex": 4,
+   "visualSequence": "picture-label-swap"
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "bookshelf",
+      "b": "kitaplık"
+     },
+     {
+      "a": "drawer",
+      "b": "çekmece"
+     },
+     {
+      "a": "curtain",
+      "b": "perde"
+     },
+     {
+      "a": "carpet",
+      "b": "halı"
+     },
+     {
+      "a": "blanket",
+      "b": "battaniye"
+     },
+     {
+      "a": "pillow",
+      "b": "yastık"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Inside a home",
    "topic": "Inside a home",
    "topicIndex": 4
   },
@@ -1387,11 +1776,26 @@
      "imageSource": "Sergio Palao / ARASAAC (Government of Aragon), CC BY-NC-SA 4.0",
      "imageCredit": "https://arasaac.org/pictograms/en/8565",
      "imageFit": "contain",
-     "imageConcept": "author"
+     "imageConcept": "author",
+     "enHighlights": [
+      {
+       "start": 22,
+       "end": 29,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 6,
+       "end": 13,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Inside a home",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1410,11 +1814,52 @@
      "imageCredit": "https://arasaac.org/pictograms/en/2317",
      "imageFit": "contain",
      "imageCue": "A very small home",
-     "imageConcept": "house"
+     "imageConcept": "house",
+     "enHighlights": [
+      {
+       "start": 24,
+       "end": 33,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 10,
+       "end": 18,
+       "role": "form"
+      }
+     ]
     }
    ],
    "topic": "Inside a home",
-   "topicIndex": 4
+   "topicIndex": 4,
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "The author introduces ___.",
+      "answer": "herself",
+      "tr": "Yazar kendini tanıtıyor."
+     },
+     {
+      "text": "We make the model house ___.",
+      "answer": "ourselves",
+      "tr": "Maket evi kendimiz yapıyoruz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Doing something yourself",
+   "topic": "Inside a home",
+   "topicIndex": 4,
+   "grammarId": "reflexive-pronouns"
   },
   {
    "type": "exercise",
@@ -1625,6 +2070,120 @@
      "answer": "Check the meaning of both words. Use one of today’s grammar patterns in your sentence."
     }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Jobs",
+      "items": [
+       "author",
+       "dentist",
+       "engineer"
+      ]
+     },
+     {
+      "label": "Homes",
+      "items": [
+       "apartment",
+       "address",
+       "entrance"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "We ___ a designer tomorrow.",
+      "answer": "are visiting",
+      "tr": "Yarın bir tasarımcıyı ziyaret ediyoruz."
+     },
+     {
+      "text": "I check the address ___ I leave home.",
+      "answer": "when",
+      "tr": "Evden çıktığımda adresi kontrol ederim. (When: -dığında)"
+     },
+     {
+      "text": "The workshop ___ at eleven tomorrow.",
+      "answer": "starts",
+      "tr": "Atölye yarın saat on birde başlıyor."
+     },
+     {
+      "text": "___ apartment is your uncle's, the first or the second?",
+      "answer": "Which",
+      "tr": "Birinci mi ikinci mi, hangi daire amcanın?"
+     },
+     {
+      "text": "The author introduces ___.",
+      "answer": "herself",
+      "tr": "Yazar kendini tanıtıyor."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: We ___ a designer tomorrow.",
+      "answer": "We are visiting a designer tomorrow.",
+      "tr": "Yarın bir tasarımcıyı ziyaret ediyoruz."
+     },
+     {
+      "q": "Complete: I check the address ___ I leave home.",
+      "answer": "I check the address when I leave home.",
+      "tr": "Evden çıktığımda adresi kontrol ederim. (When: -dığında)"
+     },
+     {
+      "q": "Complete: The workshop ___ at eleven tomorrow.",
+      "answer": "The workshop starts at eleven tomorrow.",
+      "tr": "Atölye yarın saat on birde başlıyor."
+     },
+     {
+      "q": "Complete: ___ apartment is your uncle's, the first or the second?",
+      "answer": "Which apartment is your uncle's, the first or the second?",
+      "tr": "Birinci mi ikinci mi, hangi daire amcanın?"
+     },
+     {
+      "q": "Complete: The author introduces ___.",
+      "answer": "The author introduces herself.",
+      "tr": "Yazar kendini tanıtıyor."
+     },
+     {
+      "q": "How do you say “tasarımcı” in English?",
+      "answer": "designer"
+     },
+     {
+      "q": "How do you say “işveren” in English?",
+      "answer": "employer"
+     },
+     {
+      "q": "How do you say “anahtar” in English?",
+      "answer": "key"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
   },
   {
    "type": "end",

@@ -49,6 +49,7 @@
      "img": "p01-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -84,6 +85,7 @@
      "img": "p01-08.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -119,6 +121,7 @@
      "img": "p01-12.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -154,6 +157,7 @@
      "img": "p01-16.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -189,10 +193,48 @@
      "img": "p01-20.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "continent",
+      "b": "kıta"
+     },
+     {
+      "a": "mountain",
+      "b": "dağ"
+     },
+     {
+      "a": "hill",
+      "b": "tepe"
+     },
+     {
+      "a": "national park",
+      "b": "milli park"
+     },
+     {
+      "a": "desert",
+      "b": "çöl"
+     },
+     {
+      "a": "sand dune",
+      "b": "kum tepesi"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Planet Earth"
   },
   {
    "type": "exercise",
@@ -344,6 +386,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     4
@@ -391,6 +434,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     4
@@ -435,6 +479,7 @@
      "img": "/app/img/words/destination.jpg"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     4
@@ -464,10 +509,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "summer holiday",
+      "b": "yaz tatili"
+     },
+     {
+      "a": "winter holiday",
+      "b": "kış tatili"
+     },
+     {
+      "a": "spring holiday",
+      "b": "bahar tatili"
+     },
+     {
+      "a": "half-term holiday",
+      "b": "ara tatil"
+     },
+     {
+      "a": "tour",
+      "b": "tur"
+     },
+     {
+      "a": "journey",
+      "b": "yolculuk"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Holidays & Travel"
   },
   {
    "type": "exercise",
@@ -626,6 +709,7 @@
      "img": "p02-04.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     4
@@ -664,6 +748,7 @@
      "img": "p02-07.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     4
@@ -699,6 +784,7 @@
      "img": "p02-11.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     4
@@ -737,10 +823,48 @@
      "img": "p02-14.png"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     4
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "climb a mountain",
+      "b": "dağa tırmanmak"
+     },
+     {
+      "a": "go sightseeing",
+      "b": "geziye gitmek"
+     },
+     {
+      "a": "go hiking",
+      "b": "doğa yürüyüşüne gitmek"
+     },
+     {
+      "a": "go fishing",
+      "b": "balığa gitmek"
+     },
+     {
+      "a": "go skiing",
+      "b": "kayağa gitmek"
+     },
+     {
+      "a": "go snorkelling",
+      "b": "şnorkelle yüzmeye gitmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Holiday Activities"
   },
   {
    "type": "exercise",
@@ -892,6 +1016,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     5
@@ -939,6 +1064,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     5
@@ -986,6 +1112,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     5
@@ -1033,6 +1160,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     4,
     5
@@ -1062,10 +1190,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "go",
+      "b": "gitmek"
+     },
+     {
+      "a": "travel",
+      "b": "seyahat etmek"
+     },
+     {
+      "a": "stay",
+      "b": "kalmak"
+     },
+     {
+      "a": "enjoy",
+      "b": "keyif almak"
+     },
+     {
+      "a": "plan",
+      "b": "planlamak"
+     },
+     {
+      "a": "see",
+      "b": "görmek"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Verbs"
   },
   {
    "type": "exercise",
@@ -1218,6 +1384,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -1265,6 +1432,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -1312,10 +1480,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "fun",
+      "b": "eğlenceli"
+     },
+     {
+      "a": "peaceful",
+      "b": "huzurlu"
+     },
+     {
+      "a": "historical",
+      "b": "tarihi"
+     },
+     {
+      "a": "famous",
+      "b": "ünlü"
+     },
+     {
+      "a": "magical",
+      "b": "büyülü"
+     },
+     {
+      "a": "amazing",
+      "b": "harika"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Adjectives"
   },
   {
    "type": "exercise",
@@ -1440,6 +1646,20 @@
      "emoji": "🏛️",
      "trEm": [
       "edeceğim"
+     ],
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 13,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 25,
+       "end": 33,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1522,6 +1742,25 @@
      "trEm": [
       "gelecek",
       "gidecek"
+     ],
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 9,
+       "role": "form"
+      },
+      {
+       "start": 23,
+       "end": 30,
+       "role": "form"
+      }
      ]
     }
    ],
@@ -1549,7 +1788,21 @@
      "emoji": "🏨",
      "imageFit": "contain",
      "imageSource": "ENG HUB",
-     "imageConcept": "stay"
+     "imageConcept": "stay",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 17,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 28,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1557,6 +1810,13 @@
    "part": [
     3,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 32,
+     "end": 50,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1578,7 +1838,26 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "travel",
-     "emoji": "✈️"
+     "emoji": "✈️",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "form"
+      },
+      {
+       "start": 26,
+       "end": 35,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1586,7 +1865,42 @@
    "part": [
     4,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 32,
+     "end": 50,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ visit a museum tomorrow.",
+      "answer": "am going to",
+      "tr": "Yarın bir müzeyi ziyaret edeceğim."
+     },
+     {
+      "text": "He ___ go sightseeing next week.",
+      "answer": "is going to",
+      "tr": "O gelecek hafta geziye gidecek."
+     },
+     {
+      "text": "They ___ stay at a hotel.",
+      "answer": "are going to",
+      "tr": "Onlar bir otelde kalacaklar."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Simple Future — be going to"
   },
   {
    "type": "exercise",
@@ -1649,7 +1963,21 @@
      "trEm": [
       "binmeyeceğim"
      ],
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 17,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 7,
+       "end": 19,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1745,7 +2073,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "take pictures",
      "emoji": "📷",
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 18,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 21,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1773,7 +2115,21 @@
      "imageSource": "ARASAAC",
      "imageConcept": "invite",
      "emoji": "💌",
-     "focus": "NEGATIVE ⛔"
+     "focus": "NEGATIVE ⛔",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 19,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 24,
+       "end": 36,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1797,7 +2153,26 @@
      "trEm": [
       "yüzecek misin"
      ],
-     "focus": "QUESTION ❓"
+     "focus": "QUESTION ❓",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 3,
+       "role": "form"
+      },
+      {
+       "start": 8,
+       "end": 16,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 8,
+       "end": 21,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1821,7 +2196,26 @@
      "trEm": [
       "tırmanacak mı"
      ],
-     "focus": "QUESTION ❓"
+     "focus": "QUESTION ❓",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 2,
+       "role": "form"
+      },
+      {
+       "start": 7,
+       "end": 15,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 13,
+       "end": 26,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1829,6 +2223,34 @@
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ ride a camel.",
+      "answer": "am not going to",
+      "tr": "Deveye binmeyeceğim."
+     },
+     {
+      "text": "She ___ take photos.",
+      "answer": "isn't going to",
+      "tr": "O fotoğraf çekmeyecek."
+     },
+     {
+      "text": "You ___ invite your friends.",
+      "answer": "aren't going to",
+      "tr": "Sen arkadaşlarını davet etmeyeceksin."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Negative & Question"
   },
   {
    "type": "exercise",
@@ -2072,10 +2494,146 @@
    "titleTr": "Orijinal tema föyü — büyütmek için tıklayın"
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Planet Earth",
+      "items": [
+       "continent",
+       "mountain",
+       "hill"
+      ]
+     },
+     {
+      "label": "Holidays & Travel",
+      "items": [
+       "summer holiday",
+       "winter holiday",
+       "spring holiday"
+      ]
+     },
+     {
+      "label": "Holiday Activities",
+      "items": [
+       "climb a mountain",
+       "go sightseeing",
+       "go hiking"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "I ___ visit a museum tomorrow.",
+      "answer": "am going to",
+      "tr": "Yarın bir müzeyi ziyaret edeceğim."
+     },
+     {
+      "text": "I ___ ride a camel.",
+      "answer": "am not going to",
+      "tr": "Deveye binmeyeceğim."
+     },
+     {
+      "text": "He ___ go sightseeing next week.",
+      "answer": "is going to",
+      "tr": "O gelecek hafta geziye gidecek."
+     },
+     {
+      "text": "They ___ stay at a hotel.",
+      "answer": "are going to",
+      "tr": "Onlar bir otelde kalacaklar."
+     },
+     {
+      "text": "We ___ travel by train next month.",
+      "answer": "are going to",
+      "tr": "Gelecek ay trenle seyahat edeceğiz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: I ___ visit a museum tomorrow.",
+      "answer": "I am going to visit a museum tomorrow.",
+      "tr": "Yarın bir müzeyi ziyaret edeceğim."
+     },
+     {
+      "q": "Complete: I ___ ride a camel.",
+      "answer": "I am not going to ride a camel.",
+      "tr": "Deveye binmeyeceğim."
+     },
+     {
+      "q": "How do you say “mağara” in English?",
+      "answer": "cave"
+     },
+     {
+      "q": "How do you say “turizm” in English?",
+      "answer": "tourism"
+     },
+     {
+      "q": "How do you say “müzeyi ziyaret etmek” in English?",
+      "answer": "visit a museum"
+     },
+     {
+      "q": "How do you say “yükselmek” in English?",
+      "answer": "rise"
+     },
+     {
+      "q": "How do you say “mükemmel” in English?",
+      "answer": "perfect"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🌟",
    "title": "See you next year!",
    "titleTr": "Son tema bitti — oyunlarla tekrar edelim."
   }
- ]
+ ],
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ingilizce5_ders_kitabi.pdf",
+    "sha256": "8d59c95b5308343347cc0a439a76fc3f5a15c12af56f09c4296782ffa4c51c4b"
+   },
+   {
+    "file": "ingilizce5_calisma_kitabi.pdf",
+    "sha256": "ca5dd51d9c136e56b8476c810c228b358e6d50ca54ea4fb6609cd11fc6fd972d"
+   }
+  ],
+  "studentPages": [
+   125,
+   138
+  ],
+  "workbookPages": [
+   51,
+   56
+  ]
+ }
 }

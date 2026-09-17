@@ -48,6 +48,7 @@
      "imageConcept": "relationship"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -86,6 +87,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -121,10 +123,48 @@
      "imageConcept": "types of music"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "teenager",
+      "b": "genç"
+     },
+     {
+      "a": "hang out",
+      "b": "takılmak"
+     },
+     {
+      "a": "relationship",
+      "b": "ilişki"
+     },
+     {
+      "a": "argue",
+      "b": "tartışmak"
+     },
+     {
+      "a": "fashion",
+      "b": "moda"
+     },
+     {
+      "a": "trendy",
+      "b": "moda olan"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Teen Life"
   },
   {
    "type": "exercise",
@@ -276,6 +316,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -323,6 +364,7 @@
      "imageConcept": "unbearable"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -352,10 +394,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "prefer",
+      "b": "tercih etmek"
+     },
+     {
+      "a": "fond of",
+      "b": "hoşlanmak"
+     },
+     {
+      "a": "recommend",
+      "b": "tavsiye etmek"
+     },
+     {
+      "a": "relaxing",
+      "b": "rahatlatıcı"
+     },
+     {
+      "a": "impressive",
+      "b": "etkileyici"
+     },
+     {
+      "a": "terrific",
+      "b": "muhteşem"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Likes & Preferences"
   },
   {
    "type": "exercise",
@@ -526,6 +606,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     3
@@ -573,6 +654,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     3
@@ -620,10 +702,48 @@
      "imageConcept": "energetic"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     3,
     3
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "hiking",
+      "b": "doğa yürüyüşü"
+     },
+     {
+      "a": "horizon",
+      "b": "ufuk"
+     },
+     {
+      "a": "how often",
+      "b": "ne sıklıkla"
+     },
+     {
+      "a": "fashionable",
+      "b": "modaya uygun"
+     },
+     {
+      "a": "fast",
+      "b": "hızlı"
+     },
+     {
+      "a": "folk music",
+      "b": "halk müziği"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 1"
   },
   {
    "type": "exercise",
@@ -775,6 +895,7 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     1,
     2
@@ -822,10 +943,48 @@
      "imageFit": "contain"
     }
    ],
+   "visualSequence": "picture-label-swap",
    "part": [
     2,
     2
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Word pairs",
+   "task": {
+    "kind": "wordpairs",
+    "q": "Find each English word and its Turkish partner.",
+    "pairs": [
+     {
+      "a": "enjoy",
+      "b": "sevmek, hoşlanmak"
+     },
+     {
+      "a": "enjoyable",
+      "b": "eğlenceli, zevkli"
+     },
+     {
+      "a": "enlarge",
+      "b": "genişletmek, büyütmek"
+     },
+     {
+      "a": "exciting",
+      "b": "heyecan verici"
+     },
+     {
+      "a": "exercise",
+      "b": "egzersiz"
+     },
+     {
+      "a": "fantasy",
+      "b": "hayal ürünü"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "More Words 2"
   },
   {
    "type": "exercise",
@@ -954,7 +1113,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "gym",
-     "emoji": "🏋️"
+     "emoji": "🏋️",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 30,
+       "end": 37,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1057,7 +1230,8 @@
       "emoji": "🔁"
      }
     ]
-   }
+   },
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1077,7 +1251,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "free time",
-     "emoji": "🕒"
+     "emoji": "🕒",
+     "enHighlights": [
+      {
+       "start": 9,
+       "end": 11,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 21,
+       "end": 26,
+       "role": "ending"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1085,7 +1273,8 @@
    "part": [
     2,
     9
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1101,7 +1290,21 @@
      "trEm": [
       "oturmayız"
      ],
-     "emoji": "🏫"
+     "emoji": "🏫",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 8,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 33,
+       "end": 42,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1109,7 +1312,8 @@
    "part": [
     3,
     9
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1125,7 +1329,21 @@
      "trEm": [
       "mı"
      ],
-     "emoji": "🎸"
+     "emoji": "🎸",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 4,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 16,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1133,7 +1351,8 @@
    "part": [
     4,
     9
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1149,7 +1368,21 @@
      "trEm": [
       "her zaman"
      ],
-     "emoji": "🪥"
+     "emoji": "🪥",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "always"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 23,
+       "role": "always"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1157,7 +1390,8 @@
    "part": [
     5,
     9
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1173,7 +1407,21 @@
      "trEm": [
       "genellikle"
      ],
-     "emoji": "🏫"
+     "emoji": "🏫",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 11,
+       "role": "usually"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 14,
+       "end": 24,
+       "role": "usually"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1181,7 +1429,8 @@
    "part": [
     6,
     9
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1200,7 +1449,21 @@
      "emoji": "🏀",
      "img": "https://static.arasaac.org/pictograms/4918/4918_500.png",
      "imageSource": "ARASAAC",
-     "imageFit": "contain"
+     "imageFit": "contain",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 8,
+       "role": "often"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 7,
+       "role": "often"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1208,7 +1471,8 @@
    "part": [
     7,
     9
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1224,7 +1488,21 @@
      "trEm": [
       "Bazen"
      ],
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "enHighlights": [
+      {
+       "start": 11,
+       "end": 12,
+       "role": "ending"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "sometimes"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1232,7 +1510,8 @@
    "part": [
     8,
     9
-   ]
+   ],
+   "ruleHighlights": []
   },
   {
    "type": "grammar",
@@ -1248,7 +1527,21 @@
      "trEm": [
       "asla"
      ],
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 7,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 15,
+       "role": "negative"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1256,7 +1549,36 @@
    "part": [
     9,
     9
-   ]
+   ],
+   "ruleHighlights": []
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ to the gym twice a week.",
+      "answer": "go",
+      "tr": "Haftada iki kez spor salonuna giderim."
+     },
+     {
+      "text": "She ___ TV series in her free time.",
+      "answer": "watches",
+      "tr": "O boş zamanında dizi izler."
+     },
+     {
+      "text": "We ___ stay up late on school nights.",
+      "answer": "don't",
+      "tr": "Okul gecelerinde geç saate kadar oturmayız."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Simple Present — Routines"
   },
   {
    "type": "exercise",
@@ -1312,6 +1634,230 @@
   },
   {
    "type": "grammar",
+   "title": "Opinions and interests",
+   "titleTr": "Görüşler ve ilgi alanları",
+   "grammarId": "book-g8-u2-1",
+   "rule": "*I think ...* görüş belirtir. *be fond of / be keen on / can’t stand + isim veya fiil-ing* beğeni anlatır.",
+   "examples": [
+    {
+     "en": "I *think* jazz is relaxing.",
+     "tr": "Bence caz rahatlatıcı.",
+     "trEm": [
+      "Bence"
+     ],
+     "img": "https://static.arasaac.org/pictograms/31310/31310_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "relax",
+     "emoji": "😌",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 5,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    1,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     25,
+     40
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 11,
+     "role": "form"
+    },
+    {
+     "start": 28,
+     "end": 86,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Opinions and interests",
+   "titleTr": "Görüşler ve ilgi alanları",
+   "grammarId": "book-g8-u2-1",
+   "rule": "*I think ...* görüş belirtir. *be fond of / be keen on / can’t stand + isim veya fiil-ing* beğeni anlatır.",
+   "examples": [
+    {
+     "en": "I am *fond of* listening to music.",
+     "tr": "Müzik dinlemekten hoşlanırım.",
+     "trEm": [
+      "hoşlanırım"
+     ],
+     "img": "/app/img/concepts/types-of-music.svg",
+     "imageFit": "contain",
+     "imageSource": "ENG HUB",
+     "imageConcept": "types of music",
+     "emoji": "🎵",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 12,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 18,
+       "end": 28,
+       "role": "form"
+      }
+     ]
+    }
+   ],
+   "part": [
+    2,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     25,
+     40
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 11,
+     "role": "form"
+    },
+    {
+     "start": 28,
+     "end": 86,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "grammar",
+   "title": "Opinions and interests",
+   "titleTr": "Görüşler ve ilgi alanları",
+   "grammarId": "book-g8-u2-1",
+   "rule": "*I think ...* görüş belirtir. *be fond of / be keen on / can’t stand + isim veya fiil-ing* beğeni anlatır.",
+   "examples": [
+    {
+     "en": "I *can't stand* loud music.",
+     "tr": "Gürültülü müziğe katlanamam.",
+     "trEm": [
+      "katlanamam"
+     ],
+     "img": "https://static.arasaac.org/pictograms/7157/7157_500.png",
+     "imageFit": "contain",
+     "imageSource": "ARASAAC",
+     "imageConcept": "noisy",
+     "emoji": "🔊",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 13,
+       "role": "negative"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 17,
+       "end": 27,
+       "role": "negative"
+      }
+     ]
+    }
+   ],
+   "part": [
+    3,
+    3
+   ],
+   "paced": true,
+   "bookAlignment": true,
+   "bookSource": {
+    "books": [
+     {
+      "file": "ref_book_8th.pdf",
+      "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+     }
+    ],
+    "studentPages": [
+     25,
+     40
+    ]
+   },
+   "ruleHighlights": [
+    {
+     "start": 0,
+     "end": 11,
+     "role": "form"
+    },
+    {
+     "start": 28,
+     "end": 86,
+     "role": "negative"
+    }
+   ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ jazz is relaxing.",
+      "answer": "think",
+      "tr": "Bence caz rahatlatıcı."
+     },
+     {
+      "text": "I am ___ listening to music.",
+      "answer": "fond of",
+      "tr": "Müzik dinlemekten hoşlanırım."
+     },
+     {
+      "text": "I ___ loud music.",
+      "answer": "can't stand",
+      "tr": "Gürültülü müziğe katlanamam."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Opinions and interests",
+   "grammarId": "book-g8-u2-1"
+  },
+  {
+   "type": "grammar",
    "title": "Preferences",
    "titleTr": "Tercihleri anlatma",
    "chips": [
@@ -1329,7 +1875,31 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "prefer",
-     "emoji": "⚖️"
+     "emoji": "⚖️",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 8,
+       "role": "form"
+      },
+      {
+       "start": 19,
+       "end": 21,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 11,
+       "end": 15,
+       "role": "form"
+      },
+      {
+       "start": 16,
+       "end": 29,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1414,7 +1984,21 @@
      "trEm": [
       "yeğler"
      ],
-     "emoji": "📺"
+     "emoji": "📺",
+     "enHighlights": [
+      {
+       "start": 4,
+       "end": 16,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 40,
+       "end": 46,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1437,7 +2021,21 @@
      "trEm": [
       "tercih ederim"
      ],
-     "emoji": "❤️"
+     "emoji": "❤️",
+     "enHighlights": [
+      {
+       "start": 2,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 39,
+       "end": 52,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1464,7 +2062,21 @@
      "imageFit": "contain",
      "imageSource": "ARASAAC",
      "imageConcept": "enjoy",
-     "emoji": "😊"
+     "emoji": "😊",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 10,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 33,
+       "end": 44,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1487,7 +2099,21 @@
      "trEm": [
       "çok severiz"
      ],
-     "emoji": "❤️"
+     "emoji": "❤️",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 7,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 19,
+       "end": 30,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1495,6 +2121,34 @@
     5,
     5
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "I ___ pop music to jazz.",
+      "answer": "prefer",
+      "tr": "Pop müziği caza tercih ederim."
+     },
+     {
+      "text": "She ___ read a book than watch TV.",
+      "answer": "would rather",
+      "tr": "O televizyon izlemektense kitap okumayı yeğler."
+     },
+     {
+      "text": "I ___ cycle than drive.",
+      "answer": "would rather",
+      "tr": "Araba kullanmaktansa bisiklete binmeyi tercih ederim."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "Preferences"
   },
   {
    "type": "exercise",
@@ -1560,7 +2214,21 @@
      "emoji": "🔁",
      "imageFit": "contain",
      "imageSource": "ENG HUB",
-     "imageConcept": "how often"
+     "imageConcept": "how often",
+     "enHighlights": [
+      {
+       "start": 0,
+       "end": 9,
+       "role": "question"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 11,
+       "role": "question"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1612,7 +2280,14 @@
       "emoji": "🔁"
      }
     ]
-   }
+   },
+   "ruleHighlights": [
+    {
+     "start": 33,
+     "end": 47,
+     "role": "form"
+    }
+   ]
   },
   {
    "type": "grammar",
@@ -1628,7 +2303,21 @@
      "trEm": [
       "Haftada iki kez"
      ],
-     "emoji": "📅"
+     "emoji": "📅",
+     "enHighlights": [
+      {
+       "start": 14,
+       "end": 26,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 0,
+       "end": 15,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1636,6 +2325,13 @@
    "part": [
     2,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 33,
+     "end": 47,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1652,7 +2348,21 @@
      "trEm": [
       "neredeyse hiç"
      ],
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "enHighlights": [
+      {
+       "start": 3,
+       "end": 14,
+       "role": "form"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 2,
+       "end": 15,
+       "role": "form"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1660,6 +2370,13 @@
    "part": [
     3,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 33,
+     "end": 47,
+     "role": "form"
+    }
    ]
   },
   {
@@ -1676,7 +2393,21 @@
      "trEm": [
       "her zaman"
      ],
-     "emoji": "🔁"
+     "emoji": "🔁",
+     "enHighlights": [
+      {
+       "start": 5,
+       "end": 11,
+       "role": "always"
+      }
+     ],
+     "trHighlights": [
+      {
+       "start": 6,
+       "end": 15,
+       "role": "always"
+      }
+     ]
     }
    ],
    "paced": true,
@@ -1684,7 +2415,42 @@
    "part": [
     4,
     4
+   ],
+   "ruleHighlights": [
+    {
+     "start": 33,
+     "end": 47,
+     "role": "form"
+    }
    ]
+  },
+  {
+   "type": "mission",
+   "title": "Missing words",
+   "task": {
+    "kind": "cloze",
+    "q": "Complete the sentences. Use each tile once.",
+    "sentences": [
+     {
+      "text": "___ do you go swimming?",
+      "answer": "How often",
+      "tr": "Ne sıklıkla yüzmeye gidersin?"
+     },
+     {
+      "text": "I go swimming ___.",
+      "answer": "twice a week",
+      "tr": "Haftada iki kez yüzmeye giderim."
+     },
+     {
+      "text": "He ___ plays computer games.",
+      "answer": "hardly ever",
+      "tr": "O neredeyse hiç bilgisayar oyunu oynamaz."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "topic",
+   "titleTr": "How often ...?"
   },
   {
    "type": "exercise",
@@ -1954,11 +2720,137 @@
    ]
   },
   {
+   "type": "mission",
+   "title": "Sort the words",
+   "task": {
+    "kind": "groupsort",
+    "q": "Choose a word, then choose its group.",
+    "groups": [
+     {
+      "label": "Social life",
+      "items": [
+       "teenager",
+       "relationship",
+       "fashion"
+      ]
+     },
+     {
+      "label": "Opinion adjectives",
+      "items": [
+       "relaxing",
+       "impressive",
+       "unbearable"
+      ]
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Unit word challenge",
+   "task": {
+    "kind": "cloze",
+    "q": "Bring the language together. Fill every gap.",
+    "sentences": [
+     {
+      "text": "I ___ to the gym twice a week.",
+      "answer": "go",
+      "tr": "Haftada iki kez spor salonuna giderim."
+     },
+     {
+      "text": "I ___ jazz is relaxing.",
+      "answer": "think",
+      "tr": "Bence caz rahatlatıcı."
+     },
+     {
+      "text": "I ___ pop music to jazz.",
+      "answer": "prefer",
+      "tr": "Pop müziği caza tercih ederim."
+     },
+     {
+      "text": "___ do you go swimming?",
+      "answer": "How often",
+      "tr": "Ne sıklıkla yüzmeye gidersin?"
+     },
+     {
+      "text": "She ___ TV series in her free time.",
+      "answer": "watches",
+      "tr": "O boş zamanında dizi izler."
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
+   "type": "mission",
+   "title": "Open a question box",
+   "task": {
+    "kind": "quizbox",
+    "q": "Pick a box. Answer aloud, then check together.",
+    "questions": [
+     {
+      "q": "Complete: I ___ to the gym twice a week.",
+      "answer": "I go to the gym twice a week.",
+      "tr": "Haftada iki kez spor salonuna giderim."
+     },
+     {
+      "q": "Complete: I ___ jazz is relaxing.",
+      "answer": "I think jazz is relaxing.",
+      "tr": "Bence caz rahatlatıcı."
+     },
+     {
+      "q": "Complete: I ___ pop music to jazz.",
+      "answer": "I prefer pop music to jazz.",
+      "tr": "Pop müziği caza tercih ederim."
+     },
+     {
+      "q": "Complete: ___ do you go swimming?",
+      "answer": "How often do you go swimming?",
+      "tr": "Ne sıklıkla yüzmeye gidersin?"
+     },
+     {
+      "q": "How do you say “müzik türleri” in English?",
+      "answer": "types of music"
+     },
+     {
+      "q": "How do you say “ciddi” in English?",
+      "answer": "serious"
+     },
+     {
+      "q": "How do you say “enerjik” in English?",
+      "answer": "energetic"
+     },
+     {
+      "q": "How do you say “uğramak, ziyaret etmek” in English?",
+      "answer": "come over"
+     }
+    ]
+   },
+   "lessonRefresh": true,
+   "activityScope": "unit"
+  },
+  {
    "type": "end",
    "emoji": "🎯",
    "title": "Well done!",
    "titleTr": "Şimdi oyunlarla pekiştirelim."
   }
  ],
- "source": "res/book_8.pdf"
+ "source": "res/book_8.pdf",
+ "lessonStyle": "reference-reveals-v1",
+ "bookAlignment": {
+  "books": [
+   {
+    "file": "ref_book_8th.pdf",
+    "sha256": "cfe63ba2aaecbe2e20ed3aa9567bb4bcf9f6c867b27ec88c12ac83b8cb5912f6"
+   }
+  ],
+  "studentPages": [
+   25,
+   40
+  ]
+ }
 }
