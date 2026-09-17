@@ -117,13 +117,12 @@ jobs:
           tag_name: ${{ steps.v.outputs.tag }}
           name: ENG HUB ${{ steps.v.outputs.tag }}
           body: |
-            Taşınabilir İngilizce ders yardımcısı — kurulum yok, internet yok.
+            Taşınabilir İngilizce ders yardımcısı — kurulum gerektirmez, USB'den tak-çalıştır.
 
             **`eng-hub-${{ steps.v.outputs.tag }}.zip`** — tam paket (sunumlar, oyunlar,
-            çalışma kâğıtları, çevrimdışı etkinlikler). USB'ye çıkarın, başlatıcıya çift tıklayın.
+            çalışma kâğıtları ve yerel etkinlikler). USB'ye çıkarın, başlatıcıya çift tıklayın.
 
-            **`…-lite.zip`** — sadece program ve sunumlar; çalışma kâğıtları ve oyun
-            görselleri olmadan, çok daha küçük.
+            **`…-lite.zip`** — sadece program ve sunumlar; çok daha küçük.
 
             Kurulum ve kullanım: paketin içindeki `README.md`.
 
