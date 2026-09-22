@@ -24,6 +24,7 @@ Tarayıcı otomatik olarak `http://127.0.0.1:8777` adresini açar. Kapatmak içi
 | **Sunum** | **27 zengin ders:** 5. sınıf (8 tema), 6. sınıf (revizyon + 8 tema) ve 8. sınıf (10 ünite). Adım adım açılan görsel kelime kartları, çift dilli dil bilgisi vurguları, diyaloglar ve **330 yerel interaktif alıştırma** (hafıza, gruplama, eksik kelimeler, soru kutuları). |
 | **Oyunlar** | **10 yerel oyun modu:** Sharpshooter, Balon Patlat, Köstebek Avı, Uzay Koşusu, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları (15.000+ soru, 3.000+ kelime çifti). Ayrıca 38 ünitenin tümünde **sumeyyeogultekin** klasörü (443 çevrimiçi oyun ve önizlemeleri) ile zengin Wordwall oyunları. |
 | **Çalışma Kâğıtları ve Testler** | • **6. Sınıf Özgün Kâğıtlar:** 18 çalışma kâğıdı + 9 öğretmen anahtarı (toplam 54 sayfa yerel PDF).<br>• **ingilizcecin:** 2020 sonrası 469 güncel çalışma kâğıdı ve test (özel arama filtreli klasör).<br>• **dersingilizce:** 154 PDF çalışma kâğıdı (özel klasör).<br>• **MEB ÖDSGM:** Sadece 7 ve 8. sınıflar için 50 resmi Beceri Temelli Test, Kazanım Kavrama Testi ve LGS soru kitapçığı (özel klasör). |
+| **LGS Hazırlık Merkezi** | Ana menüden doğrudan erişilen özel sınav merkezi: **ingilizceciyiz.com** ve **dersingilizce.org** (lgsfiles) kaynaklı 210+ çıkmış sınav kitapçığı (2018-2026), MEB örnek soruları, denemeler, kelime testleri ve çalışma kâğıtları (canlı arama filtreli). |
 | **Kitap Sunumları** | MEB ve yayıncıların ders ve çalışma kitaplarına ait interaktif dijital sunum bağlantıları (internet gerekir). |
 
 ## Sunum Özellikleri & Kontroller
@@ -73,6 +74,7 @@ python tools/refresh.py
 python tools/verify_content.py
 python tools/probe_worksheet_sources.py
 python tools/probe_game_folders.py
+python tools/probe_lgs.py
 ```
 
 ## Kaynaklar ve Teşekkür

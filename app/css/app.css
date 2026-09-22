@@ -425,6 +425,122 @@ body {
   border-radius: 10px;
 }
 
+/* LGS section styles ------------------------------------------------------ */
+.lgs-banner-card {
+  margin-top: 22px;
+  padding: 24px 28px;
+  text-align: left;
+  background: linear-gradient(135deg, #151d31 0%, #1e1b4b 60%, #2e1065 100%);
+  border: 1px solid rgba(192, 132, 252, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+.lgs-banner-card .glow {
+  background: linear-gradient(90deg, #c084fc, #ffd166, #38bdf8);
+  height: 4px;
+}
+.lgs-banner-card:hover {
+  border-color: #c084fc;
+  box-shadow: 0 16px 36px rgba(192, 132, 252, 0.22);
+}
+.lgs-banner-body {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.lgs-banner-icon {
+  font-size: 52px;
+  line-height: 1;
+  flex: 0 0 auto;
+}
+.lgs-banner-text {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.lgs-banner-kicker {
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2.5px;
+  color: #ffd166;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+.lgs-banner-text h3 {
+  font-size: 24px;
+  margin: 0 0 6px;
+  color: #fff;
+}
+.lgs-banner-text p {
+  margin: 0;
+  color: var(--ink-dim);
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+.lgs-banner-arrow {
+  font-size: 32px;
+  color: #c084fc;
+  flex: 0 0 auto;
+  transition: transform .2s ease;
+}
+.lgs-banner-card:hover .lgs-banner-arrow {
+  transform: translateX(6px);
+  color: #ffd166;
+}
+
+.lgs-hubs-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+  padding: 14px 18px;
+  background: #111a2f;
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius);
+}
+.lgs-hubs-title {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-right: 4px;
+}
+.lgs-hub-btn {
+  font-size: 13px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  background: var(--card);
+  color: var(--ink);
+}
+.lgs-hub-btn:hover {
+  background: var(--card-hi);
+  color: #fff;
+}
+
+.lgs-folder-card {
+  border-left: 4px solid #c084fc;
+}
+.lgs-folder-card:hover {
+  border-left-color: #ffd166;
+}
+
+.lgs-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.lgs-action-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
 .hidden { display: none !important; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -442,4 +558,6 @@ body {
   #crumbs { font-size: 13px; gap: 3px; }
   #crumbs a { padding-inline: 5px; }
   .grid.g-2, .grid.g-3, .grid.g-4 { grid-template-columns: 1fr; }
+  .lgs-banner-body { flex-direction: column; align-items: flex-start; gap: 14px; }
+  .lgs-banner-arrow { display: none; }
 }

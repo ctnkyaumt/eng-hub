@@ -94,6 +94,11 @@ export async function getSites(gid, uid, kind) {
     url: `${unitPath(gid, uid)}/sites/${i.path}` }));
 }
 
+/** LGS exam resources from ingilizceciyiz and dersingilizce */
+export async function getLgsSources() {
+  return loadJSON("/app/data/lgs-sources.json", { sources: [], counts: { total: 0 } });
+}
+
 /** Ask the local server to open a file with its associated desktop app. */
 export async function openLocal(relPath) {
   const r = await fetch("/api/open?path=" + encodeURIComponent(relPath));

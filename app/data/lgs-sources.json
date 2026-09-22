@@ -1,0 +1,1811 @@
+{
+  "updatedAt": "2026-09-22T13:25:22.530595+00:00",
+  "hubUrls": {
+    "ingilizceciyiz": [
+      "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/",
+      "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/",
+      "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+    ],
+    "dersingilizce": "https://www.dersingilizce.org/lgsfiles"
+  },
+  "counts": {
+    "total": 211,
+    "ingilizceciyiz": 133,
+    "dersingilizce": 78
+  },
+  "sources": [
+    {
+      "id": "ingilizceciyiz-ornek",
+      "provider": "ingilizceciyiz",
+      "providerTitle": "ingilizceciyiz.com",
+      "title": "LGS İngilizce Örnek Sorular",
+      "subtitle": "MEB ve yazar örnek soruları (ay ve yıl bazında)",
+      "emoji": "📝",
+      "sourceUrl": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/",
+      "items": [
+        {
+          "title": "2024 KASIM Ayı 8. Sınıf LGS İngilizce Örnek Soruları MEB",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/11/8.-sinif-lgs-ingilizce-ornek-sorulari-kasim-ayi.pdf",
+          "by": "MEB",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2025 ŞUBAT Ayı 8. Sınıf LGS İngilizce Örnek Soruları MEB",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/05/2025-subat-ayi-8.-sinif-ingilizce-ornek-sorulari.pdf",
+          "by": "MEB",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2025 NİSAN Ayı 8. Sınıf LGS İngilizce Örnek Soruları MEB",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/05/2025-nisan-ayi-8.-sinif-ingilizce-ornek-sorulari.pdf",
+          "by": "MEB",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2023 KASIM Ayı 8. Sınıf LGS İngilizce Örnek Soruları MEB",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2023/11/2023-kasim-ingilizce-ornek-sorular.pdf",
+          "by": "MEB",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2024 ŞUBAT Ayı 8. Sınıf LGS İngilizce Örnek Soruları MEB",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/02/2024-subat-lgs-ingilizce-ornek-sorular-meb.pdf",
+          "by": "MEB",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2022 EKİM Ayı 8. Sınıf LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/11/2022-Ekim-Ayi-Ingilizce-Ornek-Sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2022 KASIM Ayı 8. Sınıf LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/11/8.-sinif-ingilizce-ornek-sorular-2022-kasim-ayi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2022 ARALIK Ayı 8. Sınıf LGS İngilizce Örnek Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/12/8.-sinif-lgs-aralik-2022-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2023 OCAK Ayı 8. Sınıf LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2023/04/2023-ocak-ayi-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2023 ŞUBAT Ayı 8. Sınıf LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2023/04/2023-subat-ayi-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2023 MART Ayı 8. Sınıf LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2023/04/2023-mart-ayi-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2023 NİSAN Ayı 8. Sınıf LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2023/04/2023-Nisan-Ayi-Ingilizce-Ornek-Sorulari-MEB.pdf",
+          "by": "MEB",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2023 MAYIS Ayı 8. Sınıf LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2023/05/2023-Mayis-Ayi-Ingilizce-Ornek-Sorulari-ingilizceciyiz.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2021-2022 EKİM Ayı LGS İngilizce Örnek Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/10/2021-2022-Ekim-Ingilizce-8.-Sinif-Ornek-Sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2021-2022 KASIM Ayı LGS İngilizce Örnek Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/11/2021-2022-Kasim-Ayi-Ingilizce-Ornek-Sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2021-2022 ARALIK Ayı LGS İngilizce Örnek Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/12/2021-aralik-ayi-8.-sinif-ingilizce-ornek-sorular-ingilizceciyiz.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2021-2022 OCAK Ayı LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/01/2022-ocak-ayi-ingilizce-ornek-sorulari-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2021-2022 ŞUBAT Ayı LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/02/8.-sinif-lgs-ingilizce-ornek-sorulari-subat-2022-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2021-2022 MART Ayı LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/03/2022-mart-ayi-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2021-2022 NİSAN Ayı LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/04/8.-sinif-lgs-2022-nisan-ayi-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2021-2022 MAYIS Ayı LGS İngilizce Örnek Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/05/2022-mayis-ingilizce-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2020-2021 ARALIK Ayı 8. Sınıf LGS Örnek Soruları İngilizce",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2020-2021-aralik-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2020-2021 OCAK Ayı 8. Sınıf LGS Örnek Soruları İngilizce",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2020-2021-ocak-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2020-2021 ŞUBAT 8. Sınıf LGS Örnek Soruları İngilizce",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2020-2021-subat-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2020-2021 MART 8. Sınıf LGS Örnek Soruları İngilizce",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2020-2021-mart-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2020-2021 NİSAN Ayı 8. Sınıf LGS Örnek Soruları İngilizce",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2020-2021-nisan-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2020-2021 MAYIS Ayı 8. Sınıf LGS Örnek Soruları İngilizce",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2020-2021-mayis-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2019-2020 EKİM Ayı LGS İngilizce Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2019-ekim-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2019-2020 KASIM Ayı LGS İngilizce Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2019-2020-Kasim-ayi-ingilizce-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2019-2020 ARALIK Ayı LGS İngilizce Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2019-2020-aralik-ayi-ingilizce-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2019-2020 OCAK Ayı LGS İngilizce Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2019-2020-ocak-ayi-ingilizce-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2019-2020 ŞUBAT Ayı LGS İngilizce Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2019-2020-subat-ayi-ingilizce-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2019-2020 MART Ayı LGS İngilizce Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2019-2020-mart-ayi-ingilizce-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2019-2020 NİSAN Ayı LGS İngilizce Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2019-2020-nisan-ayi-ingilizce-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2019-2020 MAYIS Ayı LGS İngilizce Soruları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2019-2020-mayis-ayi-ingilizce-ornek-sorulari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2018-2019 EKİM Ayı LGS İngilizce Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2018-2019-ekim-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2018-2019 KASIM Ayı LGS İngilizce Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2018-2019-kasim-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2018-2019 ARALIK Ayı LGS İngilizce Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2018-2019-aralik-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2018-2019 OCAK Ayı LGS İngilizce Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2018-2019-ocak-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2018 – 2019 ŞUBAT Ayı LGS İngilizce Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2018-2019-SUBAT-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2018-2019 MART Ayı LGS İngilizce Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2018-2019-mart-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2018-2019 NİSAN Ayı LGS İngilizce Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2018-2019-nisan-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        },
+        {
+          "title": "2018-2019 MAYIS Ayı LGS İngilizce Sorular",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/09/2018-2019-mayis-ingilizce-ornek-sorular.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Örnek Soruları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-ornek-sorular/"
+        }
+      ]
+    },
+    {
+      "id": "ingilizceciyiz-deneme",
+      "provider": "ingilizceciyiz",
+      "providerTitle": "ingilizceciyiz.com",
+      "title": "LGS İngilizce Deneme Sınavları",
+      "subtitle": "Sarmal, ünite ve genel LGS deneme sınavları",
+      "emoji": "📑",
+      "sourceUrl": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/",
+      "items": [
+        {
+          "title": "8. Sınıf İngilizce 1. Ünite Deneme Sınavı-2",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/10/LGS-ORNEK-SORULAR-UNIT-1.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "1. Ünite Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-1-unite-deneme-sinavi/"
+        },
+        {
+          "title": "8. Sınıf İngilizce 1. Ünite Deneme Sınavı-3",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/11/deneme-8-1-5.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "1. Ünite Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/8-sinif-ingilizce-1-unite-deneme-sinavi/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 2. ÜNİTE TEST DENEME SINAVI İNDİR (by Halil İbrahim KELEŞ)",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/11/Deneme-8-2-1.pdf",
+          "by": "Halil İbrahim KELEŞ",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 2. ÜNİTE TEST DENEME SINAVI İNDİR (by Halil İbrahim KELEŞ)",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/11/Deneme-8-2-2.pdf",
+          "by": "Halil İbrahim KELEŞ",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 2. ÜNİTE TEST DENEME SINAVI İNDİR (by Halil İbrahim KELEŞ)",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/11/Deneme-8-2-3.pdf",
+          "by": "Halil İbrahim KELEŞ",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. Sınıf İngilizce 3. Ünite Test Deneme Sınavı",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/11/8.-Sinif-3.-Unite-Deneme-NEW.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. Sınıf İngilizce 3. Ünite Test Deneme Sınavı",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/11/8-sinif-3.-unite-deneme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 4. ÜNİTE TEST DENEME SINAVI İNDİR (LGS Çıkmış Sorular ve Örnek Sorular Derlemesi)",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-SINIF-INGILIZCE-ORNEK-SORULAR-4.-UNITE-by-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "CEVAP ANAHTARI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/cevap-anahtari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 2. 3. 4. ÜNİTE TEST DENEME SINAVI İNDİR BY ALTIN ORAN",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8.-sinif-2.-3.-4.-unite-deneme-test-altin-oran.pdf",
+          "by": "ALTIN ORAN",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 5. ÜNİTE TEST DENEME SINAVI İNDİR (LGS İngilizce 5. Ünite Çıkmış Sorular ve Örnek Sorular Derlemesi)",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-SINIF-INGILIZCE-ORNEK-SORULAR-5.-UNITE-by-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE TEST DENEME SINAVI İNDİR BY YILMAZ TOT",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-sinif-ingilizce-1-5-deneme-sinavi-by-yilmaz-tot.pdf",
+          "by": "YILMAZ TOT",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 6. ÜNİTE TEST İNDİR DENEME SINAVI 1 (LGS Çıkmış Sorular ve Örnek Sorular Derlemesi)",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-SINIF-INGILIZCE-ORNEK-SORULAR-6.-UNITE-by-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 7. ÜNİTE TEST İNDİR DENEME SINAVI 1 (LGS Çıkmış Sorular ve Örnek Sorular Derlemesi)",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-SINIF-INGILIZCE-ORNEK-SORULAR-7.-UNITE-by-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 7. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8.-sinif-7.-unite-deneme-1-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 7. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8.-sinif-7.-unite-deneme-2-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 8. ÜNİTE TEST İNDİR DENEME SINAVI (LGS Çıkmış Sorular ve Örnek Sorular Derlemesi)",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-SINIF-INGILIZCE-ORNEK-SORULAR-8.-UNITE-by-ingilizceciyiz.com_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 8. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8.-sinif-ingilizce-8.-unite-deneme-by-altinoran.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-2. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/09/8.sinif-brans-denemeleri-1-2.-unite-sarmal-deneme-1.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "CEVAP ANAHTARI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/09/sarmal-deneme-cevaplari-isleyen-zeka.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-2. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-2.-unite-deneme-modelim.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-2. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-2.-unite-deneme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-2. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/09/8.sinif-soru-bankasi-1.-2.uniteler-sarmal-deneme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "CEVAP ANAHTARI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/09/8.-sinif-soru-bankasi-cevap-anahtari.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-3. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/09/8.sinif-soru-bankasi-1.-2.-3.-uniteler-sarmal-deneme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-3. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2021/01/8_sinif_deneme_1_unit_1_3_teamwork.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-3. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-3.-unite-deneme-sinavi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-3. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-3-deneme-sinavi-3.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-2-3. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/09/8.sinif-brans-denemeleri-1-2.-3.-unite-sarmal-deneme-2.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE İLK 4 ÜNİTE SARMAL DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/11/8.sinif-brans-deneme-3-ilk-4-unite.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE İLK 4 ÜNİTE SARMAL DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/11/8.sinif-brans-deneme-4-ilk-4-unite.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE İLK 4 ÜNİTE SARMAL DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/11/8.sinif-brans-deneme-5-ilk-4-unite.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1. 2. 3. 4. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-4.-unite-deneme-sinavi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1. 2. 3. 4. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-4.-unite-deneme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1. 2. 3. 4. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-4-deneme-sinavi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1. 2. 3. 4. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-4-deneme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE İLK 5 ÜNİTE SARMAL DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/11/8.sinif-ilk-5-unite-sarmal-deneme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE İLK 5 ÜNİTE SARMAL DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/11/8.sinif-sarmal-brans-deneme-6-ilk-5-unite.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE İLK 5 ÜNİTE SARMAL DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/11/8.sinif-sarmal-brans-denemesi-7-ilk-5-unite.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/06/deneme-1-by-mete.elt_.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/06/deneme-2.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/06/deneme-3.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/06/deneme-5.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-sinif-ingilizce-1-5-deneme-sinavi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-sinif-ingilizce-1-5-deneme-sinavi-1-by-yds-publishing.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://ingilizceciyiz.com/wp-content/uploads/2020/12/8.-sinif-ingilizce-1-5-deneme-sinavi-1.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1. 2. 3. 4. 5. ÜNİTE TEST DENEME SINAVI LEARNED SHOOTER",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8.-sinif-1-5-deneme-shooter.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-5.-unite-deneme-sinavi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-5-deneme-sinavi-14.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-5-deneme-sinavi-indir-15.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-5-deneme-sinavi-16.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-5. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-5-deneme-sinavi-17.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-6. ÜNİTE TEST SHOOTER DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8.-sinif-1-6-deneme-shooter.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-6 ÜNİTE SARMAL DENEME SINAVI-1",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/02/8.-sinif-ingilizce-1-6.-unite-sarmal-deneme-sinavi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-6 ÜNİTE SARMAL DENEME SINAVI-2",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/02/8.-sinif-ingilizce-1-6.-unite-sarmal-deneme-sinavi-2.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-7. ÜNİTE TEST DENEME SINAVI İNDİR by FATMA UYAR",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8-sinif-deneme-1-7-Fame-The-Original-Deneme-1.pdf",
+          "by": "FATMA UYAR",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-7. ÜNİTE TEST DENEME SINAVI İNDİR by FATMA UYAR",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8.-sinif-deneme-1-7-Fame-The-Original-Deneme-2.pdf",
+          "by": "FATMA UYAR",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-7. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-7.-unite-deneme-sinavi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-7 ÜNİTE SARMAL DENEME SINAVLARI 3 ADET CEVAP ANAHTARLI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/02/8.-sinif-ingilizce-1-7.-unite-sarmal-deneme-sinavlari-3-adet.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. Sınıf İngilizce 1-8. Ünite Sarmal Deneme Sınavı by İşleyen Zeka",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/05/8th-grade-units-1-8-general-revision.pdf",
+          "by": "İşleyen Zeka",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "1-8 ÜNİTE DENEME SINAVI BY SHOOTER",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-8-deneme-sinavi-2-shooter.pdf",
+          "by": "SHOOTER",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "1-8 ÜNİTE DENEME SINAVI BY MORE & MORE FAME ORIGINAL",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/04/1-8.-unite-ingilizce-deneme-sinavi-by-More-More-8-Fame.pdf",
+          "by": "MORE & MORE FAME ORIGINAL",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "1-8 ÜNİTE DENEME SINAVI BY MORE & MORE FAME ORIGINAL",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/04/1-8.-unite-ingilizce-deneme-sinavi-2-by-More-More-8-Fame.pdf",
+          "by": "MORE & MORE FAME ORIGINAL",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "1-8 ÜNİTE DENEME SINAVI BY MORE & MORE FAME ORIGINAL",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/04/1-8.-unite-ingilizce-deneme-sinavi-3-by-More-More-8-Fame.pdf",
+          "by": "MORE & MORE FAME ORIGINAL",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. Sınıf İngilizce 1-9. Ünite Sarmal Deneme Sınavı by İşleyen Zeka",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/05/8th-grade-units-1-9-general-revision.pdf",
+          "by": "İşleyen Zeka",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-9. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/04/8.-sinif-deneme-sinavi-1-9-shooter-deneme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-9. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-10-genel-deneme-modelim-1.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-9. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-9.-unite-deneme-sinavi.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE CANDY ENGLISH LGS 1-9 ÜNİTE DENEME SINAVI BY ÜMİTCAN HOCAN",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/05/Candy-English-LGS-Ingilizce-deneme-1-9-by-Umitcan-Hocan.pdf",
+          "by": "ÜMİTCAN HOCAN",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. Sınıf İngilizce 1-10. Ünite Sarmal Deneme Sınavı by İşleyen Zeka",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/05/8th-grade-units-1-10-general-revision.pdf",
+          "by": "İşleyen Zeka",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/03/8.-sinif-1-10-deneme-palme.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "1-10 ÜNİTE DENEME SINAVI BY SHOOTER",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-Sinif-Ingilizce-1-10-Genel-Deneme-Sinavi-10-by-Shooter.pdf",
+          "by": "SHOOTER",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-Sinif-Ingilizce-1-10-Genel-Deneme-Sinavi-14-by-Shooter.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE TEST DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-10-genel-deneme-modelim-2.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE DENEME SINAVI",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-10-genel-deneme-modelim-3.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE TEST DENEME",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-10-genel-deneme-modelim-4.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE SARMAL DENEME",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-10-genel-deneme-modelim-5.pdf",
+          "by": "ingilizceciyiz.com",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE SARMAL DENEME SINAVI by Learned",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-10-deneme-sinavi-9-learned.pdf",
+          "by": "Learned",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE SARMAL LGS DENEME by ALTIN ORAN",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/05/8.-sinif-ingilizce-1-10-deneme-sinavi-10-altin-oran.pdf",
+          "by": "ALTIN ORAN",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE 1-10. ÜNİTE SARMAL LGS DENEME by MAGMA YAYINLARI & ortaokulingilizce.net",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/05/8.-Sinif-Ingilizce-Deneme-Sinavi-1-10-by-Ortaokulingilizce.net-Magma-Yayinlari.pdf",
+          "by": "MAGMA YAYINLARI & ortaokulingilizce.net",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        },
+        {
+          "title": "8. SINIF İNGİLİZCE GENEL DENEME SINAVI BY MORE & MORE FAME ORIGINAL",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/04/1-10.-unite-ingilizce-genel-deneme-sinavi-by-More-More-8-Fame.pdf",
+          "by": "MORE & MORE FAME ORIGINAL",
+          "desc": "LGS İngilizce Deneme Sınavı",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-deneme-sinavlari/"
+        }
+      ]
+    },
+    {
+      "id": "ingilizceciyiz-cikmis",
+      "provider": "ingilizceciyiz",
+      "providerTitle": "ingilizceciyiz.com",
+      "title": "LGS İngilizce Çıkmış Sorular",
+      "subtitle": "2018 - 2026 LGS İngilizce sınavları ve cevap anahtarları",
+      "emoji": "🏆",
+      "sourceUrl": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/",
+      "items": [
+        {
+          "title": "2026 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2026/06/2026-LGS-Ingilizce-Sorulari.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2026 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        },
+        {
+          "title": "2025 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2025/06/2025-LGS-Ingilizce-sorulari.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2025 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        },
+        {
+          "title": "2024 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2024/06/2024-lgs-ingilizce-sorulari.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2024 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        },
+        {
+          "title": "2023 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2023/06/2023-lgs-ingilizce-sorulari-ve-cevaplari.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2023 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        },
+        {
+          "title": "2022 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2022/06/2022-LGS-Ingilizce-Sorulari-ingilizceciyiz.com_.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2022 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        },
+        {
+          "title": "2021 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/08/2021-LGS-Ingilizce-Sorulari-ve-Cevaplari.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2021 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        },
+        {
+          "title": "2020 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/08/2020-LGS-Ingilizce-Sorulari-ve-Cevaplari.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2020 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        },
+        {
+          "title": "2019 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/08/2019-LGS-Ingilizce-Sorulari-ve-Cevaplari.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2019 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        },
+        {
+          "title": "2018 LGS İngilizce Çıkmış Soruları ve Cevapları",
+          "link": "https://www.ingilizceciyiz.com/wp-content/uploads/2021/08/2018-LGS-Ingilizce-Sorulari-ve-Cevaplari.pdf",
+          "by": "MEB ÖDSGM",
+          "desc": "2018 LGS Çıkmış Sınav Kitapçığı ve Cevapları",
+          "source": "ingilizceciyiz",
+          "sourcePage": "https://www.ingilizceciyiz.com/lgs-ingilizce-sorulari/"
+        }
+      ]
+    },
+    {
+      "id": "dersingilizce-cikmis",
+      "provider": "dersingilizce",
+      "providerTitle": "dersingilizce.org",
+      "title": "LGS Çıkmış Sorular",
+      "subtitle": "2018 - 2026 LGS İngilizce Çıkmış Sorular Arşivi",
+      "emoji": "🏆",
+      "sourceUrl": "https://www.dersingilizce.org/lgssorular",
+      "hubUrl": "https://www.dersingilizce.org/lgsfiles",
+      "items": [
+        {
+          "title": "2026 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/1fbINALJeU9oaz5BPgyz0fvCRq4dcGZsg/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        },
+        {
+          "title": "2025 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/1kGGinhBf3g3XMhNBfchiUlGJ4DNhVaku/view?usp=drive_link",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        },
+        {
+          "title": "2024 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/1sOdgmLx2P_NBCiiVmQZWAUB80RQac3rs/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        },
+        {
+          "title": "2023 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/1kOSxV_ljgX6atXiH3N8gWusXiLRmO_p4/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        },
+        {
+          "title": "2022 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/17-twhqXPInAFy91oNfv4cXKFW9M_nIo1/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        },
+        {
+          "title": "2021 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/1nR8dYN-Q_NSgK4u6aa6C8hW1NWR_I9Dv/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        },
+        {
+          "title": "2020 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/1gxegfcc5ebO3CPa-S_ZRrb2RuxVJqmlH/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        },
+        {
+          "title": "2019 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/1LM-j74EpAbcI4TTUIGNyOXy6HjvKvTNi/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        },
+        {
+          "title": "2018 LGS İngilizce Soruları",
+          "link": "https://drive.google.com/file/d/1MmrwyuKvq8nzrNVhZjPTMZ4oXFHwdrFy/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çıkmış Sorular",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/lgssorular"
+        }
+      ]
+    },
+    {
+      "id": "dersingilizce-ornek",
+      "provider": "dersingilizce",
+      "providerTitle": "dersingilizce.org",
+      "title": "LGS MEB Örnek Soruları",
+      "subtitle": "1-10. Ünite MEB Örnek Soruları ve Cevap Anahtarı",
+      "emoji": "📝",
+      "sourceUrl": "https://www.dersingilizce.org/orneksorular",
+      "hubUrl": "https://www.dersingilizce.org/lgsfiles",
+      "items": [
+        {
+          "title": "2022-2023 YILI ÖRNEK SORULARI",
+          "link": "https://drive.google.com/file/d/1vaqYMre87M66q_YD9ak_Cp8xyQijsfAL/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "1. Ünite - Friendship",
+          "link": "https://drive.google.com/file/d/1z2ElsNgAxnV2xXuOEsJrX1wKV_nv25Hh/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "2. Ünite - Teen Life",
+          "link": "https://drive.google.com/file/d/1baaFYvF96Fufk71oUafj8QJksgSTsu9f/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "3. Ünite - In The Kitchen",
+          "link": "https://drive.google.com/file/d/1bI8i9GI7AKC0VCLnXd45V9LTn9oN4Rs3/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "4. Ünite - On The Phone",
+          "link": "https://drive.google.com/file/d/1g3fc--K9GwTKAo4rx5rmAUmAuMlmAP-R/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "5. Ünite - The Internet",
+          "link": "https://drive.google.com/file/d/13acirQdaMQtH_Nv_yaMF9NXqwwe0uomy/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "6. Ünite - Adventures",
+          "link": "https://drive.google.com/file/d/1k4vyWVtddNvww4pUKIoCdVp6Gd6hYYtF/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "7. Ünite - Tourism",
+          "link": "https://drive.google.com/file/d/1jixscj8ppPbhrKh-BPyeo5ZKVbIyLzd3/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "8. Ünite - Chores",
+          "link": "https://drive.google.com/file/d/1RFRzRKU0QShcxqSvaExRc78MWxgPa4of/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "9. Ünite - Science",
+          "link": "https://drive.google.com/file/d/1V-6ZR-xr6ieHjyRRl5PfGbzPV3IsDRm5/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "10. Ünite - Natural Forces",
+          "link": "https://drive.google.com/file/d/1OYk7_vm584NnB4bkYhQBdYRSsOQxfakG/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        },
+        {
+          "title": "* ANSWER KEY *",
+          "link": "https://drive.google.com/file/d/1HYrvxQOuVf3LDJthewTEoV2yNdtTvYhv/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "MEB Örnek Soruları",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/orneksorular"
+        }
+      ]
+    },
+    {
+      "id": "dersingilizce-deneme",
+      "provider": "dersingilizce",
+      "providerTitle": "dersingilizce.org",
+      "title": "LGS Deneme Sınavları",
+      "subtitle": "Ünite Bazlı LGS Deneme Sınavları",
+      "emoji": "📑",
+      "sourceUrl": "https://www.dersingilizce.org/deneme",
+      "hubUrl": "https://www.dersingilizce.org/lgsfiles",
+      "items": [
+        {
+          "title": "DENEME 1 - UNIT 1 FRIENDSHIP",
+          "link": "https://drive.google.com/file/d/1BDpK80v9Wwa3hsDT2Iwcunff1LFZ4hjd/view",
+          "by": "dersingilizce.org",
+          "desc": "Deneme Sınavı",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/deneme"
+        },
+        {
+          "title": "DENEME 2 - UNIT 2 TEEN LIFE",
+          "link": "https://drive.google.com/file/d/1ilIhE2kFsJS0xieiipVyMISaGjJjyI_j/view",
+          "by": "dersingilizce.org",
+          "desc": "Deneme Sınavı",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/deneme"
+        },
+        {
+          "title": "DENEME 3 - UNIT 3 IN THE KITCHEN",
+          "link": "https://drive.google.com/file/d/1uSQUo8_kcBoPTmoG_1UwpDyUHRuyleRL/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Deneme Sınavı",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/deneme"
+        },
+        {
+          "title": "DENEME 4 - UNIT 4 ON THE PHONE",
+          "link": "https://drive.google.com/file/d/1swtkz6SGXcmPiDxS4Vv6RFHTNUuX8F6W/view?usp=share_link",
+          "by": "dersingilizce.org",
+          "desc": "Deneme Sınavı",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/deneme"
+        }
+      ]
+    },
+    {
+      "id": "dersingilizce-kelime",
+      "provider": "dersingilizce",
+      "providerTitle": "dersingilizce.org",
+      "title": "LGS Kelime Testleri (PDF)",
+      "subtitle": "Ünite Sonu Kelime Değerlendirme Testleri",
+      "emoji": "🔤",
+      "sourceUrl": "https://www.dersingilizce.org/vocabularytest",
+      "hubUrl": "https://www.dersingilizce.org/lgsfiles",
+      "items": [
+        {
+          "title": "UNIT 1 - FRIENDSHIP",
+          "link": "https://drive.google.com/file/d/1_c4frOXvN7OC2B4MyetgiobaBVIff0Ge/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Kelime Testi (PDF)",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/vocabularytest"
+        },
+        {
+          "title": "UNIT 2 - TEEN LIFE",
+          "link": "https://drive.google.com/file/d/1K7fWI2AkNMMBAEDJ9XMQFtLkke5o6kuW/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Kelime Testi (PDF)",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/vocabularytest"
+        },
+        {
+          "title": "UNIT 3 - IN THE KITCHEN",
+          "link": "https://drive.google.com/file/d/1L355Sz4jKPyRwju8XbWNaA0CIbyYD7yl/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Kelime Testi (PDF)",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/vocabularytest"
+        },
+        {
+          "title": "UNIT 4 - ON THE PHONE",
+          "link": "https://drive.google.com/file/d/10B_B59z7X-2MXudUfNDSydBv35y0oEGW/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Kelime Testi (PDF)",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/vocabularytest"
+        },
+        {
+          "title": "UNIT 5 - THE INTERNET",
+          "link": "https://drive.google.com/file/d/1unPJlEEsLJF-qhJdAzvv-dNsQD5jgDdB/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Kelime Testi (PDF)",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/vocabularytest"
+        },
+        {
+          "title": "UNIT 6 - ADVENTURES",
+          "link": "https://drive.google.com/file/d/1unPJlEEsLJF-qhJdAzvv-dNsQDhttps/view",
+          "by": "dersingilizce.org",
+          "desc": "Kelime Testi (PDF)",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/vocabularytest"
+        }
+      ]
+    },
+    {
+      "id": "dersingilizce-online",
+      "provider": "dersingilizce",
+      "providerTitle": "dersingilizce.org",
+      "title": "Online Kelime Testleri",
+      "subtitle": "İnteraktif Wordwall Kelime Testleri",
+      "emoji": "🎮",
+      "sourceUrl": "https://www.dersingilizce.org/onlinetests",
+      "hubUrl": "https://www.dersingilizce.org/lgsfiles",
+      "items": [
+        {
+          "title": "UNIT 1 FRIENDSHIP",
+          "link": "https://wordwall.net/resource/576917",
+          "by": "dersingilizce.org",
+          "desc": "Online Kelime Testi",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/onlinetests"
+        },
+        {
+          "title": "UNIT 3 IN THE KITCHEN",
+          "link": "https://wordwall.net/resource/37007613",
+          "by": "dersingilizce.org",
+          "desc": "Online Kelime Testi",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/onlinetests"
+        },
+        {
+          "title": "UNIT 2 TEEN LIFE",
+          "link": "https://wordwall.net/resource/36433025",
+          "by": "dersingilizce.org",
+          "desc": "Online Kelime Testi",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/onlinetests"
+        },
+        {
+          "title": "UNIT 4 ON THE PHONE",
+          "link": "https://wordwall.net/resource/1198727",
+          "by": "dersingilizce.org",
+          "desc": "Online Kelime Testi",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/onlinetests"
+        }
+      ]
+    },
+    {
+      "id": "dersingilizce-worksheets",
+      "provider": "dersingilizce",
+      "providerTitle": "dersingilizce.org",
+      "title": "LGS Çalışma Kâğıtları ve Etkinlikler",
+      "subtitle": "8. Sınıf LGS Worksheets, Revision ve Kelime Listeleri",
+      "emoji": "📄",
+      "sourceUrl": "https://www.dersingilizce.org/worksheets",
+      "hubUrl": "https://www.dersingilizce.org/lgsfiles",
+      "items": [
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1JcFzEJxYA1sNO9szF-G24WXdeSGanAbU/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/16wmQrGiXAwByHAN3z0lKpsHkcyIZvb7N/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1Wg0tv8TQgpDWFC9jop9FlNlzpTqS01zQ/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1GFnjDGP96p_PJOkme3GQfy8LJ7K1B2vI/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1Uz4aVxkLs969-ECSIYHAPv02xys5RZYY/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://docs.google.com/presentation/d/1luufwfq8AEh4Hmim_5wccFOE068Gvuwm/edit?usp=sharing&ouid=113011995056221998790&rtpof=true&sd=true",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1_c4frOXvN7OC2B4MyetgiobaBVIff0Ge/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://wordwall.net/resource/35321541/8-sinif-ingilizce-dersi-1-%c3%bcnite-friendship-vocabulary-activity",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://docs.google.com/presentation/d/1ICoTe2veKY6jHH9r_rYLn_zKG2JO8jjX/edit?usp=drive_link&ouid=113011995056221998790&rtpof=true&sd=true",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "WORKSHEET 1 (Ünite kazanımları ve kelimeleriyle ilgili harika bir çalışma kağıdı)",
+          "link": "https://drive.google.com/file/d/167YixRADiGf_0_EppLydh0ckUk-TkByN/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "HOW OFTEN ...? - WORKSHEET (How often...? - Konu Anlatımı ve Alıştırmalar)",
+          "link": "https://drive.google.com/file/d/1B4hws4ngPVlMiFvRPNd-c1LLjFR3BMLv/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "VOCABULARY LIST (Ünite kelime listesi)",
+          "link": "https://drive.google.com/file/d/1Y0QTs7UA_J29mefI-8PpWUhVUOtVclJD/view?usp=drive_link",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "JEOPARDY GAME",
+          "link": "https://drive.google.com/file/d/10eT6X_wNY6dMUsbwWkmu0P0Pi2nBTs9h/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "MASTERMIND UNIT 2 TEEN LIFE BOOK PRESENTATION",
+          "link": "https://docs.google.com/presentation/d/1S46FjJHxuCh03XWkH79qu3rA0vqIjpYZ/edit?usp=sharing&ouid=113011995056221998790&rtpof=true&sd=true",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "ONLINE VOCABULARY ACTIVITY",
+          "link": "https://wordwall.net/resource/36282614/8th-grades-unit-2-teen-life",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "tıklayınız ....",
+          "link": "https://docs.google.com/presentation/d/1ejUryBv0zAXOVReDwaHQN-mfJiEcJTmC/edit?usp=sharing&ouid=113011995056221998790&rtpof=true&sd=true",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1DeP_RWKAyUW5U0pwos_NCxP6fiNhcT9P/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "WORKSHEET 2 (Ünite kazanımları ve kelimeleriyle ilgili harika bir çalışma kağıdı)",
+          "link": "https://drive.google.com/file/d/1rKls4k3GtZ5P-S6ukKfGqkKW7NrLAZKT/view",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "WORKSHEET 3 (IMPERATIVES / BEFORE & AFTER) Ünite kazanımlarıyla ilgili çalışma)",
+          "link": "https://drive.google.com/file/d/1vJW_4AfDJ-MJ6BOaQdII6Faxn084GAth/view",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1NiSPOy9-RXkQYXeYgzj--AVKKFJHJ4iB/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1HsqbaN8eds4dt6aUpai2PfCFwvAy0hXB/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://docs.google.com/presentation/d/1Lgi2Ao2mtypQhyfueu48zNTS1QVM9Hnn/edit?usp=sharing&ouid=113011995056221998790&rtpof=true&sd=true",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/14oDlUer22oHXa16-nTrtkEjaH3dj_JXn/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1DE9hChE41Sqx2VraKozPJr1Dc1cJ5MOr/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1YiOJ6WMBNA6qLeAwxd32SjSUjgUpLyYA/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1GRaTr2hd6X922BnnAW6txT7PztVXxlCT/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1v87DTollwnGf8uM6kVFGnOdcMwCN1o98/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1Q1wPhuGsSODS4EzS2NQEybAkuECclZzE/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1l9XGU-cKQQjNt2DAzNR6Y_LgzNDw3h45/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/10-Ni-vFQ-dppihGjqM23PE8P7hGBn3_6/view?usp=share_link",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "WORKSHEET 1 (Ünite kazanımlarıyla ilgili süper bir çalışma kağıdı)",
+          "link": "https://drive.google.com/file/d/1joLHrnmZQlP14yw68kc1Z_Ty7V-gknhB/view",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1gMYxMIEKyjLjAn8QXlHFeedXRdnpv0hs/view?usp=drivesdk",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1ISpimO2Ce6ig4NHPSureEemz3Pbklh6k/view",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/18rKtT76IsaNeh1QX3uFpxuJw7rbuYbtC/view?usp=share_link",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "WHAT PURPOSES DO YOU USE THE INTERNET? (POWERPOINT)",
+          "link": "https://docs.google.com/presentation/d/1TCFDrZKhwQbX7t94pnhDtAWTTFX44H9f/edit?usp=sharing&ouid=113011995056221998790&rtpof=true&sd=true",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://docs.google.com/presentation/d/1sMa6NMI6XTBFiynaUEumEY73VQSRHDr5/edit?usp=sharing&ouid=113011995056221998790&rtpof=true&sd=true",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1BUWv-NTGavfQn6LFTA62vp7m5stbIjiA/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/176DKYzvP6G0YEO8LAf5oo8atRj9FGlqC/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1O_T0fwQSvtvn-cJAkcIGPqfI9zcvFJ_l/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1AhmCjAMGjvLxtJ8YHpB0G7b_AhLM6WxK/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1XMUTR-2YuL_cRLkx6IUKFIKA0SifL7aM/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1eBVIy2ZOFXqEuRU5dqK4slJPNZZi7_Y2/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        },
+        {
+          "title": "Star",
+          "link": "https://drive.google.com/file/d/1JnlUtcICAatS8JpGULcAvqWELuCYC4Qb/view?usp=sharing",
+          "by": "dersingilizce.org",
+          "desc": "Çalışma Kâğıdı ve Test",
+          "source": "dersingilizce",
+          "sourcePage": "https://www.dersingilizce.org/worksheets"
+        }
+      ]
+    }
+  ]
+}

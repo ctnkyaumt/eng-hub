@@ -7,7 +7,7 @@
             #/g5/u1/oyunlar/quiz   a game
             #/g5/u1/calisma        worksheets
 --------------------------------------------------------------------------- */
-import { getCatalog, getUnit, unitPath } from "./store.js";
+import { getCatalog, getUnit, getLgsSources, unitPath } from "./store.js";
 import { el, toast, setCrumbs } from "./ui.js";
 
 const screen = document.getElementById("screen");
@@ -23,6 +23,8 @@ const GRADE_SUB = {
 /* ---------------------------------------------------------------- routing */
 const routes = [
   [/^\/?$/, home],
+  [/^\/lgs$/, lgsScreen],
+  [/^\/lgs\/([a-z0-9_-]+)$/, lgsScreen],
   [/^\/(g\d)$/, gradeScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)$/, unitScreen],
   [/^\/(g\d)\/([a-z0-9_-]+)\/sunum$/, presentationScreen],
@@ -101,7 +103,38 @@ async function home() {
     );
   });
 
-  screen.replaceChildren(hero, el("div", { class: "grid g-4" }, cards));
+  const lgsData = await getLgsSources().catch(() => null);
+  const lgsTotal = lgsData?.counts?.total || 211;
+  const lgsIng = lgsData?.counts?.ingilizceciyiz || 133;
+  const lgsDers = lgsData?.counts?.dersingilizce || 78;
+
+  const lgsCard = el(
+    "button",
+    {
+      class: "card lgs-banner-card",
+      onclick: () => go("#/lgs"),
+    },
+    [
+      el("span", { class: "glow" }),
+      el("div", { class: "lgs-banner-body" }, [
+        el("div", { class: "lgs-banner-icon", text: "🎯" }),
+        el("div", { class: "lgs-banner-text" }, [
+          el("div", { class: "lgs-banner-kicker", text: "ÖZEL BÖLÜM · SINAV HAZIRLIK" }),
+          el("h3", { text: "LGS İngilizce Hazırlık Merkezi" }),
+          el("p", { text: "Çıkmış sorular, MEB örnek soruları, deneme sınavları, kelime testleri ve çalışma kâğıtları" }),
+          el("div", { class: "badge-row" }, [
+            el("span", { class: "badge on", text: `ingilizceciyiz.com (${lgsIng} kaynak)` }),
+            el("span", { class: "badge on", text: `dersingilizce.org (${lgsDers} kaynak)` }),
+            el("span", { class: "badge", text: `${lgsTotal} doküman` }),
+            el("span", { class: "badge", text: "İnternet gerekli" }),
+          ]),
+        ]),
+        el("span", { class: "lgs-banner-arrow", text: "→" }),
+      ]),
+    ]
+  );
+
+  screen.replaceChildren(hero, el("div", { class: "grid g-4" }, cards), lgsCard);
 }
 
 /* ------------------------------------------------------------ screen: grade */
@@ -236,6 +269,11 @@ async function mebOdsgmWorksheetsScreen(gid, uid) {
 async function booksScreen(gid, uid) {
   const { bookList } = await import("./books.js");
   await bookList(gid, uid, screen);
+}
+
+async function lgsScreen(catId) {
+  const { lgsScreen } = await import("./lgs.js");
+  await lgsScreen(catId);
 }
 
 /* ----------------------------------------------------------------- chrome  */
