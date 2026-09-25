@@ -1,12 +1,25 @@
 /* ENG HUB - LGS section screen -----------------------------------------------
    Routes: #/lgs                 main LGS overview
-           #/lgs/:category       specific category view with live search
+           #/lgs/:category       specific category view with live search & sections
 --------------------------------------------------------------------------- */
 
 import { getLgsSources } from "./store.js";
 import { el, setCrumbs, toast } from "./ui.js";
 
 const screen = document.getElementById("screen");
+
+function normText(str) {
+  return (str || "")
+    .toLocaleLowerCase("tr")
+    .replace(/i̇/g, "i")
+    .replace(/ı/g, "i")
+    .replace(/ğ/g, "g")
+    .replace(/ü/g, "u")
+    .replace(/ş/g, "s")
+    .replace(/ö/g, "o")
+    .replace(/ç/g, "c")
+    .trim();
+}
 
 export async function lgsScreen(catId) {
   const data = await getLgsSources();
@@ -94,7 +107,7 @@ function renderLgsHome(data) {
   const searchBox = el("input", {
     type: "search",
     class: "resource-search",
-    placeholder: "Tüm LGS kaynaklarında ara (örnek, deneme, yıl, yazar, ünite)…",
+    placeholder: "Tüm LGS kaynaklarında ara (örnek, sarmal, deneme, yıl, ünite)…",
     "aria-label": "LGS kaynaklarında ara",
     style: "width: 100%; margin: 10px 0 6px;",
   });
@@ -139,7 +152,7 @@ function renderLgsHome(data) {
   ]);
 
   searchBox.addEventListener("input", () => {
-    const q = searchBox.value.trim().toLocaleLowerCase("tr");
+    const q = normText(searchBox.value);
     if (!q) {
       contentContainer.style.display = "block";
       searchResultsList.style.display = "none";
@@ -151,11 +164,11 @@ function renderLgsHome(data) {
     searchResultsList.style.display = "flex";
 
     const matches = allItems.filter((it) => {
-      const txt = `${it.title} ${it.by || ""} ${it.desc || ""} ${it.categoryTitle || ""}`.toLocaleLowerCase("tr");
+      const txt = normText(`${it.title} ${it.by || ""} ${it.desc || ""} ${it.section || ""} ${it.subSection || ""} ${it.categoryTitle || ""}`);
       return txt.includes(q);
     });
 
-    searchResultText.textContent = `${matches.length} kaynak bulundu`;
+    searchResultText.textContent = matches.length > 0 ? `${matches.length} kaynak bulundu` : "Eşleşen kaynak bulunamadı.";
 
     if (!matches.length) {
       searchResultsList.replaceChildren(
@@ -180,6 +193,7 @@ function renderLgsHome(data) {
                 el("small", {
                   text: [
                     it.categoryTitle,
+                    it.section && it.section !== it.categoryTitle ? it.section : null,
                     it.by ? (it.by.startsWith("Hazırlayan:") ? it.by : "Hazırlayan: " + it.by) : null,
                     it.desc || null,
                   ]
@@ -247,68 +261,186 @@ function renderCategoryDetail(category, data) {
     }),
   ]);
 
-  const listContainer = el("div", { class: "list" });
-  const rows = items.map((it) => {
-    const isOnlineTest = category.id === "dersingilizce-online" || it.link.includes("wordwall");
-    const isExam = /deneme|sınav|sorular/i.test(it.title);
-    const icon = isOnlineTest ? "🎮" : isExam ? "📝" : "📄";
+  // Group items by section -> subsection
+  const sectionMap = new Map();
+  for (const it of items) {
+    const secName = it.section || "Genel Kaynaklar";
+    const subName = it.subSection || secName;
+    if (!sectionMap.has(secName)) {
+      sectionMap.set(secName, new Map());
+    }
+    const subMap = sectionMap.get(secName);
+    if (!subMap.has(subName)) {
+      subMap.set(subName, []);
+    }
+    subMap.get(subName).push(it);
+  }
 
-    const node = el(
-      "button",
-      {
-        class: "row",
-        onclick: () => window.open(it.link, "_blank", "noopener"),
+  const uniqueSections = Array.from(sectionMap.keys());
+  let activeSectionFilter = "all";
+
+  // Build DOM structures for sections and rows
+  const sectionBlocks = [];
+
+  for (const [secName, subMap] of sectionMap.entries()) {
+    const secContainer = el("div", { class: "lgs-section-block", "data-section": secName });
+    const secHeader = el("h2", { class: "lgs-section-heading", text: secName });
+    secContainer.append(secHeader);
+
+    const subBlocks = [];
+
+    for (const [subName, subItems] of subMap.entries()) {
+      const subContainer = el("div", { class: "lgs-sub-block" });
+      // Only show sub-heading if it adds detail beyond the main section heading
+      if (subName && subName !== secName && subMap.size > 1) {
+        subContainer.append(el("h3", { class: "lgs-subsection-heading", text: subName }));
+      }
+
+      const listContainer = el("div", { class: "list" });
+      const rows = subItems.map((it) => {
+        const isOnlineTest = category.id === "dersingilizce-online" || it.link.includes("wordwall");
+        const isExam = /deneme|sınav|sorular/i.test(it.title);
+        const icon = isOnlineTest ? "🎮" : isExam ? "📝" : "📄";
+
+        const node = el(
+          "button",
+          {
+            class: "row",
+            onclick: () => window.open(it.link, "_blank", "noopener"),
+          },
+          [
+            el("span", { class: "ic", text: icon }),
+            el("div", { class: "txt" }, [
+              el("b", { text: it.title }),
+              el("small", {
+                text: [
+                  it.by ? (it.by.startsWith("Hazırlayan:") ? it.by : "Hazırlayan: " + it.by) : null,
+                  it.desc && it.desc !== secName ? it.desc : null,
+                ]
+                  .filter(Boolean)
+                  .join(" · "),
+              }),
+            ]),
+            el("span", { class: "go", text: "↗" }),
+          ]
+        );
+        return { item: it, node };
+      });
+
+      listContainer.append(...rows.map((r) => r.node));
+      subContainer.append(listContainer);
+      secContainer.append(subContainer);
+
+      subBlocks.push({ name: subName, container: subContainer, rows });
+    }
+
+    sectionBlocks.push({ name: secName, container: secContainer, subBlocks });
+  }
+
+  // Filter Pills (if more than 1 section)
+  let filterPillsContainer = null;
+  if (uniqueSections.length > 1) {
+    const pillButtons = [];
+    const allPill = el("button", {
+      class: "lgs-pill active",
+      text: `Tümü (${count})`,
+      onclick: () => {
+        activeSectionFilter = "all";
+        pillButtons.forEach((b) => b.classList.remove("active"));
+        allPill.classList.add("active");
+        updateVisibility();
       },
-      [
-        el("span", { class: "ic", text: icon }),
-        el("div", { class: "txt" }, [
-          el("b", { text: it.title }),
-          el("small", {
-            text: [
-              it.by ? (it.by.startsWith("Hazırlayan:") ? it.by : "Hazırlayan: " + it.by) : null,
-              it.desc || null,
-            ]
-              .filter(Boolean)
-              .join(" · "),
-          }),
-        ]),
-        el("span", { class: "go", text: "↗" }),
-      ]
-    );
-    return { item: it, node };
-  });
+    });
+    pillButtons.push(allPill);
 
-  listContainer.append(...rows.map((r) => r.node));
+    for (const secName of uniqueSections) {
+      const secCount = items.filter((it) => (it.section || "Genel Kaynaklar") === secName).length;
+      const pill = el("button", {
+        class: "lgs-pill",
+        text: `${secName} (${secCount})`,
+        onclick: () => {
+          activeSectionFilter = secName;
+          pillButtons.forEach((b) => b.classList.remove("active"));
+          pill.classList.add("active");
+          updateVisibility();
+        },
+      });
+      pillButtons.push(pill);
+    }
+
+    filterPillsContainer = el("div", { class: "lgs-filter-pills" }, pillButtons);
+  }
 
   const searchBox = el("input", {
     type: "search",
     class: "resource-search",
-    placeholder: "Bu kategoride ara (başlık, yazar, yıl, ünite)…",
+    placeholder: "Bu kategoride ara (başlık, yazar, yıl, sarmal, ünite)…",
     "aria-label": "Kategoride ara",
     style: "width: 100%; margin: 10px 0 6px;",
   });
 
   const searchResultText = el("p", { class: "resource-search-result", role: "status", "aria-live": "polite" });
 
-  searchBox.addEventListener("input", () => {
-    const q = searchBox.value.trim().toLocaleLowerCase("tr");
-    let matches = 0;
-    for (const { item, node } of rows) {
-      const txt = `${item.title} ${item.by || ""} ${item.desc || ""}`.toLocaleLowerCase("tr");
-      const visible = !q || txt.includes(q);
-      node.hidden = !visible;
-      if (visible) matches++;
+  function updateVisibility() {
+    const q = normText(searchBox.value);
+    let totalVisible = 0;
+
+    for (const secBlock of sectionBlocks) {
+      let secVisible = 0;
+      const pillMatch = activeSectionFilter === "all" || secBlock.name === activeSectionFilter;
+
+      for (const subBlock of secBlock.subBlocks) {
+        let subVisible = 0;
+        for (const { item, node } of subBlock.rows) {
+          const txt = normText(`${item.title} ${item.by || ""} ${item.desc || ""} ${item.section || ""} ${item.subSection || ""}`);
+          const queryMatch = !q || txt.includes(q);
+          const visible = pillMatch && queryMatch;
+
+          node.hidden = !visible;
+          node.style.display = visible ? "" : "none";
+          node.classList.toggle("hidden", !visible);
+
+          if (visible) {
+            subVisible++;
+            totalVisible++;
+          }
+        }
+
+        const isSubVis = subVisible > 0;
+        subBlock.container.hidden = !isSubVis;
+        subBlock.container.style.display = isSubVis ? "" : "none";
+        subBlock.container.classList.toggle("hidden", !isSubVis);
+
+        if (isSubVis) secVisible += subVisible;
+      }
+
+      const isSecVis = secVisible > 0;
+      secBlock.container.hidden = !isSecVis;
+      secBlock.container.style.display = isSecVis ? "" : "none";
+      secBlock.container.classList.toggle("hidden", !isSecVis);
     }
-    searchResultText.textContent = q ? `${matches} kaynak bulundu` : "";
-  });
+
+    if (q) {
+      searchResultText.textContent = totalVisible > 0 ? `${totalVisible} kaynak bulundu` : "Eşleşen kaynak bulunamadı.";
+    } else if (activeSectionFilter !== "all") {
+      searchResultText.textContent = `${totalVisible} kaynak gösteriliyor`;
+    } else {
+      searchResultText.textContent = "";
+    }
+  }
+
+  searchBox.addEventListener("input", updateVisibility);
+
+  const sectionsWrapper = el("div", { class: "lgs-sections-wrapper" }, sectionBlocks.map((b) => b.container));
 
   screen.replaceChildren(
     hero,
     actionButtons,
     el("section", { style: "display: flex; flex-direction: column; gap: 4px; margin-top: 18px;" }, [
       searchBox,
+      ...(filterPillsContainer ? [filterPillsContainer] : []),
       searchResultText,
-      listContainer,
+      sectionsWrapper,
     ])
   );
 }

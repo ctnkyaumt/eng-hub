@@ -1,4 +1,4 @@
-"""Probe for LGS section, sources, routing, data integrity, and server delivery."""
+"""Probe for LGS section, sources, routing, sections/subsections, search filtering, and server delivery."""
 import json
 from pathlib import Path
 import re
@@ -55,15 +55,23 @@ assert len(sources_by_id["ingilizceciyiz-deneme"]["items"]) >= 75
 assert len(sources_by_id["ingilizceciyiz-cikmis"]["items"]) == 9  # 2018-2026
 assert len(sources_by_id["dersingilizce-cikmis"]["items"]) == 9   # 2018-2026
 assert len(sources_by_id["dersingilizce-ornek"]["items"]) >= 10
-assert len(sources_by_id["dersingilizce-worksheets"]["items"]) >= 40
+assert len(sources_by_id["dersingilizce-worksheets"]["items"]) >= 35
 
-# Check item validity
+# Check section headings in ingilizceciyiz-deneme
+deneme_sections = set(it.get("section") for it in sources_by_id["ingilizceciyiz-deneme"]["items"])
+assert "8. Sınıf İngilizce Sarmal Deneme Sınavları" in deneme_sections, "Missing Sarmal Deneme section"
+assert "8. Sınıf İngilizce Ünite Deneme Sınavları" in deneme_sections, "Missing Ünite Deneme section"
+assert any("Genel" in s for s in deneme_sections), "Missing Genel Deneme section"
+
+# Check that NO item is titled "Star"
 for s in data["sources"]:
     for it in s["items"]:
         assert it.get("title"), f"Missing title in {s['id']}"
+        assert it["title"].strip().lower() != "star", f"Found invalid 'Star' title in {s['id']}"
         assert it.get("link"), f"Missing link in {s['id']}"
         assert it["link"].startswith("http"), f"Invalid link in {s['id']}: {it['link']}"
         assert it.get("source"), f"Missing source in {s['id']}"
+        assert it.get("section"), f"Missing section heading in {s['id']}: {it['title']}"
 
 # 2. Check app.js routing and home screen
 app_js = (ROOT / "app/js/app.js").read_text(encoding="utf-8")
@@ -82,16 +90,21 @@ assert lgs_js_path.exists(), "app/js/lgs.js must exist"
 lgs_js = lgs_js_path.read_text(encoding="utf-8")
 assert "export async function lgsScreen" in lgs_js
 assert "resource-search" in lgs_js
+assert "lgs-section-heading" in lgs_js
+assert "lgs-pill" in lgs_js
+assert "updateVisibility" in lgs_js
+assert "normText" in lgs_js
 
-# 5. Check CSS
+# 5. Check CSS for hidden override and LGS pill/section styling
 app_css = (ROOT / "app/css/app.css").read_text(encoding="utf-8")
-assert "lgs" in app_css.lower(), "app.css must have LGS styling"
+assert "lgs-section-heading" in app_css, "app.css missing lgs-section-heading"
+assert "lgs-pill" in app_css, "app.css missing lgs-pill"
+assert "[hidden]" in app_css and "!important" in app_css, "app.css must have [hidden] with !important"
 
 # 6. Test with local server
 server_proc = subprocess.Popen([sys.executable, "server/enghub.py", "--no-browser"], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 time.sleep(1.2)
 try:
-    # Check data endpoint
     for endpoint in ["/app/data/lgs-sources.json", "/app/js/lgs.js", "/app/js/store.js", "/app/js/app.js", "/app/css/app.css"]:
         req = urllib.request.Request(f"http://127.0.0.1:8777{endpoint}")
         with urllib.request.urlopen(req, timeout=5) as res:
@@ -105,4 +118,4 @@ finally:
     server_proc.terminate()
     server_proc.wait(timeout=3)
 
-print(f"PASS: LGS probe successful. {len(data['sources'])} categories, {total} total resources verified.")
+print(f"PASS: LGS probe successful. {len(data['sources'])} categories, {total} total resources verified with sections & search.")

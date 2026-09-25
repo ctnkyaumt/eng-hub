@@ -208,6 +208,8 @@ async function renderWorksheetFolderPicker(gid, uid, screen, {
         const text = `${item.title} ${item.by || ""} ${item.desc || ""} ${item.date || ""}`.toLocaleLowerCase("tr");
         const visible = text.includes(query);
         node.hidden = !visible;
+        node.style.display = visible ? "" : "none";
+        node.classList.toggle("hidden", !visible);
         if (visible) matches++;
       }
       result.textContent = query ? `${matches} kaynak bulundu` : "";

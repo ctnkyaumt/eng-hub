@@ -541,7 +541,65 @@ body {
   margin-bottom: 20px;
 }
 
-.hidden { display: none !important; }
+/* LGS filter pills & headings */
+.lgs-filter-pills {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0 16px;
+}
+.lgs-pill {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--stroke);
+  background: var(--card);
+  color: var(--ink-dim);
+  cursor: pointer;
+  transition: all .15s ease;
+}
+.lgs-pill:hover {
+  background: var(--card-hi);
+  color: var(--ink);
+  border-color: #506488;
+}
+.lgs-pill.active {
+  background: rgba(192, 132, 252, 0.22);
+  border-color: #c084fc;
+  color: #f3e8ff;
+}
+
+.lgs-section-block {
+  margin-top: 26px;
+}
+.lgs-section-block:first-of-type {
+  margin-top: 14px;
+}
+.lgs-section-heading {
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffd166;
+  margin: 0 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+.lgs-subsection-heading {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink-dim);
+  margin: 14px 0 8px;
+  letter-spacing: 0.5px;
+}
+
+[hidden], .hidden, .row[hidden], .row.hidden {
+  display: none !important;
+}
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
