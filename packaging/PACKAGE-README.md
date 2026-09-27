@@ -45,7 +45,7 @@ ANA MENÜ → Sınıf (5, 6, 7, 8) / LGS Hazırlık → SUNUM · OYUNLAR · ÇAL
 | **Sunum** | 5, 6 ve 8. sınıflar için 27 tam ünite dersi: görsel kelime kartları, çift dilli dil bilgisi vurguları ve 330 interaktif yerel alıştırma. |
 | **Oyunlar** | 10 yerel oyun modu: Sharpshooter, Balon Patlat, Köstebek Avı, Uzay Koşusu, Hızlı Test, Eşleştirme, Kelime Avı, Karışık Harfler, Kule, Kelime Kartları. Ayrıca her ünitede **sumeyyeogultekin** klasörü (443 çevrimiçi oyun ve kapak önizlemeleri) ile zengin Wordwall oyunları. |
 | **Çalışma Kâğıtları ve Testler** | 6. sınıfta 18 özgün çalışma kâğıdı + 9 öğretmen anahtarı (yerel PDF). Ayrıca **ingilizcecin** (469 güncel belge), **dersingilizce** (154 PDF kâğıdı) ve **MEB ÖDSGM** (7-8. sınıf resmi testleri) klasörleri. Dış kaynak bağlantıları için internet gerekir. |
-| **LGS Hazırlık Merkezi** | Ana menüden doğrudan erişilen LGS merkezi: **ingilizceciyiz.com** ve **dersingilizce.org** (lgsfiles) arşivinden 210+ çıkmış soru kitapçığı (2018-2026), MEB örnek soruları, denemeler, kelime testleri ve çalışma kâğıtları (canlı arama filtreli). |
+| **LGS Hazırlık Merkezi** | Ana menüden doğrudan erişilen LGS merkezi: **ingilizceciyiz.com** ve **dersingilizce.org** (lgsfiles) arşivinden 200+ çıkmış soru kitapçığı (2018-2026), MEB örnek soruları, denemeler, kelime testleri ve çalışma kâğıtları (Sarmal, Ünite ve Genel başlıkları, hızlı filtre butonları ve anlık arama filtreli). |
 | **Kitap Sunumları** | Kaynak sitedeki ders ve çalışma kitabı sunumlarının listesi (internet gerekir). |
 
 ## 4. Ders sırasında işinize yarayacak tuşlar
