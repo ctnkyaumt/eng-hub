@@ -16,16 +16,16 @@ import updater
 
 
 def test_version_logic():
-    assert updater.parse_version("v1.7.0") == (1, 7, 0)
-    assert updater.parse_version("v1.7") == (1, 7, 0)
-    assert updater.parse_version("1.6.2") == (1, 6, 2)
-    assert updater.is_newer("v1.8", "v1.7.0") is True
-    assert updater.is_newer("v1.7.1", "v1.7.0") is True
-    assert updater.is_newer("v1.6", "v1.7.0") is False
-    assert updater.is_newer("v1.7.0", "v1.7.0") is False
+    assert updater.parse_version("v1.8.0") == (1, 8, 0)
+    assert updater.parse_version("v1.8") == (1, 8, 0)
+    assert updater.parse_version("1.7.2") == (1, 7, 2)
+    assert updater.is_newer("v1.9", "v1.8.0") is True
+    assert updater.is_newer("v1.8.1", "v1.8.0") is True
+    assert updater.is_newer("v1.7", "v1.8.0") is False
+    assert updater.is_newer("v1.8.0", "v1.8.0") is False
 
     cur_v = updater.get_current_version(ROOT)
-    assert cur_v.startswith("v1.7"), f"Expected v1.7*, got {cur_v}"
+    assert cur_v.startswith("v1.8"), f"Expected v1.8*, got {cur_v}"
     print(f"[PASS] Version logic verified (current: {cur_v})")
 
 

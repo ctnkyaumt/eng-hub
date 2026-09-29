@@ -22,7 +22,7 @@ import zipfile
 REPO = "ctnkyaumt/eng-hub"
 GITHUB_API_LATEST = f"https://api.github.com/repos/{REPO}/releases/latest"
 UA = "ENG-HUB-Updater/1.0"
-DEFAULT_FALLBACK_VERSION = "v1.7.0"
+DEFAULT_FALLBACK_VERSION = "v1.8.0"
 
 
 def find_root_paths():
