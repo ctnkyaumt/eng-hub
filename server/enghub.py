@@ -10,6 +10,7 @@ Works on Windows and Pardus/Linux with nothing but the Python standard library.
 import http.server
 import json
 import os
+import shutil
 import socket
 import socketserver
 import subprocess
@@ -229,6 +230,14 @@ class Server(socketserver.ThreadingTCPServer):
 
 
 def main():
+    # Gecmis/yarida kalmis gecici calisma dosyalarini temizle
+    try:
+        for p in (os.path.join(ROOT, "temp_work"), os.path.join(os.path.dirname(ROOT), "temp_work")):
+            if os.path.isdir(p):
+                shutil.rmtree(p, ignore_errors=True)
+    except Exception:
+        pass
+
     port = pick_port(int(os.environ.get("ENGHUB_PORT", DEFAULT_PORT)))
     url = "http://127.0.0.1:%d/" % port
     httpd = Server(("127.0.0.1", port), Handler)

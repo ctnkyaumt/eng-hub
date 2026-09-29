@@ -335,10 +335,9 @@ def apply_update(download_url=None, progress_cb=None):
     finally:
         # Gecici dosyalari temizle
         try:
-            shutil.rmtree(temp_dir, ignore_errors=True)
             tw = os.path.join(app_root, "temp_work")
-            if os.path.isdir(tw) and not os.listdir(tw):
-                os.rmdir(tw)
+            if os.path.isdir(tw):
+                shutil.rmtree(tw, ignore_errors=True)
         except Exception:
             pass
 
