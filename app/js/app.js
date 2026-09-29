@@ -7,7 +7,7 @@
             #/g5/u1/oyunlar/quiz   a game
             #/g5/u1/calisma        worksheets
 --------------------------------------------------------------------------- */
-import { getCatalog, getUnit, getLgsSources, unitPath } from "./store.js";
+import { getCatalog, getUnit, getLgsSources, unitPath, clearCache } from "./store.js";
 import { el, toast, setCrumbs } from "./ui.js";
 
 const screen = document.getElementById("screen");
@@ -283,6 +283,32 @@ document.getElementById("btn-full").onclick = () => {
   if (document.fullscreenElement) document.exitFullscreen();
   else document.documentElement.requestFullscreen?.();
 };
+
+const btnRefresh = document.getElementById("btn-refresh");
+if (btnRefresh) {
+  btnRefresh.onclick = async () => {
+    if (btnRefresh.classList.contains("loading")) return;
+    btnRefresh.classList.add("loading");
+    btnRefresh.disabled = true;
+    toast("Kaynaklar güncelleniyor (internet)...");
+    try {
+      const res = await fetch("/api/refresh", { method: "POST" });
+      const data = await res.json();
+      if (data.ok) {
+        toast("Kaynaklar başarıyla güncellendi! 🎉");
+        clearCache();
+        await render();
+      } else {
+        toast("Yenileme başarısız: " + (data.error || "Hata"), true);
+      }
+    } catch (err) {
+      toast("Bağlantı hatası: " + err.message, true);
+    } finally {
+      btnRefresh.classList.remove("loading");
+      btnRefresh.disabled = false;
+    }
+  };
+}
 
 document.addEventListener("keydown", (e) => {
   if (e.target.matches("input, textarea")) return;

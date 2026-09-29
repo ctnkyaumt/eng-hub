@@ -130,6 +130,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             return self.api_save(body)
         if parsed.path == "/api/upload":
             return self.api_upload(parsed, body)
+        if parsed.path == "/api/refresh":
+            return self.api_refresh()
         return self.send_json({"ok": False, "error": "unknown_endpoint"}, 404)
 
     def api_save(self, body):
@@ -170,6 +172,19 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         with open(target, "wb") as f:
             f.write(body)
         return self.send_json({"ok": True, "path": rel, "size": len(body)})
+
+    def api_refresh(self):
+        """Refresh teaching sources catalog from eltarena."""
+        try:
+            for p in (ROOT, os.path.dirname(ROOT)):
+                if p not in sys.path:
+                    sys.path.insert(0, p)
+            import refresh
+            res = refresh.run_refresh()
+            return self.send_json(res)
+        except Exception as exc:
+            return self.send_json({"ok": False, "error": str(exc)}, 500)
+
 
 
 class Server(socketserver.ThreadingTCPServer):

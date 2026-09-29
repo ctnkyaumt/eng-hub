@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17 16:21",
+ "generated": "2026-09-29 20:53",
  "grades": [
   {
    "id": "g5",
@@ -15,7 +15,7 @@
      "emoji": "🔄",
      "sourceUnitId": 1,
      "onlineGames": 56,
-     "books": 11,
+     "books": 4,
      "has": {
       "presentation": false,
       "games": true,
@@ -26,7 +26,7 @@
       "worksheets": 0,
       "worksheetLinks": 10,
       "offlineSites": 0,
-      "sourceWorksheets": 10,
+      "sourceWorksheets": 1,
       "sourceGames": 20
      }
     },
@@ -39,7 +39,7 @@
      "emoji": "🏫",
      "sourceUnitId": 319,
      "onlineGames": 49,
-     "books": 8,
+     "books": 9,
      "has": {
       "presentation": true,
       "games": true,
@@ -87,7 +87,7 @@
      "emoji": "🙋",
      "sourceUnitId": 321,
      "onlineGames": 45,
-     "books": 4,
+     "books": 5,
      "has": {
       "presentation": true,
       "games": true,
@@ -111,7 +111,7 @@
      "emoji": "👨‍👩‍👧",
      "sourceUnitId": 322,
      "onlineGames": 42,
-     "books": 4,
+     "books": 5,
      "has": {
       "presentation": true,
       "games": true,
@@ -135,7 +135,7 @@
      "emoji": "🏙️",
      "sourceUnitId": 323,
      "onlineGames": 42,
-     "books": 4,
+     "books": 5,
      "has": {
       "presentation": true,
       "games": true,
@@ -159,7 +159,7 @@
      "emoji": "🌍",
      "sourceUnitId": 324,
      "onlineGames": 33,
-     "books": 5,
+     "books": 6,
      "has": {
       "presentation": true,
       "games": true,
@@ -183,7 +183,7 @@
      "emoji": "🌳",
      "sourceUnitId": 325,
      "onlineGames": 39,
-     "books": 4,
+     "books": 5,
      "has": {
       "presentation": true,
       "games": true,
@@ -207,7 +207,7 @@
      "emoji": "🚀",
      "sourceUnitId": 326,
      "onlineGames": 35,
-     "books": 4,
+     "books": 5,
      "has": {
       "presentation": true,
       "games": true,
@@ -238,7 +238,7 @@
      "emoji": "🔄",
      "sourceUnitId": 69,
      "onlineGames": 0,
-     "books": 5,
+     "books": 6,
      "has": {
       "presentation": true,
       "games": true,
@@ -249,7 +249,7 @@
       "worksheets": 3,
       "worksheetLinks": 0,
       "offlineSites": 0,
-      "sourceWorksheets": 0,
+      "sourceWorksheets": 2,
       "sourceGames": 0
      }
     },
@@ -262,7 +262,7 @@
      "emoji": "🏫",
      "sourceUnitId": 337,
      "onlineGames": 0,
-     "books": 6,
+     "books": 7,
      "has": {
       "presentation": true,
       "games": true,
@@ -273,7 +273,7 @@
       "worksheets": 3,
       "worksheetLinks": 0,
       "offlineSites": 0,
-      "sourceWorksheets": 0,
+      "sourceWorksheets": 4,
       "sourceGames": 0
      }
     },
@@ -286,7 +286,7 @@
      "emoji": "✏️",
      "sourceUnitId": 338,
      "onlineGames": 0,
-     "books": 1,
+     "books": 2,
      "has": {
       "presentation": true,
       "games": true,
@@ -358,7 +358,7 @@
      "emoji": "🏙️",
      "sourceUnitId": 341,
      "onlineGames": 0,
-     "books": 1,
+     "books": 2,
      "has": {
       "presentation": true,
       "games": true,
@@ -382,7 +382,7 @@
      "emoji": "🌍",
      "sourceUnitId": 342,
      "onlineGames": 0,
-     "books": 1,
+     "books": 2,
      "has": {
       "presentation": true,
       "games": true,
@@ -406,7 +406,7 @@
      "emoji": "🌳",
      "sourceUnitId": 343,
      "onlineGames": 0,
-     "books": 1,
+     "books": 2,
      "has": {
       "presentation": true,
       "games": true,
@@ -430,7 +430,7 @@
      "emoji": "🚀",
      "sourceUnitId": 344,
      "onlineGames": 0,
-     "books": 1,
+     "books": 2,
      "has": {
       "presentation": true,
       "games": true,
@@ -461,7 +461,7 @@
      "emoji": "🧑‍🎤",
      "sourceUnitId": 357,
      "onlineGames": 37,
-     "books": 5,
+     "books": 8,
      "has": {
       "presentation": false,
       "games": true,
@@ -472,7 +472,7 @@
       "worksheets": 0,
       "worksheetLinks": 33,
       "offlineSites": 0,
-      "sourceWorksheets": 11,
+      "sourceWorksheets": 14,
       "sourceGames": 8
      }
     },
@@ -485,7 +485,7 @@
      "emoji": "⚽",
      "sourceUnitId": 358,
      "onlineGames": 26,
-     "books": 4,
+     "books": 6,
      "has": {
       "presentation": false,
       "games": true,
@@ -509,7 +509,7 @@
      "emoji": "📜",
      "sourceUnitId": 359,
      "onlineGames": 26,
-     "books": 5,
+     "books": 6,
      "has": {
       "presentation": false,
       "games": true,
@@ -533,7 +533,7 @@
      "emoji": "🦁",
      "sourceUnitId": 360,
      "onlineGames": 30,
-     "books": 5,
+     "books": 6,
      "has": {
       "presentation": false,
       "games": true,
@@ -557,7 +557,7 @@
      "emoji": "📺",
      "sourceUnitId": 361,
      "onlineGames": 30,
-     "books": 4,
+     "books": 5,
      "has": {
       "presentation": false,
       "games": true,
@@ -708,7 +708,7 @@
      "emoji": "🤝",
      "sourceUnitId": 367,
      "onlineGames": 67,
-     "books": 10,
+     "books": 13,
      "has": {
       "presentation": true,
       "games": true,
@@ -719,7 +719,7 @@
       "worksheets": 0,
       "worksheetLinks": 51,
       "offlineSites": 7,
-      "sourceWorksheets": 31,
+      "sourceWorksheets": 40,
       "sourceGames": 14
      }
     },
@@ -732,7 +732,7 @@
      "emoji": "🎧",
      "sourceUnitId": 368,
      "onlineGames": 32,
-     "books": 7,
+     "books": 12,
      "has": {
       "presentation": true,
       "games": true,
@@ -743,7 +743,7 @@
       "worksheets": 0,
       "worksheetLinks": 42,
       "offlineSites": 2,
-      "sourceWorksheets": 22,
+      "sourceWorksheets": 21,
       "sourceGames": 8
      }
     },
@@ -756,7 +756,7 @@
      "emoji": "🍲",
      "sourceUnitId": 369,
      "onlineGames": 38,
-     "books": 10,
+     "books": 12,
      "has": {
       "presentation": true,
       "games": true,
@@ -780,7 +780,7 @@
      "emoji": "📞",
      "sourceUnitId": 370,
      "onlineGames": 27,
-     "books": 9,
+     "books": 10,
      "has": {
       "presentation": true,
       "games": true,
@@ -804,7 +804,7 @@
      "emoji": "🌐",
      "sourceUnitId": 371,
      "onlineGames": 37,
-     "books": 8,
+     "books": 9,
      "has": {
       "presentation": true,
       "games": true,

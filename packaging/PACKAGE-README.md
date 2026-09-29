@@ -11,7 +11,9 @@ Windows ve Pardus/Linux'ta aynı şekilde çalışır.
 ```
 eng-hub/
 ├─ Start-Windows.bat    ← Windows'ta buna çift tıklayın
+├─ Refresh-Windows.bat  ← Kaynakları yenilemek için çift tıklayın (internet gerekir)
 ├─ start-pardus.sh      ← Pardus/Linux'ta buna çift tıklayın
+├─ refresh.py           ← Kaynak yenileme betiği (veya arayüzdeki 🔄 butonu)
 ├─ README.md            ← bu dosya
 └─ src/                 ← programın kendisi (dokunmayın)
 ```

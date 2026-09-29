@@ -25,6 +25,10 @@ async function loadJSON(url, fallback = REQUIRED) {
   return p;
 }
 
+export function clearCache() {
+  cache.clear();
+}
+
 const EMPTY_CATALOG = { generated: null, grades: [] };
 
 export async function getCatalog() {

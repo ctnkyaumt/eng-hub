@@ -45,18 +45,23 @@ jobs:
             [ -e "$d" ] && cp -r "$d" pkg/eng-hub/src/
           done
 
-          # launchers and the first-time README stay at the top
-          cp Start-Windows.bat pkg/eng-hub/
-          cp start-pardus.sh   pkg/eng-hub/
+          # launchers, refresh scripts and the first-time README stay at the top
+          cp Start-Windows.bat   pkg/eng-hub/
+          cp start-pardus.sh     pkg/eng-hub/
+          cp Refresh-Windows.bat pkg/eng-hub/
+          cp refresh.py          pkg/eng-hub/
           cp packaging/PACKAGE-README.md pkg/eng-hub/README.md
           chmod +x pkg/eng-hub/start-pardus.sh
+          chmod +x pkg/eng-hub/refresh.py
 
           # the .bat must keep CRLF, the .sh must keep LF
           sed -i 's/\r\?$/\r/' pkg/eng-hub/Start-Windows.bat
+          sed -i 's/\r\?$/\r/' pkg/eng-hub/Refresh-Windows.bat
           sed -i 's/\r$//'     pkg/eng-hub/start-pardus.sh
 
           # stamp the version so a teacher can tell two USBs apart
           echo "${{ steps.v.outputs.tag }}  $(date -u +%Y-%m-%d)" > pkg/eng-hub/src/VERSION.txt
+          echo "${{ steps.v.outputs.tag }}  $(date -u +%Y-%m-%d)" > pkg/eng-hub/VERSION.txt
 
       - name: Sanity-check the layout
         run: |
@@ -65,6 +70,8 @@ jobs:
           test -f pkg/eng-hub/src/app/index.html
           test -f pkg/eng-hub/Start-Windows.bat
           test -f pkg/eng-hub/start-pardus.sh
+          test -f pkg/eng-hub/Refresh-Windows.bat
+          test -f pkg/eng-hub/refresh.py
           test -f pkg/eng-hub/README.md
           # the launcher must find the program under src/
           grep -q 'src\\server\\enghub.py' pkg/eng-hub/Start-Windows.bat

@@ -55,11 +55,12 @@ Tarayıcı otomatik olarak `http://127.0.0.1:8777` adresini açar. Kapatmak içi
 ```
 eng-hub/
 ├─ Start-Windows.bat / start-pardus.sh   # Başlatıcılar
+├─ Refresh-Windows.bat / refresh.py      # Kaynak yenileme araçları
 ├─ server/enghub.py                      # Yerel HTTP sunucusu (127.0.0.1:8777)
 ├─ runtime/python-win/                   # Taşınabilir Python (Windows)
 ├─ app/                                  # Web arayüzü (HTML / CSS / JS)
 ├─ content/g5/u1/...                     # Ünite içerikleri (sunum, oyun, kâğıt)
-└─ tools/                                # İçerik denetim ve yenileme betikleri
+└─ tools/                                # İçerik denetim ve geliştirme betikleri
 ```
 
 ## Bakım ve Doğrulama
@@ -67,8 +68,8 @@ eng-hub/
 Harici kaynak bağlantılarını yenilemek veya içerik bütünlüğünü doğrulamak için (Python gereklidir):
 
 ```bash
-# Tüm kaynakları ve bağlantıları denetleyip yenilemek için:
-python tools/refresh.py
+# Harici kaynakları ve kitap sunumlarını yenilemek için (veya arayüzdeki 🔄 butonundan):
+python refresh.py
 
 # İçerik ve bağlantı bütünlüğünü kontrol etmek için:
 python tools/verify_content.py

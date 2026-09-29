@@ -51,6 +51,14 @@ body {
 }
 .tb-btn:hover { background: var(--card-hi); transform: translateY(-2px); }
 .tb-btn:active { transform: translateY(0) scale(.95); }
+.tb-btn.loading {
+  animation: tbSpin 0.9s linear infinite;
+  pointer-events: none;
+  opacity: 0.7;
+}
+@keyframes tbSpin {
+  100% { transform: rotate(360deg); }
+}
 .tb-spacer { flex: 1 1 auto; }
 
 #crumbs { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 15px; }
