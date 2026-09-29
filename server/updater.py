@@ -225,7 +225,14 @@ def apply_update(download_url=None, progress_cb=None):
         os.makedirs(extract_dir, exist_ok=True)
 
         with zipfile.ZipFile(zip_path, "r") as zf:
-            zf.extractall(extract_dir)
+            for member in zf.infolist():
+                extracted_path = zf.extract(member, extract_dir)
+                mode = member.external_attr >> 16
+                if mode and not sys.platform.startswith("win"):
+                    try:
+                        os.chmod(extracted_path, mode)
+                    except Exception:
+                        pass
 
         # Zip icindeki kok klasor genelde 'eng-hub/' dir
         candidate_root = os.path.join(extract_dir, "eng-hub")
@@ -255,13 +262,19 @@ def apply_update(download_url=None, progress_cb=None):
 
         # 4. Kok baslaticilari ve betikleri guncelle
         for fname in [
-            "Start-Windows.bat", "start-pardus.sh", "Refresh-Windows.bat",
-            "refresh.py", "Update-Windows.bat", "updater.py", "README.md", "VERSION.txt"
+            "Start-Windows.bat", "start-pardus.sh", "refresh-pardus.sh", "update-pardus.sh",
+            "Refresh-Windows.bat", "refresh.py", "Update-Windows.bat", "updater.py",
+            "README.md", "VERSION.txt"
         ]:
             src_f = os.path.join(candidate_root, fname)
             dst_f = os.path.join(app_root, fname)
             if os.path.isfile(src_f):
                 safe_copy_file(src_f, dst_f)
+                if not sys.platform.startswith("win") and (fname.endswith(".sh") or fname.endswith(".py")):
+                    try:
+                        os.chmod(dst_f, 0o755)
+                    except Exception:
+                        pass
 
         # 5. Program klasorlerini guncelle
         candidate_src = os.path.join(candidate_root, "src") if os.path.isdir(os.path.join(candidate_root, "src")) else candidate_root

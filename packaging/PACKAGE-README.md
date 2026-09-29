@@ -11,9 +11,11 @@ Windows ve Pardus/Linux'ta aynı şekilde çalışır.
 ```
 eng-hub/
 ├─ Start-Windows.bat    ← Windows'ta buna çift tıklayın
-├─ Refresh-Windows.bat  ← Kaynakları yenilemek için çift tıklayın (internet gerekir)
-├─ Update-Windows.bat   ← Yeni sürümleri denetleyip güncellemek için çift tıklayın
+├─ Refresh-Windows.bat  ← Kaynakları yenilemek için çift tıklayın (Windows)
+├─ Update-Windows.bat   ← Yeni sürümleri denetleyip güncellemek için çift tıklayın (Windows)
 ├─ start-pardus.sh      ← Pardus/Linux'ta buna çift tıklayın
+├─ refresh-pardus.sh    ← Kaynakları yenilemek için çift tıklayın (Pardus)
+├─ update-pardus.sh     ← Yeni sürümleri denetleyip güncellemek için çift tıklayın (Pardus)
 ├─ refresh.py           ← Kaynak yenileme betiği (veya arayüzdeki 🔄 butonu)
 ├─ updater.py           ← Otomatik güncelleme betiği (veya arayüzdeki ⬆️ butonu)
 ├─ README.md            ← bu dosya

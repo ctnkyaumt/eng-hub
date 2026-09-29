@@ -54,9 +54,9 @@ Tarayıcı otomatik olarak `http://127.0.0.1:8777` adresini açar. Kapatmak içi
 
 ```
 eng-hub/
-├─ Start-Windows.bat / start-pardus.sh   # Başlatıcılar
-├─ Refresh-Windows.bat / refresh.py      # Kaynak yenileme araçları
-├─ Update-Windows.bat / updater.py       # Otomatik güncelleme araçları
+├─ Start-Windows.bat / start-pardus.sh       # Başlatıcılar
+├─ Refresh-Windows.bat / refresh-pardus.sh   # Kaynak yenileme araçları (refresh.py)
+├─ Update-Windows.bat / update-pardus.sh     # Otomatik güncelleme araçları (updater.py)
 ├─ server/enghub.py                      # Yerel HTTP sunucusu (127.0.0.1:8777)
 ├─ runtime/python-win/                   # Taşınabilir Python (Windows)
 ├─ app/                                  # Web arayüzü (HTML / CSS / JS)
