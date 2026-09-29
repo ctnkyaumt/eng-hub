@@ -609,6 +609,51 @@ body {
   display: none !important;
 }
 
+.btn.sm { padding: 8px 14px; font-size: 14px; border-radius: 10px; }
+.btn.ghost { background: rgba(255,255,255,.06); border-color: var(--stroke); }
+.btn.ghost:hover { background: rgba(255,255,255,.14); }
+
+/* update modal ------------------------------------------------------------ */
+.update-modal-backdrop {
+  position: fixed; inset: 0; z-index: 100;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(10, 15, 29, 0.78);
+  backdrop-filter: blur(8px);
+  padding: 16px;
+}
+.update-modal {
+  max-width: 540px; width: 100%;
+  background: #172138; border: 1px solid #334366;
+  border-radius: 20px; padding: 28px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  animation: pop .3s cubic-bezier(.2,.8,.3,1.2) both;
+}
+.update-header {
+  display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+}
+.update-header h2 { margin: 0; font-size: 22px; color: var(--ink); }
+.update-header .emoji { font-size: 32px; }
+.update-body { margin-bottom: 24px; font-size: 15px; color: var(--ink-dim); line-height: 1.6; }
+.update-body p { margin: 0 0 10px; }
+.update-notes {
+  margin: 12px 0; padding: 12px; border-radius: 12px;
+  background: rgba(0,0,0,0.25); border: 1px solid var(--stroke);
+  max-height: 160px; overflow-y: auto; font-size: 13px; color: #cbd5e1;
+}
+.update-notes pre { margin: 0; white-space: pre-wrap; font-family: inherit; }
+.migration-note {
+  font-size: 13px; color: #94a3b8; background: rgba(56, 189, 248, 0.1);
+  padding: 8px 12px; border-radius: 8px; border-left: 3px solid #38bdf8;
+}
+.update-actions { display: flex; gap: 10px; justify-content: flex-end; }
+.update-spinner {
+  display: inline-block; width: 36px; height: 36px;
+  border: 4px solid rgba(255,255,255,.15); border-top-color: #4f7cff;
+  border-radius: 50%; animation: tbSpin .8s linear infinite;
+  margin-bottom: 14px;
+}
+
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
   .book-cover-img,

@@ -8,7 +8,7 @@
             #/g5/u1/calisma        worksheets
 --------------------------------------------------------------------------- */
 import { getCatalog, getUnit, getLgsSources, unitPath, clearCache } from "./store.js";
-import { el, toast, setCrumbs } from "./ui.js";
+import { el, mount, toast, setCrumbs } from "./ui.js";
 
 const screen = document.getElementById("screen");
 
@@ -77,6 +77,20 @@ async function home() {
     el("span", { class: "kicker", text: "İngilizce Öğretmeni Yardımcısı" }),
     el("h1", { text: "ENG HUB" }),
     el("p", { text: "Sunumlar, oyunlar ve özgün 6. sınıf çalışma kâğıtları çevrimdışı · Dış kaynaklar için internet gerekli" }),
+    el("div", { class: "hero-actions", style: "margin-top: 16px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;" }, [
+      el("button", {
+        class: "btn ghost sm",
+        id: "btn-check-updates-home",
+        text: "⬆️ Güncellemeleri Denetle",
+        onclick: () => checkForUpdatesUI(),
+      }),
+      el("button", {
+        class: "btn ghost sm",
+        id: "btn-refresh-home",
+        text: "🔄 Kaynakları Yenile",
+        onclick: () => document.getElementById("btn-refresh")?.click(),
+      }),
+    ]),
   ]);
 
   const cards = cat.grades.map((g, i) => {
@@ -308,6 +322,139 @@ if (btnRefresh) {
       btnRefresh.disabled = false;
     }
   };
+}
+
+export async function checkForUpdatesUI() {
+  const btnUpdate = document.getElementById("btn-update");
+  if (btnUpdate) {
+    btnUpdate.classList.add("loading");
+    btnUpdate.disabled = true;
+  }
+  toast("Güncellemeler denetleniyor...");
+
+  try {
+    const res = await fetch("/api/update/check");
+    const data = await res.json();
+    if (!data.ok) {
+      toast("Güncelleme denetlenemedi: " + (data.error || "Sunucu hatası"), true);
+      return;
+    }
+
+    if (!data.updateAvailable) {
+      toast(`✅ Sürümünüz güncel (${data.currentVersion || "v1.7.0"}).`);
+      return;
+    }
+
+    // Modal dialog
+    const backdrop = el("div", { class: "update-modal-backdrop" });
+    const modal = el("div", { class: "update-modal" });
+
+    const header = el("div", { class: "update-header" }, [
+      el("span", { class: "emoji", text: "🎉" }),
+      el("h2", { text: "Yeni Sürüm Mevcut!" }),
+    ]);
+
+    const bodyChildren = [
+      el("p", {
+        html: `<strong>Mevcut Sürüm:</strong> ${data.currentVersion} &nbsp;➜&nbsp; <strong>Yeni Sürüm:</strong> <span class="badge on">${data.latestVersion}</span>`
+      }),
+    ];
+    if (data.sizeMb) {
+      bodyChildren.push(el("p", { text: `İndirme boyutu: ~${data.sizeMb} MB`, style: "color:var(--ink-dim);font-size:13px;" }));
+    }
+    if (data.releaseNotes) {
+      bodyChildren.push(
+        el("div", { class: "update-notes" }, [
+          el("pre", { text: data.releaseNotes })
+        ])
+      );
+    }
+    bodyChildren.push(
+      el("p", { class: "migration-note", text: "ℹ️ Düzenlediğiniz slaytlar ve yüklediğiniz fotoğraflar otomatik olarak korunacaktır." })
+    );
+
+    const body = el("div", { class: "update-body" }, bodyChildren);
+
+    const btnDoUpdate = el("button", {
+      class: "btn primary",
+      text: "📥 Şimdi Güncelle",
+      onclick: async () => {
+        btnDoUpdate.disabled = true;
+        btnCancel.style.display = "none";
+        body.replaceChildren(
+          el("div", { style: "text-align:center;padding:24px 0;" }, [
+            el("div", { class: "update-spinner" }),
+            el("h3", { text: "Güncelleme İndiriliyor ve Kuruluyor...", style: "margin:0 0 8px;font-size:18px;" }),
+            el("p", { text: "İçerikler taşınıyor ve dosyalar güncelleniyor. Lütfen bekleyin...", style: "color:var(--ink-dim);font-size:14px;margin:0;" }),
+          ])
+        );
+
+        try {
+          const upRes = await fetch("/api/update/apply", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ downloadUrl: data.downloadUrl }),
+          });
+          const upData = await upRes.json();
+          if (upData.ok) {
+            body.replaceChildren(
+              el("div", { style: "text-align:center;padding:16px 0;" }, [
+                el("div", { text: "✅", style: "font-size:42px;margin-bottom:8px;" }),
+                el("h3", { text: "Güncelleme Başarıyla Tamamlandı!", style: "margin:0 0 8px;color:#4ade80;" }),
+                el("p", { text: `${upData.newVersion || data.latestVersion} sürümü yüklendi. Sayfa yenileniyor...` }),
+              ])
+            );
+            setTimeout(() => {
+              window.location.reload();
+            }, 2600);
+          } else {
+            body.replaceChildren(
+              el("div", { style: "text-align:center;padding:16px 0;" }, [
+                el("div", { text: "❌", style: "font-size:42px;margin-bottom:8px;" }),
+                el("h3", { text: "Güncelleme Başarısız", style: "margin:0 0 8px;color:#f87171;" }),
+                el("p", { text: upData.error || "Hata oluştu." }),
+                el("button", { class: "btn sm", text: "Kapat", onclick: () => backdrop.remove() }),
+              ])
+            );
+          }
+        } catch (err) {
+          body.replaceChildren(
+            el("div", { style: "text-align:center;padding:16px 0;" }, [
+              el("div", { text: "❌", style: "font-size:42px;margin-bottom:8px;" }),
+              el("h3", { text: "Bağlantı Hatası", style: "margin:0 0 8px;color:#f87171;" }),
+              el("p", { text: err.message }),
+              el("button", { class: "btn sm", text: "Kapat", onclick: () => backdrop.remove() }),
+            ])
+          );
+        }
+      }
+    });
+
+    const btnCancel = el("button", {
+      class: "btn ghost",
+      text: "Daha Sonra",
+      onclick: () => backdrop.remove(),
+    });
+
+    const actions = el("div", { class: "update-actions" }, [btnDoUpdate, btnCancel]);
+
+    mount(modal, header, body, actions);
+    mount(backdrop, modal);
+    document.body.appendChild(backdrop);
+
+  } catch (err) {
+    toast("Güncelleme denetleme hatası: " + err.message, true);
+  } finally {
+    if (btnUpdate) {
+      btnUpdate.classList.remove("loading");
+      btnUpdate.disabled = false;
+    }
+  }
+}
+
+const btnUpdate = document.getElementById("btn-update");
+if (btnUpdate) {
+  btnUpdate.onclick = checkForUpdatesUI;
 }
 
 document.addEventListener("keydown", (e) => {

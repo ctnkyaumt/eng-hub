@@ -86,6 +86,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             return self.api_open(parsed)
         if parsed.path == "/api/reveal":
             return self.api_open(parsed, reveal=True)
+        if parsed.path == "/api/update/check":
+            return self.api_update_check()
         resolved = safe_join(parsed.path)
         if resolved and os.path.isfile(resolved):
             return super().do_GET()
@@ -132,6 +134,8 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             return self.api_upload(parsed, body)
         if parsed.path == "/api/refresh":
             return self.api_refresh()
+        if parsed.path == "/api/update/apply":
+            return self.api_update_apply(body)
         return self.send_json({"ok": False, "error": "unknown_endpoint"}, 404)
 
     def api_save(self, body):
@@ -184,6 +188,38 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             return self.send_json(res)
         except Exception as exc:
             return self.send_json({"ok": False, "error": str(exc)}, 500)
+
+    def api_update_check(self):
+        """Check for updates on GitHub Releases."""
+        try:
+            here = os.path.dirname(os.path.abspath(__file__))
+            if here not in sys.path:
+                sys.path.insert(0, here)
+            import updater
+            res = updater.check_for_updates()
+            return self.send_json(res)
+        except Exception as exc:
+            return self.send_json({"ok": False, "error": str(exc)}, 500)
+
+    def api_update_apply(self, body):
+        """Download and apply update from GitHub Releases."""
+        try:
+            here = os.path.dirname(os.path.abspath(__file__))
+            if here not in sys.path:
+                sys.path.insert(0, here)
+            import updater
+            url = None
+            if body:
+                try:
+                    payload = json.loads(body.decode("utf-8"))
+                    url = payload.get("downloadUrl")
+                except Exception:
+                    pass
+            res = updater.apply_update(download_url=url)
+            return self.send_json(res)
+        except Exception as exc:
+            return self.send_json({"ok": False, "error": str(exc)}, 500)
+
 
 
 
